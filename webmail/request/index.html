@@ -1,0 +1,143 @@
+<?php
+
+chdir('../server/');
+
+$sTime = time();
+$sMicroTime = microtime();
+
+require_once('inc/require.php');
+require_once('inc/include.php');
+require_once('inc/exception.php');
+require_once('inc/defines.php');
+
+if(defined('SECURE_COOKIE') && SECURE_COOKIE){
+   header('Strict-Transport-Security: max-age=31536000; includeSubDomains; preload');
+}    
+
+$sid = $_REQUEST['sid'];
+$method = $_REQUEST['method'];
+$account = $_REQUEST['user'];
+$folder = $_REQUEST['folder'];
+if(!$folder || $folder=='*'){
+	$folder = '';
+}
+
+if($sid){
+	try{
+		$user = User::load($sid);
+		$auth = true;
+	}catch(Exc $e){
+		$auth = false;
+	}
+}
+if(!$auth){
+	require_once(SHAREDLIB_PATH.'system.php');
+	slSystem::import('tools/httpauth');
+	slToolsHTTPAuth::login();
+
+	try{
+		$sid = User::login($_SERVER['PHP_AUTH_USER'],$_SERVER['PHP_AUTH_PW'],$SERVER_NAME);
+		$user = &$_SESSION['user'];
+	}catch(Exception $e){
+		header('Status: 401 Access Denied');
+		header('Authorization: Basic');
+		header('WWW-Authenticate: Basic realm="Tools"');
+		die();
+	}
+}
+
+$oPrimaryAccount = $user->getAccount($_SESSION['EMAIL']);
+$subscriptionAccount[] = $account;
+
+$gwPresence = $oPrimaryAccount->gwAccount && $oPrimaryAccount->gwAccount->bLogged;
+$imapPresence = $oPrimaryAccount->protocol=='IMAP';
+
+$api = createobject('api');
+$shared_prefix = $api->GetProperty('C_GW_SharedAccountPrefix');
+$groupWareSubscribed = false;
+$imapSubscribed = false;
+switch($method){
+	case 'subscribe':
+			if($folder){
+				if($gwPresence){
+					try{
+						$oPrimaryAccount->gwAccount->subscribeFolder($shared_prefix.$account.'/'.$folder);
+						$groupWareSubscribed = true;
+					}catch(Exc $e){
+						
+					}
+				}
+				if($imapPresence){
+					try{
+						$oPrimaryAccount->subscribeFolder($shared_prefix.$account.'/'.$folder);
+						$imapSubscribed = true;
+					}catch(Exc $e){
+					}		
+				}
+			}else{
+				if($gwPresence){
+					try{
+						$oPrimaryAccount->gwAccount->subscribe($subscriptionAccount);
+						$groupWareSubscribed = true;
+					}catch(Exc $e){
+						
+					}
+				}
+				if($imapPresence){
+					try{
+						$oPrimaryAccount->subscribe($subscriptionAccount);
+						$imapSubscribed = true;
+					}catch(Exc $e){
+					}
+				}
+			}
+			if(!$groupWareSubscribed && !$imapSubscribed){
+				echo "Subscription failed";
+			}else{
+				echo "Subscription completed";
+			}
+	break;
+	case 'unsubscribe':
+			if($folder){
+				if($gwPresence){
+					try{
+						$oPrimaryAccount->gwAccount->unsubscribeFolder($shared_prefix.$account.'/'.$folder);
+						$groupWareSubscribed = true;
+					}catch(Exc $e){
+						
+					}
+				}
+				if($imapPresence){
+					try{
+						$oPrimaryAccount->unsubscribeFolder($shared_prefix.$account.'/'.$folder);
+						$imapSubscribed = true;
+					}catch(Exc $e){
+						
+					}	
+				}
+			}else{
+				if($gwPresence){
+					try{
+						$oPrimaryAccount->gwAccount->unsubscribe($subscriptionAccount);
+						$groupWareSubscribed = true;
+					}catch(Exc $e){
+					
+					}
+				}
+				if($imapPresence){
+					try{
+						$oPrimaryAccount->unsubscribe($subscriptionAccount);
+						$imapSubscribed = true;
+					}catch(Exc $e){
+						
+					}
+				}
+			}
+			if(!$groupWareSubscribed && !$imapSubscribed){
+				echo "Unsubscription failed";
+			}else{
+				echo "Unsubscription completed";
+			}
+	break;
+}
+?>

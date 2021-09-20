@@ -1,0 +1,1 @@
+<streamhost>{dynamic hosts}<item><jid>{*::jid}</jid><host>{*::host}</host><port>{*::port}</port></item>{/dynamic}</streamhost>

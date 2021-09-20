@@ -1,0 +1,128 @@
+.obj_upload_edit.hidden_upload {
+	z-index: 0;
+    left: -10000px;
+    top: -10000px;
+    position: absolute;
+}
+
+.obj_upload_edit{
+	position: relative;
+}
+
+.obj_upload_edit .col{
+	padding-top: 2px;
+}
+
+.obj_upload_edit .col1{
+	padding: 0 5px;
+}
+
+.obj_upload_edit .col0>*{
+	margin-left: 5px;
+}
+.obj_upload_edit .col2>*,
+.obj_upload_edit .col3>*{
+	margin-right: 5px;
+}
+
+.obj_upload_edit td.col1>div{
+	position: relative;
+	overflow: hidden;
+}
+
+/* big */
+.obj_upload_edit.big .col{
+	padding: 0;
+
+}
+.obj_upload_edit.big .col>*{
+	margin: 0;
+}
+
+	.obj_upload_edit.big form.obj_button>input.obj_button,
+	.obj_upload_edit.big form.obj_attach_old input.file{
+		height: 38px;
+	}
+	.obj_upload_edit.big form.obj_button.ico>input.obj_button{
+		text-indent: 30px;
+		padding-right: 15px;
+	}
+	.obj_upload_edit.big form.obj_button.ico:after,
+	.obj_upload_edit.big form.obj_button.ico:before{
+		top: 11px;
+		left: 8px;
+	}
+
+	.obj_upload_edit.big form.obj_button.ico.blank:after{
+		height: 24px;
+		left: 6px;
+		top: 8px;
+		width: 24px;
+	}
+
+	.obj_upload_edit.big form.obj_button.ico.img input{
+		width: 40px;
+		text-indent: 34px;
+	}
+
+/* noborder */
+.obj_upload_edit.noborder form.obj_button:hover{
+	background-color: #D1D1D1;
+}
+
+.obj_upload_edit.noborder form.obj_button,
+.obj_upload_edit.noborder form.obj_attach_old:hover{
+/*	border: none;*/
+	border-radius: 0;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.obj_upload_edit.noborder form.obj_attach_multiple,
+.obj_upload_edit.noborder form.obj_attach_swf,
+.obj_upload_edit.noborder form.obj_attach_old{
+	border-radius: 0!important;
+	background-color: #D1D1D1;
+}
+
+.obj_upload_edit.noborder form.obj_attach_multiple:after,
+.obj_upload_edit.noborder form.obj_attach_swf:after,
+.obj_upload_edit.noborder form.obj_attach_old:after{
+	font-family: 'ico24';
+	font-size: 24px;
+	content: '\e036'!important;
+}
+
+.obj_upload_edit.noborder form.obj_attach_multiple:hover,
+.obj_upload_edit.noborder form.obj_attach_swf:hover,
+.obj_upload_edit.noborder form.obj_attach_old:hover{
+	background-color: #BABABA!important; /*006DA3*/
+}
+
+/* list */
+	.obj_upload_edit .obj_upload_list{
+		height: 30px;
+	}
+	.obj_upload_edit .obj_upload_list .list{
+		line-height: 26px;
+		top: 2px;
+		left: 0;
+		right: 0;
+	}
+
+	.obj_upload_edit.big .obj_upload_list{
+		height: 39px;
+	}
+	.obj_upload_edit.big .obj_upload_list .list{
+		left: 4px;
+		right: 4px;
+		top: 4px;
+		line-height: 28px;
+	}
+
+/* Add Item button */
+.obj_upload_edit form.obj_button.gw:after{
+	/*background-position: -609px -1123px;*/
+	content: '\e05';
+	top: 8px!important;
+}

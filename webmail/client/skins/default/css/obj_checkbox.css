@@ -1,0 +1,126 @@
+form.obj_checkbox {
+	position: relative;
+	display: block!important;
+
+	height: 28px;
+	line-height: 28px;
+	min-width: 28px;
+
+	white-space: nowrap;
+	text-indent: 28px;
+}
+
+form.obj_checkbox.right,
+.rtl form.obj_checkbox{
+	direction: rtl;
+}
+form.obj_checkbox.right{
+	text-align: left;
+}
+.rtl form.obj_checkbox.right{
+	direction: ltr;
+}
+
+form.obj_checkbox>span{
+	position: absolute;
+	display: block;
+	z-index: 10;
+	top: 2px;
+	left: 2px;
+	width: 28px;
+	height: 24px;
+	cursor: pointer;
+	direction: ltr;
+}
+
+form.obj_checkbox.right>span,
+.rtl form.obj_checkbox>span{
+	left: auto;
+	right: 2px;
+}
+.rtl form.obj_checkbox.right>span{
+	left: 2px;
+	right: auto;
+}
+
+form.obj_checkbox.nopadding>span{
+	left: -5px;
+}
+form.obj_checkbox.nopadding{
+	text-indent: 21px;
+}
+
+form.obj_checkbox.disabled>span{
+	filter: alpha(opacity='50');
+	-moz-opacity: 0.5;
+ 	opacity: 0.5;
+ 	cursor: default;
+}
+
+form.obj_checkbox:not(.switch)>span{
+	background: url('../images/checkbox.gif') no-repeat 6px 6px transparent;
+	width: 24px;
+}
+form.obj_checkbox:not(.switch).focus>span{
+	background-position: 6px -17px;
+}
+form.obj_checkbox:not(.switch).checked>span{
+	background-position: 6px -40px;
+}
+form.obj_checkbox:not(.switch).focus.checked>span{
+	background-position: 6px -63px;
+}
+
+form.obj_checkbox input{
+	position: absolute;
+	visibility: hidden;
+}
+
+/* switch mode */
+form.obj_checkbox.switch{
+	text-indent: 38px;
+}
+	form.obj_checkbox.switch>span:before{
+		content: '';
+		display: block;
+		height: 14px;
+		width: 28px;
+		border-radius: 8px;
+		position: absolute;
+		top: 4px;
+
+		border: 1px solid {bg_ok_button '#0088CC'};
+		background-color: #FFF;
+
+		transition: background-color 150ms;
+	}
+	form.obj_checkbox.switch>span:after{
+		content: '';
+		display: block;
+		width: 12px;
+		height: 12px;
+		top: 6px;
+		left: 2px;
+
+		border-radius: 6px;
+		position: absolute;
+
+		transition: left 150ms, background-color 150ms;
+		background-color: {bg_ok_button '#0088CC'};
+}
+	form.obj_checkbox.checked.switch>span:after{
+		left: 16px;
+		background-color: #FFF;
+	}
+	.rtl form.obj_checkbox.switch>span:after{
+		left: auto;
+		right: 2px;
+	}
+	.rtl form.obj_checkbox.checked.switch>span:after{
+		left: auto;
+		right: 16px;
+	}
+
+	form.obj_checkbox.checked.switch>span:before{
+		background-color: {bg_ok_button '#0088CC'};
+	}

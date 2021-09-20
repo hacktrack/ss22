@@ -1,0 +1,153 @@
+// Block
+.login {
+	background-color: $lighter-grey;
+	overflow: hidden;
+	height: 100vh;
+	@include enable-scroll(vertical);
+
+	@include animation('reveal', $normal);
+	will-change: opacity;
+}
+
+
+// Elements
+.login-logo {
+	// width: auto;
+	max-width: rem(100);
+	max-height: rem(60);
+
+	@media #{$medium-up} {
+		max-width: rem(300);
+		max-height: rem(80);
+	}
+}
+
+.login-wrap {
+	@include flexbox;
+	@include flex-direction(column);
+	height: 90vh;
+	background: center top no-repeat;
+	background-size: cover;
+	min-height: 400px;
+	@include backgrounds;
+
+	@media #{$medium-up} {
+		height: 75vh;
+		min-height: 480px;
+	}
+}
+
+.login-head {
+	padding: p(1);
+
+	@media #{$medium-up} {
+		padding: p(3);
+		padding-bottom: 0;
+	}
+}
+
+.login-body {
+	margin: auto;
+	width: 100%;
+}
+
+.login-footer {
+	@include flexbox;
+	@include flex-direction(column);
+	@include justify-content(center);
+	height: 10vh;
+
+	@media #{$medium-up} {
+		height: 25vh;
+		min-height: 180px;
+	}
+}
+
+.login-heading {
+	padding: 0 p(2) p(3) p(2);
+	margin-top: g(-3);
+}
+
+.login-heading-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 1;
+	padding-bottom: g(0.5);
+}
+
+.login-remember,
+.checkbox-label {
+	line-height: 20px; // Same as checkbox height
+}
+
+.login-form {
+	padding: 0 p(2);
+	margin: auto;
+
+	@media #{$medium-up} {
+		padding: 0;
+		max-width: rem(350);
+	}
+}
+
+.login-input + .login-input {
+	margin-top: g(1);
+}
+
+.login-input.button:not(:only-of-type) {
+	margin: g(2) auto;
+}
+
+.login hr {
+	width: rem(160);
+	margin: g(2) auto;
+}
+
+.login-share-icon {
+	margin: 0 g(0.25);
+	opacity: 0.5;
+	transition: opacity $normal ease-in-out;
+
+	&:hover {
+		text-decoration: none;
+		opacity: 1;
+		transition: none;
+	}
+
+	[class^="icon-"],
+	[class*=" icon-"] {
+		color: $dark;
+		font-size: rem(30);
+	}
+}
+
+.login-divtcha {
+	text-align: center;
+}
+
+.login-authsent {
+	text-align: center;
+	font-weight: 600;
+	font-size: s(4/3);
+	@include theme {
+		color: $theme-primary;
+	}
+}
+
+.login {
+
+	.label,
+	.login-heading-text,
+	.button[iw-type="select"] {
+		color: inherit;
+	}
+}
+
+.login-logo--icewarp {
+
+	.login-logo__w {
+		@include theme {
+			fill: $theme-primary;
+		}
+	}
+}

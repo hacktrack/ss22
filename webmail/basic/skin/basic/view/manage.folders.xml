@@ -1,0 +1,38 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>folder</helper>
+		
+		<form id="mf" method="post" template="form.manage.folders" >
+			<config>
+				<stylesheet>
+					<src>manage.folders</src>
+				</stylesheet>
+			</config>
+		
+			<!-- tree -->
+			<panel anchor="mf" css="manage_main_tree" id="manage_manager_tree">
+				<tree id="main" helper="folder">
+					<config>
+						<type>full</type>
+						<target>content</target>
+						<targetData>item.fdr</targetData>
+						<data>folder.main</data>
+						<stylesheet>
+							<src>grid</src>
+							<src>error</src>
+						</stylesheet>
+						<javascript>
+							<src>jquery</src>
+							<src>general</src>
+							<src>tree</src>
+							<src>lib</src>
+						</javascript>
+					</config>
+				</tree>
+			</panel>
+			<!-- /tree -->
+			
+		</form>
+	</panel>
+</form>

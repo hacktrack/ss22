@@ -1,0 +1,49 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>folder</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<form id="main_menu">
+			<menu template="menu/main" />
+			<config>
+				<controller>menu</controller>
+				<window>main</window>
+			</config>
+		</form>
+		<grid id="items" helper="item" template="grid/mail.drafts">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<data>item.fdr</data>
+				<default>
+					<orderby>date DESC</orderby>
+				</default>
+				<fields>
+					<field label="grid_mail|subject">subject</field>
+					<field label="grid_mail|to">header_to</field>
+					<field label="grid_mail|date">date</field>
+					<field label="grid_mail|size">size</field>
+					<field sort="false">flags</field>
+				</fields>
+				<buttons>
+					<button label="popup_items|delete" name="delete" css="button" confirm="confirmation|delete_mail" />
+				</buttons>
+				<link>draft</link>
+				<select>
+					<type>multiple</type>
+					<variable>items</variable>
+				</select>
+			</config>
+		</grid>
+		<folders helper="folder"/>
+		<config>
+			<stylesheet>
+				<src>pda</src>
+			</stylesheet>
+			<javascript>
+				<src>lib</src>
+			</javascript>
+		</config>
+	</panel>
+</form>

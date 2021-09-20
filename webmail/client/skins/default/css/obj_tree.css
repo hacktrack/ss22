@@ -1,0 +1,405 @@
+div.obj_tree {
+	z-index: 0;
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+
+	overflow: hidden;
+	outline: 0;
+}
+div.obj_tree.border{
+	border: 1px solid #ABABAB;
+	border-radius: 3px;
+	background-color: #F2F2F2;
+}
+
+div.obj_tree.disabled{
+	opacity: 0.6;
+}
+div.obj_tree.disabled:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: transparent;
+}
+
+div.obj_tree>div.container{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.2s;
+}
+div.obj_tree>div.container.recent{
+	transform: translateX(-100%);
+}
+div.obj_tree>div.container.unsubscribed{
+	transform: translateX(-200%);
+}
+div.obj_tree>div>div.body{
+	position: relative;
+	overflow: hidden;
+
+	width: 100%;
+	height: 100%;
+
+	user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+
+	cursor: default;
+}
+
+div.obj_tree>div.search{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-left: -100%;
+	padding: 5px;
+}
+div.obj_tree.search{
+	padding-bottom: 30px;
+}
+div.obj_tree.search>div.search{
+	margin-left: 0;
+}
+
+/*
+ul	li	div	span
+			i
+			b	u
+		ul
+*/
+
+div.obj_tree ul,
+div.obj_tree li,
+div.obj_tree div{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	white-space: nowrap;
+	display: block;
+}
+.rtl div.obj_tree li {
+	text-align: right;
+}
+
+div.obj_tree ul.fTree {
+	padding-bottom: 10px;
+}
+
+/* .obj_tree .fTree ul li:not(.active) > .ico {
+	cursor: pointer;
+} */
+
+div.obj_tree li>div{
+	/* overflow: hidden; */
+	position: relative;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 20px;
+	margin-bottom: 1px;
+}
+
+div.obj_tree li.skip>div{
+	display: none;
+}
+body.compact div.obj_tree li>div {
+	height: 25px;
+	line-height: 25px;
+}
+body.compact div.obj_tree li>div {
+	margin-bottom: 0;
+}
+.rtl div.obj_tree li>div {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+div.obj_tree li>div i,
+div.obj_tree li>div.ico i,
+div.obj_tree li>div b,
+div.obj_tree li>div span.inactive{
+	display: inline-block;
+	padding: 0px;
+	margin: 0;
+	vertical-align: top;
+}
+.rtl div.obj_tree li>div i {
+	float: right;
+}
+
+div.obj_tree li>div span.inactive{
+	color: #6b6b6b;
+}
+
+div.obj_tree ul>li{
+	padding: 0 0 0 19px;
+}
+div.obj_tree li.skip>ul>li{
+	padding: 0;
+}
+
+.rtl div.obj_tree ul>li {
+	padding: 0 19px 0 0;
+	direction: rtl;
+}
+
+div.obj_tree>div>div.body>ul>li{
+	padding: 0 0 0 5px;
+}
+
+div.obj_tree ul b,
+div.obj_tree span.inactive{
+	font-weight: normal;
+	padding: 2px 3px;
+}
+body.light div.obj_tree ul b,
+body.light div.obj_tree span.inactive{
+	font-weight: 200;
+}
+
+
+div.obj_tree ul b.dragover{
+	background-color: #e6f5fc; /*#CBCED3*/
+	border-radius: 2px;
+}
+
+
+div.obj_tree li>ul{
+	opacity: 0;
+	height: 0;
+	transition: height 0.3s;
+	overflow: hidden;
+}
+
+div.obj_tree.scroll li.minus>ul{
+	overflow: initial;
+}
+
+div.obj_tree li.none>ul,
+div.obj_tree li.minus>ul,
+div.obj_tree li.skip>ul{
+	opacity: 1;
+	height: 100%;
+}
+
+
+/* [+] Icon */
+div.obj_tree li>div>span.plussign{
+	display: none;
+	cursor: pointer;
+}
+
+div.obj_tree li.plus>div>span.plussign,
+div.obj_tree li.minus>div>span.plussign{
+	display: block;
+	width: 16px;
+	height: 32px;
+	position: absolute;
+	z-index:5;
+
+	top: 0;
+	left: 0;
+}
+.rtl div.obj_tree li.plus>div>span.plussign,
+.rtl div.obj_tree li.minus>div>span.plussign,
+.rtl div.obj_tree {
+	right: 0;
+}
+
+div.obj_tree li>div>span.plussign:after{
+	font-family: 'ico16' !important;
+	content: "\e043";
+
+	position: absolute;
+	left: 0px;
+	color: #9a9a9a;
+	font-size: 14px;
+	transition: transform 0.3s;
+}
+
+div.obj_tree li.menu.plus ul {
+	display: none;
+}
+
+div.obj_tree li.menu.plus li.menu.minus ul {
+	display: none;
+}
+
+div.obj_tree li.plus>div>span.plussign:after{
+	transform: rotate(-90deg);
+}
+.rtl div.obj_tree li.plus>div>span.plussign:after{
+	transform: rotate(90deg);
+}
+
+/*
+div.obj_tree li.active.minus>div>span.plussign:after{
+	border-top-color: #F2F2F2;
+}
+div.obj_tree li.active.plus>div>span.plussign:after{
+	border-left-color: #F2F2F2;
+}
+*/
+
+div.obj_tree li.active:before{
+	content: '';
+	z-index: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 32px;
+
+	background-color: #E8E8E8;
+}
+div.obj_tree li.active>div>b{
+	background-color: #E8E8E8;
+}
+
+div.obj_tree li.plus li.active:before{
+	background-color: transparent;
+}
+
+body.compact div.obj_tree li.active:before{
+	height: 25px;
+}
+
+/* [Folder] Icon */
+
+div.obj_tree li>div>i{
+	display: none;
+
+	width: 22px;
+	/* height: 32px; */
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+
+	font-style: normal;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: 'ico16';
+	color: #666;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+div.obj_tree li>div>i:after{
+	content: '\00a0';
+}
+
+div.obj_tree li>div u{
+
+	border-radius: 13px;
+
+	font-size: 10px;
+	margin-left: 8px;
+	text-decoration: none;
+	padding: 0 4px;
+
+	font-family: "Helvetica Neue",Tahoma,Helvetica,sans-serif;
+
+	/* opera doesnt handle border radius on inline elements */
+	display: inline-block;
+	line-height: 12px;
+	height: 13px;
+
+	background-color: #999999;
+	color:#fff;
+
+	position: relative;
+	top: -1px;
+}
+.rtl div.obj_tree li>div u {
+	margin: 0 6px 0 0;
+}
+
+div.obj_tree li>div.ico_inbox u{
+	background-color: {bg_main '#0088CC'};
+	/*box-shadow:0 0 1px #c1e6f9;*/
+}
+
+
+/* rename */
+div.obj_tree li div.edit b,
+div.obj_tree li div.edit u,
+div.obj_tree li div.edit i,
+div.obj_tree li div.edit span{
+	display: none!important;
+}
+div.obj_tree li div.edit form.obj_input{
+	top: 2px;
+	width: 75%;
+}
+div.obj_tree li div.edit form.obj_input input{
+	width: 100%;
+}
+
+.compact div.obj_tree li div.edit form.obj_input input{
+	height: 19px;
+	line-height: 19px;
+}
+
+/* div.obj_tree li.unread>div b{
+	font-weight: 500;
+} */
+div.obj_tree li.minus > * > .unread-group{
+	display:none;
+}
+div.obj_tree li .unread-group{
+	display: inline-block;
+	margin-right: 31px;
+	border-radius: 5px;
+	background-color: grey;
+	height: 15px;
+	border-radius: 13px;
+	font-size: 10px;
+	margin-left: 8px;
+	text-decoration: none;
+	padding: 0 4px;
+	font-family: "Helvetica Neue",Tahoma,Helvetica,sans-serif;
+	display: inline-block;
+	line-height: 12px;
+	height: 13px;
+	background-color: #999999;
+	color: #fff;
+	position: relative;
+	top: -1px;
+}
+
+.frm_select_folder div.obj_tree li .ico.ico_home {
+	height: inherit;
+}
+
+/*
+div.obj_tree li.plus>div>i,
+div.obj_tree li.plus>div.ico>i,
+div.obj_tree li.plus>div>b,
+div.obj_tree li.plus>div> span.inactive,
+div.obj_tree li.minus>div>i,
+div.obj_tree li.minus>div.ico>i,
+div.obj_tree li.minus>div>b,
+div.obj_tree li.minus>div>span.inactive {
+	font-weight: 500;
+	color: #646669;
+}
+*/
+
+/*
+div.obj_tree li>div.ico_shared>b,
+div.obj_tree li>div.ico_shared>span,
+div.obj_tree li>div.ico_spamqueue>span,
+div.obj_tree li>div.ico_virtual>b,
+div.obj_tree li>div.ico_inbox>b,
+*/
+
+div.obj_tree li>div.ico_shared>b,
+div.obj_tree li>div.ico_va>span{
+	font-weight: 500!important;
+}

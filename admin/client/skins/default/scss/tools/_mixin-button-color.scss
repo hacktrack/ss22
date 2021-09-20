@@ -1,0 +1,83 @@
+// Generate text button colors
+@mixin button-text-colors {
+
+	// Default for a .text.button
+	color: $white;
+
+	@each $selector, $color in $color-map {
+
+		// Render all allowed colors with selector from color-map
+		&.#{$selector} {
+
+			// Keep initial styles for disabled button on hover and active
+			@if ($selector == 'disabled' or $selector == 'is-disabled') {
+
+				&, &:hover, &:active {
+					border-color: $color !important;
+					background-color: $color !important;
+					border-bottom-color: darken($color, 11%) !important;
+				}
+			}
+
+			// Color theme buttons
+			@else {
+
+				// Use theme colors for all buttons, mixin decides which colors to render 'themed'
+				@include theme($selector, $color) {
+
+					& {
+						border-color: $theme-color;
+						background-color: $theme-color;
+						border-bottom-color: darken($theme-color, 11%);
+					}
+
+					&:hover {
+						border-color: darken($theme-color, 5%);
+						background-color: darken($theme-color, 5%);
+						border-bottom-color: darken($theme-color, 11%);
+					}
+
+					&:active {
+						border-color: darken($theme-color, 10%);
+						background-color: darken($theme-color, 10%);
+						border-bottom-color: darken($theme-color, 16%);
+					}
+				}
+			}
+		}
+	}
+}
+
+// Generate icon button colors
+@mixin button-icon-colors {
+
+	@include theme {
+		color: $theme-primary;
+	}
+
+	@each $selector, $color in $color-map {
+
+		&.#{$selector} {
+
+			@include theme($selector, $color) {
+				color: $theme-color;
+			}
+
+			@if ($selector == 'disabled' or $selector == 'is-disabled') {
+
+				&.inner-button {
+
+					&, &:hover, &:focus {
+						background-color: $lighter-grey !important;
+					}
+				}
+
+				&:hover, &:focus {
+					color: $blue-grey !important;
+					background-color: $transparent !important;
+				}
+			}
+		}
+	}
+}
+

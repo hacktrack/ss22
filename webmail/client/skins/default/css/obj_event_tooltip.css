@@ -1,0 +1,43 @@
+/* look */
+
+.obj_info_box ul li {
+	padding-right: 16px;
+	position: relative;
+}
+
+.rtl .obj_info_box ul li {
+	padding-left: 16px;
+	padding-right: 0;
+}
+
+.obj_info_box ul li.reminder:after,
+.obj_info_box ul li.recurrence:after{
+	position: absolute;
+	right: 0;
+	top: 2px;
+
+	font-size: 16px;
+	font-family: 'ico16';
+	line-height: 16px;
+}
+.rtl .obj_info_box ul li.reminder:after,
+.rtl .obj_info_box ul li.recurrence:after {
+	left: 0;
+	right: auto;
+}
+.obj_info_box ul li.reminder:after {
+	content: '\e02f';
+}
+.obj_info_box ul li.recurrence:after {
+	content: '\e02d';
+}
+
+.obj_info_box ul li ins {
+	display: inline-block;
+	height: 9px;
+	width: 9px;
+	margin-right: 3px;
+	border: 1px solid #6D6D6D;
+	border-color: rgba(0,0,0,0.6);
+	border-radius: 9px;
+}

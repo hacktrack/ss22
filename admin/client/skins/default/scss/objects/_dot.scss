@@ -1,0 +1,24 @@
+// Dot
+// Indicator of a service status (online, warning, offline) on dashboard.
+
+// Block
+.dot {
+	display: inline-block;
+	width: px(s(1));
+	height: px(s(1));
+	border-radius: 50%;
+	background-color: currentColor;
+	vertical-align: middle;
+
+	// States
+	// Controls color of dots
+	@each $selector, $color in $dot-color-map {
+
+		&.#{$selector} {
+
+			@include theme($selector, $color) {
+				background-color: $theme-color;
+			}
+		}
+	}
+}

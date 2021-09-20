@@ -1,0 +1,93 @@
+.card {
+	padding: g(1) g(1.5) g(0.5);
+	margin-bottom: g(2);
+
+	font-size: rem(13);
+
+	@include theme {
+		border: 1px solid $theme-primary;
+	}
+	border-radius: $radius-large;
+}
+
+.card--legend {
+	position: relative;
+}
+
+.card--legend .card__legend {
+	position: absolute;
+	top: 0;
+
+	padding: 0 g(0.75);
+
+	font-size: rem(11);
+	font-weight: 400;
+
+	@include theme {
+		color: $theme-primary;
+	}
+	background-color: $white;
+
+	transform: translateY(-50%);
+
+	[class^="icon-"],
+	[class*=" icon-"] {
+		margin-right: g(0.5);
+
+		height: s(2.5);
+		width: s(2.5);
+		line-height: s(2.5);
+		font-size: s(2.5);
+	}
+}
+
+.card__title {
+	font-size: s(1.4);
+	line-height: $normal-line-height;
+
+	margin-bottom: s(0.5);
+}
+
+.card__media {
+	overflow: hidden;
+	display: inline-block;
+
+	text-decoration: none !important;
+
+	border-radius: $radius-large;
+	color: inherit !important;
+
+	@include theme {
+		box-shadow: 0 0 s(0.5) rgba($theme-border-grey, 0.25);
+	}
+}
+
+.card__media-text {
+	padding: g(0.25) g(0.75);
+}
+
+.card__text {
+}
+
+.card__text-warning {
+	font-size: s(1);
+
+	color: $error;
+
+	[class^="icon-"],
+	[class*=" icon-"] {
+		margin-right: g(0.5);
+
+		height: s(1.5);
+		width: s(1.5);
+		line-height: s(1.5);
+		font-size: s(1.5);
+	}
+}
+
+.card__text-info {
+	margin-bottom: g(1);
+
+	color: $text-grey;
+}
+

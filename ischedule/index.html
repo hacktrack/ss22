@@ -1,0 +1,135 @@
+<?php
+  error_reporting(E_ALL ^E_WARNING ^E_NOTICE);
+  include_once 'xml.php';
+
+  define('SHAREDLIB_PATH', get_cfg_var('icewarp_sharedlib_path'));
+  include(SHAREDLIB_PATH . 'api/api.php');
+  include(SHAREDLIB_PATH . 'api/gw.php');
+
+  function handle_ischedule($request, &$response)
+  {
+
+    // Capabilities query
+    $query = $_REQUEST['query'] == 'capabilities';
+    if ($query || ($_SERVER['REQUEST_METHOD'] == "GET")) {
+
+      $api = new IceWarpAPI();
+
+      // Create response
+      $response=new xml_tree_node('query-result',array('xmlns'=>'urn:ietf:params:xml:ns:ischedule'));
+      $capability_set=&$response->new_child('capability-set',NULL);
+
+      $level1_tag=&$capability_set->new_child('supported-version-set', NULL);
+      $level2_tag=&$level1_tag->new_child_data('version', NULL, '1.0');
+
+      $level1_tag=&$capability_set->new_child('supported-scheduling-message-set', NULL);
+      $level2_tag=&$level1_tag->new_child('comp', array('name'=>'VEVENT'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'REQUEST'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'REPLY'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'CANCEL'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'ADD'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'COUNTER'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'DECLINECOUNTER'));
+
+      $level2_tag=&$level1_tag->new_child('comp', array('name'=>'VTODO'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'REQUEST'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'REPLY'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'CANCEL'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'ADD'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'COUNTER'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'DECLINECOUNTER'));
+
+      $level2_tag=&$level1_tag->new_child('comp', array('name'=>'VJOURNAL'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'REQUEST'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'REPLY'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'CANCEL'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'ADD'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'COUNTER'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'DECLINECOUNTER'));
+
+      $level2_tag=&$level1_tag->new_child('comp', array('name'=>'VFREEBUSY'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'REQUEST'));
+      $level3_tag=&$level2_tag->new_child('method', array('name'=>'REPLY'));
+
+      $level1_tag=&$capability_set->new_child('supported-calendar-data-type', NULL);
+      $level2_tag=&$level1_tag->new_child('calendar-data-type',array('content-type'=>'text/calendar','version'=>'2.0'));
+
+      $level1_tag=&$capability_set->new_child('supported-attachment-values', NULL);
+      $level2_tag=&$level1_tag->new_child('inline-attachment',NULL);
+      $level2_tag=&$level1_tag->new_child('external-attachment',NULL);
+
+      $level1_tag=&$capability_set->new_child('supported-recipient-uri-scheme-set', NULL);
+      $level2_tag=&$level1_tag->new_child_data('scheme',NULL,'mailto');
+
+      $level1_tag=&$capability_set->new_child_data('max-content-length', NULL, '10000000');
+      $level1_tag=&$capability_set->new_child_data('min-date-time', NULL, '19900101T000000Z');
+      $level1_tag=&$capability_set->new_child_data('max-date-time', NULL, '30000101T000000Z');
+      $level1_tag=&$capability_set->new_child_data('max-instances', NULL, '150');
+      $level1_tag=&$capability_set->new_child_data('max-recipients', NULL, '5000');
+
+      // Get primary domain
+      $dlist = $api->GetDomainList();
+      $darray = explode(';', $dlist);
+      $dom = trim($darray[0]);
+      if ($dom) $level1_tag=&$capability_set->new_child_data('administrator', NULL, 'mailto:postmaster@' . $dom);
+
+    } else {
+
+      // Check if iSchedule-Version and Content-Type: text/calendar
+      if ($_SERVER['HTTP_ISCHEDULE_VERSION'] && (stripos($_SERVER['HTTP_CONTENT_TYPE'], 'text/calendar')!==FALSE)) {
+
+        // Create response
+        $response=new xml_tree_node('schedule-response',array('xmlns'=>'urn:ietf:params:xml:ns:ischedule'));
+
+        $gw = new IceWarpGWAPI();
+
+        // Groupware
+        $gw->User = 'anyone';
+        $gw->Login();
+        $groupsessid = $gw->OpenGroup();
+        $data = $gw->FunctionCall('ProcessvCalendar', $groupsessid, '', $request, 'SEND_ITIP');
+        $pdata = $gw->ParseParamLine($data);
+        $gw->Logout();
+
+        // Some error occurred - rights probably
+        if (!$data) {
+          header('HTTP/1.1 403 Forbidden');
+          die();
+        }
+
+        // For each returned data record
+        for ($i=0;$i<count($pdata);$i++) {
+
+          $response_tag=&$response->new_child('response',NULL);
+
+          $level1_tag=&$response_tag->new_child_data('recipient', NULL, $pdata[$i]['ATTENDEE']);
+          $level1_tag=&$response_tag->new_child_data('request-status', NULL, $pdata[$i]['STATUS']);
+          if ($pdata[$i]['DATA']) $level1_tag=&$response_tag->new_child_data('calendar-data', NULL, $pdata[$i]['DATA']);
+        }
+
+      // Not an iSchedule request
+      } else {
+
+        header('HTTP/1.1 400 Bad Request');
+        die();
+      }
+
+    }
+  }
+
+  // Read requested data
+  $request=file_get_contents('php://input');
+   
+  // Handle requested command and create response
+  handle_ischedule($request,$xml_response);
+  $response='<?xml version="1.0" encoding="UTF-8"?>'."\r\n".$xml_response->print_node(0,false);
+
+  // Output response
+  header('Content-Type: text/xml; charset=utf-8');
+  header('Content-Length: '.strlen($response));
+  header('iSchedule-Version: 1.0');
+  echo $response;
+
+  // Debug output
+//  file_put_contents('\temp\debug.log', $response);
+?>

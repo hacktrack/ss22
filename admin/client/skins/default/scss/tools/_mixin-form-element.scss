@@ -1,0 +1,113 @@
+// Base style for select, input and textarea elements
+@mixin form-element-base {
+	border-radius: $radius - 1px; // Inside border radius must be smaller by the outer border width
+	height: 100%;
+	min-width: 0;  // Fixes Firefox flexbox overflow bug
+	margin: 0;
+	background: none;
+	border: none;
+	outline: none;
+	padding: $form-padding;
+
+	transition-property: background-color;
+	transition-duration: $normal;
+
+	@each $placeholder in $placeholder-selectors {
+
+		&#{$placeholder} {
+			color: $grey;
+			opacity: 1;
+			transition: opacity $fast;
+		}
+
+		&:focus#{$placeholder} {
+			opacity: 0.5;
+		}
+	}
+}
+
+// Base style for textarea, input and dropdown objects
+@mixin form-element($element: null) {
+	@include form-group;
+	@include border;
+	position: relative;
+	background-color: $white;
+	color: $darker;
+	border-radius: $radius;
+	display: block;
+	padding: 0;
+	width: 100%;
+	min-width: $form-min-width;
+	font-size: inherit;
+
+	transition-property: opacity, color, background-color, border-color;
+	transition-duration: $normal;
+
+	&::after {
+		transition: color $normal; // Show animation on form::after elements
+	}
+
+	&:hover::after {
+		transition: none; // Don't show animation on initial hover
+	}
+
+	&:not(.textarea) {
+		height: $object-height;
+	}
+
+	&.is-disabled {
+		background-color: $lighter-grey;
+		color: $grey;
+	}
+
+	&.has-error {
+		border-color: $error;
+		transition: none;
+	}
+
+	&.focus {
+		@include theme {
+			border-color: $theme-primary;
+		}
+		transition: none;
+	}
+
+	&.is-editable {
+
+		@media #{$large-up} {
+			transition-duration: 0s; // Don't show animation on initial hover
+
+			&:not(.focus):not(:hover):not(:active) {
+				border-color: $transparent;
+				transition-duration: $normal; // Show animation on de-hover, blur, etc.
+
+				// Hide dropdown arrow when 'editable'
+				&::after {
+					color: $transparent;
+				}
+
+				// Hide resizing icon in when 'editable'
+				textarea {
+					resize: none;
+				}
+
+				// Hide number input UI in firefox
+				input {
+					-moz-appearance: textfield;
+				}
+			}
+		}
+	}
+
+	&.is-readonly {
+		border-style: dashed;
+	}
+
+	// So each object has their own element style, to prevent something like .textarea select {}
+	@if $element == 'select' or 'input' or 'textarea' {
+
+		#{$element} {
+			@include form-element-base;
+		}
+	}
+}

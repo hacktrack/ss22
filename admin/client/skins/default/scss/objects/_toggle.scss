@@ -1,0 +1,139 @@
+// Toggle
+// An <input type="checkbox"> with a toggle (on/off) visual.
+
+// Block
+.toggle {
+	@include flexbox;
+	@include align-items(center);
+	@include user-select;
+	position: relative;
+
+	transition: opacity $normal;
+
+	// States
+	&.is-disabled {
+
+		.toggle__body {
+			opacity: 0.5;
+		}
+
+		.toggle__body,
+		.toggle__label {
+			cursor: default;
+		}
+	}
+
+	&:not(.hide) + & {
+		margin-left: g(1);
+	}
+}
+
+
+// Elements
+.toggle__checkbox {
+	@include visually-hidden;
+
+	// States
+	&:checked {
+
+		~ .toggle__body {
+
+			@include theme {
+				color: $theme-primary;
+				border-color: currentColor;
+			}
+
+			&::before {
+				opacity: 0.14;
+			}
+
+			&::after {
+				-webkit-transform: translateX($toggle-path);
+				        transform: translateX($toggle-path);
+				border-color: currentColor;
+			}
+		}
+
+		~ .toggle__label {
+
+			@include theme {
+				color: $theme-primary;
+			}
+		}
+	}
+}
+
+.toggle__body {
+	@include flex(none);
+	position: relative;
+	width: $toggle-width;
+	height: $toggle-height;
+	@include theme {
+		color: $theme-border-grey;
+	}
+	background-color: currentColor;
+	border: $toggle-border solid currentColor;
+	border-radius: $toggle-radius;
+
+	transition: color $toggle-transition;
+
+	&::before,
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+	}
+
+	&::before {
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		border-radius: $toggle-radius;
+		background-color: currentColor;
+		opacity: 0;
+
+		transition: opacity $toggle-transition;
+	}
+
+	&::after {
+		left: $toggle-margin;
+		top: $toggle-margin;
+		height: $toggle-dot-size;
+		width: $toggle-dot-size;
+		background-color: $white;
+		border: $toggle-border solid currentColor;
+		border-radius: $circle;
+
+		-webkit-transition:
+			webkit-transform $toggle-transition,
+			border-color $toggle-transition;
+		transition:
+			transform $toggle-transition,
+			border-color $toggle-transition;
+	}
+
+	// Force option modifiers
+	.toggle.user & { color: $success !important; } // User
+	.toggle.domain & { color: $error !important; } // Domain admin & user
+}
+
+.toggle__label {
+	padding-left: p(1);
+}
+
+.toggle__body,
+.toggle__label {
+	cursor: pointer;
+}
+
+
+// Modifiers
+.toggle--big-label {
+
+	.toggle__label {
+		font-size: rem(20);
+		white-space: nowrap;
+	}
+}
+

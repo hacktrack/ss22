@@ -1,0 +1,29 @@
+// Wizard
+// Layout containing multiple items with icons, text and buttons. Used in permissions and certificates.
+
+// Block
+/* (⊃｡•́‿•̀｡)⊃━☆ﾟ.*･｡ﾟ ★ . * ･ ｡ﾟ☆━੧༼ •́ ヮ •̀ ༽୨ */
+.wizard {
+	@include flexit;
+}
+
+
+// Elements
+.wizard__item {
+	@include flex(none);
+	margin-bottom: g(2);
+}
+
+.wizard__icon {
+	width: auto;
+	font-size: s(3.5);
+
+	&::before {
+		vertical-align: top;
+		line-height: s(3.5);
+	}
+}
+
+.wizard__title {
+	font-size: s(1);
+}

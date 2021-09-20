@@ -1,0 +1,106 @@
+.obj_list_conference_item{
+	position: relative;
+	border-radius: 8px;
+
+	padding: 16px 16px 16px 62px;
+	cursor: default;
+	overflow: hidden;
+
+	border: 1px solid transparent;
+	border-radius: 8px;
+	box-shadow: 0 1px 6px #e5e5e5;
+	transition: border 200ms;
+}
+.rtl .obj_list_conference_item{
+	padding: 16px 62px 16px 16px;
+}
+
+.obj_list_conference_item:hover{
+	border-color: {bg_main '#0088CC'};
+}
+
+	.obj_list_conference_item div.title{
+		font-size: 15px;
+		font-weight: 500;
+		margin: 0;
+	}
+	.obj_list_conference_item div.title>span{
+		display: none;
+		border-radius: 8px;
+		padding: 0px 5px;
+		margin: 0 8px;
+		background-color: #f5a223;
+		color: #fff;
+		line-height: 16px;
+		font-size: 13px;
+	}
+	.obj_list_conference_item div.title>span.show{
+		display: inline-block;
+		vertical-align: text-top;
+	}
+	.obj_list_conference_item div.title>span.in_progress{
+		background-color: #3dd8b4;
+	}
+
+	.obj_list_conference_item div.date{
+		color: #637282;
+	}
+	.obj_list_conference_item div.avatar{
+		position: absolute;
+		left: 16px;
+		top: 16px;
+	}
+	.rtl .obj_list_conference_item div.avatar{
+		position: absolute;
+		left: auto;
+		right: 16px;
+		top: 16px;
+	}
+	.obj_list_conference_item div.avatar span{
+		width: 34px;
+		height: 34px;
+
+		overflow: hidden;
+		border-radius: 50%;
+		display: block;
+
+		text-align: center;
+		background-origin: border-box;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.obj_list_conference_item div.control{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		opacity: 0;
+		padding: 16px 16px 0 64px;
+
+		background: #F7FBFD;
+		background: linear-gradient(90deg, rgba(255,255,255,0), #ffffff 30%);
+
+		transition: opacity 200ms;
+	}
+	.rtl .obj_list_conference_item div.control{
+		left: 0;
+		right: auto;
+		padding: 16px 64px 0 16px;
+	}
+
+	.obj_list_conference_item div.control>span{
+		display: inline-block;
+		border-radius: 15px;
+		line-height: 30px;
+		padding: 0 16px;
+		cursor: pointer;
+		font-weight: 500;
+		font-size: 14px;
+		border: 1px solid {bg_main '#8800CC'};
+		color: {txt_main '#8800CC'};
+	}
+
+	.obj_list_conference_item:hover div.control{
+		opacity: 1;
+	}

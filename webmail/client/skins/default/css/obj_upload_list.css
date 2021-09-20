@@ -1,0 +1,97 @@
+.obj_upload_list{
+	position: relative;
+	height: 39px;
+}
+
+.obj_upload_list div.list{
+	white-space: nowrap;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	right: 4px;
+	bottom: 0;
+	line-height: 29px;
+}
+	.obj_upload_list div.list>i{
+		font-style: normal;
+		color: #888;
+
+	   -moz-user-select: none;
+	   user-select: none;
+
+	   display: block;
+	   text-align: center;
+
+	   border: 1px dashed #A0A0A0;
+	   border-radius: 2px;
+	   background-color: #FFF;
+	   cursor: default;
+	}
+
+	.obj_upload_list div.list>span{
+		position: relative;
+		display: inline-block;
+		text-decoration: none;
+		padding: 1px 3px 0 25px;
+		margin-right: 5px;
+		vertical-align: middle;
+
+		border: 1px solid transparent;
+		line-height: 14px;
+		font-size: 11px;
+		height: 32px;
+
+		border-radius: 3px;
+		background-color: #ECECEC;
+		border-color: #CACACA;
+
+		cursor: pointer;
+	}
+	.obj_upload_list div.list>span:after{
+		position: absolute;
+		left: 5px;
+		top: 8px;
+
+		height: 16px;
+		width: 16px;
+
+		content: '\e21';
+		font-size: 16px;
+		font-family: 'filetypes';
+		line-height: 16px;
+	}
+	.obj_upload_list div.list>span:hover{
+		border-color: #A0A0A0;
+		background-color: #CECECE;
+	}
+
+	.obj_upload_list div.list input{
+		border: none;
+		background-color: transparent;
+		line-height: 26px;
+		height: 26px;
+	}
+
+	.obj_upload_list div.list span.remove{
+		padding-right: 25px;
+	}
+	.obj_upload_list div.list span>b{
+		position: absolute;
+		right: 0;
+		top: 7px;
+
+		width: 20px;
+		height: 16px;
+		display: block;
+		color: #888;
+	}
+	.obj_upload_list div.list span>b:hover{
+		color: #333;
+	}
+	.obj_upload_list div.list span>b:after{
+		content: "\e901";
+		font-family: 'ico16';
+		line-height: 16px;
+		font-size: 16px;
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}

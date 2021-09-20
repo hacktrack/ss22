@@ -1,0 +1,88 @@
+@mixin radio-checkbox {
+
+	// *** Main object *** //
+	& {
+		display: inline-block;
+		position: relative;
+		white-space: nowrap;
+		text-align: center;
+		height: $object-height;
+		line-height: $object-height;
+
+		transition: opacity $normal;
+
+		&:not(:last-of-type):not(#{&}--block) { // ${&} selects the block that it sits in
+			margin-right: g(2);
+		}
+
+		.label {
+			display: none;
+			margin-left: g(1/2);
+			vertical-align: middle;
+
+			transition: color $fast;
+
+			&:not(:empty) {
+				display: inline-block;
+			}
+		}
+
+		i {
+			@include theme {
+				border: $radio-checkbox-border-size solid $theme-border-grey;
+			}
+			width: $radio-checkbox-size;
+			height: $radio-checkbox-size;
+			display: inline-block;
+			vertical-align: middle;
+			background-color: $white;
+			padding: 0;
+			margin: 0 auto;
+		}
+
+		input {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			opacity: 0;
+			z-index: z('base');
+
+			&:checked ~ .label {
+				@include theme {
+					color: $theme-primary;
+				}
+			}
+
+			&:not([disabled]) {
+
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+
+		// Modifiers
+		&--block {
+			display: block;
+			text-align: left;
+		}
+
+		// ** Default
+		&--default {
+			height: $object-height;
+			line-height: $object-height;
+
+			i {
+				width: $radio-checkbox-size;
+				height: $radio-checkbox-size;
+			}
+		}
+
+		// States
+		&.is-disabled {
+			opacity: 0.5;
+		}
+	}
+}

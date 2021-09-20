@@ -1,0 +1,76 @@
+.print_calendar{
+	position: relative;
+	padding: 40pt 180pt 10pt 0;
+	background-color: #FFF;
+}
+.print_calendar h2{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+.print_calendar span{
+	display: inline-block;
+	position: relative;
+	padding: 5px 10px 10px 30px;
+}
+	.print_calendar span:before{
+		content: '';
+
+		position: absolute;
+		display: block;
+
+		left: 5px;
+		top: 3px;
+
+		width: 15px;
+		height: 15px;
+
+		border: 2px solid #000;
+		border-radius: 3px;
+	}
+
+	.print_calendar span.blue:before{
+		border-color: blue;
+	}
+	.print_calendar span.green:before{
+		border-color: green;
+	}
+	.print_calendar span.brown:before{
+		border-color: brown;
+	}
+	.print_calendar span.yellow:before{
+		border-color: yellow;
+	}
+	.print_calendar span.teal:before{
+		border-color: teal;
+	}
+	.print_calendar span.plum:before{
+		border-color: plum;
+	}
+	.print_calendar span.red:before{
+		border-color: red;
+	}
+	.print_calendar span.aqua:before{
+		border-color: aqua;
+	}
+	.print_calendar span.aquamarine:before{
+		border-color: aquamarine;
+	}
+	.print_calendar span.orchid:before{
+		border-color: orchid;
+	}
+	.print_calendar span.pink:before{
+		border-color: pink;
+	}
+	.print_calendar span.silver:before{
+		border-color: silver;
+	}
+	.print_calendar span.gray:before{
+		border-color: gray;
+	}
+	.print_calendar span.lemon:before{
+		border-color: lemon;
+	}

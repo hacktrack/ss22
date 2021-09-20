@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="To"/>
+  <ITEM id="attachments" value="Attachments"/>
+  <ITEM id="bytes" value="Bytes"/>
+  <ITEM id="view_mail" value="View mail"/>
+  <ITEM id="show_source" value="Show source"/>
+  <ITEM id="title" value="Challenge Response"/>
+  <ITEM id="request" value="För att bevisa ditt meddelandet skickades av en människa och inte en dator, skriv in den alfanumeriska texten du ser i bilden nedan och klicka på OK. Du kommer bara att bli ombedd att göra det här en gång för denna e-postadress."/>
+  <ITEM id="result_ok" value="Ordet du angett är korrekt. Din e-postadress har godkänts."/>
+  <ITEM id="result_error" value="Ordet du angav är felaktigt! Vänligen försök igen."/>
+  <ITEM id="result_already" value="Din e-postadress har redan godkänts."/>
+  <ITEM id="result_black" value="Din e-postadress har blivit svartlistat!"/>
+  <ITEM id="result_notfound" value="Din e-postadress hittades inte. Det måste ha tagits bort. Vänligen skicka ditt e-postmeddelandet om igen."/>
+  <ITEM id="thanks" value="Tack för din medverkan!"/>
+  <ITEM id="reason" value="Varför gör jag detta?"/>
+  <ITEM id="explanation" value="Unsolicited commercial email is computer-generated and cannot respond to the command above. By using this permission-based email system, I am restricting my inbound email to senders who authenticate, providing they are real humans who wish to communicate with me via email."/>
+  <ITEM id="thanks2" value="Tack för att du hjälper mig med att avisa spam!"/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="IceWarp Software"/>
+  <ITEM id="gateway_link_label" value="Hantera din karantän eller spam online"/>
+  <ITEM id="copyright2" value="All rights reserved."/>
+  <LIST>
+    <ITEM id="title" value="IceWarp Spam-rapport"/>
+    <ITEM id="intro" value="This automatically generated report informs you of messages in Spam folder (or Quarantine) of your e-mail account. It lets you take administrative actions by clicking one of the buttons next to each email header.&lt;br/&gt;NOTE: Reports only show the first message sent by each sender. When you accept it, other messages from the same sender will be delivered too."/>
+    <ITEM id="outro" value="Du kan klicka på någon av länkarna ovan för att utföra vald åtgärde på ALLA meddelanden som finns kvar i ditt Spam mapp eller karantän."/>
+    <ITEM id="admin_action" value="Välj åtgärd för alla objekt i alla konton"/>
+    <ITEM id="account_action" value="Välj åtgärd för alla objekt på detta kontot"/>
+    <ITEM id="you_are_admin" value="Spamadministratörs alternativ"/>
+    <ITEM id="sender" value="Från"/>
+    <ITEM id="subject" value="Ämne"/>
+    <ITEM id="recipient" value="Till"/>
+    <ITEM id="date" value="Datum"/>
+    <ITEM id="time" value="Tid"/>
+    <ITEM id="actions" value="Funktion"/>
+    <ITEM id="delete" value="Ta bort"/>
+    <ITEM id="authorize" value="Vitlista"/>
+    <ITEM id="accept" value="Skicka"/>
+    <ITEM id="blacklist" value="Svartlista"/>
+    <ITEM id="deleteall" value="Ta bort"/>
+    <ITEM id="authorizeall" value="Vitlista"/>
+    <ITEM id="acceptall" value="Skicka"/>
+    <ITEM id="blacklistall" value="Svartlista"/>
+    <ITEM id="submit" value="Skicka in"/>
+    <ITEM id="view" value="Visa meddelande"/>
+    <ITEM id="msgsubject" value="Spam-rapport från %%Current_Date%%"/>
+    <ITEM id="domain" value="Domän"/>
+    <ITEM id="account" value="Konto"/>
+    <ITEM id="location" value="Plats"/>
+    <ITEM id="type_quarantine" value="Karantän"/>
+    <ITEM id="type_spam" value="Spam-mapp"/>
+    <ITEM id="delivery_problem" value="Kan inte leverera meddelande till konto"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Sender authorization"/>
+      <ITEM id="success" value="Avsändaren har godkänts."/>
+      <ITEM id="failure" value="Avsändaren kunde inte godkännas."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Meddelande skickas"/>
+      <ITEM id="success" value="Meddelande har skickats"/>
+      <ITEM id="failure" value="Meddelandet kunde inte levereras."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Meddelande tas bort"/>
+      <ITEM id="success" value="Meddelandet har tagits bort."/>
+      <ITEM id="failure" value="Meddelandet kunde inte raderas."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Avsändare avisad"/>
+      <ITEM id="success" value="Avsändaren har lagts till på din svartlista."/>
+      <ITEM id="failure" value="Avsändaren kunde inte läggas till på din svartlista."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Visa meddelanden"/>
+      <ITEM id="failure" value="Meddelandet kunde inte visas. Detta kan inträffa om meddelandet inte längre finns i Quarantine (eller skräppost mappen)."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Fel"/>
+      <ITEM id="failure" value="Den begärda åtgärden kunde inte utföras."/>
+      <ITEM id="wrongid" value="Invalid message ID. The specified message has been already removed from Quarantine (or Spam folder)."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Sender authorization"/>
+      <ITEM id="success" value="The sender was authorized and the message delivered."/>
+      <ITEM id="failure" value="Sender could not be authorized or message delivered."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Meddelandeleverans"/>
+      <ITEM id="success" value="Meddelandet har levererats."/>
+      <ITEM id="failure" value="Meddelandet kunde inte levereras."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Borttagning av meddelande"/>
+      <ITEM id="success" value="Meddelandet har tagits bort från skräppostmappen."/>
+      <ITEM id="failure" value="Meddelandet kunde inte raderas."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Sender rejection"/>
+      <ITEM id="success" value="Avsändaren lades till i svartlistan och meddelandet togs bort från skräppostmappen."/>
+      <ITEM id="failure" value="Avsändare kunde inte läggas till i svartlistan och meddelandet kunde inte tas bort."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Se meddelande"/>
+      <ITEM id="failure" value="Meddelandet kunde inte visas. Detta kan inträffa i det fall meddelandet redan har raderats."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Fel"/>
+      <ITEM id="failure" value="Den begärda åtgärden kunde inte utföras."/>
+      <ITEM id="wrongid" value="Invalid message ID. The specified message has been already removed from Quarantine (or Spam folder)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Failure"/>
+      <ITEM id="failure" value="The requested operation could not be performed."/>
+      <ITEM id="wrongid" value="Invalid administrator ID. The specified administrator account no longer exists."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Spam reports are disabled %s"/>
+    <ITEM id="challenge_already_running" value="Spam reports are already running"/>
+    <ITEM id="challenge_invalid_path_variable" value="Spam reports path not loaded properly: %s"/>
+    <ITEM id="api_findinitquery" value="Spam reports API: IceWarp account object retrieval. Domain: %s, Filter: %s"/>
+    <ITEM id="challenge_language_file_missing" value="Spam reports language file is missing: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Spam reports language file corrupted: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Spam reports invalid hash (possible URL attack): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

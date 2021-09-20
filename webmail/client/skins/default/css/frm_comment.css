@@ -1,0 +1,297 @@
+	.frm_comment{
+		position: absolute;
+		top: 50px;
+		bottom: 20px;
+		left: 0;
+		width: 100%;
+
+		padding: 0 20px;
+		-webkit-animation: reveal 400ms;
+		animation: reveal 400ms;
+
+		z-index: 100;
+	}
+	@media (max-height: 660px) {
+		.frm_comment{
+			top: -40px;
+		}
+	}
+
+	.frm_comment>div.block{
+		position: relative;
+		background-color: #FFF;
+
+		width: 100%;
+		height: 100%;
+		box-shadow: 0 0 10px rgba(0,0,0,0.25);
+		max-width: 980px;
+		margin: 0 auto;
+		border-radius: 3px;
+
+		overflow: hidden;
+	}
+
+	.frm_comment>div>div.close{
+		position: absolute;
+		right: 7px;
+		top: 15px;
+		padding-right: 25px;
+		line-height: 24px;
+		color: #888;
+		cursor: pointer;
+		z-index: 10;
+	}
+	.rtl .frm_comment>div>div.close {
+		left: 7px;
+		right: auto;
+
+		padding-right: 0;
+		padding-left: 25px;
+	}
+		.frm_comment>div>div.close:after{
+			content: "\e036";
+			font-family: "ico16";
+			font-size: 16px;
+			line-height: 16px;
+			position: absolute;
+			right: 5px;
+			top: 4px;
+			color: #333;
+		}
+		.rtl .frm_comment>div>div.close:after {
+			left: 5px;
+			right: auto;
+		}
+
+	.frm_comment>div>div.body{
+		padding: 40px 0 12px 0;
+		height: 100%;
+	}
+
+.frm_comment td.item{
+	padding: 0 5px;
+}
+.frm_comment div.msiebox>div{
+	position: absolute;
+	top: 0;
+	bottom: 10px;
+	left: 55px;
+	right: 15px;
+
+	border: 1px solid #EEE;
+	border-width: 0 1px 1px 1px;
+	border-radius: 0 0 3px 3px;
+}
+
+.rtl .frm_comment div.msiebox>div{
+	left: 15px;
+	right: 55px;
+}
+
+.frm_comment td.item .obj_groupchat_item .message,
+.frm_comment td.item .obj_groupchat_item .message>.toolbar{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* Source item css */
+
+.frm_comment td.item .obj_groupchat_item{
+	margin-top: 25px;
+}
+
+.frm_comment td.item h3 span.private_msg{
+	display: none!important;
+}
+
+.frm_comment td.item span.comments{
+	cursor: default!important;
+}
+
+/* upload progress */
+.frm_comment>div>div.body>.obj_progress{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.frm_comment>.obj_upload{
+	top: 0;
+	left: -10000px;
+	position: absolute;
+}
+
+.frm_comment>div>.body>.frmtbl{
+	table-layout: fixed;
+}
+
+/*** Full view ***/
+.frm_comment.full tr.tr_item{
+	height: 100%;
+}
+	.frm_comment.full tr.tr_item>td{
+		height: inherit;
+		min-height: 28px;
+		position: relative;
+	}
+		.frm_comment.full tr.tr_item>td>div{
+			position: relative;
+			left: 0;
+			top: 0;
+
+			width: 100%;
+			height: 100%;
+		}
+		.frm_comment.full tr.tr_item>td>div>div{
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+
+.frm_comment.full tr.tr_list{
+	display: none;
+}
+
+.frm_comment td.item .obj_groupchat_item>.message .cell>article{
+	/* for animation */
+	max-height: 700px;
+	overflow: hidden;
+	transition: max-height 300ms;
+}
+.frm_comment.full td.item .obj_groupchat_item>.message .cell>article{
+	padding-right: 130px;
+	max-height: initial;
+}
+
+/*** Mini view ***/
+.frm_comment .body>div.toggle{
+	z-index: -1;
+
+	position: absolute;
+
+	right: 45px;
+	top: 107px;
+	cursor: pointer;
+	color: {bg_main '#0088CC'};
+	line-height: 18px;
+	padding-right: 20px;
+	font-weight: 500;
+}
+	.frm_comment.min .body>div.toggle:after{
+		content: "\e043";
+		font-family: "ico16";
+		font-size: 16px;
+		position: absolute;
+
+		width: 18px;
+		height: 18px;
+		text-align: center;
+		font-weight: normal;
+
+		right: 0;
+		top: 0;
+
+		transition: transform 200ms;
+	}
+	body.light .frm_comment.min .body>div.toggle:after{
+		font-weight: 200;
+	}
+	.frm_comment.full .body>div.toggle:after{
+		transform:rotate(180deg);
+	}
+
+.frm_comment.full .body>div.toggle,
+.frm_comment.min .body>div.toggle{
+	z-index: 100;
+}
+
+.frm_comment .body>div.toggle span{ display: none;}
+.frm_comment.min:not(.full) .body>div.toggle span.all{ display: block;}
+.frm_comment.full .body>div.toggle span.less{ display: block;}
+
+/* Mini view message */
+.frm_comment.min:not(.full) td.item .obj_groupchat_message>.message .cell>article{
+	max-height: 58px;
+	padding-right: 130px;
+
+	position: relative;
+	overflow: hidden;
+}
+.frm_comment.min:not(.full) td.item .obj_groupchat_message>.message .cell>article:after{
+	content: '';
+	display: block;
+	position: absolute;
+	height: 15px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+
+	background: -webkit-linear-gradient(rgba(247, 247, 247, 0), #f7f7f7); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(247, 247, 247, 0), #f7f7f7); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(247, 247, 247, 0), #f7f7f7); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(247, 247, 247, 0), #f7f7f7); /* Standard syntax */
+}
+.frm_comment.min:not(.full) td.item .obj_groupchat_message.me>.message .cell>article:after{
+	background: -webkit-linear-gradient(rgba(229, 246, 255, 0), #e5f6ff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(229, 246, 255, 0), #e5f6ff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(229, 246, 255, 0), #e5f6ff); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(229, 246, 255, 0), #e5f6ff); /* Standard syntax */
+}
+
+/* Mini view obj_groupchat_link */
+.frm_comment.min:not(.full) td.item .obj_groupchat_link>.message>.border>.body,
+.frm_comment.min:not(.full) td.item .obj_groupchat_link>.message .cell.info>article{
+	display: none!important;
+}
+
+.frm_comment:not(.full) td.item .obj_groupchat_link .addon > .body > .preview{
+	transition: width 300ms;
+}
+
+.frm_comment.min:not(.full) td.item .obj_groupchat_link .addon > .body > .preview{
+	width: 80px;
+}
+	.frm_comment.min:not(.full) td.item .obj_groupchat_link .addon > .body > .preview:after{
+		display: none!important;
+	}
+	.frm_comment.min:not(.full) td.item .obj_groupchat_link .addon > .body > .preview > div{
+		max-height: 150px;
+	}
+
+
+/* Mini view obj_groupchat_event */
+.frm_comment.min:not(.full) td.item .obj_groupchat_event>.message>.border>.body{
+	display: none;
+}
+
+/* Mini view obj_groupchat_file */
+.frm_comment.min:not(.full) td.item .obj_groupchat_file>.message>.border>.body{
+	display: none;
+}
+
+.frm_comment:not(.full) td.item .obj_groupchat_file .addon > .body > .preview{
+	transition: width 300ms;
+}
+
+.frm_comment.min:not(.full) td.item .obj_groupchat_file .addon > .body > .preview{
+	width: 80px;
+}
+	.frm_comment.min:not(.full) td.item .obj_groupchat_file .addon > .body > .preview:after{
+		display: none!important;
+	}
+	.frm_comment.min:not(.full) td.item .obj_groupchat_file .addon > .body > .preview > div{
+		max-height: 150px;
+	}
+
+/* no comments */
+.frm_comment .obj_groupchat > div > section{
+	padding: 0 2px 0 0;
+}
+
+.frm_comment .obj_groupchat .obj_groupchat_item.com > .message{
+	border: none;
+}
+
+.frm_comment .obj_chat_input{
+	margin: 0 15px;
+}

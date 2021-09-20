@@ -1,0 +1,336 @@
+@keyframes urlpreview {
+    from {margin-bottom: -100%;}
+    to {margin-bottom: 0%;}
+}
+@-webkit-keyframes urlpreview {
+    from {margin-bottom: -100%;}
+    to {margin-bottom: 0%;}
+}
+
+
+.obj_chat_input.disabled{
+	display: none;
+}
+.obj_chat_input.add>.container{
+	position: relative;
+	padding-left: 42px;
+}
+.rtl .obj_chat_input.add>.container {
+	padding-left: 0;
+	padding-right: 42px;
+}
+
+	.obj_chat_input>div>div.button{
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%!important;
+	}
+	.rtl .obj_chat_input>div>div.button {
+		left: auto;
+		right: 0;
+	}
+
+	.obj_chat_input>div>div.inputs{
+		overflow: hidden;
+		position: relative;
+		background-color: #FFF;
+	}
+	.obj_chat_input:not(.small)>div>div.inputs{
+		border: 1px solid #EDEDED;
+		border-radius: 5px;
+		/**/
+		min-height: 40px;
+	}
+
+	/* .obj_chat_input.preview>div>div.inputs,
+	.obj_chat_input.block>div>div.inputs{
+		border-top-left-radius: 0!important;
+		border-top-right-radius: 0!important;
+	} */
+
+
+	.rtl .obj_chat_input:not(.small)>div>div.inputs {
+		border-left-width: 1px;
+		border-right-width: 0;
+		border-radius: 5px 0 0 5px;
+	}
+
+	.obj_chat_input.add:not(.small)>div>div.inputs{
+		border-left-width: 0;
+		border-radius: 0 5px 5px 0;
+	}
+	.rtl .obj_chat_input.add:not(.small)>div>div.inputs {
+		border-left-width: 1px;
+		border-right-width: 0;
+		border-radius: 5px 0 0 5px;
+	}
+
+
+/* preview */
+.obj_chat_input>.preview,
+.obj_chat_input>.block{
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+
+	height: 0;
+	transition: height 200ms ease;
+	-webkit-transition: height 200ms ease;
+}
+	.obj_chat_input.loading>.preview,
+	.obj_chat_input.preview>.preview,
+	.obj_chat_input.block>.block{
+		border: 1px solid #EDEDED;
+		border-radius: 5px 5px 0 0;
+		border-bottom: none;
+	}
+
+	.obj_chat_input.block.preview>.block,
+	.obj_chat_input.block.loading>.block{
+		border-radius: 0;
+	}
+
+	.obj_chat_input.loading>.preview{
+		height: 29px;
+		overflow: hidden;
+
+		text-align: center;
+		vertical-align: middle;
+	}
+	.obj_chat_input.loading>.preview:before{
+		content: '\e012';
+		font-family: "ico24";
+		display: inline-block;
+
+		width: 13px;
+		height: 13px;
+		line-height: 13px;
+
+		vertical-align: middle;
+
+		animation: rotate 0.7s infinite linear;
+		-webkit-animation: rotate 0.7s infinite linear;
+		-webkit-animation-play-state: running;
+	}
+
+	.obj_chat_input.preview>.preview,
+	.obj_chat_input.block>.block{
+		height: auto;
+	}
+	.obj_chat_input>.preview>.obj_urlpreview{
+		margin-bottom: -100%;
+		width: 100%;
+	}
+	.obj_chat_input.preview>.preview>.obj_urlpreview{
+		animation: urlpreview 200ms ease forwards;
+		-webkit-animation: urlpreview 200ms ease forwards;
+	}
+	.obj_chat_input.loading>.preview>.obj_urlpreview{
+		display: none;
+	}
+
+	.obj_chat_input.preview>div>div.inputs,
+	.obj_chat_input.loading>div>div.inputs,
+	.obj_chat_input.block>div>div.inputs{
+		border-top-left-radius: 0!important;
+		border-top-right-radius: 0!important;
+	}
+	.obj_chat_input.add.preview>div>div>form.obj_button,
+	.obj_chat_input.add.loading>div>div>form.obj_button,
+	.obj_chat_input.add.block>div>div>form.obj_button{
+		border-radius: 0 0 0 5px!important;
+	}
+
+/* Add Button */
+.obj_chat_input>div>div>form.obj_button{
+	height: 100%;
+}
+.obj_chat_input>div>div>form.obj_button:not(.focus){
+	color: {txt_main '#0088CC'};
+}
+.obj_chat_input:not(.noborder)>div>div>form.obj_button{
+	border-radius: 5px 0 0 5px;
+}
+.rtl .obj_chat_input:not(.noborder)>div>div>form.obj_button {
+	border-radius: 0 5px 5px 0;
+}
+	.obj_chat_input>div>div>form.obj_button::after{
+		font-size: 21px;
+		font-family: "ico16";
+		content: "\e070";
+		left: 10px;
+	}
+
+.obj_chat_input>div>div>form.obj_button:not(.color1){
+	background-color: transparent;
+	border-color: #EDEDED;
+}
+	div.obj_chat_input_add li a span::after{
+		left: 20px!important;
+	}
+
+	/* Add Submenu */
+	div.obj_chat_input_add li.ico2.conference a span::after{
+		content: '\e987';
+	}
+	div.obj_chat_input_add li.ico2.invite a span::after{
+		content: '\e03d';
+	}
+	div.obj_chat_input_add li.ico2.event a span::after{
+		content: '\e05';
+	}
+	div.obj_chat_input_add li.ico2.email a span::after{
+		content: '\e021';
+	}
+	div.obj_chat_input_add li.ico2.attach a span::after{
+		content: '\e02c';
+	}
+	div.obj_chat_input_add li.ico2.file a span::after{
+		content: '\e03a';
+	}
+	div.obj_chat_input_add li.ico2.code a span::after{
+		content: '\e071';
+	}
+	div.obj_chat_input_add li.ico2.word a span::after{
+		font-family: "filetypes";
+		content: '\e12';
+		color: rgb(39, 85, 156);
+	}
+	div.obj_chat_input_add li.ico2.excel a span::after{
+		font-family: "filetypes";
+		content: '\e16';
+		color: rgb(30, 116, 68);
+	}
+	div.obj_chat_input_add li.ico2.ppoint a span::after{
+		font-family: "filetypes";
+		content: '\e19';
+		color: rgb(183, 69, 32);
+	}
+	div.obj_chat_input_add li.ico2.note a span::after{
+		font-family: "filetypes";
+		content: '\e20';
+		color: rgb(154, 150, 103);
+	}
+	div.obj_chat_input_add li.ico2.geo a span::after{
+		content: '\e029';
+	}
+	div.obj_chat_input_add li.ico2.link a span::after{
+		content: '\e053';
+	}
+
+/* Inputs */
+.obj_chat_input form.obj_text.obj_text_dynamic{
+	min-height: 38px!important;
+}
+	.obj_chat_input form.obj_text > textarea,
+	.obj_chat_input form.obj_text > div.size{
+		padding: 8px 8px!important;
+		line-height: 22px!important;
+	}
+
+.obj_chat_input.small form.obj_text.obj_text_dynamic{
+	min-height: 26px!important;
+	height: 26px;
+}
+	.obj_chat_input.small form.obj_text > textarea,
+	.obj_chat_input.small form.obj_text > div.size{
+		padding: 2px 10px!important;
+	}
+
+	.obj_chat_input.small form.obj_button input.obj_button{
+		height: 24px;
+	}
+
+.rtl .obj_chat_input form.obj_text > textarea {
+	direction: rtl;
+}
+
+.obj_chat_input.small{
+	background-color: #FFF;
+}
+.obj_chat_input.small .container{
+	border: 1px solid #a0a0a0;
+	border-radius: 2px;
+}
+/*
+.obj_chat_input.transparent form.obj_text,
+.obj_chat_input.transparent form.obj_text > textarea{
+	background-color: transparent;
+}
+*/
+/* Private message label */
+.obj_chat_input form.obj_label{
+	position: relative;
+	float: left;
+	line-height: 25px;
+	color: {txt_main '#0088CC'};
+
+	margin: 5px 5px 0;
+	padding: 0 25px 0 5px;
+	border-radius: 3px;
+
+	background-color: #F1F8FC;
+	border: 1px solid #DAECF7;
+}
+.rtl .obj_chat_input form.obj_label {
+	float: right;
+}
+.obj_chat_input.small form.obj_label{
+	margin: 2px;
+}
+	.obj_chat_input form.obj_label,
+	.obj_chat_input form.obj_label label{
+		cursor: pointer;
+	}
+	.obj_chat_input form.obj_label:after{
+		content: "\e036";
+		font-family: "ico16";
+		position: absolute;
+		top: 0;
+		right: 6px;
+	}
+
+	.obj_chat_input form.obj_label.disabled{
+		display: none;
+	}
+	.obj_chat_input form.obj_label>label{
+		padding: 0 2px 0 7px;
+		max-width: 100px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		vertical-align: middle;
+	}
+
+/* Smiles */
+.obj_chat_input form.obj_button.smile{
+	float: right;
+	position: relative;
+	top: 5px;
+	margin-right: 3px!important;
+	color: {txt_main '#0088CC'};
+}
+.rtl .obj_chat_input form.obj_button.smile {
+	float: left;
+	margin-left: 3px!important;
+	margin-right: 0!important;
+}
+
+.obj_chat_input.small form.obj_button.smile{
+	top: 0;
+}
+
+.obj_chat_input form.obj_button.smile.giphy:after{
+	content: '\e067';
+	top: 4px;
+}
+
+.obj_chat_input form.obj_button.smile:after {
+    content: '\e084';
+    top: 4px;
+}
+
+.obj_chat_input.small form.obj_label{
+	line-height: 20px;
+}

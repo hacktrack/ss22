@@ -1,0 +1,171 @@
+// Topbar
+// Content and box topbars.
+
+// Block
+.topbar {
+	@include flexbox;
+	@include align-items(center);
+	height: $menu-height;
+	line-height: $menu-height;
+	background-color: $white;
+	@include border('bottom');
+
+	// States
+	.box-head & {
+		border: none; // No borders when topbar in box-head
+	}
+}
+
+
+// Elements
+.topbar-center {
+	@include flex(1, 1, 0);
+	height: 100%;
+}
+
+
+// Modifiers
+.topbar[iw-type="main"] {
+	@include justify-content(space-between);
+
+	// Elements
+	.topbar-center {
+		margin: 0 0 0 p(2);
+
+		span:last-child {
+			vertical-align: middle;
+		}
+	}
+}
+
+.topbar[iw-type="trial"] {
+	height: $menu-height;
+	line-height: $normal-line-height;
+	font-size: rem(18);
+	font-weight: bold;
+	border: 0;
+	color: $white;
+	@include theme {
+		background-color: $theme-primary;
+	}
+
+	.icon {
+		margin: auto 1rem;
+
+		@media #{$medium-up} {
+			margin: auto 2rem;
+		}
+	}
+
+	.button {
+		margin-left: 1rem;
+
+		@media #{$medium-up} {
+			margin-left: 2rem;
+		}
+	}
+}
+
+.topbar[iw-type="stats"] {
+	overflow: hidden;
+	display: block;
+	height: auto;
+	min-height: $menu-height;
+	border: none;
+}
+
+.topbar[iw-type="search"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transform: translateY(-100%);
+	        transform: translateY(-100%);
+
+	-webkit-transition:
+		-webkit-transform $normal ease-in-out,
+		opacity $normal ease-in-out;
+
+	transition:
+		transform $normal ease-out,
+		opacity $normal ease-out;
+
+	// States
+	&.active {
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: translateX(0);
+		        transform: translateX(0);
+
+		-webkit-transition:
+			-webkit-transform $fast ease-in;
+		transition:
+			transform $fast ease-in;
+	}
+
+	// Elements
+	.topbar-search {
+		position: relative;
+	}
+
+	.topbar-search-input,
+	.topbar-search-result {
+		height: 100%;
+		border: none;
+		font-size: s(1.5);
+	}
+
+	.topbar-search-input {
+		background-color: transparent;
+
+		input {
+			background-color: $white;
+			padding-left: 0;
+
+			transition:
+				opacity $normal,
+				background-color $fast,
+				color $fast;
+
+			&.is-empty {
+				opacity: 1;
+			}
+
+			&.has-info {
+				@include theme {
+					color: $theme-primary;
+				}
+				background-color: transparent;
+			}
+		}
+	}
+
+	.topbar-search-result {
+		@include text-ellipsis;
+		@include theme {
+			color: $theme-primary;
+		}
+		font-weight: 300;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.topbar-search-result-text {
+		opacity: 0;
+	}
+
+	.topbar-search-close {
+		color: $grey;
+
+		&:hover, &:focus {
+			@include theme {
+				color: $theme-primary;
+			}
+		}
+	}
+}

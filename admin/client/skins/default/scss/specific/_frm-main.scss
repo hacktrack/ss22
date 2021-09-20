@@ -1,0 +1,61 @@
+// Header
+.header {
+	box-sizing: content-box;
+	position: relative;
+	@include flex(none);
+}
+
+// Main frame
+.frm_main {
+	position: relative;
+	height: 100vh;
+	z-index: z('main');
+	@include flexbox;
+	@include flex-direction(column);
+
+	@if $main-connection-overlay {
+
+		&::after {
+			content: '';
+			@include full-absolute;
+			opacity: 0.75;
+			background-color: $white;
+			z-index: z('overlay');
+		}
+	}
+}
+
+
+// This fixes the necessary wrapping, so datagrids can span over available height.
+// Use only for datagrid wrapping.
+$datagrid: ();
+@each $view in $datagrid-list {
+	// Construct comma separated multi-selector from $datagrid-list
+	$datagrid: append($datagrid, unquote('.obj_#{$view}'), 'comma');
+}
+
+#{$datagrid} {
+	@include flexit;
+
+	// Fixes top padding for views with datagrids
+	// TODO: Find a way for datagrids views to have a different class than non-datagrid views
+	@media #{$small-only} {
+		margin-top: p(-1);
+	}
+
+	@media #{$medium-up} {
+		margin-top: p(-3/2);
+	}
+}
+
+// Popups
+@if $main-disable-popup-flash {
+
+	.obj_popup + .obj_popup {
+
+		.modal {
+			-webkit-animation: none !important;
+			        animation: none !important;
+		}
+	}
+}

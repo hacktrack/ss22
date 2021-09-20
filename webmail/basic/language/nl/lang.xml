@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>Nieuw Item</add>
+    <quarantine>Quarantaine</quarantine>
+    <whitelist>Altijd toestaan</whitelist>
+    <blacklist>Blokkeer</blacklist>
+    <save>Opslaan</save>
+    <cancel>Annuleren</cancel>
+    <new_item>Voeg nieuwe email toe</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Snelkoppelingen uitschakelen</disable_shortcuts>
+    <enable_swipe_gestures>Activeer swipe voorstellen op touch devices</enable_swipe_gestures>
+    <use_high_contrast_skin>Gebruik hoog contrast skin</use_high_contrast_skin>
+    <menu_as_text>Toon tekst i.p.v. iconen in toolbar</menu_as_text>
+    <change_password>Wijzig Wachtwoord</change_password>
+    <open_change_password_dialog>Open wijzig wachtwoord dialoog</open_change_password_dialog>
+    <oldpassword>Oud wachtwoord</oldpassword>
+    <newpassword>Nieuw wachtwoord</newpassword>
+    <confirmpassword>Bevestig wachtwoord</confirmpassword>
+    <remove>Verwijder</remove>
+    <settings>Instellingen</settings>
+    <navigate>Beheer</navigate>
+    <user>Mijn instellingen</user>
+    <domain>Domein Administrator</domain>
+    <admin>Administrator Instellingen</admin>
+    <new_domain>Nieuw Domein</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>Algemeen</general>
+    <layout>Layout</layout>
+    <mail>E-mail</mail>
+    <compose>Maak</compose>
+    <person>E-mailadres</person>
+    <person_header>Voeg nieuw Van adres toe</person_header>
+    <person_description>Bijv. &quot;John Doe&quot; &amp;lt;john.doe@icewarp.nl&amp;gt;</person_description>
+    <autoresponder>Autobeantwoorder</autoresponder>
+    <forwarder>Doorsturen</forwarder>
+    <layout_desc>Indeling, Mail</layout_desc>
+    <compose_desc>Standaard instellingen voor een nieuw bericht (Lees bevestiging, HTML/Platte tekst Formaat, Handtekening).</compose_desc>
+    <general_desc>Configureer je mailbox voor bladeren, verwijderen en beantwoorden van je berichten.</general_desc>
+    <personalities_desc>Configureer aanvullende email aliassen (andere Van: adressen) voor deze email account.</personalities_desc>
+    <autoresponder_desc>Activeer hier je automatische beantwoorder voor als je op vakantie/afwezig bent.</autoresponder_desc>
+    <forwarder_desc>Stuur een ( kopie-)mail door naar een willekeurig ander adres.</forwarder_desc>
+    <date_format>Datum weergave</date_format>
+    <time_format>Tijd weergave</time_format>
+    <list_count>Items op de lijst</list_count>
+    <font_family>Standaard lettertype</font_family>
+    <font_size>Standaard Lettergrootte</font_size>
+    <text_direction>Schrijfrichting</text_direction>
+    <text_direction_values>Links naar rechts|Rechts naar links</text_direction_values>
+    <empty_trash_every>Leeg prullenbak elke</empty_trash_every>
+    <days>dagen</days>
+    <move_deleted>Verplaats verwijderde items naar de prullenbak</move_deleted>
+    <delete_messages_on_empty>Bij &quot;Leeg Prullenbak&quot; definitief alles verwijderen</delete_messages_on_empty>
+    <add_recipients>Voeg automatisch adressen toe aan Adresboek van ontvangen berichten</add_recipients>
+    <group_pref>Groep onderwerp voorvoegsel (bijv. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>Vraag om Leesbevestiging</request_read_confirmation>
+    <save_sent_msg>Sla verzonden items op in map</save_sent_msg>
+    <message_format>Bericht indeling</message_format>
+    <message_format_labels>Platte tekst|HTML</message_format_labels>
+    <signature>Handtekening</signature>
+    <forward_to>Doorsturen naar</forward_to>
+    <keep_in_inbox>Bewaar berichten in Postvak In</keep_in_inbox>
+    <forward_older>Stuur email door indien ouder als</forward_older>
+    <forward_older_to>Stuur oudere email door naar</forward_older_to>
+    <ar_mode>Type</ar_mode>
+    <ar_mode_labels>Uitgeschakeld|Reageer Altijd|Reageer een maal|Reageer na bepaalde periode opnieuw</ar_mode_labels>
+    <ar_respond_only>Reageer alleen op berichten die alleen aan geadresseerde is gestuurd</ar_respond_only>
+    <ar_respond_again>Reageer opnieuw na (Dagen)</ar_respond_again>
+    <ar_from>Van</ar_from>
+    <ar_subject>Onderwerp</ar_subject>
+    <ar_text>Bericht</ar_text>
+    <ar_no_responder_for>Geen reactie voor</ar_no_responder_for>
+    <ar_respond_only_between>Reageer alleen tussen</ar_respond_only_between>
+    <email>E-mailadres</email>
+    <responder>Geen reactie voor</responder>
+    <show_attached_images>Bijgevoegde afbeeldingen automatisch weergeven</show_attached_images>
+    <show_inline_images>Externe afbeeldingen automatisch weergeven</show_inline_images>
+    <use_reply_prefix>Gebruik antwoord Prefix (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 uurs|24 uurs</time_format_list_labels>
+    <force_admin>Forceer deze optie op domein- en gebruikersinstellingen</force_admin>
+    <force_domain>Forceer deze optie op gebruikersinstellingen</force_domain>
+    <to_top>Handtekening boven aan bericht</to_top>
+    <quota>Schijf Quotum:</quota>
+    <section_layout>Algemene Opmaak</section_layout>
+    <section_mail>Algemene Mail instellingen</section_mail>
+    <section_autoresponder>Zend een automatisch antwoord als u niet op het werk bent.</section_autoresponder>
+    <section_norespond>Geen automatisch antwoord voor de volgende adressen.</section_norespond>
+    <domains>Domeinen</domains>
+    <accounts>Accounts</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Weet u zeker dat u geselecteerde bericht(en) wilt verwijderen?</delete_mail>
+    <blacklist_mail>Weet u zeker dat u geselecteerde bericht(en) wilt black-listen?</blacklist_mail>
+    <delete_contact>Weet u zeker dat u geselecteerde contact(en) wilt verwijderen?</delete_contact>
+    <delete_contact_distribution>Weet u zeker dat u geselecteerde groep(en) wilt verwijderen?</delete_contact_distribution>
+    <delete_event>Weet u zeker dat u geselecteerde evenement(en) wilt verwijderen?</delete_event>
+    <delete_note>Weet u zeker dat u geselecteerde notitie(s) wilt verwijderen?</delete_note>
+    <delete_task>Weet u zeker dat u geselecteerde taak(en) wilt verwijderen?</delete_task>
+    <delete_personalities>Weet u zeker dat u geselecteerde item(s) wilt verwijderen?</delete_personalities>
+    <delete_quarantine>Weet u zeker dat u geselecteerde item(s) wilt verwijderen?</delete_quarantine>
+    <delete_this_mail>Weet u zeker dat u geselecteerde bericht wilt verwijderen?</delete_this_mail>
+    <delete_items>Weet u zeker dat u geselecteerde item(s) wilt verwijderen?</delete_items>
+    <delete_item>Weet u zeker dat u geselecteerde item(s) wilt verwijderen?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>Deze map is leeg.</no_item>
+  </string>
+  <menu>
+    <files>Bestanden</files>
+    <notes>Notities</notes>
+    <tasks>Taken</tasks>
+    <journal>Logboek</journal>
+    <calendar>Agenda</calendar>
+    <search>Zoek</search>
+    <messages>Berichten</messages>
+    <contacts>Contactpersonen</contacts>
+    <searchBut>Vind</searchBut>
+    <address_book>Adres Boek</address_book>
+    <logout>Afmelden</logout>
+    <help>Help</help>
+    <settings>Instellingen</settings>
+    <switch>Schakel over naar</switch>
+    <help_url>language/en/help.html</help_url>
+    <quarantine>Filters</quarantine>
+    <alert_restricted_access>Sorry, Toegang tot deze tab geweigerd</alert_restricted_access>
+    <basic>Tablet indeling</basic>
+    <advanced>Desktop indeling</advanced>
+    <mobile>Mobiele indeling</mobile>
+  </menu>
+  <tree>
+    <add_folder>Maak Map</add_folder>
+    <new_message>Nieuw bericht</new_message>
+    <manage_folders>Mapbeheer</manage_folders>
+    <open_folder>Open map</open_folder>
+    <open>Open</open>
+  </tree>
+  <mail_view>
+    <attachments>Bijlagen</attachments>
+    <from>Verzender</from>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Onderwerp</subject>
+    <all_headers>Bekijk volledige headers</all_headers>
+    <all_images>Toon afbeeldingen</all_images>
+    <next>Volgende</next>
+    <prev>Vorige</prev>
+    <first>Eerste</first>
+    <last>Laatste</last>
+    <show_external_images>Externe afbeeldingen zijn geblokkeerd. Klik hier om ze toch te tonen.</show_external_images>
+    <download_all>Download alles</download_all>
+    <detail>Detail</detail>
+    <blue_box_start>Start</blue_box_start>
+    <blue_box_end>Einde</blue_box_end>
+    <blue_box_description>Omschrijving</blue_box_description>
+    <blue_box_accept>Accepteer</blue_box_accept>
+    <blue_box_decline>Afwijzen</blue_box_decline>
+    <blue_box_subscribe_folder>Volg de map</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Volg de gebruiker</blue_box_subscribe_account>
+    <item_accept_ok>Item geaccepteerd</item_accept_ok>
+    <read>lezen</read>
+    <write>schrijven</write>
+    <modify>wijzigen</modify>
+    <delete>verwijderen</delete>
+    <administer>beheren</administer>
+    <folder_rights>Maprechten</folder_rights>
+    <items_rights>Itemrechten</items_rights>
+  </mail_view>
+  <login>
+    <send>Verstuur</send>
+    <ip_check>Uitgebreide beveiliging uitschakelen</ip_check>
+    <user>Gebruiker</user>
+    <email>E-mailadres</email>
+    <password>Wachtwoord</password>
+    <remember>Onthouden</remember>
+    <language>Taal</language>
+    <allways_ask>Altijd vragen</allways_ask>
+    <username>Inlognaam</username>
+    <username_and_password>Inlognaam en wachtwoord</username_and_password>
+    <auto_login>Automatisch aanmelden</auto_login>
+    <login>Aanmelden</login>
+    <copyright>IceWarp &lt;a href=&quot;http://www.icewarp.nl&quot;&gt;Server&lt;/a&gt; © 1999-2019&lt;br /&gt; Version: $1</copyright>
+    <welcome>Welkom in IceWarp WebClient Tablet</welcome>
+    <public_welcome>Welkom bij de IceWarp publieke agenda</public_welcome>
+    <title>IceWarp WebClient Tablet</title>
+    <public_title>IceWarp publieke agenda</public_title>
+    <reset_password>Herstel wachtwoord</reset_password>
+    <sign_up>Inschrijven</sign_up>
+    <email>E-mailadres</email>
+    <domain>Domein</domain>
+    <new_password>Nieuw wachtwoord</new_password>
+    <confirm_password>Wachtwoord nogmaals</confirm_password>
+    <full_name>Voor- en achternaam</full_name>
+    <alternative_email>Alternatief e-mailadres</alternative_email>
+    <switch>Schakel naar &lt;a href=&quot;../&quot;&gt;Desktop&lt;/a&gt; of &lt;a href=&quot;../pda&quot;&gt;Mobiele&lt;/a&gt; omgeving.</switch>
+    <no_javascript>&lt;b&gt;JavaScript is uitgeschakeld. &lt;/b&gt;&lt;/div&gt;Om deze reden wordt u doorgestuurd naar de WebClient Tablet interface, die beperkte functionaliteit heeft. Bezoek als u de WebClient Desktop Interface wilt gebruiken onze &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;kennisbank&lt;/a&gt; voor meer informatie over hoe u JavaScript in kunt schakelen in uw browser.&lt;br /&gt; Als uw browser geen JavaScript ondersteunt, download dan AUB de laatste versie van &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; of &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>Geef de code uit de afbeelding in</word>
+  </login>
+  <files>
+    <add>Upload bestand</add>
+    <download>Download</download>
+    <file>Bestand</file>
+  </files>
+  <file_list>
+    <filename>Bestandsnaam</filename>
+    <description>Omschrijving</description>
+    <modified>Aangepast</modified>
+    <size>Grootte</size>
+    <tags>Labels</tags>
+  </file_list>
+  <notes>
+    <category>Categorie</category>
+    <add>Nieuwe notitie</add>
+  </notes>
+  <notes_detail>
+    <note>Notitie</note>
+    <tags>Labels</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Nieuwe taak</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Taak</task>
+    <status>Status</status>
+    <complete>Voltooid</complete>
+    <priority>Prioriteit</priority>
+    <not_started>Niet gestart</not_started>
+    <in_progress>Gaande</in_progress>
+    <completed>Voltooid</completed>
+    <deferred>Uitgesteld</deferred>
+    <waiting_for_someone_else>Wacht op anderen</waiting_for_someone_else>
+    <medium>Gemiddeld</medium>
+    <high>Hoog</high>
+    <low>Laag</low>
+    <tags>Labels</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Startdatum</start_date>
+    <due_date>Vervaldatum</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Schermvullend</fullscreen>
+    <subject>Onderwerp</subject>
+    <no_subject>Onderwerp is leeg</no_subject>
+    <no_address>Adres is leeg</no_address>
+    <from>Verzender</from>
+    <date>Datum</date>
+    <size>Grootte</size>
+    <delete>Verwijder</delete>
+    <reply>Beantwoorden</reply>
+    <reply_to_all>Aan allen</reply_to_all>
+    <forward>Doorsturen</forward>
+    <print>Afdrukken</print>
+    <whitelist>Altijd toestaan</whitelist>
+    <blacklist>Blokkeer</blacklist>
+    <dws>Actie</dws>
+    <copy>Kopieer</copy>
+    <move>Verplaats</move>
+    <copy_to_folder>Kopieer naar map:</copy_to_folder>
+    <move_to_folder>Verplaats naar map:</move_to_folder>
+    <mar>Markeer als gelezen</mar>
+    <mau>Markeer als ongelezen</mau>
+    <select>Selecteer</select>
+    <all>Alle</all>
+    <none>Geen</none>
+    <read>Lezen</read>
+    <unread>Ongelezen</unread>
+    <invert>Selectie omkeren</invert>
+    <doit>Toepassen</doit>
+    <to>Ontvanger</to>
+    <fast_reply>Snel reageren</fast_reply>
+    <send_message>Verstuur</send_message>
+    <src>De verzender vraagt om een leesbevestiging. Wilt u bevestigen dat u het bericht gelezen hebt?</src>
+    <save>Opslaan</save>
+    <select_folder>Selecteer map</select_folder>
+    <deliver>Afleveren</deliver>
+    <text>Tekst</text>
+    <received>Ontvangen</received>
+    <saved>Opgeslagen</saved>
+    <sender>Afzender</sender>
+    <owner>Eigenaar</owner>
+    <domain>Domein</domain>
+    <show_all>Toon alles</show_all>
+  </mail_main>
+  <event_list>
+    <title>Titel</title>
+    <start>Start</start>
+    <end>Einde</end>
+    <tags>Labels</tags>
+  </event_list>
+  <event_detail>
+    <tags>Labels</tags>
+    <show_as>Weergeven als</show_as>
+    <free>Beschikbaar</free>
+    <tentative>Voorlopig</tentative>
+    <busy>Niet beschikbaar</busy>
+    <out_of_office>Afwezig</out_of_office>
+    <title>Titel</title>
+    <location>Locatie</location>
+    <label>Label</label>
+    <none>Geen</none>
+    <important>Belangrijk</important>
+    <business>Zakelijk</business>
+    <personal>Persoonlijk</personal>
+    <vacation>Vakantie</vacation>
+    <must_attend>Moet deelnemen</must_attend>
+    <travel_required>Reizen benodigd</travel_required>
+    <needs_preparation>Voorbereiding noodzakelijk</needs_preparation>
+    <birthday>Verjaardag</birthday>
+    <anniversary>Jubileum</anniversary>
+    <phone_call>Telefoongesprek</phone_call>
+    <category>Categorie</category>
+    <private>Privé</private>
+    <from>Verzender</from>
+    <to>Ontvanger</to>
+    <notes>Notities</notes>
+    <allday>Gehele dag</allday>
+    <event>Afspraak</event>
+    <minutes>Min.</minutes>
+    <hours>Uur</hours>
+    <days>Dag(en)</days>
+    <remind_me>Herinner mij</remind_me>
+    <before>voor</before>
+    <no_repeating>Geen herhaling</no_repeating>
+    <daily>Iedere dag</daily>
+    <weekly>Iedere week</weekly>
+    <monthly>Iedere maand</monthly>
+    <yearly>Ieder jaar</yearly>
+    <end_date>Einddatum</end_date>
+    <no_end_date>Geen einddatum</no_end_date>
+    <repeat>Herhaal</repeat>
+    <every>Iedere</every>
+    <every_workday>Iedere werkdag</every_workday>
+    <recur_every>Herhaal iedere</recur_every>
+    <weeks>week/weken</weeks>
+    <on>op</on>
+    <monday>Maandag</monday>
+    <tuesday>Dinsdag</tuesday>
+    <wednesday>Woensdag</wednesday>
+    <thursday>Donderdag</thursday>
+    <friday>Vrijdag</friday>
+    <saturday>Zaterdag</saturday>
+    <sunday>Zondag</sunday>
+    <day>Dag</day>
+    <months>maand/maanden</months>
+    <first>Eerste</first>
+    <second>Tweede</second>
+    <third>Derde</third>
+    <fourth>Vierde</fourth>
+    <last>Laatste</last>
+    <week>Week</week>
+    <work_week>Werkweek</work_week>
+    <weekend>Weekend</weekend>
+    <of_every>van iedere</of_every>
+    <of>van</of>
+    <years>jaar/jaren</years>
+    <the>De</the>
+    <times>tijden</times>
+    <count>aantal</count>
+    <until>tot</until>
+    <tags>Labels</tags>
+  </event_detail>
+  <event_main>
+    <mon>Ma</mon>
+    <tue>Di</tue>
+    <wed>Wo</wed>
+    <thu>Do</thu>
+    <fri>Vrij</fri>
+    <sat>Za</sat>
+    <sun>Zo</sun>
+    <jan>Januari</jan>
+    <feb>Februari</feb>
+    <mar>Maart</mar>
+    <apr>April</apr>
+    <may>Mei</may>
+    <jun>Juni</jun>
+    <jul>Juli</jul>
+    <aug>Augustus</aug>
+    <sep>September</sep>
+    <oct>Oktober</oct>
+    <nov>November</nov>
+    <dec>December</dec>
+    <week>Week</week>
+    <week_view>Week</week_view>
+    <work_week_view>Werkweek</work_week_view>
+    <month_view>Maand</month_view>
+    <day_view>Dag</day_view>
+    <list>Lijst</list>
+    <add>Nieuwe afspraak</add>
+    <save>Opslaan</save>
+    <no_title>Geen titel</no_title>
+    <search>Zoek:</search>
+    <account>Gebruiker:</account>
+    <print>Afdrukken</print>
+  </event_main>
+  <contact_main>
+    <contact>Contact</contact>
+    <distribution_list>Distributielijst</distribution_list>
+    <title>Titel</title>
+    <no_email>Geen e-mail</no_email>
+    <card_view>Kaartenoverzicht</card_view>
+    <list_view>Lijstoverzicht</list_view>
+    <contact_name>Naam</contact_name>
+    <email>E-mailadres</email>
+    <company>Bedrijfsnaam</company>
+    <job>Beroep</job>
+    <department>Afdeling</department>
+    <profession>Beroep</profession>
+    <category>Categorie</category>
+    <general>Algemeen</general>
+    <first_name>Voornaam</first_name>
+    <middle_name>Tussenvoegsel</middle_name>
+    <last_name>Achternaam</last_name>
+    <nick>Alias</nick>
+    <sort_string>Sorteerteken</sort_string>
+    <title>Titel</title>
+    <suffix>Achtervoegsel</suffix>
+    <category>Categorie</category>
+    <web>Website</web>
+    <street>Straat</street>
+    <city>Plaats</city>
+    <zip>Postcode</zip>
+    <state>Provincie</state>
+    <country>Land</country>
+    <im>Chat</im>
+    <phones>Telefoonnummers</phones>
+    <work>Zakelijk</work>
+    <home>Privé</home>
+    <assistant>Assistent</assistant>
+    <fax_home>Fax privé</fax_home>
+    <fax_work>Fax zakelijk</fax_work>
+    <call_back>Terugbellen</call_back>
+    <company>Bedrijfsnaam</company>
+    <car>Auto</car>
+    <isdn>ISDN</isdn>
+    <mobile>Mobiel</mobile>
+    <other>Andere</other>
+    <other_fax>Andere fax</other_fax>
+    <pager>Pieper</pager>
+    <primary>Primair</primary>
+    <radio>Radio</radio>
+    <telex>Telex</telex>
+    <hearing>Teksttelefoon</hearing>
+    <add>Nieuw contactpersoon</add>
+    <notes>Notities</notes>
+    <no_name>Geen contactnaam</no_name>
+    <select>Selecteer type</select>
+    <select_contacts>Selecteer contactpersonen die wilt toevoegen</select_contacts>
+    <add_distribution>Nieuwe distributielijst</add_distribution>
+    <add_new>Toevoegen</add_new>
+    <add_item_distribution>Toevoegen uit adresboek</add_item_distribution>
+    <save>Opslaan</save>
+    <edit>Bewerk</edit>
+    <edit_selected>Bewerk geselecteerde</edit_selected>
+    <delete_selected>Verwijder</delete_selected>
+    <cancel>Annuleer</cancel>
+    <onleave_warning>Wilt u uitloggen? Alle niet-opgeslagen data gaat verloren.</onleave_warning>
+    <tags>Labels</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>Nieuwe patiënt</new_patient>
+    <new_staff>Nieuw personeelslid</new_staff>
+    <notify_email>E-mail notificatie</notify_email>
+    <notify_sms>SMS notificatie</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>Nieuw</add>
+    <staff>Personeel</staff>
+    <patient>Patient</patient>
+  </hippa_detail>
+  <grid>
+    <title>Titel</title>
+    <note>Notitie</note>
+    <size>Grootte</size>
+    <category>Categorie</category>
+    <start>Start</start>
+    <end>Einde</end>
+    <save>Opslaan</save>
+    <cancel>Annuleer</cancel>
+    <number_of_items>Aantal geselecteerde items op andere pagina&apos;s:</number_of_items>
+    <clear>Leegmaken</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Selecteer de tekst waar u een link van wilt maken.</select_text>
+    <enter_url>Voer de URL voor deze link in:</enter_url>
+    <image_location>Voer de locatie van deze afbeelding in:</image_location>
+    <image_alt>Voer de alternatieve tekst voor deze afbeelding in:</image_alt>
+    <image>Voeg afbeelding in</image>
+    <htmlsource>HTML bron</htmlsource>
+    <hyperlink>Hyperlink</hyperlink>
+    <underline>Onderstrepen</underline>
+    <italic>Cursief</italic>
+    <bold>Vet</bold>
+    <fontsize>Lettergrootte</fontsize>
+    <fontformat>Lettertype formaat</fontformat>
+    <outdent>Minder inspringen</outdent>
+    <indent>Verder inspringen</indent>
+    <orderedlist>Genummerde lijst</orderedlist>
+    <unorderedlist>Ongenummerde lijst</unorderedlist>
+    <justify>Uitvullen</justify>
+    <right>Rechts uitlijnen</right>
+    <center>Centreren</center>
+    <left>Links uitlijnen</left>
+    <blockformat>Blok formaat</blockformat>
+    <block_type>Blok type</block_type>
+    <heading>Kop</heading>
+    <paragraph>Paragraaf</paragraph>
+    <size>Grootte</size>
+    <font>Lettertype</font>
+    <cancel>Annuleer</cancel>
+    <email>E-mailadres</email>
+    <options>Opties</options>
+    <plain>Platte tekst</plain>
+    <html>HTML</html>
+    <from>Verzender</from>
+    <to>Ontvanger</to>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Onderwerp</subject>
+    <date>Datum</date>
+    <attachments>Bijlagen</attachments>
+    <text>Tekst</text>
+    <send_message>Verstuur</send_message>
+    <save_message>Opslaan</save_message>
+    <br/>
+    <spellchecker>Spellingscontroletaal</spellchecker>
+    <rrc>Vraag om leesbevestiging</rrc>
+    <ssm>Sla verzonden berichten op in de map</ssm>
+    <psa>Gebruik SmartAttach</psa>
+    <priority>Prioriteit</priority>
+    <lowest>Laagste</lowest>
+    <low>Laag</low>
+    <normal>Normaal</normal>
+    <high>Hoog</high>
+    <highest>Hoogste</highest>
+    <rta>Beantwoord aan adres</rta>
+    <charset>Karakterset</charset>
+    <auto>Automatisch</auto>
+    <original_message>-----Origineel bericht-----</original_message>
+    <read_confirmation_subject>Gelezen: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Uw bericht is gelezen.&#13;&#10;&#13;&#10;Berichtdetails:&#13;&#10;&#13;&#10;Van: %FROM%&#13;&#10;Aan: %TO%&#13;&#10;Datum: %DATE%&#13;&#10;Onderwerp: %SUBJECT%</read_confirmation_text>
+    <add_contacts>Contacten toevoegen</add_contacts>
+    <add_files>Bestand toevoegen</add_files>
+    <add_files_from_folder>Bestanden uit map toevoegen</add_files_from_folder>
+    <add_files_from_dropbox>Bestanden uit Dropbox toevoegen</add_files_from_dropbox>
+    <leave_notice>Wilt u afsluiten? Het bericht gaat verloren.</leave_notice>
+    <alias>Alias</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Nieuwe map</add>
+    <delete>Verwijder</delete>
+    <link>Gelinkt</link>
+    <unlink>Ontkoppelen</unlink>
+    <create_folder>Nieuwe map maken</create_folder>
+    <create>Aanmaken</create>
+    <delete_confirmation_text>Weet u zeker dat u deze map definitief wilt verwijderen?</delete_confirmation_text>
+    <empty_confirmation_text>Weet u zeker dat u de items in deze map definitief wilt verwijderen?</empty_confirmation_text>
+    <delete_yes>Ja</delete_yes>
+    <delete_no>Nee</delete_no>
+    <link_as>Koppel map als</link_as>
+    <unlink_as>Verwijder/hernoem map koppeling</unlink_as>
+    <unlink_confirmation_text>Weet u zeker dat u deze mapkoppeling wilt verwijderen?</unlink_confirmation_text>
+    <unlink_yes>Ja</unlink_yes>
+    <unlink_no>Nee</unlink_no>
+    <virtual>Virtuele map</virtual>
+    <delete_empty_folder>Verwijder of leeg map</delete_empty_folder>
+    <edit>Bewerk</edit>
+    <empty>Leeg</empty>
+    <rename_folder>Hernoem map</rename_folder>
+    <save>Opslaan</save>
+    <rename>Hernoem</rename>
+    <perform_action>Voer actie uit op</perform_action>
+    <select_folder>Selecteer map om te beheren</select_folder>
+    <open_folder>Open map</open_folder>
+    <open_folder_des>Gebruik het om toegang te krijgen tot de inhoud van een map.</open_folder_des>
+    <link_folder>Koppel map</link_folder>
+    <link_folder_des>Gebruik het om een snelkoppeling in het linker menu aan te maken naar een map.</link_folder_des>
+    <add_folder>Map toevoegen</add_folder>
+    <add_folder_dis>Gebruik het om een nieuwe map onder de geselecteerde map aan te maken.</add_folder_dis>
+    <rename_folder_des>Gebruik het om de geselecteerde map te hernoemen.</rename_folder_des>
+    <remove_folder>Verwijder map</remove_folder>
+    <remove_folder_des>Gebruik het om de geselecteerde map definitief te legen te verwijderen. Waarschuwing: u kunt dit niet ongedaan maken!</remove_folder_des>
+    <default_folder>Instellen als standaard map</default_folder>
+    <default_folder_des>Gebruik het om deze map als standaard map in te stellen.</default_folder_des>
+    <set_default>Stel deze map als standaard map in</set_default>
+    <set>Instellen</set>
+    <as_drafts>Concepten</as_drafts>
+    <as_sent>Verzonden</as_sent>
+    <as_trash>Prullenbak</as_trash>
+    <set_as_default>Instellen</set_as_default>
+    <link_first>Een map moet eerst gekoppeld zijn voordat hij als standaard ingesteld kan worden.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Postvak in</inbox>
+    <drafts>Concepten</drafts>
+    <sent>Verzonden</sent>
+    <trash>Prullenbak</trash>
+  </common_folders>
+  <common>
+    <yes>Ja</yes>
+    <no>Nee</no>
+  </common>
+  <folder_types>
+    <mail>E-mail</mail>
+    <contact>Contactpersoon</contact>
+    <event>Agenda</event>
+    <journal>Dagboek</journal>
+    <note>Notitie</note>
+    <task>Taak</task>
+    <file>Bestand</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA validatie mislukt. Probeer het opnieuw.</login_invalid_keypair>
+    <divtcha_confirmation>Verkeerde captcha code</divtcha_confirmation>
+    <missing_values_text>Leeg tekstveld</missing_values_text>
+    <missing_values_email>Leeg e-mailadresveld</missing_values_email>
+    <invalid_email>Ongeldig e-mailadres</invalid_email>
+    <password_not_changed>Nieuw wachtwoord kan niet gelijk zijn aan het oude wachtwoord</password_not_changed>
+    <reset_password_invalid_hashid>Onjuist hash ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID bestand bestaat niet</reset_password_uid_file>
+    <account_alternative_email>Account heeft geen alternatief e-mailadres</account_alternative_email>
+    <migration_in_progress>Account wordt gemigreerd. Probeer het later a.u.b. opnieuw.</migration_in_progress>
+    <login_ip_invalid>Login IP beperking: %s</login_ip_invalid>
+    <unauthorized>Ongeautoriseerde toegang</unauthorized>
+    <folder_type_restricted>Dit maptype is niet toegestaan door de beheerder</folder_type_restricted>
+    <account_does_not_exists>Opgegeven account bestaat niet</account_does_not_exists>
+    <account_invalid_id>Kan het account %s niet vinden</account_invalid_id>
+    <account_unknown_protocol>Onbekend account protocol</account_unknown_protocol>
+    <account_missing_tag>Account mist label %s</account_missing_tag>
+    <account_missing_id>Account ID mist</account_missing_id>
+    <account_invalid_action>Account actie is onjuist</account_invalid_action>
+    <account_already_exists>Account %s bestaat al</account_already_exists>
+    <account_no_username>Account gebruikersnaam mist of is leeg</account_no_username>
+    <account_no_password>Account wachtwoord mist of is leeg</account_no_password>
+    <account_bad_password>Oude wachtwoord is onjuist</account_bad_password>
+    <account_password_policy>Wachtwoord voldoet niet aan het wachtwoordbeleid</account_password_policy>
+    <account_sync>Accountsynchronisatie voor account %s mislukt</account_sync>
+    <account_primary_delete>Kan primaire account niet verwijderen</account_primary_delete>
+    <account_test_failed>Accounttest voor %s mislukt</account_test_failed>
+    <account_signup_disabled>Inschrijving is uitgeschakeld</account_signup_disabled>
+    <account_signup_error>Account inschrijvingsfout: %s</account_signup_error>
+    <account_signup_1>Onbekende fout</account_signup_1>
+    <account_signup_2>Licentie is ontoereikend</account_signup_2>
+    <account_signup_3>Lengte van parameters te kort</account_signup_3>
+    <account_signup_4>Functiefout</account_signup_4>
+    <account_signup_5>Configuratie niet gevonden</account_signup_5>
+    <account_signup_6>Wachtwoordbeleid</account_signup_6>
+    <account_signup_7>Account bestaat al</account_signup_7>
+    <account_signup_8>Ongeldige tekens</account_signup_8>
+    <attachment_too_large>Bijlage is te groot: %s</attachment_too_large>
+    <password_confirmation>Onjuist wachtwoord</password_confirmation>
+    <missing_values>Onjuist wachtwoord</missing_values>
+    <addon_copy>Kan add-on niet kopiëren</addon_copy>
+    <attachment_file_not_found>Kan bestand niet toevoegen</attachment_file_not_found>
+    <attachment_add>Het is niet gelukt een bijlage toe te voegen</attachment_add>
+    <attachment_get>Kan bijlage %s niet downloaden</attachment_get>
+    <attacment_class_unknown>Onbekende bijlageklasse</attacment_class_unknown>
+    <auth_missing_tag>Authenticatie mist label %s</auth_missing_tag>
+    <auth_export_key_private>Kan privésleutel niet exporteren</auth_export_key_private>
+    <auth_invalid_char>Ongeldig karakter in privésleutel</auth_invalid_char>
+    <confirmation_uid>Captcha sessie niet gevonden</confirmation_uid>
+    <confirmation_word_mismatch>Captcha onjuist ingevoerd</confirmation_word_mismatch>
+    <db_auto_create>Can database niet automatisch aanmaken</db_auto_create>
+    <db_create_sqlitefile>Can SQLite databasebestand niet aanmaken</db_create_sqlitefile>
+    <db_create_tables>Kan tabellen niet aanmaken</db_create_tables>
+    <db_statement_prepare>Kan SQL statement niet voorbereiden</db_statement_prepare>
+    <db_invalid_statement>Onjuist SQL querytype</db_invalid_statement>
+    <flags_unknown_field>Onjuist vlagveld</flags_unknown_field>
+    <folder_autocreate_failed>Automatisch aanmaken van map %s mislukt</folder_autocreate_failed>
+    <folder_already_exists>Map %s bestaat al</folder_already_exists>
+    <folder_does_not_exist>Map %s bestaat niet</folder_does_not_exist>
+    <folder_name_bad_char>Bijzondere karakters niet toegestaan in mapnaam</folder_name_bad_char>
+    <folder_name_length>Kan mapnaamlengte niet bepalen</folder_name_length>
+    <folder_name_too_long>Nieuwe naam van de map is te lang</folder_name_too_long>
+    <folder_get_list>Kan de lijst van mappen niet verkrijgen</folder_get_list>
+    <folder_delete>Kan map %s niet verwijderen</folder_delete>
+    <folder_create>Kan map %s niet aanmaken</folder_create>
+    <folder_rename_empty>Kan map niet hernoemen naar een lege naam</folder_rename_empty>
+    <folder_move_to_self>Kan map niet naar zichzelf verplaatsen</folder_move_to_self>
+    <folder_move_to_subfolder>Kan map niet verplaatsen naar een submap van zichzelf</folder_move_to_subfolder>
+    <folder_rename>Kan map niet hernoemen</folder_rename>
+    <folder_copy>Kan map niet kopiëren</folder_copy>
+    <folder_empty>Kan map niet legen</folder_empty>
+    <folder_missing_tag>Map mist label %s</folder_missing_tag>
+    <folder_missing_account_id>Map mist account ID</folder_missing_account_id>
+    <folder_invalid_account_id>Map heeft een ongeldig account ID %s</folder_invalid_account_id>
+    <folder_missing_id>Map ID mist</folder_missing_id>
+    <folder_missing_name>Mapnaam mist</folder_missing_name>
+    <folder_invalid_action>Ongeldige actie op map %s</folder_invalid_action>
+    <folder_invalid_type>Ongeldig type map %s</folder_invalid_type>
+    <folder_sync>Kan map %s niet synchroniseren</folder_sync>
+    <folder_empty_non_mail>Kan niet-e-mail map niet legen</folder_empty_non_mail>
+    <folder_insufficient_rights>Onvoldoende rechten om deze actie uit te voeren</folder_insufficient_rights>
+    <folder_mark_non_mail>Bezig te proberen vlaggen van een niet-e-mail map te zetten</folder_mark_non_mail>
+    <freebusy_missing_tag>FreeBusy label mist %s</freebusy_missing_tag>
+    <group_open>Kan groep %s niet openen</group_open>
+    <group_subscribe>Kan niet abonneren op groep %s</group_subscribe>
+    <group_add>Kan groep niet maken</group_add>
+    <group_edit>Kan groep %s niet bewerken</group_edit>
+    <group_user_add>Kan gebruikers niet aan groep %s toevoegen</group_user_add>
+    <group_user_edit>Kan groepgebruiker %s niet bewerken</group_user_edit>
+    <group_user_delete>Kan groepgebruiker %s niet verwijderen</group_user_delete>
+    <groupware_upgrade_task>GroupWare service update procedure is running. Probeer het later nog eens.</groupware_upgrade_task>
+    <folder_open>Kan groep %s niet openen</folder_open>
+    <call_open_folder_first>GroupWare-map niet geopend terwijl dat wel vereist is</call_open_folder_first>
+    <call_open_group_first>GroupWare-map niet geopend terwijl dat wel vereist is</call_open_group_first>
+    <subscribe_account_gw>Fout bij abonneren van account</subscribe_account_gw>
+    <unsubscribe_account_gw>Fout bij uitschrijven van account</unsubscribe_account_gw>
+    <imap_clone>Kan IMAP-object niet klonen</imap_clone>
+    <imap_open>Kan IMAP-stream niet openen</imap_open>
+    <imap_internal>Internet IMAP fout: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP-fout bij binnenhalen van scheidingsteken</imap_delimiter_retrieval>
+    <imap_getmailboxes>Kan geen lijst van mailboxen laden</imap_getmailboxes>
+    <imap_mailbox_create>IMAP-fout bij het aanmaken van mailbox %s</imap_mailbox_create>
+    <imap_mailbox_subscribe>Kan niet abonneren op mailbox %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>Kan mailbox %s niet verwijderen</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Kan niet uitschrijven van mailbox %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP-fout bij het hernoemen van mailbox %s</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP mailbox verwijder items</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP mailbox leeg items</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP-fout bij kopiëren van items</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP-fout bij verplaatsen van items</imap_mailbox_moveitems>
+    <imap_mailbox_open>Kan mailbox %s niet heropenen</imap_mailbox_open>
+    <imap_mailbox_message_list>Kan geen lijst van berichten verkrijgen</imap_mailbox_message_list>
+    <imap_message_details>Kan geen details voor bericht %s laden</imap_message_details>
+    <imap_no_headers>Kan de headers van bericht %s niet laden</imap_no_headers>
+    <imap_no_body>Kan de inhoud van bericht %s niet laden</imap_no_body>
+    <imap_message_create>Kan bericht niet bijvoegen</imap_message_create>
+    <imap_message_delete>Kan bericht %s niet verwijderen</imap_message_delete>
+    <imap_message_copy>Kan bericht %s niet kopiëren</imap_message_copy>
+    <imap_message_move>Kan bericht %s niet verplaatsen</imap_message_move>
+    <imap_flags_set>Kan de vlaggen niet zetten voor bericht %s</imap_flags_set>
+    <imap_flags_clear>Kan de vlaggen niet verwijderen voor bericht %s</imap_flags_clear>
+    <imap_message_not_found>Nieuw bericht niet gevonden in bestemmingsmailbox</imap_message_not_found>
+    <subscribe_account_imap>Fout bij abonneren op account</subscribe_account_imap>
+    <unsubscribe_account_imap>Fout bij uitschrijven van account</unsubscribe_account_imap>
+    <import_vcalendar>Import van vCalendar mislukt</import_vcalendar>
+    <import_vcard>Import van vCard mislukt</import_vcard>
+    <import_missing_tag>Import label mist %s</import_missing_tag>
+    <import_missing_action>Import actie mist</import_missing_action>
+    <import_invalid_action>Onjuist importactie %s</import_invalid_action>
+    <import_missing_account_id>Import mist account ID</import_missing_account_id>
+    <import_invalid_account_id>Import heeft onjuist account ID</import_invalid_account_id>
+    <import_missing_folder_id>Import mist map ID</import_missing_folder_id>
+    <import_invalid_folder_id>Import heeft onjuist map ID</import_invalid_folder_id>
+    <import_invalid_item_id>Import heeft onjuist item ID</import_invalid_item_id>
+    <import_add_items>Kan geen item(lijst) maken</import_add_items>
+    <import_invalid_data>Proberen niet-ondersteunde data te importeren</import_invalid_data>
+    <export_invalid_account>Probeert een niet-bestaand account te exporteren</export_invalid_account>
+    <imip_versit_convert>iMIP versit conversie</imip_versit_convert>
+    <imip_versit_empty>iMIP versit leeg</imip_versit_empty>
+    <imip_missing_folder>iMIP mist map</imip_missing_folder>
+    <inputstream_no_xml_input>Geen XML aangeleverd</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Corrupte XML aangeleverd</inputstream_corrupted_input>
+    <item_invalid_id>Geen item ID</item_invalid_id>
+    <item_count>Kan aantal items niet tellen</item_count>
+    <item_create>Kan item niet verwijderen</item_create>
+    <item_delete>Item %s kan niet worden verwijderd</item_delete>
+    <item_move>Item kan niet worden verplaats</item_move>
+    <item_edit>Bewerkingsfout voor item %s</item_edit>
+    <item_occurrance_delete>Kan gebeurtenis %s niet verwijderen</item_occurrance_delete>
+    <item_occurrance_create>Kan gebeurtenis niet aanmaken</item_occurrance_create>
+    <item_exception_delete>Kan uitzondering %s niet verwijderen</item_exception_delete>
+    <item_exception_create>Kan uitzondering niet aanmaken</item_exception_create>
+    <item_copy>Kan item niet kopiëren</item_copy>
+    <item_copy_multiple>Kan meerdere items niet kopiëren</item_copy_multiple>
+    <item_copy_destination>Kan de bestemmingsmap niet vinden</item_copy_destination>
+    <item_copy_destination_type>Kan niet kopiëren naar een map met een ander type dan de bronmap</item_copy_destination_type>
+    <item_count_retrieve>Kan aantal items in map niet tellen</item_count_retrieve>
+    <item_missing_tag>Item label mist</item_missing_tag>
+    <item_missing_account_id>Mist account ID</item_missing_account_id>
+    <item_invalid_account_id>Onjuist account ID %s</item_invalid_account_id>
+    <item_missing_folder_id>Map ID mist</item_missing_folder_id>
+    <item_invalid_folder_id>Onjuist map ID %s</item_invalid_folder_id>
+    <item_missing_item_id>Item ID mist</item_missing_item_id>
+    <item_invalid_item_id>Onjuist item ID %s</item_invalid_item_id>
+    <item_invalid_action>Onjuiste item actie</item_invalid_action>
+    <login_invalid>Onjuiste login voor gebruiker %s</login_invalid>
+    <login_account_valid>Onjuist account %s</login_account_valid>
+    <phpmailer_>Algemene fout, bericht is niet verzonden</phpmailer_>
+    <phpmailer_smtp_auth>Mailer kon niet authenticeren, bericht is niet verzonden</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer kon niet verbinden met SMTP, bericht is niet verzonden</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer mist ontvangers, bericht is niet verzonden</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer ondersteunt dit berichttype niet, bericht is niet verzonden</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail verzendfout</phpmailer_sendmail_send>
+    <phpmailer_mail_send>E-mail verzendfout</phpmailer_mail_send>
+    <phpmailer_language>Kan taalbestand niet openen</phpmailer_language>
+    <phpmailer_add_attachment>Kan bestand niet bijvoegen</phpmailer_add_attachment>
+    <phpmailer_encode_file>Kan bijlage niet coderen</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Onbekende codering van bijlage</phpmailer_encode_unknown>
+    <mailparse_empty>Geen bron om te verwerken</mailparse_empty>
+    <mailparse_parser_init>Verwerking van de e-mail is mislukt</mailparse_parser_init>
+    <mailparse_get_part>Het het volgende deel niet verkrijgen %s</mailparse_get_part>
+    <message_missing_tag>Bericht mist markering %s</message_missing_tag>
+    <message_missing_account_id>Bericht mist account ID</message_missing_account_id>
+    <message_invald_account>Bericht ongeldige account-ID</message_invald_account>
+    <message_missing_folder_id>Bericht ontbreekt map-ID</message_missing_folder_id>
+    <message_invald_folder>Bericht ongeldige map-ID</message_invald_folder>
+    <message_missing_item_id>Bericht ontbreekt item-ID</message_missing_item_id>
+    <message_invalid_action>Bericht ongeldige actie</message_invalid_action>
+    <message_get_not_allowed>Kan mappenlijst niet bijwerken vanwege onvoldoende rechten</message_get_not_allowed>
+    <message_attachment_type>Kan volgende bijlage niet verwerken %s</message_attachment_type>
+    <message_attachment_existence>Recent bijgewerkte bijlage niet gevonden</message_attachment_existence>
+    <rss_channel_exist>Opgegeven URL van kanaal kan niet worden geopend %s</rss_channel_exist>
+    <rss_invalid_channel>Geen toegang tot kanaal</rss_invalid_channel>
+    <settings_access_denied>Toegang geweigerd</settings_access_denied>
+    <settings_missing_tag>Missende markering instellen %s</settings_missing_tag>
+    <settings_duplicity>XML instellingenbestand onjuiste opmaak</settings_duplicity>
+    <settings_get_domain_file>Kan domeininstellingenbestand %s niet lezen</settings_get_domain_file>
+    <settings_domain_set>Instellingen stellen domeininstellingen in op bestand %s</settings_domain_set>
+    <settings_user_set>Geen toegang tot gebruikersinstellingen in bestand %. Controleer machtigingen en e-mailmap.</settings_user_set>
+    <settings_public_set>Instellingen stellen openbare gegevens in op bestand %s</settings_public_set>
+    <settings_shared_set>Kan de gedeelde accounts niet opslaan</settings_shared_set>
+    <settings_owner_set>Kan de eigenaarinstellingen niet instellen</settings_owner_set>
+    <session_expired>Sessie %s is verlopen</session_expired>
+    <session_no_user>Sessie gebruikersobject kan niet worden opgehaald</session_no_user>
+    <smime_no_recipient>SMIME geen ontvanger</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP-gegevens niet geaccepteerd van server: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP van: mislukt (van)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP-ontvangers mislukt (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Kan de spellingcontrolemodus niet instellen</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Kan woordenboek voor spellingcontrole (dic) niet openen</spellchecker_open_dictionary>
+    <spellchecker_add_word>Kan geen nieuw woord %s toevoegen aan woordenboek</spellchecker_add_word>
+    <spellchecker_missing_check_id>Ontbrekende woord-ID</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Ontbrekende tag %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Woordenboek-ID ontbreekt</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Ontbrekend woord</spellchecker_missing_word>
+    <upload_tag_missing>Upload-tag ontbreekt</upload_tag_missing>
+    <upload_missing_attribute>Upload ontbrekend kenmerk</upload_missing_attribute>
+    <upload_attachment_missing>Uploadbijlage ontbreekt</upload_attachment_missing>
+    <xml_invalid_file_name>XML-bestandsnaam is leeg</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath heeft meer dan één resultaat geretourneerd in uw zoekopdracht</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML-gespecificeerd knooppun t%s niet gevonden</xml_node_does_not_exist>
+    <xmlrequest_path>Ongeldig sjabloonbestand (pad)</xmlrequest_path>
+    <xmlrequest_access_denied>Toegang geweigerd</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Ongeldig verzoektype (type)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Naamruimte-kenmerk ontbreekt</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Ontbrekende of ongeldige SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XMLRequest-tag ontbreekt %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Ontbrekende klasseconstructor</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Onbekend resultaatformaat %s</xmlrequest_unkown_format>
+    <not_implemented>Nog niet geïmplementeerd</not_implemented>
+    <logdir_create>Kan de logboekregistratiemap %s niet maken</logdir_create>
+    <api_property_get>Kan eigenschappen voor %s niet ophalen</api_property_get>
+    <wm_disabled>WebClient is uitgeschakeld</wm_disabled>
+    <gw_init_error>GroupWare-initialisatiefout</gw_init_error>
+    <default>Standaard uitzondering %s</default>
+    <other_accounts_disabled>Het aanmaken van andere accounts is uitgeschakeld</other_accounts_disabled>
+    <link_compressed_variable_missing>Fout in URL, u werd omgeleid naar het hoofdscherm</link_compressed_variable_missing>
+    <login_expired>Inloggen verlopen, log opnieuw in</login_expired>
+    <account_disabled>Account is uitgeschakeld</account_disabled>
+    <folder_set_default>Map &quot;%s&quot; kan niet als standaard worden ingesteld</folder_set_default>
+    <personality_confirmation_invalid_user>E-mailadres kan niet worden bevestigd: Ongeldige gebruiker</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>E-mailadres kan niet worden bevestigd: ongeldige hash</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Blacklist-item mislukt</item_blacklist_error>
+    <item_whitelist_error>Item op witte lijst is mislukt</item_whitelist_error>
+    <unverified_signature>Ondertekening kan niet gecontroleerd worden</unverified_signature>
+    <account_is_guest>Toegang niet toegestaan voor gasten</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Itemselectie gewist</item_selection_cleared>
+    <logged_out>Je bent uitgelogd</logged_out>
+    <message_send_ok>Bericht verzonden</message_send_ok>
+    <item_move_ok>Item (s) verplaatst</item_move_ok>
+    <item_copy_ok>Item(s) gekopieerd</item_copy_ok>
+    <item_delete_ok>Item (s) verwijderd</item_delete_ok>
+    <item_mark_ok>Item (s) gemarkeerd</item_mark_ok>
+    <settings_save_ok>Instellingen opgeslagen</settings_save_ok>
+    <loading_next_message>Volgende bericht laden</loading_next_message>
+    <loading_prev_message>Vorig bericht laden</loading_prev_message>
+    <loading_next_page>Volgende pagina laden</loading_next_page>
+    <loading_prev_page>Vorige pagina laden</loading_prev_page>
+    <loading_next_month>Volgende maand laden</loading_next_month>
+    <loading_prev_month>Laden vorige maand</loading_prev_month>
+    <loading_next_week>Volgende week laden</loading_next_week>
+    <loading_prev_week>Vorige week geladen</loading_prev_week>
+    <loading_next_day>Volgende dag laden</loading_next_day>
+    <loading_prev_day>De vorige dag geladen</loading_prev_day>
+    <password_change_ok>Password changed</password_change_ok>
+    <item_whitelist_ok>Item is toegevoegd aan witte lijst</item_whitelist_ok>
+    <item_blacklist_ok>Item is toegevoegd aan zwarte lijst</item_blacklist_ok>
+    <folder_set_default_ok>Map ingesteld als standaard</folder_set_default_ok>
+    <subscribe_account_ok>Account aangemeld</subscribe_account_ok>
+    <subscribe_folder_ok>Map geabonneerd</subscribe_folder_ok>
+    <item_decline_ok>Artikel geweigerd</item_decline_ok>
+    <access_granted>U heeft toegang gekregen tot &quot;%s&quot; door &quot;%s&quot;.</access_granted>
+    <message_save_ok>Bericht opgeslagen</message_save_ok>
+    <item_accept_ok>Item geaccepteerd</item_accept_ok>
+  </messages>
+</language>

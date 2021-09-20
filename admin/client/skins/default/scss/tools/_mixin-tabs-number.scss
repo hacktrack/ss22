@@ -1,0 +1,78 @@
+@mixin tabs-order($tabs-number) {
+
+	@if $tabs-number == 2 {
+
+		&:nth-child(-n+30) { order: 5;
+			&:checked + .tabs-label + .tabs-content { order: 6; }
+		}
+		&:nth-child(-n+24) { order: 4;
+			&:checked + .tabs-label + .tabs-content { order: 5; }
+		}
+		&:nth-child(-n+18) { order: 3;
+			&:checked + .tabs-label + .tabs-content { order: 4; }
+		}
+		&:nth-child(-n+12) { order: 2;
+			&:checked + .tabs-label + .tabs-content { order: 3; }
+		}
+		&:nth-child(-n+6) { order: 1;
+			&:checked + .tabs-label + .tabs-content { order: 2; }
+		}
+	}
+
+	@if $tabs-number == 3 {
+
+		&:nth-child(-n+36) { order: 4;
+			&:checked + .tabs-label + .tabs-content { order: 5; }
+		}
+		&:nth-child(-n+27) { order: 3;
+			&:checked + .tabs-label + .tabs-content { order: 4; }
+		}
+		&:nth-child(-n+18) { order: 2;
+			&:checked + .tabs-label + .tabs-content { order: 3; }
+		}
+		&:nth-child(-n+9)  { order: 1;
+			&:checked + .tabs-label + .tabs-content { order: 2; }
+		}
+	}
+
+	@if $tabs-number == 4 {
+		&:nth-child(-n+36) { order: 3;
+			&:checked + .tabs-label + .tabs-content { order: 4; }
+		}
+		&:nth-child(-n+24) { order: 2;
+			&:checked + .tabs-label + .tabs-content { order: 3; }
+		}
+		&:nth-child(-n+12)  { order: 1;
+			&:checked + .tabs-label + .tabs-content { order: 2; }
+		}
+	}
+
+	@if $tabs-number == 5 {
+		&:nth-child(-n+30) { order: 2;
+			&:checked + .tabs-label + .tabs-content { order: 3; }
+		}
+		&:nth-child(-n+15) { order: 1;
+			&:checked + .tabs-label + .tabs-content { order: 2; }
+		}
+	}
+}
+
+
+@mixin tabs-number($small-tabs: 1, $medium-tabs: 3, $large-tabs: 5) {
+
+	.tabs-label {
+
+		@media #{$small-up} 	{ width: percentage(1 / $small-tabs); }
+		@media #{$medium-up} 	{ width: percentage(1 / $medium-tabs); }
+		@media #{$large-up} 	{ width: percentage(1 / $large-tabs); }
+	}
+
+	& > .tabs-label,
+	& > .tabs-content,
+	& > .tabs-radio {
+
+		@media #{$small-up} 	{ @include tabs-order($small-tabs); }
+		@media #{$medium-up} 	{ @include tabs-order($medium-tabs); }
+		@media #{$large-up} 	{ @include tabs-order($large-tabs); }
+	}
+}

@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'ico16';
+
+	src:url('../fonts/ico16/ico16.eot');
+	src:url('../fonts/ico16/ico16.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ico16/ico16.woff') format('woff'),
+		url('../fonts/ico16/ico16.ttf') format('truetype'),
+		url('../fonts/ico16/ico16.svg#ico16') format('svg');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: "Roboto","lucida Grande","lucida sans unicode",sans-serif;
+
+	background: #FFF;
+	color: #333;
+}
+body.rtl {
+	direction: rtl;
+}
+body:lang(he) {
+	font-family: "Heebo","lucida Grande","lucida sans unicode",sans-serif;
+}
+
+body>div>div{
+	position: relative;
+}
+
+body>div{
+	padding-bottom: 5pt;
+}
+span.btnx{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+
+	color: #AAA;
+	background-color: #FFF;
+	cursor: default;
+}
+.rtl span.btnx {
+	left: 0;
+	right: auto;
+}
+	span.btnx:hover{
+		color: #333;
+	}
+	span.btnx:after{
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: normal;
+		font-style: normal;
+		font-family: 'ico16';
+		content: '\e036';
+	}
+
+h2{
+	font-size: 12pt;
+	line-height: 24pt;
+	margin: 0;
+
+	display: inline-block;
+}
+
+table{
+	border-collapse: collapse;
+    empty-cells: hide;
+}
+th,td{
+	font-weight: normal;
+	font-size: 10pt;
+}
+th{
+	text-align: left;
+	padding-right: 10pt;
+	white-space: nowrap;
+	vertical-align: top;
+	padding-right: 10px;
+}
+p{
+	margin: 7px 0 5pt 0;
+	font-size: 10pt;
+	color: #666666;
+}
+
+h3,h4{
+	font-size: 10pt;
+	margin: 2pt 0;
+	font-weight: normal;
+}
+
+div.card{
+	clear: both;
+	padding: 10pt;
+
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+}
+
+#C>div>div.char{
+	display: inline-block;
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 18pt;
+	text-align: center;
+	width: 18pt;
+
+	background-color: #000;
+	color: #FFF;
+	/* background is not printed by default */
+	border: 1pt solid #000;
+}
+
+#T td.col1{
+	vertical-align: top;
+	width: 100%;
+}
+#T td.col2{
+	vertical-align: top;
+}
+#T td.col2 table td {
+	white-space: nowrap;
+}
+#T th{
+	font-weight: bold;
+}
+
+#T>div{
+	border-bottom: 2px solid #000;
+}
+#T>div:last-child{
+	border-bottom: none;
+}
+
+@media print {
+	body { color: #000; background-color: #FFF }
+}

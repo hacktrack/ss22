@@ -1,0 +1,69 @@
+/* Smile box */
+div.obj_smilebox {
+	height: 100%;
+}
+
+div.obj_smilebox .obj_tab{
+	padding: 10px;
+}
+
+/* tab icons */
+
+div.obj_smilebox .obj_tabs > .obj_tabsheader li::before {
+    content: '\e084';
+}
+div.obj_smilebox .obj_tabs > .obj_tabsheader li.ico_nature::before {
+	content: '\e089';
+}
+div.obj_smilebox .obj_tabs > .obj_tabsheader li.ico_objects::before {
+	content: '\e088';
+}
+div.obj_smilebox .obj_tabs > .obj_tabsheader li.ico_activity::before {
+	content: '\e08c';
+}
+div.obj_smilebox .obj_tabs > .obj_tabsheader li.ico_food::before {
+	content: '\e08a';
+}
+div.obj_smilebox .obj_tabs > .obj_tabsheader li.ico_places::before {
+	content: '\e086';
+}
+div.obj_smilebox .obj_tabs > .obj_tabsheader li.ico_flags::before {
+	content: '\e08b';
+}
+div.obj_smilebox .obj_tabs > .obj_tabsheader li.ico_symbols::before {
+	content: '\e087';
+}
+
+
+div.obj_smilebox .obj_tabmain h2{
+	font-weight: 500;
+	font-size: 14px;
+	margin: 5px 5px 10px;
+}
+	div.obj_smilebox .obj_tabmain h2:first-letter {
+	    text-transform: uppercase;
+	}
+
+
+div.obj_smilebox .obj_tabmain span{
+	display: inline-block;
+	padding: 3px;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	font-size: 0;
+}
+
+div.obj_smilebox .obj_tabmain img{
+	margin: 0;
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	border: 1px solid transparent;
+}
+
+div.obj_smilebox .obj_tabmain span:hover{
+	border-color: {bg_main '#0088CC'};
+}
+div.obj_smilebox .obj_tabmain span b{
+	display: inline-block;
+}

@@ -1,0 +1,17 @@
+// Controls color in modal messages
+@mixin mixin-message-color {
+
+	@each $selector, $color in $message-color-map {
+
+		&.type_#{$selector} {
+
+			@include theme($selector, $color) {
+				border-color: $theme-color;
+
+				.box-head-title {
+					color: $theme-color;
+				}
+			}
+		}
+	}
+}

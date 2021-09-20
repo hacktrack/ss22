@@ -1,0 +1,302 @@
+.obj_groupfiles_item{
+	border-bottom: 1px solid #EDEDED;
+}
+.obj_groupfiles section:last-child>.obj_groupfiles_item{
+	border-bottom-color: transparent;
+}
+
+.obj_groupfiles_item>.file{
+	display: table;
+	width: 100%;
+}
+
+/*.obj_groupfiles_item.share,*/
+.obj_groupfiles section.active .obj_groupfiles_item,
+.obj_groupfiles_item:hover{
+	background-color: #F7FBFD;
+}
+
+/* item */
+	/*.obj_groupfiles_item.share>.file>div.control div,*/
+	.obj_groupfiles_item:hover>.file>div.control div,
+	.obj_groupfiles section.active .obj_groupfiles_item>.file>div.control div{
+		visibility: visible;
+	}
+
+	.obj_groupfiles_item>.file>div{
+		display: table-cell;
+		white-space: nowrap;
+		line-height: 50px;
+		padding: 0 10px;
+		cursor: default;
+	}
+
+	.obj_groupfiles_item>.file>div.icon{
+		width: 40px;
+		color: {bg_main '#0088CC'};
+	}
+	.obj_groupfiles_item>.file>div.avatar,
+	.obj_groupfiles_item>.file>div.date,
+	.obj_groupfiles_item>.file>div.control{
+		width: 0;
+	}
+
+	.obj_groupfiles_item>.file>div.date{
+		color: #888;
+	}
+
+	.obj_groupfiles_item>.file>div.icon:after{
+		font-family: 'filetypes';
+		content: '\e21';
+		font-size: 32px;
+		vertical-align: middle;
+	}
+
+	.obj_groupfiles_item>.file>div.name{
+		position: relative;
+		padding: 0;
+		cursor: pointer;
+		width: 100%;
+	}
+		.obj_groupfiles_item>.file>div.name>div{
+			position: absolute;
+			left: 10px;
+			right: 10px;
+			top: 0;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		.obj_groupfiles_item>.file>div.name:hover .filename{
+			color: {bg_main '#0088CC'};
+		}
+
+	.obj_groupfiles_item>.file>div.name span.draft{
+		font-size: 11px;
+		padding: 0 7px;
+		display: inline-block;
+		line-height: 21px;
+
+		border: 1px solid #CACACA;
+		border-color: rgba(0,0,0,0.2);
+		border-radius: 2px;
+		background-color: #F9DEDF;
+		margin-left: 10px;
+	}
+
+	.obj_groupfiles_item>.file>div.name span.size:before{
+		content: '(';
+		margin-left: 10px;
+	}
+	.obj_groupfiles_item>.file>div.name span.size:after{
+		content: ')';
+	}
+
+		.obj_groupfiles_item>.file>div.avatar>span{
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			vertical-align: middle;
+
+			background-origin: border-box;
+			background-size: cover;
+			overflow: hidden;
+
+			border-radius: 15px;
+		}
+
+	.obj_groupfiles_item>.file>div.control{
+		padding: 0;
+	}
+
+	.obj_groupfiles_item>.file>div.control div{
+		visibility: hidden;
+
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+		display: inline-block;
+		margin-left: 10px;
+/*
+		position: relative;
+		top: 10px;
+*/
+		line-height: 30px;
+		vertical-align: middle;
+
+		background-color: transparent;
+		color: {bg_main '#0088CC'};
+		cursor: pointer;
+		transition: background-color 200ms, color 200ms;
+	}
+
+	.obj_groupfiles_item>.file>div.control div:hover,
+	.obj_groupfiles_item>.file>div.control div.lock.locked{
+		color: #FFF;
+		background-color: {bg_main_darker '#006DA3'};
+	}
+
+	.obj_groupfiles_item>.file>div.control div:after{
+		font-weight: normal;
+		font-family: 'ico30';
+		font-size: 30px;
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}
+
+		.obj_groupfiles_item>.file>div.control div.lock.locked{
+			visibility: visible;
+		}
+			.obj_groupfiles_item>.file>div.control div.lock.locked.red{
+				color: #FFF;
+				background-color: #BE3F2E!important;
+			}
+
+		.obj_groupfiles_item>.file>div.control div.lock:after{
+			content: '\e00a';
+		}
+
+		.obj_groupfiles_item>.file>div.control div.share:after{
+			content: '\e008';
+		}
+		.obj_groupfiles_item>.file>div.control div.download:after{
+			content: '\e009';
+		}
+
+
+	.obj_groupfiles_item>.file>div.control form.obj_button{
+		display: none;
+		float: none;
+		display: inline-block;
+		visibility: hidden;
+		position: relative;
+		top: 11px;
+	}
+
+	.obj_groupfiles_item>.file>div.control form.obj_button.ico.download:after{
+		content: "\e07f";
+	}
+
+	/* edit */
+	.obj_groupfiles_item.edit>.file>div.name>div{
+		display: none;
+	}
+
+	.obj_groupfiles_item.edit>.file>div.name>.obj_input{
+		top: 10px;
+		background-color: transparent;
+	}
+
+	/* share */
+	/*
+	.obj_groupfiles_item>.share{
+		position: relative;
+		left: 0;
+		top: 0;
+
+		width: 100%;
+		height: 100%;
+		background-color: inherit;
+
+		max-height: 0;
+		opacity: 0;
+		overflow: hidden;
+
+		transition: max-height 800ms, 150ms opacity 300ms;
+		-webkit-transition: max-height 800ms, 150ms opacity 300ms;
+	}
+	.obj_groupfiles_item.share>.share{
+		max-height: 100px;
+		opacity: 1;
+	}
+
+	.obj_groupfiles_item>.share>.block{
+		width: 50%;
+		float: left;
+		padding: 0px 15px 20px 25px;
+	}
+	.obj_groupfiles_item>.share>.block.email{
+		padding: 0px 25px 20px 15px;
+	}
+
+	.obj_groupfiles_item>.share:after{
+		content:"";
+		display: block;
+		float: none;
+		clear: both;
+	}
+
+	.obj_groupfiles_item>.share h4{
+		margin: 0;
+		font-weight: 500;
+	}
+
+	.obj_groupfiles_item>.share form.obj_button{
+		border-radius: 0 2px 2px 0;
+		display: block;
+		float: left;
+	}
+	.obj_groupfiles_item>.share .block.email form.obj_input{
+		border-radius: 2px 0 0 2px;
+		border-right-width: 0;
+	}
+
+	.obj_groupfiles_item>.share div.or{
+		position: absolute;
+		left: 50%;
+		margin-left: -20px;
+		width: 40px;
+
+		top: 17px;
+		bottom: 10px;
+
+		background-color: inherit;
+		text-align: center;
+		padding-top: 11px;
+	}
+	.obj_groupfiles_item>.share div.or>span{
+		position: relative;
+		z-index: 10;
+		background-color: inherit;
+		padding: 5px 0;
+		color: #888;
+	}
+
+	.obj_groupfiles_item>.share div.or:after{
+		content: '';
+		position: absolute;
+		left: 20px;
+		top: 0;
+		height: 100%;
+		width: 1px;
+		background-color: #EDEDED;
+	}
+	*/
+
+/* ico color */
+.obj_groupfiles_item>.file>div.ico_xls,
+.obj_groupfiles_item>.file>div.ico_xlsx{
+	color: #227346;
+}
+.obj_groupfiles_item>.file>div.ico_doc,
+.obj_groupfiles_item>.file>div.ico_docx{
+	color: #2A579A;
+}
+.obj_groupfiles_item>.file>div.ico_ppt,
+.obj_groupfiles_item>.file>div.ico_pptx{
+	color: #B54628;
+}
+
+.obj_groupfiles_item>.file>div.ico_pdf{
+	color: #EA1C0F;
+}
+.obj_groupfiles_item>.file>div.ico_html{
+	color: #F16529;
+}
+.obj_groupfiles_item>.file>div.ico_swf{
+	color: #A42222;
+}
+.obj_groupfiles_item>.file>div.ico_php{
+	color: #6B7EB9;
+}

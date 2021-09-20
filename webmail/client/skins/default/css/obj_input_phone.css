@@ -1,0 +1,46 @@
+.obj_input_phone{
+	position: relative;
+	padding-right: 28px;
+}
+.rtl .obj_input_phone {
+	padding-left: 28px;
+	padding-right: 0;
+}
+	.obj_input_phone form.obj_button{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.rtl .obj_input_phone form.obj_button {
+		left: 0;
+		right: auto;
+	}
+		.obj_input_phone form.obj_button:after{
+			content: '\e038';
+		}
+/* SMS button */
+.obj_input_phone.sms{
+	padding-right: 56px;
+}
+.rtl .obj_input_phone.sms {
+	padding-left: 56px;
+	padding-right: 0;
+}
+	.obj_input_phone form.obj_button.sms{
+		right: 28px;
+	}
+	.rtl .obj_input_phone form.obj_button.sms {
+		left: 28px;
+		right: auto;
+	}
+	.obj_input_phone form.obj_button.sms:after{
+		content: '\e054';
+	}
+
+/* Error */
+.obj_phone.error .obj_input_phone form.obj_input {
+	border-color: #E08F93;
+}
+.obj_phone.error .obj_input_phone form.obj_button {
+	border-color: #E08F93;
+}

@@ -1,0 +1,234 @@
+.frm_main_chat .members form.obj_button.ico.add input,
+.frm_main_chat .members form.obj_button.ico.send input {
+	text-indent: 30px;
+}
+.frm_main_chat .members form.obj_button.ico.add:after{
+	content: '\e03d';
+}
+
+.frm_main_chat .members form.obj_button.ico.send:after{
+	content: '\e021';
+}
+
+.obj_groupmembers>.maxbox{
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+.obj_groupmembers div.separator>span{
+	display: block;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 15px 22px 0;
+}
+.rtl .obj_groupmembers div.separator>span {
+	text-align: right;
+}
+
+
+/* items */
+.obj_groupmembers section.item{
+	float: left;
+
+	border-radius: 3px;
+	border: 1px solid #EDEDED;
+
+	line-height: 70px;
+	margin: 10px;
+
+	margin: 10px 0 0px 20px;
+	max-width: 313px;
+	width: 50%;
+
+	cursor: default;
+}
+.rtl .obj_groupmembers section.item {
+	float: right;
+	margin: 10px 20px 0 0;
+}
+	.obj_groupmembers section.item:hover{
+		background-color: #F7FBFD;
+	}
+
+	.obj_groupmembers section.item>.member{
+		display: table;
+		height: 70px;
+	}
+
+	.obj_groupmembers section.item>.member>div{
+		display: table-cell;
+		white-space: nowrap;
+		width: 0;
+	}
+
+		.obj_groupmembers section.item .avatar{
+			min-width: 70px;
+			height: 100%;
+			position: relative;
+		}
+		.obj_groupmembers section.item .avatar>span{
+			position: absolute;
+			left: 0;
+			top: 10px;
+
+			display: block;
+
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+
+			background-origin: border-box;
+			background-size: cover;
+			background-position: center center;
+			overflow: hidden;
+
+			border-radius: 25px;
+		}
+		.rtl .obj_groupmembers section.item .avatar>span {
+			left: auto;
+			right: 0;
+		}
+		.obj_groupmembers.im section.item .guest.unconfirmed>.avatar{
+			opacity: 0.5;
+		}
+		.obj_groupmembers.im section.item .guest.unconfirmed>.name{
+			color: #888;
+		}
+		.obj_groupmembers.im section.item .member.admin .avatar:before{
+			display: block;
+			content: '\e980';
+			position: absolute;
+			top: 10px;
+			left: 0;
+
+			width: 16px;
+			height: 16px;
+
+			background-color: #fff;
+			box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+			border-radius: 50%;
+			z-index: 5;
+
+			font-family: 'ico16';
+			text-indent: 2px;
+			line-height: 16px;
+			font-size: 12px;
+			-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+			color: {bg_main '#0088CC'};
+		}
+		.rtl .obj_groupmembers.im section.item .member.admin .avatar:before{
+			left: auto;
+			right: 0;
+		}
+
+		.obj_groupmembers.im section.item .member:not(.guest) .avatar:after{
+			display: block;
+			content: '';
+			position: absolute;
+			right: 18px;
+			width: 14px;
+			height: 14px;
+
+			background-color: #AAA;
+			border: 2px solid #fff;
+			border-radius: 16px;
+			bottom: 8px;
+		}
+		.rtl .obj_groupmembers.im section.item .member:not(.guest) .avatar:after{
+			right: 33px;
+		}
+			.obj_groupmembers.im section.item .avatar.online:after,
+			.obj_groupmembers.im section.item .avatar.chat:after{
+				background-color: #32c456!important;
+			}
+			.obj_groupmembers.im section.item .avatar.away:after{
+				background-color: #FFCD25!important;
+			}
+			.obj_groupmembers.im section.item .avatar.away:after{
+				background-color: #FFCD25!important;
+			}
+			.obj_groupmembers.im section.item .avatar.xa:after{
+				background-color: #FF9725!important;
+			}
+			.obj_groupmembers.im section.item .avatar.dnd:after{
+				background-color: #FA4D34!important;
+			}
+			.obj_groupmembers.im section.item .avatar.online:after{
+				background-color: #32c456!important;
+			}
+
+		.obj_groupmembers section.item .name{
+			position: relative;
+			width: 100%!important;
+			font-size: 16px;
+		}
+		.obj_groupmembers section.item .name>div{
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		/* Controls */
+		.obj_groupmembers section.item .control span{
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			line-height: 24px;
+			text-align: center;
+
+			vertical-align: middle;
+			color: #888;
+			font-family: "ico16";
+			font-size: 16px;
+			cursor: pointer;
+		}
+		.obj_groupmembers section.item .control span:hover{
+			color: {bg_main '#0088CC'};
+		}
+			/* Mail button */
+			.obj_groupmembers section.item .control span.mailto:before{
+				content: "\e021";
+				position: relative;
+				bottom: 1px;
+			}
+
+			/* IM button */
+			.obj_groupmembers section.item .control span.im{
+				display: none;
+			}
+				.obj_groupmembers.im section.item .control span.im,
+				.obj_groupmembers.im section.item .control span.im:hover{
+					display: inline-block;
+					opacity: 0.5;
+					color: #888;
+					cursor: default;
+				}
+					.obj_groupmembers.im.im_active section.item .control span.im{
+						opacity: 1;
+						cursor: pointer;
+					}
+					.obj_groupmembers.im.im_active section.item .control span.im:hover{
+						color: {bg_main '#0088CC'};
+					}
+					.obj_groupmembers section.item .control span.im:before{
+						content: "\e035";
+					}
+
+			/* Remove button */
+			.obj_groupmembers section.item .control span.remove{
+				display: none;
+			}
+				.obj_groupmembers.acc_remove section.item .control span.remove{
+					display: inline-block;
+				}
+				.obj_groupmembers section.item .control span.remove:before{
+					content: "\e036";
+					color: #BF6559;
+				}

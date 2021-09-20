@@ -1,0 +1,440 @@
+/** conferencing container **/
+
+/* Make space for participants when required */
+div.frm_conference div.conferencing,
+div.frm_conference.video div.conferencing.presence {
+	padding-left: 200px;
+	position: relative;
+}
+div.frm_conference.video div.conferencing {
+	padding-left: 0;
+}
+
+/* Make space for chat when displayed together with video */
+div.frm_conference.video div.conferencing {
+	padding-right: 0;
+}
+div.frm_conference.video div.conferencing.chat {
+	padding-right: 70%;
+}
+div.frm_conference.video div.conferencing.chat.presence {
+	padding-right: 50%;
+}
+
+/* Participants list on the left */
+div.frm_conference div.conferencing div.details {
+	display: block;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 200px;
+
+	border-right: 1px solid #DFDCDA;
+}
+/* List can be hidden when showing video */
+div.frm_conference.video div.conferencing div.details {
+	display: none;
+}
+div.frm_conference.video div.conferencing.presence div.details {
+	display: block;
+}
+
+/* Navigation */
+div.frm_conference div.obj_conference_options {
+	height: 40px;
+	overflow: hidden;
+	min-width: 600px;
+	background-color: #EAEAEA;
+	border-bottom: 1px solid #CACACA;
+}
+
+	div.frm_conference form.obj_button.ico.mute:after{
+		content: '\e987';
+		font-family: 'ico16';
+	}
+	div.frm_conference form.obj_button.ico.mute.active:after{
+		content: '\e01f';
+		color: {ico_main '#0088CC'};
+	}
+
+	div.frm_conference form.obj_button.ico.silence:after{
+		content: '\e03b';
+	}
+	div.frm_conference form.obj_button.ico.silence.active:after{
+		content: '\e005';
+		color: {ico_main '#0088CC'};
+	}
+
+	div.frm_conference form.obj_button.ico.info:after{
+		content: '\e04e';
+	}
+
+/* General navigation options */
+div.frm_conference div.obj_conference_options div.default {
+	width: 200px;
+	float: left;
+}
+	div.frm_conference div.obj_conference_options div.default form:last-child {
+		float: right;
+	}
+
+/* Display options during video conference */
+div.frm_conference div.obj_conference_options div.view {
+	display: none;
+}
+
+div.frm_conference.video div.obj_conference_options div.view {
+	display: block;
+
+	float: left;
+}
+
+div.frm_conference.video div.obj_conference_options div.view form.alarm {
+	background-color: #ECA3BD; /*#E9C482#e83*/
+}
+
+/* Organiser and Manager controls */
+div.frm_conference div.obj_conference_options div.control {
+	float: right;
+}
+
+
+/** Participant area **/
+div.frm_conference  div.participants {
+	height: 100%;
+	position: relative;
+
+}
+
+div.frm_conference  div.participants>div {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+div.frm_conference div.participants h3 {
+	margin-top: 2em;
+	text-align: center;
+	color: #bbb;
+}
+
+div.frm_conference div.participants ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.frm_conference div.participants ul li {
+	position: relative;
+	overflow: hidden;
+	padding: 0 5px;
+	height: 40px;
+	line-height: 40px;
+}
+
+	/* participant theme colours */
+	div.frm_conference div.participants .theme1 { border-left: 5px solid {bc_main '#0088CC'}; }
+	div.frm_conference div.participants .theme2 { border-left: 5px solid #C35555; }
+	div.frm_conference div.participants .theme3 { border-left: 5px solid #8cc732; }
+	div.frm_conference div.participants .theme4 { border-left: 5px solid #966be2; }
+	div.frm_conference div.participants .theme5 { border-left: 5px solid #dcab4a; }
+	div.frm_conference div.participants .theme6 { border-left: 5px solid #aa6854; }
+	div.frm_conference div.participants .theme7 { border-left: 5px solid #bfc570; }
+	div.frm_conference div.participants .theme8 { border-left: 5px solid #998b7d; }
+	div.frm_conference div.participants .theme9 { border-left: 5px solid #b1579a; }
+	div.frm_conference div.participants .theme10 { border-left: 5px solid #56af77; }
+
+	/*	Special styling only for managers and organiser in participants list */
+	/*
+	div.frm_conference div.participants ul li.organizer,
+	div.frm_conference div.participants ul li.manager {
+	}
+	*/
+
+div.frm_conference div.participants ul li em {
+	display: block;
+	overflow: hidden;
+	padding-left: 10px;
+	white-space: nowrap;
+	font-style: normal;
+}
+div.frm_conference div.participants ul li b+em {
+	max-width: 150px;
+	padding-left: 0;
+}
+div.frm_conference div.participants ul li.active b+em {
+	max-width: 130px;
+}
+
+div.frm_conference div.participants ul li b {
+	position: relative;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 5px 5px 0 0;
+	border: 1px solid transparent;
+
+	/*background: url(../images/set.png) -348px -3220px no-repeat;*/
+}
+div.frm_conference div.participants ul li b:after{
+	content: '\e059';
+	position: absolute;
+	left: 6px;
+	top: 0;
+	line-height: 28px;
+	font-size: 16px;
+	font-family: 'ico16';
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	color: #333;
+}
+	div.frm_conference div.participants ul li.muted b:after{
+		content: '\e05a';
+	}
+
+div.frm_conference div.participants ul li.muted b,
+div.frm_conference div.participants ul li.pending b,
+div.frm_conference div.participants ul li b:hover {
+	background-color: #C2C2C2;
+	border-color: #A0A0A0;
+	border-radius: 2px;
+}
+	div.frm_conference div.participants ul li.muted.pending b {
+		border: 1px solid transparent;
+		background-color: transparent;
+	}
+
+
+div.frm_conference div.participants ul li.active{
+	background-color: #D3D3D3;
+}
+
+div.frm_conference div.participants ul li.noise{
+	background-color: #F9D762;
+}
+
+div.frm_conference.organising div.participants ul li.active em:after,
+div.frm_conference.moderating div.participants ul li.active em:after {
+	content: '\e023';
+	position: absolute;
+	top: 12px;
+	right: 6px;
+
+	line-height: 16px;
+	font-size: 16px;
+	font-family: 'ico16';
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+div.frm_conference div.participants ul li span {
+	color: #aaa;
+}
+
+div.frm_conference div.participants ul li.all,
+div.frm_conference div.participants ul li.all.active {
+	color: #888!important;
+	background-color: transparent!important;
+}
+div.frm_conference div.participants ul li.active.all em:after {
+	display: none;
+}
+
+
+/** Message area **/
+div.frm_conference div.messages {
+	padding: 0;
+}
+/*
+div.frm_conference.moderating div.messages,
+div.frm_conference.organising div.messages{}
+*/
+	div.frm_conference div.messages .obj_hmenu{
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	div.frm_conference  div.messages .footer {
+		background-color: #f7f7f7;
+		border-top: 1px solid #D1D6DC;
+		padding: 5px;
+	}
+
+/** Chatroom **/
+div.frm_conference .messages div.obj_chat .obj_chat_to:before {
+	top: 0px;
+}
+
+.rtl div.frm_conference div.obj_chat {
+	direction: rtl;
+}
+
+div.frm_conference div.obj_chat .obj_chat_to:hover,
+div.frm_conference div.obj_chat .obj_chat_from:hover{
+	cursor: pointer;
+}
+	div.frm_conference div.obj_chat span {
+		color: inherit;
+	}
+
+	div.frm_conference div.obj_chat span.obj_chat_date {
+		color: inherit;
+	}
+
+	/* Private messages */
+	div.frm_conference div.obj_chat span.theme0 { color: inherit; }
+	div.frm_conference div.obj_chat span.theme1 { color: {txt_main '#0088CC'}; }
+	div.frm_conference div.obj_chat span.theme2 { color: #C35555; }
+	div.frm_conference div.obj_chat span.theme3 { color: #8cc732; }
+	div.frm_conference div.obj_chat span.theme4 { color: #966be2; }
+	div.frm_conference div.obj_chat span.theme5 { color: #dcab4a; }
+	div.frm_conference div.obj_chat span.theme6 { color: #aa6854; }
+	div.frm_conference div.obj_chat span.theme7 { color: #bfc570; }
+	div.frm_conference div.obj_chat span.theme8 { color: #998b7d; }
+	div.frm_conference div.obj_chat span.theme9 { color: #b1579a; }
+	div.frm_conference div.obj_chat span.theme10 { color: #56af77; }
+
+	div.frm_conference div.obj_chat .theme0:hover { background-color: #E0E0E0; }
+	div.frm_conference div.obj_chat .theme1:hover { background-color: {bg_main '#0088CC'}; color: #fff;}
+	div.frm_conference div.obj_chat .theme2:hover { background-color: #C35555; color: #fff;}
+	div.frm_conference div.obj_chat .theme3:hover { background-color: #8cc732; color: #fff;}
+	div.frm_conference div.obj_chat .theme4:hover { background-color: #966be2; color: #fff;}
+	div.frm_conference div.obj_chat .theme5:hover { background-color: #dcab4a; color: #fff;}
+	div.frm_conference div.obj_chat .theme6:hover { background-color: #aa6854; color: #fff;}
+	div.frm_conference div.obj_chat .theme7:hover { background-color: #bfc570; color: #fff;}
+	div.frm_conference div.obj_chat .theme8:hover { background-color: #998b7d; color: #fff;}
+	div.frm_conference div.obj_chat .theme9:hover { background-color: #b1579a; color: #fff;}
+	div.frm_conference div.obj_chat .theme10:hover { background-color: #56af77; color: #fff;}
+
+
+/* Video area - no video*/
+div.frm_conference div.conferencing div.view {
+	display: none;
+	padding: 1px 0;
+}
+div.frm_conference div.conferencing div.view video{
+	width: 98%;
+	margin:	2% auto;
+	box-shadow: 0 0 6px 2px #666;
+}
+/* Video displayed - no chat */
+div.frm_conference.video div.conferencing div.view {
+	background-color: #333;
+	display: block;
+	height: 100%;
+
+	width: 100%;
+}
+/* Video active and chat */
+div.frm_conference.video div.conferencing.chat div.view {
+	width: 70%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+div.frm_conference.video div.conferencing.chat.presence div.view {
+	width: 50%;
+}
+div.frm_conference.video div.conferencing div.mid {
+	display: none;
+}
+div.frm_conference.video div.conferencing.chat div.mid {
+	display: block;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+/** Organiser Menu **/
+
+	/* icons */
+	div.frm_conference div.obj_hmenu>ul{
+		float: right;
+	}
+	div.frm_conference div.obj_hmenu li.ico.invite span:before {
+		content: '\e038';
+	}
+	div.frm_conference div.obj_hmenu li.ico.desktop span:before {
+		content: '\e050';
+	}
+	div.frm_conference div.obj_hmenu li.ico.record span:before {
+		content: '\e048';
+		font-size: 16px;
+		text-indent: 6px;
+	}
+	div.frm_conference div.obj_hmenu li.ico.record.active span:before{
+		color: #FA4D34;
+	}
+	/* No record button for moderators */
+	div.frm_conference.moderating .obj_hmenu li.ico.record {
+		display: none;
+	}
+
+/** Chat footer **/
+div.frm_conference .chat label:empty {
+	display: none;
+}
+div.frm_conference .chat label {
+	display: block;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+
+	padding: 0 20px 0 5px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+
+	background-color: #f7f7f7;
+	line-height: 18px;
+}
+
+	div.frm_conference .chat.theme1 label { background-color: {bg_main '#0088CC'}; color: #fff;}
+	div.frm_conference .chat.theme2 label { background-color: #C35555; color: #fff;}
+	div.frm_conference .chat.theme3 label { background-color: #8cc732; color: #fff;}
+	div.frm_conference .chat.theme4 label { background-color: #966be2; color: #fff;}
+	div.frm_conference .chat.theme5 label { background-color: #dcab4a; color: #fff;}
+	div.frm_conference .chat.theme6 label { background-color: #aa6854; color: #fff;}
+	div.frm_conference .chat.theme7 label { background-color: #bfc570; color: #fff;}
+	div.frm_conference .chat.theme8 label { background-color: #998b7d; color: #fff;}
+	div.frm_conference .chat.theme9 label { background-color: #b1579a; color: #fff;}
+	div.frm_conference .chat.theme10 label { background-color: #56af77; color: #fff;}
+
+	div.frm_conference .chat.disabled label { background-color: #E0E0E0; color: inherit;}
+
+	div.frm_conference .chat label em {
+		display: block;
+		position: absolute;
+		right: 1px;
+		top: 0;
+
+		height: 100%;
+
+		font-style: normal;
+		font-family: 'ico16';
+		font-size: 16px;
+		font-weight: normal;
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}
+	body.light div.frm_conference .chat label em {
+		font-weight: 200;
+	}
+	div.frm_conference .chat label em:after{
+		content: '\e036';
+	}
+
+	div.frm_conference .chat.disabled label em {
+		color: #ff7777;
+	}
+
+/** Conference Info Popup **/
+
+div.frm_conference_info .obj_popupico:after{
+	content: '\e026';
+}
+
+div.frm_conference_info .obj_button.invite {
+	margin-right: 2px;
+	float: right;
+}

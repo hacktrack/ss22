@@ -1,0 +1,32 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>groupware</helper>
+		<form id="tasks" helper="item" template="tasks.detail">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<window>main</window>
+				<view>tasks.main</view>
+				<data>item.fdr</data>
+				<stylesheet>
+					<src>datagrid_detail</src>
+					<src>file_types</src>
+				</stylesheet>
+				<javascript>
+					<src>groupware.detail</src>
+					<src>calendar</src>
+				</javascript>
+			</config>
+			<wysiwyg anchor="taskNote" anchoronly="1">
+				<config>
+					<name>item[values][0][EVNNOTE]</name>
+					<dataindex>item::EVNNOTE</dataindex>
+					<formatindex>item::EVNDESCFORMAT</formatindex>
+					<id>taskNote</id>
+				</config>
+			</wysiwyg>
+		</form>
+	</panel>
+</form>

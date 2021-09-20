@@ -1,0 +1,77 @@
+#gui table.calendar tr.days th.time{
+	width: 40px;
+}
+
+#gui table.calendar tr.all td{
+	border-bottom: 3px solid #E2E2E2;
+}
+
+#gui table.calendar tbody th i{
+	display: block;
+	height: 48px;
+	line-height: 48px;
+
+	color: #666;
+	font-size: 16px;
+    text-align: right;
+    font-style: normal;
+    padding: 0 5px 0 0;
+}
+
+#gui table.calendar tbody td{
+	background: url(../skin/fresh/images/week.gif) repeat 0 0 transparent;
+
+	padding: 0;
+	padding: 0 5px;
+}
+
+#gui table.calendar tbody td div{
+	position: relative;
+	height: 1150px;
+}
+#gui table.calendar tbody td a{
+	position: absolute;
+	padding: 0;
+}
+
+#gui table.calendar td a span{
+	display: block;
+	height: 100%;
+	padding: 3px;
+}
+
+#gui table.calendar td a.color_A span{
+	border-left: 3px solid #FAE18A;
+}
+#gui table.calendar td a.color_1 span{
+	border-left: 3px solid #F58F9E;
+}
+#gui table.calendar td a.color_2 span{
+	border-left: 3px solid #9DCEE7;
+}
+#gui table.calendar td a.color_3 span{
+	border-left: 3px solid #9DCEE7;
+}
+#gui table.calendar td a.color_4 span{
+	border-left: 3px solid #D7D7D7;
+}
+#gui table.calendar td a.color_5 span{
+	border-left: 3px solid #D7D7D7;
+}
+#gui table.calendar td a.color_6 span{
+	border-left: 3px solid #9EE7E7;
+}
+#gui table.calendar td a.color_7 span{
+	border-left: 3px solid #9EE7E7;
+}
+#gui table.calendar td a.color_8 span{
+	border-left: 3px solid #9EE7E7;
+}
+#gui table.calendar td a.color_9 span{
+	border-left: 3px solid #B9CEDC;
+}
+
+.calendar_col_div .tag
+{
+	margin: -13px 1px 0 0;
+}

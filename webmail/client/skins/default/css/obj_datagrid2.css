@@ -1,0 +1,483 @@
+/* TYPES **/
+.obj_datagrid2 .obj_datagrid-body div.ico.gw div.ico_type_E:before,
+.obj_datagrid2 .obj_datagrid-body div.ico.gw div.ico_type_O:before{
+	/*background-position: -606px -1045px;*/
+	content: '\e05';
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.gw div.ico_type_F:before{
+	/*background-position: -606px -1118px;*/
+	content: '\e02c';
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.gw div.ico_type_N:before{
+	/*background-position: -606px -1344px;*/
+	content: '\e01d';
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.gw div.ico_type_C:before{
+	/*background-position: -604px -221px;*/
+	content: '\e017';
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.gw div.ico_type_L:before{
+	/*background-position: -606px -295px;*/
+	content: '\e02b';
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.gw div.ico_type_T:before{
+	/*background-position: -606px -1195px;*/
+	content: '\e003';
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.gw div.ico_type_J:before{
+	/*background-position: -607px -1268px;*/
+	content: '\e024';
+}
+
+/* Contact **/
+.obj_datagrid2 .head div.ico.contact div:before{
+	/*background-position: -605px -222px;	*/
+	content: '\e017';
+}
+
+.obj_datagrid2 .obj_datagrid-body div.ico.contact div:before {
+	/*background-position: -605px -221px;*/
+	content: '\e017';
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.contact div.distrib:before {
+	/*background-position: -608px -295px;*/
+	content: '\e02b';
+}
+
+/* message **/
+.obj_datagrid2 .head div.ico.msg div:before{
+	/*background-position: -607px -593px;*/
+	content: '\e021';
+}
+.obj_datagrid2 .obj_datagrid-body div.unread{
+	background-color: {bg_unread '#E6F5FC'}; /*#F4FAFD*/
+}
+
+.obj_datagrid2 .obj_datagrid-body div.ico.msg>div:before{
+	background-image: url(../images/mail.png);
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg div.unread:before {
+	background-image: none;
+	content: '\e021';
+}
+
+.obj_datagrid2 .obj_datagrid-body div.from div.unread,
+.obj_datagrid2 .obj_datagrid-body div.subject div.unread{
+	color: {txt_main '#0088CC'};
+}
+
+/* message Forwarded, Replied, Replied and Forwarded */
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .replied:before{
+	background-position: -543px -101px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .forwarded:before{
+	background-position: -505px -72px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .replied_and_forwarded:before{
+	background-position: -579px -129px;
+}
+
+/* message SMIME */
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .serror:before{
+	background-position: -467px -213px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .serror_unread:before{
+	background-position: -429px -213px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .serror_replied:before{
+	background-position: -540px -213px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .serror_forwarded:before{
+	background-position: -503px -213px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .serror_replied_and_forwarded:before{
+	background-position: -579px -213px;
+}
+
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .sign:before{
+	background-position: -467px -185px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .sign.unread:before{
+	background-position: -429px -185px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .sign.replied:before{
+	background-position: -540px -185px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .sign.forwarded:before{
+	background-position: -503px -185px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .sign.replied_and_forwarded:before{
+	background-position: -579px -185px;
+}
+
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .smime:before{
+	background-position: -466px -157px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .smime.unread:before{
+	background-position: -428px -157px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .smime.replied:before{
+	background-position: -542px -157px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .smime.forwarded:before{
+	background-position: -503px -157px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .smime.replied_and_forwarded:before{
+	background-position: -579px -157px;
+}
+
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .ssmime:before{
+	background-position: -467px -240px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .ssmime.unread:before{
+	background-position: -429px -240px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .ssmime.replied:before{
+	background-position: -541px -240px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .ssmime.forwarded:before{
+	background-position: -503px -240px;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.msg .ssmime.replied_and_forwarded:before{
+	background-position: -579px -240px;
+}
+/* message attachment **/
+.obj_datagrid2 .head div.ico.attachment>div:before{
+	/*background-position: -609px -669px;	*/
+	content: '\e03a';
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.attachment div.attachment:before {
+/* .obj_datagrid2.small .obj_datagrid-body div.attachment div.ico.attachment:before{ */
+	/*background-position: -609px -669px;	*/
+	content: '\e03a';
+	font-size: 12px;
+}
+
+/* message priority **/
+/*
+.obj_datagrid2 .head div.ico.priority>div:before{
+	background-position: -611px -518px;
+}
+*/
+.obj_datagrid2 .obj_datagrid-body div.priority>div.unread{
+	background-color: {bg_main '#0088CC'}!important;
+}
+
+.obj_datagrid2 .obj_datagrid-body div.priority>div.priority_high{
+	background-color: #E8BCBC!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.priority>div.unread.priority_high{
+	background-color: #CD7F7F!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.priority>div.priority_low{
+	background-color: #B1CDBE!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.priority>div.unread.priority_low{
+	background-color: #6abf91!important;
+}
+
+/* arrow */
+.obj_datagrid2 .head div.ico.msg:before,
+.obj_datagrid2 .head div.ico.flags:before,
+.obj_datagrid2 .head div.ico.attachment:before,
+.obj_datagrid2 .head div.ico.contact:before,
+.obj_datagrid2 .head div.ico.reminder:before,
+.obj_datagrid2 .head div.ico.recurrence:before{
+	display: none;
+}
+
+/* Color Flags **/
+.obj_datagrid2 .head div.ico.flags div:before{
+	content: '\e02a';
+}
+
+.obj_datagrid2.modify .obj_datagrid-body div.flags>div,
+.obj_datagrid2.small.modify .obj_datagrid-body div>div.flags,
+.obj_datagrid2.small.modify .obj_datagrid-body div>div.delete{
+	cursor: pointer;
+}
+.obj_datagrid2.modify .obj_datagrid-body div.flags>div:hover:before,
+.obj_datagrid2.small.modify .obj_datagrid-body div:hover>div.flags:before,
+#gui.touch .obj_datagrid2.small.modify .obj_datagrid-body div.active>div.flags:before{
+	content: '\e02a';
+	/* color: #D0D0D0; */
+}
+.obj_datagrid2 .obj_datagrid-body div.flags>div.bg_red:before,
+.obj_datagrid2.small .obj_datagrid-body div.bg_red>div.flags:before{
+	content: '\e02a';
+	color: #E5546A!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.flags>div.bg_blue:before,
+.obj_datagrid2.small .obj_datagrid-body div.bg_blue>div.flags:before{
+	content: '\e02a';
+	color: #648BC8!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.flags>div.bg_yellow:before,
+.obj_datagrid2.small .obj_datagrid-body div.bg_yellow>div.flags:before{
+	content: '\e02a';
+	color: #C8AD17!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.flags>div.bg_orange:before,
+.obj_datagrid2.small .obj_datagrid-body div.bg_orange>div.flags:before{
+	content: '\e02a';
+	color: #D3733F!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.flags>div.bg_green:before,
+.obj_datagrid2.small .obj_datagrid-body div.bg_green>div.flags:before{
+	content: '\e02a';
+	color: #719F3A!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.flags>div.bg_purple:before,
+.obj_datagrid2.small .obj_datagrid-body div.bg_purple>div.flags:before{
+	content: '\e02a';
+	color: #8A64DC!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.flags>div.bg_complete:before,
+.obj_datagrid2.small .obj_datagrid-body div.bg_complete>div.flags:before{
+	content: '\e01a'!important;
+	color: #666!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.active.flags>div.bg_complete:before,
+.obj_datagrid2.small .obj_datagrid-body div.active.bg_complete>div.flags:before{
+	color: #fff!important;
+}
+
+/* Delete */
+.obj_datagrid2.small.modify .obj_datagrid-body div:hover>div.delete:before,
+#gui.touch .obj_datagrid2.small.modify .obj_datagrid-body div.active>div.delete:before{
+	content: '\e036';
+	/* color: #D0D0D0; */
+}
+.obj_datagrid2.small.modify .obj_datagrid-body div>div:hover.delete:before{
+	color: #FF7777;
+}
+
+/* GW conference */
+.obj_datagrid2 .head div.ico.conference div:before{
+	/*background-position: 3px -3497px;*/
+	content: '\e987';
+	font-family: 'ico16';
+}
+.obj_datagrid2 .obj_datagrid-body div.conference>.conference:before{
+	/*background-position: 3px -3495px;*/
+	content: '\e987';
+	font-family: 'ico16';
+}
+
+/* GW recurence */
+.obj_datagrid2 .head div.ico.recurrence div:before{
+	/*background-position: 3px -3497px;*/
+	content: '\e02d';
+}
+.obj_datagrid2 .obj_datagrid-body div.recurrence>.recurrence:before{
+	/*background-position: 3px -3495px;*/
+	content: '\e02d';
+}
+
+/* GW reminder */
+.obj_datagrid2 .head div.ico.reminder div:before{
+	/*background-position: -697px -1195px;*/
+	content: '\e02f';
+}
+.obj_datagrid2 .obj_datagrid-body div.reminder>.reminder:before{
+	/*background-position: -697px -1195px;*/
+	content: '\e02f';
+}
+
+/* Tasks */
+.obj_datagrid2 .obj_datagrid-body div.ico.status>div.completed:before{
+	/*background-position: -257px -3571px;*/
+	content: '\e01a';
+}
+	.obj_datagrid2 .obj_datagrid-body .col .completed{
+		color: #888888;
+	}
+
+.obj_datagrid2 .obj_datagrid-body div.ico.status>div.not_started:before{
+	/*background-position: -344px -3572px;*/
+	content: '\e016';
+	color: #E5546A;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.status>div.waiting:before{
+	/*background-position: -433px -3572px;	*/
+	content: '\e017';
+	color: #C8AD17;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.status>div.in_progress:before{
+	/*background-position: -172px -3572px;	*/
+	content: '\e015';
+	color: #719F3A;
+}
+.obj_datagrid2 .obj_datagrid-body div.ico.status>div.deferred:before{
+	/*background-position: -81px -3572px;*/
+	content: '\e05b';
+	color: #648BC8;
+}
+
+/*
+.obj_datagrid2 .obj_datagrid-body .status .completed{
+	background: url(../images/ico_tasks_completed.gif) no-repeat center center;
+}
+
+.obj_datagrid2 .obj_datagrid-body .status .not_started{
+	background: url(../images/ico_task_not_started.gif) no-repeat center center;
+}
+.obj_datagrid2 .obj_datagrid-body .status .needs_action{
+	background: url(../images/ico_task_need_action.gif) no-repeat center center;
+}
+.obj_datagrid2 .obj_datagrid-body .status .in_progress {
+	background: url(../images/ico_task_in_progress.gif) no-repeat center center;
+}
+.obj_datagrid2 .obj_datagrid-body .status .delegated{
+	background: url(../images/ico_task_delegated.gif) no-repeat center center;
+}
+*/
+
+.obj_datagrid2 .obj_datagrid-body .check div{
+	background: url(../images/checkbox.gif) no-repeat center 10px;
+}
+body.compact .obj_datagrid2 .obj_datagrid-body .check div{
+	background-position: center 6px;
+}
+	.obj_datagrid2.modify .obj_datagrid-body .check div{
+		cursor: pointer;
+	}
+	.obj_datagrid2.modify .obj_datagrid-body .check div:hover{
+		background-position: center -13px;
+	}
+	body.compact .obj_datagrid2.modify .obj_datagrid-body .check div:hover{
+		background-position: center -17px;
+	}
+
+.obj_datagrid2 .obj_datagrid-body .check div.completed{
+	background-position: center -36px;
+}
+	body.compact .obj_datagrid2 .obj_datagrid-body .check div.completed{
+		background-position: center -40px;
+	}
+	.obj_datagrid2.modify .obj_datagrid-body .check div.completed:hover{
+		background-position: center -59px;
+	}
+	body.compact .obj_datagrid2.modify .obj_datagrid-body .check div.completed:hover{
+		background-position: center -63px;
+	}
+
+
+/* merged calendars */
+.obj_datagrid2 .obj_datagrid-body div.evnfolder div{
+	cursor: help;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .blue{
+	background-color: #bcddf1!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .green{
+	background-color: #cfe5ad!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .brown{
+	background-color: #dbbda0!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .purple{
+	background-color: #dbcef2!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .yellow{
+	background-color: #e8ebbd!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .teal{
+	background-color: #fee0a4!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .plum{
+	background-color: #fbc0cc!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .red{
+	background-color: #fac1b0!important;
+}
+
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .aqua{
+	background-color: #9CE6ED!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .aquamarine{
+	background-color: #9CEDC6!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .orchid{
+	background-color: #EFB4DE!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .pink{
+	background-color: #F9DEDF!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .silver{
+	background-color: #E7E7E7!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .white{
+	background-color: #FFFFFF!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .gray{
+	background-color: #B5B9BC!important;
+}
+.obj_datagrid2 .obj_datagrid-body div.evnfolder .lemon{
+	background-color: #FFF5BD!important;
+}
+
+/* tags */
+/* .obj_datagrid2 .obj_datagrid-body div.tags span, */
+.obj_datagrid2 .obj_datagrid-body div>p.tag>span{
+	padding: 0 3px;
+	margin-right: 2px;
+	border-radius: 2px;
+
+	border: 1px solid #E0E0E0;
+	border-color: rgba(0,0,0,0.2);
+	background-color: #FFF;
+	color: #000;
+}
+
+.obj_datagrid2 .obj_datagrid-body div p.tag{
+	margin: 0;
+	padding: 0 4px 0 0;
+	background-color: inherit;
+	display: inline-block;
+
+}
+.rtl .obj_datagrid2 .obj_datagrid-body div p.tag {
+	padding: 0 0 0 4px;
+}
+
+.obj_datagrid2 .obj_datagrid-body p.tag.right{
+	position: absolute;
+	right: 0;
+	padding: 0;
+}
+.rtl .obj_datagrid2 .obj_datagrid-body p.tag.right {
+	left: 0;
+	right: auto;
+}
+/* Files */
+.obj_datagrid .obj_datagrid-body div.file_type{
+	text-indent: 2px;
+}
+	.obj_datagrid .obj_datagrid-body div.file_type div:after{
+		content: '\e21';
+		font-size: 16px;
+		font-family: 'filetypes';
+	}
+
+.obj_datagrid2.modify .obj_datagrid-body div.col.lock>div{
+	cursor: pointer;
+}
+	.obj_datagrid2.modify .obj_datagrid-body div.col.lock>div:not(.lock):hover:before,
+	#gui.touch .obj_datagrid2.modify .obj_datagrid-body div.col.lock>div.active:not(.lock):before{
+		color: #d0d0d0;
+		content: '\e074';
+	}
+
+.obj_datagrid2 .head div.ico.lock div:before,
+.obj_datagrid2 .obj_datagrid-body div.col.lock>div.lock:before{
+	content: '\e074';
+}
+
+.obj_datagrid2 .obj_datagrid-body div.lock>div.lock2{
+	cursor: default;
+}
+	.obj_datagrid2 .obj_datagrid-body div.lock>div.lock2:before{
+		content: '\e074';
+		color: #E5546A!important;
+	}

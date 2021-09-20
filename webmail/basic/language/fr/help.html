@@ -1,0 +1,595 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta http-equiv="content-language" content="fr" />
+
+
+
+<style>
+
+html,body {
+
+ margin: 0px;
+
+ padding: 0;
+
+}
+
+body,body * {
+
+ box-sizing: border-box;
+
+ -moz-box-sizing: border-box;
+
+ font-family: Tahoma, Helvetica, sans-serif;
+
+ font-size: 1em;
+
+}
+
+body{
+
+ font-size: 0.75em;
+
+ padding:20px;
+
+ background: url('images/bck.jpg');
+
+}
+
+
+
+#main
+
+{
+
+	width: 700px;
+
+	margin:auto;
+
+	text-align:left;
+
+	padding:20px;
+
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+	-khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+	-moz-border-radius: 10px;
+
+	-khtml-border-radius: 10px;
+
+	-webkit-border-radius: 10px;
+
+	border-radius: 10px;
+
+	background-color: #fff;
+
+}
+
+
+
+p.note{
+
+ padding: 10px;
+
+ background-color: #FFECEC;
+
+ border: 1px solid #FFC0C0;
+
+}
+
+a{
+
+ color: #4B8BD6;
+
+}
+
+a:hover{
+
+ color: #23458B;
+
+}
+
+a.top{
+
+ font-size: 0.8em;
+
+}
+
+
+
+#links{
+
+ padding: 0;
+
+ border-width: 0!important;
+
+ margin: 1em 0;
+
+}
+
+ #links a{
+
+ display: block;
+
+ margin: 5px 0 0 1em;
+
+ }
+
+
+
+h2{
+
+ color: #23458B;
+
+ font-size: 1.2em;
+
+ margin: 2.5em 0 0.5em;
+
+ padding: 0;
+
+}
+
+table{
+
+ margin: 10px 0;
+
+}
+
+table caption{
+
+ color: #23458B;
+
+ text-align: left;
+
+ margin-top: 15px;
+
+}
+
+
+
+ul{
+
+ margin: 0.5em 0;
+
+ padding-bottom: 5px;
+
+ padding-left: 1em;
+
+ _padding-left: 1.5em;
+
+}
+
+li{
+
+ margin: 0 0 7px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<center>
+
+<div id="main">
+
+
+
+<h2>Interface tablette du WebClient</h2>
+
+L'interface tablette du WebClient est optimisée pour les écrans tactiles. C'est l'interface proposée par défaut pour des navigateurs Safari sur iPad, Chrome sur des tablettes Android ou Silk sur Kindle fire.<br />
+
+<br />
+
+L'interface tablette n'utilise pas de JavaScript et de ce fait, elle est compatible avec des versions anciennes des navigateurs qui ne peuvent pas supporter le WebClient. Toutes les opérations peuvent être effectuées avec le seul clic gauche de la souris et d'autres éléments standards comme cases à cocher, boutons et menus déroulants. Il y a ni menus contextuels ni des fenêtres pop-up.<br />
+
+
+
+
+
+<h2>Tap</h2>
+
+<img src="../en/images/toolbaricons.jpg"/><br />
+
+<br />
+
+La barre d'outils avec des icônes fournit un accès convivial et tactil à toutes les fonctions principales de messagerie et de groupware. La fonction courante est indiquée par des icônes de couleur dans le menu de haut.<br />
+
+<ul>
+
+	<li>Email</li>
+
+	<li>Carnet d'adresses</li>
+
+	<li>Calendrier</li>
+
+	<li>Tâches</li>
+
+	<li>Notes</li>
+
+	<li>Fichiers</li>
+
+</ul>
+
+<br />
+
+Pour recevoir les nouveaux messages, cliquer sur l'icône de l'enveloppe en haut de l'écran.<br />
+
+<br />
+
+<img src="../en/images/newitem.jpg"/><br />
+
+<br />
+
+Pour composer un nouveau message, créer un nouveau contact ou liste de diffusion, créer un nouveau rendez-vous, créer une nouvelle tâche, créer une nouvelle note ou ajouter un nouveau fichier, cliquer sur l'icône correspondante dans le menu de haut et ensuite cliquer sur le gros bouton coloré "Nouveau ...".<br />
+
+<br />
+
+Seule l'heure est affichée pour les messages du jour. Pour les autres messages, seule la date est affichée. Pour visualiser l'heure et la date, passer la souris sur l'élément. Pour voir tous les en-têtes, cliquer sur le bouton "Détails".<br />
+
+
+
+
+
+<h2>Rotation</h2>
+
+<img src="../en/images/rotate.jpg"/><br />
+
+<br />
+
+La vue horizontale affiche tous les dossiers favoris au format liste dans le bandeau gauche. Le dossier courant est indiqué en gras. Pour afficher plus de dossiers à cet endroit, utiliser le menu "Gestion des dossiers".
+
+Dans la position verticale, le contenu du dossier courant ets présenté en liste. Cliquer sur le bouton en haut à droite portant le nom du dossier courant pour accéder aux autres dossiers et à la "Gesion des dossiers".<br />
+
+<br />
+
+<img src="../en/images/rotatefolders.jpg"/><br />
+
+<br />
+
+L'option "Gestion des dossiers" permet d'ajouter un dossier pour un accès direct. Il propose également les fonctions d'ajout, de suppression, de renommage des dossiers ainsi que de définir un dossier comme le défaut de sa catégorie.<br />
+
+
+
+<h2>Détection de gestures</h2>
+
+<img src="../en/images/swipe.jpg"/><br />
+
+<br />
+
+La détection de gesture est supportée dans toutes les vues (liste d'emails, de contacts, des rendez-vous...). Cela permet d'avancer ou de reculer dans la liste comme pour tourner les pages d'un livre:<br />
+
+<br />
+
+Page suivante: de droite à gauche<br />
+
+Page précédente: de gauche à droite<br />
+
+<br />
+
+<img src="../en/images/paging.jpg"/><br />
+
+<br />
+
+Les contrôles de pagination à droite (en haut et en bas pour plus de comfort) peuvent être utilisés comme une altérnative à la manipulation par gesture. Ces contrôles affichent également le numéro de page courant et le nombre total de pages.<br />
+
+<br />
+
+<img src="../en/images/browsing.jpg"/><br />
+
+<br />
+
+Il est possible d'utiliser les gestures pour des messages, contacts, notes... Quand un messaage est ouvert, vous pouvez aussi utiliser les flèches pour aller au message suivant ou précédent.<br />
+
+
+
+
+
+<h2>Réponse rapide</h2>
+
+<img src="../en/images/fastreply.jpg"/><br />
+
+<br />
+
+Si vous n'avez pas besoin de formatage spécial ni de positionner les options de remise, vous avez une zone 'réponse rapide' à la fin du message affiché. La réponse est envoyée à l'expéditeur du message origine.<br />
+
+
+
+
+
+<h2>Sélection</h2>
+
+<img src="../en/images/selections.jpg"/><br />
+
+<br />
+
+Ceci ne s'applique qu'à la page courante
+
+<ul>
+
+	<li>pour sélectionner tous les éléments de la page, choisir "Tous", "Lus" ou "Non lus"</li>
+
+	<li>pour désélectionner, choisir "Aucun"</li>
+
+	<li>choisir "Inverser sélection" pour sélectionner tous les éléments sauf ceux qui sont actuellement cochés</li>
+
+</ul>
+
+<br />
+
+Ou utiliser les cases à cocher à gauche de chaque élément de la liste et ensuite choisir l'action à appliquer aux éléments sélectionnés.<br />
+
+<br />
+
+Pour sélectionner tous les messages d'un dossier, vous devez vérifier les nombre d'éléments dans Paramètres - Général<br />
+
+
+
+
+
+<h2>Gestion</h2>
+
+<img src="../en/images/actions.jpg"/><br />
+
+<br />
+
+Après avoir sélectionné un ou plusieurs éléments (case à cocher activée), vous pouvez appliquer une action en utilisant les boutons (ex: "Supprimer", une confirmation sera demandée).<br />
+
+<br />
+
+<img src="../en/images/actionslist.jpg"/><br />
+
+<br />
+
+ou parmi celles proposées dans le menu déroulant "Action:" (ex: Marquer comme Lu, Liste noire...).<br />
+
+
+
+
+
+<h2>Recherche</h2>
+
+<img src="../en/images/search.jpg"/><br />
+
+<br />
+
+Entrer une phrase et rechercher parmi toutes les données affichées (objet, expéditeur, destinataires pour des mails; noms et adresses pour des contacts...). Il est possible de restreindre la recherche à certaines données (ex: subject: ). La liste de tous les mots clés est disponible à la fin de ce document.<br />
+
+<br />
+
+Pour annuler le recherche, sélectionner une icône ou un dossier, ou supprimer le texte dans la zone de recherche et cliquer sur "Rechercher".<br />
+
+
+
+
+
+<h2>Gestion de spams</h2>
+
+<img src="../en/images/quarantine.jpg"/><br />
+
+<br />
+
+Sélectionner Quarantaine dans la liste de dossiers pour accéder à votre liste blanche et liste noire. Ces listes représentent les adressses email qui sont toujours acceptées ou refusées. Vous pouvez ajouter, supprimer les éléments dans ces listes ou les déplacer d'une liste à l'autre.<br />
+
+<br />
+
+Pour ajouter un expéditeur à la liste noire:
+
+<ul>
+
+	<li>dans le dossier "Quarantaine", choisir le dossier "Liste noire" (son nom s'affiche en gras), et cliquer sur "Nouvel élément"</li>
+
+	<li>dans la vue Emails, cocher la case à gauche du message spam et appliquer l'action "Liste noire" à partir du menu déroulant "Actions:"</li>
+
+	<li>dasn la vue Emails, cocher la case à gauche du message spam et cliquer sur le bouton "Déplacer" et choisir le dossier Spam</li>
+
+</ul>
+
+<br />
+
+Pour que le dossier Spam soit disponible à partir du menu "Déplacer vers", utiliser l'option "Gestion des dossiers" pour ajouter le dossier Spam à la liste de vos dossiers Favoris.<br />
+
+
+
+
+
+<h2>Gestion des dossiers</h2>
+
+<img src="../en/images/fm_link.jpg"/><br />
+
+<br />
+
+Utiliser "Créer un lien" pour faire apparaître le dosier dans la liste des dossiers favoris. Le dossier sera directement accessible dans le bandeau de gauche et disponible pour les opérations copier/déplacer. Vous pouvez donner un nom au lien différent du nom du vrai dossier. Dans le menu "Gestion des dossiers", le nom du lien apparaîtra entre parenthèses devant le nom du dossier.<br />
+
+<br />
+
+<img src="../en/images/fm_open.jpg"/><br />
+
+<br />
+
+Pour un dossier qui ne s'affiche pas dans le bandeau de gauche, "Ouvrir" le dossier permet d'accéder au contenu du dossier.<br />
+
+<br />
+
+<img src="../en/images/fm_add.jpg"/><br />
+
+<br />
+
+"Ajouter dossier" crée un nouveau dossier. Il est nécessaire de spécifier le type du nouveau dossier (mail, calendrier, contacts...).<br />
+
+<br />
+
+<img src="../en/images/fm_edit.jpg"/><br />
+
+<br />
+
+"Renommer dossier" change le nom du dossier. Si vous aviez donné un nom différent pour le lien qui apparaît dans le bandeau gauche, le nom du lien ne sera pas modifié.<br />
+
+<br />
+
+<img src="../en/images/fm_default.jpg"/><br />
+
+<br />
+
+"Définir comme dossier par défaut" change le dossier pour les nouveaux mails, les mails envoyés, les mails supprimés ou les brouillons. Les dossiers qui sont le défaut de sa catégorie sont toujours accessibles dans le bandeau de gauche et ne peuvent être ni renommés ni supprimés.<br />
+
+<br />
+
+<img src="../en/images/fm_remove.jpg"/><br />
+
+<br />
+
+"Supprimer dossier" supprime tout le contenu du dossier d'une façon permanente (quand vous cliquer sur "Vider") ou supprime tout le contenu et le dossier lui-même d'une façon permanente (quand vous cliquez sur "Supprimer").<br />
+
+
+
+
+
+<h2>Personnalisation</h2>
+
+<img src="../en/images/toolbar.jpg"/><br />
+
+<br />
+
+Le bouton "Paramètres" (qui se trouve entre les icônes "Aide" et "Déconnexion" en haut à droite) permet de personnaliser l'interface tablette. Les différents paramètres sont organisés dans des catégories qui apparaissent comme dossiers (à gauche dans la vue horizontale ou dans un menu déroulant à droite dans la vue verticale).<br />
+
+<br />
+
+<img src="../en/images/rotatesettings.jpg"/><br />
+
+<br />
+
+<ul>
+
+	<li>Général - modifier le format de date/heure, spécifier le nombre d'éléments par page, activer la Corbeille, ajouter automatiquement les destinataires au carnet d'adresses...</li>
+
+	<li>Composer - demander confirmation de lecture, stocker les messages envoyés dans un dossier, gérer la signature, changer la police par défaut...</li>
+
+	<li>Identités - ajouter/éditer/supprimer plusieurs identités (le nom complet et l'adresse email qui seront vus par les destinataires de vos messages)</li>
+
+	<li>Répondeur - gérer les paramètres du répondeur automatique (répondre une fois à chaque destinataire, répondre seulement pendant certaines heures de la journée, ne jamais répondre à certaines adresses...</li>
+
+	<li>Transfért - transférer ou copier les messages entrants à une autre adresse</li>
+
+</ul>
+
+
+
+
+
+<h2>Annuler</h2>
+
+<img src="../en/images/backbutton.jpg"/><br />
+
+<br />
+
+Utiliser le bouton 'Précédent' du navigateur pour revenir à la page précédente ou pour annuler l'édition d'un message, contact, calendrier. Toute modification en cours sera perdue. Il est aussi possible de cliquer sur une autre icône pour annuler l'action en cours.<br />
+
+
+
+
+
+<h2>Basculer</h2>
+
+<img src="../en/images/interfaces.jpg"/><br />
+
+<br />
+
+Vous pouvez basculer vers l'interface avancée ou mobile en utilisant les liens en bas de l'interface tablette. Il ne sera pas nécessaire de s'authentifier à nouveau. L'interface avancée pourrait ne pas fonctionner dans des versions anciennes du navigateur.<br />
+
+
+
+
+
+<h2>Smart Attach</h2>
+
+<img src="../en/images/smartattach.jpg"/><br />
+
+<br />
+
+Sur des tablettes Android et des ordinateurs, vous pouvez utiliser Smart Attach pour envoyer des pièces jointes au serveur et d'insérer des hyperliens à place. Cocher la case "Utiliser SmartAttach" dans la fenêtre "Nouveau message". Cela rend l'envoi des gros mails plus rapide et plus efficace - et spécifiquement pour des destinataires qui utilisent les mobiles.<br />
+
+
+
+
+
+<h2>Recherche par mots clés</h2>
+
+<img src="../en/images/headers.jpg"/><br />
+
+<br />
+
+Des mots clés s'appliquent selon la portée. ex. subject: ne s'applique qu'aux emails, title: aux calendriers. Deux ou plus mots clés sont par défaut combinés par l'opérateur AND. Les opérateurs OR et NOT peuvent être utilisés explicitement.<br />
+
+<br />
+
+<strong>from</strong>: pour rechercher un expéditeur (from:Amy)<br />
+
+<strong>to</strong>: pour recherche un destinataire (to:David)<br />
+
+<strong>subject</strong>: pour rechercher les mots dans l'objet (subject:Dinner)<br />
+
+<strong>cc</strong>: pour rechercher un destinataire dans le champ Cc:<br />
+
+<strong>bcc</strong>: pour rechercher un destinataire dans le champ Cci:<br />
+
+<strong>fulltext</strong>: pour rechercher dans le contenu du message (fulltext:test)<br />
+
+<strong>priority</strong>: pour rechercher selon priorité highest,high,normal,low,lowest (priority:high)<br />
+
+<strong>after</strong>: pour rechercher après la date (after:2004/04/16)<br />
+
+<strong>before</strong>: pour rechercher avant la date (before:2004/04/16)<br />
+
+<strong>title</strong>: pour rechercher dans le titre de l'élément (title:Test)<br />
+
+<strong>description</strong>: pour rechercher dans les champs description ou note (description:Test)<br />
+
+<strong>name</strong>: pour rechercher un nom du contact<br />
+
+<strong>email</strong>: pour rechercher une adresse email<br />
+
+<strong>keyword</strong>: pour rechercher les éléments avec une marque spécifique (tag:Business)<br />
+
+<strong>tag</strong>: pour rechercher les éléments avec une marque spécifique (tag:Business)<br />
+
+<strong>greater</strong>: pour rechercher selon ta taille en ko (greater:1024)<br />
+
+<strong>smaller</strong>: pour rechercher selon ta taille en ko (smaller:1024)<br />
+
+<strong>company</strong>: pour rechercher selon le nom de société (company:IceWarp)<br />
+
+<strong>department</strong>: pour recherher selon le département (department:IT)<br />
+
+<strong>location</strong>: pour rechercher selon l'emplacement (location:London)<br />
+
+
+
+
+
+</div>
+
+</center>
+
+
+
+</body>
+
+</html>

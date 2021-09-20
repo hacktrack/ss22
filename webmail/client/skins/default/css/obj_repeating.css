@@ -1,0 +1,33 @@
+.obj_repeating .obj_repeating_tbl{
+	width: 100%;
+}
+.rtl .obj_repeating .obj_repeating_tbl {
+	direction: rtl;
+}
+.obj_repeating .obj_repeating_th{
+	text-align: left;
+    font-weight: normal;
+}
+body.light .obj_repeating .obj_repeating_th{
+	font-weight: 200;
+}
+
+.rtl .obj_repeating .obj_repeating_th {
+	text-align: right;
+}
+.obj_repeating .obj_repeating_td1{
+	width: 0;
+	padding-right: 15px;
+	border-right: 1px solid #ACA899;
+}
+.rtl .obj_repeating .obj_repeating_td1 {
+	padding-right: 0;
+	padding-left: 15px;
+	border-right: none;
+	border-left: 1px solid #ACA899;
+}
+
+.obj_repeating .obj_repeating_td2{
+	width: 100%;
+	padding-left: 15px;
+}

@@ -1,0 +1,281 @@
+// Menu
+// Handles all menus - main, box, selector, icon...
+
+// Block
+.menu {
+	// GENERAL STYLES
+	@include flexbox;
+	@include flex-direction(column); // Default object direction
+	@include flex(none);
+	background-color: $lighter-grey;
+	color: $dark;
+}
+
+
+// Elements
+.menu-item {
+	@include user-select;
+	@include flexbox;
+	@include align-items(center);
+	overflow: hidden;
+	font-size: rem(16);
+	font-weight: 600;
+	text-decoration: none;
+	opacity: 1;
+	padding: 0 p(1);
+
+	@media #{$medium-up} {
+		padding: 0 p(4/3);
+	}
+
+	transition:
+		background-color $fast;
+
+	&:hover, &:focus {
+		text-decoration: none;
+		transition: none;
+		color: inherit;
+	}
+
+	// States
+	&.active {
+		background-color: $white;
+	}
+
+	&.is-disabled {
+		cursor: default;
+
+		&:hover {
+			background: transparent !important;
+			color: inherit !important;
+		}
+
+		> span {
+			opacity: 0.25;
+		}
+	}
+
+	// Elements
+	[class^="icon-"],
+	[class*=" icon-"] {
+		@include flex(none);
+		font-size: s(1.5); // Same as icon size in icon buttons
+		width: $menu-height;
+		margin-left: -$menu-item-padding;
+
+		&::before {
+			vertical-align: middle;
+		}
+	}
+}
+
+
+// Modifiers
+// TYPES
+// Tab menu
+.menu[iw-type="tab"] {
+
+	// Elements
+	.menu-wrap {
+
+		@media #{$small-only} {
+			@include flexbox;
+			@include flex-direction(column);
+		}
+	}
+
+	.menu-item {
+		height: $menu-height;
+		line-height: $normal-line-height;
+
+		&.active {
+			@include theme {
+				color: $theme-primary;
+			}
+		}
+	}
+}
+
+// Box action menu
+.menu[iw-subtype="action"] {
+	background-color: $white;
+
+	// Elements
+	.menu-item {
+		overflow: visible;
+	}
+
+	// If .menu-item has more than one .button, put them next to each other
+	.button {
+		@include flex(1, 1, 0);
+
+		&:not(:only-of-type) {
+			margin-bottom: 0;
+		}
+
+		+ .button {
+			margin-left: g(1);
+		}
+	}
+}
+
+
+// LOCATION
+// Aside menu
+.menu[iw-location="main"] {
+	background-color: inherit;
+	color: $white;
+	padding-bottom: $menu-height;
+
+	// Elements
+	.menu-item {
+		border-bottom: 1px solid rgba($white, 0.2);
+
+		&.active,
+		&:hover, &:focus {
+			background-color: rgba($white, 0.1);
+			color: $white !important;
+		}
+	}
+}
+
+// Box menu
+.menu[iw-location="box"] {
+
+	@media #{$small-only} {
+		@include flex(1, 1, 0);
+	}
+
+	// Elements
+	.menu-item {
+
+		&:hover, &:focus {
+			background-color: $white;
+		}
+
+		@media #{$small-only} {
+			@include border('top');
+
+			&.active {
+				@include dropdown-arrow(up, 2); // Adds dropdown arrow icon with right: 2rem;
+				line-height: $menu-height; // Centers the dropdown arrow in mobile menu
+			}
+		}
+
+		@media #{$medium-only} {
+
+			[class^="icon-"],
+			[class*=" icon-"] { // Don't show menu icons on tablet
+				display: none;
+			}
+		}
+
+		@media #{$medium-up} {
+			@include border('bottom');
+			@include border('right');
+
+			&.active {
+				margin-right: -1px;
+			}
+		}
+	}
+
+	// Mobile box-menu rules
+	@media #{$small-only} {
+
+		&:not([iw-subtype="action"]) {
+
+			.menu-item {
+				display: none; // Don't show menu-items on mobile by default
+
+				&.active {
+					// Show the menu-item and order it first when active
+					@include flexbox;
+					@include order(1);
+				}
+			}
+
+			&.is-open {
+				position: relative;
+
+				.menu-item {
+					@include flexbox;
+				}
+			}
+		}
+	}
+}
+
+
+// Icon menu
+.menu[iw-type="button"] {
+	@include flex-direction(row);
+}
+
+// Selector menu
+.menu[iw-type="selector"] {
+	@include animation('reveal', $fast);
+	@include content-bubble($position: 'bottom-right', $object: 'selector');
+
+	// Menu wrapper
+	.menu-wrap {
+		@include enable-scroll(vertical);
+		max-height: ($object-height * 7 - rem(1)); // 7 menu items minus 1px separator
+	}
+
+	// Menu item
+	.menu-item {
+		// @include text-ellipsis; // overflow: hidden sometimes hides the separator line
+		white-space: nowrap;
+		overflow: visible; // To always see the separator line
+		text-align: center;
+		font-size: rem(14);
+		display: block;
+		padding: 0 p(2.5);
+		text-transform: uppercase;
+		font-weight: 600;
+		height: $object-height;
+		line-height: $object-height;
+		border: none !important; // Use no borders for this type of menu-item
+
+		&:hover, &:focus {
+			@include theme {
+				color: $theme-primary;
+			}
+			background-color: inherit;
+		}
+
+		&:not(:last-child) {
+
+			&::after {
+				display: block;
+				content: '';
+				height: 1px;
+				@include theme {
+					background-color: $theme-border-grey;
+				}
+				width: calc(100% + #{s(3)});
+				margin-left: s(-1.5); // Pull the line to left the half of additional size
+			}
+		}
+	}
+}
+
+
+// LOCATION
+.topbar .menu { // Apply only when within the topbar object
+	height: 100%;
+	background-color: $white;
+
+	.menu-item { // Apply only when within the topbar object
+		padding: 0;
+
+		&:hover, &:focus {
+			text-decoration: none;
+		}
+	}
+}
+
+.topbar[iw-type="search"] .menu {
+	@include flex(none);
+}

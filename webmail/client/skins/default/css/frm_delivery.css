@@ -1,0 +1,19 @@
+.frm_delivery .obj_datagrid .status .sent,
+.frm_delivery .obj_datagrid .status .delivered,
+.frm_delivery th.sent{
+	color: green;
+}
+.frm_delivery .obj_datagrid .status .queue,
+.frm_delivery .obj_datagrid .status .deferred,
+.frm_delivery th.queue{
+	color: #d4af31;
+}
+.frm_delivery .obj_datagrid .status .recalled,
+.frm_delivery th.canceled{
+	color: #bf4a4a;
+}
+.frm_delivery .obj_datagrid .status .error,
+.frm_delivery th.error{
+	color: red;
+}
+

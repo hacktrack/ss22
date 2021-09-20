@@ -1,0 +1,25 @@
+.frm_task form.obj_select.task_status[iw-value="ico completed"]:after,
+.obj_select_plus.task_status a.completed:after{
+	content: '\e01a';
+	color: #888;
+}
+.frm_task form.obj_select.task_status[iw-value="ico not_started"]:after,
+.obj_select_plus.task_status a.not_started:after{
+	content: '\e016';
+	color: #E5546A;
+}
+.frm_task form.obj_select.task_status[iw-value="ico waiting"]:after,
+.obj_select_plus.task_status a.waiting:after{
+	content: '\e017';
+	color: #C8AD17;
+}
+.frm_task form.obj_select.task_status[iw-value="ico in_progress"]:after,
+.obj_select_plus.task_status a.in_progress:after{
+	content: '\e015';
+	color: #719F3A;
+}
+.frm_task form.obj_select.task_status[iw-value="ico deferred"]:after,
+.obj_select_plus.task_status a.deferred:after{
+	content: '\e05b';
+	color: #648BC8;
+}

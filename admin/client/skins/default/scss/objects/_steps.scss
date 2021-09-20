@@ -1,0 +1,114 @@
+.steps {
+	@include flexbox;
+	@include justify-content(space-between);
+
+	position: relative;
+	overflow: hidden;
+
+	counter-reset: steps;
+}
+
+.steps__item {
+	@include square-size(s(2));
+	@include flex(none);
+
+	text-align: center;
+
+	@include theme {
+		border: 1px solid $theme-primary;
+		background-color: $theme-primary;
+	}
+	border-radius: $circle;
+
+	counter-increment: steps;
+
+	&::after {
+		content: $icon-checkmark;
+
+		display: inline-block;
+
+		font-family: 'icons';
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		font-size: s(1.5);
+		speak: none;
+
+		color: $white;
+	}
+
+	&.is-disabled::after {
+		color: $blue-grey!important;
+	}
+
+	&.is-active {
+
+		&,
+		& ~ .steps__item {
+			background-color: $white;
+
+			&::after {
+				content: counter(steps);
+
+				font-family: inherit;
+				font-size: s(1);
+				font-weight: 700;
+			}
+		}
+
+		&::after {
+
+			@include theme {
+				color: $theme-primary !important;
+			}
+		}
+
+		& ~ .steps__item {
+		border-color: $blue-grey;
+
+			&::after {
+				color: $dark;
+			}
+		}
+	}
+}
+
+// Lines
+// Supports 10 steps max
+@for $i from 2 through 10 {
+
+	.steps__item:nth-last-child(n + #{$i})::before,
+	.steps__item:nth-last-child(n + #{$i}) ~ .steps__item::before {
+		width: calc((100% - #{s(2)}) / #{$i - 1});
+	}
+
+	.steps__item:nth-child(#{$i})::before {
+		transform: translateX(#{100% * ($i - 2)}) translateX(#{s(1)});
+	}
+}
+
+.steps__item:not(:first-child)::before {
+	content: '';
+
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	top: 50%;
+
+	height: 1px;
+}
+
+.steps__item::before {
+
+	@include theme {
+		background-color: $theme-primary;
+	}
+}
+
+.steps__item.is-active ~ .steps__item {
+
+	&::before {
+		background-color: $blue-grey;
+	}
+}

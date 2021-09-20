@@ -1,0 +1,513 @@
+form.obj_button{
+	float: left;
+	display: block;
+	line-height: 0;
+
+	background-color: #D7D7D7;
+	overflow: hidden;
+	border: 1px solid transparent;
+	border-radius: 4px;
+
+	margin-right: 10px;
+	cursor: pointer;
+}
+.rtl form.obj_button {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+form.obj_button input.obj_button{
+	background: transparent;
+	border: none;
+
+	height: 26px;
+	padding: 0 6px 1px;
+	margin: 0;
+
+	vertical-align: middle;
+
+	 /*MSIE*/
+	line-height: 25px;
+	line-height: 27px\9;
+	color: inherit;
+	cursor: inherit;
+}
+
+form.obj_button.rounded,
+form.obj_button.btn_important {
+	border-radius: 15px;
+}
+form.obj_button.big.rounded{
+	border-radius: 22px;
+}
+
+form.obj_button.btn_important.ico:after {
+	top: 6px;
+}
+
+form.obj_button.btn_important input.obj_button {
+	height: 28px;
+	min-width: 108px;
+}
+
+form.obj_button.btn_important.large {
+	border-radius: 25px;
+}
+form.obj_button.btn_important.large input.obj_button {
+	height: 48px;
+	min-width: 200px;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+form.obj_button.btn_important.small {
+	border-radius: 12px;
+}
+form.obj_button.btn_important.small input.obj_button {
+	height: 22px;
+	min-width: 80px;
+	line-height: 24px;
+}
+
+form.obj_button:hover,
+form.obj_button.active,
+form.obj_button.focus{
+	border-color: transparent;
+	background-color: #BABABA;
+}
+
+/* additional classes */
+form.obj_button.simple{
+	margin: 0!important;
+}
+
+form.obj_button.max{
+	float: none;
+	margin: 0!important;
+	width: 100%;
+}
+form.obj_button.max input.obj_button{
+	margin: 0!important;
+	width: 100%!important;
+}
+
+form.obj_button.big input.obj_button{
+	height: 42px;
+	line-height: 42px;
+	padding: 0 15px 1px;
+	font-size: 16px;
+}
+
+form.obj_button.bold{
+	font-weight: 500;
+}
+
+form.obj_button.transparent:hover input.obj_button,
+form.obj_button.transparent{
+	cursor: pointer;
+}
+
+form.obj_button.transparent input.obj_button{
+	text-decoration: none;
+}
+	form.obj_button.transparent:not(.disabled):hover input.obj_button{
+		text-decoration: underline;
+	}
+
+form.obj_button.transparent,
+form.obj_button.transparent:hover,
+form.obj_button.transparent.active,
+form.obj_button.transparent.disabled,
+form.obj_button.transparent.disabled:hover{
+	background-color: transparent!important;
+	border-color: transparent!important;
+}
+
+form.obj_button.noborder{
+	border-color: transparent!important;
+}
+
+form.obj_button.noborder:hover,
+form.obj_button.noborder.active{
+	background-color: #E3E3E3;
+}
+
+form.obj_button.big.noborder{
+	border-radius: 0;
+}
+
+/* button with icon */
+form.obj_button:not(.ico)>.obj_button{
+	min-width: 80px;
+}
+
+form.obj_button.ico,
+form.obj_button.ico2,
+form.obj_button.select{
+	position:relative;
+}
+.rtl form.obj_button.ico,
+.rtl form.obj_button.ico2 {
+	direction: rtl;
+}
+form.obj_button.ico input{
+	text-indent: 25px;
+	padding-left: 0!important;
+}
+.rtl form.obj_button.ico input {
+	text-indent: 20px;
+	padding-left: 7px !important;
+}
+.rtl form.obj_button.big.ico.img {
+	padding-left: 0!important;
+	direction: ltr;
+}
+
+form.obj_button.ico2 input,
+form.obj_button.select input{
+	padding-right: 25px!important;
+}
+.rtl form.obj_button.select input,
+.rtl form.obj_button.ico2 input {
+	padding-left: 23px!important;
+	padding-right: 7px!important;
+}
+
+form.obj_button.ico.img.ico2 input,
+form.obj_button.ico.img.select input{
+	width: 45px;
+}
+
+	form.obj_button.ico2:before {
+		content: "";
+		width: 16px;
+		height: 16px;
+		position: absolute;
+		right: 6px;
+		top: 5px;
+		z-index: 10;
+		font-family: "ico16";
+		font-size: 16px;
+		line-height: 16px;
+		text-indent: 0;
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+
+		text-decoration: none!important;
+	}
+
+form.obj_button.ico.img input{
+	padding: 0!important;
+	width: 28px;
+
+	overflow: hidden;
+	text-indent: 32px;
+}
+
+form.obj_button.ico:after,
+form.obj_button.select:before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 6px;
+	top: 5px;
+	z-index: 10;
+	font-family: "ico16";
+	font-size: 16px;
+	line-height: 16px;
+	text-indent: 0;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+
+	text-decoration: none!important;
+}
+	.rtl form.obj_button.ico:after {
+		left: auto;
+		right: 6px;
+	}
+	.rtl form.obj_button.select:before,
+	.rtl form.obj_button.ico2:before {
+		left: 6px;
+		right: auto;
+	}
+
+form.obj_button.select:before{
+	border: 5px solid transparent;
+	border-top-color: #333;
+	right: 6px;
+	left: auto;
+	width: 0;
+	top: 11px;
+}
+	form.obj_button.select.color1:before,
+	form.obj_button.select.color2:before{
+		border-top-color: #fff;
+	}
+
+	form.obj_button.select.disabled:before{
+		border-top-color: #DFDDDB!important;
+	}
+
+form.obj_button.big.ico input{
+	text-indent: 35px;
+}
+.rtl form.obj_button.big.ico input {
+	text-indent: 20px;
+}
+form.obj_button.big.ico.img input{
+	width: 40px;
+}
+
+form.obj_button.big.ico:after {
+    left: 7px;
+    top: 7px;
+	width: 24px;
+	height: 24px;
+	font-family: "ico24";
+	font-size: 24px;
+	line-height: 24px;
+	text-indent: 0;
+}
+
+
+/* colors */
+form.obj_button.color1{
+	border-color: transparent;
+	color: #ffffff;
+	background-color: {bg_ok_button '#0088CC'};
+}
+	form.obj_button.color1:not(.disabled):hover,
+	form.obj_button.color1.active,
+	form.obj_button.color1.big.noborder:hover{
+		background-color: {bg_ok_button_darker '#006DA3'};
+		border-color: {bc_ok_button_darker '#006DA3'};
+	}
+
+	form.obj_button.color1.border{
+		background-color: transparent!important;
+		border-color: {bg_ok_button '#0088CC'};
+		color: {bg_ok_button '#0088CC'};
+	}
+	form.obj_button.color1.border:not(.disabled):hover,
+	form.obj_button.color1.border.active{
+		border-color: {bc_ok_button_darker '#006DA3'};
+		color: {bc_ok_button_darker '#006DA3'};
+	}
+
+
+form.obj_button.color2{
+	border-color: transparent;
+	color: #ffffff;
+	background-color: {bg_important '#BF6559'};
+}
+	form.obj_button.color2:not(.disabled):hover,
+	form.obj_button.color2.active,
+	form.obj_button.color2.big.noborder:hover{
+		background-color: {bg_important_darker '#A44A3E'};
+		border-color: transparent;
+	}
+
+form.obj_button.color3{
+	background-color: #55b71a;
+	border-color: transparent;
+	color: #ffffff;
+}
+	form.obj_button.color3:not(.disabled):hover,
+	form.obj_button.color3.active,
+	form.obj_button.color3.big.noborder:hover{
+		background-color: #43a508;
+		border-color: transparent;
+	}
+
+form.obj_button.transparent.color1,
+form.obj_button.transparent.color2,
+form.obj_button.transparent.color3 {
+	background-color: transparent!important;
+	color: {bg_main #08C};
+}
+
+form.obj_button:not(.transparent).color1.ico:after,
+form.obj_button:not(.transparent).color2.ico:after,
+form.obj_button:not(.transparent).color3.ico:after,
+form.obj_button:not(.transparent).color1.ico2:before,
+form.obj_button:not(.transparent).color2.ico2:before,
+form.obj_button:not(.transparent).color3.ico2:before{
+	color: inherit;
+	cursor: pointer;
+}
+form.obj_button.color1.transparent>input,
+form.obj_button.color1.transparent.ico:after,
+form.obj_button.color1.transparent.ico2:before {
+	color: {bg_ok_button '#0088CC'};
+}
+form.obj_button.color2.transparent>input,
+form.obj_button.color2.transparent.ico:after,
+form.obj_button.color2.transparent.ico2:before {
+	color: {bg_important '#BF6559'};
+}
+form.obj_button.color3.transparent>input,
+form.obj_button.color3.transparent.ico:after,
+form.obj_button.color3.transparent.ico2:before{
+	color: #43a508;
+}
+
+
+/* Disabled */
+form.obj_button.disabled,
+form.obj_button.disabled:hover{
+	opacity: 0.2;
+	cursor: default;
+	/* background: #f7f7f7!important;
+	border-color: transparent;*/
+}
+/* form.obj_button.disabled,
+form.obj_button.disabled>input,
+form.obj_button.disabled.ico:after,
+form.obj_button.disabled.ico2:before{
+	color: #888!important;
+	cursor: default!important;
+} */
+
+/*
+form.obj_button.noborder.disabled,
+form.obj_button.noborder.disabled:hover,
+form.obj_button.noborder.color1.disabled:hover,
+form.obj_button.noborder.color2.disabled:hover,
+form.obj_button.noborder.color3.disabled:hover{
+	border-color: transparent!important;
+	background: none!important;
+}
+*/
+
+/* IE8 */
+/*
+@media \0screen {
+	form.obj_button.ico{
+
+	}
+	form.obj_button.ico input{
+		background: transparent;
+	}
+}
+*/
+
+/* icons small */
+form.obj_button.ico.play:after {
+    content: "\e015";
+}
+form.obj_button.ico.pause:after {
+    content: "\e016"!important;
+}
+
+form.obj_button.ico.add:after{
+	content: '\e03c';
+}
+form.obj_button.ico.addc:after{
+	content: '\e085';
+}
+form.obj_button.ico.useradd:after{
+	content: '\e942';
+}
+
+.rtl form.obj_button.ico.add:after,
+.rtl form.obj_button.ico.addc:after {
+	right: 6px;
+}
+form.obj_button.ico.tags:after{
+	content: '\e004';
+}
+form.obj_button.ico.share:after{
+	content: '\e053';
+}
+form.obj_button.ico.doc:after{
+	content: '\e02c';
+}
+
+form.obj_button.ico.prev:after,
+.rtl form.obj_button.ico.next:after {
+	content: '\e047';
+}
+form.obj_button.ico.next:after,
+.rtl form.obj_button.ico.prev:after {
+	content: '\e03e';
+}
+form.obj_button.ico.settings:after{
+	content: '\e07e';
+}
+
+form.obj_button.ico.map:after{
+	content: '\e029';
+	top: 6px;
+	left: 5px;
+}
+form.obj_button.ico.trash:after{
+	content: '\e002';
+}
+form.obj_button.ico.print:after{
+	content: '\e013';
+}
+form.obj_button.ico.private:after{
+	content: '\e936';
+}
+form.obj_button.ico.add2:after{
+	content: '\e903';
+	top: 4px;
+}
+
+form.obj_button.ico.ok:after,
+form.obj_button.ico.cancel:after{
+	content: '\e030';
+	font-family: 'ico24';
+	font-size: 14px;
+	top: 5px;
+}
+
+form.obj_button.ico.ok:after{
+	content: '\e07c';
+}
+	form.obj_button.ico.ok:not(.big),
+	form.obj_button.ico.loading{
+		padding-right: 15px;
+	}
+
+form.obj_button.ico.refresh:after,
+form.obj_button.ico.loading:after{
+	content: '\e005';
+}
+form.obj_button.ico.loading:after{
+	-webkit-animation: rotate 0.7s infinite linear;
+	-webkit-animation-play-state: running;
+	animation: rotate 0.7s infinite linear;
+}
+
+/* icons big */
+form.obj_button.ico.big.add:after{
+	content: '\e038';
+	left: 8px;
+	top: 7px;
+}
+form.obj_button.big.ico.private:after{
+	content: '\e027';
+}
+form.obj_button.big.ico.print:after{
+	content: '\e018';
+}
+form.obj_button.big.ico.trash:after{
+	content: '\e028';
+}
+form.obj_button.big.ico.settings:after{
+	font-family: 'ico16';
+	font-size: 16px;
+}
+form.obj_button.big.ico.share:after{
+	content: '\e008';
+}
+form.obj_button.big.ico.refresh:after{
+	content: '\e012';
+}
+form.obj_button.big.ico.send:after{
+	content: '\e00b';
+}
+form.obj_button.big.ico.help:after{
+	content: '\e052';
+}

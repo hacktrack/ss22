@@ -1,0 +1,60 @@
+.obj_input_calendar{
+	position: relative;
+	height: 23px;
+	display: inline-block;
+}
+
+.obj_input_calendar input.obj_input{
+	width: 115px!important;
+	cursor: pointer!important;
+}
+
+.obj_input_calendar.week input.obj_input{
+	width: 200px!important;
+}
+
+.rtl .obj_input_calendar input.obj_input {
+	padding-left: 26px;
+	padding-right: 0;
+}
+
+.obj_input_calendar form.obj_input:before{
+	content: "\e043";
+	position: absolute;
+	display: block;
+	right: 5px;
+	top: 6px;
+
+	text-indent: 0;
+	line-height: 16px;
+	font-size: 14px;
+	font-family: 'ico16';
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	color: {ico_main '#0088CC'};
+	cursor: pointer;
+}
+.obj_input_calendar.big form.obj_input:before{
+	top: 12px;
+}
+.rtl .obj_input_calendar form.obj_input:before,
+.rtl .obj_input_calendar form.obj_input.disabled:before {
+	right: auto;
+	left: 5px;
+}
+
+/* override css from obj_input */
+.obj_input_calendar form.obj_input.disabled:before{
+	width: auto;
+	left: auto;
+	color: #CACACA;
+}
+
+div.obj_input_calendar_bubble {
+	width: 100%;
+	padding: 5px;
+}
+
+/* Error */
+div.obj_input_calendar.error form {
+	border-color: #E08F93!important;
+}

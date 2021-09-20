@@ -1,0 +1,30 @@
+<?php
+  // Groupware class
+  define('SHAREDLIB_PATH', get_cfg_var('icewarp_sharedlib_path'));
+  include(SHAREDLIB_PATH . 'api/gw.php');
+
+  // Create instance
+  $gw = new IceWarpGWAPI();
+
+  // From and to
+  $from = $gw->unix2calendarDate(mktime());
+  $to = $from + 30;
+
+  $email = urldecode($_SERVER['QUERY_STRING']);
+  $filename = $email.".vbf";
+
+  // Get free busy
+  $vfreebusy = $gw->FunctionCall("getvfreebusy", $email, $from . "-" . $to);
+
+  if ($vfreebusy) {
+    // Headers
+    header("Content-Type: application/octet-stream");
+    header("Content-Disposition: attachment; filename=\"$filename\"");
+
+    // Print free busy
+    print($vfreebusy);  
+  } else {
+    // Not found
+    header("HTTP/1.0 404 Not Found");
+  }
+?>

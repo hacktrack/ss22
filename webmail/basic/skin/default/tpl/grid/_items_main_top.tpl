@@ -1,0 +1,1 @@
+<input type="submit" name="_a[delete]" value="{lang::mail_main::delete}" class="fancyButton left" alt="{lang::confirmation::delete_event}"/>

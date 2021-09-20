@@ -1,0 +1,15 @@
+<view>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<compose id="mail_compose" helper="item">
+			<menu template="menu/compose1" anchor="compose.menu.top"/>
+			<menu template="menu/compose2" anchor="compose.menu.bottom"/>
+		</compose>
+		<config>
+			<javascript>
+				<src>lib</src>
+			</javascript>
+		</config>
+	</panel>
+</view>

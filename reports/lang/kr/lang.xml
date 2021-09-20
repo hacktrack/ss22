@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="수신자"/>
+  <ITEM id="attachments" value="첨부파일"/>
+  <ITEM id="bytes" value="바이트"/>
+  <ITEM id="view_mail" value="메일 보기"/>
+  <ITEM id="show_source" value="원본 보기"/>
+  <ITEM id="title" value="시도응답"/>
+  <ITEM id="request" value="보낸 사람 확인을 위해 아래 그림에 포함되어 있는 영문자와 숫자를 입력하십시오. 승인이 된 이후에는 더 이상 스팸으로 분류되지 않고 즉시 배달됩니다."/>
+  <ITEM id="result_ok" value="입력한 단어가 정확합니다. 보낸 사람 메일 주소가 승인되었습니다."/>
+  <ITEM id="result_error" value="설정한 단어는 올바르지 않습니다. 다시 시도해 주십시오."/>
+  <ITEM id="result_already" value="메일 주소가 이미 등록되었습니다."/>
+  <ITEM id="result_black" value="이메일 주소가 블랙리스트 처리되었습니다."/>
+  <ITEM id="result_notfound" value="이메일 주소를 찾을 수 없습니다. 아마 삭제된 것으로 보입니다. 이메일 메시지를 다시 전송해 보십시오."/>
+  <ITEM id="thanks" value="감사합니다."/>
+  <ITEM id="reason" value="스팸을 처리해야 하는 이유는?"/>
+  <ITEM id="explanation" value="원치않는 상업적 메일은 주로 컴퓨터가 자동으로 만들어 보내기 때문에 응답하지 않습니다. 허가 기반의 메일 시스템을 사용하면 메일 발송자에게 승인을 하도록 하는 이메일을 발송하여 응답하도록 요구할 수 있습니다."/>
+  <ITEM id="thanks2" value="스팸 차단에 도움을 주셔서 대단히 감사합니다."/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="IceWarp Korea"/>
+  <ITEM id="gateway_link_label" value="격리/스팸 온라인 관리"/>
+  <ITEM id="copyright2" value="All rights reserved."/>
+  <LIST>
+    <ITEM id="title" value="IceWarp 스팸 보고서"/>
+    <ITEM id="intro" value="스팸보고서는 자동으로 스팸폴더(또는 격리)에 있는 스팸에 대한 정보를 자동으로 제공해 드립니다. 이는 각 메일 헤더 옆에 있는 버튼을 클릭하여 처리가 됩니다.&lt;br/&gt;주의: 각 발송자에서 발송된 처음 메시지만 보여집니다. 허용하면 다른 동일 발송자가 보낸 메일 모두 배달됩니다."/>
+    <ITEM id="outro" value="링크를 눌러 스팸 폴더에 남겨진 모든 편지에 대하여 사용자가 직접 처리 방법을 선택하실 수 있습니다."/>
+    <ITEM id="admin_action" value="모든 계정에 있는 모든 항목에 대한 처리방법을 선택하십시오"/>
+    <ITEM id="account_action" value="계정에 있는 모든 항목에 대한 처리방법을 선택하십시오"/>
+    <ITEM id="you_are_admin" value="스팸관리자 옵션"/>
+    <ITEM id="sender" value="보낸사람"/>
+    <ITEM id="subject" value="제목"/>
+    <ITEM id="recipient" value="받는사람"/>
+    <ITEM id="date" value="날짜"/>
+    <ITEM id="time" value="시각"/>
+    <ITEM id="actions" value="처리 방식"/>
+    <ITEM id="delete" value="삭제"/>
+    <ITEM id="authorize" value="화이트리스트"/>
+    <ITEM id="accept" value="배달"/>
+    <ITEM id="blacklist" value="블랙리스트"/>
+    <ITEM id="deleteall" value="삭제"/>
+    <ITEM id="authorizeall" value="화이트리스트"/>
+    <ITEM id="acceptall" value="배달"/>
+    <ITEM id="blacklistall" value="블랙리스트"/>
+    <ITEM id="submit" value="제출"/>
+    <ITEM id="view" value="메시지 보기"/>
+    <ITEM id="msgsubject" value="%%Current_Date%% 부터 스팸보고서"/>
+    <ITEM id="domain" value="도메인"/>
+    <ITEM id="account" value="계정: "/>
+    <ITEM id="location" value="위치"/>
+    <ITEM id="type_quarantine" value="격리"/>
+    <ITEM id="type_spam" value="스팸 편지함"/>
+    <ITEM id="delivery_problem" value="계정으로 메시지를 배달할 수 없습니다."/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="송신자 승인"/>
+      <ITEM id="success" value="송신자가 승인되었습니다."/>
+      <ITEM id="failure" value="송신자를 승인할 수 없습니다."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="메시지 배달"/>
+      <ITEM id="success" value="메시지가 배달되었습니다."/>
+      <ITEM id="failure" value="메시지를 배달하지 못했습니다."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="메시지 삭제"/>
+      <ITEM id="success" value="메시지가 삭제되었고 큐에서 제거되었습니다."/>
+      <ITEM id="failure" value="메시지를 삭제하지 못했습니다."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="송신자 거부"/>
+      <ITEM id="success" value="송신자가 블랙리스트에 추가되었습니다."/>
+      <ITEM id="failure" value="송신자를 블랙리스트에 등록하지 못했습니다."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="본문 보기"/>
+      <ITEM id="failure" value="본문을 보여 드릴 수 없습니다. 메시지가 이미 삭제되거나 배달되었습니다."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="실패"/>
+      <ITEM id="failure" value="요청을 처리할 수 없습니다."/>
+      <ITEM id="wrongid" value="잘못된 메시지 ID. 선택한 메시지는 이미 격리 또는 스팸폴더에서 제거되었습니다."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="송신자 승인"/>
+      <ITEM id="success" value="발송자는 승인되어 메시지가 배달되었습니다."/>
+      <ITEM id="failure" value="보낸 사람을 화이트리스트에 등록하지 못하거나 메시지를 배달할 수 없습니다."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="메시지 배달"/>
+      <ITEM id="success" value="메시지가 배달되었습니다."/>
+      <ITEM id="failure" value="메시지를 배달할 수 없습니다."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="메시지 삭제"/>
+      <ITEM id="success" value="메시지가 스팸폴더에서 삭제되었습니다."/>
+      <ITEM id="failure" value="메시지를 삭제할 수 없습니다."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="송신자 거부"/>
+      <ITEM id="success" value="발송자가 블랙리스트에 추가되었고 스팸편지함에서 메시지가 제거되었습니다."/>
+      <ITEM id="failure" value="보낸 사람을 블랙리스트에 등록하지 못하거나 메시지를 삭제할 수 없습니다."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="본문 보기"/>
+      <ITEM id="failure" value="본문을 보여 드릴 수 없습니다. 메시지가 이미 삭제되거나 배달되었습니다.."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="실패"/>
+      <ITEM id="failure" value="요청을 처리할 수 없습니다."/>
+      <ITEM id="wrongid" value="잘못된 메시지 ID.  선택한 메시지는 이미 격리 또는 스팸편지함에서 제거되었습니다."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="실패"/>
+      <ITEM id="failure" value="요청한 작업을 수행할 수 없습니다."/>
+      <ITEM id="wrongid" value="잘못된 관리자 ID. 선택한 관리자 계정이 존재하지 않습니다."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="스팸 보고서는  %s에서 사용할 수 없습니다."/>
+    <ITEM id="challenge_already_running" value="스팸보고서가 실행 중입니다."/>
+    <ITEM id="challenge_invalid_path_variable" value="스팸보고서 경로가 적절하게 로드되지 않았습니다:  %s"/>
+    <ITEM id="api_findinitquery" value="스팸보고서 API: IceWarp 계정 객제 조회. 도메인: %s, 필터: %s"/>
+    <ITEM id="challenge_language_file_missing" value="스팸보고서 언어 파일이 없습니다: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="스팸보고서 언어 파일이 손상되었습니다: %s"/>
+    <ITEM id="challenge_invalid_hash" value="스팸보고서 잘못된 해시  (URL공격 추정): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

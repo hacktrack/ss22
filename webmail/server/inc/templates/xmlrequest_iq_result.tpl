@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8" ?><iq {optional sid}sid="{sid}" {/optional}{optional id}uid="{id}" {/optional}{optional teamchat_token}teamchat_token="{teamchat_token}" {/optional}type="result">{optional subAnswer}{subAnswer}{/optional}</iq>

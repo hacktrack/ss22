@@ -1,0 +1,1 @@
+<div id="coverBox" class="{theme}">

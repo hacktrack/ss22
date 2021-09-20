@@ -1,0 +1,1 @@
+<error uid="{error_uid}"><failed_id>{dynamic failed_id}<uid>{*}</uid>{/dynamic}</failed_id></error>

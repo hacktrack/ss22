@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>새 항목</add>
+    <quarantine>격리</quarantine>
+    <whitelist>화이트리스트</whitelist>
+    <blacklist>블랙리스트</blacklist>
+    <save>저장</save>
+    <cancel>취소</cancel>
+    <new_item>새 이메일 수신</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>단축키 금지</disable_shortcuts>
+    <enable_swipe_gestures>터치 기기에서 제스처 판독 사용</enable_swipe_gestures>
+    <use_high_contrast_skin>상위 명암의 스킨 사용</use_high_contrast_skin>
+    <menu_as_text>도구 모음의 아이콘 대신 텍스트로 보기</menu_as_text>
+    <change_password>비밀번호 변경</change_password>
+    <open_change_password_dialog>비밀번호 변경 대화상자 열기</open_change_password_dialog>
+    <oldpassword>기존 비밀번호</oldpassword>
+    <newpassword>새 비밀번호</newpassword>
+    <confirmpassword>비밀번호 확인</confirmpassword>
+    <remove>제거</remove>
+    <settings>환경설정</settings>
+    <navigate>관리</navigate>
+    <user>내 설정</user>
+    <domain>도메인 관리자</domain>
+    <admin>관리자 설정</admin>
+    <new_domain>새 도메인</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>일반</general>
+    <layout>레이아웃</layout>
+    <mail>메일</mail>
+    <compose>작성</compose>
+    <person>이메일</person>
+    <person_header>연락처에 새로 추가</person_header>
+    <person_description>예제: &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>자동응답</autoresponder>
+    <forwarder>전달</forwarder>
+    <layout_desc>레이아웃, 메일</layout_desc>
+    <compose_desc>새 메시지에 대한 기본 설정 (읽음 확인, HTML/Plain 형식, 서명).</compose_desc>
+    <general_desc>메시지를 찾아보거나 삭제, 회신하기 위한 사용자 메일박스를 설정합니다.</general_desc>
+    <personalities_desc>사용자 계정 설정을 다른 이메일 ID로 대체(기본 발송자: 메일주소).</personalities_desc>
+    <autoresponder_desc>부재 중 메일이 수신 될 경우 자동 응답.</autoresponder_desc>
+    <forwarder_desc>메일 수신시 다른 메일 주소로 전달 또는 복사.</forwarder_desc>
+    <date_format>날짜 형식</date_format>
+    <time_format>시간 형식</time_format>
+    <list_count>보여질 항목 수</list_count>
+    <font_family>기본 폰트</font_family>
+    <font_size>기본 폰트 크기</font_size>
+    <text_direction>문자 방향</text_direction>
+    <text_direction_values>왼쪽에서 오른쪽|오른쪽에서 왼쪽</text_direction_values>
+    <empty_trash_every>휴지통 비우기 간격</empty_trash_every>
+    <days>일</days>
+    <move_deleted>삭제한 메일을 휴지통으로 이동</move_deleted>
+    <delete_messages_on_empty>&quot;폴더 비우기&quot; 동작시 메시지 완전 삭제</delete_messages_on_empty>
+    <add_recipients>주소록에 메일 수신자를 자동으로 추가</add_recipients>
+    <group_pref>그룹 제목 접두어 (예. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>읽음확인 요청</request_read_confirmation>
+    <save_sent_msg>보낸 편지를 저장할 폴더</save_sent_msg>
+    <message_format>편지 형식</message_format>
+    <message_format_labels>텍스트|HTML</message_format_labels>
+    <signature>서명</signature>
+    <forward_to>전달할 주소</forward_to>
+    <keep_in_inbox>받은편지함의 편지 유지</keep_in_inbox>
+    <forward_older>오래된 메일 전달</forward_older>
+    <forward_older_to>오래된 메일 전달 주소</forward_older_to>
+    <ar_mode>모드</ar_mode>
+    <ar_mode_labels>사용안함|항상 자동응답|한번만 응답|기간 이후에 다시 응답</ar_mode_labels>
+    <ar_respond_only>사용자 이메일 주소로 발송된 메시지만 응답</ar_respond_only>
+    <ar_respond_again>며칠 이후 다시 자동응답</ar_respond_again>
+    <ar_from>보낸사람</ar_from>
+    <ar_subject>제목</ar_subject>
+    <ar_text>텍스트</ar_text>
+    <ar_no_responder_for>자동응답 하지 않을 주소 :</ar_no_responder_for>
+    <ar_respond_only_between>기간 내에만 자동응답</ar_respond_only_between>
+    <email>이메일</email>
+    <responder>응답 안함</responder>
+    <show_attached_images>첨부된 이미지 자동으로 보기</show_attached_images>
+    <show_inline_images>외부 이미지 자동으로 보기</show_inline_images>
+    <use_reply_prefix>회신 접두사 사용 (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 시간|24 시간</time_format_list_labels>
+    <force_admin>도메인 및 사용자 설정 모두 이 옵션을 강제 적용</force_admin>
+    <force_domain>사용자 설정에 대해서만 이 옵션을 강제 적용</force_domain>
+    <to_top>메일 본문 상단에 서명 삽입</to_top>
+    <quota>디스크 할당량:</quota>
+    <section_layout>일반 레이아웃 설정</section_layout>
+    <section_mail>일반 메일 설정</section_mail>
+    <section_autoresponder>부재 중일 경우 자동 응답을 설정합니다.</section_autoresponder>
+    <section_norespond>리스트의 메일주소는 자동 응답에서 제외합니다..</section_norespond>
+    <domains>도메인</domains>
+    <accounts>계정</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>선택한 편지를 삭제하시겠습니까?</delete_mail>
+    <blacklist_mail>선택한 편지를 블랙리스트에 추가하시겠습니까?</blacklist_mail>
+    <delete_contact>선택한 연락처를 삭제하시겠습니까?</delete_contact>
+    <delete_contact_distribution>이 배포 목록을 삭제하시겠습니까?</delete_contact_distribution>
+    <delete_event>선택한 일정을 삭제하시겠습니까?</delete_event>
+    <delete_note>선택한 메모를 삭제하시겠습니까?</delete_note>
+    <delete_task>선택한 작업을 삭제하시겠습니까?</delete_task>
+    <delete_personalities>선택한 항목을 삭제하시겠습니까?</delete_personalities>
+    <delete_quarantine>선택한 항목을 삭제하시겠습니까?</delete_quarantine>
+    <delete_this_mail>이 메시지를 삭제하시겠습니까?</delete_this_mail>
+    <delete_items>선택한 항목을 삭제하시겠습니까?</delete_items>
+    <delete_item>이 항목을 삭제하시겠습니까?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>이 편지함에는 편지가 없습니다</no_item>
+  </string>
+  <menu>
+    <files>파일</files>
+    <notes>메모</notes>
+    <tasks> 작업</tasks>
+    <journal>업무일지</journal>
+    <calendar> 일정</calendar>
+    <search>검색</search>
+    <messages>편지</messages>
+    <contacts>주소록</contacts>
+    <searchBut>찾기</searchBut>
+    <address_book>연락처</address_book>
+    <logout>로그아웃</logout>
+    <help>도움말</help>
+    <settings>설정</settings>
+    <switch>전환 </switch>
+    <help_url>language/kr/help.html</help_url>
+    <quarantine>필터</quarantine>
+    <alert_restricted_access>이 탭의 사용은 금지되어 있습니다</alert_restricted_access>
+    <basic>태블릿 인터페이스</basic>
+    <advanced>데스크탑 인터페이스</advanced>
+    <mobile>모바일 인터페이스</mobile>
+  </menu>
+  <tree>
+    <add_folder>새 폴더</add_folder>
+    <new_message>메일 작성</new_message>
+    <manage_folders>폴더 관리</manage_folders>
+    <open_folder>폴더 열기</open_folder>
+    <open>열기</open>
+  </tree>
+  <mail_view>
+    <attachments>첨부</attachments>
+    <from>보낸 사람</from>
+    <cc>참조</cc>
+    <bcc>숨은 참조</bcc>
+    <subject>제목</subject>
+    <all_headers>전체 헤더 보기</all_headers>
+    <all_images>이미지 보기</all_images>
+    <next>다음</next>
+    <prev>이전</prev>
+    <first>처음</first>
+    <last>마지막</last>
+    <show_external_images>외부 이미지가 차단되었습니다.표시하려면 여기를 클릭하십시오</show_external_images>
+    <download_all>모두 저장</download_all>
+    <detail>상세정보</detail>
+    <blue_box_start>시작</blue_box_start>
+    <blue_box_end>종료</blue_box_end>
+    <blue_box_description>설명</blue_box_description>
+    <blue_box_accept>허용</blue_box_accept>
+    <blue_box_decline>거부</blue_box_decline>
+    <blue_box_subscribe_folder>폴더 동의</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>계정 동의</blue_box_subscribe_account>
+    <item_accept_ok>항목 허용</item_accept_ok>
+    <read>읽기</read>
+    <write>쓰기</write>
+    <modify>수정</modify>
+    <delete>삭제</delete>
+    <administer>관리</administer>
+    <folder_rights>폴더 권한</folder_rights>
+    <items_rights>항목 권한</items_rights>
+  </mail_view>
+  <login>
+    <send>발송</send>
+    <ip_check>보안확장 끔</ip_check>
+    <user>아이디</user>
+    <email>이메일</email>
+    <password>비밀번호</password>
+    <remember>아이디저장</remember>
+    <language>언어</language>
+    <allways_ask>항상 질문</allways_ask>
+    <username>아이디</username>
+    <username_and_password>아이디와 비밀번호</username_and_password>
+    <auto_login>자동 로그인</auto_login>
+    <login>로그인</login>
+    <copyright>Powered by IceWarp &lt;a href=&quot;http://www.icewarp.co.kr&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Version: $1</copyright>
+    <welcome>IceWarp 웹클라이언트 태블릿 사용을 환영합니다</welcome>
+    <public_welcome>IceWarp 공용 일정에 오신 것을 환영합니다</public_welcome>
+    <title>IceWarp 웹클라이언트 태블릿</title>
+    <public_title>IceWarp 공용 일정</public_title>
+    <reset_password>비밀번호 재설정</reset_password>
+    <sign_up>회원 가입</sign_up>
+    <email>이메일</email>
+    <domain>도메인</domain>
+    <new_password>새 비밀번호</new_password>
+    <confirm_password>비밀번호 확인</confirm_password>
+    <full_name>이름</full_name>
+    <alternative_email>다른 이메일</alternative_email>
+    <switch>Switch to &lt;a href=&quot;../&quot;&gt;데스크탑&lt;/a&gt; or &lt;a href=&quot;../pda&quot;&gt;모바일&lt;/a&gt; 인터페이스.</switch>
+    <no_javascript>&lt;b&gt;자바스크립트를 사용할 수 없습니다. &lt;/b&gt;&lt;/div&gt;따라서 태블릿 인터페이스로 웹메일 사용이 변경되었습니다. 데스크탑 인터페이스를 사용하시려면 &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;knowledge base&lt;/a&gt; 페이지를 참고하여 주십시오. &lt;br /&gt;웹브라우저가 자바스크립트를 지원하지 않으면 &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;최신 인터넷 익스플로러&lt;/a&gt; 또는 &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;모질라 파이어폭스&lt;/a&gt;를 다운로드하여 사용하시면 됩니다.</no_javascript>
+    <captcha>보안 문자</captcha>
+    <word>이미지의 코드 입력</word>
+  </login>
+  <files>
+    <add>파일 업로드</add>
+    <download>다운로드</download>
+    <file>파일</file>
+  </files>
+  <file_list>
+    <filename>파일명</filename>
+    <description>설명</description>
+    <modified>수정</modified>
+    <size>용량</size>
+    <tags>태그</tags>
+  </file_list>
+  <notes>
+    <category>카테고리</category>
+    <add>새 메모</add>
+  </notes>
+  <notes_detail>
+    <note>메모</note>
+    <tags>태그</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>새 작업</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>작업</task>
+    <status>상태</status>
+    <complete>편지쓰기</complete>
+    <priority>중요도</priority>
+    <not_started>시작안함</not_started>
+    <in_progress>진행중</in_progress>
+    <completed>완료</completed>
+    <deferred>지체</deferred>
+    <waiting_for_someone_else>다른 사람을 기다리는 중</waiting_for_someone_else>
+    <medium>보통</medium>
+    <high>높음</high>
+    <low>낮음</low>
+    <tags>Tags</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>시작 날짜</start_date>
+    <due_date>기한</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>전체화면</fullscreen>
+    <subject>제목</subject>
+    <no_subject>제목 없음</no_subject>
+    <no_address>주소 없음</no_address>
+    <from>보낸 사람</from>
+    <date>받은 날짜</date>
+    <size>크기</size>
+    <delete>삭제</delete>
+    <reply>회신</reply>
+    <reply_to_all>전체 회신</reply_to_all>
+    <forward>전달</forward>
+    <print>인쇄</print>
+    <whitelist>화이트리스트</whitelist>
+    <blacklist>블랙리스트</blacklist>
+    <dws>처리</dws>
+    <copy>복사</copy>
+    <move>이동</move>
+    <copy_to_folder>폴더로 복사:</copy_to_folder>
+    <move_to_folder>폴더로 이동:</move_to_folder>
+    <mar>읽은 상태로 표시</mar>
+    <mau>읽지 않은 상태로 표시</mau>
+    <select>선택</select>
+    <all>전체</all>
+    <none>해제</none>
+    <read>읽은</read>
+    <unread>읽지않은</unread>
+    <invert>선택 반전</invert>
+    <doit>적용</doit>
+    <to>받는 사람</to>
+    <fast_reply>빠른 회신</fast_reply>
+    <send_message>편지 발송</send_message>
+    <src>보낸 사람이 읽음 확인 응답을 요청하였습니다.읽음 확인을 보내시겠습니까?</src>
+    <save>저장</save>
+    <select_folder>편지함 선택</select_folder>
+    <deliver>배달</deliver>
+    <text>텍스트</text>
+    <received>수신</received>
+    <saved>저장</saved>
+    <sender>보내는 사람</sender>
+    <owner>소유자</owner>
+    <domain>도메인</domain>
+    <show_all>전체표시</show_all>
+  </mail_main>
+  <event_list>
+    <title>제목</title>
+    <start>시작</start>
+    <end>종료</end>
+    <tags>태그</tags>
+  </event_list>
+  <event_detail>
+    <tags>태그</tags>
+    <show_as>표시</show_as>
+    <free>온라인</free>
+    <tentative>임시적인</tentative>
+    <busy>다른 용무중</busy>
+    <out_of_office>자리비움</out_of_office>
+    <title>제목</title>
+    <location>위치</location>
+    <label>깃발</label>
+    <none>없음</none>
+    <important>중요</important>
+    <business>업무</business>
+    <personal>개인</personal>
+    <vacation>휴가</vacation>
+    <must_attend>필수 참석</must_attend>
+    <travel_required>출장</travel_required>
+    <needs_preparation>준비 필요</needs_preparation>
+    <birthday>생일</birthday>
+    <anniversary>기념일</anniversary>
+    <phone_call>전화</phone_call>
+    <category>분류</category>
+    <private>사설</private>
+    <from>시작시간</from>
+    <to>종료시간</to>
+    <notes>메모</notes>
+    <allday>하루 종일</allday>
+    <event>일정</event>
+    <minutes>분</minutes>
+    <hours>시간</hours>
+    <days>일</days>
+    <remind_me>알림</remind_me>
+    <before>이전</before>
+    <no_repeating>반복 안함</no_repeating>
+    <daily>매일</daily>
+    <weekly>매주</weekly>
+    <monthly>매월</monthly>
+    <yearly>매일</yearly>
+    <end_date>종료일</end_date>
+    <no_end_date>종료일 없음</no_end_date>
+    <repeat>반복</repeat>
+    <every>매일</every>
+    <every_workday>매주</every_workday>
+    <recur_every>모두 반복</recur_every>
+    <weeks>주</weeks>
+    <on>on</on>
+    <monday>월요일</monday>
+    <tuesday>화요일</tuesday>
+    <wednesday>수요일</wednesday>
+    <thursday>목요일</thursday>
+    <friday>금요일</friday>
+    <saturday>토요일</saturday>
+    <sunday>일요일</sunday>
+    <day>일</day>
+    <months>월</months>
+    <first>첫번째</first>
+    <second>두번째</second>
+    <third>세번째</third>
+    <fourth>네번째</fourth>
+    <last>지난</last>
+    <week>주</week>
+    <work_week>근무일</work_week>
+    <weekend>주말</weekend>
+    <of_every>모든</of_every>
+    <of>of</of>
+    <years>년</years>
+    <the/>
+    <times>번</times>
+    <count>횟수</count>
+    <until>까지</until>
+    <tags>태그</tags>
+  </event_detail>
+  <event_main>
+    <mon>(월)</mon>
+    <tue>(화)</tue>
+    <wed>(수)</wed>
+    <thu>(목)</thu>
+    <fri>(금)</fri>
+    <sat>(토)</sat>
+    <sun>(일)</sun>
+    <jan>1월</jan>
+    <feb>2월</feb>
+    <mar>3월</mar>
+    <apr>4월</apr>
+    <may>5월</may>
+    <jun>6월</jun>
+    <jul>7월</jul>
+    <aug>8월</aug>
+    <sep>9월</sep>
+    <oct>10월</oct>
+    <nov>11월</nov>
+    <dec>12월</dec>
+    <week>주</week>
+    <week_view>주</week_view>
+    <work_week_view>근무요일</work_week_view>
+    <month_view>월</month_view>
+    <day_view>일</day_view>
+    <list>목록</list>
+    <add>새 일정</add>
+    <save>저장</save>
+    <no_title>제목 없음</no_title>
+    <search>찾기:</search>
+    <account>계정:</account>
+    <print>출력</print>
+  </event_main>
+  <contact_main>
+    <contact>연락처</contact>
+    <distribution_list>메일 그룹</distribution_list>
+    <title>제목</title>
+    <no_email>이메일 없음</no_email>
+    <card_view>카드 보기</card_view>
+    <list_view>목록 보기</list_view>
+    <contact_name>이름</contact_name>
+    <email>이메일</email>
+    <company>회사</company>
+    <job>회사</job>
+    <department>부서</department>
+    <profession>직업</profession>
+    <category>범주</category>
+    <general>일반</general>
+    <first_name>이름</first_name>
+    <middle_name>중간 이름</middle_name>
+    <last_name>성</last_name>
+    <nick>애칭</nick>
+    <sort_string>문자열 정렬</sort_string>
+    <title>제목</title>
+    <suffix>접미사</suffix>
+    <category>범주</category>
+    <web>웹 페이지</web>
+    <street>주소</street>
+    <city>구/군/시</city>
+    <zip>우편번호</zip>
+    <state>시/도</state>
+    <country>국가</country>
+    <im>메신저</im>
+    <phones>전화</phones>
+    <work>사무실</work>
+    <home>집</home>
+    <assistant>비서</assistant>
+    <fax_home>집 팩스</fax_home>
+    <fax_work>근무처 팩스</fax_work>
+    <call_back>콜백</call_back>
+    <company>회사</company>
+    <car>카폰</car>
+    <isdn>ISDN</isdn>
+    <mobile>휴대전화</mobile>
+    <other>기타</other>
+    <other_fax>기타 팩스</other_fax>
+    <pager>호출기</pager>
+    <primary>기본</primary>
+    <radio>무선 전화</radio>
+    <telex>텔렉스</telex>
+    <hearing>청각</hearing>
+    <add>새 연락처</add>
+    <notes>메모</notes>
+    <no_name>연락처 이름 없음</no_name>
+    <select>타입 선택</select>
+    <select_contacts>추가하려는 연락처를 선택하십시오</select_contacts>
+    <add_distribution>새 메일 그룹</add_distribution>
+    <add_new>추가</add_new>
+    <add_item_distribution>주소록에서 추가</add_item_distribution>
+    <save>저장</save>
+    <edit>수정</edit>
+    <edit_selected>선택한 것 수정</edit_selected>
+    <delete_selected>삭제</delete_selected>
+    <cancel>취소</cancel>
+    <onleave_warning>로그아웃 하시겠습니까?저장하지 않은 모든 데이터를 잃게됩니다.</onleave_warning>
+    <tags>태그</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>새 대상</new_patient>
+    <new_staff>새 회원</new_staff>
+    <notify_email>이메일 알림</notify_email>
+    <notify_sms>SMS 알림</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>추가</add>
+    <staff>스태프</staff>
+    <patient>환자</patient>
+  </hippa_detail>
+  <grid>
+    <title>제목</title>
+    <note>메모</note>
+    <size>크기</size>
+    <category>범주</category>
+    <start>시작</start>
+    <end>종료</end>
+    <save>저장</save>
+    <cancel>취소</cancel>
+    <number_of_items>다른 페이지에서 선택한 항목 수:</number_of_items>
+    <clear>정리</clear>
+  </grid>
+  <mail_compose>
+    <select_text>링크하기 원하는 텍스트를 선택하세요.</select_text>
+    <enter_url>이 링크에 대한 URL 입력:</enter_url>
+    <image_location>이 이미지에 대한 위치를 입력:</image_location>
+    <image_alt>이 이미지에 대한 대안 문자 입력:</image_alt>
+    <image>이미지 삽입</image>
+    <htmlsource>HTML 소스</htmlsource>
+    <hyperlink>하이퍼링크</hyperlink>
+    <underline>밑줄</underline>
+    <italic>이탤릭</italic>
+    <bold>굵은</bold>
+    <fontsize>폰트 크기</fontsize>
+    <fontformat>폰트 형식</fontformat>
+    <outdent>들여쓰기 줄임</outdent>
+    <indent>들여쓰기 증가</indent>
+    <orderedlist>번호 목록</orderedlist>
+    <unorderedlist>글머리 기호 목록</unorderedlist>
+    <justify>맞춤</justify>
+    <right>우측 정렬</right>
+    <center>가운데 정렬</center>
+    <left>좌측 정렬</left>
+    <blockformat>블록 형식</blockformat>
+    <block_type>블록 유형</block_type>
+    <heading>헤더</heading>
+    <paragraph>문장</paragraph>
+    <size>크기</size>
+    <font>폰트</font>
+    <cancel>취소</cancel>
+    <email>이메일</email>
+    <options>옵션</options>
+    <plain>일반</plain>
+    <html>HTML</html>
+    <from>보낸 사람</from>
+    <to>받는 사람</to>
+    <cc>참조</cc>
+    <bcc>숨은 참조</bcc>
+    <subject>제목</subject>
+    <date>날짜</date>
+    <attachments>첨부</attachments>
+    <text>텍스트</text>
+    <send_message>편지 발송</send_message>
+    <save_message>저장</save_message>
+    <br/>
+    <spellchecker>맞춤법 검사 언어</spellchecker>
+    <rrc>읽음 확인 메일 요청</rrc>
+    <ssm>폴더에 보낸 메시지 저장</ssm>
+    <psa>대용량 첨부 사용</psa>
+    <priority>우선 순위</priority>
+    <lowest>매우낮은</lowest>
+    <low>낮은</low>
+    <normal>보통</normal>
+    <high>높은</high>
+    <highest>매우높은</highest>
+    <rta>회신 주소</rta>
+    <charset>인코딩</charset>
+    <auto>자동</auto>
+    <original_message>-----Original Message-----</original_message>
+    <read_confirmation_subject>읽음: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>편지를 읽었습니다.&#13;&#10;&#13;&#10;편지 자세히 보기:&#13;&#10;&#13;&#10;보낸 사람: %FROM%&#13;&#10;받는 사람: %TO%&#13;&#10;날짜: %DATE%&#13;&#10;제목: %SUBJECT%</read_confirmation_text>
+    <add_contacts>연락처 추가</add_contacts>
+    <add_files>파일 추가</add_files>
+    <add_files_from_folder>폴더로 부터 파일 추가</add_files_from_folder>
+    <add_files_from_dropbox>드롭박스로 부터 파일 추가</add_files_from_dropbox>
+    <leave_notice>이 화면을 떠나시겠습니까?이 메시지는 저장되지 않습니다.</leave_notice>
+    <alias>별명</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>새 폴더</add>
+    <delete>삭제</delete>
+    <link>링크</link>
+    <unlink>링크해제</unlink>
+    <create_folder>새 폴더 만들기</create_folder>
+    <create>확인</create>
+    <delete_confirmation_text>이 폴더를 완전히 삭제하시겠습니까?</delete_confirmation_text>
+    <empty_confirmation_text>이 폴더의 항목을 완전히 삭제하시겠습니까?</empty_confirmation_text>
+    <delete_yes>예</delete_yes>
+    <delete_no>아니오</delete_no>
+    <link_as>연결할 폴더</link_as>
+    <unlink_as>링크 삭제 / 링크 이름 변경</unlink_as>
+    <unlink_confirmation_text>폴더 링크를 삭제하시겠습니까?</unlink_confirmation_text>
+    <unlink_yes>예</unlink_yes>
+    <unlink_no>아니오</unlink_no>
+    <virtual>가상 폴더</virtual>
+    <delete_empty_folder>삭제 또는 폴더 비우기</delete_empty_folder>
+    <edit>수정</edit>
+    <empty>비우기</empty>
+    <rename_folder>폴더 이름 바꾸기</rename_folder>
+    <save>저장</save>
+    <rename>이름 변경</rename>
+    <perform_action>처리 수행</perform_action>
+    <select_folder>관리할 폴더를 선택</select_folder>
+    <open_folder>폴더 열기</open_folder>
+    <open_folder_des>폴더 내용을 확인하는데 사용됩니다.</open_folder_des>
+    <link_folder>폴더 연결</link_folder>
+    <link_folder_des>왼쪽의 폴더 리스트에 바로가기를 만들 때 사용됩니다.</link_folder_des>
+    <add_folder>폴더 추가</add_folder>
+    <add_folder_dis>선택한 폴더 아래에 새 폴더를 생성하는 데 사용됩니다.</add_folder_dis>
+    <rename_folder_des>선택한 폴더명을 변경할때 사용됩니다.</rename_folder_des>
+    <remove_folder>폴더 제거</remove_folder>
+    <remove_folder_des>선택한 폴더를 완전히 비우고 삭제합니다.경고:이 작업은 취소할 수 없습니다!</remove_folder_des>
+    <default_folder>기본 폴더로 설정</default_folder>
+    <default_folder_des>기본 폴더로 설정하는데 사용됩니다.</default_folder_des>
+    <set_default>이 폴더를 기본 폴더로 설정</set_default>
+    <set>설정</set>
+    <as_drafts>임시 보관함</as_drafts>
+    <as_sent>보낸 편지함</as_sent>
+    <as_trash>지운 편지함</as_trash>
+    <set_as_default>설정</set_as_default>
+    <link_first>폴더는 기본으로 설정하기 전에 먼저 링크되어야 합니다.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>받은 편지함</inbox>
+    <drafts>임시 보관함</drafts>
+    <sent>보낸 편지함</sent>
+    <trash>지운 편지함</trash>
+  </common_folders>
+  <common>
+    <yes>예</yes>
+    <no>아니오</no>
+  </common>
+  <folder_types>
+    <mail>메일</mail>
+    <contact>연락처</contact>
+    <event>일정</event>
+    <journal>업무일지</journal>
+    <note>메모</note>
+    <task> 작업</task>
+    <file>파일</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA 확인 실패. 재시도하여 주세요.</login_invalid_keypair>
+    <divtcha_confirmation>확인 코드 오류</divtcha_confirmation>
+    <missing_values_text>문자열을 입력하세요</missing_values_text>
+    <missing_values_email>이메일을 입력하세요</missing_values_email>
+    <invalid_email>잘못된 이메일 주소입니다</invalid_email>
+    <password_not_changed>새 비밀번호가 기존 비밀번호와 동일합니다</password_not_changed>
+    <reset_password_invalid_hashid>잘못된 hash ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID 파일이 존재하지 않습니다</reset_password_uid_file>
+    <account_alternative_email>다른 메일 주소가 존재하지 않습니다</account_alternative_email>
+    <migration_in_progress>계정의 마이그레이션이 진행중입니다, 나중에 다시 시도하십시오</migration_in_progress>
+    <login_ip_invalid>로그인 IP 제한: %s</login_ip_invalid>
+    <unauthorized>승인되지 않은 액세스</unauthorized>
+    <folder_type_restricted>이 폴더는 관리자가 사용을 제한하였습니다</folder_type_restricted>
+    <account_does_not_exists>지정된 계정이 존재하지 않습니다</account_does_not_exists>
+    <account_invalid_id>%s 계정을 가져올 수 없습니다</account_invalid_id>
+    <account_unknown_protocol>계정 프로토콜을 알 수 없습니다</account_unknown_protocol>
+    <account_missing_tag>계정의 %s 태그가 없음</account_missing_tag>
+    <account_missing_id>계정 ID 없음</account_missing_id>
+    <account_invalid_action>계정 처리가 유효하지 않음</account_invalid_action>
+    <account_already_exists>%s 계정이 이미 존재함</account_already_exists>
+    <account_no_username>계정 아이디가 필요합니다</account_no_username>
+    <account_no_password>계정 비밀번호가 필요합니다</account_no_password>
+    <account_bad_password>이전 비밀번호를 잘못 입력하였습니다</account_bad_password>
+    <account_password_policy>비밀번호가 비밀번호 정책과 일치하지 않습니다</account_password_policy>
+    <account_sync>%s 계정의 동기화 오류</account_sync>
+    <account_primary_delete>기본 계정을 삭제할 수 없습니다</account_primary_delete>
+    <account_test_failed>%s 계정 테스트 실패</account_test_failed>
+    <account_signup_disabled>계정 가입 비활성화</account_signup_disabled>
+    <account_signup_error>계정 가입 오류: %s</account_signup_error>
+    <account_signup_1>정의되지 않은 오류</account_signup_1>
+    <account_signup_2>라이선스 부족</account_signup_2>
+    <account_signup_3>매개변수 크기가 작습니다</account_signup_3>
+    <account_signup_4>함수 오류</account_signup_4>
+    <account_signup_5>환경설정을 찾을 수 없습니다</account_signup_5>
+    <account_signup_6>비밀번호 정책</account_signup_6>
+    <account_signup_7>계정이 이미 존재합니다</account_signup_7>
+    <account_signup_8>잘못된 문자</account_signup_8>
+    <attachment_too_large>첨부파일 용량이 너무 큽니다: %s</attachment_too_large>
+    <password_confirmation>비밀번호 불일치</password_confirmation>
+    <missing_values>비밀번호 불일치</missing_values>
+    <addon_copy>부가기능을 복사할 수 없음</addon_copy>
+    <attachment_file_not_found>파일 첨부 오류</attachment_file_not_found>
+    <attachment_add>첨부파일 추가 실패</attachment_add>
+    <attachment_get>%s 첨부파일 가져오기 실패</attachment_get>
+    <attacment_class_unknown>첨부파일 클래스 오류</attacment_class_unknown>
+    <auth_missing_tag>%s 태그의 인증 없음</auth_missing_tag>
+    <auth_export_key_private>사설키를 내보낼 수 없음</auth_export_key_private>
+    <auth_invalid_char>개인 키에 잘못된 문자</auth_invalid_char>
+    <confirmation_uid>보안 문자 세션 없음</confirmation_uid>
+    <confirmation_word_mismatch>보안 문자를 잘못 입력</confirmation_word_mismatch>
+    <db_auto_create>데이터베이스 자동 생성 오류</db_auto_create>
+    <db_create_sqlitefile>SQLite DB 파일을 만들수 없음</db_create_sqlitefile>
+    <db_create_tables>테이블 생성 오류</db_create_tables>
+    <db_statement_prepare>문장을 준비할 수 없음</db_statement_prepare>
+    <db_invalid_statement>잘못된 서술 유형</db_invalid_statement>
+    <flags_unknown_field>잘못된 깃발 필드</flags_unknown_field>
+    <folder_autocreate_failed>%s 폴더가 이미 존재합니다</folder_autocreate_failed>
+    <folder_already_exists>%s 폴더가 이미 존재합니다</folder_already_exists>
+    <folder_does_not_exist>%s 폴더가 존재하지 않습니다</folder_does_not_exist>
+    <folder_name_bad_char>특수 문자는 폴더 이름에 사용할 수 없습니다</folder_name_bad_char>
+    <folder_name_length>폴더 이름의 길이를 가져올 수 없습니다</folder_name_length>
+    <folder_name_too_long>새 폴더 이름이 너무 깁니다</folder_name_too_long>
+    <folder_get_list>폴더 목록을 가져올 수 없습니다</folder_get_list>
+    <folder_delete>%s 폴더를 삭제할 수 없습니다</folder_delete>
+    <folder_create>%s 폴더를 만들 수 없습니다</folder_create>
+    <folder_rename_empty>빈 이름으로 폴더 이름을 바꿀 수 없습니다</folder_rename_empty>
+    <folder_move_to_self>폴더 자신에게 이동할 수 없습니다</folder_move_to_self>
+    <folder_move_to_subfolder>자신의 하위 폴더에 폴더를 이동할 수 없습니다</folder_move_to_subfolder>
+    <folder_rename>폴더 이름을 바꿀 수 없습니다</folder_rename>
+    <folder_copy>폴더를 복사 할 수 없습니다</folder_copy>
+    <folder_empty>폴더를 비울 수 없습니다</folder_empty>
+    <folder_missing_tag>폴더 태그 %s가 없습니다</folder_missing_tag>
+    <folder_missing_account_id>폴더에 계정 ID가 누락되었습니다</folder_missing_account_id>
+    <folder_invalid_account_id>폴더에 잘못된 계정 ID %s 가 있습니다</folder_invalid_account_id>
+    <folder_missing_id>폴더 id가 없습니다</folder_missing_id>
+    <folder_missing_name>폴더이름 없음</folder_missing_name>
+    <folder_invalid_action>잘못된 폴더 처리 %s</folder_invalid_action>
+    <folder_invalid_type>잘못된 형식의 폴더 %s</folder_invalid_type>
+    <folder_sync>%s 폴더 동기화 오류</folder_sync>
+    <folder_empty_non_mail>폴더를 비울 수 없습니다</folder_empty_non_mail>
+    <folder_insufficient_rights>작업을 수행 할 권한이 부족합니다</folder_insufficient_rights>
+    <folder_mark_non_mail>비메일 폴더의 깃발를 설정하려합니다</folder_mark_non_mail>
+    <freebusy_missing_tag>%s 의 Freebusy 태그 누락</freebusy_missing_tag>
+    <group_open>%s 그룹 열기 오류</group_open>
+    <group_subscribe>%s 그룹에 가입 오류</group_subscribe>
+    <group_add>그룹 생성 오류</group_add>
+    <group_edit>%s 그룹 수정 오류</group_edit>
+    <group_user_add>그룹 %s에 사용자 추가 오류</group_user_add>
+    <group_user_edit>그룹 사용자 %s 수정 오류</group_user_edit>
+    <group_user_delete>그룹 사용자  %s 삭제 오류</group_user_delete>
+    <groupware_upgrade_task>그룹웨어 서비스 업데이트 절차가 실행 중입니다. 나중에 다시 시도해주세요.</groupware_upgrade_task>
+    <folder_open>그룹 %s 열기 오류</folder_open>
+    <call_open_folder_first>그룹웨어 폴더가 사용 중이므로 열 수 없습니다</call_open_folder_first>
+    <call_open_group_first>그룹웨어 그룹이 사용 중이므로 열 수 없습니다</call_open_group_first>
+    <subscribe_account_gw>계정 가입 오류</subscribe_account_gw>
+    <unsubscribe_account_gw>계정 수신거부 오류</unsubscribe_account_gw>
+    <imap_clone>IMAP 개체를 복제 할 수 없습니다</imap_clone>
+    <imap_open>IMAP 스트림을 열 수 없습니다</imap_open>
+    <imap_internal>IMAP 내부 오류: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP 조회 구분자 오류</imap_delimiter_retrieval>
+    <imap_getmailboxes>메일박스 목록 가져오기 오류</imap_getmailboxes>
+    <imap_mailbox_create>IMAP %s 메일박스 생성</imap_mailbox_create>
+    <imap_mailbox_subscribe>메일박스 %s 가입 오류</imap_mailbox_subscribe>
+    <imap_mailbox_delete>메일박스 %s 삭제 오류</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>메일박스 %s 탈퇴 오류</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP 메일박스 %s 이름변경 오류</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP 메일박스 항목 삭제</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP 메일박스 항목 비우기</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP 항목 복사 오류</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP 항목 이동 오류</imap_mailbox_moveitems>
+    <imap_mailbox_open>메일박스 %s 다시열기 오류</imap_mailbox_open>
+    <imap_mailbox_message_list>메시지의 목록을 가져올 수 없습니다</imap_mailbox_message_list>
+    <imap_message_details>메시지 %s에 대한 상세정보 얻기 오류</imap_message_details>
+    <imap_no_headers>메시지  %s 헤더 얻기 오류</imap_no_headers>
+    <imap_no_body>메시지  %s 본문 얻기 오류</imap_no_body>
+    <imap_message_create>메시지 덭붙이기 오류</imap_message_create>
+    <imap_message_delete>메시지 %s 삭제 오류</imap_message_delete>
+    <imap_message_copy>메시지 %s 복사 오류</imap_message_copy>
+    <imap_message_move>메시지 %s 이동 오류</imap_message_move>
+    <imap_flags_set>메시지 %s 프래그 설정 오류</imap_flags_set>
+    <imap_flags_clear>메시지 %s 깃발 제거 오류</imap_flags_clear>
+    <imap_message_not_found>대상 메일함에 새 메시지가 없습니다</imap_message_not_found>
+    <subscribe_account_imap>계정 등록 오류</subscribe_account_imap>
+    <unsubscribe_account_imap>계정 해지중 오류 발생</unsubscribe_account_imap>
+    <import_vcalendar>vCalendar 가져오기 오류</import_vcalendar>
+    <import_vcard>vCard 가져오기 오류</import_vcard>
+    <import_missing_tag>빠진 %s  태그 가져오기</import_missing_tag>
+    <import_missing_action>누락된 처리 가져오기</import_missing_action>
+    <import_invalid_action>잘못된 가져오기 처리 %s</import_invalid_action>
+    <import_missing_account_id>누락된 계정 ID 가져오기</import_missing_account_id>
+    <import_invalid_account_id>잘못된 계정 ID 가져오기</import_invalid_account_id>
+    <import_missing_folder_id>누락된 폴더 ID 가져오기</import_missing_folder_id>
+    <import_invalid_folder_id>잘못된 폴더 ID 가져오기</import_invalid_folder_id>
+    <import_invalid_item_id>잘못된 항목 ID 가져오기</import_invalid_item_id>
+    <import_add_items>항목을 만들 수 없습니다</import_add_items>
+    <import_invalid_data>지원되지 않는 데이터를 가져 오려는 중</import_invalid_data>
+    <export_invalid_account>존재하지 않는 계정을 내 보내려하는 중</export_invalid_account>
+    <imip_versit_convert>iMIP versit 변환</imip_versit_convert>
+    <imip_versit_empty>iMIP versit 비우기</imip_versit_empty>
+    <imip_missing_folder>iMIP 폴더 누락</imip_missing_folder>
+    <inputstream_no_xml_input>전달된 XML 입력 없음</inputstream_no_xml_input>
+    <inputstream_corrupted_input>손상된 XML 입력</inputstream_corrupted_input>
+    <item_invalid_id>항목의 ID 없음</item_invalid_id>
+    <item_count>항목 수를 가져올 수 없습니다</item_count>
+    <item_create>항목을 만들 수 없습니다</item_create>
+    <item_delete>%s 항목을 삭제할 수 없습니다</item_delete>
+    <item_move>항목을 이동할 수 없습니다</item_move>
+    <item_edit>%s 항목 수정 오류</item_edit>
+    <item_occurrance_delete>%s 발생을 삭제할 수 없습니다</item_occurrance_delete>
+    <item_occurrance_create>발생하는 것을 만들 수 없습니다</item_occurrance_create>
+    <item_exception_delete>예외 %s 를 삭제할 수 없습니다</item_exception_delete>
+    <item_exception_create>예외를 만들 수 없습니다</item_exception_create>
+    <item_copy>항목을 복사 할 수 없습니다</item_copy>
+    <item_copy_multiple>여러 항목을 복사 할 수 없습니다</item_copy_multiple>
+    <item_copy_destination>대상 폴더를 가져올 수 없습니다</item_copy_destination>
+    <item_copy_destination_type>원본 폴더가 아닌 다른 종류의 폴더에 복사 할 수 없습니다</item_copy_destination_type>
+    <item_count_retrieve>폴더 항목을 셀 수 없습니다</item_count_retrieve>
+    <item_missing_tag>항목 태그 누락</item_missing_tag>
+    <item_missing_account_id>계정 ID 누락</item_missing_account_id>
+    <item_invalid_account_id>잘못된 계정 ID %s</item_invalid_account_id>
+    <item_missing_folder_id>폴더 ID 누락</item_missing_folder_id>
+    <item_invalid_folder_id>잘못된 폴더 ID %s</item_invalid_folder_id>
+    <item_missing_item_id>항목 ID 누락</item_missing_item_id>
+    <item_invalid_item_id>잘못된 항목 ID %s</item_invalid_item_id>
+    <item_invalid_action>항목 설정이 잘못되었습니다</item_invalid_action>
+    <login_invalid>%s 사용자 로그인 오류</login_invalid>
+    <login_account_valid>잘못된 사용자 %s</login_account_valid>
+    <phpmailer_>메일 서버 오류</phpmailer_>
+    <phpmailer_smtp_auth>메일서버 SMTP 인증</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>메일서버 SMTP 연결</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>메일서버에 받는사람이 없음</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>지원되지 않는 메일 서버의 종류</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail 발송 오류</phpmailer_sendmail_send>
+    <phpmailer_mail_send>이메일 발송 오류</phpmailer_mail_send>
+    <phpmailer_language>언어 파일을 열 수 없습니다</phpmailer_language>
+    <phpmailer_add_attachment>파일을 첨부할 수 없습니다</phpmailer_add_attachment>
+    <phpmailer_encode_file>첨부파일을 인코딩 할 수 없습니다</phpmailer_encode_file>
+    <phpmailer_encode_unknown>알 수 없는 인코딩 유형의 첨부파일</phpmailer_encode_unknown>
+    <mailparse_empty>구문 분석 할 원본 없음</mailparse_empty>
+    <mailparse_parser_init>이메일의 구문 분석 실패</mailparse_parser_init>
+    <mailparse_get_part>%s 부분을 가져올 수 없습니다</mailparse_get_part>
+    <message_missing_tag>메시지에 %s 태그가 누락되었습니다</message_missing_tag>
+    <message_missing_account_id>계정 ID가 누락된 메시지</message_missing_account_id>
+    <message_invald_account>계정 ID가 잘못된 메시지</message_invald_account>
+    <message_missing_folder_id>폴더 ID가 누락된 메시지</message_missing_folder_id>
+    <message_invald_folder>폴더 ID가 잘못된 메시지</message_invald_folder>
+    <message_missing_item_id>항목 ID가 누락된 메시지</message_missing_item_id>
+    <message_invalid_action>잘못된 동작 메시지</message_invalid_action>
+    <message_get_not_allowed>권한이 불충분하여 폴더 목록을 업데이트 할 수 없습니다</message_get_not_allowed>
+    <message_attachment_type>%s 첨부파일의 구문을 분석할 수 없습니다</message_attachment_type>
+    <message_attachment_existence>최근 업로드 된 첨부파일을 찾을 수 없습니다</message_attachment_existence>
+    <rss_channel_exist>지정된 체널의 URL %s 를 열 수 없습니다</rss_channel_exist>
+    <rss_invalid_channel>채널에 액세스 할 수 없습니다</rss_invalid_channel>
+    <settings_access_denied>액세스 거부</settings_access_denied>
+    <settings_missing_tag>%s 태그가 누락된 설정</settings_missing_tag>
+    <settings_duplicity>XML 설정 파일 형식 오류</settings_duplicity>
+    <settings_get_domain_file>도메인 설정 파일 %s 을 읽을 수 없습니다</settings_get_domain_file>
+    <settings_domain_set>%s 파일에 도메인 설정을 설정합니다</settings_domain_set>
+    <settings_user_set>%s 파일의 사용자 설정에 접근할 수 없습니다. 메일 폴더와 권한을 점검하십시오.</settings_user_set>
+    <settings_public_set>%s 파일에 공용 데이터 설정을 설정합니다</settings_public_set>
+    <settings_shared_set>공유 계정을 저장할 수 없습니다</settings_shared_set>
+    <settings_owner_set>소유자 설정을 설정할 수 없습니다</settings_owner_set>
+    <session_expired>%s 세션이 만료 됨</session_expired>
+    <session_no_user>세션 사용자 개체를 검색 할 수 없습니다</session_no_user>
+    <smime_no_recipient>SMIME가 수신되지 않았습니다</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP 데이터가 서버에서 허용되지 않습니다: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP 발송자 실패</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP 수신자 실패</SMTP_recipients_failed>
+    <spellchecker_set_mode>맞춤법 검사 모드를 설정할 수 없습니다</spellchecker_set_mode>
+    <spellchecker_open_dictionary>맞춤법 검사 사전을 열 수 없습니다</spellchecker_open_dictionary>
+    <spellchecker_add_word>사전에 새단어 %s 를 추가할 수 없습니다</spellchecker_add_word>
+    <spellchecker_missing_check_id>누락된 단어 식별</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>누락된 %s 태그</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>누락된 사전 식별</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>누락된 단어</spellchecker_missing_word>
+    <upload_tag_missing>누락된 태그 업로드</upload_tag_missing>
+    <upload_missing_attribute>누락된 속성 업로드</upload_missing_attribute>
+    <upload_attachment_missing>첨부파일 업로드 누락</upload_attachment_missing>
+    <xml_invalid_file_name>빈 XML 파일 이름</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML XPath는 쿼리에 하나 이상의 결과를 반환합니다</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML에서 지정된 노드 %s 를 찾을 수 없습니다</xml_node_does_not_exist>
+    <xmlrequest_path>잘못된 템플릿 파일 (경로)</xmlrequest_path>
+    <xmlrequest_access_denied>액세스 거부</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>잘못된 요청 유형 (타입)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>누락 된 네임 스페이스 특성</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>누락되거나 잘못된 SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XML 요청 태그 누락 %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>누락 된 클래스 생성자</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>알 수없는 결과 형식  %s</xmlrequest_unkown_format>
+    <not_implemented>아직 구현되지 않음</not_implemented>
+    <logdir_create>로깅 디렉토리 %s 를 만들 수 없습니다</logdir_create>
+    <api_property_get>%s 의 속성을 검색 할 수 없습니다</api_property_get>
+    <wm_disabled>웹 클라이언트를 사용할 수 없습니다</wm_disabled>
+    <gw_init_error>그룹웨어 초기화 오류</gw_init_error>
+    <default>기본 예외 %s</default>
+    <other_accounts_disabled>다른 계정 만들기 사용안함</other_accounts_disabled>
+    <link_compressed_variable_missing>URL 오류,메인 화면으로 이동됩니다</link_compressed_variable_missing>
+    <login_expired>로그인 만료, 다시 로그인 해주세요</login_expired>
+    <account_disabled>비활성화 된 계정</account_disabled>
+    <folder_set_default>&quot;%s&quot; 폴더는 기본값으로 설정 할 수 없습니다</folder_set_default>
+    <personality_confirmation_invalid_user>이메일 주소가 확인되지 않을 수 있습니다 : 잘못된 사용자</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>이메일 주소를 확인할 수 없습니다: 잘못된 해시</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>블랙리스트 항목 실패</item_blacklist_error>
+    <item_whitelist_error>화이트리스트 항목 실패</item_whitelist_error>
+    <unverified_signature>메시지 서명을 검증할 수 없습니다</unverified_signature>
+    <account_is_guest>손님에게는 액세스가 허가되지 않습니다</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>선택한 항목을 정리하였습니다</item_selection_cleared>
+    <logged_out>로그아웃 되었습니다</logged_out>
+    <message_send_ok>메시지가 발송되었습니다</message_send_ok>
+    <item_move_ok>항목이 이동되었습니다</item_move_ok>
+    <item_copy_ok>항목이 복사되었습니다</item_copy_ok>
+    <item_delete_ok>항목이 삭제되었습니다</item_delete_ok>
+    <item_mark_ok>항목이 표시되었습니다</item_mark_ok>
+    <settings_save_ok>설정이 저장되었습니다</settings_save_ok>
+    <loading_next_message>다음 메시지 로드</loading_next_message>
+    <loading_prev_message>이전 메시지 로드</loading_prev_message>
+    <loading_next_page>다음 페이지 로드</loading_next_page>
+    <loading_prev_page>이전 페이지 로드</loading_prev_page>
+    <loading_next_month>다음 달 로드</loading_next_month>
+    <loading_prev_month>이전 달 로드</loading_prev_month>
+    <loading_next_week>다음 주 로드</loading_next_week>
+    <loading_prev_week>이전 주 로드</loading_prev_week>
+    <loading_next_day>다음 날 로드</loading_next_day>
+    <loading_prev_day>이전 날 로드</loading_prev_day>
+    <password_change_ok>비밀번호가 변경 됨</password_change_ok>
+    <item_whitelist_ok>항목이 화이트리스트에 추가 됨</item_whitelist_ok>
+    <item_blacklist_ok>항목이 블랙리스트에 추가 됨</item_blacklist_ok>
+    <folder_set_default_ok>폴더를 기본값으로 설정</folder_set_default_ok>
+    <subscribe_account_ok>계정 등록</subscribe_account_ok>
+    <subscribe_folder_ok>폴더 등록</subscribe_folder_ok>
+    <item_decline_ok>항목 거부</item_decline_ok>
+    <access_granted>&quot;%s&quot;에 의해 &quot;%s&quot;에 대한 접근 권한이 부여되었습니다 .</access_granted>
+    <message_save_ok>메시지가 저장됨</message_save_ok>
+    <item_accept_ok>항목이 허용되었습니다.</item_accept_ok>
+  </messages>
+</language>

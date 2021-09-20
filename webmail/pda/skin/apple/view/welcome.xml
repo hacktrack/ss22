@@ -1,0 +1,23 @@
+<view>
+	<helper>auth</helper>
+	<helper>settings</helper>
+	<panel>
+		<form id="main_menu">
+			<menu template="menu/welcome" />
+			<config>
+				<controller>menu</controller>
+				<window>main</window>
+			</config>
+		</form>
+		<welcome/>
+		<footer/>
+		<config>
+			<stylesheet>
+				<src>apple</src>
+			</stylesheet>
+			<javascript>
+				<src>lib</src>
+			</javascript>
+		</config>
+	</panel>
+</view>

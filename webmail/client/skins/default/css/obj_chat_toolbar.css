@@ -1,0 +1,185 @@
+/* TOOLBAR */
+.obj_chat_toolbar{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 0 15px;
+	z-index: 10;
+}
+
+.obj_chat_toolbar>table{
+	table-layout: fixed;
+	height: 40px;
+}
+.rtl .obj_chat_toolbar>table{
+	direction: rtl;
+}
+	.obj_chat_toolbar>table td.spacer:after{
+		content: '';
+		display: inline-block;
+		width: 1px;
+		background-color: #EDEDED;
+		height: 20px;
+		margin: 0 5px;
+		vertical-align: middle;
+	}
+
+/* ROOM LABEL */
+.obj_chat_toolbar .obj_chat_toolbar-room{
+	width: 100%;
+	position: relative;
+}
+.obj_chat_toolbar .obj_chat_toolbar-room>div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	line-height: 37px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.obj_chat_toolbar .obj_chat_toolbar-room form.obj_label{
+	font-size: 16px;
+	font-weight: 500;
+	margin-right: 10px;
+	white-space: nowrap;
+
+    display: inline-block;
+    vertical-align: middle;
+	margin-top: 2px;
+
+	max-width: calc(100% - 275px); /* substract width of obj_room_status */
+}
+.rtl .obj_chat_toolbar .obj_chat_toolbar-room form.obj_label{
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.obj_chat_toolbar .obj_chat_toolbar-room form.obj_label label {
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: bottom;
+}
+
+/* MENU */
+.obj_chat_toolbar .obj_chat_toolbar-menu .obj_hmenu li.short>a>span{
+	color: {bg_main '#0088CC'};
+}
+
+/* BUTTONS */
+.obj_chat_toolbar .obj_hmenu.buttons li.ico2 a{
+	margin: 0 5px;
+}
+.obj_chat_toolbar .obj_hmenu.buttons li.ico2 span:before{
+	top: 12px;
+}
+.obj_chat_toolbar .obj_hmenu.buttons li.ico2.pins span:before {
+	content: '\e08f';
+}
+.obj_chat_toolbar .obj_hmenu.buttons li.ico2.mentions span:before {
+	content: '\e091';
+}
+
+.newpin .obj_chat_toolbar .obj_hmenu.buttons li.ico2.pins a:before,
+.newmention .obj_chat_toolbar .obj_hmenu.buttons li.ico2.mentions a:before{
+	content: '';
+	display: block;
+	position: absolute;
+	animation: gpin 1s ease;
+	z-index: -1;
+}
+
+.gpin .obj_chat_toolbar .obj_hmenu.buttons li.ico2.pins span:after,
+.mention .obj_chat_toolbar .obj_hmenu.buttons li.ico2.mentions span:after{
+	content: '';
+	display: block;
+	position: absolute;
+	animation: reveal 1s ease;
+
+	z-index: -1;
+
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	right: -4px;
+	top: 15px;
+	background-color: {bg_notify '#d51414'};
+}
+	.rtl .newpin .obj_chat_toolbar .obj_hmenu.buttons li.ico2.pins span:after,
+	.rtl .newmention .obj_chat_toolbar .obj_hmenu.buttons li.ico2.mentions span:after{
+		right: auto;
+		left: -4px;
+	}
+
+	/* new pin animation */
+	@keyframes gpin{
+		0% {
+			display: block;
+			width: 0;
+			height: 0;
+			top: 50%;
+			left: 50%;
+			border-radius: 2px;
+
+			background-color: transparent;
+		}
+		75%{
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background-color: {bg_main '#0088CC'};
+		}
+		100%{
+			top: 10%;
+			left: 10%;
+
+			width: 80%;
+			height: 80%;
+
+			background-color: transparent;
+			display: none;
+		}
+	}
+
+	/* Arrow in bubble mode */
+	.frm_main_chat:not(.wide) .obj_chat_toolbar .obj_hmenu.buttons li.active:after,
+	.frm_main_chat:not(.wide) .obj_chat_toolbar .obj_hmenu.buttons li.active:before{
+		content:'';
+		content: '';
+		width: 0px;
+		height: 0px;
+		position: fixed;
+		display: block;
+		margin: -6px 12px 0 12px;
+
+		border-style: solid;;
+		border-color: transparent transparent #ffffff transparent;
+		border-width: 10px 7px;
+	}
+	.frm_main_chat:not(.wide) .obj_chat_toolbar .obj_hmenu.buttons li.active:before{
+		margin-top: 31px;
+		border-bottom-color: #EDEDED;
+	}
+
+/* NOTIFIER */
+.obj_chat_toolbar .obj_chat_toolbar-notify{
+	padding: 0 0 0 10px;
+}
+.rtl .obj_chat_toolbar .obj_chat_toolbar-notify{
+	padding: 0 10px 0 0;
+}
+
+/* RESPONSIVE UI */
+.obj_chat_toolbar .obj_chat_toolbar-menu .obj_hmenu ul.root>li.short{
+	display: none;
+}
+@media (max-width: 1200px) {
+	.obj_chat_toolbar .obj_chat_toolbar-menu .obj_hmenu ul.root>li{
+		display: none;
+	}
+	.obj_chat_toolbar .obj_chat_toolbar-menu .obj_hmenu ul.root>li.short{
+		display: block;
+	}
+}

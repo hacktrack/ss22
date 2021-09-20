@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <other>
+    <primary>Primario</primary>
+    <secondary>Secundario</secondary>
+    <success>Éxito</success>
+    <warning>Advertencia</warning>
+    <error>Error</error>
+    <grey>Gris</grey>
+    <borderless>Sin Bordes</borderless>
+    <demo>Demo</demo>
+    <other>Otro</other>
+    <search_placeholder>¿Qué estás buscando?</search_placeholder>
+    <imagepath_en>client/languages/en/images/</imagepath_en>
+    <session_expired>Su sesión ha caducado</session_expired>
+  </other>
+  <main>
+    <logout>Cerrar sesión</logout>
+    <dashboard>Tablero</dashboard>
+    <console>Consola API</console>
+    <search>Buscar</search>
+    <support_url>https://www.icewarp.com/support/</support_url>
+    <spam_queues>Colas de spam</spam_queues>
+    <white_labeling>Marca Blanca</white_labeling>
+    <content_rules>Reglas de contenido</content_rules>
+    <certificates>Certificados</certificates>
+    <server_settings>Configuración del servidor</server_settings>
+    <policies>Políticas</policies>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <webclient>WebClient</webclient>
+    <support>Soporte</support>
+    <subscription>Suscripción</subscription>
+    <account_settings>Configuraciones de la cuenta</account_settings>
+    <management>Usuarios y dominios</management>
+    <oauth>Proveedores de OAuth</oauth>
+    <night_mode>Modo nocturno</night_mode>
+  </main>
+  <form_buttons>
+    <ok>OK</ok>
+    <cancel>Cancelar</cancel>
+    <retry>Rever</retry>
+    <close>Cerca</close>
+  </form_buttons>
+  <datetime>
+    <php_date>d/m/Y</php_date>
+    <php_time>H:i:s</php_time>
+    <php_time_minutes>H:i</php_time_minutes>
+    <mon>Lun</mon>
+    <tue>Mar</tue>
+    <wed>Mie</wed>
+    <thu>Jue</thu>
+    <fri>Vie</fri>
+    <sat>Sab</sat>
+    <sun>Dom</sun>
+    <monday>Lunes</monday>
+    <tuesday>Martes</tuesday>
+    <wednesday>Miércoles</wednesday>
+    <thursday>Jueves</thursday>
+    <friday>Viernes</friday>
+    <saturday>Sábado</saturday>
+    <sunday>Domingo</sunday>
+    <january>Enero</january>
+    <february>Febrero</february>
+    <march>Marzo</march>
+    <april>Abril</april>
+    <may>Mayo</may>
+    <june>Junio</june>
+    <july>Julio</july>
+    <august>Agosto</august>
+    <september>Septiembre</september>
+    <october>Octubre</october>
+    <november>Noviembre</november>
+    <december>Diciembre</december>
+    <days>día;días</days>
+    <year>año</year>
+    <years>años</years>
+  </datetime>
+  <service_statistics>
+    <uptime>Tiempo de actividad</uptime>
+    <memorysize>Tamaño del conjunto de trabajo</memorysize>
+    <memorypeak>Tamaño del conjunto de trabajo (pico)</memorypeak>
+    <msgreceived>Recibido</msgreceived>
+    <msgsent>Expedido</msgsent>
+    <msgfailed>Ha fallado</msgfailed>
+    <msgvirus>Virus</msgvirus>
+    <msgcontentfilter>Filtro de contenido</msgcontentfilter>
+    <msgrules>Reglas</msgrules>
+    <msgexternal>Filtro externo</msgexternal>
+    <msgintrusionprevention>Prevención de intrusiones</msgintrusionprevention>
+    <msgdns>DNSBL</msgdns>
+    <quarantine>Cuarentena</quarantine>
+    <spamassasin>SpamAssassin</spamassasin>
+    <spammarked>Marcado como SPAM</spammarked>
+    <spamlivebulk>Anti-Spam Live (Bulk)</spamlivebulk>
+    <spamlive>Anti-Spam Live (Spam)</spamlive>
+    <refused>Spam rechazado</refused>
+    <greylisting>Greylisting</greylisting>
+    <conntotal>Conexiones totales</conntotal>
+    <serverconn>Conexiones del servidor (recuento)</serverconn>
+    <serverconnpeak>Conexiones del servidor (pico)</serverconnpeak>
+    <serverdatatotal>Total de datos del servidor</serverdatatotal>
+    <serverdatain>Datos del servidor entrantes</serverdatain>
+    <serverdataout>Datos del servidor salientes</serverdataout>
+    <clientconn>Conexiones de cliente (recuento)</clientconn>
+    <clientconnpeak>Conexiones de cliente (pico)</clientconnpeak>
+    <clientdatatotal>Datos del cliente transferidos</clientdatatotal>
+    <clientdatain>Datos del cliente entrantes</clientdatain>
+    <clientdataout>Datos del cliente salientes</clientdataout>
+    <packetsreceived>Paquetes recibidos</packetsreceived>
+    <packetssent>Paquetes enviados</packetssent>
+    <rtppacketsreceived>Paquetes RTP recibidos</rtppacketsreceived>
+    <rtppacketssent>Paquetes RTP enviados</rtppacketssent>
+    <callcount>Conteo de llamadas</callcount>
+    <callpeak>Llamada pico</callpeak>
+    <calltotal>Llamada total</calltotal>
+  </service_statistics>
+  <management>
+    <domainlist>Lista de dominios</domainlist>
+    <guest_accounts>Cuentas de invitado</guest_accounts>
+  </management>
+  <dashboard>
+    <server_data>Datos del servidor (MB)</server_data>
+    <client_data>Datos del cliente (MB)</client_data>
+    <received>Recibido</received>
+    <sent>Expedido</sent>
+    <active_users>Usuarios activos</active_users>
+    <storage>Almacenamiento total utilizado</storage>
+    <mail_sent>Correo enviado</mail_sent>
+    <mail_received>Correo recibido</mail_received>
+    <realtime>Tiempo real</realtime>
+    <hour>Ultima hora</hour>
+    <day>Último día</day>
+    <week>La semana pasada</week>
+    <month>El mes pasado</month>
+    <year>El año pasado</year>
+    <current_traffic>Tráfico actual</current_traffic>
+    <services_statuses>Estado del servicio</services_statuses>
+    <services>Servicios</services>
+    <uptime>Tiempo de actividad</uptime>
+    <connections>Conexiones</connections>
+    <data>Datos</data>
+    <service>Servicio</service>
+    <category>Categoría</category>
+    <time_period>Periodo de tiempo</time_period>
+    <cancel>Cancelar</cancel>
+    <smtp_connections>Conexiones SMTP</smtp_connections>
+    <imappop3_connections>Conexiones IMAP / POP3</imappop3_connections>
+    <web_connections>Conexiones Web</web_connections>
+    <statistics>Estadística</statistics>
+    <settings>Configuraciones</settings>
+    <restart>Reiniciar</restart>
+    <stop>Detener</stop>
+    <start>Iniciar</start>
+    <mail_services>Mail services</mail_services>
+    <web_services>Servicios Web</web_services>
+    <smtp>SMTP</smtp>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+    <control>Web</control>
+    <ftp>FTP</ftp>
+    <socks>SOCKS</socks>
+    <supportive_services>Servicios de fondo</supportive_services>
+    <minger>Minger</minger>
+    <ldap>LDAP</ldap>
+    <snmp>SNMP</snmp>
+    <communication>Communication</communication>
+    <im>Mensajería instantánea</im>
+    <voip>VoIP</voip>
+    <sms>SMS</sms>
+    <meeting>WebMeetings</meeting>
+    <collaboration>Colaboración</collaboration>
+    <calendar>GroupWare</calendar>
+    <groupware_notification>Notificación de GroupWare</groupware_notification>
+    <webclient>WebClient</webclient>
+    <webdav>WebDAV</webdav>
+    <security>Seguridad</security>
+    <antivirus>Anti-Virus</antivirus>
+    <antispam>Anti-Spam</antispam>
+    <mobility>Movilidad</mobility>
+    <activesync>ActiveSync</activesync>
+    <syncml>SyncML</syncml>
+    <sip>VoIP</sip>
+    <teamchat>TeamChat</teamchat>
+    <sqlite>El servidor usa la base de datos SQLite, que no es suficiente para este servicio. Configure Groupware para usar un servidor de base de datos independiente (por ejemplo, MySQL, MS SQL, Oracle) antes de habilitar este servicio&quot;</sqlite>
+    <plan/>
+    <cluster_id>Cluster</cluster_id>
+    <price_user_month>Costos mensuales totales</price_user_month>
+    <next_billing>Próxima facturación</next_billing>
+    <upgrade>Actualiza tu plan</upgrade>
+    <hypervisor>Hipervisor</hypervisor>
+    <manage>Gestionar</manage>
+  </dashboard>
+  <generic>
+    <hh_mm>hh:mm</hh_mm>
+    <and>Y</and>
+    <or>O</or>
+    <not>No</not>
+    <add uses="server certificates">Añadir</add>
+    <alias>Alias</alias>
+    <cancel>Cancelar</cancel>
+    <continue>Continuar</continue>
+    <reset>Reiniciar</reset>
+    <back>Regresar</back>
+    <create_new_account_0>Crear nuevo usuario</create_new_account_0>
+    <create_new_account_1>Crear nueva lista de correo</create_new_account_1>
+    <create_new_account_7>Crear nuevo grupo</create_new_account_7>
+    <create_new_account_8>Crear nuevo recurso</create_new_account_8>
+    <create_new_account_d>Crear nuevo dominio</create_new_account_d>
+    <days>dias</days>
+    <delete uses="server certificates">Borrar</delete>
+    <domain>Dominio</domain>
+    <domain_name>Nombre de dominio</domain_name>
+    <enter_additional_alias>Ingresa un alias adicional</enter_additional_alias>
+    <enter_password>Introducir la contraseña</enter_password>
+    <enter_time_in_minutes>Ingrese el tiempo en minutos</enter_time_in_minutes>
+    <enter_value>Ingresar valor</enter_value>
+    <from>De</from>
+    <generate>Generar</generate>
+    <size_b>B</size_b>
+    <size_kb>kB</size_kb>
+    <size_mb>MB</size_mb>
+    <size_gb>GB</size_gb>
+    <size_tb>TB</size_tb>
+    <size_pb>PB</size_pb>
+    <messages>mensajes</messages>
+    <message_error_heading>Error</message_error_heading>
+    <message_success_heading>Éxito</message_success_heading>
+    <message_warning_heading>Advertencia</message_warning_heading>
+    <minutes>min</minutes>
+    <seconds>segundo</seconds>
+    <name>Nombre</name>
+    <new_group>Nuevo grupo</new_group>
+    <new_mailing_list>Nueva lista de correo</new_mailing_list>
+    <new_user>Nuevo usuario</new_user>
+    <new_domain>Nuevo dominio</new_domain>
+    <new_resource>Nuevo recurso</new_resource>
+    <password>Contraseña</password>
+    <plus_symbol>+</plus_symbol>
+    <reset_to_default>Restablecen a los predeterminados</reset_to_default>
+    <results>resultados</results>
+    <retry>Rever</retry>
+    <save>Guardar</save>
+    <do_not_save>No guarde</do_not_save>
+    <save_and_add_another>Guardar y agregar otro</save_and_add_another>
+    <save_as>Guardar como</save_as>
+    <select>Seleccionar</select>
+    <select_action>Seleccione la acción</select_action>
+    <share>Compartir</share>
+    <subject>Asunto</subject>
+    <first_name>Nombre</first_name>
+    <surname>Apellido</surname>
+    <text>Texto</text>
+    <try_again>Inténtalo de nuevo</try_again>
+    <icewarp_webadmin>IceWarp WebAdmin</icewarp_webadmin>
+    <group_name>Nombre del grupo</group_name>
+    <resource_name>Nombre del recurso</resource_name>
+    <upload>Subir</upload>
+    <upload_photo>Subir foto</upload_photo>
+    <type uses="new resource">Tipo</type>
+    <done uses="permissions">Hecho</done>
+    <set_to_default>Establecer a los valores predeterminados</set_to_default>
+    <export>Exportar</export>
+    <all>Todas</all>
+    <ok>OK</ok>
+    <close>Cerca</close>
+    <download>Descargar</download>
+    <port>Puerto</port>
+    <on>ON</on>
+    <off>OFF</off>
+    <copy_to_clipboard>Copiar al portapapeles</copy_to_clipboard>
+    <plan_selection>Selección de plan</plan_selection>
+  </generic>
+  <api_console>
+    <webserver>Servidor web</webserver>
+    <webdav>WebDAV</webdav>
+    <voip>VoIP</voip>
+    <system_tools>Herramientas de sistema</system_tools>
+    <storage>Almacenamiento</storage>
+    <smtp_pop3_imap>SMTP/POP3/IMAP</smtp_pop3_imap>
+    <sms>SMS</sms>
+    <smart_discover>SmartDiscover</smart_discover>
+    <proxy>Proxy</proxy>
+    <protocols>Protocolos</protocols>
+    <mobile_sync>Sincronización móvil</mobile_sync>
+    <mail>Correo</mail>
+    <logging>Logging</logging>
+    <ldap>LDAP</ldap>
+    <instant_messaging>Mensajería instantánea</instant_messaging>
+    <gui>GUI</gui>
+    <groupware>GroupWare</groupware>
+    <general>General</general>
+    <ftp>FTP</ftp>
+    <domains>Dominios</domains>
+    <connection>Conexión</connection>
+    <conferencing>WebMeetings</conferencing>
+    <antivirus>Anti-Virus</antivirus>
+    <antispam>Anti-Spam</antispam>
+    <advanced>Avanzado</advanced>
+    <accounts_policies>Políticas de cuenta</accounts_policies>
+    <accounts>Cuentas</accounts>
+    <save>Guardar</save>
+    <type_string>String</type_string>
+    <type_longstring>Longstring</type_longstring>
+    <type_integer>Integer</type_integer>
+    <type_boolean>Booleano</type_boolean>
+    <type_enum>Enumeración</type_enum>
+    <true>True</true>
+    <false>False</false>
+    <mailinglist>Lista de correo</mailinglist>
+    <domain>Dominio</domain>
+    <user>Usuario</user>
+    <edit>Editar</edit>
+    <group>Grupo</group>
+    <resource>Recurso</resource>
+    <name>Nombre</name>
+    <type>Tipo</type>
+    <val>Valor</val>
+    <description>Descripción</description>
+    <view>Vista</view>
+  </api_console>
+  <client_applications>
+    <client_applications>Aplicaciones de clientes</client_applications>
+    <icewarp_desktop>Cliente de escritorio</icewarp_desktop>
+    <icewarp_outlook_sync>Outlook Sync</icewarp_outlook_sync>
+    <mobile_devices>Dispositivos móviles</mobile_devices>
+  </client_applications>
+  <client_applications_help>
+    <client_applications>Administre los dispositivos móviles del usuario, las aplicaciones Outlook Sync y Desktop Client</client_applications>
+    <icewarp_desktop>Descargue el instalador de Desktop Client y administre la licencia</icewarp_desktop>
+    <icewarp_outlook_sync>Descargue el instalador de Outlook Sync y administre de forma remota la configuración y las licencias</icewarp_outlook_sync>
+    <mobile_devices>Administrar la configuración de los dispositivos móviles conectados</mobile_devices>
+  </client_applications_help>
+  <permissions>
+    <inbox>Bandeja de entrada</inbox>
+    <calendar>Calendario</calendar>
+    <contacts>Contactos</contacts>
+    <files>Archivos</files>
+    <permissions>Permisos</permissions>
+    <anyone>Todos / Anónimos</anyone>
+    <custom>Personalizado</custom>
+    <all>Todas</all>
+    <none>Ninguna</none>
+    <read>Lectura</read>
+    <write>Escritura</write>
+    <full>Completo</full>
+    <owner>Propietario</owner>
+    <add_new_user_or_domain>Agregar nuevo usuario o dominio</add_new_user_or_domain>
+    <inherit>Heredar</inherit>
+    <show_all_folders>Mostrar todas las carpetas</show_all_folders>
+    <show_less>Muestra menos</show_less>
+    <domains>Dominios</domains>
+  </permissions>
+  <permissions_help>
+    <inbox>Permita que otros usuarios de su empresa lean el correo electrónico o realicen cambios en la carpeta de correo electrónico predeterminada</inbox>
+    <calendar>Permita que otros usuarios en su empresa vean o creen eventos en la carpeta de calendario predeterminada</calendar>
+    <contacts>Permita que otros usuarios de su empresa enumeren o cambien entradas en la carpeta de contactos predeterminada</contacts>
+    <files>Permita que otros usuarios en su empresa lean o agreguen documentos en la carpeta de archivos predeterminada</files>
+  </permissions_help>
+  <mobile_devices>
+    <allowed>Permitido</allowed>
+    <blocked>Obstruido</blocked>
+    <quarantine>En cuarentena</quarantine>
+    <all_mail_items>Todas</all_mail_items>
+    <all_calendar_events>Todas</all_calendar_events>
+    <all_status>Todas</all_status>
+    <all_sync>Todas</all_sync>
+    <last_24_hours>Últimas 24 horas</last_24_hours>
+    <last_7_days>Los últimos 7 días</last_7_days>
+    <last_4_weeks>Últimas 4 semanas</last_4_weeks>
+    <one_day>Un día</one_day>
+    <three_days>Tres días</three_days>
+    <one_week>Una semana</one_week>
+    <two_weeks>Dos semanas</two_weeks>
+    <one_month>Un mes</one_month>
+    <three_months>Tres meses</three_months>
+    <six_months>Seis meses</six_months>
+    <incomplete_tasks_only>Solo tareas incompletas</incomplete_tasks_only>
+    <new_calendar_folders>Nueva carpeta de calendario</new_calendar_folders>
+    <merge_to_default_calendar_folder>Fusionar con la carpeta de calendario predeterminada</merge_to_default_calendar_folder>
+    <events>Eventos</events>
+    <tasks>Tareas</tasks>
+    <tasks_and_notes>Tareas y notas (aplicación de Android)</tasks_and_notes>
+    <new_folders>Nuevas carpetas</new_folders>
+    <merge_to_default_folder>Fusionar a la carpeta predeterminada</merge_to_default_folder>
+    <allow>Permitir</allow>
+    <block>Bloquear</block>
+    <delete>Borrar</delete>
+    <wipe>Limpiar</wipe>
+  </mobile_devices>
+  <vcard>
+    <male>Masculino</male>
+    <female>Hembra</female>
+    <unknown>Desconocido</unknown>
+    <home1>Casa 1</home1>
+    <home2>Casa 2</home2>
+    <assistant>Asistente</assistant>
+    <work1>Trabajo 1</work1>
+    <work2>Trabajo 2</work2>
+    <fax_home>Fax de casa</fax_home>
+    <fax_work>Fax de trabajpo</fax_work>
+    <callback>Llamar de vuelta</callback>
+    <company>Empresa</company>
+    <car>Coche</car>
+    <isdn>ISDN</isdn>
+    <mobile>Móvil</mobile>
+    <other>Otro</other>
+    <other_fax>Otro fax</other_fax>
+    <pager>Pager</pager>
+    <primary>Primario</primary>
+    <radio>Radio</radio>
+    <telex>Telex</telex>
+    <hearing>Audición</hearing>
+    <sip>SIP</sip>
+    <email1>Correo electrónico 1</email1>
+    <email2>Correo electrónico 2</email2>
+    <email3>Correo electrónico 3</email3>
+    <imaddress>Dirección de MI</imaddress>
+  </vcard>
+  <devicedetail>
+    <allow_block_device>Dispositivo habilitado</allow_block_device>
+    <allow_device>Permitir dispositivo</allow_device>
+    <block_device>Dispositivo de bloque</block_device>
+    <device_in_quarantine>El dispositivo está en cuarentena</device_in_quarantine>
+    <account>Cuenta</account>
+    <device_info>Información del dispositivo</device_info>
+    <device_name>Nombre del dispositivo</device_name>
+    <groupware_synchronization>Sincronización de elementos</groupware_synchronization>
+    <hard_wipe>Hard Wipe</hard_wipe>
+    <info>Información</info>
+    <last_sync>Última sincronización</last_sync>
+    <model>Modelo</model>
+    <notes_synchronization_type>Tipo de sincronización de notas</notes_synchronization_type>
+    <os>OS</os>
+    <past_calendar_events>Eventos del calendario pasados</past_calendar_events>
+    <past_mail_items>Artículos de correo anteriores</past_mail_items>
+    <private_special_folders>Sincronización de carpetas</private_special_folders>
+    <registered>Registrado</registered>
+    <soft_hard_wipe>Limpiar el dispositivo de forma remota</soft_hard_wipe>
+    <soft_wipe>Soft Wipe</soft_wipe>
+    <status>Estado</status>
+    <sync_notes_as>Sincronizar notas como</sync_notes_as>
+    <sync_tasks_as_calendar_events>Sincroniza tareas como eventos de calendario</sync_tasks_as_calendar_events>
+    <synchronization>Sincronización</synchronization>
+    <tasks_synchronization_type>Tipo de sincronización de tareas</tasks_synchronization_type>
+    <type>Tipo</type>
+    <groupware_folders>Carpetas de GroupWare (privadas)</groupware_folders>
+    <mail_folders>Carpetas de correo (privadas)</mail_folders>
+    <shared_folders>Carpetas compartidas</shared_folders>
+    <archive>Archivo de correo electrónico</archive>
+    <public_folders>Carpetas públicas</public_folders>
+    <all_folders>Todas las carpetas</all_folders>
+    <default_folders_only>Carpetas predeterminadas solamente</default_folders_only>
+    <all_with_groupware_as_email>Todo con GroupWare como correo electrónico</all_with_groupware_as_email>
+  </devicedetail>
+  <devicedetail_help>
+    <device_info>Revise y / o edite las propiedades del dispositivo, o bloquee los dispositivos para que no tengan acceso al servidor</device_info>
+    <groupware_synchronization>Administre la sincronización de GroupWare y los elementos de correo electrónico. Cuando corresponda, active y seleccione el valor apropiado de la lista. Esta configuración anula la configuración del dispositivo</groupware_synchronization>
+    <private_special_folders>Administrar la sincronización de las carpetas predeterminadas y especiales. Seleccione de la lista adecuada o active la opción</private_special_folders>
+    <soft_hard_wipe>Soft Wipe elimina solo los datos descargados del servidor. Hard Wipe restablece el dispositivo a la configuración de fábrica, eliminando los datos del dispositivo y las tarjetas SD&quot;</soft_hard_wipe>
+  </devicedetail_help>
+  <domainlist>
+    <domain_list>Lista de dominios</domain_list>
+    <all_types>Todos los tipos</all_types>
+    <standard>Estándar</standard>
+    <domain_alias>Alias ​​de dominio</domain_alias>
+    <backup_domain>Dominio de respaldo</backup_domain>
+    <distributed_domain>Dominio distribuido</distributed_domain>
+    <etrn_atrn_queue>Cola ETRN/ATRN</etrn_atrn_queue>
+    <verification_default>Defecto</verification_default>
+    <verification_use_minger_with_password>Usar Minger con contraseña</verification_use_minger_with_password>
+    <verification_usevrfy_command>Usar el comando VRFY</verification_usevrfy_command>
+    <verification_use_rcpt_to_command>Usar el comando RCPT TO</verification_use_rcpt_to_command>
+  </domainlist>
+  <domainlist_header>
+    <users>Usuarios</users>
+    <name>Nombre</name>
+    <type>Tipo</type>
+    <description>Descripción</description>
+  </domainlist_header>
+  <domaindetail>
+    <users>Cuentas</users>
+    <settings>Propiedades</settings>
+    <limits>Límites</limits>
+    <rules>Reglas</rules>
+    <active_directory>Directorio Activo</active_directory>
+    <mobile_devices>Dispositivos móviles</mobile_devices>
+    <general>General</general>
+    <name>Nombre</name>
+    <description>Descripción</description>
+    <type>Tipo</type>
+    <val>Valor</val>
+    <verification>Verificación</verification>
+    <password>Contraseña</password>
+    <administrator_email>Correo electrónico del administrador</administrator_email>
+    <aliases>Alias</aliases>
+    <add_alias>Agregar alias</add_alias>
+    <quotas>Cuotas</quotas>
+    <storage_usage>Uso de almacenamiento</storage_usage>
+    <numbers_of_emails_sent>Número de correos electrónicos enviados</numbers_of_emails_sent>
+    <change_quotas>Límites del dominio</change_quotas>
+    <permissions_and_rights>Permisos y derechos</permissions_and_rights>
+    <unknown_accounts>Cuentas desconocidas</unknown_accounts>
+    <reject>Rechazar</reject>
+    <delete>Borrar</delete>
+    <forward_to>Reenviar a</forward_to>
+    <target_email>Correo electrónico objetivo</target_email>
+    <two_factor_authentication>Autenticación de dos factores</two_factor_authentication>
+    <instant_messaging_shared_roster>Lista compartida de mensajería instantánea</instant_messaging_shared_roster>
+    <domain_features>Características del dominio</domain_features>
+    <features>Caracteristicas</features>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <desktop_client>Cliente de escritorio</desktop_client>
+    <manage>Gestionar</manage>
+    <download>Descargar</download>
+    <domain_limits>Límites de dominio</domain_limits>
+    <maximum_number_of_accounts>Límite de cuenta de administrador de dominio (cuentas #)</maximum_number_of_accounts>
+    <disk_quota>Cuota de disco</disk_quota>
+    <daily_send_out_limit_for_domain>Límites diarios de envío por dominio</daily_send_out_limit_for_domain>
+    <disable_login_to_this_domain>Deshabilitar el inicio de sesión en este dominio</disable_login_to_this_domain>
+    <daily_data_limit>límite de datos salientes</daily_data_limit>
+    <daily_message_count_limit>límite de mensajes salientes</daily_message_count_limit>
+    <number_per_day># por día</number_per_day>
+    <domain_expiration>Expiración del dominio</domain_expiration>
+    <expires_on>Expira en</expires_on>
+    <notify_before_expiration>v</notify_before_expiration>
+    <days>Dias</days>
+    <delete_domain_when_expired>Eliminar dominio cuando expiró</delete_domain_when_expired>
+    <user_limits>Límite de usuarios</user_limits>
+    <account_size>Tamaño de cuenta</account_size>
+    <default_max_message_size>Tamaño máximo de mensaje</default_max_message_size>
+    <default_daily_send_out_limit_for_users>Límites predeterminados de envío diario para los usuarios</default_daily_send_out_limit_for_users>
+    <forward_to_address>Reenviar a correo</forward_to_address>
+    <dns_validation>Validación de DNS</dns_validation>
+    <validation>Validación</validation>
+    <rename>Cambiar nombre</rename>
+    <rename_and_logout>Renombrar y cerrar sesión</rename_and_logout>
+    <change_domain_name>Cambiar nombre de dominio</change_domain_name>
+    <same_domain_helper>Estás cambiando el nombre de tu propio dominio. Cuando se complete la acción, se cerrará automáticamente la sesión de WebAdmin y deberá iniciar sesión nuevamente.</same_domain_helper>
+    <dkim>DKIM</dkim>
+    <delete_spam_older_than>Eliminar spam mayor a</delete_spam_older_than>
+    <max_allowed_subscription_plan>Máximo plan de suscripción permitido</max_allowed_subscription_plan>
+  </domaindetail>
+  <domaindetail_help>
+    <domain_limits>Los siguientes límites de dominio prevalecen sobre cualquier límite de nivel de usuario. Por ejemplo, si tiene un límite de Cuota de disco en un dominio establecido en 100MB y establece un Tamaño de cuenta de usuario en 500MB, se limitará cuando el dominio alcance 100MB.</domain_limits>
+    <domain_expiration>Defina una fecha de vencimiento para el dominio. Cuando un dominio caduca, solo se desactiva el inicio de sesión del dominio. Si elige eliminar el dominio, se eliminarán todas las cuentas y sus datos&quot;</domain_expiration>
+    <user_limits>Los siguientes límites tienen menor prioridad que cualquier límite de nivel de usuario. Por ejemplo, si tiene 100 cuentas en el dominio y 98 deben tener los mismos límites, 2 deben tener límites diferentes, especifique el límite para 98 usuarios aquí y solo para 2 especifique un límite diferente en el nivel de usuario &quot;</user_limits>
+    <quotas>Haga clic en Límites de dominio para limitar el tamaño del dominio, la cantidad de mensajes enviados o el tamaño máximo de los mensajes en el nivel de dominio, o para aplicar otros límites para todas las cuentas en el dominio a la vez&quot;</quotas>
+    <permissions_and_rights>Especifique cómo manejar los mensajes enviados a cuentas que no están definidas en el servidor. Haga clic en Funciones para habilitar o deshabilitar servicios para todos los usuarios del dominio. Las características configuradas en el nivel de usuario tienen una prioridad más alta&quot;</permissions_and_rights>
+    <client_applications>Administre los dispositivos móviles del dominio, las aplicaciones Outlook Sync y Desktop Client&quot;</client_applications>
+    <aliases>Ingresar alias para este dominio. Los mensajes enviados a todas estas direcciones se enviarán a los buzones de este dominio. Para estos alias, no se pueden establecer reglas diferentes a las del dominio original&quot;</aliases>
+  </domaindetail_help>
+  <subscription_plans>
+    <any_plan>Algún plan</any_plan>
+    <standard>Estándar</standard>
+    <professional>Profesional</professional>
+    <user_per_month>usuario por mes</user_per_month>
+  </subscription_plans>
+  <rules>
+    <lower>Inferior</lower>
+    <greater>Mayor</greater>
+    <priority_highest>Más alto</priority_highest>
+    <priority_high>Alto</priority_high>
+    <priority_normal>Normal</priority_normal>
+    <priority_low>Bajo</priority_low>
+    <priority_lowest>Más bajo</priority_lowest>
+    <function_contains_value_from_list>Contiene un valor de una lista (punto y coma)</function_contains_value_from_list>
+    <function_matches_regex>Matches (RegEx)</function_matches_regex>
+    <function_starts_with>Comienza con</function_starts_with>
+    <function_ends_with>Termina con</function_ends_with>
+    <function_equals>Igual</function_equals>
+    <function_contains_value_from_file>Contiene un valor de un archivo o patrón</function_contains_value_from_file>
+    <condition_all_messages>Todos los mensajes</condition_all_messages>
+    <condition_where_from>De donde</condition_where_from>
+    <condition_message_header_matches>Cabecera del mensaje coincide</condition_message_header_matches>
+    <condition_where_subject>Dónde Asunto</condition_where_subject>
+    <condition_where_message_body_matches>Where message body matches</condition_where_message_body_matches>
+    <condition_where_message_contains_attachment>Where message contains attachment</condition_where_message_contains_attachment>
+    <condition_where_attachment_name_matches>Where attachment name matches</condition_where_attachment_name_matches>
+    <condition_where_message_priority_is>Where message priority is</condition_where_message_priority_is>
+    <condition_where_message_size_is>Where message size is</condition_where_message_size_is>
+    <condition_where_message_is_spam>Where message is spam</condition_where_message_is_spam>
+    <condition_where_to>Where To</condition_where_to>
+    <condition_where_cc>Where Cc</condition_where_cc>
+    <condition_where_replyto>Where Reply To</condition_where_replyto>
+    <condition_where_date>Where date</condition_where_date>
+    <condition_where_custom_message_header_matches>Where custom message header matches</condition_where_custom_message_header_matches>
+    <condition_where_any_message_header_matches>Where any message header matches</condition_where_any_message_header_matches>
+    <condition_where_sender_matches>Where sender matches</condition_where_sender_matches>
+    <condition_where_recipient_matches>Where recipient matches</condition_where_recipient_matches>
+    <condition_where_sender_recipient_is_local_remote>Where sender / recipient is local / remote</condition_where_sender_recipient_is_local_remote>
+    <condition_where_spam_score_is>Where spam score is</condition_where_spam_score_is>
+    <condition_where_local_time_meets>Where local time meets</condition_where_local_time_meets>
+    <condition_where_rdns_matches>Where RDNS matches</condition_where_rdns_matches>
+    <condition_where_senders_ip_address_matches>Where sender&apos;s IP address matches</condition_where_senders_ip_address_matches>
+    <condition_where_senders_ip_address_is_listed_on_dnsbl>Where sender&apos;s IP address is listed on DNSBL</condition_where_senders_ip_address_is_listed_on_dnsbl>
+    <condition_where_session_is_trusted>Where session is trusted</condition_where_session_is_trusted>
+    <condition_where_smtp_auth>Where SMTP AUTH</condition_where_smtp_auth>
+    <condition_where_message_direct_to_user>Mensaje enviado directamente al usuario</condition_where_message_direct_to_user>
+    <action_accept_reject_delete_spam_quarantine>Accept / Reject / Delete / Spam / Quarantine</action_accept_reject_delete_spam_quarantine>
+    <action_forward_to_email>Forward to email</action_forward_to_email>
+    <action_copy_to_folder>Copy to folder</action_copy_to_folder>
+    <action_move_to_folder>Move to folder</action_move_to_folder>
+    <action_encrypt_message>Encrypt message</action_encrypt_message>
+    <action_send_new_message>Send new message</action_send_new_message>
+    <action_edit_message_header>Edit message header</action_edit_message_header>
+    <action_set_message_priority_to>Set message priority to</action_set_message_priority_to>
+    <action_set_message_flags_to>Set message flags to</action_set_message_flags_to>
+    <action_stop_processing_more_rules>Stop processing more rules</action_stop_processing_more_rules>
+    <and>And</and>
+    <or>Or</or>
+    <and_not>And not</and_not>
+    <or_not>Or not</or_not>
+    <rules>Rules</rules>
+    <result_title>How to create a rule:</result_title>
+    <result_step_1>1. First select one or more conditions</result_step_1>
+    <result_step_2>2. Add some actions to your conditions</result_step_2>
+    <result_step_3>3. Add a title to distinguish the rule</result_step_3>
+    <result>Result</result>
+    <basic>Basic</basic>
+    <headers>Headers</headers>
+    <advanced>Advanced</advanced>
+    <standard>Standard</standard>
+    <extra>Extra</extra>
+    <title>Title</title>
+    <actions>Actions</actions>
+    <conditions>Conditions</conditions>
+    <rule_number>Rule number</rule_number>
+    <new_rule>Add rule</new_rule>
+    <delete>Delete</delete>
+    <activate>Activar</activate>
+    <deactivate>Desactivar</deactivate>
+  </rules>
+  <rulepopup>
+    <action>Action</action>
+    <add_new_header_condition>Add new header condition</add_new_header_condition>
+    <from>From</from>
+    <header>Header</header>
+    <match_regex>Match RegEx in original header</match_regex>
+    <regex>RegEx</regex>
+    <subject>Subject</subject>
+    <text>Text</text>
+    <to>To</to>
+    <val>Value</val>
+    <add_edit>Add / Edit</add_edit>
+    <delete>Delete</delete>
+  </rulepopup>
+  <rulecard>
+    <monday>Lu</monday>
+    <tuesday>Ma</tuesday>
+    <wednesday>Mi</wednesday>
+    <thursday>Ju</thursday>
+    <friday>Vi</friday>
+    <saturday>Sa</saturday>
+    <sunday>Do</sunday>
+    <action>Acción</action>
+    <all_items_match>All items match</all_items_match>
+    <antivirus>Anti-Virus</antivirus>
+    <bare_lfs>Bare LFs</bare_lfs>
+    <between_dates>Between dates (yyyy:mm:dd)</between_dates>
+    <between_times>Between times (hh:mm)</between_times>
+    <change_mime>Change MIME-Version to 1.0</change_mime>
+    <copy_to_folder>Copy to folder</copy_to_folder>
+    <crlf>CRLF.CRLF inside of the message</crlf>
+    <db_connection>DB Connection</db_connection>
+    <delete>Delete</delete>
+    <dnsbl_server>DNSBL Server</dnsbl_server>
+    <email_address>Email address</email_address>
+    <eof>EOF inside of the message</eof>
+    <executable>executable</executable>
+    <flagged>Flagged</flagged>
+    <flags>Flags</flags>
+    <function>Function</function>
+    <ignore>Ignore</ignore>
+    <junk>Junk</junk>
+    <label_1>Label 1</label_1>
+    <label_2>Label 2</label_2>
+    <label_3>Label 3</label_3>
+    <label_4>Label 4</label_4>
+    <label_5>Label 5</label_5>
+    <label_6>Label 6</label_6>
+    <local>Local</local>
+    <match_case>Match case</match_case>
+    <member_of>Member of</member_of>
+    <message_not_virus>Message does not contain a virus</message_not_virus>
+    <message_password>Message contains password protected files</message_password>
+    <message_priority>Message priority</message_priority>
+    <message_size>Message size</message_size>
+    <message_virus>Message contains a virus</message_virus>
+    <move_to_folder>Move to folder</move_to_folder>
+    <non_junk>NonJunk</non_junk>
+    <not>Not</not>
+    <one_item_matches>At least one item matches</one_item_matches>
+    <parse_xml>Parse XML</parse_xml>
+    <quarantine>Quarantine</quarantine>
+    <recipient>Recipient</recipient>
+    <regex>RegEx</regex>
+    <reject>Reject</reject>
+    <remote>Remote</remote>
+    <remove_mime>Remove MIME-Version double char</remove_mime>
+    <rfc2822>Fix RFC2822 violation</rfc2822>
+    <score>Score</score>
+    <seen>Seen</seen>
+    <sender>Sender</sender>
+    <sender_recipient>Sender / Recipient</sender_recipient>
+    <single_string>Convert to single string</single_string>
+    <spam>Spam</spam>
+    <sql_statement>SQL statement</sql_statement>
+    <string>String</string>
+    <string_condition>String condition</string_condition>
+    <than>Than</than>
+    <time_criteria>Time criteria</time_criteria>
+    <type>type</type>
+    <user_doesnt_exists>User doesn&apos;t exist</user_doesnt_exists>
+    <user_exists>User exists</user_exists>
+    <weekdays>Weekdays</weekdays>
+    <whole_word>Whole word</whole_word>
+    <zerobyte>0x00 dentro del mensaje</zerobyte>
+    <accept>Aceptar</accept>
+    <add_edit>Agregar / Editar</add_edit>
+    <add>Añadir</add>
+    <edit>Editar</edit>
+    <forward_as_attachment>Reenviar como adjunto</forward_as_attachment>
+    <custom_flags>Banderas personalizadas</custom_flags>
+    <userisonlyrecipient>El usuario es el único destinatario</userisonlyrecipient>
+    <checkuserinto>Comprobar usuario en el encabezado A</checkuserinto>
+    <checkuserincc>Comprobar usuario en el encabezado Cc</checkuserincc>
+    <checkuserinbcc>Comprobar usuario en el encabezado CCO</checkuserinbcc>
+  </rulecard>
+  <userlist>
+    <admin>Administrador de sistema</admin>
+    <webadmin>Administrador web</webadmin>
+    <catalog>Catalogar</catalog>
+    <domain_admin>Administrador de dominio</domain_admin>
+    <executable>Ejecutable</executable>
+    <group>Grupo</group>
+    <list_of_all_accounts>Lista de todas las cuentas</list_of_all_accounts>
+    <list_server>Servidor de listas</list_server>
+    <mailing_list>Lista de correo</mailing_list>
+    <notification>v</notification>
+    <resource>Recurso</resource>
+    <static_route>Ruta estática</static_route>
+    <user>Usuario</user>
+    <external>Externo</external>
+    <room>salon</room>
+    <equipment>Equipo</equipment>
+    <car>Coche</car>
+  </userlist>
+  <userlist_header>
+    <account>v</account>
+    <name_and_account>Nombre y cuenta</name_and_account>
+    <name>Nombre</name>
+    <quota>Uso</quota>
+    <type>Tipo</type>
+  </userlist_header>
+  <userlist_help>
+    <list_of_all_accounts>Ver y administrar todas las cuentas del dominio. Haga clic en la cuenta correspondiente para abrirla y editarla</list_of_all_accounts>
+  </userlist_help>
+  <mailinglist>
+    <account_member_itself>La cuenta no puede ser un miembro de sí mismo</account_member_itself>
+    <mailinglist_members>Lista de miembros de la lista de correo</mailinglist_members>
+    <members>v</members>
+    <general_details>Detalles generales</general_details>
+    <security>Seguridad</security>
+    <members_source>Fuente de los miembros</members_source>
+    <settings>Configuraciones</settings>
+    <owner>Propietario</owner>
+    <description>Descripción</description>
+    <alias>Alias</alias>
+    <add_alias>Agregar alias</add_alias>
+    <source>Fuente</source>
+    <password_protection>Protección de contraseña</password_protection>
+    <password>Contraseña</password>
+    <default_rights>Derechos predeterminados</default_rights>
+    <max_number_of_messages>Número máximo de mensajes salientes en 1 minuto</max_number_of_messages>
+    <send_to_sender>Enviar al remitente</send_to_sender>
+    <forward_copy_to_owner>Reenviar copia al propietario</forward_copy_to_owner>
+    <process_mailing_list>Procesar Variables de la lista de correo</process_mailing_list>
+    <personalized_mailing_list>Lista de correo personalizada - campos variables</personalized_mailing_list>
+    <remove_failed_email_addresses>Eliminar direcciones de correo electrónico fallidas</remove_failed_email_addresses>
+    <not_password_protected>No protegido con contraseña</not_password_protected>
+    <server_moderated>Servidor moderado</server_moderated>
+    <client_moderated>Cliente moderado</client_moderated>
+    <recieve_and_post>v</recieve_and_post>
+    <digest_recieve_and_post>Digestar, recibir &amp; publicar</digest_recieve_and_post>
+    <recieve_only>Recibir solo</recieve_only>
+    <digest_recieve_only>Digestar solo recibir</digest_recieve_only>
+    <post_only>Publicar solo</post_only>
+    <members_defined_manually>Miembros definidos manualmente</members_defined_manually>
+    <members_from_text_file>Miembros del archivo de texto</members_from_text_file>
+    <members_from_database>Miembros de la base de datos</members_from_database>
+    <all_current_domain_users>Todos los usuarios del dominio actual</all_current_domain_users>
+    <all_system_users>Todos los usuarios del sistema</all_system_users>
+    <all_system_domain_administrators>Todos los administradores del dominio del sistema</all_system_domain_administrators>
+    <all_system_administrators>Todos los administradores del sistema</all_system_administrators>
+    <only_members_can_post>Solo los miembros pueden publicar mensajes nuevos</only_members_can_post>
+    <do_not_deliver>No entregar a los miembros con una cuota excedida</do_not_deliver>
+    <rights>Derechos</rights>
+    <default>Defecto</default>
+    <post>Enviar</post>
+    <receive>Recibir</receive>
+    <digest>Digerir</digest>
+  </mailinglist>
+  <mailinglist_help>
+    <mailinglist_members>Revise los miembros de la lista de correo, agregue nuevos miembros o elimine los actuales. Marque la casilla correspondiente y haga clic en el botón Seleccionar acción para eliminar un miembro.</mailinglist_members>
+    <general_details>Administrar las propiedades generales de la lista de correo. Use el botón Agregar donde corresponda</general_details>
+    <security>Administrar los derechos de miembro predeterminados de la lista de correo, la contraseña y otras propiedades</security>
+    <members_source>Seleccione cómo / dónde se definen los miembros de la lista de correo</members_source>
+    <settings>Definir reglas para la entrega de mensajes y tratamiento de direcciones problemáticas</settings>
+  </mailinglist_help>
+  <group>
+    <account_member_itself>La cuenta no puede ser un miembro de sí mismo</account_member_itself>
+    <group_members>Lista de miembros del grupo</group_members>
+    <members>Miembros</members>
+    <general_details>Detalles generales</general_details>
+    <group_sharing>Grupo compartido</group_sharing>
+    <group_email_delivery>Entrega de correo electrónico grupal</group_email_delivery>
+    <security>Seguridad</security>
+    <advanced_settings>Ajustes avanzados</advanced_settings>
+    <name>Nombre</name>
+    <description>Descripción</description>
+    <alias>Alias</alias>
+    <add_alias>Agregar alias</add_alias>
+    <create_public_folder>Crear una carpeta pública</create_public_folder>
+    <setup_permissions>Configurar permisos y derechos</setup_permissions>
+    <permissions>Permisos</permissions>
+    <only_members_can_post>Solo los miembros pueden publicar mensajes nuevos</only_members_can_post>
+    <do_not_deliver>No entregar a los miembros con una cuota excedida</do_not_deliver>
+    <password_protection>Protección de contraseña</password_protection>
+    <max_number_of_messages>Número máximo de mensajes salientes en 1 minuto</max_number_of_messages>
+    <populate_gal>Rellenar la Lista global de direcciones (GAL) con todos los miembros</populate_gal>
+    <allow_gal_export>Permitir exportar GAL para otros servidores dentro del dominio distribuido</allow_gal_export>
+    <organize_gal>Organizar GAL en la libreta de direcciones jerárquica (HAB)</organize_gal>
+    <deliver_to_all_members_individually>Entregar a todos los miembros individualmente</deliver_to_all_members_individually>
+    <deliver_mail_to_shared_folder>Entregar correo a la carpeta compartida</deliver_mail_to_shared_folder>
+    <teamchat>TeamChat</teamchat>
+    <enable_teamchat>Habilitar TeamChat</enable_teamchat>
+  </group>
+  <group_help>
+    <group_members>Revise los miembros del grupo, agregue nuevos miembros o elimine los actuales. Marque la casilla correspondiente y haga clic en el botón Seleccionar acción para eliminar un miembro.</group_members>
+    <general_details>Administrar propiedades generales del grupo. Use el botón Agregar para agregar un alias</general_details>
+    <group_sharing>Active la opción si desea crear una carpeta pública para este grupo. Ingrese el nombre de la carpeta y haga clic en el botón Permisos para establecer los derechos de acceso para los miembros del grupo&quot;</group_sharing>
+    <group_email_delivery>Seleccione cómo se entregarán los mensajes a los miembros del grupo. Seleccione si los mensajes se entregarán también a los miembros del grupo con límites de cuenta excedidos&quot;</group_email_delivery>
+    <security>Establezca si invitados pueden publicar mensajes, si el envío de un mensaje a este grupo debe estar protegido con contraseña y establecer el control de flujo de mensajes salientes</security>
+    <advanced_settings>Gestionar propiedades de la Lista global de direcciones</advanced_settings>
+    <populate_gal>Active la opción si desea que se creen contactos de GroupWare para todos los miembros del grupo</populate_gal>
+    <allow_gal_export>Si corresponde, active la opción para usar un GAL remoto para un dominio distribuido</allow_gal_export>
+    <organize_gal>Active la opción si desea crear una estructura de carpetas jerárquica donde el nombre de un subgrupo se utilice como nombre de carpeta</organize_gal>
+    <teamchat>Permite crear salas de chat privadas y públicas dentro de este grupo</teamchat>
+  </group_help>
+  <group_placeholder>
+    <create_public_folder>Ingresar carpeta pública</create_public_folder>
+  </group_placeholder>
+  <accountdetail>
+    <device>Dispositivo</device>
+    <account_is_disabled>Esta cuenta está deshabilitada</account_is_disabled>
+    <active>Activo</active>
+    <last_sync>Última sincronización</last_sync>
+    <add_members>Añadir miembros</add_members>
+    <members>Miembros</members>
+    <message>Mensaje</message>
+    <mailinglistinfo>Lista de correo</mailinglistinfo>
+    <groupinfo>Grupo</groupinfo>
+    <select_domain>Seleccionar dominio</select_domain>
+    <all_types>Todos los tipos</all_types>
+    <custom>Personalizado (hasta el tamaño del umbral)</custom>
+    <headers>Solo encabezados</headers>
+    <full>Toda la información</full>
+    <numbered_structure>Estructura numerada</numbered_structure>
+    <folder_name_only>Solo nombre de carpeta</folder_name_only>
+    <full_folder_path>Ruta completa de la carpeta</full_folder_path>
+    <outlook_native>Outlook nativo</outlook_native>
+    <force_settings>Forzar configuraciones</force_settings>
+    <set_as_default>Establecer por defecto</set_as_default>
+    <account_features>Características de la cuenta</account_features>
+    <account_quote_enabled>Cuota de disco de cuenta</account_quote_enabled>
+    <account_state>Account state</account_state>
+    <account_type>Tipo de cuenta</account_type>
+    <accountpicker>Seleccionar cuenta</accountpicker>
+    <folderpicker>Seleccione la carpeta</folderpicker>
+    <activation_key>Clave de activación</activation_key>
+    <add_alias>Agregar alias</add_alias>
+    <add_email>Agregar correo electrónico</add_email>
+    <add_phone>Añadir teléfono</add_phone>
+    <address>Dirección</address>
+    <advanced>Avanzado</advanced>
+    <alias>Alias</alias>
+    <aliases>Alias</aliases>
+    <all_items>Todos los artículos</all_items>
+    <allowed_activation_count>Cuenta de activación permitida</allowed_activation_count>
+    <alternate_email>Correo electrónico alternativo</alternate_email>
+    <amount_per_day># por día</amount_per_day>
+    <anniversary>Aniversario</anniversary>
+    <antispam>Anti-Spam</antispam>
+    <antivirus>Anti-Virus</antivirus>
+    <appearance>Apariencia</appearance>
+    <archive>Archivo</archive>
+    <assistant>Asistente</assistant>
+    <at>a</at>
+    <birthday>Cumpleaños</birthday>
+    <card>Tarjeta</card>
+    <certificates>Certificados</certificates>
+    <change_password>Cambia la contraseña</change_password>
+    <change_quotas>Límite de usuarios</change_quotas>
+    <check_password_policy>La contraseña no coincide con la política de contraseñas</check_password_policy>
+    <city>Ciudad</city>
+    <client_applications>Aplicaciones de clientes</client_applications>
+    <company>Empresa</company>
+    <content_of_folders>Sincronice el contenido de las carpetas seleccionadas inmediatamente después de que se detecte un cambio local</content_of_folders>
+    <copy_incoming_mail>Copiar el correo entrante</copy_incoming_mail>
+    <copy_outgoing_mail>Copiar el correo saliente</copy_outgoing_mail>
+    <country>País</country>
+    <days>Dias</days>
+    <default>Defecto</default>
+    <delete_account_when_expired>Eliminar cuenta cuando expiró</delete_account_when_expired>
+    <delete_mail_older_than>Eliminar correo mayor a</delete_mail_older_than>
+    <delete_spam_older_than>Eliminar spam mayor a</delete_spam_older_than>
+    <delete_older>Eliminar el correo mayor a (días)</delete_older>
+    <department>Departamento</department>
+    <description>Descripción</description>
+    <digital_certificates>Certificados digitales</digital_certificates>
+    <disabled>Deshabilitado</disabled>
+    <disabled_login>Deshabilitado (inicio de sesión)</disabled_login>
+    <disabled_login_receive>Deshabilitar (iniciar sesión, recibir)</disabled_login_receive>
+    <display_address_book_names>Mostrar los nombres de la libreta de direcciones como</display_address_book_names>
+    <do_not_forward>No reenviar mensajes spam</do_not_forward>
+    <do_not_use_spam>No use la carpeta de spam</do_not_use_spam>
+    <download>Descargar</download>
+    <download_files>Descargar archivos</download_files>
+    <email>Email</email>
+    <enabled>Habilitado</enabled>
+    <exchange_activesync>Exchange ActiveSync</exchange_activesync>
+    <expiration>Vencimiento</expiration>
+    <expires_if_inactive_for>Caduca si está inactivo por</expires_if_inactive_for>
+    <expires_on>Expira en</expires_on>
+    <reset_authentication>¿Estás seguro de que deseas restablecer la autenticación de dos factores?</reset_authentication>
+    <authentication_reset_succeeded>La autenticación de dos factores se ha restablecido</authentication_reset_succeeded>
+    <features>Caracteristicas</features>
+    <file_storage>Almacenamiento de archivos</file_storage>
+    <web_documents>WebDocuments</web_documents>
+    <file_transfer>Transferencia de archivos (FTP)</file_transfer>
+    <folder_structure_after>Sincronizar estructura de carpetas después</folder_structure_after>
+    <folder_synchronization_threshold>Umbral de sincronización de carpetas (mensajes en la carpeta)</folder_synchronization_threshold>
+    <forward_to>Reenviar a</forward_to>
+    <forwarder>Re-enviador</forwarder>
+    <from>de</from>
+    <gal_automatically>Sincronizar GAL automáticamente</gal_automatically>
+    <gender>Género</gender>
+    <general>General</general>
+    <generate>Generar</generate>
+    <generate_key>Generar clave</generate_key>
+    <groupware>v</groupware>
+    <home_address>Direccion de casa</home_address>
+    <home_email>Correo electrónico en el hogar</home_email>
+    <home_phone>Teléfono de casa</home_phone>
+    <info>Información</info>
+    <instant_messaging>Mensajería instantánea</instant_messaging>
+    <job>Trabajo</job>
+    <last_time_logged>Última vez registrado</last_time_logged>
+    <lastname>Apellido</lastname>
+    <licence>Licencia</licence>
+    <licenses>Licencias</licenses>
+    <limits>Límites</limits>
+    <manage>Gestionar</manage>
+    <manager>Gerente</manager>
+    <max_message_size>Tamaño máximo de mensaje</max_message_size>
+    <messaging>Mensajería</messaging>
+    <mobile_devices>Dispositivos móviles</mobile_devices>
+    <mode>Modo</mode>
+    <must_change_password>Forzar cambio de contraseña después del primer inicio de sesión</must_change_password>
+    <name>Nombre</name>
+    <new_items>Nuevos objetos</new_items>
+    <note>Nota</note>
+    <notify_before_expiration>Notificar antes de la expiración</notify_before_expiration>
+    <numbers_of_emails_sent>Numero de correos enviados</numbers_of_emails_sent>
+    <of>de</of>
+    <online_conferencing>WebMeetings</online_conferencing>
+    <password>v</password>
+    <old_password>Contraseña anterior</old_password>
+    <new_password>Nueva contraseña</new_password>
+    <password_again>Confirmar contraseña</password_again>
+    <password_not_saved>La contraseña no se guardó. Verifique la política de contraseñas</password_not_saved>
+    <password_policy_alpha>Número de caracteres alfabéticos en la contraseña [a-z][A-Z]</password_policy_alpha>
+    <password_policy_digits>Número de caracteres numéricos en la contraseña [0-9]:</password_policy_digits>
+    <password_policy_minlength>Longitud mínima de la contraseña:</password_policy_minlength>
+    <password_policy_nonalphanum>Número de caracteres no alfanuméricos en la contraseña [! @ # $% ...]:</password_policy_nonalphanum>
+    <password_policy_upperalpha>Número de caracteres alfabéticos en mayúsculas en la contraseña [A-Z]</password_policy_upperalpha>
+    <password_policy_useralias>La contraseña no puede contener nombre de usuario o alias</password_policy_useralias>
+    <permissions>Permisos</permissions>
+    <permissions_and_rights>Permisos y derechos</permissions_and_rights>
+    <phone>Teléfono</phone>
+    <pop_imap>POP3/IMAP</pop_imap>
+    <quarantine>Cuarentena</quarantine>
+    <quotas>Cuotas</quotas>
+    <respond_again_after>Responder nuevamente después de (días)</respond_again_after>
+    <respond_again_after_period>Responder nuevamente después del período</respond_again_after_period>
+    <respond_always>Responder siempre</respond_always>
+    <respond_once>Responder una vez</respond_once>
+    <respond_only_if_between>Responder solo si está entre</respond_only_if_between>
+    <respond_to_messages>Responder a los mensajes enviados a la dirección de correo electrónico solamente del usuario</respond_to_messages>
+    <responder>Respondedor</responder>
+    <responder_message>Mensaje</responder_message>
+    <rules>Reglas</rules>
+    <security>Seguridad</security>
+    <selected_priority_folders>Sincronizar carpetas de prioridad seleccionadas después</selected_priority_folders>
+    <selected_standard_folders>Sincronizar carpetas estándar seleccionadas después</selected_standard_folders>
+    <send_key_to_user_by_email>Enviar la clave al usuario por correo electrónico</send_key_to_user_by_email>
+    <send_out_data_limit>Límites de datos enviados</send_out_data_limit>
+    <send_out_limit>Límites diarios de envío</send_out_limit>
+    <send_out_message_limit>Límites de mensajes salientes</send_out_message_limit>
+    <shared_folders>Carpetas compartidas</shared_folders>
+    <sms>Mensaje de texto</sms>
+    <smtp>SMTP</smtp>
+    <spam_folder_mode>Modo carpeta de spam</spam_folder_mode>
+    <spam_reports_mode>Modo de informes de spam</spam_reports_mode>
+    <spam_trap>Trampa de spam</spam_trap>
+    <state_county>Estado / Condado</state_county>
+    <status>Estado</status>
+    <storage_usage>Uso de almacenamiento</storage_usage>
+    <street>Calle</street>
+    <surname>Apellido</surname>
+    <synchronization>Sincronización</synchronization>
+    <syncml>SyncML</syncml>
+    <threshold_for_full_download>Umbral para la descarga completa</threshold_for_full_download>
+    <unknown_ip>IP desconocida</unknown_ip>
+    <upload_photo>Subir foto</upload_photo>
+    <use_spam>Usar carpeta de spam</use_spam>
+    <user_can_send_to_local_domains_only>User can send to local domains only</user_can_send_to_local_domains_only>
+    <username>Username</username>
+    <voip>VoIP</voip>
+    <web_folders>Carpetas web (WebDAV)</web_folders>
+    <webclient>WebClient</webclient>
+    <website>Sitio web</website>
+    <work_address>Dirección de trabajo</work_address>
+    <zip>Codigo postal</zip>
+    <add_to_group>Añadir al grupo</add_to_group>
+    <change_rights>Cambiar los derechos</change_rights>
+    <move>Mover</move>
+    <delete>Borrar</delete>
+    <remove>Retirar</remove>
+    <not_yet>Aún no</not_yet>
+    <teamchat>TeamChat</teamchat>
+    <enable_client_licence>Habilitar licencia de cliente</enable_client_licence>
+    <disable_access_to_pop3>Deshabilitar el acceso a POP3 (cuenta IMAP única)</disable_access_to_pop3>
+    <two_factor_authentication>Autenticación de dos factores</two_factor_authentication>
+    <max_file_size>Tamaño máximo de archivo</max_file_size>
+    <subscription_plan>Plan de suscripción</subscription_plan>
+    <change_user_plan>Cambiar plan de usuario</change_user_plan>
+  </accountdetail>
+  <accountdetail_help>
+    <account_state>Seleccione si esta cuenta será completamente funcional, parcialmente desactivada (el usuario no puede iniciar sesión, pero se aceptan mensajes), deshabilitada (el usuario no puede iniciar sesión, los mensajes son rechazados) o funcionará como una trampa de spam</account_state>
+    <activation_key>La clave de activación permite al usuario licenciar correctamente la aplicación cliente seleccionada. Una vez generado, está disponible para el usuario a través de la interfaz WebClient o mediante la solicitud SmartSync de la aplicación cliente</activation_key>
+    <address>Ingrese una dirección o lugar de trabajo</address>
+    <advanced>Active opciones avanzadas de sincronización que desea establecer para este usuario. Ingrese los valores adecuados</advanced>
+    <aliases>Ingrese alias para esta cuenta. Los mensajes enviados a todas estas direcciones se enviarán a este buzón</aliases>
+    <antispam>Seleccione si este usuario recibirá informes de spam, configurados en Anti-Spam - Acción - Informes, el delta - informes con nuevos or todoes los elementos de spam enumerados. También seleccione si se va a utilizar una carpeta de spam</antispam>
+    <antispam_features>El filtrado de spam proporciona controles sobre el sistema a través de listas negras, listas blancas, carpetas de correo no deseado e informes de cuarentena</antispam_features>
+    <antivirus>Enterprise Anti-Virus escanea y valida cada archivo ya sea correo electrónico, archivos adjuntos de calendario, documentos y transferencias de archivos entrantes or salientes</antivirus>
+    <appearance>Habilite y seleccione la prevista de los nombres de la libreta de direcciones</appearance>
+    <archive>El archivado guarda todos los correos y mensajes de texto entrantes y salientes, y brinda acceso de lectura a la carpeta Archivado para restaurar los mensajes perdidos</archive>
+    <client_applications>Administre los dispositivos móviles, aplicaciones Outlook Sync y Desktop Client del usuario</client_applications>
+    <email>Ingrese direcciónes de correo electrónico del usuario</email>
+    <exchange_activesync>Sincronización segura de correo electrónico, calendarios, contactos, tareas y notas a todos los dispositivos móviles, incluidos Windows Phone, iPhone, iPad y Android</exchange_activesync>
+    <expiration>Establecer la expiración de la cuenta del usuario</expiration>
+    <file_transfer>FTP permite a los usuarios transferir archivos de gran tamaño a un almacenamiento dedicado en el servidor. Con un cliente FTP estándar, los usuarios pueden navegar, administrar, cargar o descargar archivos&quot;</file_transfer>
+    <forwarder>Establezca dónde se reenviarán o copiarán los mensajes, sepárelos por punto y coma. Se utiliza un correo electrónico alternativo durante la recuperación de la contraseña. El usuario no puede modificar la copia entrante / saliente&quot;</forwarder>
+    <general>Ingrese la información de la cuenta. Todos los datos presentados aquí se mostrarán también en el contacto GAL del usuario. Los usuarios pueden editar los campos en Mis detalles en WebClient. Todos los campos son opcionales</general>
+    <groupware>GroupWare debe estar habilitado para habilitar y ver info Publica como Lista global de direcciones, Calendarios de empresas, los Archivos y las Carpetas públicas&quot;</groupware>
+    <instant_messaging>La mensajería o chat en tiempo real permite una comunicación instantánea entre los usuarios, les permite compartir archivos y ver la presencia de los demás en la lista de contactos&quot;</instant_messaging>
+    <licence_description>Ingrese un texto descriptivo</licence_description>
+    <limits>Encienda límites, ingrese los valores apropiados para los límites de cuenta que desea establecer</limits>
+    <note>Nota para un contacto (este campo generalmente es editado por un usuario)</note>
+    <online_conferencing>El servicio WebMeetings estimula la colaboración y aumenta la productividad en sus equipos al conectar a los usuarios con audio, chat multiusuario y uso compartido de pantalla</online_conferencing>
+    <permissions_and_rights>Seleccione si este usuario es una cuenta de correo electrónico normal o un administrador de servidor o un administrador de dominio. Haga clic en Funciones para habilitar o deshabilitar servicios para este usuario individualmente&quot;</permissions_and_rights>
+    <phone>Ingrese los números de teléfono del usuario&quot;</phone>
+    <pop_imap>El servicio del sistema para recibir correos electrónicos debe estar habilitado para la funcionalidad adecuada de WebClient y otros clientes de correo electrónico como Outlook, Thunderbird o Mail&quot;</pop_imap>
+    <quarantine>La cuarentena le permite colocar los mensajes entrantes sospechosos en una cola pendiente a la espera de la autorización manual por parte de los administradores o los mismos usuarios&quot;</quarantine>
+    <quotas>Descripción general de los límites para la cantidad de mensajes enviados por día y espacio en disco ocupado por esta cuenta&quot;</quotas>
+    <responder>Seleccione el modo de respuesta para esta cuenta. Otros campos están habilitados según este modo&quot;</responder>
+    <sms>Los mensajes de texto integrados (SMS) permiten a los usuarios enviar mensajes de texto desde WebClient, responder a los mensajes recibidos y administrarlos como correos electrónicos en la bandeja de entrada&quot;</sms>
+    <smtp>El servicio del sistema para enviar correos electrónicos debe estar habilitado para la funcionalidad adecuada de WebClient y otros clientes de correo electrónico como Outlook, Thunderbird o Mail&quot;</smtp>
+    <synchronization>Active las opciones de sincronización que desea establecer para este usuario. Ingrese los valores adecuados&quot;</synchronization>
+    <syncml>Sincronización inalámbrica de calendarios, contactos, tareas y notas a dispositivos móviles antiguos basados ​​en Palm OS, Symbian y otros que no son compatibles con ActiveSync&quot;</syncml>
+    <voip>La telefonía por Internet les permite a los usuarios hacer llamadas de Audio / Video y unirse a llamadas de conferencia desde WebClient directamente o usando un teléfono o aplicación compatible con SIP&quot;</voip>
+    <web_folders>El acceso externo a la nube privada del usuario permite mapearlo como una unidad de red en Windows / Linux / Mac y almacenar documentos, fotos y otros archivos&quot;</web_folders>
+    <webclient>Acceso basado en la web a correo electrónico, calendarios, contactos, tareas, notas y documentos. Toda la información puede ser compartida entre los usuarios a través de carpetas compartidas y públicas&quot;</webclient>
+    <website>Ingrese la dirección del sitio web del usuario&quot;</website>
+    <teamchat>TeamChat es una herramienta de colaboración moderna para equipos y proyectos. Le permite ponerse en contacto con otras personas en el equipo, organizar sus conversaciones sobre un tema, compartir archivos o crear reuniones ad-hoc&quot;</teamchat>
+    <web_documents>Editores en línea de los formatos de archivo Microsoft Office y OpenOffice. Cree documentos con un hermoso formato, impresionantes presentaciones, hojas de cálculo con fórmulas, todo sin salir del WebClient&quot;</web_documents>
+  </accountdetail_help>
+  <accountdetail_placeholder>
+    <folder_synchronization_threshold>Ingrese la cantidad máxima de mensajes en la carpeta</folder_synchronization_threshold>
+  </accountdetail_placeholder>
+  <accountinfo>
+    <name>Nombre</name>
+    <ignore_password_policy>Ignorar la política de contraseñas</ignore_password_policy>
+  </accountinfo>
+  <synchronization>
+    <address_books>Libretas de direcciones</address_books>
+    <advanced>Avanzado</advanced>
+    <appearance>Apariencia</appearance>
+    <authentication_method>Método de autentificación</authentication_method>
+    <automatically_revert_changes>Invierte automáticamente los cambios en las carpetas de solo lectura</automatically_revert_changes>
+    <check_for_updates>Buscar actualizaciones</check_for_updates>
+    <delete_after_specified_days>Eliminar después de días especificados</delete_after_specified_days>
+    <delete_logs>Eliminar registros</delete_logs>
+    <disable_tnef>Deshabilitar TNEF</disable_tnef>
+    <do_not_show_connection_errors>No mostrar errores de conexión</do_not_show_connection_errors>
+    <do_not_show_login_errors>No mostrar errores de inicio de sesión</do_not_show_login_errors>
+    <do_not_show_progress>No mostrar progreso</do_not_show_progress>
+    <hide_notification_after>Ocultar notificación después (segundos)</hide_notification_after>
+    <licence_and_updates>Licencia y actualizaciones</licence_and_updates>
+    <line_security>Línea de seguridad</line_security>
+    <logging_level>Nivel de registro</logging_level>
+    <login>Iniciar sesión</login>
+    <login_credentials>Credenciales de acceso</login_credentials>
+    <login_port>Puerto de inicio de sesión</login_port>
+    <logs>Registros</logs>
+    <log_debug>Debug</log_debug>
+    <log_errors>Solo errores</log_errors>
+    <new_mail_options>Nuevas opciones de correo</new_mail_options>
+    <play_default_sound>Reproducir sonido predeterminado</play_default_sound>
+    <show_desktop_notification>Mostrar notificación de escritorio</show_desktop_notification>
+    <skip_trash_folder>Omitir comprobación de carpeta de basura</skip_trash_folder>
+    <synchronization_exceptions>Excepciones de sincronización</synchronization_exceptions>
+    <synchronization_frequency>Frecuencia de sincronización</synchronization_frequency>
+    <plain>Plain</plain>
+    <cram_md5>Cram MD5</cram_md5>
+    <starttsl>STARTTSL</starttsl>
+    <ssl>SSL</ssl>
+    <updates>Actualizaciones</updates>
+  </synchronization>
+  <dns>
+    <no_dns_records uses="DNS validation">Sin registros DNS</no_dns_records>
+    <all_available>Todo disponible</all_available>
+    <service_mx>Correo</service_mx>
+    <service_autodiscover>SmartDiscover</service_autodiscover>
+    <service_autodiscover_srv>SmartDiscover</service_autodiscover_srv>
+    <service_webdav>WebDAV</service_webdav>
+    <service_sip>SIP</service_sip>
+    <service_xmpp>XMPP</service_xmpp>
+    <service_ischedule>iSchedule</service_ischedule>
+    <service_rdns>RDNS</service_rdns>
+    <service_spf>SPF</service_spf>
+    <service_dkim>DKIM</service_dkim>
+    <default_alias>Alias ​​predeterminado</default_alias>
+    <domain_type>Tipo de dominio</domain_type>
+    <email>Email</email>
+    <expires_on>Expira el</expires_on>
+    <hostname>Nombre de host</hostname>
+    <ip_address>Dirección IP</ip_address>
+    <name>Nombre</name>
+    <type>Tipo</type>
+    <user_count>Cuenta de usuario</user_count>
+    <user_limit>Límite de usuario</user_limit>
+    <dns>Registros DNS actuales</dns>
+    <academy_text>Consulte el video de IceWarp Academy sobre cómo configurar registros DNS correctamente. A continuación, puede descargar el archivo de zona de ejemplo de su dominio&quot;</academy_text>
+    <academy_caption>Actualizando el &quot;archivo de zona&quot;</academy_caption>
+    <academy_warning>Alerta - valide sus registros DNS</academy_warning>
+    <general>General</general>
+    <loading>Cargando información de dominio</loading>
+    <learn_more>Aprende más sobre la validación</learn_more>
+  </dns>
+  <dns_help>
+    <dns>La configuración actual de DNS para su dominio se detalla a continuación. Las entradas incorrectas o faltantes están marcadas en color rojo</dns>
+  </dns_help>
+  <dkim>
+    <domain_key_selector>Selector de clave de dominio</domain_key_selector>
+    <selector>Selector</selector>
+    <selector_placeholder>Cadena arbitraria única</selector_placeholder>
+    <no_selector>Por favor, especifique un Selector único para este servidor</no_selector>
+    <generate_key>Generar nueva clave</generate_key>
+    <selector_host>Nombre de host</selector_host>
+    <selector_record>Selector record</selector_record>
+    <sign_outgoing_mails>Firme correos salientes con DKIM</sign_outgoing_mails>
+    <reset>Restablecer la configuración de DKIM</reset>
+    <reset_succeeded>DKIM se ha restablecido</reset_succeeded>
+    <wizard>DKIM Wizard</wizard>
+    <academy_title>Tutorial de configuración DKIM en la academia IceWarp</academy_title>
+    <academy_caption>Actualizando el &quot;archivo de zona&quot;</academy_caption>
+    <academy_text>Consulte el video de IceWarp Academy sobre cómo configurar los registros DKIM en DNS de manera adecuada</academy_text>
+    <setup>Configurar DKIM</setup>
+    <setup_failed>El proceso de instalación de DKIM falló</setup_failed>
+    <loading>Generando nueva clave</loading>
+  </dkim>
+  <dkim_help>
+    <domain_key_selector>Cualquier texto, si configura DKIM para este dominio en varios servidores, cada servidor debe tener un selector único</domain_key_selector>
+    <selector_record>Configure su servidor DNS con la clave pública. Debe agregar la siguiente entrada en su servidor DNS, por ejemplo, icecream._domainkey.www.icewarp.com</selector_record>
+    <wizard>DKIM es utilizado por servidores remotos para verificar que los correos electrónicos enviados desde este dominio no sean falsificados. Para usar DKIM, DNS TXT record &amp; amp; lt; Selector &amp; amp; gt; ._ domainkey. &amp; Amp; lt; domainname &amp; amp; gt; tiene que ser creado.</wizard>
+  </dkim_help>
+  <accountpicker>
+    <users>Usuarios</users>
+    <domains>Dominios</domains>
+    <items_selected>elementos seleccionados</items_selected>
+    <show_them>Mostrar los seleccionados</show_them>
+    <hide_them>Mostrar todo</hide_them>
+    <account_picker>Seleccionar cuenta</account_picker>
+    <account_type>Tipo de cuenta</account_type>
+    <add_account>Agregar cuentas</add_account>
+    <add_domain>Agregar dominio</add_domain>
+    <add_user>Agregar usuario</add_user>
+    <domain>Dominio</domain>
+    <filter>Filtrar</filter>
+    <add_external>Agregar externo</add_external>
+    <add_external_members>Agregar miembros externos</add_external_members>
+  </accountpicker>
+  <spam_queues>
+    <quarantine>Cuarentena</quarantine>
+    <whitelist>Lista blanca</whitelist>
+    <blacklist>Lista negra</blacklist>
+    <action_delete>Borrar</action_delete>
+    <action_deliver>Entregar</action_deliver>
+    <action_whitelist>Lista blanca</action_whitelist>
+    <action_blacklist>Lista negra</action_blacklist>
+    <add_item>Añadir</add_item>
+    <detail>Detalle</detail>
+  </spam_queues>
+  <spamqueues_header>
+    <sender>Remitente</sender>
+    <subject>Asunto</subject>
+    <date>Fecha</date>
+    <owner>Propietario</owner>
+    <domain>Dominio</domain>
+    <filter_sender>filtrar por remitente</filter_sender>
+    <filter_owner>filtro por propetario</filter_owner>
+    <filter_domain>filtrar por dominio</filter_domain>
+    <filter>Filtrar Resultados</filter>
+  </spamqueues_header>
+  <certificates>
+    <server_certificates>Certificados de servidor</server_certificates>
+    <ca_certificates>Certificados de CA</ca_certificates>
+    <secure_destinations>Destinos seguros</secure_destinations>
+    <create_certificate>Crear certificado CSR / Servidor</create_certificate>
+    <wizard>Opciones de certificado</wizard>
+    <reissue>Reedición</reissue>
+    <finalize>Finalizar</finalize>
+    <properties>Propiedades</properties>
+    <edit>Editar</edit>
+    <add_hostname>Agregar otro nombre de host</add_hostname>
+    <bits>Bits</bits>
+    <validity>Validez</validity>
+    <country>País</country>
+    <state>Estado</state>
+    <city>Ciudad</city>
+    <organization>Organización</organization>
+    <organization_unit>Unidad de organización</organization_unit>
+    <email>Email</email>
+    <common_name>Nombre común (FQDN)</common_name>
+    <signature_request>Crear solicitud de firma de certificado (CSR)</signature_request>
+    <ip_address>Dirección IP</ip_address>
+    <no_ip_limit>Todas</no_ip_limit>
+    <certificate>Certificado</certificate>
+    <ip>Dirección IP</ip>
+    <cn>CN</cn>
+    <issuer>Editor</issuer>
+    <expiration>Vencimiento</expiration>
+    <subject>Subject</subject>
+    <cert_bits>Bits</cert_bits>
+    <fingerprint>Huella dactilar</fingerprint>
+    <type>Tipo</type>
+    <type_normal>Estándar</type_normal>
+    <type_csr/>
+    <type_letsencrypt>Let&apos;s Encrypt</type_letsencrypt>
+    <hostname>Nombre de host</hostname>
+    <default>Defecto</default>
+    <set_as_default>Establecer por defecto</set_as_default>
+    <csr>CSR</csr>
+    <add_existing>Agregar existente</add_existing>
+    <new_icewarp_cert>Solicitar el certificado IceWarp</new_icewarp_cert>
+    <new_ca_cert>Solicitar certificado de autoridad</new_ca_cert>
+    <new_lets_encrypt_cert>Certificado gratuito Let&apos;s Encrypt</new_lets_encrypt_cert>
+    <new_self_signed_cert>Certificado autofirmado gratuito</new_self_signed_cert>
+    <reissue_cert>Reemitir certificado</reissue_cert>
+    <reissue_icewarp_cert>Volver a emitir como certificado IceWarp</reissue_icewarp_cert>
+    <reissue_ca_cert>Volver a emitir como certificado de autoridad</reissue_ca_cert>
+    <reissue_lets_encrypt_cert>Volver a emitir como certificado Let&apos;s Encrypt</reissue_lets_encrypt_cert>
+    <reissue_self_signed_cert>Volver a emitir como certificado autofirmado</reissue_self_signed_cert>
+    <unit>Unidad</unit>
+    <company_details>Detalles de la compañía</company_details>
+    <add_certificate>Agregar certificado</add_certificate>
+    <certificate_settings>Configuración del certificado</certificate_settings>
+    <icewarp_details>Certificado IceWarp</icewarp_details>
+    <authority_details>Detalles del certificado</authority_details>
+    <letsencrypt_details>Let&apos;s Encrypt Certificate</letsencrypt_details>
+    <selfsigned_details>Certificado autofirmado</selfsigned_details>
+    <email_details>Certificado de correo electrónico</email_details>
+    <details>Detalles</details>
+    <ip_binding>Enlace de IP</ip_binding>
+    <domains>Dominios</domains>
+    <errors>Errores</errors>
+    <export_csr>Exportar CSR</export_csr>
+    <bind_certificate>Certificado de vinculación</bind_certificate>
+    <all_ips>Todas las direcciones IP</all_ips>
+    <selected_ips>Direcciones IP seleccionadas</selected_ips>
+    <cert_domains>Dominios de certificado</cert_domains>
+    <cert_failure>Fallo de certificado</cert_failure>
+    <last_cert_attempt>Último intento de certificado</last_cert_attempt>
+    <error>Error</error>
+    <ver_failed_for>Error de verificación</ver_failed_for>
+    <reuse>Reutilizar par de claves privada / pública</reuse>
+    <generate>Generar par de claves privadas/públicas</generate>
+    <domain_unknown>Desconocido</domain_unknown>
+    <domain_error>Error</domain_error>
+    <domain_valid>Válido</domain_valid>
+    <domain_invalid>Inválido</domain_invalid>
+    <domain_timeout>Se acabó el tiempo</domain_timeout>
+    <key_pair>Par de claves</key_pair>
+    <hostnames>Nombres de host</hostnames>
+  </certificates>
+  <certificates_help>
+    <add_existing>Elija si ya tiene un certificado de servidor SSL listo</add_existing>
+    <new_icewarp_cert>Compre un certificado de servidor SSL de confianza de IceWarp en unos sencillos pasos. Vuelva a emitir si vence o si se agregan más dominios&quot;</new_icewarp_cert>
+    <new_ca_cert>Genere una solicitud de certificado para su uso con su proveedor de certificado favorito. Vuelva a emitir si vence o se agregan más dominios&quot;</new_ca_cert>
+    <new_lets_encrypt_cert>Genere un certificado gratis de la entidad certificadora Let&apos;s Encrypt. El certificado se vuelve a emitir automáticamente antes de su vencimiento, se vuelve a emitir manualmente si los dominios se deben agregar o eliminar&quot;</new_lets_encrypt_cert>
+    <new_self_signed_cert>Genere un certificado gratuito no verificado por ninguna autoridad certificadora. Úselo si la seguridad no es una gran preocupación. Repita la publicación tantas veces como sea necesario&quot;</new_self_signed_cert>
+    <csr>Esta es una Solicitud de firma de certificado (CSR). Se debe proporcionar CSR a la autoridad de certificación. Una vez que finalice el proceso de validación, enlace el certificado recibido de la autoridad con la CSR original&quot;</csr>
+  </certificates_help>
+  <policies>
+    <login>Política de inicio de sesión</login>
+    <password>Política de contraseñas</password>
+    <outlook>Política de Outlook</outlook>
+    <block_user_login_accounts>Bloquear el inicio de sesión de usuario para las cuentas que superen varios intentos de inicio de sesión fallidos</block_user_login_accounts>
+    <block_user_login_time>Bloquear el inicio de sesión de usuario por</block_user_login_time>
+    <login_policy_mode>Modo de política de inicio de sesión</login_policy_mode>
+    <require_administrator>Requiere autenticación de administrador para acceder a la configuración del sistema</require_administrator>
+    <usernames>Nombres de usuario</usernames>
+    <email_addresses>Correos electrónicos</email_addresses>
+    <convert_usernames>Convertir % y / a @ en nombres de usuario</convert_usernames>
+    <account_ip_restriction>Usar la restricción de IP de inicio de sesión de la cuenta</account_ip_restriction>
+    <login_restriction>Restricción de inicio de sesión</login_restriction>
+    <users_login>Los usuarios inician sesión con su</users_login>
+    <login_policy>Política de inicio de sesión</login_policy>
+    <password_policy>Política de contraseñas</password_policy>
+    <active>Activo</active>
+    <password_cannot_contain>La contraseña no puede contener nombre de usuario o alias</password_cannot_contain>
+    <enable_password>Habilitar el cifrado de contraseña</enable_password>
+    <minimal_password_length>Longitud mínima de la contraseña</minimal_password_length>
+    <numeric>Número de caracteres numéricos en la contraseña [0-9]</numeric>
+    <non_alpha_numeric>Número de caracteres no alfanuméricos en la contraseña [! @ # $% ...]</non_alpha_numeric>
+    <alpha>Número de caracteres alfabéticos en la contraseña [a-z][A-Z]</alpha>
+    <uppercase_alpha>Número de caracteres alfabéticos en mayúsculas en la contraseña [A-Z]</uppercase_alpha>
+    <password_expires_after>La contraseña caduca después</password_expires_after>
+    <notify_before_expiration>Notificar antes de la expiración</notify_before_expiration>
+    <custom_notification>Archivo de mensaje de notificación personalizado</custom_notification>
+    <passwords_read_exported>Las contraseñas no se pueden leer ni exportar</passwords_read_exported>
+    <admin_passwords_read_exported>Las contraseñas de administrador no se pueden leer ni exportar</admin_passwords_read_exported>
+    <do_not_block_but_delay>No bloquear, pero retrasar el proceso de autenticación</do_not_block_but_delay>
+    <block_account>Bloquear cuenta por una cantidad específica de tiempo</block_account>
+    <manage>Gestionar</manage>
+    <general>General</general>
+    <password_format>Formato de contraseña</password_format>
+    <password_expiration>Caducidad de la contraseña</password_expiration>
+    <password_retrieval>Recuperación de la contraseña</password_retrieval>
+  </policies>
+  <whitelabeling>
+    <use_default>Establecer a los valores predeterminados</use_default>
+    <available_interfaces>Interfaces disponibles</available_interfaces>
+    <disable_autofill>Autocompletar nombre de usuario / contraseña</disable_autofill>
+    <disable_facebook_integration>Integración de Facebook</disable_facebook_integration>
+    <disable_interface>Selección de interfaz</disable_interface>
+    <disable_language>Selección de idioma</disable_language>
+    <disable_login_banners>Anuncios</disable_login_banners>
+    <disable_login_help>Ayuda para iniciar sesión</disable_login_help>
+    <disable_remember_me>Recuérdame</disable_remember_me>
+    <disable_sign_up>Regístrate</disable_sign_up>
+    <disable_support_link>Enlace de soporte</disable_support_link>
+    <disable_twitter_integration>Integración de Twitter</disable_twitter_integration>
+    <disable_linkedin_integration>Integración de LinkedIn</disable_linkedin_integration>
+    <login_logo>Logotipo de inicio de sesión</login_logo>
+    <login_style>Estilo de inicio de sesión</login_style>
+    <page_title>Título de la página</page_title>
+    <preferred_interface>Interfaz preferida</preferred_interface>
+    <skin>Skin</skin>
+    <skin_style>Estilo del skin</skin_style>
+    <background_img>Imagen de fondo</background_img>
+    <twitter_handle>Manejo de Twitter</twitter_handle>
+    <upload>Subir</upload>
+    <url_to_like>URL de la página para me gusta</url_to_like>
+    <wa_skin>Skin WebAdmin</wa_skin>
+    <wc_skin>Skin de WebClient</wc_skin>
+    <blue uses="Login style,Skin style">Azul</blue>
+    <black uses="Login style,Skin style">Negro</black>
+    <brown uses="Login style,Skin style">Marrón</brown>
+    <graphite uses="Login style,Skin style">Grafito</graphite>
+    <green uses="Login style,Skin style">Verde</green>
+    <orange uses="Login style,Skin style">Naranja</orange>
+    <pink uses="Login style,Skin style">Rosado</pink>
+    <purple uses="Login style,Skin style">Púrpura</purple>
+    <red uses="Login style,Skin style">Rojo</red>
+    <yellow uses="Login style,Skin style">Amarillo</yellow>
+    <desktop uses="Preferred interface,Available interfaces">Escritorio</desktop>
+    <tablet uses="Preferred interface,Available interfaces">Tableta</tablet>
+    <mobile uses="Preferred interface,Available interfaces">Móvil</mobile>
+    <facebook_page_url>URL de la página de Facebook</facebook_page_url>
+    <twitter_page_url>URL de la página de Twitter</twitter_page_url>
+    <linkedin_page_url>URL de la página de LinkedIn</linkedin_page_url>
+    <language>Idioma</language>
+    <server_language>Idioma del servidor</server_language>
+    <login_page_options>Opciones de página de inicio de sesión</login_page_options>
+    <social_integration>Integraciones sociales</social_integration>
+    <interfaces>Interfaces</interfaces>
+    <background_image>Imagen de fondo</background_image>
+    <choose_image>Elegir imagen</choose_image>
+    <choose_color>Elige el color</choose_color>
+    <login_heading>Inicio de sesión</login_heading>
+    <login_title>Título de inicio de sesión</login_title>
+    <login_text>Texto de inicio de sesión</login_text>
+    <login_skin>Pantalla de inicio de sesión</login_skin>
+    <email>Email</email>
+    <sms>Mensaje de texto</sms>
+    <upload_custom_background>Cargar fondo personalizado</upload_custom_background>
+    <search>Buscar</search>
+    <search_query>Consulta de busqueda</search_query>
+    <banners>Publicidad</banners>
+    <banner_none>Inhabilitar</banner_none>
+    <banner_url>Imagen estática</banner_url>
+    <banner_code>AdSense</banner_code>
+    <top_banner_type>Leaderboard al iniciar sesión</top_banner_type>
+    <bottom_banner_type>Rectángulo en la lista de mensajería instantánea</bottom_banner_type>
+    <desktop_banner_type>Resolución completa (728x90 px)</desktop_banner_type>
+    <mobile_banner_type>Resolución móvil (300x100 px)</mobile_banner_type>
+    <login_banners>Página de inicio de sesión</login_banners>
+    <webclient_banners>WebClient</webclient_banners>
+    <adsense_settings>Configuraciones de AdSense</adsense_settings>
+    <adsense_customer_id>ID de cliente de AdSense</adsense_customer_id>
+    <adsense_slot_id>ID de ranura de AdSense</adsense_slot_id>
+    <required>Necesario</required>
+    <custom_sign_up_fields>Campos de registro personalizados</custom_sign_up_fields>
+    <nickname>Apodo</nickname>
+    <company>Empresa</company>
+    <job>Trabajo</job>
+    <profession>Profesión</profession>
+    <mobile_phone>Teléfono móvil</mobile_phone>
+    <work_phone>Teléfono del trabajo</work_phone>
+    <home_phone>Teléfono de casa</home_phone>
+    <im>IMIM</im>
+    <gender>Género</gender>
+    <birthday>Cumpleaños</birthday>
+    <homepage>Página principal</homepage>
+    <two_step_verification>Verificación de registro</two_step_verification>
+    <verification_method>Método de verificación</verification_method>
+    <ic_skin>Skin móvil IceChat</ic_skin>
+    <require_contact_number>Requiere número de contacto</require_contact_number>
+    <conferencing>Conferencias</conferencing>
+    <conferencing_logo>Logotipo de conferencia</conferencing_logo>
+  </whitelabeling>
+  <whitelabeling_help>
+    <login_logo>Cambie el logotipo que se muestra en su página de inicio de sesión. Formatos de imágenes compatibles: JPG, PNG, GIF, SVG. Tamaño máximo de archivo: 20 MB</login_logo>
+    <login_page_options>Elija qué elementos desea mostrar u ocultar de la página de inicio de sesión</login_page_options>
+    <login_skin>Configurar la vista de la página de inicio de sesión</login_skin>
+    <login_skin_style>Seleccione el color primario de la página de inicio de sesión</login_skin_style>
+    <login_background>Seleccione la imagen de fondo perfecta para su página de inicio de sesión</login_background>
+    <page_title>Cambie el texto que ven sus usuarios en el título de la ventana</page_title>
+    <server_language>Establecer preferencias de idioma para sus usuarios</server_language>
+    <social_integration>Configurar enlaces a las redes sociales</social_integration>
+    <wa_skin>Configurar cómo se ve WebAdmin por dentro</wa_skin>
+    <wa_skin_style>Elige el color principal de WebAdmin</wa_skin_style>
+    <wc_skin>Configure cómo se ve WebClient por dentro</wc_skin>
+    <wc_skin_style>Elija el color principal de WebClient</wc_skin_style>
+    <search_query>Proporcione un enlace al motor de búsqueda de su elección donde %% query %% será reemplazado por la frase de búsqueda ingresada por los usuarios. Ejemplo: https://www.google.com/#q=%%query%%+site:icewarp. com</search_query>
+    <banners>Coloque anuncios de banner en su pantalla de inicio de sesión y en WebClient</banners>
+    <banner_url>Insertar URL de una imagen estática para usar como banner</banner_url>
+    <banner_code>Inserte el ID enla ranura de Adsense personalizada por el proveedor de Adsense.</banner_code>
+    <login_banners>Use imágenes alternativas y de resolución completa móvil como banners publicitarios o conéctese a una red publicitaria</login_banners>
+    <webclient_banners>Coloque anuncios para varias resoluciones de pantalla en la página de inicio de sesión o en la parte inferior de la lista de contactos de mensajería instantánea</webclient_banners>
+    <adsense_settings>Ingrese su ID de cliente de AdSense</adsense_settings>
+    <custom_sign_up_fields>Seleccione qué campos de vCard serán necesarios durante el registro</custom_sign_up_fields>
+    <two_step_verification>Seleccione el método de verificación cuando los usuarios se registren</two_step_verification>
+    <conferencing>Cambia el aspecto de la aplicación de conferencias.</conferencing>
+    <conferencing_logo>Cambie el logotipo que se muestra en la página de conferencias. Formatos de imagen compatibles: JPG, PNG, GIF. Tamaño máximo de archivo: 20 MB.</conferencing_logo>
+  </whitelabeling_help>
+  <preview>
+    <language>EN</language>
+    <sign_in_webclient>Iniciar sesión en WebClient</sign_in_webclient>
+    <password>Contraseña</password>
+    <sign_in>Entrar</sign_in>
+    <remember_me>Mantenerme conectado</remember_me>
+    <contact_admin>Contáctenos</contact_admin>
+    <not_you>¿No eres tú?</not_you>
+    <choose_account>Elige una cuenta diferente</choose_account>
+    <powered>Desarrollado por IceWarp © 2021</powered>
+    <find_out_more>Para obtener más información sobre IceWarp, visite</find_out_more>
+    <search>Buscar</search>
+  </preview>
+  <preview_icechat>
+    <sign_in_with>Inicie sesión con su cuenta IceWarp WebClient</sign_in_with>
+    <email>Email</email>
+    <password>Contraseña</password>
+    <sign_in>REGISTRARSE</sign_in>
+  </preview_icechat>
+  <resource>
+    <alias>Alias</alias>
+    <name>Nombre</name>
+    <type>Tipo</type>
+    <general>General</general>
+    <temporarily_unavailable>Temporalmente no disponible</temporarily_unavailable>
+    <allow_conflicts>Permitir conflictos</allow_conflicts>
+    <send_notification>Enviar notificación al usuario</send_notification>
+    <permissions>Permisos</permissions>
+    <resource_members>Lista de miembros del recurso</resource_members>
+    <members>Miembros</members>
+  </resource>
+  <resource_help>
+    <resource_members>Revise los miembros del recurso, agregue nuevos miembros o elimine los actuales. Marque la casilla correspondiente y haga clic en el botón Seleccionar acción para eliminar un miembro.</resource_members>
+  </resource_help>
+  <smartdiscover>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <public_hostname>Nombre de host público</public_hostname>
+    <smtp>SMTP</smtp>
+    <pop3>POP3</pop3>
+    <imap>IMAP</imap>
+    <xmpp>XMPP</xmpp>
+    <sip>SIP</sip>
+    <mobilesync>MobileSync (ActiveSync)</mobilesync>
+    <syncml>SyncML (OMA DS)</syncml>
+    <webdav_smartattach>WebDAV y SmartAttach</webdav_smartattach>
+    <webclient>WebClient</webclient>
+    <webadmin>WebAdmin</webadmin>
+    <free_busy>Libre / Ocupado</free_busy>
+    <internet_calendar>Calendario de Internet</internet_calendar>
+    <sms>SMS</sms>
+    <anti_spam_reports>Informes antispam</anti_spam_reports>
+    <install>Instalar</install>
+    <teamchat>TeamChat</teamchat>
+    <standard>Estándar</standard>
+    <tls_ssl>TLS / SSL</tls_ssl>
+    <no_ssl>2do puerto básico (sin SSL)</no_ssl>
+    <set_all_to_new_domain_name>Establecer todos igual al nombre de host</set_all_to_new_domain_name>
+    <collaboration>URL de la API de colaboración</collaboration>
+    <conference>URL de la conferencia</conference>
+  </smartdiscover>
+  <subscription>
+    <active_users>Resumen de usuarios activos</active_users>
+    <any_questions>¿Alguna pregunta?</any_questions>
+    <billing_address>Dirección de Envio</billing_address>
+    <cancel_subscription>Cancelar</cancel_subscription>
+    <order_information>Información del pedido</order_information>
+    <order_id>Order ID</order_id>
+    <card_details>Detalles de tarjeta</card_details>
+    <card_number>Número de tarjeta</card_number>
+    <change_details>Cambiar detalles</change_details>
+    <change_plan>Cambio</change_plan>
+    <company_name>Nombre de empresa</company_name>
+    <current_plan>Plan actual</current_plan>
+    <customer_details>Detalles del cliente</customer_details>
+    <expiration_date>Fecha de caducidad</expiration_date>
+    <invoices>Facturas</invoices>
+    <last_invoices>Últimas facturas</last_invoices>
+    <no_invoices>Actualmente, no tiene &lt;strong&gt; ninguna de las facturas &lt;/strong&gt;</no_invoices>
+    <payment_details>Detalles del pago</payment_details>
+    <payments>Información de pago</payments>
+    <per_user_month>por usuario / mes</per_user_month>
+    <plan_details>Detalles del plan</plan_details>
+    <price_all_users_month>Costos mensuales totales</price_all_users_month>
+    <price_user_month>Precio por usuario / mes</price_user_month>
+    <trial>Trial</trial>
+    <show_invoice_list>Mostrar todas las facturas</show_invoice_list>
+    <storage>Almacenamiento por usuario</storage>
+    <subscription_details>Detalles de suscripción</subscription_details>
+    <your_trial_ends>Su prueba finaliza:</your_trial_ends>
+    <number_of_users>Número de usuarios</number_of_users>
+    <manage_subscription>Administrar subscripción</manage_subscription>
+    <subscription_settings>Configuración de subscripción</subscription_settings>
+    <datacenter_storage_support>Centro de datos, almacenamiento &amp; soporte</datacenter_storage_support>
+    <support>Soporte</support>
+    <next_billing>Próxima facturación</next_billing>
+    <total_price>Precio total</total_price>
+    <billing_period>Periodo de facturación:</billing_period>
+    <technical_support>Soporte técnico</technical_support>
+    <business_support>Soporte empresarial</business_support>
+    <contact_our_support>Puede contactar a Soporte dentroLas 24 horas del día, los 7 días de la semana</contact_our_support>
+    <free>GRATIS</free>
+    <page_reload>Es necesario volver a cargar la página para cargar una nueva licencia</page_reload>
+  </subscription>
+  <loginpage>
+    <no_cookie>Su navegador no permite &amp; javascript para crear cookies</no_cookie>
+    <title_admin>IceWarp WebAdmin</title_admin>
+    <new_interface>Nueva interfaz</new_interface>
+    <old_interface>Interfaz antigua</old_interface>
+    <sign_in_text>Inicie sesión con una cuenta de &lt;strong&gt; administrador &lt;/strong&gt; para administrar dominios y usuarios</sign_in_text>
+    <sign_in>Registrarse</sign_in>
+    <email>Email</email>
+    <username>Nombre de usuario</username>
+    <password>Contraseña</password>
+    <remember_me>Recuérdame</remember_me>
+    <forgotten_password>Contraseña olvidada</forgotten_password>
+    <visit_text>Para obtener más información sobre la visita al servidor IceWarp</visit_text>
+    <visit_url>http://www.icewarp.com/</visit_url>
+    <visit_link>www.icewarp.com</visit_link>
+    <powered_by>Powered by IceWarp Server &amp;copy; 2021</powered_by>
+    <oops_headline>Navegador no soportado</oops_headline>
+    <oops_text>WebAdmin es &lt;strong&gt; no compatible &lt;/strong&gt; con su navegador o dispositivo. Para una mejor experiencia, use uno de estos navegadores modernos:</oops_text>
+    <recommended>Recomendado</recommended>
+    <supported>Soportado</supported>
+    <supported_version>Soportado</supported_version>
+    <chrome>Cromo</chrome>
+    <explorer>Explorador</explorer>
+    <firefox>Firefox</firefox>
+    <safari>Safari</safari>
+    <opera>Ópera</opera>
+    <divtcha>Vuelva a escribir el código</divtcha>
+    <wrong_captcha>El código es incorrecto</wrong_captcha>
+    <auth_sent>Le hemos enviado un correo electrónico que contiene un enlace seguro. Al hacer clic en el enlace, podrá acceder a la administración de correo no deseado durante un tiempo limitado</auth_sent>
+  </loginpage>
+  <error>
+    <failed>Ha fallado</failed>
+    <fill_in_non_negative_value>Los valores negativos no están permitidos</fill_in_non_negative_value>
+    <account_password_policy>La contraseña infringe la política de contraseñas</account_password_policy>
+    <auth_email_missing>Falta el correo electrónico</auth_email_missing>
+    <identical_email>No puedes asignar tu nombre de usuario a otro usuario en el mismo dominio</identical_email>
+    <insufficient_rights>Derechos insuficientes para realizar esta acción</insufficient_rights>
+    <connection>No se puede acceder al servidor. Verifique su conexión a Internet o comuníquese con el administrador</connection>
+    <invalid_command>La acción no pudo ser realizada</invalid_command>
+    <invalid_data>Datos inválidos</invalid_data>
+    <no_key_defined>Sin clave definida</no_key_defined>
+    <save_unsuccessful>Configuraciones no guardadas</save_unsuccessful>
+    <action_failed>La acción solicitada no se pudo realizar</action_failed>
+    <license_key_send_failed>No se pudo enviar la clave de licencia</license_key_send_failed>
+    <unknown_error>Error desconocido</unknown_error>
+    <auth_login_invalid>Iniciar sesión no válido</auth_login_invalid>
+    <wrong_password>Contraseña incorrecta</wrong_password>
+    <password_too_short>Contraseña demasiado corta</password_too_short>
+    <password_does_not_match>Las contraseñas no coinciden</password_does_not_match>
+    <password_contains_alias>La contraseña no puede contener el alias</password_contains_alias>
+    <password_numeric_chars>No hay suficientes caracteres numéricos en la contraseña</password_numeric_chars>
+    <password_non_alpha_num_chars>No hay suficientes caracteres no alfanuméricos en la contraseña</password_non_alpha_num_chars>
+    <password_alpha_chars>No hay suficientes caracteres alfabéticos en la contraseña</password_alpha_chars>
+    <password_upper_alpha_chars>No hay suficientes caracteres en mayúscula en la contraseña</password_upper_alpha_chars>
+    <uploader_file_type_not_allowed>Tipo de archivo no permitido</uploader_file_type_not_allowed>
+    <specify_account_name_with_domain_name>Especificar el nombre de la cuenta con el nombre de dominio</specify_account_name_with_domain_name>
+    <specify_domain_name>Especificar el nombre de dominio</specify_domain_name>
+    <fatal_communication_error>Error de comunicación fatal</fatal_communication_error>
+    <account_disabled>Cuenta deshabilitada</account_disabled>
+    <account_domain_limit_exceeded>Límite de cuenta excedido</account_domain_limit_exceeded>
+    <connection_error>Error de conexión</connection_error>
+    <server_failure>El servidor no pudo entregar los datos necesarios:</server_failure>
+    <password_missing>Falta la contraseña</password_missing>
+    <auth_digest_expired>Hash de inicio de sesión caducado</auth_digest_expired>
+    <unexpected_response>Respuesta inesperada</unexpected_response>
+    <service_stop_unsuccessful>No se pudo detener el servicio</service_stop_unsuccessful>
+    <service_start_unsuccessful>No se pudo iniciar el servicio</service_start_unsuccessful>
+    <service_restart_unsuccessful>No se pudo reiniciar el servicio</service_restart_unsuccessful>
+    <rule_delete_unsuccessful>No se pudo eliminar la regla</rule_delete_unsuccessful>
+    <rule_save_unsuccessful>No se pudo guardar la regla</rule_save_unsuccessful>
+    <cannot_add_member_to_itself>v</cannot_add_member_to_itself>
+    <rule_at_least_one_condition_required>Al menos una condición requerida</rule_at_least_one_condition_required>
+    <account_not_created>La cuenta no se pudo crear. Puede existir una cuenta con el mismo alias o debido a limitaciones de licencia</account_not_created>
+    <auth_password_missing>Falta la contraseña</auth_password_missing>
+    <login_unsuccessful>Iniciar sesión sin éxito</login_unsuccessful>
+    <sender_must_be_filled>El remitente no puede estar en blanco</sender_must_be_filled>
+    <items_delete_failed>Error al borrar</items_delete_failed>
+    <spam_queue_item_does_not_exist>El artículo no existe</spam_queue_item_does_not_exist>
+    <items_deliver_failed>Entrega fallo</items_deliver_failed>
+    <save_failed>No se pudo guardar</save_failed>
+    <reset_failed>No se pudo restablecer</reset_failed>
+    <default_reset_failed>Could not reset to default valuesNo se pudo restablecer a los valores predeterminados</default_reset_failed>
+    <fetch_failed>No se pudieron recuperar los datos</fetch_failed>
+    <certificate_not_saved uses="server certificates">Certificado no se ha guardado</certificate_not_saved>
+    <delete_unsuccessfull>Eliminar sin éxito</delete_unsuccessfull>
+    <account_permission>Derechos insuficientes</account_permission>
+    <license_evaluation>Licencia de evaluación</license_evaluation>
+    <license_reference_mismatch>Error contra el ID de referencia</license_reference_mismatch>
+    <license_revalidation>Error de revalidación de la licencia</license_revalidation>
+    <license_expired>Licencia expirada</license_expired>
+    <license_none>Sin licencia</license_none>
+    <license_build>Error contra versiónes de licencia</license_build>
+    <license_version>Error de versiónes de licencia</license_version>
+    <cert_some_domains_were_not_verified>Algunos dominios no fueron verificados</cert_some_domains_were_not_verified>
+    <cert_requesting_challenges_for_domain_verification>Error con la verificación de dominio</cert_requesting_challenges_for_domain_verification>
+    <cert_parsing_challenges_for_domain_verification>Error al analizar la verificación de dominio</cert_parsing_challenges_for_domain_verification>
+    <cert_triggering_challenges_challenges_for_domain_verification>Error al activar la verificación de dominio</cert_triggering_challenges_challenges_for_domain_verification>
+    <cert_registering_acme_account>Error al registrar la cuenta ACME</cert_registering_acme_account>
+    <cert_invalid_csr_detected>CSR no válida detectada</cert_invalid_csr_detected>
+    <cert_signing_certificate>Error al firmar el certificado</cert_signing_certificate>
+    <cert_letsEncrypt_rate_limits_applied>Let&apos;s Encrypt límites de velocidad aplicados</cert_letsEncrypt_rate_limits_applied>
+    <domain_delete_failed>El dominio no se pudo eliminar</domain_delete_failed>
+    <incorrect_filetype>El archivo proporcionado es de tipo incorrecto.</incorrect_filetype>
+    <password_expired>v</password_expired>
+    <rule_activate_unsuccessful>No se pudo activar la regla</rule_activate_unsuccessful>
+    <rule_deactivate_unsuccessful>No se pudo desactivar la regla</rule_deactivate_unsuccessful>
+    <unsupported_image_format>Formato de imagen no admitido</unsupported_image_format>
+    <rule_at_least_one_action_required>Se requiere al menos una acción</rule_at_least_one_action_required>
+  </error>
+  <warning>
+    <operation_may_take_long_time>Esta operación puede tardar bastante.</operation_may_take_long_time>
+    <delete_selected_members>¿Estás seguro de eliminar los miembros seleccionados? (%s)</delete_selected_members>
+    <delete_selected_items>¿Estás seguro de eliminar cuentas seleccionadas? (%s)</delete_selected_items>
+    <delete_selected_devices>¿Estás seguro de eliminar los dispositivos seleccionados? (%s)</delete_selected_devices>
+    <move_selected_accounts>¿Estás seguro de mover las cuentas seleccionadas (%s) al dominio %s?</move_selected_accounts>
+    <changes_found>¿Quieres guardar los cambios?</changes_found>
+    <identical_username>El nombre de usuario es idéntico a tu nombre de usuario. ¿Estás seguro de que deseas guardar este nombre de usuario?</identical_username>
+    <default_certificate_will_be_overwritten uses="server certificates">El certificado predeterminado se sobrescribirá</default_certificate_will_be_overwritten>
+    <delete_selected_certificates uses="server certificates">¿Desea eliminar los certificados seleccionados?</delete_selected_certificates>
+    <delete_selected_oauths>¿Quiere eliminar los clientes OAuth seleccionados?</delete_selected_oauths>
+    <set_to_default>¿Está seguro de establecer los valores predeterminados? Perderá la configuración actual</set_to_default>
+    <delete_domain>El dominio %s se eliminará</delete_domain>
+  </warning>
+  <message>
+    <device_soft_wipe_set>Soft Wipe establecido con éxito</device_soft_wipe_set>
+    <device_hard_wipe_set>Hard Wipe establecido con éxito</device_hard_wipe_set>
+    <device_set_wipe_failed>El comando Wipe ha fallado</device_set_wipe_failed>
+    <save_successfull>Ajustes guardados</save_successfull>
+    <reset_to_default>Los valores se han restablecido a los valores predeterminados.</reset_to_default>
+    <license_key_sent_successfuly>Clave de licencia enviada con éxito</license_key_sent_successfuly>
+    <device_blocked>Dispositivo bloqueado</device_blocked>
+    <device_allowed>Dispositivo permitido</device_allowed>
+    <rule_delete_successfull>La regla fue eliminada</rule_delete_successfull>
+    <rule_save_successfull>La regla se guardo</rule_save_successfull>
+    <item_saved_successfully>Artículo guardado con éxito</item_saved_successfully>
+    <items_deleted_successfully>Eliminar con éxito</items_deleted_successfully>
+    <items_delivered_successfully>Artículos entregados con éxito</items_delivered_successfully>
+    <certificate_saved uses="server certificates">Certificado guardado</certificate_saved>
+    <delete_successfull>El elemento fue eliminado</delete_successfull>
+    <domain_renamed>Dominio renombrado</domain_renamed>
+    <items_blacklisted_successfully>Artículos en la lista negra</items_blacklisted_successfully>
+    <items_whitelisted_successfully>Artículos incluidos en la lista blanca</items_whitelisted_successfully>
+    <rule_activate_successful>La regla ha sido activada</rule_activate_successful>
+    <rule_deactivate_successful>La regla ha sido desactivada</rule_deactivate_successful>
+  </message>
+  <description>
+    <device_soft_wipe>¿Estás seguro de Soft Wipe el dispositivo seleccionado?</device_soft_wipe>
+    <device_hard_wipe>¿Estás seguro de borrar el dispositivo seleccionado?</device_hard_wipe>
+  </description>
+  <iframe>
+    <something_went_wrong>algo salió mal</something_went_wrong>
+    <loading>Cargando</loading>
+    <reload>Volver a cargar</reload>
+    <reload_helper>Por favor recargue contenido</reload_helper>
+  </iframe>
+  <change_plan>
+    <title>Cambiar planes</title>
+  </change_plan>
+  <oauth>
+    <wizard>Asistente para proveedores de OAuth</wizard>
+    <wizard_edit>Editar proveedor de OAuth</wizard_edit>
+    <client_id>Identificación del cliente</client_id>
+    <name>Proveedor de OAuth</name>
+    <description>Descripción</description>
+    <redirect_uri>Redirigir URI</redirect_uri>
+    <auth_type>Tipo de autenticación</auth_type>
+    <auth_type_standard>Estándar</auth_type_standard>
+    <auth_type_mobile>Móvil</auth_type_mobile>
+    <auth_type_single_page>Única página</auth_type_single_page>
+    <secret>Secreto OAuth</secret>
+  </oauth>
+  <fulltext_search>
+    <title>Búsqueda de texto completo</title>
+    <configured>El motor de búsqueda de texto completo está &lt;b&gt;configurado&lt;/b&gt;</configured>
+    <not_configured>El motor de búsqueda de texto completo &lt;b&gt;no está configurado&lt;/b&gt; actualmente</not_configured>
+    <indexer>Escáner de búsqueda de texto completo</indexer>
+    <server>Base de datos de búsqueda de texto completo</server>
+    <docconv>Servicio de conversión de documentos</docconv>
+    <indexpath>Carpeta de almacenamiento de índice</indexpath>
+    <configure>Configurar la búsqueda de texto completo</configure>
+  </fulltext_search>
+  <fulltext_search_wizard>
+    <heading>Asistente de búsqueda de texto completo</heading>
+    <search>Búsqueda de texto completo</search>
+    <search_enable>Habilitar la búsqueda de texto completo en IceWarp</search_enable>
+    <search_helper1>IceWarp admite la búsqueda de texto completo que está disponible para los usuarios en la interfaz WebClient, en dispositivos móviles sincronizados a través de ActiveSync y en clientes de correo electrónico de escritorio que pueden buscar correos electrónicos a través del protocolo IMAP.</search_helper1>
+    <search_helper2>El motor de búsqueda de texto completo consta de tres componentes, cada uno de ellos puede ejecutarse localmente en el mismo sistema que IceWarp, o de forma remota, para descargar la CPU y la utilización del almacenamiento. Debe considerar cuidadosamente qué configuración será la mejor para su caso de uso. Los tres componentes son:</search_helper2>
+    <search_helper_component1>Escáneador de búsqueda de texto completo (yoda-scan)</search_helper_component1>
+    <search_helper_component2>Base de datos de búsqueda de texto completo (yoda)</search_helper_component2>
+    <search_helper_component3>Servicio de conversión de documentos (mundi)</search_helper_component3>
+    <scanner>Configuración del escáner de búsqueda de texto completo</scanner>
+    <scanner_helper>El servicio de escáner lee los datos del almacenamiento de correo electrónico, analiza el texto de los correos electrónicos y envía el texto a la base de datos de búsqueda de texto completo. El servicio de escáner necesita acceso (al menos con permiso de lectura) al almacenamiento de correo electrónico de IceWarp. Si el escáner está implementado en un servidor remoto, monte el almacenamiento de correo electrónico en el mismo punto de montaje que en el servidor IceWarp (%s).</scanner_helper>
+    <scanner_local>Ejecute el servicio Scanner localmente</scanner_local>
+    <scanner_local_helper>Puerto de servicio del escáner local</scanner_local_helper>
+    <scanner_remote>Conectarse al servicio de escáner remoto</scanner_remote>
+    <scanner_remote_helper>URL del servicio Remote Scanner</scanner_remote_helper>
+    <database>Configuración de la base de datos de búsqueda de texto completo</database>
+    <database_helper1>El servicio de base de datos mantiene su propia base de datos para metadatos de búsqueda de texto completo (índice). El índice se almacena directamente en el sistema de archivos y ocupará aproximadamente un 10-20% del tamaño original del almacenamiento de correo electrónico de IceWarp (el tamaño real varía según el tipo de datos). El servicio de base de datos funciona por sí solo y no necesita tener acceso al almacenamiento de correo electrónico.</database_helper1>
+    <database_helper2>Nota: Si va a cambiar la &lt;i&gt;carpeta de almacenamiento del índice&lt;/i&gt; local, también debe mover manualmente los datos del índice existente a la nueva ubicación (esta operación no se puede realizar automáticamente).</database_helper2>
+    <database_local>Ejecutar el servicio de base de datos localmente</database_local>
+    <database_local_helper>Puerto de servicio de base de datos local</database_local_helper>
+    <database_remote>Conectarse al servicio de base de datos remota</database_remote>
+    <database_remote_helper>URL del servicio de base de datos remota</database_remote_helper>
+    <index_storage_path>Carpeta de almacenamiento de índice</index_storage_path>
+    <docconv>Configuración del servicio de conversión de documentos</docconv>
+    <docconv_helper>El servicio de conversión de documentos es responsable de extraer texto de archivos adjuntos de correo electrónico y de documentos almacenados en ubicaciones WebClient o FileSync. IceWarp proporciona un servidor virtual preconfigurado con servicio de conversión de documentos que se puede implementar externamente desde el servidor donde se ejecuta IceWarp [recomendado]. El servicio de conversión de documentos también puede ejecutarse localmente en el mismo sistema IceWarp, sin embargo, en tal caso, es posible que no pueda convertir algunos tipos de documentos. El servicio de conversión de documentos funciona por sí solo y no necesita tener acceso al almacenamiento de correo electrónico.</docconv_helper>
+    <docconv_local>Ejecute el servicio de conversión de documentos localmente</docconv_local>
+    <docconv_local_helper>Puerto de servicio de conversión de documentos locales</docconv_local_helper>
+    <docconv_remote>Conéctese al servicio de conversión de documentos remotos</docconv_remote>
+    <docconv_remote_helper>URL del servicio de conversión de documentos remotos</docconv_remote_helper>
+    <docconv_disable>Deshabilitar el servicio de conversión de documentos</docconv_disable>
+    <summary>Resumen de configuración de búsqueda de texto completo</summary>
+    <summary_helper>Ahora ha terminado la configuración de los componentes del motor de búsqueda de texto completo. A continuación se muestra un resumen de su configuración actual.</summary_helper>
+    <runs_locally>%s se ejecuta localmente</runs_locally>
+    <runs_remotely>%s se ejecuta de forma remota</runs_remotely>
+    <is_disabled>%s está deshabilitado</is_disabled>
+  </fulltext_search_wizard>
+</language>

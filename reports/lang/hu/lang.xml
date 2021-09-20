@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="Címzett"/>
+  <ITEM id="attachments" value="Mellékletek"/>
+  <ITEM id="bytes" value="Byte"/>
+  <ITEM id="view_mail" value="Levél megtekintése"/>
+  <ITEM id="show_source" value="Forrás megtekintése"/>
+  <ITEM id="title" value="E-mail cím hitelesítés (Challenge Response)"/>
+  <ITEM id="request" value="Azért hogy e-mail címét hitelesíteni tudjuk, az alábbi ábrán található karakterkombinációt gépelje be a mezőbe, majd kattintson az OK gombra."/>
+  <ITEM id="result_ok" value="A megadott karakterkombináció helyes! Ezentúl Ön szabadon küldhet e-maileket hozzánk."/>
+  <ITEM id="result_error" value="A megadott karakterkombináció hibás. Próbálja újra!"/>
+  <ITEM id="result_already" value="E-mail címe már fehérlisán van!"/>
+  <ITEM id="result_black" value="E-mail címe már a feketelistán van."/>
+  <ITEM id="result_notfound" value="E-mail címe nem található. Valószínűleg már törlésre került. Küldjön újra egy e-mailt címünkre!"/>
+  <ITEM id="thanks" value="Köszönjük segítségét!"/>
+  <ITEM id="reason" value="Miért van erre szükség?"/>
+  <ITEM id="explanation" value="Az e-maileket kezelő rendszerünk csak azon leveleket kézbesíti amelyek feladója elvégzi ezt a hitelesítési folyamatot. Mivel a kéretlen reklámleveleket (spameket) generáló számítógépes rendszerek képtelenek az ilyen jellegű azonosításra, úgy azok nem kerülnek továbbításra, nem terhelik feleslegesen sem rendszerünket, sem munkatársainkat."/>
+  <ITEM id="thanks2" value="Köszönjük hogy Ön is részt vesz programunkban!"/>
+  <ITEM id="copyright" value="C"/>
+  <ITEM id="link" value="IceWarp Szerver"/>
+  <ITEM id="gateway_link_label" value="Karantén online kezelése"/>
+  <ITEM id="copyright2" value="Minden jog fenntartva."/>
+  <LIST>
+    <ITEM id="title" value="IceWarp Szerver: Spam jelentés"/>
+    <ITEM id="intro" value="Ez egy automatikusan létrehozott jelentés a Spam mappában található üzenetekről.&lt;br/&gt;FIGYELEM: Ez a lista feladónként csak egy levelet mutat. Fehérlistázás esetén természetesen a feladó összes levelét megkapja."/>
+    <ITEM id="outro" value="&lt;I&gt;Ez egy automatikus jelentés a spam mappában és a karanténban található e-mailekről.&lt;BR&gt;IceWarp Levelező és Kommunikációs Szerver&lt;/I&gt;"/>
+    <ITEM id="admin_action" value="Az összes fiók összes elemét"/>
+    <ITEM id="account_action" value="A fiók összes elemét"/>
+    <ITEM id="you_are_admin" value="Spam Adminisztrátor beállítások"/>
+    <ITEM id="sender" value="Feladó"/>
+    <ITEM id="subject" value="Tárgy"/>
+    <ITEM id="recipient" value="Címzett"/>
+    <ITEM id="date" value="Dátum"/>
+    <ITEM id="time" value="Idő"/>
+    <ITEM id="actions" value="Esemény"/>
+    <ITEM id="delete" value="Töröl"/>
+    <ITEM id="authorize" value="Fehérlistára"/>
+    <ITEM id="accept" value="Kézbesít"/>
+    <ITEM id="blacklist" value="Feketelistára"/>
+    <ITEM id="deleteall" value="törölje"/>
+    <ITEM id="authorizeall" value="fehérlistázza"/>
+    <ITEM id="acceptall" value="kézbesítse"/>
+    <ITEM id="blacklistall" value="feketelistázza"/>
+    <ITEM id="submit" value="Megerősítés"/>
+    <ITEM id="view" value="Mutat"/>
+    <ITEM id="msgsubject" value="Spam jelentés - %%Current_Date%%"/>
+    <ITEM id="domain" value="Domén"/>
+    <ITEM id="account" value="Fiók: "/>
+    <ITEM id="location" value="Mappa"/>
+    <ITEM id="type_quarantine" value="Karantén"/>
+    <ITEM id="type_spam" value="Spam"/>
+    <ITEM id="delivery_problem" value="A levelek nem kézbesíthetők a fiókba"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Feladó fehérlistázása"/>
+      <ITEM id="success" value="A feladó a fehérlistára került!"/>
+      <ITEM id="failure" value="A feladó fehérlistázása NEM sikerült!"/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Üzenet kézbesítése"/>
+      <ITEM id="success" value="Az üzenet kézbesítve!"/>
+      <ITEM id="failure" value="Az üzenet NEM kézbesíthető!"/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Üzenet törlése"/>
+      <ITEM id="success" value="Az üzenet törölve!"/>
+      <ITEM id="failure" value="Az üzenet NEM törölhető!"/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Feladó feketelistázása"/>
+      <ITEM id="success" value="A feladó a feketelistára került!"/>
+      <ITEM id="failure" value="A feladó feketelistázása NEM sikerült! (A feladó NEM utasítható vissza.)"/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Üzenet mutatása"/>
+      <ITEM id="failure" value="Az üzenet NEM nyitható meg! Ez akkor fordulhat elő, ha időközben az üzenetet már eltávolította."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Hiba"/>
+      <ITEM id="failure" value="A feladat NEM hajtahtó végre!"/>
+      <ITEM id="wrongid" value="Érvénytelen üzenet azonosító! Ez az üzenet valószínűleg már eltávolításra került."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Feladó fehérlistázása"/>
+      <ITEM id="success" value="A feladó a fehérlistára került, e-mailjei továbbítva!"/>
+      <ITEM id="failure" value="A feladó fehérlistázása NEM sikerült!"/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Üzenet kézbesítése"/>
+      <ITEM id="success" value="Az üzenet kézbesítve!"/>
+      <ITEM id="failure" value="Az üzenet NEM kézbesíthető!"/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Üzenet törlése"/>
+      <ITEM id="success" value="Az üzenet törölve!"/>
+      <ITEM id="failure" value="Az üzenet NEM törölhető!"/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Feladó feketelistázása"/>
+      <ITEM id="success" value="A feladó feketelistára került, e-mailjei törölve!"/>
+      <ITEM id="failure" value="A feladó feketelistázása NEM sikerült! (A feladó NEM utasítható vissza.)"/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Üzenet mutatása"/>
+      <ITEM id="failure" value="Az üzenet NEM nyitható meg! Ez akkor fordulhat elő, ha időközben az üzenetet már eltávolította."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Hiba"/>
+      <ITEM id="failure" value="A feladat NEM hajtható végre!"/>
+      <ITEM id="wrongid" value="Érvénytelen üzenet azonosító! Ez az üzenet valószínűleg már eltávolításra került."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Hiba"/>
+      <ITEM id="failure" value="A feladat NEM hajtható végre!"/>
+      <ITEM id="wrongid" value="Érvénytelen adminisztrátor azonosító! Ez az adminisztrátor valószínűleg már eltávolításra került."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Spam jelentés kikapcsolva: %s"/>
+    <ITEM id="challenge_already_running" value="Sapm jelentés már folyamatban van"/>
+    <ITEM id="challenge_invalid_path_variable" value="Spam jelentés során hiba jelentkezett: %s"/>
+    <ITEM id="api_findinitquery" value="Spam jelentések API: IceWarp fiók objektum lekérdezés: Domén: %s, Szűrő: %s"/>
+    <ITEM id="challenge_language_file_missing" value="A spam jelentéshez szükséges nyelvi fájl hiányzik: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="A spam jelentéshez szükséges nyelvi fájl hibás: %s"/>
+    <ITEM id="challenge_invalid_hash" value="A spam jelentés modulja hibás (elképzelhető hogy URL támadás áldozata lett): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

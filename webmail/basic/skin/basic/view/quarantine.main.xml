@@ -1,0 +1,42 @@
+
+
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<grid id="items" helper="item" template="quarantine.main">
+			<config>
+				<variable>items</variable>
+				<controller>item</controller>
+				<target>content</target>
+				<data>item.fdr</data>
+				<default>
+					<orderby>qdate DESC</orderby>
+				</default>
+				<fields>
+					<field label="Subject">sndsubject</field>
+					<field label="From">sndemail</field>
+					<field label="To">sndowner</field>
+					<field label="Date">qdate</field>
+					<field label="Domain">snddomain</field>
+				</fields>
+				<buttons>
+				</buttons>
+				<select>
+					<type>multiple</type>
+					<variable>items</variable>
+				</select>
+				<javascript>
+					<src>jquery</src>
+					<src>mail.main</src>
+					<src>general</src>
+				</javascript>
+				<stylesheet>
+					<src>mail.main</src>
+					<src>mail.grid</src>
+				</stylesheet>
+			</config>
+		</grid>
+	</panel>
+</form>

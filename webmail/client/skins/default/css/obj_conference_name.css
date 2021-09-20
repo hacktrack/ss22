@@ -1,0 +1,76 @@
+.obj_conference_name .cell>.input {
+	margin: 8px 0;
+	text-align: left;
+	padding: 0 0 0 16px;
+	position: relative;
+}
+.rtl .obj_conference_name .cell>.input {
+	padding: 0 16px 0 0;
+}
+.obj_conference_name .cell>.input form.obj_input input {
+	font-size: 15px;
+}
+
+.obj_conference_name .cell>.input>.obj_label {
+	position: absolute;
+	top: 7px;
+	right: 9px;
+	z-index: 1;
+	padding-left: 20px;
+	color: {bg_main #08C};
+}
+.rtl .obj_conference_name .cell>.input>.obj_label {
+	right: auto;
+	left: 9px;
+	padding-left: 0;
+	padding-right: 20px;
+}
+.obj_conference_name .cell>.input>.obj_label:before {
+	content: '\e936';
+	font-family: 'ico16';
+	font-size: 16px;
+	position: absolute;
+	left: 0;
+	top: -2px;
+}
+.rtl .obj_conference_name .cell>.input>.obj_label:before {
+	left: auto;
+	right: 0;
+}
+
+.obj_conference_name .cell>.input>.obj_label label {
+	cursor: pointer;
+}
+
+.obj_conference_name .cell>.input>.obj_button{
+	float: none;
+	padding-bottom: 12px;
+	text-indent: 5px;
+	display: inline-block;
+}
+
+.obj_conference_name .cell>.input:before {
+	position: absolute;
+	display: block;
+	left: 0;
+	font-size: 16px;
+	font-family: "ico16";
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	top: 15px;
+	content: '\e93a';
+	color: {bg_main #08C};
+}
+.rtl .obj_conference_name .cell>.input:before {
+	left: auto;
+	right: 0;
+}
+
+.obj_conference_name .cell>.input.password:before {
+	content: '\e936';
+}
+
+.obj_conference_name .hidden {
+	display: none;
+}

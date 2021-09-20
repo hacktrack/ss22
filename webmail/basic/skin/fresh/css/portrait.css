@@ -1,0 +1,52 @@
+#container{
+	padding: 68px 10px 10px 10px;
+}
+
+#gui div.left{
+	height: 58px;
+    overflow: hidden;
+    width: 100%;
+    
+	background-color: #F2F2F2; /* for non-css3 browsers */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F2F2F2), to(#E0E0E0)); /* for webkit browsers */
+	background-image: -moz-linear-gradient(top,  #F2F2F2,  #E0E0E0); /* for firefox 3.6+ */
+	background-image: -o-linear-gradient(top, #F2F2F2,  #E0E0E0); /* for opera 11.1+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F2F2F2', endColorstr='#E0E0E0'); /* for IE */
+	border-bottom: 1px solid #C2C2C2;
+}
+	#gui div.left select{
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		display: block;
+
+		height: 38px;
+		width: auto;
+
+		padding: 6px 3px 6px 30px;
+		
+		appearance: button;
+		-webkit-appearance: button;
+		-moz-appearance: none;
+		font-size: 16px;
+
+		background: url(../skin/fresh/images/blok.png) -232px -38px no-repeat,-webkit-gradient(linear, left top, left bottom, from(#E0E0E0), to(#C2C2C2)); /* for webkit browsers */
+		background: url(../skin/fresh/images/blok.png) -230px -40px no-repeat,-moz-linear-gradient(top,  #E0E0E0,  #C2C2C2) 0 0 no-repeat; /* for firefox 3.6+ */
+		background: url(../skin/fresh/images/blok.png) -230px -38px no-repeat,-o-linear-gradient(top,  #E0E0E0,  #C2C2C2);
+	}
+		#gui.settings div.left select{
+			background: url(../skin/fresh/images/blok.png) -306px -1px no-repeat,-webkit-gradient(linear, left top, left bottom, from(#E0E0E0), to(#C2C2C2)); /* for webkit browsers */
+			background: url(../skin/fresh/images/blok.png) -306px -2px no-repeat,-moz-linear-gradient(top,  #E0E0E0,  #C2C2C2) 0 0 no-repeat; /* for firefox 3.6+ */
+			background: url(../skin/fresh/images/blok.png) -306px -1px no-repeat,-o-linear-gradient(top,  #E0E0E0,  #C2C2C2);
+		}
+
+	#gui div.left div.middle,
+	#gui div.left div.bottom{
+		display: none;
+	}
+	#gui div.left div.top a{
+		width: 180px;
+		float: left;
+		margin-right: 10px;
+		white-space:nowrap;
+	}

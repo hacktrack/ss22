@@ -1,0 +1,15 @@
+<?php
+
+header('X-Frame-Options: SAMEORIGIN');
+
+require_once('signup.final.php');
+
+$signup = new Signup();
+
+// Login for PDA & no javascript
+$signup->noJSLogin();
+
+// Draw login
+echo $signup->draw();
+
+?>

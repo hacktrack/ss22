@@ -1,0 +1,98 @@
+<?php
+
+setcookie('use_cookies','1',mktime(0,0,0,1,1,2030),'/');
+
+define('SHAREDLIB_PATH',get_cfg_var('icewarp_sharedlib_path'));
+include_once SHAREDLIB_PATH.'api/account.php';
+include_once SHAREDLIB_PATH.'api/api.php';
+
+if($_SERVER['HTTP_AUTHORIZATION'])
+{
+	list($mech,$token)=explode(" ",$_SERVER['HTTP_AUTHORIZATION']);
+    
+	if($mech=="Negotiate")
+	{
+		$com = new IceWarpAccount();
+        $host = $_SERVER['HTTP_HOST'];
+        if (substr_count($host,':')) {$host=explode(':',$host); $host=$host[0];}
+        //echo "-- AuthenticateUserSSO($token,$host,'HTTP'); --";
+		$otoken=$com->AuthenticateUserSSO($token,$host,'HTTP');
+		if($otoken)
+		{
+            $otoken=explode('&',$otoken);
+            
+			$goto='../?sid=SID';
+			// vraz do hlavicky vystupni token - nebo bude delat negotiation pokazde znovu
+			header('WWW-Authenticate: Negotiate '.$otoken[0]);
+            $uerData=(array)$com;
+            
+            $to='pro';
+            if (isset($_REQUEST['to']))
+            {
+                if($_REQUEST['to']=='basic' || $_REQUEST['to']=='pda') {$to=$_REQUEST['to'];}
+            }
+            
+            $_POST['to']=$to;
+            $_POST['_c']="auth";
+            $_POST['_n']['w']="main";
+            $_POST['_n']['js']="1";
+            $_POST['ctz']="60";
+            $_POST['_n']['p']['main']='win.login';
+            $_POST['_a']['login']="1";
+            $_POST['disable_ip_check']="1";
+            $_POST['referer']="../";
+            $user=$com->GetProperty('u_login');
+            $_POST['iw_username']=$user;
+            $_POST['password']=base64_decode($otoken[1]);
+            
+            /***/
+            if ($_POST['to']=='pro') {$goto='basic';}
+        	else
+        	{
+        		/*decide, which interface go to, if no action was selected (no JS available)*/
+        		if ($_POST['to']=='basic' || $_POST['to']=='pda') {$goto=$_POST['to'];} else {$goto='pda'; }
+        		/*if PDA, set _n p main to PDA value, to log in correctly*/
+        		if ($goto=='pda'){$_POST['_n']['p']['main']='grid.mail';}
+        		/*if BASIC, set _n p main to BASIC value, to log in correctly*/
+        		if ($goto=='basic'){$_POST['_n']['p']['main']='win.main.tree';}
+        	}
+			ini_set('session.name','PHPSESSID_LOGIN');
+        	session_start();
+            
+        	if(!$_COOKIE['use_cookies']){
+        		$suffix='&PHPSESSID_LOGIN='.session_id();
+        	}else{
+        		$suffix = '';
+        	}
+            
+        	$_SESSION['_unilogin']=$_POST;
+        	
+        	header("HTTP/1.0 302 Moved Temporarely");
+        	header("Location: ../".$goto."/index.html?l".$suffix);
+            
+        	die();
+            /***/
+		}
+		else
+		{
+			header("Location: ../?eid=sso_error");
+			die('Error when trying to use SSO Login');
+		}
+	}
+	else
+	{
+		header("Location: ../?eid=sso_unable_to_use");
+        die('Unable to use SSO Login');
+	}
+   
+}
+else
+{
+	header("WWW-Authenticate: Negotiate");
+	header("HTTP/1.1 401 Authorization Required");
+    echo '<html><head><meta http-equiv="refresh" content="0; url=../?eid=sso_login_not_allowed"></head></html>';
+}
+
+
+
+?>

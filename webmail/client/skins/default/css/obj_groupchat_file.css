@@ -1,0 +1,216 @@
+/*	.obj_groupchat_file .body{
+		min-width: 400px!important;
+	}
+	.obj_groupchat_file .body form.obj_label.link{
+		padding: 0;
+	}
+*/
+	.obj_groupchat_file .body .fname{
+		color: {txt_main '#0088CC'};
+		cursor: pointer;
+		font-weight: 500;
+	}
+
+	.obj_groupchat_file .body .frmtbl th{
+		color: #888;
+		padding: 0!important;
+		font-weight: normal!important;
+	}
+	body.light .obj_groupchat_file .body .frmtbl th{
+		font-weight: 200!important;
+	}
+
+	.obj_groupchat_file .body article{
+		margin: 0;
+		white-space: pre-wrap;
+	}
+
+	/* PREVIEW */
+		.obj_groupchat_file .preview.convert:before{
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+
+			margin: -24px 0 0 -24px;
+			font-family: 'ico24';
+			font-size: 48px;
+			line-height: 48px;
+			width: 48px;
+			height: 48px;
+
+			content: '\e012';
+			-webkit-animation: rotate 1.4s infinite linear;
+			-webkit-animation-play-state: running;
+			animation: rotate 1.4s infinite linear;
+
+			color: {txt_main '#0088CC'};
+		}
+
+		.obj_groupchat_file .preview:after{
+			display: none;
+		}
+
+		.obj_groupchat_file .preview.ico{
+			width: 100px!important;
+			min-width: 100px!important;
+			color: {txt_main '#0088CC'};
+		}
+		.obj_groupchat_file .preview.ico:after{
+			display: block;
+			font-family: 'filetypes';
+			font-size: 48px;
+
+			position: relative;
+			top: -24px;
+			margin-top: 50%;
+		}
+
+		.obj_groupchat_file[evnclass=Z] .preview.ico:before{
+			display: block;
+			position: absolute;
+			font-family: 'ico16';
+			font-size: 24px;
+			content: "\e01";
+			right: 0;
+			color: #9b9b9b;
+		}
+
+		.obj_groupchat_file .preview:not(.ico):not(.convert):hover:after{
+			position: absolute;
+			display: inline !important;
+
+			font-family: 'ico24';
+			content: "\e059" !important;
+
+			left: 50%;
+			top: 50%;
+
+			font-size: 48px;
+			line-height: 48px;
+			margin: -24px 0 0 -24px;
+
+			color: #FFF;
+			text-shadow: 0 0 5px rgba(0,0,0,0.4);
+		}
+
+		/* colors */
+		.obj_groupchat_file .preview.ico_xls,
+		.obj_groupchat_file .preview.ico_xlsx{
+			color: #227346;
+		}
+		.obj_groupchat_file .preview.ico_doc,
+		.obj_groupchat_file .preview.ico_docx{
+			color: #2A579A;
+		}
+		.obj_groupchat_file .preview.ico_ppt,
+		.obj_groupchat_file .preview.ico_pptx{
+			color: #B54628;
+		}
+
+		.obj_groupchat_file .preview.ico_pdf{
+			color: #EA1C0F;
+		}
+		.obj_groupchat_file .preview.ico_html{
+			color: #F16529;
+		}
+		.obj_groupchat_file .preview.ico_swf{
+			color: #A42222;
+		}
+		.obj_groupchat_file .preview.ico_php{
+			color: #6B7EB9;
+		}
+
+	/* SHARE */
+	.obj_groupchat_file .body>.share{
+		display: none;
+
+		position: absolute;
+		width: 100%;
+		background-color: inherit;
+		border-radius: 7px;
+	}
+	.obj_groupchat_file.share .body>.share{
+		display: block;
+	}
+	.obj_groupchat_file.share .message>.border:after{
+		display: none;
+	}
+
+	.obj_groupchat_file.share .addon>.body>.cell{
+		visibility: hidden;
+	}
+
+	.obj_groupchat_file .body>.share>.block{
+		width: 50%;
+		float: left;
+		padding: 15px 25px 35px;
+	}
+	.obj_groupchat_file .body>.share:after{
+		content:"";
+		display: block;
+		float: none;
+		clear: both;
+	}
+	.obj_groupchat_file .body>.share>.close{
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		width: 20px;
+		height: 20px;
+
+		font-size: 16px;
+		line-height: 20px;
+		text-indent: 2px;
+		cursor: pointer;
+	}
+	.obj_groupchat_file .body>.share>.close:before{
+		font-family: "ico16";
+		content: "\e036";
+	}
+
+	.obj_groupchat_file .body>.share h4{
+		margin: 0;
+		font-weight: 500;
+	}
+
+	.obj_groupchat_file .body>.share form.obj_button{
+		border-radius: 0 2px 2px 0;
+		display: block;
+		float: left;
+	}
+	.obj_groupchat_file .body>.share .block.email form.obj_input{
+		border-radius: 2px 0 0 2px;
+		border-right-width: 0;
+	}
+
+	.obj_groupchat_file .body>.share div.or{
+		position: absolute;
+		left: 50%;
+		margin-left: -20px;
+		width: 40px;
+
+		top: 20px;
+		bottom: 18px;
+
+		background-color: inherit;
+		text-align: center;
+		padding-top: 21px;
+	}
+	.obj_groupchat_file .body>.share div.or>span{
+		position: relative;
+		z-index: 10;
+		background-color: inherit;
+		padding: 5px 0;
+		color: #888;
+	}
+
+	.obj_groupchat_file .body>.share div.or:after{
+		content: '';
+		position: absolute;
+		left: 20px;
+		top: 0;
+		height: 100%;
+		width: 1px;
+		background-color: #EDEDED;
+	}

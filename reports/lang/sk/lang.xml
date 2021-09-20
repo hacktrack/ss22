@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="Do"/>
+  <ITEM id="attachments" value="Prílohy"/>
+  <ITEM id="bytes" value="Bajty"/>
+  <ITEM id="view_mail" value="Zobraz email"/>
+  <ITEM id="show_source" value="Zobraziť zdroj"/>
+  <ITEM id="title" value="Požadovaná reakcia pre doručené správy"/>
+  <ITEM id="request" value="Pre doručenie správy je nutné overiť, či bola odoslaná človekom. Do poľa nižšie vložte prosím text, ktorý je uvedený v obrázku. Pre každú e-mailovú adresu je táto akcia požadovaná iba raz."/>
+  <ITEM id="result_ok" value="Vami zadané slovo je správne. Vaša e-mailová adresa bola autorizovaná."/>
+  <ITEM id="result_error" value="Vami zadané slovo je nespráve. Skúste to prosím ešte raz."/>
+  <ITEM id="result_already" value="Vaša e-mailová adresa už bola autorizovaná."/>
+  <ITEM id="result_black" value="Vaša e-mailová adresa je vedená v zozname nevyžiadaných."/>
+  <ITEM id="result_notfound" value="E-mailová adresa nebola nájdená. Pravdepodobne došlo k jej vymazaniu. Prosím vložte svoj e-mail ešte raz."/>
+  <ITEM id="thanks" value="Ďakujeme za Vašu spoluprácu!"/>
+  <ITEM id="reason" value="Prečo toto robím?"/>
+  <ITEM id="explanation" value="Automaticky generované správy nemôžu byť potvrdené vyššie uvedeným spôsobom. Pomocou tejto funkcie umožníte doručovanie správ od reálnych používateľov. Automaticky generované správy nebudú doručované."/>
+  <ITEM id="thanks2" value="Ďakujeme za Vašu pomoc v boji s nevyžiadanou poštou!"/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="IceWarp Software"/>
+  <ITEM id="gateway_link_label" value="Správa Vašej karantény / spamu online"/>
+  <ITEM id="copyright2" value="Všetky práva vyhradené."/>
+  <LIST>
+    <ITEM id="title" value="IceWarp Spam hlásenie"/>
+    <ITEM id="intro" value="Toto je automatické upozornenie na existenciu správ v priečinku Spam alebo v karanténe. Vyberte prosím vhodnú akciu kliknutím na tlačidlá hneď vedľa hlavičky správy."/>
+    <ITEM id="outro"/>
+    <ITEM id="admin_action" value="Zvoľte prosím akciu pre všetky položky vo všetkých účtoch."/>
+    <ITEM id="account_action" value="Zvoľte akciu pre všetky položky v účte."/>
+    <ITEM id="you_are_admin" value="Možnosti Spam správcu"/>
+    <ITEM id="sender" value="Od"/>
+    <ITEM id="subject" value="Predmet"/>
+    <ITEM id="recipient" value="Komu"/>
+    <ITEM id="date" value="Dátum"/>
+    <ITEM id="time" value="Čas"/>
+    <ITEM id="actions" value="Akcie"/>
+    <ITEM id="delete" value="Zmazať"/>
+    <ITEM id="authorize" value="Vyžiadané"/>
+    <ITEM id="accept" value="Doručiť"/>
+    <ITEM id="blacklist" value="Nevyžiadané"/>
+    <ITEM id="deleteall" value="Zmazať"/>
+    <ITEM id="authorizeall" value="Vyžiadané"/>
+    <ITEM id="acceptall" value="Doručiť"/>
+    <ITEM id="blacklistall" value="Nevyžiadané"/>
+    <ITEM id="submit" value="Odoslať"/>
+    <ITEM id="view" value="Zobraziť správu"/>
+    <ITEM id="msgsubject" value="Spam hlásenie"/>
+    <ITEM id="domain" value="Doména"/>
+    <ITEM id="account" value="Účet"/>
+    <ITEM id="location" value="Miesto"/>
+    <ITEM id="type_quarantine" value="Karanténa"/>
+    <ITEM id="type_spam" value="Zložka Spam"/>
+    <ITEM id="delivery_problem" value="Nebolo možné doručiť správu do účtu"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autorizácia odosielateľa"/>
+      <ITEM id="success" value="Odosielateľ bol autorizovaný"/>
+      <ITEM id="failure" value="Odosielateľ nemôže byť autorizovaný"/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Doručenie správy"/>
+      <ITEM id="success" value="Správa bola doručená"/>
+      <ITEM id="failure" value="Správa nemôže byť doručená."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Zmazanie správy."/>
+      <ITEM id="success" value="Správa bola vymazaná a vybratá z fronty."/>
+      <ITEM id="failure" value="Správa nemôže byť vymazaná."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Odmietnutie odosielateľa"/>
+      <ITEM id="success" value="Odosielateľ bol pridaný do zoznamu nevyžiadaných."/>
+      <ITEM id="failure" value="Odosielateľ nemôže byť pridaný do zoznamu nevyžiadaných."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Zobrazenie správy"/>
+      <ITEM id="failure" value="Správa nemôže byť zobrazená. Možno už bola vybratá z karantény."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Chyba"/>
+      <ITEM id="failure" value="Žiadna operácia nemôže byť vykonaná."/>
+      <ITEM id="wrongid" value="Nesprávne ID správy. Správa už pravdepodobne bola vybratá z karantény."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autorizácia odosielateľa"/>
+      <ITEM id="success" value="Odosielateľ bol autorizovaný a správa bola doručená."/>
+      <ITEM id="failure" value="Autorizácia odosielateľa nemohla byť vykonaná. Nedošlo k doručeniu správy."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Doručenie správy"/>
+      <ITEM id="success" value="Správa bola doručená."/>
+      <ITEM id="failure" value="Správa nemohla byť doručená."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Zmazanie správy"/>
+      <ITEM id="success" value="Správa bola vymazaná zo zložky spam."/>
+      <ITEM id="failure" value="Správa nemohla byť doručená."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Odmietnutie odosielateľa."/>
+      <ITEM id="success" value="Odosielateľ bol pridaný do zoznamu nevyžiadaných používateľov a správa bola odstránená zo zložky Spam."/>
+      <ITEM id="failure" value="Odosielateľ nemohol byť pridaný do zoznamu nevyžiadaných alebo správa nemohla byť zmazaná."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Zobrazenie správy"/>
+      <ITEM id="failure" value="Správa nemôže byť zobrazená. Pravdepodobne už bola zmazaná."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Chyba"/>
+      <ITEM id="failure" value="Nie je možné vykonať požadovanú operáciu."/>
+      <ITEM id="wrongid" value="Nesprávne ID správy. Táto správa už pravdepodobne bola odstránená z karantény (alebo zložky Spam)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Chyba"/>
+      <ITEM id="failure" value="Nie je možné vykonať požadovanú operáciu."/>
+      <ITEM id="wrongid" value="Nesprávne ID administrátora. Tento administrátor bol pravdepodobne odstránený zo systému."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Spam správy sú zakázané"/>
+    <ITEM id="challenge_already_running" value="Spam reporty sú už spustené"/>
+    <ITEM id="challenge_invalid_path_variable" value="Spam report cesta nenačíta správne_:"/>
+    <ITEM id="api_findinitquery" value="Spam reporty: API IceWarp účet objektu vyhľadávania. Domény: %s, Filter: %s"/>
+    <ITEM id="challenge_language_file_missing" value="Spam reporty jazyk súboru chýba: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Spam reporty jazyk súboru poškodený: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Spam reporty špatný hash (možný URL útok): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

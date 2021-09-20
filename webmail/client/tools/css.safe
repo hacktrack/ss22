@@ -1,0 +1,124 @@
+<?php
+require_once('cssbuilder.class.safe');
+require_once('cssbuilder.files.safe');
+
+function logIt($text,$warning=false){
+	error_log($text);
+	echo '/* '.htmlspecialchars($text).' */';
+	if(!$warning){
+		throw new Exception('[cssbuilder] '.htmlspecialchars($text));
+	}else{
+		trigger_error(htmlspecialchars($text), E_USER_WARNING);
+	}
+}
+
+function pathSafe($text){
+	return str_replace(array('../',"\0","\r"."\n"),array('','','',''),$text);
+}
+
+function buildcss($theSkin,$theFile,$thePalette,$skins_path,$out=false){
+	$theSkin=validateSkin($theSkin);
+	$theFile=validateFile($theFile);
+	$thePalette=rawurlencode(htmlspecialchars(pathSafe($thePalette)));
+//	die($skins_path.$theSkin.'/css/'.$theFile);
+	$desiredFile=$skins_path.$theSkin.'/css/'.$theFile;
+	$templatePath=realpath($skins_path.$theSkin.'/css/'.$theFile);
+	$xml_default=realpath($skins_path.'default/skin.xml');
+	if($theSkin!='default'){
+		$xml_skin=realpath($skins_path.$theSkin.'/skin.xml');
+	}else{
+		$xml_skin=false;
+	}
+	if(!$templatePath && $theSkin!='default'){ // If requested file is not found in requested skin, try it in default skin
+		$templatePath=realpath($skins_path.'default/css/'.$theFile);
+		$theSkin='default';
+	}
+	
+	if($templatePath){
+		if(!$xml_default){
+			if(!$out){
+				header("Content-type: text/css; charset=UTF-8", true);
+				echo file_get_contents($templatePath);
+				die();
+			}else{
+				return file_get_contents($templatePath);
+			}
+		}
+		$oXML_default=simplexml_load_string(file_get_contents($xml_default));
+		if($xml_skin){
+			$oXML_skin=simplexml_load_string(file_get_contents($xml_skin));
+		}
+		
+		if(isset($oXML_default->colors)){
+			$oBuilder=new cssbuilder(array(
+				'template_path'=>realpath($skins_path.$theSkin.'/css/'),
+			));
+			
+			if(!isset($oXML_default->colors[0]->$thePalette)){
+				logIt('Palette "'.$thePalette.'" undefined in skin "'.$theSkin.'"',true);
+				$thePalette='default';
+			}
+			
+			if(isset($oXML_default->colors[0]->$thePalette)){
+				$palette=$oXML_default->colors[0]->$thePalette;
+				$palette=$palette[0];
+				$oBuilder->assignVarsFromXML($palette);
+				
+				if(isset($oXML_skin->colors[0]->$thePalette)){
+					$palette=$oXML_skin->colors[0]->$thePalette;
+					$palette=$palette[0];
+					$oBuilder->assignVarsFromXML($palette);
+				}
+			}else{
+				logIt('Palette "'.$thePalette.'" undefined in skin "default"');
+			}
+
+			$template=$oBuilder->getTemplate($theFile);
+			if(!$out){
+				// enable cache
+				header('Last-Modified: ' . substr(gmdate('r', filemtime($theFile)), 0, -5) . 'GMT', true);
+				header('Expires: ' . substr(gmdate('r', time() + 86400), 0, -5) . 'GMT', true);
+				header('Cache-Control: max-age=86400, public', true); // 86400 = one day
+				header('Content-type: text/css; charset=UTF-8', true);
+				echo $template;
+				die();
+			}else{
+				return $template;
+			}
+		}
+		else
+		{
+			logIt('Colors not defined in default XML');
+		}
+	}
+	else
+	{
+		logIt("Requested file does not exist (".$theFile.") in skin (".$theSkin.")");
+	}
+}
+
+if(!isset($out)){
+	if(!(
+		isset($_REQUEST['skin']) &&
+		isset($_REQUEST['file']) &&
+		isset($_REQUEST['palette'])
+	)){
+		if($out){
+			logIt('Bad request');
+		}
+		header("HTTP/1.0 400 Bad Request");
+		die('Bad Request');
+	}
+	
+	$theSkin=$_REQUEST['skin'];
+	$theFile=$_REQUEST['file'];
+	$thePalette=$_REQUEST['palette'];
+	
+	if(!defined('SKINS_PATH')){
+		define('SKINS_PATH','../skins/');
+	}
+	
+	buildcss($theSkin,$theFile,$thePalette,SKINS_PATH);
+}
+
+?>

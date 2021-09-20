@@ -1,0 +1,1 @@
+<tr><td><label for="{property::id}">{property::label}</label></td><td><input id="{property::id}" type="password" name="{property::name}" value="{htmlspecialchars property::value}" {optional property::css}class="{property::css}"{/optional}{optional property::events}{dynamic property::events} {*::name}="{*::value}"{/dynamic}{/optional} /></td></tr>

@@ -1,0 +1,160 @@
+.obj_hmenu_toolbar ul.root{
+	text-align: center;
+}
+
+.obj_hmenu_toolbar ul.root li{
+	padding: 0px 22px;
+	transition: padding 200ms;
+}
+.obj_hmenu_toolbar ul.root li.short{
+	display: none;
+}
+
+@media (max-width: 1000px) {
+	.obj_hmenu_toolbar ul.root li{
+		padding: 0 10px;
+	}
+	.obj_hmenu_toolbar ul.root li.shorten{
+		display: none;
+	}
+	.obj_hmenu_toolbar ul.root li.short{
+		display: inline-block;
+	}
+}
+/* Icons */
+.obj_hmenu_toolbar li.ico2.new a>span:before{
+	content: '\e92f';
+}
+.obj_hmenu_toolbar li.ico2.new_template a>span:before{
+	content: '\e92e';
+}
+
+.obj_hmenu_toolbar li.ico2.add_calendar a>span:before{
+	content: '\e92b';
+}
+
+.obj_hmenu_toolbar li.ico2.add_folder a>span:before{
+	content: '\e92d';
+}
+.obj_hmenu_toolbar li.ico2.fav_folder a>span:before{
+	content: '\e982';
+}
+.obj_hmenu_toolbar li.ico2.teamchat a>span:before{
+	content: '\e964';
+}
+.obj_hmenu_toolbar li.ico2.empty_folder a>span:before{
+	content: '\e94e';
+}
+.obj_hmenu_toolbar li.ico2.share_folder a>span:before{
+	content: '\e97d';
+}
+.obj_hmenu_toolbar li.ico2.share_account a>span:before{
+	content: '\e961';
+}
+
+.obj_hmenu_toolbar li.ico2.share_folder.button>a,
+.obj_hmenu_toolbar li.ico2.share_account.button>a{
+	background-color: {bg_main #0088CC};
+}
+
+/*
+.obj_hmenu_toolbar li.ico2.more a>span:before{
+	content: '\e953';
+}
+ .obj_hmenu_toolbar li.ico2.print a>span:before{
+	content: '\e955';
+}
+*/
+	.obj_hmenu_toolbar_plus li.ico2.print_calendar>a>span:after{
+		content: '\e05';
+	}
+	.obj_hmenu_toolbar_plus li.ico2.print_list>a>span:after{
+		content: '\e965';
+	}
+
+.obj_hmenu_toolbar li.ico2.doc a>span:before{
+	content: '\e12';
+	color: #1a579f;
+}
+
+.obj_hmenu_toolbar li.ico2.add_doc a>span:before{
+	content: '\e97f';
+}
+
+.obj_hmenu_toolbar li.ico2.xls a>span:before{
+	content: '\e16';
+	color: #007541;
+}
+.obj_hmenu_toolbar li.ico2.ppt a>span:before{
+	content: '\e19';
+	color: #b44628;
+}
+.obj_hmenu_toolbar li.ico2.upload a>span:before{
+	content: '\e93e';
+}
+.obj_hmenu_toolbar li.ico2.open a>span:before{
+	content: '\e938';
+}
+.obj_hmenu_toolbar li.ico2.download a>span:before{
+	content: '\e07f';
+}
+.obj_hmenu_toolbar li.ico2.invite a>span:before{
+	content: '\e942';
+}
+.obj_hmenu_toolbar li.ico2.whitelist a>span:before{
+	content: '\e968';
+}
+.obj_hmenu_toolbar li.ico2.blacklist a>span:before{
+	content: '\e946';
+}
+.obj_hmenu_toolbar li.ico2.deliver a>span:before,
+.obj_hmenu_toolbar li.ico2.forward a>span:before{
+	content: '\e969';
+}
+/* .obj_hmenu_toolbar li.ico2.delete a>span:before{
+	content: '\e94a';
+} */
+
+.obj_hmenu_toolbar li.ico2.recover a>span:before{
+	content: '\e929';
+}
+.obj_hmenu_toolbar li.ico2.empty a>span:before{
+	content: '\e94e';
+}
+.obj_hmenu_toolbar li.ico2.send a>span:before{
+	content: '\e91c';
+}
+
+.obj_hmenu_toolbar li.ico2.move a>span:before{
+	content: '\e954';
+}
+.obj_hmenu_toolbar li.ico2.copy a>span:before{
+	content: '\e948';
+}
+.obj_hmenu_toolbar li.ico2.dial a>span:before{
+	content: '\e032';
+}
+.obj_hmenu_toolbar li.ico2.accept a>span:before{
+	content: '\e925';
+}
+.obj_hmenu_toolbar li.ico2.decline a>span:before{
+	content: '\e92a';
+}
+.obj_hmenu_toolbar li.ico2.reply a>span:before{
+	content: '\e95b';
+}
+.obj_hmenu_toolbar li.ico2.reply_all a>span:before{
+	content: '\e95c';
+}
+.obj_hmenu_toolbar li.ico2.markread a>span:before{
+	content: '\e952';
+}
+.obj_hmenu_toolbar li.ico2.markunread a>span:before{
+	content: '\e967';
+}
+.obj_hmenu_toolbar li.ico2.edit a>span:before{
+	content: '\e935';
+}
+.obj_hmenu_toolbar li.ico2.from_template a>span:before{
+	content: '\e905';
+}

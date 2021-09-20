@@ -1,0 +1,88 @@
+.obj_upload_info{
+	position: relative;
+	line-height: 28px;
+	height: 28px;
+	width: 100%;
+	background-color: #fffffF;
+}
+
+.obj_upload_info.bottom{
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #dfdcda;
+
+	/*
+	transform: translateY(28px);
+	*/
+}
+
+.obj_upload_info>.info{
+	white-space: nowrap;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 220px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.rtl .obj_upload_info>.info {
+	left: 220px;
+	right: 0;
+}
+
+.obj_upload_info>.info>.label{
+	padding-left: 10px;
+	padding-right: 3px;
+	line-height: 26px;
+}
+
+.rtl .obj_upload_info>.info>.label{
+	padding-left: 3px;
+	padding-right: 10px;
+}
+
+.obj_upload_info>.info>.name,
+.obj_upload_info>.size{
+	font-weight: 500;
+}
+
+.obj_upload_info>.size{
+	position: absolute;
+	right: 30px;
+	top: 0;
+}
+.rtl .obj_upload_info>.size {
+	right: auto;
+	left: 30px;
+	width: 190px;
+}
+
+.obj_upload_info>.close{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+}
+	.obj_upload_info>.close:after{
+		content: '\e036';
+		width: 16px;
+		height: 16px;
+		font-family: ico16;
+		color: #ff453b;
+	}
+
+.rtl .obj_upload_info>.close {
+	right: auto;
+	left: 0;
+}
+
+/* progress bar */
+.obj_upload_info div.obj_progress{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}

@@ -1,0 +1,43 @@
+// Pulse
+%pulse {
+	position: relative;
+
+	&::after {
+		@include animation('pulse', 6s, $count: infinite);
+		pointer-events: none;
+		content: '';
+		display: block;
+		position: absolute;
+		z-index: 1;
+		top: 40%;
+		left: 20%;
+		width: 1px;
+		height: 1px;
+		background-color: $white !important;
+	}
+}
+
+@mixin backgrounds($selector: null, $pulse: null, $subdir: null) {
+
+	// Create path to images
+	$path: '../' + map-get($settings, login-background-path);
+	$prefix: 'background--';
+
+	@each $image in $login-backgrounds {
+		$theme: default;
+
+		// Get index of image and start it with 0
+		$index: index($login-backgrounds, $image) - 1;
+
+		$subdir_suffix: if($subdir,$subdir+'/','');
+
+		&[iw-background="#{$theme + '_' + $index}"] #{$selector} {
+			background-image: url('#{$path + $subdir_suffix + $prefix + $image}.jpg');
+
+			// Easter egg
+			@if $pulse and $image == 'krivan' {
+				@extend %pulse;
+			}
+		}
+	}
+}

@@ -1,0 +1,345 @@
+<?php
+	error_reporting(E_ALL ^E_WARNING ^E_NOTICE);
+	include_once 'xml.php';
+
+	define('SHAREDLIB_PATH', get_cfg_var('icewarp_sharedlib_path'));
+	include(SHAREDLIB_PATH . 'api/api.php');
+	include(SHAREDLIB_PATH . 'api/account.php');
+
+	function add_protocol(&$account_xml, $protocol, $serverid, $loginname, $array=NULL)
+	{
+		// Add protocol
+		$server=&$account_xml->new_child('Protocol',NULL);
+
+		// Add tags
+		$server->new_child_data('Type',NULL,$protocol);
+		$server->new_child_data('Server',NULL,$serverid);
+		$server->new_child_data('LoginName',NULL,$loginname);
+
+		// Array keys
+		if (is_array($array)) 
+			foreach ($array as $key => $value)
+				$server->new_child_data($key,NULL,$value);
+
+		return $server;
+	}
+
+	function handle_autodiscover($request,&$response)
+	{
+		global $api;
+		global $account;
+
+		$api=new IceWarpAPI();
+		$account=new IceWarpAccount();
+
+		$authorized=false;
+		if (isset($_SERVER['HTTP_AUTHORIZATION']))
+		{
+			if (strncasecmp($_SERVER['HTTP_AUTHORIZATION'], "Negotiate ", 10) == 0)
+			{
+				list($mech,$token)=explode(" ",$_SERVER['HTTP_AUTHORIZATION']);
+
+				$host=$_SERVER['HTTP_HOST'];
+				if (substr_count($host,':'))
+				{
+					$host=explode(':',$host);
+					$host=$host[0];
+				}
+
+				$otoken=$account->AuthenticateUserSSO($token,$host,'HTTP');
+				if($otoken)
+				{
+					$otoken=explode('&',$otoken);
+					if ($otoken[0])
+					{
+						header('WWW-Authenticate: Negotiate ' . $otoken[0]);
+						$email=$account->EmailAddress;
+						$authorized=true;
+					}
+				}
+			}
+			else
+			{
+				// Email
+				if ($request)
+					$email=$request->get_data('Request/EMailAddress');
+				else
+					$email=$_SERVER['PHP_AUTH_USER'];
+
+				if ($account->AuthenticateUserHash($email,$_SERVER['PHP_AUTH_PW'],$_SERVER['SERVER_NAME'],'',true))
+					$authorized=true;
+			}
+		}
+
+		if (!$authorized)
+		{
+			// Email
+			if ($request)
+				$email=$request->get_data('Request/EMailAddress');
+			else
+				$email=$_SERVER['PHP_AUTH_USER'];
+
+			$sso_enabled=false;
+			if ($email)
+			{
+				$pos=strpos($email,'@');
+				if ($pos)
+				{
+					$domain_name=substr($email,$pos+1);
+					if ($domain_name)
+					{
+						$domain=$api->OpenDomain($domain_name);
+						if ($domain)
+							$sso_enabled=($domain->GetProperty('D_ADSyncSSOEnabled')?true:false);
+					}
+				}
+			}
+			else
+			{
+				$domainNameList = explode(';', $api->GetDomainList());
+
+				foreach($domainNameList as $domainName)
+				{
+					$domain = $api->OpenDomain($domainName);
+					if ($domain) {
+						$sso_enabled = $domain->GetProperty('D_ADSyncSSOEnabled');
+					}
+
+					if ($sso_enabled)
+					{
+						break;
+					}
+				}
+			}
+
+			header('HTTP/1.1 401 Unauthorized');
+
+			if ($sso_enabled)
+				header("WWW-Authenticate: Negotiate", false);
+
+			header('WWW-Authenticate: Basic realm="Autodiscover"', false);
+			exit;
+		}
+
+		header('HTTP/1.1 200 OK');
+
+		// Get username
+		if ($api->GetProperty('C_Accounts_Policies_Login_LoginSettings'))
+			$username=$account->EmailAddress;
+		else
+			$username=$account->GetProperty('U_Mailbox');
+
+		// Name
+		$name=$account->GetProperty('U_Name');
+
+		// Request scheme
+		if ($request)
+			$schema=$request->get_data('Request/AcceptableResponseSchema');
+		else
+			$schema='http://schemas.microsoft.com/exchange/autodiscover/mobilesync/responseschema/2006';
+
+		// Scheme type
+		$is_license=$schema=='http://icewarp.com/ns/license' || $_REQUEST['is_license'];
+		$is_outlook=$schema=='http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a' || $_REQUEST['is_outlook'];
+
+		// Create response
+		$response=new xml_tree_node('Autodiscover',array('xmlns'=>'http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006'));
+		$response_tag=&$response->new_child('Response',array('xmlns'=>$schema));
+		$response_tag->new_child_data('Culture', NULL, 'en:en');
+
+		$user=&$response_tag->new_child('User',NULL);
+		if ($name) 
+			$user->new_child_data('DisplayName', NULL, htmlspecialchars($name));
+
+		$user->new_child_data('EMailAddress',NULL,$email);
+
+		// Create proper nodes
+		if (!$message)
+		{
+			// License
+			if ($is_license)
+			{
+				$settings_xml=&$response_tag->new_child('License',NULL);
+
+				// Desktop Client
+				if ($key=$account->GetProperty('U_ActivationKey_Desktop'))
+				{
+					$product=&$settings_xml->new_child('Product',NULL);
+					$product->new_child_data('Id',NULL,'Desktop Client');
+					$product->new_child_data('Key',NULL,$key);
+				}
+
+				// Outlook Connector
+				if ($key=$account->GetProperty('U_ActivationKey_OutConn'))
+				{
+					$product=&$settings_xml->new_child('Product',NULL);
+					$product->new_child_data('Id',NULL,'Outlook-Connector');
+					$product->new_child_data('Key',NULL,$key);
+				}
+			}
+			else
+				// Outlook
+				if ($is_outlook)
+				{
+					$account_xml=&$response_tag->new_child('Account',NULL);
+					$account_xml->new_child_data('AccountType',NULL,'email');
+					$account_xml->new_child_data('Action',NULL,'settings');
+
+					// SMTP
+					if ($account->GetProperty('U_SMTP'))
+					{
+						$type=$api->GetProperty('C_System_AutoDiscover_SMTPType');
+						switch ($type)
+						{
+							case 1:
+								//SSL requested
+								add_protocol($account_xml, 'SMTP', $api->GetProperty('C_System_AutoDiscover_SMTP'), $username, array('Port'=>$api->GetProperty('C_System_Services_SMTP_SSLPort'), 'SSL'=>'on'));
+								break;
+
+							case 2: 
+								//Alternative port requested
+								add_protocol($account_xml, 'SMTP', $api->GetProperty('C_System_AutoDiscover_SMTP'), $username, array('Port'=>$api->GetProperty('c_system_services_smtp_altport'), 'SSL'=>'off'));
+								break;
+
+							default: 
+								// NON ssl requested, decide if normal or alternative port should be returned
+								//  we have to determine if basic or alternate port should be returned to client based on submission status
+								$submission = $api->GetProperty( 'c_mail_smtp_delivery_messagesubmission' );
+								$my_port = $submission ? $api->GetProperty( 'c_system_services_smtp_altport' ) : $api->GetProperty( 'C_System_Services_SMTP_Port' );
+
+								add_protocol( $account_xml, 'SMTP', $api->GetProperty( 'C_System_AutoDiscover_SMTP' ), $username, array('Port' => $my_port,'SSL' => 'off' ) );
+						}
+					}
+
+					// POP3 / IMAP
+					if ($account->GetProperty('U_POP3IMAP'))
+					{
+						$accout_type=$account->GetProperty('U_AccountType');
+						if ($accout_type!=0) //it is IMAP or IMAP&POP3
+						{
+							// IMAP
+							$type=$api->GetProperty('C_System_AutoDiscover_IMAPType');
+							if (!$type)
+								add_protocol($account_xml, 'IMAP', $api->GetProperty('C_System_AutoDiscover_IMAP'), $username, array('Port'=>$api->GetProperty('C_System_Services_IMAP_Port'), 'SSL'=>'off'));
+							else
+								add_protocol($account_xml, 'IMAP', $api->GetProperty('C_System_AutoDiscover_IMAP'), $username, array('Port'=>$api->GetProperty('C_System_Services_IMAP_SSLPort'), 'SSL'=>'on'));
+						};
+
+						if($accout_type!=2) //it is POP3 or IMAP&POP3
+						{
+							// POP3
+							$type=$api->GetProperty('C_System_AutoDiscover_POP3Type');
+							if (!$type)
+								add_protocol($account_xml, 'POP3', $api->GetProperty('C_System_AutoDiscover_POP3'), $username, array('Port'=>$api->GetProperty('C_System_Services_POP3_Port'), 'SSL'=>'off'));
+							else
+								add_protocol($account_xml, 'POP3', $api->GetProperty('C_System_AutoDiscover_POP3'), $username, array('Port'=>$api->GetProperty('C_System_Services_POP3_SSLPort'), 'SSL'=>'on'));
+						};
+					}
+
+					// XMPP
+					if ($account->GetProperty('U_IMSupport'))
+					{
+						$type=$api->GetProperty('C_System_AutoDiscover_XMPPType');
+						if (!$type)
+							add_protocol($account_xml, 'XMPP', $api->GetProperty('C_System_AutoDiscover_XMPP'), $email, array('Port'=>$api->GetProperty('C_System_Services_IM_Port'), 'SSL'=>'off'));
+						else
+							add_protocol($account_xml, 'XMPP', $api->GetProperty('C_System_AutoDiscover_XMPP'), $email, array('Port'=>$api->GetProperty('C_System_Services_IM_SSLPort'), 'SSL'=>'on'));
+					}
+
+					// SIP
+					if ($account->GetProperty('U_SIPSupport'))
+					{
+						$type=$api->GetProperty('C_System_AutoDiscover_SIPType');
+						if (!$type)
+							add_protocol($account_xml, 'SIP', $api->GetProperty('C_System_AutoDiscover_SIP'), $email, array('Port'=>$api->GetProperty('C_System_Services_SIP_Port'), 'SSL'=>'off'));
+						else
+							add_protocol($account_xml, 'SIP', $api->GetProperty('C_System_AutoDiscover_SIP'), $email, array('Port'=>$api->GetProperty('C_System_Services_SIP_SSLPort'), 'SSL'=>'on'));
+					}
+
+					// WebDAV
+					if ($account->GetProperty('U_WebDAVSupport'))
+						add_protocol($account_xml, 'DAV', $api->GetProperty('C_WebDAV_URL'), $email);
+
+					// MobileSync
+					if ($account->GetProperty('U_ActiveSyncSupport'))
+						add_protocol($account_xml, 'MobileSync', $api->GetProperty('C_ActiveSync_URL'), $email);
+
+					// SyncML (OMA DS)
+					if ($account->GetProperty('U_SyncMLSupport'))
+						add_protocol($account_xml, 'SyncML', $api->GetProperty('C_SyncML_URL'), $email);
+
+					// X-ICEWARP-WEBCLIENT
+					if ($account->GetProperty('U_WebMail'))
+						add_protocol($account_xml, 'X-ICEWARP-WEBCLIENT', $api->GetProperty('C_WebMail_URL'), $username);
+
+					// X-ICEWARP-FREEBUSY
+					add_protocol($account_xml, 'X-ICEWARP-FREEBUSY', $api->GetProperty('C_FreeBusy_URL') . '?' . $email, $email);
+
+					// X-ICEWARP-INTERNETCALENDAR
+					add_protocol($account_xml, 'X-ICEWARP-INTERNETCALENDAR', $api->GetProperty('C_InternetCalendar_URL'), $email);
+
+					// X-ICEWARP-WEBADMIN
+					if ($account->GetProperty('U_Admin')) add_protocol($account_xml, 'X-ICEWARP-WEBADMIN', $api->GetProperty('C_WebAdmin_URL'), $username);
+
+					// X-ICEWARP-SMS
+					if ($account->GetProperty('U_SMSSupport')) add_protocol($account_xml, 'X-ICEWARP-SMS', $api->GetProperty('C_SMSService_URL'), $username);
+
+					// X-ICEWARP-LICENSE
+					add_protocol($account_xml, 'X-ICEWARP-LICENSE', ($_SERVER['HTTPS']=='ON'?'https://':'http://').$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'], $email);
+
+					// X-ICEWARP-DOWNLOAD
+					add_protocol($account_xml, 'X-ICEWARP-DOWNLOAD', $api->GetProperty('C_Install_URL'), $email);
+
+					// X-ICEWARP-TEAMCHAT-API
+					add_protocol($account_xml, 'X-ICEWARP-TEAMCHAT-API', $api->GetProperty('C_TeamChat_Api_Url'), $email);
+
+					// IceWarp version
+					$response_tag->new_child_data('Version', NULL, $api->GetProperty('C_Version'));
+				}
+				else
+				{
+					// ActiveSync
+					$action_xml=&$response_tag->new_child('Action',NULL);
+					$settings_xml=&$action_xml->new_child('Settings',NULL);
+
+					// MobileSync
+					if ($account->GetProperty('U_ActiveSyncSupport'))
+					{
+						$server=&$settings_xml->new_child('Server',NULL);
+						$server->new_child_data('Type',NULL,'MobileSync');
+						$server->new_child_data('Url',NULL,$api->GetProperty('C_ActiveSync_URL'));
+						$server->new_child_data('Name',NULL,$api->GetProperty('C_ActiveSync_URL'));
+					}
+				}
+		}
+		else
+		{
+			if ($is_license||$is_outlook)
+				$error=&$response_tag->new_child('Error',NULL);
+			else
+			{
+				$action_xml=&$response_tag->new_child('Action',NULL);
+				$error=&$action_xml->new_child('Error',NULL);
+			}
+
+			$error->new_child_data('Status',NULL,1);
+			$error->new_child_data('Message',NULL,$message);
+		}
+	}
+
+	// Read requested data
+	$request=file_get_contents('php://input');
+
+	// Save requested data to memory reprezentation of XML structure
+	if ($request) 
+		$request=text_to_xml($request);
+
+	// Handle requested command and create response
+	handle_autodiscover($request, $xml_response);
+	$response='<?xml version="1.0" encoding="UTF-8"?>'."\r\n".$xml_response->print_node(0,false);
+
+	// Output response
+	header('Content-Type: text/xml');
+	header('Content-Length: '.strlen($response));
+	echo $response;
+?>

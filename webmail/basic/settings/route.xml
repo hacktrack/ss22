@@ -1,0 +1,41 @@
+<settings>
+	<routes>
+		<route>
+			<pattern>:test/pom/lol/*omfg/aa</pattern>
+			<options>
+				<controller>default</controller>
+				<action>index</action>
+			</options>
+		</route>
+		<route>
+			<pattern>message/reply/*id</pattern>
+			<options>
+				<controller>message</controller>
+				<action>index</action>
+				<parameters>
+					<id required="true"/>
+					<action>new</action>
+					<window>main</window>
+					<view>
+						<main>win.main.tree</main>
+						<content>mail.compose</content>
+					</view>
+				</parameters>
+			</options>
+		</route>
+		<route>
+			<pattern>message/send</pattern>
+			<options>
+				<controller>message</controller>
+				<action>send</action>
+				<parameters>
+					<window>main</window>
+					<view>
+						<main>win.main.tree</main>
+						<content>mail.compose</content>
+					</view>
+				</parameters>
+			</options>
+		</route>
+	</routes>
+</settings>

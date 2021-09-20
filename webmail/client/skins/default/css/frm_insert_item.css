@@ -1,0 +1,407 @@
+.frm_insert_item div.frm_insert_item_container{
+	height: 100%;
+	padding-top: 40px;
+}
+.frm_insert_item div.frm_insert_item_container2{
+	height: 100%;
+    overflow: hidden;
+	/*position: relative;*/
+}
+
+.frm_insert_item .obj_popupmain{
+	background-color: #fff!important;
+}
+
+.frm_insert_item .filter_tree{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 100%;
+	z-index: 57;
+}
+.rtl .frm_insert_item .filter_tree {
+	width: 49px;
+    right: 0;
+	left: auto;
+}
+
+.frm_insert_item.nofilter .filter_tree,
+.frm_insert_item.nofilter .upload .helper,
+.frm_insert_item .filter_tree .obj_view_filter .b {
+	display: none;
+}
+
+.frm_insert_item .filter_tree .obj_view_filter > div > span{
+    height: 48px;
+
+}
+
+.frm_insert_item .filter_tree .obj_view_filter > div > span:before{
+	font-size: 24px;
+    line-height: 24px;
+	left: 12px;
+	top: 11px;
+}
+
+.frm_insert_item .upload {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    z-index: 51;
+    padding-left: 48px;
+    height: 100%;
+    background: #fff;
+}
+
+.frm_insert_item.nofilter .upload {
+	padding-left: 0;
+}
+
+.rtl .frm_insert_item .upload {
+	padding-left: 0;
+	padding-right: 48px;
+}
+
+.frm_insert_item .upload input {
+	height: 33px!important;
+}
+
+.frm_insert_item .upload span {
+	font-size: 11px;
+	color: #999;
+}
+
+.frm_insert_item .upload form.obj_button {
+	float: none;
+    margin: 0;
+    background-color: {bg_main '#0088CC'};
+    color: #fff;
+    text-align: center;
+    height: 35px;
+    margin-bottom: 3px;
+	border: 0;
+}
+
+.frm_insert_item div.leftdiv{
+	position: absolute;
+	z-index: 50;
+	width: 220px;
+	height: 100%;
+	top: 0;
+	left: 48px;
+
+	padding-bottom: 73px;
+}
+.frm_insert_item.nofilter div.leftdiv{
+	left: 0;
+	width: 268px;
+}
+
+.rtl .frm_insert_item div.leftdiv {
+	right: 48px;
+	left: auto;
+}
+.rtl .frm_insert_item.nofilter div.leftdiv {
+	right: 0;
+}
+
+.frm_insert_item .alfresco_folder{
+	display: none;
+}
+.frm_insert_item[view="K"] .obj_tree_folder2{
+	display: none;
+}
+.frm_insert_item[view="K"] .alfresco_folder{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 1px;
+	width: auto;
+	height: 100%;
+	z-index: 10;
+	background-color: #fff;
+}
+
+.frm_insert_item div.leftdiv div.leftdiv2{
+	height: 100%;
+	border-right: 1px solid #EDEDED;
+}
+.rtl .frm_insert_item div.leftdiv div.leftdiv2 {
+	border-left: 1px solid #EDEDED;
+	border-right: 0;
+}
+
+.frm_insert_item div.rightdiv{
+	position: relative;
+	padding-left: 268px;
+	height: 100%;
+}
+.rtl .frm_insert_item div.rightdiv {
+	padding-left: 0;
+	padding-right: 268px;
+}
+
+.frm_insert_item div.obj_datagrid{
+	position: relative;
+	z-index: 15;
+	border-top: 1px solid #EDEDED;
+	padding-top: 30px;
+}
+
+
+/*
+.frm_insert_item .obj_datagrid>.container1 {
+	height: 30px;
+}
+
+.frm_insert_item .obj_datagrid>.container1>.head .col {
+	border-right: 0;
+}
+
+.frm_insert_item .obj_datagrid .obj_datagrid-body .col div {
+	border-bottom: 1px solid #EEE;
+}
+
+.frm_insert_item .obj_datagrid .obj_datagrid-body div.file_type div:after {
+	color: {bg_main '#08C'};
+}
+
+.frm_insert_item .obj_datagrid .obj_datagrid-body div.file_type div.active:after {
+	color: #fff;
+}
+
+.frm_insert_item .obj_datagrid>.container1 div.col.ico>div:before {
+	color: #999;
+	top: 6px;
+}
+
+.frm_insert_item .obj_datagrid>.container1>.head .desc:before,
+.frm_insert_item .obj_datagrid>.container1>.head .asc:before {
+	color: #999;
+	top: 12px;
+	border-bottom-color: transparent;
+	border-top-color: #999;
+}
+
+.frm_insert_item .obj_datagrid>.container1>.head .asc:before {
+	top: 4px;
+	border-bottom-color: #999;
+	border-top-color: transparent;
+}
+
+.frm_insert_item .obj_datagrid>.container1>.head .col div {
+	color: #999;
+	line-height: 30px;
+}
+
+.frm_insert_item .obj_datagrid>.container1>.head .desc,
+.frm_insert_item .obj_datagrid>.container1>.head .asc {
+	background-color: initial;
+}
+*/
+
+.frm_insert_item div.topdiv{
+	z-index: 1;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	padding: 6px 8px;
+	padding-left: 275px;
+}
+.rtl .frm_insert_item div.topdiv{
+	padding-left: 0;
+	padding-right: 275px;
+}
+
+.frm_insert_item div.topdiv .label{
+	text-align: right;
+    padding-right: 40px;
+    padding-top: 7px;
+    display: block;
+	position: relative;
+	color: {bg_main '#0088CC'};
+	cursor: pointer;
+}
+.rtl .frm_insert_item div.topdiv .label {
+	text-align: left;
+    padding-left: 40px;
+	padding-right: 0px;
+}
+.frm_insert_item div.topdiv .label:before {
+	content: '\e076';
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	font-family: 'ico24';
+    font-size: 24px;
+    color: {bg_main '#0088CC'};
+	line-height: 24px;
+	z-index: 1;
+
+	-webkit-transition: all 200ms;
+	transition: all 200ms;
+}
+.rtl .frm_insert_item div.topdiv .label:before,
+.rtl .frm_insert_item div.topdiv .label:after {
+	left: 10px;
+	right: auto;
+}
+.rtl .frm_insert_item form.obj_input_search div.mask_container {
+	left: 62px;
+    top: 2px;
+}
+
+.frm_insert_item div.topdiv .label:hover:before {
+	color: #FFF;
+}
+
+.frm_insert_item div.topdiv .label:after {
+	border-radius: 12px;
+    content: "";
+    display: block;
+    height: 24px;
+    right: 5px;
+    position: absolute;
+    top: 3px;
+    width: 24px;
+    background-color: transparent;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+
+.frm_insert_item div.topdiv .label:hover:after {
+	background-color: {bg_main '#0088CC'};
+}
+
+.frm_insert_item div.topdiv div.obj_item_search{
+	padding: 0;
+	display: none;
+}
+
+.frm_insert_item div.topdiv.active div.label{
+	display: none;
+}
+.frm_insert_item div.topdiv.active div.obj_item_search{
+	display: block;
+}
+
+.frm_insert_item div.topdiv div.obj_item_search form{
+	border: 0;
+	padding-left: 60px;
+	padding-top: 2px;
+	background-color: #fff;
+}
+
+.frm_insert_item div.topdiv div.obj_item_search form input {
+	background-color: #fff;
+}
+
+.frm_insert_item div.topdiv div.obj_item_search form a.input_ico {
+	left: 16px;
+}
+
+.frm_insert_item div.topdiv div.obj_item_search form a.input_ico:before {
+	right: -1px;
+	top: 8px;
+}
+
+.frm_insert_item div.topdiv div.obj_item_search form a.input_ico:after {
+	content: '\e076';
+	position: absolute;
+	top: 3px;
+	left: -5px;
+	font-family: 'ico24';
+    font-size: 24px;
+    color: {bg_main '#0088CC'};
+	line-height: 24px;
+}
+
+.frm_insert_item div.bottomdiv{
+	z-index: 50;
+	position: absolute;
+	left: 48px;
+	bottom: 0;
+	width: 220px;
+	padding: 8px;
+	border: 1px solid #EDEDED;
+	border-width: 1px 1px 0 0;
+}
+.frm_insert_item.nofilter div.bottomdiv{
+	left: 0;
+	width: 268px;
+}
+
+.rtl .frm_insert_item div.bottomdiv {
+	right: 48px;
+	left: auto;
+	direction: rtl;
+}
+.rtl .frm_insert_item.nofilter div.bottomdiv{
+	right: 0;
+}
+
+.frm_insert_item_nobottomdiv div.bottomdiv{
+	display: none;
+}
+.frm_insert_item_nobottomdiv div.leftdiv{
+	padding-bottom: 0px;
+}
+
+.frm_insert_item .upload .icon {
+	height: 48px;
+    width: 48px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.frm_insert_item .upload .button {
+	width: 170px;
+	margin: 0 auto;
+}
+
+.frm_insert_item .upload .title {
+	font-size: 18px;
+    font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.frm_insert_item .upload .subtitle {
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.frm_insert_item .upload .helper {
+	margin: 40px auto 0 auto;
+}
+
+.frm_insert_item .upload .helper .image {
+	background-image: url('../images/helper@1x.png');
+	background-size: 62px 62px;
+	width: 62px;
+	height: 62px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.frm_insert_item .upload .helper .image {
+		background-image: url('../images/helper@2x.png');
+	}
+}
+
+.frm_insert_item .upload .helper .helper_tip {
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+	vertical-align: middle;
+	color: #666;
+}

@@ -1,0 +1,67 @@
+/* form icon */
+div.frm_reactions .obj_popupico:after{
+	content: '\e08e';
+}
+
+/* tab icons */
+div.frm_reactions .obj_tabs > .obj_tabsheader li.ico::before {
+    content: '';
+    background: url("../images/smiles/thumbsup.png") no-repeat center top;
+    background-size: 20px;
+    width: 24px;
+    height: 100%;
+    float: left;
+}
+
+div.frm_reactions .obj_tabs > .obj_tabsheader li.all::before{
+	display: none;
+}
+
+div.frm_reactions .obj_tabs > .obj_tabsheader li.ico_laughing::before {
+	background-image: url("../images/smiles/laughing.png");
+}
+div.frm_reactions .obj_tabs > .obj_tabsheader li.ico_disappointed::before {
+	background-image: url("../images/smiles/disappointed.png");
+}
+div.frm_reactions .obj_tabs > .obj_tabsheader li.ico_angry::before {
+	background-image: url("../images/smiles/angry.png");
+}
+div.frm_reactions .obj_tabs > .obj_tabsheader li.ico_heart::before {
+	background-image: url("../images/smiles/heart.png");
+}
+div.frm_reactions .obj_tabs > .obj_tabsheader li.ico_hankey::before {
+	background-image: url("../images/smiles/hankey.png");
+}
+div.frm_reactions .obj_tabs > .obj_tabsheader li.ico_dizzy::before {
+	background-image: url("../images/smiles/dizzy_face.png");
+}
+
+/* list */
+div.frm_reactions .obj_list ul{
+	margin: 0;
+	padding: 0;
+}
+
+div.frm_reactions .obj_list li{
+	white-space: nowrap;
+	line-height: 50px;
+	position: relative;
+	padding-left: 40px;
+	overflow: hidden;
+}
+	div.frm_reactions .obj_list li>span.avatar{
+		position: absolute;
+		left: 0;
+		top: 10px;
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+
+		background-origin: border-box;
+		background-size: cover;
+	}
+	div.frm_reactions .obj_list li>span{
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}

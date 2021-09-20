@@ -1,0 +1,1 @@
+<{resourcename}>{dynamic items}<item>{dynamic *::language}<{*::lang}{optional *::rtl} rtl="1"{/optional}{optional *::date_format} date_format="{htmlspecialchars *::date_format}"{/optional}>{*::name}</{*::lang}>{/dynamic}</item>{/dynamic}</{resourcename}>

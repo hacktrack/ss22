@@ -1,0 +1,215 @@
+.obj_barmenu_favorites{
+	position: relative;
+	z-index: 0;
+
+	user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+}
+
+.obj_barmenu_favorites .bar_cell_container{
+	margin: 0 0 0 10px;
+}
+.rtl .obj_barmenu_favorites .bar_cell_container{
+	margin: 0 10px 0 0;
+}
+
+.obj_barmenu_favorites>.dropzone{
+	border-bottom-width: 0;
+}
+
+.obj_barmenu_cell_open.obj_barmenu_favorites:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	height: 1px;
+	width: 100%;
+
+	background-color: #E8E8E8;
+}
+
+
+div.obj_barmenu_favorites div.bar_cell_body{
+	overflow: hidden;
+	padding-bottom: 0px;
+	min-height: 16px!important;
+}
+
+.rtl .obj_barmenu_favorites .bar_cell_body div {
+	padding-left: 0;
+	padding-right: 47px;
+}
+
+.obj_barmenu_favorites .bar_cell_body div{
+	position: relative;
+
+	height: 32px;
+	line-height: 30px;
+
+	padding-left: 47px;
+
+	white-space: nowrap;
+	overflow: hidden;
+
+	cursor: default;
+
+	border: solid transparent;
+	border-width: 1px 0;
+}
+
+/** active **/
+.obj_barmenu_favorites .bar_cell_body div.active{
+	background-color: #E8E8E8;
+}
+
+.rtl .obj_barmenu_favorites .bar_cell_body div.active:after {
+	left: 0;
+	right: auto;
+}
+.obj_barmenu_favorites .bar_cell_body div.active:after{
+	content: "\e023";
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 26px;
+
+	font-family: 'ico16';
+	font-size: 16px;
+
+	cursor: pointer;
+
+	z-index: 10;
+	color: #333;
+	background-color: inherit;
+}
+
+div.frm_main[selected=folder] .obj_barmenu_favorites .bar_cell_body div.active,
+div.frm_main[selected=folder] .obj_barmenu_favorites .bar_cell_body div.active:before{
+	color: {txt_main '#0088CC'};
+}
+
+/** dragging **/
+.obj_barmenu_favorites .bar_cell_body div.dragover_b{
+	border-bottom: 1px solid {bc_main '#0088CC'};
+}
+.obj_barmenu_favorites .bar_cell_body div.dragover_t{
+	border-top: 1px solid {bc_main '#0088CC'};
+}
+.obj_barmenu_favorites .bar_cell_body div.dragover_active{
+	background-color: #999!important;
+}
+
+/** edit **/
+.obj_barmenu_favorites .bar_cell_body div.edit{
+	padding-top: 1px;
+	padding-right: 15px;
+}
+.obj_barmenu_favorites .bar_cell_body div.edit.active:after{
+	display: none;
+}
+
+/*** recent ***/
+.obj_barmenu_favorites .bar_cell_body div span{
+	display: inline-block;
+	position: relative;
+	bottom: 1px;
+	left: 4px;
+
+	padding: 0 4px;
+
+    height: 13px;
+	line-height: 12px;
+	font-size: 10px;
+
+	color:#fff;
+
+	background-color: #999999;
+	border-radius: 13px;
+
+    font-family: "Helvetica Neue",Tahoma,Helvetica,sans-serif;
+}
+.rtl .obj_barmenu_favorites .bar_cell_body div span {
+	left: auto;
+	right: 4px;
+}
+
+/*** inons ***/
+
+.rtl .obj_barmenu_favorites .bar_cell_body div:before {
+	left: auto;
+	right: 25px;
+}
+.obj_barmenu_favorites .bar_cell_body div:before{
+	content: "\e94e";
+	position: absolute;
+	top: 0;
+	left: 25px;
+	width: 16px;
+	height: 100%;
+
+	font-family: 'ico16';
+	font-size: 16px;
+	color: #666;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+/* M */
+.obj_barmenu_favorites .bar_cell_body .folder_inbox:before{
+	content: '\e96f';
+}
+	.obj_barmenu_favorites .bar_cell_body .folder_inbox>span{
+		background-color: {bg_main '#0088CC'}!important;
+	}
+.obj_barmenu_favorites .bar_cell_body .folder_drafts:before{
+	content: '\e970';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_trash:before{
+	content: '\e973';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_sent:before{
+	content: '\e91c';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_spam:before{
+	content: '\e973';
+}
+
+.obj_barmenu_favorites .bar_cell_body .folder_R:before{
+	content: '\e00e';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_Q:before{
+	content: '\e018';
+}
+
+.obj_barmenu_favorites .bar_cell_body .folder_white:before{
+	content: '\e01b';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_black:before{
+	content: '\e034';
+}
+
+/* GW */
+.obj_barmenu_favorites .bar_cell_body .folder_C:before{
+	content: '\e017';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_E:before{
+	content: '\e05';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_F:before{
+	content: '\e02c';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_N:before{
+	content: '\e01d';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_T:before{
+	content: '\e003';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_J:before{
+	content: '\e024';
+}
+.obj_barmenu_favorites .bar_cell_body .folder_G:before{
+	content: '\e033';
+}

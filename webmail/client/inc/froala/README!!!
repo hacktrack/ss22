@@ -1,0 +1,11 @@
+* Custom modifications
+
+** js/froala_editor.min.js
+Comment out `this.win.focus()` part to fix stealing focus
+
+** js/plugins/image.min
+Comment out `g.events.on("paste.before",oe),g.events.on("paste.beforeCleanup",le),g.events.on("paste.after",re),` section to disable froala image plugin listeners
+
+** css/plugins
+
+Rename `colors.css`, `draggable.css`, `image.css`, `table.css` to `froala_plugins_{name}` and copy to `client\skins\default\css\`

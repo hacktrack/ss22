@@ -1,0 +1,78 @@
+.obj_button_switch{
+	height: 28px;
+	width: 100%;
+
+	cursor: default;
+	position: relative;
+	border-radius: 4px;
+	line-height: 26px;
+	white-space: nowrap;
+	border: 1px solid {bg_main '#0088CC'};
+}
+.rtl .obj_button_switch {
+	direction: rtl;
+}
+.obj_button_switch .container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.obj_button_switch .slider {
+	position: relative;
+	height: 100%;
+	width: 50%;
+	top: 0;
+	left: 0;
+
+	-webkit-transition: left 0.20s;
+	-moz-transition: left 0.20s;
+	transition: left 0.20s;
+
+	background: {bg_main '#0088CC'};
+}
+.rtl .obj_button_switch .slider {
+	left: auto;
+	right: 0;
+}
+
+.obj_button_switch .button{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+
+	-webkit-transition: color 0.20s;
+	-moz-transition: color 0.20s;
+	transition: color 0.20s;
+	border-right: 1px solid {bg_main '#0088CC'};
+}
+
+.rtl .obj_button_switch .button{
+	border-right: none;
+	border-left: 1px solid {bg_main '#0088CC'};
+}
+
+.obj_button_switch .button:last-of-type{
+	border: none;
+}
+
+.obj_button_switch .label{
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.obj_button_switch .button.active{
+	color: #FFF;
+}
+
+.main .obj_button_switch.filter{
+	display: none;
+}
+/* .main.small .obj_button_switch.filter{
+	display: none;
+} */

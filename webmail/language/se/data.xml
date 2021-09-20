@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Blå</blue>
+    <green>Grön</green>
+    <brown>Brun</brown>
+    <purple>Lila</purple>
+    <yellow>Gul</yellow>
+    <teal>Teal</teal>
+    <plum>Plum</plum>
+    <red>Röd</red>
+    <aqua>Aqua</aqua>
+    <aquamarine>Akvamarin</aquamarine>
+    <orchid>Orchid</orchid>
+    <pink>Rosa</pink>
+    <silver>Silver</silver>
+    <white>Vit</white>
+    <gray>Grå</gray>
+    <lemon>Lemon</lemon>
+  </colors>
+  <title>
+    <new_email>* Nytt E-postmeddelande</new_email>
+    <new_im>* Nytt E-postmeddelande från %s</new_im>
+    <new_reminder>* Påminnelse: %s</new_reminder>
+    <cerror>! Kommunikationsfel</cerror>
+  </title>
+  <audio>
+    <player>Spelare</player>
+  </audio>
+  <signature>
+    <none>Ingen signatur</none>
+    <alias>Från adress</alias>
+    <newmsg>Nya meddelanden</newmsg>
+    <oldmsg>Svar</oldmsg>
+    <signature>Signatur</signature>
+    <variable>Sätt variabel</variable>
+  </signature>
+  <alias>
+    <add>Lägg till nytt alias</add>
+    <notify>Bekräftelse meddelande har skickats.</notify>
+    <instructions>Bekräftelse kommer att skickas till e-postadress ovan. Vänligen kontrollera den för vidare instruktioner.</instructions>
+  </alias>
+  <notify>
+    <title>Notifikation detaljer</title>
+    <to_all>Meddela alla med tillgång till den här mappen</to_all>
+    <copy>Meddela dessutom</copy>
+    <comment>Kommentar (frivilligt), som kommer att skickas till användare som du ville meddela dina förändringar om</comment>
+    <success>Meddelanden skickade</success>
+  </notify>
+  <datagrid>
+    <nomessages>Inga meddelanden</nomessages>
+    <noitems>Inga objekt</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Förhandsgranska</preview>
+    <down>Horisontell</down>
+    <right>Vertikal</right>
+    <none>Ingen</none>
+    <noitem>Inget objekt</noitem>
+    <message_to>Meddelande till: %s</message_to>
+    <doc_revisions>Dokument revideringar</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Sökmotor</wizard>
+    <since>Från datum</since>
+    <until>Till datum</until>
+    <contains>Överallt</contains>
+    <fulltext>Fulltext</fulltext>
+    <makefolder>Skapa sökmapp</makefolder>
+    <contact_note>Anteckning</contact_note>
+  </search>
+  <search_hints>
+    <folder>Sök efter objekt från angivna mappen</folder>
+    <from>Sök efter avsändaren (från: Emma)</from>
+    <to>Sök efter en mottagare (till:David)</to>
+    <subject>Sök efter ord i ämnesraden (ämne:Lunch)</subject>
+    <or>Logisk funktion</or>
+    <not>Logisk funktion</not>
+    <hasattachment>Sök efter meddelanden med bilagor</hasattachment>
+    <isflagged>Sök efter meddelanden som är flaggade</isflagged>
+    <isunread>Sök efter meddelanden som är olästa</isunread>
+    <isread>Sök efter meddelanden som är lästa</isread>
+    <isdone>Sök efter uppgifter som är klara</isdone>
+    <cc>Sök efter mottagare i fältet &quot;Kopia:&quot;</cc>
+    <bcc>Sök efter mottagare i fältet &quot;Hemlig kopia:&quot;</bcc>
+    <sms>Sök efter mottagare i sms: fältet</sms>
+    <after>Sök efter meddelanden skickat efter en viss tid (efter: 2010/04/16)</after>
+    <after_e>Sök efter objekt som inleds efter en viss tid (efter:2010/04/16)</after_e>
+    <after_f>Sök efter objekt som har ändrats efter en viss tid (efter: 2010/04/16)</after_f>
+    <after_t>Sök efter objekt som löper ut efter en viss tid (efter:2010/04/16)</after_t>
+    <after_j>Sök efter objekt som inleds efter en viss tid (after:2010/04/16)</after_j>
+    <before>Sök efter meddelanden som har skickats före en viss tidpunkt (före: 2010/04/16)</before>
+    <before_e>Sök efter objekt som startar före en viss tidpunkt (före:2010/04/16)</before_e>
+    <before_f>Sök efter objekt som har ändrats före en viss tidpunkt (före: 2010/04/16)</before_f>
+    <before_t>Sök efter objekt som avslutas före en viss tidpunkt (före: 2004/04/16)</before_t>
+    <before_j>Sök efter objekt som börjar före den angivna tiden (före: 2010/04/16)</before_j>
+    <title>Sök efter ett objekt med en titel (titel:Test)</title>
+    <description>Sök efter beskrivning eller anteckning (beskrivning:Test)</description>
+    <name>Söf efter ett kontaktnamn</name>
+    <email>Används för att ange e-postadress</email>
+    <keyword>Sök efter objekt med angivna taggen (tag:Möte)</keyword>
+    <tag>Sök efter objekt med angivna taggen (tag:Möte)</tag>
+    <tag2>Sök efter objekt med taggen &quot;%s&quot; (använd i %s objekt)</tag2>
+    <greater>Sök beroende på storlek i kB (större:1024)</greater>
+    <smaller>Sök beroende på storlek i kB (mindre:1024)</smaller>
+    <company>Sök kontakter på ett företag (företag: IceWarp)</company>
+    <department>Sök kontakter inom en avdelning (avdelning: IT)</department>
+    <note>Söka efter en kontakt med någon anmärkning (note: VIP)</note>
+    <location>Sök kontakter på en plats (plats: London)</location>
+    <fulltext>Sök i hela innehållet (fulltext: test)</fulltext>
+    <priority>Sök efter prioritet highest,high,normal,low,lowest (prioritet: high)</priority>
+    <isprivate>Sök efter uppgifter som är privata</isprivate>
+    <ispublic>Sök efter uppgifter som är offentliga</ispublic>
+    <isfree>Sök efter uppgifter som är fria</isfree>
+    <isbusy>Sök efter uppgifter som är upptagna</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Sökmapp</virtual>
+    <general>Allmänt</general>
+    <primary>Primär mapp</primary>
+    <filter>Filter</filter>
+    <all>Alla mappar</all>
+  </virtual>
+  <notifier>
+    <notifier>Avisering</notifier>
+    <permissions>Meddela din datorn när du har fått ett nytt e-post eller chattmeddelande, även om din webbläsare inte visas.&lt;br&gt;Välj först hur du vill få meddelanden. Klicka  OK och bekräfta i nästa dialogruta för att aktivera funktionen.</permissions>
+    <denied>Du har inaktiverat tillgång till notiser på skrivbordet.</denied>
+    <redirect>Meddelande vidaresänd.</redirect>
+    <send>Meddelande har skickats</send>
+    <item_save>Objekt har sparats</item_save>
+    <new_email>Nytt e-postmeddelande för %s</new_email>
+    <new_revision>Nytt dokument revision har skapats.</new_revision>
+    <email_exist>E-postadress finns redan.</email_exist>
+    <email_added>E-postadress har lagts till i kontakter.</email_added>
+    <contact_email_list_full>Det gick inte att lägga till e-postadressen.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google-Maps</map>
+    <go>Visa adress</go>
+    <open>Öppna google</open>
+    <alert>Google-Maps fel</alert>
+    <g_geo_missing_address>Adress saknas: Adressen saknas eller har inte något värde.</g_geo_missing_address>
+    <g_geo_too_many_queries>Alltför många frågor: Den dagliga geokodning kvot för den här webbplatsen har överskridits.</g_geo_too_many_queries>
+    <g_geo_server_error>Server fel: Geokodning förfrågan kunde inte behandlas.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Inloggningsinformation</login_info>
+    <licenses>Desktop applikationer och licenser</licenses>
+    <licenses_text>Få ut det mesta av ditt IceWarp-konto. Klicka här för ytterligare mjukvarunerladdningar, aktiveringsnycklar, manualer och syntax som du behöver för att få tillgång till dina kalendrar, kontakter och ledig/upptagen-information från kompatibla applikationer på din dator:&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Desktop Client&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Notifier&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Levererad</delivered>
+    <delivered_info>successfully delivered to local recipient</delivered_info>
+    <sent>Skickat</sent>
+    <sent_info>successfully delivered to remote server</sent_info>
+    <queue>Kö</queue>
+    <queue_info>meddelandet är uppskjuten, servern kommer att försöka skicka det senare igen</queue_info>
+    <error>Fel</error>
+    <error_info>kolla din inkorg för detaljerat felmeddelande</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Alla filer</all_files>
+    <images>Bilder</images>
+    <queue_limit_exceeded>Kögräns överskriden</queue_limit_exceeded>
+    <zero_byte_file>Noll-byte file</zero_byte_file>
+    <invalid_filetype>Ogiltig filtyp</invalid_filetype>
+    <item>Objekt</item>
+    <title>Ladda upp: %s - %s%</title>
+    <error1>Filen överskrider storleksgränsen (%sMB)</error1>
+    <error3>Filen har delvis uppladdads och är inte fullständigt</error3>
+    <error4>Filen har inte laddads upp</error4>
+    <error6>Saknar en tillfällig mapp</error6>
+    <error7>Fel vid skrivning på disken</error7>
+    <error8>Ogiltig filtyp</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Status...</status_msg>
+    <add_private>Privat</add_private>
+    <unsupported_img>Bildformat stöds inte</unsupported_img>
+    <add_gateway>Lägg till Gateway</add_gateway>
+    <error_im>WebChat error</error_im>
+    <registred>Redan registrerad</registred>
+    <registr>Registrera</registr>
+    <error_ticket>Det går inte att skapa ticket.</error_ticket>
+    <error_socket>Det går inte att öppna socket.</error_socket>
+    <error_bytestream>Användare har inte stöd för bytestreams.</error_bytestream>
+    <error_cancel>Användaren har avbrutit förfrågan.</error_cancel>
+    <error_registr>Tjänsten avvisade din anmälan.</error_registr>
+    <add_service>Lägg till tjänst</add_service>
+    <service>Tjänst</service>
+    <call>Ring</call>
+    <audio_call>Röstsamtal</audio_call>
+    <video_call>Videosamtal</video_call>
+    <meeting>Start WebMeeting</meeting>
+    <invite>Invite to WebMeeting</invite>
+    <closetab>Stäng flik</closetab>
+    <show>Visa alla kontakter</show>
+    <hide>Dölj utloggad kontakter</hide>
+    <other>Annat</other>
+    <selected>Markerade</selected>
+    <chat>Öppna chatt</chat>
+    <groupmsg>Skicka meddelande</groupmsg>
+    <group>Grupp</group>
+    <new_group>Ny grupp</new_group>
+    <subscription>Prenumeration</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>User &lt;b&gt;%s&lt;/b&gt; has requested permission to add you to their WebChat contact list</sub_ask>
+    <send>Godkän chattkontakt</send>
+    <request>Begära tillstånd</request>
+    <remove>Ta bort godkännande</remove>
+    <remove_account>Är du säker på att du vill ta bort %s från listan?</remove_account>
+    <remove_accounts>Är du säker på att ta bort valda konton från kontaktlistan?</remove_accounts>
+    <rem_grp>Ta bort grupp</rem_grp>
+    <rem_grpc>Ta bort grupp &amp; kontakter</rem_grpc>
+    <rename>Byt namn</rename>
+    <add>Lägg till kontakt</add>
+    <jabber_id>Jabber ID</jabber_id>
+    <nick>Visningsnamn</nick>
+    <vcard>vCard</vcard>
+    <history>Visa konversationshistorik</history>
+    <sharedesktop>Dela skärm</sharedesktop>
+    <tab_general>Allmänt</tab_general>
+    <tab_work>Jobbet</tab_work>
+    <tab_location>Plats</tab_location>
+    <tab_about>Om</tab_about>
+    <send_mail>Skicka e-post</send_mail>
+    <send_file>Skicka fil</send_file>
+    <receive_file>Ta emot fil</receive_file>
+    <not_listed>Ej listad</not_listed>
+    <composing>WebChat: %s is composing...</composing>
+    <file_message>Användaren har skickat en fil med följande beskrivning:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s</file_message>
+    <file_cancel>Filöverförning avisad utav mottagaren.</file_cancel>
+    <file_error>Fel vid filöverföring.</file_error>
+    <file_ok>Filöverföring lyckad.</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/b&gt; har skickat dig en fil &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>Visa konversation efter: %s</show_after>
+    <im_status>WebChat: %s</im_status>
+    <im>WebChat</im>
+    <sip_inprogress>Samtal pågår</sip_inprogress>
+    <sip_incomming>Inkommande samtal</sip_incomming>
+    <sip_calling>Ringer</sip_calling>
+    <status_sec>%s för mindre än en minut</status_sec>
+    <status_min>%s för %s minut(er)</status_min>
+    <status_hour>%s för %s timme</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Propose new time</propose>
+    <nosubject>Inget ämne</nosubject>
+    <when>Tidpunkt</when>
+    <location>Plats</location>
+    <comment>Kommentar</comment>
+    <description>Beskrivning</description>
+    <accept>Acceptera</accept>
+    <tentative>Tentative</tentative>
+    <decline>Avslå</decline>
+    <skip_img>Externa resurser har blockerats. Klicka här för att visa dem.</skip_img>
+    <show_img>Meddelandet innehåller bifogade bilder. Klicka här för att öppna förhandsvisning.</show_img>
+    <smart>Attachments are delivered using IceWarp SmartAttach technology.</smart>
+    <show_raw>Öppna meddelandekälla</show_raw>
+    <certificate>Offentlig certificate</certificate>
+    <serror>Dekrypterings fel, saknad eller ogiltig certifikat.</serror>
+    <sverify>Det går inte att kontrollera signatur</sverify>
+    <expired>Dekrypteringsfel, giltigt men utgånget certifikat.</expired>
+    <access>Du har beviljats ​​tillgång till &quot;%s&quot; av %s.</access>
+    <account_access>Du har beviljats ​​tillgång av %s.</account_access>
+    <subscribe>Prenumerera</subscribe>
+    <subscribe_account>Prenumerera på konto</subscribe_account>
+    <subscribed>Konto %s prenumererad.</subscribed>
+    <subscribed_folder>Prenumererar på &quot;%s/%s&quot;</subscribed_folder>
+    <unsubscribe>Avsluta prenumeration</unsubscribe>
+    <unsubscribed>Prenumeration har tagits bort för %s.</unsubscribed>
+    <unsubscribed_folder>Prenumeration tas bort för &quot;%s/%s&quot;.</unsubscribed_folder>
+    <error>Åtgärden kan inte utföras.</error>
+    <recurrent>Återkommande</recurrent>
+    <occurrence>Undantag från upprepade händelsen</occurrence>
+    <attendee>Med</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Vad är nytt</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Hjälp</help>
+    <about>Om</about>
+  </help>
+  <print>
+    <preview>Förhandsgranska</preview>
+    <opera>Din webbläsare saknar stöd för den här funktionen.</opera>
+  </print>
+  <status>
+    <online>Online</online>
+    <offline>Offline</offline>
+    <chat>Ledig för chatt</chat>
+    <away>Borta</away>
+    <xa>N/A</xa>
+    <dnd>Upptagen</dnd>
+    <invisible>Visa som offline</invisible>
+    <gone>Användaren har lämnat konversationen</gone>
+    <error>Fel</error>
+    <sip>Online på WebPhone</sip>
+    <chat_with>Chatta med %s</chat_with>
+  </status>
+  <policy>
+    <minlength>Minimal lösenords längd: %s tecken</minlength>
+    <digits>Antal numeriska tecken [0-9]: %s</digits>
+    <alpha>Antal tecken [a-Z]: %s</alpha>
+    <nonalphanum>Antal icke alfanumeriska tecken [!@#$%...]: %s</nonalphanum>
+    <upperalpha>Antal stora bokstäve [A-Z]: %s</upperalpha>
+    <useralias>Lösenordet får inte vara samma som ditt användarnamn eller alias</useralias>
+  </policy>
+  <alerts>
+    <alert>Fel!</alert>
+    <suppress>Visa inte det här meddelandet igen</suppress>
+    <create_revision>Det går inte att skapa revision</create_revision>
+    <password_do_not_match>Lösenorden matchar inte</password_do_not_match>
+    <invalid_password>Ogiltigt lösenord</invalid_password>
+    <new_password_match>Lösenord är samma som den gamla</new_password_match>
+    <invalid_cpassword>Lösenord matchar inte</invalid_cpassword>
+    <folder_exist>Mappen finns redan</folder_exist>
+    <create_folder>Det går inte att skapa mappen &quot;%s&quot;</create_folder>
+    <rename_folder>Det går inte att byta namn på mappen &quot;%s&quot; till &quot;%s&quot;.</rename_folder>
+    <attachment_size>Storlek på bilaga har överskridits</attachment_size>
+    <attachment_quota>Kvoten för bilagor har överskridits.</attachment_quota>
+    <attachment_missing>Bifogade filen hittades inte.</attachment_missing>
+    <attachment_virus>Bilagan innehåller virus.</attachment_virus>
+    <could_not_create>Dokument kunde inte skapas.</could_not_create>
+    <could_not_edit>Dokumentet kan inte redigeras.</could_not_edit>
+    <general_error>Ett ospecificerat fel uppstod&lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>Lösenord bryter lösenord policyn</password_policy>
+    <password_requirements>Kontrollera följande krav och välja ett nytt lösenord:</password_requirements>
+    <password_incorrect>Felaktigt lösenord. Försök igen.</password_incorrect>
+    <message_not_sent>Meddelandet skickades inte</message_not_sent>
+    <message_not_saved>Meddelandet sparades inte</message_not_saved>
+    <mailingfailed>Det gick inte att skicka eller spara meddelandet på grund av serverfel. Försök igen senare.</mailingfailed>
+    <distribution_list_invalid_id>Ogiltig distributionslista:</distribution_list_invalid_id>
+    <smtp_from_failed>Följande avsändare har inte blivit godkänd:</smtp_from_failed>
+    <smtp_recipients_failed>Mottagare orsakade följande fel:</smtp_recipients_failed>
+    <smtp_data_not_accepted>Ditt meddelande har inte blivit accepterat av servern.</smtp_data_not_accepted>
+    <default_folder_missing>Standardmappen &quot;%s&quot; saknas.</default_folder_missing>
+    <no_recipient_certificate>Certifikat för mottagare saknas.</no_recipient_certificate>
+    <recipient_certificate_expired>Mottagarens certifikat har gått ut.</recipient_certificate_expired>
+    <personal_certificate>Personligt certifikat är felaktig</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>Kunde inte hämta meddelandet.</imap_null>
+    <delete_item>Objekt kan inte raderas</delete_item>
+    <reserved_folder>Reserverad mappnamn &quot;%s&quot;</reserved_folder>
+    <undefined>Okänd fel</undefined>
+    <timezone_differ>Din tidszon har förändrats. Välj en motsvarande plats nedan för att justera tiden för dina kalenderhändelser.</timezone_differ>
+    <popup_blocker>Pop-up fönster har blockerats.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Olästa</unread>
+    <contact_ok>Administratören har blivit kontaktad</contact_ok>
+    <signup_ok>Nytt konto har skapats</signup_ok>
+    <logout>Användaren loggade ut</logout>
+    <logged_out>Användaren loggade ut</logged_out>
+    <forgot_ok>Dina kontouppgifter har skickats till din e-postadress och alternativa e-postadress som har angetts</forgot_ok>
+    <password_change_ok>Lösenord har ändrats</password_change_ok>
+    <close_window>Du kan nu stänga detta fönster</close_window>
+    <personality_confirmation_ok>Din e-postadress har bekräftats.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Felaktigt användarnamn eller lösenord. Vänligen försök igen.</invalid_login>
+    <account_disabled>Kontot är avstängt.</account_disabled>
+    <expired>Sessionen ör över</expired>
+    <connection>Kunde inte ansluta till servern. Var vänligen och kontrollera din Internetanslutning eller kontakta system administrator</connection>
+    <servererror>Kunde inte komma åt den här tjänsten. Försök igen senare eller kontakta administratören.</servererror>
+    <overloaded>Servern är för närvarande överbelastad. Försök igen vid ett senare tillfälle eller kontakta administratören.</overloaded>
+    <countdown>Försök igen om %s sekunder.</countdown>
+    <filenotfound>Det finns filer som saknas på servern.</filenotfound>
+    <subscribe_error>Det går inte att prenumerera på följande konto %s.</subscribe_error>
+    <wc_disabled>WebClient är inaktiverad.</wc_disabled>
+    <invalid_rsa>Det går inte att skapa RSA lösenord.</invalid_rsa>
+    <no_db>Database anslutningsfel</no_db>
+    <no_data>Inga data tillgängliga</no_data>
+    <access_error>Det går inte att komma åt brevlådan, vänligen kontakta din serveradministratör.</access_error>
+    <ip_mismatch>Din IP har ändrats, du kommer att loggas ut. För att förhindra detta problem i framtiden, var vänlig använd WebClient via en HTTPS-anslutning.</ip_mismatch>
+    <javatip1>Titta runt på skärmen för Java uppmaningar eller varningar. Klicka på Ja eller Tillåt.</javatip1>
+    <javatip2>Kontakta administratören för att hjälpa dig att installera Java på din dator, eller</javatip2>
+    <javatip3>Klicka på knappen &quot;Felsökning&quot; nedan för att lösa problemet nu</javatip3>
+    <contactadmin>Kontakta administratör</contactadmin>
+    <troubleshoot>Felsökning</troubleshoot>
+  </error>
+  <common>
+    <all>Alla</all>
+    <processing>Processing</processing>
+    <loading>Laddar...</loading>
+    <sending>Skickar...</sending>
+    <comment>Kommentar</comment>
+    <email>E-post</email>
+    <folder>Mapp</folder>
+    <items>Objekt</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Markera allt</select_all>
+    <clear>Rensa</clear>
+    <yes>Ja</yes>
+    <no>Nej</no>
+    <auto>Auto</auto>
+    <disable>Inaktivera</disable>
+    <enable>Aktivera</enable>
+    <enabled>Aktiverad</enabled>
+    <show_all>Visa alla</show_all>
+    <previous>Föregående</previous>
+    <next>Nästa</next>
+    <more>Mer...</more>
+    <show>Visa</show>
+    <hide>Göm</hide>
+    <appearance>Panel Appearance</appearance>
+    <expand>Expanded</expand>
+    <collapsed>Collapsed</collapsed>
+    <autocollapsed>Auto Collapse</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Favoriter</favorites>
+    <remove>Ta bort från favoriter</remove>
+    <rename>Byt namn på genväg</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>Ägare</owner>
+    <address_book>Adressbok</address_book>
+    <add_recipient>Lägg till mottagare</add_recipient>
+    <selected_addresses>Markerade</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Tom</empty>
+    <today>Idag</today>
+    <this_week>Denna veckan</this_week>
+    <this_month>Denna månaden</this_month>
+    <yesterday>Igår</yesterday>
+    <tomorrow>i morgon</tomorrow>
+    <typetoadd>Skriv för att skapa</typetoadd>
+    <owner>Ägare</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>- Standard -</timezones>
+    <serverzone>Servertid</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Vill du rensa listan?</clear_autosuggest>
+    <suppress>Fråga mig inte igen</suppress>
+    <reset_password_subject>Lösenord har återställts för %email%</reset_password_subject>
+    <reset_password>Hej %username%,&#13;&#10;&#13;&#10;Begärde du en lösenordsåterställning för ditt konto (%email%) i WebClient?&#13;&#10;&#13;&#10;Klicka på länken nedan (eller kopiera och klistra in den i din webbläsare) för att bekräfta att e-postadressen tillhör dig.&#13;&#10;&#13;&#10;Om du inte gjorde denna förfrågan eller har fått meddelandet av misstag, var god bortse från det.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Bekräfta ny frånadress för: %username%</alias_subject>
+    <alias_confirmation>Hej %username%,&#13;&#10;&#13;&#10;Begärde du att få lägga till (%email%) som en ny frånadress i WebClient?&#13;&#10;&#13;&#10;Klicka på länken nedan (eller kopiera och klistra in den i din webbläsare) för att bekräfta att e-postadressen tillhör dig.&#13;&#10;&#13;&#10;Om du inte gjorde denna förfrågan eller har fått meddelandet av misstag, var god bortse från det.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>För att undvika att förlora ändrade uppgifter var vänligen och kontrollera att alla öppna objekt och meddelande har sparats.</unload>
+    <expired>Upphörde session</expired>
+    <no_mobile>Inget mobilnummer hittades.</no_mobile>
+    <expired_msg>Det går inte att skicka eller spara oavslutade meddelanden. Din IP har ändrats eller sessionen gått ut.</expired_msg>
+    <delete_account_confirmation>Ta bort konto bekräftelse</delete_account_confirmation>
+    <delete_account>Är du säker på att du vill ta bort följand konto: %s?</delete_account>
+    <recover_item>Är du säker på att återställa markerat objekt?</recover_item>
+    <delete_folder_confirmation>Bekräfta borttagning av mapp</delete_folder_confirmation>
+    <delete_folder>Är du säker på att du vill ta bort följand mapp: &quot;%s&quot;?</delete_folder>
+    <delete_item_confirmation>Bekräfta borttagning av post</delete_item_confirmation>
+    <delete_item>Är du säker på att du vill ta bort markerat objekt?</delete_item>
+    <delete_avatar>Nuvarande kontaktbild kommer att raderas</delete_avatar>
+    <blacklist_sender_confirmation>Bekräfta svartlista</blacklist_sender_confirmation>
+    <blacklist_sender>Är du säker på att du vill svartlista avsändaren?</blacklist_sender>
+    <blacklist_domain>Are you sure to blacklist all items from this domain?</blacklist_domain>
+    <blacklisted>Avsändare har svartlistats</blacklisted>
+    <whitelist_sender_confirmation>Bekräfta vitlista</whitelist_sender_confirmation>
+    <whitelist_sender>Är du säker på att du vill vitlista avsändaren?</whitelist_sender>
+    <whitelist_domain>Are you sure to whitelist all items from this domain?</whitelist_domain>
+    <whitelisted>Avsändare har vitlistats</whitelisted>
+    <empty_folder_confirmation>Bekräfta tömmning av mapp</empty_folder_confirmation>
+    <empty_folder>Är du säker på att du vill ta bort allt innehåll i mappen?</empty_folder>
+    <empty_to_trash>Är du säker på att du vill flytta allt innehåll i mappen till Borttaget?</empty_to_trash>
+    <save_title>Spara meddelande</save_title>
+    <save_confirmation>Meddelandet sparades inte. Vill du spara meddelandet i mappen utkast?</save_confirmation>
+    <save_file>Filen har ändrats. Vill du spara ändringarna?</save_file>
+    <save>Spara</save>
+    <discard>Släng</discard>
+    <create_reading_confirmation_title>Begär leveranskvitto</create_reading_confirmation_title>
+    <create_reading_confirmation>Avsändaren har begärt ett leveranskvitto. Vill du skicka det?</create_reading_confirmation>
+    <send_reading_confirmation>Fråga mottagaren om läsbekräftelse?</send_reading_confirmation>
+    <browser_warning_title>Varning - Webbläsare</browser_warning_title>
+    <browser_warning_text_unsupported>Din nuvarande webbläsare STÖDS INTE av IceWarp WebClient.&#13;&#10;&#13;&#10;Var god observera att med din nuvarande webbläsare kan WebClient bli långsam, få prestandasvårigheter eller bli ogenomförbar.&#13;&#10;&#13;&#10;WebClient är optimerad för Firefox 4.0 (eller högre) och Internet Explorer 8.0 (eller högre). Vi rekommenderar därför att du uppgraderar till den senaste versionen av Internet Explorer eller installerar Mozilla Firefox (båda är gratis).&lt;br/&gt;&lt;br/&gt;&#13;&#10;För den senaste versionen av Firefox gå till:&lt;br/&gt;&#13;&#10;&lt;a href=&quot;http://www.firefox.com/&quot;&gt;http://www.firefox.com/&lt;/a&gt;&lt;br/&gt;&#13;&#10;För den senaste versionen av Internet Explorer gå till:&lt;br/&gt;&#13;&#10;&lt;a href=&quot;http://www.microsoft.com/ie/&quot;&gt;http://www.microsoft.com/ie/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&#13;&#10;&#13;&#10;Tryck OK för att fortsätta eller tryck avbryt för att byta till &lt;strong&gt;WebClient surfplatta&lt;/strong&gt;.</browser_warning_text_unsupported>
+    <expired_password>Ditt lösenord har utgått. Var vänligen och byt lösenord.</expired_password>
+    <authentication>Det gick inte att autentisera</authentication>
+    <authenticate>På grund av säkerhetsskäl behöver du verifiera dig igen.</authenticate>
+    <enterpass>Ange ditt lösenord och logga in för att fortsätta arbetet, eller logga ut för att avsluta.</enterpass>
+    <secure>För att undvika detta problem i fortsättningen, var god anslut till WebClient via HTTPS-anslutning.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>Språket ändras nästa gång du loggar in.</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Öppna i separat fönster</open_in_separate_window>
+    <help_restriction>Den här funktionen är inte aktiverad</help_restriction>
+    <switch_older>Switch to previous version of WebClient</switch_older>
+    <choose_interface>Välj det gränssnitt som du föredrar</choose_interface>
+    <choose_lang>Välj ditt språk</choose_lang>
+    <migration_in_progress>Migration pågår, var god försök igen senare</migration_in_progress>
+    <message_sent>Ditt meddelande är levererat</message_sent>
+    <message_send_failed>Det gick inte att skicka meddelandet</message_send_failed>
+    <antispam_code_error>Säkerhetskoden är fel</antispam_code_error>
+    <antispam>Säkerhetskod</antispam>
+    <contact_support_subject>Ny kontakt önskas från inloggningsskärmen</contact_support_subject>
+    <text>Text</text>
+    <contact_administrator>Kontakta oss för support</contact_administrator>
+    <contact_question>Behöver du hjälp?</contact_question>
+    <contact_answer>Kontakta administratören</contact_answer>
+    <contact_1>Kontakta vår</contact_1>
+    <contact_2>administratör</contact_2>
+    <contact_placeholder_1>Din e-post eller telefon</contact_placeholder_1>
+    <contact_placeholder_2>Beskriv ditt problelm</contact_placeholder_2>
+    <help>Hjälp med ljudet</help>
+    <meeting_me>Mig</meeting_me>
+    <meeting_hang_up_confirmation>Vill du verkligen lämna mötet?</meeting_hang_up_confirmation>
+    <online_meeting>WebMeeting</online_meeting>
+    <meeting_connected>Ansluten</meeting_connected>
+    <meeting_connecting>Ansluter...</meeting_connecting>
+    <phone_access>Telefonaccess</phone_access>
+    <meeting_chat_ready>Welcome to the WebMeeting! Group chat is ready.</meeting_chat_ready>
+    <meeting_chat_send>Skicka</meeting_chat_send>
+    <meeting_user_left_meeting>Användare &quot;%s&quot; har lämnat mötet</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>Användare &quot;%s&quot; har anslutit sig till mötet</meeting_user_joined_meeting>
+    <meeting_no_participants>Inga deltagare</meeting_no_participants>
+    <meeting_server_not_responding>Servern svarar inte</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Lyckad anslutning</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Audio applet kan inte startas. Om det finns en dialogruta för bekräftelse, bekräfta för att tillåta att Java applet körs. I vissa fall kan det hjälpa med att  starta om webbläsaren. Du kan söka efter den senaste versionen av Java och att den är rätt installerad genom att gå till &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>Varkatighet</duration>
+    <mute>Dämpa</mute>
+    <desktop_sharing_id>Sessions-ID för skärmdelning</desktop_sharing_id>
+    <conference_phone_number>WebMeetings phone number</conference_phone_number>
+    <desktop_sharing_app>Applikation för skärmdelning</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>Vi beklagar, skärmdelning direkt från webben fungerar inte för mobila enheter. Det finns en app för detta i nedanstående länk.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>Vi beklagar, skrämdelning direkt från webben fungerar inte på Mac. Du behöver installera en applikation från länken nedan.</desktop_sharing_mac_warning>
+    <continue_to_call>Fortsätt ringa</continue_to_call>
+    <meeting_api_unexpected_response>Oväntat API-svar</meeting_api_unexpected_response>
+    <applet_unreachable>Java-applet är inte kontaktbar</applet_unreachable>
+    <sip_applet_load_failed>Audio applet gick ej att ladda</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Få mötesinformation underkänd</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>Sessionen för skärmdelning har upphört, men ljudet är fortfarande aktivt.</meeting_mikogo_ended>
+    <meeting_ended>WebMeeting ended</meeting_ended>
+    <meeting_hang_up>Lägg på</meeting_hang_up>
+    <meeting_id>Mötes-ID</meeting_id>
+    <meeting_mikogo_ready>Skärmdelning är klar</meeting_mikogo_ready>
+    <meeting_sip_ready>Ljudet är klart</meeting_sip_ready>
+    <meeting_call_failed>Samtalet misslyckades</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Timeout för inbjudan. Försök igen om %s sek.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Försöker igen om %s sek.</meeting_trying_again_in>
+    <meeting_preparing_sip>Förbereder ljud</meeting_preparing_sip>
+    <meeting_starting_sip>Startar ljud</meeting_starting_sip>
+    <meeting_waiting_for_reply>Audio applet väntar på serverrespons</meeting_waiting_for_reply>
+    <meeting_in_progress>Möte pågår</meeting_in_progress>
+    <meeting_you_can_join>You can now join the WebMeeting</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Mötes-applet är inte klart</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>Ingen mötes-appletkod svarar</meeting_no_applet_code>
+    <meeting_unexpected_response>Oväntat svar från mötes-applet</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Your browser doesn&apos;t support WebMeetings</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>Chrome kommer att ge den bästa upplevelsen. Du kommer att omdirigeras till installationsguiden.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>The WebMeeting hasn&apos;t started yet</meeting_meeting_wasnt_started>
+    <meeting_waiting>Waiting for %s to start the WebMeeting</meeting_waiting>
+    <meeting_created_by_ready>WebMeeting created by %s is ready</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Laddar mötesdata</meeting_loading_meeting_info>
+    <unknown_error>Okänt fel</unknown_error>
+    <meeting_no_name>Var god ange ditt namn eller smeknamn</meeting_no_name>
+    <meeting_api_error_104>Ogiltigt mötes-ID</meeting_api_error_104>
+    <meeting_api_error_description_104>Mötesadressen finns inte är ofullständig</meeting_api_error_description_104>
+    <meeting_api_error_111>Tjänsten är avaktiverad</meeting_api_error_111>
+    <meeting_api_error_120>Kunde inte ansluta till fjärrserver</meeting_api_error_120>
+    <meeting_api_error_125>Server doesn&apos;t have a valid license for WebMeetings</meeting_api_error_125>
+    <meeting_id_doesnt_exist>Mötes-ID finns inte</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Mikrofonen är inte tillgängligt</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Mikrofonen är inaktiverad eller inte ansluten. Vill du fortsätta utan mikrofon?</meeting__no_microphone_continue>
+    <fill_in_name>Ange ditt namn</fill_in_name>
+    <fill_in_email>Ange din e-postadress</fill_in_email>
+    <join_meeting>Join WebMeeting</join_meeting>
+    <already_a_member>Redan medlem</already_a_member>
+    <name>Namn</name>
+    <enter_your_name>Ange ditt namn</enter_your_name>
+    <enter_your_name_description>This name will be visible to other participants and used to identify you during the WebMeeting</enter_your_name_description>
+    <cancel>Avbryt</cancel>
+    <login_caption>IceWarp WebClient</login_caption>
+    <copy>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy>
+    <copy_new>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>IceWarp WebClient</title>
+    <user>Användarnamn</user>
+    <email>E-postadress</email>
+    <pass>Lösenord</pass>
+    <old_pass>Gammalt lösenord</old_pass>
+    <new_pass>Nytt lösenord</new_pass>
+    <check_pass>Bekräfta lösenord</check_pass>
+    <change_password>Byt lösenord</change_password>
+    <remember>Kom ihåg</remember>
+    <save0>Fortsätt vara inloggad</save0>
+    <save1>Användarnamn och lösenord</save1>
+    <save2>Användarnam</save2>
+    <save3>Fråga alltid</save3>
+    <login>Logga in</login>
+    <send>Skicka</send>
+    <create_account>Skapa konto</create_account>
+    <switch>Byt till gränssnitt för &lt;a href=&quot;./basic&quot;&gt;surfplatta&lt;/a&gt; eller &lt;a href=&quot;./pda&quot;&gt;mobil&lt;/a&gt;.</switch>
+    <downloads>Ladda ner...</downloads>
+    <interface>Gränssnitt</interface>
+    <basic>Tablet</basic>
+    <pda>Mobil</pda>
+    <pro>Dator</pro>
+    <osx>Mac OS X</osx>
+    <lang>Språk</lang>
+    <keep_me_signed>Kom ihåg mig</keep_me_signed>
+    <utilities>Verktyg</utilities>
+    <pw_policy_minlength>Minimal lösenordslängd</pw_policy_minlength>
+    <pw_policy_digits>Antal numeriska tecken i lösenord [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Antal bokstäver i lösenord [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>Antal icke alfanumeriska tecken i lösenord [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>Kontrollera lösenord mot användarnamn och alias</pw_policy_useralias>
+    <pw_policy_uppercase>Antal stora bokstäver [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>Visa virtuellt tangentbord</virtual_keyboard_01>
+    <virtual_keyboard_02>Välj tangentbordslayout</virtual_keyboard_02>
+    <virtual_keyboard_04>På</virtual_keyboard_04>
+    <virtual_keyboard_05>Av</virtual_keyboard_05>
+    <virtual_keyboard_06>Stäng tangentbordet</virtual_keyboard_06>
+    <virtual_keyboard_07>Rensa</virtual_keyboard_07>
+    <virtual_keyboard_08>Rensa inmatning</virtual_keyboard_08>
+    <virtual_keyboard_10>Minska tangentbord storlek</virtual_keyboard_10>
+    <virtual_keyboard_11>Öka tangentbord storlek</virtual_keyboard_11>
+    <js_problem>Kan inte köra JavaScript</js_problem>
+    <public_calendar>Publikt kalender</public_calendar>
+    <login_to_pro>Logga in till datorgränssnitt</login_to_pro>
+    <login_to_basic>Logga in på tablet gränssnitt</login_to_basic>
+    <login_to_pda>Logga in på mobil gränssnitt</login_to_pda>
+    <js_turned_off_message_text>För bästa användarupplevelse och avancerad presentation, rekommenderar vi datorgränssnitt. För detta krävs JavaScript. Bekräfta att JavaScript tillåts i inställningarna för webbläsaren, eller fortsätt till</js_turned_off_message_text>
+    <js_turned_off_message_link>Tablet gränssnitt</js_turned_off_message_link>
+    <learn_more>Lär dig mer om alla nyheter</learn_more>
+    <learn_more_short>Lär dig mer</learn_more_short>
+    <login_back>Tillbaka till inloggning</login_back>
+    <changepwd>Byt ditt &lt;br/&gt; lösenord</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Dator</advanced>
+    <basic>Tablet</basic>
+  </login_client>
+  <login_style>
+    <gray>Grå</gray>
+    <white>Vit</white>
+    <black>Svart</black>
+    <red>Röd</red>
+    <yellow>Gul</yellow>
+    <green>Grön</green>
+    <blue>Blå</blue>
+    <purple>Lila</purple>
+    <orange>Orang</orange>
+    <brown>Brun</brown>
+    <pink>Rosa</pink>
+  </login_style>
+  <skin_style>
+    <default>Blå</default>
+    <black>Svart</black>
+    <brown>Brun</brown>
+    <graphite>Grafit</graphite>
+    <green>Grön</green>
+    <orange>Orange</orange>
+    <pink>Rosa</pink>
+    <purple>Lila</purple>
+    <red>Röd</red>
+    <yellow>Gul</yellow>
+  </skin_style>
+  <sign_up>
+    <question>Har du inget konto ännu?</question>
+    <answer>Skapa ett konto</answer>
+    <sign_up>Registrera dig</sign_up>
+    <create_account>Ange dina nya kontouppgifter</create_account>
+    <fullname>Full name</fullname>
+    <domain>Domän</domain>
+    <username>Användarnamn</username>
+    <alternative>Alternativ e-post</alternative>
+    <captcha_error>Ogiltig säkerhetskod</captcha_error>
+    <pass_error>Angiven lösenord accepterades inte</pass_error>
+    <incorrect_error>Ogiltig användarnamn eller alias</incorrect_error>
+    <exists_error>Konto finns redan</exists_error>
+    <error>Nytt konto kan inte skapas</error>
+    <account_created>Nytt konto har skapats</account_created>
+    <invalid_cpass>Ogiltigt lösenord bekräftelse</invalid_cpass>
+    <confirm_pass>Bekräfta</confirm_pass>
+    <password_change>Byte av lösenord</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Glömt ditt lösenord?</question>
+    <question_br>Glömt ditt&lt;br/&gt; lösenord?</question_br>
+    <title>Återställ ditt&lt;br&gt; lösenord</title>
+    <answer>Återställ det</answer>
+    <generate>Dubbelklicka för ny säkerhetskod</generate>
+    <captcha>Skriv in koden som visas</captcha>
+    <captcha_error>Ogiltig säkerhetskod</captcha_error>
+    <security_code>Säkerhetskod</security_code>
+    <reset_pass>Återställ lösenord</reset_pass>
+    <enter_alt_pass>Inloggningsinformationen sänds till din e-postadress eller till den alternativa e-postadressen om den finns.</enter_alt_pass>
+    <reset_send>Inloggningsinformation har sänts till e-postadressen/e-postadresserna nedan:</reset_send>
+    <reset_error>Angivet konto finns inte eller återställning av lösenordet har inte kunnat ske</reset_error>
+    <subject>Återställning av lösenord för konto %EMAIL%</subject>
+    <email>Hej %FULLNAME%,&#13;&#10;&#13;&#10;Begärde du återställning av ditt lösenord för konto (%EMAIL%) i WebClient?&#13;&#10;&#13;&#10;Klicka på länken nedan (eller kopiera och klistra in den i webbläsaren) för att bekräfta att det är din e-postadress.&#13;&#10;%URL%&#13;&#10;&#13;&#10;Har du inte gjort denna förfrågan eller har mottagit detta meddelande av misstag, var god bortse från det.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Existerar redan</duplicity>
+    <label>Dokument med samma namn &quot;%s&quot; existerar redan.</label>
+    <suggested_name>Föreslagna namn</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Behandlas</processing>
+    <step1>1) Ladda upp din backup-fil</step1>
+    <step2>2) Välj målmapp</step2>
+    <step3>3) Välj kolumner för import</step3>
+    <step1e>Välj kontaktmapp</step1e>
+    <step2e>Välja exporttyp</step2e>
+    <step_date>Välj datumformat</step_date>
+    <default_date>Standard</default_date>
+    <charset>Teckenuppsättning</charset>
+    <skipfirst>Hoppa över första raden i CSV</skipfirst>
+    <email1>E-post 1</email1>
+    <email2>E-post 2</email2>
+    <email3>E-post 3</email3>
+    <phone1>Telefon 1</phone1>
+    <phone2>Telefon 2</phone2>
+    <phone3>Telefon 3</phone3>
+    <phone4>Telefon 4</phone4>
+    <phone_type1>Telefon typ 1</phone_type1>
+    <phone_type2>Telefon typ 2</phone_type2>
+    <phone_type3>Telefon typ 3</phone_type3>
+    <phone_type4>Telefon typ 4</phone_type4>
+    <import_successful>Importering genomfört</import_successful>
+    <import_unsuccessful>Import misslyckades</import_unsuccessful>
+    <import_finished>Import slutförd. %s poster skippades på grund av ett fel.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Auto</auto>
+    <load>Ladda</load>
+    <import>Import</import>
+    <export>Export</export>
+    <unknown_ext>Okänt tillägg</unknown_ext>
+    <download_csv_file>Ladda ner CSV-fil med kalenderobjekt</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>Ladda ner</download_file>
+    <select_col>Välj en kolumn(er) för import</select_col>
+    <select_email>Välj minst en kolumn</select_email>
+    <gw_xml_file>XML med groupware backup</gw_xml_file>
+    <comma>CSV - Komma (,)</comma>
+    <semicolon>CSV - Semikolon (;)</semicolon>
+    <colon>CSV - Kolon (:)</colon>
+    <sharing>Tvinga delningsläge</sharing>
+    <import_info>Följande filformater går att ladda upp</import_info>
+    <import_info_itm>CSV (comma, colon, semicolon separated), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Licenser / Integration</license>
+    <licenses>Licenser</licenses>
+    <out>Outlook Sync</out>
+    <desk>Desktop Client</desk>
+    <download>Ladda ner</download>
+    <key>Produktaktiveringsnyckel (använd kopiera &amp; klistra in)</key>
+    <nokey>Aktiveringsnyckel för denna applikation är inte tillgänglig. Kontakta administratören för ytterligare detaljer.</nokey>
+  </license>
+  <devices>
+    <device>Enhet</device>
+    <device_model>Enhetsmodell</device_model>
+    <device_type>Enhetstyp</device_type>
+    <protocol>Protokoll</protocol>
+    <registered>Registrerad</registered>
+    <lastsync>Senast synk</lastsync>
+    <factory>Återställ till fabriksinställningar</factory>
+    <wipe>Remote Wipe</wipe>
+    <wiping>Remote Wipe pågår</wiping>
+    <nowipe>Fjärradering stöds inte</nowipe>
+    <reset>Återställ radering</reset>
+    <delete_confirmation>Att ta bort enheten från listan kommer att förorsaka dataresynkronisering vid nästa anslutning (användbart om enheten slutade att uppdatera). Om du istället ville ta bort all användar/kontodata från enheten, gå till egenskaper och klicka Remote Wipe.&lt;br/&gt;&lt;br/&gt;Är du säker på att du vill ta bort enheten/enheterna från listan?</delete_confirmation>
+    <wipe_confirmation>Remote Wipe tar bort all användar/kontodata från enheten (och lagringskort) och återställer enheten till ursprungsinställningarna. Enheten måste ha en fungerande internetanslutning.&lt;br/&gt;&lt;br/&gt;Vill du fortsätta?</wipe_confirmation>
+    <options>Enhetsalternativ</options>
+    <folders>Mappar</folders>
+    <sync>Synkronisering</sync>
+    <private_folders>Privata mappar</private_folders>
+    <special_folders>Specialmappar</special_folders>
+    <gw_folders>GroupWare mappar</gw_folders>
+    <mail_folders>E-postmappar</mail_folders>
+    <archive>Arkiv</archive>
+    <public>Publika mappar</public>
+    <shared>Delade mappar</shared>
+    <past_mail>Tidigare e-post</past_mail>
+    <past_calendar>Tidigare kalenderhändelser</past_calendar>
+    <sync_tase>Synka uppgifter som kalenderhändelser</sync_tase>
+    <sync_note>Synka anteckningar som</sync_note>
+    <all_folders>Alla mappar</all_folders>
+    <all_folders_mail>Alla med GroupWare som e-mail</all_folders_mail>
+    <default_only>Endast ursprungsmappar</default_only>
+    <sync_all>Alla</sync_all>
+    <one_day>En dag</one_day>
+    <three_days>Tre dagar</three_days>
+    <one_week>En vecka</one_week>
+    <two_weeks>Två veckor</two_weeks>
+    <one_month>En månad</one_month>
+    <three_months>Tre månader</three_months>
+    <six_months>Sex månader</six_months>
+    <inc_tasks>Endast ofullständiga uppgifter</inc_tasks>
+    <new_cfolders>Ny kalendermapp</new_cfolders>
+    <merge_taks>Sammanfoga till ursprungskalender</merge_taks>
+    <events>Händelser</events>
+    <tasks>Uppgifter</tasks>
+    <inotes>Uppgifter &amp; anteckningar (Android app)</inotes>
+    <new_folders>Ny mapp</new_folders>
+    <merge_default>Sammanfoga till ursprungsmapp</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Folder Panel</leftpanel>
+    <rightpanel>WebChat Panel</rightpanel>
+    <share>Dela</share>
+    <new_document>Skapa dokument</new_document>
+    <new_message>Skapa från en mall</new_message>
+    <devices>Mobila enheter</devices>
+    <vcard>Mina uppgifter</vcard>
+    <basic>Växla till Tablet gränssnitt</basic>
+    <old_client>Växla till äldre gränssnitt</old_client>
+    <search>Sök</search>
+    <filter>Filter</filter>
+    <new>Nytt</new>
+    <print>Skriv ut</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Inställningar</settings>
+    <accounts>Konton</accounts>
+    <logout>Logga ut</logout>
+    <logout_title>Ctrl+klicka för att logga ut</logout_title>
+    <update>Hämta nya</update>
+    <compose>Skriv</compose>
+    <new_contact>Kontakt</new_contact>
+    <new_template>Meddelandemall</new_template>
+    <new_distrib_list>Mottagarlista</new_distrib_list>
+    <new_event>Händelse</new_event>
+    <new_journal>Journal</new_journal>
+    <new_note>Anteckning</new_note>
+    <new_task>Uppgift</new_task>
+    <new_file>Dokument</new_file>
+    <new_upload>Ladda upp fil</new_upload>
+    <new_word>Worddokument</new_word>
+    <new_excel>Excel kalkylprogram</new_excel>
+    <new_ppoint>PowerPointpresentation</new_ppoint>
+    <new_text>Textdokument</new_text>
+    <new_html>HTML-dokument</new_html>
+    <new_folder>Mapp</new_folder>
+    <reply_to_sender>Svara</reply_to_sender>
+    <reply_to_all>Svara alla</reply_to_all>
+    <reply_to_sender_t>Svara med en mall</reply_to_sender_t>
+    <reply_to_all_t>Svara till alla med en mall</reply_to_all_t>
+    <forward>Vidarebefordra</forward>
+    <delete>Ta bort</delete>
+    <empty_folder>Töm mapp</empty_folder>
+    <day_view>Dag</day_view>
+    <week_view>Vecka</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Månad</month_view>
+    <dial>Ring upp</dial>
+    <sms>Skicka SMS</sms>
+    <calls>Samtal</calls>
+    <conference>WebMeeting</conference>
+    <contacts_list>Lista</contacts_list>
+    <events_list>Lista</events_list>
+    <address_card>Adresskort</address_card>
+    <tasks_lists>Lista</tasks_lists>
+    <tasks_detailed>Detaljerad lista</tasks_detailed>
+    <active_tasks>Aktiva uppgifter</active_tasks>
+    <journal_day_view>Dag</journal_day_view>
+    <journal_week_view>Vecka</journal_week_view>
+    <journal_month_view>Månad</journal_month_view>
+    <journal_list>Lista</journal_list>
+    <notes_list>Lista</notes_list>
+    <options>Alternativ</options>
+    <admin_options>Administratörsinställningar</admin_options>
+    <domain_options>Domäninställningar</domain_options>
+    <tools>Verktyg</tools>
+    <deliver>Leverans</deliver>
+    <quarantine>Karantän</quarantine>
+    <black_list>Flytta till svartlista</black_list>
+    <white_list>Flytta till vitlista</white_list>
+    <black_listed>Svartlistad</black_listed>
+    <white_listed>Vitlistad</white_listed>
+    <rules>Regler</rules>
+    <help>Hjälp</help>
+  </main_menu>
+  <short_days>
+    <monday>Mån</monday>
+    <tuesday>Tis</tuesday>
+    <wednesday>Ons</wednesday>
+    <thursday>Tor</thursday>
+    <friday>Fre</friday>
+    <saturday>Lör</saturday>
+    <sunday>Sön</sunday>
+  </short_days>
+  <days>
+    <monday>Måndag</monday>
+    <tuesday>Tisdag</tuesday>
+    <wednesday>Onsdag</wednesday>
+    <thursday>Torsdag</thursday>
+    <friday>Fredag</friday>
+    <saturday>Lördag</saturday>
+    <sunday>Söndag</sunday>
+  </days>
+  <months>
+    <january>Januari</january>
+    <february>Februari</february>
+    <march>Mars</march>
+    <april>April</april>
+    <may>Maj</may>
+    <june>Juni</june>
+    <july>Juli</july>
+    <august>Augusti</august>
+    <september>September</september>
+    <october>Oktober</october>
+    <november>November</november>
+    <december>December</december>
+  </months>
+  <short_months>
+    <january>Jan</january>
+    <february>Feb</february>
+    <march>Mar</march>
+    <april>Apr</april>
+    <may>Maj</may>
+    <june>Jun</june>
+    <july>Jul</july>
+    <august>Aug</august>
+    <september>Sep</september>
+    <october>Okt</october>
+    <november>Nov</november>
+    <december>Dec</december>
+  </short_months>
+  <dates>
+    <every>Varje</every>
+    <secondly>sekund</secondly>
+    <minutely>minut</minutely>
+    <hour>timme</hour>
+    <day>dag</day>
+    <weeks>veckor</weeks>
+    <month>månad</month>
+    <year>år</year>
+    <the>den</the>
+    <first>första</first>
+    <last>sista</last>
+    <second>sekund</second>
+    <third>tredje</third>
+    <fourth>fjärde</fourth>
+    <firth>femte</firth>
+    <postfix/>
+    <except>utom</except>
+    <on>på</on>
+    <mondays>måndagar</mondays>
+    <tuesdays>tisdagar</tuesdays>
+    <wednesdays>onsdagar</wednesdays>
+    <thursdays>torsdagar</thursdays>
+    <fridays>fredgar</fridays>
+    <saturdays>lördagar</saturdays>
+    <sundays>söndagar</sundays>
+    <yearday>dag på året</yearday>
+    <in>i</in>
+    <week>vecka</week>
+    <week2>Vecka</week2>
+    <at>på</at>
+    <and>och</and>
+    <from>från</from>
+    <until>tills</until>
+    <times>repeterar %s gånger</times>
+  </dates>
+  <form_buttons>
+    <revision>Skapa revision</revision>
+    <skip>Skippa</skip>
+    <refresh>Uppdatera</refresh>
+    <retrieve>Hämta</retrieve>
+    <inherit>Ärva</inherit>
+    <accept>Acceptera</accept>
+    <decline>Avböj</decline>
+    <ok>OK</ok>
+    <close>Stäng</close>
+    <retry>Försök igen</retry>
+    <test>Test</test>
+    <cancel>Avbryt</cancel>
+    <rename>Byt namn</rename>
+    <rewrite>Skriv om</rewrite>
+    <rewrite_all>Skriv om allt</rewrite_all>
+    <save>Spara</save>
+    <dont>Ej</dont>
+    <add>Lägg till</add>
+    <edit>Redigera</edit>
+    <find>Find</find>
+    <add_file>Lägg till fil</add_file>
+    <add_item>Lägg till post</add_item>
+    <remove>Ta bort</remove>
+    <address_book>Adressbok</address_book>
+    <search>Sök</search>
+    <new_folder>Ny mapp</new_folder>
+    <map_it>Visa på kartan</map_it>
+    <sign_in>Logga in</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Huvudmapp</step1>
+    <create_new_folder>Skapa ny mapp</create_new_folder>
+    <create_error>Mappen finns redan eller kan inte skapas.</create_error>
+    <name>Namn</name>
+    <type>Typ</type>
+    <channel>Kanal</channel>
+    <sharetype>Verkställ</sharetype>
+    <all>Alla mappar</all>
+    <private>Privata mappar</private>
+    <selected>Markerade mappar</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Användarnamn</username>
+    <password>Lösenord</password>
+    <protocol>Protokoll</protocol>
+    <server>Server</server>
+    <server_proxy>Server/Proxy</server_proxy>
+    <port>Port</port>
+    <extension>Tillägg</extension>
+    <description>Beskrivning</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Hantera innehåll</item_actions>
+    <recovery>Återskapa borttagna objekt</recovery>
+    <add_virtual>Skapa ny sökmapp</add_virtual>
+    <edit_virtual>Ändra sökmapp</edit_virtual>
+    <add_favorites>Lägg till favoriter</add_favorites>
+    <sharing>Delning och behörigheter</sharing>
+    <change_channel>Hantera RSS kanal</change_channel>
+    <subscribe>Synkronisera</subscribe>
+    <subscribed>Synkroniserad</subscribed>
+    <add_folder>Skapa ny mapp</add_folder>
+    <add_shared_account>Lägg till &quot;delat konto&quot;</add_shared_account>
+    <delete_folder>Ta bort mapp</delete_folder>
+    <unsubscribe_folder>Avbryt prenumeration</unsubscribe_folder>
+    <move_folder>Flytta mapp</move_folder>
+    <move_folder_into>Flytta mapp till</move_folder_into>
+    <rename_folder>Döp om mapp</rename_folder>
+    <remove_account>Ta bort konto</remove_account>
+    <sent_folder>Välj skickatmapp</sent_folder>
+    <select_folder>Välj mapp</select_folder>
+    <mark_all_as_read>Markera som läst</mark_all_as_read>
+    <default>Ange som standard</default>
+    <export>Exportera mapp</export>
+    <color>Färg</color>
+    <move_default>Är du säker på att du vill flytta standardmappen?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>Allt</all>
+    <pdf>PDF</pdf>
+    <play_sound>Spela</play_sound>
+    <attachments>Bifogade filer</attachments>
+    <upload>Bifoga fil</upload>
+    <download>Ladda ner</download>
+    <download_all>Ladda ner alla</download_all>
+    <open_window>Öppna i fönster</open_window>
+    <import>Importera till WebClient</import>
+    <import_error>Objekttyp stöds inte</import_error>
+    <remove>Ta bort</remove>
+    <remove_all>Ta bort alla</remove_all>
+    <add_item>Lägg till</add_item>
+    <link_dropbox>Länka till Dropbox</link_dropbox>
+    <view>Visa</view>
+    <save>Ladda ner</save>
+    <save_all>Ladda ner allt</save_all>
+    <save_to_folder>Spara</save_to_folder>
+    <show_images>Förhandsgranska bilder</show_images>
+    <show_image>Förhandsgranska bild</show_image>
+    <show_text>Enkelt textmeddelande</show_text>
+    <show_headers>Alla rubriker</show_headers>
+    <show_cert>Visa certifikat</show_cert>
+    <append_cert>Lägg till certifikat</append_cert>
+    <dropzone>&lt; Släpp filen här &gt;</dropzone>
+    <drop_holder>Dra &amp; släpp filer här...</drop_holder>
+    <quick_add>Snabbuppladdning...</quick_add>
+    <quick_contact>Släpp vCard-filen här...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Dropboxfel</erroralert>
+    <missingkey>Dropbox är inte konfigurerad. Administratören måste först sätta upp en integration för Dropbox.</missingkey>
+    <unavailable>Dropbox är inte tillgänglig just nu och kommer att vara det tills nästa inloggning.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Konvertera till HTML</convert_item>
+    <source>Källa</source>
+    <send_notify>Notering om ändringarna</send_notify>
+    <recover>Återställ</recover>
+    <new>Ny</new>
+    <delivery_report>Leveransrapport</delivery_report>
+    <properties>Egenskaper</properties>
+    <doc_management>Dokumentegenskaper</doc_management>
+    <open>Öppna</open>
+    <open_pdf>Open as PDF</open_pdf>
+    <open_window>Öppna i fönster</open_window>
+    <edit>Redigera</edit>
+    <reply_to_sender>Svara</reply_to_sender>
+    <reply_to_all>Svara alla</reply_to_all>
+    <forward>Vidarebefodra</forward>
+    <forward_as_message>Vidarebefordra som bilaga</forward_as_message>
+    <redirect>Eftersänd</redirect>
+    <mark_as_read>Markera som läst</mark_as_read>
+    <mark_as_unread>Markera som oläst</mark_as_unread>
+    <move_mail_to>Flytta till mapp</move_mail_to>
+    <copy_mail_to>Kopiera till mapp</copy_mail_to>
+    <delete>Radera</delete>
+    <delete_selected>Radera valda</delete_selected>
+    <open_item>Öppna</open_item>
+    <move_item_to>Flytta till mapp</move_item_to>
+    <copy_item_to>Kopiera till mapp</copy_item_to>
+    <new_distriblist>Ny mottagarlista</new_distriblist>
+    <save_as>Spara som...</save_as>
+    <html>HTML</html>
+    <text>Text</text>
+    <eml>EML</eml>
+    <download_vcalendar>Spara som vCalendar</download_vcalendar>
+    <download_vcard>Spara som vCard</download_vcard>
+    <download_vnote>Spara som vNote</download_vnote>
+    <download_file>Ladda ner fil</download_file>
+    <open_office>Öppna i Office</open_office>
+    <deliver>Leverans</deliver>
+    <black_list>Svartlista</black_list>
+    <white_list>Vitlista</white_list>
+    <blacklist_sender>Svartlista avsändare</blacklist_sender>
+    <blacklist_domain>Blacklist whole Domain</blacklist_domain>
+    <whitelist_sender>Vitlista avsändare</whitelist_sender>
+    <whitelist_domain>Whitelist whole Domain</whitelist_domain>
+    <send_as_email>Skicka som e-post</send_as_email>
+    <send_email_to>Skicka meddelande</send_email_to>
+    <add_to_contacts>Skapa ny kontakt</add_to_contacts>
+    <add_to_exist_contacts>Lägg till existerande kontakt</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Lägg till i kontaktmapp</add_contact>
+    <add_im>Add to WebChat Contact List</add_im>
+    <add_to_im>Add to WebChat</add_to_im>
+    <add>Lägg till...</add>
+    <manage_sender>Administrera avsändare..</manage_sender>
+    <invite_appointment>Bjud in till avtalat möte</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Lägg till certifkat till kontakt</cert_to_contact>
+    <contacts>Kontakt</contacts>
+    <mandatorydetails>Please fill in your contact details</mandatorydetails>
+    <im>WebChat Roster</im>
+    <skip_delete>Fråga mig inte igen</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>Ingen färg</none>
+    <color>Färg</color>
+    <white_flag>Vit flagga</white_flag>
+    <red_flag>Röd flagga</red_flag>
+    <blue_flag>Blå flagga</blue_flag>
+    <yellow_flag>Gul flagga</yellow_flag>
+    <green_flag>Grön flagga</green_flag>
+    <orange_flag>Orange flagga</orange_flag>
+    <purple_flag>Lila flagga</purple_flag>
+    <flag_complete>Flaggning avslutad</flag_complete>
+    <clear_flag>Ta bort flagga</clear_flag>
+    <important>Viktigt</important>
+    <business>Arbete</business>
+    <personal>Personligt</personal>
+    <vacation>Ledighet</vacation>
+    <must_attend>Måste närvara</must_attend>
+    <travel_required>Resa krävs</travel_required>
+    <needs_preparation>Förberedelse krävs</needs_preparation>
+    <birthday>Födelsedag</birthday>
+    <anniversary>Jubeleum/årsdag</anniversary>
+    <phone_call>Ring</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Lägg till nytt e-postkonto</add_account>
+    <delete_account>Ta bort e-postkonto</delete_account>
+    <edit_account>Ändra e-postkonto</edit_account>
+    <validating>Bekräftar konto...</validating>
+    <invalid>Konto är inte giltig</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Inkorg</inbox>
+    <drafts>Utkast</drafts>
+    <sent>Skickat</sent>
+    <trash>Borttaget</trash>
+    <spam>Spam</spam>
+    <templates>Mall</templates>
+    <quarantine>Karantän</quarantine>
+    <spam_queue>Filter</spam_queue>
+    <spam_queue-whitelist>Vitlista</spam_queue-whitelist>
+    <spam_queue-blacklist>Svartlista</spam_queue-blacklist>
+    <virtual-folders>Sökmappar</virtual-folders>
+    <gw-trash>Återställ</gw-trash>
+    <calendars>Flera kalendrar</calendars>
+  </common_folders>
+  <folders>
+    <mails>E-post</mails>
+    <contacts>Kontakter / Adressbok</contacts>
+    <events>Kalender</events>
+    <tasks>Uppgift</tasks>
+    <notes>Anteckning</notes>
+    <journal>Journal</journal>
+    <files>Dokument</files>
+    <home>Hem</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>E-post</mail>
+    <contact>Kontakt</contact>
+    <event>Kalender</event>
+    <journal>Journal</journal>
+    <note>Anteckning</note>
+    <task>Uppgift</task>
+    <file>Dokument</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>Du kan inte flytta denna mapp</cantmove>
+    <cantrename>Du kan inte döpa om denna mapp</cantrename>
+    <cantdelete>Du kan inte radera denna mapp</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Bifogade filer</attachments>
+    <to>Till</to>
+    <subject>Ämne</subject>
+    <nosubject>Inget ämne</nosubject>
+    <cc>Kopia</cc>
+    <bcc>Hemlig kopia</bcc>
+    <body>Body</body>
+    <from>Från</from>
+    <date>Datum</date>
+    <size>Storlek</size>
+    <type>Typ</type>
+    <itmclassifyas>Kontaktnamn</itmclassifyas>
+    <phone>Telefon</phone>
+    <itmcompany>Företag</itmcompany>
+    <itmdepartment>Avdelning</itmdepartment>
+    <contact_email>E-post</contact_email>
+    <expires>Förfaller den</expires>
+    <itmcategory>Kategori</itmcategory>
+    <evntitle>Titel</evntitle>
+    <itmtitle>Titel</itmtitle>
+    <itmoriginalfolder>Original mappen</itmoriginalfolder>
+    <itm_deleted>Raderad</itm_deleted>
+    <item_moved>Raderad</item_moved>
+    <evnlocation>Plats</evnlocation>
+    <upcoming>Kommande</upcoming>
+    <event_startdate>Start</event_startdate>
+    <event_enddate>Slut</event_enddate>
+    <evntype>Kategori</evntype>
+    <evncontact>Kontakt</evncontact>
+    <evnstatus>Ej klar</evnstatus>
+    <task_startdate>Startdatum</task_startdate>
+    <task_enddate>Förfallodatum</task_enddate>
+    <sndemail>Avsändare</sndemail>
+    <sndowner>Ägare</sndowner>
+    <snddomain>Domän</snddomain>
+    <sndsubject>Ämne</sndsubject>
+    <revised_by>Bearbetad av</revised_by>
+    <comment>Kommentar</comment>
+    <qdate>Datum</qdate>
+    <name>Namn</name>
+    <evnfilename>Filnamn</evnfilename>
+    <evnnote>Beskrivning</evnnote>
+    <evn_modified>Ändrad</evn_modified>
+    <evnfilesize>Storlek</evnfilesize>
+    <lctphnwork1>Telefon arbete</lctphnwork1>
+    <lctphnfaxwork>Fax arbete</lctphnfaxwork>
+    <lctphnhome1>Telefon hem</lctphnhome1>
+    <lctphnmobile>Mobiltelefon</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Publik URL</public>
+    <share>Dela länk</share>
+    <ticket>Annat</ticket>
+    <revisions>Omarbetningar</revisions>
+    <revert>Återställa</revert>
+    <edit_comment>Redigera kommentarer</edit_comment>
+    <new_revision>Ny revidering</new_revision>
+  </item>
+  <event_view>
+    <week_label>Vecka</week_label>
+    <notitle>Ingen titel</notitle>
+    <private>Konfidentiell</private>
+    <newappointment>Nytt avtalat möte</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Läst: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Ditt meddelande har blivit läst.&#13;&#10;&#13;&#10;Meddelande detaljer följer:&#13;&#10;&#13;&#10;Från: %FROM%&#13;&#10;Till: %TO%&#13;&#10;Datum: %DATE%&#13;&#10;Ämne: %SUBJECT%</reading_confirmation>
+    <reply_message>-----Originalmeddelande-----</reply_message>
+    <reply_message_html>-----Originalmeddelande-----</reply_message_html>
+    <from>Från:</from>
+    <to>Till:</to>
+    <cc>Kopia:</cc>
+    <date>Datum:</date>
+    <subject>Ämne:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>Mr.</mr>
+    <mrs>Mrs.</mrs>
+    <miss>Miss</miss>
+    <ms>Ms.</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Jr.</jr>
+    <sr>Sr.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Visningsnamn</displayname>
+    <avatar>Bild</avatar>
+    <contact>Kontakt</contact>
+    <general>Allmänt</general>
+    <profile>Profil</profile>
+    <personal>Personligt</personal>
+    <business>Arbete</business>
+    <other_l>Övrigt</other_l>
+    <other>Annat</other>
+    <contact_name>Visa som</contact_name>
+    <sort_as>Sortera som</sort_as>
+    <first_name>Förnamn</first_name>
+    <middle_name>Mellannamn</middle_name>
+    <last_name>Efternamn</last_name>
+    <nick_name>Visningsnam</nick_name>
+    <full_name>Fullständigt namn</full_name>
+    <title>Titel</title>
+    <suffix>Suffix</suffix>
+    <category>Kategori</category>
+    <email_address>E-postadress</email_address>
+    <birthdate>Födelsedag</birthdate>
+    <anniversary>Jubileum/årsdag</anniversary>
+    <spouse>Sambo/make/maka</spouse>
+    <gender>Kön</gender>
+    <company>Företag</company>
+    <job>Jobb</job>
+    <profession>Befattning</profession>
+    <department>Avdelning</department>
+    <assistant>Assistent</assistant>
+    <manager>Chef</manager>
+    <office_location>Kontor</office_location>
+    <email1>E-post 1</email1>
+    <email2>E-post 2</email2>
+    <email3>E-post 3</email3>
+    <im>IM</im>
+    <phone>Telefon</phone>
+    <phones>Telefon(er)</phones>
+    <male>Man</male>
+    <female>Kvinna</female>
+    <street>Gata</street>
+    <city>Stad</city>
+    <zip>Postnummer</zip>
+    <state>Län</state>
+    <country>Land</country>
+    <home_address>Hemadress</home_address>
+    <business_address>Företagsadress</business_address>
+    <other_address>Annan adress</other_address>
+    <homepage>Hemsida</homepage>
+    <calendar_url>Kalenderadress</calendar_url>
+    <share_type>Dela typ</share_type>
+    <address>Adress</address>
+    <web>Webb</web>
+    <notes>Anteckningar</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Mottagarlista</distrib_list>
+    <general>Allmänt</general>
+    <members>Medlemmar</members>
+    <title>Titel</title>
+    <category>Kategori</category>
+    <add_title>Lägg till</add_title>
+    <edit_title>Redigera</edit_title>
+    <name>Namn</name>
+    <email>E-post</email>
+  </distrib_list>
+  <time_interval>
+    <from>Från</from>
+    <to>Till</to>
+    <duration>Varaktighet</duration>
+    <all_day_event>Heldag</all_day_event>
+    <days>Dagar</days>
+    <change_default>Ändra ursprunglig tidszon</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>Det här är en repeterande enhet</title_edit>
+    <text_edit>Ändra bara denna, alla i serierna, eller denna och alla följande?</text_edit>
+    <title_delete>Ingen repeterande enhet</title_delete>
+    <text_edit_2>Ändra endast denna, eller alla i serierna?</text_edit_2>
+    <text_delete>Ta bort endast denna, eller alla i serierna?</text_delete>
+    <btn_this>Bara denna</btn_this>
+    <btn_all>Alla i serierna</btn_all>
+    <btn_allfromnow>Alla kommande</btn_allfromnow>
+    <btn_cancel>Avbryt</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Decline reason</reason>
+    <event>Händelse</event>
+    <general>Allmänt</general>
+    <repeating>Upprepa</repeating>
+    <schedule>Schema</schedule>
+    <reminders>Påminnelse</reminders>
+    <onlinemeeting>WebMeeting</onlinemeeting>
+    <startmeeting>Börja nu</startmeeting>
+    <joinmeeting>Anslut nu</joinmeeting>
+    <title>Titel</title>
+    <location>Plats</location>
+    <category>Kategori</category>
+    <notes>Anteckningar</notes>
+    <timezone>Tidszon</timezone>
+    <show_as>Visa som</show_as>
+    <free>Ledig</free>
+    <busy>Upptagen</busy>
+    <tentative>Preliminärt</tentative>
+    <out_of_office>Ej på plats</out_of_office>
+    <unknown>Ingen information</unknown>
+    <label>Titel</label>
+    <meeting_hint>Skapa och anslut till möten, dela din skärm</meeting_hint>
+    <high>Hög:</high>
+    <low>Låg:</low>
+  </event>
+  <file>
+    <file>Dokument</file>
+    <expire>Löper ut %s</expire>
+    <name>Filnamn</name>
+    <lock>Lås</lock>
+    <unlock>Lås upp</unlock>
+    <locked>Låst</locked>
+    <unlocked>Olåst</unlocked>
+    <locked_by>Detta dokument är låst utav %s</locked_by>
+    <blank_doc>Dokument</blank_doc>
+    <description>Beskrivning</description>
+    <new_doc>Filen är tom</new_doc>
+    <converting>Document conversion in progress.</converting>
+  </file>
+  <note>
+    <note>Anteckning</note>
+    <category>Kategori</category>
+    <title>Titel</title>
+    <general>Allmänt</general>
+  </note>
+  <task>
+    <task>Uppgift</task>
+    <attendees>Närvarande</attendees>
+    <status>Status</status>
+    <complete>Slutförd</complete>
+    <repeating>Upprepning</repeating>
+    <reminders>Påminnelser</reminders>
+    <general>Allmänt</general>
+    <title>Titel</title>
+    <start_date>Startdatum</start_date>
+    <due_date>Förfallodatum</due_date>
+    <category>Kategori</category>
+    <not_started>Ej startad</not_started>
+    <in_progress>Pågår</in_progress>
+    <completed>Slutförd</completed>
+    <deferred>Uppskjuten</deferred>
+    <waiting>Väntar på någon annan</waiting>
+    <done>Klar</done>
+  </task>
+  <blackwhite>
+    <black>Svartlista</black>
+    <white>Vitlista</white>
+    <email>E-post</email>
+  </blackwhite>
+  <compose>
+    <template>Mall</template>
+    <newmail>E-postmeddelande</newmail>
+    <send>Skicka</send>
+    <sendinfo>Skicka meddelande</sendinfo>
+    <save>Spara</save>
+    <saveinfo>Skicka meddelande till utkast</saveinfo>
+    <options>Alternativ</options>
+    <advanced>Avancerade alternativ</advanced>
+    <html>HTML</html>
+    <text>Text</text>
+    <sms>SMS</sms>
+    <compose_sms>Skriv SMS</compose_sms>
+    <sms_preview>SMS Förhandsgranska</sms_preview>
+    <sms_info>%s tecken i %s meddelanden</sms_info>
+    <smartattach>SmartAttach</smartattach>
+    <smartattachinfo>Bilagor sparas i dina dokument och ersätts av en nerladdningbar hyperlänk i e-postmeddelandet.</smartattachinfo>
+    <readconfirmationinfo>Få en bekräftelse på att mottagaren fått detta meddelande</readconfirmationinfo>
+    <show_all>Visa alla poster</show_all>
+    <signinfo>Signera meddelandet digitalt</signinfo>
+    <encryptinfo>Krypera meddelandet</encryptinfo>
+    <priorityinfo>Ange prioritet för meddelandet</priorityinfo>
+    <subject_empty>Meddelandet har inget ämne.&lt;br&gt;Vill du skicka det ändå?</subject_empty>
+    <rcp_empty>Lägg till en mottagare att skicka e-post till.</rcp_empty>
+    <optionstitle>Meddelandealternativ</optionstitle>
+    <encrypt>Kyptera meddelandet</encrypt>
+    <sign>Signera meddelandet digitalt</sign>
+    <nosign>Ingen signeringscertifikatet hittades. Skicka meddelandet osignerade?</nosign>
+    <delivery_report>Visa leveransförlopp</delivery_report>
+    <reply_to>Svara</reply_to>
+    <upload_file>Bifoga från lokal disk</upload_file>
+    <upload_item>Bifoga från WebClient</upload_item>
+  </compose>
+  <sharing>
+    <public>Publik</public>
+    <private>Privat</private>
+    <anonymous>Anonym / Alla</anonymous>
+    <custom>Anpassa</custom>
+    <inherited>Ärvd</inherited>
+    <none>Ingen</none>
+    <enter_address>Ange adress</enter_address>
+    <permissions>Behörigheter</permissions>
+    <user>Användare</user>
+    <items>Poster</items>
+    <folder>Mappar</folder>
+    <administration>Administration</administration>
+  </sharing>
+  <time>
+    <hours>Timmar</hours>
+    <minutes>Minuter</minutes>
+    <days>Dagar</days>
+    <oneday>dag</oneday>
+    <moredays>dagar</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Välj kontakt</select_emails>
+    <add>Lägg till</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Sök</placeholder>
+    <tags>Taggar</tags>
+    <used>Använd</used>
+    <hint>Används av %s item(s)</hint>
+    <selected>Markerade</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Hem 1</lctphnhome1>
+    <lctphnhome2>Hem 2</lctphnhome2>
+    <lctphnassistant>Assistant</lctphnassistant>
+    <lctphnwork1>Arbete 1</lctphnwork1>
+    <lctphnwork2>Arbete 2</lctphnwork2>
+    <lctphnfaxhome>Fax hem</lctphnfaxhome>
+    <lctphnfaxwork>Fax arbete</lctphnfaxwork>
+    <lctphncallback>Återuppringning</lctphncallback>
+    <lctphncompany>Företag</lctphncompany>
+    <lctphncar>Bil</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>Mobil</lctphnmobile>
+    <lctphnother>Annat</lctphnother>
+    <lctphnotherfax>Fax annat</lctphnotherfax>
+    <lctphnpager>Personsökare</lctphnpager>
+    <lctphnprimary>Primär</lctphnprimary>
+    <lctphnradio>Radio</lctphnradio>
+    <lctphntelex>Telex</lctphntelex>
+    <lctphnhearing>Höra</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>Dag</day>
+    <week>Vecka</week>
+    <week_of_month>Vecka i månad</week_of_month>
+    <month_of_year>Månad i år</month_of_year>
+    <month>Månad</month>
+    <year>År</year>
+    <year_s>år</year_s>
+    <repeats>Upprepa varje:</repeats>
+    <not_repeats>Ingen upprepning</not_repeats>
+    <end_date>Slutdatum:</end_date>
+    <no_end>Inget slutdatum</no_end>
+    <until>Till</until>
+    <count>Räkna</count>
+    <daily>Daglig</daily>
+    <weekly>Veckovis</weekly>
+    <monthly>Månadsvis</monthly>
+    <yearly>Årlig</yearly>
+    <every>Varje</every>
+    <the>Den</the>
+    <of>av</of>
+    <recur_every>Återkomm varje</recur_every>
+    <weeks_on>veckor på:</weeks_on>
+    <of_every>av varje</of_every>
+    <months>månad</months>
+    <days>dagar</days>
+    <day_list>vecka</day_list>
+    <every_weekday>Varje veckodag</every_weekday>
+    <first>första</first>
+    <second>andra</second>
+    <third>tredje</third>
+    <fourth>fjärde</fourth>
+    <last>sist</last>
+    <weekday>arbetsvecka</weekday>
+    <weekend_day>helgen</weekend_day>
+  </repeating>
+  <reminder>
+    <none>Ingen</none>
+    <email>E-post</email>
+    <popup>PopUp</popup>
+    <address>Adress</address>
+    <remind1>Påminn mig</remind1>
+    <remind2>före</remind2>
+    <is_reminder>Sänd påminnelse</is_reminder>
+    <no_reminder>Sänd inte påminnelse</no_reminder>
+    <type>Typ</type>
+    <snooze>Snooze</snooze>
+    <meeting>Sätt igång nu</meeting>
+    <dismiss>Stäng av</dismiss>
+    <reminder>Påminnelse</reminder>
+  </reminder>
+  <journal>
+    <journal>Journal</journal>
+    <title>Titel</title>
+    <type>Typ</type>
+    <company>Företag</company>
+    <conversation>Konversation</conversation>
+    <document>Dokument</document>
+    <e-mail_message>E-postmeddelande</e-mail_message>
+    <fax>Fax</fax>
+    <letter>Brev</letter>
+    <meeting>Möte</meeting>
+    <meeting_cancellation>Möte inställt</meeting_cancellation>
+    <meeting_request>Möte önskas</meeting_request>
+    <meeting_response>Svar angående möte</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Anteckning</note>
+    <phone_call>Telefonsamtal</phone_call>
+    <remote_session>Fjärrsession</remote_session>
+    <task>Uppgift</task>
+    <task_request>Begär uppgift</task_request>
+    <task_response>Respons på uppgift</task_response>
+  </journal>
+  <certificate>
+    <purposes>Detta certifikat är avsett för följande ändamål(en)</purposes>
+    <ssl>Styrka din identitet för en fjärrdator</ssl>
+    <smime>Skydda e-post</smime>
+    <serial>Serial</serial>
+    <view>Visa</view>
+    <certificate>Certifikat</certificate>
+    <invalid>Ogiltigt certifikat eller lösenfras</invalid>
+    <passphrase>Lösenords hint</passphrase>
+    <issuedto>Utfärdas till</issuedto>
+    <issuedby>Emitterade av</issuedby>
+    <email>E-post</email>
+    <validity>Giltighet</validity>
+    <badtype>Privat del saknas</badtype>
+    <missing>Inget certifikat hittas</missing>
+    <invaliditem>Det gick inte att bifoga certifikat</invaliditem>
+    <assigned>Certifikatet har lagts till</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Mappen finns inte: &quot;%s&quot;</folder_not_exist>
+    <accepted>Event was accepted</accepted>
+    <unsure>Event was replied tentatively</unsure>
+    <declined>Event was declined</declined>
+    <proposed>New time was proposed</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Force users to enter contact information</force_enter_user_info>
+    <disable_wipe>Disable Remote Wipe</disable_wipe>
+    <documents>Documents</documents>
+    <aliases>Alias</aliases>
+    <disable_mailformat>Inaktivera HTML/Plain-knappen i skrivfönstret.</disable_mailformat>
+    <disable_altmail>Göm alternativ e-post</disable_altmail>
+    <rcpt_suggest>Autocomplete</rcpt_suggest>
+    <rcpt_cache>Töm lista</rcpt_cache>
+    <keep_search>Behåll sökterm vid byte av mappar</keep_search>
+    <smartfolder>SmartAttach-mapp</smartfolder>
+    <always_show_rcp>Visa alltid adress</always_show_rcp>
+    <login_screen>Inloggningsskärm</login_screen>
+    <exclude_gal>Uteslut GAL från automatiska förslag</exclude_gal>
+    <password_policy>Lösenordspolicy</password_policy>
+    <notifications>Notifieringar</notifications>
+    <nofocus>Auto (endast bakgrund)</nofocus>
+    <autorevision_mode>Möjliggör automatisk bearbetning av dokument</autorevision_mode>
+    <disable_support>Avaktivera supportlänk vid inloggning</disable_support>
+    <check_subject>Kolla efter tomma ämnen</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Dölj delning för anonymt konto</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Visa favoritmappar</show_favorites>
+    <layout>Globala inställningar</layout>
+    <signature>Signatur</signature>
+    <signature_separator>Lägg till skiljetecken för standardsignatur &quot;-- &quot;</signature_separator>
+    <signature_to_top>Signatur i början av meddelandet</signature_to_top>
+    <groups>Grupper</groups>
+    <group>Grupp</group>
+    <trash_folder>Trash Folder</trash_folder>
+    <sent_folder>Skickat</sent_folder>
+    <groupsend>Spara skickade meddelanden i pubilk mapp för denna grupp</groupsend>
+    <ftime>Flytande tid</ftime>
+    <sso_only>Tillåt endast SSO inloggning</sso_only>
+    <activity_monitor>Logga ut efter inaktivitet (Minuter)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 timmar</time_12>
+    <time_24>24 timmar</time_24>
+    <logout_url>URL för att logga ut</logout_url>
+    <disable_attach_item>Inaktivera bilagor från WebClient</disable_attach_item>
+    <disable_virtual>Inaktivera sökmappen</disable_virtual>
+    <disable_interfaces>Inaktivera gränssnitt urval på inloggning</disable_interfaces>
+    <disable_languages>Inaktivera val av språk vid inloggning</disable_languages>
+    <confirm_exit>Bekräftelse på avslut</confirm_exit>
+    <compose>Sammansatt meddelande</compose>
+    <never>Aldrig</never>
+    <always>Alltid</always>
+    <homepage>Startsida</homepage>
+    <banner_enable>Aktivera Banner-frame</banner_enable>
+    <application_enable>Aktivera applikations nerladdning via banner-frame</application_enable>
+    <banner_url>Banner URL</banner_url>
+    <banner_height>Banner höjd</banner_height>
+    <count_subject>Gruppera efter prefix (ex. SV[4], VB[2])</count_subject>
+    <reply_prefix>Använd svar prefix (&gt;)</reply_prefix>
+    <collate>Använd sammanställning i SQL</collate>
+    <init_page>Förstasidan</init_page>
+    <remember_folder>Kom ihåg senaste mappen</remember_folder>
+    <show_inbox>Inkorg</show_inbox>
+    <show_home>Startsida</show_home>
+    <clear_trash>Ta bort e-post från borttaget äldre än (Dagar)</clear_trash>
+    <clear_gwtrash>Ta bort poster från borttaget äldre än  (Dagar)</clear_gwtrash>
+    <alias>Alias</alias>
+    <subscribed_holidays>Bevakade helgdagar</subscribed_holidays>
+    <holidays>Semester</holidays>
+    <weather>Väder</weather>
+    <temperature>Temperatur</temperature>
+    <c>Celsius (°C)</c>
+    <f>Fahrenheit (°F)</f>
+    <city>Stad</city>
+    <disable_folder_types>Inaktivera valda mapptyper</disable_folder_types>
+    <antispam>Anti-Spam</antispam>
+    <spam_mode>Skräppostmapp läge</spam_mode>
+    <reports_mode>Spamrapportläge</reports_mode>
+    <quarantine>Karantän</quarantine>
+    <last_time>Senaste tiden</last_time>
+    <last_ip>Senaste IP-adressen</last_ip>
+    <current_time>Aktuell tid</current_time>
+    <current_ip>Aktuell IP-adress</current_ip>
+    <default>Standard</default>
+    <use_spam>Använd Spammapp</use_spam>
+    <not_spam>Använd inte Spammapp</not_spam>
+    <disabled>Inaktivera</disabled>
+    <all>Alla</all>
+    <full>Full</full>
+    <new_items>Nya objekt</new_items>
+    <smtp_relay>Spara leverans</smtp_relay>
+    <restrictions>Begränsningar</restrictions>
+    <hide_sortstring>Dölj sortering (sträng)</hide_sortstring>
+    <disable_aliases>Inaktivera alias</disable_aliases>
+    <disable_redirect>Inaktivera omdirigering</disable_redirect>
+    <disable_other_accounts>Inaktivera andra konton</disable_other_accounts>
+    <disable_edit_vcard>Deaktivera redigering av mina detaljer</disable_edit_vcard>
+    <disable_edit_account>Inaktivera &quot;Mitt konto&quot; redigering</disable_edit_account>
+    <disable_change_password>Deaktivera ändring av lösenord</disable_change_password>
+    <disable_antispam_control>Dölj Anti-Spam filken</disable_antispam_control>
+    <disable_licenses>Deaktivera licensflik</disable_licenses>
+    <disable_login_help>Ta bort inloggningshjälp</disable_login_help>
+    <disable_login_banners>Deaktivera banner för inloggning</disable_login_banners>
+    <disable_signup>Deaktivera anmälan</disable_signup>
+    <disable_sip>Inaktivera VoIP</disable_sip>
+    <disable_call_forwarding>Inaktivera samtalsvidarekoppling</disable_call_forwarding>
+    <disable_external_sip>Inaktivera extern VoIP</disable_external_sip>
+    <disable_export>Inaktivera GroupWare export</disable_export>
+    <disable_smart>Inaktivera SmartAttach</disable_smart>
+    <disable_dropbox>Deaktivera Dropbox</disable_dropbox>
+    <disable_im>Disable WebChat</disable_im>
+    <disable_sms>Inaktivera SMS</disable_sms>
+    <disable_remember_pulldown>Inaktivera &quot;Kom ihåg mig&quot;</disable_remember_pulldown>
+    <disable_autofill>Deaktivera användarnamn/lösenord Autofyll</disable_autofill>
+    <disable_rules>Inaktivera regler</disable_rules>
+    <disable_gmaps>Inaktivera Google Maps</disable_gmaps>
+    <disable_forwarder>Dölj &quot;Vidarebefodra&quot; fliken</disable_forwarder>
+    <disable_keep_emails>Göm &quot;Spara e-post i brevlådan&quot; vid vidarebefordring</disable_keep_emails>
+    <disable_autoresponder>Dölj &quot;Autosvar&quot; fliken</disable_autoresponder>
+    <share_mode>Delning</share_mode>
+    <share_p>Privat (Delas inte)</share_p>
+    <share_pf>Publik (Delas med alla)</share_pf>
+    <share_f>Vänner (Delas endast med vänner)</share_f>
+    <daily_event_report>Skicka daglig händelserapport via e-post</daily_event_report>
+    <reminder_notification>Skicka påminnelse via e-post</reminder_notification>
+    <reminder_email>Påminnelse och dagordning skickas till:</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Applikationsnyckel</dropbox_app_key>
+    <dropbox_instructions>För integration av Dropbox, logga in på www.dropbox.com, gå till utvecklarsektionen och skapa en applikationsnyckel. Du får ett meddelande om att ange en kort beskrivning och värdnamn eller IP för att få tillgång till WebClient.</dropbox_instructions>
+    <server>Server</server>
+    <login_with_email>Logga in med e-postadress</login_with_email>
+    <server_logs>Loggningsläge</server_logs>
+    <server_logs0>Inaktivera</server_logs0>
+    <server_logs2>Sammanställning</server_logs2>
+    <server_logs3>Debug</server_logs3>
+    <server_logs4>Utökad</server_logs4>
+    <http_port>HTTP port</http_port>
+    <imapserver>IMAP server</imapserver>
+    <smtpserver>SMTP server</smtpserver>
+    <xmppserver>XMPP server</xmppserver>
+    <port>Port</port>
+    <pgtitle>Sidtitel</pgtitle>
+    <logo>Logotyp</logo>
+    <login_style>Layout</login_style>
+    <login_client>Önskat gränssnitt</login_client>
+    <skin_style>Layout</skin_style>
+    <interfaces>Tillgängliga gränssnitt</interfaces>
+    <spell_language>Stavningskontroll</spell_language>
+    <delete_emptyfolder>Ta bort meddelande när du väljer &quot;Töm mapp&quot;</delete_emptyfolder>
+    <show_images>Visa externa bilder automatiskt</show_images>
+    <show_images_spam>Tillämpa även på spamkorgen</show_images_spam>
+    <auto_show_images>Automatisk förhandsgranskning av bifogade bilder</auto_show_images>
+    <sound_notify>Aktivera ljudmeddelande</sound_notify>
+    <domains_settings>Domäner</domains_settings>
+    <domain>Domän</domain>
+    <edit_settings>Ändra domäninställningar</edit_settings>
+    <resetpass>Lösenordsåterställning</resetpass>
+    <resetmail>E-post</resetmail>
+    <resetenable>Möjliggör lösenordsåterställning</resetenable>
+    <accounts>Konton</accounts>
+    <account>Konto</account>
+    <tools>Verktyg</tools>
+    <autoresponder>Autosvar</autoresponder>
+    <forwarder>Vidarebefodra</forwarder>
+    <pcertificate>Privata certifikat</pcertificate>
+    <certificate>Certifikat</certificate>
+    <mail_settings>E-post</mail_settings>
+    <im_settings>WebChat</im_settings>
+    <sip_settings>WebPhone</sip_settings>
+    <sip_webrtc>Använd webbläsarens kapacitet för media när det är möjligt</sip_webrtc>
+    <sip_start>Start interna VoIP klient automatiskt</sip_start>
+    <sip_internal>Integrera med ditt VoIP-konto (SIP)</sip_internal>
+    <sip_external>Integrera med extern VoIP konto (SIP)</sip_external>
+    <sip_dial>Ring via externt VoIP-konto (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>Ring via VoIP-konto (tidigare registrerad softphone/telefon)</sip_dial_internal>
+    <call_forwarding>Vidarekoppla ett samtal</call_forwarding>
+    <use_forwarding>Använd samtalsvidarekoppling</use_forwarding>
+    <forward_to>Vidarebefordra samtal till</forward_to>
+    <forward_after>Vidarebefordra efter (sekunder)</forward_after>
+    <chat_window>Chatfönster</chat_window>
+    <auto_chat>Öppna chattfönster automatisk</auto_chat>
+    <auto_subscribe>Automatisk prenumeration för nya användare</auto_subscribe>
+    <remember_status>Kom ihåg status</remember_status>
+    <extended_status>Tillgängliga status</extended_status>
+    <newline_chat>Chatta på ny rad</newline_chat>
+    <smiles_chat>Använd uttryckssymboler</smiles_chat>
+    <enter_send>Skicka meddelanden med returtangent</enter_send>
+    <general_settings>Allmänt</general_settings>
+    <other_accounts>Andra konton</other_accounts>
+    <primary_accounts>Mitt konto</primary_accounts>
+    <account_settings>Konton</account_settings>
+    <importexport_settings>Importera/Exportera</importexport_settings>
+    <default_reminder>Standardpåminnelse</default_reminder>
+    <use_sslswfatt>Använd HTTP Flash uppladdning i SSL Session</use_sslswfatt>
+    <use_swfupload>Använd Flash vid uppladdning av bilagor</use_swfupload>
+    <use_office>Öppna i Office när det är möjligt</use_office>
+    <banner_enabled>Tillåt banner på inloggningssidan</banner_enabled>
+    <twitter_disabled>Inaktivera Twitter integration</twitter_disabled>
+    <twitter_link>Twitter-länk</twitter_link>
+    <facebook_disabled>Inaktivera Facebook integration</facebook_disabled>
+    <facebook_link>Facebook-länk</facebook_link>
+    <skin>Utseende</skin>
+    <items_ab_shown>Antalet utvalda objekt</items_ab_shown>
+    <date_format>Datumformat</date_format>
+    <time_format>Tidsformat</time_format>
+    <language>Språk</language>
+    <timezone>Tidszon</timezone>
+    <general>Allmänt</general>
+    <default_mail_settings>Mail</default_mail_settings>
+    <folders_mapping>Mappar</folders_mapping>
+    <subject>Ämne</subject>
+    <message_format>Meddelandeformat</message_format>
+    <re_message_format>Format på svarsmeddelande</re_message_format>
+    <html_message>HTML meddelande</html_message>
+    <read_confirmation>Läskvitto</read_confirmation>
+    <request_read_confirmation>Begär läsbekräftelse</request_read_confirmation>
+    <send_read_confirmation>Tillåt sända</send_read_confirmation>
+    <ask_before>Fråga mig innan du skickar</ask_before>
+    <smart_attach>Använd SmartAttach</smart_attach>
+    <save_sent_message>Spara skickade meddelanden i skickatmappen</save_sent_message>
+    <save_folder_message>Spara skickade meddelanden</save_folder_message>
+    <encrypt>Kryptera meddelanden</encrypt>
+    <sign>Signera meddelanden digitalt</sign>
+    <appendvcard>Bifoga mina uppgifter (vCard)</appendvcard>
+    <charset>Teckenformat</charset>
+    <priority>Prioritet</priority>
+    <reply_to>Svarsadress</reply_to>
+    <reply_myself>Skicka dolda kopior till mig</reply_myself>
+    <move_to_trash>Flytta borttagna meddelande till borttaget</move_to_trash>
+    <auto_add_recipient_to_addressbook>Lägg automatiskt till mottagare i kontakter</auto_add_recipient_to_addressbook>
+    <edit_rules>Regler</edit_rules>
+    <rules>Regler</rules>
+    <forward_messages>Vidarebefodrade meddelande</forward_messages>
+    <inline>Inkludera</inline>
+    <as_attachment>Som bifogat</as_attachment>
+    <autoupdate_message>Skicka och ta emot automatiskt (minuter)</autoupdate_message>
+    <autosave_message>Spara automatiskt meddelande (minuter)</autosave_message>
+    <calendar_settings>Kalender</calendar_settings>
+    <main>Huvudsaklig</main>
+    <day_begins_at>Dagen börjar</day_begins_at>
+    <day_ends_at>Dagen slutar</day_ends_at>
+    <week_begins_on>Veckan börjar med</week_begins_on>
+    <week_starts_today>Veckan startar på nuvarande dag</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Delning</sharing_settings>
+    <shared_email>Delade e-post</shared_email>
+    <email>E-post</email>
+    <rights>Rättigheter</rights>
+    <read>Läs</read>
+    <write>Skriv</write>
+    <modify>Ändra</modify>
+    <delete>Radera</delete>
+    <owner>Ägare</owner>
+    <acc_name>Namn</acc_name>
+    <quota>Diskutrymme</quota>
+    <sms_quota>SMS-kvot</sms_quota>
+    <quota_home>Diskkvot (inkl. poster från alla e-postmappar, filmappar, bilagor till kontakter, händelser,...)</quota_home>
+    <description>Beskrivning</description>
+    <old_password>Gammalt lösenord</old_password>
+    <new_password>Nytt lösenord</new_password>
+    <new_password_conf>Bekräfta lösenord</new_password_conf>
+    <save_drafts_to>Spara utkats i</save_drafts_to>
+    <default_flag>Standardflagga</default_flag>
+    <alternative_email>Alternativ e-postadress</alternative_email>
+    <default_settings>Standardinställning</default_settings>
+    <event_view>Händelsevisning</event_view>
+    <event_show_as>Visa händelse som</event_show_as>
+    <event_sharing>Delning av kalender</event_sharing>
+    <contact_sharing>Delning av kontakter</contact_sharing>
+    <journal_sharing>Delning av journal</journal_sharing>
+    <note_sharing>Delning av anteckningar</note_sharing>
+    <task_sharing>Delning av uppgifter</task_sharing>
+    <file_sharing>Fildelning</file_sharing>
+    <force_for_domainadmin>Använda detta alternativet för både domänadministratörer och användare</force_for_domainadmin>
+    <force_for_users>Använd detta alternativet för alla användare</force_for_users>
+    <force>Tvinga alternativ</force>
+  </settings>
+  <email_priority>
+    <highest>Högst</highest>
+    <high>Hög</high>
+    <normal>Normal</normal>
+    <medium>Medium</medium>
+    <low>Låg</low>
+    <lowest>Lägst</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Välj mapp</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Välj post</insert_item>
+    <untitled>Utan titel</untitled>
+    <embedded>Inbäddad</embedded>
+    <link>Länk</link>
+  </insert_item>
+  <attendees>
+    <shared>Föreslagna Kontakter</shared>
+    <add_title>Lägg till</add_title>
+    <edit_title>Redigera</edit_title>
+    <resource>Resurs</resource>
+    <remove>Ta bort</remove>
+    <edit>Redigera</edit>
+    <name>Namn</name>
+    <email>E-post</email>
+    <folder>Mapp</folder>
+    <all_attendees>Alla deltagare</all_attendees>
+    <status>Status</status>
+    <status_p>Oavslutad</status_p>
+    <status_a>Accepterade</status_a>
+    <status_d>Avvisad</status_d>
+    <role>Roll</role>
+    <role_q>Nödvändig</role_q>
+    <role_s>Resurs</role_s>
+    <role_t>Optional</role_t>
+    <role_g>Arrangör</role_g>
+    <quick_add>Ange deltagare eller resursnamn</quick_add>
+  </attendees>
+  <dial>
+    <dial>Ring upp</dial>
+    <keypad>Knappsats</keypad>
+    <call>Ring</call>
+    <mute>Tysta</mute>
+    <answer>Svara</answer>
+    <decline>Avböj</decline>
+    <filter>Visa endast WebPhone-kontakter</filter>
+    <hfilter>Visa bara missade samtal</hfilter>
+    <phone>WebPhone</phone>
+    <duration>Varaktighet:</duration>
+    <video>Video</video>
+    <localcam>Den här datorn</localcam>
+    <remotecam>Fjärrskrivbord</remotecam>
+    <answer_video>Svara + Video</answer_video>
+    <hang_up>Lägg På</hang_up>
+    <busy>Användaren är upptagen</busy>
+    <pbook>Telefonbok</pbook>
+    <refresh>Uppdatera Historik</refresh>
+    <call_duration>Samtalslängd %s</call_duration>
+    <history>Historik</history>
+    <missed>Missat</missed>
+    <incoming>Inkommande</incoming>
+    <outgoing>Utgående</outgoing>
+    <select_contect>Välj önskad kontakt</select_contect>
+    <calling>Samtal till</calling>
+    <incomingcall>Samtal från</incomingcall>
+    <callestablished>Samtal med</callestablished>
+    <notify_ext>Uppringda över extern telefon</notify_ext>
+  </dial>
+  <sip>
+    <sip>WebPhone</sip>
+    <external>Dial over external phone</external>
+    <screen>Call with screensharing</screen>
+    <sip_status>WebPhone: %s</sip_status>
+    <default_contact>Standard WebPhone kontakter</default_contact>
+    <unreachable>Server är ej nåbar</unreachable>
+    <device>Ingen ljudenhet hittades</device>
+    <videonotsupported>Din webbläsare stöder inte videosamtal. Använd den senaste versionen av Chrome eller Firefox.</videonotsupported>
+    <offline>WebPhone är offline (samtal går över extern VoIP softphone/telefon)</offline>
+    <outgoingcall>Du ringer %s</outgoingcall>
+    <incomingcall>%s ringer dig</incomingcall>
+    <callongoing>Du är i samtal med %s</callongoing>
+    <callestablished>Samtal etablerat med %s</callestablished>
+    <userbusy>Användare %s är upptagen</userbusy>
+    <callfinished>Samtal avslutad</callfinished>
+    <callcanceled>Samtalet har avslutats</callcanceled>
+    <notreachable>Kan inte nå användaren på WebPhone</notreachable>
+    <calldeclined>Samtalet har avvisats</calldeclined>
+    <info>WebPhone Info: %s</info>
+    <notification>Användare %s är %s</notification>
+    <error>WebPhone fel</error>
+    <notice>WebPhone fel</notice>
+    <udp>Anslutningsfel till WebPhone. Kontrollera din brandvägg eller internetanslutning.</udp>
+    <slow>Initieringen är för långsam. WebPhone kanske inte fungerar ordentligt.</slow>
+    <init>Anslutningsfel på WebPhone. Kontrollera dina inställningar i Alternativ -&gt; Telefon.</init>
+    <mediarequest>Vänligen tillåta åtkomst till din mikrofon eller kamera. Alternativt klicka på knappen nedan för att få hjälp.</mediarequest>
+    <invalidstate>Kunde inte komma åt nödvändiga enheter.</invalidstate>
+    <nopermission>Enheten nekas eller blockeras. Du måste tillåta användning av mikrofon eller kamera.</nopermission>
+    <mediadenied>Kunde inte komma åt enheten. Den kan vara bortkopplade eller felkonfigurerad.</mediadenied>
+    <ffmedia>Använd mikrofonen eller kameraikonen uppe till vänster i webbläsaren för att tillåta eller neka tillgång till dina enheter.</ffmedia>
+    <nowebrtc>Din webbläsare stöder inte WebRTC för ljud/video. Använd en annan webbläsare (vi rekommenderar Chrome) eller installera en WebRTC-plugin.</nowebrtc>
+    <gettingmedia>Vänligen tillåta eller neka åtkomst till dina enheter för att fortsätta.</gettingmedia>
+    <occupied>WebPhone används redan.</occupied>
+  </sip>
+  <conference>
+    <planner>WebMeeting planner</planner>
+    <aborted>Mötet har avbrutits.</aborted>
+    <access>Åkomstinformation</access>
+    <allattendees>Alla deltagare</allattendees>
+    <missinguserid>Du är inte deltagare i detta möte. Avslutar mötet.</missinguserid>
+    <appletrunning>Java har startats, vänligen vänta tills du ansluter till mötet...</appletrunning>
+    <callestablished>WebMeeting is in progress</callestablished>
+    <callfinished>WebMeeting has ended</callfinished>
+    <came>har anslutit sig till mötet</came>
+    <cancelled>Mötet avslutades oväntat</cancelled>
+    <privatechat>Starta en privat chatt</privatechat>
+    <chatalreadymeeting>Du har fått en ny mötesinbjudan men kan inte ansluta just nu, eftersom du redan är upptagen av ett möte.</chatalreadymeeting>
+    <chatinvite>I would like to invite you to a WebMeeting</chatinvite>
+    <closed>The WebMeeting session ended</closed>
+    <closing>Vill du lämna detta möte eller avsluta mötet för alla deltagare?</closing>
+    <confirminvite>sent you an invitation to WebMeeting</confirminvite>
+    <connectfailure>Kan inte ansluta till möte</connectfailure>
+    <connecting>Försöker ansluta till möte...</connecting>
+    <create>Create new WebMeeting</create>
+    <created>WebMeeting created, starting meeting...</created>
+    <createfirst>There is currently no WebMeeting in progress, would you like to start one?</createfirst>
+    <delegate>Ange ordförande</delegate>
+    <screen>Remote screen</screen>
+    <desktop>Dela skärm</desktop>
+    <waitvideo>Väntar på fjärrskrivbord</waitvideo>
+    <notchrome>För skärmdelning måste du använda Chrome</notchrome>
+    <nohttps>En säker anslutning (https) krävs för skärmdelning.</nohttps>
+    <noplugin>Tillägg för skärmdelning är inte installerad</noplugin>
+    <desktopinfo>Dela din skärm med andra deltagare</desktopinfo>
+    <dialin>Om du vill ringa in, slå ett av följande nummer:</dialin>
+    <disablefirebug>Firebug-anslutningen kan störa funktionaliteten. Deaktivera Firebug och logga in igen.</disablefirebug>
+    <dismiss>Avvisa deltagare</dismiss>
+    <duration>Varaktighet:</duration>
+    <end>End WebMeeting</end>
+    <endcall>Avsluta samtal</endcall>
+    <endforall>End WebMeeting for all</endforall>
+    <endinfo>Avslutar möte...</endinfo>
+    <finished>Din ljudinspelning behandlas och sparas i dokument.</finished>
+    <generalerror>Ett ospecificerat fel inträffade.</generalerror>
+    <id>Mötes-ID:</id>
+    <shortid>ID:</shortid>
+    <info>WebMeeting Info</info>
+    <instruct>Du är nu ansluten till röstkonferens, använd bara din mikrofon eller högtalare - vi rekommenderar hörlurar.</instruct>
+    <invalidmeetingid>Du kan inte ansluta till detta möte. Det har upphört eller har ogiltigt mötes-ID.</invalidmeetingid>
+    <invalidsessionid>Sessionen har förfallit, avslutar mötet</invalidsessionid>
+    <invitationedit>Inbjudningsmeddelande:</invitationedit>
+    <invite>Bjud in</invite>
+    <inviteinfo>Bjud in deltagare</inviteinfo>
+    <invitation_sent>Inbjudan skickas till</invitation_sent>
+    <invited>WebMeeting invitation received</invited>
+    <invitesubject>WebMeeting Invitation</invitesubject>
+    <join>Join WebMeeting</join>
+    <joining>Ansluter till möte</joining>
+    <leave>Lämna</leave>
+    <leaveinfo>Leave WebMeeting</leaveinfo>
+    <leaveorend>Välj en ny ordförande om du vill att mötet ska fortsätta. Annars avslutas mötet för alla deltagare.</leaveorend>
+    <leaving>Är di säker på att du vill lämna detta möte?</leaving>
+    <left>har lämnat mötet</left>
+    <leftchat>Meddelandet kunde inte levereras, deltagaren har lämnat mötet.</leftchat>
+    <mailinvite>Du kan nu delta på mötet</mailinvite>
+    <manager>ordförande</manager>
+    <meeting>WebMeeting</meeting>
+    <mikogoerror>Servern rapporterade ett fel med skärmdelningen.</mikogoerror>
+    <servererror>Allmänt mötesrelaterat fel uppstod. Kontakta administratören för ytterligare detaljer.</servererror>
+    <connectionerror>Mötet avbröts på grund av ett nätverksfel. Var gpd försök igen senare.</connectionerror>
+    <mute>Dämpa</mute>
+    <muteall>Dämpa alla deltagare</muteall>
+    <muteinfo>Dämpa mikrofon</muteinfo>
+    <muteone>Dämpa deltagare</muteone>
+    <attendees>Deltagare</attendees>
+    <chat>WebChat</chat>
+    <name>Namn:</name>
+    <needspecialpermissions>Otillräckliga rättigheter för att utföra detta arbete</needspecialpermissions>
+    <networkrequesterror>Det verkar som om det finns ett problem med nätverket. Du har kopplats från mötet.</networkrequesterror>
+    <nocallallowed>Calls are not allowed during a WebMeeting</nocallallowed>
+    <noparticipants>Inga deltagare</noparticipants>
+    <notaccessmode>WebMeeting service is disabled for this account.</notaccessmode>
+    <notauthenticated>Du kan inte autentisera mot denna tjänst.</notauthenticated>
+    <notenabled>WebMeetings are disabled by server administrator</notenabled>
+    <notonline>Det finns ingen nätverksanslutning</notonline>
+    <notsetupproperly>WebMeeting service is not configured properly.</notsetupproperly>
+    <notlicensed>Insufficient license for WebMeetings.</notlicensed>
+    <licenseerror>Insufficient license to start more WebMeetings.</licenseerror>
+    <offline>Mötet är offline</offline>
+    <ongoing>WebMeeting in progress</ongoing>
+    <onlyorganizercandothis>Tjänsten kan bara köras av mötesledaren</onlyorganizercandothis>
+    <onlysuperusercandothis>Du har inte tillåtelse att utföra operationen.</onlysuperusercandothis>
+    <organizer>ledare</organizer>
+    <pending>Waiting for organizer to start the WebMeeting...</pending>
+    <phone>Telefon:</phone>
+    <phoning>You are on a call. Would you like to end it and start the WebMeeting?</phoning>
+    <preparing>Får mötesdata</preparing>
+    <promoted>är nu ordförande</promoted>
+    <ready>Mötet har redan börjat</ready>
+    <recap>Denna information kan ses när som helst genom att du klickar på ikonen &quot;info&quot; ovan.</recap>
+    <record>Spela in ljud</record>
+    <recordinfo>Spelar in</recordinfo>
+    <recording>Spelar in ljud</recording>
+    <restart>Restart WebMeeting</restart>
+    <schedule>Schedule WebMeeting</schedule>
+    <scheduleorstart>Vill du starta ett möte nu eller schemalägga ett möte?</scheduleorstart>
+    <silenceinfo>Dämpa högtalare</silenceinfo>
+    <sipnoparticipants>Det finns inga deltagare, mötet avbröts.</sipnoparticipants>
+    <start>Start WebMeeting</start>
+    <started>Mötet har startats, väntar på att Audio ska starta...</started>
+    <startedconnect>Möte startat, ansluter...</startedconnect>
+    <startednojava>Mötet har startats, väntar fortfarande på att Audio ska starta...</startednojava>
+    <starting>Starta möte</starting>
+    <startnow>Start WebMeeting now</startnow>
+    <joinnow>Join existing WebMeeting</joinnow>
+    <terminate>Är du säker på att du vill avsluta mötet?</terminate>
+    <timeout>Gick inte att upprätta anslutning till möte</timeout>
+    <unknown>Okänd deltagare</unknown>
+    <unmuteone>Dämpa inte deltagare</unmuteone>
+    <details>WebMeeting details</details>
+    <callin>Säg upp detaljer</callin>
+    <url>Mötes-URL:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>Samtals-ID:</callid>
+    <waitfailure>Kan inte ansluta till möte.</waitfailure>
+    <waiting>Väntar på att Audio ska starta, detta kan ta en stund.</waiting>
+    <welcome>Welcome to IceWarp WebMeeting</welcome>
+    <me>Mig</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>Java krävs för att starta Officeapplikationer direkt från din webbläsare för att automatiskt kunna ladda upp dokumentändringar.</nolaunch>
+    <nooffice>Ingen Office suite upptäcktes.</nooffice>
+    <openfailed>Det gick inte att öppna dokumentet i Office. Vill du ladda ner det i stället?</openfailed>
+    <noappfound>Kunde inte hitta ett program för att öppna den här typen av dokument.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Läge:</mode>
+    <disabled>Inaktiverad</disabled>
+    <respond_always>Svara alltid</respond_always>
+    <respond_once>Svara en gång</respond_once>
+    <respond_after_period>Svara igen efter period</respond_after_period>
+    <respond_period>Svara igen efter (dagar):</respond_period>
+    <from>Från</from>
+    <subject>Ämne</subject>
+    <text>Meddelande</text>
+    <respond_only_if_to_me>Svara bara meddelande skickat till min e-postadress</respond_only_if_to_me>
+    <respond_between>Svara bara mellan:</respond_between>
+    <noresponderfor>Inget autosvar för</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Vidarebefodra till:</forward_to>
+    <keep_copy>Spara meddelande i mailbox</keep_copy>
+    <forward_older>Vidarebefodra äldre mail än (dagar):</forward_older>
+    <forward_older_to>Vidarebefodra äldre mail till:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Lägg till / Ändra</addedit>
+    <header>Rubrik</header>
+    <filters>Filter</filters>
+    <edit_header>Ändra header</edit_header>
+    <empty_operator/>
+    <not>inte</not>
+    <and>och</and>
+    <or>eller</or>
+    <and_not>och inte</and_not>
+    <or_not>eller inte</or_not>
+    <from>Från:</from>
+    <to>Till:</to>
+    <subject>Ämne:</subject>
+    <cc>Kopia:</cc>
+    <reply_to>Svara till:</reply_to>
+    <date>Datum:</date>
+    <message>Meddelande</message>
+    <message_type>Meddelandetyp:</message_type>
+    <message_body>Meddelande</message_body>
+    <custom_message_header>Vald meddelandehuvud</custom_message_header>
+    <any_message_header>Alla meddelandehuvuden</any_message_header>
+    <attachment_name>Namn på bifogat</attachment_name>
+    <sender>Avsändare</sender>
+    <recipient>Mottagare</recipient>
+    <senders_ip>Avsändarens IP</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Avsändare</ip>
+    <all_messages>Alla meddelande</all_messages>
+    <no_messages>Alla meddelande</no_messages>
+    <priority_is>prioritet är</priority_is>
+    <priority_isnt>prioritet är inte</priority_isnt>
+    <is_spam>är spam</is_spam>
+    <isnt_spam>är inte spam</isnt_spam>
+    <is_greater_than>är högre än</is_greater_than>
+    <is_lower_than>är lägre än</is_lower_than>
+    <match_case>Matcha stora eller små bokstäver</match_case>
+    <regexp>Regex</regexp>
+    <whole_word>Hela ord</whole_word>
+    <matches>matchar</matches>
+    <doesnt_match>matchar inte</doesnt_match>
+    <contains_string>innehåller</contains_string>
+    <doesnt_contain_string>innehåller inte</doesnt_contain_string>
+    <matches_regex>matchar regex</matches_regex>
+    <doesnt_match_regex>matchar inte regex</doesnt_match_regex>
+    <is_string>är</is_string>
+    <isnt_string>är inte</isnt_string>
+    <spam_score>Spam poäng</spam_score>
+    <authorized>Behörig</authorized>
+    <unauthorized>Obehörig</unauthorized>
+    <add>Lägg till</add>
+    <delete>Radera</delete>
+    <up>Upp</up>
+    <down>Ner</down>
+    <action>Aktion</action>
+    <actions>Åtgärder</actions>
+    <accept>Acceptera</accept>
+    <reject>Avvisa</reject>
+    <quarantine>Karantän</quarantine>
+    <spam>Spam</spam>
+    <stop_processing>Stoppa regel</stop_processing>
+    <move_to>Flytta till</move_to>
+    <copy_to>Kopiera till</copy_to>
+    <encrypt_message>Kryptera meddelande</encrypt_message>
+    <set_message_priority>Ange prioritet</set_message_priority>
+    <set_message_flag>Flagga meddelande med</set_message_flag>
+    <text>Text:</text>
+    <title>Titel</title>
+    <conditions>Villkor</conditions>
+    <edit>Redigera</edit>
+    <rule>Regel</rule>
+    <rules>Regler</rules>
+    <highest>högst</highest>
+    <high>hög</high>
+    <normal>normal</normal>
+    <low>låg</low>
+    <lowest>lägst</lowest>
+    <spam_is_greater_than>är högre än</spam_is_greater_than>
+    <spam_is_lower_than>är lägre än</spam_is_lower_than>
+    <forward_to>Vidarebefodra till</forward_to>
+    <send_message>Skicka meddelande</send_message>
+    <three_dots>...</three_dots>
+    <email>E-post</email>
+    <instant_messaging>WebChat</instant_messaging>
+    <active>Aktiv</active>
+  </filters>
+  <rich>
+    <alt>Alternativa text</alt>
+    <code>Källa</code>
+    <paragraph>Formatering</paragraph>
+    <normal>Normal</normal>
+    <heading>Rubrik</heading>
+    <clearformatting>Gör klar formatering</clearformatting>
+    <font>Teckensnitt</font>
+    <size>Storlek</size>
+    <rows>Rader</rows>
+    <columns>Kolumner</columns>
+    <padding>Cell utfyllnad</padding>
+    <spacing>Cell avstånd</spacing>
+    <img_spacing>Radavstånd</img_spacing>
+    <bordercolor>Ramfärg</bordercolor>
+    <border>Ram</border>
+    <bold>Gör fetstil</bold>
+    <italic>Gör kursiv</italic>
+    <underline>Understruken text</underline>
+    <style>Formateringstyp</style>
+    <align>Justera</align>
+    <left>Vänsterjustera</left>
+    <center>Centrera</center>
+    <right>Högerjustera</right>
+    <justify>Justera</justify>
+    <numberedlist>Numrerad lista</numberedlist>
+    <bulletedlist>Punktlista</bulletedlist>
+    <indent>Indrag</indent>
+    <leftindent>Vänsterindrag</leftindent>
+    <rightindent>Högerindrag</rightindent>
+    <bgcolor>Bakgrundfärg</bgcolor>
+    <color>Textfärg</color>
+    <cut>Klipp ut</cut>
+    <copy>Kopiera</copy>
+    <paste>Klistra in</paste>
+    <pastew>Klistra in som text</pastew>
+    <insert>Infoga</insert>
+    <addlink>Länk</addlink>
+    <table>Tabell</table>
+    <image>Bild</image>
+    <dropbox>Dropbox länk</dropbox>
+    <spell>Stavningskontroll</spell>
+    <url>URL</url>
+    <uploaded>Uppladdad</uploaded>
+    <internal>Invändig</internal>
+    <direction>Textriktning (HTML)</direction>
+    <ltr>Vänster till höger</ltr>
+    <rtl>Höger till vänster</rtl>
+    <screenshot>Ta skärmdump</screenshot>
+    <paste_img>Klistra in bild</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Laddar</loading>
+    <framework>Laddar framework</framework>
+    <settings>Laddar inställningar</settings>
+    <language>Laddar resurser</language>
+    <indexing>Indexering</indexing>
+    <startup>Startar</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Desktop Client</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Ladda ner Desktop Client</help_win_desktop1>
+    <help_win_desktop2>Kör installationen. I huvudmenyn för datorklienten, välj &lt;b&gt;Verktyg - Konton&lt;/b&gt;. &lt;b&gt;Kontots&lt;/b&gt; dialogruta visas. Klicka &lt;b&gt;Nytt konto&lt;/i&gt;&lt;/b&gt; i dialogrutan. Det nya kontots kontoguide visas. Fyll i fälten för &lt;i&gt;e-post&lt;/i&gt; och &lt;i&gt;lösenord&lt;/i&gt; och klicka på &lt;b&gt;Börja nu.&lt;/b&gt;</help_win_desktop2>
+    <help_win_desktop3>Från kontots detaljsida kan du ändra kontonamn. Klicka nästa. På nästa sida kan du avaktivera de tjänster som du inte vill använda. Klicka avsluta för att avsluta installationen.</help_win_desktop3>
+    <help_win_osync1>Ladda ner Outlook Sync</help_win_osync1>
+    <help_win_osync2>Kör installationen. På sidan för SmartDiscover ange din &lt;i&gt;e-postadress&lt;/i&gt; och &lt;i&gt;lösenord&lt;/i&gt;, markera &lt;b&gt;inte&lt;/b&gt; listboxen &lt;i&gt;skippa SmartDiscover och konfigurera manuellt&lt;/i&gt;. Klicka nästa.</help_win_osync2>
+    <help_win_osync3>I nästa steg visas dialogrutan för aktivering av licensen.</help_win_osync3>
+    <help_win_osync4>Var du garanterad en licens för IceWarp Outlook Sync, klicka ja. Vill du använda IceWarp Outlook Sync under en 30-dagars testperiod först, klicka nej.</help_win_osync4>
+    <help_win_osync5>Klicka på Slutför för att slutföra installationen.</help_win_osync5>
+    <help_win_20131>På sidan &lt;b&gt;kontoinformation&lt;/b&gt;, klicka &lt;b&gt;lägg till konto&lt;/b&gt;, och en dialogruta visas. På sidan för &lt;b&gt;Automatisk kontoinstallation&lt;/b&gt;, välj  &lt;i&gt;manuell installation eller alternativet ytterligare servertyper&lt;/i&gt; och klicka nästa.&#13;&#10;På sidan för  &lt;b&gt;välj tjänst&lt;/b&gt;, välj  &lt;i&gt;Outlook.com eller alternativet Exchange ActiveSync compatible service&lt;/i&gt; och klicka nästa.</help_win_20131>
+    <help_win_20132>På sidan &lt;b&gt;serverinställningar&lt;/b&gt;, fyll i användare, server och inloggningsinformation. Klicka nästa</help_win_20132>
+    <help_win_20133>Efter test av kontoinställningarna, klicka slutför.</help_win_20133>
+    <help_osx_all_applications_title>Alla applikationer</help_osx_all_applications_title>
+    <help_osx_messages_title>Meddelanden</help_osx_messages_title>
+    <help_osx_messages1>Öppna meddelandet och välj från huvudmenyn &lt;b&gt;meddelanden - lägg till konto&lt;/b&gt;. Från typ av konto att lägga till, välj &lt;b&gt;annat meddelandenkonto...&lt;/b&gt; och klicka fortsätt.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Kalender</help_osx_calendar_title>
+    <help_osx_calendar1>Öppna kalendern. Från huvudmenyn välj &lt;b&gt;kalender - lägg till konto&lt;/b&gt;. Från kontotyp att lägga till, välj &lt;b&gt;lägg till CalDAV-konto&lt;/b&gt; och klicka på fortsätt.</help_osx_calendar1>
+    <help_osx_calendar2>I dialogrutan &lt;b&gt;lägg till ett CalDAV-konto&lt;/b&gt;, från alternativen &lt;i&gt;kontotyp&lt;/i&gt;, välj &lt;b&gt;manuellt&lt;/b&gt;.&#13;&#10;Lägg till din e-postadress som  &lt;i&gt;användarnamn&lt;/i&gt; och ditt &lt;i&gt;lösenord&lt;/i&gt;.&#13;&#10;I fältet för &lt;i&gt;serveradress&lt;/i&gt;, lägg till serverns värdnamn. Klicka på skapa.</help_osx_calendar2>
+    <help_osx_calendar3>För att sätta upp &lt;b&gt;påminnelser&lt;/b&gt; gå till &lt;b&gt;systeminställningar - internetkonton&lt;/b&gt; och lokalisera kalenderkontot som du just har konfigurerat. Markera kryssrutan &lt;i&gt;använd med: påminnelser&lt;/i&gt;</help_osx_calendar3>
+    <help_osx_contacts_title>Kontakter</help_osx_contacts_title>
+    <help_osx_contacts1>Öppna kontakter och välj från huvudmenyn &lt;b&gt;kontakter - lägg till konto&lt;/b&gt;. Från kontotyp att lägga till, välj &lt;b&gt;andra kontaktkonton&lt;/b&gt; och klicka fortsätt.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>Alla applikationer</help_osx_all>
+    <help_osx_all1>Ladda ner &quot;Configurator&quot;</help_osx_all1>
+    <help_osx_all2>Öppna den nedladdade IceWarp Configurator imagefilen. Kör IceWarp Configurator. Fyll i e-postadress och lösenord och klicka på &lt;strong&gt;fortsätt&lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>Each application that can be auto-configured will have a green &lt;strong&gt;Connect&lt;/strong&gt; button next to it. Click one by one, or select &lt;strong&gt;Connect All&lt;/strong&gt; to setup all available applications.</help_osx_all3>
+    <help_tablet_and_title>Android surfplattor</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Windows surfplattor</help_tablet_win_title>
+    <help_tablet_win1>På höger sida av &lt;b&gt;startskärmen&lt;/b&gt;, välj &lt;i&gt;inställningar - ändra PC-inställningar - konton&lt;/i&gt;. På kontosidan, välj alternativet &lt;i&gt;andra konton&lt;/i&gt;.&#13;&#10;På kontosidan, markera &lt;i&gt;lägg till användare&lt;/i&gt;. På nästa sida, fyll i serverns värdnamn och markera nästa.</help_tablet_win1>
+    <help_tablet_win2>På sidan för skapa ett Microsoft-konto, fyll i dina  kontoreferenser och tryck nästa.</help_tablet_win2>
+    <help_tablet_win3>På informationssidan för lägg till säkerhet, ange dina säkerhetsreferenser och tryck nästa. På sidan för kommunikationsreferenser, tryck nästa. På sista sidan tryck slutför.</help_tablet_win3>
+    <help_phone_and_title>Android-enheter</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>På skärmen för &lt;b&gt;säkerhetsadministration fjärrserver &lt;/b&gt;, tryck &lt;b&gt;OK&lt;/b&gt;. Detta är väsentligt för att upprätthålla ditt företags säkerhetspolicy på enheten, eller återställ om fjärråtkomsten är borta.</help_phone_and2>
+    <help_phone_and3>På skärmen för &lt;b&gt;kontoinställningar&lt;/b&gt;, välj &lt;i&gt;kontroll av inkorgens frekvenser &lt;/i&gt; och ange hur gamla e-pos som ska synkroniseras under &lt;i&gt;dagar att synka&lt;/i&gt;. Markera valfritt &lt;i&gt;Skicka e-post från detta konto som första alternativ&lt;/i&gt;, se över andra inställningar och markera nästa.</help_phone_and3>
+    <help_phone_and4>Förse med en kontoetikett för att identifiera detta konto i applikationerna and markera nästa.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>Gå till &lt;b&gt;Inställningar&lt;/b&gt;, välj mellan alternativen &lt;i&gt; mail, kontakter, kalendrar - lägg till konto - Exchange&lt;/i&gt;.</help_ios1>
+    <help_ios2>På nästa sida, fyll i fälten för &lt;i&gt;e-post, lösenord, beskriving&lt;/i&gt;. Markera nästa.</help_ios2>
+    <help_ios3>På nästa sida, deaktivera de inställningar som du inte kommer att använda genom att dra i kontrollerna till av. Markera spara. Avancerade intställningar hittar du under sektionen kontobeskrivning i &lt;b&gt;mail, kontakter, kalendrar - konton &lt;/b&gt;.</help_ios3>
+    <help_phone_win_title>Windows Phone</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Fyll i din &lt;i&gt;e-postadress&lt;/i&gt; och &lt;i&gt;lösenord&lt;/i&gt;. När det är klart, markera &lt;b&gt;logga in&lt;/b&gt;.</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X är varumärken från Apple Inc., registrerade i USA och andra länder. Microsoft, Windows, Outlook och Windows Phone är registrerade varumärken eller varumärken från Microsoft Corporation i USA och/eller andra länder. Android är ett registrerat varumärke från Google Inc. IceWarp är ett registrerat varumärke i USA och andra länder.</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>E-post, kalendrar, kontakter, uppgifter</subtitle>
+    <descr>Steg-för-steg kontoinställning.</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>Installra IceWarp Desktop Client</subtitle>
+    <descr>Steg-för-steg installation.</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Kalendrar och påminnelser</subtitle>
+    <descr>Steg-för-steg installation på Mac.</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>E-post, kalender, kontakter</subtitle>
+    <descr>Steg-för-steg installation.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>E-post, kalendrar och kontakter</subtitle>
+    <descr>Steg-för-steg kontoinställning.</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>E-post, kalendrar och kontakter</subtitle>
+    <descr>Steg-för-steg kontokonfigurationen.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Föregående sida</previous_title>
+    <previous_label>Föregående</previous_label>
+    <next_title>Nästa sida</next_title>
+    <next_label>Nästa</next_label>
+    <page_label>Sida:</page_label>
+    <page_of>av {{pageCount}}</page_of>
+    <zoom_out_title>Zooma ut</zoom_out_title>
+    <zoom_out_label>Zooma ut</zoom_out_label>
+    <zoom_in_title>Zooma in</zoom_in_title>
+    <zoom_in_label>Zooma in</zoom_in_label>
+    <zoom_title>Zoom</zoom_title>
+    <presentation_mode_title>Växla till helskärm</presentation_mode_title>
+    <presentation_mode_label>Fullskärm</presentation_mode_label>
+    <print_title>Skriv ut</print_title>
+    <print_label>Skriv ut</print_label>
+    <download_title>Ladda ner</download_title>
+    <download_label>Ladda ner</download_label>
+    <bookmark_title>Bokmärke</bookmark_title>
+    <bookmark_label>Bokmärke</bookmark_label>
+    <tools_title>Verktyg</tools_title>
+    <tools_label>Verktyg</tools_label>
+    <first_page_title>Gå till första sidan</first_page_title>
+    <first_page_label>Gå till första sidan</first_page_label>
+    <last_page_title>Gå till sista sidan</last_page_title>
+    <last_page_label>Gå till sista sidan</last_page_label>
+    <page_rotate_cw_title>Rotera medsols</page_rotate_cw_title>
+    <page_rotate_cw_label>Rotera medsols</page_rotate_cw_label>
+    <page_rotate_ccw_title>Rotera moturs</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Rotera moturs</page_rotate_ccw_label>
+    <hand_tool_enable_title>Aktivera handverktyg</hand_tool_enable_title>
+    <hand_tool_enable_label>Aktivera handverktyg</hand_tool_enable_label>
+    <hand_tool_disable_title>Inaktivera handverktyg</hand_tool_disable_title>
+    <hand_tool_disable_label>Inaktivera handverktyg</hand_tool_disable_label>
+    <document_properties_label>Dokumentegenskaper</document_properties_label>
+    <document_properties_file_name>Filnamn:</document_properties_file_name>
+    <document_properties_file_size>Filstorlek:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>Titel:</document_properties_title>
+    <document_properties_author>Författare:</document_properties_author>
+    <document_properties_subject>Ämne:</document_properties_subject>
+    <document_properties_keywords>Nyckelord:</document_properties_keywords>
+    <document_properties_creation_date>Datum:</document_properties_creation_date>
+    <document_properties_modification_date>Senast ändrad:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Skapare:</document_properties_creator>
+    <document_properties_producer>Producent:</document_properties_producer>
+    <document_properties_version>Version:</document_properties_version>
+    <document_properties_page_count>Antal sidor:</document_properties_page_count>
+    <document_properties_close>Stäng</document_properties_close>
+    <toggle_sidebar_title>Toggle sidebar</toggle_sidebar_title>
+    <toggle_sidebar_label>Toggle sidebar</toggle_sidebar_label>
+    <outline_title>Show document outline</outline_title>
+    <outline_label>Show document outline</outline_label>
+    <thumbs_title>Show thumbnails</thumbs_title>
+    <thumbs_label>Show thumbnails</thumbs_label>
+    <findbar_title>Find in document</findbar_title>
+    <findbar_label>Find</findbar_label>
+    <thumb_page_title>Page {{page}}</thumb_page_title>
+    <thumb_page_canvas>Thumbnail of page {{page}}</thumb_page_canvas>
+    <find_label>Find:</find_label>
+    <find_previous_title>Find previous</find_previous_title>
+    <find_previous_label>Previous</find_previous_label>
+    <find_next_title>Find next</find_next_title>
+    <find_next_label>Next</find_next_label>
+    <find_highlight>Highlight all</find_highlight>
+    <find_match_case_label>Match case</find_match_case_label>
+    <find_reached_top>Reached the top of the document</find_reached_top>
+    <find_reached_bottom>Reached the bottom of the document</find_reached_bottom>
+    <find_not_found>Not found</find_not_found>
+    <error_more_info>More info</error_more_info>
+    <error_less_info>Less info</error_less_info>
+    <error_close>Close</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Message: {{message}}</error_message>
+    <error_stack>Stack: {{stack}}</error_stack>
+    <error_file>File: {{file}}</error_file>
+    <error_line>Line: {{line}}</error_line>
+    <rendering_error>Rendering error</rendering_error>
+    <page_scale_width>Full width</page_scale_width>
+    <page_scale_fit>Fit page</page_scale_fit>
+    <page_scale_auto>Automatic zoom</page_scale_auto>
+    <page_scale_actual>Actual size</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Error</loading_error_indicator>
+    <loading_error>Error while loading PDF</loading_error>
+    <invalid_file_error>Invalid or corrupted PDF file</invalid_file_error>
+    <missing_file_error>Missing PDF file</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>Enter password to open this protected PDF</password_label>
+    <password_invalid>Incorrect password, please try again.</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Cancel</password_cancel>
+    <printing_not_supported>Warning: Printing is not fully supported in this browser.</printing_not_supported>
+    <printing_not_ready>Warning: PDF is not completly loaded for printing</printing_not_ready>
+    <web_fonts_disabled>Web fonts are disabled: not possible to use PDF fonts</web_fonts_disabled>
+    <document_colors_disabled>PDF document is not allowed to use colors</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDocument</title>
+    <preview>Document preview</preview>
+    <error>WebDocument Error</error>
+    <error_msg>Document loading problem. You may need to close and reopen the document for full functionality.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

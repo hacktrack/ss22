@@ -1,0 +1,182 @@
+.obj_conference_schedule .schedule-form{
+	text-align: left;
+	margin-top: 48px;
+}
+.obj_conference_schedule .schedule-form>div{
+	margin: 8px 0;
+	padding: 0 0 0 16px;
+	position: relative;
+}
+.rtl .obj_conference_schedule .schedule-form>div{
+	padding: 0 16px 0 0;
+}
+	.obj_conference_schedule .schedule-form>div:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.obj_conference_schedule .schedule-form>div:before{
+		content: '\e93a';
+
+		position: absolute;
+		display: block;
+		left: 0;
+		font-size: 16px;
+		font-family: "ico16";
+		width: 16px;
+		height: 16px;
+		line-height: 16px;
+		color: {bg_main #08C};
+	}
+	.rtl .obj_conference_schedule .schedule-form>div:before{
+		right: 0;
+		left: auto;
+	}
+		.obj_conference_schedule .schedule-form>div.schedule-title:before{
+			content: '\e93a';
+			top: 15px;
+		}
+		.obj_conference_schedule .schedule-form>div.schedule-password:before{
+			content: '\e936';
+			top: 15px;
+		}
+		.obj_conference_schedule .schedule-form>div.schedule-date:before{
+			content: '\e05';
+			top: 13px;
+		}
+		.obj_conference_schedule .schedule-form>div.schedule-attendees:before{
+			content: '\e944';
+			top: 13px;
+		}
+		.obj_conference_schedule .schedule-form>div.schedule-note:before{
+			content: '\e024';
+			top: 8px;
+		}
+
+		.obj_conference_schedule .schedule-form>div.schedule-note .obj_wysiwyg > table tr:first-of-type {
+			display: none;
+		}
+
+		.obj_conference_schedule .schedule-form>div.schedule-note .obj_wysiwyg .fr-wrapper .fr-placeholder {
+			font-size: 15px!important;
+		}
+
+		.obj_conference_schedule .schedule-form form.obj_input input{
+			font-size: 15px;
+		}
+
+.obj_conference_schedule .schedule-date form.obj_input{
+	margin-right: 17px;
+}
+.rtl .obj_conference_schedule .schedule-date form.obj_input{
+	margin:0 0 0 17px;
+}
+
+.obj_conference_schedule .schedule-date form.obj_select.obj_time:before{
+	content: '\e043';
+}
+
+.obj_conference_schedule .schedule-start,
+.obj_conference_schedule .schedule-end{
+	position: relative;
+	white-space: nowrap;
+	float: left;
+}
+
+.rtl .obj_conference_schedule .schedule-start,
+.rtl .obj_conference_schedule .schedule-end{
+	float: right;
+}
+
+.obj_conference_schedule .schedule-start{
+	padding-right: 30px;
+}
+.rtl .obj_conference_schedule .schedule-start{
+	padding: 0 0 0 30px;
+}
+
+.obj_conference_schedule .schedule-start:after{
+	content: "\e984";
+	font-size: 16px;
+	font-family: "ico16";
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	color: #637282;
+}
+.rtl .obj_conference_schedule .schedule-start:after{
+	left: 14px;
+	right: auto;
+	transform: rotate(180deg);
+}
+
+.obj_conference_schedule .cell>.ico:before{
+	background-color: rgba(70, 133, 255, 0.2);
+}
+.obj_conference_schedule .cell>.ico:after{
+	top: 7px;
+	background: url('../images/app_calendar.svg');
+}
+
+.obj_conference_schedule .schedule-title>.obj_label {
+	position: absolute;
+	top: 7px;
+	right: 9px;
+	z-index: 1;
+	padding-left: 20px;
+	color: {bg_main #08C};
+}
+.rtl .obj_conference_schedule .schedule-title>.obj_label {
+	right: auto;
+	left: 9px;
+	padding-left: 0;
+	padding-right: 20px;
+}
+.obj_conference_schedule .schedule-title>.obj_label:before {
+	content: '\e936';
+	font-family: 'ico16';
+	font-size: 16px;
+	position: absolute;
+	left: 0;
+	top: -2px;
+}
+.rtl .obj_conference_schedule .schedule-title>.obj_label:before {
+	left: auto;
+	right: 0;
+}
+.obj_conference_schedule .schedule-title>.obj_label label {
+	cursor: pointer;
+}
+
+.obj_conference_schedule .schedule-form>div.hidden {
+	display: none;
+}
+
+/* more */
+.obj_conference_schedule .schedule-more{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 20px;
+	color: {txt_main '#0088CC'};
+}
+.rtl .obj_conference_schedule .schedule-more{
+	text-align: right;
+}
+.obj_conference_schedule .schedule-more span:hover{
+	cursor: pointer;
+	color: {bc_ok_button_darker '#006DA3'};
+}
+	.obj_conference_schedule .schedule-more span:before{
+		content: '+';
+		display: inline;
+		margin-right: 5px;
+	}
+	.rtl .obj_conference_schedule .schedule-more span:before{
+		float: right;
+		margin: 0 0 0 5px;
+	}
+
+/* button */
+.obj_conference_schedule .buttons{
+	clear: both;
+}

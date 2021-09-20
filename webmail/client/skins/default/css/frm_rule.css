@@ -1,0 +1,42 @@
+div.frm_rule .frm_rulediv{
+	height: 100%;
+	width: 100%;
+
+	position: absolute;
+
+	border: 1px solid #CACACA;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+
+	overflow: auto;
+	-ms-overflow-style: auto;
+}
+
+	div.frm_rule .frm_rulediv table td{
+	   white-space: nowrap;
+	}
+	div.frm_rule .frm_rulediv .obj_filter_line>table{
+		border-spacing: 2px ;
+		border-collapse: separate;
+	}
+	div.frm_rule .frm_rulediv .obj_filter_line.active>table{
+		background-color: #999;
+	}
+
+	div.frm_rule .frm_rulediv .obj_select{
+		width: 160px;
+		padding-right: 20px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	.rtl div.frm_rule .frm_rulediv .obj_select {
+		padding-left: 20px;
+		padding-right: 0px;
+	}
+	div.frm_rule .frm_rulediv .obj_selectop{
+	   width: 60px;
+	}
+
+div.frm_rule div.obj_tag form.obj_input input {
+	width: 158px !important;
+}

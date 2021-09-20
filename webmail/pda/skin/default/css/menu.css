@@ -1,0 +1,525 @@
+*
+{
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box;
+	-khtml-box-sizing:border-box;
+}
+body, html
+{
+	border:  0px none;
+	margin:  0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", "Geneva CE", lucida, sans-serif !important;
+	font-size: small !important;
+}
+
+.resetovac
+{
+	border:  0px none;
+	margin:  0px;
+	padding: 0px;
+
+	float: none;
+	clear: both;
+
+	width: 0px;
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+}
+
+.menu p,.menu img,.menu table,.menu tr,.menu th,.menu td,.menu h1,.menu h2,.menu h3,.menu h4,.menu h5
+{
+	border:  0px none;
+	margin:  0px;
+	padding: 0px;
+}
+
+#bodyhlavicka
+{
+	background-color: #ffffcc;
+}
+
+#bodypaticka
+{
+	background-color: #ffffcc;
+}
+
+#strankahlavicka
+{	
+	padding:3px 2px 3px 3px;	
+	height:27px;
+	.height:18px;	
+}
+
+#strankahlavicka a
+{
+	font-family:Tahoma,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	line-height:20px;
+	.line-height:17px;
+	font-weight: bold;
+	color:#eee;	
+	display:block;
+	float:left;
+	margin-left: 10px;
+	
+	border:#333 1px solid;
+	border-bottom:none;
+	padding:1px 2px 2px 2px;
+	color:#fefefe;
+	background-color: #555;
+}
+
+#coverBox.light #strankahlavicka a#logoTop
+{
+	background-image: url('logotop.gif');
+	width:140px;
+}
+
+#strankahlavicka a.active
+{
+	padding:1px 2px 3px 2px;
+	color:#fff;
+	background-color: #000;
+}
+
+#strankahlavicka a:hover
+{
+	color:#fff;
+	background-color: #888;
+}
+
+#strankahlavicka a.active:hover
+{
+	background-color: #000;
+}
+
+.substrankahlavicka
+{	
+	padding:3px;	
+	display:none;
+	text-decoration:none;
+	border-bottom:#888 1px solid;
+	padding-left: 10px;	
+	background:transparent url(../../../../basic/skin/default/css/images/menu/bg_topbar_light.gif)  repeat-x scroll center center;
+}
+
+.menu .substrankahlavicka a
+{
+	font-size:11px;
+	text-decoration:none;
+	color:#555;
+	padding:0px 8px 0px 2px;
+	background:transparent url(../../../../basic/skin/default/css/images/menu/bg_topbar_splitter.gif) no-repeat scroll center right;
+}
+
+.menu .substrankahlavicka a:hover
+{
+	color:#000;
+}
+
+.substrankahlavickaJS
+{
+	border:#333 1px solid;
+	border-left:#ddd 1px solid;
+	border-top:#ddd 1px solid;	
+	position:absolute;		
+	display:none;
+	background:#235892 url('../../../../basic/skin/default/css/images/menu/bg-context-menu.jpg') repeat-x scroll 0 0;
+	z-index:10;	
+}
+
+.substrankahlavickaJS a
+{
+	font-family:Tahoma,Helvetica,sans-serif;
+	font-size:13px;
+	
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	font-weight:normal;
+	padding:6px 15px;
+	margin:0px;
+}
+
+.substrankahlavickaJS a:hover
+{
+	background:#747474 url(../../../../basic/skin/default/css/images/menu/bg-context-menu-item.jpg) repeat-x scroll 0 0;
+}
+
+#strankapaticka
+{
+	background-color: #dddddd;
+}
+
+.logout
+{
+	float:right;
+	width:15px;
+	height:15px;
+	margin-top:3px;
+	margin-right:10px;
+}
+.logout a
+{
+	width:15px;
+	height:15px;
+	background-image: url(images/menu/ico_logout.gif);
+	background-position: 0px 0px;
+	display:block;	
+}
+
+.logout a:hover
+{	
+	background-position: 0px -45px;
+}
+
+/** Basic theme */
+#coverBox.basic #strankahlavicka a
+{
+	background-image:url(../../default/css/tabBlue.gif);
+}
+#coverBox.basic #strankahlavicka a.active
+{
+	background-image:url(../../default/css/tabBlueActive.gif);
+}
+#coverBox.basic #strankahlavicka a:hover
+{
+	background-image:url(../../default/css/tabBlueHover.gif);
+}
+#coverBox.basic #strankahlavicka a.active:hover
+{
+	background-image:url(../../default/css/tabBlueActive.gif);
+}
+/** /Basic theme */
+
+/** carbon theme */
+#coverBox.carbon #strankahlavicka
+{
+	height:52px;
+}
+#coverBox.carbon #strankahlavicka a
+{
+	border:none;
+	height:50px;
+	width:70px;
+	overflow:hidden;
+	background-position: 50% 50%;
+	background-color: #fff;
+}
+
+#coverBox.carbon #strankahlavicka a.active
+{
+	height:50px;
+}
+
+#coverBox.carbon #strankahlavicka a span
+{
+	margin:70px;
+}
+
+#coverBox.carbon #strankahlavicka a#get_messages
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_mail.jpg);
+}
+#coverBox.carbon #strankahlavicka a#get_messages.active
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_mail_active.jpg);
+}
+
+#coverBox.carbon #strankahlavicka a#address_book
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_contacts.jpg);
+}
+#coverBox.carbon #strankahlavicka a#address_book.active
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_contacts_active.jpg);
+}
+
+#coverBox.carbon #strankahlavicka a#calendar
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_calendar.jpg);
+}
+#coverBox.carbon #strankahlavicka a#calendar.active
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_calendar_active.jpg);
+}
+
+#coverBox.carbon #strankahlavicka a#settings
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_settings.jpg);
+}
+#coverBox.carbon #strankahlavicka a#settings.active
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_settings_active.jpg);
+}
+
+#coverBox.carbon #strankahlavicka a#search
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_search.jpg);
+}
+#coverBox.carbon #strankahlavicka a#search.active
+{
+	background-image:url(../../basic/css/images/carbon/carbontab_search_active.jpg);
+}
+/** */
+
+/** clear theme */
+#coverBox.clear #strankahlavicka
+{
+	height:52px;
+}
+#coverBox.clear #strankahlavicka a
+{
+	border:none;
+	height:50px;
+	width:70px;
+	overflow:hidden;
+	background-position: 50% 50%;
+	background-color: #fff;
+}
+
+#coverBox.clear #strankahlavicka a.active
+{
+	height:50px;
+}
+
+#coverBox.clear #strankahlavicka a span
+{
+	margin:70px;
+}
+
+#coverBox.clear #strankahlavicka a#get_messages
+{
+	background-image:url(../../basic/css/images/clear/clear_mail.jpg);
+}
+#coverBox.clear #strankahlavicka a#get_messages.active
+{
+	background-image:url(../../basic/css/images/clear/clear_mail_active.jpg);
+}
+
+#coverBox.clear #strankahlavicka a#address_book
+{
+	background-image:url(../../basic/css/images/clear/clear_contacts.jpg);
+}
+#coverBox.clear #strankahlavicka a#address_book.active
+{
+	background-image:url(../../basic/css/images/clear/clear_contacts_active.jpg);
+}
+
+#coverBox.clear #strankahlavicka a#calendar
+{
+	background-image:url(../../basic/css/images/clear/clear_calendar.jpg);
+}
+#coverBox.clear #strankahlavicka a#calendar.active
+{
+	background-image:url(../../basic/css/images/clear/clear_calendar_active.jpg);
+}
+
+#coverBox.clear #strankahlavicka a#settings
+{
+	background-image:url(../../basic/css/images/clear/clear_settings.jpg);
+}
+#coverBox.clear #strankahlavicka a#settings.active
+{
+	background-image:url(../../basic/css/images/clear/clear_settings_active.jpg);
+}
+
+#coverBox.clear #strankahlavicka a#search
+{
+	background-image:url(../../basic/css/images/clear/clear_search.jpg);
+}
+#coverBox.clear #strankahlavicka a#search.active
+{
+	background-image:url(../../basic/css/images/clear/clear_search_active.jpg);
+}
+/** */
+
+/** fullclear theme */
+#coverBox.fullclear #strankahlavicka
+{
+	height:52px;
+}
+#coverBox.fullclear #strankahlavicka a
+{
+	border:none;
+	height:50px;
+	width:70px;
+	overflow:hidden;
+	background-position: 50% 50%;
+	background-color: #fff;
+}
+
+#coverBox.fullclear #strankahlavicka a.active
+{
+	height:50px;
+}
+
+#coverBox.fullclear #strankahlavicka a span
+{
+	margin:70px;
+}
+
+#coverBox.fullclear #strankahlavicka a#get_messages
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_mail.jpg);
+}
+#coverBox.fullclear #strankahlavicka a#get_messages.active
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_mail_active.jpg);
+}
+
+#coverBox.fullclear #strankahlavicka a#address_book
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_contacts.jpg);
+}
+#coverBox.fullclear #strankahlavicka a#address_book.active
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_contacts_active.jpg);
+}
+
+#coverBox.fullclear #strankahlavicka a#calendar
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_calendar.jpg);
+}
+#coverBox.fullclear #strankahlavicka a#calendar.active
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_calendar_active.jpg);
+}
+
+#coverBox.fullclear #strankahlavicka a#settings
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_settings.jpg);
+}
+#coverBox.fullclear #strankahlavicka a#settings.active
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_settings_active.jpg);
+}
+
+#coverBox.fullclear #strankahlavicka a#search
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_search.jpg);
+}
+#coverBox.fullclear #strankahlavicka a#search.active
+{
+	background-image:url(../../basic/css/images/fullclear/fullclear_search_active.jpg);
+}
+/** */
+
+/** light theme */
+#coverBox.light .logout a
+{
+	width:15px;
+	height:15px;
+	background-image:url(images/menu/ico_logout.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+#coverBox.light #strankahlavicka
+{
+	height:52px;
+	.height:47px;
+}
+#coverBox.light #strankahlavicka a
+{
+	border:none;
+	height:49px;
+	width:70px;
+	overflow:hidden;
+	background-position: 0 1px;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+
+#coverBox.light #strankahlavicka a.active
+{
+	height:49px;
+}
+
+#coverBox.light #strankahlavicka a span
+{
+	margin:70px;
+	color:#000;
+	line-height: 300px;
+}
+
+#coverBox.light #strankahlavicka a#get_messages
+{
+	background-image:url(../../basic/css/images/light/light_mail.jpg);
+}
+#coverBox.light #strankahlavicka a#get_messages.active
+{
+	background-image:url(../../basic/css/images/light/light_mail_active.jpg);
+}
+
+#coverBox.light #strankahlavicka a#address_book
+{
+	background-image:url(../../basic/css/images/light/light_contacts.jpg);
+}
+#coverBox.light #strankahlavicka a#address_book.active
+{
+	background-image:url(../../basic/css/images/light/light_contacts_active.jpg);
+}
+
+#coverBox.light #strankahlavicka a#calendar
+{
+	background-image:url(../../basic/css/images/light/light_calendar.jpg);
+}
+#coverBox.light #strankahlavicka a#calendar.active
+{
+	background-image:url(../../basic/css/images/light/light_calendar_active.jpg);
+}
+
+#coverBox.light #strankahlavicka a#settings
+{
+	background-image:url(../../basic/css/images/light/light_settings.jpg);
+}
+#coverBox.light #strankahlavicka a#settings.active
+{
+	background-image:url(../../basic/css/images/light/light_settings_active.jpg);
+}
+
+#coverBox.light #strankahlavicka a#search
+{
+	background-image:url(../../basic/css/images/light/light_search.jpg);
+}
+#coverBox.light #strankahlavicka a#search.active
+{
+	background-image:url(../../basic/css/images/light/light_search_active.jpg);
+}
+#coverBox.light #strankahlavicka a#files
+{
+	background-image:url(../../basic/css/images/light/light_files.jpg);
+}
+#coverBox.light #strankahlavicka a#files.active
+{
+	background-image:url(../../basic/css/images/light/light_files_active.jpg);
+}
+#coverBox.light #strankahlavicka a#notes
+{
+	background-image:url(../../basic/css/images/light/light_notes.jpg);
+}
+#coverBox.light #strankahlavicka a#notes.active
+{
+	background-image:url(../../basic/css/images/light/light_notes_active.jpg);
+}
+#coverBox.light #strankahlavicka a#journal
+{
+	background-image:url(../../basic/css/images/light/light_journal.jpg);
+}
+#coverBox.light #strankahlavicka a#journal.active
+{
+	background-image:url(../../basic/css/images/light/light_journal_active.jpg);
+}
+#coverBox.light #strankahlavicka a#tasks
+{
+	background-image:url(../../basic/css/images/light/light_tasks.jpg);
+}
+#coverBox.light #strankahlavicka a#tasks.active
+{
+	background-image:url(../../basic/css/images/light/light_tasks_active.jpg);
+}
+/** */

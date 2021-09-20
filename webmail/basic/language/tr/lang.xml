@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes> B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>Yeni Öğe</add>
+    <quarantine>Karantina</quarantine>
+    <whitelist>Beyazliste</whitelist>
+    <blacklist>Karaliste</blacklist>
+    <save>Kaydet</save>
+    <cancel>İptal</cancel>
+    <new_item>Yeni eposta ekle</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Disable shortcuts</disable_shortcuts>
+    <enable_swipe_gestures>Enable swipe gestures on touch devices</enable_swipe_gestures>
+    <use_high_contrast_skin>Yüksek karşıtlıklı tema kullan</use_high_contrast_skin>
+    <menu_as_text>Araç çubuğunda simge yerine metin göster</menu_as_text>
+    <change_password>Şifre değiştir</change_password>
+    <open_change_password_dialog>Şifre değiştir bölümünü aç</open_change_password_dialog>
+    <oldpassword>Eski şifre</oldpassword>
+    <newpassword>Yeni şifre</newpassword>
+    <confirmpassword>Şifreyi onayla</confirmpassword>
+    <remove>Kaldır</remove>
+    <settings>Ayarlar</settings>
+    <navigate>Yönet</navigate>
+    <user>Ayarlarım</user>
+    <domain>Domain Yöneticisi</domain>
+    <admin>Yönetim ayarları</admin>
+    <new_domain>Yeni Domain</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>Genel</general>
+    <layout>Düzen</layout>
+    <mail>Posta</mail>
+    <compose>Oluştur</compose>
+    <person>Eposta</person>
+    <person_header>Adresten yeni ekle</person_header>
+    <person_description>örneğin &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>Oto. cevaplayıcı</autoresponder>
+    <forwarder>İletici</forwarder>
+    <layout_desc>Düzen, Posta</layout_desc>
+    <compose_desc>Yeni bir ileti için varsayılan ayarlar (Okundu Onayı, HTML/Düz Biçim, İmza).</compose_desc>
+    <general_desc>Gelen kutunuz için tarama, silme ve yanıtlama iletileri biçimlendirmesi</general_desc>
+    <personalities_desc>Hesabınız için alternatif eposta kimliklerinizi ekleyin (Gönderen adresinden farklı olarak)</personalities_desc>
+    <autoresponder_desc>Tatildeyken eposta iletilerine otomatik cevap ver</autoresponder_desc>
+    <forwarder_desc>Gelen eposta iletilerini başka eposta adresine ilet ya da kopyala</forwarder_desc>
+    <date_format>Tarih biçimi</date_format>
+    <time_format>Zaman biçimi</time_format>
+    <list_count>Öğe listesi sayısı</list_count>
+    <font_family>Varsayılan yazı tipi</font_family>
+    <font_size>Varsayılan yazı tipi boyutu</font_size>
+    <text_direction>Metin yönü</text_direction>
+    <text_direction_values>Soldan sağa|Sağdan sola</text_direction_values>
+    <empty_trash_every>Çöp klasörünün boşaltılması</empty_trash_every>
+    <days>gün</days>
+    <move_deleted>Silinmiş iletileri çöp klasörüne taşı</move_deleted>
+    <delete_messages_on_empty>&quot;Klasörü Boşalt&quot; işlemi ile iletileri kalıcı olarak sil</delete_messages_on_empty>
+    <add_recipients>İleti alıcılarını otomatik olarak Adres Defterine ekle</add_recipients>
+    <group_pref>Konu öneklerini grupla (örn. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>Okundu onayı iste</request_read_confirmation>
+    <save_sent_msg>Gönderilen iletiyi klasöre kaydet</save_sent_msg>
+    <message_format>İleti biçimi</message_format>
+    <message_format_labels>Düz|HTML</message_format_labels>
+    <signature>İmza</signature>
+    <forward_to>İlet</forward_to>
+    <keep_in_inbox>İletileri gelen kutusunda tut</keep_in_inbox>
+    <forward_older>Şundan eski epostaları ilet</forward_older>
+    <forward_older_to>Eski epostaları şuraya ilet</forward_older_to>
+    <ar_mode>Mod</ar_mode>
+    <ar_mode_labels>Devredışı | Daime yanıtla | Bir kere yanıtla | Süreçten sonra tekrar yanıtla</ar_mode_labels>
+    <ar_respond_only>Sadece kullanıcıların eposta adreslerine gönderilen iletileri yanıtla</ar_respond_only>
+    <ar_respond_again>Yeniden yanıtlama zamanı (Gün)</ar_respond_again>
+    <ar_from>Gönderen</ar_from>
+    <ar_subject>Konu</ar_subject>
+    <ar_text>Metin</ar_text>
+    <ar_no_responder_for>Şunun için yanıtlayan yok</ar_no_responder_for>
+    <ar_respond_only_between>Sadece şunların arasında yanıtla</ar_respond_only_between>
+    <email>Eposta</email>
+    <responder>Şunun için yanıt yok</responder>
+    <show_attached_images>Ekli resimleri otomatik göster</show_attached_images>
+    <show_inline_images>Harici resimleri otomatik göster</show_inline_images>
+    <use_reply_prefix>Yanıt Öneki Kullan (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 saat|24 saat</time_format_list_labels>
+    <force_admin>Bu seçeneği domain ve kullanıcı ayarları için zorla</force_admin>
+    <force_domain>Bu seçeneği kullanıcı ayarları için zorla</force_domain>
+    <to_top>İmza iletinin üstünde olsun</to_top>
+    <quota>Disk Kotası:</quota>
+    <section_layout>Genel düzen ayarları</section_layout>
+    <section_mail>Genel posta ayarları</section_mail>
+    <section_autoresponder>Yerinizde değilseniz, duruma göre otomatik yanıt ayarlayın.</section_autoresponder>
+    <section_norespond>Listelenen eposta adreslerine yanıt verilmeyecektir.</section_norespond>
+    <domains>Alan Adları</domains>
+    <accounts>Hesaplar</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Seçilen iletileri silmek istediğinize emin misiniz?</delete_mail>
+    <blacklist_mail>Seçilen iletileri karalisteye almak istediğinizden emin misiniz?</blacklist_mail>
+    <delete_contact>Bu kişiyi silmek istediğinize emin misiniz?</delete_contact>
+    <delete_contact_distribution>Bu dağıtım listesini silmek istediğinize emin misinz?</delete_contact_distribution>
+    <delete_event>Seçilen olayları silmek istediğinize emin misiniz?</delete_event>
+    <delete_note>Seçilen notları silmek istediğinize emin misiniz?</delete_note>
+    <delete_task>Seçilen görevleri silmek istediğinize emin misiniz?</delete_task>
+    <delete_personalities>Seçilen öğeyi(leri) silmek istediğinize emin misiniz?</delete_personalities>
+    <delete_quarantine>Seçilen öğeleri silmek istediğinize emin misiniz?</delete_quarantine>
+    <delete_this_mail>Bu iletiyi silmek istediğinize emin misiniz?</delete_this_mail>
+    <delete_items>Seçilen öğeyi)leri silmek istediğinize emin misiniz?</delete_items>
+    <delete_item>Bu öğeyi silmek istediğinize emin misiniz?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>Bu klasörde öğe yok.</no_item>
+  </string>
+  <menu>
+    <files>Dosyalar</files>
+    <notes>Notlar</notes>
+    <tasks>Görevler</tasks>
+    <journal>Günlük</journal>
+    <calendar>Takvim</calendar>
+    <search>Arama</search>
+    <messages>İletiler</messages>
+    <contacts>Kişiler</contacts>
+    <searchBut>Bul</searchBut>
+    <address_book>Adres Defteri</address_book>
+    <logout>Çıkış yap</logout>
+    <help>Yardım</help>
+    <settings>Ayarlar</settings>
+    <switch>Geçiş</switch>
+    <help_url>language/en/help.html</help_url>
+    <quarantine>Süzgeçler</quarantine>
+    <alert_restricted_access>Üzgünüz, bu sekmeye erişim yasaklanmıştır</alert_restricted_access>
+    <basic>Tablet Arayüzü</basic>
+    <advanced>Masaüstü Arayüzü</advanced>
+    <mobile>Mobil Arayüz</mobile>
+  </menu>
+  <tree>
+    <add_folder>Klasör Ekle</add_folder>
+    <new_message>Yeni İleti</new_message>
+    <manage_folders>Klasör Yönetimi</manage_folders>
+    <open_folder>Klasör Aç</open_folder>
+    <open>Aç</open>
+  </tree>
+  <mail_view>
+    <attachments>Ekler</attachments>
+    <from>Gönderen</from>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Konu</subject>
+    <all_headers>Tüm başlıkları gör</all_headers>
+    <all_images>Resimleri göster</all_images>
+    <next>Sonraki</next>
+    <prev>Önceki</prev>
+    <first>İlk</first>
+    <last>Son</last>
+    <show_external_images>Harici kaynaklar engellendi. Göstermek için buraya tıklayın.</show_external_images>
+    <download_all>Tümünü indir</download_all>
+    <detail>Detay</detail>
+    <blue_box_start>Başlat</blue_box_start>
+    <blue_box_end>Son</blue_box_end>
+    <blue_box_description>Tanımlama</blue_box_description>
+    <blue_box_accept>Kabul et</blue_box_accept>
+    <blue_box_decline>Reddet</blue_box_decline>
+    <blue_box_subscribe_folder>Klasörü abone yap</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Hesabı abone yap</blue_box_subscribe_account>
+    <item_accept_ok>Öğe kabul edildi</item_accept_ok>
+    <read>oku</read>
+    <write>yaz</write>
+    <modify>düzenle</modify>
+    <delete>sil</delete>
+    <administer>yönetici</administer>
+    <folder_rights>Klasör hakları</folder_rights>
+    <items_rights>Öğe hakları</items_rights>
+  </mail_view>
+  <login>
+    <send>Gönder</send>
+    <ip_check>Harici güvenliği kapat</ip_check>
+    <user>Kullanıcı</user>
+    <email>Eposta</email>
+    <password>Şifre</password>
+    <remember>Hatırla</remember>
+    <language>Dil</language>
+    <allways_ask>Her zaman sor</allways_ask>
+    <username>Kullanıcı adı</username>
+    <username_and_password>Kullanıcı adı ve Şifre</username_and_password>
+    <auto_login>Oto. giriş</auto_login>
+    <login>Giriş</login>
+    <copyright>Powered by IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Version: $1</copyright>
+    <welcome>IceWarp WebClient Table&apos;e Hoşgeldiniz</welcome>
+    <public_welcome>IceWarp Herkese Açık Takvim&apos;e Hoşgeldiniz</public_welcome>
+    <title>IceWarp WebClient Tablet</title>
+    <public_title>IceWarp Herkese Açık Takvim</public_title>
+    <reset_password>Şifre Sıfırla</reset_password>
+    <sign_up>Kaydol</sign_up>
+    <email>Eposta</email>
+    <domain>Domain</domain>
+    <new_password>Yeni Şifre</new_password>
+    <confirm_password>Şifreyi Onaylayın</confirm_password>
+    <full_name>Tam isim</full_name>
+    <alternative_email>Alternatif Eposta</alternative_email>
+    <switch>&lt;a href=&quot;../&quot;&gt;Masaüstü&lt;/a&gt; ile &lt;a href=&quot;../pda&quot;&gt;Mobil&lt;/a&gt; Arayüz arasında geçiş yap.</switch>
+    <no_javascript>&lt;b&gt;JavaScript şu anda devre dışı. &lt;/b&gt;&lt;/div&gt;Bundan dolayı, daha kısıtlı işlevselliği olan WebClient Tablet Arayüzüne yönlendiriliyorsunuz. Eğer WebClient Masaüstü Arayüzünü kullanmak istiyorsanız, onu tarayıcınızda etkinleştirme talimatları için &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt; bilgi bankasını&lt;/a&gt; ziyaret ediniz. Eğer tarayıcınız JavaScript desteklemiyorsa, lütfen son &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; ya da &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox&lt;/a&gt; tarayıcılarının son sürümünü indirin.</no_javascript>
+    <captcha>Güvenlik Kodu</captcha>
+    <word>Resimdeki kodu yazınız</word>
+  </login>
+  <files>
+    <add>Dosya Yükle</add>
+    <download>İndir</download>
+    <file>Dosya</file>
+  </files>
+  <file_list>
+    <filename>Dosya adı</filename>
+    <description>Tanımlama</description>
+    <modified>Düzenleme</modified>
+    <size>Boyut</size>
+    <tags>Etiketler</tags>
+  </file_list>
+  <notes>
+    <category>Bölüm</category>
+    <add>Yeni Not</add>
+  </notes>
+  <notes_detail>
+    <note>Not</note>
+    <tags>Etiketler</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Yeni Görev</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Görev</task>
+    <status>Durum</status>
+    <complete>Tamamla</complete>
+    <priority>Öncelik</priority>
+    <not_started>Başlamadı</not_started>
+    <in_progress>İşleniyor</in_progress>
+    <completed>Tamamlandı</completed>
+    <deferred>Ertelendi</deferred>
+    <waiting_for_someone_else>Biri bekleniyor</waiting_for_someone_else>
+    <medium>Orta</medium>
+    <high>Yüksek</high>
+    <low>Düşük</low>
+    <tags>Etiketler</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Başlama tarihi</start_date>
+    <due_date>Bitiş tarihi</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Tam ekran</fullscreen>
+    <subject>Konu</subject>
+    <no_subject>Konu yok</no_subject>
+    <no_address>Adres yok</no_address>
+    <from>Gönderen</from>
+    <date>Tarih</date>
+    <size>Boyut</size>
+    <delete>Sil</delete>
+    <reply>Yanıtla</reply>
+    <reply_to_all>Tümünü Yanıtla</reply_to_all>
+    <forward>İlet</forward>
+    <print>Yazdır</print>
+    <whitelist>Beyazliste</whitelist>
+    <blacklist>Karaliste</blacklist>
+    <dws>İşlem</dws>
+    <copy>Kopyala</copy>
+    <move>Taşı</move>
+    <copy_to_folder>Şu klasöre kopyala:</copy_to_folder>
+    <move_to_folder>Şu klasöre taşı:</move_to_folder>
+    <mar>Okundu olarak işaretle</mar>
+    <mau>Okunmadı olarak işaretle</mau>
+    <select>Seç</select>
+    <all>Tümü</all>
+    <none>Hiçbiri</none>
+    <read>Okundu</read>
+    <unread>Okunmadı</unread>
+    <invert>Seçimi çevir</invert>
+    <doit>Uygula</doit>
+    <to>Kime</to>
+    <fast_reply>Hızlı Yanıt</fast_reply>
+    <send_message>İletiyi Gönder</send_message>
+    <src>Gönderen bu iletiyi okuduğunuza dair cevap istiyor. Göndermek ister misiniz?</src>
+    <save>Kaydet</save>
+    <select_folder>Klasör seç</select_folder>
+    <deliver>Teslim et</deliver>
+    <text>Metin</text>
+    <received>Alınan</received>
+    <saved>Kaydedildi</saved>
+    <sender>Gönderen</sender>
+    <owner>Sahip</owner>
+    <domain>Domain</domain>
+    <show_all>Tümünü gör</show_all>
+  </mail_main>
+  <event_list>
+    <title>Başlık</title>
+    <start>Başlat</start>
+    <end>Son</end>
+    <tags>Etiketler</tags>
+  </event_list>
+  <event_detail>
+    <tags>Etiketler</tags>
+    <show_as>Farklı göster</show_as>
+    <free>Uygun</free>
+    <tentative>Geçici</tentative>
+    <busy>Meşgul</busy>
+    <out_of_office>Ofis Dışında</out_of_office>
+    <title>Başlık</title>
+    <location>Konum</location>
+    <label>Etiket</label>
+    <none>Hiçbiri</none>
+    <important>Önemli</important>
+    <business>İş</business>
+    <personal>Kişisel</personal>
+    <vacation>Tatil</vacation>
+    <must_attend>Zorunlu Katılım</must_attend>
+    <travel_required>Seyahat Gerekli</travel_required>
+    <needs_preparation>Hazırlık Gerekli</needs_preparation>
+    <birthday>Doğum günü</birthday>
+    <anniversary>Yıl dönümü</anniversary>
+    <phone_call>Telefon Araması</phone_call>
+    <category>Kategori</category>
+    <private>Özel</private>
+    <from>Gönderen</from>
+    <to>Kime</to>
+    <notes>Notlar</notes>
+    <allday>Tüm gün etkinliği</allday>
+    <event>Etkinlik</event>
+    <minutes>Dakika(lar)</minutes>
+    <hours>Saat(ler)</hours>
+    <days>Gün(ler)</days>
+    <remind_me>Hatırlat</remind_me>
+    <before>önce</before>
+    <no_repeating>Tekrarlama yok</no_repeating>
+    <daily>Günlük</daily>
+    <weekly>Haftalık</weekly>
+    <monthly>Aylık</monthly>
+    <yearly>Yıllık</yearly>
+    <end_date>Bitiş tarihi</end_date>
+    <no_end_date>Bitiş tarihi yok</no_end_date>
+    <repeat>Tekrar</repeat>
+    <every>Her</every>
+    <every_workday>Her iş günü</every_workday>
+    <recur_every>Hatırlama tekrarı</recur_every>
+    <weeks>hafta(lar)</weeks>
+    <on/>
+    <monday>Pazartesi</monday>
+    <tuesday>Salı</tuesday>
+    <wednesday>Çarşamba</wednesday>
+    <thursday>Perşembe</thursday>
+    <friday>Cuma</friday>
+    <saturday>Cumartesi</saturday>
+    <sunday>Pazar</sunday>
+    <day>Gün</day>
+    <months>ay(lar)</months>
+    <first>İlk</first>
+    <second>İkinci</second>
+    <third>Üçüncü</third>
+    <fourth>Dördüncü</fourth>
+    <last>Son</last>
+    <week>Hafta</week>
+    <work_week>Çalışma haftası</work_week>
+    <weekend>Hafta sonu</weekend>
+    <of_every>her</of_every>
+    <of/>
+    <years>yıl(lar)</years>
+    <the/>
+    <times>defa</times>
+    <count>sayı</count>
+    <until>şuraya kadar</until>
+    <tags>Etiketler</tags>
+  </event_detail>
+  <event_main>
+    <mon>Pzt</mon>
+    <tue>Sal</tue>
+    <wed>Çar</wed>
+    <thu>Prş</thu>
+    <fri>Cum</fri>
+    <sat>Cmt</sat>
+    <sun>Paz</sun>
+    <jan>Ocak</jan>
+    <feb>Şubat</feb>
+    <mar>Mart</mar>
+    <apr>Nisan</apr>
+    <may>Mayıs</may>
+    <jun>Haziran</jun>
+    <jul>Temmuz</jul>
+    <aug>Ağustos</aug>
+    <sep>Eylül</sep>
+    <oct>Ekim</oct>
+    <nov>Kasım</nov>
+    <dec>Aralık</dec>
+    <week>Hafta</week>
+    <week_view>Hafta</week_view>
+    <work_week_view>Çalışma haftası</work_week_view>
+    <month_view>Ay</month_view>
+    <day_view>Gün</day_view>
+    <list>Liste</list>
+    <add>Yeni Etkinlik</add>
+    <save>Kaydet</save>
+    <no_title>Başlık yok</no_title>
+    <search>Ara:</search>
+    <account>Hesap:</account>
+    <print>Yazdır</print>
+  </event_main>
+  <contact_main>
+    <contact>Kişi</contact>
+    <distribution_list>Dağıtım Listesi</distribution_list>
+    <title>Başlık</title>
+    <no_email>Eposta yok</no_email>
+    <card_view>Kart Görünümü</card_view>
+    <list_view>Liste Görünümü</list_view>
+    <contact_name>Kişi adı</contact_name>
+    <email>Eposta</email>
+    <company>Şirket</company>
+    <job>İş</job>
+    <department>Bölüm</department>
+    <profession>Uzmanlık</profession>
+    <category>Kategori</category>
+    <general>Genel</general>
+    <first_name>İlk İsim</first_name>
+    <middle_name>İkinci İsim</middle_name>
+    <last_name>Soyadı</last_name>
+    <nick>Takma ad</nick>
+    <sort_string>Sıralama</sort_string>
+    <title>Başlık</title>
+    <suffix>Sonek</suffix>
+    <category>Kategori</category>
+    <web>Web Sitesi</web>
+    <street>Sokak</street>
+    <city>Şehir</city>
+    <zip>PK.</zip>
+    <state>Eyalet</state>
+    <country>Ülke</country>
+    <im>IM</im>
+    <phones>Telefonlar</phones>
+    <work>İş</work>
+    <home>Ev</home>
+    <assistant>Asistan</assistant>
+    <fax_home>Ev faksı</fax_home>
+    <fax_work>İş faksı</fax_work>
+    <call_back>Geri arama</call_back>
+    <company>Şirket</company>
+    <car>Araba</car>
+    <isdn>ISDN</isdn>
+    <mobile>Mobil</mobile>
+    <other>Diğer</other>
+    <other_fax>Diğer faks</other_fax>
+    <pager>Çağrı cihazı</pager>
+    <primary>Öncelik</primary>
+    <radio>Radyo</radio>
+    <telex>Telex</telex>
+    <hearing>Sorgu</hearing>
+    <add>Yeni Kişi</add>
+    <notes>Notlar</notes>
+    <no_name>Kişi ismi yok</no_name>
+    <select>Tip seçin</select>
+    <select_contacts>Eklemek istediğiniz kişileri seçin</select_contacts>
+    <add_distribution>Yeni Dağıtım Listesi</add_distribution>
+    <add_new>Ekle</add_new>
+    <add_item_distribution>Adres defterinden ekle</add_item_distribution>
+    <save>Kaydet</save>
+    <edit>Düzenle</edit>
+    <edit_selected>Seçileni düzenle</edit_selected>
+    <delete_selected>Sil</delete_selected>
+    <cancel>İptal</cancel>
+    <onleave_warning>Çıkış yapmak istiyor musunuz? Tüm kaydedilmemiş veriler kaybolacak</onleave_warning>
+    <tags>Etiketler</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>Yeni Hasta</new_patient>
+    <new_staff>Yeni Personel</new_staff>
+    <notify_email>Bildirim eposta</notify_email>
+    <notify_sms>Bildirim SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>Yeni</add>
+    <staff>Personel</staff>
+    <patient>Hasta</patient>
+  </hippa_detail>
+  <grid>
+    <title>Başlık</title>
+    <note>Not</note>
+    <size>Boyut</size>
+    <category>Kategori</category>
+    <start>Başlat</start>
+    <end>Son</end>
+    <save>Kaydet</save>
+    <cancel>İptal</cancel>
+    <number_of_items>Number of items selected on other pages:</number_of_items>
+    <clear>Clear</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Bağlantı yapılacak metini seçin.</select_text>
+    <enter_url>Bu bağlantı için URL girin:</enter_url>
+    <image_location>Bu resim için konum girin:</image_location>
+    <image_alt>Bu resim için alternatif metin girin:</image_alt>
+    <image>Resim ekle</image>
+    <htmlsource>HTML kaynağı</htmlsource>
+    <hyperlink>Bağlantı</hyperlink>
+    <underline>Altı çizili</underline>
+    <italic>Eğik</italic>
+    <bold>Kalın</bold>
+    <fontsize>Yazı tipi boyutu</fontsize>
+    <fontformat>Yazı tipi</fontformat>
+    <outdent>Girinti azalt</outdent>
+    <indent>Girinti arttır</indent>
+    <orderedlist>Rakamlı liste</orderedlist>
+    <unorderedlist>Madde imli liste</unorderedlist>
+    <justify>İki yana yasla</justify>
+    <right>Sağa hizala</right>
+    <center>Ortaya hizala</center>
+    <left>Sola hizala</left>
+    <blockformat>Biçimi engelle</blockformat>
+    <block_type>Tipi engelle</block_type>
+    <heading>Başlık</heading>
+    <paragraph>Paragraf</paragraph>
+    <size>Boyut</size>
+    <font>Yazı tipi</font>
+    <cancel>İptal</cancel>
+    <email>Eposta</email>
+    <options>Seçenekler</options>
+    <plain>Düz</plain>
+    <html>HTML</html>
+    <from>Gönderen</from>
+    <to>Kime</to>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Konu</subject>
+    <date>Tarih</date>
+    <attachments>Ekler</attachments>
+    <text>Metin</text>
+    <send_message>İletiyi gönder</send_message>
+    <save_message>Kaydet</save_message>
+    <br/>
+    <spellchecker>Yazım denetimi dili</spellchecker>
+    <rrc>Okundu onayı iste</rrc>
+    <ssm>Gönderilen iletileri klasöre kaydet</ssm>
+    <psa>SmartAttach kullan</psa>
+    <priority>Öncelik</priority>
+    <lowest>En düşük</lowest>
+    <low>Düşük</low>
+    <normal>Normal</normal>
+    <high>Yüksek</high>
+    <highest>En yüksek</highest>
+    <rta>Yanıt adresi</rta>
+    <charset>Karakter kümesi</charset>
+    <auto>Oto.</auto>
+    <original_message>-----Asıl İleti-----</original_message>
+    <read_confirmation_subject>Okundu: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Mesajınız okundu.&#13;&#10;&#13;&#10;Mesaj detayları:&#13;&#10;&#13;&#10;Kimden: %FROM%&#13;&#10;Kime: %TO%&#13;&#10;Tarih: %DATE%&#13;&#10;Konu: %SUBJECT%</read_confirmation_text>
+    <add_contacts>Kişilere Ekle</add_contacts>
+    <add_files>Dosyalara ekle</add_files>
+    <add_files_from_folder>Add files from folder</add_files_from_folder>
+    <add_files_from_dropbox>Add files from Dropbox</add_files_from_dropbox>
+    <leave_notice>Ayrılmak istiyor musunuz? İleti kaybolacak.</leave_notice>
+    <alias>Takma ad</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Yeni Klasor</add>
+    <delete>Sil</delete>
+    <link>Bağla</link>
+    <unlink>Bağı kopar</unlink>
+    <create_folder>Yeni klasör oluştur</create_folder>
+    <create>Oluştur</create>
+    <delete_confirmation_text>Bu klasörü kalıcı olarak silmek istediğinize emin misiniz?</delete_confirmation_text>
+    <empty_confirmation_text>Bu klasördeki öğeleri kalıcı olarak silmek istediğinize emin misiniz?</empty_confirmation_text>
+    <delete_yes>Evet</delete_yes>
+    <delete_no>Hayır</delete_no>
+    <link_as>Klasörü farklı bağla</link_as>
+    <unlink_as>Klasör bağlantısını Sil / Yeniden Adlandır</unlink_as>
+    <unlink_confirmation_text>Klasör bağlantısını silmek istediğinize emin misiniz?</unlink_confirmation_text>
+    <unlink_yes>Evet</unlink_yes>
+    <unlink_no>Hayır</unlink_no>
+    <virtual>Sanal Klasör</virtual>
+    <delete_empty_folder>Klasörü Sil ya da Boşalt</delete_empty_folder>
+    <edit>Düzelt</edit>
+    <empty>Boşalt</empty>
+    <rename_folder>Klasörü Yeniden Adlandır</rename_folder>
+    <save>Kaydet</save>
+    <rename>Yeniden Adlandır</rename>
+    <perform_action>Şunun için eylemi gerçekleştir</perform_action>
+    <select_folder>Yönetmek için klasör seç</select_folder>
+    <open_folder>Klasörü aç</open_folder>
+    <open_folder_des>Bir klasörün içeriğine erişmek için kullanın.</open_folder_des>
+    <link_folder>Klasör bağla</link_folder>
+    <link_folder_des>Soldaki menüde bir klasör kısayol oluşturmak için kullan.</link_folder_des>
+    <add_folder>Klasör ekle</add_folder>
+    <add_folder_dis>Seçili klasörün altında yeni bir klasör oluşturmak için kullan.</add_folder_dis>
+    <rename_folder_des>Seçilen klasörü yeniden adlandırmak için kullan.</rename_folder_des>
+    <remove_folder>Klasörü kaldır</remove_folder>
+    <remove_folder_des>Seçili klasörü kalıcı olarak boşaltmak ya da silmek için kullan. Uyarı: bu işlemi geri alamazsınız!</remove_folder_des>
+    <default_folder>Varsayılan klasör olarak ayarla</default_folder>
+    <default_folder_des>Varsayılan olarak bu klasörü ayarlamak için kullanın.</default_folder_des>
+    <set_default>Bu klasör varsayılan olarak ayarla</set_default>
+    <set>Ayarla</set>
+    <as_drafts>Taslaklar</as_drafts>
+    <as_sent>Gönderilen</as_sent>
+    <as_trash>Çöp</as_trash>
+    <set_as_default>Ayarla</set_as_default>
+    <link_first>Klasör varsayılan olarak ayarlandıktan sonra bağlanabilir.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Gelen Kutusu</inbox>
+    <drafts>Taslaklar</drafts>
+    <sent>Gönderilen</sent>
+    <trash>Çöp</trash>
+  </common_folders>
+  <common>
+    <yes>Evet</yes>
+    <no>Hayır</no>
+  </common>
+  <folder_types>
+    <mail>Posta</mail>
+    <contact>Kişiler</contact>
+    <event>Takvim</event>
+    <journal>Günlük</journal>
+    <note>Not</note>
+    <task>Görev</task>
+    <file>Dosya</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA validation failed. Try again.</login_invalid_keypair>
+    <divtcha_confirmation>Yanlış güvenlik kodu</divtcha_confirmation>
+    <missing_values_text>Boş metin girişi</missing_values_text>
+    <missing_values_email>Boş eposta girişi</missing_values_email>
+    <invalid_email>Invalid email address</invalid_email>
+    <password_not_changed>Yeni şifre eskisi ile aynı olamaz</password_not_changed>
+    <reset_password_invalid_hashid>Hatalı karışım ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID dosyayı yok</reset_password_uid_file>
+    <account_alternative_email>Hesabın alternatif eposta adresi yok</account_alternative_email>
+    <migration_in_progress>Hesap aktarma sürüyor, daha sonra tekrar deneyin</migration_in_progress>
+    <login_ip_invalid>Giriş IP sınırlaması: %s</login_ip_invalid>
+    <unauthorized>Yetkisiz erişim</unauthorized>
+    <folder_type_restricted>Bu klasör tipi yönetici tarafından kısıtlanmıştır</folder_type_restricted>
+    <account_does_not_exists>Belirtilen hesap yok</account_does_not_exists>
+    <account_invalid_id>%s hesabı alınamıyor</account_invalid_id>
+    <account_unknown_protocol>Bilinmeyen hesap protokolü</account_unknown_protocol>
+    <account_missing_tag>%s etiketi hesapta eksik</account_missing_tag>
+    <account_missing_id>Hesap ID eksik</account_missing_id>
+    <account_invalid_action>Hesap işlemi geçersiz</account_invalid_action>
+    <account_already_exists>%s hesabı zaten var</account_already_exists>
+    <account_no_username>Hesap kullanıcı adı eksik ya da boş</account_no_username>
+    <account_no_password>Hesap şifresi eksik ya da boş</account_no_password>
+    <account_bad_password>Eski şifre yanlış girildi</account_bad_password>
+    <account_password_policy>Şifre parola prensiplerine uymuyor</account_password_policy>
+    <account_sync>Hesap senkronizasyonu %s hesabı için başarısız</account_sync>
+    <account_primary_delete>Ana hesap silinemez</account_primary_delete>
+    <account_test_failed>%s hesabı için hesap testi başarısız</account_test_failed>
+    <account_signup_disabled>Oto. giriş devre dışı</account_signup_disabled>
+    <account_signup_error>Hesap girişi hatası: %s</account_signup_error>
+    <account_signup_1>Tanımlanmamış hata</account_signup_1>
+    <account_signup_2>Yetersiz lisans</account_signup_2>
+    <account_signup_3>Çok kısa parametre boyutu</account_signup_3>
+    <account_signup_4>Fonksiyon hatası</account_signup_4>
+    <account_signup_5>Yapılandırma bulunamadı</account_signup_5>
+    <account_signup_6>Şifre prensibi</account_signup_6>
+    <account_signup_7>Hesap zaten var</account_signup_7>
+    <account_signup_8>Geçersiz karakter</account_signup_8>
+    <attachment_too_large>Ek çok büyük: %s</attachment_too_large>
+    <password_confirmation>Şifre uyumsuzluğu</password_confirmation>
+    <missing_values>Şifre uyumsuzluğu</missing_values>
+    <addon_copy>Eklenti kopyalanamıyor</addon_copy>
+    <attachment_file_not_found>Dosya eklenemiyor</attachment_file_not_found>
+    <attachment_add>Bir ek ekleme başarısız</attachment_add>
+    <attachment_get>Ek alınamıyor %s</attachment_get>
+    <attacment_class_unknown>Bilinmeyen ek sınıfı</attacment_class_unknown>
+    <auth_missing_tag>Eksik kimlik doğrulama etiketi %s</auth_missing_tag>
+    <auth_export_key_private>Özel anahtar çıkartılamıyor</auth_export_key_private>
+    <auth_invalid_char>Özel anahtarda geçersiz karakter</auth_invalid_char>
+    <confirmation_uid>Güvenlik kodu oturumu bulunamadı</confirmation_uid>
+    <confirmation_word_mismatch>Güvenlik kodu yanlış girildi</confirmation_word_mismatch>
+    <db_auto_create>Veritabanı oto. oluşturulamıyor</db_auto_create>
+    <db_create_sqlitefile>SQLite DB dosyası oluşturulamıyor</db_create_sqlitefile>
+    <db_create_tables>Tablolar oluşturulamıyor</db_create_tables>
+    <db_statement_prepare>Deyim hazırlanamıyor</db_statement_prepare>
+    <db_invalid_statement>Geçersiz deyim tipi</db_invalid_statement>
+    <flags_unknown_field>Geçersiz bayrak alanı</flags_unknown_field>
+    <folder_autocreate_failed>%s klasörü zaten var</folder_autocreate_failed>
+    <folder_already_exists>%s klasörü zaten var</folder_already_exists>
+    <folder_does_not_exist>%s klasörü yok</folder_does_not_exist>
+    <folder_name_bad_char>Klasör isminde özel karakterlere izin verilmiyor</folder_name_bad_char>
+    <folder_name_length>Klasör ismi uzunluğu alınamıyor</folder_name_length>
+    <folder_name_too_long>Yeni klasör adı çok uzun</folder_name_too_long>
+    <folder_get_list>Klasör listesi alınamıyor</folder_get_list>
+    <folder_delete>%s klasörü silinemiyor</folder_delete>
+    <folder_create>%s klasörü oluşturulamyıor</folder_create>
+    <folder_rename_empty>Klasör ismi boş olarak adlandırılamaz</folder_rename_empty>
+    <folder_move_to_self>Klasör kendine taşınamaz</folder_move_to_self>
+    <folder_move_to_subfolder>Klasör kendi alt klasörüne taşınamaz</folder_move_to_subfolder>
+    <folder_rename>Klasör yeniden adlandırılamaz</folder_rename>
+    <folder_copy>Klasör kopyalanamaz</folder_copy>
+    <folder_empty>Klasör boşaltılamaz</folder_empty>
+    <folder_missing_tag>Klasör etiketi eksik %s</folder_missing_tag>
+    <folder_missing_account_id>Klasörün hesap ID&apos;si eksik</folder_missing_account_id>
+    <folder_invalid_account_id>Hesabın geçerisiz bir hesap ID&apos;si var</folder_invalid_account_id>
+    <folder_missing_id>Eksik klasör ID</folder_missing_id>
+    <folder_missing_name>Eksik klasör adı</folder_missing_name>
+    <folder_invalid_action>Geçersiz klasör işlemi %s</folder_invalid_action>
+    <folder_invalid_type>Geçersiz klasör tipi %s</folder_invalid_type>
+    <folder_sync>Klasör senkronize edilemiyor %s</folder_sync>
+    <folder_empty_non_mail>Eposta olmayan klasörler boşaltılamaz</folder_empty_non_mail>
+    <folder_insufficient_rights>İşlemi gerçekleştirmek için yetersiz yetki</folder_insufficient_rights>
+    <folder_mark_non_mail>Eposta olmayan klasörlere bayrak ayarlanmaya çalışılıyor</folder_mark_non_mail>
+    <freebusy_missing_tag>FreeBusy etiketi eksik %s</freebusy_missing_tag>
+    <group_open>Grup açılamıyor %s</group_open>
+    <group_subscribe>Gruba abone olunamaz%s</group_subscribe>
+    <group_add>Grup oluşturulamıyor.</group_add>
+    <group_edit>Grup düzenlenemiyor %s</group_edit>
+    <group_user_add>Gruba kullanıcı eklenemiyor %s</group_user_add>
+    <group_user_edit>Grup kullanıcısı düzenlenemiyor %s</group_user_edit>
+    <group_user_delete>Grup kullanıcısı silinemiyor %s</group_user_delete>
+    <groupware_upgrade_task>GroupWare servis güncelleme yordamı çalışıyor. Daha sonra tekrar deneyin.</groupware_upgrade_task>
+    <folder_open>Grup açılamıyor %s</folder_open>
+    <call_open_folder_first>İşlem gerektiğinde GroupWare klasörü açılmıyor</call_open_folder_first>
+    <call_open_group_first>İşlem gerektiğinde GroupWare grubu açılmıyor</call_open_group_first>
+    <subscribe_account_gw>Hesabı abone yaparken gata</subscribe_account_gw>
+    <unsubscribe_account_gw>Hesabı abonelikten çıkartırken hata</unsubscribe_account_gw>
+    <imap_clone>IMAP nesnesi kopyalanamaz</imap_clone>
+    <imap_open>IMAP akışı açılamıyor</imap_open>
+    <imap_internal>İç IMAP hatası: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP ayraç alım hatası</imap_delimiter_retrieval>
+    <imap_getmailboxes>Posta kutusu listesi alınamıyor</imap_getmailboxes>
+    <imap_mailbox_create>IMAP oluşturma %s posta kutusunu oluşturma</imap_mailbox_create>
+    <imap_mailbox_subscribe>%s posta kutusu kabul edilmedi</imap_mailbox_subscribe>
+    <imap_mailbox_delete>%s posta kutusu silinemez</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Posta kutusu kayıt iptali yapılamaz: %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP posta kutusu yeniden adlandırma başarısız: %s</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP posta kutusu öğelerini sil</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP posta kutusu öğelerini boşalt</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP öğe kopyalaması başarısız</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP öğe taşıması başarısız</imap_mailbox_moveitems>
+    <imap_mailbox_open>%s posta kutusunu yeniden açılamaz</imap_mailbox_open>
+    <imap_mailbox_message_list>Mesaj listesi alınamaz</imap_mailbox_message_list>
+    <imap_message_details>%s mesajının ayrıntıları alınamaz</imap_message_details>
+    <imap_no_headers>%s mesajının başlıkları alınamaz</imap_no_headers>
+    <imap_no_body>%s mesajının gövdesi alınamıyor</imap_no_body>
+    <imap_message_create>Mesaj eklenemiyor</imap_message_create>
+    <imap_message_delete>%s mesajı silinemiyor</imap_message_delete>
+    <imap_message_copy>%s mesajı kopyalanamıyor</imap_message_copy>
+    <imap_message_move>%s mesajı taşınamıyor</imap_message_move>
+    <imap_flags_set>Mesaj bayrakları ayarlanamıyor %s</imap_flags_set>
+    <imap_flags_clear>Mesaj bayrakları silinemiyor %s</imap_flags_clear>
+    <imap_message_not_found>Hedef posta kutusunda yeni mesaj bulunamadı</imap_message_not_found>
+    <subscribe_account_imap>Hesap kaydedilirken hata</subscribe_account_imap>
+    <unsubscribe_account_imap>Hesabın aboneliği iptali hatası</unsubscribe_account_imap>
+    <import_vcalendar>vCalendar içe aktarma başarısız</import_vcalendar>
+    <import_vcard>vCard içe aktarma başarısız</import_vcard>
+    <import_missing_tag>İçe aktarma etiketi eksik %s</import_missing_tag>
+    <import_missing_action>Eksik işlem içe aktarma</import_missing_action>
+    <import_invalid_action>Geçersiz içe aktarım eylemi %s</import_invalid_action>
+    <import_missing_account_id>İçe aktarılan eksik hesap ID</import_missing_account_id>
+    <import_invalid_account_id>İçe aktarılan geçersiz hesap ID</import_invalid_account_id>
+    <import_missing_folder_id>İçe aktarılan eksik klasör ID</import_missing_folder_id>
+    <import_invalid_folder_id>İçe aktarılan geçersiz klasör ID</import_invalid_folder_id>
+    <import_invalid_item_id>İçe aktarılan geçersiz öğe ID</import_invalid_item_id>
+    <import_add_items>Öğeler oluşturulamıyor (liste)</import_add_items>
+    <import_invalid_data>Desteklenmeyen veri içe aktarılmaya çalışılıyor</import_invalid_data>
+    <export_invalid_account>Varolmayan hesap dışa aktarılmaya çalışılıyor</export_invalid_account>
+    <imip_versit_convert>iMIP versit dönüştür</imip_versit_convert>
+    <imip_versit_empty>iMIP versit boşalt</imip_versit_empty>
+    <imip_missing_folder>iMIP eksik klasör</imip_missing_folder>
+    <inputstream_no_xml_input>XML girişi geçemez</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Bozuk XML girişi</inputstream_corrupted_input>
+    <item_invalid_id>Öğe ID yok</item_invalid_id>
+    <item_count>Öğe sayısı alınamıyor</item_count>
+    <item_create>Öğe oluşturulamıyor</item_create>
+    <item_delete>%s öğesi silinemiyor</item_delete>
+    <item_move>Öğe taşınamıyor</item_move>
+    <item_edit>%s öğesi düzenleme hatası</item_edit>
+    <item_occurrance_delete>%s olayı silinemiyor</item_occurrance_delete>
+    <item_occurrance_create>Olay yaratılamıyor</item_occurrance_create>
+    <item_exception_delete>%s istisnası silinemiyor</item_exception_delete>
+    <item_exception_create>İstisna oluşturulamadı</item_exception_create>
+    <item_copy>Öğe kopyalanamadı</item_copy>
+    <item_copy_multiple>Çoklu öğe kopyalanamaz</item_copy_multiple>
+    <item_copy_destination>Hedef klasör alınamaz</item_copy_destination>
+    <item_copy_destination_type>Kaynak klasörden farklı tipteki klasör kopyalanamaz</item_copy_destination_type>
+    <item_count_retrieve>Klasör öğeleri sayılamaz</item_count_retrieve>
+    <item_missing_tag>Öğe etiketi eksik</item_missing_tag>
+    <item_missing_account_id>Hesap ID eksik</item_missing_account_id>
+    <item_invalid_account_id>Geçersiz hesap ID %s</item_invalid_account_id>
+    <item_missing_folder_id>Eksik klasör ID</item_missing_folder_id>
+    <item_invalid_folder_id>Geçersiz klasör ID %s</item_invalid_folder_id>
+    <item_missing_item_id>Eksik öğe ID</item_missing_item_id>
+    <item_invalid_item_id>Geçersiz öğe ID %s</item_invalid_item_id>
+    <item_invalid_action>Geçersiz öğe eylemi</item_invalid_action>
+    <login_invalid>%s kullanıcısı girişi geçersiz</login_invalid>
+    <login_account_valid>Geçersiz hesap %s</login_account_valid>
+    <phpmailer_>Generic mailer error, message not sent</phpmailer_>
+    <phpmailer_smtp_auth>Mailer could not authenticate, message not sent</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer could not connect to SMTP, message not sent</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer is missing recipients, message not sent</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer doesn&apos;t support this message type, message not sent</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail gönderim hatası</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Eposta gönderim hatası</phpmailer_mail_send>
+    <phpmailer_language>Dil dosyası açılamıyor</phpmailer_language>
+    <phpmailer_add_attachment>Dosya eklenemiyor</phpmailer_add_attachment>
+    <phpmailer_encode_file>Ekli dosya şifrelenemiyor</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Belirsiz eklenti şifreleme tipi</phpmailer_encode_unknown>
+    <mailparse_empty>Ayrıştırma için kaynak yok</mailparse_empty>
+    <mailparse_parser_init>Epostanın ayrıştırması başarısız</mailparse_parser_init>
+    <mailparse_get_part>%s kısmı alınamaz</mailparse_get_part>
+    <message_missing_tag>İleti eksik etiket %s</message_missing_tag>
+    <message_missing_account_id>İleti eksik hesap ID</message_missing_account_id>
+    <message_invald_account>İleti geçersiz hesap ID</message_invald_account>
+    <message_missing_folder_id>İleti eksik klasör ID</message_missing_folder_id>
+    <message_invald_folder>İleti geçersiz klasör ID</message_invald_folder>
+    <message_missing_item_id>İleti eksik öğe ID</message_missing_item_id>
+    <message_invalid_action>İleti geçersiz eylem</message_invalid_action>
+    <message_get_not_allowed>Yetersiz haklar nedeniyle klasör listesi güncellenemez</message_get_not_allowed>
+    <message_attachment_type>%s eklentisi çözümlenemez</message_attachment_type>
+    <message_attachment_existence>Yeni yüklenen ek bulunamadı</message_attachment_existence>
+    <rss_channel_exist>Belirtilen kanal URL açılamadı %s</rss_channel_exist>
+    <rss_invalid_channel>Kanala erişilemedi</rss_invalid_channel>
+    <settings_access_denied>Giriş engellendi</settings_access_denied>
+    <settings_missing_tag>Eksik etiket ayarlama %s</settings_missing_tag>
+    <settings_duplicity>XML ayarları dosya biçimlendirme hatası</settings_duplicity>
+    <settings_get_domain_file>Etki alanı ayarları dosyası okunamadı %s</settings_get_domain_file>
+    <settings_domain_set>Etki alanı ayarları dosyaya ayarlandı</settings_domain_set>
+    <settings_user_set>Kullanıcı ayarlarına dosyadan erişilemedi %s. İzinleri ve posta klasörünü kontrol edin.</settings_user_set>
+    <settings_public_set>Ayarlar genel veriden dosyaya ayarlandı %s</settings_public_set>
+    <settings_shared_set>Paylaşılan hesaplar kaydedilemez</settings_shared_set>
+    <settings_owner_set>Sahip ayarları ayarlanamaz</settings_owner_set>
+    <session_expired>%s oturumunun süresi doldu</session_expired>
+    <session_no_user>Oturum kullanıcı nesnesi alınamadı</session_no_user>
+    <smime_no_recipient>SMIME alıcı yok</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP verisi sunucu tarafından kabul edilmedi: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP Gönderen: başarısız (gönderen)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP Alıcıları başarısız (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Yazım denetim modu ayarlanamadı</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Yazım denetimi sözlüğü (dic) açılamadı</spellchecker_open_dictionary>
+    <spellchecker_add_word>Sözlüğe yeni bir sözcük %s eklenemedi</spellchecker_add_word>
+    <spellchecker_missing_check_id>Kelime tanımlayıcı eksik</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Kayıp etiket %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Sözlük tanımlayıcı eksik</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Eksik kelime</spellchecker_missing_word>
+    <upload_tag_missing>Yükleme etiketi eksik</upload_tag_missing>
+    <upload_missing_attribute>Eksik öznitelik yükleme</upload_missing_attribute>
+    <upload_attachment_missing>Eksik eklenti yükleme</upload_attachment_missing>
+    <xml_invalid_file_name>CML dosyası adı boş</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>Sorgunuzda birden fazla XML Xpath sonuç döndü</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>Belirtilen XML ağı bulunamadı %s</xml_node_does_not_exist>
+    <xmlrequest_path>Geçersiz şablon dosyası (yol)</xmlrequest_path>
+    <xmlrequest_access_denied>Erişim engellendi.</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Geçersiz istek tipi (tip)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Ad boşluğu özniteliği eksik</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Eksik veya geçersiz SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XMLReguest etiketi eksik %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Sınıf yapıcı eksik</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Bilinmeyen sonuç biçimi %s</xmlrequest_unkown_format>
+    <not_implemented>Henüz uygulanamadı</not_implemented>
+    <logdir_create>Günlük dizini oluşturulamıyor %s</logdir_create>
+    <api_property_get>%s icin ozellikler geri alınamıyor</api_property_get>
+    <wm_disabled>WebClient devre dışı</wm_disabled>
+    <gw_init_error>GroupWare başlatma hatası</gw_init_error>
+    <default>Varsayılan istisna %s</default>
+    <other_accounts_disabled>Diğer hesapların oluşturulması devre dışı</other_accounts_disabled>
+    <link_compressed_variable_missing>URL&apos;de hata, ana ekrana yönlendiriliyorsunuz</link_compressed_variable_missing>
+    <login_expired>Giriş zaman aşımı, tekrar giriş yapın</login_expired>
+    <account_disabled>Hesap devre dışı</account_disabled>
+    <folder_set_default>&quot;%s&quot; klasörü varsayılan olarak ayarlanamadı.</folder_set_default>
+    <personality_confirmation_invalid_user>Eposta adresi onaylanmadı: Geçersiz Kullanıcı</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>Eposta adresi onaylanmadı: Geçersiz Karma</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Karaliste öğesi başarısız</item_blacklist_error>
+    <item_whitelist_error>Beyazliste öğesi başarısız</item_whitelist_error>
+    <unverified_signature>Unable to verify message signature</unverified_signature>
+    <account_is_guest>Access not allowed for guests</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Item selection cleared</item_selection_cleared>
+    <logged_out>Çıkış yaptınız</logged_out>
+    <message_send_ok>İleti gönderildi</message_send_ok>
+    <item_move_ok>Öğe(ler) taşındı</item_move_ok>
+    <item_copy_ok>Öğe(ler) kopyalandı</item_copy_ok>
+    <item_delete_ok>Öğe(ler) silindi</item_delete_ok>
+    <item_mark_ok>Öğe(ler) işaretlendi</item_mark_ok>
+    <settings_save_ok>Ayarlar kaydedildi</settings_save_ok>
+    <loading_next_message>Yeni ileti yükleniyor</loading_next_message>
+    <loading_prev_message>Önceki ileti yükleniyor</loading_prev_message>
+    <loading_next_page>Sonraki sayfa yükleniyor</loading_next_page>
+    <loading_prev_page>Önceki sayfa yükleniyor</loading_prev_page>
+    <loading_next_month>Sonraki ay yükleniyor</loading_next_month>
+    <loading_prev_month>Önceki ay yükleniyor</loading_prev_month>
+    <loading_next_week>Sonraki hafta yükleniyor</loading_next_week>
+    <loading_prev_week>Önceki hafta yükleniyor</loading_prev_week>
+    <loading_next_day>Sonraki gün yükleniyor</loading_next_day>
+    <loading_prev_day>Önceki gün yükleniyor</loading_prev_day>
+    <password_change_ok>Şifre değiştirildi</password_change_ok>
+    <item_whitelist_ok>Öğe beyazlisteye eklendi</item_whitelist_ok>
+    <item_blacklist_ok>Öğe karalisteye eklendi</item_blacklist_ok>
+    <folder_set_default_ok>Klasör varsayılan olarak ayarlandı</folder_set_default_ok>
+    <subscribe_account_ok>Hesap kaydedildi</subscribe_account_ok>
+    <subscribe_folder_ok>Klasör kaydedildi</subscribe_folder_ok>
+    <item_decline_ok>Öğe reddedildi</item_decline_ok>
+    <access_granted>Erişim izniniz izin verildi. &quot;%s&quot; -&gt; &quot;%s&quot;</access_granted>
+    <message_save_ok>İleti kaydedildi</message_save_ok>
+    <item_accept_ok>Item accepted</item_accept_ok>
+  </messages>
+</language>

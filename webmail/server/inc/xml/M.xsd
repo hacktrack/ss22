@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="values">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="sender" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="from" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="html" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="cc" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="bcc" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="sms" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="reply_to" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="attachments" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="flags" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="has_attachment" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="has_embedded_attachment" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="priority" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="tags" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="static_flags" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="subject" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="smime_status" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="confirm_addr" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="date" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="size" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="certificate" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="message_id" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="references" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="in_reply_to" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="reply_fullpath" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="forward_fullpath" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="color" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="keep_seen" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="deferred_delivery" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element type="xs:string" name="ctz" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element type="xs:string" name="to" minOccurs="0" maxOccurs="unbounded"/></xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

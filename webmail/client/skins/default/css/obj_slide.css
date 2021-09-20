@@ -1,0 +1,22 @@
+.obj_slide{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+
+	white-space: nowrap;
+}
+.obj_slide>.slide{
+	width: 100%;
+	height: 100%;
+
+	transition: transform 250ms;
+}
+/* default panel */
+.obj_slide>div>.obj_slide_panel{
+	display: inline-block;
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+}

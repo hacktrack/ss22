@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Modrá</blue>
+    <green>Zelená</green>
+    <brown>Hnědá</brown>
+    <purple>Nachová</purple>
+    <yellow>Žlutá</yellow>
+    <teal>Modrozelená</teal>
+    <plum>Modrá</plum>
+    <red>Červená</red>
+    <aqua>Světle modrá</aqua>
+    <aquamarine>Aquamarine</aquamarine>
+    <orchid>Orchid</orchid>
+    <pink>Růžová</pink>
+    <silver>Silver</silver>
+    <white>White</white>
+    <gray>Šedá</gray>
+    <lemon>Žlutá</lemon>
+  </colors>
+  <title>
+    <new_email>* Nový e-mail</new_email>
+    <new_im>*Nová zpráva od %s</new_im>
+    <new_reminder>* Připomínka: %s</new_reminder>
+    <cerror>Chyba komunikace !</cerror>
+  </title>
+  <audio>
+    <player>Přehrávač</player>
+  </audio>
+  <signature>
+    <none>Bez podpisu</none>
+    <alias>Odesilatel</alias>
+    <newmsg>Nové zprávy</newmsg>
+    <oldmsg>Odpovědi</oldmsg>
+    <signature>Podpis</signature>
+    <variable>Vložit proměnné</variable>
+  </signature>
+  <alias>
+    <add>Přidat nový alias</add>
+    <notify>Byl odeslán potvrzovací e-mail.</notify>
+    <instructions>Na výše uvedený e-mail byla odeslána potvrzovací zpráva v níž naleznete další instrukce.</instructions>
+  </alias>
+  <notify>
+    <title>Detaily upozornění</title>
+    <to_all>Upozornit všechny uživatele s přístupem do tohoto adresáře</to_all>
+    <copy>Upozornit také</copy>
+    <comment>Volitelný komentář, který bude odeslán vybraným uživatelům v případě změny</comment>
+    <success>Upozornění odesláno</success>
+  </notify>
+  <datagrid>
+    <nomessages>Žádné zprávy</nomessages>
+    <noitems>Žádné položky</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Náhled</preview>
+    <down>Dolní panel</down>
+    <right>Pravý panel</right>
+    <none>Žádný</none>
+    <noitem>Prázdné</noitem>
+    <message_to>Zpráva pro: %s</message_to>
+    <doc_revisions>Revize dokumentu</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Vyhledávání</wizard>
+    <since>Od</since>
+    <until>Do</until>
+    <contains>Všude</contains>
+    <fulltext>Všechny části zprávy</fulltext>
+    <makefolder>Vytvořit vyhledávací složku</makefolder>
+    <contact_note>Poznámka</contact_note>
+  </search>
+  <search_hints>
+    <folder>Vyhledat položky ze zvolené složky</folder>
+    <from>Použijte pro hledání odesilatele (from:Adam)</from>
+    <to>Použijte pro hledání příjemce (to:David)</to>
+    <subject>Vyhledání slova v předmětu zprávy (subject:večeře)</subject>
+    <or>logický operátor</or>
+    <not>logický operátor</not>
+    <hasattachment>Vyhledání zpráv s přílohou</hasattachment>
+    <isflagged>Vyhledání zpráv s vlaječkou</isflagged>
+    <isunread>Vyhledání nepřečtených zpráv</isunread>
+    <isread>Vyhledání přečtených zpráv</isread>
+    <isdone>Vyhledávat mezi dokončenými úkoly</isdone>
+    <cc>Vyhledávat v cc: příjemcích</cc>
+    <bcc>Vyhledávat ve skrytých kopiích bcc:</bcc>
+    <sms>Vyhledávat typy zpráv sms:</sms>
+    <after>Vyhledat zprávy odeslané po zadaném čase (after:2004/04/16)</after>
+    <after_e>Vyhledat položky započaté po zadaném čase (after:2004/04/16)</after_e>
+    <after_f>Vyhledat položky změněné po zadaném čase (after:2004/04/16)</after_f>
+    <after_t>Vyhledat položky končící po zadaném čase (after:2004/04/16)</after_t>
+    <after_j>Vyhledat položky se začátkem po zadaném čase (after:2004/04/16)</after_j>
+    <before>Vyhledat zprávy odeslané před zadaným časem (before:2004/04/16)</before>
+    <before_e>Vyhledat položky začínající před zadaným časem (before:2004/04/16)</before_e>
+    <before_f>Vyhledat položky změněné před zadaným časem (before:2004/04/16)</before_f>
+    <before_t>Vyhledat položky končící před zadaným časem (before:2004/04/16)</before_t>
+    <before_j>Vyhledat položky začínající před zadaným časem (before:2004/04/16)</before_j>
+    <title>Vyhledat popis (title:Test)</title>
+    <description>Vyhledat poznámku nebo úkol (description:Test)</description>
+    <name>Vyhledat kontaktní jméno</name>
+    <email>Vyhledat e-mail adresu</email>
+    <keyword>Vyhledat zprávy se štítkem (tag:Business)</keyword>
+    <tag>Vyhledat zprávy s nastaveným štítkem (tag:Business)</tag>
+    <tag2>Vyhledat všechny zprávy se štítky &quot;%s&quot; (použití %s položek)</tag2>
+    <greater>Vyhledání podle velikosti vetší než kB (greater:1024)</greater>
+    <smaller>Vyhledání podle velikost menší než kB (smaller:1024)</smaller>
+    <company>Vyhledat kontakty ve společnosti (company:IceWarp)</company>
+    <department>Vyhledat kontakty v oddělení (department:IT)</department>
+    <note>Vyhledat kontakty s poznámkou</note>
+    <location>Vyhledat kontatky v umístění (location:London)</location>
+    <fulltext>Prohledat tělo zprávy (fulltext:test)</fulltext>
+    <priority>Vyhledat podle priorit highest,high,normal,low,lowest (priority:high)</priority>
+    <isprivate>Vyhledat privátní úkoly</isprivate>
+    <ispublic>Vyhledat veřejné úkoly</ispublic>
+    <isfree>Vyhledat volné úkoly</isfree>
+    <isbusy>Vyhledat zaneprázdněné úkoly</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Virtuální složka</virtual>
+    <general>Obecné</general>
+    <primary>Primární složka</primary>
+    <filter>Filtr</filter>
+    <all>Všechny složky</all>
+  </virtual>
+  <notifier>
+    <notifier>Upozornění</notifier>
+    <permissions>Upozornění na nový e-mail nebo chat je možné na pracovní stanici zobrazovat dokonce i ve chvíli, kdy je &#13;&#10;schované okno internetového prohlížeče. &lt;br Stačí si zvolit jakým způsobem si přejete být upozornění a kliknout&#13;&#10;na tlačítko OK.</permissions>
+    <denied>Zakázali jste přístup k upozornění na pracovní stanici.</denied>
+    <redirect>Zpráva přesměrována</redirect>
+    <send>Zpráva odeslána</send>
+    <item_save>Uloženo</item_save>
+    <new_email>Nová e-mailová zpráva %s</new_email>
+    <new_revision>Vytvořena nová revize dokumentu</new_revision>
+    <email_exist>E-mailová adresa již existuje</email_exist>
+    <email_added>E-mailová adresa byla přidána ke kontaktu</email_added>
+    <contact_email_list_full>Není možné přidat e-mail. Pole je již použité.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google Mapy</map>
+    <go>Zobrazit adresu na mapě</go>
+    <open>Otevřít Google</open>
+    <alert>Chyba Google maps</alert>
+    <g_geo_missing_address>Chybějící adresa: Adresa buď chybí nebo je špatně zadána</g_geo_missing_address>
+    <g_geo_too_many_queries>Příliš mnoho dotazů: Bylo dosaženo maximálního denní počtu dotazů.</g_geo_too_many_queries>
+    <g_geo_server_error>Chyba server. Dotaz na Google maps nemůže být proveden.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Přihlašovací informace</login_info>
+    <licenses>Desktop aplikace a licence</licenses>
+    <licenses_text>K přístupu na pracovní stanci můžete použít následující aplikace:&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Desktop klient&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Upozorňovací nástroj&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Doručené</delivered>
+    <delivered_info>successfully delivered to local recipient</delivered_info>
+    <sent>Odeslané</sent>
+    <sent_info>successfully delivered to remote server</sent_info>
+    <queue>Fronta</queue>
+    <queue_info>zpráva byla dočasně pozdržena, server se ji pokusí odeslat později</queue_info>
+    <error>Chyba</error>
+    <error_info>zkontrolujte svoji poštu pro detailní chybovou hlášku</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Všechny soubory</all_files>
+    <images>Obrázky</images>
+    <queue_limit_exceeded>Byl překročen limit fronty</queue_limit_exceeded>
+    <zero_byte_file>Nulová velikost souboru</zero_byte_file>
+    <invalid_filetype>Neplatný typ souboru</invalid_filetype>
+    <item>Položka</item>
+    <title>Nahrávám: %s - %s%</title>
+    <error1>Soubor překročil povolený limit (%sMB)</error1>
+    <error3>Nahrání souboru nebylo dokončeno</error3>
+    <error4>Nebyl nahrán žádný soubor</error4>
+    <error6>Chybí složka pro dočasné soubory</error6>
+    <error7>Selhání při zápisu souboru na disk</error7>
+    <error8>Neplatný formát souboru</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Stavový text...</status_msg>
+    <add_private>Privátní</add_private>
+    <unsupported_img>Nepodporovaný typ obrázku</unsupported_img>
+    <add_gateway>Přidat bránu</add_gateway>
+    <error_im>WebChat error</error_im>
+    <registred>Již registrovaný</registred>
+    <registr>Registrovat</registr>
+    <error_ticket>Nebylo možné vytvořit tiket.</error_ticket>
+    <error_socket>Nebylo možné otevřít soket.</error_socket>
+    <error_bytestream>Uživatel nepodporuje byte streams.</error_bytestream>
+    <error_cancel>Uživatel zrušil svůj požadavek.</error_cancel>
+    <error_registr>Služba odmítla Vaši registraci.</error_registr>
+    <add_service>Přihlásit službu</add_service>
+    <service>Služba</service>
+    <call>Volat nyní</call>
+    <audio_call>Audio hovor</audio_call>
+    <video_call>Video hovory</video_call>
+    <meeting>Start WebMeeting</meeting>
+    <invite>Invite to WebMeeting</invite>
+    <closetab>Zavřít záložku</closetab>
+    <show>Zobrazit všechny kontakty</show>
+    <hide>Schovat odpojené uživatele</hide>
+    <other>Ostatní</other>
+    <selected>Zvolené</selected>
+    <chat>Otevřít rozhovor</chat>
+    <groupmsg>Odeslat zprávu</groupmsg>
+    <group>Skupina</group>
+    <new_group>Nová skupina</new_group>
+    <subscription>Subskripce</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>User &lt;b&gt;%s&lt;/b&gt; has requested permission to add you to their WebChat contact list</sub_ask>
+    <send>Autorizovat kontakt.</send>
+    <request>Autorizační žádost</request>
+    <remove>Odstranit autorizaci</remove>
+    <remove_account>Opravdu si přejete odendat účet %s z kontaktů ?</remove_account>
+    <remove_accounts>Opravdu chcete odebrat zvolené účty z kontaktů?</remove_accounts>
+    <rem_grp>Odebrat skupinu</rem_grp>
+    <rem_grpc>Odebrat skupinu a kontakty</rem_grpc>
+    <rename>Přejmenovat</rename>
+    <add>Přidat kontakt</add>
+    <jabber_id>Uživatelské ID</jabber_id>
+    <nick>Zobrazit jméno</nick>
+    <vcard>Více info</vcard>
+    <history>Historie konverzace</history>
+    <sharedesktop>Sdílet obrazovku</sharedesktop>
+    <tab_general>Obecné</tab_general>
+    <tab_work>Práce</tab_work>
+    <tab_location>Lokalita</tab_location>
+    <tab_about>O uživateli</tab_about>
+    <send_mail>Odeslat e-mail</send_mail>
+    <send_file>Poslat soubor</send_file>
+    <receive_file>Přijmout soubor</receive_file>
+    <not_listed>Není v seznamu</not_listed>
+    <composing>WebChat: %s is composing...</composing>
+    <file_message>Uživatel poslal soubor s popisem:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s</file_message>
+    <file_cancel>Přenos souboru byl zamítnut příjemcem.</file_cancel>
+    <file_error>Chyba při přenosu souboru.</file_error>
+    <file_ok>Přenos souboru proběhl úspěšně.</file_ok>
+    <receive_note>Uživatel &lt;b&gt;%s&lt;/b&gt; Vám poslal soubor &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>Zobrazit konverzaci po: %s</show_after>
+    <im_status>WebChat: %s</im_status>
+    <im>WebChat</im>
+    <sip_inprogress>Probíhá hovor</sip_inprogress>
+    <sip_incomming>Příchozí hovor</sip_incomming>
+    <sip_calling>Volá</sip_calling>
+    <status_sec>% méně než minuta</status_sec>
+    <status_min>%s  %s minut</status_min>
+    <status_hour>%s %s hodin</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Propose new time</propose>
+    <nosubject>Žádný předmět</nosubject>
+    <when>Když</when>
+    <location>Lokalita</location>
+    <comment>Komentář</comment>
+    <description>Popis</description>
+    <accept>Přijmout</accept>
+    <tentative>Tentative</tentative>
+    <decline>Odmítnout</decline>
+    <skip_img>Externí obrázky byly blokovány Klikněte zde pro jejich stažení..</skip_img>
+    <show_img>Zpráva obsahuje obrázky. Klikněte pro zobrazení náhledu.</show_img>
+    <smart>Attachments are delivered using IceWarp SmartAttach technology.</smart>
+    <show_raw>Otevřít zprávu</show_raw>
+    <certificate>Veřejný certifikát</certificate>
+    <serror>Chyba dešifrování. Neplatný nebo chybějící certifikát.</serror>
+    <sverify>Není možné ověřit podpis zprávy</sverify>
+    <expired>Zprávu není možné dešifrovat kvůli propadlému certifikátu.</expired>
+    <access>Byla Vám nasdílena složka &quot;%s&quot;uživatele %s.</access>
+    <account_access>Byl Vám umožňen přístup %s.</account_access>
+    <subscribe>Zobrazit složku</subscribe>
+    <subscribe_account>Zobrazit účet</subscribe_account>
+    <subscribed>Účet %s byl spárován s Vaším účtem.</subscribed>
+    <subscribed_folder>Složka &quot;%s/%s&quot; byla přidána do Vašich složek.</subscribed_folder>
+    <unsubscribe>Odpárovat účet</unsubscribe>
+    <unsubscribed>Data uživatelského účtu %s již nebudou zobrazována.</unsubscribed>
+    <unsubscribed_folder>Odebrali jste zobrazení složky &quot;%s/%s&quot;.</unsubscribed_folder>
+    <error>Akce nemůže být provedena.</error>
+    <recurrent>Opakování</recurrent>
+    <occurrence>Vyjímka z opakování události</occurrence>
+    <attendee>s</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Co je nového</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Nápověda</help>
+    <about>O aplikaci</about>
+  </help>
+  <print>
+    <preview>Náhled tisku</preview>
+    <opera>Funkce není podporována prohlížečem.</opera>
+  </print>
+  <status>
+    <online>Online</online>
+    <offline>Offline</offline>
+    <chat>Volný pro konverzaci.</chat>
+    <away>Pryč</away>
+    <xa>N/A</xa>
+    <dnd>DND</dnd>
+    <invisible>Neviditelný</invisible>
+    <gone>Uživatel opustil konverzaci.</gone>
+    <error>Chyba</error>
+    <sip>Online Webphone</sip>
+    <chat_with>Konverzace s %s</chat_with>
+  </status>
+  <policy>
+    <minlength>Minimální délka hesla je: %s znaků</minlength>
+    <digits>Počet číslic v heslu: %s</digits>
+    <alpha>Minimální počet alfanumerických znaků: %s</alpha>
+    <nonalphanum>Počet ostatních znaků: %s</nonalphanum>
+    <upperalpha>Počet velkých písmen: %s</upperalpha>
+    <useralias>Heslo nemůže být shodné s uživatelským jménem nebo aliasem</useralias>
+  </policy>
+  <alerts>
+    <alert>Upozornění</alert>
+    <suppress>Znovu zprávu nezobrazovat</suppress>
+    <create_revision>Není možné vytvořit revizi</create_revision>
+    <password_do_not_match>Hesla se neshodují</password_do_not_match>
+    <invalid_password>Neplatné heslo</invalid_password>
+    <new_password_match>Nové heslo je shodné se starým</new_password_match>
+    <invalid_cpassword>Hesla se neshodují!</invalid_cpassword>
+    <folder_exist>Složka již existuje</folder_exist>
+    <create_folder>Nebylo možné vytvořit složku &quot;%s&quot;</create_folder>
+    <rename_folder>Nebylo možné přejmenovat složku &quot;%s&quot; na &quot;%s&quot;</rename_folder>
+    <attachment_size>Velikost přílohy překročila limit!</attachment_size>
+    <attachment_quota>Kvóta pro přílohy byla překročena</attachment_quota>
+    <attachment_missing>Soubor s přílohou nebyl nalezen</attachment_missing>
+    <attachment_virus>Příloha obsahuje virus</attachment_virus>
+    <could_not_create>Dokument není možné vytvořit</could_not_create>
+    <could_not_edit>Dokument nemůže být upraven.</could_not_edit>
+    <general_error>Nespecifikovaná chyba &lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>Heslo odporuje nastavené politice</password_policy>
+    <password_requirements>Je nutné splnit následující požadavky a zvolit nové heslo:</password_requirements>
+    <password_incorrect>Neplatné heslo.</password_incorrect>
+    <message_not_sent>Zpráva nebyla odeslána</message_not_sent>
+    <message_not_saved>Zpráva nebyla uložena</message_not_saved>
+    <mailingfailed>Zprávu není možné odeslat ani uložit. Prosím zkuste to později.</mailingfailed>
+    <distribution_list_invalid_id>Neplatný distribuční seznam.</distribution_list_invalid_id>
+    <smtp_from_failed>Následující odesilatel nebyl akceptován.</smtp_from_failed>
+    <smtp_recipients_failed>Příjemci způsobili následující chybu:</smtp_recipients_failed>
+    <smtp_data_not_accepted>Zpráva nebyla akceptována serverem</smtp_data_not_accepted>
+    <default_folder_missing>Výchozí složka &quot;%s&quot; schází.</default_folder_missing>
+    <no_recipient_certificate>Chybí certifikát příjemce</no_recipient_certificate>
+    <recipient_certificate_expired>Certifikát příjemce vypršel.</recipient_certificate_expired>
+    <personal_certificate>Chyba osobního certifikátu.</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>Není možné získat zprávu</imap_null>
+    <delete_item>Zvolené položky nemohly být smazány</delete_item>
+    <reserved_folder>Rezerované jméno složky &quot;%s&quot;</reserved_folder>
+    <undefined>Neznámá chyba</undefined>
+    <timezone_differ>Došlo ke změně časové zóny. Pro úpravu položek v kalendáři prosím zvolte aktuální lokaci.</timezone_differ>
+    <popup_blocker>Bylo zablokované pop-up okno.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Nepřečtené</unread>
+    <contact_ok>Dotaz byl odeslán na správce</contact_ok>
+    <signup_ok>Byl úspěšně vytvořen nový účet.</signup_ok>
+    <logout>Uživatel odhlášen</logout>
+    <logged_out>Uživatel odhlášen</logged_out>
+    <forgot_ok>Vaše údaje byly odeslány na zadanou a alternativní e-mailovou adresu</forgot_ok>
+    <password_change_ok>Změna hesla byla provedena.</password_change_ok>
+    <close_window>Toto okno můžete nyní zavřít.</close_window>
+    <personality_confirmation_ok>E-mailová adresa potvrzena.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Neplatné uživatelské jméno nebo heslo. Zkuste se přihlásit znovu.</invalid_login>
+    <account_disabled>Účet byl deaktivován</account_disabled>
+    <expired>Platnost spojení vypršela.</expired>
+    <connection>Nebylo možné připojit se k serveru. Prosím zkontrolujte si své připojení na Internet.</connection>
+    <servererror>Není možné připojit se ke službě. Prosím zkuste to později.</servererror>
+    <overloaded>Server je dočasně nedostupný. Zkuste se prosím připojit později nebo kontaktovat správce.</overloaded>
+    <countdown>Zkusím znovu za  %s sekund..</countdown>
+    <filenotfound>Soubor není v tuto chvíli k dispozici na serveru.</filenotfound>
+    <subscribe_error>Nebylo možné zajistit odběr dat z účtu %s.</subscribe_error>
+    <wc_disabled>Web klient je vypnutý</wc_disabled>
+    <invalid_rsa>Není možné vytvořit RSA heslo</invalid_rsa>
+    <no_db>Chyba spojení na databázi</no_db>
+    <no_data>Žádná data nejsou dostupná</no_data>
+    <access_error>Není možné přistoupit k e-mailové složce. Kontaktujte správce serveru.</access_error>
+    <ip_mismatch>Došlo ke změně Vaší IP adresy. Vzhledem k bezpečnosti spojení budete nyní odhlášen.</ip_mismatch>
+    <javatip1>Prosím povolte přístup prohlížeče k Java rozšíření.</javatip1>
+    <javatip2>Přo instalace podpory Java kontaktujte správce nebo</javatip2>
+    <javatip3>Klikněte na tlačítko Pomoc s instalací.</javatip3>
+    <contactadmin>Kontaktovat správce</contactadmin>
+    <troubleshoot>Pomoci s instalací</troubleshoot>
+  </error>
+  <common>
+    <all>Vše</all>
+    <processing>Processing</processing>
+    <loading>Nahrávám...</loading>
+    <sending>Odesílám...</sending>
+    <comment>Komentář (volitelné)</comment>
+    <email>E-Mail</email>
+    <folder>Složka</folder>
+    <items>Položky</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Zvolit vše</select_all>
+    <clear>Vyčistit</clear>
+    <yes>Ano</yes>
+    <no>Ne</no>
+    <auto>Auto</auto>
+    <disable>Vypnout</disable>
+    <enable>Zapnout</enable>
+    <enabled>Zapnout</enabled>
+    <show_all>Zobrazit vše</show_all>
+    <previous>Předchozí</previous>
+    <next>Další</next>
+    <more>Více...</more>
+    <show>Zobrazit</show>
+    <hide>Schovat</hide>
+    <appearance>Panel Appearance</appearance>
+    <expand>Expanded</expand>
+    <collapsed>Collapsed</collapsed>
+    <autocollapsed>Auto Collapse</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Oblíbené</favorites>
+    <remove>Odebrat z oblíbených</remove>
+    <rename>Přejmenovat odkaz</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>Vlastník</owner>
+    <address_book>Kontakty</address_book>
+    <add_recipient>Přidat příjemce</add_recipient>
+    <selected_addresses>Zvolené</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Prázdný</empty>
+    <today>Dnes</today>
+    <this_week>Tento týden</this_week>
+    <this_month>Tento měsíc</this_month>
+    <yesterday>Včera</yesterday>
+    <tomorrow>Zítra</tomorrow>
+    <typetoadd>Začněte psát..</typetoadd>
+    <owner>Vlastník</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>Lokální čas</timezones>
+    <serverzone>Čas serveru</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Přejete si vyčistit slovník automatického doplňování ?</clear_autosuggest>
+    <suppress>Již se neptat</suppress>
+    <reset_password_subject>Heslo pro účet %email%</reset_password_subject>
+    <reset_password>Dobrý den %username%,&#13;&#10;&#13;&#10;Tento e-mail Vám byl zaslán na základě žádosti o reset hesla pro e-mailovou adresu (%email%) .&#13;&#10;&#13;&#10;Pro potvrzení prosím klikněte na URL níže. Pokud jste o reset hesla nežádali tuto zprávu ignorujte.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Potvrdit novou adresu odesilatele: %username%</alias_subject>
+    <alias_confirmation>Dobrý den %username%,&#13;&#10;&#13;&#10;Tento e-mail  byl vygenerován pro potvrzení přidání nové adresy odesilatele. Kliknutím na odkaz&#13;&#10;níže ověřujeme, že adresa patří právě Vám.&#13;&#10;&#13;&#10;Pokud jste o změnu odesilatele nežádali, tuto zprávu ignorujte.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>Abyste zabránili ztrátě dat, ujistěte se že máte uloženy veškeré otevřené položky a rozepsané e-maily.</unload>
+    <expired>Spojení vyexpirovalo</expired>
+    <no_mobile>Nebylo nalezeno žádné mobilní telefonní číslo</no_mobile>
+    <expired_msg>Nebude možné odeslat nebo uložit nedokončené zprávy. Došo ke změne Vaší IP adresy.</expired_msg>
+    <delete_account_confirmation>Potvrzení odebrání učtu</delete_account_confirmation>
+    <delete_account>Opravdu si přejete odebrat účet %s?</delete_account>
+    <recover_item>Přejete si obnovit zvolené položky?</recover_item>
+    <delete_folder_confirmation>Potvrzení smazání složky</delete_folder_confirmation>
+    <delete_folder>Opravdu si přejete smazat složkur &quot;%s&quot;?&lt;br/&gt;(Všechny podsložky budou permanentně smazány)</delete_folder>
+    <delete_item_confirmation>Potvrzení smazání položky</delete_item_confirmation>
+    <delete_item>Opravdu si přejete smazat označené položky?</delete_item>
+    <delete_avatar>Obrázek u kontaktu bude smazán.</delete_avatar>
+    <blacklist_sender_confirmation>Přidání odesilatele do seznamu nevyžádaných</blacklist_sender_confirmation>
+    <blacklist_sender>Přejete si přidat odesilatele do seznamu nevyžádaných?</blacklist_sender>
+    <blacklist_domain>Are you sure to blacklist all items from this domain?</blacklist_domain>
+    <blacklisted>Odesilatel byl uložen do seznamu nevyžádaných.</blacklisted>
+    <whitelist_sender_confirmation>Přidání odesilatele do seznamu vyžádaných</whitelist_sender_confirmation>
+    <whitelist_sender>Přejete si přidat odesilatele do seznamu vyžádaných?</whitelist_sender>
+    <whitelist_domain>Are you sure to whitelist all items from this domain?</whitelist_domain>
+    <whitelisted>Odesilatel byl uložen do seznamu vyžádaných.</whitelisted>
+    <empty_folder_confirmation>Vyprázdnit složku</empty_folder_confirmation>
+    <empty_folder>Opravdu si přejete smazat všechny položky ve složce?</empty_folder>
+    <empty_to_trash>Přejete si přesunout všechny položky uložené ve složce do koše?</empty_to_trash>
+    <save_title>Uložení zprávy</save_title>
+    <save_confirmation>Zpráva nebyla uložena. Přejete si ji uložit do rozepsaných?</save_confirmation>
+    <save_file>Přejete si uložit provedené změny ?</save_file>
+    <save>Uložit</save>
+    <discard>Neukládat</discard>
+    <create_reading_confirmation_title>Potvrzení o přečtení</create_reading_confirmation_title>
+    <create_reading_confirmation>Odesilatel zprávy si vyžádal zaslání potvrzení o přečtení. Přejete si jej zaslat nyní?</create_reading_confirmation>
+    <send_reading_confirmation>Požádat příjemce o potvrzení přečtení ?</send_reading_confirmation>
+    <browser_warning_title>Detekce nekompatibilního prohlížeče</browser_warning_title>
+    <browser_warning_text_unsupported>Váš internetový prohlížeč není oficiálně podporován produktem IceWarp Web klient&#13;&#10;&#13;&#10;Pro využití plné funkcionality použijte jiný prohlížeč - Firefox 4.0 (nebo vyšší) a Internet Explorer 8.0 (nebo vyšší).&#13;&#10;Aktuální verze prohlížečů jsou dostupné ke stažení na adresách:&#13;&#10;&#13;&#10; http://www.firefox.com/&#13;&#10;&#13;&#10;nebo &#13;&#10;&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;Pro pokračování klikněte na tlačítko OK nebo na Zrušit pro přepnutí do Web klientského tablet rozhraní</browser_warning_text_unsupported>
+    <expired_password>Vaše heslo vyexpirovalo. Je nutné jej ihned změnit.</expired_password>
+    <authentication>Chyba autorizace</authentication>
+    <authenticate>Z bezpečnostních důvodů je nutné se znovu ověřit</authenticate>
+    <enterpass>Pro pokračování v práci zadejte své heslo nebo se odhlašte.</enterpass>
+    <secure>Doporučujeme přistupovat k rozhraní pomocí zabezpečeného rozhraní.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>Změna jazyka bude provedena po odhlášení a opětovném přihlášení</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Otevřít v novém okně</open_in_separate_window>
+    <help_restriction>Tato funkce není povolena správcem.</help_restriction>
+    <switch_older>Switch to previous version of WebClient</switch_older>
+    <choose_interface>Zvolte si preferovanou variantu rozhraní</choose_interface>
+    <choose_lang>Zvolte si jazyk</choose_lang>
+    <migration_in_progress>Probíhá migrace. Zkuste prosím akci opakovat později.</migration_in_progress>
+    <message_sent>Zpráva doručena</message_sent>
+    <message_send_failed>Odeslání zprávy selhalo</message_send_failed>
+    <antispam_code_error>Neplatný bezpečnostní kód</antispam_code_error>
+    <antispam>Bezpečnostní kód</antispam>
+    <contact_support_subject>Nový kontakt z přihlašovací obrazovky</contact_support_subject>
+    <text>Text</text>
+    <contact_administrator>Kontaktovat podporu</contact_administrator>
+    <contact_question>Potřebujete pomoci ?</contact_question>
+    <contact_answer>Kontaktovat správce</contact_answer>
+    <contact_1>Kontaktujte</contact_1>
+    <contact_2>správce</contact_2>
+    <contact_placeholder_1>Váš e-mail a telefon</contact_placeholder_1>
+    <contact_placeholder_2>Popis problému</contact_placeholder_2>
+    <help>Audio pomoc</help>
+    <meeting_me>Já</meeting_me>
+    <meeting_hang_up_confirmation>Opravdu si přejete opustit schůzku ?</meeting_hang_up_confirmation>
+    <online_meeting>WebMeeting</online_meeting>
+    <meeting_connected>Připojeno</meeting_connected>
+    <meeting_connecting>Připojuji ...</meeting_connecting>
+    <phone_access>Telefonní přístup</phone_access>
+    <meeting_chat_ready>Welcome to the WebMeeting! Group chat is ready.</meeting_chat_ready>
+    <meeting_chat_send>Odeslat</meeting_chat_send>
+    <meeting_user_left_meeting>Uživatel &quot;%s&quot; opustil schůzku</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>Uživatel &quot;%s&quot; se připojil</meeting_user_joined_meeting>
+    <meeting_no_participants>Žádní účastníci</meeting_no_participants>
+    <meeting_server_not_responding>Server neodpovídá</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Úspěšně připojen</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Audio rozšíření není možné spustit. Pokud se v prohlížeči zobrazuje dialog s potvrzením povolení technologie Java,&#13;&#10;odsouhlaste jej. Poslední verzi Java rozšíření je možne stáhnout na adrese: &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;&#13;&#10;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>Trvání</duration>
+    <mute>Vypnout mikrofon</mute>
+    <desktop_sharing_id>ID sdílení obrazovky</desktop_sharing_id>
+    <conference_phone_number>WebMeetings phone number</conference_phone_number>
+    <desktop_sharing_app>Aplikace pro sdílení obrazovky</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>Omlouváme se ale sdílení obrazovky není dostupné pro mobilní zařízení. Níže naleznete adresu pro stažení aplikace</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>Omlouvám se, ale sdílení obrazovky není dostupné pro Mac. Nainstalujte si prosím aplikaci z adresy níže.</desktop_sharing_mac_warning>
+    <continue_to_call>Pokračovat do hovoru</continue_to_call>
+    <meeting_api_unexpected_response>Neočekávaná API odpověď</meeting_api_unexpected_response>
+    <applet_unreachable>Java applet není dostupný</applet_unreachable>
+    <sip_applet_load_failed>Není možné načíst audio applet</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Selhalo získání informací o schůzce</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>Sdílení obrazovky bylo ukončeno, ale audio je stále připojené.</meeting_mikogo_ended>
+    <meeting_ended>WebMeeting ended</meeting_ended>
+    <meeting_hang_up>Pověsit</meeting_hang_up>
+    <meeting_id>ID schůzky</meeting_id>
+    <meeting_mikogo_ready>Sdílení obrazovky je připravené</meeting_mikogo_ready>
+    <meeting_sip_ready>Audio je připravené</meeting_sip_ready>
+    <meeting_call_failed>Hovor selhal</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Vypršel časový limit pozvánky. Zkuste se prosím připojit znovu za %s sekund.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Zkouším znovu za %s sekund.</meeting_trying_again_in>
+    <meeting_preparing_sip>Připravuji audio</meeting_preparing_sip>
+    <meeting_starting_sip>Startuji audio</meeting_starting_sip>
+    <meeting_waiting_for_reply>Čekám na odpověď ze serveru</meeting_waiting_for_reply>
+    <meeting_in_progress>Schůzka probíhá</meeting_in_progress>
+    <meeting_you_can_join>You can now join the WebMeeting</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Åpplet pro schůzku není připraven</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>Odpověď neobsahuje meeting applet kód</meeting_no_applet_code>
+    <meeting_unexpected_response>Neočekávaná chyba meeting appletu</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Your browser doesn&apos;t support WebMeetings</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>Pro práci s aplikací doporučujeme využívat prohlížeč Chrome.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>The WebMeeting hasn&apos;t started yet</meeting_meeting_wasnt_started>
+    <meeting_waiting>Waiting for %s to start the WebMeeting</meeting_waiting>
+    <meeting_created_by_ready>WebMeeting created by %s is ready</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Načítám data o schůzce</meeting_loading_meeting_info>
+    <unknown_error>Neznámá chyba</unknown_error>
+    <meeting_no_name>Zadejte své jméno a přezdívku</meeting_no_name>
+    <meeting_api_error_104>Neplatné ID schůzky</meeting_api_error_104>
+    <meeting_api_error_description_104>Adresa schůzky neexistuje nebo není kompletní</meeting_api_error_description_104>
+    <meeting_api_error_111>Služba je vypnuta</meeting_api_error_111>
+    <meeting_api_error_120>Nemohu se připojit na vzdálený server</meeting_api_error_120>
+    <meeting_api_error_125>Server doesn&apos;t have a valid license for WebMeetings</meeting_api_error_125>
+    <meeting_id_doesnt_exist>ID meetingu neexistuje</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Mikrofon není dostupný</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Přejete si pokračovat bez připojeného mikrofonu ?</meeting__no_microphone_continue>
+    <fill_in_name>Zadejte jméno</fill_in_name>
+    <fill_in_email>Zadejte e-mailovou adresu</fill_in_email>
+    <join_meeting>Join WebMeeting</join_meeting>
+    <already_a_member>Již jsem členem</already_a_member>
+    <name>Jméno</name>
+    <enter_your_name>Zadejte Vaše jméno</enter_your_name>
+    <enter_your_name_description>This name will be visible to other participants and used to identify you during the WebMeeting</enter_your_name_description>
+    <cancel>Zrušit</cancel>
+    <login_caption>Vítejte do IceWarp WebMail</login_caption>
+    <copy>&lt;a href=&quot;http://www.icewarp.cz&quot;&gt;IceWarp Server&lt;/a&gt;</copy>
+    <copy_new>Provozováno na &lt;a href=&quot;http://www.icewarp.cz&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>IceWarp Web klient</title>
+    <user>Uživatelské jméno</user>
+    <email>Emailová adresa</email>
+    <pass>Heslo</pass>
+    <old_pass>Staré heslo</old_pass>
+    <new_pass>Nové heslo</new_pass>
+    <check_pass>Potvrzení hesla</check_pass>
+    <change_password>Změna hesla</change_password>
+    <remember>Pamatovat</remember>
+    <save0>Automatické přihlášení</save0>
+    <save1>Jméno a heslo</save1>
+    <save2>Jméno</save2>
+    <save3>Vždy se ptát</save3>
+    <login>Přihlášení</login>
+    <send>Odeslat</send>
+    <create_account>Vytvořit účet</create_account>
+    <switch>Přepnout na  &lt;a href=&quot;./basic&quot;&gt;Tablet&lt;/a&gt; nebo &lt;a href=&quot;./pda&quot;&gt;Mobilní&lt;/a&gt; rozhraní.</switch>
+    <downloads>Nástroje ke stažení</downloads>
+    <interface>Rozhraní</interface>
+    <basic>Tablet</basic>
+    <pda>Telefon</pda>
+    <pro>Desktop</pro>
+    <osx>Mac OS X</osx>
+    <lang>Jazyk</lang>
+    <keep_me_signed>Zapamatovat</keep_me_signed>
+    <utilities>Nástroje</utilities>
+    <pw_policy_minlength>Minimální délka hesla</pw_policy_minlength>
+    <pw_policy_digits>Počet numerických znaků v hesle [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Počet písmen v hesle [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>Počet nealfanumerických znaků v hesle [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>Kontrola hesla oproti uživatelskému jménu a aliasu</pw_policy_useralias>
+    <pw_policy_uppercase>Počet velkých písmen v hesle  [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>Zobrazit virtuální klávesnici</virtual_keyboard_01>
+    <virtual_keyboard_02>Zvolte rozložení klávesnice</virtual_keyboard_02>
+    <virtual_keyboard_04>Zapnutý</virtual_keyboard_04>
+    <virtual_keyboard_05>Vypnutý</virtual_keyboard_05>
+    <virtual_keyboard_06>Zavřít klávesnici</virtual_keyboard_06>
+    <virtual_keyboard_07>Vyčistit</virtual_keyboard_07>
+    <virtual_keyboard_08>Vyčistit vstup</virtual_keyboard_08>
+    <virtual_keyboard_10>Zmenšit velikost klávesnice</virtual_keyboard_10>
+    <virtual_keyboard_11>Zvětšit velikost klávesnice</virtual_keyboard_11>
+    <js_problem>Nebylo možné spustit JavaScript</js_problem>
+    <public_calendar>Veřejný kalendář</public_calendar>
+    <login_to_pro>Přihlásit do plnohodnotného rozhraní</login_to_pro>
+    <login_to_basic>Tablet</login_to_basic>
+    <login_to_pda>Mobilní telefon</login_to_pda>
+    <js_turned_off_message_text>Pro plnohodnou práci s využijte prosím web klientské rozhraní určené pro pracovní stanice. Internetový prohlížeč musí podporovat technologii JavaScript.</js_turned_off_message_text>
+    <js_turned_off_message_link>Tablet rozhraní</js_turned_off_message_link>
+    <learn_more>Dozvědět se více o funkcích</learn_more>
+    <learn_more_short>Více</learn_more_short>
+    <login_back>Zpět na přihlášení</login_back>
+    <changepwd>Změnit&lt;br/&gt; heslo</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Desktop</advanced>
+    <basic>Tablet</basic>
+  </login_client>
+  <login_style>
+    <gray>Šedý</gray>
+    <white>Bílé</white>
+    <black>Grafitové</black>
+    <red>Červené</red>
+    <yellow>Žluté</yellow>
+    <green>Zelené</green>
+    <blue>Modré</blue>
+    <purple>Fialové</purple>
+    <orange>Oranžové</orange>
+    <brown>Hnědé</brown>
+    <pink>Růžové</pink>
+  </login_style>
+  <skin_style>
+    <default>Modrá</default>
+    <black>Černá</black>
+    <brown>Hnědá</brown>
+    <graphite>Grafitová</graphite>
+    <green>Zelená</green>
+    <orange>Oranžová</orange>
+    <pink>Růžová</pink>
+    <purple>Purpurová</purple>
+    <red>Červená</red>
+    <yellow>Žlutá</yellow>
+  </skin_style>
+  <sign_up>
+    <question>Ještě nemáte účet?</question>
+    <answer>Vytvořit účet</answer>
+    <sign_up>Vytvoření účtu</sign_up>
+    <create_account>Zadejte informace o novém účtu</create_account>
+    <fullname>Jméno</fullname>
+    <domain>Doména</domain>
+    <username>Uživatelské jméno</username>
+    <alternative>Alternativní email</alternative>
+    <captcha_error>Neplatný bezpečnostní kód</captcha_error>
+    <pass_error>Zadané heslo nebylo akceptováno</pass_error>
+    <incorrect_error>Neplatné uživatelské jméno nebo alias</incorrect_error>
+    <exists_error>Účet již existuje.</exists_error>
+    <error>Nový účet nemůže být vytvořen</error>
+    <account_created>Nový účet byl úspěšně vytvořen</account_created>
+    <invalid_cpass>Neplatné potvrzení hesla</invalid_cpass>
+    <confirm_pass>Potvrdit</confirm_pass>
+    <password_change>Změna hesla</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Zapomněli jste heslo ?</question>
+    <question_br>Zapomenuté&lt;br/&gt; heslo?</question_br>
+    <title>Resetovat &lt;br&gt; heslo</title>
+    <answer>Vyresetovat</answer>
+    <generate>Dvojitým klikem získáte nový bezpečnostní kód</generate>
+    <captcha>Opište zobrazený kód</captcha>
+    <captcha_error>Neplatný bezpečnostní kód</captcha_error>
+    <security_code>Bezpečnostní kód</security_code>
+    <reset_pass>Reset hesla</reset_pass>
+    <enter_alt_pass>Vaše přihlašovací údaje budou odeslány na alternativní e-mailovou adresu.</enter_alt_pass>
+    <reset_send>Údaje byly odeslány na adresu:</reset_send>
+    <reset_error>Zadaný účet neexistuje nebo není možné získat heslo</reset_error>
+    <subject>Resetovat heslo pro %EMAIL%</subject>
+    <email>Dobrý den %FULLNAME%,&#13;&#10;&#13;&#10;Toto je automaticky generovaná zpráva potvrzující žádost o vyresetování hesla u adresy (%EMAIL%).&#13;&#10;&#13;&#10;Pro potvrzení prosím klikněte na adresu níže.&#13;&#10;%URL%&#13;&#10;&#13;&#10;Pokud jste o vyresetování hesla nežádali, tento e-mail ignorujte.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Jméno již existuje</duplicity>
+    <label>Dokument se jménem &quot;%s&quot; již existuje.</label>
+    <suggested_name>Doporučené jméno</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Zpracovávám</processing>
+    <step1>1) Nahrajte soubor se zálohou</step1>
+    <step2>2) Zvolte cílový adresář</step2>
+    <step3>3) Zvolte typ sloupců pro import</step3>
+    <step1e>Zvolte zdrojovou složku kontaktů</step1e>
+    <step2e>Zvolte typ exportu</step2e>
+    <step_date>Zvolte formát data</step_date>
+    <default_date>Výchozí</default_date>
+    <charset>Znaková sada</charset>
+    <skipfirst>Přeskočit první řádek v CSV</skipfirst>
+    <email1>Email 1</email1>
+    <email2>Email 2</email2>
+    <email3>Email 3</email3>
+    <phone1>Telefon</phone1>
+    <phone2>Telefon 2</phone2>
+    <phone3>Telefon 3</phone3>
+    <phone4>Telefon 4</phone4>
+    <phone_type1>Typ telefonu</phone_type1>
+    <phone_type2>Typ telefonu 2</phone_type2>
+    <phone_type3>Typ telefonu 3</phone_type3>
+    <phone_type4>Typ telefonu 4</phone_type4>
+    <import_successful>Import proběhl úspěšně</import_successful>
+    <import_unsuccessful>Import selhal</import_unsuccessful>
+    <import_finished>Import dokončen. %s položek bylo přeskočeno kvůli chybě.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Auto</auto>
+    <load>Nahrát</load>
+    <import>Import</import>
+    <export>Export</export>
+    <unknown_ext>Neznámá přípona</unknown_ext>
+    <download_csv_file>Stáhnout CSV soubor s kaledářovými položkami</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>Stáhnout</download_file>
+    <select_col>Zvolte sloupce pro import</select_col>
+    <select_email>Zvolte alespoň jeden sloupec</select_email>
+    <gw_xml_file>XML soubor se zálohou GroupWare</gw_xml_file>
+    <comma>CSV - čárka (,)</comma>
+    <semicolon>CSV - středník (;)</semicolon>
+    <colon>CSV - dvojtečka (:)</colon>
+    <sharing>Vynutit mód sdílení</sharing>
+    <import_info>Podporované formáty pro nahrání</import_info>
+    <import_info_itm>CSV,  VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Licence / Integrace</license>
+    <licenses>Licence</licenses>
+    <out>Outlook Sync</out>
+    <desk>Desktop klient</desk>
+    <download>Stáhnout</download>
+    <key>Aktivační klíč k produktu</key>
+    <nokey>Aktivační klíč pro tuto aplikaci není dostupný. Prosím kontaktujte správce.</nokey>
+  </license>
+  <devices>
+    <device>Zařízení</device>
+    <device_model>Zařízení</device_model>
+    <device_type>Typ</device_type>
+    <protocol>Protokol</protocol>
+    <registered>Registrováno</registered>
+    <lastsync>Poslední synchronizace</lastsync>
+    <factory>Obnovit tovární nastavení</factory>
+    <wipe>Vymazat data</wipe>
+    <wiping>Probíhá smazání telefonu</wiping>
+    <nowipe>Vzdálené smazání dat není podporováno.</nowipe>
+    <reset>Odvolat smazání</reset>
+    <delete_confirmation>Opravdu si přejete odpárovat zvolené zařízení?</delete_confirmation>
+    <wipe_confirmation>Vymazání dat smaže ze zařízení všechna uživatelská data (včetně dat na paměťových kartách) a vrátí zařízení do továrního nastavení.&#13;&#10;Zařízení musí být připojené na Internet.&lt;br/&gt;&lt;br/&gt;Přejete si pokračovat ?</wipe_confirmation>
+    <options>Nastavení zařízení</options>
+    <folders>Složky</folders>
+    <sync>Synchronizace</sync>
+    <private_folders>Soukromé složky</private_folders>
+    <special_folders>Speciální složky</special_folders>
+    <gw_folders>GroupWare složky</gw_folders>
+    <mail_folders>Poštovní složky</mail_folders>
+    <archive>Archiv</archive>
+    <public>Veřejné složky</public>
+    <shared>Sdílené složky</shared>
+    <past_mail>Poslední e-maily</past_mail>
+    <past_calendar>Poslední kalendářové položky</past_calendar>
+    <sync_tase>Synchronizovat úkoly jako kalendář</sync_tase>
+    <sync_note>Synchronizovat poznámky jako</sync_note>
+    <all_folders>Všechny složky</all_folders>
+    <all_folders_mail>Všechny GroupWare jako email</all_folders_mail>
+    <default_only>Pouze výchozí složky</default_only>
+    <sync_all>Vše</sync_all>
+    <one_day>Jeden den</one_day>
+    <three_days>Tři dny</three_days>
+    <one_week>Jeden týden</one_week>
+    <two_weeks>Dva týdny</two_weeks>
+    <one_month>Jeden měsíc</one_month>
+    <three_months>Tři měsíce</three_months>
+    <six_months>Šest měsíců</six_months>
+    <inc_tasks>Nedokončené úkoly</inc_tasks>
+    <new_cfolders>Nová složka kalendáře</new_cfolders>
+    <merge_taks>Spojit s výchozím kalendářem</merge_taks>
+    <events>Kalendáře</events>
+    <tasks>Úkoly</tasks>
+    <inotes>Úkoly &amp; Poznámky (Android app)</inotes>
+    <new_folders>Nová složka</new_folders>
+    <merge_default>Spojít s výchozí složkou</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Folder Panel</leftpanel>
+    <rightpanel>WebChat Panel</rightpanel>
+    <share>Sdílet</share>
+    <new_document>Vytvořit dokument</new_document>
+    <new_message>Nová ze šablony</new_message>
+    <devices>Mobilní zařízení</devices>
+    <vcard>Moje informace</vcard>
+    <basic>Přepnout na Tablet rozhraní</basic>
+    <old_client>Přepnout do původního rozhraní</old_client>
+    <search>Vyhledat</search>
+    <filter>Filtr</filter>
+    <new>Nový</new>
+    <print>Tisk</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Nastavení</settings>
+    <accounts>Účty</accounts>
+    <logout>Odhlásit</logout>
+    <logout_title>Ctrl+Click pro odhlášení</logout_title>
+    <update>Obnovit</update>
+    <compose>Nový</compose>
+    <new_contact>Kontakt</new_contact>
+    <new_template>Šablona zprávy</new_template>
+    <new_distrib_list>Distribuční seznam</new_distrib_list>
+    <new_event>Pozvánka</new_event>
+    <new_journal>Žurnály</new_journal>
+    <new_note>Poznámka</new_note>
+    <new_task>Úkol</new_task>
+    <new_file>Dokument</new_file>
+    <new_upload>Nahrát soubor</new_upload>
+    <new_word>Word dokument</new_word>
+    <new_excel>Excel tabulka</new_excel>
+    <new_ppoint>PowerPoint prezentace</new_ppoint>
+    <new_text>Textový dokument</new_text>
+    <new_html>HTML dokument</new_html>
+    <new_folder>Složka</new_folder>
+    <reply_to_sender>Odpověď</reply_to_sender>
+    <reply_to_all>Odpovědět všem</reply_to_all>
+    <reply_to_sender_t>Odpovědět ze šablony</reply_to_sender_t>
+    <reply_to_all_t>Odpovědět všem ze šablony</reply_to_all_t>
+    <forward>Předat</forward>
+    <delete>Smazat</delete>
+    <empty_folder>Vyprázdnit</empty_folder>
+    <day_view>Den</day_view>
+    <week_view>Týden</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Měsíc</month_view>
+    <dial>Volat nyní</dial>
+    <sms>Odeslat SMS</sms>
+    <calls>Volání</calls>
+    <conference>WebMeeting</conference>
+    <contacts_list>Seznam</contacts_list>
+    <events_list>Seznam</events_list>
+    <address_card>Vizitky</address_card>
+    <tasks_lists>Seznam</tasks_lists>
+    <tasks_detailed>Detaily</tasks_detailed>
+    <active_tasks>Aktivní úkoly</active_tasks>
+    <journal_day_view>Den</journal_day_view>
+    <journal_week_view>Týden</journal_week_view>
+    <journal_month_view>Měsíc</journal_month_view>
+    <journal_list>Seznam</journal_list>
+    <notes_list>Seznam</notes_list>
+    <options>Možnosti</options>
+    <admin_options>Nastavení Administrátora</admin_options>
+    <domain_options>Nastavení správce domény</domain_options>
+    <tools>Nástroje</tools>
+    <deliver>Doručení</deliver>
+    <quarantine>Karanténa</quarantine>
+    <black_list>Označit za nevyžádaný</black_list>
+    <white_list>Označit za vyžádaný</white_list>
+    <black_listed>Nevyžádaný</black_listed>
+    <white_listed>Vyžádaný</white_listed>
+    <rules>Pravidla</rules>
+    <help>Nápověda</help>
+  </main_menu>
+  <short_days>
+    <monday>Po</monday>
+    <tuesday>Út</tuesday>
+    <wednesday>St</wednesday>
+    <thursday>Čt</thursday>
+    <friday>Pá</friday>
+    <saturday>So</saturday>
+    <sunday>Ne</sunday>
+  </short_days>
+  <days>
+    <monday>Pondělí</monday>
+    <tuesday>Úterý</tuesday>
+    <wednesday>Středa</wednesday>
+    <thursday>Čtvrtek</thursday>
+    <friday>Pátek</friday>
+    <saturday>Sobota</saturday>
+    <sunday>Neděle</sunday>
+  </days>
+  <months>
+    <january>Leden</january>
+    <february>Únor</february>
+    <march>Březen</march>
+    <april>Duben</april>
+    <may>Květen</may>
+    <june>Červen</june>
+    <july>Červenec</july>
+    <august>Srpen</august>
+    <september>Září</september>
+    <october>Říjen</october>
+    <november>Listopad</november>
+    <december>Prosinec</december>
+  </months>
+  <short_months>
+    <january>Led</january>
+    <february>Úno</february>
+    <march>Bře</march>
+    <april>Dub</april>
+    <may>Kvě</may>
+    <june>Čer</june>
+    <july>Čev</july>
+    <august>Spr</august>
+    <september>Zář</september>
+    <october>Říj</october>
+    <november>Lis</november>
+    <december>Pro</december>
+  </short_months>
+  <dates>
+    <every>Každý</every>
+    <secondly>sekunda</secondly>
+    <minutely>minuta</minutely>
+    <hour>hodina</hour>
+    <day>den</day>
+    <weeks>týdnů</weeks>
+    <month>měsíc</month>
+    <year>rok</year>
+    <the/>
+    <first>první</first>
+    <last>poslední</last>
+    <second>sekunda</second>
+    <third>třetí</third>
+    <fourth>čtvrtý</fourth>
+    <firth>pátý</firth>
+    <postfix/>
+    <except>kromě</except>
+    <on>v</on>
+    <mondays>Pondělí</mondays>
+    <tuesdays>Úterý</tuesdays>
+    <wednesdays>Středa</wednesdays>
+    <thursdays>Čtvrtek</thursdays>
+    <fridays>Pátek</fridays>
+    <saturdays>Sobota</saturdays>
+    <sundays>Neděle</sundays>
+    <yearday>den v roce</yearday>
+    <in>v</in>
+    <week>týden</week>
+    <week2>Týden</week2>
+    <at>v</at>
+    <and>a</and>
+    <from>od</from>
+    <until>do</until>
+    <times>opakovat %s</times>
+  </dates>
+  <form_buttons>
+    <revision>Vytvořit revizi</revision>
+    <skip>Přeskočit</skip>
+    <refresh>Obnovit</refresh>
+    <retrieve>Získat</retrieve>
+    <inherit>Zdědit</inherit>
+    <accept>Přijmout</accept>
+    <decline>Odmítnout</decline>
+    <ok>OK</ok>
+    <close>Zavřít</close>
+    <retry>Zkusit znovu</retry>
+    <test>Test</test>
+    <cancel>Zrušit</cancel>
+    <rename>Přejmenovat</rename>
+    <rewrite>Přepsat</rewrite>
+    <rewrite_all>Přepsat vše</rewrite_all>
+    <save>Uložit</save>
+    <dont>Ne</dont>
+    <add>Přidat</add>
+    <edit>Změnit</edit>
+    <find>Find</find>
+    <add_file>Přidat soubor</add_file>
+    <add_item>Přidat položku</add_item>
+    <remove>Vyjmout</remove>
+    <address_book>Adresář</address_book>
+    <search>Vyhledat</search>
+    <new_folder>Nová Složka</new_folder>
+    <map_it>Zobrazit na mapě</map_it>
+    <sign_in>Přihlásit</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Nadřazená složka</step1>
+    <create_new_folder>Vytvořit novou složku</create_new_folder>
+    <create_error>Složka již existuje nebo nemůže být vytvořena</create_error>
+    <name>Jméno</name>
+    <type>Typ</type>
+    <channel>Kanál</channel>
+    <sharetype>Aplikovat na</sharetype>
+    <all>Všechny složky</all>
+    <private>Soukromé složky</private>
+    <selected>Zvolené složky</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Jméno</username>
+    <password>Heslo</password>
+    <protocol>Protokol</protocol>
+    <server>Server</server>
+    <server_proxy>Server/Proxy</server_proxy>
+    <port>Port</port>
+    <extension>Přípona</extension>
+    <description>Popis</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Správa obsahu</item_actions>
+    <recovery>Obnovit smazané položky</recovery>
+    <add_virtual>Vytvořit nový vyhledávací adresář</add_virtual>
+    <edit_virtual>Změnit virtuální složku</edit_virtual>
+    <add_favorites>Přidat do oblíbených</add_favorites>
+    <sharing>Sdílení</sharing>
+    <change_channel>Nastavit RSS kanál</change_channel>
+    <subscribe>Synchronizovat</subscribe>
+    <subscribed>Synchronizováno</subscribed>
+    <add_folder>Vytvořit složku</add_folder>
+    <add_shared_account>Přídat sdílený účet</add_shared_account>
+    <delete_folder>Smazat složku</delete_folder>
+    <unsubscribe_folder>Vyjmout složku</unsubscribe_folder>
+    <move_folder>Přesunout složku</move_folder>
+    <move_folder_into>Přesunout složku do</move_folder_into>
+    <rename_folder>Přejmenovat složku</rename_folder>
+    <remove_account>Odstranit účet</remove_account>
+    <sent_folder>Složka pro odeslané zprávy</sent_folder>
+    <select_folder>Zvolit složku</select_folder>
+    <mark_all_as_read>Označ za přečtené</mark_all_as_read>
+    <default>Nastavit jako výchozí</default>
+    <export>Export složka</export>
+    <color>Barva</color>
+    <move_default>Opravdu si přejete přesunout výchozí složku ?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>Vše</all>
+    <pdf>PDF</pdf>
+    <play_sound>Přehrát</play_sound>
+    <attachments>Přílohy</attachments>
+    <upload>Nahrát</upload>
+    <download>Stáhnout</download>
+    <download_all>Stáhnout vše</download_all>
+    <open_window>Otevřít v okně</open_window>
+    <import>Import</import>
+    <import_error>Nepodporované položky</import_error>
+    <remove>Odstranit</remove>
+    <remove_all>Odstranit vše</remove_all>
+    <add_item>Přidat položku</add_item>
+    <link_dropbox>Propojit s Dropbox</link_dropbox>
+    <view>Zobrazit</view>
+    <save>Stáhnout</save>
+    <save_all>Stáhnout vše</save_all>
+    <save_to_folder>Uložit do složky</save_to_folder>
+    <show_images>Zobrazit obrázky</show_images>
+    <show_image>Zobrazit obrázek</show_image>
+    <show_text>Zobrazit text</show_text>
+    <show_headers>Všechny hlavičky</show_headers>
+    <show_cert>Zobrazit certifikát</show_cert>
+    <append_cert>Připojit ke kontaktu</append_cert>
+    <dropzone>&lt; Pomocí myši přesuňte soubor sem &gt;</dropzone>
+    <drop_holder>Pomocí myši přesuňte soubor sem...</drop_holder>
+    <quick_add>Rychle nahrát ..</quick_add>
+    <quick_contact>Přesuňte kontakt sem...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Chyba Dropbox</erroralert>
+    <missingkey>Propojení se službou Dropbox není nakonfigurované. Integraci obou služeb musí nastavit správce serveru.</missingkey>
+    <unavailable>Dropbox není dočasně k dispozici a bude nedostupný do dalšího přihlášení.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Převést do HTML</convert_item>
+    <source>Zdroj</source>
+    <send_notify>Upozornit na změny</send_notify>
+    <recover>Obnovit</recover>
+    <new>Nová</new>
+    <delivery_report>Potvrzení doručení</delivery_report>
+    <properties>Vlastnosti</properties>
+    <doc_management>Vlastnosti dokumentu</doc_management>
+    <open>Otevřít</open>
+    <open_pdf>Open as PDF</open_pdf>
+    <open_window>Otevřít v okně</open_window>
+    <edit>Změnit</edit>
+    <reply_to_sender>Odpověď</reply_to_sender>
+    <reply_to_all>Odpovědět všem</reply_to_all>
+    <forward>Předat</forward>
+    <forward_as_message>Předat jako přílohu</forward_as_message>
+    <redirect>Přesměrovat</redirect>
+    <mark_as_read>Označit za přečtené</mark_as_read>
+    <mark_as_unread>Označit za nepřečtené</mark_as_unread>
+    <move_mail_to>Označit jako přečtěné</move_mail_to>
+    <copy_mail_to>Kopírovat do složky</copy_mail_to>
+    <delete>Smazat</delete>
+    <delete_selected>Smazat zvolené</delete_selected>
+    <open_item>Otevřít</open_item>
+    <move_item_to>Přesunout do složky</move_item_to>
+    <copy_item_to>Kopírovat do složky</copy_item_to>
+    <new_distriblist>Nový distribuční seznam</new_distriblist>
+    <save_as>Uložit jako..</save_as>
+    <html>HTML</html>
+    <text>Text</text>
+    <eml>EML</eml>
+    <download_vcalendar>Stáhnout vCalendar</download_vcalendar>
+    <download_vcard>Stáhnout vCard</download_vcard>
+    <download_vnote>Stáhnout vNote</download_vnote>
+    <download_file>Stáhnout</download_file>
+    <open_office>Otevřít pomocí Office</open_office>
+    <deliver>Doručení</deliver>
+    <black_list>Nevyžádaní odesilatelé</black_list>
+    <white_list>Vyžádaní odesilatelé</white_list>
+    <blacklist_sender>Označit jako nevyžádaný</blacklist_sender>
+    <blacklist_domain>Blacklist whole Domain</blacklist_domain>
+    <whitelist_sender>Označit jako vyžádaný</whitelist_sender>
+    <whitelist_domain>Whitelist whole Domain</whitelist_domain>
+    <send_as_email>Odeslat jako e-mail</send_as_email>
+    <send_email_to>Poslat zprávu</send_email_to>
+    <add_to_contacts>Vytvořit kontakt</add_to_contacts>
+    <add_to_exist_contacts>Přidat k existujícímu kontaktu</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Přidat do složky kontakty</add_contact>
+    <add_im>Add to WebChat Contact List</add_im>
+    <add_to_im>Add to WebChat</add_to_im>
+    <add>Přidat...</add>
+    <manage_sender>Odesilatel ...</manage_sender>
+    <invite_appointment>Přidat do pozvánky</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Přidat certifikát ke kontaktu</cert_to_contact>
+    <contacts>Kontakt</contacts>
+    <mandatorydetails>Please fill in your contact details</mandatorydetails>
+    <im>WebChat Roster</im>
+    <skip_delete>Znovu se neptat</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>Bez barev</none>
+    <color>Barva</color>
+    <white_flag>Označit bíle</white_flag>
+    <red_flag>Označit červeně</red_flag>
+    <blue_flag>Označit modře</blue_flag>
+    <yellow_flag>Označit žlutě</yellow_flag>
+    <green_flag>Označit zeleně</green_flag>
+    <orange_flag>Označit oranžově</orange_flag>
+    <purple_flag>Označit purpurově</purple_flag>
+    <flag_complete>Označit jako hotové</flag_complete>
+    <clear_flag>Zrušit označení</clear_flag>
+    <important>Důležité</important>
+    <business>Pracovní</business>
+    <personal>Osobní</personal>
+    <vacation>Dovolená</vacation>
+    <must_attend>Povinná účast</must_attend>
+    <travel_required>Nutné cestovat</travel_required>
+    <needs_preparation>Nutná příprava</needs_preparation>
+    <birthday>Narozeniny</birthday>
+    <anniversary>Výročí</anniversary>
+    <phone_call>Telefon</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Přidat nový e-mailový účet</add_account>
+    <delete_account>Smazat účet</delete_account>
+    <edit_account>Změnit účet</edit_account>
+    <validating>Ověřuji účet...</validating>
+    <invalid>Účet není platný</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Přijaté</inbox>
+    <drafts>Rozepsané</drafts>
+    <sent>Odeslané</sent>
+    <trash>Koš</trash>
+    <spam>Spam</spam>
+    <templates>Šablony</templates>
+    <quarantine>Karanténa</quarantine>
+    <spam_queue>Filtry</spam_queue>
+    <spam_queue-whitelist>Vyžádané</spam_queue-whitelist>
+    <spam_queue-blacklist>Nevyžádané</spam_queue-blacklist>
+    <virtual-folders>Virtuální složky</virtual-folders>
+    <gw-trash>Obnova položek</gw-trash>
+    <calendars>Více kalendářů</calendars>
+  </common_folders>
+  <folders>
+    <mails>Pošta</mails>
+    <contacts>Kontakty</contacts>
+    <events>Kalendář</events>
+    <tasks>Úkoly</tasks>
+    <notes>Poznámky</notes>
+    <journal>Žurnály</journal>
+    <files>Dokumenty</files>
+    <home>Moje</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>Pošta</mail>
+    <contact>Kontakt</contact>
+    <event>Kalendář</event>
+    <journal>Žurnály</journal>
+    <note>Poznámka</note>
+    <task>Úkol</task>
+    <file>Dokument</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>Tuto složku není možné přesunout.</cantmove>
+    <cantrename>Tuto složku nelze přejmenovat.</cantrename>
+    <cantdelete>Tuto složku nelze smazat.</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Přílohy</attachments>
+    <to>Příjemce</to>
+    <subject>Předmět</subject>
+    <nosubject>Bez předmětu</nosubject>
+    <cc>Kopie</cc>
+    <bcc>Skrytá kopie</bcc>
+    <body>Tělo</body>
+    <from>Odesilatel</from>
+    <date>Datum</date>
+    <size>Velikost</size>
+    <type>Typ</type>
+    <itmclassifyas>Kontaktní jméno</itmclassifyas>
+    <phone>Telefon</phone>
+    <itmcompany>Firma</itmcompany>
+    <itmdepartment>Oddělení</itmdepartment>
+    <contact_email>E-Mail</contact_email>
+    <expires>Platnost do</expires>
+    <itmcategory>Příznaky</itmcategory>
+    <evntitle>Popis</evntitle>
+    <itmtitle>Popis</itmtitle>
+    <itmoriginalfolder>Původní složka</itmoriginalfolder>
+    <itm_deleted>Smazané</itm_deleted>
+    <item_moved>Smazáno</item_moved>
+    <evnlocation>Lokalita</evnlocation>
+    <upcoming>Nadcházející</upcoming>
+    <event_startdate>Začátek</event_startdate>
+    <event_enddate>Konec</event_enddate>
+    <evntype>Štítky</evntype>
+    <evncontact>Kontakt</evncontact>
+    <evnstatus>Stav</evnstatus>
+    <task_startdate>Od</task_startdate>
+    <task_enddate>Do</task_enddate>
+    <sndemail>Odesilatel</sndemail>
+    <sndowner>Vlastník</sndowner>
+    <snddomain>Doména</snddomain>
+    <sndsubject>Předmět</sndsubject>
+    <revised_by>Upraveno</revised_by>
+    <comment>Komentář</comment>
+    <qdate>Datum</qdate>
+    <name>Jméno</name>
+    <evnfilename>Soubor</evnfilename>
+    <evnnote>Popis</evnnote>
+    <evn_modified>Změna</evn_modified>
+    <evnfilesize>Velikost</evnfilesize>
+    <lctphnwork1>Pracovní tel.</lctphnwork1>
+    <lctphnfaxwork>Pracovní fax</lctphnfaxwork>
+    <lctphnhome1>Domácí tel.</lctphnhome1>
+    <lctphnmobile>Mobilní tel.</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Veřejná adresa</public>
+    <share>Sdílet adresu</share>
+    <ticket>Ostatní</ticket>
+    <revisions>Úpravy</revisions>
+    <revert>Vrátit</revert>
+    <edit_comment>Upravit komentář</edit_comment>
+    <new_revision>Nová revize</new_revision>
+  </item>
+  <event_view>
+    <week_label>Týden</week_label>
+    <notitle>Bez popisu</notitle>
+    <private>Neznámý</private>
+    <newappointment>Nová pozvánka</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Přečteno: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Vaše zprávy byla přečtena.&#13;&#10;&#13;&#10;Následují informace o zprávě:&#13;&#10;&#13;&#10;Odesilatel: %FROM%&#13;&#10;Příjemce: %TO%&#13;&#10;Datum: %DATE%&#13;&#10;Předmět: %SUBJECT%</reading_confirmation>
+    <reply_message>----- Původní zpráva -----</reply_message>
+    <reply_message_html>----- Původní zpráva -----</reply_message_html>
+    <from>Odesilatel:</from>
+    <to>Příjemce:</to>
+    <cc>Kopie:</cc>
+    <date>Datum:</date>
+    <subject>Předmět:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>Pan</mr>
+    <mrs>Paní</mrs>
+    <miss>slečna</miss>
+    <ms>Ms.</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Jr.</jr>
+    <sr>Sr.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Jméno</displayname>
+    <avatar>Obrázek</avatar>
+    <contact>Kontakt</contact>
+    <general>Obecné</general>
+    <profile>Profil</profile>
+    <personal>Soukromé</personal>
+    <business>Pracovní</business>
+    <other_l>Ostatní</other_l>
+    <other>Poznámka</other>
+    <contact_name>Zobrazit jako</contact_name>
+    <sort_as>Třídit jako</sort_as>
+    <first_name>Jméno</first_name>
+    <middle_name>Prostř. jméno</middle_name>
+    <last_name>Příjmení</last_name>
+    <nick_name>Přezdívka</nick_name>
+    <full_name>Jméno</full_name>
+    <title>Titul</title>
+    <suffix>Přípona</suffix>
+    <category>Štítky</category>
+    <email_address>E-mail</email_address>
+    <birthdate>Datum narození</birthdate>
+    <anniversary>Výročí</anniversary>
+    <spouse>Manžel(ka)</spouse>
+    <gender>Pohlaví</gender>
+    <company>Firma</company>
+    <job>Firma</job>
+    <profession>Zaměstnání</profession>
+    <department>Oddělení</department>
+    <assistant>Asistent</assistant>
+    <manager>Manažer</manager>
+    <office_location>Umístění kanceláře</office_location>
+    <email1>Email 1</email1>
+    <email2>Email 2</email2>
+    <email3>Email 3</email3>
+    <im>IM</im>
+    <phone>Telefon</phone>
+    <phones>Telefonní spojení</phones>
+    <male>Muž</male>
+    <female>Žena</female>
+    <street>Ulice</street>
+    <city>Město</city>
+    <zip>PSČ</zip>
+    <state>Stát</state>
+    <country>Země</country>
+    <home_address>Domácí adresa</home_address>
+    <business_address>Obchodní adresa</business_address>
+    <other_address>Ostatní adresy</other_address>
+    <homepage>Domovská stránka</homepage>
+    <calendar_url>Free/Busy URL</calendar_url>
+    <share_type>Typ sdílení</share_type>
+    <address>Adresa</address>
+    <web>Web</web>
+    <notes>Poznámky</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Distribuční seznam</distrib_list>
+    <general>Obecné</general>
+    <members>Členové</members>
+    <title>Popis</title>
+    <category>Štítky</category>
+    <add_title>Přidat</add_title>
+    <edit_title>Změnit</edit_title>
+    <name>Jméno</name>
+    <email>E-mail adresa</email>
+  </distrib_list>
+  <time_interval>
+    <from>Od</from>
+    <to>Do</to>
+    <duration>Trvání</duration>
+    <all_day_event>Celodenní událost</all_day_event>
+    <days>Dní</days>
+    <change_default>Změnit výchozí časovou zónu</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>Opakující se položka</title_edit>
+    <text_edit>Přejete si změnit pouze tuto událost, všechny události, nebo tuto událost a všechny ostatní uložené?</text_edit>
+    <title_delete>Toto je opakující se událost</title_delete>
+    <text_edit_2>Přejete si změnit pouze tuto událost nebo všechny ostatní?</text_edit_2>
+    <text_delete>Přejete si změnit pouze tuto událost nebo všechny ostatní?</text_delete>
+    <btn_this>Pouze tuto</btn_this>
+    <btn_all>Všechny události</btn_all>
+    <btn_allfromnow>Všechny následující</btn_allfromnow>
+    <btn_cancel>Zrušit</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Decline reason</reason>
+    <event>Pozvánka</event>
+    <general>Obecné</general>
+    <repeating>Opakující se</repeating>
+    <schedule>Plánovač</schedule>
+    <reminders>Upomínače</reminders>
+    <onlinemeeting>WebMeeting</onlinemeeting>
+    <startmeeting>Začít nyní</startmeeting>
+    <joinmeeting>Vstoupit</joinmeeting>
+    <title>Popis</title>
+    <location>Lokalita</location>
+    <category>Štítky</category>
+    <notes>Poznámky</notes>
+    <timezone>Časová zóna</timezone>
+    <show_as>Zobrazit jako</show_as>
+    <free>Volný</free>
+    <busy>Obsazený</busy>
+    <tentative>Předběžný</tentative>
+    <out_of_office>Mimo kancelář</out_of_office>
+    <unknown>Prázdný popis</unknown>
+    <label>Popis</label>
+    <meeting_hint>Vytvořit online schůzku a sdílet obrazovku.</meeting_hint>
+    <high>Vysoká:</high>
+    <low>Nízká:</low>
+  </event>
+  <file>
+    <file>Dokument</file>
+    <expire>Expiruje v %s</expire>
+    <name>Jméno souboru</name>
+    <lock>Uzamknout</lock>
+    <unlock>Odemknout</unlock>
+    <locked>Zamčený</locked>
+    <unlocked>Odemčený</unlocked>
+    <locked_by>Dokument uzamčený uživatelem %s</locked_by>
+    <blank_doc>Dokument</blank_doc>
+    <description>Popis</description>
+    <new_doc>Prázdný soubor</new_doc>
+    <converting>Document conversion in progress.</converting>
+  </file>
+  <note>
+    <note>Poznámka</note>
+    <category>Štítky</category>
+    <title>Popis</title>
+    <general>Obecné</general>
+  </note>
+  <task>
+    <task>Úkol</task>
+    <attendees>Účastníci</attendees>
+    <status>Stav</status>
+    <complete>Hotový</complete>
+    <repeating>Opakující se</repeating>
+    <reminders>Upomínače</reminders>
+    <general>Obecné</general>
+    <title>Popis</title>
+    <start_date>Od</start_date>
+    <due_date>Do</due_date>
+    <category>Štítky</category>
+    <not_started>Nezačal</not_started>
+    <in_progress>Probíhá</in_progress>
+    <completed>Hotový</completed>
+    <deferred>Odložený</deferred>
+    <waiting>Čeká na někoho jiného</waiting>
+    <done>Hotovo</done>
+  </task>
+  <blackwhite>
+    <black>Nevyžádaní</black>
+    <white>Vyžádaní</white>
+    <email>Email/Doména</email>
+  </blackwhite>
+  <compose>
+    <template>Šablona</template>
+    <newmail>Zpráva</newmail>
+    <send>Odeslat</send>
+    <sendinfo>Odeslat zpávu</sendinfo>
+    <save>Uložit</save>
+    <saveinfo>Uložit zprávu do konceptů</saveinfo>
+    <options>Možnosti</options>
+    <advanced>Pokročilé možnosti</advanced>
+    <html>HTML</html>
+    <text>Text</text>
+    <sms>SMS</sms>
+    <compose_sms>Nová SMS</compose_sms>
+    <sms_preview>Náhled SMS</sms_preview>
+    <sms_info>%s znaků ve %s zprávě</sms_info>
+    <smartattach>Chytrá příloha</smartattach>
+    <smartattachinfo>Přílohy byly uloženy do složky %s a nahrazeny adresou pro stažení v těle zprávy.</smartattachinfo>
+    <readconfirmationinfo>Potvrzení o přečtení zprávy</readconfirmationinfo>
+    <show_all>Zobrazit všechny položky</show_all>
+    <signinfo>Podepsat elektronických podpisem</signinfo>
+    <encryptinfo>Šifrovat zprávu</encryptinfo>
+    <priorityinfo>Nastavit prioritu</priorityinfo>
+    <subject_empty>Zpráva nemá žádný předmět.&lt;br&gt;Chcete ji i tak odeslat ?</subject_empty>
+    <rcp_empty>Přidat příjemce</rcp_empty>
+    <optionstitle>Možnosti</optionstitle>
+    <encrypt>Šifrovat zprávu</encrypt>
+    <sign>Podepsat elektronickým podpisem</sign>
+    <nosign>Nebyl nalezen certifikát pro podepsání zprávy.&lt;br&gt;Odeslat zprávy nepodepsané ?</nosign>
+    <delivery_report>Zobrazit stav doručení</delivery_report>
+    <reply_to>Odpovědět na</reply_to>
+    <upload_file>Přiložit z počítače</upload_file>
+    <upload_item>Přiložit ze serveru</upload_item>
+  </compose>
+  <sharing>
+    <public>Veřejný</public>
+    <private>Soukromý</private>
+    <anonymous>Přístupné všem</anonymous>
+    <custom>Volitelný</custom>
+    <inherited>Zděděný</inherited>
+    <none>Žádný</none>
+    <enter_address>Vložte adresu</enter_address>
+    <permissions>Oprávnění</permissions>
+    <user>Jméno</user>
+    <items>Položky</items>
+    <folder>Složka</folder>
+    <administration>Správa</administration>
+  </sharing>
+  <time>
+    <hours>Hodiny</hours>
+    <minutes>Minuty</minutes>
+    <days>Dny</days>
+    <oneday>den</oneday>
+    <moredays>dni</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Zvolit kontakty</select_emails>
+    <add>Přidat</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Vyhledat</placeholder>
+    <tags>Štítky</tags>
+    <used>Použitý</used>
+    <hint>Použitý %s položkami</hint>
+    <selected>Zvolený</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Domov 1</lctphnhome1>
+    <lctphnhome2>Domov 2</lctphnhome2>
+    <lctphnassistant>Asistent</lctphnassistant>
+    <lctphnwork1>Pracovní 1</lctphnwork1>
+    <lctphnwork2>Pracovní 2</lctphnwork2>
+    <lctphnfaxhome>Fax doma</lctphnfaxhome>
+    <lctphnfaxwork>Fax práce</lctphnfaxwork>
+    <lctphncallback>Volat zpět</lctphncallback>
+    <lctphncompany>Firma</lctphncompany>
+    <lctphncar>Auto</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>Mobil</lctphnmobile>
+    <lctphnother>Ostatní</lctphnother>
+    <lctphnotherfax>Ostatní FAX</lctphnotherfax>
+    <lctphnpager>Pager</lctphnpager>
+    <lctphnprimary>Primární</lctphnprimary>
+    <lctphnradio>Rádio</lctphnradio>
+    <lctphntelex>Telex</lctphntelex>
+    <lctphnhearing>Záznamník</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>Den</day>
+    <week>Týden v</week>
+    <week_of_month>Týden v měsíci</week_of_month>
+    <month_of_year>Měsíc v roce</month_of_year>
+    <month>Měsíc</month>
+    <year>Rok</year>
+    <year_s>Roků</year_s>
+    <repeats>Opakovat každou:</repeats>
+    <not_repeats>Neopakovat</not_repeats>
+    <end_date>Datum ukončení:</end_date>
+    <no_end>Bez data ukončení</no_end>
+    <until>Dokud</until>
+    <count>Počet</count>
+    <daily>Denně</daily>
+    <weekly>Týdně</weekly>
+    <monthly>Měsíčně</monthly>
+    <yearly>Ročně</yearly>
+    <every>Každý</every>
+    <the>The</the>
+    <of>of</of>
+    <recur_every>Opakovat každý</recur_every>
+    <weeks_on>týden/týdny v:</weeks_on>
+    <of_every>každý</of_every>
+    <months>měsíc(e)</months>
+    <days>den/dny</days>
+    <day_list>týden</day_list>
+    <every_weekday>Každý pracovní den</every_weekday>
+    <first>první</first>
+    <second>druhý</second>
+    <third>třetí</third>
+    <fourth>čtvrtý</fourth>
+    <last>poslední</last>
+    <weekday>pracovní týden</weekday>
+    <weekend_day>víkend</weekend_day>
+  </repeating>
+  <reminder>
+    <none>Žádné</none>
+    <email>Email</email>
+    <popup>Popup (Pracovní stanice)</popup>
+    <address>Adresa</address>
+    <remind1>Připomenout</remind1>
+    <remind2>před</remind2>
+    <is_reminder>Odeslat upomínku</is_reminder>
+    <no_reminder>Neodesílat upomínku</no_reminder>
+    <type>Typ</type>
+    <snooze>Později</snooze>
+    <meeting>Spustit nyní</meeting>
+    <dismiss>Zavřít</dismiss>
+    <reminder>Upomínka</reminder>
+  </reminder>
+  <journal>
+    <journal>Žurnály</journal>
+    <title>Popis</title>
+    <type>Typ</type>
+    <company>Firma</company>
+    <conversation>Konverzace</conversation>
+    <document>Dokument</document>
+    <e-mail_message>E-mail</e-mail_message>
+    <fax>Fax</fax>
+    <letter>Dopis</letter>
+    <meeting>Schůzka</meeting>
+    <meeting_cancellation>Zrušení schůzky</meeting_cancellation>
+    <meeting_request>Žádost o schůzku</meeting_request>
+    <meeting_response>Odpověd na schůzku</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Poznámka</note>
+    <phone_call>Telefonní hovor</phone_call>
+    <remote_session>Vzdálená relace</remote_session>
+    <task>Úkol</task>
+    <task_request>Zadat úkol</task_request>
+    <task_response>Odpovědět na úkol</task_response>
+  </journal>
+  <certificate>
+    <purposes>Teto certifikát je určený k</purposes>
+    <ssl>Oveření Vaší identity</ssl>
+    <smime>Ochrana e-mailových zpráv</smime>
+    <serial>Serial</serial>
+    <view>Zobrazit</view>
+    <certificate>Ceritifkát</certificate>
+    <invalid>Neplatný certifikát nebo heslo</invalid>
+    <passphrase>Kontrolní fráze</passphrase>
+    <issuedto>Vydáno pro</issuedto>
+    <issuedby>Vydáno</issuedby>
+    <email>E-mail adresa</email>
+    <validity>Platnost</validity>
+    <badtype>Privátní část chybí</badtype>
+    <missing>Certifikát nenalezen</missing>
+    <invaliditem>Nebylo možné přiřadit certifikát</invaliditem>
+    <assigned>Certifikát byl úspěšně přidán</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Složka &quot;%s&quot; neexistuje.</folder_not_exist>
+    <accepted>Event was accepted</accepted>
+    <unsure>Event was replied tentatively</unsure>
+    <declined>Event was declined</declined>
+    <proposed>New time was proposed</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Force users to enter contact information</force_enter_user_info>
+    <disable_wipe>Zakázat vzdálený výmaz</disable_wipe>
+    <documents>Dokumenty</documents>
+    <aliases>Aliasy</aliases>
+    <disable_mailformat>Vypnout  HTML/plain přepínač v okně pro psaní zprávy</disable_mailformat>
+    <disable_altmail>Schovat alternativní e-mail</disable_altmail>
+    <rcpt_suggest>Automatické dokončování</rcpt_suggest>
+    <rcpt_cache>Vyčistit seznam</rcpt_cache>
+    <keep_search>Vyhledávat stejný název při přepínání složek</keep_search>
+    <smartfolder>SmartAttach složka</smartfolder>
+    <always_show_rcp>Vždy zobrazovat adresu</always_show_rcp>
+    <login_screen>Přihlašovací obrazovka</login_screen>
+    <exclude_gal>Pro automatické dokončování nepoužívat globální adresář</exclude_gal>
+    <password_policy>Politika hesel</password_policy>
+    <notifications>Desktop upozornění</notifications>
+    <nofocus>Automaticky (na pozadí)</nofocus>
+    <autorevision_mode>Umožnit automatické revize dokumentů</autorevision_mode>
+    <disable_support>Vypnout odkaz na podporu při přihlášení</disable_support>
+    <check_subject>Kontrolovat prázdné předměty zpráv</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Vypnout sdílení pro anonymní uživatele</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Zobrazit oblíbené složky</show_favorites>
+    <layout>Globální nastavení</layout>
+    <signature>Podpis</signature>
+    <signature_separator>Přidat standardní oddělování podpisu &quot;-- &quot;</signature_separator>
+    <signature_to_top>Zobrazit podpis na vrchu zprávy</signature_to_top>
+    <groups>Skupiny</groups>
+    <group>Skupina</group>
+    <trash_folder>Trash Folder</trash_folder>
+    <sent_folder>Složka Odeslané</sent_folder>
+    <groupsend>Ukládat odeslané zprávy pro tuto skupinu ve sdílené složce</groupsend>
+    <ftime>Změna času</ftime>
+    <sso_only>Povolit pouze SSO přihlášení</sso_only>
+    <activity_monitor>Odhlásit při neaktivitě (min)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 hodin</time_12>
+    <time_24>24 hodin</time_24>
+    <logout_url>Odhlašovací URL</logout_url>
+    <disable_attach_item>Zakázat přílohy ze složek Web klientského rozhraní</disable_attach_item>
+    <disable_virtual>Vypnout vyhledávací složky</disable_virtual>
+    <disable_interfaces>Vypnout volbu rozhraní při přihlášení</disable_interfaces>
+    <disable_languages>Vypnout volbu jazyka při přihlášení</disable_languages>
+    <confirm_exit>Potvrzení při ukončení</confirm_exit>
+    <compose>Zpráva napsána</compose>
+    <never>Nikdy</never>
+    <always>Vždy</always>
+    <homepage>Domácí stránka</homepage>
+    <banner_enable>Zapnout informační banner</banner_enable>
+    <application_enable>Zapnout banner stažení aplikací</application_enable>
+    <banner_url>Banner URL</banner_url>
+    <banner_height>Výška banneru:</banner_height>
+    <count_subject>Sdružovat prefixy předmětu (e.g. Re[4], Fw[2])</count_subject>
+    <reply_prefix>Použít pro odpověď znak (&gt;)</reply_prefix>
+    <collate>Podpora národního třídění zpráv pro MySQL</collate>
+    <init_page>Úvodní stránka</init_page>
+    <remember_folder>Zapamatovat poslední složku</remember_folder>
+    <show_inbox>Přijaté</show_inbox>
+    <show_home>Domácí stránka</show_home>
+    <clear_trash>Smazat zprávy v koši po (Dnech)</clear_trash>
+    <clear_gwtrash>Smazat zprávy v koši starší než (Dní)</clear_gwtrash>
+    <alias>Alias</alias>
+    <subscribed_holidays>Přihlášené svátky</subscribed_holidays>
+    <holidays>Prázdniny</holidays>
+    <weather>Počasí</weather>
+    <temperature>Teplota</temperature>
+    <c>Celsia (°C)</c>
+    <f>Fahrenheita (°F)</f>
+    <city>Město</city>
+    <disable_folder_types>Zakázat zvolené typy složek</disable_folder_types>
+    <antispam>Anti-Spam</antispam>
+    <spam_mode>Mód složky Spam</spam_mode>
+    <reports_mode>Mód hlášení Antispamu</reports_mode>
+    <quarantine>Karanténa</quarantine>
+    <last_time>Poslední čas přihlášení</last_time>
+    <last_ip>Poslední přihlášení z IP:</last_ip>
+    <current_time>Přihlášeno od:</current_time>
+    <current_ip>Aktuální IP:</current_ip>
+    <default>Výchozí</default>
+    <use_spam>Používat složku Spam</use_spam>
+    <not_spam>Nepoužívat složku Spam</not_spam>
+    <disabled>Neodpovídat</disabled>
+    <all>Vše</all>
+    <full>Plný</full>
+    <new_items>Nové položky</new_items>
+    <smtp_relay>Uložit doručení</smtp_relay>
+    <restrictions>Omezení</restrictions>
+    <hide_sortstring>Schovat třídění</hide_sortstring>
+    <disable_aliases>Vypnout nastavení aliasu</disable_aliases>
+    <disable_redirect>Vypnout možnost přesměrování</disable_redirect>
+    <disable_other_accounts>Deaktivovat ostatní účty</disable_other_accounts>
+    <disable_edit_vcard>Vypnout možnost změny profilu uživatele</disable_edit_vcard>
+    <disable_edit_account>Vypnout možnost nastavení účtu</disable_edit_account>
+    <disable_change_password>Vypnout změnu hesla</disable_change_password>
+    <disable_antispam_control>Schovat Anti-Spam Tab</disable_antispam_control>
+    <disable_licenses>Vypnout dialog licencí</disable_licenses>
+    <disable_login_help>Vypnout nápovědu při přihlášení</disable_login_help>
+    <disable_login_banners>Vypnout bannery na přihlašovací obrazovce</disable_login_banners>
+    <disable_signup>Vypnout vytváření nových účtů</disable_signup>
+    <disable_sip>Vypnout interní VoIP klient</disable_sip>
+    <disable_call_forwarding>Vypnout přesměrování hovoru</disable_call_forwarding>
+    <disable_external_sip>Vypnout externí VoIP</disable_external_sip>
+    <disable_export>Vypnout GroupWare Export</disable_export>
+    <disable_smart>Vypnout SmartAttach</disable_smart>
+    <disable_dropbox>Vypnout podporu Dropbox</disable_dropbox>
+    <disable_im>Disable WebChat</disable_im>
+    <disable_sms>Vypnout SMS</disable_sms>
+    <disable_remember_pulldown>Vypnout funkci pro zapamatování jména a hesla</disable_remember_pulldown>
+    <disable_autofill>Vypnout automatické vyplnění přihlašovacích údajů</disable_autofill>
+    <disable_rules>Vypnout pravidla</disable_rules>
+    <disable_gmaps>Vypnout Google Maps</disable_gmaps>
+    <disable_forwarder>Skrýt možnost předání</disable_forwarder>
+    <disable_keep_emails>Schovat &quot;Uchovat zprávy ve složce&quot; při přesměrování</disable_keep_emails>
+    <disable_autoresponder>Skrýt nastavení automatické odpovědi</disable_autoresponder>
+    <share_mode>Mód sdílení</share_mode>
+    <share_p>Privátní (Data nejsou sdílena)</share_p>
+    <share_pf>Věřejný (Data jsou dostupná všem)</share_pf>
+    <share_f>Přátelé (Data jsou dostupná pro přátelé)</share_f>
+    <daily_event_report>Odesílat denní agendu e-mailem</daily_event_report>
+    <reminder_notification>Odesílat upomínače e-mailem</reminder_notification>
+    <reminder_email>E-mailová adresa pro zasílání agendy a upomínačů:</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Aplikační klíč</dropbox_app_key>
+    <dropbox_instructions>Pro integraci se službou Dropbox je nutné přihlásit se na www.dropbox.com, otevřít sekci pro vývojáře a vytvořit tzv. aplikační klíč. &#13;&#10;Služba vyžaduje jen zadat krátký popis, host adresu nebo IP adresu.</dropbox_instructions>
+    <server>Server</server>
+    <login_with_email>Příhlašování e-mailovou adresou</login_with_email>
+    <server_logs>Úroveň záznamů</server_logs>
+    <server_logs0>Žádný</server_logs0>
+    <server_logs2>Celkový</server_logs2>
+    <server_logs3>Odlaďovací</server_logs3>
+    <server_logs4>Rozšířený</server_logs4>
+    <http_port>HTTP port</http_port>
+    <imapserver>IMAP server</imapserver>
+    <smtpserver>SMTP server</smtpserver>
+    <xmppserver>XMPP server</xmppserver>
+    <port>Port</port>
+    <pgtitle>Nadpis stránky</pgtitle>
+    <logo>Přihlašovací logo</logo>
+    <login_style>Styl přihlášení</login_style>
+    <login_client>Preferované rozhraní</login_client>
+    <skin_style>Styl skinu</skin_style>
+    <interfaces>Dostupná rozhraní</interfaces>
+    <spell_language>Kontrola pravopisu</spell_language>
+    <delete_emptyfolder>Při vyprázdnění složky smazat zprávy</delete_emptyfolder>
+    <show_images>Automaticky zobrazovat externí obrázky</show_images>
+    <show_images_spam>Aplikovat na složku Spam</show_images_spam>
+    <auto_show_images>Automaticky zobrazovat obrázky</auto_show_images>
+    <sound_notify>Zapnout zvukové upozornění</sound_notify>
+    <domains_settings>Domény</domains_settings>
+    <domain>Doména</domain>
+    <edit_settings>Změnit nastavení domény</edit_settings>
+    <resetpass>Reset hesla</resetpass>
+    <resetmail>Email</resetmail>
+    <resetenable>Zapnout reset hesla</resetenable>
+    <accounts>Účty</accounts>
+    <account>Účet</account>
+    <tools>Nástroje</tools>
+    <autoresponder>Automatický odpovídač</autoresponder>
+    <forwarder>Přesměrování</forwarder>
+    <pcertificate>Privátní certifikáty</pcertificate>
+    <certificate>Certifikát</certificate>
+    <mail_settings>Pošta</mail_settings>
+    <im_settings>WebChat</im_settings>
+    <sip_settings>WebPhone</sip_settings>
+    <sip_webrtc>Pro práci s médii použít výchozí funkce prohlížeče</sip_webrtc>
+    <sip_start>Spustit interní VoIP klient automaticky</sip_start>
+    <sip_internal>Spárovat s existujícím VoIP účtem (SIP)</sip_internal>
+    <sip_external>Spárovat s externím VoIP účtem (SIP)</sip_external>
+    <sip_dial>Vytočit pomocí externího VoIP účtu (SIP / HTTP)</sip_dial>
+    <sip_dial_internal>Vytočit pomocí již registrovaného VoIP přístoje nebo zařízení</sip_dial_internal>
+    <call_forwarding>Přesměrování hovoru</call_forwarding>
+    <use_forwarding>Použít přesměrování hovoru</use_forwarding>
+    <forward_to>Přesměrovat na</forward_to>
+    <forward_after>Přesměrovat po (sekundách)</forward_after>
+    <chat_window>Okno rozhovoru</chat_window>
+    <auto_chat>Automatické otevření okna rozhovoru</auto_chat>
+    <auto_subscribe>Automaticky přihlašovat nové uživatele</auto_subscribe>
+    <remember_status>Zapamatovat stav</remember_status>
+    <extended_status>Dostupné stavy</extended_status>
+    <newline_chat>Otevřít rozhovor na novém řádku</newline_chat>
+    <smiles_chat>Zapnout emotikony</smiles_chat>
+    <enter_send>Odeslat zprávu pomocí Enteru</enter_send>
+    <general_settings>Obecné</general_settings>
+    <other_accounts>Ostatní účty</other_accounts>
+    <primary_accounts>Můj účet</primary_accounts>
+    <account_settings>Účty</account_settings>
+    <importexport_settings>Import/Export</importexport_settings>
+    <default_reminder>Použít výchozí nastavení upomínek pro nové události</default_reminder>
+    <use_sslswfatt>Zobrazit animaci při nahrávání (SSL)</use_sslswfatt>
+    <use_swfupload>Použít Flash pro nahrání příloh</use_swfupload>
+    <use_office>Použij Open Office pokud je to možné</use_office>
+    <banner_enabled>Zapnout infromační banner při přihlášení</banner_enabled>
+    <twitter_disabled>Vypnout Twitter integraci</twitter_disabled>
+    <twitter_link>Twitter handle</twitter_link>
+    <facebook_disabled>Vypnout Facebook integraci</facebook_disabled>
+    <facebook_link>Facebook kód</facebook_link>
+    <skin>Skin</skin>
+    <items_ab_shown>Počet zvolených adres</items_ab_shown>
+    <date_format>Formát data</date_format>
+    <time_format>Časový formát</time_format>
+    <language>Jazyk</language>
+    <timezone>Časové pásmo</timezone>
+    <general>Obecné</general>
+    <default_mail_settings>Psaní e-mailů</default_mail_settings>
+    <folders_mapping>Výchozí složky</folders_mapping>
+    <subject>Předmět</subject>
+    <message_format>Formát zprávy</message_format>
+    <re_message_format>Formát odpovědi zprávy</re_message_format>
+    <html_message>HTML zpráva</html_message>
+    <read_confirmation>Potvrzení o přečtění</read_confirmation>
+    <request_read_confirmation>Vyžádat potvrzení o přečtení</request_read_confirmation>
+    <send_read_confirmation>Umožnit odesílání</send_read_confirmation>
+    <ask_before>Zapnout dotaz před odesláním</ask_before>
+    <smart_attach>Použít SmartAttach</smart_attach>
+    <save_sent_message>Ukládat zprávy do složky odeslané</save_sent_message>
+    <save_folder_message>Ukládat odeslané zprávy</save_folder_message>
+    <encrypt>Šifrovat zprávy</encrypt>
+    <sign>Digitálně podepsat zprávy</sign>
+    <appendvcard>Připojit moji vizitku</appendvcard>
+    <charset>Znaková sada</charset>
+    <priority>Priorita</priority>
+    <reply_to>Odpovědět na adresu</reply_to>
+    <reply_myself>Poslat sobě skrytou kopii</reply_myself>
+    <move_to_trash>Přesunout smazané zprávy do koše</move_to_trash>
+    <auto_add_recipient_to_addressbook>Přidávat příjemce do adresáře</auto_add_recipient_to_addressbook>
+    <edit_rules>Pravidla</edit_rules>
+    <rules>Pravidla</rules>
+    <forward_messages>Předat zprávy</forward_messages>
+    <inline>Přímo</inline>
+    <as_attachment>Jako přílohu</as_attachment>
+    <autoupdate_message>Kontrolovat nové zprávy každých (Minut)</autoupdate_message>
+    <autosave_message>Ukládat rozepsané zprávy každých (Minut)</autosave_message>
+    <calendar_settings>Kalendář</calendar_settings>
+    <main>Hlavní</main>
+    <day_begins_at>Den začína v</day_begins_at>
+    <day_ends_at>Den končí v</day_ends_at>
+    <week_begins_on>Týden začíná v</week_begins_on>
+    <week_starts_today>Týden začíná v konkrétní den</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Sdílení</sharing_settings>
+    <shared_email>E-Mail pro sdílení</shared_email>
+    <email>E-Mail</email>
+    <rights>Práva</rights>
+    <read>Číst</read>
+    <write>Psát</write>
+    <modify>Změnit</modify>
+    <delete>Smazat</delete>
+    <owner>Spravovat</owner>
+    <acc_name>Jméno</acc_name>
+    <quota>Disková kvóta</quota>
+    <sms_quota>SMS kvóta</sms_quota>
+    <quota_home>Disková kvóta  (včetně všech dat uložených na serveru)</quota_home>
+    <description>Popis</description>
+    <old_password>Staré heslo</old_password>
+    <new_password>Nové heslo</new_password>
+    <new_password_conf>Potvrzení hesla</new_password_conf>
+    <save_drafts_to>Uložit rozepsané zprávy do</save_drafts_to>
+    <default_flag>Výchozí označení</default_flag>
+    <alternative_email>Alternativní adresa</alternative_email>
+    <default_settings>Výchozí nastavení</default_settings>
+    <event_view>Zobrazit kalendář</event_view>
+    <event_show_as>Zobrazit pozvánku jako</event_show_as>
+    <event_sharing>Sdílení události</event_sharing>
+    <contact_sharing>Sdílení kontaktů</contact_sharing>
+    <journal_sharing>Sdílení žurnálů</journal_sharing>
+    <note_sharing>Sdílení poznámek</note_sharing>
+    <task_sharing>Sdílení úkolů</task_sharing>
+    <file_sharing>Sdílení souborů</file_sharing>
+    <force_for_domainadmin>Aplikovat nastavení pro doménové administrátory i uživatele</force_for_domainadmin>
+    <force_for_users>Aplikovat nastavení pouze pro uživatele</force_for_users>
+    <force>Vynutit nastavení</force>
+  </settings>
+  <email_priority>
+    <highest>Nejvyšší</highest>
+    <high>Vysoká</high>
+    <normal>Normální</normal>
+    <medium>Střední</medium>
+    <low>Nízká</low>
+    <lowest>Nejnižší</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Zvolte složku</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Zvolte položku</insert_item>
+    <untitled>nepojmenované</untitled>
+    <embedded>Vložené</embedded>
+    <link>Odkaz</link>
+  </insert_item>
+  <attendees>
+    <shared>Navrhnuté kontakty</shared>
+    <add_title>Přidat</add_title>
+    <edit_title>Změnit</edit_title>
+    <resource>Zdroj</resource>
+    <remove>Odstranit</remove>
+    <edit>Změnit</edit>
+    <name>Jméno</name>
+    <email>Email</email>
+    <folder>Zvolit složku</folder>
+    <all_attendees>Všichni účastníci</all_attendees>
+    <status>Stav</status>
+    <status_p>Čekající</status_p>
+    <status_a>Akceptovaný</status_a>
+    <status_d>Odmítnutý</status_d>
+    <role>Role</role>
+    <role_q>Požadovaný</role_q>
+    <role_s>Zdroj</role_s>
+    <role_t>Volitelný</role_t>
+    <role_g>Pořadatel</role_g>
+    <quick_add>Zadejte jméno účastníka nebo zdroje</quick_add>
+  </attendees>
+  <dial>
+    <dial>Volání</dial>
+    <keypad>Klávesnice</keypad>
+    <call>Zavolat</call>
+    <mute>Ztlumit</mute>
+    <answer>Zvednout</answer>
+    <decline>Odmítnout</decline>
+    <filter>Filtrovat WebPhone kontakty</filter>
+    <hfilter>Zobrazit pouze promeškané hovory</hfilter>
+    <phone>WebPhone</phone>
+    <duration>Trvání:</duration>
+    <video>Video</video>
+    <localcam>Tento počítač</localcam>
+    <remotecam>Vzdálený počítač</remotecam>
+    <answer_video>Zvednout + Video</answer_video>
+    <hang_up>Položit</hang_up>
+    <busy>Uživatel má obsazeno</busy>
+    <pbook>Telefonní seznam</pbook>
+    <refresh>Obnovit historii</refresh>
+    <call_duration>Trvání hovoru %s</call_duration>
+    <history>Historie</history>
+    <missed>Promeškané</missed>
+    <incoming>Příchozí</incoming>
+    <outgoing>Odchozí</outgoing>
+    <select_contect>Zvolte si preferovaný kontakt</select_contect>
+    <calling>Volám</calling>
+    <incomingcall>Hovor od</incomingcall>
+    <callestablished>Hovor s</callestablished>
+    <notify_ext>Vytočit na externím telefonu</notify_ext>
+  </dial>
+  <sip>
+    <sip>WebPhone</sip>
+    <external>Dial over external phone</external>
+    <screen>Call with screensharing</screen>
+    <sip_status>WebPhone: %s</sip_status>
+    <default_contact>Výchozí WebPhone kontakt</default_contact>
+    <unreachable>Server je nedostupný</unreachable>
+    <device>Nebylo nalezeno audio zařízení</device>
+    <videonotsupported>Prohlížeč nepodporuje video hovory. Použijte prosím poslední verze prohlížeče Chrome nebo Firefox.</videonotsupported>
+    <offline>WebPhone je Offline</offline>
+    <outgoingcall>Voláte %s</outgoingcall>
+    <incomingcall>Volá %s</incomingcall>
+    <callongoing>Voláte s %s</callongoing>
+    <callestablished>Hovor s %s navázán.</callestablished>
+    <userbusy>Uživater %s má obsazeno.</userbusy>
+    <callfinished>Hovor ukončen</callfinished>
+    <callcanceled>Hovor byl ukočen</callcanceled>
+    <notreachable>Uživatel není dostupný pro video nebo audio hovor.</notreachable>
+    <calldeclined>Hovor byl odmítnut</calldeclined>
+    <info>WebPhone Info: %s</info>
+    <notification>Uživatel %s je %s</notification>
+    <error>WebPhone upozornění</error>
+    <notice>WebPhone upozornění</notice>
+    <udp>WebPhone se nemohl spojit se servrem. Zkontrolujte nastavení firewallu a internetového připojení.</udp>
+    <slow>Máte příliš pomalé připojení. WebPhone možná nebude fungovat správně.</slow>
+    <init>WebPhone se nemohl připojit</init>
+    <mediarequest>Povolte prosím prohlížeči přístup ke kameře a mikrofonu.</mediarequest>
+    <invalidstate>Není možné získat přístup ke kameře a mikrofonu. Možná jsou využívány jinou aplikací.</invalidstate>
+    <nopermission>Přístup k mediím byl odmítnut. Je potřeba povolit přístup k mikrofonu a kameře.</nopermission>
+    <mediadenied>Není možné získat přístup ke kameře a mikrofonu.</mediadenied>
+    <ffmedia>Nebylo možné zjistit zda je možný přístup k mediím. Klikněte prosím v prohlížeči na ikonu vlevo nahoře a rozhodněte se, zda přístup umožnit.</ffmedia>
+    <nowebrtc>Nebyla zjištěna podpora protokolu WebRTC. Není možné využít video ani audio hovory. Doporučujeme využít jiný prohlížeč.</nowebrtc>
+    <gettingmedia>Probíhá hovor nebo konference.</gettingmedia>
+    <occupied>Audio nebo Video hovor již probíhá.</occupied>
+  </sip>
+  <conference>
+    <planner>WebMeeting planner</planner>
+    <aborted>Schůzka skončila.</aborted>
+    <access>Přístupové informace</access>
+    <allattendees>Všichni účastníci</allattendees>
+    <missinguserid>Nejste účastníkem schůzky.</missinguserid>
+    <appletrunning>Čekáme na připojení dalších účastníků ..</appletrunning>
+    <callestablished>WebMeeting is in progress</callestablished>
+    <callfinished>WebMeeting has ended</callfinished>
+    <came>vstoupil do schůzky</came>
+    <cancelled>Schůzka neočekávaně skončila</cancelled>
+    <privatechat>Spustit soukromý rozhovor</privatechat>
+    <chatalreadymeeting>Dostal jste pozvánku na schůzku, které se ale nemůžete účastnit protože v daný čas máte již naplánované jiné setkání.</chatalreadymeeting>
+    <chatinvite>I would like to invite you to a WebMeeting</chatinvite>
+    <closed>The WebMeeting session ended</closed>
+    <closing>Přejete si opustit schůzku sám nebo ji ukončit pro všechny účastníky ?</closing>
+    <confirminvite>sent you an invitation to WebMeeting</confirminvite>
+    <connectfailure>Na schůzku se není možné připojit.</connectfailure>
+    <connecting>Připojuji se na schůzku ...</connecting>
+    <create>Create new WebMeeting</create>
+    <created>WebMeeting created, starting meeting...</created>
+    <createfirst>There is currently no WebMeeting in progress, would you like to start one?</createfirst>
+    <delegate>Nastavit moderátora</delegate>
+    <screen>Remote screen</screen>
+    <desktop>Sdílet obrazovku</desktop>
+    <waitvideo>Čekáme na vzdálenou obrazovku..</waitvideo>
+    <notchrome>Pro sdílení obrazovky je nutné použít prohlížeč Chrome.</notchrome>
+    <nohttps>Pro sdílení obrazovky je nutné využívat zabezpečené spojení (https).</nohttps>
+    <noplugin>Není nainstalován doplňek prohlížeče pro sdílení obrazovky.</noplugin>
+    <desktopinfo>Sdílet obrazovku s ostatními účastníky</desktopinfo>
+    <dialin>Pokud si přejete připojit se do schůzky telefonem, vytočte telefonní číslo:</dialin>
+    <disablefirebug>Prosím deaktivujte doplňek Firebug.</disablefirebug>
+    <dismiss>Odpojit účastníka</dismiss>
+    <duration>Trvání:</duration>
+    <end>End WebMeeting</end>
+    <endcall>Ukončit hovor</endcall>
+    <endforall>End WebMeeting for all</endforall>
+    <endinfo>Ukončuji schůzku ...</endinfo>
+    <finished>Nahrávka schůzky bude uložena do dokumentů.</finished>
+    <generalerror>Nespecifikovaná chyba.</generalerror>
+    <id>ID schůzky:</id>
+    <shortid>ID:</shortid>
+    <info>WebMeeting Info</info>
+    <instruct>Připojil jste se do hlasové konference.</instruct>
+    <invalidmeetingid>Není možné připojit se do schůzky. Zadali jste neplatné ID nebo již schůzka skončila.</invalidmeetingid>
+    <invalidsessionid>Doba relace vypršela. Ukončuji schůzku.</invalidsessionid>
+    <invitationedit>Zpráva v pozvánce:</invitationedit>
+    <invite>pozvat</invite>
+    <inviteinfo>Pozvat účastníky</inviteinfo>
+    <invitation_sent>Pozvánka odeslána:</invitation_sent>
+    <invited>WebMeeting invitation received</invited>
+    <invitesubject>WebMeeting Invitation</invitesubject>
+    <join>Join WebMeeting</join>
+    <joining>Vstupuji..</joining>
+    <leave>Opustit</leave>
+    <leaveinfo>Leave WebMeeting</leaveinfo>
+    <leaveorend>Zvolte nového moderátora schůzky.</leaveorend>
+    <leaving>Opravdu si přejete opustit schůzku ?</leaving>
+    <left>opustil konverzaci</left>
+    <leftchat>Zpráva nemůže být doručena. Účastnik opustil schůzku.</leftchat>
+    <mailinvite>Nyní se můžete připojit na schůzku</mailinvite>
+    <manager>moderátor</manager>
+    <meeting>WebMeeting</meeting>
+    <mikogoerror>Není možné použít sdílení obrazovky</mikogoerror>
+    <servererror>Obecná chyba. Prosím kontaktujte svého správce.</servererror>
+    <connectionerror>Schůzka byla ukončena kvůli chybě na síti. Prosím zkuste se znovu připojit.</connectionerror>
+    <mute>Bez mikrofonu</mute>
+    <muteall>Umlčet všechny účastníky</muteall>
+    <muteinfo>Bez mikrofonu</muteinfo>
+    <muteone>Umlčet účastníka</muteone>
+    <attendees>Účastníci</attendees>
+    <chat>WebChat</chat>
+    <name>Jméno:</name>
+    <needspecialpermissions>K požadované operaci máte nedostatečná oprávnění.</needspecialpermissions>
+    <networkrequesterror>Vyskytl se problém se sítí. Byl jste odpojen od schůzky.</networkrequesterror>
+    <nocallallowed>Calls are not allowed during a WebMeeting</nocallallowed>
+    <noparticipants>Bez účastníků</noparticipants>
+    <notaccessmode>WebMeeting service is disabled for this account.</notaccessmode>
+    <notauthenticated>Neproběhlo ověření ke službě.</notauthenticated>
+    <notenabled>WebMeetings are disabled by server administrator</notenabled>
+    <notonline>Není připojení k síti.</notonline>
+    <notsetupproperly>WebMeeting service is not configured properly.</notsetupproperly>
+    <notlicensed>Insufficient license for WebMeetings.</notlicensed>
+    <licenseerror>Insufficient license to start more WebMeetings.</licenseerror>
+    <offline>Schůzka je offline</offline>
+    <ongoing>WebMeeting in progress</ongoing>
+    <onlyorganizercandothis>Tato funkce je dostupná pouze organizátorovi schůzky.</onlyorganizercandothis>
+    <onlysuperusercandothis>Nedostatečná práva pro provedení operace.</onlysuperusercandothis>
+    <organizer>organizátor</organizer>
+    <pending>Waiting for organizer to start the WebMeeting...</pending>
+    <phone>Telefon:</phone>
+    <phoning>You are on a call. Would you like to end it and start the WebMeeting?</phoning>
+    <preparing>Získávám data schůzky</preparing>
+    <promoted>je nyní moderátor</promoted>
+    <ready>Schůzka může začít</ready>
+    <recap>Informace může být kdykoliv zobrazena kliknutím na ikonu výše.</recap>
+    <record>Nahrát audio</record>
+    <recordinfo>Nahrávám</recordinfo>
+    <recording>Nahrávám audio</recording>
+    <restart>Restart WebMeeting</restart>
+    <schedule>Schedule WebMeeting</schedule>
+    <scheduleorstart>Chcete zahajít schůzku nyní nebo ji naplánovat na později ?</scheduleorstart>
+    <silenceinfo>Ztlumit</silenceinfo>
+    <sipnoparticipants>Nejsou přítomni žádní účastnici. Schůzka byla zrušena.</sipnoparticipants>
+    <start>Start WebMeeting</start>
+    <started>Schůzka začala. Startuji aplikaci ...</started>
+    <startedconnect>Spojuji ...</startedconnect>
+    <startednojava>Získávám přístup k mikrofonu a sluchátkám ...</startednojava>
+    <starting>Začinám schůzku</starting>
+    <startnow>Start WebMeeting now</startnow>
+    <joinnow>Join existing WebMeeting</joinnow>
+    <terminate>Opravdu si přejete ukončit schůzku ?</terminate>
+    <timeout>Není možné se připojit</timeout>
+    <unknown>Neznámý účastník</unknown>
+    <unmuteone>Odmlčet účastníka</unmuteone>
+    <details>WebMeeting details</details>
+    <callin>Detail hovoru</callin>
+    <url>Adresa schůzky:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>ID hovoru:</callid>
+    <waitfailure>Není možné vstoupit do schůzky</waitfailure>
+    <waiting>Startuji Javu ...</waiting>
+    <welcome>Welcome to IceWarp WebMeeting</welcome>
+    <me>Já</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>K automatickému otevírání Office dokumentů z prohlížeče je nutné nainstalovat doplňek Java.</nolaunch>
+    <nooffice>Nejsou nainstaloné Microsoft Office ani OpenOffice. Dokument nelze otevřít.</nooffice>
+    <openfailed>Dokument nemůže být otevřený pomocí nainstalovaných Office. Přejete si jej namísto toho stáhnout ?</openfailed>
+    <noappfound>Pro otevření tohoto typu dokumentu nebyla nalezena aplikace.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Mód:</mode>
+    <disabled>Neodpovídat</disabled>
+    <respond_always>Odpovídat vždy</respond_always>
+    <respond_once>Odpovědět jednou</respond_once>
+    <respond_after_period>Odpovědět znovu po nastaveném čase</respond_after_period>
+    <respond_period>Odpovědět znovu po (Dnech):</respond_period>
+    <from>Odesílatel</from>
+    <subject>Předmět</subject>
+    <text>Text</text>
+    <respond_only_if_to_me>Odpovědět pokud je zpráva adresována na moji adresu</respond_only_if_to_me>
+    <respond_between>Odpovědět pouze mezi:</respond_between>
+    <noresponderfor>Neodpovídat</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Předat na:</forward_to>
+    <keep_copy>Zanechat zprávy na serveru</keep_copy>
+    <forward_older>Předat zprávy starší než (Dní):</forward_older>
+    <forward_older_to>Předat starší zprávy na:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Přidat / Změnit</addedit>
+    <header>Hlavička</header>
+    <filters>Filtry</filters>
+    <edit_header>Změnit hlavičku</edit_header>
+    <empty_operator/>
+    <not>NENÍ</not>
+    <and>A</and>
+    <or>NEBO</or>
+    <and_not>A NENÍ</and_not>
+    <or_not>NEBO NENÍ</or_not>
+    <from>Odesílatel:</from>
+    <to>Příjemce:</to>
+    <subject>Předmět:</subject>
+    <cc>Kopie:</cc>
+    <reply_to>Odpovědět na:</reply_to>
+    <date>Datum:</date>
+    <message>Zpráva</message>
+    <message_type>Typ zprávy:</message_type>
+    <message_body>Tělo zprávy</message_body>
+    <custom_message_header>Zvolená část hlavičky obsahuje</custom_message_header>
+    <any_message_header>Jakákoliv část hlavičky obsahuje</any_message_header>
+    <attachment_name>Jméno přílohy</attachment_name>
+    <sender>Odesílatel</sender>
+    <recipient>Příjemce</recipient>
+    <senders_ip>IP Adresa odesílatele</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Odesílatel</ip>
+    <all_messages>Všechny zprávy</all_messages>
+    <no_messages>Žádné zprávy</no_messages>
+    <priority_is>priorita je</priority_is>
+    <priority_isnt>priorita není</priority_isnt>
+    <is_spam>je spam</is_spam>
+    <isnt_spam>není spam</isnt_spam>
+    <is_greater_than>je větší než</is_greater_than>
+    <is_lower_than>je menší než</is_lower_than>
+    <match_case>Shoduje se</match_case>
+    <regexp>Regex</regexp>
+    <whole_word>Celé slovo</whole_word>
+    <matches>shoduje</matches>
+    <doesnt_match>neshoduje</doesnt_match>
+    <contains_string>obsahuje</contains_string>
+    <doesnt_contain_string>neobsahuje</doesnt_contain_string>
+    <matches_regex>shoduje regex</matches_regex>
+    <doesnt_match_regex>neobsahuje regex</doesnt_match_regex>
+    <is_string>je</is_string>
+    <isnt_string>není</isnt_string>
+    <spam_score>Spam hodnocení</spam_score>
+    <authorized>autorizovaný</authorized>
+    <unauthorized>neautorizovaný</unauthorized>
+    <add>Přidat</add>
+    <delete>Smazat</delete>
+    <up>Nahoru</up>
+    <down>Dolů</down>
+    <action>Akce</action>
+    <actions>Akce</actions>
+    <accept>Přijmout</accept>
+    <reject>Odmítnout</reject>
+    <quarantine>Karanténa</quarantine>
+    <spam>Spam</spam>
+    <stop_processing>Nezpracovávat další pravidla</stop_processing>
+    <move_to>Přesunout do</move_to>
+    <copy_to>Kopírovat do</copy_to>
+    <encrypt_message>Zašifrovat zprávu</encrypt_message>
+    <set_message_priority>Nastavit prioritu na</set_message_priority>
+    <set_message_flag>Nastavit označení na</set_message_flag>
+    <text>Text:</text>
+    <title>Popis</title>
+    <conditions>Podmínky</conditions>
+    <edit>Změnit</edit>
+    <rule>Pravidlo</rule>
+    <rules>Pravidla</rules>
+    <highest>nejvyšší</highest>
+    <high>vysoký</high>
+    <normal>normální</normal>
+    <low>nízký</low>
+    <lowest>nižší</lowest>
+    <spam_is_greater_than>je větší než</spam_is_greater_than>
+    <spam_is_lower_than>je menší než</spam_is_lower_than>
+    <forward_to>Předat na</forward_to>
+    <send_message>Odeslat zprávu</send_message>
+    <three_dots>...</three_dots>
+    <email>Email</email>
+    <instant_messaging>WebChat</instant_messaging>
+    <active>Aktivní</active>
+  </filters>
+  <rich>
+    <alt>Alternativní text</alt>
+    <code>Zdroj</code>
+    <paragraph>Odstavec</paragraph>
+    <normal>Normální</normal>
+    <heading>Hlavička</heading>
+    <clearformatting>Zrušit formátování</clearformatting>
+    <font>Font</font>
+    <size>Velikost</size>
+    <rows>Řádky</rows>
+    <columns>Sloupce</columns>
+    <padding>Odsazení buňek</padding>
+    <spacing>Mezera mezi buňkami</spacing>
+    <img_spacing>Odstup</img_spacing>
+    <bordercolor>Barva okraje</bordercolor>
+    <border>Okraj</border>
+    <bold>Zvýraznit tučně</bold>
+    <italic>Kurzíva</italic>
+    <underline>Podrthnout text</underline>
+    <style>Typ formátování</style>
+    <align>Zarovnání textu</align>
+    <left>Zarovnat vlevo</left>
+    <center>Zarovnat na střed</center>
+    <right>Zarovnat vpravo</right>
+    <justify>Formátovat</justify>
+    <numberedlist>Očíslovaný seznam</numberedlist>
+    <bulletedlist>Oddělený seznam</bulletedlist>
+    <indent>Zarážka</indent>
+    <leftindent>Levá zarážka</leftindent>
+    <rightindent>Pravá zarážka</rightindent>
+    <bgcolor>Barva pozadí</bgcolor>
+    <color>Barva textu</color>
+    <cut>Vyjmout zvolenou část</cut>
+    <copy>Kopírovat zvolenou část</copy>
+    <paste>Vložit zvolenou část</paste>
+    <pastew>Vložit jako text</pastew>
+    <insert>Vložit</insert>
+    <addlink>Odkaz</addlink>
+    <table>Tabulka</table>
+    <image>Obrázek</image>
+    <dropbox>Dropbox odkaz</dropbox>
+    <spell>Kontrola pravopisu</spell>
+    <url>URL</url>
+    <uploaded>Nahraný</uploaded>
+    <internal>interní</internal>
+    <direction>Směr textu (HTML)</direction>
+    <ltr>Zleva do prava</ltr>
+    <rtl>Zprava do leva</rtl>
+    <screenshot>Pořídit screenshot</screenshot>
+    <paste_img>Vložit obrázek</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Nahrávám IceWarp Web klient ...</loading>
+    <framework>Načítám framework</framework>
+    <settings>Načítám nastavení</settings>
+    <language>Načítám zdroje</language>
+    <indexing>Provádím indexaci</indexing>
+    <startup>Startuji</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Desktop klient</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Stáhnout</help_win_desktop1>
+    <help_win_desktop2>Spusťte instalační program. Po spuštění programu klikněte na Nástroje - Účty a zvolte přidat účet. Zadejte e-mailovou&#13;&#10;adresu s heslem a klikněte na tlačítko Začít nyní.</help_win_desktop2>
+    <help_win_desktop3>V nastavení účtu stačí jen zvolit jméno a data, která si přejete ze serveru synchronizovat.</help_win_desktop3>
+    <help_win_osync1>Stáhnout</help_win_osync1>
+    <help_win_osync2>Spusťte instalační program. Po zadání e-mailové adresy s heslem stačí kliknout na tlačítko Další.</help_win_osync2>
+    <help_win_osync3>v dalším kroku je zobrazena dialog pro aktivaci licence.</help_win_osync3>
+    <help_win_osync4>Pokud disponujete licencí k programu IceWarp Outlook Sync, klikněte na tlačítko Ano. Pokud chcete program nejprve otestovat&#13;&#10;ve 30 denním testovacím režimu, klikněte na tlačítko Ne.</help_win_osync4>
+    <help_win_osync5>Pro dokončení instalace klikněte na tlačítko Dokončit.</help_win_osync5>
+    <help_win_20131>V menu Soubor klikněte na položku Informace o účtu a klikněte na tlačítko Přidat účet. K vytvoření účtu použijte&#13;&#10;Ruční nastavení jiných typů serveru a klikněte na tlačítko Další. Při volbě typu služby zvolte Outlook.com nebo Exchange&#13;&#10;ActiveSync kompatibilní služba. A klikněte na tlačítko Další.</help_win_20131>
+    <help_win_20132>Na stránce &lt;b&gt;Nastavení serveru&lt;/b&gt; vyplňte informace o svém účtu a přihlašte se.</help_win_20132>
+    <help_win_20133>Po dokončení nastavení účtu klikněte na Dokončit.</help_win_20133>
+    <help_osx_all_applications_title>Všechny aplikace</help_osx_all_applications_title>
+    <help_osx_messages_title>Zprávy</help_osx_messages_title>
+    <help_osx_messages1>Spusťte program Zprávy, klikněte na hlavní nabídku a zvolte položku &lt;b&gt;Přidat účet&lt;/b&gt;. Ze seznamu typů serverů zvolte &lt;b&gt;Ostatní typy účtů...&lt;/b&gt; &#13;&#10;klikněte na tlačítko Pokračovat.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Kalendář</help_osx_calendar_title>
+    <help_osx_calendar1>Otevřete aplikaci Kalendář z hlavní nabídky a klikněte na položku  &lt;b&gt;Přidat účet&lt;/b&gt; a &lt;b&gt;Přidat CalDAV &#13;&#10;účet&lt;/b&gt;. Klikněte na tlačítko Pokračovat.</help_osx_calendar1>
+    <help_osx_calendar2>Z možností v nastavení CalDAV účtu zvolte položku &lt;b&gt;Ruční&lt;/b&gt;. Jako uživatelské jmého zadejte e-mailovou adresu účtu.&#13;&#10;Jako poslední položku zadejte aktuální adresu serveru.</help_osx_calendar2>
+    <help_osx_calendar3>Nastavení připomínek provedete v sekci &lt;b&gt;Předvolby systému - Internetové účty&lt;/b&gt; označením kalendáře, pro který si přejete zapnout připomínky.</help_osx_calendar3>
+    <help_osx_contacts_title>Kontakty</help_osx_contacts_title>
+    <help_osx_contacts1>Otevřete Kontakty a z hlavní nabídky a klikněte na položku &lt;b&gt;Přidat účet&lt;/b&gt; a &lt;b&gt;Ostatní účty..&lt;/b&gt;.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>Všechny aplikace</help_osx_all>
+    <help_osx_all1>Stáhnout konfigurátor</help_osx_all1>
+    <help_osx_all2>Stáhněte z AppStore aplikaci IceWarp konfigurátor a spusťte instalaci. Aplikaci je možné stáhnout také mimo AppStore ale je nutné potvrdit &#13;&#10;její instalaci.</help_osx_all2>
+    <help_osx_all3>Funkce IceWarp které umožňují automatickou aktualizaci jsou označeny zeleně tlačítkem  &lt;strong&gt;Connect&lt;/strong&gt;.&#13;&#10;Kliknutím se provede automatická konfigurace OSX.</help_osx_all3>
+    <help_tablet_and_title>Android tablety</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Windows tablet</help_tablet_win_title>
+    <help_tablet_win1>Gestem pravé ruky otevřete Nastavení, změnit nastavení PC a tapněte na položku Účty. Zde zvolte položku přidat účet a zadejte host adresu serveru</help_tablet_win1>
+    <help_tablet_win2>Vyplňte uživatelské jméno a heslo. Klikněte na tlačítko Další.</help_tablet_win2>
+    <help_tablet_win3>Pokud nemáte speciální požadavky na bezpečnost, stačí kliknout v další záložce na tlačítko Další a Dokončit nastavení.</help_tablet_win3>
+    <help_phone_and_title>Android zařízení</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>V nabídce &lt;b&gt;Vzdálená bezpečnostní správa&lt;/b&gt; stiskněte &lt;b&gt;OK&lt;/b&gt;.</help_phone_and2>
+    <help_phone_and3>V &lt;b&gt;nastavení účtu&lt;/b&gt; zvolte &lt;i&gt;Frekvenci kontroly pošty&lt;/i&gt;, nastavte požadovanou historii synchronizace a klikněte na položku Pokračovat.</help_phone_and3>
+    <help_phone_and4>Nastavte popis účtu a tapněte na tlačítko Další.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>Otevřete Nastavení a zvolte možnost přidání nového účtu  &lt;i&gt;Pošta, Kontakty, Kalendáře - Přidat účet - Exchange&lt;/i&gt;.</help_ios1>
+    <help_ios2>Vyplňte  &lt;i&gt;Email, heslo a popis&lt;/i&gt; . Tapněte na tlačítko Další.</help_ios2>
+    <help_ios3>Na další stránce je možné vypnout funkce, které si nepřejete využívat a volby potvrdit.</help_ios3>
+    <help_phone_win_title>Windows telefon</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Vyplňte &lt;i&gt;e-mailovou adresu&lt;/i&gt; a &lt;i&gt;heslo&lt;/i&gt;. Po dokončení klikněte na  &lt;b&gt;přihlásit&lt;/b&gt;.</help_phone_win2>
+    <help_trademark/>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>Email, kalendáře, kontakty, úkoly</subtitle>
+    <descr>Nastavení účtu krok za krokem</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>Nastavit IceWarp Desktop klient</subtitle>
+    <descr>Instalace krok za krokem</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Kalendáře a upomínky</subtitle>
+    <descr>Mac nastavení krok za krokem</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>Pošta, kalendář, lidé</subtitle>
+    <descr>Instalace krok za krokem</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>Pošta, kalendáře a kontakty</subtitle>
+    <descr>Nastavení účtu krok za krokem</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>Pošta, kalendáře a kontakty</subtitle>
+    <descr>Nastavení účtu krok za krokem</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Předchozí stránka</previous_title>
+    <previous_label>Předchozí</previous_label>
+    <next_title>Následující stránka</next_title>
+    <next_label>Další</next_label>
+    <page_label>Stránka:</page_label>
+    <page_of>z {{pageCount}}</page_of>
+    <zoom_out_title>Zmenšit</zoom_out_title>
+    <zoom_out_label>Zmenšit</zoom_out_label>
+    <zoom_in_title>Zvětšit</zoom_in_title>
+    <zoom_in_label>Zvětšit</zoom_in_label>
+    <zoom_title>Zvětšení</zoom_title>
+    <presentation_mode_title>Plná obrazovka</presentation_mode_title>
+    <presentation_mode_label>Plná obrazovka</presentation_mode_label>
+    <print_title>Tisk</print_title>
+    <print_label>Tisk</print_label>
+    <download_title>Stáhnout</download_title>
+    <download_label>Stáhnout</download_label>
+    <bookmark_title>Záložka</bookmark_title>
+    <bookmark_label>Záložka</bookmark_label>
+    <tools_title>Nástroje</tools_title>
+    <tools_label>Nástroje</tools_label>
+    <first_page_title>Přejít na první stránku</first_page_title>
+    <first_page_label>Přejít na první stránku</first_page_label>
+    <last_page_title>Přejít na poslední stránku</last_page_title>
+    <last_page_label>Přejít na poslední stránku</last_page_label>
+    <page_rotate_cw_title>Přetočit ve směru hodinových ručiček</page_rotate_cw_title>
+    <page_rotate_cw_label>Přetočit ve směru hodinových ručiček</page_rotate_cw_label>
+    <page_rotate_ccw_title>Pretočit proti směru hodinových ručiček</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Přetočit po směru hodinových ručiček</page_rotate_ccw_label>
+    <hand_tool_enable_title>Zapnout ruční úpravu</hand_tool_enable_title>
+    <hand_tool_enable_label>Zapnout ruční úpravu</hand_tool_enable_label>
+    <hand_tool_disable_title>Vypnout ruční úpravu</hand_tool_disable_title>
+    <hand_tool_disable_label>Vypnout ruční úpravu</hand_tool_disable_label>
+    <document_properties_label>Možnost dokumentu</document_properties_label>
+    <document_properties_file_name>Soubor:</document_properties_file_name>
+    <document_properties_file_size>Velikost:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>Popis:</document_properties_title>
+    <document_properties_author>Autor:</document_properties_author>
+    <document_properties_subject>Předmět:</document_properties_subject>
+    <document_properties_keywords>Klíčová slova:</document_properties_keywords>
+    <document_properties_creation_date>Vytovřeno:</document_properties_creation_date>
+    <document_properties_modification_date>Změněno:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Vytvořil:</document_properties_creator>
+    <document_properties_producer>Autor:</document_properties_producer>
+    <document_properties_version>Verze:</document_properties_version>
+    <document_properties_page_count>Počet stránek:</document_properties_page_count>
+    <document_properties_close>Zavřít</document_properties_close>
+    <toggle_sidebar_title>Boční lišta</toggle_sidebar_title>
+    <toggle_sidebar_label>Boční lišta</toggle_sidebar_label>
+    <outline_title>Zobrazit vlastnosti dokumentu</outline_title>
+    <outline_label>Zobrazit vlastnosti dokumentu</outline_label>
+    <thumbs_title>Zobrazit náhled</thumbs_title>
+    <thumbs_label>Zobrazit náhled</thumbs_label>
+    <findbar_title>Hledat v dokumentu</findbar_title>
+    <findbar_label>Hledat</findbar_label>
+    <thumb_page_title>Stránka {{page}}</thumb_page_title>
+    <thumb_page_canvas>Náhled stránky {{page}}</thumb_page_canvas>
+    <find_label>Hledat:</find_label>
+    <find_previous_title>Najít předchozí</find_previous_title>
+    <find_previous_label>Předchozí</find_previous_label>
+    <find_next_title>Najít další</find_next_title>
+    <find_next_label>Další</find_next_label>
+    <find_highlight>Zvýraznit vše</find_highlight>
+    <find_match_case_label>Shoda</find_match_case_label>
+    <find_reached_top>Došel jsem na začátek dokumentu</find_reached_top>
+    <find_reached_bottom>Došel jsem na konec dokumentu</find_reached_bottom>
+    <find_not_found>Nenalezeno</find_not_found>
+    <error_more_info>Více informací</error_more_info>
+    <error_less_info>Méně informací</error_less_info>
+    <error_close>Zavřít</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Zpráva: {{message}}</error_message>
+    <error_stack>Sklad: {{stack}}</error_stack>
+    <error_file>Soubor: {{file}}</error_file>
+    <error_line>Řádek: {{line}}</error_line>
+    <rendering_error>Chyba renderování</rendering_error>
+    <page_scale_width>Plná šířka</page_scale_width>
+    <page_scale_fit>Přizpůsobit na stránku</page_scale_fit>
+    <page_scale_auto>Automatické zvětšení</page_scale_auto>
+    <page_scale_actual>Aktuální velikost</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Chyba</loading_error_indicator>
+    <loading_error>Nastala chyba při nahrávání PDF</loading_error>
+    <invalid_file_error>Neplatné nebo poškozené PDF</invalid_file_error>
+    <missing_file_error>Schází PDF soubor</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>Pro otevření PDF dokumentu je nutné zadat heslo</password_label>
+    <password_invalid>Neplatné heslo, prosím zkuste jej zadat znovu</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Zrušit</password_cancel>
+    <printing_not_supported>Varování: Tisk není v prohlížeči plně podporován</printing_not_supported>
+    <printing_not_ready>Varování: PDF pro tisk se plně nenačetlo</printing_not_ready>
+    <web_fonts_disabled>Není možné použít funkci Web font</web_fonts_disabled>
+    <document_colors_disabled>PDF dokument neumožňuje požití barev</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDocument</title>
+    <preview>Document preview</preview>
+    <error>WebDocument Error</error>
+    <error_msg>Document loading problem. You may need to close and reopen the document for full functionality.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

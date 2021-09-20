@@ -1,0 +1,14 @@
+<?php
+require_once("whatsnew.safe");
+$language = isset($_REQUEST['lang'])?$_REQUEST['lang']:(isset($_REQUEST['language'])?$_REQUEST['language']:'en');
+$whatsnew = new WhatsNew($language, 'chat', 'help');
+$whatsnew->printHead();
+$guest = filter_input(INPUT_GET, 'guest');
+?>
+<body>
+	<h1><?php echo $whatsnew->tt("header");?></h1>
+
+	<p class="top_paragraph"><?php echo $whatsnew->tt("first_paragraph");?></p>
+
+	<?php $whatsnew->printDelimiter()->printList(12, $guest ? [1, 2, 3] : [])->printNotes();?>
+</body>

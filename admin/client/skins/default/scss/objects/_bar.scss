@@ -1,0 +1,45 @@
+// Bar
+// Filling progress bar with text and values, not to be used for loading. Used in quotas.
+
+// Block
+.bar {
+	@include text-ellipsis;
+	@include theme {
+		color: $theme-primary;
+	}
+	position: relative;
+	border: 1px solid currentColor;
+	border-radius: $radius;
+	height: $bar-height;
+	font-weight: 600;
+	text-align: center;
+	padding: 0 p(1);
+	width: 100%;
+}
+
+
+// Elements
+.bar-fill {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	max-width: 100%;
+	min-width: 0%;
+	@include theme {
+		background-color: rgba($theme-primary, 0.1);
+	}
+
+	transition:
+		width $normal ease;
+}
+
+.bar-text {
+	@include theme {
+		color: $theme-primary;
+	}
+	font-size: rem(12);
+	line-height: $bar-height;
+	white-space: nowrap;
+}
+

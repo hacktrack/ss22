@@ -1,0 +1,433 @@
+// Permissions
+.obj_permissions {
+
+	.table-body .table-row:hover {
+		color: $dark !important; // TODO: This table should have class 'noanchor' instead
+	}
+
+	.permissions-delete {
+		width: $menu-height;
+		padding: 0;
+		text-align: center;
+
+		&:hover {
+			@include theme {
+				color: $theme-primary;
+			}
+		}
+	}
+}
+
+
+// Domain list
+.obj_domainlist {
+
+	.domainlist-name {
+		width: 50%;
+	}
+
+	.domainlist-type {
+		width: 50%;
+	}
+
+	.domainlist-delete {
+		width: $menu-height;
+		height: ($menu-height - rem(1)); // Fix visual bug making table__cell 1px higher then button is present
+		padding: 0;
+		text-align: center;
+	}
+
+	.domainlist-description {
+		padding-right: 0;
+	}
+
+	.table-row:not(:hover) .domainlist-delete {
+		display: none;
+	}
+
+	@media #{$small-only} {
+
+		.domainlist-type {
+			text-align: right;
+		}
+	}
+
+	@media #{$medium-up} {
+
+		.domainlist-name {
+			width: 35%;
+		}
+
+		.domainlist-type {
+			width: 30%;
+		}
+
+		.domainlist-users {
+			width: 15%;
+		}
+
+		.domainlist-description {
+			width: auto;
+		}
+	}
+}
+
+
+// User list
+.obj_userlist {
+
+	@media #{$small-only} {
+
+		.table__cell {
+			padding-left: 0; // Remove left padding to make more space
+		}
+
+		.userlist-name_and_account {
+			width: (100% / 3 * 2);
+		}
+
+		.userlist-filter {
+			width: (100% / 3);
+			text-align: right;
+		}
+	}
+
+	@media #{$medium-up} {
+
+		.userlist-name_and_account {
+			width: (100% / 2);
+		}
+
+		.userlist-quota, .userlist-filter {
+			width: (100% / 4);
+		}
+
+		.userlist-filter {
+			text-align: center;
+		}
+	}
+
+	@media #{$large-up} {
+
+		.table__cell:not(:first-child) {
+			width: 25%;
+		}
+
+		.userlist-filter {
+			text-align: left;
+		}
+	}
+
+	// If it's the guest userlist
+	.userlist_guest {
+
+		.table__cell:not(:first-child) {
+			width: 50%;
+		}
+	}
+
+	// Style disabled user account
+	.table-row.disabled {
+
+		.userlist-name_and_account,
+		.userlist-name {
+
+			.weight-600.ellipsis {
+				font-weight: 400;
+				text-decoration: line-through;
+			}
+		}
+	}
+}
+
+// Quarantine
+.obj_spamqueues_quarantine {
+
+	.quarantine-sender {
+		font-weight: 600;
+	}
+}
+
+// Whitelist & Blacklist
+.obj_spamqueues_whitelist, .obj_spamqueues_blacklist {
+
+	.blackwhitelist-sender {
+		font-weight: 600;
+	}
+}
+
+
+// Mobile devices
+.obj_accountmobiledevices {
+
+	.os-type-icon {
+		font-size: s(1);
+		margin-right: g(0.5);
+	}
+
+	.table-row.sub {
+		height: s(5);
+		line-height: inherit; // Reset line-height when a different cell height is declared
+
+		@media #{$large-up} {
+
+			.table-select-row {
+				position: relative;
+				left: $table-sub-padding;
+				width: ($table-sub-padding + $table-cell-height);
+			}
+
+			.mobiledevices-name {
+				padding-left: $table-sub-padding;
+			}
+		}
+	}
+
+	.mobiledevices-name {
+		width: auto;
+	}
+
+	.mobiledevices-last_sync {
+		width: s(12);
+	}
+
+	.mobiledevices-status {
+		width: s(12);
+	}
+
+	@media #{$medium-up} {
+
+		.mobiledevices-last_sync {
+			width: s(16);
+		}
+
+		.mobiledevices-status {
+			width: s(16);
+		}
+	}
+}
+
+// User list
+.obj_consoledialog {
+
+	@media #{$large-up} {
+
+		[type="enum"], [type="string"], [type="integer"] {
+
+			.consoledialog-value {
+				padding-left: 0;
+			}
+		}
+	}
+
+	.table-row {
+
+		&.sub {
+			@include theme {
+				border-color: lighten($theme-border-grey, 17%) !important;
+			}
+
+			@media #{$small-only} {
+				padding-top: p(1);
+				padding-bottom: p(1);
+			}
+
+			.table__cell {
+				height: auto;
+				line-height: inherit; // Reset line-height when a different cell height is declared
+				white-space: normal;
+				@include theme {
+					border-color: lighten($theme-border-grey, 17%) !important;
+				}
+
+				@media #{$medium-up} {
+					height: s(5);
+					padding-top: p(1);
+					padding-bottom: p(1);
+				}
+			}
+		}
+
+		&.main {
+
+			.table__cell {
+				border: none;
+				overflow: visible;
+			}
+
+			&:first-child .table__cell {
+				padding-top: g(1);
+			}
+		}
+	}
+
+	.consoledialog-save_button {
+
+		&:not(.is-visible) {
+			display: none;
+		}
+	}
+
+	.consoledialog-form_element {
+		@include text-ellipsis;
+	}
+
+	.consoledialog-name-name { // No, this is not a typo...
+		@include text-ellipsis;
+		vertical-align: top;
+		display: inline;
+		font-weight: 600;
+	}
+
+	@media #{$small-only} {
+
+		.consoledialog-name {
+			height: auto;
+			line-height: inherit; // Reset line-height when a different cell height is declared
+			padding-bottom: p(0.5);
+		}
+	}
+
+	@media #{$medium-up} {
+
+		.consoledialog-name {
+			width: auto;
+		}
+
+		.consoledialog-type {
+			width: s(7);
+		}
+
+		.consoledialog-value {
+			width: (100% / 3);
+		}
+	}
+
+	@media #{$large-up} {
+
+		.consoledialog-name {
+			width: 25%;
+		}
+
+		.consoledialog-type {
+			width: 10%;
+		}
+
+		.consoledialog-value {
+			width: 25%;
+		}
+
+		.consoledialog-description {
+			width: auto;
+		}
+	}
+}
+
+// Rules list
+.obj_rules {
+
+	// Make topmost up and bottommost down buttons look disabled
+	.table-row:first-child 	.rules-up,
+	.table-row:last-child 	.rules-down {
+
+		// Targets the button for semantics
+		.button {
+
+			// All states have the same colors // TODO: Make color mixins so you can include them anywhere without a class
+			&, &:hover, &:focus {
+				color: $blue-grey;
+				background-color: $transparent;
+			}
+
+			// All elements have the cursor colors
+			&, input {
+				cursor: default;
+			}
+		}
+	}
+
+	.rules-up, .rules-down {
+		width: $table-cell-height;
+		padding: 0;
+	}
+
+	.rules-title {
+		width: auto;
+	}
+}
+
+// Rules dialog
+.obj_rulesdialog {
+
+	.rulesdialog-row {
+		padding: 0 g(3/2);
+	}
+
+	.rulesdialog-rule {
+		@include text-ellipsis;
+	}
+
+	.rulesdialog-button {
+		opacity: 0;
+		transition: opacity $fast;
+	}
+
+	.rulesdialog-row:hover .rulesdialog-button {
+		opacity: 1;
+		transition: none;
+	}
+
+	.table-row.is-disabled {
+
+		.rulesdialog-button {
+			display: none;
+		}
+	}
+}
+
+// Message header
+.obj_messageheader {
+
+	.table__cell {
+		width: (100% / 3);
+	}
+
+	.message_header-edit, .message_header-delete {
+		width: $table-cell-height;
+		padding: 0;
+	}
+
+	.message_header-action, .message_header-header {
+		font-weight: 600;
+	}
+}
+
+.obj_certificates_server {
+
+	.certificate-type {
+		width: 20%;
+	}
+
+	.certificate-ip {
+		width: 20%;
+	}
+
+	.certificate-expiration {
+		width: 20%;
+	}
+}
+
+.obj_subscription {
+
+	.invoice-price {
+		text-align: center;
+	}
+
+	.table__cell {
+		width: (100% / 3);
+	}
+
+	.invoice-download {
+		width: auto;
+	}
+}

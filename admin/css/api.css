@@ -1,0 +1,71 @@
+.o-loader {
+  width: 2.40001rem;
+  height: 2.40001rem;
+  position: absolute;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  top: 50%;
+  left: 50%;
+  margin-left: -1.2rem;
+  margin-top: -1.2rem;
+  border: 0.26668rem solid #ded9e5;
+  border-left-color: #4e2782;
+  border-radius: 50%;
+  -webkit-animation: loader 1.1s infinite linear;
+  animation: loader 1.1s infinite linear;
+  z-index: 2; }
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+.o-loader--large {
+  border-width: 0.53335rem;
+  height: 4.80002rem;
+  width: 4.80002rem;
+  margin-top: -2.40001rem;
+  margin-left: -2.40001rem; }
+
+body, html {
+  font-size: 15px;
+  padding: 0;
+  margin: 0; }
+
+#content {
+  height: 100vh; }
+
+meta#theme-colors {
+  /*default: #4e2782*/
+  /*default-grey: #ada9b2*/
+  /*default-light-grey: #cfcbd4*/
+  /*shocking-blue: #0b86d2*/
+  /*shocking-blue-grey: #a6b2ba*/
+  /*shocking-blue-light-grey: #c8d4dc*/
+  /*green-day: #39a59c*/
+  /*green-day-grey: #aab5b4*/
+  /*green-day-light-grey: #cdd7d7*/
+  /*code-orange: #ee5a29*/
+  /*code-orange-grey: #bdaea9*/
+  /*code-orange-light-grey: #dfd0cb*/
+  /*peaches: #f69b72*/
+  /*peaches-grey: #bdb4b0*/
+  /*peaches-light-grey: #e0d6d2*/
+  /*deep-purple: #4e2782*/
+  /*deep-purple-grey: #ada9b2*/
+  /*deep-purple-light-grey: #cfcbd4*/
+  /*yellow-submarine: #e7b23f*/
+  /*yellow-submarine-grey: #bcb7ab*/
+  /*yellow-submarine-light-grey: #ded9cd*/
+  font-family: "default:#4e2782,default-grey:#ada9b2,default-light-grey:#cfcbd4,shocking-blue:#0b86d2,shocking-blue-grey:#a6b2ba,shocking-blue-light-grey:#c8d4dc,green-day:#39a59c,green-day-grey:#aab5b4,green-day-light-grey:#cdd7d7,code-orange:#ee5a29,code-orange-grey:#bdaea9,code-orange-light-grey:#dfd0cb,peaches:#f69b72,peaches-grey:#bdb4b0,peaches-light-grey:#e0d6d2,deep-purple:#4e2782,deep-purple-grey:#ada9b2,deep-purple-light-grey:#cfcbd4,yellow-submarine:#e7b23f,yellow-submarine-grey:#bcb7ab,yellow-submarine-light-grey:#ded9cd,"; }

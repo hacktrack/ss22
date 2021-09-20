@@ -1,0 +1,37 @@
+<form>
+	<!-- Users form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<compose id="mail" helper="item" template="mail.compose">
+			<config>
+				<set widget="form">
+					<property name="parameters" set="setParameters">?_l=folder&amp;p0=main&amp;p1=content&amp;p2=contact.select&amp;p3=item.fdr&amp;p4={settings::default_folders::contacts}&amp;_n[p][main]=win.main.tree&amp;p5=C</property>
+					<property name="enctype">multipart/form-data</property>
+				</set>
+			</config>
+			<wysiwyg anchor="mainTextarea" anchoronly="1">
+				<config>
+					<name>_frm[html]</name>
+					<dataindex>item::html</dataindex>
+					<formatindex>item::EVNDESCFORMAT</formatindex>
+					<defaultformat>text/html</defaultformat>
+					<id>mainTextarea</id>
+					<tabindex>5</tabindex>
+				</config>
+			</wysiwyg>
+		</compose>
+		<config>
+			<stylesheet>
+				<src>mail.compose</src>
+				<src>datagrid_detail</src>
+				<src>file_types</src>
+			</stylesheet>
+			<javascript>
+				<src>iq</src>
+				<src>mail.compose</src>
+			</javascript>
+		</config>
+	</panel>
+</form>

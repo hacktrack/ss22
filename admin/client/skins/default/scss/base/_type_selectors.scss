@@ -1,0 +1,233 @@
+/* Global rules */
+*, *::after, *::before {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $font-family;
+	line-height: $default-line-height;
+	font-weight: 400;
+	margin: 0 auto;
+	color: $dark;
+}
+
+html, body {
+	background-color: $light-grey;
+	height: 100%;
+	min-width: 320px;
+}
+
+html, body, button, input, textarea {
+	text-rendering: optimizeLegibility;
+	// text-rendering: optimizeSpeed;
+}
+
+html, body, input[type="submit"], input[type="button"] {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+html, button, input, select, textarea {
+	margin: 0;
+}
+
+
+/* Inputs */
+input, button, textarea {
+	outline: 0;
+	box-shadow: none;
+	border: none;
+	background-color: transparent;
+}
+
+input, select, textarea {
+	width: 100%;
+}
+
+textarea {
+	resize: vertical;
+}
+
+input {
+	line-height: inherit;
+}
+
+
+/* Media */
+img, video, object, canvas {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+iframe {
+	margin-bottom: 1em;
+}
+
+figure {
+	margin-bottom: 1em;
+
+	img {
+		margin-bottom: 1em;
+	}
+}
+
+figcaption {
+	font-style: italic;
+}
+
+
+/* Lists */
+ol, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+dl {
+	overflow: hidden;
+	margin: 0 0 1em;
+}
+
+dt {
+	font-weight: 600;
+}
+
+dd {
+	margin-left: 0;
+}
+
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: none;
+	width: 100%;
+}
+
+th {
+	text-align: left;
+	border: none;
+	padding: 0.25em;
+}
+
+td {
+	border: none;
+	padding: 0;
+}
+
+
+/* Type */
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	line-height: 1.625;
+}
+
+blockquote {
+	font-style: italic;
+	border-left: 1px solid;
+	padding-left: 1em;
+	margin-bottom: 1em;
+}
+
+
+/* Lines */
+hr {
+	border: 0;
+	height: 1px;
+	background: #ccc;
+	margin: 1em 0;
+}
+
+abbr {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+
+/* Links */
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	outline: 0;
+	transition: color $normal;
+
+	&:hover, &:focus {
+		@include theme {
+			color: $theme-primary;
+		}
+		text-decoration: underline;
+		transition: none;
+	}
+}
+
+
+/* Forms */
+form ol, form ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+label {
+	display: block;
+}
+
+button, input, select, textarea {
+	color: inherit;
+	font-family: inherit;
+	font-size: 100%;
+	border-radius: 0;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+input, textarea {
+	width: 100%;
+	border: 1px solid;
+	padding: 0.5em 0.666em;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"],
+input[type="search"], input[type="url"], input[type="number"], textarea {
+	-webkit-appearance: none;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+}
+
+button {
+	padding: 0.5em;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+input[type="search"] {
+	-webkit-appearance: none;
+	border-radius: 0;
+	box-sizing: border-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+[disabled] {
+	cursor: default;
+}

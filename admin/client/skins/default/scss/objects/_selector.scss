@@ -1,0 +1,16 @@
+// Selector
+// Wrapper around buttons with dropdown.
+
+// Block
+.selector {
+	@include flex(none);
+	display: inline-block;
+	position: relative;
+	height: $object-height;
+	line-height: $object-height;
+
+	// States
+	&.full {
+		width: 100%;
+	}
+}

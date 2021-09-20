@@ -1,0 +1,56 @@
+<view>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<form id="main_menu" helper="item" method="post">
+			<menu template="menu/mail.list" helper="item"/>
+			<config>
+				<controller>menu</controller>
+				<window>main</window>
+			</config>
+		</form>
+		<grid id="items" helper="item" template="grid/mail">
+			<config>
+				<limit>10</limit>
+				<controller>item</controller>
+				<target>main</target>
+				<data>item.fdr</data>
+				<default>
+					<orderby>date DESC</orderby>
+				</default>
+				<fields>
+					<field label="grid_mail|subject">subject</field>
+					<field label="grid_mail|from">header_from</field>
+					<field label="grid_mail|to">header_to</field>
+					<field label="grid_mail|date">date</field>
+					<field label="grid_mail|size">size</field>
+					<field sort="false">flags</field>
+					<field sort="grid_mail|priority">priority</field>
+				</fields>
+				<buttons>
+					<button label="popup_items|mark_as_read" name="read" />
+					<button label="popup_items|mark_as_unread" name="unread" />
+					<button label="popup_items|white_list" restriction="return {settings::whitelist::enabled};" name="whitelist" />
+					<button label="popup_items|black_list" restriction="return {settings::blacklist::enabled};" name="blacklist" confirm="confirmation|blacklist_mail" />
+					<button label="popup_items|delete" name="delete" confirm="confirmation|delete_mail" />
+				</buttons>
+				<select>
+					<type>multiple</type>
+					<variable>items</variable>
+				</select>
+			</config>
+		</grid>
+		<config>
+			<stylesheet>
+				<src>apple</src>
+				<src>grid</src>
+				<src>skin</src>
+			</stylesheet>
+			<javascript>
+				<src>apple</src>
+				<src>lib</src>
+			</javascript>
+		</config>
+	</panel>
+</view>

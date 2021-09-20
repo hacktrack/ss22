@@ -1,0 +1,56 @@
+<?php
+/**
+ * @Author:	Lukas Dvorak
+ * @Date:	24.3.2007 19:08:24
+ **/
+
+function read_clear($filepath){
+
+	$tmp  = file_get_contents($filepath);
+
+	// strip comments
+	$cmnt1 = false;
+	$cmnt2 = false;
+	$string1 = false;
+	$string2 = false;
+	$out = '';
+	$len = strlen($tmp);
+	for($i = 0; $i<$len; $i++){
+
+		if (!$cmnt1 && !$cmnt2 && !$string2 && $tmp[$i] == "'" && ($tmp[$i-1] !== "\\" || $tmp[$i-1].$tmp[$i-2] == "\\\\"))
+			$string1 = !$string1;
+		elseif (!$cmnt1 && !$cmnt2 && !$string1 && $tmp[$i] == '"' && ($tmp[$i-1] !== "\\"))
+			$string2 = !$string2;
+		elseif (!$string1 && !$string2 && !$cmnt1 && !$cmnt2 && $tmp[$i].$tmp[$i+1] == '//' && ($tmp[$i-1] !== "\\" || $tmp[$i-1].$tmp[$i-2] == "\\\\")){
+			$cmnt2 = true;
+			$i++;
+			continue;
+		}
+		elseif (!$string1 && !$string2 && $cmnt2 && ($tmp[$i] == "\r" || $tmp[$i] == "\n"))
+			$cmnt2 = false;
+		elseif (!$string1 && !$string2 && !$cmnt1 && $tmp[$i].$tmp[$i+1] == '/*' && ($tmp[$i-1] !== "\\" || $tmp[$i-1].$tmp[$i-2] == "\\\\")){
+			$cmnt1 = true;
+			$i++;
+		}
+		elseif (!$string1 && !$string2 && $cmnt1 && $tmp[$i].$tmp[$i+1] == '*/'){
+			$cmnt1 = false;
+			$i++;
+			continue;
+		}
+
+		if (!$cmnt1 && !$cmnt2)
+			$out .= $tmp[$i];
+	}
+
+    $exp = preg_split("/(\r\n)|(\r)|(\n)/", $out);
+    if (count($exp)){
+		$out = '';
+		foreach($exp as $line){
+			$line = trim($line);
+			if (strlen($line)) $out .= ($out==''?'':"\r\n").$line;
+		}
+	}
+
+	return $out;
+}
+?>

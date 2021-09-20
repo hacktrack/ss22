@@ -1,0 +1,42 @@
+.obj_tab {
+	/* Hide for FFox */
+	display: none;
+
+    width: 100%;
+    height: 100%;
+
+	overflow: hidden;
+
+	padding: 15px;
+
+	/* scrollbars */
+	position: relative;
+	z-index: 0;
+}
+.rtl .obj_tab {
+	direction: rtl;
+}
+
+.obj_tab.nopadding{
+	padding: 0;	
+}
+.obj_tab_active{
+	display: block;
+
+	-webkit-animation: reveal 400ms;
+	animation: reveal 400ms;
+}
+.obj_tab .obj_tab{
+	background-color: transparent;
+}
+
+.obj_tab .obj_tabmenu{
+	display: none;
+}
+.obj_tab .obj_tabmain{
+	overflow: auto;
+	height: 100%;
+}
+
+.obj_tabdisabled { background: #FFFDF3; }
+.obj_tabdisabled * { visibility: hidden; }

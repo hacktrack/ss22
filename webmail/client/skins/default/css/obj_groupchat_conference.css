@@ -1,0 +1,9 @@
+.obj_groupchat_conference .body .preview{
+	cursor: default!important;
+}
+.obj_groupchat_conference .body .preview::before{
+	content: '\e918'!important;
+    font-family: 'ico32';
+	font-size: 48px;
+	color: {bg_main #08C};
+}

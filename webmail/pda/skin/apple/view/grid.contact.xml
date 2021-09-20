@@ -1,0 +1,40 @@
+<view>
+	<panel>
+		<helper>auth</helper>
+		<helper>folder</helper>
+		<helper>item</helper>
+		<form id="main_menu">
+			<menu template="menu/main" />
+			<config>
+				<controller>menu</controller>
+				<window>main</window>
+			</config>
+		</form>
+		<grid helper="item" template="grid/contact">
+			<config>
+				<controller>item</controller>
+				<data>item.fdr</data>
+				<default>
+					<orderby>itmclassifyas</orderby>
+				</default>
+				<fields>
+					<field label="datagrid_items_view|itmclassifyas">itmclassifyas</field>
+					<field label="backup|email1">lctemail1</field>
+					<field label="backup|email2">lctemail2</field>
+					<field label="backup|email3">lctemail3</field>
+					<field label="datagrid_items_view|itmcompany" sort="itmcompany,itmdepartment">itmcompany</field>
+					<field label="datagrid_items_view|itmdepartment" sort="itmdepartment,itmcompany">itmdepartment</field>
+				</fields>
+			</config>
+		</grid>
+		<!--<contact_list id="item_list"/>-->
+		<config>
+			<stylesheet>
+				<src>apple</src>
+			</stylesheet>
+			<javascript>
+				<src>lib</src>
+			</javascript>
+		</config>
+	</panel>
+</view>

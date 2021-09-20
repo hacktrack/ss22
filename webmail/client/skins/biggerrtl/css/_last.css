@@ -1,0 +1,35 @@
+
+body, pre, textarea, input{
+	font-size: 16px;
+}
+
+/** input **/
+#gui form.obj_input_small > input.obj_input {
+    width: 60px;
+}
+
+#gui .obj_input_calendar input.obj_input {
+    width: 115px !important;
+}
+
+#gui .obj_calendar > div {
+    font-size: 13px;
+}
+.obj_groupchat_item.com .comment p{
+	font-style: normal!important;
+}
+
+
+/* RTL adjustment */
+body {
+font-family: "Roboto", "Samim", "Heebo", sans-serif!important;
+}
+body div.frm_main_home .home_block
+{
+	text-align: right;
+}
+
+body form.obj_label
+{
+	text-align: right;
+}

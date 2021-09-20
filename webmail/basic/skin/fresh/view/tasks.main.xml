@@ -1,0 +1,38 @@
+<form>
+	<!-- Users form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>groupware</helper>
+		<grid id="items" helper="item" template="tasks.main">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<data>item.fdr</data>
+				<limit>20</limit>
+				<default>
+					<orderby>EVNSTARTDATE ASC,EVNSTARTTIME ASC</orderby>
+				</default>
+				<fields>
+					<field label="ID">evn_id</field>
+					<field label="Title">EVNTITLE</field>
+					<field label="Location">EVNLOCATION</field>
+					<field label="Type">EVNTYPE</field>
+					<field label="Color">EVNCOLOR</field>
+					<field label="StartDate">EVNSTARTDATE</field>
+					<field label="StartTime">EVNSTARTTIME</field>
+					<field label="EndDate">EVNENDDATE</field>
+					<field label="EndTime">EVNENDTIME</field>
+					<field label="Status">EVNSTATUS</field>
+				</fields>
+				<stylesheet>
+					<src>datagrid</src>
+				</stylesheet>
+				<javascript>
+					<src>toolbar</src>
+					<src>datagrid</src>
+				</javascript>
+			</config>
+		</grid>
+	</panel>
+</form>

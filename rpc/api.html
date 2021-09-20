@@ -1,0 +1,16 @@
+<?php
+  // Authentication libraries
+  include('inc/auth.php');
+
+  // Authenticate adminstrator  
+  http_authenticate(array('ADMIN'=>true));
+
+  // API call handler
+  include('inc/handler.api.php');
+
+  // RPC library
+  include('inc/rpc.php');
+
+  // RPC process
+  rpc_process("handle_api_call");
+?>

@@ -1,0 +1,19 @@
+@mixin form-group {
+
+	[iw-flex-grid~="group"] &,
+	[iw-flex-grid*=" group"] & {
+
+		&.group-left {
+			border-radius: $radius;
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+			border-right: 0; // Using instead group-right negative margin because of z-index bugs
+		}
+
+		&.group-right {
+			border-radius: $radius;
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+<?php
+	require_once("whatsnew.safe");
+$language = isset($_REQUEST['lang'])?$_REQUEST['lang']:(isset($_REQUEST['language'])?$_REQUEST['language']:'en');
+	$whatsnew = new WhatsNew($language, 'apps', 'help');
+	$whatsnew->printHead();
+?>
+<body>
+	<h1><?php echo $whatsnew->tt("header");?></h1>
+	<?php $whatsnew->printButton("button", "download_apps")->printDelimiter()->printList(8)->printNotes()->printScripts();?>
+</body>

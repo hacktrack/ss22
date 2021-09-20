@@ -1,0 +1,75 @@
+// Export CSS settings to be available via API
+
+// Makes the map of background images and their matching settings
+meta#css-backgrounds {
+
+	// Initialize empty string variable
+	$string: '';
+
+	// Create a string with a list of backgrounds (theme color, background index and image name)
+	@each $image in $login-backgrounds {
+		$theme: default;
+
+		// Get index of image and start it with 0
+		$index: index($login-backgrounds, $image) - 1;
+
+		// Define key and value
+		$key: $theme + '_' + $index;
+		$value: $image;
+
+		// Append and concanate string
+		$string: $string + map-to-string($key, $value);
+
+		// Echo result in key:value structure
+		/*#{$key}: #{$value};*/
+	}
+
+	// Echo string into content
+	font-family: $string;
+}
+
+// General settings
+meta#css-settings {
+
+	// Initialize empty string variable
+	$string: '';
+
+	// Create a string with a list of settings
+	@each $name, $value in $settings {
+
+		// Append and concanate string
+		$string: $string + map-to-string($name, $value);
+
+		// Echo result in key:value structure
+		/*#{$name}: #{$value};*/
+	}
+
+	// Echo string into content
+	font-family: $string;
+}
+
+// Theme colors
+meta#css-colors {
+
+	// Initialize empty string variable
+	$string: '';
+
+	// Create a string with a list of colors
+	@each $theme, $properties in $wa-themes {
+
+		// Get theme name
+		$name: map-get($properties, name);
+
+		// Get color value
+		$value: map-deep-get($properties, colors, 'primary');
+
+		// Append and concanate string
+		$string: $string + map-to-string($name, $value);
+
+		// Echo result in key:value structure
+		/*#{$name}: #{$value};*/
+	}
+
+	// Echo string into content
+	font-family: $string;
+}

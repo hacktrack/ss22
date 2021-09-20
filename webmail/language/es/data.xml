@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Azul</blue>
+    <green>Verde</green>
+    <brown>Marrón</brown>
+    <purple>Púrpura</purple>
+    <yellow>Amarillo</yellow>
+    <teal>Verde azulado</teal>
+    <plum>Ciruela</plum>
+    <red>Rojo</red>
+    <aqua>Aqua</aqua>
+    <aquamarine>Aguamarina</aquamarine>
+    <orchid>Orquídea</orchid>
+    <pink>Rosa</pink>
+    <silver>Plata</silver>
+    <white>Blanco</white>
+    <gray>Gris</gray>
+    <lemon>Limón</lemon>
+  </colors>
+  <title>
+    <new_email>* Nuevo mensaje de correo electrónico</new_email>
+    <new_im>* Nuevo mensaje de %s</new_im>
+    <new_reminder>* Recordatorio: %s</new_reminder>
+    <cerror>! Error de comunicación</cerror>
+  </title>
+  <audio>
+    <player>Reproductor</player>
+  </audio>
+  <signature>
+    <none>Ninguna firma</none>
+    <alias>Dirección De</alias>
+    <newmsg>Mensajes nuevos</newmsg>
+    <oldmsg>Respuestas</oldmsg>
+    <signature>Firma</signature>
+    <variable>Insertar variable</variable>
+  </signature>
+  <alias>
+    <add>Añadir nuevo alias</add>
+    <notify>Mensaje de confirmación ha sido enviado.</notify>
+    <instructions>La solicitud de confirmación será enviada a la dirección de email de arriba. Compruébela para más instrucciones.</instructions>
+  </alias>
+  <notify>
+    <title>Detalles notificación</title>
+    <to_all>Notificar a todos con acceso a esta carpeta</to_all>
+    <copy>Notificar también</copy>
+    <comment>Comentario (opcional), que se enviará a los usuarios que quería notificar de cambios</comment>
+    <success>Notificación enviada</success>
+  </notify>
+  <datagrid>
+    <nomessages>No hay mensajes</nomessages>
+    <noitems>No hay elementos</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Vista previa</preview>
+    <down>Panel inferior</down>
+    <right>Panel derecho</right>
+    <none>Ninguno</none>
+    <noitem>No hay ningún elemento</noitem>
+    <message_to>Mensaje para: %s</message_to>
+    <doc_revisions>Revisiones del documento</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Asistente de búsqueda</wizard>
+    <since>Desde fecha</since>
+    <until>Hasta fecha</until>
+    <contains>Cualquier lugar</contains>
+    <fulltext>Texto completo</fulltext>
+    <makefolder>Crear carpeta de búsqueda</makefolder>
+    <contact_note>Nota</contact_note>
+  </search>
+  <search_hints>
+    <folder>Buscar elementos de la carpeta especificada</folder>
+    <from>Se usa para especificar el remitente (from:Amy)</from>
+    <to>Se usa para especificar un destinatario (to:David)</to>
+    <subject>Buscar palabras en la línea de asunto (subject: cena)</subject>
+    <or>operador lógico</or>
+    <not>operador lógico</not>
+    <hasattachment>Buscar mensajes con un archivo adjunto</hasattachment>
+    <isflagged>Buscar mensajes que están marcadas</isflagged>
+    <isunread>Buscar mensajes no leídos</isunread>
+    <isread>Buscar mensajes leídos</isread>
+    <isdone>Buscar tareas completadas</isdone>
+    <cc>Se usa para especificar destinatarios en el campo Cc:</cc>
+    <bcc>Se usa para especificar destinatarios en el campo Cco:</bcc>
+    <sms>Se usa para especificar destinatarios en el campo SMS:</sms>
+    <after>Buscar mensajes enviados después de la fecha especificada (after:2004/04/16)</after>
+    <after_e>Buscar elementos que empiezan después de la fecha especificada (after:2004/04/16)</after_e>
+    <after_f>Buscar elementos modificados después de la fecha especificada (after:2004/04/16)</after_f>
+    <after_t>Buscar elementos que finalizan después de la fecha especificada (after:2004/04/16)</after_t>
+    <after_j>Buscar elementos que empiezan después de la fecha especificada (after:2004/04/16)</after_j>
+    <before>Buscar mensajes enviados antes de la fecha especificada (before:2004/04/16)</before>
+    <before_e>Buscar elementos que empiezan antes de la fecha especificada (before:2004/04/16)</before_e>
+    <before_f>Buscar elementos modificados antes de la fecha especificada (before:2004/04/16)</before_f>
+    <before_t>Buscar elementos que finalizan antes de la fecha especificada (before:2004/04/16)</before_t>
+    <before_j>Buscar elementos que empiezan antes de la fecha especificada (before:2004/04/16)</before_j>
+    <title>Se usa para especificar el título del elemento (title:Test)</title>
+    <description>Se usa para especificar la descripción o nota (description:Test)</description>
+    <name>Se usa para especificar el nombre del contacto</name>
+    <email>Se usa para especificar email</email>
+    <keyword>Buscar elementos con la etiqueta especificada (tag:Negocio)</keyword>
+    <tag>Buscar elementos con la etiqueta especificada (tag:Negocio)</tag>
+    <tag2>Buscar elementos con la etiqueta &quot;%s&quot; (usado en %s elementos)</tag2>
+    <greater>Buscar según el tamaño en kB (greater:1024)</greater>
+    <smaller>Buscar según el tamaño en kB (smaller:1024)</smaller>
+    <company>Search contacts against company (company:IceWarp)</company>
+    <department>Search contacts against department (department:IT)</department>
+    <note>Búsqueda de un contacto con alguna nota (nota:VIP)</note>
+    <location>Search contacts against location (location:London)</location>
+    <fulltext>Buscar el texto completo del mensaje (fulltext:test)</fulltext>
+    <priority>Búsqueda por prioridad: highest,high,normal,low,lowest (priority:high)</priority>
+    <isprivate>Buscar tareas que son privadas</isprivate>
+    <ispublic>Buscar tareas que son públicas</ispublic>
+    <isfree>Buscar tareas que están libres</isfree>
+    <isbusy>Búsqueda para las tareas que están ocupadas</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Carpeta de búsqueda</virtual>
+    <general>General</general>
+    <primary>Carpeta primaria</primary>
+    <filter>Filtros</filter>
+    <all>Todas las carpetas</all>
+  </virtual>
+  <notifier>
+    <notifier>Notifier</notifier>
+    <permissions>Notificaciones de escritorio permiten saber cuando tiene un nuevo correo electrónico o un mensaje de chat, incluso si su navegador no está visible. &lt;br&gt; Primero elija cómo desea ser notificado. Haga clic en Aceptar y confirme la siguiente ventana de diálogo para habilitar las notificaciones de escritorio.</permissions>
+    <denied>Ha negado el acceso a notificaciones de escritorio.</denied>
+    <redirect>Mensaje redirigido.</redirect>
+    <send>Mensaje enviado.</send>
+    <item_save>Elemento guardado.</item_save>
+    <new_email>Nuevo mensaje de correo para %s</new_email>
+    <new_revision>Nueva revisión de documento se ha creado.</new_revision>
+    <email_exist>La dirección de correo electrónico ya existe.</email_exist>
+    <email_added>La dirección de correo electrónico ha sido añadido al contacto.</email_added>
+    <contact_email_list_full>Error al añadir la dirección de correo electrónico, se toman todos los campos.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google Maps</map>
+    <go>Mostrar dirección</go>
+    <open>Abiri Google</open>
+    <alert>Error Google Maps</alert>
+    <g_geo_missing_address>Falta dirección: Falta la dirección o la dirección no tiene ningún valor.</g_geo_missing_address>
+    <g_geo_too_many_queries>Demasiadas consultas: Se ha superado la cuota diaria de geocodificación.</g_geo_too_many_queries>
+    <g_geo_server_error>Error de servidor: La solicitud de codificación geográfica no pudo ser procesada.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Información de inicio de sesión</login_info>
+    <licenses>Aplicaciones de escritorio y licencias</licenses>
+    <licenses_text>Saque el máximo partido de su cuenta de IceWarp. Haga clic aquí para descargas de software adicionales, claves de activación, guías y sintaxis que necesita para acceder a sus calendarios, contactos e información Free/Busy desde aplicaciones compatibles en su escritorio:&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Desktop Client&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Notifier&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Entregado</delivered>
+    <delivered_info>entregado con éxito a destinatario local</delivered_info>
+    <sent>Enviado</sent>
+    <sent_info>entregado con éxito a servidor remoto</sent_info>
+    <queue>Cola</queue>
+    <queue_info>el mensaje fue aplazado temporalmente, el servidor intentará enviarlo más tarde</queue_info>
+    <error>Error</error>
+    <error_info>revise su bandeja de entrada para el mesnaje de error detallado</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Todos los archivos</all_files>
+    <images>Imágenes</images>
+    <queue_limit_exceeded>Se ha superado el límite de cola</queue_limit_exceeded>
+    <zero_byte_file>Archivo de cero bytes</zero_byte_file>
+    <invalid_filetype>Tipo de archivo no válido</invalid_filetype>
+    <item>Elemento</item>
+    <title>Subiendo: %s - %s%</title>
+    <error1>Archivo supera el límite de tamaño (%sMB)</error1>
+    <error3>El archivo fue subido sólo parcialmente</error3>
+    <error4>No se ha subido ningún archivo</error4>
+    <error6>Falta una carpeta temporal</error6>
+    <error7>No se pudo escribir el archivo en el disco</error7>
+    <error8>Tipo de archivo inválido</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Texto de estado...</status_msg>
+    <add_private>Privado</add_private>
+    <unsupported_img>Tipo de imagen no soportado</unsupported_img>
+    <add_gateway>Añadir pasarela</add_gateway>
+    <error_im>Error WebChat</error_im>
+    <registred>Ya está registrado</registred>
+    <registr>Registrar</registr>
+    <error_ticket>No se puede crear el ticket.</error_ticket>
+    <error_socket>No se puede abrir el socket.</error_socket>
+    <error_bytestream>User does not support byte streams.</error_bytestream>
+    <error_cancel>Usuario ha cancelado la solicitud.</error_cancel>
+    <error_registr>Servicio ha rechazada su inscripción.</error_registr>
+    <add_service>Suscribir servicio</add_service>
+    <service>Servicio</service>
+    <call>Llamar ahora</call>
+    <audio_call>Llamada audio</audio_call>
+    <video_call>Llamada video</video_call>
+    <meeting>Iniciar WebMeeting</meeting>
+    <invite>Invitar a WebMeeting</invite>
+    <closetab>Cerrar pestaña</closetab>
+    <show>Mostrar todos los contactos</show>
+    <hide>Ocultar contactos desconectados</hide>
+    <other>Otro</other>
+    <selected>Seleccionado</selected>
+    <chat>Abrir chat</chat>
+    <groupmsg>Enviar mensaje</groupmsg>
+    <group>Grupo</group>
+    <new_group>Nuevo grupo</new_group>
+    <subscription>Suscripción</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>Usuario &lt;b&gt;%s&lt;/ b&gt; ha solicitado su permiso para añadirle a su lista de contactos WebChat</sub_ask>
+    <send>Autorizar contacto chat</send>
+    <request>Solicitar autorización</request>
+    <remove>Quitar autorización</remove>
+    <remove_account>¿Está seguro de eliminar la cuenta %s de la lista?</remove_account>
+    <remove_accounts>¿Está seguro de quitar las cuentas seleccionadas de la lista?</remove_accounts>
+    <rem_grp>Quitar grupo</rem_grp>
+    <rem_grpc>Quitar grupo &amp; contactos</rem_grpc>
+    <rename>Renombrar</rename>
+    <add>Añadir contacto</add>
+    <jabber_id>ID Jabber</jabber_id>
+    <nick>Display name</nick>
+    <vcard>Mostrar información de contacto</vcard>
+    <history>Mostrar historial de conversación</history>
+    <sharedesktop>Compartir pantalla</sharedesktop>
+    <tab_general>General</tab_general>
+    <tab_work>Trabajo</tab_work>
+    <tab_location>Ubicación</tab_location>
+    <tab_about>Acerca de</tab_about>
+    <send_mail>Enviar correo</send_mail>
+    <send_file>Enviar fichero</send_file>
+    <receive_file>Recibir fichero</receive_file>
+    <not_listed>No listado</not_listed>
+    <composing>WebChat: %s está escribiendo...</composing>
+    <file_message>Usuario le envió un archivo con la descripción:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s</file_message>
+    <file_cancel>Transferencia de ficheros rechazada por el destinatario.</file_cancel>
+    <file_error>Error de transferencia de ficheros.</file_error>
+    <file_ok>Transferencia de ficheros exitosa.</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/ b&gt; le ha enviado un archivo &lt;b&gt;%s&lt;/ b&gt;</receive_note>
+    <show_after>Mostrar conversación después de: %s</show_after>
+    <im_status>WebChat: %s</im_status>
+    <im>WebChat</im>
+    <sip_inprogress>Llamada en curso</sip_inprogress>
+    <sip_incomming>Llamada entrante</sip_incomming>
+    <sip_calling>Llamando</sip_calling>
+    <status_sec>%s por menos de un minuto</status_sec>
+    <status_min>%s para %s minuto(s)</status_min>
+    <status_hour>%s para %s hora(s)</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Proponer nueva hora</propose>
+    <nosubject>Sin asunto</nosubject>
+    <when>Cuando</when>
+    <location>Ubicación</location>
+    <comment>Comentario</comment>
+    <description>Descripción</description>
+    <accept>Aceptar</accept>
+    <tentative>Tentativo</tentative>
+    <decline>Rechazar</decline>
+    <skip_img>Recursos externos han sido bloqueados. Haga clic aquí para mostrarlos.</skip_img>
+    <show_img>El mensaje contiene imágenes adjuntas. Haga clic aquí para abrir la vista previa.</show_img>
+    <smart>Adjuntos se entregan usando la tecnología IceWarp SmartAttach.</smart>
+    <show_raw>Abrir mensaje crudo</show_raw>
+    <certificate>Certificado público</certificate>
+    <serror>Error de descifrado, falta el certificado o el certificado no es válido.</serror>
+    <sverify>No se puede verificar la firma del mensaje</sverify>
+    <expired>Error de descifrado, certificado válido pero caducado.</expired>
+    <access>Se le ha concedido el acceso a &quot;%s&quot; por %s.</access>
+    <account_access>Se le ha concedido acceso por %s.</account_access>
+    <subscribe>Suscribir carpeta</subscribe>
+    <subscribe_account>Suscribir cuenta</subscribe_account>
+    <subscribed>Cuenta %s suscrito.</subscribed>
+    <subscribed_folder>Carpeta &quot;%s/%s&quot; suscrita.</subscribed_folder>
+    <unsubscribe>Dar de baja</unsubscribe>
+    <unsubscribed>Suscripción quitada para %s.</unsubscribed>
+    <unsubscribed_folder>Suscripción eliminada para &quot;%s/%s&quot;.</unsubscribed_folder>
+    <error>La acción no puede realizarse.</error>
+    <recurrent>Recurrente</recurrent>
+    <occurrence>Excepción de evento recurrente</occurrence>
+    <attendee>Con</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Novedades</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Ayuda</help>
+    <about>Acerca de</about>
+  </help>
+  <print>
+    <preview>Vista preliminar</preview>
+    <opera>Su navegador no soporta esta característica.</opera>
+  </print>
+  <status>
+    <online>Conectado</online>
+    <offline>Desconectado</offline>
+    <chat>Libre para chat</chat>
+    <away>Ausente</away>
+    <xa>N/A</xa>
+    <dnd>DND</dnd>
+    <invisible>Invisible</invisible>
+    <gone>El usuario ha dejado la conversación</gone>
+    <error>Error</error>
+    <sip>Conectado en WebPhone</sip>
+    <chat_with>Chat con %s</chat_with>
+  </status>
+  <policy>
+    <minlength>Longitud mínima de contraseña: %s caracteres</minlength>
+    <digits>Número de caracteres numéricos [0-9]: %s</digits>
+    <alpha>Número de caracteres alfabéticos [a-Z]: %s</alpha>
+    <nonalphanum>Número de caracteres no alfanuméricos [!@#$%...]: %s</nonalphanum>
+    <upperalpha>Número de caracteres alfabéticos en mayúsculas [A-Z]: %s</upperalpha>
+    <useralias>La clave no puede ser la misma que su nombre de usuario o alias</useralias>
+  </policy>
+  <alerts>
+    <alert>Alerta</alert>
+    <suppress>No volver a mostrar este mensaje</suppress>
+    <create_revision>No se puede crear la revisión</create_revision>
+    <password_do_not_match>Las contraseñas no coinciden</password_do_not_match>
+    <invalid_password>Contraseña no válida</invalid_password>
+    <new_password_match>Nueva contraseña es la misma que la antigua</new_password_match>
+    <invalid_cpassword>Confirmación de contraseña no coincide</invalid_cpassword>
+    <folder_exist>Carpeta ya existe</folder_exist>
+    <create_folder>No se ha podido crear la carpeta &quot;%s&quot;</create_folder>
+    <rename_folder>No se puede cambiar el nombre de la carpeta &quot;%s&quot; a &quot;%s&quot;</rename_folder>
+    <attachment_size>Ha superado el tamaño máxmimo de adjuntos</attachment_size>
+    <attachment_quota>Cuota para adjuntos superada.</attachment_quota>
+    <attachment_missing>Archivo adjunto no econtrado.</attachment_missing>
+    <attachment_virus>Archivo adjunto contiene virus.</attachment_virus>
+    <could_not_create>El documento no se ha podido crear.</could_not_create>
+    <could_not_edit>Documento no se ha podido editar.</could_not_edit>
+    <general_error>Ha ocurrido un error no especificado&lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>Contraseña viola la directiva de contraseña</password_policy>
+    <password_requirements>Consulte los siguientes requisitos y eliga una contraseña nueva:</password_requirements>
+    <password_incorrect>Contraseña incorrecta. Por favor, inténtelo de nuevo.</password_incorrect>
+    <message_not_sent>Mensaje no enviado</message_not_sent>
+    <message_not_saved>Mensaje no guardado</message_not_saved>
+    <mailingfailed>No se pudo enviar o guardar el mensaje debido a un error de servidor. Por favor, inténtelo de nuevo más tarde.</mailingfailed>
+    <distribution_list_invalid_id>Lista de distribución inválida:</distribution_list_invalid_id>
+    <smtp_from_failed>El siguiente remitente no ha sido aceptado:</smtp_from_failed>
+    <smtp_recipients_failed>Los destinarios han causado el siguiente error:</smtp_recipients_failed>
+    <smtp_data_not_accepted>Su mensaje no fue aceptada por el servidor</smtp_data_not_accepted>
+    <default_folder_missing>Default folder &quot;%s&quot; is missing.</default_folder_missing>
+    <no_recipient_certificate>Falta el certificado del destinatario</no_recipient_certificate>
+    <recipient_certificate_expired>Certificado del destinatario ha expirado.</recipient_certificate_expired>
+    <personal_certificate>Discrepancia de certificado personal</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>No se puede recuperar el mensaje</imap_null>
+    <delete_item>El/los elemento(s) seleccionado(s) no se puede(n) eliminar</delete_item>
+    <reserved_folder>Nombre de la carpeta reservado &quot;%s&quot;</reserved_folder>
+    <undefined>Error no definido</undefined>
+    <timezone_differ>Su zona horaria ha cambiado. Seleccione una ubicación correspondiente abajo para ajustar la hora de los eventos de su calendario.</timezone_differ>
+    <popup_blocker>Ventana pop-up ha sido bloqueada.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>No leído</unread>
+    <contact_ok>Administrador contactado con éxito</contact_ok>
+    <signup_ok>Nueva cuenta creada con éxito</signup_ok>
+    <logout>Usuario desconectado</logout>
+    <logged_out>Usuario desconectado</logged_out>
+    <forgot_ok>Sus credenciales se han enviado a su dirección de correo electrónico y dirección de correo electrónico alternativa</forgot_ok>
+    <password_change_ok>Se cambió correctamente la contraseña</password_change_ok>
+    <close_window>Ahora puede cerrar esta ventana</close_window>
+    <personality_confirmation_ok>Su dirección de correo ha sido confirmada.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Nombre de usuario o contraseña incorrectos. Inténtelo de nuevo.</invalid_login>
+    <account_disabled>Cuenta deshabilitada</account_disabled>
+    <expired>Sesión ha caducado</expired>
+    <connection>No se puede acceder al servidor. Compruebe su conexión a Internet o contacte al administrador.</connection>
+    <servererror>No se puede acceder a este servicio. Por favor, inténtelo más tarde o póngase en contacto con el administrador.</servererror>
+    <overloaded>El servidor está actualmente sobrecargado. Por favor, inténtelo de nuevo más tarde o contacte con el administrador.</overloaded>
+    <countdown>Se intentará de nuevo en %s segundos.</countdown>
+    <filenotfound>Hay archivos que faltan en el servidor, se puede producir un comportamiento inesperado.</filenotfound>
+    <subscribe_error>No es posible suscribir cuenta %s.</subscribe_error>
+    <wc_disabled>WebClient está deshabilitado.</wc_disabled>
+    <invalid_rsa>Incapaz de crear contraseña RSA.</invalid_rsa>
+    <no_db>Error de conexión de base de datos</no_db>
+    <no_data>No hay datos disponibles</no_data>
+    <access_error>No se puede acceder a la carpeta del buzón, contacte al administrador.</access_error>
+    <ip_mismatch>Su IP ha cambiado, la sesión se cerrará automáticamente. Para evitar este problema en el futuro, acceda a WebClient a través de una conexión HTTPS.</ip_mismatch>
+    <javatip1>Mire en la pantalla por mensajes o alertas de seguridad de Java. Haga clic en Sí o Permitir.</javatip1>
+    <javatip2>Contacte con el administrador para ayudarle a instalar Java en su ordenador, o</javatip2>
+    <javatip3>Haga clic en el botón Solucionar problemas abajo para resolver el problema ahora</javatip3>
+    <contactadmin>Contactar administrador</contactadmin>
+    <troubleshoot>Solucionar problemas</troubleshoot>
+  </error>
+  <common>
+    <all>Todos</all>
+    <processing>Procesando</processing>
+    <loading>Cargando...</loading>
+    <sending>Enviando...</sending>
+    <comment>Comentario (opcional)</comment>
+    <email>Email</email>
+    <folder>Carpeta</folder>
+    <items>Elementos</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Seleccionar todo</select_all>
+    <clear>Limpiar</clear>
+    <yes>Si</yes>
+    <no>No</no>
+    <auto>Automático</auto>
+    <disable>Deshabilitar</disable>
+    <enable>Habilitar</enable>
+    <enabled>Activado</enabled>
+    <show_all>Mostrar todo</show_all>
+    <previous>Anterior</previous>
+    <next>Siguiente</next>
+    <more>Más...</more>
+    <show>Mostrar</show>
+    <hide>Ocultar</hide>
+    <appearance>Apariencia panel</appearance>
+    <expand>Expandido</expand>
+    <collapsed>Colapsado</collapsed>
+    <autocollapsed>Colapsar automáticamente</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Favoritos</favorites>
+    <remove>Eliminar de favoritos</remove>
+    <rename>Renombrar acceso directo</rename>
+  </favorites>
+  <address_book>
+    <r>L</r>
+    <rw>LE</rw>
+    <rwm>LEM</rwm>
+    <rwmd>LEMB</rwmd>
+    <owner>Dueño</owner>
+    <address_book>Libreta de direcciones</address_book>
+    <add_recipient>Añadir destinatario</add_recipient>
+    <selected_addresses>Seleccionado</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Vacío</empty>
+    <today>Hoy</today>
+    <this_week>Esta semana</this_week>
+    <this_month>Este mes</this_month>
+    <yesterday>Ayer</yesterday>
+    <tomorrow>Mañana</tomorrow>
+    <typetoadd>Escribir para agregar</typetoadd>
+    <owner>Dueño</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>Hora local</timezones>
+    <serverzone>Hora servidor</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>¿Desea vaciar la lista de autocompletado?</clear_autosuggest>
+    <suppress>No preguntarme de nuevo</suppress>
+    <reset_password_subject>Contraseña restablecida para cuenta %email%</reset_password_subject>
+    <reset_password>Hola %username%,&#13;&#10;&#13;&#10;¿Solicitó un restablecimiento de contraseña para su cuenta (%email%) en WebClient?&#13;&#10;&#13;&#10;Haga clic en el enlace de abajo (o copie y péguelo en su navegador) para confirmar que esta dirección de correo electrónico le pertenece.&#13;&#10;&#13;&#10;Si no hizo esta solicitud o ha recibido este mensaje por error, por favor ignórelo.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Confirmar nueva dirección De para: %username%</alias_subject>
+    <alias_confirmation>Hola %username%,&#13;&#10;&#13;&#10;¿Solicitó añadir (%email%) como una nueva dirección de remitente en WebClient?&#13;&#10;&#13;&#10;Haga clic en el enlace de abajo (o copie y péguelo en su navegador) para confirmar que esta dirección de correo electrónico le pertenece.&#13;&#10;&#13;&#10;Si usted no hizo esta solicitud o ha recibido este mensaje por error, por favor ignórelo.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>Para evitar la pérdida de datos, compruebe que todas los elementos abiertos y borradores de mensajes se han guardado.</unload>
+    <expired>Sesión caducada</expired>
+    <no_mobile>Ningún número de móvil encontrado.</no_mobile>
+    <expired_msg>No se pueden enviar o guardar mensajes sin terminar. Su IP ha cambiado o la sesión ha caducado.</expired_msg>
+    <delete_account_confirmation>Quitar confirmación de cuenta</delete_account_confirmation>
+    <delete_account>¿Está seguro de eliminar la cuenta %s?</delete_account>
+    <recover_item>¿Está seguro de que desea recuperar los elemento seleccionados?</recover_item>
+    <delete_folder_confirmation>Confirmación de eliminación de carpeta</delete_folder_confirmation>
+    <delete_folder>¿Está seguro que desea eliminar la carpeta &quot;%s&quot;?&lt;br/&gt;(Todas las subcarpetas se eliminarán de forma permanente)</delete_folder>
+    <delete_item_confirmation>Confirmación de eliminación de elemento</delete_item_confirmation>
+    <delete_item>¿Está seguro de que desea eliminar los elementos seleccionado(s)?</delete_item>
+    <delete_avatar>Se eliminará la imagen del contacto actual</delete_avatar>
+    <blacklist_sender_confirmation>Confirmación de lista negra</blacklist_sender_confirmation>
+    <blacklist_sender>¿Está seguro de que desea añadir los elementos seleccionados a la lista negra?</blacklist_sender>
+    <blacklist_domain>¿Está seguro de que desea añadir todos los elementos de este dominio a la lista negra?</blacklist_domain>
+    <blacklisted>Remitente puesto en lista negra</blacklisted>
+    <whitelist_sender_confirmation>Confirmación de lista blanca</whitelist_sender_confirmation>
+    <whitelist_sender>¿Está seguro de que desea añadir los elementos seleccionados a la lista blanca?</whitelist_sender>
+    <whitelist_domain>¿Está seguro de que desea añadir todos los elementos de este dominio a la lista blanca?</whitelist_domain>
+    <whitelisted>Remitente puesto en lista blanca</whitelisted>
+    <empty_folder_confirmation>Confirmación de vaciado de carpeta</empty_folder_confirmation>
+    <empty_folder>¿Está seguro de que desea eliminar todos los elementos en esta carpeta?</empty_folder>
+    <empty_to_trash>¿Estás seguro de que desea mover todos los elementos de la carpeta a la papelera?</empty_to_trash>
+    <save_title>Guardar mensaje</save_title>
+    <save_confirmation>Mensaje no se guardan. ¿Desea guardar el mensaje en la carpeta de borradores?</save_confirmation>
+    <save_file>Archivo ha sido modificado. Guardar los cambios?</save_file>
+    <save>Guardar</save>
+    <discard>Descartar</discard>
+    <create_reading_confirmation_title>Confirmación de lectura</create_reading_confirmation_title>
+    <create_reading_confirmation>El remitente ha solicitado una respuesta para saber que usted ha leido su mensaje. ¿Desea enviarlo?</create_reading_confirmation>
+    <send_reading_confirmation>¿Solicitar confirmación de lectura al destinatario?</send_reading_confirmation>
+    <browser_warning_title>Advertencia sobre el navegador</browser_warning_title>
+    <browser_warning_text_unsupported>Your current browser is NOT OFFICIALLY SUPPORTED by IceWarp WebClient.&#13;&#10;&#13;&#10;Please note that the performance of WebClient with your current browser could be extremely slow or inoperable.&#13;&#10;&#13;&#10;WebClient has been optimized for use with Firefox 4.0 (or higher) and Internet Explorer 8.0 (or higher). We strongly recommend that you upgrade to the latest version of Internet Explorer or install Mozilla Firefox (both are free).&#13;&#10;&#13;&#10;For the latest version of Firefox visit:&#13;&#10; http://www.firefox.com/&#13;&#10;For the latest version of Internet Explorer visit:&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;Press OK to continue or press Cancel to switch to WebClient Tablet interface.</browser_warning_text_unsupported>
+    <expired_password>Su contraseña ha caducado. Por favor, cambie su contraseña ahora.</expired_password>
+    <authentication>Fallo de autentificación</authentication>
+    <authenticate>Por razones de seguridad, tiene que autenticarse de nuevo.</authenticate>
+    <enterpass>Introduzca su contraseña y abra una sesión para continuar con su trabajo, o cierre la sesión para salir.</enterpass>
+    <secure>Para evitar este problema en el futuro, acceda a WebClient mediante una conexión HTTPS.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>El idioma de IceWarp WebClient cambiará con el siguiente inicio de sesión.</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Abrir en una ventana separada</open_in_separate_window>
+    <help_restriction>Esta función no está habilitada por el administrador</help_restriction>
+    <switch_older>Cambiar a la versión anterior de WebClient</switch_older>
+    <choose_interface>Elija su interfaz preferida</choose_interface>
+    <choose_lang>Elija su idioma</choose_lang>
+    <migration_in_progress>Migración en curso, por favor intentelo de nuevo más tarde</migration_in_progress>
+    <message_sent>Su mensaje ha sido entregado</message_sent>
+    <message_send_failed>Mensaje no se ha podido enviar</message_send_failed>
+    <antispam_code_error>Código de seguridad es incorrecto</antispam_code_error>
+    <antispam>Codigo de seguridad</antispam>
+    <contact_support_subject>Nueva solicitud de contacto desde la pantalla de inicio de sesión</contact_support_subject>
+    <text>Texto</text>
+    <contact_administrator>Contacte con nosotros para soporte</contact_administrator>
+    <contact_question>¿Necesita ayuda?</contact_question>
+    <contact_answer>Póngase en contacto con nuestro administrador</contact_answer>
+    <contact_1>Póngase en contacto con nuestro</contact_1>
+    <contact_2>administrador</contact_2>
+    <contact_placeholder_1>Su dirección de e-mail o número de teléfono</contact_placeholder_1>
+    <contact_placeholder_2>Describa su problema</contact_placeholder_2>
+    <help>Ayuda audio</help>
+    <meeting_me>Yo</meeting_me>
+    <meeting_hang_up_confirmation>¿De verdad quiere salir de la reunión?</meeting_hang_up_confirmation>
+    <online_meeting>WebMeeting</online_meeting>
+    <meeting_connected>Conectado</meeting_connected>
+    <meeting_connecting>Conectando...</meeting_connecting>
+    <phone_access>Acceso teléfono</phone_access>
+    <meeting_chat_ready>¡Bienvenido al WebMeeting! Chat de grupo está listo.</meeting_chat_ready>
+    <meeting_chat_send>Enviar</meeting_chat_send>
+    <meeting_user_left_meeting>Usuario &quot;%s&quot; ha abandonado la reunión</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>Usuario &quot;% s&quot; se ha unido a la reunión</meeting_user_joined_meeting>
+    <meeting_no_participants>Sin participantes</meeting_no_participants>
+    <meeting_server_not_responding>Servidor no está respondiendo</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Conexión exitosa</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Applet de audio no se puede iniciar. Si hay un diálogo de confirmación en su navegador, confirme para permitir que el applet de Java se ejecute. En algunos casos, reiniciar el navegador puede ayudar.&#13;&#10;&#13;&#10;Puede obtener la última versión de Java y comprobar que está correctamente instalado visitando &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>Duración</duration>
+    <mute>Silencio</mute>
+    <desktop_sharing_id>ID de sesión compartir pantalla</desktop_sharing_id>
+    <conference_phone_number>Número de teléfono del WebMeeting</conference_phone_number>
+    <desktop_sharing_app>Aplicación para compartir pantalla</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>Lo sentimos, la función de pantallas compatidas directamente desde web no funciona en dispositivos móviles. En el siguiente enlace se puede encontrar una aplicación para eso.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>Lo sentimos, la función de pantallas compatidas directamente desde web no funciona en Mac. Tendrá que instalar una aplicación desde el siguiente enlace.</desktop_sharing_mac_warning>
+    <continue_to_call>Continuar a llamada</continue_to_call>
+    <meeting_api_unexpected_response>Respuesta API inesperada</meeting_api_unexpected_response>
+    <applet_unreachable>Applet Java es inaccesible</applet_unreachable>
+    <sip_applet_load_failed>Applet de audio no se pudo cargar</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Get meeting info failed</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>La sesión de pantalla compartida ha terminado, pero el audio sigue activo.</meeting_mikogo_ended>
+    <meeting_ended>WebMeeting finalizó</meeting_ended>
+    <meeting_hang_up>Colgar</meeting_hang_up>
+    <meeting_id>ID reunión</meeting_id>
+    <meeting_mikogo_ready>Compartir pantalla está listo</meeting_mikogo_ready>
+    <meeting_sip_ready>Audio está listo</meeting_sip_ready>
+    <meeting_call_failed>Llamada fallida</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Invite timeout. Trying again in %s sec.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Intentando de nuevo en %s segundos.</meeting_trying_again_in>
+    <meeting_preparing_sip>Preparando audio</meeting_preparing_sip>
+    <meeting_starting_sip>Iniciando audio</meeting_starting_sip>
+    <meeting_waiting_for_reply>Applet de audio está esperando respuesta del servidor</meeting_waiting_for_reply>
+    <meeting_in_progress>Reunión en curso</meeting_in_progress>
+    <meeting_you_can_join>Ahora puede unirse al WebMeeting</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Applet de reunión no está listo</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>Sin código de applet de reunión en respuesta</meeting_no_applet_code>
+    <meeting_unexpected_response>Respuesta inesperada del applet de reunión</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Su navegador no soporta WebMeetings</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>El navegador Chrome ofrecerá la mejor experiencia. Será redirigido a la guía de configuración.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>El WebMeeting todavía no ha empezado.</meeting_meeting_wasnt_started>
+    <meeting_waiting>Esperando a %s para iniciar el WebMeeting</meeting_waiting>
+    <meeting_created_by_ready>El WebMeeting creado por %s está listo</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Cargando datos de reunión</meeting_loading_meeting_info>
+    <unknown_error>Error desconocido</unknown_error>
+    <meeting_no_name>Por favor, introduzca su nombre o apodo</meeting_no_name>
+    <meeting_api_error_104>ID reunión inválida</meeting_api_error_104>
+    <meeting_api_error_description_104>La dirección de la reunión no existe o es incompleta</meeting_api_error_description_104>
+    <meeting_api_error_111>Este servicio está deshabilitado</meeting_api_error_111>
+    <meeting_api_error_120>No se pudo conectar con el servidor remoto</meeting_api_error_120>
+    <meeting_api_error_125>Servidor no tiene una licencia válida para WebMeetings</meeting_api_error_125>
+    <meeting_id_doesnt_exist>ID de reunión no existe</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Micrófono no disponible</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Access to microphone is disabled or it is not connected. Do you wish to continue without microphone?</meeting__no_microphone_continue>
+    <fill_in_name>Introduzca su nombre</fill_in_name>
+    <fill_in_email>Introduzca su dirección de correo electrónico</fill_in_email>
+    <join_meeting>Unirse a WebMeeting</join_meeting>
+    <already_a_member>Ya es un miembro</already_a_member>
+    <name>Nombre</name>
+    <enter_your_name>Introduzca su nombre</enter_your_name>
+    <enter_your_name_description>Este nombre será visible para otros participantes y usado para identificarle durante el WebMeeting</enter_your_name_description>
+    <cancel>Cancelar</cancel>
+    <login_caption>Bienvenido a IceWarp WebClient</login_caption>
+    <copy>Powered by &lt;a href=&quot;http://www.icewarp.es/&quot;&gt;IceWarp Server&lt;/a&gt;</copy>
+    <copy_new>Powered by &lt;a href=&quot;http://www.icewarp.es&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>IceWarp WebClient</title>
+    <user>Usuario</user>
+    <email>Dirección email</email>
+    <pass>Contraseña</pass>
+    <old_pass>Contraseña antigua</old_pass>
+    <new_pass>Contraseña nueva:</new_pass>
+    <check_pass>Confirmar contraseña</check_pass>
+    <change_password>Cambiar contraseña</change_password>
+    <remember>Recordar</remember>
+    <save0>Inicio de sesión automático</save0>
+    <save1>Nombre de usuario y contraseña</save1>
+    <save2>Nombre de usuario</save2>
+    <save3>Preguntar siempre</save3>
+    <login>Iniciar sesión</login>
+    <send>Enviar</send>
+    <create_account>Crear Cuenta</create_account>
+    <switch>Cambiar a interfaz &lt;a href=&quot;./basic&quot;&gt;Tableta&lt;/a&gt; o &lt;a href=&quot;./pda&quot;&gt;Móvil&lt;/a&gt;.</switch>
+    <downloads>Descargas</downloads>
+    <interface>Interfaz</interface>
+    <basic>Tablet</basic>
+    <pda>Móvil</pda>
+    <pro>Escritorio</pro>
+    <osx>Mac OS X</osx>
+    <lang>Idioma</lang>
+    <keep_me_signed>Recordarme</keep_me_signed>
+    <utilities>Herramientas</utilities>
+    <pw_policy_minlength>Longitud mínima de contraseña</pw_policy_minlength>
+    <pw_policy_digits>Número de caracteres numéricos en la contraseña [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Número de caracteres alfabéticos de la contraseña [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>Número de caracteres no alfanuméricos en [!@#$...] en la contraseña</pw_policy_nonalphanum>
+    <pw_policy_useralias>Check password against username and alias enabled</pw_policy_useralias>
+    <pw_policy_uppercase>Número de caracteres alfabéticos en mayúsculas [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>Mostrar teclado virtual</virtual_keyboard_01>
+    <virtual_keyboard_02>Seleccionar distribución del teclado</virtual_keyboard_02>
+    <virtual_keyboard_04>On</virtual_keyboard_04>
+    <virtual_keyboard_05>Off</virtual_keyboard_05>
+    <virtual_keyboard_06>Cerrar el teclado</virtual_keyboard_06>
+    <virtual_keyboard_07>Borrar</virtual_keyboard_07>
+    <virtual_keyboard_08>Borrar esta entrada</virtual_keyboard_08>
+    <virtual_keyboard_10>Reducir el tamaño del teclado</virtual_keyboard_10>
+    <virtual_keyboard_11>Aumentar el tamaño del teclado</virtual_keyboard_11>
+    <js_problem>No se puede ejecutar JavaScript</js_problem>
+    <public_calendar>Calendario público</public_calendar>
+    <login_to_pro>Iniciar sesión para interfaz de escritorio</login_to_pro>
+    <login_to_basic>Iniciar sesión en interfaz tablet</login_to_basic>
+    <login_to_pda>Iniciar sesión en interfaz móvil</login_to_pda>
+    <js_turned_off_message_text>Para la mejor experiencia de usuario y funciones avanzadas, recomendamos la interfaz de escritorio. Esto requiere JavaScript. Compruebe que JavaScript está activado en la configuración del navegador, o continue con la</js_turned_off_message_text>
+    <js_turned_off_message_link>Interfaz Tablet</js_turned_off_message_link>
+    <learn_more>Saber más sobre todas las características</learn_more>
+    <learn_more_short>Saber más</learn_more_short>
+    <login_back>Volver a inicio de sesión</login_back>
+    <changepwd>Cambie su&lt;br/&gt; contraseña</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Escritorio</advanced>
+    <basic>Tablet</basic>
+  </login_client>
+  <login_style>
+    <gray>Gris</gray>
+    <white>Blanco</white>
+    <black>Grafito</black>
+    <red>Rojo</red>
+    <yellow>Amarillo</yellow>
+    <green>Verde</green>
+    <blue>Azul</blue>
+    <purple>Púrpura</purple>
+    <orange>Naranja</orange>
+    <brown>Marrón</brown>
+    <pink>Rosa</pink>
+  </login_style>
+  <skin_style>
+    <default>Azul</default>
+    <black>Negro</black>
+    <brown>Marrón</brown>
+    <graphite>Grafito</graphite>
+    <green>Verde</green>
+    <orange>Naranja</orange>
+    <pink>Rosa</pink>
+    <purple>Púrpura</purple>
+    <red>Rojo</red>
+    <yellow>Amarillo</yellow>
+  </skin_style>
+  <sign_up>
+    <question>¿Todavía no tiene una cuenta?</question>
+    <answer>Crear una cuenta</answer>
+    <sign_up>Alta</sign_up>
+    <create_account>Introduzca la información de su nueva cuenta.</create_account>
+    <fullname>Nombre completo</fullname>
+    <domain>Dominio</domain>
+    <username>Nombre de usuario</username>
+    <alternative>Email alternativo</alternative>
+    <captcha_error>Código de seguridad inválido</captcha_error>
+    <pass_error>Contraseña especificada no fue aceptada</pass_error>
+    <incorrect_error>Nombre de usuario o alias incorrectos</incorrect_error>
+    <exists_error>La cuenta ya existe</exists_error>
+    <error>Nueva cuenta no se puede crear</error>
+    <account_created>La nueva cuenta se ha creado con éxito</account_created>
+    <invalid_cpass>Confirmación de contraseña no válida</invalid_cpass>
+    <confirm_pass>Confirmar</confirm_pass>
+    <password_change>Cambio de contraseña</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>¿Olvidó su contraseña?</question>
+    <question_br>¿Olvidó su&lt;br/&gt; contraseña?</question_br>
+    <title>Restablecer su&lt;br/&gt; contraseña</title>
+    <answer>Restablecerla</answer>
+    <generate>Doble clic para un código de seguridad nuevo</generate>
+    <captcha>Escriba el código mostrado</captcha>
+    <captcha_error>Código de seguridad inválido</captcha_error>
+    <security_code>Código de seguridad</security_code>
+    <reset_pass>Restablecer contraseña</reset_pass>
+    <enter_alt_pass>Sus credenciales se enviarán a su dirección de correo electrónico y la dirección de correo electrónico alternativa, si existe</enter_alt_pass>
+    <reset_send>Sus credenciales han sido enviados a las direcciones de correo electrónico que se detallan a continuación:</reset_send>
+    <reset_error>Cuenta especificado no existe o la contraseña no puede ser recuperada</reset_error>
+    <subject>Restablecimiento de contraseña para cuenta %EMAIL%</subject>
+    <email>Hola %FULLNAME%,&#13;&#10;&#13;&#10;¿Solicitó un restablecimiento de contraseña para su cuenta (%email%) en WebClient?&#13;&#10;&#13;&#10;Haga clic en el enlace de abajo (o copie y péguelo en su navegador) para confirmar que esta dirección de correo electrónico le pertenece.&#13;&#10;% URL%&#13;&#10;&#13;&#10;Si no hizo esta solicitud o ha recibido este mensaje por error, por favor ignórelo.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Nombre ya existe</duplicity>
+    <label>Documento con el mismo nombre &quot;%s&quot; ya existe.</label>
+    <suggested_name>Nombre sugerido</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Procesando</processing>
+    <step1>1) Seleccione el formato para subir</step1>
+    <step2>2) Seleccione la carpeta de destino</step2>
+    <step3>3) Seleccione los tipos de columna para la importación</step3>
+    <step1e>Seleccione la carpeta de origen de los contactos</step1e>
+    <step2e>Seleccione tipo de exportación</step2e>
+    <step_date>Seleccione formato de fecha</step_date>
+    <default_date>Predeterminado</default_date>
+    <charset>Conjunto de caracteres</charset>
+    <skipfirst>Ignorar la primera línea del fichero CSV</skipfirst>
+    <email1>Email 1</email1>
+    <email2>Email 2</email2>
+    <email3>Email 3</email3>
+    <phone1>Teléfono 1</phone1>
+    <phone2>Teléfono 2</phone2>
+    <phone3>Teléfono 3</phone3>
+    <phone4>Teléfono 4</phone4>
+    <phone_type1>Tipo teléfono 1</phone_type1>
+    <phone_type2>Tipo teléfono 2</phone_type2>
+    <phone_type3>Tipo teléfono 3</phone_type3>
+    <phone_type4>Tipo teléfono 4</phone_type4>
+    <import_successful>La importación se ha completado correctamente</import_successful>
+    <import_unsuccessful>Importación fallida</import_unsuccessful>
+    <import_finished>Importación completada. %s elementos se han omitido debido a un error.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Auto</auto>
+    <load>Cargar</load>
+    <import>Importar</import>
+    <export>Exportar</export>
+    <unknown_ext>Extensión desconocida</unknown_ext>
+    <download_csv_file>Descargar fichero CSV con los elementos del calendario</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>Descargar</download_file>
+    <select_col>Seleccione algunas comlumnas para la importación</select_col>
+    <select_email>Seleccione al menos una columna de correo electrónico</select_email>
+    <gw_xml_file>XML con copia de seguridad de GroupWare</gw_xml_file>
+    <comma>CSV - Coma (,)</comma>
+    <semicolon>CSV - Punto y coma (;)</semicolon>
+    <colon>CSV - Dos puntos (:)</colon>
+    <sharing>Forzar el modo de uso compartido</sharing>
+    <import_info>Formatos de archivo admitidos para la subida</import_info>
+    <import_info_itm>CSV (separado por coma, dos puntos o punto y coma), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Licencia</license>
+    <licenses>Licencias</licenses>
+    <out>Outlook Sync</out>
+    <desk>Cliente de colaboración</desk>
+    <download>Descargar</download>
+    <key>Claves de activación producto (use Copiar y Pegar)</key>
+    <nokey>La clave de activación para esta aplicación no está disponible. Póngase en contacto con el administrador para obtener más detalles.</nokey>
+  </license>
+  <devices>
+    <device>Dispositivo</device>
+    <device_model>Modelo dispositivo</device_model>
+    <device_type>Tipo dispositivo</device_type>
+    <protocol>Protocolo</protocol>
+    <registered>Registrado</registered>
+    <lastsync>Última sincronización</lastsync>
+    <factory>Restablecer los valores de fábrica</factory>
+    <wipe>Remote Wipe</wipe>
+    <wiping>Remote Wipe en progreso</wiping>
+    <nowipe>Remote Wipe no soportado</nowipe>
+    <reset>Reset Wipe</reset>
+    <delete_confirmation>Eliminar el dispositivo de la lista provocará una resincronización de los datos en la próxima conexión (útil si el dispositivo dejó de actualizar). Si por el contrario desea borrar todos los datos de usuario/cuenta del dispositivo, vaya a las propiedades del dispositivo y haga clic en Remoto Wipe. &lt;br/&gt;&lt;br/&gt; ¿Está seguro que desea eliminar el/los dispositivo(s) de la lista?</delete_confirmation>
+    <wipe_confirmation>Remote Wipe eliminará todos los datos de usuario/cuenta del dispositivo (y tarjetas de almacenamiento) y se restablecerá la configuración de fábrica del dispositivo. El dispositivo debe tener una conexión a Internet.&lt;br/&gt; &lt;br/&gt; ¿Desea continuar?</wipe_confirmation>
+    <options>Opciones dispositivo</options>
+    <folders>Carpetas</folders>
+    <sync>Sincronización</sync>
+    <private_folders>Carpetas privadas</private_folders>
+    <special_folders>Carpetas especiales</special_folders>
+    <gw_folders>Carpetas GroupWare</gw_folders>
+    <mail_folders>Carpetas correo</mail_folders>
+    <archive>Archivo</archive>
+    <public>Carpetas públicas</public>
+    <shared>Carpetas compartidas</shared>
+    <past_mail>Elementos de correo pasados</past_mail>
+    <past_calendar>Eventos de calendario pasados</past_calendar>
+    <sync_tase>Sincronizar tareas como eventos de calendario</sync_tase>
+    <sync_note>Sincronizar notas como</sync_note>
+    <all_folders>Todas las carpetas</all_folders>
+    <all_folders_mail>Todo con GroupWare como correo electrónico</all_folders_mail>
+    <default_only>Sólo carpetas predeterminadas</default_only>
+    <sync_all>Todo</sync_all>
+    <one_day>Un día</one_day>
+    <three_days>Tres días</three_days>
+    <one_week>Una semana</one_week>
+    <two_weeks>Dos semanas</two_weeks>
+    <one_month>Un mes</one_month>
+    <three_months>Tres meses</three_months>
+    <six_months>Seis meses</six_months>
+    <inc_tasks>Sólo tareas incompletas</inc_tasks>
+    <new_cfolders>Nueva carpeta de calendario</new_cfolders>
+    <merge_taks>Combinar en calendario predeterminado</merge_taks>
+    <events>Eventos</events>
+    <tasks>Tareas</tasks>
+    <inotes>Tareas y Notas (aplicación Android)</inotes>
+    <new_folders>Nueva carpeta</new_folders>
+    <merge_default>Combinar en carpeta predeterminada</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Panel carpeta</leftpanel>
+    <rightpanel>Panel WebChat</rightpanel>
+    <share>Compartir</share>
+    <new_document>Crear documento</new_document>
+    <new_message>Nuevo desde plantilla</new_message>
+    <devices>Dispositivos móviles</devices>
+    <vcard>Mis datos</vcard>
+    <basic>Cambiar a interfaz tablet</basic>
+    <old_client>Cambiar a interfaz antigua</old_client>
+    <search>Buscar</search>
+    <filter>Filtro</filter>
+    <new>Nuevo</new>
+    <print>Imprimir</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Configuración</settings>
+    <accounts>Cuentas</accounts>
+    <logout>Cerrar sesión</logout>
+    <logout_title>Ctrl+Clic para cerrar sesión</logout_title>
+    <update>Recibir nuevos</update>
+    <compose>Componer</compose>
+    <new_contact>Contacto</new_contact>
+    <new_template>Plantilla mensaje</new_template>
+    <new_distrib_list>Lista de distribución</new_distrib_list>
+    <new_event>Cita</new_event>
+    <new_journal>Diario</new_journal>
+    <new_note>Nota</new_note>
+    <new_task>Tarea</new_task>
+    <new_file>Documento</new_file>
+    <new_upload>Subir archivo</new_upload>
+    <new_word>Documento Word</new_word>
+    <new_excel>Hoja de cálculo Excel</new_excel>
+    <new_ppoint>Presentación PowerPoint</new_ppoint>
+    <new_text>Documento de texto</new_text>
+    <new_html>Documento HTML</new_html>
+    <new_folder>Carpeta</new_folder>
+    <reply_to_sender>Responder</reply_to_sender>
+    <reply_to_all>Responder a todos</reply_to_all>
+    <reply_to_sender_t>Responder con plantilla</reply_to_sender_t>
+    <reply_to_all_t>Responder a todos con plantilla</reply_to_all_t>
+    <forward>Reenviar</forward>
+    <delete>Eliminar</delete>
+    <empty_folder>Vaciar carpeta</empty_folder>
+    <day_view>Día</day_view>
+    <week_view>Semana</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Mes</month_view>
+    <dial>Marcar</dial>
+    <sms>Enviar SMS</sms>
+    <calls>Llamadas</calls>
+    <conference>WebMeeting</conference>
+    <contacts_list>Lista</contacts_list>
+    <events_list>Lista</events_list>
+    <address_card>Tarjetas de direcciones</address_card>
+    <tasks_lists>Lista</tasks_lists>
+    <tasks_detailed>Lista detallada</tasks_detailed>
+    <active_tasks>Tareas activas</active_tasks>
+    <journal_day_view>Día</journal_day_view>
+    <journal_week_view>Semana</journal_week_view>
+    <journal_month_view>Mes</journal_month_view>
+    <journal_list>Lista</journal_list>
+    <notes_list>Lista</notes_list>
+    <options>Opciones</options>
+    <admin_options>Opciones del administrador</admin_options>
+    <domain_options>Opciones de dominio</domain_options>
+    <tools>Herramientas</tools>
+    <deliver>Entregar</deliver>
+    <quarantine>Cuarentena</quarantine>
+    <black_list>Mover a lista negra</black_list>
+    <white_list>Mover a lista blanca</white_list>
+    <black_listed>En la lista negra</black_listed>
+    <white_listed>En la lista blanca</white_listed>
+    <rules>Reglas</rules>
+    <help>Ayuda</help>
+  </main_menu>
+  <short_days>
+    <monday>Lu</monday>
+    <tuesday>Ma</tuesday>
+    <wednesday>Mi</wednesday>
+    <thursday>Ju</thursday>
+    <friday>Vi</friday>
+    <saturday>Sa</saturday>
+    <sunday>Do</sunday>
+  </short_days>
+  <days>
+    <monday>Lunes</monday>
+    <tuesday>Martes</tuesday>
+    <wednesday>Miércoles</wednesday>
+    <thursday>Jueves</thursday>
+    <friday>Viernes</friday>
+    <saturday>Sábado</saturday>
+    <sunday>Domingo</sunday>
+  </days>
+  <months>
+    <january>Enero</january>
+    <february>Febrero</february>
+    <march>Marzo</march>
+    <april>Abril</april>
+    <may>Mayo</may>
+    <june>Junio</june>
+    <july>Julio</july>
+    <august>Agosto</august>
+    <september>Septiembre</september>
+    <october>Octubre</october>
+    <november>Noviembre</november>
+    <december>Diciembre</december>
+  </months>
+  <short_months>
+    <january>Ene</january>
+    <february>Feb</february>
+    <march>Mar</march>
+    <april>Abr</april>
+    <may>May</may>
+    <june>Jun</june>
+    <july>Jul</july>
+    <august>Ago</august>
+    <september>Sep</september>
+    <october>Oct</october>
+    <november>Nov</november>
+    <december>Dic</december>
+  </short_months>
+  <dates>
+    <every>Cada</every>
+    <secondly>segundo</secondly>
+    <minutely>minuto</minutely>
+    <hour>hora</hour>
+    <day>día</day>
+    <weeks>semanas</weeks>
+    <month>mes</month>
+    <year>month</year>
+    <the>el/la</the>
+    <first>primer(a)</first>
+    <last>último/a</last>
+    <second>segundo/a</second>
+    <third>tercer(a)</third>
+    <fourth>cuarto/a</fourth>
+    <firth>quinto/a</firth>
+    <postfix>º/ª</postfix>
+    <except>excepto</except>
+    <on>los</on>
+    <mondays>lunes</mondays>
+    <tuesdays>martes</tuesdays>
+    <wednesdays>miércoles</wednesdays>
+    <thursdays>jueves</thursdays>
+    <fridays>viernes</fridays>
+    <saturdays>sábados</saturdays>
+    <sundays>domingos</sundays>
+    <yearday>día del año</yearday>
+    <in>en</in>
+    <week>semana</week>
+    <week2>Semana</week2>
+    <at>a las</at>
+    <and>y</and>
+    <from>desde</from>
+    <until>hasta</until>
+    <times>repitiendo %s veces</times>
+  </dates>
+  <form_buttons>
+    <revision>Hacer revisión</revision>
+    <skip>Omitir</skip>
+    <refresh>Actualizar</refresh>
+    <retrieve>Recuperar</retrieve>
+    <inherit>Heredar</inherit>
+    <accept>Aceptar</accept>
+    <decline>Rechazar</decline>
+    <ok>Aceptar</ok>
+    <close>Cerrar</close>
+    <retry>Reintentar</retry>
+    <test>Probar</test>
+    <cancel>Cancelar</cancel>
+    <rename>Renombrar</rename>
+    <rewrite>Reescribir</rewrite>
+    <rewrite_all>Reescribir todo</rewrite_all>
+    <save>Guardar</save>
+    <dont>No hacer</dont>
+    <add>Añadir</add>
+    <edit>Editar</edit>
+    <find>Buscar</find>
+    <add_file>Añadir fichero</add_file>
+    <add_item>Añadir elemento</add_item>
+    <remove>Quitar</remove>
+    <address_book>Libreta de direcciones</address_book>
+    <search>Buscar</search>
+    <new_folder>Nueva carpeta</new_folder>
+    <map_it>Mostrar en mapa</map_it>
+    <sign_in>Iniciar sesión</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Parent Folder</step1>
+    <create_new_folder>Crear nueva carpeta</create_new_folder>
+    <create_error>Carpeta ya existe o no puede ser creada.</create_error>
+    <name>Nombre</name>
+    <type>Tipo</type>
+    <channel>Canal</channel>
+    <sharetype>Aplicar a</sharetype>
+    <all>Todas las carpetas</all>
+    <private>Carpetas privadas</private>
+    <selected>Carpetas seleccionadas</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Nombre de usuario</username>
+    <password>Contraseña</password>
+    <protocol>Protocolo</protocol>
+    <server>Servidor</server>
+    <server_proxy>Servidor/Proxy</server_proxy>
+    <port>Puerto</port>
+    <extension>Extensión</extension>
+    <description>Descripción</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Gestionar contenido</item_actions>
+    <recovery>Recuperar elementos eliminados</recovery>
+    <add_virtual>Crear nueva carpeta de búsqueda</add_virtual>
+    <edit_virtual>Editar carpeta de búsqueda</edit_virtual>
+    <add_favorites>Añadir a Favoritos</add_favorites>
+    <sharing>Compartir y permisos</sharing>
+    <change_channel>Gestionar canales RSS</change_channel>
+    <subscribe>Sincronizar</subscribe>
+    <subscribed>Sincronizado</subscribed>
+    <add_folder>Crear nueva carpeta</add_folder>
+    <add_shared_account>Añadir cuenta compartida</add_shared_account>
+    <delete_folder>Eliminar carpeta</delete_folder>
+    <unsubscribe_folder>Cancela suscripción de carpeta</unsubscribe_folder>
+    <move_folder>Mover carpeta</move_folder>
+    <move_folder_into>Mover carpeta a</move_folder_into>
+    <rename_folder>Renombrar carpeta</rename_folder>
+    <remove_account>Quitar cuenta</remove_account>
+    <sent_folder>Seleccionar carpeta Enviados</sent_folder>
+    <select_folder>Seleccionar carpeta</select_folder>
+    <mark_all_as_read>Marcar como leído</mark_all_as_read>
+    <default>Establecer como predeterminado</default>
+    <export>Exportar carpeta</export>
+    <color>Color</color>
+    <move_default>¿Seguro que desea mover la carpeta predeterminada?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>Todos</all>
+    <pdf>PDF</pdf>
+    <play_sound>Reproducir</play_sound>
+    <attachments>Adjuntos</attachments>
+    <upload>Subir</upload>
+    <download>Descargar</download>
+    <download_all>Descargar todos</download_all>
+    <open_window>Abrir en ventana</open_window>
+    <import>Importar a WebClient</import>
+    <import_error>Tipo de elemento no soportado</import_error>
+    <remove>Quitar</remove>
+    <remove_all>Quitar todos</remove_all>
+    <add_item>Añadir elemento</add_item>
+    <link_dropbox>Enlace a Dropbox</link_dropbox>
+    <view>Ver</view>
+    <save>Descargar</save>
+    <save_all>Descargar todos</save_all>
+    <save_to_folder>Guardar en carpeta</save_to_folder>
+    <show_images>Vista previa de imágenes</show_images>
+    <show_image>Vista previa imagen</show_image>
+    <show_text>Mensaje de texto sin formato</show_text>
+    <show_headers>Todos los encabezados</show_headers>
+    <show_cert>Mostrar certificado</show_cert>
+    <append_cert>Anexar a contacto</append_cert>
+    <dropzone>&lt; Soltar archivo aquí &gt;</dropzone>
+    <drop_holder>Arrastrar y soltar archivos aquí...</drop_holder>
+    <quick_add>Carga rápida...</quick_add>
+    <quick_contact>Soltar fichero vCard aquí...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Error Dropbox</erroralert>
+    <missingkey>Dropbox no está configurado. El administrador debe configurar la integración de Dropbox primero.</missingkey>
+    <unavailable>Dropbox no está disponible temporalmente, y se desactivará hasta el próximo inicio de sesión.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Convertir a HTML</convert_item>
+    <source>Fuente</source>
+    <send_notify>Notificar de cambios</send_notify>
+    <recover>Recuperar</recover>
+    <new>Nuevo</new>
+    <delivery_report>Informe de entrega</delivery_report>
+    <properties>Propiedades</properties>
+    <doc_management>Propiedades documento</doc_management>
+    <open>Abrir</open>
+    <open_pdf>Abrir como PDF</open_pdf>
+    <open_window>Abrir en ventana</open_window>
+    <edit>Editar</edit>
+    <reply_to_sender>Responder</reply_to_sender>
+    <reply_to_all>Responder a todos</reply_to_all>
+    <forward>Reenviar</forward>
+    <forward_as_message>Reenviar como adjunto</forward_as_message>
+    <redirect>Redirigir</redirect>
+    <mark_as_read>Marcar como leído</mark_as_read>
+    <mark_as_unread>Marcar como no leído</mark_as_unread>
+    <move_mail_to>Mover a carpeta</move_mail_to>
+    <copy_mail_to>Copiar a carpeta</copy_mail_to>
+    <delete>Eliminar</delete>
+    <delete_selected>Eliminar seleccionados</delete_selected>
+    <open_item>Abrir</open_item>
+    <move_item_to>Mover a carpeta</move_item_to>
+    <copy_item_to>Copiar a carpeta</copy_item_to>
+    <new_distriblist>Nueva lista de distribución</new_distriblist>
+    <save_as>Guardar como...</save_as>
+    <html>HTML</html>
+    <text>Texto</text>
+    <eml>EML</eml>
+    <download_vcalendar>Copiar a carpeta</download_vcalendar>
+    <download_vcard>Guardar como vCard</download_vcard>
+    <download_vnote>Guardar como vCard</download_vnote>
+    <download_file>Descargar</download_file>
+    <open_office>Abrir en Office</open_office>
+    <deliver>Entregar</deliver>
+    <black_list>Lista negra</black_list>
+    <white_list>Lista blanca</white_list>
+    <blacklist_sender>Añadir remitente a la lista negra</blacklist_sender>
+    <blacklist_domain>Añadir dominio entero a la lista negra</blacklist_domain>
+    <whitelist_sender>Añadir remitente a la lista blanca</whitelist_sender>
+    <whitelist_domain>Añadir dominio entero a la lista blanca</whitelist_domain>
+    <send_as_email>Enviar como email</send_as_email>
+    <send_email_to>Enviar mensaje</send_email_to>
+    <add_to_contacts>Crear nuevo contacto</add_to_contacts>
+    <add_to_exist_contacts>Añadir a contacto existente</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Añadir a carpeta de contactos</add_contact>
+    <add_im>Añadir a la lista de contactos WebChat</add_im>
+    <add_to_im>Añadir a WebChat</add_to_im>
+    <add>Añadir...</add>
+    <manage_sender>Gestionar remitente...</manage_sender>
+    <invite_appointment>Invitar a cita</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Añadir certificado a contacto</cert_to_contact>
+    <contacts>Contactos</contacts>
+    <mandatorydetails>Please fill in your contact details</mandatorydetails>
+    <im>Lista WebChat</im>
+    <skip_delete>No preguntarme de nuevo</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>Sin color</none>
+    <color>Color</color>
+    <white_flag>Bandera blanca</white_flag>
+    <red_flag>Bandera roja</red_flag>
+    <blue_flag>Bandera azul</blue_flag>
+    <yellow_flag>Bandera amarilla</yellow_flag>
+    <green_flag>Bandera verde</green_flag>
+    <orange_flag>Bandera naranja</orange_flag>
+    <purple_flag>Bandera morada</purple_flag>
+    <flag_complete>Marcar como completado</flag_complete>
+    <clear_flag>Quitar bandera</clear_flag>
+    <important>Importante</important>
+    <business>Negocio</business>
+    <personal>Personal</personal>
+    <vacation>Vacaciones</vacation>
+    <must_attend>Tiene que atender</must_attend>
+    <travel_required>Requiere desplazamiento</travel_required>
+    <needs_preparation>Requiere preparación</needs_preparation>
+    <birthday>Cumpleaños</birthday>
+    <anniversary>Aniversario</anniversary>
+    <phone_call>Llamada por teléfono</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Añadir nueva cuenta email</add_account>
+    <delete_account>Eliminar cuenta</delete_account>
+    <edit_account>Editar cuneta</edit_account>
+    <validating>Validando cuenta...</validating>
+    <invalid>La cuenta no es válida</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Recibidos</inbox>
+    <drafts>Borradores</drafts>
+    <sent>Enviados</sent>
+    <trash>Papelera</trash>
+    <spam>Spam</spam>
+    <templates>Plantillas</templates>
+    <quarantine>Cuarentena</quarantine>
+    <spam_queue>Filtros</spam_queue>
+    <spam_queue-whitelist>Lista blanca</spam_queue-whitelist>
+    <spam_queue-blacklist>Lista negra</spam_queue-blacklist>
+    <virtual-folders>Carpetas de búsqueda</virtual-folders>
+    <gw-trash>Recuperación de elementos</gw-trash>
+    <calendars>Varios calendarios</calendars>
+  </common_folders>
+  <folders>
+    <mails>Correo</mails>
+    <contacts>Contactos</contacts>
+    <events>Calendario</events>
+    <tasks>Tareas</tasks>
+    <notes>Notas</notes>
+    <journal>Diario</journal>
+    <files>Documentos</files>
+    <home>Inicio</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>Correo</mail>
+    <contact>Contacto</contact>
+    <event>Calendario</event>
+    <journal>Diario</journal>
+    <note>Nota</note>
+    <task>Tarea</task>
+    <file>Documento</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>No puede mover esta carpeta</cantmove>
+    <cantrename>No puede cambiar el nombre de esta carpeta</cantrename>
+    <cantdelete>No puede eliminar esta carpeta</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Adjuntos</attachments>
+    <to>A</to>
+    <subject>Asunto</subject>
+    <nosubject>Sin asunto</nosubject>
+    <cc>Cc</cc>
+    <bcc>Cco</bcc>
+    <body>Cuerpo</body>
+    <from>De</from>
+    <date>Fecha</date>
+    <size>Tamaño</size>
+    <type>Tipo</type>
+    <itmclassifyas>Nombre contacto</itmclassifyas>
+    <phone>Teléfono</phone>
+    <itmcompany>Empresa</itmcompany>
+    <itmdepartment>Departamento</itmdepartment>
+    <contact_email>Email</contact_email>
+    <expires>Expira el</expires>
+    <itmcategory>Categoría</itmcategory>
+    <evntitle>Título</evntitle>
+    <itmtitle>Título</itmtitle>
+    <itmoriginalfolder>Carpeta original</itmoriginalfolder>
+    <itm_deleted>Eliminado</itm_deleted>
+    <item_moved>Eliminado</item_moved>
+    <evnlocation>Ubicación</evnlocation>
+    <upcoming>Próximamente</upcoming>
+    <event_startdate>Inicio</event_startdate>
+    <event_enddate>Fin</event_enddate>
+    <evntype>Categoría</evntype>
+    <evncontact>Contacto</evncontact>
+    <evnstatus>Estado</evnstatus>
+    <task_startdate>Fecha inicio</task_startdate>
+    <task_enddate>Fecha vencimiento</task_enddate>
+    <sndemail>Remitente</sndemail>
+    <sndowner>Dueño</sndowner>
+    <snddomain>Dominio</snddomain>
+    <sndsubject>Asunto</sndsubject>
+    <revised_by>Revisado por</revised_by>
+    <comment>Comentario</comment>
+    <qdate>Fecha</qdate>
+    <name>Nombre</name>
+    <evnfilename>Nombre de fichero</evnfilename>
+    <evnnote>Descripción</evnnote>
+    <evn_modified>Modificado</evn_modified>
+    <evnfilesize>Tamaño</evnfilesize>
+    <lctphnwork1>Teléfono trabajo</lctphnwork1>
+    <lctphnfaxwork>Fax trabajo</lctphnfaxwork>
+    <lctphnhome1>Teléfono casa</lctphnhome1>
+    <lctphnmobile>Teléfono móvil</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>URL pública</public>
+    <share>Compartir enlace</share>
+    <ticket>Otro</ticket>
+    <revisions>Revisiones</revisions>
+    <revert>Revertir</revert>
+    <edit_comment>Editar comentario</edit_comment>
+    <new_revision>Nueva revisión</new_revision>
+  </item>
+  <event_view>
+    <week_label>Semana</week_label>
+    <notitle>Sin título</notitle>
+    <private>No revelado</private>
+    <newappointment>Nueva cita</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Leído: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Su mensaje ha sido leído.&#13;&#10;&#13;&#10;Los detalles del mensaje siguen:&#13;&#10;&#13;&#10;De: %FROM%&#13;&#10;A: %TO%&#13;&#10;Fecha: %DATE%&#13;&#10;Asunto: %SUBJECT%</reading_confirmation>
+    <reply_message>-----Mensaje original-----</reply_message>
+    <reply_message_html>-----Mensaje original-----</reply_message_html>
+    <from>De:</from>
+    <to>A:</to>
+    <cc>Cc:</cc>
+    <date>Fecha:</date>
+    <subject>Asunto:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>Sr.</mr>
+    <mrs>Sra.</mrs>
+    <miss>Señora</miss>
+    <ms>Sra.</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Jr.</jr>
+    <sr>Sr.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Nombre para mostrar</displayname>
+    <avatar>Imagen</avatar>
+    <contact>Contacto</contact>
+    <general>General</general>
+    <profile>Perfil</profile>
+    <personal>Personal</personal>
+    <business>Negocio</business>
+    <other_l>Otro</other_l>
+    <other>Otro</other>
+    <contact_name>Mostrar como</contact_name>
+    <sort_as>Ordenar como</sort_as>
+    <first_name>Nombre</first_name>
+    <middle_name>Segundo nombre</middle_name>
+    <last_name>Apellidos</last_name>
+    <nick_name>Apodo</nick_name>
+    <full_name>Nombre completo</full_name>
+    <title>Título</title>
+    <suffix>Sufijo</suffix>
+    <category>Categoría</category>
+    <email_address>Dirección email</email_address>
+    <birthdate>Fecha nacimiento</birthdate>
+    <anniversary>Aniversario</anniversary>
+    <spouse>Cónyuge</spouse>
+    <gender>Sexo</gender>
+    <company>Empresa</company>
+    <job>Ocupación</job>
+    <profession>Profesión</profession>
+    <department>Departamento</department>
+    <assistant>Asistente</assistant>
+    <manager>Gerente</manager>
+    <office_location>Ubicación oficina</office_location>
+    <email1>Email 1</email1>
+    <email2>Email 2</email2>
+    <email3>Email 3</email3>
+    <im>IM</im>
+    <phone>Teléfono</phone>
+    <phones>Teléfono(s)</phones>
+    <male>Varón</male>
+    <female>Mujer</female>
+    <street>Calle</street>
+    <city>Ciudad</city>
+    <zip>Código postal</zip>
+    <state>Estado/Provincia</state>
+    <country>País</country>
+    <home_address>Dirección particular</home_address>
+    <business_address>Dirección comercial</business_address>
+    <other_address>Otra dirección</other_address>
+    <homepage>Sitio web</homepage>
+    <calendar_url>Dirección libre/ocupado</calendar_url>
+    <share_type>Tipo de recurso compartido</share_type>
+    <address>Dirección</address>
+    <web>Web</web>
+    <notes>Notas</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Lista de distribución</distrib_list>
+    <general>General</general>
+    <members>Miembros</members>
+    <title>Título</title>
+    <category>Categoría</category>
+    <add_title>Añadir</add_title>
+    <edit_title>Editar</edit_title>
+    <name>Nombre</name>
+    <email>Email</email>
+  </distrib_list>
+  <time_interval>
+    <from>De</from>
+    <to>A</to>
+    <duration>Duración</duration>
+    <all_day_event>Evento día completo</all_day_event>
+    <days>Días</days>
+    <change_default>Cambiar zona horaria predeterminada</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>Esto es un elemento que se repite</title_edit>
+    <text_edit>¿Cambiar sólo éste, todos en la serie, o éste y todos los siguientes?</text_edit>
+    <title_delete>Este es un elemento que se repite</title_delete>
+    <text_edit_2>¿Cambiar sólo éste o todos en la serie?</text_edit_2>
+    <text_delete>¿Quitar sólo éste o todos en la serie?</text_delete>
+    <btn_this>Sólo éste</btn_this>
+    <btn_all>Todos en la serie</btn_all>
+    <btn_allfromnow>Todos los siguientes</btn_allfromnow>
+    <btn_cancel>Cancelar</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Razón de rechazo</reason>
+    <event>Cita</event>
+    <general>General</general>
+    <repeating>Repitiendo</repeating>
+    <schedule>Horario</schedule>
+    <reminders>Recordatorios</reminders>
+    <onlinemeeting>WebMeeting</onlinemeeting>
+    <startmeeting>Empezar ahora</startmeeting>
+    <joinmeeting>Unirse ahora</joinmeeting>
+    <title>Título</title>
+    <location>Ubicación</location>
+    <category>Categoría</category>
+    <notes>Notas</notes>
+    <timezone>Huso horario</timezone>
+    <show_as>Mostrar como</show_as>
+    <free>Libre</free>
+    <busy>Ocupado</busy>
+    <tentative>Provisional</tentative>
+    <out_of_office>Fuera de oficina</out_of_office>
+    <unknown>Sin información</unknown>
+    <label>Etiqueta</label>
+    <meeting_hint>Crear y unirse a reuniones, compartir su pantalla</meeting_hint>
+    <high>Alto:</high>
+    <low>Bajo:</low>
+  </event>
+  <file>
+    <file>Documento</file>
+    <expire>Expira a las %s</expire>
+    <name>Nombre de archivo</name>
+    <lock>Bloquear</lock>
+    <unlock>Desbloquear</unlock>
+    <locked>Bloqueado</locked>
+    <unlocked>Desbloqueado</unlocked>
+    <locked_by>Documento bloqueado por %s</locked_by>
+    <blank_doc>Documento</blank_doc>
+    <description>Descripción</description>
+    <new_doc>Documento vacío</new_doc>
+    <converting>Conversión de documentos en curso.</converting>
+  </file>
+  <note>
+    <note>Nota</note>
+    <category>Categoría</category>
+    <title>Título</title>
+    <general>General</general>
+  </note>
+  <task>
+    <task>Tarea</task>
+    <attendees>Asistentes</attendees>
+    <status>Estado</status>
+    <complete>Completo</complete>
+    <repeating>Repitiendo</repeating>
+    <reminders>Recordatorios</reminders>
+    <general>General</general>
+    <title>Título</title>
+    <start_date>Fecha inicio</start_date>
+    <due_date>Fecha vencimiento</due_date>
+    <category>Categoría</category>
+    <not_started>No iniciado</not_started>
+    <in_progress>En curso</in_progress>
+    <completed>Completado</completed>
+    <deferred>Diferido</deferred>
+    <waiting>Esperando a otra persona</waiting>
+    <done>Hecho</done>
+  </task>
+  <blackwhite>
+    <black>Lista negra</black>
+    <white>Lista blanca</white>
+    <email>Email</email>
+  </blackwhite>
+  <compose>
+    <template>Plantilla</template>
+    <newmail>Mensaje email</newmail>
+    <send>Enviar</send>
+    <sendinfo>Enviar mensaje</sendinfo>
+    <save>Guardar</save>
+    <saveinfo>Guardar mensaje en Borradores</saveinfo>
+    <options>Opciones</options>
+    <advanced>Opciones avanzadas</advanced>
+    <html>HTML</html>
+    <text>Texto</text>
+    <sms>SMS</sms>
+    <compose_sms>Componer SMS</compose_sms>
+    <sms_preview>Vista previa SMS</sms_preview>
+    <sms_info>%s caracteres en %s mensajes</sms_info>
+    <smartattach>SmartAttach</smartattach>
+    <smartattachinfo>Adjuntos se guardarán en sus %s y reemplazados por enlaces de descarga en el cuerpo del mensaje.</smartattachinfo>
+    <readconfirmationinfo>Recibir confirmación de que destinatario ha leído este mensaje</readconfirmationinfo>
+    <show_all>Mostrar todas las entradas</show_all>
+    <signinfo>Firmar el mensaje digitalmente</signinfo>
+    <encryptinfo>Encriptar el mensaje</encryptinfo>
+    <priorityinfo>Establecer prioridad del mensaje</priorityinfo>
+    <subject_empty>Mensaje no tiene asunto.&lt;br&gt;Enviar de todas formas?</subject_empty>
+    <rcp_empty>Añada a un destinatario para enviarle correo.</rcp_empty>
+    <optionstitle>Opciones de mensaje</optionstitle>
+    <encrypt>Encriptar el mensaje</encrypt>
+    <sign>Firmar el mensaje digitalmente</sign>
+    <nosign>No se encontró ningún certificado para la firma.&lt;br&gt;Enviar el mensaje sin firmar?</nosign>
+    <delivery_report>Mostrar informe de entrega</delivery_report>
+    <reply_to>Responder A</reply_to>
+    <upload_file>Adjuntar desde disco local</upload_file>
+    <upload_item>Adjuntar desde WebClient</upload_item>
+  </compose>
+  <sharing>
+    <public>Público</public>
+    <private>Privado</private>
+    <anonymous>Anónimo/Todos</anonymous>
+    <custom>Personalizado</custom>
+    <inherited>Heredado</inherited>
+    <none>Ninguno</none>
+    <enter_address>Introduzca la dirección</enter_address>
+    <permissions>Permisos</permissions>
+    <user>Usuarios</user>
+    <items>Elementos</items>
+    <folder>Carpeta</folder>
+    <administration>Administración</administration>
+  </sharing>
+  <time>
+    <hours>Horas</hours>
+    <minutes>Minutos</minutes>
+    <days>Días</days>
+    <oneday>día</oneday>
+    <moredays>días</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Seleccionar contactos</select_emails>
+    <add>Añadir</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Buscar</placeholder>
+    <tags>Etiquetas</tags>
+    <used>Usado</used>
+    <hint>Usado por %s elemento(s)</hint>
+    <selected>Seleccionado</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Casa 1</lctphnhome1>
+    <lctphnhome2>Casa 2</lctphnhome2>
+    <lctphnassistant>Asistente</lctphnassistant>
+    <lctphnwork1>Trabajo 1</lctphnwork1>
+    <lctphnwork2>Trabajo 2</lctphnwork2>
+    <lctphnfaxhome>Fax casa</lctphnfaxhome>
+    <lctphnfaxwork>Fax trabajo</lctphnfaxwork>
+    <lctphncallback>Devolución de llamada</lctphncallback>
+    <lctphncompany>Empresa</lctphncompany>
+    <lctphncar>Coche</lctphncar>
+    <lctphnisdn>ISDN/RDSI</lctphnisdn>
+    <lctphnmobile>Móvil</lctphnmobile>
+    <lctphnother>Otro</lctphnother>
+    <lctphnotherfax>Otro fax</lctphnotherfax>
+    <lctphnpager>Buscapersonas</lctphnpager>
+    <lctphnprimary>Primario</lctphnprimary>
+    <lctphnradio>Radio</lctphnradio>
+    <lctphntelex>Telex</lctphntelex>
+    <lctphnhearing>Audífono</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>Día</day>
+    <week>Semana el</week>
+    <week_of_month>Semana del mes</week_of_month>
+    <month_of_year>Mes del año</month_of_year>
+    <month>Mes</month>
+    <year>Año</year>
+    <year_s>Año(s)</year_s>
+    <repeats>Repetir cada:</repeats>
+    <not_repeats>No repetir</not_repeats>
+    <end_date>Fecha de finalización:</end_date>
+    <no_end>Sin fecha de finalización</no_end>
+    <until>Hasta</until>
+    <count>Veces</count>
+    <daily>Diario</daily>
+    <weekly>Semanal</weekly>
+    <monthly>Mensual</monthly>
+    <yearly>Anual</yearly>
+    <every>Cada</every>
+    <the>El/la</the>
+    <of>de</of>
+    <recur_every>Repetir cada</recur_every>
+    <weeks_on>semana(s) en:</weeks_on>
+    <of_every>de cada</of_every>
+    <months>mese(s)</months>
+    <days>día(s)</days>
+    <day_list>semana</day_list>
+    <every_weekday>Cada laboral de la semana</every_weekday>
+    <first>primer(a)</first>
+    <second>segundo/a</second>
+    <third>tercer(a)</third>
+    <fourth>cuarto/a</fourth>
+    <last>último/a</last>
+    <weekday>semana laboral</weekday>
+    <weekend_day>fin de semana</weekend_day>
+  </repeating>
+  <reminder>
+    <none>Ninguno</none>
+    <email>Email</email>
+    <popup>Popup</popup>
+    <address>Dirección</address>
+    <remind1>Recordarme</remind1>
+    <remind2>antes</remind2>
+    <is_reminder>Enviar recordatorio</is_reminder>
+    <no_reminder>No enviar recordatorio</no_reminder>
+    <type>Tipo</type>
+    <snooze>Posponer</snooze>
+    <meeting>Iniciar ahora</meeting>
+    <dismiss>Descartar</dismiss>
+    <reminder>Recordatorio</reminder>
+  </reminder>
+  <journal>
+    <journal>Diario</journal>
+    <title>Título</title>
+    <type>Tipo</type>
+    <company>Empresa</company>
+    <conversation>Conversación</conversation>
+    <document>Documento</document>
+    <e-mail_message>Mensaje email</e-mail_message>
+    <fax>Fax</fax>
+    <letter>Carta</letter>
+    <meeting>Reunión</meeting>
+    <meeting_cancellation>Cancelación de reunión</meeting_cancellation>
+    <meeting_request>Solicitud de reunión</meeting_request>
+    <meeting_response>Respuesta de reunión</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Nota</note>
+    <phone_call>Llamada por teléfono</phone_call>
+    <remote_session>Sesión remota</remote_session>
+    <task>Tarea</task>
+    <task_request>Solicitud de tarea</task_request>
+    <task_response>Respuesta de tarea</task_response>
+  </journal>
+  <certificate>
+    <purposes>Este certificado está pensado para el/los siguiente(s) objetivo(s)</purposes>
+    <ssl>Demuestra su identidad a un equipo remoto</ssl>
+    <smime>Protege los mensajes de correo electrónico</smime>
+    <serial>Nº serie</serial>
+    <view>Ver</view>
+    <certificate>Certificado</certificate>
+    <invalid>Certificado o contraseña no válidos</invalid>
+    <passphrase>Contraseña</passphrase>
+    <issuedto>Emitido para</issuedto>
+    <issuedby>Emitido por</issuedby>
+    <email>Email</email>
+    <validity>Validez</validity>
+    <badtype>Falta parte privada</badtype>
+    <missing>Ningún certificado encontrado</missing>
+    <invaliditem>No se puede anexar certificado</invaliditem>
+    <assigned>Certificado fue añadido con éxito</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Carpeta no existe: &quot;%s&quot;</folder_not_exist>
+    <accepted>Evento fue aceptado</accepted>
+    <unsure>Event was replied tentatively</unsure>
+    <declined>Evento fue rechazado</declined>
+    <proposed>Se propuso nuevo tiempo</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Obligar a los usuarios introducir información de contacto</force_enter_user_info>
+    <disable_wipe>Deshabilitar borrado remoto</disable_wipe>
+    <documents>Documentos</documents>
+    <aliases>Alias</aliases>
+    <disable_mailformat>Disable HTML/plain switch in compose window</disable_mailformat>
+    <disable_altmail>Ocultar email alternativo</disable_altmail>
+    <rcpt_suggest>Autocompletado</rcpt_suggest>
+    <rcpt_cache>Vaciar lista</rcpt_cache>
+    <keep_search>Mantenga término de búsqueda al cambiar de carpeta</keep_search>
+    <smartfolder>Carpeta SmartAttach</smartfolder>
+    <always_show_rcp>Siempre mostrar líneas de dirección</always_show_rcp>
+    <login_screen>Pantalla de inicio de sesión</login_screen>
+    <exclude_gal>Excluir GAL de autosugerencia</exclude_gal>
+    <password_policy>Directiva de contraseñas</password_policy>
+    <notifications>Notificaciones de escritorio</notifications>
+    <nofocus>Auto (solo fondo)</nofocus>
+    <autorevision_mode>Habilitar revisiones automáticas de documentos</autorevision_mode>
+    <disable_support>Deshabilitar enlace de soporte en inicio de sesión</disable_support>
+    <check_subject>Comprobar por asunto vacío</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Ocultar compartir para cuenta Anónima</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Mostrar carpetas favoritas</show_favorites>
+    <layout>Configuración global</layout>
+    <signature>Firma</signature>
+    <signature_separator>Añadir separador de firma estándar &quot;--&quot;</signature_separator>
+    <signature_to_top>Añadir firma al principio del mensaje</signature_to_top>
+    <groups>Grupos</groups>
+    <group>Grupo</group>
+    <trash_folder>Carpeta Papelera</trash_folder>
+    <sent_folder>Carpeta Enviados</sent_folder>
+    <groupsend>Guardar mensajes enviados en carpeta pública para este grupo</groupsend>
+    <ftime>Tiempo flotante</ftime>
+    <sso_only>Solo permitir inicio de sesión SSO</sso_only>
+    <activity_monitor>Cerrar sesión después de inactividad (minutos)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 horas</time_12>
+    <time_24>24 horas</time_24>
+    <logout_url>URL cierre de sesión</logout_url>
+    <disable_attach_item>Deshabilitar Adjuntar desde WebClient</disable_attach_item>
+    <disable_virtual>Deshabilitar carpetas de búsqueda</disable_virtual>
+    <disable_interfaces>Deshabilitar selección de interfaz en el inicio de sesión</disable_interfaces>
+    <disable_languages>Deshabilitar selección de idioma en el inicio de sesión</disable_languages>
+    <confirm_exit>Confirmación de salida</confirm_exit>
+    <compose>Componiendo mensaje</compose>
+    <never>Nunca</never>
+    <always>Siempre</always>
+    <homepage>Página de inicio</homepage>
+    <banner_enable>Habilitar frame para banner</banner_enable>
+    <application_enable>Habilitar banner de descarga de aplicaciones</application_enable>
+    <banner_url>URL banner</banner_url>
+    <banner_height>Altura banner</banner_height>
+    <count_subject>Prefijos de agrupación de asuntos (e.g. Re[4], Fw[2])</count_subject>
+    <reply_prefix>Usar prefijo en respuestas (&gt;)</reply_prefix>
+    <collate>Usa colación en las sentencias SQL</collate>
+    <init_page>Página inicial</init_page>
+    <remember_folder>Recordar última carpeta</remember_folder>
+    <show_inbox>Recibidos</show_inbox>
+    <show_home>Página de inicio</show_home>
+    <clear_trash>Eliminar de Papelera mensajes de correo electrónico de más de (días)</clear_trash>
+    <clear_gwtrash>Eliminar elementos de Papelera de más de (días)</clear_gwtrash>
+    <alias>Alias</alias>
+    <subscribed_holidays>Festivos suscritos</subscribed_holidays>
+    <holidays>Festivos</holidays>
+    <weather>El tiempo</weather>
+    <temperature>Temperatura</temperature>
+    <c>Celsius (°C)</c>
+    <f>Fahrenheit (°F)</f>
+    <city>Ciudad</city>
+    <disable_folder_types>Deshabilitar tipos de carpeta seleccionados</disable_folder_types>
+    <antispam>Anti-Spam</antispam>
+    <spam_mode>Modo carpeta spam</spam_mode>
+    <reports_mode>Modo de informes spam</reports_mode>
+    <quarantine>Cuarentena</quarantine>
+    <last_time>Última vez</last_time>
+    <last_ip>Última IP</last_ip>
+    <current_time>Hora actual</current_time>
+    <current_ip>IP actual</current_ip>
+    <default>Predeterminado</default>
+    <use_spam>Utilizar carpeta spam</use_spam>
+    <not_spam>No utilizar carpeta spam</not_spam>
+    <disabled>Deshabilitado</disabled>
+    <all>Todos</all>
+    <full>Completo</full>
+    <new_items>Nuevos elementos</new_items>
+    <smtp_relay>Rebotar mensajes para destinatarios fallidos</smtp_relay>
+    <restrictions>Restricciones</restrictions>
+    <hide_sortstring>Ocultar cadena de ordenación</hide_sortstring>
+    <disable_aliases>Deshabilitar alias</disable_aliases>
+    <disable_redirect>Deshabilitar redirección</disable_redirect>
+    <disable_other_accounts>Deshabilitar otras cuentas</disable_other_accounts>
+    <disable_edit_vcard>Deshabilitar edición de Mis detalles</disable_edit_vcard>
+    <disable_edit_account>Deshabilitar modificación de Mi Cuenta</disable_edit_account>
+    <disable_change_password>Deshabilitar cambio de contraseña</disable_change_password>
+    <disable_antispam_control>Deshabilitar control anti-spam</disable_antispam_control>
+    <disable_licenses>Deshabilitar pestaña de licencias</disable_licenses>
+    <disable_login_help>Deshabilitar ayuda en inicio de sesión</disable_login_help>
+    <disable_login_banners>Deshabilitar banners en inicio de sesión</disable_login_banners>
+    <disable_signup>Deshabilitar Alta</disable_signup>
+    <disable_sip>Deshabilitar VoIP</disable_sip>
+    <disable_call_forwarding>Desactivar desvío de llamadas</disable_call_forwarding>
+    <disable_external_sip>Deshabilitar VoIP externo</disable_external_sip>
+    <disable_export>Deshbilitar exportación GroupWare</disable_export>
+    <disable_smart>Deshabilitar SmartAttach</disable_smart>
+    <disable_dropbox>Deshabilitar Dropbox</disable_dropbox>
+    <disable_im>Deshabilitar WebChat</disable_im>
+    <disable_sms>Deshabilitar SMS</disable_sms>
+    <disable_remember_pulldown>Deshabilitar &quot;Recordarme&quot;</disable_remember_pulldown>
+    <disable_autofill>Deshabilitar Autorrelleno de nombre de usuario/contraseña</disable_autofill>
+    <disable_rules>Deshabilitar reglas</disable_rules>
+    <disable_gmaps>Deshabilitar Google Maps</disable_gmaps>
+    <disable_forwarder>Ocultar pestaña de reenvío</disable_forwarder>
+    <disable_keep_emails>Hide &quot;Keep emails in mailbox&quot; in Forwarder</disable_keep_emails>
+    <disable_autoresponder>Ocultar pestaña de respuesta automática</disable_autoresponder>
+    <share_mode>Modo de recursos compartidos</share_mode>
+    <share_p>Privado (no compartir datos)</share_p>
+    <share_pf>Público (datos se comparten con todo el mundo)</share_pf>
+    <share_f>Amigos (datos solo se comparten con amigos)</share_f>
+    <daily_event_report>Enviar informe diario de los eventos por email</daily_event_report>
+    <reminder_notification>Enviar recordatorio por email</reminder_notification>
+    <reminder_email>Dirección email para recordatorio y agenda</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Clave de aplicación</dropbox_app_key>
+    <dropbox_instructions>For Dropbox integration, login at www.dropbox.com, go to the developer section and create an application key. You will be asked to enter a short description and the hostname or IP for WebClient access.</dropbox_instructions>
+    <server>Servidor</server>
+    <login_with_email>Iniciar sesión con dirección email</login_with_email>
+    <server_logs>Nivel de registro</server_logs>
+    <server_logs0>Ninguno</server_logs0>
+    <server_logs2>Sumario</server_logs2>
+    <server_logs3>Detallado</server_logs3>
+    <server_logs4>Extendido</server_logs4>
+    <http_port>Puerto HTTP</http_port>
+    <imapserver>Servidor IMAP</imapserver>
+    <smtpserver>Servidor SMTP</smtpserver>
+    <xmppserver>Servidor XMPP</xmppserver>
+    <port>Puerto</port>
+    <pgtitle>Título de página</pgtitle>
+    <logo>Logotipo inicio de sesión</logo>
+    <login_style>Estilo inicio de sesión</login_style>
+    <login_client>Interfaz preferida</login_client>
+    <skin_style>Estilo skin</skin_style>
+    <interfaces>Interfaces disponibles</interfaces>
+    <spell_language>Corrector ortográfico</spell_language>
+    <delete_emptyfolder>Eliminar mensajes en acción Vaciar carpeta</delete_emptyfolder>
+    <show_images>Mostrar automáticamente imágenes incrustadas externas</show_images>
+    <show_images_spam>Aplicar también a carpeta Spam</show_images_spam>
+    <auto_show_images>Previsualizar automáticamente imagenes adjuntas</auto_show_images>
+    <sound_notify>Habilitar notificación por audio</sound_notify>
+    <domains_settings>Dominios</domains_settings>
+    <domain>Dominio</domain>
+    <edit_settings>Editar configuración del dominio</edit_settings>
+    <resetpass>Restablecimiento de contraseña</resetpass>
+    <resetmail>Correo electrónico</resetmail>
+    <resetenable>Habilitar restablecimiento de contraseña</resetenable>
+    <accounts>Cuentas</accounts>
+    <account>Cuenta</account>
+    <tools>Herramientas</tools>
+    <autoresponder>Respuesta automática</autoresponder>
+    <forwarder>Reenviar</forwarder>
+    <pcertificate>Certificados privados</pcertificate>
+    <certificate>Certificado</certificate>
+    <mail_settings>Correo</mail_settings>
+    <im_settings>WebChat</im_settings>
+    <sip_settings>WebPhone</sip_settings>
+    <sip_webrtc>Usar funciones nativas del navegador para los medios cuando sea posible</sip_webrtc>
+    <sip_start>Iniciar automáticamente WebPhone</sip_start>
+    <sip_internal>Integrar con su cuenta VoIP (SIP)</sip_internal>
+    <sip_external>Integrar con cuenta externa VoIP (SIP)</sip_external>
+    <sip_dial>Marcar a través de cuenta VoIP externa (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>Marcar a través de su cuenta VoIP (softphone/teléfono ya registrado)</sip_dial_internal>
+    <call_forwarding>Desvío de llamadas</call_forwarding>
+    <use_forwarding>Usar desvío de llamadas</use_forwarding>
+    <forward_to>Desviar llamada a</forward_to>
+    <forward_after>Desviar después de (segundos)</forward_after>
+    <chat_window>Ventana chat</chat_window>
+    <auto_chat>Abrir automáticamente ventana chat</auto_chat>
+    <auto_subscribe>Suscribir automáticamente nuevos usuarios</auto_subscribe>
+    <remember_status>Recordar estado</remember_status>
+    <extended_status>Estados disponibles</extended_status>
+    <newline_chat>Chat en nueva línea</newline_chat>
+    <smiles_chat>Usar emoticonos</smiles_chat>
+    <enter_send>Enviar mensaje con Intro</enter_send>
+    <general_settings>General</general_settings>
+    <other_accounts>Otras cuentas</other_accounts>
+    <primary_accounts>Mi Cuenta</primary_accounts>
+    <account_settings>Cuentas</account_settings>
+    <importexport_settings>Importar/Exportar</importexport_settings>
+    <default_reminder>Aplicar recordatorio predeterminado a nuevas citas</default_reminder>
+    <use_sslswfatt>Usar subida de ficheros mediante HTTP Flash en sesiones SSL</use_sslswfatt>
+    <use_swfupload>Usar subida mediante Flash para adjuntos</use_swfupload>
+    <use_office>Usar Abrir en Office cuando sea posible</use_office>
+    <banner_enabled>Permitir banner la página de inicio de sesión</banner_enabled>
+    <twitter_disabled>Deshabilitar integración con Twitter</twitter_disabled>
+    <twitter_link>Handle Twitter</twitter_link>
+    <facebook_disabled>Deshabilitar integración con Facebook</facebook_disabled>
+    <facebook_link>URL of page to like</facebook_link>
+    <skin>Skin</skin>
+    <items_ab_shown>Número de elementos de dirección seleccionados</items_ab_shown>
+    <date_format>Formato fecha</date_format>
+    <time_format>Formato hora</time_format>
+    <language>Idioma</language>
+    <timezone>Huso horario</timezone>
+    <general>General</general>
+    <default_mail_settings>Componer correo</default_mail_settings>
+    <folders_mapping>Asignación de carpetas</folders_mapping>
+    <subject>Asunto</subject>
+    <message_format>Formato mensajes</message_format>
+    <re_message_format>Formato mensaje de respuesta</re_message_format>
+    <html_message>Mensaje HTML</html_message>
+    <read_confirmation>Confirmación de lectura</read_confirmation>
+    <request_read_confirmation>Solicitar confirmación de lectura</request_read_confirmation>
+    <send_read_confirmation>Permitir envío</send_read_confirmation>
+    <ask_before>Preguntarme antes de enviar</ask_before>
+    <smart_attach>Usar SmartAttach</smart_attach>
+    <save_sent_message>Guardar mensajes enviados en la carpeta Enviados</save_sent_message>
+    <save_folder_message>Guardar mensajes enviados</save_folder_message>
+    <encrypt>Encriptar mensajes</encrypt>
+    <sign>Firmar digitalmente mensajes</sign>
+    <appendvcard>Adjuntar mis detalles (vCard)</appendvcard>
+    <charset>Codificación de caracteres</charset>
+    <priority>Prioridad</priority>
+    <reply_to>Dirección Reply-To</reply_to>
+    <reply_myself>Auto CCO a mí mismo</reply_myself>
+    <move_to_trash>Mover mensajes eliminados a la papelera</move_to_trash>
+    <auto_add_recipient_to_addressbook>Añadir destinatarios a la libreta de direcciones automáticamente</auto_add_recipient_to_addressbook>
+    <edit_rules>Reglas</edit_rules>
+    <rules>Reglas</rules>
+    <forward_messages>Reenviar mensajes</forward_messages>
+    <inline>Incrustado</inline>
+    <as_attachment>Como adjunto</as_attachment>
+    <autoupdate_message>Comprobar automáticamente por nuevos mensajes cada (minutos)</autoupdate_message>
+    <autosave_message>Guardar mensajes automáticamente cada (minutos)</autosave_message>
+    <calendar_settings>Calendario</calendar_settings>
+    <main>Principal</main>
+    <day_begins_at>Día empieza a las</day_begins_at>
+    <day_ends_at>Día termina a las</day_ends_at>
+    <week_begins_on>Semana empieza el</week_begins_on>
+    <week_starts_today>Semana empieza el día actual</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Compartir</sharing_settings>
+    <shared_email>Email compartido</shared_email>
+    <email>Email</email>
+    <rights>Permisos</rights>
+    <read>Leer</read>
+    <write>Escribir</write>
+    <modify>Modificar</modify>
+    <delete>Eliminar</delete>
+    <owner>Propietario</owner>
+    <acc_name>Nombre</acc_name>
+    <quota>Cuota de disco</quota>
+    <sms_quota>Cuota SMS</sms_quota>
+    <quota_home>Cuota de disco (incl. elementos de todas las carpetas de correo, carpetas de archivos, adjuntos de contactos, eventos,...)</quota_home>
+    <description>Descripción</description>
+    <old_password>Contraseña antigua</old_password>
+    <new_password>Contraseña nueva</new_password>
+    <new_password_conf>Confirmar contraseña</new_password_conf>
+    <save_drafts_to>Guardar borradores en</save_drafts_to>
+    <default_flag>Bandera predeterminada</default_flag>
+    <alternative_email>Email alternativo</alternative_email>
+    <default_settings>Configuración predeterminada</default_settings>
+    <event_view>Vista de calendario</event_view>
+    <event_show_as>Mostrar citas como</event_show_as>
+    <event_sharing>Compartir citas</event_sharing>
+    <contact_sharing>Compartir contactos</contact_sharing>
+    <journal_sharing>Compartir diario</journal_sharing>
+    <note_sharing>Compartir notas</note_sharing>
+    <task_sharing>Compartir tareas</task_sharing>
+    <file_sharing>Compartir archivos</file_sharing>
+    <force_for_domainadmin>Forzar esta opción para Administradores de Dominio y usuarios</force_for_domainadmin>
+    <force_for_users>Forzar esta opción para Usuarios</force_for_users>
+    <force>Forzar opción</force>
+  </settings>
+  <email_priority>
+    <highest>Muy alta</highest>
+    <high>Alta</high>
+    <normal>Normal</normal>
+    <medium>Medio</medium>
+    <low>Baja</low>
+    <lowest>Muy baja</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Seleccione carpeta</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Seleccione elemento</insert_item>
+    <untitled>sin título</untitled>
+    <embedded>Incrustado</embedded>
+    <link>Enlace</link>
+  </insert_item>
+  <attendees>
+    <shared>Contactos sugeridos</shared>
+    <add_title>Añadir</add_title>
+    <edit_title>Editar</edit_title>
+    <resource>Recurso</resource>
+    <remove>Quitar</remove>
+    <edit>Editar</edit>
+    <name>Nombre</name>
+    <email>Email</email>
+    <folder>Seleccionar carpeta</folder>
+    <all_attendees>Filtrar contactos SIP</all_attendees>
+    <status>Estado</status>
+    <status_p>Pendiente</status_p>
+    <status_a>Aceptado</status_a>
+    <status_d>Rechazado</status_d>
+    <role>Rol</role>
+    <role_q>Requerido</role_q>
+    <role_s>Recurso</role_s>
+    <role_t>Opcional</role_t>
+    <role_g>Organizador</role_g>
+    <quick_add>Introduzca participante o nombre de recurso</quick_add>
+  </attendees>
+  <dial>
+    <dial>Marcar</dial>
+    <keypad>Teclado</keypad>
+    <call>Llamar</call>
+    <mute>Silencio</mute>
+    <answer>Contestar</answer>
+    <decline>Rechazar</decline>
+    <filter>Mostrar sólo contactos WebPhone</filter>
+    <hfilter>Mostrar sólo llamadas perdidas</hfilter>
+    <phone>WebPhone</phone>
+    <duration>Duración:</duration>
+    <video>Video</video>
+    <localcam>Este equipo</localcam>
+    <remotecam>Equipo remoto</remotecam>
+    <answer_video>Contestar + Video</answer_video>
+    <hang_up>Colgar</hang_up>
+    <busy>Usuario está ocupado</busy>
+    <pbook>Guía</pbook>
+    <refresh>Refrescar historial</refresh>
+    <call_duration>Duración de llamada %s</call_duration>
+    <history>Historial</history>
+    <missed>Perdido</missed>
+    <incoming>Entrante</incoming>
+    <outgoing>Saliente</outgoing>
+    <select_contect>Seleccione contacto preferido</select_contect>
+    <calling>Llamando a</calling>
+    <incomingcall>Llamada desde</incomingcall>
+    <callestablished>Llamada con</callestablished>
+    <notify_ext>Marcado a través de teléfono externo</notify_ext>
+  </dial>
+  <sip>
+    <sip>WebPhone</sip>
+    <external>Marcar a través de teléfono externo</external>
+    <screen>Llamar con pantalla compartida</screen>
+    <sip_status>WebPhone: %s</sip_status>
+    <default_contact>Contacto predeterminado WebPhone</default_contact>
+    <unreachable>Servidor no accesible</unreachable>
+    <device>No se ha encontrado un dispositivo de audio</device>
+    <videonotsupported>Su navegador no soporta videollamadas. Para los mejores resultados, utilice la última versión de Chrome o Firefox.</videonotsupported>
+    <offline>WebPhone está desconectado (llamadas se marcarán a través de softphone/teléfono VoIP externo)</offline>
+    <outgoingcall>Está llamando a %s</outgoingcall>
+    <incomingcall>%s le está llamando</incomingcall>
+    <callongoing>Está en una llamada con %s</callongoing>
+    <callestablished>Llamada con %s establecida</callestablished>
+    <userbusy>Usuario %s está ocupado</userbusy>
+    <callfinished>Llamada terminada</callfinished>
+    <callcanceled>La llamada ha finalizado</callcanceled>
+    <notreachable>Cannot reach user on WebPhone</notreachable>
+    <calldeclined>La llamada fue rechazada</calldeclined>
+    <info>WebPhone Info: %s</info>
+    <notification>Usuario %s es %s</notification>
+    <error>Alerta de WebPhone</error>
+    <notice>Alerta de WebPhone</notice>
+    <udp>Error de conexión WebPhone. Compruebe su firewall o conexión a Internet.</udp>
+    <slow>Inicialización demasiada lenta. Puede que WebPhone no funcione correctamente.</slow>
+    <init>Error de conexión WebPhone. Compruebe su configuración en Opciones - Teléfono.</init>
+    <mediarequest>Please allow access to your microphone or camera. Alternatively click on Troubleshoot button below to access an interactive guide.</mediarequest>
+    <invalidstate>Could not access required media devices. Another application could be already using them.</invalidstate>
+    <nopermission>Permission to media devices was denied or is blocked. You need to allow use of microphone or camera to interact.</nopermission>
+    <mediadenied>Could not access the requested media device(s). Possibly they are disconnected or misconfigured.</mediadenied>
+    <ffmedia>Media access not granted. Use the microphone or camera icon top left in the browser to Allow or Deny media access.</ffmedia>
+    <nowebrtc>Your browser doesn&apos;t support WebRTC for audio/video. Use another browser (we suggest Chrome) or install a WebRTC browser plugin.</nowebrtc>
+    <gettingmedia>There is a call or conference in progress. Please allow or deny access to devices to continue.</gettingmedia>
+    <occupied>WebPhone ya está en uso.</occupied>
+  </sip>
+  <conference>
+    <planner>Planificador WebMeeting</planner>
+    <aborted>La reunión ha sido terminada.</aborted>
+    <access>Información de acceso</access>
+    <allattendees>Todos los participantes</allattendees>
+    <missinguserid>No es un participante en esta reunión. Terminando la reunión.</missinguserid>
+    <appletrunning>Java iniciado, esperando la conexión a la reunión...</appletrunning>
+    <callestablished>WebMeeting está en curso</callestablished>
+    <callfinished>WebMeeting ha terminado</callfinished>
+    <came>se ha unido a la reunión</came>
+    <cancelled>La reunión ha terminado de forma inesperada</cancelled>
+    <privatechat>Iniciar chat privado</privatechat>
+    <chatalreadymeeting>You have received a new meeting invitation but cannot join it now, since you are busy in a meeting already.</chatalreadymeeting>
+    <chatinvite>I would like to invite you to a WebMeeting</chatinvite>
+    <closed>La sesión WebMeeting terminó</closed>
+    <closing>¿Desea salir de esta reunión o terminar la reunión para todos los participantes?</closing>
+    <confirminvite>sent you an invitation to WebMeeting</confirminvite>
+    <connectfailure>No se puede conectar a la reunión</connectfailure>
+    <connecting>Intentando conectar a reunión...</connecting>
+    <create>Crear nuevo WebMeeting</create>
+    <created>WebMeeting creado, iniciando reunión...</created>
+    <createfirst>There is currently no WebMeeting in progress, would you like to start one?</createfirst>
+    <delegate>Hacer moderador</delegate>
+    <screen>Pantalla remota</screen>
+    <desktop>Compartir pantalla</desktop>
+    <waitvideo>Esperando a pantalla remota</waitvideo>
+    <notchrome>Para compartir la pantalla es necesario usar Chrome</notchrome>
+    <nohttps>Se requiere una conexión segura (https) para compartir la pantalla.</nohttps>
+    <noplugin>Screen-sharing plugin is not installed.</noplugin>
+    <desktopinfo>Share your screen with other attendees</desktopinfo>
+    <dialin>If you want to call in, dial one of the following numbers:</dialin>
+    <disablefirebug>La extensión Firebug puede interferir con esta funcionalidad. Mejor desactive Firebug y vuelva iniciar una sesión.</disablefirebug>
+    <dismiss>Rechazar participante</dismiss>
+    <duration>Duración:</duration>
+    <end>Terminar WebMeeting</end>
+    <endcall>Terminar llamada</endcall>
+    <endforall>Terminar WebMeeting para todos</endforall>
+    <endinfo>Terminando reunión...</endinfo>
+    <finished>Su grabación de audio se procesará y se guardará en Documentos.</finished>
+    <generalerror>Unspecified meeting-related error occurred.</generalerror>
+    <id>ID reunión:</id>
+    <shortid>ID:</shortid>
+    <info>Información WebMeeting</info>
+    <instruct>You are now connected to the voice conference, simply use your microphone and speakers - a headset is recommended.</instruct>
+    <invalidmeetingid>You cannot join this meeting. It has an expired or invalid Meeting ID.</invalidmeetingid>
+    <invalidsessionid>La sesión ha caducado, terminando la reunión</invalidsessionid>
+    <invitationedit>Mensaje de invitación:</invitationedit>
+    <invite>Invitar</invite>
+    <inviteinfo>Invitar participantes</inviteinfo>
+    <invitation_sent>Invitación enviada a</invitation_sent>
+    <invited>Invitación a WebMeeting recibida</invited>
+    <invitesubject>Invitación WebMeeting</invitesubject>
+    <join>Unirse a WebMeeting</join>
+    <joining>Uniéndose a reunión</joining>
+    <leave>Dejar</leave>
+    <leaveinfo>Abandonar a WebMeeting</leaveinfo>
+    <leaveorend>Select a new moderator if you want this meeting to continue. Otherwise this meeting will end for all attendees.</leaveorend>
+    <leaving>¿Seguro que desea salir de esta reunión?</leaving>
+    <left>ha abandonado la reunión</left>
+    <leftchat>Message could not be delivered, this attendee has left the meeting.</leftchat>
+    <mailinvite>Puede unirse a esta reunión ahora</mailinvite>
+    <manager>moderador</manager>
+    <meeting>WebMeeting</meeting>
+    <mikogoerror>Server reported an error with screen sharing.</mikogoerror>
+    <servererror>General meeting-related error occurred. Contact your administrator for more details.</servererror>
+    <connectionerror>The meeting was terminated by network connection error. Please try again later.</connectionerror>
+    <mute>Silencio</mute>
+    <muteall>Silenciar a todos los participantes</muteall>
+    <muteinfo>Silenciar micrófono</muteinfo>
+    <muteone>Silenciar a participante</muteone>
+    <attendees>Participantes</attendees>
+    <chat>WebChat</chat>
+    <name>Nombre:</name>
+    <needspecialpermissions>Permisos insuficientes para realizar esta operación</needspecialpermissions>
+    <networkrequesterror>Parece que hay un problema con la red. Ha sido desconectado de la reunión.</networkrequesterror>
+    <nocallallowed>Calls are not allowed during a WebMeeting</nocallallowed>
+    <noparticipants>No hay  participantes</noparticipants>
+    <notaccessmode>WebMeeting service is disabled for this account.</notaccessmode>
+    <notauthenticated>You are not authenticated to this service.</notauthenticated>
+    <notenabled>WebMeetings are disabled by server administrator</notenabled>
+    <notonline>No hay conexión de red</notonline>
+    <notsetupproperly>WebMeeting service is not configured properly.</notsetupproperly>
+    <notlicensed>Insufficient license for WebMeetings.</notlicensed>
+    <licenseerror>Insufficient license to start more WebMeetings.</licenseerror>
+    <offline>La reunión está desconectada.</offline>
+    <ongoing>WebMeeting en curso</ongoing>
+    <onlyorganizercandothis>This feature is accessible only to meeting organizer.</onlyorganizercandothis>
+    <onlysuperusercandothis>You are not authorized to perform this operation.</onlysuperusercandothis>
+    <organizer>organizador</organizer>
+    <pending>Waiting for organizer to start the WebMeeting...</pending>
+    <phone>Teléfono:</phone>
+    <phoning>You are on a call. Would you like to end it and start the WebMeeting?</phoning>
+    <preparing>Obteniendo datos de reunión</preparing>
+    <promoted>ahora es moderador</promoted>
+    <ready>La reunión está lista para comenzar</ready>
+    <recap>This information can be viewed anytime by clicking the &quot;info&quot; icon above.</recap>
+    <record>Grabar audio</record>
+    <recordinfo>Grabación</recordinfo>
+    <recording>Grabando audio</recording>
+    <restart>Reiniciar WebMeeting</restart>
+    <schedule>Planificar WebMeeting</schedule>
+    <scheduleorstart>Would you like to start a meeting now or schedule a meeting for a later time?</scheduleorstart>
+    <silenceinfo>Silenciar altavoces</silenceinfo>
+    <sipnoparticipants>There are no participants, the meeting was terminated.</sipnoparticipants>
+    <start>Iniciar WebMeeting</start>
+    <started>Meeting started, waiting for Java to start...</started>
+    <startedconnect>Reunión iniciada, conectando...</startedconnect>
+    <startednojava>Meeting started, waiting for media access...</startednojava>
+    <starting>Iniciando reunión</starting>
+    <startnow>Iniciar WebMeeting ahora</startnow>
+    <joinnow>Join existing WebMeeting</joinnow>
+    <terminate>¿Está seguro que desea terminar esta reunión?</terminate>
+    <timeout>Incapaz de mantener conexión con reunión</timeout>
+    <unknown>Participante no revelado</unknown>
+    <unmuteone>Desilenciar participantes</unmuteone>
+    <details>WebMeeting details</details>
+    <callin>Call-in details</callin>
+    <url>URL reunión:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>ID llamada:</callid>
+    <waitfailure>No es posible entrar en la reunión.</waitfailure>
+    <waiting>Waiting for Java to start, this may take a while.</waiting>
+    <welcome>Welcome to IceWarp WebMeeting</welcome>
+    <me>Yo</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>Java se requiere para iniciar sus aplicaciones de Office directamente desde el navegador web de forma automática y subir los cambios del documento.</nolaunch>
+    <nooffice>No se ha detectado un paquete Office.</nooffice>
+    <openfailed>Could not open the document in Office. Would you like to download it instead?</openfailed>
+    <noappfound>Could not find an application to open this type of document.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Modo:</mode>
+    <disabled>Deshabilitado</disabled>
+    <respond_always>Responder siempre</respond_always>
+    <respond_once>Responder una vez</respond_once>
+    <respond_after_period>Responder otra vez después de periodo</respond_after_period>
+    <respond_period>Responder otra vez después de (días):</respond_period>
+    <from>De</from>
+    <subject>Asunto</subject>
+    <text>Texto</text>
+    <respond_only_if_to_me>Solo responder a mensajes enviados a mi dirección email</respond_only_if_to_me>
+    <respond_between>Solo responder entre:</respond_between>
+    <noresponderfor>No responder a</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Reenviar a:</forward_to>
+    <keep_copy>Dejar copia en el buzón</keep_copy>
+    <forward_older>Reenviar mensajes con una antigüedad de (días):</forward_older>
+    <forward_older_to>Reenviar mensajes antiguos a:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Añadir / Editar</addedit>
+    <header>Cabecera</header>
+    <filters>Filtros</filters>
+    <edit_header>Editar cabecera</edit_header>
+    <empty_operator/>
+    <not>NO</not>
+    <and>Y</and>
+    <or>O</or>
+    <and_not>Y NO</and_not>
+    <or_not>O NO</or_not>
+    <from>De:</from>
+    <to>A:</to>
+    <subject>Asunto:</subject>
+    <cc>Cc:</cc>
+    <reply_to>Contestar-A:</reply_to>
+    <date>Fecha:</date>
+    <message>Mensaje</message>
+    <message_type>Tipo de mensaje:</message_type>
+    <message_body>Cuerpo del mensaje</message_body>
+    <custom_message_header>Encabezado de mensaje adicional</custom_message_header>
+    <any_message_header>Cualquier encabezado de mensaje</any_message_header>
+    <attachment_name>Nombre de adjunto</attachment_name>
+    <sender>Remitente</sender>
+    <recipient>Destinario</recipient>
+    <senders_ip>IP del destinario</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Remitente</ip>
+    <all_messages>Todos los mensajes</all_messages>
+    <no_messages>No hay mensajes</no_messages>
+    <priority_is>prioridad es</priority_is>
+    <priority_isnt>prioridad no es</priority_isnt>
+    <is_spam>es spam</is_spam>
+    <isnt_spam>no es spam</isnt_spam>
+    <is_greater_than>es mayor que</is_greater_than>
+    <is_lower_than>es menor que</is_lower_than>
+    <match_case>Coincidir mayúscula y minúscula</match_case>
+    <regexp>Regex</regexp>
+    <whole_word>Palabra entera</whole_word>
+    <matches>coincide</matches>
+    <doesnt_match>no coincide</doesnt_match>
+    <contains_string>contiene</contains_string>
+    <doesnt_contain_string>no contiene</doesnt_contain_string>
+    <matches_regex>coincide regex</matches_regex>
+    <doesnt_match_regex>no coincide regex</doesnt_match_regex>
+    <is_string>es</is_string>
+    <isnt_string>no es</isnt_string>
+    <spam_score>Puntuación spam</spam_score>
+    <authorized>autorizado</authorized>
+    <unauthorized>no autorizado</unauthorized>
+    <add>Añadir</add>
+    <delete>Eliminar</delete>
+    <up>Subir</up>
+    <down>Bajar</down>
+    <action>Acción</action>
+    <actions>Acciones</actions>
+    <accept>Aceptar</accept>
+    <reject>Rechazar</reject>
+    <quarantine>Cuarentena</quarantine>
+    <spam>Spam</spam>
+    <stop_processing>No procesar más reglas</stop_processing>
+    <move_to>Mover a</move_to>
+    <copy_to>Copiar a</copy_to>
+    <encrypt_message>Encriptar mensaje</encrypt_message>
+    <set_message_priority>Establecer prioridad en</set_message_priority>
+    <set_message_flag>Establecer bandera de mensaje en</set_message_flag>
+    <text>Texto:</text>
+    <title>Título</title>
+    <conditions>Condiciones</conditions>
+    <edit>Editar</edit>
+    <rule>Regla</rule>
+    <rules>Reglas</rules>
+    <highest>muy alta</highest>
+    <high>alta</high>
+    <normal>normal</normal>
+    <low>baja</low>
+    <lowest>muy baja</lowest>
+    <spam_is_greater_than>es mayor que</spam_is_greater_than>
+    <spam_is_lower_than>es menor que</spam_is_lower_than>
+    <forward_to>Reenviar a</forward_to>
+    <send_message>Enviar mensaje</send_message>
+    <three_dots>...</three_dots>
+    <email>Email</email>
+    <instant_messaging>WebChat</instant_messaging>
+    <active>Activo</active>
+  </filters>
+  <rich>
+    <alt>Texto alternativo</alt>
+    <code>Fuente</code>
+    <paragraph>Párrafo</paragraph>
+    <normal>Normal</normal>
+    <heading>Encabezamiento</heading>
+    <clearformatting>Quitar formato</clearformatting>
+    <font>Fuente</font>
+    <size>Tamaño</size>
+    <rows>Filas</rows>
+    <columns>Columnas</columns>
+    <padding>Relleno celda</padding>
+    <spacing>Espaciado celdas</spacing>
+    <img_spacing>Espaciado</img_spacing>
+    <bordercolor>Color borde</bordercolor>
+    <border>Borde</border>
+    <bold>Hacer negrita</bold>
+    <italic>Hacer cursiva</italic>
+    <underline>Subrayar texto</underline>
+    <style>Tipo de formato</style>
+    <align>Alineación texto</align>
+    <left>Alinear izquierda</left>
+    <center>Alinear centro</center>
+    <right>Alinear derecha</right>
+    <justify>Justificar</justify>
+    <numberedlist>Lista numerada</numberedlist>
+    <bulletedlist>Lista con viñetas</bulletedlist>
+    <indent>Sangría</indent>
+    <leftindent>Sangría izquierda</leftindent>
+    <rightindent>Sangría derecha</rightindent>
+    <bgcolor>Color fondo</bgcolor>
+    <color>Color texto</color>
+    <cut>Cortar selección</cut>
+    <copy>Copiar selección</copy>
+    <paste>Pegar selección</paste>
+    <pastew>Pegar como texto</pastew>
+    <insert>Insertar</insert>
+    <addlink>Enlace</addlink>
+    <table>Tabla</table>
+    <image>Imagen</image>
+    <dropbox>Enlace Dropbox</dropbox>
+    <spell>Corrector ortográfico</spell>
+    <url>URL</url>
+    <uploaded>Cargado</uploaded>
+    <internal>Interno</internal>
+    <direction>Dirección de texto (HTML)</direction>
+    <ltr>De izquierda a derecha (LTR)</ltr>
+    <rtl>De derecha a izquierda (RTL)</rtl>
+    <screenshot>Tomar captura de pantalla</screenshot>
+    <paste_img>Pegar imagen</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Cargando</loading>
+    <framework>Cargando entorno</framework>
+    <settings>Cargando configuración</settings>
+    <language>Cargando recursos</language>
+    <indexing>Indexación</indexing>
+    <startup>Iniciando</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Desktop Client</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Descargar Desktop Client</help_win_desktop1>
+    <help_win_desktop2>Run the installer. In the Desktop Client main menu, select &lt;b&gt;Tools - Accounts&lt;/b&gt;. The &lt;b&gt;Accounts&lt;/b&gt; dialog appears. In this dialog, click &lt;b&gt;New Account&lt;/i&gt;&lt;/b&gt;. The New Account wizard appears. Fill in the &lt;i&gt;Email&lt;/i&gt; and &lt;i&gt;Password&lt;/i&gt; fields and click &lt;b&gt;Start Now.&lt;/b&gt;</help_win_desktop2>
+    <help_win_desktop3>On the Account details page, you can modify your Account name. Click Next. On the next page, you can deactivate features that you do not want to use. Click Finish to complete the setup.</help_win_desktop3>
+    <help_win_osync1>Descargar Outlook Sync</help_win_osync1>
+    <help_win_osync2>Run the installer. On the SmartDiscover page, enter your &lt;i&gt;Email address&lt;/i&gt; and &lt;i&gt;Password&lt;/i&gt;, do &lt;b&gt;not&lt;/b&gt; tick the box &lt;i&gt;Skip SmartDiscover and configure manually&lt;/i&gt;. Click Next.</help_win_osync2>
+    <help_win_osync3>In the next step, the License activation dialog is shown.</help_win_osync3>
+    <help_win_osync4>If you were granted a license for IceWarp Outlook Sync, click Yes. If you want to use IceWarp Outlook Sync within the scope of 30-day trial period first, click No.</help_win_osync4>
+    <help_win_osync5>Click Finish to complete the installation.</help_win_osync5>
+    <help_win_20131>In the &lt;b&gt;File&lt;/b&gt; menu, on the &lt;b&gt;Account Information&lt;/b&gt; page, click &lt;b&gt;Add Account&lt;/b&gt;, the Add Account dialog opens. On the &lt;b&gt;Auto Account Setup&lt;/b&gt; page, select the &lt;i&gt;Manual setup or additional server types&lt;/i&gt; option and click Next.&#13;&#10;On the &lt;b&gt;Choose Service&lt;/b&gt; page, select the &lt;i&gt;Outlook.com or Exchange ActiveSync compatible service&lt;/i&gt; option and click Next.</help_win_20131>
+    <help_win_20132>On the &lt;b&gt;Server Settings&lt;/b&gt; page, fill in your user, server and logon information. Click Next.</help_win_20132>
+    <help_win_20133>After the account settings test, click Finish.</help_win_20133>
+    <help_osx_all_applications_title>Todas las aplicaciones</help_osx_all_applications_title>
+    <help_osx_messages_title>Mensajes</help_osx_messages_title>
+    <help_osx_messages1>Open Messages and from the main menu select &lt;b&gt;Messages - Add Account&lt;/b&gt;. From the types of account to add, choose &lt;b&gt;Other messages account...&lt;/b&gt; and click Continue.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Calendario</help_osx_calendar_title>
+    <help_osx_calendar1>Open Calendar and from the main menu select &lt;b&gt;Calendar - Add Account&lt;/b&gt;. From the types of account to add, choose &lt;b&gt;Add CalDAV Account&lt;/b&gt; and click Continue.</help_osx_calendar1>
+    <help_osx_calendar2>In the &lt;b&gt;Add a CalDAV Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Manual&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_calendar2>
+    <help_osx_calendar3>To setup &lt;b&gt;Reminders&lt;/b&gt; go to &lt;b&gt;System Preferences - Internet Accounts&lt;/b&gt; and locate the calendar account you have just configured. Tick the checkbox by &lt;i&gt;Use With: Reminders&lt;/i&gt;</help_osx_calendar3>
+    <help_osx_contacts_title>Contactos</help_osx_contacts_title>
+    <help_osx_contacts1>Open Contacts and from the main menu select &lt;b&gt;Contacts - Add Account&lt;/b&gt;. From the types of account to add, choose &lt;b&gt;Other contacts account&lt;/b&gt; and click Continue.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>Todas las aplicaciones</help_osx_all>
+    <help_osx_all1>Descargar configurador</help_osx_all1>
+    <help_osx_all2>Open the downloaded IceWarp Configurator image file. Run IceWarp Configurator. If prompted that the application was downloaded from the Internet, click Open. Fill in the Email Address and Password fields and click &lt;strong&gt;Continue&lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>Each application that can be auto-configured will have a green &lt;strong&gt;Connect&lt;/strong&gt; button next to it. Click one by one, or select &lt;strong&gt;Connect All&lt;/strong&gt; to setup all available applications.</help_osx_all3>
+    <help_tablet_and_title>Tabletas Android</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Tabletas Windows</help_tablet_win_title>
+    <help_tablet_win1>On the right-hand side of the &lt;b&gt;Start&lt;/b&gt; screen, select the &lt;i&gt;Settings - Change PC Settings - Accounts&lt;/i&gt;. On the Accounts page, select the &lt;i&gt;Other accounts&lt;/i&gt; option.&#13;&#10;On the Other accounts page, tap &lt;i&gt;Add a user&lt;/i&gt;. On the next page, fill in the server hostname and tap Next.</help_tablet_win1>
+    <help_tablet_win2>On the Create a Microsoft account page, fill in your account credentials and tap Next.</help_tablet_win2>
+    <help_tablet_win3> On the Add security info page, set your security preferences and tap Next. On the Communication preferences page, tap Next. On the final page, tap Finish.</help_tablet_win3>
+    <help_phone_and_title>Dispositivos Android</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>On the &lt;b&gt;Remote security administration&lt;/b&gt; screen, press &lt;b&gt;OK&lt;/b&gt;. This is essential to enforce your company&apos;s security policies on the device, or reset it remotely if lost.</help_phone_and2>
+    <help_phone_and3>On the &lt;b&gt;Account settings&lt;/b&gt; screen, choose &lt;i&gt;Inbox checking frequency&lt;/i&gt; and set how old emails to synchronize under &lt;i&gt;Days to sync&lt;/i&gt;. Optionally tick &lt;i&gt;Send email from this account by default&lt;/i&gt;, review other settings and tap Next.</help_phone_and3>
+    <help_phone_and4>Provide an account label to identify this account in applications and tap Next.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>Go to &lt;b&gt;Settings&lt;/b&gt;, select &lt;i&gt;Mail, Contacts, Calendars - Add Account - Exchange&lt;/i&gt; options.</help_ios1>
+    <help_ios2>On the next page, fill in the &lt;i&gt;Email, Password, Description&lt;/i&gt; fields. Tap Next.</help_ios2>
+    <help_ios3>On the next page, optionally deactivate features you do not want to use by sliding the controllers to off. Tap Save. Advanced settings can be found under the account&apos;s Description in the &lt;b&gt;Mail, Contacts, Calendars - Accounts &lt;/b&gt; section.</help_ios3>
+    <help_phone_win_title>Windows Phone</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Introduzca su &lt;i&gt;dirección de correo electrónico&lt;/ i&gt; y &lt;i&gt;contraseña&lt;/ i&gt;. Después presiona &lt;b&gt;iniciar sesión&lt;/ b&gt;.</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X son marcas comerciales de Apple Inc., registradas en los EE.UU. y otros países. Microsoft, Windows, Outlook y Windows Phone son marcas comerciales registradas o marcas comerciales de Microsoft Corporation en Estados Unidos y/o otros países. Android es una marca comercial de Google Inc. IceWarp es una marca registrada en los EE.UU. y otros países.</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>Correo electrónico, calendarios, contactos, tareas</subtitle>
+    <descr>Configuración de cuenta paso a paso.</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>Configure IceWarp Desktop Client</subtitle>
+    <descr>Instalación paso a paso.</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Calendarios y Recordatorios</subtitle>
+    <descr>Configuración paso a paso en Mac.</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>Correo, calendario, gente</subtitle>
+    <descr>Instalación paso a paso.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>Correo electrónico, calendarios y contactos</subtitle>
+    <descr>Configuración de cuenta paso a paso.</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>Correo electrónico, calendarios y contactos</subtitle>
+    <descr>Configuración de cuenta paso a paso.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Página anterior</previous_title>
+    <previous_label>Anterior</previous_label>
+    <next_title>Página siguiente</next_title>
+    <next_label>Siguiente</next_label>
+    <page_label>Página:</page_label>
+    <page_of>de {{pageCount}}</page_of>
+    <zoom_out_title>Alejar</zoom_out_title>
+    <zoom_out_label>Alejar</zoom_out_label>
+    <zoom_in_title>Acercar</zoom_in_title>
+    <zoom_in_label>Acercar</zoom_in_label>
+    <zoom_title>Zoom</zoom_title>
+    <presentation_mode_title>Cambiar a pantalla completa</presentation_mode_title>
+    <presentation_mode_label>Pantalla completa</presentation_mode_label>
+    <print_title>Imprimir</print_title>
+    <print_label>Imprimir</print_label>
+    <download_title>Descargar</download_title>
+    <download_label>Descargar</download_label>
+    <bookmark_title>Marcador</bookmark_title>
+    <bookmark_label>Marcador</bookmark_label>
+    <tools_title>Herramientas</tools_title>
+    <tools_label>Herramientas</tools_label>
+    <first_page_title>Ir a primera página</first_page_title>
+    <first_page_label>Ir a primera página</first_page_label>
+    <last_page_title>Ir a primera página</last_page_title>
+    <last_page_label>Ir a última página</last_page_label>
+    <page_rotate_cw_title>Girar hacia la derecha</page_rotate_cw_title>
+    <page_rotate_cw_label>Girar hacia la derecha</page_rotate_cw_label>
+    <page_rotate_ccw_title>Rotate counterclockwise</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Rotate counterclockwise</page_rotate_ccw_label>
+    <hand_tool_enable_title>Habilitar herramienta de mano</hand_tool_enable_title>
+    <hand_tool_enable_label>Habilitar herramienta de mano</hand_tool_enable_label>
+    <hand_tool_disable_title>Deshabilitar herramienta de mano</hand_tool_disable_title>
+    <hand_tool_disable_label>Deshabilitar herramienta de mano</hand_tool_disable_label>
+    <document_properties_label>Propiedades del documento</document_properties_label>
+    <document_properties_file_name>Nombre archivo:</document_properties_file_name>
+    <document_properties_file_size>Tamaño archivo:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>Título:</document_properties_title>
+    <document_properties_author>Autor:</document_properties_author>
+    <document_properties_subject>Asunto:</document_properties_subject>
+    <document_properties_keywords>Palabras clave:</document_properties_keywords>
+    <document_properties_creation_date>Fecha creación:</document_properties_creation_date>
+    <document_properties_modification_date>Fecha modificación:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Creador:</document_properties_creator>
+    <document_properties_producer>Productor:</document_properties_producer>
+    <document_properties_version>Versión:</document_properties_version>
+    <document_properties_page_count>Número de páginas:</document_properties_page_count>
+    <document_properties_close>Cerrar</document_properties_close>
+    <toggle_sidebar_title>Conmutar barra lateral</toggle_sidebar_title>
+    <toggle_sidebar_label>Conmutar barra lateral</toggle_sidebar_label>
+    <outline_title>Mostrar esquema de documento</outline_title>
+    <outline_label>Mostrar esquema de documento</outline_label>
+    <thumbs_title>Mostrar miniaturas</thumbs_title>
+    <thumbs_label>Mostrar miniaturas</thumbs_label>
+    <findbar_title>Buscar en documento</findbar_title>
+    <findbar_label>Buscar</findbar_label>
+    <thumb_page_title>Página {{page}}</thumb_page_title>
+    <thumb_page_canvas>Miniatura de página {{página}}</thumb_page_canvas>
+    <find_label>Buscar:</find_label>
+    <find_previous_title>Buscar anterior</find_previous_title>
+    <find_previous_label>Anterior</find_previous_label>
+    <find_next_title>Buscar siguiente</find_next_title>
+    <find_next_label>Siguiente</find_next_label>
+    <find_highlight>Seleccionar todo</find_highlight>
+    <find_match_case_label>Mayúsculas y minúsculas</find_match_case_label>
+    <find_reached_top>Alcanzado el principio del documento</find_reached_top>
+    <find_reached_bottom>Alcanzado el final del documento</find_reached_bottom>
+    <find_not_found>No encontrado</find_not_found>
+    <error_more_info>Más info</error_more_info>
+    <error_less_info>Menos info</error_less_info>
+    <error_close>Cerrar</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Mensaje: {{message}}</error_message>
+    <error_stack>Stack: {{stack}}</error_stack>
+    <error_file>Archivo: {{file}}</error_file>
+    <error_line>Línea: {{line}}</error_line>
+    <rendering_error>Rendering error</rendering_error>
+    <page_scale_width>Ancho completo</page_scale_width>
+    <page_scale_fit>Ajustar página</page_scale_fit>
+    <page_scale_auto>Zoom automático</page_scale_auto>
+    <page_scale_actual>Tamaño real</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Error</loading_error_indicator>
+    <loading_error>Error al cargar PDF</loading_error>
+    <invalid_file_error>Archivo PDF no válido o dañado</invalid_file_error>
+    <missing_file_error>Falta archivo PDF</missing_file_error>
+    <text_annotation_type_alt>[anotación {{type}}]</text_annotation_type_alt>
+    <password_label>Introduzca la contraseña para abrir este PDF protegido</password_label>
+    <password_invalid>Contraseña incorrecta, inténtelo de nuevo.</password_invalid>
+    <password_ok>Aceptar</password_ok>
+    <password_cancel>Cancelar</password_cancel>
+    <printing_not_supported>Warning: Printing is not fully supported in this browser.</printing_not_supported>
+    <printing_not_ready>Warning: PDF is not completly loaded for printing</printing_not_ready>
+    <web_fonts_disabled>Web fonts are disabled: not possible to use PDF fonts</web_fonts_disabled>
+    <document_colors_disabled>PDF document is not allowed to use colors</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDocument</title>
+    <preview>Vista previa documento</preview>
+    <error>Error WebDocument</error>
+    <error_msg>Document loading problem. You may need to close and reopen the document for full functionality.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

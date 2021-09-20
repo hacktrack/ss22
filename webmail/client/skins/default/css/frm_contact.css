@@ -1,0 +1,91 @@
+.frm_contact td.avatar_image{
+	vertical-align: top;
+	overflow: hidden;
+}
+.frm_contact td.avatar_image>div{
+	position: relative;
+
+	width:150px;
+	height:150px;
+	
+    vertical-align: bottom;
+	background: url("../images/face-placeholder.gif") no-repeat center center #C6C4C2;
+
+	background-size: cover;
+    background-clip: padding-box;
+	background-origin: padding-box;
+	border: 3px solid transparent;
+	
+	border-radius: 76px;
+
+
+}
+
+	.frm_contact td.avatar_image>div.enabled:hover{
+		border-color: #94c0e9;	
+	}
+
+	.frm_contact td.avatar_image>div>span{
+		display: block;
+		height: 100%;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		z-index: 0;
+		top: 0;
+		left: 0;
+	}
+	.frm_contact td.avatar_image>div>span>img{
+		position: relative;
+		width: auto;
+		height: auto;
+		background-color: #FFF;
+		z-index: 0;
+	}
+
+
+.frm_contact td.avatar_image .obj_upload{
+	position: absolute;
+	z-index: 100;
+	filter:alpha(opacity=0);
+	opacity: 0;	
+}
+.frm_contact td.avatar_image>div.enabled:before{
+	content: '\e03c';
+
+	bottom: 2px;
+	right: 2px;
+	position: absolute;
+
+	font-family: 'ico16';
+	font-size: 16px;
+	line-height: 16px;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	
+	text-shadow: 0 0 1px #FFF;
+	/*background: url('../images/set2.png') no-repeat 3px -3220px transparent;*/
+}
+.frm_contact td.avatar_image>div.enabled.removable:before{
+	content: '\e002';
+	/*bottom: 5px;*/
+}
+
+/* MSIE8-9 */
+.frm_contact td.avatar_image>div.msie .obj_upload{
+	float: none;
+	position: absolute;
+}
+.frm_contact td.avatar_image>div.msie:before{
+	float: none;
+	position: absolute;	
+	bottom: 0;
+	right: 0;
+	z-index: 9;
+}
+
+.frm_contact .phone_num .obj_input{
+	width: 128px;
+}
+	.frm_contact .obj_input_phone.sms .obj_input{
+		width: 100px;
+	}

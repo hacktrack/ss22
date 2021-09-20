@@ -1,0 +1,8 @@
+<?php
+if(!defined('CLIENT')){
+    define('CLIENT','client');
+}
+@include_once("skin.safe");
+@include_once("client/tools/build_xml.safe");
+@include_once("client/tools/build_js.safe");
+?>

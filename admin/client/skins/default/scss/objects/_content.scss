@@ -1,0 +1,34 @@
+// Content
+// Main layout of window content and topbar.
+
+// Elements
+.content-main {
+	@include webkit-scroll; // Always show scrollbar on webkit OSX
+	@include flexit;
+	@include enable-scroll(vertical);
+	background-color: $light-grey;
+	padding: 0;
+	width: 100%;
+	height: auto;
+
+	@if $main-content-animation {
+
+		will-change: transform;
+		-webkit-transform: translateX(0);
+		        transform: translateX(0);
+		-webkit-transition: -webkit-transform $normal ease-in-out;
+		        transition: transform $normal ease-in-out;
+	}
+}
+
+.content-topbars {
+	@include flex(none);
+}
+
+.content-boxes {
+
+	// States
+	&:not([iw-type="multi"]) {
+		@include flexit;
+	}
+}

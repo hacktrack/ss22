@@ -1,0 +1,32 @@
+.obj_chat_voip {
+	/*background-color: #A2BC73;*/
+	background-color: {bg_main '#0088CC'};
+	width: 100%;
+}
+
+.obj_chat_voip td.td{
+	color: #FFF;
+	padding: 0 11px;
+}
+	.obj_chat_voip td.td>div{
+		height: 28px;
+	}
+	.obj_chat_voip td.td>div>div{
+		position: absolute;
+		left: 0;
+		top: 0;
+		overflow: hidden;
+		white-space: nowrap;
+		cursor: pointer;
+	}
+
+.obj_chat_voip form.obj_button.ico.mute:after{
+	content: '\e059';
+}
+.obj_chat_voip form.obj_button.ico.mute.active:after{
+	content: '\e05a';
+}
+
+.obj_chat_voip form.obj_button.ico.hangup:after{
+	content: '\e028';	
+}

@@ -1,0 +1,109 @@
+// Stat
+// Text stats on dashboard view
+
+// Element
+.stat-group {
+	@include border('bottom');
+	margin: -1px 0 0;
+}
+
+.stat-group--full {
+	@include border;
+}
+
+.stat-group--faded {
+	background-color: $lighter-grey;
+}
+
+.stat-item {
+	overflow: hidden;
+	height: $stat-item-height;
+	line-height: $stat-item-height;
+	padding: 0 p(1);
+
+	@include border;
+	border-width: 1px 0 0 !important;
+	margin: -2px 1px 1px -1px;
+	position: relative;
+	top: 2px;
+	left: 2px;
+
+	@media #{$medium-up} {
+		padding: 0 p(2);
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 1px;
+		height: 100%;
+		transform: scaleY(0.5);
+
+		@include theme {
+			background-color: $theme-border-grey;
+		}
+	}
+
+	&.stat-item--plan {
+		
+		.stat-name {
+			padding-right: 0;
+		}
+
+		[iw-flex-cell]:last-child {
+			padding-left: 0;
+		}
+	}
+}
+
+// TODO[WAD-853]: Refactor this whole thing after new grid has been implemented
+.stat-item.override { // Temporary trump to override the grids system
+
+	@media #{$large-only} {
+		@include flex-basis(50%);
+		max-width: 50%;
+	}
+}
+
+.stat-text {
+	@include flexbox;
+	@include justify-content(space-between);
+
+	line-height: $normal-line-height;
+
+	&:not(.column) {
+		@include align-items(center);
+	}
+
+	&.column {
+		@include flex-direction(column);
+	}
+
+	&.reverse {
+		@include flex-direction(column-reverse);
+	}
+
+	&.highlighted .stat-value {
+		@include theme {
+			color: $theme-primary;
+		}
+	}
+}
+
+.stat-name {
+	padding-right: 2rem;
+	line-height: $normal-line-height;
+}
+
+.stat-name, .stat-value {
+	display: block;
+}
+
+.stat-value {
+	@include text-ellipsis;
+
+	font-size: rem(18);
+	font-weight: 600;
+}

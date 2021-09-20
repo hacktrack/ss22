@@ -1,0 +1,302 @@
+#gui table.datagrid{
+	width: 100%;
+	table-layout: fixed;
+}
+
+.contrast #gui table.datagrid tr
+{
+	border-bottom:#888 1px solid;
+}
+
+/** head **/
+#gui table.datagrid thead a,
+#gui table.datagrid thead span{
+	display: block;
+
+	background-color: #F2F2F2;
+	padding: 3px 0 3px 5px;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    color: #666;
+	font-weight: normal;
+}
+
+#gui table.datagrid thead th{
+	.border: 1px solid #C0C0C0; /*IE 6*/
+	padding: 0;
+}
+
+#gui table.datagrid thead th>a,
+#gui table.datagrid thead th>span{
+	border-width: 1px 1px 1px 0;
+	border-color: #D0D0D0;
+	border-style: solid;
+
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F2F2F2', endColorstr='#E0E0E0'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#F2F2F2), to(#E0E0E0)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #F2F2F2,  #E0E0E0); /* for firefox 3.6+ */
+	text-shadow: 0 1px 0 #FFFFFF;
+	
+	position: relative;
+}
+	.contrast #gui table.datagrid thead th>a,
+	.contrast #gui table.datagrid thead th>span{
+		filter:none;
+		background-image:none;
+		background-color:#000;
+		color:#fff;
+		text-shadow:none;
+		text-transform:uppercase;
+		border-color:#000;
+	}
+	
+	#gui table.datagrid thead th.sortASC>a,
+	#gui table.datagrid thead th.sortASC>span{
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8E8E8', endColorstr='#D5D5D5'); /* for IE */
+		background: -webkit-gradient(linear, left top, left bottom, from(#E8E8E8), to(#D5D5D5)); /* for webkit browsers */
+		background: -moz-linear-gradient(top,  #E8E8E8,  #D5D5D5); /* for firefox 3.6+ */
+	}
+		.contrast #gui table.datagrid thead th.sortASC>a,
+		.contrast #gui table.datagrid thead th.sortASC>span{
+			background-image:none!important;
+			background-color:#000!important;
+		}
+	#gui table.datagrid thead th.sortDESC>a,
+	#gui table.datagrid thead th.sortDESC>span{
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F8F8F8', endColorstr='#D5D5D5'); /* for IE */
+		background: -webkit-gradient(linear, left top, left bottom, from(#F8F8F8), to(#D5D5D5)); /* for webkit browsers */
+		background: -moz-linear-gradient(top,  #E8E8E8,  #D5D5D5); /* for firefox 3.6+ */
+	}
+		.contrast #gui table.datagrid thead th.sortDESC>a,
+		.contrast #gui table.datagrid thead th.sortDESC>span{
+			background-image:none!important;
+			background-color:#000!important;
+		}
+
+	#gui table.datagrid thead th.sortDESC>a:before,
+	#gui table.datagrid thead th.sortDESC>span:before{
+		border-color: #646669 transparent transparent;
+		border-image: none;
+		border-style: solid;
+		border-width: 7px 4px;
+		content: "";
+		height: 0;
+		position: absolute;
+		right: 5px;
+		top: 9px;
+		width: 0;
+	}
+		.contrast #gui table.datagrid thead th.sortDESC>a:before,
+		.contrast #gui table.datagrid thead th.sortDESC>span:before{
+			border-color: #fff transparent transparent;
+			border-width: 13px 7px;
+		}
+	#gui table.datagrid thead th.sortASC>a:before,
+	#gui table.datagrid thead th.sortASC>span:before{
+		border-color:transparent transparent #646669;
+		border-image: none;
+		border-style: solid;
+		border-width: 7px 4px;
+		content: "";
+		height: 0;
+		position: absolute;
+		right: 5px;
+		top: 1px;
+		width: 0;
+	}
+		.contrast #gui table.datagrid thead th.sortASC>a:before,
+		.contrast #gui table.datagrid thead th.sortASC>span:before{
+			border-color: transparent transparent #fff;
+			border-width: 13px 7px;
+			top: -6px;
+		}
+
+#gui table.datagrid thead th:first-child a,
+#gui table.datagrid thead th:first-child span{
+	border-radius: 4px 0 0 4px;
+	border-width: 1px;
+}
+	.contrast #gui table.datagrid thead th:first-child a,
+	.contrast #gui table.datagrid thead th:first-child span{
+		
+	}
+
+#gui table.datagrid thead th:last-child a,
+#gui table.datagrid thead th:last-child span{
+	border-radius: 0 4px 4px 0;
+	border-width: 1px 1px 1px 0;
+}
+
+/** body **/
+#gui table.datagrid tbody a
+{
+	display:block;
+}
+
+#gui table.datagrid tbody a:hover{
+    text-decoration: none;
+}
+#gui table.datagrid > tbody tr:nth-child(2n+2){
+	background-color: #F2F2F2;
+}
+	.contrast #gui table.datagrid > tbody tr:nth-child(2n+2){
+		background-color: #fff;
+	}
+
+#gui table.datagrid > tbody > tr:first-child > td{
+ 	padding-top: 15px;
+}
+
+#gui table.datagrid tbody td{
+ 	padding: 10px 0 10px 5px;
+ 	overflow: hidden;
+    white-space: nowrap;
+}
+
+#gui table.datagrid input.inp_check{
+	width: 20px;
+	height: 20px;
+	margin: 0 0 0 7px;
+}
+
+/** Special Column Sizes **/
+#gui table.datagrid thead th.th_check{
+	width: 40px;
+}
+#gui table.datagrid tbody td.td_wrap{
+    white-space: normal;
+    line-height: 20px;
+}
+#gui table.datagrid tbody td.td_link a{
+	text-decoration: underline;
+	color: #407DD8;
+}
+
+/** no items **/
+#gui table.datagrid tfoot td{
+	height: 100px;
+    text-align: center;
+    font-size: 24px;
+    color: #AAA;
+}
+
+/** clear child-tables **/
+#gui table.datagrid tbody table td{
+	padding: 0;
+}
+
+#gui table.datagrid td .edit_detail
+{
+	background: url("../skin/fresh/images/blok.png") no-repeat scroll 0 0 transparent;
+	background-position: -312px -7px;
+	display: block;
+	height: 24px;
+	width: 25px;
+}
+
+/**************/
+/**************/
+.calendar_cover
+{
+	overflow:hidden;
+}
+
+/*****/
+.contrast #gui table.datagrid thead tr th,.contrast #gui table.datagrid thead tr th span
+{
+	font-size:18px!important;
+}
+
+.contrast #gui table.datagrid tbody tr td,.contrast #gui table.datagrid tbody tr td a
+{
+	font-size:16px;
+}
+
+#gui table.datagrid tbody tr:hover td
+{
+	cursor:pointer;
+}
+#gui.mail table.datagrid tbody tr:hover td
+{
+	background-color:#E7F5FF;
+}
+#gui.contact table.datagrid tbody tr:hover td
+{
+	background-color:#E6FFEB;
+}
+#gui.calendar table.datagrid tbody tr:hover td
+{
+	background-color:#FFF8EC;
+}
+#gui.task table.datagrid tbody tr:hover td
+{
+	background-color:#ffeff2;
+}
+#gui.note table.datagrid tbody tr:hover td
+{
+	background-color:#fff9e0;
+}
+#gui.file table.datagrid tbody tr:hover td
+{
+	background-color:#DCF1F7;
+}
+
+.contrast #gui table.datagrid tbody tr td a
+{
+	color:#000!important;
+}
+.contrast #gui table.datagrid tbody tr:hover td,.contrast #gui table.datagrid tbody tr:hover td a
+{
+	background-color:#000!important;
+	color:#fff!important;
+}
+/************/
+
+.file_link
+{
+	padding-left:20px;
+	background-repeat: no-repeat;
+}
+
+.contrast .recent
+{
+	border-left:#000 5px solid
+}
+
+td.acenter.eventrepeat
+{
+	padding:0!important;
+}
+
+.eventrepeat span
+{
+	padding-left:0!important;
+	margin-left:0!important;
+}
+.eventrepeat b
+{
+	display:block;
+	background-image:url('../skin/fresh/images/icons/eventrepeat.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.selected_box
+{
+	padding:5px;
+	font-size:12px;
+	line-height: 21px;
+	background-color: #FFF7AB;
+	margin-top:5px;
+	border:#F1DB0D 1px solid;
+}
+
+#gui .selected_box .button
+{
+	margin-left:20px;
+	line-height: 21px;
+	height:23px;
+}

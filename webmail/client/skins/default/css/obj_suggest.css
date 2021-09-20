@@ -1,0 +1,129 @@
+/* CSS Document for obj_input */
+div.gui_suggest_block{
+	position: relative;
+
+	border-radius: 2px;
+	margin-top: -1px;
+
+	background-color: #FFF;
+
+	line-height: 28px;
+	border: 1px solid #c2bfbe;
+
+	box-shadow: 0 0 3px #AAA;
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+
+}
+
+div.gui_suggest_block>div{
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+div.gui_suggest_block a{
+	position: relative;
+	display: block;
+	height: 28px;
+	white-space: nowrap;
+
+	padding: 0 8px;
+	cursor: default;
+	text-decoration: none;
+	text-overflow: ellipsis;
+    overflow: hidden;
+}
+	div.gui_suggest_block a span{
+		padding-left: 10px;
+		font-size: 11px;
+		color: #888888;
+	}
+	div.gui_suggest_block a.active span{
+		color: #EEE;
+	}
+
+.rtl div.gui_suggest_block a {
+	text-align: right;
+	direction: rtl;
+	unicode-bidi: plaintext;
+}
+.rtl div.gui_suggest_block a span {
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+div.gui_suggest_block a.wizard{
+	/*border-top: 1px solid #F0F0F0;*/
+	color: {txt_main '#0088CC'};
+}
+
+div.gui_suggest_block a.active{
+	background-color: #999;
+	color: #FFF;
+}
+/* caption */
+div.gui_suggest_block h2{
+	margin: 0;
+	padding: 0;
+	font-weight: 500;
+	color: #888;
+	position: relative;
+	font-size: 13px;
+	padding: 0 8px;
+	white-space: nowrap;
+	border-bottom: 1px solid #dfdcda;
+}
+	div.gui_suggest_block h2>span{
+		font-weight: normal;
+		position: absolute;
+		right: 8px;
+		top: 0;
+	}
+	.rtl div.gui_suggest_block h2>span {
+		right: auto;
+		left: 8px;
+	}
+	body.light div.gui_suggest_block h2>span{
+		font-weight: 200;
+	}
+	div.gui_suggest_block h2>b{
+		color: #333;
+	}
+
+/* CSS for morfing mail suggest */
+form.obj_suggest textarea{
+	width: 100%;
+	height: 54px;
+	border: none;
+	padding: 0 0 0 3px;
+	resize: none;
+}
+
+.obj_suggest div.size{
+	position: absolute;
+	padding-left: 4px;
+	position: absolute;
+	white-space: nowrap;
+	top: 0;
+	left: 0;
+
+	visibility: hidden;
+}
+
+/* Avatar */
+div.gui_suggest_block a.avatar{
+	padding-left: 33px;
+}
+div.gui_suggest_block a>span.avatar{
+	position: absolute;
+	display: block;
+	left: 1px;
+	top: 1px;
+	width: 26px;
+	height: 26px;
+	border-radius: 13px;
+
+	background: url('../images/face-placeholder.gif') center center no-repeat #FFF;
+	background-origin: border-box;
+	background-size: cover;
+}

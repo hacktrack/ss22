@@ -1,0 +1,11 @@
+body[tconly] .frm_main {padding: 0 0 0 0!important}
+
+body[tconly] .frm_main > .menu,
+body[tconly] .frm_main > .toolbar,
+body[tconly] .frm_main > .filter {
+	display: none!important
+}
+
+body[tconly] .frm_main_chat.wide .obj_tabs.roomtabs {
+	top: 41px!important;
+}

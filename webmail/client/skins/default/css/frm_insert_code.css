@@ -1,0 +1,35 @@
+.frm_insert_code .obj_popupmainbody .obj_popupmainbody_main {
+	padding: 15px;
+}
+
+.frm_insert_code .code {
+	position: absolute;
+	top: 55px;
+	left: 15px;
+	bottom: 0;
+	right: 15px;
+}
+
+.frm_insert_code textarea {
+	height: 100%;
+	width: 100%;
+	border: 0;
+	border-top: 1px solid #DDD;
+	resize: none;
+	padding: 10px 5px;
+}
+
+.frm_insert_code .language {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.rtl .frm_insert_code .language {
+	left: 15px;
+	right: auto;
+}
+
+.frm_insert_code .obj_select {
+	float: none;
+}

@@ -1,0 +1,60 @@
+form.obj_text {
+	position: relative;
+	height: 120px;
+	overflow: hidden;
+
+	background-color: #FFF;
+
+	border: 1px solid #CACACA;
+	border-radius: 2px;
+}
+.rtl form.obj_text {
+	direction: rtl;
+}
+	form.obj_text.noborder{
+		border: none;
+		border-radius: 0;
+		background-color: transparent;
+	}
+form.obj_text textarea {
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
+	margin: 0;
+	padding: 2px 8px;
+	line-height: 22px;
+
+	/* safari/chrome resize */
+	resize: none;
+	background-color: transparent;
+}
+form.obj_text.big{
+	padding-top: 11px;
+	padding-bottom: 5px;
+}
+form.obj_text.big textarea{
+	font-size: 15px;
+}
+
+
+/* placeholder */
+form.obj_text textarea::-webkit-input-placeholder  { color:#888; }
+form.obj_text textarea::-moz-placeholder { color:#888; }
+form.obj_text textarea:-ms-input-placeholder { color:#888; }
+form.obj_text textarea.placeholder{ color: #888; }
+
+form.obj_text textarea.readonly{
+	color: #666666;
+}
+
+form.obj_text.obj_text100{
+	height: 100%!important;
+	min-height: 80px;
+}
+	form.obj_text.obj_text100 textarea{
+		min-height: 80px;
+	}

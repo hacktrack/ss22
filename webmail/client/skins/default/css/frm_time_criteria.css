@@ -1,0 +1,39 @@
+.frm_time_criteria form.obj_checkbox {
+	display: inline-block!important;
+}
+
+.frm_time_criteria form.obj_input {
+	display: inline-block!important;
+	float: none;
+}
+
+.frm_time_criteria .obj_input_calendar {
+	display: inline-block;
+}
+
+.frm_time_criteria .times,
+.frm_time_criteria .dates{
+	margin-left: 7px;
+}
+
+.rtl .frm_time_criteria .times,
+.rtl .frm_time_criteria .dates {
+	margin-left: 0px;
+	margin-right: 7px;
+}
+
+.frm_time_criteria .times input,
+.frm_time_criteria .dates input {
+	width: 115px;
+}
+
+.frm_time_criteria .times .obj_input,
+.frm_time_criteria .dates .obj_input {
+	margin-right: 10px;
+}
+
+.rtl .frm_time_criteria .times .obj_input,
+.rtl .frm_time_criteria .dates .obj_input {
+	margin-right: 0px;
+	margin-left: 10px;
+}

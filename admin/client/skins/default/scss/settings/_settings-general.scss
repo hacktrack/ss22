@@ -1,0 +1,178 @@
+// Breakpoints
+$small-range		: (00.0em, 42.4375em);
+$medium-range		: (42.5em, 64.9375em);
+$large-range		: (65.0em, 91.9375em);
+$xlarge-range		: (92.0em);
+
+
+// Media Queries
+$screen				: "only screen" !default;
+
+$landscape			: "#{$screen} and (orientation: landscape)" !default;
+$portrait			: "#{$screen} and (orientation: portrait)" !default;
+
+$small-up			: $screen !default;
+$small-only			: "#{$screen} and (max-width:#{upper-bound($small-range)})" !default;
+$small-down			: "#{$screen} and (max-width:#{upper-bound($small-range)})" !default;
+
+$medium-up			: "#{$screen} and (min-width:#{lower-bound($medium-range)})" !default;
+$medium-only		: "#{$screen} and (min-width:#{lower-bound($medium-range)}) and (max-width:#{upper-bound($medium-range)})" !default;
+$medium-down		: "#{$screen} and (max-width:#{upper-bound($medium-range)})" !default;
+
+$large-up			: "#{$screen} and (min-width:#{lower-bound($large-range)})" !default;
+$large-only			: "#{$screen} and (min-width:#{lower-bound($large-range)}) and (max-width:#{upper-bound($large-range)})" !default;
+$large-down			: "#{$screen} and (max-width:#{upper-bound($large-range)})" !default;
+
+$xlarge-up			: "#{$screen} and (min-width:#{lower-bound($xlarge-range)})" !default;
+$xlarge-only		: "#{$screen} and (min-width:#{lower-bound($xlarge-range)}) and (max-width:#{upper-bound($xlarge-range)})" !default;
+$xlarge-down		: "#{$screen} and (max-width:#{upper-bound($xlarge-range)})" !default;
+
+
+// Base font size
+$base-font-size		: 14;
+$base-size-divisor	: $base-font-size / 16;
+
+// Line height
+$default-line-height: 1.625;
+$normal-line-height	: 1.2;
+
+// Font family
+$font-family		: Roboto, Helvetica, Arial, sans-serif;
+
+// Percentages
+$percent-small		: 80%;
+$percent-medium		: 90%;
+$percent-large		: 100%;
+
+// Transition speeds
+$fast				: 0.1s;
+$normal				: 0.4s;
+$slow				: 0.8s;
+
+// Layout
+$base-unit-size		: 1rem;
+$padding			: $base-unit-size;
+$gutter				: $base-unit-size;
+$size				: $base-unit-size;
+
+// Border-radius
+$radius				: 3px;
+$radius-large		: 6px;
+$circle				: 50%;
+$oval				: 9999px;
+
+// Colors
+$primary			: #4e2782;
+$error				: #cc3333;
+$warning			: #dda500;
+$success			: #00cc66;
+$dark				: #444;
+$darker				: #272a2d;
+$white				: #fff;
+$lighter-grey		: #f8f8f8;
+$light-grey			: #eff3f7;
+$border-grey		: #bbbbbb;
+$blue-grey			: #cfd5db;
+$grey 				: #9b9ea3;
+$text-grey			: #666;
+$transparent		: transparent;
+
+// Icon variables
+$icon-null					: null;
+$icon-none 					: null;
+$icon-false 				: null;
+$icon-add 					: '\e600';
+$icon-administrator 		: '\e601';
+$icon-administrator_system	: '\e914';
+$icon-arrow-back 			: '\e602';
+$icon-card 					: '\e603';
+$icon-close 				: '\e604';
+$icon-collaboration 		: '\e605';
+$icon-dashboard 			: '\e606';
+$icon-delete-circle 		: '\e607';
+$icon-email 				: '\e609';
+$icon-expiration 			: '\e60a';
+$icon-folder 				: '\e60b';
+$icon-icewarp-logo 			: '\e60c';
+$icon-licenses 				: '\e60d';
+$icon-limits 				: '\e60e';
+$icon-mailing-list 			: '\e60f';
+$icon-menu 					: '\e610';
+$icon-mobile 				: '\e611';
+$icon-pause-circle 			: '\e612';
+$icon-plus-circle 			: '\e613';
+$icon-resources 			: '\e614';
+$icon-rules 				: '\e615';
+$icon-search-circle 		: '\e616';
+$icon-security 				: '\e617';
+$icon-sent 					: '\e618';
+$icon-server 				: '\e619';
+$icon-services 				: '\e61a';
+$icon-settings 				: '\e61b';
+$icon-storage 				: '\e61c';
+$icon-support-circle 		: '\e61d';
+$icon-terminal-circle 		: '\e61e';
+$icon-user 					: '\e61f';
+$icon-administrator_domain 	: '\e620';
+$icon-outlook_sync 			: '\e621';
+$icon-icewarp_desktop 		: '\e622';
+$icon-devices 				: '\e623';
+$icon-checkmark 			: '\e624';
+$icon-xmark 				: '\e625';
+$icon-hyphen 				: '\e626';
+$icon-user_default 			: '\e627';
+$icon-home 					: '\e628';
+$icon-facebook 				: '\e629';
+$icon-twitter 				: '\e62a';
+$icon-linkedin 				: '\e62b';
+$icon-apple 				: '\e62c';
+$icon-android 				: '\e62d';
+$icon-blackberry 			: '\e62e';
+$icon-windows 				: '\e62f';
+$icon-info 					: '\e630';
+$icon-warning 				: '\e631';
+$icon-to-all-users 			: '\e632';
+$icon-to-folder 			: '\e633';
+$icon-spam-folder 			: '\e635';
+$icon-journal 				: '\e636';
+$icon-documents 			: '\e637';
+$icon-notes 				: '\e638';
+$icon-webmail-circle		: '\e639';
+$icon-delete				: '\e63a';
+$icon-spam					: '\e63b';
+$icon-edit-circle			: '\e63c';
+$icon-arrow-forward			: '\e63d';
+$icon-arrow-up				: '\e63e';
+$icon-arrow-down			: '\e63f';
+$icon-dropup-arrow			: '\e640';
+$icon-terminal				: '\e900';
+$icon-webclient				: '\e901';
+$icon-support				: '\e902';
+$icon-dropdown-arrow		: '\e903';
+$icon-star					: '\e904';
+$icon-logout				: '\e905';
+$icon-cert-authority		: '\e906';
+$icon-cert-icewarp			: '\e907';
+$icon-cert-letsencrypt		: '\e908';
+$icon-cert-signed			: '\e909';
+$icon-cert-email			: '\e90a';
+$icon-cert-ssl				: '\e90b';
+$icon-lock					: '\e90c';
+$icon-plan					: '\e90d';
+$icon-subscription			: '\e90e';
+$icon-price-1				: '\e90f';
+$icon-price-2				: '\e910';
+$icon-price-3				: '\e911';
+$icon-hat					: '\e912';
+$icon-hypervisor			: '\e913';
+$icon-billing-ico: '\e915';
+$icon-card-ico: '\e916';
+$icon-cluster-ico: '\e917';
+$icon-edit-ico: '\e918';
+$icon-expiration-ico: '\e919';
+$icon-hypervisor-ico: '\e91a';
+$icon-info-ico: '\e91b';
+$icon-order-ico: '\e91c';
+$icon-plan-ico: '\e91d';
+$icon-storage-ico: '\e91e';
+$icon-user-ico: '\e91f';

@@ -1,0 +1,50 @@
+// Toast
+// Informational animation with text, shows from the bottom of the screen on some user actions (save, delete..).
+
+// Block
+.toast {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: z('toast');
+	text-align: center;
+	background-color: rgba($darker, 0.9);
+	color: $white;
+	cursor: default;
+	font-size: rem(30);
+	padding: p(2) p(4);
+
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translateY(size(3.5));
+	        transform: translateY(size(3.5));
+
+	-webkit-transition:
+		-webkit-transform $normal ease-in-out,
+		visibility $normal,
+		opacity $normal;
+
+	transition:
+		transform $normal ease-in-out,
+		visibility $normal,
+		opacity $normal;
+
+	&.active {
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+}
+
+.toast-close {
+	position: absolute;
+	font-weight: 300;
+	top: 0;
+	right: g(1);
+
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,52 @@
+/* checkbox */
+div.frm_reminder .obj_datagrid .obj_datagrid-body .check div{
+    background: url("../images/checkbox.gif") no-repeat scroll center 10px;
+}
+div.frm_reminder .obj_datagrid .obj_datagrid-body .check div.checked {
+    background-position: center -36px;
+}
+
+/* type icons */
+div.frm_reminder .obj_datagrid .obj_datagrid-body div.ico.type > div.reminder_E:before {
+    content: "\e05";
+}
+div.frm_reminder .obj_datagrid .obj_datagrid-body div.ico.type > div.reminder_T:before {
+    content: "\e003";
+}
+
+/* conference button */
+div.frm_reminder .obj_datagrid .obj_datagrid-body div.ico.button > div{
+	text-indent: 0;
+}
+	div.frm_reminder .obj_datagrid .obj_datagrid-body div.ico.button > div.conference:before{
+		display: block;
+		position: static;
+		content: '\e987';
+		font-family: 'ico16';
+
+		background-color: {bg_main '#0088CC'};
+		border: 1px solid {bc_main_darker '#006DA3'};
+
+		border-radius: 2px 2px 2px 2px;
+		cursor: default;
+
+		margin: 3px;
+		line-height: 24px;
+		height: 24px;
+		width: 25px;
+
+		text-align: center;
+		text-indent: 0;
+		color: #FFF;
+	}
+	div.frm_reminder .obj_datagrid .obj_datagrid-body div.ico.button > div.conference:hover:before{
+		background-color: {bg_main_darker '#006DA3'};
+	}
+
+/*** FOOTER ***/
+div.frm_reminder form.obj_select{
+	width: 130px;
+}
+div.frm_reminder form.obj_button.ico.snooze:after{
+	content: '\e082';
+}

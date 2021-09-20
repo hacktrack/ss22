@@ -1,0 +1,76 @@
+// Dropdown
+// <select> form element.
+
+// Block
+// Container used for styling the custom select
+.dropdown {
+	@include form-element('select'); // <textarea>, <input> and dropdown object share these styles
+	@include dropdown-arrow; // Adds dropdown arrow icon
+	overflow: hidden; // Fixes bugs with word-wrap on the select element with long options by hiding wrapped words
+	line-height: $object-height;
+
+	// States
+	&.focus {
+
+		// Dropdown arrow
+		&::after {
+
+			@include theme {
+				color: $theme-primary;
+			}
+		}
+	}
+
+	&.short {
+		max-width: rem(140);
+	}
+
+	.table-head & {
+		color: inherit;
+	}
+}
+
+
+// Elements
+// This is the native select, we're making everything but the text invisible so we can see the button styles in the wrapper
+.dropdown select {
+	padding-right: p(3); // Compensate for arrow-down icon
+	white-space: normal;
+	line-height: $object-height;
+
+	// States
+	&:not([disabled]) {
+		cursor: pointer;
+	}
+
+	&:focus {
+		outline: none;
+		background-color: transparent;
+	}
+
+	.table-head & {
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	// IE 10/11+ - This hides native dropdown button arrow so it will have the custom appearance
+	// The second rule removes the odd blue bg color behind the text in the select button in IE 10/11 and sets the text color to match the focus style's
+	&::-ms-expand {
+		display: none;
+	}
+
+	&:focus::-ms-value {
+		background: transparent;
+		color: $dark;
+	}
+
+	// Firefox focus has odd artifacts around the text, this kills that.
+	&:-moz-focusring {
+		color: transparent;
+		text-shadow: 0 0 0 #000;
+	}
+}
+
+.dropdown option {
+	font-weight: normal;
+}

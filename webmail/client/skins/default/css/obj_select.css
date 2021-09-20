@@ -1,0 +1,180 @@
+form.obj_select{
+	position: relative;
+	padding-right: 20px;
+	width: 180px;
+	cursor: pointer;
+}
+.rtl form.obj_select {
+	padding-left: 20px;
+	padding-right: 0;
+}
+	form.obj_select.small{
+		width: 100px;
+	}
+	form.obj_select.small60{
+		width: 60px;
+	}
+	form.obj_select.small80{
+		width: 80px;
+	}
+	form.obj_select.small120{
+		width: 120px;
+	}
+
+	form.obj_input.obj_select.max{
+		width: 100%;
+		float: none;
+	}
+
+form.obj_select:before{
+	content: '\e043';
+	font-family: 'ico16';
+	position: absolute;
+	width: 14px;
+	height: 16px;
+	right: 5px;
+	top: 13px;
+	font-size: 14px;
+	color: {ico_main '#0088CC'};
+	cursor: pointer;
+}
+form.obj_select.big:before{
+	top: 20px;
+}
+form.obj_select.big:before{
+	top: 20px;
+}
+.rtl form.obj_select:before {
+	left: 6px;
+	right: auto;
+}
+
+form.obj_select.disabled,
+form.obj_input.obj_select.readonly.disabled > label{
+	color: #888888;
+	cursor: default;
+}
+
+form.obj_select>input{
+	width: 100%;
+}
+
+.rtl form.obj_select>input {
+	direction: rtl;
+}
+
+form.obj_input.obj_select>label{
+	display: none;
+}
+
+form.obj_input.obj_select.readonly>label{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 20px;
+	background: transparent;
+
+	line-height: 26px;
+	text-indent: 8px;
+	cursor: pointer;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+form.obj_input.obj_select.readonly>input{
+	visibility: hidden;
+}
+
+.rtl form.obj_input.obj_select.readonly>label {
+	left: 20px;
+	right: 0;
+}
+
+form.obj_input.obj_select.readonly.pd_color>label {
+	background: transparent;
+}
+
+/* noborder */
+form.obj_select.noarrow {
+	padding-right: 0;
+}
+
+.rtl form.obj_select.noarrow {
+	padding-left: 0;
+}
+
+form.obj_select.disabled:before,
+form.obj_select.noarrow:before{
+	display: none;
+}
+
+/* ico */
+
+form.obj_select[iw-value~="ico"]:after,
+form.obj_select .obj_select_plus a.ico:after,
+.obj_select_plus a.ico:after{
+	content: '';
+	font-family: 'ico16';
+	text-indent: 0;
+	font-size: 16px;
+	line-height: 16px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	z-index: 10;
+}
+.rtl form.obj_select[iw-value~="ico"]:after,
+.rtl form.obj_select .obj_select_plus a.ico:after,
+.obj_select_plus a.ico:after {
+	left: auto;
+	right: 5px;
+}
+form.obj_input.obj_select[iw-value~="ico"]>label{
+	text-indent: 28px;
+}
+div.obj_select_plus a.ico{
+	text-indent: 21px;
+}
+div.obj_select_plus a.ico:after{
+	left: 5px;
+	top: 6px;
+}
+
+/* pulldown */
+div.obj_select_plus{
+	margin: 0;
+	font-size: 13px;
+	font-weight: normal;
+	color: #333;
+}
+div.obj_select_plus{
+	line-height: 28px;
+}
+.rtl div.obj_select_plus{
+	direction: rtl;
+}
+div.obj_select_plus>div{
+	overflow: hidden;
+	max-height: 294px;
+}
+div.obj_select_plus>div>a{
+	display: block;
+	position: relative;
+
+	width: inherit;
+
+	height: 28px;
+	white-space: nowrap;
+
+	padding: 0 8px;
+	cursor: pointer;
+	color: #333;
+}
+
+div.obj_select_plus>div>a.active{
+	color: {txt_main '#8800cc'};
+}
+div.obj_select_plus>div>a:hover{
+	background-color: #e9e9e9;
+}

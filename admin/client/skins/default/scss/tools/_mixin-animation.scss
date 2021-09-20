@@ -1,0 +1,16 @@
+@mixin keyframes($animation-name) {
+
+	@-webkit-keyframes 	#{$animation-name} { @content; }
+	@keyframes 			#{$animation-name} { @content; }
+}
+
+@mixin animation(
+	$name: null,
+	$duration: $normal,
+	$easing: ease-in-out,
+	$fill: backwards,
+	$count: null
+) {
+	-webkit-animation: unquote($name) $duration $easing $fill $count;
+	        animation: unquote($name) $duration $easing $fill $count;
+}

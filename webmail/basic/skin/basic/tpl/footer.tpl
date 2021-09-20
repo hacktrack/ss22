@@ -1,0 +1,1 @@
+<center id="footerBox"><div class="footer">{copyright}</div></center>

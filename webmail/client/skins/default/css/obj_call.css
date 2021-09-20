@@ -1,0 +1,76 @@
+
+.obj_call.obj_context>ul {
+    min-width: 200px;
+}
+
+.obj_call li.avatar>div{
+    height: 77px;
+    padding: 14px 5px 5px 85px;
+}
+.obj_call li.avatar b{
+    background: url("../images/face-placeholder.gif") no-repeat scroll center center / cover #C6C4C2;
+    display: block;
+    height: 65px;
+    width: 65px;
+
+    overflow: hidden;
+    position: absolute;
+
+    top: 7px;
+    left: 7px;
+
+    border-radius: 33px;
+    /*border: 1px solid rgba(0, 0, 0, 0.1);    */
+}
+
+.obj_call .obj_label.lbl_user{
+    color: {txt_main '#0088CC'};
+}
+
+.obj_call .obj_label.lbl_clock{
+    position: absolute;
+    right: 0;
+    top: 14px;
+    padding-right: 10px;
+    background-color: inherit;
+}
+
+
+.obj_call li.ico.answer a>span:before{
+    content: '\e032';
+}
+.obj_call li.ico.video a>span:before{
+    content: '\e600';
+}
+
+
+
+.obj_call li.ico.decline a>span:before{
+    content: '\e030';
+    color: #BC6256;    
+}
+
+
+.obj_call li.ico.chat a>span:before{
+    content: '\e035';
+    font-family: 'ico16'!important;
+}
+.obj_call li.ico.mute a>span:before{
+    content: '\e01e';
+}
+    .obj_call li.ico.mute.active a>span:before{
+        content: '\e01f';
+        color: #BF6559;
+    }
+
+.obj_call li.ico.hangup a>span:before{
+    content: '\e030';
+}
+
+.obj_call li.ico.dial a>span:before{
+    content: '\e602';
+}
+
+.obj_call li.keypad>div{
+    padding: 10px 6px!important;
+}

@@ -1,0 +1,22 @@
+form.obj_label {
+	margin: 0;
+	padding: 0;
+	line-height: 28px;
+	overflow: hidden;
+}
+form.obj_label>label{
+	display: inline-block;
+}
+form.obj_label.nowrap>label{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+form.obj_label.error{
+	color: #B75055;
+}
+
+form.obj_label.center{
+	text-align: center;
+}

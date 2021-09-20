@@ -1,0 +1,56 @@
+<window>
+	<helper>auth</helper>
+	<helper>folder</helper>
+	<config>
+		<stylesheet>
+			<src>win.main</src>
+			<src>default</src>
+			<src>menu</src>
+			<src>skin</src>
+		</stylesheet>
+		<javascript>
+			<src>menu</src>			
+		</javascript>
+	</config>
+	
+	<!-- theme set start -->
+	<panel template="theme.start" />
+	<!-- /theme set start -->
+	
+	<!-- Top menu -->
+	<panel css="menu">
+		<menu />
+	</panel>	
+	<!-- Content -->
+	
+	<panel css="main" onclick="resizerFit();">
+		<!-- Internal window(content) -->
+		<panel css="mainBox">
+		
+		<panel css="mainContentBox">
+		
+		<panel css="main_content" id="main_content">
+		
+			<panel id="main_contentInnerBox" css="main_contentInnerBox">
+				<view id="content" default="grid.mail" />
+			</panel>
+			
+		</panel>
+		<panel css="cleaner"></panel>
+		</panel>
+		<panel css="cleaner"></panel>
+		</panel>
+	</panel>
+	<panel css="blank_footer">
+	</panel>
+	
+	<panel css="resizer" id="resizer">
+		<panel css="resizerInner" id="resizerInner">
+		</panel>
+	</panel>
+	
+	<!-- theme set end -->
+	<panel template="theme.end" />
+	<!-- /theme set end -->
+	
+</window>

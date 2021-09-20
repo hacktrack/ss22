@@ -1,0 +1,55 @@
+<!--
+LOGIN_PAGE_URL - The URL of the default login page (for example : http://mail.example.com/webmail/)
+TIMEZONE (optional)                  - Timezone, the shift in minutes from GMT (for example : 60). Can be done automatically with JS code executed on page load: document.getElementById('ctz').value=(new Date().getTimezoneOffset())*(-1);
+LANGUAGE_CODE (optional)             - Language to be used [en,pt,cs,...]
+INTERFACE                 - Interface to log in [pro,basic,pda]
+REFERER_URL (optional)               - URL to page you want to go after logout. Login error is returned as a GET parameter named "eid" (for example ?eid=login_invalid)
+-----------------------------------------------------------
+If you don't use optional fields, delete or comment the line with the field!
+-->
+
+<form method="post" action="LOGIN_PAGE_URL">
+	<input type="hidden" name="referer" value="REFERER_URL" />
+	<input type="hidden" name="ctz" id="ctz" value="TIMEZONE" />
+	<input type="hidden" name="language" value="LANGUAGE_CODE" />
+	<input type="hidden" name="to" id="to" value="INTERFACE" />
+	<input type="text" name="iw_username" value=""/>
+	<input type="password" name="password" value=""/>
+	<input type="hidden" name="disable_ip_check" value="1"/>
+	<input type="hidden" name="_c" value="auth" />
+	<input type="hidden" name="_a[login]" value="1"/>
+	<input type="hidden" name="type" value="external"/>
+	<input type="hidden" name="_n[js]" value="0" id="jscontrol"/>
+	<input type="submit" value="Login"/>
+</form>
+
+<!-- Using the line below is highly recommended to work fine with javascript in tablet interface -->
+<!--<script>if(document.getElementById('jscontrol')){document.getElementById('jscontrol').value='1';}</script>-->
+<!-- Uncomment the line below if you want to set TIMEZONE automatically by javascript -->
+<!-- <script>if(document.getElementById('ctz')){document.getElementById('ctz').value=(new Date().getTimezoneOffset())*(-1);}</script> -->
+
+<!-- Uncomment the line below if you want to set INTERFACE automatically by javascript (PRO or PDA). For best usability, set the INTERFACE to "basic" (will be used for users without javascript)-->
+<!--
+<script>
+// If Android, go Tablet interface
+if (navigator.appVersion.indexOf("Android")!=-1) {document.getElementById('to').value='basic';}
+// If mobile browser, go Mobile interface
+if (navigator.appVersion.indexOf("Mobile")!=-1) {document.getElementById('to').value='pda';}
+// If ipad, go Tablet interface
+if (navigator.appVersion.indexOf("iPad")!=-1) {document.getElementById('to').value='basic';}
+</script>
+-->
+
+<!-- You can find an example of error reporting (handled by javascript) under this comment. Uncomment it to make it working -->
+<!--
+<script>
+var uq=location.href.split('?');if (uq[1]){uq=uq[1].split('&');for(var v in uq){var k=uq[v].split('=');if (k[0]=='eid'){switch(k[1])
+{
+	case 'login_invalid':
+		alert('Login invalid');
+		break;
+	default:
+		alert('An error occured ['+k[1]+']');
+}}}}
+</script>
+-->

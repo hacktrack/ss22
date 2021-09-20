@@ -1,0 +1,356 @@
+// Preview
+// Shows preview of various pages in Whitelabeling.
+
+// Placeholder
+%opacity 	{ opacity: 1; }
+%show 		{ display: none; }
+
+
+// Block
+.preview {
+	@include user-select;
+	@include border('outline');
+	background: center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	max-width: $image-max-width;
+	height: 0;
+	padding-bottom: correct-ratio($image-max-width, $image-ratio);
+
+	transition: background-image $normal;
+
+	@media #{$medium-down} {
+		width: auto !important;
+	}
+
+	@include theme($qualified: true) {
+		color: $theme-primary;
+	}
+}
+
+// Elements
+.preview__image {
+	@include full-absolute;
+	opacity: 0;
+	-webkit-transform: none;
+	        transform: none;
+
+	transition:
+		opacity $normal,
+		transform $normal;
+
+	-webkit-transition:
+		opacity $normal,
+		-webkit-transform $normal;
+
+
+	&[iw-image~="background"], &[iw-image="base"] {
+		@extend %opacity;
+	}
+}
+
+// LOGIN CARD
+.preview__card {
+	-webkit-transform-origin: top;
+			transform-origin: top;
+	-webkit-transform: scale(0.5);
+			transform: scale(0.5);
+	background: white;
+	width: 280px;
+	border-radius: 6px;
+	text-align: center;
+	opacity: 0.97;
+	margin: auto;
+	margin-top: 2rem;
+	box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+
+	a {
+		color: currentColor;
+		font-weight: bold;
+	}
+}
+
+.preview__card-section {
+	margin-bottom: -1px;
+	padding: 1rem 1.25rem;
+}
+
+.preview__card-section + .preview__card-section {
+	border-top: 1px solid #dddddd;
+}
+
+.preview__card-section--form {
+	padding: 0;
+}
+
+.preview__language {
+	text-align: right;
+
+	color: currentColor;
+}
+
+.preview__logo {
+	height: 2rem;
+	margin: 0.5rem 0;
+	padding: 0 !important;
+
+	.login-logo {
+		max-width: 100%;
+		max-height: 100%;
+		height: auto;
+	}
+
+	.login-logo__w {
+		fill: currentColor !important;
+	}
+}
+
+.preview__text {
+
+	h1 {
+		color: currentColor;
+		font-size: 1.6em;
+		font-weight: normal;
+		text-shadow: 0 0 1px currentColor;
+		white-space: nowrap;
+	}
+
+	p {
+		color: $dark;
+	}
+}
+
+.preview__input {
+	height: 3rem;
+	line-height: 3rem;
+	text-align: left;
+
+	color: $dark;
+
+	strong {
+		background-color: white;
+	}
+
+	span {
+		position: absolute;
+		z-index: -1;
+
+		// font-size: 1.2em;
+		color: $blue-grey;
+	}
+
+	span, strong {
+		padding: 0 1.25rem;
+	}
+}
+
+.preview__button {
+	margin-bottom: 0.5rem;
+
+	button {
+		height: 3rem;
+		border-radius: 3px;
+		width: 100%;
+		padding: 0.25rem 0.5rem;
+		font-weight: bold;
+
+		background-color: currentColor;
+	}
+
+	span {
+		color: white;
+	}
+}
+
+.preview__checkbox {
+	float: left;
+	color: $dark;
+
+	i, label {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	i {
+		border: 1px solid grey;
+		width: 1em;
+		height: 1em;
+		border-radius: 3px;
+	}
+
+	label {
+		font-size: 0.8em;
+		margin-left: 0.25rem;
+	}
+}
+
+.preview__link {
+	float: right;
+	text-align: right;
+}
+
+.preview__footer {
+	@include flexbox;
+	@include align-items(center);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	width: 200%;
+
+	font-size: 0.8em;
+
+	background-color: $white;
+
+	transform-origin: left bottom;
+	transform: scale(0.5);
+
+	span {
+		vertical-align: middle;
+
+		color: $dark;
+	}
+}
+
+.preview__icon {
+	background-size: 100%;
+	display: inline-block;
+
+	width: 20px;
+	height: 20px;
+	margin: 0 0.25em;
+}
+
+@each $letter, $string in $data-preview-icons {
+
+	.preview__icon--#{$letter} {
+		background-image: url('#{$string}');
+	}
+}
+
+.preview__footer--left, .preview__footer--center, .preview__footer--right {
+	padding: 6px 12px;
+}
+
+.preview__footer--left, .preview__footer--right {
+	@include flex(1, 1, 0);
+}
+
+.preview__footer--center {
+	@include flex(none);
+}
+
+.preview__footer--left 		{ text-align: left; }
+.preview__footer--right 	{ text-align: right; }
+
+.preview__footer--center 	{ text-align: center; }
+
+
+// IceChat
+.preview-icechat {
+	padding: 0.5rem 0 0.1px;
+	margin: 1.5rem;
+
+	font-size: 8px;
+
+	background-color: white;
+	border-radius: 3px;
+
+	.preview__logo {
+		height: 2rem;
+		margin: 0.5rem 0;
+	}
+
+	.login-logo {
+		width: 50%;
+		margin: auto;
+		display: block;
+	}
+
+	p {
+		padding: 0 0.5rem;
+
+		color: #111 !important;
+	}
+}
+
+.preview-icechat hr {
+	background: #ccc;
+};
+
+.preview-icechat__subtitle {
+	font-size: 6px;
+	text-align: center;
+}
+
+.preview-icechat__button {
+	margin: 0.5rem;
+	padding: 0.5rem;
+
+	text-align: center;
+	letter-spacing: 1px;
+
+	background-color: currentColor;
+	border-radius: 3px;
+
+	span {
+		color: white;
+	}
+}
+
+
+// Modifiers
+.preview[iw-page="login"] {
+	@include backgrounds;
+
+	@include theme($qualified: true) {
+		color: $theme-primary;
+	}
+}
+
+.preview[iw-page="icechat"] {
+	max-width: $mobile-image-max-width;
+	padding-bottom: correct-ratio($mobile-image-max-width, $mobile-image-ratio);
+
+	@include theme($qualified: true, $map: $wc-themes) {
+		color: $theme-primary;
+	}
+}
+
+.preview[iw-skin="banner"] .preview__image {
+
+	// Move preview images down 7% when using banner skin
+	&[iw-image~="skin"], &[iw-image~="content"], &[iw-image~="topbar"] {
+		-webkit-transform: translateY(7%);
+		        transform: translateY(7%);
+	}
+}
+
+// List all toggle-able elements in WebAdmin Login Preview
+@each $feature in $map-login-elements {
+
+	.preview[iw-page="login"]:not([iw-enabled~="#{$feature}"]) [iw-section~="#{$feature}"] {
+		@extend %hide;
+		// display: none;
+	}
+}
+
+// List all skins in WebClient
+@each $skin in $map-webclient-skins {
+
+	.preview[iw-page="webclient-skin"][iw-skin~="#{$skin}"] .preview__image[iw-image~="#{$skin}"] {
+		@extend %opacity;
+		// opacity: 1;
+	}
+}
+
+// List all WebClient theme colors for Preview
+@each $theme, $properties in $wc-themes {
+
+	.preview[iw-style="#{$theme}"] .preview__image[iw-image~="skin--#{$theme}"] {
+		@extend %opacity;
+		// opacity: 1;
+	}
+}

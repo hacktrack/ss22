@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="A"/>
+  <ITEM id="attachments" value="Allegati"/>
+  <ITEM id="bytes" value="Byte"/>
+  <ITEM id="view_mail" value="Visualizza"/>
+  <ITEM id="show_source" value="Mostra sorgente"/>
+  <ITEM id="title" value="Challenge Response"/>
+  <ITEM id="request" value="Per dimostrare che il tuo messaggio è stato inviato da una persona e non da un computer, digita il testo alfanumerico mostrato nell&apos;immagine sottostante e clicca OK. Questa operazione ti verrà richiesta una sola volta per questo indirizzo e-mail."/>
+  <ITEM id="result_ok" value="La parola digitata corrisponde. Il tuo indirizzo e-mail è stato autorizzato."/>
+  <ITEM id="result_error" value="La parola digitata non corrisponde. Per cortesia, riprova."/>
+  <ITEM id="result_already" value="Il tuo indirizzo e-mail è già stato autorizzato."/>
+  <ITEM id="result_black" value="Il tuo indirizzo e-mail è stato inserito nella lista nera."/>
+  <ITEM id="result_notfound" value="Il tuo indirizzo e-mail non è stato trovato. Probabilmente è stato cancellato. Invia nuovamente il tuo messaggio, per cortesia."/>
+  <ITEM id="thanks" value="Grazie per la collaborazione."/>
+  <ITEM id="reason" value="Perché facciamo questo?"/>
+  <ITEM id="explanation" value="I messaggi pubblicitari indesiderati vengono generati in modo automatico da computer, che non sono in grado di rispondere a questo genere di richieste. Utilizzando questo sistema di autorizzazioni per la posta elettronica, restringo i messaggi che ricevo ai soli mittenti che si sono autenticati, dimostrando che sono persone che desiderano realmente comunicare con me."/>
+  <ITEM id="thanks2" value="Grazie per aver contribuito a combattere lo spam!"/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="IceWarp Software"/>
+  <ITEM id="gateway_link_label" value="Gestisci quarantena/spam in linea"/>
+  <ITEM id="copyright2" value="Tutti i diritti riservati."/>
+  <LIST>
+    <ITEM id="title" value="Rapporto spam IceWarp"/>
+    <ITEM id="intro" value="Questo rapporto generato automaticamente, elenca i messaggi contenuti nella cartella Posta indesiderata (o Quarantena) del tuo account di posta elettronica.&lt;br&gt;Ti consente di effettuare operazioni amministrative cliccando uno dei bottoni a fianco all&apos;intestazione di ciascun messaggio.&lt;br/&gt;NOTA: i rapporti mostrano soltanto il primo messaggio inviato da ciascun mittente. Se decidi di accettarlo, verranno consegnati tutti i messaggi dello stesso mittente."/>
+    <ITEM id="outro" value="Puoi cliccare uno dei collegamenti qui sopra per effettuare le operazioni selezionate su TUTTI i messaggi rimanenti nella tua cartella Posta indesiderata o Quarantena."/>
+    <ITEM id="admin_action" value="Seleziona un&apos;azione per tutti gli elementi in tutti gli account"/>
+    <ITEM id="account_action" value="Seleziona un&apos;azione per tutti gli elementi dell&apos;account"/>
+    <ITEM id="you_are_admin" value="Opzioni Amministratore dello spam"/>
+    <ITEM id="sender" value="Da"/>
+    <ITEM id="subject" value="Oggetto"/>
+    <ITEM id="recipient" value="A"/>
+    <ITEM id="date" value="Data"/>
+    <ITEM id="time" value="Ora"/>
+    <ITEM id="actions" value="Azioni"/>
+    <ITEM id="delete" value="Elimina"/>
+    <ITEM id="authorize" value="In lista bianca"/>
+    <ITEM id="accept" value="Consegna"/>
+    <ITEM id="blacklist" value="In lista nera"/>
+    <ITEM id="deleteall" value="Elimina"/>
+    <ITEM id="authorizeall" value="In lista bianca"/>
+    <ITEM id="acceptall" value="Consegna"/>
+    <ITEM id="blacklistall" value="In lista nera"/>
+    <ITEM id="submit" value="Esegui"/>
+    <ITEM id="view" value="Mostra il messaggio"/>
+    <ITEM id="msgsubject" value="Rapporto spam del %%Current_Date%%"/>
+    <ITEM id="domain" value="Dominio"/>
+    <ITEM id="account" value="Account"/>
+    <ITEM id="location" value="Posizione"/>
+    <ITEM id="type_quarantine" value="Quarantena"/>
+    <ITEM id="type_spam" value="Posta indesiderata"/>
+    <ITEM id="delivery_problem" value="Impossibile consegnare il messaggio all&apos;account"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autorizzazione del mittente"/>
+      <ITEM id="success" value="Il mittente è stato autorizzato."/>
+      <ITEM id="failure" value="Non si è potuto autorizzare il mittente."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Consegna messaggio"/>
+      <ITEM id="success" value="Il messaggio è stato consegnato."/>
+      <ITEM id="failure" value="Non si è potuto consegnare il messaggio."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Eliminazione messaggio"/>
+      <ITEM id="success" value="Il messaggio è stato cancellato e rimosso dalla coda."/>
+      <ITEM id="failure" value="Non si è potuto eliminare il messaggio."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Mittente respinto"/>
+      <ITEM id="success" value="Il mittente è stato inserito nella lista nera."/>
+      <ITEM id="failure" value="Non si è potuto inserire il mittente nella lista nera."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Visualizzazione messaggio"/>
+      <ITEM id="failure" value="Il messaggio non può essere visualizzato. Ciò può accadere quando il messaggio è già stato rimosso dalla Quarantena (o dalla cartella Spam)."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Errore"/>
+      <ITEM id="failure" value="L&apos;operazione richiesta non può essere effettuata."/>
+      <ITEM id="wrongid" value="Identificativo del messaggio non valido. Il messaggio indicato è già stato rimosso dalla Quarantena (o dalla Posta indesiderata)."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autorizzazione del mittente"/>
+      <ITEM id="success" value="Il mittente è stato autorizzato e il messaggio è stato consegnato."/>
+      <ITEM id="failure" value="Non si è potuto autorizzare il mittente o consegnare il messaggio."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Consegna messaggio"/>
+      <ITEM id="success" value="Il messaggio è stato consegnato."/>
+      <ITEM id="failure" value="Non si è potuto consegnare il messaggio."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Eliminazione messaggio"/>
+      <ITEM id="success" value="Il messaggio è stato eliminato dalla cartella della Posta indesiderata."/>
+      <ITEM id="failure" value="Non si è potuto eliminare il messaggio."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Mittente respinto"/>
+      <ITEM id="success" value="Il mittente è stato inserito nella lista nera e il messaggio rimosso dalla cartella della Posta indesiderata."/>
+      <ITEM id="failure" value="Non si è potuto inserire il mittente nella lista nera o eliminare il messaggio."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Visualizzazione messaggio"/>
+      <ITEM id="failure" value="Il messaggio non può essere visualizzato. Ciò può accadere quando il messaggio è già stato cancellato."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Errore"/>
+      <ITEM id="failure" value="L&apos;operazione richiesta non può essere effettuata."/>
+      <ITEM id="wrongid" value="Identificativo del messaggio non valido. Il messaggio indicato è già stato rimosso dalla Quarantena (o dalla cartella Posta indesiderata)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Fallito"/>
+      <ITEM id="failure" value="Impossibile eseguire l&apos;operazione richiesta."/>
+      <ITEM id="wrongid" value="ID amministratore non valido. L&apos;account amministrativo specificato non esiste più."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="I rapporti spam sono disabilitati %s"/>
+    <ITEM id="challenge_already_running" value="I rapporti spam sono già in corso di elaborazione"/>
+    <ITEM id="challenge_invalid_path_variable" value="Percorso dei rapporti spam non impostato correttamente: %s"/>
+    <ITEM id="api_findinitquery" value="API rapporti spam: accesso a oggetto account IceWarp. Dominio: %s, Filtro: %s"/>
+    <ITEM id="challenge_language_file_missing" value="Il file della lingua dei rapporti spam non è presente: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Il file della lingua dei rapporti spam è danneggiato: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Hash dei rapporti spam non valido ( possibile attacco URL): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

@@ -1,0 +1,30 @@
+/* Smile box */
+div.frm_smilebox{
+	border: 1px solid #EDEDED;
+	border-radius: 3px;
+	background: #FFF;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+div.frm_smilebox:after{
+	content: "";
+	position: absolute;
+	bottom: -16px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-top-color: #EDEDED;
+}
+
+div.frm_smilebox.arrow_top:after{
+	bottom: auto;
+	top: -16px;
+	border: 8px solid transparent;
+	border-top-color: transparent;
+	border-bottom-color: #EDEDED;
+}
+.rtl div.frm_smilebox:after {
+	left: 10px;
+	right: auto;
+}

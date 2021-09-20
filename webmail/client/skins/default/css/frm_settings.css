@@ -1,0 +1,286 @@
+.frm_settings .tabsmall,
+.frm_settings_admin .tabsmall{
+	padding-left: 20px;
+}
+
+.frm_settings form.obj_label_certificate{
+	height: 100px;
+	display: block;
+	border: 1px solid #99998E;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+form.obj_label_certificate label{
+	display: block;
+	padding: 10px;
+}
+
+/* backup */
+.frm_settings table.import_info .th{
+	padding-left: 25px;
+	position: relative;
+}
+.rtl .frm_settings table.import_info .th {
+	padding-left: auto;
+	padding-right: 25px;
+}
+.rtl .frm_settings table.import_info .th:before {
+	left: auto;
+	right: 0;
+}
+
+.frm_settings table.import_info .th:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	content: '\e017';
+	font-family: 'ico16';
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.frm_settings table.import_info .th.event:before{
+	content: '\e05';
+}
+
+/* mail general */
+form.obj_select.default_flag[iw-value="ico bg_red"]:after,
+.obj_select_plus.default_flag a.bg_red:after{
+	content: '\e02a';
+	color: #E5546A;
+}
+form.obj_select.default_flag[iw-value="ico bg_blue"]:after,
+.obj_select_plus.default_flag a.bg_blue:after{
+	content: '\e02a';
+	color: #648BC8;
+}
+
+form.obj_select.default_flag[iw-value="ico bg_green"]:after,
+.obj_select_plus.default_flag a.bg_green:after{
+	content: '\e02a';
+	color: #719F3A;
+}
+form.obj_select.default_flag[iw-value="ico bg_orange"]:after,
+.obj_select_plus.default_flag a.bg_orange:after{
+	content: '\e02a';
+	color: #D3733F;
+}
+form.obj_select.default_flag[iw-value="ico bg_yellow"]:after,
+.obj_select_plus.default_flag a.bg_yellow:after{
+	content: '\e02a';
+	color: #C8AD17;
+}
+form.obj_select.default_flag[iw-value="ico bg_purple"]:after,
+.obj_select_plus.default_flag a.bg_purple:after{
+	content: '\e02a';
+	color: #8A64DC;
+}
+
+/* somehow doesnt work height 100% in FFox */
+form.obj_checkbox_list_holidays{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/** certificate tab **/
+.frm_certificate{
+	height: 100%;
+	width: 100%;
+}
+.frm_certificate .obj_listbox_checked{
+	width: 200px;
+}
+
+.frm_certificate .frm_certificate_view{
+	width: 100%;
+	padding: 5px;
+}
+
+.frm_certificate .obj_attach_button{
+	float: left;
+	margin-right: 10px;
+}
+
+/** Rules **/
+.frm_settings .obj_tab.rules .obj_listbox>div>span{
+	width: 42px;
+}
+.frm_settings .obj_tab.rules .obj_listbox>div>span:after{
+	content: "";
+	display: block;
+	height: 16px;
+	left: 23px;
+	position: relative;
+	top: 2px;
+	width: 16px;
+
+	font-family: 'ico16';
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	line-height: 16px;
+}
+	.frm_settings .obj_tab.rules .obj_listbox>div.reject>span:after{
+		content: '\e036';
+	}
+	.frm_settings .obj_tab.rules .obj_listbox>div.delete>span:after{
+		content: '\e002';
+	}
+	.frm_settings .obj_tab.rules .obj_listbox>div.spam>span:after{
+		content: '\e011';
+	}
+
+/** Signature **/
+.frm_settings .signature_box{
+	height: 100%;
+	position: relative;
+}
+
+.frm_settings .signature_box.advanced{
+	padding-bottom: 250px;
+}
+
+.rtl .frm_settings .signature_box .signature_box2 {
+	padding: 0 250px 0 0;
+}
+.rtl .frm_settings .signature_box .signature_box2>.frmtbl {
+	right: 0;
+}
+
+.frm_settings .signature_box .signature_box2{
+	position: relative;
+	padding: 0 0 0 250px;
+ 	width: 100%;
+    height: 100%;
+}
+.frm_settings .signature_box .signature_box2>.frmtbl{
+	position: absolute;
+	left: 0;
+	width: 240px;
+}
+	.frm_settings .signature_box .signature_box3{
+		position: relative;
+	 	width: 100%;
+	    height: 100%;
+	    /*padding-bottom: 24px;*/
+	}
+	.frm_settings .alias .signature_box3{
+		padding-top: 62px;
+	}
+
+.frm_settings .signature_box .popupmaindialog.advanced{
+	padding-bottom: 0;
+}
+
+	.frm_settings .signature_box .obj_label.btn_advanced label{
+		cursor: pointer;
+		padding: 0 0 0 18px;
+		background: url("../images/barmenu_ico.gif") no-repeat 6px 5px;
+	}
+.frm_settings .signature_box .obj_label.btn_advanced,
+.frm_settings .signature_box .popupmaindialog{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.frm_settings .signature_box .popupmaindialog{
+	display: none;
+	width: 100%;
+	height: auto;
+	padding-right: 0;
+}
+
+.frm_settings .signature_box.advanced .popupmaindialog{
+	display: block;
+}
+.frm_settings .signature_box.advanced .obj_label.btn_advanced{
+	bottom: 220px;
+}
+.frm_settings .signature_box.advanced .obj_label.btn_advanced label{
+	background-position: 4px -17px;
+}
+/* primary account */
+.frm_settings .accounts_primary .lable_2f{
+	position: relative;
+	padding-left: 20px;
+	color: #E5546A;
+}
+.frm_settings .accounts_primary .lable_2f.active{
+	color: #719F3A;
+}
+.frm_settings .accounts_primary .lable_2f:before{
+	content: '\e602';
+	font-family: 'ico16';
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+
+	position: absolute;
+	left: 1px;
+	top: 0;
+}
+.frm_settings .accounts_primary .lable_2f.active:before{
+	content: '\e01a';
+}
+/* other accounts */
+.frm_settings .other_accounts{
+	padding-bottom: 33px;
+	position: relative;
+}
+
+.frm_settings .other_accounts>table.frmtbl{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+/* calendar main tab */
+.frm_settings table.calendar_main th {
+	width: 100px;
+}
+
+/* weather_tab */
+.frm_settings .weather_tab .obj_listbox{
+	position: relative;
+}
+.frm_settings .weather_tab .obj_listbox:after{
+	content: '';
+	right: 0;
+	bottom: 0;
+	background: url("../images/weather/logo.png") no-repeat center #FFFFFF;
+	width: 174px;
+	height: 44px;
+	position: absolute;
+	z-index: 10;
+}
+
+/* forgotten password */
+.frm_settings_admin .forgotpass>table{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.frm_settings_admin .forgotpass>div{
+	padding-top: 70px;
+}
+
+.frm_settings_admin .domain_settings>table{
+	position: absolute;
+}
+.frm_settings_admin .domain_settings>table.table2{
+	bottom: 0;
+}
+.frm_settings_admin .domain_settings>div{
+	padding: 35px 0;
+}
+
+/* password policy */
+.frm_changepass form.obj_button.ico.policy:after{
+	content: '\e026';
+}
+
+form.obj_select.x_disable_office_set {
+	width: 170px;
+}

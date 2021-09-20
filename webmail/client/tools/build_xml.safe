@@ -1,0 +1,17 @@
+<?php
+//OBJECTS
+if (!$_REQUEST['frm']){
+	$XML_objects = readFolder(CLIENT.'/objects/','.xml',array('objects.xml','obj_connection.xml','obj_loader.xml','obj_button.xml'));
+	if (!is_file(CLIENT.'/objects/objects.xml') || filemtime(CLIENT.'/objects/objects.xml')<$XML_objects[1]){
+		$str = "<objects>\r\n";
+		foreach($XML_objects[0] as $v)
+	        $str .= '<'.substr(basename($v),0,-4).">\r\n".file_get_contents($v)."\r\n</".substr(basename($v),0,-4).">\r\n";
+		$str .='</objects>';
+	    
+		if ($fhandle = fopen(CLIENT.'/objects/objects.xml', 'wb')){
+			fwrite($fhandle, $str);
+			@fclose($fhandle);
+		}
+	}
+}
+?>

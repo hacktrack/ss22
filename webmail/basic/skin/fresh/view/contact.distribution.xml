@@ -1,0 +1,18 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<helper>groupware</helper>
+		<form id="contact" helper="item" template="contact.distribution">
+			<config>
+				<controller>item</controller>
+				<data>item.fdr</data>
+				<stylesheet>
+					<src>datagrid_detail</src>
+					<src>datagrid</src>
+				</stylesheet>
+			</config>
+		</form>
+	</panel>
+</form>

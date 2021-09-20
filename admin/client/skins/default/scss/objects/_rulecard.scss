@@ -1,0 +1,186 @@
+// Rulecard
+// Rules detail and everything in it.
+
+// Block
+.rulecard {
+	@include flexbox;
+	@include animation('reveal');
+	position: relative;
+	@include border;
+	background-color: $white;
+	margin-bottom: $rulecard-bottom-margin;
+
+	&:first-child {
+		margin-top: g(1);
+	}
+
+	// States
+	&:not(.is-active) {
+
+		.rulecard-component {
+			display: none;
+		}
+	}
+}
+
+
+// Elements
+.rulecard-title {
+	@include text-ellipsis;
+	margin-bottom: g(1/2);
+	font-size: s(1);
+	font-weight: 400;
+	height: $object-height;
+	line-height: $object-height;
+	text-transform: uppercase;
+	color: $text-grey;
+	font-weight: 600;
+}
+
+.rulecard-content {
+	@include flex(auto);
+	position: relative;
+	padding: p(1/2) p(3/2) 0;
+}
+
+.rulecard-component {
+	padding-bottom: p(1/2);
+}
+
+.rulecard-arrows {
+	@include flexbox;
+	@include flex-direction(column);
+	@include flex(none);
+	@include border('left');
+	width: s(1);
+
+	@if $hide-rulecard-arrows {
+		display: none !important;
+	}
+}
+
+.rulecard-buttons {
+	white-space: nowrap;
+	background-color: $white;
+	z-index: z('base');
+	position: absolute;
+	right: s(1);
+	top: s(0.9);
+
+	&::before {
+		pointer-events: none;
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: s(2);
+		left: s(-2);
+		background: linear-gradient(
+						to left,
+						$white,
+						$transparent
+					);
+		background: -webkit-linear-gradient(
+						right, // Safari uses old syntax, so the direction must be opposite
+						$white,
+						rgba($white, 0) // Safari uses rgba(0,0,0,0) when keyword 'transparent' is used, so color must be defined
+					);
+	}
+}
+
+.rulecard-button {
+	@include square-size(s(2));
+
+	&:not(:first-child) {
+		margin-left: g(1);
+	}
+
+	// States
+	&:hover {
+		background-color: $transparent !important;
+	}
+}
+
+.rulecard-arrow {
+	@include flex(1, 1, 0);
+	@include flexbox;
+	@include align-items(center);
+	@include justify-content(center);
+	color: $blue-grey;
+	font-size: s(1);
+	width: 100%;
+
+	&:not(:last-child) {
+		@include border('bottom');
+	}
+}
+
+.rulecard-gate {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: -(($button-small-height + $rulecard-bottom-margin) / 2);
+	text-align: center;
+	height: 0; // So the wrapper can't be clicked, but can be still used to position the actionselect
+}
+
+.rulecard-gate-boolean {
+	width: auto !important; // Overrides global .box-content .button selector spanning buttons to 100% width
+
+	.rulecard:not(:first-child) & {
+		display: none;
+	}
+}
+
+.rulecard-gate-select {
+
+	.rulecard:first-child & {
+		display: none;
+	}
+}
+
+.rulecard-expand {
+	@include theme {
+		color: $theme-primary;
+	}
+
+	&::before { // Targeting the icon with ::before
+		@include rotate(0deg);
+	}
+
+	// States
+	.rulecard.is-active & {
+		color: $grey;
+
+		&:hover {
+			@include theme {
+				color: $theme-primary;
+			}
+		}
+
+		&::before { // Targeting the icon with ::before
+			@include rotate(180deg);
+		}
+	}
+}
+
+
+// Modifiers
+.rulecard[iw-type="condition"] {
+
+	.rulecard-buttons {
+
+		@if not $hide-rulecard-arrows {
+			right: s(2);
+		}
+	}
+}
+
+.rulecard[iw-type="action"] {
+
+	.rulecard-arrows,
+	.rulecard-gate { // Gates should not be shown in Actions
+		display: none;
+	}
+}

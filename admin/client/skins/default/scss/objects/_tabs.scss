@@ -1,0 +1,112 @@
+// Tabs
+// Responsive tabs that can function as accordion in small spaces. Used in Rules dialog.
+
+// Block
+.tabs {
+	@include flexbox;
+	@include flex-direction(row);
+	@include flex-wrap(wrap);
+	width: 100%;
+	margin-bottom: g(1);
+
+	@media #{$medium-up} {
+		margin-bottom: g(2);
+	}
+}
+
+
+// Elements
+.tabs-label {
+	cursor: pointer;
+	background-color: $light-grey;
+	color: $grey;
+	font-weight: 600;
+	@include border;
+	padding: p(2/3) p(1);
+
+	@media #{$medium-up} {
+		padding: p(1/2) p(3/2);
+	}
+}
+
+.tabs-content {
+	@include flex(0, 0, auto);
+	@include flex-basis(100%);
+	display: none; // Hide inactive tabs by default
+	max-width: 100%; // Fixes IE flex-bug
+	width: 100%;
+	// TODO[WAD-877]: Make tabs object take in number of table rows
+	height: $table-compact-cell-height * 3.5; // Set number of table rows for tabs
+	@include border;
+}
+
+.tabs-radio {
+	@include visually-hidden;
+}
+
+.tabs-radio:checked {
+
+	& + .tabs-label {
+		z-index: z('base');
+		background-color: $white;
+		color: $dark;
+		border-bottom: none;
+
+		& + .tabs-content {
+			@include flexbox;
+		}
+	}
+}
+
+
+// Modifiers
+// Use this as default, but don't use it for 'tabcordion' type
+.tabs:not([iw-type="tabcordion"]) {
+
+	.tabs-label {
+		@include flex(none);
+		width: auto;
+
+		&:first-of-type {
+			border-top-left-radius: $radius;
+		}
+
+		&:last-of-type {
+			border-top-right-radius: $radius;
+		}
+
+		&:not(:last-of-type) {
+			border-right: none;
+		}
+	}
+
+	.tabs-content {
+		border-radius: $radius;
+		border-top-left-radius: 0;
+		margin-top: -1px;
+
+		// Autogenerate correct order of tabs content for the default tabs type
+		@for $i from 1 to 10 {
+
+			&:nth-of-type(#{$i}) {
+				@include order($i);
+			}
+		}
+	}
+}
+
+// Tabcordion component, pick number of tabs in a row for each resolution in the @tabs-number mixin
+.tabs[iw-type="tabcordion"] {
+	@include tabs-number(1, 3, 3);
+	@include border;
+	border-width: 1px 0 0 1px;
+
+	.tabs-label {
+		@include flex(1, 1, auto);
+		border-width: 0 1px 1px 0;
+	}
+
+	.tabs-content {
+		border-width: 0 1px 1px 0;
+	}
+}

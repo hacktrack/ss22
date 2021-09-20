@@ -1,0 +1,498 @@
+<?php
+define('SHAREDLIB_PATH', get_cfg_var('icewarp_sharedlib_path'));
+include(SHAREDLIB_PATH . 'api/api.php');
+include(SHAREDLIB_PATH . 'api/account.php');
+
+function getLang($lang = 'en', $default = 'en') {
+	if (!$lang || !file_exists('lang/' . $lang . '/lang.xml')) {
+		$lang = $default;
+	}
+	file_exists('lang/' . $lang . '/lang.xml') or die('Language file not found in lang/' . $lang . '/lang.xml');
+
+	libxml_disable_entity_loader(true);
+	$l = (array) simplexml_load_string(file_get_contents('lang/' . $default . '/lang.xml'));
+	if ($lang !== $default) {
+		$p = (array) simplexml_load_string(file_get_contents('lang/' . $lang . '/lang.xml'));
+		foreach ($p as $key => $value) {
+			$l[$key] = $value;
+		}
+	}
+	return $l;
+}
+
+$api = new IceWarpAPI();
+$url = [];
+$url['webdav'] = $api->GetProperty('C_WebDAV_URL');
+$url['freebusy'] = $api->GetProperty('C_FreeBusy_URL');
+$url['webadmin'] = $api->GetProperty('C_WebAdmin_URL');
+$url['install'] = $api->GetProperty('C_Install_URL');
+$url['bcal'] = trim($api->GetProperty('C_Webmail_URL'), '/') . '/calendar/';
+$url['ical'] = $api->GetProperty('C_InternetCalendar_URL');
+$url['webcal'] = str_replace(['http://', 'https://'], ['webcal://', 'webcals://'], $url['ical']);
+
+$sid = filter_input(INPUT_GET, 'sid');
+$lang = strtolower(filter_input(INPUT_GET, 'lang', FILTER_SANITIZE_STRING));
+if(!preg_match('/^[a-z]{2}$/', $lang)){
+	$lang = 'en';
+}
+if ($sid) {
+	session_id($sid);
+	session_start();
+
+	$account = new IceWarpAccount();
+	$email = filter_var($_SESSION['EMAIL']);
+	if ($email) {
+		$account->Open($email);
+		$licenses['out'] = $account->GetProperty('U_ActivationKey_OutConn');
+		$licenses['dsk'] = $account->GetProperty('U_ActivationKey_Desktop');
+		$url['freebusy'] .= '?' . $email;
+	}
+
+	$lang = filter_var($_SESSION['LANGUAGE']);
+}
+$l = getLang($lang);
+$_ = function ($key) use($l) {
+	return $l[$key] ?: $key;
+};
+?>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title><?= $_('page_title'); ?></title>
+	<base target="_blank"/>
+
+	<link rel="shortcut icon" href="https://www-media.icewarp.com/img/favicon.png" />
+	<link href="style.css" rel="stylesheet" media="all">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet" async="true">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="./js/clipboard.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<header class="o-article__header">
+		<h1 class="o-article__title"><?= $_('page_title'); ?></h1>
+		<p class="o-article__subtitle"><?= $_('useful_utilities'); ?><br /><?= $_('choose_platform'); ?></p>
+	</header>
+
+	<nav>
+		<div class="o-choose-users__buttons clearfix">
+			<a href="#" class="o-link o-link--text-button-full first is-active" data-type="win"><?= $_('windows'); ?></a>
+			<a href="#" class="o-link o-link--text-button-full" data-type="linux"><?= $_('linux'); ?></a>
+			<a href="#" class="o-link o-link--text-button-full end" data-type="mac"><?= $_('mac'); ?></a>
+		</div>
+	</nav>
+
+	<main>
+		<article>
+			<section>
+				<!-- IceWarp Desktop Client -->
+				<div class="o-download-group-card show-win">
+					<div class="o-download-group-card__item js-download-card__item">
+						<div class="row o-download-group-card__row">
+							<div class="col-xs-12 col-sm-2">
+								<div class="o-download-group-card__image-container">
+									<img class="o-image o-download-group-card__image" src="./img/desktopclient.svg" alt="desktop client">
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="o-download-group-card__content">
+									<h3 class="o-download-group-card__name"><?= $_('iw_desktop_client'); ?></h3>
+
+									<div class="o-download-group-card__detail-group">
+
+										<div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title"><?= $_('iw_desktop_client_about'); ?></span>
+										</div>
+										<!--div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title">Size 3.61 GB</span>
+										</div>
+										<div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title">Last update 05.05.2017</span>
+										</div-->
+										<div class="o-download-card__detail--full-width ">
+											<p class="o-download-card__detail-title"><?= $_('iw_desktop_client_desc'); ?></p>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+								<a class="o-link o-link--text-button o-button--primary o-button--full" href="./download/desktop-setup.msi" target="_blank"><?= $_('download'); ?></a>
+								<? if ($licenses['dsk']) { ?>
+								<div class="input">
+									<p class="inputname"><?= $_('license'); ?></p>
+									<div class="parent"><input class="linkcopy" type="text" name="field" value="<?= $licenses['dsk'] ?>" readonly>
+										<button class="btncopy ico ico2 copy_email">
+											<span class="copytxt"><?= $_('copy'); ?></span>
+										</button>
+									</div>
+								</div>
+								<? } ?>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- IceWarp Outlook Sync -->
+				<div class="o-download-group-card show-win">
+					<div class="o-download-group-card__item js-download-card__item">
+						<div class="row o-download-group-card__row">
+							<div class="col-xs-12 col-sm-2">
+								<div class="o-download-group-card__image-container">
+									<img class="o-image o-download-group-card__image" src="./img/outlook_sync.svg" alt="outlook sync">
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="o-download-group-card__content">
+									<h3 class="o-download-group-card__name"><?= $_('iw_outlook_sync'); ?></h3>
+
+									<div class="o-download-group-card__detail-group">
+
+										<div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title"><?= $_('iw_outlook_sync_about'); ?></span>
+										</div>
+										<!--div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title">Size 1.03 GB</span>
+										</div>
+										<div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title">Last update 05.05.2017</span>
+										</div-->
+										<div class="o-download-card__detail--full-width ">
+											<p class="o-download-card__detail-title"><?= $_('iw_outlook_sync_desc'); ?></p>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+								<a class="o-link o-link--text-button o-button--primary o-button--full" href="./download/outlook-sync.exe" target="_blank"><?= $_('download'); ?></a>
+								<a class="o-link o-link--text-button o-info-object__link o-link--hover-full o-info-object__link--no-text-decoration o-link--auto-width" href="./doc/outlooksyncguide.pdf"><?= $_('outlook_sync_guide'); ?>
+									<svg class="o-icon o-icon--text-button  o-icon--hover-full o-link__suffix-icon arrow-right"><use xlink:href="#arrow"></use></svg>
+								</a>
+								<? if ($licenses['out']) { ?>
+								<div class="input">
+									<p class="inputname"><?= $_('license'); ?></p>
+									<div class="parent"><input class="linkcopy" type="text" name="field" value="<?= $licenses['out'] ?>" readonly>
+										<button class="btncopy ico ico2 copy_email">
+											<span class="copytxt"><?= $_('copy'); ?></span>
+										</button>
+									</div>
+								</div>
+								<? } ?>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- IceWarp Notifier -->
+				<div class="o-download-group-card show-win">
+					<div class="o-download-group-card__item js-download-card__item">
+						<div class="row o-download-group-card__row">
+							<div class="col-xs-12 col-sm-2">
+								<div class="o-download-group-card__image-container">
+									<img class="o-image o-download-group-card__image" src="./img/notifier.svg" alt="notifier">
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="o-download-group-card__content">
+									<h3 class="o-download-group-card__name"><?= $_('iw_notifier'); ?></h3>
+
+									<div class="o-download-group-card__detail-group">
+
+										<div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title"><?= $_('iw_notifier_about'); ?></span>
+										</div>
+										<!--div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title">Size 1.24 GB</span>
+										</div>
+										<div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title">Last update 05.05.2017</span>
+										</div-->
+										<div class="o-download-card__detail--full-width ">
+											<p class="o-download-card__detail-title"><?= $_('iw_notifier_desc'); ?></p>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+								<a class="o-link o-link--text-button o-button--primary o-button--full" href="./download/notifier-setup.exe" target="_blank"><?= $_('download'); ?></a>
+								<a class="o-link o-link--text-button o-info-object__link o-link--hover-full o-info-object__link--no-text-decoration o-link--auto-width" href="./doc/notifier.pdf"><?= $_('notifier_guide'); ?>
+									<svg class="o-icon o-icon--text-button  o-icon--hover-full o-link__suffix-icon arrow-right"><use xlink:href="#arrow"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Try other useful IceWarp Apps -->
+				<div class="o-download-group-card">
+					<div class="o-download-group-card__item js-download-card__item">
+						<div class="row o-download-group-card__row">
+							<div class="col-xs-12 col-sm-2">
+								<div class="o-download-group-card__image-container">
+									<img class="o-image o-download-group-card__image" src="./img/otherapps.svg" alt="other apps">
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="o-download-group-card__content">
+									<h3 class="o-download-group-card__name"><?= $_('try_other'); ?></h3>
+
+									<div class="o-download-group-card__detail-group">
+
+										<div class="o-download-group-card__detail">
+											<span class="o-download-group-card__detail-title"><?= $_('useful_tools'); ?></span>
+										</div>
+										<div class="o-download-card__detail--full-width ">
+											<p class="o-download-card__detail-title"><?= $_('desktop_suite'); ?></p>
+											<p class="o-download-card__detail-title"><?= $_('teamchat_desktop'); ?></p>
+											<p class="o-download-card__detail-title"><?= $_('filesync'); ?></p>
+											<p class="o-download-card__detail-title"><?= $_('icechat'); ?></p>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+								<a class="o-link o-link--text-button o-info-object__link o-link--hover-full o-info-object__link--no-text-decoration o-link--auto-width" href="https://www.icewarp.com/apps/"><?= $_('learn_more'); ?>
+									<svg class="o-icon o-icon--text-button  o-icon--hover-full o-link__suffix-icon arrow-right"><use xlink:href="#arrow"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div id="nextproducts">
+					<!-- IceWarp Access -->
+					<h2 class="o-article__title"><?= $_('icewarp_access'); ?></h2>
+					<p class="o-article__subtitle two"><?= $_('icewarp_access_helper'); ?></p>
+
+					<!-- WebAdmin -->
+					<div class="o-download-group-card next">
+						<div class="o-download-group-card__item js-download-card__item">
+							<div class="row o-download-group-card__row">
+								<div class="col-xs-12 col-sm-2">
+									<div class="o-download-group-card__image-container">
+										<img class="o-image o-download-group-card__image" src="./img/webadmin.svg" alt="webadmin">
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-4">
+									<div class="o-download-group-card__content">
+										<h3 class="o-download-group-card__name"><?= $_('webadmin'); ?></h3>
+										<div class="o-download-group-card__detail-group">
+											<div class="o-download-card__detail--full-width ">
+												<p class="o-download-card__detail-title"><?= $_('webadmin_desc'); ?></p>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+								<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+									<a class="o-link o-link--text-button o-info-object__link o-link--hover-full o-info-object__link--no-text-decoration o-link--auto-width" href="<?= $url['webadmin']; ?>"><?= $_('open_webadmin'); ?>
+										<svg class="o-icon o-icon--text-button  o-icon--hover-full o-link__suffix-icon arrow-right"><use xlink:href="#arrow"></use></svg>
+									</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Internet Calendar -->
+					<div class="o-download-group-card next">
+						<div class="o-download-group-card__item js-download-card__item">
+							<div class="row o-download-group-card__row">
+								<div class="col-xs-12 col-sm-2">
+									<div class="o-download-group-card__image-container">
+										<img class="o-image o-download-group-card__image" src="./img/inet_calendar.svg" alt="internet calendar">
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-4">
+									<div class="o-download-group-card__content">
+										<h3 class="o-download-group-card__name"><?= $_('internet_calendar'); ?></h3>
+										<div class="o-download-group-card__detail-group">
+											<div class="o-download-card__detail--full-width ">
+												<p class="o-download-card__detail-title"><?= $_('internet_calendar_desc'); ?></p>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+								<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+									<div class="input">
+										<p class="inputname"><?= $_('internet_calendar_info_1'); ?></p>
+										<div class="parent"><input class="linkcopy" type="text" name="field" value="<?= $url['ical']; ?>" readonly>
+											<button class="btncopy ico ico2 copy_email">
+												<span class="copytxt"><?= $_('copy'); ?></span>
+											</button>
+										</div>
+									</div>
+									<?php if ($email) { ?>
+									<div class="input">
+										<p class="inputname"><?= $_('internet_calendar_info_2'); ?></p>
+										<div class="parent"><input class="linkcopy" type="text" name="field" value="<?= $url['ical']; ?>?<?= $email ?>" readonly>
+											<button class="btncopy ico ico2 copy_email">
+												<span class="copytxt"><?= $_('copy'); ?></span>
+											</button>
+										</div>
+									</div>
+									<? } ?>
+									<div class="input">
+										<p class="inputname"><?= $_('subscribe_calendar'); ?></p>
+										<div class="parent"><input class="linkcopy" type="text" name="field" value="<?= $url['webcal']; ?>" readonly>
+											<button class="btncopy ico ico2 copy_email">
+												<span class="copytxt"><?= $_('copy'); ?></span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Basic Calendar -->
+					<div class="o-download-group-card next">
+						<div class="o-download-group-card__item js-download-card__item">
+							<div class="row o-download-group-card__row">
+								<div class="col-xs-12 col-sm-2">
+									<div class="o-download-group-card__image-container">
+										<img class="o-image o-download-group-card__image" src="./img/basic_cal.svg" alt="basic calendar">
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-4">
+									<div class="o-download-group-card__content">
+										<h3 class="o-download-group-card__name"><?= $_('basic_calendar'); ?></h3>
+										<div class="o-download-group-card__detail-group">
+											<div class="o-download-card__detail--full-width ">
+												<p class="o-download-card__detail-title"><?= $_('basic_calendar_desc'); ?></p>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+								<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+									<a class="o-link o-link--text-button o-info-object__link o-link--hover-full o-info-object__link--no-text-decoration o-link--auto-width" href="<?= "{$url['bcal']}?email={$email}&lang={$lang}" ?>"><?= $_('open_calendar'); ?>
+										<svg class="o-icon o-icon--text-button  o-icon--hover-full o-link__suffix-icon arrow-right"><use xlink:href="#arrow"></use></svg>
+									</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Basic Calendar -->
+					<div class="o-download-group-card next">
+						<div class="o-download-group-card__item js-download-card__item">
+							<div class="row o-download-group-card__row">
+								<div class="col-xs-12 col-sm-2">
+									<div class="o-download-group-card__image-container">
+										<img class="o-image o-download-group-card__image" src="./img/freebusy.svg" alt="free busy">
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-4">
+									<div class="o-download-group-card__content">
+										<h3 class="o-download-group-card__name"><?= $_('freebusy'); ?></h3>
+										<div class="o-download-group-card__detail-group">
+											<div class="o-download-card__detail--full-width ">
+												<p class="o-download-card__detail-title"><?= $_('freebusy_desc'); ?></p>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+								<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+									<div class="input">
+										<p class="inputname"><?= $_('freebusy_link'); ?></p>
+										<div class="parent"><input class="linkcopy" type="text" name="field" value="<?= $url['freebusy']; ?>" readonly>
+											<button class="btncopy ico ico2 copy_email">
+												<span class="copytxt"><?= $_('copy'); ?></span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Basic Calendar -->
+					<div class="o-download-group-card next">
+						<div class="o-download-group-card__item js-download-card__item">
+							<div class="row o-download-group-card__row">
+								<div class="col-xs-12 col-sm-2">
+									<div class="o-download-group-card__image-container">
+										<img class="o-image o-download-group-card__image" src="./img/webdav.svg" alt="webdav">
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-4">
+									<div class="o-download-group-card__content">
+										<h3 class="o-download-group-card__name"><?= $_('webdav'); ?></h3>
+										<div class="o-download-group-card__detail-group">
+											<div class="o-download-card__detail--full-width ">
+												<p class="o-download-card__detail-title"><?= $_('webdav_desc'); ?></p>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+								<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+									<div class="input">
+										<p class="inputname"><?= $_('webdav_info_1'); ?></p>
+										<div class="parent"><input class="linkcopy" type="text" name="field" value="<?= str_replace('webdav//', 'webdav/', $url['webdav'] . $email . '/'); ?>" readonly>
+											<button class="btncopy ico ico2 copy_email">
+												<span class="copytxt"><?= $_('copy'); ?></span>
+											</button>
+										</div>
+									</div>
+									<div class="input">
+										<p class="inputname"><?= $_('webdav_info_2'); ?></p>
+										<div class="parent"><input class="linkcopy" type="text" name="field" value="<?= str_replace('webdav//', 'webdav/', $url['webdav'] . $email . '/[folder_name]'); ?>" readonly>
+											<button class="btncopy ico ico2 copy_email">
+												<span class="copytxt"><?= $_('copy'); ?></span>
+											</button>
+										</div>
+									</div>
+									<div class="input show-mac" hidden>
+										<p class="inputname"><?= $_('webdav_info_3'); ?></p>
+										<div class="parent"><input class="linkcopy" type="text" name="field" value="<?= str_replace('webdav//', 'webdav/', $url['webdav'] . 'users/' . $email . '/'); ?>" readonly>
+											<button class="btncopy ico ico2 copy_email">
+												<span class="copytxt"><?= $_('copy'); ?></span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</article>
+
+	</main>
+
+	<footer>
+		<p><small><?= str_replace('%Y%', date('Y'), $_('copyright')); ?></small></p>
+	</footer>
+
+	<svg xmlns="http://www.w3.org/2000/svg">
+		<symbol id="arrow" viewBox="0 0 50 50">
+			<path d="M12.387 49.613a1.311 1.311 0 0 1 0-1.86l22.888-22.754L12.387 2.245a1.311 1.311 0 0 1 0-1.86 1.33 1.33 0 0 1 1.872 0L38.083 24.07a1.311 1.311 0 0 1 0 1.86L14.26 49.617c-.26.258-.599.384-.937.384a1.346 1.346 0 0 1-.935-.387z"/>
+		</symbol>
+	</svg>
+
+	<script src="./js/scripts.js"></script>
+</body>
+</html>

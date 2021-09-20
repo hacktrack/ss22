@@ -1,0 +1,34 @@
+// Input
+// <input> form element.
+
+// Block
+.input {
+	@include form-element('input'); // <textarea>, <input> and dropdown object share these styles
+	@include flexbox;
+	@include align-items(center);
+	line-height: $normal-line-height;
+
+	// States
+	&.has-error {
+		color: $error;
+
+		@each $placeholder in $placeholder-selectors {
+
+			input#{$placeholder} {
+				color: $error;
+			}
+		}
+	}
+}
+
+
+// Elements
+.input input ~ .label {
+	@include border('left');
+}
+
+
+// Modifiers
+.input--hidden {
+	display: none !important;
+}

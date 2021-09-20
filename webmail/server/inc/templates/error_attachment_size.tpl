@@ -1,0 +1,1 @@
+<error uid="{error_uid}">{attachment}</error>

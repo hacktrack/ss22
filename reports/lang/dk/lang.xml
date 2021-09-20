@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="Til"/>
+  <ITEM id="attachments" value="Vedhæftede filer"/>
+  <ITEM id="bytes" value="Bytes"/>
+  <ITEM id="view_mail" value="Se e-mail"/>
+  <ITEM id="show_source" value="Vis kilde"/>
+  <ITEM id="title" value="Challenge Response"/>
+  <ITEM id="request" value="For at bevise, at din meddelelse blev sendt af et menneske og ikke af en computer, skal du skrive den alfanumeriske tekst, du ser på billedet nedenfor og klikke på OK. Du bliver kun bedt om at gøre dette en gang for denne e-mail-adresse."/>
+  <ITEM id="result_ok" value="Det ord du har angivet er korrekt. Din e-mail-adresse er godkendt."/>
+  <ITEM id="result_error" value="Det ord du har angivet er forkert. Prøv igen."/>
+  <ITEM id="result_already" value="Din e-mail-adresse er allerede godkendt."/>
+  <ITEM id="result_black" value="Din e-mail-adresse er blevet sortlistet."/>
+  <ITEM id="result_notfound" value="Din e-mail-adresse blev ikke fundet. Den må være slettet. Send din e-mail igen."/>
+  <ITEM id="thanks" value="Tak for dit samarbejde."/>
+  <ITEM id="reason" value="Hvorfor gør jeg dette?"/>
+  <ITEM id="explanation" value="Uopfordret kommerciel e-mail er computergenereret og kan ikke reagere på ovenstående kommando. Ved at bruge dette tilladelsesbaserede e-mail-system begrænser jeg min indgående e-mail til afsendere, som godkendes, forudsat at de er rigtige mennesker, der ønsker at kommunikere med mig via e-mail."/>
+  <ITEM id="thanks2" value="Tak fordi du hjalp mig med at bekæmpe spam!"/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="IceWarp Software"/>
+  <ITEM id="gateway_link_label" value="Administrer karantæne/spam online"/>
+  <ITEM id="copyright2" value="Alle rettigheder forbeholdes."/>
+  <LIST>
+    <ITEM id="title" value="IceWarp Spam Rapport"/>
+    <ITEM id="intro" value="Denne automatisk genererede rapport informerer dig om meddelelser i mappen Spam (eller karantæne) på din e-mail-konto. Det giver dig mulighed for at udføre administrative handlinger ved at klikke på en af knapperne ved siden af hver e-mail-overskrift. &lt;br/&gt; BEMÆRK: Rapporter viser kun den første meddelelse, der sendes af hver afsender. Hvis du accepterer, leveres andre meddelelser fra den samme afsender også."/>
+    <ITEM id="outro" value="Du kan klikke på et af linkene ovenfor for at udføre den valgte handling på ALLE beskeder, der er tilbage i din Spam-mappe eller i karantæne."/>
+    <ITEM id="admin_action" value="Vælg en handling for alle elementer på alle konti"/>
+    <ITEM id="account_action" value="Vælg en handling for alle elementer på kontoen"/>
+    <ITEM id="you_are_admin" value="Spamadministratorindstillinger"/>
+    <ITEM id="sender" value="Fra"/>
+    <ITEM id="subject" value="Emne"/>
+    <ITEM id="recipient" value="Til"/>
+    <ITEM id="date" value="Dato"/>
+    <ITEM id="time" value="Tid"/>
+    <ITEM id="actions" value="Handlinger"/>
+    <ITEM id="delete" value="Slet"/>
+    <ITEM id="authorize" value="Hvidliste"/>
+    <ITEM id="accept" value="Lever"/>
+    <ITEM id="blacklist" value="Sortliste"/>
+    <ITEM id="deleteall" value="Slet"/>
+    <ITEM id="authorizeall" value="Hvidliste"/>
+    <ITEM id="acceptall" value="Lever"/>
+    <ITEM id="blacklistall" value="Sortliste"/>
+    <ITEM id="submit" value="Indsend"/>
+    <ITEM id="view" value="Vis meddelelse"/>
+    <ITEM id="msgsubject" value="Spamrapport fra %%Current_Date%%"/>
+    <ITEM id="domain" value="Domæne"/>
+    <ITEM id="account" value="Konto"/>
+    <ITEM id="location" value="Placering"/>
+    <ITEM id="type_quarantine" value="Karantæne"/>
+    <ITEM id="type_spam" value="Spam-mappe"/>
+    <ITEM id="delivery_problem" value="Kan ikke levere meddelelse til konto"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Afsender-godkendelse"/>
+      <ITEM id="success" value="Afsenderen blev godkendt."/>
+      <ITEM id="failure" value="Afsender kunne ikke godkendes."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Meddelelseslevering"/>
+      <ITEM id="success" value="Meddelelsen blev leveret"/>
+      <ITEM id="failure" value="Meddelelsen kunne ikke leveres."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Sletning af meddelelse"/>
+      <ITEM id="success" value="Meddelelsen blev slettet og fjernet fra køen."/>
+      <ITEM id="failure" value="Meddelelsen kunne ikke slettes."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Afvisning af afsender"/>
+      <ITEM id="success" value="Afsenderen blev føjet til sortlisten."/>
+      <ITEM id="failure" value="Afsender kunne ikke føjes til sortlisten."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Meddelelsesvisning"/>
+      <ITEM id="failure" value="Meddelelsen kunne ikke vises. Dette kan ske, hvis meddelelsen allerede er fjernet fra karantæne (eller mappen Spam)."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Fejl"/>
+      <ITEM id="failure" value="Den ønskede handling kunne ikke udføres."/>
+      <ITEM id="wrongid" value="Ugyldigt meddelelses-ID. Den angivne meddelelse er allerede fjernet fra karantæne (eller mappen Spam)."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Afsender-godkendelse"/>
+      <ITEM id="success" value="Afsenderen blev godkendt og meddelelsen blev leveret."/>
+      <ITEM id="failure" value="Afsender kunne ikke godkendes eller meddelelse leveres."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Meddelelseslevering"/>
+      <ITEM id="success" value="Meddelelsen blev leveret."/>
+      <ITEM id="failure" value="Meddelelsen kunne ikke leveres."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Sletning af meddelelse"/>
+      <ITEM id="success" value="Meddelelsen blev slettet fra spam-mappen"/>
+      <ITEM id="failure" value="Meddelelsen kunne ikke slettes."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Afvisning af afsender"/>
+      <ITEM id="success" value="Afsenderen blev føjet til sortliste og meddelelsen blev fjernet fra spam-mappen."/>
+      <ITEM id="failure" value="Afsender kunne ikke føjes til sortelisten eller meddelelsen kunne ikke slettes."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Meddelelsesvisning"/>
+      <ITEM id="failure" value="Meddelelsen kunne ikke vises. Dette kan ske, hvis meddelelsen allerede er slettet."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Fejl"/>
+      <ITEM id="failure" value="The requested operation could not be performed."/>
+      <ITEM id="wrongid" value="Ugyldigt meddelelses-ID. Den angivne meddelelse er allerede fjernet fra karantæne (eller mappen Spam)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Fejl"/>
+      <ITEM id="failure" value="Den ønskede handling kunne ikke udføres."/>
+      <ITEM id="wrongid" value="Ugyldigt administrator-ID. Den angivne administratorkonto findes ikke længere."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Spamrapporter er deaktiveret %s"/>
+    <ITEM id="challenge_already_running" value="Spamrapporter kører allerede"/>
+    <ITEM id="challenge_invalid_path_variable" value="Stien til spamrapporter er ikke indlæst korrekt: %s"/>
+    <ITEM id="api_findinitquery" value="Spam rapporterer API: Hentning af IceWarp-kontoobjekt. Domæne: %s, Filter: %s"/>
+    <ITEM id="challenge_language_file_missing" value="Spam rapporterer sprogfil mangler: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Spam rapporterer sprogfil beskadiget: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Spam rapporterer ugyldig hash (mulig URL-angreb): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

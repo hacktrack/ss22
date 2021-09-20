@@ -1,0 +1,269 @@
+
+
+.commandLine
+{
+	padding-top:11px;
+}
+
+.main
+{
+	background-color:#fff;
+}
+
+.main_tree
+{
+	/*background-color: #fff;*/
+}
+
+
+.mailItSelf
+{
+	padding:10px;
+	background-color: #ffffff;
+	border: #d0d0d0 1px solid;
+}
+
+.mailHeader
+{
+	text-align:left;
+/*	border-bottom: #ddd 1px solid;*/
+	padding:0px;/* 10px;*/
+/*	background-color: #eee;*/
+	font-weight:normal;
+	font-size:12px;
+}
+
+.mailHeader b
+{
+	font-size:13px;
+}
+
+.right
+{
+	float:right;
+}
+
+.mailView
+{
+	width:100%;
+}
+
+.mailView th
+{
+	width:1px;
+	padding-right:10px;
+	font-weight: bold;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.main_tree,.blank_footer
+{
+	border:none;
+}
+
+#mailFrame
+{
+	height:300px;
+	width:100%
+}
+
+/**/
+input.fancyInput
+{
+	background-image: url(../../basic/skin/basic/images/bg_input.gif);
+	background-repeat: repeat-x;
+	font-family:tahoma,helvetica,sans-serif;
+	font-size:10px;
+	height:15px;
+	padding:2px 5px 0px 5px;
+	border:#aaa 1px solid;
+}
+
+input.fancyButton,a.fancyButton
+{
+
+	background-image: url(../../basic/skin/basic/images/bg_button.gif);
+	background-repeat: repeat-x;
+	font-family:tahoma,helvetica,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	height:20px;
+	.height:15px;
+	padding:1px 5px 2px 5px;
+	border:#aaa 1px solid;
+	cursor:pointer;
+	text-decoration: none;
+	line-height:15px;
+	display:block;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	color:#000;
+}
+
+input.fancyButton.inline,a.fancyButton.inline,input.fancyButtonInline,a.fancyButtonInline
+{
+	margin-left: 5px;
+	margin-right: 0px;
+	display: inline-block;
+	float: none;
+	white-space: nowrap;
+}
+
+input.fancyButton
+{
+	height:20px;
+}
+
+input.fancyButton:hover,a.fancyButton:hover
+{
+	background-image: url(../../basic/skin/basic/images/bg_button_hover.gif);
+}
+
+.wh
+{
+	width:100%;
+}
+
+.replyarea
+{
+	height:100px;
+}
+/**/
+
+.spacer
+{
+	padding: 10px;
+	background-color: #E1F0FF;
+}
+
+#allHeaders
+{
+	height:100px;
+}
+
+#showAllHeaders
+{
+	background-image: url(../../basic/skin/basic/images/ico_header.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width:15px;
+	height:15px;
+	display:block;
+	text-decoration: none;
+	overflow:hidden;
+	float:left;
+	margin-right:3px;
+}
+
+#showAllHeaders.noJSHide
+{
+	display:none;
+}
+
+#showAllImages
+{
+	background-image: url(../../basic/skin/basic/images/ico_image.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width:15px;
+	height:15px;
+	display:block;
+	text-decoration: none;
+	overflow:hidden;
+	float:left;
+	margin-right:3px;
+}
+
+#showAllImages.noJSHide
+{
+	display:none;
+}
+
+a.mailPrev
+{
+	background-image: url('../../basic/skin/basic/images/prev.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	display:block;
+	width:26px;
+	height:11px;
+	.height:13px;
+}
+
+a.mailNext
+{
+	background-image: url('../../basic/skin/basic/images/next.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	display:block;
+	width:26px;
+	height:11px;
+	.height:13px;
+}
+
+a.mailPrev:hover
+{
+	background-image: url('../../basic/skin/basic/images/prev-actived.gif');
+}
+
+a.mailNext:hover
+{
+	background-image: url('../../basic/skin/basic/images/next-actived.gif');
+}
+
+a.mailPrevDisabled
+{
+	background-image: url('../../basic/skin/basic/images/prev-disabled.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	display:block;
+	width:26px;
+	height:11px;
+	.height:13px;
+	cursor: default;
+}
+
+a.mailNextDisabled
+{
+	background-image: url('../../basic/skin/basic/images/next-disabled.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	display:block;
+	width:26px;
+	height:11px;
+	.height:13px;
+	cursor: default;
+}
+
+a.into-bottom-line
+{
+	bottom:-10px;
+	.bottom:27px;
+}
+a.into-bottom-line-right
+{
+	bottom:-10px;
+	margin-right: 10px;
+	.bottom:27px;
+}
+
+a.disabled,a.disabled span
+{
+	color:#aaa;
+	cursor: default;
+}
+
+.hidden
+{
+	display:none;
+}
+
+pre,.replyarea
+{
+	font-family: Courier New,Monospace;
+	font-size: 15px;
+	white-space: pre-wrap;
+	.white-space: break-word;
+}

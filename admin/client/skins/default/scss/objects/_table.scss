@@ -1,0 +1,224 @@
+// Table
+// Datagrids, Rules table, API Console
+
+// Block
+.table {
+	@include flexit;
+	table-layout: fixed;
+	width: 100%;
+
+	// Removes outside margin on mobile
+	@media #{$small-only} {
+		width: calc(100% + #{$box-content-padding * 2});
+		margin-left: -$box-content-padding;
+	}
+
+	[class*="table-select-"] {
+		padding: 0; // Don't apply padding to checkbox table cell
+		width: $table-cell-height !important;
+		min-width: $table-cell-height;
+
+		+ .table__cell {
+			padding-left: 0; // Remove left padding after checkbox in datagrid
+		}
+	}
+
+	[class^="icon-"],
+	[class*=" icon-"] {
+
+		&::before,
+		+ span {
+			vertical-align: middle;
+		}
+	}
+}
+
+
+// Elements
+.table__cell {
+	@include text-ellipsis;
+	display: table-cell;
+	vertical-align: middle;
+	max-width: s(20);
+	padding: 0 p(1);
+	height: $table-cell-height;
+	@include border('bottom');
+}
+
+.table-wrap {
+	@include flexit;
+}
+
+.table-head, .table-body {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.table-body-wrapper {
+	@include webkit-scroll; // Always show scrollbar on OSX
+	@include enable-scroll(vertical);
+	@include flex(1, 1); // Fixes 'flex-basis' in IE
+	flex-basis: 0; // Fixes 'flex-basis' in IE
+	display: block;
+	padding-bottom: p(1);
+	will-change: transform;
+}
+
+.table-row {
+	width: 100%;
+	display: table-row;
+
+	@media #{$large-up} {
+		white-space: nowrap;
+	}
+
+	// States
+	.table-body & {
+
+		&:last-child .table__cell {
+			border: none;
+		}
+
+		.table:not(.noanchor) & { // Show primary color hover only in tables that have anchors
+
+			&:not(.main) {
+				cursor: pointer;
+
+				&:hover {
+					@include theme {
+						color: $theme-primary;
+					}
+					transition: none;
+				}
+			}
+		}
+	}
+
+	.table-head & {
+		font-size: rem(12);
+		font-weight: 600;
+		text-transform: uppercase;
+		line-height: initial; // Centers the text better with the rest of elements
+		color: $text-grey;
+	}
+
+	&.is-selected {
+		@include theme {
+			color: $theme-primary;
+		}
+		transition: color $fast;
+	}
+
+	&.is-disabled {
+		color: $grey !important;
+		transition: color $fast;
+
+		&:hover {
+			color: $grey !important;
+			cursor: default !important;
+		}
+	}
+}
+
+// Modifiers
+.table-row.main:not(:first-of-type) .table__cell {
+	padding-top: s(2.5);
+}
+
+.table-row.sub {
+	border-bottom: 0;
+
+	// Border top only on .sub that follows .sub
+	+ .sub {
+		@include border('top');
+	}
+}
+
+
+.table-context {
+	@include flex(none);
+	background-color: $white;
+	padding: p(1);
+	@include border('top');
+}
+
+.table-info {
+	padding-top: $box-padding-top;
+}
+
+.table-dropdown-label {
+	padding-right: p(1);
+}
+
+
+// Modifiers
+.table.singledomain {
+
+	[class*="table-select-"] {
+		display: none; // Don't show while in single domain picker
+
+		+ .table__cell {
+			padding-left: p(1); // Don't remove left padding in single domain picker
+		}
+	}
+}
+
+.table[iw-type="compact"] {
+
+	.table-body, .table-body-wrapper {
+		padding: 0;
+	}
+
+	.table__cell {
+		height: $table-compact-cell-height;
+	}
+
+	@media #{$small-only} {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+.table[iw-type="fixed"] {
+	display: block;
+
+	@include border('top');
+	@include border('bottom');
+
+	.table-head, .table-body {
+		table-layout: auto;
+	}
+
+	.table-body-wrapper {
+		overflow: visible;
+		will-change: auto;
+
+		padding: 0;
+	}
+}
+
+.table.responsive {
+
+	@media #{$small-only} {
+
+		.table-body {
+
+			.table-row {
+				height: auto;
+				display: block;
+			}
+
+			.table__cell {
+				border: none;
+				display: block;
+				max-width: none;
+				white-space: normal;
+
+				&:empty {
+					display: none;
+				}
+			}
+		}
+	}
+}

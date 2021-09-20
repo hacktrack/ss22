@@ -1,0 +1,106 @@
+/***/
+body
+{
+	margin:0;
+	padding:0;
+}
+
+a img
+{
+	border:none;
+}
+
+.heading
+{
+	font-family: Verdana,Helvetivca,Arial,sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 2px;
+	display:block;
+}
+
+table
+{
+	width:100%;
+}
+table,tr,td,th
+{
+	border-collapse: collapse;
+}
+
+td,th
+{
+	text-align: left;
+	font-family: Verdana,Helvetica,Arial,sans-serif;
+}
+	td.numbers,th.numbers
+	{
+		text-align: right;
+	}
+
+th
+{
+	border-top:#444 1px solid;
+	border-right:#444 1px solid;
+	background-color: #666;
+	color:#fff;
+	padding:2px 5px;
+	font-size: 13px;
+	font-weight: bold;
+}
+	th a
+	{
+		color:#fff;
+		text-decoration:none;
+	}
+		th a:hover
+		{
+			color:#eee;
+			text-decoration:underline;
+		}
+
+td
+{
+	border-top:#ebeeff 1px solid;
+	border-right:#dad8db 1px solid;
+	background-color: #edf4fe;
+	color:#333;
+	padding:2px 3px;
+	font-size: 11px;
+}
+	td a
+	{
+		color:#333;
+		font-weight: normal;
+		text-decoration: none;
+	}
+		td a:hover
+		{
+			color:#333;
+			text-decoration:underline;
+		}
+
+tr.bold td
+{
+	background-color:#fff;
+}
+
+.firstColumn
+{
+	width:15px;
+	border-right:none;
+}
+
+.date
+{
+	width:115px;
+}
+.size
+{
+	width:80px;
+}
+
+.name,.name a
+{
+	color:#000;
+}

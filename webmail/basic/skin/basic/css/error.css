@@ -1,0 +1,132 @@
+#errorBox
+{
+	position:absolute;
+	left:50%;
+	top:0px;
+	z-index: 1000;
+	/*width:100%;*/
+}
+
+#error
+{
+	display: block;
+	text-decoration: none;
+	background-color: #b00000;
+	padding:2px 5px;
+	font-family:Verdana,sans-serif;
+	font-size:13px;
+	font-weight: bold;
+	color:#fff;
+	cursor: default;
+}
+
+#error.slide
+{
+	background-image: url('../../basic/skin/basic/images/error_details.gif');
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.error_left
+{
+	position:relative;
+	left:-50%;
+	margin:auto;
+	background: transparent;
+	background-image: url('../../basic/skin/basic/images/error_corner.gif');
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	padding-left:1px;
+}
+
+.error_right
+{
+	background: transparent;
+	background-image: url('../../basic/skin/basic/images/error_corner.gif');
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	padding-right:1px;
+}
+
+#error_details
+{
+	border-bottom:#b00000 1px solid;
+	background-color: #eee;
+	padding:5px;
+	font-size: 10px;
+	display:none;
+}
+
+/*********************/
+
+#messageBox
+{
+	position:absolute;
+	left:50%;
+	top:0px;
+	z-index: 1000;
+	/*width:100%;*/
+}
+
+#messageBox.from_content
+{
+	top:-58px;
+}
+
+#message
+{
+	display: block;
+	text-decoration: none;
+	background-color: #46b000;
+	padding:2px 5px;
+	font-family:Verdana,sans-serif;
+	font-size:13px;
+	font-weight: bold;
+	color:#fff;
+	/*
+	background-image: url('../../basic/skin/basic/images/message_details.gif');
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	*/
+	cursor: default;
+}
+
+#message.slide
+{
+	background-image: url('../../basic/skin/basic/images/message_details.gif');
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+
+.message_left
+{
+	position:relative;
+	left:-50%;
+	margin:auto;
+	background: transparent;
+	background-image: url('../../basic/skin/basic/images/message_corner.gif');
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	padding-left:1px;
+}
+
+.message_right
+{
+	background: transparent;
+	background-image: url('../../basic/skin/basic/images/message_corner.gif');
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	padding-right:1px;
+}
+
+#message_details
+{
+	border-bottom:#b00000 1px solid;
+	background-color: #eee;
+	padding:5px;
+	font-size: 10px;
+	display:none;
+}

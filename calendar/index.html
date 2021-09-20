@@ -1,0 +1,80 @@
+<?php
+  // Groupware class
+  define('SHAREDLIB_PATH', get_cfg_var('icewarp_sharedlib_path'));
+  include(SHAREDLIB_PATH . 'api/gw.php');
+  include(SHAREDLIB_PATH . 'api/api.php');
+
+  include('auth.php');
+
+  // Create instance
+  $gw = new IceWarpGWAPI();
+
+  // From and to
+  $from = $gw->unix2calendarDate(mktime());
+  $to = $from + 30;
+
+  // Email
+  $email = urldecode($_SERVER['QUERY_STRING']);
+  $urlemail=$email;
+
+  // Public access
+  if ($email && !isset($_SERVER['HTTP_AUTHORIZATION'])) {
+
+    // Get interval calendars
+    $ical = $gw->FunctionCall("getpublicvcalendar", $email, '', '', ';ITEMLIST');
+
+  // Private access
+  } else {
+
+    // Check auth
+    http_authenticate($gw);
+
+    // Email
+    $email = $gw->user;
+
+    // Open group
+    if ($urlemail)
+    {
+    	$gw->groupsessid = $gw->OpenGroup('~'.$urlemail);
+   	}
+   	else
+   	{
+   		$gw->groupsessid = $gw->OpenGroup();
+   	}
+    //echo $email;
+
+    // Open default event folder
+    $fsessid = $gw->FunctionCall("OpenFolder", $gw->groupsessid,'@@DEFAULT@@#E');
+    // Get interval calendars
+    $ical = $gw->FunctionCall("getvcalendars", $fsessid, '', '', ';ITEMLIST');
+
+    // Logout
+    $gw->Logout();
+  }
+
+  // Email set
+  if ($email) {
+
+    $filename = $email.".ics";
+
+    if ($ical) {
+
+      // Headers
+      header("Content-Type: application/octet-stream");
+      header("Content-Disposition: attachment; filename=\"$filename\"");
+
+      // Print free busy
+      print($ical);
+
+    } elseif(!isset($_SERVER['HTTP_AUTHORIZATION'])) {
+    	// pop http autentificate
+		http_authenticate($gw);
+    }
+    else
+    {
+    	// Not found
+      	header("HTTP/1.0 404 Not Found");
+      	echo "Not Found";
+    }
+  }
+?>

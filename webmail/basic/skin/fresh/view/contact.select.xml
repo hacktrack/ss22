@@ -1,0 +1,52 @@
+<view>
+	<!-- Contact select form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<helper>groupware</helper>
+		<grid id="items" helper="item" template="contact.main">
+			<config>
+				<controller>item</controller>
+				<target>main</target>
+				<data>item.fdr</data>
+				<view>contact.list.select</view>
+				<default>
+					<orderby>itmClassifyAs,itmSurname,itmFirstName ASC</orderby>
+				</default>
+				<fields>
+					<field label="Name">itmClassifyAs</field>
+					<field label="Name">itmSortString</field>
+					<field label="Category">itmCategory</field>
+					<field label="FirstName">itmFirstName</field>
+					<field label="Job">itmMiddleName</field>
+					<field label="MiddleName">itmSurname</field>
+					<field label="Title">itmTitle</field>
+					<field label="Suffix">itmSuffix</field>
+					<field label="Company">itmCompany</field>
+					<field label="Job">itmJobTitle</field>
+					<field label="E-mail">lctemail1</field>
+					<field label="E-mail2">lctemail2</field>
+					<field label="E-mail3">lctemail3</field>
+					<field label="ITMCLASS">ITMCLASS</field>
+				</fields>
+				<set widget="form">
+					<property name="parameters" set="setParameters">?_n[w]=main&amp;_n[p][content]=contact.select&amp;_s[data]=item.fdr&amp;_s[id]={id}&amp;_s[type]=C&amp;_dlg={_dlg}</property>
+				</set>
+				<set widget="menu">
+					<property name="parameters" set="setParameters">?_n[w]=main&amp;_n[p][content]=contact.select&amp;_s[data]=item.fdr&amp;_s[id]={id}&amp;_s[type]=C&amp;_dlg={_dlg}</property>
+				</set>
+				<!--TODO<filter>
+					<sql></sql>
+				</filter>-->
+				<select>
+					<type>multiple</type>
+					<variable>items</variable>
+				</select>
+				<stylesheet>
+					<src>datagrid</src>
+				</stylesheet>
+			</config>
+		</grid>
+	</panel>
+</view>

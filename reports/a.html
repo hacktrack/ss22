@@ -1,0 +1,62 @@
+<?php
+
+header("X-Robots-Tag: noindex");
+try{
+	require_once( "inc/action.php" );
+	//Item hash
+	$hash = $_REQUEST['h'];
+	//Report id
+	$report_id = $_REQUEST['r'];
+	//Item id
+	$id = $_REQUEST['i'];
+	//Spam admin
+	$owner = $_REQUEST['o']?$_REQUEST['o']:false;
+	//Action
+	$action = $_REQUEST['a'];
+	//Type : 1 = spam, 2 = quarantine
+	$type = $_REQUEST['t'];
+	//Account (owner of report)
+	$account = $_REQUEST['e'];
+	//Mode - 1 = New Items ,2 = All items
+	$qmode = $_REQUEST['q'];
+	$smode = $_REQUEST['s'];
+	//Challenge response controllers
+	$go = $_REQUEST['go']?true:false;
+	$word = $_REQUEST['word'];
+	$part = $_REQUEST['part'];
+	//Create Challenge Action object
+	$challengeAction = ChallengeAction::instance();
+	$challengeAction->setReportID( $report_id );
+	//Single item action
+	if($action < 10){
+		$challengeAction->single(
+			$id,
+			$hash,
+			$action,
+			$type,
+			$part
+		);
+	//All account items action
+	}else if($action >= 10 && $action < 20){
+		$challengeAction->account(
+			$hash,
+			$action,
+			$account,
+			$qmode,
+			$smode,
+			$owner
+		);
+	//All admin items action
+	}else if($action >= 20){
+		$challengeAction->admin(
+			$hash,
+			$action,
+			$owner,
+			$qmode,
+			$smode
+		);
+	}
+}catch(Exception $e){
+	echo '<div style="border:1px solid #F00;background-color:#F99;">Error UID:' . print_r($e->getMessage()) . '</div>';
+}
+?>

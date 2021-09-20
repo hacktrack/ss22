@@ -1,0 +1,41 @@
+<window>
+	<helper>auth</helper>
+	<helper>folder</helper>
+	<helper>item</helper>
+	<helper>settings</helper>
+	<config>
+		<stylesheet>
+			<src>style</src>
+			<src>main</src>
+			<src media="(orientation:portrait), (max-width: 800px)">portrait</src>
+			<src>public</src>
+		</stylesheet>
+		<javascript>
+			<src>jquery</src>
+			<src>jquery.hotkeys</src>
+			<src>main</src>
+		</javascript>
+	</config>
+	
+	<!-- top menu -->
+	<menu helper="item" anchor="menu_top" template="menu" anchoronly="1">
+		<config>
+			<controller>item</controller>
+			<target>content</target>
+			<data>item.fdr</data>
+			<detail>false</detail>
+		</config>
+	</menu>
+	
+	<!-- Content -->
+	<form id="main_form" method="post" anchor="form" anchoronly="1" css="main" pregenerate="true" enctype="multipart/form-data">
+		<view id="content" default="mail.main" helper="folder"/>
+		<config>
+			<detail>false</detail>
+		</config>
+	</form>
+	
+	<!-- Switcher -->
+	<switcher anchor="switcher" anchoronly="1"/>
+	
+</window>

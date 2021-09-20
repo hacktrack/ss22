@@ -1,0 +1,1 @@
+<query xmlns="{xmlNameSpace}"><check uid="{DICTIONARY_ID}">{dynamic WORDS}<word>{*::WORD}</word>{optional SUGGEST}<suggest word="{*::WORD}">{dynamic *::SUGGESTS}<word>{*::WORD}</word>{/dynamic}</suggest>{/optional}{/dynamic}</check></query>

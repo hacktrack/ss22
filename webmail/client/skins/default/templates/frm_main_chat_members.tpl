@@ -1,0 +1,1 @@
+<div class="body maxbox"><obj name="list" type="obj_groupmembers"></obj></div>

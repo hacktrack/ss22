@@ -1,0 +1,430 @@
+.frm_document_onlyoffice .chat_container,
+.frm_document_onlyoffice .chat_container_mask,
+.frm_document_onlyoffice .chat_splash {
+	display: none;
+}
+
+/* chat mask (visible in close state) */
+.frm_document_onlyoffice.chat .chat_container_mask{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 58px;
+}
+body.rtl .frm_document_onlyoffice.chat .chat_container_mask{
+	left: 0;
+	right: auto;
+}
+
+.frm_document_onlyoffice.chat .chat_container_mask{
+	background-color: #f1f1f1;
+	transition: color 200ms, box-shadow 200ms;
+}
+.frm_document_onlyoffice.chat.chat-open .chat_container_mask{
+	width: 400px;
+	background-color: #ffffff;
+	box-shadow: 0 15px 15px rgba(0,0,0,0.1);
+}
+	/* chat mask-icon */
+	.frm_document_onlyoffice.chat .chat_icon{
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width: 48px;
+		height: 48px;
+		line-height: 48px;
+		text-align: center;
+	}
+	body.rtl .frm_document_onlyoffice.chat .chat_icon{
+		right: 5px;
+		left: auto;
+	}
+		.frm_document_onlyoffice.chat .chat_icon>img{
+			vertical-align: middle;
+		}
+	.frm_document_onlyoffice.chat.chat-open .chat_container_mask>.chat_icon{
+		display: none;
+	}
+	.frm_document_onlyoffice.chat .chat_container_mask>.chat_icon{
+		cursor: pointer;
+	}
+		.frm_document_onlyoffice.chat .chat_container_mask>.chat_icon:after{
+			content: '';
+			width: 10px;
+			height: 10px;
+			position: absolute;
+			right: 8px;
+			top: 9px;
+			display: block;
+			border-radius: 5px;
+			opacity: 0;
+			transition: opacity 200ms;
+			background-color: {bg_notify '#d51414'};
+		}
+		body.rtl .frm_document_onlyoffice.chat .chat_container_mask>.chat_icon:after{
+			left: 8px;
+			right: auto;
+		}
+		.frm_document_onlyoffice.chat.chat-new .chat_container_mask>.chat_icon:after{
+			opacity: 1;
+		}
+
+
+/* chat container (visible when chat opens) */
+.frm_document_onlyoffice.chat .chat_container{
+	display: block;
+	position: absolute;
+	right: -400px;
+	top: 0;
+	bottom: 0;
+	width: 400px;
+}
+body.rtl .frm_document_onlyoffice.chat .chat_container{
+	right: auto;
+	left: -400px;
+}
+
+.frm_document_onlyoffice.chat.chat-open .chat_container{
+	transition: right 200ms cubic-bezier(0, .52, 0, 1);
+	/* transform: translateX(-400px); */
+	right: 0;
+}
+body.rtl .frm_document_onlyoffice.chat.chat-open .chat_container{
+	transition: left 200ms cubic-bezier(0, .52, 0, 1);
+	/* transform: translateX(400px); */
+	left: 0;
+}
+
+	.frm_document_onlyoffice .chat_container>.room{
+		position: absolute;
+		left: 50px;
+		right: 40px;
+		top: 22px;
+		text-align: center;
+		font-weight: 500;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	body.rtl .frm_document_onlyoffice .chat_container>.room{
+		right: 50px;
+		left: 40px;
+	}
+
+	.frm_document_onlyoffice .chat_container>.close{
+		position: absolute;
+		top: 18px;
+		right: 10px;
+		width: 22px;
+		height: 22px;
+		line-height: 22px;
+		font-size: 16px;
+		font-family: "ico16";
+		color: #9b9b9b;
+		text-indent: 3px;
+		cursor: pointer;
+
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.frm_document_onlyoffice .chat_container>.close:before{
+		content: '\e945';
+	}
+
+	body.rtl .frm_document_onlyoffice .chat_container>.close{
+		left: 10px;
+		right: 0;
+		transform: rotate(180deg);
+	}
+
+	.frm_document_onlyoffice .chat_container>.chat_body{
+		position: absolute;
+		top: 58px;
+		bottom: 0;
+		width: 100%;
+		border-top: 1px solid #EDEDED;
+	}
+
+/* chat splas info */
+.frm_document_onlyoffice.chat.splash .chat_splash{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 100;
+	animation: reveal 400ms;
+}
+.frm_document_onlyoffice.chat.splash .chat_icon{
+	z-index: 102;
+}
+
+.frm_document_onlyoffice.chat.splash .chat_splash:before{
+	content: '';
+    display: block;
+    position: absolute;
+    right: -21px;
+    width: 100px;
+    top: -21px;
+    height: 100px;
+    border-radius: 50%;
+	opacity: 0.35;
+	animation: chat_bubble-breath 1400ms cubic-bezier(0.42, 0, 0.58, 1) forwards 3;
+	box-shadow: 0 0 12px 0px {bg_main '#0088CC'} inset;
+}
+	body.rtl .frm_document_onlyoffice.chat.splash .chat_splash:before{
+		left: -21px;
+		right: auto;
+	}
+
+@keyframes chat_bubble-breath {
+	0% {
+		transform: scale(0);
+		opacity: 1;
+	}
+	40%{
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+
+.frm_document_onlyoffice.splash .chat_bubble{
+	position: absolute;
+	right: 70px;
+	width: 330px;
+
+	padding: 15px;
+	border-radius: 12px;
+	color: #ffffff;
+	text-align: center;
+
+	opacity: 0.9;
+	transform: translate(400px,0);
+	animation: chat_bubble-flyin cubic-bezier(0, .52, 0, 1) 600ms 300ms forwards;
+
+	background-color: {bg_main '#0088CC'};
+}
+body.rtl .frm_document_onlyoffice.splash .chat_bubble{
+	right: auto;
+	left: 70px;
+	animation: chat_bubble-flyin-rtl cubic-bezier(0, .52, 0, 1) 600ms 300ms forwards;
+}
+	.frm_document_onlyoffice .chat_bubble h2{
+		font-size: 16px;
+		font-weight: 400;
+		margin: 0 0 15px 0;
+		white-space: pre;
+	}
+	.frm_document_onlyoffice .chat_bubble p{
+		white-space: pre;
+	}
+	.frm_document_onlyoffice .chat_bubble form.obj_button{
+		float: none;
+		display: inline-block;
+		border: 1px solid rgba(255,255,255,0.8);
+	}
+	.frm_document_onlyoffice .chat_bubble:before{
+		content: '';
+		display: block;
+		width: 15px;
+		height: 15px;
+		position: absolute;
+		right: -8px;
+		top: 20px;
+		transform: rotate(45deg);
+		background-color: inherit;
+	}
+	body.rtl .frm_document_onlyoffice .chat_bubble:before{
+		left: -8px;
+		right: auto;
+	}
+
+	@keyframes chat_bubble-flyin {
+		0% {
+			transform: translate(400px,0);
+			opacity: 0;
+		}
+		40%{
+			opacity: 0;
+		}
+		100% {
+			transform: translate(0,0);
+			opacity: 0.9;
+		}
+	}
+	@keyframes chat_bubble-flyin-rtl {
+		0% {
+			transform: translate(-400px,0);
+			opacity: 0;
+		}
+		40%{
+			opacity: 0;
+		}
+		100% {
+			transform: translate(0,0);
+			opacity: 0.9;
+		}
+	}
+
+/* office editor part */
+.frm_document_onlyoffice .editor_container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.frm_document_onlyoffice.chat .editor_container {
+	right: 58px;
+	border: 1px solid #cbcbcb;
+	border-width: 0 1px 0 0;
+}
+body.rtl .frm_document_onlyoffice.chat .editor_container{
+	right: 0;
+	left: 58px;
+	border-width: 0 0 0 1px;
+}
+.frm_document_onlyoffice.chat.chat-open .editor_container {
+	right: 400px;
+}
+body.rtl .frm_document_onlyoffice.chat.chat-open .editor_container {
+	right: 0;
+	left: 400px;
+}
+
+
+.frm_document_onlyoffice .header {
+	background: #ECECEC;
+}
+
+div.frm_document_onlyoffice.obj_popup>div>.container2 {
+	padding-top: 15px;
+}
+div.frm_document_onlyoffice.ribbon.obj_popup>div>.container2 {
+	padding-top: 36px;
+}
+
+div.frm_document_onlyoffice.hide-topbar.obj_popup>div>.container2 {
+	padding-top: 8px;
+}
+div.frm_document_onlyoffice.obj_popup>div>.container2.has-panel {
+	padding-top: 75px;
+}
+
+div.frm_document_onlyoffice .panel {
+	height: 40px;
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	top: 36px;
+	border-bottom: 1px solid #ccc;
+	padding: 6px 15px 0px;
+	font-size: 14px;
+}
+
+div.frm_document_onlyoffice .panel.table {
+	width: 100%;
+	display: table;
+}
+
+div.frm_document_onlyoffice .panel .cell {
+	width: 20%;
+	display: table-cell;
+	line-height: 30px;
+}
+
+div.frm_document_onlyoffice .panel .cell.last {
+	text-align: right;
+}
+
+div.frm_document_onlyoffice .panel .cell.middle {
+	width: 60%;
+	text-align: center;
+}
+
+div.frm_document_onlyoffice .panel .cell.middle > div {
+	display: inline-block;
+}
+
+div.frm_document_onlyoffice .panel .cell .avatar {
+	vertical-align: middle;
+    margin-right: 10px;
+    height: 28px;
+	position: relative;
+}
+
+div.frm_document_onlyoffice .panel .cell .avatar img {
+	width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+
+div.frm_document_onlyoffice .panel .cell .avatar:after {
+	position: absolute;
+    content: '\e049';
+    font-family: 'ico16';
+    color: #fff;
+    right: -5px;
+    bottom: -3px;
+    background: {bg_main '#0088CC'};
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+	font-size: 8px;
+	line-height: 8px;
+}
+
+div.frm_document_onlyoffice .panel .cell .button {
+	border: 1px solid {bg_main #08c};
+	border-radius: 2px;
+	color: {bg_main #08c};
+	padding: 5px 15px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 10px;
+	line-height: initial;
+}
+
+div.frm_document_onlyoffice .panel .cell .label:before {
+	content: '\e05d';
+	font-family: 'ico24';
+	padding-right: 10px;
+	vertical-align: middle;
+}
+/*
+div.frm_document_onlyoffice .cell .close {
+	display: inline-block;
+	cursor: pointer;
+}
+
+div.frm_document_onlyoffice .cell .close:after {
+	content: '\e041';
+	font-family: 'ico24';
+	padding-left: 5px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+*/
+
+/* Doc Type icons */
+div.frm_document_onlyoffice .obj_popupico:after{
+	font-family: 'filetypes'!important;
+}
+div.frm_document_onlyoffice.ico_text .obj_popupico:after{
+	content: '\e12';
+}
+div.frm_document_onlyoffice.ico_spreadsheet .obj_popupico:after{
+	content: '\e16';
+}
+div.frm_document_onlyoffice.ico_presentation .obj_popupico:after{
+	content: '\e19';
+}

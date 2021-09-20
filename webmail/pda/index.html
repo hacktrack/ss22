@@ -1,0 +1,253 @@
+<?php
+header('X-Frame-Options: SAMEORIGIN');
+
+//Output buffering init
+header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+header("Content-Type:text/html; charset=UTF-8;");
+
+define('EMAIL_LINK_FORMAT',"#__w_o#a target=#__w_q#_top#__w_q# href=#__w_q#index.html?_n[p][main]=mail.compose&to=$1#__w_q##__w_c#$1#__w_o#/a#__w_c#");
+define('LANGUAGE_PATH','../pda/language/');
+/**
+ * APPLICATION CONFIGURATION
+ * Some models require to work in specific directory ,so this allows to place your model anywhere 
+ * you need(due to relative paths etc..)
+ * Paths can be relative to the path changed in optional chdir(MODEL_PATH)
+ */
+//Framework path
+define( 'SHAREDLIB_PATH' , get_cfg_var('icewarp_sharedlib_path') );
+if(!SHAREDLIB_PATH){
+	define( 'SHAREDLIB_PATH' , dirname(realpath(__FILE__)).'/sharedlib/' );
+}
+//Application path
+define( 'APP_DENTITY','WebClient/Mobile');
+define( 'APP_PATH' , '../pda/' );
+define( 'MODEL_PATH' , '../server/' );
+chdir( MODEL_PATH );
+//Now the path is relative to MODEL_ROOT...
+if(stristr($_SERVER['HTTP_USER_AGENT'],'apple')!==false){
+	$skin = 'apple';
+}else{
+	$skin = 'pda';
+}
+$skin = 'apple';
+
+define(	'APP_SKIN' , $skin );
+define( 'APP' , 'pda' );
+define( 'LOG_LEVEL' , 0 );
+define( 'APP_SCREEN_LOGGED','grid.mail');
+define( 'APP_SCREEN_UNAUTHORIZED','win.login');
+define( 'APP_DEFAULT_CONTROLLER','pda');
+define('APP_IDENTITY','WebClient/PDA');
+
+
+define('WEBMAIL_PHP','pda/index.html');
+define('DOWNLOAD_PHP','server/download.php');
+
+/*>*$fdt = time()-$t+microtime()-$m; echo "<!-- Framework Define time: ". ( $fdt )." -->\r\n";/*<*/
+/**
+ * APPLICATION INCLUDES
+ **/
+
+define('SESSION_COOKIE_NAME','PHPSESSID_PDA');
+ini_set('session.name',SESSION_COOKIE_NAME);
+
+/*>*$t1 = time();$m1 = microtime();/*<*/
+//Import application files
+require_once( SHAREDLIB_PATH. 'system.php' );
+slSystem::import( 'application' );
+slSystem::import( 'io/router' );
+slSystem::import( 'system/session' );
+//AppSystem::import( 'storage/database' );
+slSystem::import( 'storage/settings' );
+slSystem::import( 'tools/debug' );
+//Model - init required classes and objects / create some requirements on model...
+slSystem::import( 'model/webmail', APP_PATH );
+slSystem::import( 'model/settings', APP_PATH );
+
+if(defined('SECURE_COOKIE') && SECURE_COOKIE){
+   header('Strict-Transport-Security: max-age=31536000; includeSubDomains; preload');
+}    
+
+/******* unilogin *****/
+if (isset($_GET['l'])){
+	if (isset($_REQUEST['PHPSESSID_LOGIN'])){session_id($_REQUEST['PHPSESSID_LOGIN']);}
+    $cookie = new slToolsCookie();
+    if ($cookie->isSecure()) {
+        ini_set('session.cookie_secure', 'on');
+    }
+	session_start();
+	if (isset($_SESSION['_unilogin'])){
+		$_POST=$_SESSION['_unilogin'];
+		unset($_SESSION['_unilogin']);
+	}
+	if(!$_SESSION['user']){
+		session_destroy();
+	}
+} else {
+	// set PDA as last used interface
+	$lastLanguage='en';
+	if(isset($_COOKIE['lastLogin'])){$parse=explode('|',$_COOKIE['lastLogin']);$lastLanguage=$parse[0];}
+	$cookie = new slToolsCookie();
+	$cookie->setcookie('lastLogin',$lastLanguage.'|pda',mktime(0,0,0,1,1,2030),'/');
+}
+if (isset($_POST['iw_username'])) {$_POST['username']=$_POST['iw_username'];}
+
+//ob_start('ob_gzhandler');
+define('SESSION_COOKIE_NAME','PHPSESSID_PDA');
+ini_set('session.name',SESSION_COOKIE_NAME);
+
+/************/
+
+/**$wrt = time()-$t1+microtime()-$m1;echo "<!-- Webmail Require time: ". ( $wrt )." -->\r\n";/**/
+/**
+ * APPLICATION - INPUT - create request(sent data) and session(client data)
+ **/
+//Object to handle all form / get / files data
+$request = slRequest::instance();
+//Object to store user session
+$session = slSession::instance( $request );
+
+// check for the CSRF token
+if (isset($_GET['_a']) && isset($_GET['_a']['logout'])) {
+	// logout action should be CSRF protected and previous test was not successful
+	slRouter::redirect($request->getPath().'?_n[w]=main&_n[p][main]='.APP_SCREEN_LOGGED, true);
+}
+elseif (empty($_POST)) {
+	// no POST parameters were sent - no write operation - continue
+}
+elseif (isset($_POST['token']) && $_POST['token'] === session_id()) {
+	// the token was sent and is OK - continue
+}
+elseif ((isset($_POST['password']) || isset($_POST['password_rsa'])) && isset($_POST['_a']) && isset($_POST['_a']['login'])) {
+	// no protection while login into application
+}
+else {
+	// go to "logged" screen in case of CSRF attack
+	slRouter::redirect($request->getPath().'?_n[w]=main&_n[p][main]='.APP_SCREEN_LOGGED, true);
+}
+
+if($session->onetimelogin){
+	$_SESSION['CTZ'] = $_SESSION['CLIENT_TIMEZONE_OFFSET'];
+	slRouter::redirect($request->getPath().'?_n[w]=main&_n[p][main]='.APP_SCREEN_LOGGED,true);
+}
+/**
+ * ATOKEN LOGIN
+ **/
+if($request->get('get.atoken')){
+	function getClearGet($qs=array())
+	{
+		 
+		if (isset($_GET['xml'])) {
+			$qs[]='xml='.$_GET['xml'];
+		}
+		if (isset($_GET['frm'])) {
+			$qs[]='frm='.$_GET['frm'];
+		}
+		if (isset($_GET['debug'])) {
+			$qs[]='debug='.urlencode($_GET['debug']);
+		}
+		if (isset($_GET['mailto'])) {
+			$qs[]='mailto='.urlencode($_GET['mailto']);
+		}
+		if (isset($_GET['subject'])) {
+			$qs[]='subject='.$_GET['subject'];
+		}
+		if (isset($_GET['video'])) {
+			$qs[]='video='.$_GET['video'];
+		}
+		if (isset($_GET['telemetry'])) {
+			$qs[]='telemetry='.$_GET['telemetry'];
+		}
+		if (isset($_GET['meeting'])) {
+			$qs[]='meeting='.$_GET['meeting'];
+		}
+		if (isset($_GET['ref'])) {
+			$qs[]='ref='.$_GET['ref'];
+		}
+		if (isset($_GET['username'])) {
+			$qs[]='username='.$_GET['username'];
+		}
+		if (isset($_GET['password'])) {
+			$qs[]='password='.$_GET['password'];
+		}
+		if (isset($_GET['drafts_imap_id'])) {
+			$qs[]='drafts_imap_id='.$_GET['drafts_imap_id'];
+		}
+	
+		if (isset($_GET['cc'])) {
+			$qs[]='cc='.urlencode($_GET['cc']);
+		}
+		if (isset($_GET['bcc'])) {
+			$qs[]='bcc='.urlencode($_GET['bcc']);
+		}
+		if (isset($_GET['body'])) {
+			$qs[]='body='.urlencode($_GET['body']);
+		}
+		if (isset($_GET['sms'])) {
+			$qs[]='sms='.$_GET['sms'];
+		}
+		if (isset($_GET['open'])) {
+			$qs[]='open='.$_GET['open'];
+		}
+		if (isset($_GET['page'])) {
+			$qs[]='page='.$_GET['page'];
+		}
+		if (isset($_GET['from'])) {
+			$qs[]='from='.$_GET['from'];
+		}
+		if (isset($_GET['token'])) {
+			$qs[]='token='.$_GET['token'];
+		}
+		if (isset($_GET['tconly'])) {
+			$qs[]='tconly='.$_GET['tconly'];
+		}
+		if (isset($_GET['notifyuri'])) {
+			$qs[]='notifyuri='.$_GET['notifyuri'];
+		}
+        if (!empty($qs)) {
+			$qs='?'.join('&',$qs);
+		} else {
+		    $qs='';
+		}
+		$qs = str_replace(array('<','>'),array('',''),$qs);
+		 
+		return $qs;
+	}
+
+    try {
+        $sid = WebmailIqAuth::createSidByAToken($request->get('get.atoken'), $request->get('get.language'), $request->get('get.remember'), $request->get('all.ctz'), 'pda');
+        header("Location: ./" . getClearGet());
+    } catch (Exc $e) {
+        header("Location: ../?eid=" . $e->wmcode);
+    }
+	die();
+}
+
+/**
+ * APPLICATION MODEL INITIALIZATION (usually require model libraries,basic initialization etc...)
+ **/
+//Model configuration
+$settings = WebmailSettings::instance($session);
+$model = WebmailModel::instance($settings);
+
+
+
+/**
+ * APPLICATION - EXECUTIVE PART
+ **/
+try{
+	$application = slApplication::instance( APP, $model, $session );
+	$response = $application->dispatch( $request );
+	$application->respond( $response );
+}catch(Exception $e){
+    if(explode(':',$e->getMessage())[0]=='file_does_not_exist'){
+		header("HTTP/1.1 403 Forbidden");
+	}else{
+		throw $e;
+	}
+}
+
+
+
+?>

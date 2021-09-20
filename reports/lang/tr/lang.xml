@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="To"/>
+  <ITEM id="attachments" value="Ekler"/>
+  <ITEM id="bytes" value="Bayt"/>
+  <ITEM id="view_mail" value="Postayı görüntüle"/>
+  <ITEM id="show_source" value="Kaynağı göster"/>
+  <ITEM id="title" value="Doğrulama Yanıtı"/>
+  <ITEM id="request" value="Mesajınızın bir bilgisayar tarafından değil  bir insan tarafından gönderildiğini kanıtlamak için, aşağıda gördüğünüz alfasayısal resmi metin şeklinde yazın ve Tamam&apos;a tıklayın. türüne göre gönderilen kanıtlamak ve Tamam&apos;ı tıklatın. Bu e-posta adresi için bir kez yapmanız istenecektir."/>
+  <ITEM id="result_ok" value="Belirttiğiniz sözcük doğru. E-posta adresiniz yetkilendirilmiştir."/>
+  <ITEM id="result_error" value="Belirttiğiniz kelime yanlış. Lütfen tekrar deneyin."/>
+  <ITEM id="result_already" value="E-posta adresiniz zaten yetkili olmuştur."/>
+  <ITEM id="result_black" value="Eposta adresiniz kara listede."/>
+  <ITEM id="result_notfound" value="Eposta adresiniz bulunamadı. Silinmiş olmalı. Mesajınızı tekrar gönderiniz."/>
+  <ITEM id="thanks" value="İşbirliğiniz için teşekkürler."/>
+  <ITEM id="reason" value="Neden bunu yapıyorum?"/>
+  <ITEM id="explanation" value="İstenmeyen ticari e-postalar bilgisayar tarafından oluşturulur ve yukarıdaki komuta yanıt veremez. Bu izin tabanlı e-posta sistemi kullanarak, kimlik doğrulayan eposta göndericileri benimle eposta ile iletişim kurmak isteyen gerçek insanlar olduklarını kanıtlamış olurlar."/>
+  <ITEM id="thanks2" value="Spamları reddetme konusunda bana yardımcı olduğunuz için teşekkür ederim."/>
+  <ITEM id="copyright" value="Telif Hakkı"/>
+  <ITEM id="link" value="IceWarp Yazilimi"/>
+  <ITEM id="gateway_link_label" value="Karantina/spam cevrimici yonetin"/>
+  <ITEM id="copyright2" value="Tum hakki saklidir."/>
+  <LIST>
+    <ITEM id="title" value="IceWarp Spam Raporu"/>
+    <ITEM id="intro" value="Otomatik olarak üretilen bu mesaj sizi Spam klasöründeki mesajlarınız hakkında bilgilendirmek için oluşturulmuştur. Her eposta iletisi başlığındaki düğmelere tıklayarak yönetimsel işlemler yapabilrsiniz. &lt;br/&gt; Raporlar sadece gönderenin ilk mesajında gözükür. Kabul ettiğinizde, gönderenin teslim alınan diğer bütün mesajlarına uygulanır."/>
+    <ITEM id="outro" value="Gereksiz posta klasoru veya karantinada kalan tum mesajlar uzerinde secili eylemi uygulamak icin yukaridaki linklerden birine basabilirsiniz"/>
+    <ITEM id="admin_action" value="Tum hesaplardaki tum itemlar icin bir eylem seciniz."/>
+    <ITEM id="account_action" value="Bir hesaptaki tum itemlar icin bir eylem seciniz."/>
+    <ITEM id="you_are_admin" value="Gereksiz posta yonetici secenekleri"/>
+    <ITEM id="sender" value="Kimden"/>
+    <ITEM id="subject" value="Konu"/>
+    <ITEM id="recipient" value="-e,-a"/>
+    <ITEM id="date" value="Tarih"/>
+    <ITEM id="time" value="Zaman"/>
+    <ITEM id="actions" value="Eylemler"/>
+    <ITEM id="delete" value="Sil"/>
+    <ITEM id="authorize" value="İzin verilenler listesi"/>
+    <ITEM id="accept" value="Teslim et"/>
+    <ITEM id="blacklist" value="Kara liste"/>
+    <ITEM id="deleteall" value="Sil"/>
+    <ITEM id="authorizeall" value="İzin verilenler listesi"/>
+    <ITEM id="acceptall" value="Teslim et"/>
+    <ITEM id="blacklistall" value="Kara liste"/>
+    <ITEM id="submit" value="Gonder"/>
+    <ITEM id="view" value="Mesaji goster"/>
+    <ITEM id="msgsubject" value="%%Current_Date%% den gereksiz posta raporu"/>
+    <ITEM id="domain" value="Alan adi"/>
+    <ITEM id="account" value="Hesap"/>
+    <ITEM id="location" value="Yer"/>
+    <ITEM id="type_quarantine" value="Karantina"/>
+    <ITEM id="type_spam" value="Gereksiz posta klasoru"/>
+    <ITEM id="delivery_problem" value="Hesaba mesaj teslimi basarisiz"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Gonderici yetkilendirmesi"/>
+      <ITEM id="success" value="Gönderici kimlik doğruladı."/>
+      <ITEM id="failure" value="Gonderici yetkilendirilemedi"/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Mesaj teslimi"/>
+      <ITEM id="success" value="Mesaj iletildi."/>
+      <ITEM id="failure" value="Mesaj gonderilemedi"/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Mesaj silme"/>
+      <ITEM id="success" value="Mesaj silindi ve kuyruktan çıkartıldı."/>
+      <ITEM id="failure" value="Mesaj silinemedi"/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Gonderici reddi"/>
+      <ITEM id="success" value="Gönderen kara listeye eklendi."/>
+      <ITEM id="failure" value="Gonderici kara listeye eklenemedi"/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Mesaj gorunumu"/>
+      <ITEM id="failure" value="Mesaj goruntulenemedi. Bu, eger mesaj karantina veya gereksiz posta klasorunden zaten silindiyse olabilir"/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Hata"/>
+      <ITEM id="failure" value="Istenen islem gerceklestirilemedi"/>
+      <ITEM id="wrongid" value="Geçersiz mesaj ID. Belirtilen mesaj Karantinadan çıkartıldı. (ya da Spam klasöründen)"/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Gonderici yetkilendirmesi"/>
+      <ITEM id="success" value="Gönderen kimlik doğruladı ve mesaş iletildi."/>
+      <ITEM id="failure" value="Gonderici yetkilendirilemedi veya mesaj gonderilemedi"/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Mesaj gonderimi"/>
+      <ITEM id="success" value="Mesaj iletildi."/>
+      <ITEM id="failure" value="Mesaj gonderilemedi"/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Mesaj silme"/>
+      <ITEM id="success" value="Mesaj spam klasöründen silindi."/>
+      <ITEM id="failure" value="Mesaj silinemedi"/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Gonderici reddi"/>
+      <ITEM id="success" value="Gönderen kara listeye eklendi ve mesaj spam klasöründen çıkartıldı."/>
+      <ITEM id="failure" value="Gonderici kara listeye eklenemedi veya mesaj silinemedi"/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Mesaj gorunumu"/>
+      <ITEM id="failure" value="Mesaj goruntulenemedi. Bu, mesaj zaten silindiyse olabilir"/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Hata"/>
+      <ITEM id="failure" value="Istenen islem gerceklestirilemedi"/>
+      <ITEM id="wrongid" value="Geçersiz mesaj ID. Belirtilen mesaj Karantina&apos;dan çıkartıldı (ya da Spam klasöründen)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Hata"/>
+      <ITEM id="failure" value="Istenen islem gerceklestirilemedi"/>
+      <ITEM id="wrongid" value="Geçersiz yönetici ID. Belirtilen yönetici hesabı mevcut değil."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Spam raporları devre dışı %s"/>
+    <ITEM id="challenge_already_running" value="Spam raporları zaten çalışıyor"/>
+    <ITEM id="challenge_invalid_path_variable" value="Spam raporları yolu düzgün yüklenmedi: %s"/>
+    <ITEM id="api_findinitquery" value="Spam raporları API: IceWarp hesap nesnesi alımı. Etki Alanı: %s, Filtre: %s"/>
+    <ITEM id="challenge_language_file_missing" value="Spam reports language file is missing: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Spam reports language file corrupted: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Spam reports invalid hash (possible URL attack): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

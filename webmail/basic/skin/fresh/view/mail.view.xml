@@ -1,0 +1,24 @@
+<form>
+	<!-- Users form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<mailview id="items" helper="item" template="mail.view">
+			<config>
+				<stylesheet>
+					<src>grid</src>
+					<src>mail.view</src>
+					<src>error</src>
+					<src>datagrid_detail</src>
+					<src>file_types</src>
+				</stylesheet>
+				<javascript>
+					<src>jquery</src>
+					<src>mail.view</src>
+					<src>general</src>
+				</javascript>
+				<data>item.fdr</data>
+			</config>
+		</mailview>
+	</panel>
+</form>

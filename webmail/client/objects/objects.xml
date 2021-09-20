@@ -1,0 +1,4583 @@
+<objects>
+<frm_account>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_account</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_account>
+<frm_account_oauth_settings>
+<object css="frm_account_oauth_settings">
+<css>frm_account_oauth_settings</css>
+<library>frm_account_oauth_settings</library>
+<template>frm_account_oauth_settings</template>
+</object>
+
+</frm_account_oauth_settings>
+<frm_addaddress>
+<object css="obj_popup">
+<css>obj_popup</css>
+<css>frm_addaddress</css>
+<template>obj_popup</template>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_addaddress</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>btn_to</elm>
+	<elm>btn_cc</elm>
+	<elm>btn_bcc</elm>
+	<elm>composetable</elm>
+	<elm>treefolder</elm>
+	<elm>left</elm>
+	<elm>center</elm>
+	<elm>right</elm>
+</anchors>
+</object>
+</frm_addaddress>
+<frm_addroom>
+<object css="obj_popup frm_wizard">
+<parents><obj>document</obj></parents>
+<unique>true</unique>
+<css>obj_popup</css>
+<css>frm_wizard</css>
+<css>frm_addroom</css>
+<library>obj_popup</library>
+<library>frm_wizard</library>
+<library>frm_addroom</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_addroom>
+<frm_addroom_main>
+<object>
+<type>block</type>
+<unique>true</unique>
+<template>frm_addroom_main</template>
+<library>frm_addroom_main</library>
+</object>
+</frm_addroom_main>
+<frm_addroom_private>
+<object>
+<type>block</type>
+<unique>true</unique>
+<template>frm_addroom_private</template>
+<before>obj_block_tab</before>
+<library>frm_addroom_private</library>
+</object>
+</frm_addroom_private>
+<frm_addroom_public>
+<object>
+<type>block</type>
+<unique>true</unique>
+<template>frm_addroom_public</template>
+<before>obj_block_tab</before>
+<library>frm_addroom_public</library>
+</object>
+</frm_addroom_public>
+<frm_add_folder>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_add_folder</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_add_folder</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_add_folder>
+<frm_alert>
+<object css="obj_popup frm_confirm">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_confirm</css>
+<library>obj_popup</library>
+<library>frm_alert</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_alert>
+<frm_alert_suppress>
+<object css="obj_popup frm_confirm frm_alert">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_confirm</css>
+<before>frm_suppress_check</before>
+<library>obj_popup</library>
+<library>frm_alert</library>
+<library>frm_alert_suppress</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_alert_suppress>
+<frm_autoresponder>
+<object>
+<library>frm_autoresponder</library>
+<template>frm_autoresponder</template>
+</object>
+
+</frm_autoresponder>
+<frm_blackwhite>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_blackwhite</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_blackwhite>
+<frm_categories>
+<object css="obj_popup">
+<css>obj_popup</css>
+<css>frm_categories</css>
+<template>obj_popup</template>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_categories</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_categories>
+<frm_certificate>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_certificate</css>
+<library>obj_popup</library>
+<library>frm_certificate</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_certificate>
+<frm_changepass>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_changepass</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_changepass>
+<frm_change_channel>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_change_channel</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_change_channel>
+<frm_chat>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_chat</css>
+<library>obj_popup</library>
+<library>frm_chat</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_chat>
+<frm_chat_upload>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_chat_upload</css>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_chat_upload</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_chat_upload>
+<frm_collaboration>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_collaboration</css>
+<unique>true</unique>
+
+<library>obj_popup</library>
+<library>frm_collaboration</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+
+</frm_collaboration>
+<frm_comment>
+<object>
+<css>frm_comment</css>
+<css>dropzone</css>
+<library include="true">obj_popup</library>
+<library>obj_scrollbar</library>
+<library>frm_comment</library>
+<template>frm_comment</template>
+</object>
+</frm_comment>
+<frm_compose>
+<object css="obj_popup">
+<css>obj_popup</css>
+<css>frm_compose</css>
+<template>obj_popup</template>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_compose</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>sms</elm>
+	<elm>preview</elm>
+	<elm>composetable</elm>
+	<elm>msiebox</elm>
+</anchors>
+</object>
+</frm_compose>
+<frm_conference>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<unique>keep</unique>
+<css>obj_popup</css>
+<css>frm_conference</css>
+<library>obj_popup</library>
+<library>obj_scrollbar</library>
+<library>obj_general_tooltip</library>
+<library>frm_conference</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+
+</frm_conference>
+<frm_confirm>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_confirm</css>
+<template>obj_popup</template>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_confirm</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_confirm>
+<frm_confirm_repeating>
+<object css="obj_popup frm_confirm">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_confirm</css>
+<css>frm_confirm_repeating</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_confirm_repeating</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_confirm_repeating>
+<frm_confirm_select>
+<object css="obj_popup frm_confirm">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_confirm</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_confirm</library>
+<library>frm_confirm_select</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_confirm_select>
+<frm_confirm_suppress>
+<object css="obj_popup frm_confirm">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_confirm</css>
+<before>frm_suppress_check</before>
+<library>obj_popup</library>
+<library>frm_confirm</library>
+<library>frm_confirm_suppress</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_confirm_suppress>
+<frm_confirm_threestates>
+<object css="obj_popup frm_confirm">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_confirm</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_confirm</library>
+<library>frm_confirm_threestates</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_confirm_threestates>
+<frm_contact>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_contact</css>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_gw</library>
+<library>frm_contact</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_contact>
+<frm_delivery>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_delivery</css>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_delivery</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>attach</elm>
+</anchors>
+</object>
+</frm_delivery>
+<frm_device>
+<object css="obj_popup">
+<unique>true</unique>
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_device</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_device>
+<frm_devices>
+<object css="obj_popup">
+<unique>true</unique>
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_devices</css>
+<library>obj_popup</library>
+<library>frm_devices</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_devices>
+<frm_dial>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<unique>true</unique>
+<css>obj_popup</css>
+<css>frm_dial</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_dial</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>tmpbtn</elm>
+</anchors>
+</object>
+</frm_dial>
+<frm_distrib>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_distrib</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_gw</library>
+<library>frm_distrib</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_distrib>
+<frm_document>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_document</css>
+
+<library>obj_popup</library>
+<library>obj_scrollbar</library>
+<library>frm_document</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_document>
+<frm_document_onlyoffice>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_document_onlyoffice</css>
+<library>obj_popup</library>
+<library>obj_scrollbar</library>
+<library>frm_document_onlyoffice</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_document_onlyoffice>
+<frm_duplicity>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_duplicity</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_duplicity>
+<frm_editor>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_editor</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_editor</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_editor>
+<frm_edit_attendee>
+<object css="obj_popup">
+<css>obj_popup</css>
+<template>obj_popup</template>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_edit_attendee</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_edit_attendee>
+<frm_edit_header>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_edit_header</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_edit_header>
+<frm_event2>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_event2</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>imip_recurrence</library>
+<library>frm_ok_cancel</library>
+<library>frm_gw</library>
+<library>frm_event2</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+
+</frm_event2>
+<frm_file>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_file</css>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_gw</library>
+<library>frm_file</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>attach</elm>
+</anchors>
+</object>
+</frm_file>
+<frm_gmap>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_gmap</css>
+<library>obj_popup</library>
+<library>frm_gmap</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_gmap>
+<frm_groupchat_invite>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_groupchat_invite</css>
+<template>obj_popup</template>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>obj_scrollbar</library>
+<library>frm_groupchat_invite</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_groupchat_invite>
+<frm_gw>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_gw</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_gw>
+<frm_help>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_help</library>
+<template>obj_popup</template>
+<unique>true</unique>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+
+</frm_help>
+<frm_imgview>
+<object>
+<unique>true</unique>
+<type>block</type>
+<css>frm_imgview</css>
+<template>frm_imgview</template>
+<library>obj_block</library>
+<library>frm_imgview</library>
+</object>
+</frm_imgview>
+<frm_im_add>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_im_add</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_im_add</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_im_add>
+<frm_im_addgtw>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_im_addgtw</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_im_addgtw>
+<frm_im_file>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_im_file</css>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_im_file</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_im_file>
+<frm_im_vcard>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_im_vcard</css>
+<library>obj_popup</library>
+<library>frm_im_vcard</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_im_vcard>
+<frm_input>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_input</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_input>
+<frm_insert_code>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_insert_code</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_insert_code</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>code</elm>
+	<elm>language</elm>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+</anchors>
+</object>
+</frm_insert_code>
+<frm_insert_item>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_insert_item</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_insert_item</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>tree</elm>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>search</elm>
+</anchors>
+</object>
+</frm_insert_item>
+<frm_jitsi>
+<object>
+<unique>true</unique>
+<css>frm_jitsi</css>
+<library include="true">wm_conference</library>
+<library>frm_jitsi</library>
+</object>
+
+</frm_jitsi>
+<frm_journal>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_journal</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_gw</library>
+<library>frm_journal</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_journal>
+<frm_mail>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_mail</css>
+<library>obj_context_item</library>
+<library>obj_popup</library>
+<library>frm_mail</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>focus</elm>
+</anchors>
+</object>
+</frm_mail>
+<frm_mail_print>
+<object css="obj_popup frm_mail_print">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_mail_print</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_mail_print>
+<frm_main>
+<object>
+<parents><obj>document</obj></parents>
+<css>obj_scrollbar</css>
+<css>frm_main</css>
+<before>obj_block_tab</before>
+<library include="true">class_alfresco</library>
+<library path="skin">frm_main_resize</library>
+<library>frm_main</library>
+<anchors>
+	<elm>menu1</elm>
+	<elm>menu2</elm>
+	<elm>menu3</elm>
+	<elm>menu4</elm>
+	<elm>left</elm>
+	<elm>main</elm>
+	<elm>slider</elm>
+	<elm>slider2</elm>
+	<elm>im</elm>
+	<elm>dock</elm>
+	<elm>container</elm>
+</anchors>
+</object>
+</frm_main>
+<frm_main_calendar_dayweek>
+<object css="frm_main_calendar">
+<type>block</type>
+<css>frm_main_calendar</css>
+<template>frm_main_calendar_dayweek</template>
+<library>frm_main_calendar</library>
+<library>frm_main_calendar_dayweek</library>
+<anchors>
+	<elm>slot1</elm>
+	<elm>slot2</elm>
+</anchors>
+</object>
+</frm_main_calendar_dayweek>
+<frm_main_calendar_month>
+<object css="frm_main_calendar">
+<type>block</type>
+<css>frm_main_calendar</css>
+<library>frm_main_calendar</library>
+<library>frm_main_calendar_month</library>
+<template>frm_main_calendar_month</template>
+</object>
+
+</frm_main_calendar_month>
+<frm_main_chat>
+<object>
+<type>block</type>
+<css>frm_main_chat</css>
+<library>frm_main_chat</library>
+</object>
+</frm_main_chat>
+<frm_main_conference>
+<object>
+<css>frm_main_conference</css>
+<library>frm_main_conference</library>
+</object>
+
+</frm_main_conference>
+<frm_main_datagrid>
+<object>
+<type>block</type>
+<css>frm_main_datagrid</css>
+<library>frm_main_datagrid</library>
+</object>
+</frm_main_datagrid>
+<frm_main_datagrid_view>
+<object css="frm_main_view">
+<type>block</type>
+<css>frm_main_view</css>
+<template>frm_main_view</template>
+<library>frm_main_datagrid</library>
+<library path="skin">frm_main_view_resize</library>
+<anchors>
+	<elm>list</elm>
+	<elm>slider</elm>
+	<elm>container</elm>
+</anchors>
+</object>
+</frm_main_datagrid_view>
+<frm_main_datagrid_wide>
+<object css="frm_main_wide">
+<type>block</type>
+<css>frm_main_wide</css>
+<template>frm_main_wide</template>
+<library>frm_main_datagrid</library>
+<library path="skin">frm_main_wide_resize</library>
+<anchors>
+	<elm>list</elm>
+	<elm>slider</elm>
+	<elm>container</elm>
+    <elm>container2</elm>
+</anchors>
+</object>
+</frm_main_datagrid_wide>
+<frm_main_home>
+<object>
+<css>frm_main_home</css>
+<library>frm_main_home</library>
+<anchors>
+	<elm>folders</elm>
+	<elm>banner</elm>
+	<elm>license</elm>
+</anchors>
+</object>
+</frm_main_home>
+<frm_main_mail>
+<object css="frm_main_view">
+<type>block</type>
+<css>frm_main_view</css>
+<template>frm_main_view</template>
+<library>frm_main_mail</library>
+<library path="skin">frm_main_view_resize</library>
+<anchors>
+	<elm>list</elm>
+	<elm>slider</elm>
+	<elm>container</elm>
+</anchors>
+</object>
+</frm_main_mail>
+<frm_main_mail_list>
+<object css="frm_main_datagrid">
+<type>block</type>
+<css>frm_main_datagrid</css>
+<library>frm_main_mail</library>
+<anchors>
+	<elm>list</elm>
+</anchors>
+</object>
+</frm_main_mail_list>
+<frm_main_mail_wide>
+<object css="frm_main_wide">
+<type>block</type>
+<css>frm_main_wide</css>
+<template>frm_main_wide</template>
+<library>frm_main_mail</library>
+<library path="skin">frm_main_wide_resize</library>
+<anchors>
+	<elm>list</elm>
+	<elm>slider</elm>
+    <elm>container</elm>
+    <elm>container2</elm>
+</anchors>
+</object>
+</frm_main_mail_wide>
+<frm_name>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_name</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_name>
+<frm_note>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_gw</library>
+<library>frm_note</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>note</elm>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_note>
+<frm_notify>
+<object css="obj_popup">
+<css>obj_popup</css>
+<css>frm_notify</css>
+<template>obj_popup</template>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_notify</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>sms</elm>
+	<elm>preview</elm>
+	<elm>composetable</elm>
+	<elm>msiebox</elm>
+</anchors>
+</object>
+</frm_notify>
+<frm_no_java>
+<object css="obj_popup frm_confirm frm_no_java">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_no_java</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_confirm</library>
+<library>frm_confirm_threestates</library>
+<library>frm_no_java</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_no_java>
+<frm_ok_cancel>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_ok_cancel>
+<frm_password>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_password</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_password>
+<frm_pdf>
+<object css="obj_popup">
+<css>obj_popup</css>
+<css>frm_rule</css>
+
+<library>obj_popup</library>
+<library>frm_pdf</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_pdf>
+<frm_permissions>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_permissions</css>
+
+<library>obj_popup</library>
+<library>frm_permissions</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+
+</frm_permissions>
+<frm_phonebook>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_phonebook</css>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_phonebook</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_phonebook>
+<frm_print>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_print</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_print>
+<frm_propose>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<unique>true</unique>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_propose</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_propose>
+<frm_public_url>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<unique>true</unique>
+<css>obj_popup</css>
+<css>frm_public_url</css>
+<library>obj_popup</library>
+<library>frm_public_url</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_public_url>
+<frm_reactions>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_reactions</css>
+<library>obj_popup</library>
+<library>frm_reactions</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_reactions>
+<frm_reauth>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<unique>true</unique>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_reauth</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_reauth>
+<frm_reminder>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<unique>true</unique>
+<css>obj_popup</css>
+<css>frm_reminder</css>
+<library>obj_popup</library>
+<library>frm_reminder</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_reminder>
+<frm_revision>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_revision</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_revision>
+<frm_rule>
+<object css="obj_popup">
+<css>obj_popup</css>
+<css>frm_rule</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_rule</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>filters</elm>
+</anchors>
+</object>
+</frm_rule>
+<frm_select_account>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_select_account</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_select_account>
+<frm_select_folder>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_select_folder</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_select_folder>
+<frm_send_by_email>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_send_by_email</css>
+<unique>true</unique>
+
+<library>obj_popup</library>
+<library>frm_send_by_email</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+
+</frm_send_by_email>
+<frm_send_message>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_send_message</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_send_message</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_send_message>
+<frm_settings>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<unique>true</unique>
+<css>obj_popup</css>
+<css>frm_settings</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_settings</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_settings>
+<frm_settings_admin>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_settings</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_settings_admin</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_settings_admin>
+<frm_sharing>
+<object css="obj_popup frm_manage_users">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_manage_users</css>
+<css>frm_sharing</css>
+
+<library>obj_popup</library>
+<library>frm_manage_users</library>
+<library>frm_sharing</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+
+</frm_sharing>
+<frm_signature_preview>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_signature_preview</css>
+<before>obj_block_tab</before>
+<library>obj_popup</library>
+<library>frm_signature_preview</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_signature_preview>
+<frm_smilebox>
+<object css="obj_block_ext">
+<unique>true</unique>
+<type>block</type>
+<css>frm_smilebox</css>
+<library>obj_block</library>
+<library>obj_block_ext</library>
+<library>frm_smilebox</library>
+</object>
+</frm_smilebox>
+<frm_storage>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_storage</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_storage</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+
+</frm_storage>
+<frm_task>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_task</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_gw</library>
+<library>frm_task</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_task>
+<frm_telemetry>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<template>obj_popup</template>
+
+<library>obj_popup</library>
+<library>frm_telemetry</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_telemetry>
+<frm_text>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_text</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_text>
+<frm_timezone>
+<object css="obj_popup">
+<css>obj_popup</css>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_timezone</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_timezone>
+<frm_time_criteria>
+<object css="obj_popup frm_confirm">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_confirm</css>
+<css>frm_time_criteria</css>
+<library>obj_popup</library>
+<library>frm_time_criteria</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+
+</frm_time_criteria>
+<frm_verify>
+<object css="obj_popup frm_wizard">
+<parents><obj>document</obj></parents>
+<unique>true</unique>
+<css>obj_popup</css>
+<css>frm_wizard</css>
+<css>frm_verify</css>
+<library>obj_popup</library>
+<library>frm_wizard</library>
+<library>frm_verify</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_verify>
+<frm_verify_app>
+<object>
+<type>block</type>
+<unique>true</unique>
+<template>frm_verify_app</template>
+<library>frm_verify_app</library>
+</object>
+</frm_verify_app>
+<frm_verify_app_auth>
+<object>
+<type>block</type>
+<unique>true</unique>
+<before>obj_block_tab</before>
+<library>frm_verify_app_auth</library>
+</object>
+</frm_verify_app_auth>
+<frm_verify_app_auth_inp>
+<object>
+<type>block</type>
+<unique>true</unique>
+<before>obj_block_tab</before>
+<library>frm_verify_app_auth_inp</library>
+</object>
+</frm_verify_app_auth_inp>
+<frm_verify_app_manual>
+<object>
+<type>block</type>
+<unique>true</unique>
+<before>obj_block_tab</before>
+<library>frm_verify_app_manual</library>
+</object>
+</frm_verify_app_manual>
+<frm_verify_code>
+<object>
+<type>block</type>
+<unique>true</unique>
+<template>frm_verify_code</template>
+<before>obj_block_tab</before>
+<library>frm_verify_code</library>
+</object>
+</frm_verify_code>
+<frm_verify_main>
+<object>
+<type>block</type>
+<unique>true</unique>
+<template>frm_verify_main</template>
+<library>frm_verify_main</library>
+</object>
+</frm_verify_main>
+<frm_verify_sms>
+<object>
+<type>block</type>
+<unique>true</unique>
+<template>frm_verify_sms</template>
+<before>obj_block_tab</before>
+<library>frm_verify_sms</library>
+</object>
+</frm_verify_sms>
+<frm_verify_sms_code>
+<object>
+<type>block</type>
+<unique>true</unique>
+<before>obj_block_tab</before>
+<library>frm_verify_sms_code</library>
+</object>
+</frm_verify_sms_code>
+<frm_verify_success>
+<object>
+<type>block</type>
+<unique>true</unique>
+<library>frm_verify_success</library>
+</object>
+</frm_verify_success>
+<frm_video>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<unique>true</unique>
+<css>obj_popup</css>
+<css>frm_video</css>
+<template>obj_popup</template>
+<library>obj_popup</library>
+<library>frm_video</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>video</elm>
+</anchors>
+</object>
+</frm_video>
+<frm_virtual>
+<object css="obj_popup">
+<css>obj_popup</css>
+<css>frm_virtual</css>
+<template>obj_popup</template>
+
+<library>obj_popup</library>
+<library>frm_ok_cancel</library>
+<library>frm_virtual</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+	<elm>btn_to</elm>
+	<elm>btn_cc</elm>
+	<elm>btn_bcc</elm>
+	<elm>composetable</elm>
+	<elm>treefolder</elm>
+	<elm>left</elm>
+	<elm>center</elm>
+	<elm>right</elm>
+	<elm>addinput</elm>
+	<elm>addbutton</elm>
+</anchors>
+</object>
+</frm_virtual>
+<frm_whatsnew>
+<object css="obj_popup noheader nofoot">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<css>frm_whatsnew</css>
+<library>obj_popup</library>
+<library>frm_whatsnew</library>
+<template>obj_popup</template>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</frm_whatsnew>
+<hash>
+<object>
+	<type>none</type>
+	<library class="hash">hash</library>
+</object>
+
+</hash>
+<obj_actions>
+<object>
+<library>obj_actions</library>
+<css>obj_actions</css>
+</object>
+</obj_actions>
+<obj_address>
+<object>
+<template>obj_address</template>
+<library>obj_address</library>
+<anchors>
+	<elm>title</elm>
+</anchors>
+</object>
+</obj_address>
+<obj_allow_settings>
+<object>
+<template>obj_allow_settings</template>
+<css>obj_allow_settings</css>
+<library>obj_allow_settings</library>
+</object>
+</obj_allow_settings>
+<obj_attach_mailview>
+<object>
+<css>obj_attach_mailview</css>
+<css>file_types</css>
+<library>obj_attach_mailview</library>
+<template>obj_attach_mailview</template>
+<anchors>
+	<elm>attach</elm>
+</anchors>
+</object>
+</obj_attach_mailview>
+<obj_attach_multiple>
+<object css="obj_button simple">
+<type>form</type>
+<css>obj_attach_multiple</css>
+<library>obj_attach_multiple</library>
+<template>obj_attach_multiple</template>
+<anchors>
+	<elm>file</elm>
+	<elm>button</elm>
+	<elm>info</elm>
+</anchors>
+</object>
+</obj_attach_multiple>
+<obj_attach_old>
+<object css="obj_button simple ico">
+<type>form</type>
+<css>obj_attach_old</css>
+<library>obj_attach_old</library>
+<template>obj_attach_old</template>
+<anchors>
+ <elm>form</elm>
+ <elm>post</elm>
+ <elm>frame</elm>
+ <elm>file</elm>
+ <elm>button</elm>
+ <elm>button2</elm>
+</anchors>
+</object>
+</obj_attach_old>
+<obj_attendees>
+<object>
+<template>obj_attendees</template>
+<css>obj_attendees</css>
+<library>obj_attendees</library>
+<anchors>
+	<elm>buttons</elm>
+</anchors>
+</object>
+</obj_attendees>
+<obj_audio>
+<object>
+	<type>none</type>
+	<css>obj_audio</css>
+	<library>obj_audio</library>
+</object>
+</obj_audio>
+<obj_avatar>
+<object>
+<css>obj_avatar</css>
+<library>obj_avatar</library>
+</object>
+</obj_avatar>
+<obj_barmenu>
+<object>
+	<css>obj_barmenu</css>
+	<template>obj_barmenu</template>
+	<library>obj_barmenu</library>
+	<library path="skin" class="obj_barmenu_skin">obj_barmenu</library>
+	<anchors>
+		<elm>top</elm>
+		<elm>middle</elm>
+		<elm>bottom</elm>
+	</anchors>
+</object>
+</obj_barmenu>
+<obj_barmenu_block>
+<object>
+	<css>obj_barmenu_cell</css>
+	<library>obj_barmenu_block</library>
+</object>
+</obj_barmenu_block>
+<obj_barmenu_cell>
+<object css="obj_barmenu_block">
+	<css>obj_barmenu_cell</css>
+	<template>obj_barmenu_cell</template>
+	<library>obj_barmenu_block</library>
+	<library>obj_barmenu_cell</library>
+	<anchors>
+		<elm>title</elm>
+		<elm>main</elm>
+	</anchors>
+</object>
+</obj_barmenu_cell>
+<obj_barmenu_favorites>
+<object css="obj_barmenu_cell">
+    <css>obj_barmenu_cell</css>
+	<css>obj_barmenu_favorites</css>
+    <template>obj_barmenu_cell</template>
+	<library>obj_barmenu_block</library>
+	<library>obj_barmenu_cell</library>
+	<library path="skin" class="obj_barmenu_list_skin">obj_barmenu_list</library>
+	<library>obj_barmenu_favorites</library>
+	<anchors>
+		<elm>title</elm>
+		<elm>main</elm>
+	</anchors>
+</object>
+</obj_barmenu_favorites>
+<obj_barmenu_list>
+<object css="obj_barmenu_cell">
+	<css>obj_barmenu_cell</css>
+	<css>obj_barmenu_favorites</css>
+	<template>obj_barmenu_cell</template>
+	<library>obj_barmenu_block</library>
+	<library>obj_barmenu_cell</library>
+	<library path="skin" class="obj_barmenu_list_skin">obj_barmenu_list</library>
+	<library>obj_barmenu_list</library>
+	<anchors>
+		<elm>title</elm>
+		<elm>main</elm>
+	</anchors>
+</object>
+</obj_barmenu_list>
+<obj_barmenu_recent>
+<object css="obj_barmenu_cell">
+    <css>obj_barmenu_cell</css>
+	<css>obj_barmenu_recent</css>
+    <template>obj_barmenu_cell</template>
+	<library>obj_barmenu_block</library>
+	<library>obj_barmenu_cell</library>
+	<library path="skin" class="obj_barmenu_list_skin">obj_barmenu_list</library>
+	<library>obj_barmenu_recent</library>
+	<anchors>
+		<elm>title</elm>
+		<elm>main</elm>
+	</anchors>
+</object>
+</obj_barmenu_recent>
+<obj_block>
+<object>
+<type>block</type>
+<library>obj_block</library>
+</object>
+</obj_block>
+<obj_block_ext>
+<object>
+<type>block</type>
+<css>obj_block_ext</css>
+<library>obj_block</library>
+<library>obj_block_ext</library>
+</object>
+</obj_block_ext>
+<obj_block_ext2>
+<object css="obj_block_ext">
+<type>block</type>
+<library>obj_scrollbar</library>
+<library>obj_block</library>
+<library>obj_block_ext</library>
+</object>
+</obj_block_ext2>
+<obj_block_ext2_uni>
+<object css="obj_block_ext">
+<unique>true</unique>
+<type>block</type>
+<library>obj_scrollbar</library>
+<library>obj_block</library>
+<library>obj_block_ext</library>
+</object>
+</obj_block_ext2_uni>
+<obj_block_ext_uni>
+<object css="obj_block_ext">
+<unique>true</unique>
+<type>block</type>
+<library>obj_block</library>
+<library>obj_block_ext</library>
+</object>
+</obj_block_ext_uni>
+<obj_bubble>
+<object>
+<type>block</type>
+<css>obj_bubble</css>
+<library>obj_bubble</library>
+</object>
+</obj_bubble>
+<obj_button_check>
+<object css="obj_button">
+<type>form</type>
+<css>obj_button</css>
+<css>obj_button_check</css>
+<library>obj_form_generic</library>
+<library>obj_button</library>
+<library>obj_button_check</library>
+<library>obj_form_tab</library>
+</object>
+</obj_button_check>
+<obj_button_map>
+<object css="obj_button ico map">
+<type>form</type>
+<css>obj_button</css>
+<library>obj_form_generic</library>
+<library>obj_button</library>
+<library>obj_button_map</library>
+<library>obj_form_tab</library>
+</object>
+</obj_button_map>
+<obj_button_map_loc>
+<object css="obj_button ico map">
+<type>form</type>
+<css>obj_button</css>
+<library>obj_form_generic</library>
+<library>obj_button</library>
+<library>obj_button_map</library>
+<library>obj_button_map_loc</library>
+<library>obj_form_tab</library>
+</object>
+</obj_button_map_loc>
+<obj_button_menu>
+<object css="obj_button">
+<type>form</type>
+<css>obj_button</css>
+<css>obj_button_menu</css>
+<library>obj_form_generic</library>
+<library>obj_button</library>
+<library>obj_button_menu</library>
+<library>obj_form_tab</library>
+</object>
+</obj_button_menu>
+<obj_button_play>
+<object css="obj_button ico img play">
+<type>form</type>
+<css>obj_button</css>
+<library>obj_form_generic</library>
+<library>obj_button</library>
+<library>obj_button_play</library>
+<library>obj_form_tab</library>
+</object>
+</obj_button_play>
+<obj_button_recent>
+<object css="obj_button_switch">
+	<css>obj_button_switch</css>
+	<css>obj_button_recent</css>
+	<template>obj_button_switch</template>
+	<library>obj_button_switch</library>
+	<library>obj_button_recent</library>
+</object>
+</obj_button_recent>
+<obj_button_switch>
+<object>
+	<css>obj_button_switch</css>
+	<template>obj_button_switch</template>
+	<library>obj_button_switch</library>
+</object>
+</obj_button_switch>
+<obj_calendar>
+<object>
+<css>obj_calendar</css>
+<library>obj_calendar</library>
+<anchors>
+ <elm>left1</elm>
+ <elm>right1</elm>
+ <elm>left2</elm>
+ <elm>right2</elm>
+ <elm>main</elm>
+ <elm>empty</elm>
+</anchors>
+</object>
+</obj_calendar>
+<obj_call>
+<object css="obj_context">
+<unique>true</unique>
+<css>obj_context</css>
+<css>obj_call</css>
+<library>obj_hmenu</library>
+<library>obj_context</library>
+<library>obj_call</library>
+</object>
+</obj_call>
+<obj_callhistory>
+<object>
+<css>obj_callhistory</css>
+<library>obj_scrollbar</library>
+<library>obj_callhistory</library>
+<template>obj_callhistory</template>
+</object>
+</obj_callhistory>
+<obj_categories>
+<object>
+<template>obj_categories</template>
+<library>obj_categories</library>
+<library>obj_form_tab</library>
+</object>
+</obj_categories>
+<obj_charset>
+<object css="obj_input obj_select">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_select</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_select</library>
+<library>obj_charset</library>
+<library>obj_form_tab</library>
+</object>
+</obj_charset>
+<obj_chat>
+<object>
+<css>obj_chat</css>
+<library>obj_scrollbar</library>
+<library>obj_chat</library>
+</object>
+</obj_chat>
+<obj_chat_input>
+<object>
+<css>obj_chat_input</css>
+<before>obj_block_tab</before>
+<library>giphy</library>
+<library>obj_chat_input</library>
+</object>
+</obj_chat_input>
+<obj_chat_toolbar>
+<object>
+<css>obj_chat_toolbar</css>
+<template>obj_chat_toolbar</template>
+<library>obj_chat_toolbar</library>
+</object>
+</obj_chat_toolbar>
+<obj_chat_voip>
+<object>
+<unique>true</unique>
+<css>obj_chat_voip</css>
+<library>obj_chat_voip</library>
+<template>obj_chat_voip</template>
+</object>
+
+</obj_chat_voip>
+<obj_checkbox>
+<object>
+<type>form</type>
+<css>obj_checkbox</css>
+<library>obj_form_generic</library>
+<library>obj_checkbox</library>
+<library>obj_form_tab</library>
+</object>
+</obj_checkbox>
+<obj_checkbox_inverse>
+<object css="obj_checkbox">
+<type>form</type>
+<css>obj_checkbox</css>
+<library>obj_form_generic</library>
+<library>obj_checkbox</library>
+<library>obj_checkbox_inverse</library>
+<library>obj_form_tab</library>
+</object>
+</obj_checkbox_inverse>
+<obj_checkbox_list>
+<object>
+<type>form</type>
+<library>obj_form_generic</library>
+<library>obj_checkbox_list</library>
+<css>obj_checkbox_list</css>
+</object>
+</obj_checkbox_list>
+<obj_checkbox_value>
+<object css="obj_checkbox">
+<type>form</type>
+<css>obj_checkbox</css>
+<library>obj_form_generic</library>
+<library>obj_checkbox</library>
+<library>obj_checkbox_value</library>
+<library>obj_form_tab</library>
+</object>
+</obj_checkbox_value>
+<obj_color>
+<object>
+<css>obj_color</css>
+<library>obj_color</library>
+</object>
+</obj_color>
+<obj_colorpicker>
+<object>
+<css>obj_colorpicker</css>
+<template>obj_colorpicker</template>
+<library>obj_colorpicker</library>
+</object>
+</obj_colorpicker>
+<obj_comment>
+<object>
+<css>obj_comment</css>
+<library>obj_comment</library>
+</object>
+
+</obj_comment>
+<obj_conference_home>
+<object css="obj_conference_generic">
+<unique>true</unique>
+<css>obj_conference_generic</css>
+<css>obj_conference_home</css>
+<template>obj_conference_generic</template>
+<library>obj_conference_home</library>
+</object>
+</obj_conference_home>
+<obj_conference_name>
+<object css="obj_conference_generic">
+<unique>keep</unique>
+<css>obj_conference_generic</css>
+<css>obj_conference_name</css>
+<template>obj_conference_generic</template>
+<before>obj_block_tab</before>
+<library>obj_conference_name</library>
+</object>
+</obj_conference_name>
+<obj_conference_options>
+<object>
+<template>obj_conference_options</template>
+</object>
+
+</obj_conference_options>
+<obj_conference_progress>
+<object css="obj_conference_generic">
+<unique>true</unique>
+<css>obj_conference_generic</css>
+<css>obj_conference_progress</css>
+<template>obj_conference_generic</template>
+<library>obj_conference_progress</library>
+</object>
+</obj_conference_progress>
+<obj_conference_schedule>
+<object css="obj_conference_generic">
+<unique>keep</unique>
+<css>obj_conference_generic</css>
+<css>obj_conference_schedule</css>
+<template>obj_conference_generic</template>
+<before>obj_block_tab</before>
+<library>obj_conference_schedule</library>
+</object>
+</obj_conference_schedule>
+<obj_contact>
+<object>
+<css>obj_contact</css>
+<library>obj_contact</library>
+</object>
+</obj_contact>
+<obj_container>
+<object>
+<css>obj_container</css>
+<template>obj_container</template>
+<library>obj_scrollbar</library>
+<library>obj_container</library>
+<anchors>
+	<elm>header</elm>
+	<elm>expander</elm>
+	<elm>footer</elm>
+</anchors>
+</object>
+</obj_container>
+<obj_context>
+<object>
+<unique>true</unique>
+<css>obj_context</css>
+<library>obj_hmenu</library>
+<library>obj_context</library>
+</object>
+</obj_context>
+<obj_context_folder>
+<object css="obj_context">
+<unique>true</unique>
+<css>obj_context</css>
+<library>obj_hmenu</library>
+<library>obj_context</library>
+<library>obj_context_folder</library>
+</object>
+</obj_context_folder>
+<obj_context_item>
+<object css="obj_context">
+<unique>true</unique>
+<css>obj_context</css>
+<css>obj_context_item</css>
+<library>obj_hmenu</library>
+<library>obj_context</library>
+<library>obj_context_item</library>
+</object>
+</obj_context_item>
+<obj_context_link>
+<object css="obj_context">
+<unique>true</unique>
+<css>obj_context</css>
+<css>obj_context_link</css>
+<library>obj_hmenu</library>
+<library>obj_context</library>
+<library>obj_context_link</library>
+</object>
+</obj_context_link>
+<obj_datagrid>
+<object css="obj_datagrid">
+<css>obj_datagrid</css>
+<css>obj_datagrid3</css>
+<template>obj_datagrid</template>
+<library>obj_scrollbar</library>
+<library path="skin" class="obj_datagrid_skin">obj_datagrid</library>
+<library>obj_datagrid_core</library>
+<library>obj_form_tab</library>
+<library>obj_datagrid_small</library>
+<library>obj_datagrid</library>
+<anchors>
+    <elm>container1</elm>
+	<elm>header</elm>
+	<elm>container2</elm>
+	<elm>body</elm>
+	<elm>input</elm>
+</anchors>
+</object>
+</obj_datagrid>
+<obj_datagrid2>
+<object css="obj_datagrid">
+<css>obj_datagrid</css>
+<css>obj_datagrid2</css>
+<css>obj_datagrid3</css>
+<css>file_types</css>
+<template>obj_datagrid</template>
+<library>obj_scrollbar</library>
+<library path="skin" class="obj_datagrid_skin">obj_datagrid</library>
+<library>obj_datagrid_core</library>
+<library>obj_form_tab</library>
+<library>obj_datagrid2</library>
+<library>obj_form_tab</library>
+<anchors>
+    <elm>container1</elm>
+	<elm>header</elm>
+	<elm>container2</elm>
+	<elm>body</elm>
+	<elm>input</elm>
+</anchors>
+</object>
+</obj_datagrid2>
+<obj_datagrid2_ext>
+<object css="obj_datagrid obj_datagrid2">
+<css>obj_datagrid</css>
+<css>obj_datagrid2</css>
+<css>obj_datagrid3</css>
+<css>file_types</css>
+<template>obj_datagrid</template>
+<library>obj_scrollbar</library>
+<library path="skin" class="obj_datagrid_skin">obj_datagrid</library>
+<library>obj_datagrid_core</library>
+<library>obj_form_tab</library>
+<library>obj_datagrid_small</library>
+<library>obj_datagrid2</library>
+<library>obj_datagrid2_ext</library>
+<library>obj_datagrid2_notify</library>
+<anchors>
+    <elm>container1</elm>
+	<elm>header</elm>
+	<elm>container2</elm>
+	<elm>body</elm>
+	<elm>input</elm>
+</anchors>
+</object>
+</obj_datagrid2_ext>
+<obj_dayview>
+<object css="obj_block_ext">
+<unique>true</unique>
+<type>block</type>
+<css>obj_dayview</css>
+<library>obj_block</library>
+<library>obj_block_ext</library>
+<library>obj_dayview</library>
+</object>
+</obj_dayview>
+<obj_day_of_week>
+<object css="obj_day_of_week">
+<css>obj_day_of_week</css>
+<library>obj_day_of_week</library>
+<template>obj_day_of_week</template>
+<anchors>
+ <elm>day_0</elm>
+ <elm>day_1</elm>
+ <elm>day_2</elm>
+ <elm>day_3</elm>
+ <elm>day_4</elm>
+ <elm>day_5</elm>
+ <elm>day_6</elm>
+</anchors>
+</object>
+</obj_day_of_week>
+<obj_dtmf>
+<object>
+<library>obj_dtmf</library>
+</object>
+</obj_dtmf>
+<obj_edit_header>
+<object>
+<library>obj_edit_header</library>
+</object>
+</obj_edit_header>
+<obj_event_tooltip>
+<object>
+<css>obj_event_tooltip</css>
+</object>
+</obj_event_tooltip>
+<obj_evnmonth>
+<object>
+<css>obj_evnmonth</css>
+<template>obj_evnmonth</template>
+<library>obj_scrollbar</library>
+<library>obj_general_tooltip</library>
+<library>obj_evnmonth</library>
+<anchors>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>input</elm>
+</anchors>
+</object>
+</obj_evnmonth>
+<obj_evnview>
+<object>
+<css>obj_evnview</css>
+<template>obj_evnview</template>
+<library>obj_scrollbar</library>
+<library>obj_general_tooltip</library>
+<library>obj_evnview</library>
+<anchors>
+	<elm>main</elm>
+	<elm>input</elm>
+	<elm>header</elm>
+	<elm>title</elm>
+	<elm>allday</elm>
+	<elm>htable</elm>
+	<elm>container</elm>
+	<elm>container2</elm>
+	<elm>img</elm>
+	<elm>time1</elm>
+	<elm>time2</elm>
+	<elm>tline</elm>
+</anchors>
+</object>
+</obj_evnview>
+<obj_filter_line>
+<object>
+<template>obj_filter_line</template>
+<library>obj_filter_line</library>
+<anchors>
+	<elm>value</elm>
+</anchors>
+</object>
+</obj_filter_line>
+<obj_filter_line_value>
+<object>
+<template>obj_filter_line_value</template>
+<library>obj_filter_line_value</library>
+<anchors>
+	<elm>td1</elm>
+	<elm>td2</elm>
+	<elm>td3</elm>
+</anchors>
+</object>
+</obj_filter_line_value>
+<obj_focus>
+<object>
+<type>none</type>
+<parents><obj>document</obj></parents>
+<library>obj_focus</library>
+</object>
+</obj_focus>
+<obj_form>
+<object>
+<type>block</type>
+
+</object>
+</obj_form>
+<obj_frame>
+<object>
+<template>obj_frame</template>
+<css>obj_frame</css>
+<library>obj_frame</library>
+<anchors>
+	<elm>frame</elm>
+</anchors>
+</object>
+</obj_frame>
+<obj_frame_control>
+<object css="obj_frame">
+<template>obj_frame_control</template>
+<css>obj_frame</css>
+<library>obj_frame</library>
+<library>obj_frame_control</library>
+<anchors>
+	<elm>header</elm>
+	<elm>frame</elm>
+</anchors>
+</object>
+</obj_frame_control>
+<obj_freebusy>
+<object>
+<template>obj_freebusy</template>
+<css>obj_freebusy</css>
+<library>wm_freebusy</library>
+<library>obj_freebusy</library>
+</object>
+</obj_freebusy>
+<obj_freebusy_plan>
+<object>
+<template>obj_freebusy_plan</template>
+<css>obj_freebusy_plan</css>
+<library>obj_freebusy_plan</library>
+</object>
+</obj_freebusy_plan>
+<obj_general_tooltip>
+<object></object>
+</obj_general_tooltip>
+<obj_groupchat>
+<object css="obj_list_load">
+<css>obj_list_load</css>
+<css>obj_groupchat</css>
+<css>file_types</css>
+<library>obj_scrollbar</library>
+<template>obj_list_load</template>
+<library>obj_list_load</library>
+<library>obj_list_load_reverse</library>
+<library>obj_list_load_notify</library>
+<library>obj_groupchat</library>
+<anchors>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_groupchat>
+<obj_groupchat_conference>
+<object css="obj_groupchat_item obj_groupchat_event">
+<css>obj_groupchat_item</css>
+<css>obj_groupchat_event</css>
+<css>obj_groupchat_conference</css>
+<library>obj_groupchat_item</library>
+<library>obj_groupchat_conference</library>
+</object>
+
+</obj_groupchat_conference>
+<obj_groupchat_event>
+<object css="obj_groupchat_item">
+<css>obj_groupchat_item</css>
+<css>obj_groupchat_event</css>
+<library>obj_groupchat_item</library>
+<library>obj_groupchat_event</library>
+</object>
+</obj_groupchat_event>
+<obj_groupchat_file>
+<object css="obj_groupchat_item">
+<css>obj_groupchat_item</css>
+<css>obj_groupchat_file</css>
+<library>obj_groupchat_item</library>
+<library>obj_groupchat_file</library>
+</object>
+</obj_groupchat_file>
+<obj_groupchat_invite>
+<object css="obj_groupchat_item">
+<css>obj_groupchat_item</css>
+<css>obj_groupchat_invite</css>
+<library>obj_groupchat_item</library>
+<library>obj_groupchat_invite</library>
+</object>
+</obj_groupchat_invite>
+<obj_groupchat_mail>
+<object css="obj_groupchat_item">
+<css>obj_groupchat_item</css>
+<css>obj_groupchat_mail</css>
+<library>obj_groupchat_item</library>
+<library>obj_groupchat_mail</library>
+</object>
+</obj_groupchat_mail>
+<obj_groupchat_message>
+<object css="obj_groupchat_item">
+<css>obj_groupchat_item</css>
+<css>obj_groupchat_link</css>
+<css>highlight.github</css>
+<library>obj_groupchat_item</library>
+<library>obj_groupchat_message</library>
+</object>
+</obj_groupchat_message>
+<obj_groupchat_pin>
+<object css="obj_groupchat_item">
+<css>obj_groupchat_item</css>
+<library>obj_groupchat_item</library>
+<library>obj_groupchat_pin</library>
+</object>
+</obj_groupchat_pin>
+<obj_groupevents>
+<object css="obj_list_load">
+<css>obj_list_load</css>
+<css>obj_groupevents</css>
+<css>file_types</css>
+<library>obj_scrollbar</library>
+<template>obj_list_load</template>
+<library>obj_list_load</library>
+<library>obj_list_load_item</library>
+<library>obj_list_load_notify</library>
+<library>obj_groupevents</library>
+<anchors>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_groupevents>
+<obj_groupevents_item>
+<object>
+<css>obj_groupevents_item</css>
+<library>obj_groupevents_item</library>
+</object>
+</obj_groupevents_item>
+<obj_groupfiles>
+<object css="obj_list_load">
+<css>obj_list_load</css>
+<css>obj_groupfiles</css>
+<css>file_types</css>
+<library>obj_scrollbar</library>
+<template>obj_list_load</template>
+<library>obj_list_load</library>
+<library>obj_list_load_item</library>
+<library>obj_list_load_notify</library>
+<library>obj_groupfiles</library>
+<anchors>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_groupfiles>
+<obj_groupfiles_item>
+<object>
+<css>obj_groupfiles_item</css>
+<library>obj_groupfiles_item</library>
+</object>
+</obj_groupfiles_item>
+<obj_groupmembers>
+<object css="obj_list_load">
+<css>obj_list_load</css>
+<css>obj_groupmembers</css>
+<css>file_types</css>
+<library>obj_scrollbar</library>
+<template>obj_list_load</template>
+<library>obj_list_load</library>
+<library>obj_list_load_item</library>
+<library>obj_list_load_notify</library>
+<library>obj_groupmembers</library>
+<anchors>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_groupmembers>
+<obj_groupmentions>
+<object css="obj_list_load">
+<css>obj_list_load</css>
+<css>obj_groupmentions</css>
+<css>file_types</css>
+<library>obj_scrollbar</library>
+<template>obj_list_load</template>
+<library>obj_list_load</library>
+<library>obj_list_load_item</library>
+<library>obj_list_load_notify</library>
+<library>obj_groupmentions</library>
+<anchors>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_groupmentions>
+<obj_groupmentions_item>
+<object>
+<css>obj_groupmentions_item</css>
+<library>obj_groupmentions_item</library>
+</object>
+</obj_groupmentions_item>
+<obj_hmenu>
+<object>
+<type>block</type>
+<css>obj_hmenu</css>
+<css>obj_context</css>
+<library>obj_hmenu</library>
+<library>obj_hmenu_plus</library>
+</object>
+</obj_hmenu>
+<obj_hmenu_basic>
+<object css="obj_hmenu">
+<type>block</type>
+<css>obj_hmenu</css>
+<css>obj_context</css>
+<css>obj_hmenu_basic</css>
+<library>obj_hmenu</library>
+<library>obj_hmenu_plus</library>
+<library>obj_hmenu_basic</library>
+</object>
+</obj_hmenu_basic>
+<obj_hmenu_basic2>
+<object css="obj_hmenu">
+<type>block</type>
+<css>obj_hmenu</css>
+<css>obj_context</css>
+<css>obj_hmenu_basic2</css>
+<library>obj_hmenu</library>
+<library>obj_hmenu_plus</library>
+<library>obj_context_item</library>
+<library>obj_hmenu_basic2</library>
+</object>
+</obj_hmenu_basic2>
+<obj_hmenu_calendar_view>
+<object css="obj_hmenu">
+<type>block</type>
+<css>obj_hmenu</css>
+<css>obj_context</css>
+<css>obj_hmenu_calendar_view</css>
+<library>obj_hmenu</library>
+<library>obj_hmenu_plus</library>
+<library>obj_hmenu_calendar_view</library>
+</object>
+
+</obj_hmenu_calendar_view>
+<obj_hmenu_density>
+<object css="obj_hmenu">
+<type>block</type>
+<css>obj_hmenu</css>
+<css>obj_context</css>
+<css>obj_hmenu_density</css>
+<library>obj_hmenu</library>
+<library>obj_hmenu_plus</library>
+<library>obj_hmenu_density</library>
+</object>
+
+</obj_hmenu_density>
+<obj_hmenu_notifications>
+<object css="obj_hmenu">
+<type>block</type>
+<css>obj_hmenu</css>
+<css>obj_context</css>
+<css>obj_hmenu_notifications</css>
+<library>obj_hmenu</library>
+<library>obj_hmenu_plus</library>
+<library>obj_hmenu_notifications</library>
+</object>
+
+</obj_hmenu_notifications>
+<obj_hmenu_preview>
+<object css="obj_hmenu">
+<type>block</type>
+<css>obj_hmenu</css>
+<css>obj_context</css>
+<css>obj_hmenu_preview</css>
+<library>obj_hmenu</library>
+<library>obj_hmenu_plus</library>
+<library>obj_hmenu_preview</library>
+</object>
+
+</obj_hmenu_preview>
+<obj_hmenu_status>
+<object css="obj_hmenu">
+<type>block</type>
+<css>obj_hmenu</css>
+<css>obj_context</css>
+<css>obj_hmenu_status</css>
+<library>obj_hmenu</library>
+<library>obj_hmenu_plus</library>
+<library>obj_hmenu_status</library>
+</object>
+</obj_hmenu_status>
+<obj_hmenu_toolbar>
+<object css="obj_hmenu">
+<type>block</type>
+<css>obj_hmenu</css>
+<css>obj_context</css>
+<css>obj_hmenu_toolbar</css>
+<library>obj_hmenu</library>
+<library>obj_hmenu_plus</library>
+<library>obj_hmenu_toolbar</library>
+</object>
+</obj_hmenu_toolbar>
+<obj_im>
+<object>
+	<css>obj_im</css>
+	<library>obj_im</library>
+	<library path="skin" class="obj_im_skin">obj_im</library>
+	<template>obj_im</template>
+	<anchors>
+		<elm>body</elm>
+		<elm>hide</elm>
+	</anchors>
+</object>
+</obj_im>
+<obj_info_box>
+<object>
+<unique>true</unique>
+<css>obj_info_box</css>
+<library>obj_info_box</library>
+<template>obj_info_box</template>
+<anchors>
+	<elm>box</elm>
+</anchors>
+</object>
+</obj_info_box>
+<obj_info_button>
+<object>
+<type>form</type>
+<css>obj_info_button</css>
+<library>obj_form_generic</library>
+<library>obj_button</library>
+<library>obj_info_button</library>
+</object>
+</obj_info_button>
+<obj_input>
+<object>
+<type>form</type>
+<css>obj_input</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_form_tab</library>
+</object>
+</obj_input>
+<obj_input_calendar>
+<object>
+<library>obj_input_calendar</library>
+<css>obj_input_calendar</css>
+</object>
+</obj_input_calendar>
+<obj_input_dynamic>
+<object css="obj_input">
+<type>form</type>
+<css>obj_input</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_input_dynamic</library>
+<library>obj_form_tab</library>
+</object>
+</obj_input_dynamic>
+<obj_input_email>
+<object>
+<css>obj_input_email</css>
+<library>obj_input_email</library>
+<library>obj_form_restrict</library>
+<library>obj_form_tab</library>
+</object>
+</obj_input_email>
+<obj_input_month>
+<object>
+<library>obj_input_month</library>
+<css>obj_input_month</css>
+</object>
+</obj_input_month>
+<obj_input_number>
+<object css="obj_input">
+<type>form</type>
+<css>obj_input</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_input_number</library>
+<library>obj_form_tab</library>
+</object>
+</obj_input_number>
+<obj_input_phone>
+<object>
+<css>obj_input_phone</css>
+<library>obj_input_phone</library>
+<library>obj_form_tab</library>
+</object>
+</obj_input_phone>
+<obj_input_search>
+<object css="obj_input">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_input_search</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_input_search</library>
+<library>obj_form_tab</library>
+</object>
+</obj_input_search>
+<obj_input_search_auto>
+<object css="obj_input obj_input_search">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_input_search</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_input_search</library>
+<library>obj_input_search_auto</library>
+<library>obj_form_tab</library>
+</object>
+</obj_input_search_auto>
+<obj_input_search_next>
+<object css="obj_input obj_input_search">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_input_search</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_input_search</library>
+<library>obj_input_search_next</library>
+<library>obj_form_tab</library>
+</object>
+</obj_input_search_next>
+<obj_input_url>
+<object>
+<css>obj_input_url</css>
+<library>obj_form_restrict</library>
+<library>obj_input_url</library>
+<library>obj_form_tab</library>
+</object>
+</obj_input_url>
+<obj_itemview>
+<object>
+<css>obj_itemview</css>
+<css>file_types</css>
+<library path="purify">purify.wrapper</library>
+<library>obj_scrollbar</library>
+<library>obj_itemview</library>
+<library>obj_itemview_notify</library>
+<template>obj_itemview</template>
+<anchors>
+	<elm>edit</elm>
+	<elm>body</elm>
+</anchors>
+</object>
+</obj_itemview>
+<obj_item_search>
+<object>
+<unique>true</unique>
+<css>obj_item_search</css>
+<library>obj_item_search</library>
+</object>
+</obj_item_search>
+<obj_label>
+<object>
+<type>form</type>
+<css>obj_label</css>
+<library>obj_form_generic</library>
+<library>obj_label</library>
+</object>
+</obj_label>
+<obj_labeled_input>
+<object>
+<template>obj_labeled_input</template>
+<library>obj_labeled_input</library>
+</object>
+</obj_labeled_input>
+<obj_labeled_select>
+<object>
+<template>obj_labeled_select</template>
+<library>obj_labeled_select</library>
+</object>
+</obj_labeled_select>
+<obj_label_mail>
+<object>
+<type>form</type>
+<css>obj_label</css>
+<css>obj_label_mail</css>
+<library>obj_label</library>
+<library>obj_label_mail</library>
+</object>
+</obj_label_mail>
+<obj_label_phone>
+<object css="obj_label_mail">
+<type>form</type>
+<css>obj_label</css>
+<css>obj_label_mail</css>
+<library>obj_label</library>
+<library>obj_label_phone</library>
+</object>
+</obj_label_phone>
+<obj_link>
+<object>
+<css>obj_link</css>
+<library>obj_link</library>
+</object>
+</obj_link>
+<obj_list>
+<object>
+<css>obj_list</css>
+<library>obj_scrollbar</library>
+<library>obj_list</library>
+</object>
+</obj_list>
+<obj_listbox>
+<object>
+<css>obj_listbox</css>
+<library>obj_listbox</library>
+</object>
+</obj_listbox>
+<obj_listbox_settings>
+<object>
+<library>obj_listbox_settings</library>
+</object>
+</obj_listbox_settings>
+<obj_lister>
+<object>
+<css>obj_lister</css>
+<template>obj_lister</template>
+<library>obj_lister</library>
+</object>
+</obj_lister>
+<obj_list_conference>
+<object css="obj_list_load">
+<css>obj_list_load</css>
+<css>obj_list_conference</css>
+<library>obj_scrollbar</library>
+<template>obj_list_load</template>
+<library>obj_list_load</library>
+<library>obj_list_load_item</library>
+<library>obj_list_load_notify</library>
+<library>obj_list_conference</library>
+<anchors>
+	<elm>main</elm>
+</anchors>
+</object>
+
+</obj_list_conference>
+<obj_list_conference_item>
+<object>
+<css>obj_list_conference_item</css>
+<library>obj_list_conference_item</library>
+</object>
+</obj_list_conference_item>
+<obj_list_load>
+<object>
+<css>obj_list_load</css>
+<library>obj_scrollbar</library>
+<template>obj_list_load</template>
+<library>obj_list_load</library>
+<anchors>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_list_load>
+<obj_list_load_im>
+<object css="obj_list_load obj_groupchat">
+<css>obj_list_load</css>
+<css>obj_groupchat</css>
+<css>obj_groupchat_item</css>
+<css>obj_list_load_im</css>
+<css>highlight.github</css>
+<library>obj_scrollbar</library>
+<template>obj_list_load</template>
+<library>obj_list_load</library>
+<library>obj_list_load_reverse</library>
+<library>obj_list_load_im</library>
+<anchors>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_list_load_im>
+<obj_list_load_im_conference>
+<object>
+<css>obj_list_load_im_conference</css>
+<library>obj_list_load_im_conference</library>
+</object>
+
+</obj_list_load_im_conference>
+<obj_list_load_im_file>
+<object>
+<library>obj_list_load_im_file</library>
+</object>
+</obj_list_load_im_file>
+<obj_list_load_reverse>
+<object css="obj_list_load obj_groupchat">
+<css>obj_list_load</css>
+<css>obj_groupchat</css>
+<css>file_types</css>
+<library>obj_scrollbar</library>
+<template>obj_list_load</template>
+<library>obj_list_load</library>
+<library>obj_list_load_reverse</library>
+<anchors>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_list_load_reverse>
+<obj_mailview>
+<object>
+<type>block</type>
+<css>obj_mailview</css>
+<template>obj_mailview</template>
+<library path="purify">purify.wrapper</library>
+<library>obj_scrollbar</library>
+<library>imip_recurrence</library>
+<library>obj_mailview</library>
+<anchors>
+	<elm>subject</elm>
+	<elm>from</elm>
+	<elm>header</elm>
+	<elm>headers</elm>
+	<elm>body</elm>
+	<elm>skip</elm>
+	<elm>serror</elm>
+	<elm>frame</elm>
+	<elm>attach</elm>
+	<elm>date</elm>
+	<elm>buttons</elm>
+	<elm>scroll</elm>
+	<elm>msiebox</elm>
+</anchors>
+</object>
+</obj_mailview>
+<obj_mail_suggest>
+<object css="obj_tag">
+<css>obj_tag</css>
+<css>obj_mail_suggest</css>
+<library>obj_scrollbar</library>
+<library>obj_tag</library>
+<library>obj_suggest</library>
+<library>obj_mail_suggest</library>
+<library>obj_form_tab</library>
+<template>obj_tag</template>
+<anchors>
+	<elm>tag</elm>
+	<elm>plus</elm>
+</anchors>
+</object>
+</obj_mail_suggest>
+<obj_minimore>
+<object css="obj_bubble">
+<type>block</type>
+<css>obj_bubble</css>
+<css>obj_minimore</css>
+<template>obj_minimore</template>
+<library>obj_bubble</library>
+<library>obj_minismile</library>
+</object>
+</obj_minimore>
+<obj_minipin>
+<object css="obj_bubble">
+<type>block</type>
+<css>obj_bubble</css>
+<css>obj_minipin</css>
+<template>obj_minipin</template>
+<library>obj_bubble</library>
+<library>obj_minismile</library>
+</object>
+</obj_minipin>
+<obj_minismile>
+<object css="obj_bubble">
+<type>block</type>
+<css>obj_bubble</css>
+<css>obj_minismile</css>
+<css>smiles-people</css>
+<template>obj_minismile</template>
+<library>obj_bubble</library>
+<library>obj_minismile</library>
+</object>
+</obj_minismile>
+<obj_month>
+<object>
+<library>obj_month</library>
+<css>obj_month</css>
+<anchors>
+ <elm>left1</elm>
+ <elm>right1</elm>
+ <elm>main</elm>
+</anchors>
+</object>
+</obj_month>
+<obj_multistate_switch>
+<object>
+	<css>obj_multistate_switch</css>
+	<template>obj_multistate_switch</template>
+	<library>obj_multistate_switch</library>
+</object>
+
+</obj_multistate_switch>
+<obj_notifier>
+<object>
+<css>obj_notifier</css>
+<library>obj_notifier</library>
+</object>
+
+</obj_notifier>
+<obj_password>
+<object css="obj_input">
+<type>form</type>
+<css>obj_input</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_form_tab</library>
+</object>
+</obj_password>
+<obj_phone>
+<object>
+<template>obj_phone</template>
+<library>obj_phone</library>
+<library>obj_form_restrict</library>
+</object>
+</obj_phone>
+<obj_phone_suggest>
+<object css="obj_tag obj_mail_suggest">
+<css>obj_tag</css>
+<css>obj_mail_suggest</css>
+<library>obj_scrollbar</library>
+<library>obj_tag</library>
+<library>obj_suggest</library>
+<library>obj_mail_suggest</library>
+<library>obj_phone_suggest</library>
+<library>obj_form_tab</library>
+<template>obj_tag</template>
+<anchors>
+	<elm>tag</elm>
+	<elm>plus</elm>
+</anchors>
+</object>
+</obj_phone_suggest>
+<obj_player>
+<object>
+	<library>obj_player</library>
+	<css>obj_player</css>
+	<template>obj_player</template>
+</object>
+</obj_player>
+<obj_popup>
+<object>
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<template>obj_popup</template>
+<library>obj_popup</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</obj_popup>
+<obj_popup_color_picker>
+<object>
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<template>obj_popup</template>
+
+<library>obj_popup</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</obj_popup_color_picker>
+<obj_popup_tab>
+<object css="obj_popup">
+<parents><obj>document</obj></parents>
+<css>obj_popup</css>
+<template>obj_popup</template>
+<before>obj_block_tab</before>
+
+<library>obj_popup</library>
+<anchors>
+	<elm>container</elm>
+	<elm>top</elm>
+	<elm>title</elm>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>footer</elm>
+	<elm>min</elm>
+	<elm>max</elm>
+	<elm>rem</elm>
+</anchors>
+</object>
+</obj_popup_tab>
+<obj_print>
+<object>
+<unique>true</unique>
+<css>obj_print</css>
+<library>obj_print</library>
+</object>
+</obj_print>
+<obj_progress>
+<object>
+<library>obj_progress</library>
+<css>obj_progress</css>
+</object>
+</obj_progress>
+<obj_radio>
+<object>
+<type>form</type>
+<css>obj_radio</css>
+<library>obj_radio</library>
+</object>
+</obj_radio>
+<obj_reminder>
+<object>
+<template>obj_reminder</template>
+<library>obj_reminder</library>
+</object>
+</obj_reminder>
+<obj_reminder_item>
+<object>
+<template>obj_reminder_item</template>
+<library>obj_reminder_item</library>
+<anchors>
+	<elm>label</elm>
+</anchors>	
+</object>
+</obj_reminder_item>
+<obj_reminder_task>
+<object>
+<template>obj_reminder_task</template>
+<library>obj_reminder_task</library>
+</object>
+</obj_reminder_task>
+<obj_repeating>
+<object>
+<template>obj_repeating</template>
+<library>obj_repeating</library>
+<css>obj_repeating</css>
+<anchors>
+	<elm>container</elm>
+</anchors>
+</object>
+</obj_repeating>
+<obj_rich>
+<object>
+<css>obj_rich</css>
+<library>obj_rich</library>
+<library>obj_form_tab</library>
+<template>obj_rich</template>
+<anchors>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>frame</elm>
+	<elm>float</elm>
+	<elm>msiebox</elm>
+	<elm>spell</elm>
+	<elm>code</elm>
+</anchors>
+<onunload>__destructor</onunload>
+</object>
+</obj_rich>
+<obj_room_status>
+<object>
+	<unique>true</unique>
+	<css>obj_room_status</css>
+	<library>obj_room_status</library>
+</object>
+</obj_room_status>
+<obj_room_suggest>
+<object css="obj_tag obj_mail_suggest">
+<css>obj_tag</css>
+<css>obj_mail_suggest</css>
+<css>obj_room_suggest</css>
+<library>obj_scrollbar</library>
+<library>obj_tag</library>
+<library>obj_suggest</library>
+<library>obj_room_suggest</library>
+<library>obj_form_tab</library>
+<template>obj_tag</template>
+<anchors>
+	<elm>tag</elm>
+	<elm>plus</elm>
+</anchors>
+</object>
+</obj_room_suggest>
+<obj_schedule>
+<object>
+<library>obj_schedule</library>
+<anchors>
+	<elm>table</elm>
+</anchors>
+</object>
+</obj_schedule>
+<obj_scrollbar>
+<object>
+<type>none</type>
+<css>obj_scrollbar</css>
+<library>obj_scrollbar</library>
+</object>
+</obj_scrollbar>
+<obj_search_wizard>
+<object css="obj_block_ext">
+<unique>true</unique>
+<type>block</type>
+<before>obj_block_tab</before>
+<library>obj_block</library>
+<library>obj_block_ext</library>
+<library>obj_search_wizard</library>
+</object>
+</obj_search_wizard>
+<obj_select>
+<object css="obj_input">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_select</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_select</library>
+<library>obj_form_tab</library>
+</object>
+</obj_select>
+<obj_selectfolder>
+<object>
+<css>obj_selectfolder</css>
+<library>obj_selectfolder</library>
+</object>
+</obj_selectfolder>
+<obj_select_import>
+<object>
+<css>obj_select_import</css>
+<library>obj_select_import</library>
+</object>
+</obj_select_import>
+<obj_select_input>
+<object css="obj_input obj_select">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_select</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_select</library>
+<library>obj_select_input</library>
+<library>obj_form_tab</library>
+</object>
+</obj_select_input>
+<obj_send_message>
+<object>
+<library>obj_send_message</library>
+</object>
+</obj_send_message>
+<obj_sharing>
+<object>
+<library>obj_sharing</library>
+</object>
+</obj_sharing>
+<obj_sip>
+<object>
+<unique>true</unique>
+<library>obj_sip</library>
+</object>
+</obj_sip>
+<obj_slide>
+<object>
+<css>obj_slide</css>
+<library>obj_slide</library>
+</object>
+</obj_slide>
+<obj_slider>
+<object>
+	<css>obj_slider</css>
+	<template>obj_slider</template>
+	<library>obj_slider</library>
+</object>
+
+</obj_slider>
+<obj_slide_panel>
+<object css="panel">
+<parents><obj>obj_slide</obj></parents>
+<library>obj_slide_panel</library>
+</object>
+</obj_slide_panel>
+<obj_smart_input>
+<object>
+<css>obj_smart_input</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_smart_input</library>
+<library>obj_form_tab</library>
+</object>
+</obj_smart_input>
+<obj_smilebox>
+<object>
+<css>obj_smilebox</css>
+<css>smiles-activity</css>
+<css>smiles-flags</css>
+<css>smiles-food</css>
+<css>smiles-nature</css>
+<css>smiles-objects</css>
+<css>smiles-people</css>
+<css>smiles-places</css>
+<css>smiles-symbols</css>
+<library>obj_smilebox</library>
+</object>
+
+</obj_smilebox>
+<obj_sound>
+<object>
+	<type>none</type>
+	<library>obj_sound</library>
+</object>
+</obj_sound>
+<obj_storage_usage>
+<object>
+<type>form</type>
+<css>obj_storage_usage</css>
+<library>obj_storage_usage</library>
+</object>
+
+</obj_storage_usage>
+<obj_subscriber>
+<object>
+<type>none</type>
+<unique>true</unique>
+<library>obj_subscriber</library>
+</object>
+</obj_subscriber>
+<obj_suggest>
+<object css="obj_input">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_suggest</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_suggest</library>
+</object>
+</obj_suggest>
+<obj_suggest_im>
+<object css="obj_input obj_suggest ico">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_suggest</css>
+<css>obj_suggest_im</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_suggest</library>
+<library>obj_suggest_im</library>
+<library>obj_form_tab</library>
+</object>
+</obj_suggest_im>
+<obj_suggest_mail>
+<object css="obj_input obj_suggest">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_suggest</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_suggest</library>
+<library>obj_suggest_mail</library>
+<library>obj_form_tab</library>
+</object>
+</obj_suggest_mail>
+<obj_suggest_phone>
+<object css="obj_input obj_suggest obj_mail_suggest">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_suggest</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_suggest</library>
+<library>obj_suggest_mail</library>
+<library>obj_suggest_phone</library>
+<library>obj_form_tab</library>
+</object>
+</obj_suggest_phone>
+<obj_suggest_search>
+<object css="obj_input obj_input_search">
+<unique>true</unique>
+<type>form</type>
+<css>obj_input</css>
+<css>obj_input_search</css>
+<css>obj_suggest</css>
+<css>obj_suggest_search</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_suggest</library>
+<library>obj_suggest_search</library>
+<library>obj_form_tab</library>
+</object>
+</obj_suggest_search>
+<obj_suggest_tag>
+<object css="obj_input">
+<unique>true</unique>
+<type>form</type>
+<css>obj_input</css>
+<css>obj_suggest</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_suggest</library>
+<library>obj_suggest_tag</library>
+<library>obj_form_tab</library>
+</object>
+</obj_suggest_tag>
+<obj_tab>
+<object>
+<parents>
+	<obj>obj_tabs</obj>
+	<obj>obj_vtabs</obj>
+</parents>
+<css>obj_tab</css>
+<template>obj_tab</template>
+<before>obj_block_tab</before>
+<library>obj_scrollbar</library>
+<library>obj_tab_core</library>
+<library>obj_tab</library>
+<anchors>
+	<elm>menu</elm>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_tab>
+<obj_tabs>
+<object>
+<type>block</type>
+<css>obj_tabs</css>
+<library>obj_tabs</library>
+
+<template>obj_tabs</template>
+<anchors>
+	<elm>links</elm>
+	<elm>main</elm>
+	<elm>header</elm>
+	<elm>header2</elm>
+</anchors>
+</object>
+</obj_tabs>
+<obj_tab_close>
+<object css="obj_tab">
+<parents>
+	<obj>obj_tabs</obj>
+	<obj>obj_vtabs</obj>
+</parents>
+<css>obj_tab</css>
+<template>obj_tab</template>
+<library>obj_scrollbar</library>
+<library>obj_tab_core</library>
+<library>obj_tab</library>
+<library>obj_tab_close</library>
+<anchors>
+	<elm>menu</elm>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_tab_close>
+<obj_tab_core>
+<object css="obj_tab">
+<parents>
+	<obj>obj_tabs</obj>
+	<obj>obj_vtabs</obj>
+</parents>
+<css>obj_tab</css>
+<template>obj_tab</template>
+<before>obj_block_tab</before>
+<library>obj_scrollbar</library>
+<library>obj_tab_core</library>
+<anchors>
+	<elm>menu</elm>
+	<elm>main</elm>
+</anchors>
+</object>
+</obj_tab_core>
+<obj_tag>
+<object>
+<css>obj_tag</css>
+<library>obj_tag</library>
+<library>obj_form_tab</library>
+<template>obj_tag</template>
+<anchors>
+	<elm>tag</elm>
+	<elm>plus</elm>
+</anchors>	
+</object>
+</obj_tag>
+<obj_tag_color>
+<object css="obj_tag">
+<css>obj_tag</css>
+<before>obj_block_tab</before>
+<library>obj_tag</library>
+<library>obj_tag_color</library>
+<template>obj_tag</template>
+<anchors>
+	<elm>tag</elm>
+	<elm>plus</elm>
+</anchors>	
+</object>
+</obj_tag_color>
+<obj_tag_suggest>
+<object css="obj_tag">
+<css>obj_tag</css>
+<library>obj_tag</library>
+<library>obj_suggest</library>
+<library>obj_tag_color</library>
+<library>obj_tag_suggest</library>
+<library>obj_form_tab</library>
+<template>obj_tag</template>
+<anchors>
+	<elm>tag</elm>
+	<elm>plus</elm>
+</anchors>	
+</object>
+</obj_tag_suggest>
+<obj_tch_control>
+<object>
+<type>block</type>
+<css>obj_tch_control</css>
+<library>obj_tch_control</library>
+</object>
+</obj_tch_control>
+<obj_text>
+<object>
+<type>form</type>
+<css>obj_text</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_text</library>
+<library>obj_form_tab</library>
+</object>
+</obj_text>
+<obj_text_dynamic>
+<object css="obj_text">
+<type>form</type>
+<css>obj_text</css>
+<css>obj_text_dynamic</css>
+<library>obj_form_generic</library>
+<library>obj_text</library>
+<library>obj_text_dynamic</library>
+<library>obj_form_tab</library>
+</object>
+</obj_text_dynamic>
+<obj_text_dynamic_label_within>
+<object css="obj_text obj_text_dynamic">
+<type>form</type>
+<css>obj_text</css>
+<css>obj_text_dynamic</css>
+<library>obj_form_generic</library>
+<library>obj_text</library>
+<library>obj_text_dynamic</library>
+<library>obj_text_dynamic_label_within</library>
+<library>obj_form_tab</library>
+</object>
+</obj_text_dynamic_label_within>
+<obj_text_mentions>
+<object css="obj_text obj_text_dynamic">
+<type>form</type>
+<css>obj_suggest</css>
+<css>obj_text</css>
+<css>obj_text_dynamic</css>
+<css>obj_text_mentions</css>
+<library>obj_form_generic</library>
+<library>obj_text</library>
+<library>obj_text_dynamic</library>
+<library>obj_suggest</library>
+<library>obj_text_mentions</library>
+<library>obj_form_tab</library>
+</object>
+</obj_text_mentions>
+<obj_time>
+<object css="obj_input obj_select small">
+<type>form</type>
+<css>obj_input</css>
+<css>obj_select</css>
+<css>obj_time</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_select</library>
+<library>obj_select_input</library>
+<library>obj_time</library>
+<library>obj_form_tab</library>
+</object>
+</obj_time>
+<obj_timeinterval>
+<object>
+<css>obj_timeinterval</css>
+<library>obj_timeinterval</library>
+<anchors>
+	<elm>main</elm>
+	<elm>all_day</elm>
+	<elm>tz</elm>
+	<elm>dtzl</elm>
+</anchors>
+</object>
+</obj_timeinterval>
+<obj_timeinterval2>
+<object>
+<type>none</type>
+<library>obj_timeinterval</library>
+</object>
+</obj_timeinterval2>
+<obj_timetable>
+<object>
+	<css>obj_timetable</css>
+	<library>obj_timetable</library>
+	<template>obj_timetable</template>
+	<anchors>
+		<elm>body</elm>
+		<elm>list</elm>
+		<elm>time</elm>
+	</anchors>
+</object>
+</obj_timetable>
+<obj_timezones>
+<object css="obj_input obj_select">
+<type>form</type>
+<css>obj_scrollbar</css>
+<css>obj_input</css>
+<css>obj_select</css>
+<css>obj_timezones</css>
+<library>obj_form_generic</library>
+<library>obj_form_restrict</library>
+<library>obj_input</library>
+<library>obj_select</library>
+<library>obj_timezones</library>
+<library>obj_form_tab</library>
+</object>
+</obj_timezones>
+<obj_time_days>
+<object>
+<template>obj_time_days</template>
+<library>obj_time_days</library>
+<css>obj_time_days</css>
+<anchors>
+	<elm>hours</elm>
+	<elm>minutes</elm>
+	<elm>days</elm>
+</anchors>
+</object>
+</obj_time_days>
+<obj_title>
+<object>
+<type>none</type>
+<library>obj_title</library>
+</object>
+</obj_title>
+<obj_tooltip>
+<object>
+<parents>
+	<obj>document</obj>
+</parents>
+<unique>true</unique>
+<type>block</type>
+<css>obj_tooltip</css>
+<library>obj_block</library>
+<library>obj_tooltip</library>
+</object>
+</obj_tooltip>
+<obj_tree>
+<object>
+<type>block</type>
+<css>obj_tree</css>
+<library>obj_scrollbar</library>
+<library>obj_tree</library>
+<template>obj_tree</template>
+<anchors>
+	<elm>body</elm>
+	<elm>search</elm>
+</anchors>
+</object>
+</obj_tree>
+<obj_tree_folder>
+<object css="obj_tree folder_icons">
+<type>block</type>
+<css>obj_tree</css>
+<css>obj_tree_folder</css>
+<library>obj_scrollbar</library>
+<library>obj_tree</library>
+<library>obj_tree_folder</library>
+<template>obj_tree</template>
+<anchors>
+	<elm>body</elm>
+	<elm>search</elm>
+</anchors>
+</object>
+</obj_tree_folder>
+<obj_tree_folder2>
+<object css="obj_tree">
+<type>block</type>
+<css>obj_tree</css>
+<css>obj_tree_folder2</css>
+<library>obj_scrollbar</library>
+<library>obj_tree</library>
+<library>obj_tree_folder2</library>
+<template>obj_tree</template>
+<anchors>
+	<elm>body</elm>
+	<elm>search</elm>
+</anchors>
+</object>
+</obj_tree_folder2>
+<obj_tree_folder2_archive>
+<object css="obj_tree obj_tree_folder2 obj_tree_folder_context">
+<type>block</type>
+<css>obj_tree</css>
+<css>obj_tree_folder2</css>
+<library>obj_scrollbar</library>
+<library>obj_tree</library>
+<library>obj_tree_folder2</library>
+<library>obj_tree_folder2_archive</library>
+<template>obj_tree</template>
+<anchors>
+	<elm>body</elm>
+	<elm>search</elm>
+</anchors>
+</object>
+</obj_tree_folder2_archive>
+<obj_tree_folder2_context>
+<object css="obj_tree obj_tree_folder2 obj_tree_folder_context">
+<type>block</type>
+<css>obj_tree</css>
+<css>obj_tree_folder2</css>
+<css>obj_tree_folder_context</css>
+<library>obj_scrollbar</library>
+<library>obj_tree</library>
+<library>obj_tree_folder2</library>
+<library>obj_tree_folder_context</library>
+<library>obj_tree_folder_drag</library>
+<template>obj_tree</template>
+<anchors>
+	<elm>body</elm>
+	<elm>search</elm>
+</anchors>
+</object>
+</obj_tree_folder2_context>
+<obj_tree_folder_context>
+<object css="obj_tree obj_tree_folder folder_icons">
+<type>block</type>
+<css>obj_tree</css>
+<css>obj_tree_folder</css>
+<css>obj_tree_folder_context</css>
+<library>obj_scrollbar</library>
+<library>obj_tree</library>
+<library>obj_tree_folder</library>
+<library>obj_tree_folder_context</library>
+<template>obj_tree</template>
+<anchors>
+	<elm>body</elm>
+	<elm>search</elm>
+</anchors>
+</object>
+</obj_tree_folder_context>
+<obj_tree_list>
+<object css="empty">
+    <css>obj_tree_list</css>
+	<library>obj_tree_list</library>
+	<template>obj_tree_list</template>
+</object>
+</obj_tree_list>
+<obj_troubleshooting>
+<object css="obj_troubleshooting">
+<parents><obj>obj_tab</obj></parents>
+
+<library>obj_troubleshooting</library>
+<anchors></anchors>
+</object>
+
+</obj_troubleshooting>
+<obj_upload>
+<object>
+<library>dropzone</library>
+<library>obj_upload</library>
+</object>
+</obj_upload>
+<obj_upload_edit>
+<object>
+<css>obj_upload_edit</css>
+<library>obj_scrollbar</library>
+<library>obj_upload_edit</library>
+<template>obj_upload_edit</template>
+<anchors>
+	<elm>list</elm>
+	<elm>controls</elm>
+</anchors>
+</object>
+</obj_upload_edit>
+<obj_upload_editgw>
+<object css="obj_upload_edit">
+<css>obj_upload_edit</css>
+<library>obj_scrollbar</library>
+<library>obj_upload_edit</library>
+<library>obj_upload_editgw</library>
+<template>obj_upload_edit</template>
+<anchors>
+	<elm>list</elm>
+	<elm>controls</elm>
+</anchors>
+</object>
+</obj_upload_editgw>
+<obj_upload_editgw_single>
+<object css="obj_upload_edit obj_upload_editgw">
+<css>obj_upload_edit</css>
+<library>obj_scrollbar</library>
+<library>obj_upload_edit</library>
+<library>obj_upload_editgw</library>
+<library>obj_upload_edit_single</library>
+<template>obj_upload_edit</template>
+<anchors>
+	<elm>list</elm>
+	<elm>controls</elm>
+</anchors>
+</object>
+</obj_upload_editgw_single>
+<obj_upload_edit_cert>
+<object css="obj_upload_edit_select">
+<css>obj_upload_edit_select</css>
+<library>obj_upload_edit_cert</library>
+<template>obj_upload_edit_cert</template>
+</object>
+</obj_upload_edit_cert>
+<obj_upload_edit_select>
+<object>
+<css>obj_upload_edit_select</css>
+<css>file_types</css>
+<library>obj_upload_edit_select</library>
+<template>obj_upload_edit_select</template>
+</object>
+</obj_upload_edit_select>
+<obj_upload_edit_single>
+<object css="obj_upload_edit">
+<css>obj_upload_edit</css>
+<library>obj_scrollbar</library>
+<library>obj_upload_edit</library>
+<library>obj_upload_edit_single</library>
+<template>obj_upload_edit</template>
+<anchors>
+	<elm>list</elm>
+	<elm>controls</elm>
+</anchors>
+</object>
+</obj_upload_edit_single>
+<obj_upload_info>
+<object>
+<unique>true</unique>
+<css>obj_upload_info</css>
+<library>obj_upload_info</library>
+<template>obj_upload_info</template>
+</object>
+</obj_upload_info>
+<obj_upload_list>
+<object>
+<css>obj_upload_list</css>
+<template>obj_upload_list</template>
+<library>obj_scrollbar</library>
+<library>obj_upload_list</library>
+<anchors>
+	<elm>list</elm>
+</anchors>
+</object>
+</obj_upload_list>
+<obj_upload_mail>
+<object>
+<css>obj_upload_mail</css>
+<library>obj_upload_mail</library>
+</object>
+</obj_upload_mail>
+<obj_urlpreview>
+<object>
+<css>obj_urlpreview</css>
+<unique>true</unique>
+<library>obj_urlpreview</library>
+</object>
+</obj_urlpreview>
+<obj_vdock>
+<object>
+<css>obj_vdock</css>
+<library>obj_vdock</library>
+<anchors>
+	<elm>dock</elm>
+	<elm>status</elm>
+</anchors>
+</object>
+</obj_vdock>
+<obj_view_filter>
+<object>
+	<css>obj_view_filter</css>
+	<library>obj_view_filter</library>
+</object>
+</obj_view_filter>
+<obj_vtabs>
+<object>
+<type>block</type>
+<css>obj_vtabs</css>
+<library>obj_scrollbar</library>
+<library>obj_tabs</library>
+<library>obj_vtabs</library>
+
+<template>obj_tabs</template>
+<anchors>
+	<elm>links</elm>
+	<elm>main</elm>
+	<elm>header</elm>
+	<elm>header2</elm>
+</anchors>
+</object>
+</obj_vtabs>
+<obj_websocket>
+<object>
+<type>none</type>
+<library>obj_websocket</library>
+</object>
+</obj_websocket>
+<obj_websocket_api>
+<object>
+<type>none</type>
+<parents><obj>obj_websocket</obj></parents>
+<library>obj_websocket_generic</library>
+<library>obj_websocket_api</library>
+</object>
+</obj_websocket_api>
+<obj_websocket_xmpp>
+<object>
+<type>none</type>
+<parents><obj>obj_websocket</obj></parents>
+<library>obj_websocket_generic</library>
+<library>obj_websocket_xmpp</library>
+</object>
+</obj_websocket_xmpp>
+<obj_wysiwyg>
+<object>
+<css>obj_wysiwyg</css>
+<css>froala_editor</css>
+<library path="purify">purify.wrapper</library>
+<library>obj_wysiwyg</library>
+<library>obj_form_tab</library>
+<template>obj_wysiwyg</template>
+<anchors>
+	<elm>header</elm>
+	<elm>main</elm>
+	<elm>frame</elm>
+	<elm>float</elm>
+	<elm>msiebox</elm>
+	<elm>spell</elm>
+	<elm>code</elm>
+</anchors>
+<onunload>__destructor</onunload>
+</object>
+</obj_wysiwyg>
+<telemetry>
+<object>
+<css>telemetry</css>
+<library>telemetry</library>
+</object>
+</telemetry>
+</objects>

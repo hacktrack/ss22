@@ -1,0 +1,43 @@
+
+div.obj_tooltip{
+	position: absolute;
+	z-index: 10000;
+	top: -100px;
+	left: -100px;
+
+	pointer-events:none;
+}
+
+/* Custom tooltips for obj_hmenu_plus */
+div#gui>div.obj_tooltip {
+	border-radius: 3px;
+	border: 1px solid #666;
+	background-color: #fff;
+	padding: 1px 5px;
+	box-shadow: 1px 1px 7px rgba(128,128,128,0.5);
+	max-width: 200px;
+}
+
+div#gui>div.obj_tooltip.dark{
+	color: #fff;
+	background-color: #444;
+	box-shadow: none;
+}
+
+div#gui>div.obj_tooltip.pad{
+	padding: 10px;
+}
+
+div#gui>div.obj_tooltip.borderless {
+	padding: 0;
+}
+
+div.obj_tooltip img.avatar_preview {
+	width: 150px;
+	height: 150px;
+	display: block;
+	border-radius: 3px;
+	background-size: cover;
+	background-origin: border-box;
+	background-position: center;
+}

@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>кБ</kb>
+    <mb>МБ</mb>
+    <gb>ГБ</gb>
+  </units>
+  <colors>
+    <blue>Синий</blue>
+    <green>Зеленый</green>
+    <brown>Коричневый</brown>
+    <purple>Пурпурный</purple>
+    <yellow>Желтый</yellow>
+    <teal>Бирюзовый</teal>
+    <plum>Тёмно-фиолетовый</plum>
+    <red>Красный</red>
+    <aqua>Цвет морской волны</aqua>
+    <aquamarine>Аквамариновый</aquamarine>
+    <orchid>Светло-розовый</orchid>
+    <pink>Розовый</pink>
+    <silver>Серебристый</silver>
+    <white>Белый</white>
+    <gray>Серый</gray>
+    <lemon>Лимонный</lemon>
+  </colors>
+  <title>
+    <new_email>* Новое емейл сообщение</new_email>
+    <new_im>* Новое сообщение от %s</new_im>
+    <new_reminder>* Напоминание: %s</new_reminder>
+    <cerror>! Ошибка соединения</cerror>
+  </title>
+  <audio>
+    <player>Проигрыватель</player>
+  </audio>
+  <signature>
+    <none>Без подписи</none>
+    <alias>C адреса</alias>
+    <newmsg>Новые сообщения</newmsg>
+    <oldmsg>Ответы</oldmsg>
+    <signature>Подпись</signature>
+    <variable>Вставить переменную</variable>
+  </signature>
+  <alias>
+    <add>Добавить новый псевдоним</add>
+    <notify>Подтверждение было отправлено.</notify>
+    <instructions>Запрос подтверждения будет отправлен на емейл адрес выше. Пожалуйста, проверьте его для получения дальнейших инструкций.</instructions>
+  </alias>
+  <notify>
+    <title>Параметры уведомлений</title>
+    <to_all>Уведомлять всех имеющих доступ к этой папке</to_all>
+    <copy>Также уведомить</copy>
+    <comment>Комментарий (опционально), отправляемый пользователям, которых вы хотите уведомить об изменениях.</comment>
+    <success>Уведомление отправлено</success>
+  </notify>
+  <datagrid>
+    <nomessages>Нет сообщений</nomessages>
+    <noitems>Нет элементов</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Просмотр</preview>
+    <down>Нижняя панель</down>
+    <right>Правая панель</right>
+    <none>Без просмотра</none>
+    <noitem>Нет элементов</noitem>
+    <message_to>Кому: %s</message_to>
+    <doc_revisions>Версии документа</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Мастер поиска</wizard>
+    <since>От</since>
+    <until>До</until>
+    <contains>Везде</contains>
+    <fulltext>В теле письма</fulltext>
+    <makefolder>Создать папку поиска</makefolder>
+    <contact_note>Заметка</contact_note>
+  </search>
+  <search_hints>
+    <folder>Найти объекты в выбранной папке</folder>
+    <from>Поиск по отправителю (from:Ольгa)</from>
+    <to>Поиск по получателю (to: Андрей)</to>
+    <subject>Поиск по теме (subject:Ужин)</subject>
+    <or>Логический оператор</or>
+    <not>Логический оператор</not>
+    <hasattachment>Поиск сообщений с вложением</hasattachment>
+    <isflagged>Поиск сообщений, которые помечены</isflagged>
+    <isunread>Поиск непрочитанныx сообщений</isunread>
+    <isread>Поиск прочитанныx сообщений</isread>
+    <isdone>Поиск выполненных задач</isdone>
+    <cc>Поиск по получателю в строке копия:</cc>
+    <bcc>Поиск по получателю в строке скрытая копия:</bcc>
+    <sms>Поиск по получателю в строке смс:</sms>
+    <after>Поиск сообщений, отправленныx после указанной даты (after:11.11.2011)</after>
+    <after_e>Поиск элементов, начиная с даты (after:11.11.2011)</after_e>
+    <after_f>Поиск элементов, измененных после указанной даты (after:11.11.2011)</after_f>
+    <after_t>Поиск элементов, заканчивающихся после указанной даты (after:11.11.2011)</after_t>
+    <after_j>Поиск элементов, начинающихся до указанной даты  (after:11.11.2011)</after_j>
+    <before>Поиск сообщений, отправленных до заданной даты  (before:11.11.2011)</before>
+    <before_e>Поиск элементов, начинающихся до указанной даты  (before:11.11.2011)</before_e>
+    <before_f>Поиск элементов, измененных до указанной даты  (before:11.11.2011)</before_f>
+    <before_t>Поиск элементов, заканчивающихся до указанной даты  (before:11.11.2011)</before_t>
+    <before_j>Поиск элементов, начинающихся до указанной даты  (before:11.11.2011)</before_j>
+    <title>Поиск по названю элемента  (title:Тест)</title>
+    <description>Поиск по описанию элемента (description:Тест)</description>
+    <name>Поиск по имени контакта</name>
+    <email>Поиск по емейл адресy</email>
+    <keyword>Поиск по ключевому слову (keyword:Бизнес)</keyword>
+    <tag>Поиск элементов по тегу (tag:Бизнес)</tag>
+    <tag2>Поиск элементов по тегу &quot;%s&quot; (используется в %s элементов)</tag2>
+    <greater>Поиск в зависимости от размера, более чем кБ (greater: 1024)</greater>
+    <smaller>Поиск в зависимости от размера, меньше чем кБ (smaller: 1024)</smaller>
+    <company>Поиск контактов по компании (company:IceWarp)</company>
+    <department>Поиск контактов по подразделению (department:IT)</department>
+    <note>Поиск контакта с заметками (note:VIP)</note>
+    <location>Поиск контактов по местоположению (location:Москва)</location>
+    <fulltext>Поиск полного текста сообщения (fulltext:тест)</fulltext>
+    <priority>Поиск по важности: важное, стандартное, неважное (high,normal,low) (priority:high)</priority>
+    <isprivate>Поиск личных задач</isprivate>
+    <ispublic>Поиск общественных задач</ispublic>
+    <isfree>Поиск свободных задач</isfree>
+    <isbusy>Поиск занятых задач</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Поисковая папка</virtual>
+    <general>Общие</general>
+    <primary>Основная папкa</primary>
+    <filter>Фильтр</filter>
+    <all>Все папки</all>
+  </virtual>
+  <notifier>
+    <notifier>Уведомитель</notifier>
+    <permissions>Высплывающие уведомления позволят Вам быть в курсе поступления новых писем или сообщений в чате, даже если окно браузера не развернуто. &lt;br&gt; Сперва выберите способ уведомлений. Нажмите OK и подтвердите в следующем диалоговом окне активацию всплывающих уведомлений.</permissions>
+    <denied>Вы отменили активацию всплывающих уведомлений.</denied>
+    <redirect>Сообщение перенаправлено.</redirect>
+    <send>Сообщение отправлено.</send>
+    <item_save>Элемент сохранен.</item_save>
+    <new_email>Новое сообщение для %s</new_email>
+    <new_revision>Новая версия документа была успешно создана.</new_revision>
+    <email_exist>Емейл адрес уже существует.</email_exist>
+    <email_added>Емейл адрес добавлен к контакту.</email_added>
+    <contact_email_list_full>Не удалось добавить емейл адрес, все поля заняты.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Карты Google</map>
+    <go>Показать адрес</go>
+    <open>Открыть Google</open>
+    <alert>Ошибка Google карт</alert>
+    <g_geo_missing_address>Отсутствует aдрес:  отсутствует, либо неверен.</g_geo_missing_address>
+    <g_geo_too_many_queries>Слишком много запросов: Ежедневное количество запросов геолокации было исчерпано.</g_geo_too_many_queries>
+    <g_geo_server_error>Ошибка сервера: Запрос геолокации не может быть обработан.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Информация для логина</login_info>
+    <licenses>Приложения и лицензии</licenses>
+    <licenses_text>Пожалуйста, нажмите здесь, если вы хотите загрузить приложения и утилиты, совместимые с текущей версией IceWarp Сервер, включающей&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Десктоп Клиент&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Уведомитель&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Доставлено</delivered>
+    <delivered_info>успешно доставлено локальному получателю</delivered_info>
+    <sent>Oтправлено</sent>
+    <sent_info>успешно доставлено на удалённый сервер</sent_info>
+    <queue>Oчередь</queue>
+    <queue_info>Cообщение было временно отложено, сервер попытается отправить его позднее</queue_info>
+    <error>Oшибка</error>
+    <error_info>Проверьте Входящие, чтобы просмотреть подробное сообщение об ошибке</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Все файлы</all_files>
+    <images>Изображения</images>
+    <queue_limit_exceeded>Превышен лимит очереди</queue_limit_exceeded>
+    <zero_byte_file>Нулевой размер файла</zero_byte_file>
+    <invalid_filetype>Неверный тип файла</invalid_filetype>
+    <item>Элемент</item>
+    <title>Загрузка: %s из %s%</title>
+    <error1>Размер файла превышает лимит (%s МБ)</error1>
+    <error3>Файл был загружен частично</error3>
+    <error4>Файл не был загружен</error4>
+    <error6>Отсутствует временная папка</error6>
+    <error7>Ошибка записи файла на жесткий диск</error7>
+    <error8>Неверный тип файла</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Текст статуса...</status_msg>
+    <add_private>Личный</add_private>
+    <unsupported_img>Неподдерживаемый тип изображения</unsupported_img>
+    <add_gateway>Добавить шлюз</add_gateway>
+    <error_im>Ошибка чата</error_im>
+    <registred>Уже зарегистрирован</registred>
+    <registr>Зарегистрировать</registr>
+    <error_ticket>Невозможно создать тикет.</error_ticket>
+    <error_socket>Невозможно открыть сокет</error_socket>
+    <error_bytestream>Пользователь не поддерживает байтовых потоков</error_bytestream>
+    <error_cancel>Пользователь отменил запрос.</error_cancel>
+    <error_registr>Служба отклонила вашу регистрацию.</error_registr>
+    <add_service>Добавить службу</add_service>
+    <service>Служба</service>
+    <call>Вызвать</call>
+    <audio_call>Аудио звонок</audio_call>
+    <video_call>Видео звонок</video_call>
+    <meeting>Начать веб-конференцию</meeting>
+    <invite>Пригласить в веб-конференцию</invite>
+    <closetab>Закрыть</closetab>
+    <show>Показать все контакты</show>
+    <hide>Скрыть тех, кто не в сети</hide>
+    <other>Другие</other>
+    <selected>Выбранный</selected>
+    <chat>Открыть чат</chat>
+    <groupmsg>Отправить сообщение</groupmsg>
+    <group>Группа</group>
+    <new_group>Новая группа</new_group>
+    <subscription>Авторизация</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>Пользователь &lt;b&gt;%s&lt;/b&gt; запросил разрешение добавить вас в свой список контактов в чате.</sub_ask>
+    <send>Авторизовать контакт</send>
+    <request>Запрос aвторизации</request>
+    <remove>Удалить авторизацию</remove>
+    <remove_account>Вы уверены, что хотите удалить аккаунт %s из списка?</remove_account>
+    <remove_accounts>Уверены ли вы, что хотите удалить выбранные контакты из списка?</remove_accounts>
+    <rem_grp>Удалить группу</rem_grp>
+    <rem_grpc>Удалить группу и контакты</rem_grpc>
+    <rename>Переименовать</rename>
+    <add>Добавить контакт</add>
+    <jabber_id>Jabber ID</jabber_id>
+    <nick>Отображаемое имя</nick>
+    <vcard>Показать данные контакта</vcard>
+    <history>Показать историю переписки</history>
+    <sharedesktop>Показать экран</sharedesktop>
+    <tab_general>Общие</tab_general>
+    <tab_work>Работа</tab_work>
+    <tab_location>Адрес</tab_location>
+    <tab_about>Дополнительно</tab_about>
+    <send_mail>Отправить емейл</send_mail>
+    <send_file>Отправить файл</send_file>
+    <receive_file>Принять файл</receive_file>
+    <not_listed>Не в списке</not_listed>
+    <composing>Чат: %s печатает...</composing>
+    <file_message>Пользователь отправил Вам файл с описанием:&#13;&#10;%s&#13;&#10;&#13;&#10;ссылка: %s</file_message>
+    <file_cancel>Передача файла отклонена получателем.</file_cancel>
+    <file_error>Ошибка передачи файла.</file_error>
+    <file_ok>Файл успешно передан.</file_ok>
+    <receive_note>Пользователь &lt;b&gt;%s&lt;/b&gt; отправил Вам файл &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>Показать переписку после: %s</show_after>
+    <im_status>Чат: %s</im_status>
+    <im>Чат</im>
+    <sip_inprogress>Осуществляется звонок</sip_inprogress>
+    <sip_incomming>Входящий звонок</sip_incomming>
+    <sip_calling>Идет вызов</sip_calling>
+    <status_sec>%s меньше минуты</status_sec>
+    <status_min>%s %s минут(ы)</status_min>
+    <status_hour>%s %s час(ов)</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Предложить новое время</propose>
+    <nosubject>Без темы</nosubject>
+    <when>Когда</when>
+    <location>Где</location>
+    <comment>Комментарий</comment>
+    <description>Описание</description>
+    <accept>Принять</accept>
+    <tentative>Предварительно</tentative>
+    <decline>Отклонить</decline>
+    <skip_img>Внешние ресурсы были заблокированы. Нажмите здесь, чтобы отобразить их.</skip_img>
+    <show_img>Сообщение содержит вложенные изображения. Нажмите, чтобы открыть предварительный просмотр.</show_img>
+    <smart>Вложения будут доставлены с использованием IceWarp технологии SmartAttatch.</smart>
+    <show_raw>Открыть сообщение в новой вкладке</show_raw>
+    <certificate>Публичный сертификат</certificate>
+    <serror>Ошибка расшифровки, сертификат отсутствует или недействителен .</serror>
+    <sverify>Невозможно проверить подпись сообщения</sverify>
+    <expired>Ошибка расшифровки, сертификат работает, но срок его действия истек.</expired>
+    <access>Вам предоставляется доступ к &quot;%s&quot; от %s.</access>
+    <account_access>Вам предоставляется доступ от %s.</account_access>
+    <subscribe>Добавить папку</subscribe>
+    <subscribe_account>Добавить учетную запись</subscribe_account>
+    <subscribed>Учетная запись пользователя %s добавлена.</subscribed>
+    <subscribed_folder>Папка  &quot;%s/%s&quot; была добавлена</subscribed_folder>
+    <unsubscribe>Удалить</unsubscribe>
+    <unsubscribed>Авторизация %s удалена.</unsubscribed>
+    <unsubscribed_folder>Авторизация для &quot;%s/%s&quot; удалена.</unsubscribed_folder>
+    <error>Действие не может быть выполнено.</error>
+    <recurrent>Повторяющийся</recurrent>
+    <occurrence>Исключение из повторного события</occurrence>
+    <attendee>С</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Что нового?</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Помощь</help>
+    <about>О программе</about>
+  </help>
+  <print>
+    <preview>Предварительный просмотр</preview>
+    <opera>Ваш браузер не поддерживает эту функцию</opera>
+  </print>
+  <status>
+    <online>В сети</online>
+    <offline>Отключен</offline>
+    <chat>Свободен для чата</chat>
+    <away>Отсутствует</away>
+    <xa>N/A</xa>
+    <dnd>Не беспокоить</dnd>
+    <invisible>Невидимый</invisible>
+    <gone>Пользователь вышел из чата</gone>
+    <error>Ошибка</error>
+    <sip>WebPhone включен</sip>
+    <chat_with>Открыть чат с %s</chat_with>
+  </status>
+  <policy>
+    <minlength>Минимальная длина пароля: %s символов</minlength>
+    <digits>Количество цифр [0-9]: %s</digits>
+    <alpha>Количество латинских букв [a-Z]: %s</alpha>
+    <nonalphanum>Количество специфических символов [!@#$%...]: %s</nonalphanum>
+    <upperalpha>Количество заглавных букв [A-Z]: %s</upperalpha>
+    <useralias>Пароль не может быть таким же, как имя пользователя или псевдоним</useralias>
+  </policy>
+  <alerts>
+    <alert>Внимание</alert>
+    <suppress>Больше не показывать это сообщение</suppress>
+    <create_revision>Невозможно создать версию документа</create_revision>
+    <password_do_not_match>Пароли не совпадают</password_do_not_match>
+    <invalid_password>Неверный пароль</invalid_password>
+    <new_password_match>Новый пароль совпадает с одним из предыдущих</new_password_match>
+    <invalid_cpassword>Подтверждение пароля не совпадаeт</invalid_cpassword>
+    <folder_exist>Папка уже существует</folder_exist>
+    <create_folder>Невозможно создать папку &quot;%s&quot;</create_folder>
+    <rename_folder>Невозможно переименовать папку &quot;%s&quot; на &quot;%s&quot;</rename_folder>
+    <attachment_size>Превышение допустимого размера вложения</attachment_size>
+    <attachment_quota>Превышен размер вложения.</attachment_quota>
+    <attachment_missing>Вложенный файл не найден.</attachment_missing>
+    <attachment_virus>Вложение содержит вирус.</attachment_virus>
+    <could_not_create>Документ не может быть создан.</could_not_create>
+    <could_not_edit>Документ не может быть изменен.</could_not_edit>
+    <general_error>Произошла неизвестная ошибка&lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>Пароль нарушает политику паролей</password_policy>
+    <password_requirements>Пожалуйста, проверьте следующие требования и выберите новый пароль:</password_requirements>
+    <password_incorrect>Неверный пароль. Пожалуйста, попробуйте снова.</password_incorrect>
+    <message_not_sent>Сообщение не было отправлено</message_not_sent>
+    <message_not_saved>Сообщение не было сохранено</message_not_saved>
+    <mailingfailed>Не удается отправить или сохранить сообщение в связи с ошибкой сервера. Пожалуйста, попробуйте повторить попытку позже.</mailingfailed>
+    <distribution_list_invalid_id>Неверный список рассылки:</distribution_list_invalid_id>
+    <smtp_from_failed>Следующий отправитель не принят:</smtp_from_failed>
+    <smtp_recipients_failed>Адрес получателя причина ошибки:</smtp_recipients_failed>
+    <smtp_data_not_accepted>Ваше письмо не было принято сервером.</smtp_data_not_accepted>
+    <default_folder_missing>Папка по умолчанию &quot;%s&quot; отсутствует.</default_folder_missing>
+    <no_recipient_certificate>Сертификат получателя отсутствует</no_recipient_certificate>
+    <recipient_certificate_expired>Срок действия сертификата получателя истек.</recipient_certificate_expired>
+    <personal_certificate>Частный сертификат не соответствует</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>Невозможно получить сообщение</imap_null>
+    <delete_item>Выбранный элемент(ы) не может быть удален(ы)</delete_item>
+    <reserved_folder>Зарезервированное имя папки &quot;%s&quot;</reserved_folder>
+    <undefined>Неопределенная ошибка</undefined>
+    <timezone_differ>Ваш часовой пояс изменился. Выберите соответствующее местоположение из следующего списка, чтобы настроить время событий вашего календаря.</timezone_differ>
+    <popup_blocker>Всплывающее окно было заблокировано.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Непрочитано</unread>
+    <contact_ok>Ваше сообщение было отправлено администратору</contact_ok>
+    <signup_ok>Новый аккаунт успешно создан</signup_ok>
+    <logout>Пользователь вышел из системы</logout>
+    <logged_out>Пользователь вышел из системы</logged_out>
+    <forgot_ok>Bаши данные были отправлены на ваш емейл адрес и  на дополнительный емейл адрес.</forgot_ok>
+    <password_change_ok>Пароль успешно изменен</password_change_ok>
+    <close_window>Теперь вы можете закрыть это окно</close_window>
+    <personality_confirmation_ok>Ваш емейл адрес подтверждён.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Неправильное имя или пароль. Пожалуйста, повторите попытку.</invalid_login>
+    <account_disabled>Учетная запись отключена.</account_disabled>
+    <expired>Истекшая сессия</expired>
+    <connection>Невозможно подключиться к серверу. Пожалуйста, проверьте ваше подключение к Интернетy или свяжитесь с администратором.</connection>
+    <servererror>Невозможно получить доступ к этой службе. Пожалуйста, повторите попытку позже или обратитесь к администратору.</servererror>
+    <overloaded>Сервер временно перегружен. Пожалуйста, повторите попытку позже или обратитесь к администратору.</overloaded>
+    <countdown>Повторная попытка через %s секунд.</countdown>
+    <filenotfound>Некоторые файлы отсутствуют на сервере, могут появляться неожиданные ошибки.</filenotfound>
+    <subscribe_error>Невозможно добавить аккаунт %s.</subscribe_error>
+    <wc_disabled>Вебклиент oтключен.</wc_disabled>
+    <invalid_rsa>Невозможно создать RSA-пароль.</invalid_rsa>
+    <no_db>Ошибка подключения к базе данных</no_db>
+    <no_data>Нет доступных данных</no_data>
+    <access_error>Не удается получить доступ к папке, пожалуйста, свяжитесь с администратором.</access_error>
+    <ip_mismatch>Ваш IP изменился, вы будете отключены . Чтобы предотвратить возникновение этой проблемы в будущем, пожалуйста, используйте доступ к Вебклиенту через HTTPS-соединение.</ip_mismatch>
+    <javatip1>Найдите на экране всплывающую подсказку или предупреждение безопасности Java. Нажмите Да или Разрешить.</javatip1>
+    <javatip2>Свяжитесь с администратором, чтобы получить помощь в установке Java на ваш компьютер или</javatip2>
+    <javatip3>нажмите кнопку Диагностика, чтобы решить проблему сейчас</javatip3>
+    <contactadmin>Связаться с администратором</contactadmin>
+    <troubleshoot>Диагностика</troubleshoot>
+  </error>
+  <common>
+    <all>Все</all>
+    <processing>Обработка</processing>
+    <loading>Загрузка...</loading>
+    <sending>Отправка...</sending>
+    <comment>Комментарий (опционально)</comment>
+    <email>Емейл</email>
+    <folder>Папка</folder>
+    <items>Элементы</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Выбрать все</select_all>
+    <clear>Стeреть</clear>
+    <yes>Да</yes>
+    <no>Нет</no>
+    <auto>Автоматически</auto>
+    <disable>Отключить</disable>
+    <enable>Bключить</enable>
+    <enabled>Вкл</enabled>
+    <show_all>Показать все</show_all>
+    <previous>Назад</previous>
+    <next>Далее</next>
+    <more>Подробнее...</more>
+    <show>Показать</show>
+    <hide>Скрыть</hide>
+    <appearance>Отображение чата и структуры папок</appearance>
+    <expand>Развёрнутый</expand>
+    <collapsed>Свёрнутый</collapsed>
+    <autocollapsed>Автосвёртывание</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Избранное</favorites>
+    <remove>Удалить из Избранного</remove>
+    <rename>Переименовать ярлык</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>Владелец</owner>
+    <address_book>Адресная книга</address_book>
+    <add_recipient>Добавить получателя</add_recipient>
+    <selected_addresses>Выбранный</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Пусто</empty>
+    <today>Сегодня</today>
+    <this_week>Текущая неделя</this_week>
+    <this_month>Текущий месяц</this_month>
+    <yesterday>Вчера</yesterday>
+    <tomorrow>Завтра</tomorrow>
+    <typetoadd>Введите название события</typetoadd>
+    <owner>Владелец</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>Местное время</timezones>
+    <serverzone>Время сервера</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Вы хотите очистить список автозаполнения?</clear_autosuggest>
+    <suppress>Больше не спрашивать</suppress>
+    <reset_password_subject>Подтверждение сброса пароля для аккаунта %email%</reset_password_subject>
+    <reset_password>Здравствуйте, %username%,&#13;&#10;&#13;&#10;Вы запрашивали сброс пароля для вашего аккаунта (%email%) через IceWarp Вебклиент?&#13;&#10;&#13;&#10;Нажмите ссылку ниже (или скопируйте и вставьте ее в адресную строку вашего браузера), чтобы подтвердить, что этот емейл адрес принадлежит вам.&#13;&#10;&#13;&#10;Если вы не запрашивали пароль, или получили это сообщение по ошибке, пожалуйста, проигнорируйте его.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Подтверждение использования псевдонима для: %username%</alias_subject>
+    <alias_confirmation>Здравствуйте, %username%,&#13;&#10;&#13;&#10;Запрашивали ли вы добавление вашего адреса %email% как псевдоним в IceWarp Вебклиенте.&#13;&#10;&#13;&#10;Перейдя по ссылке ниже (или скопировав и вставив ее в адресную строку вашего браузера), вы подтверждаете, что этот адрес принадлежит вам.&#13;&#10;&#13;&#10;Если вы не делали этот запрос или получили это сообщение по ошибке, пожалуйста, проигнорируйте его.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>Чтобы предотвратить потерю измененных данных, пожалуйста, убедитесь, что вы сохранили все открытые элементы и новые письма.</unload>
+    <expired>Истекшая сессия</expired>
+    <no_mobile>Мобильный номер не найден.</no_mobile>
+    <expired_msg>Не удается отправить или сохранить незаконченные сообщения. Ваш IP изменился или сессия истекла.</expired_msg>
+    <delete_account_confirmation>Подтверждение удаления учётной записи</delete_account_confirmation>
+    <delete_account>Вы действительно хотите удалить аккаунт %s?</delete_account>
+    <recover_item>Вы уверены, что вы хотите восстановить выбранный элемент(ы)?</recover_item>
+    <delete_folder_confirmation>Подтверждение удаления папки</delete_folder_confirmation>
+    <delete_folder>Вы действительно хотите удалить папку %s?&lt;br/&gt;(все содержащиеся в ней папки будут удалены)</delete_folder>
+    <delete_item_confirmation>Подтверждение удаления элемента</delete_item_confirmation>
+    <delete_item>Вы уверены, что хотите удалить выбранный элемент(ы)?</delete_item>
+    <delete_avatar>Изображение этого контакта будет удалено.</delete_avatar>
+    <blacklist_sender_confirmation>Подтвеждение перемещения в Черный список</blacklist_sender_confirmation>
+    <blacklist_sender>Переместить выделенные элементы в Черный список?</blacklist_sender>
+    <blacklist_domain>Вы действительно хотите, чтобы все письма с этого домена не доставлялись вам?</blacklist_domain>
+    <blacklisted>Отправитель был занесен в Черный список</blacklisted>
+    <whitelist_sender_confirmation>Подтвеждение перемещения в Белый список</whitelist_sender_confirmation>
+    <whitelist_sender>Переместить выделенные элементы в Белый список?</whitelist_sender>
+    <whitelist_domain>Вы действительно, чтобы все письма с этого домена доставлялись вам?</whitelist_domain>
+    <whitelisted>Отправитель был занесен в Белый список</whitelisted>
+    <empty_folder_confirmation>Подтверждение очистки папки</empty_folder_confirmation>
+    <empty_folder>Вы уверены, что хотите удалить все элементы в этой папке?</empty_folder>
+    <empty_to_trash>Вы уверены, что хотите переместить все элементы папки в корзину?</empty_to_trash>
+    <save_title>Сохранить сообщение</save_title>
+    <save_confirmation>Сообщение не было сохранено. Сохранить сообщение в Черновики?</save_confirmation>
+    <save_file>Файл был изменен. Сохранить изменения?</save_file>
+    <save>Сохранить</save>
+    <discard>Не сохранять</discard>
+    <create_reading_confirmation_title>Подтверждение прочтения</create_reading_confirmation_title>
+    <create_reading_confirmation>Отправитель запросил подтверждение прочтения письма. Отправить подтверждение?</create_reading_confirmation>
+    <send_reading_confirmation>Хотите попросить получателя подтвердить, прочтение вашего сообщения?</send_reading_confirmation>
+    <browser_warning_title>Предупреждение браузера</browser_warning_title>
+    <browser_warning_text_unsupported>Ваш текущий браузер ОФИЦИАЛЬНО НЕ ПОДДЕРЖИВАЕТСЯ IceWarp Вебклиентом.&#13;&#10;&#13;&#10;Пожалуйста, обратите внимание, что производительность Вебклиента с вашего текущего браузера может быть очень медленной или совсем не работать.&#13;&#10;&#13;&#10;Вебклиент оптимизирован для использования с Firefox 4.0 (или выше) и Internet Explorer 8.0 (или выше). Мы настоятельно рекомендуем вам обновить до последней версии Internet Explorer, или установить Firefox (оба бесплатны)..&#13;&#10;&#13;&#10;Чтобы скачать последнюю версию Firefox, посетите сайт:&#13;&#10; http://www.firefox.com/&#13;&#10;&#13;&#10;Чтобы скачать последнюю версию Internet Explorer, посетите сайт:&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;Нажмите кнопку ОК, чтобы продолжить или нажмите Отмена, чтобы перейти к версии Вебклиента для планшетов.</browser_warning_text_unsupported>
+    <expired_password>Срок действия пароля истек. Пожалуйста, измените ваш пароль.</expired_password>
+    <authentication>Ошибка аутентификации</authentication>
+    <authenticate>В целях безопасности вам нужно пройти аутентификацию снова.</authenticate>
+    <enterpass>Введите ваш пароль, чтобы войти и продолжить работу или выйдите из системы.</enterpass>
+    <secure>Чтобы избежать возникновения этой проблемы в будущем, пожалуйста, используйте HTTPS-соединение для доступа к вебклиенту.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>Язык будет изменен после перезагрузки Вебклиента.</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Открыть в новом окне</open_in_separate_window>
+    <help_restriction>Эта функция в настоящее время отключена администратором</help_restriction>
+    <switch_older>Переключиться на старую версию Вебклиента</switch_older>
+    <choose_interface>Выберите предпочтительный интерфейс</choose_interface>
+    <choose_lang>Выбрать язык</choose_lang>
+    <migration_in_progress>Выполняется перенос данных, пожалуйста, попробуйте позже.</migration_in_progress>
+    <message_sent>Сообщение доставлено</message_sent>
+    <message_send_failed>Отправка сообщения не удалась</message_send_failed>
+    <antispam_code_error>Неверный код безопасности</antispam_code_error>
+    <antispam>Код безопасности</antispam>
+    <contact_support_subject>Новый запрос со страницы входа</contact_support_subject>
+    <text>Текст</text>
+    <contact_administrator>Свяжитесь с нами для помощи</contact_administrator>
+    <contact_question>Нужна помощь?</contact_question>
+    <contact_answer>Связаться с администратором</contact_answer>
+    <contact_1>Сообщение</contact_1>
+    <contact_2>администратору</contact_2>
+    <contact_placeholder_1>Ваш е-мейл или телефон</contact_placeholder_1>
+    <contact_placeholder_2>Опишите свою проблему</contact_placeholder_2>
+    <help>Аудио помощь</help>
+    <meeting_me>Я</meeting_me>
+    <meeting_hang_up_confirmation>Вы действительно хотите покинуть конференцию?</meeting_hang_up_confirmation>
+    <online_meeting>Веб-конференция</online_meeting>
+    <meeting_connected>Подключено</meeting_connected>
+    <meeting_connecting>Подключение</meeting_connecting>
+    <phone_access>Доступ через телефон</phone_access>
+    <meeting_chat_ready>Добро пожаловать в веб-конференцию! Групповой чат готов к использованию.</meeting_chat_ready>
+    <meeting_chat_send>Отправить</meeting_chat_send>
+    <meeting_user_left_meeting>Пользователь &quot;%s&quot; покинул конференцию</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>Пользователь &quot;%s&quot; присоединился к конференции</meeting_user_joined_meeting>
+    <meeting_no_participants>Нет участников</meeting_no_participants>
+    <meeting_server_not_responding>Сервер не отвечает</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Соединение успешно установлено</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Аудио апплет не может быть запущен. Если появилось диалоговое окно подтверждения, разрешите запуск Java. В некоторых случаях поможет перезапуск браузера. Вы можете найти последнюю версию Java и установить ее, посетив страницу: &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>Продолжительность</duration>
+    <mute>Выключить микрофон</mute>
+    <desktop_sharing_id>ID сессии демонстрации экрана</desktop_sharing_id>
+    <conference_phone_number>Телефонный номер веб-конференции</conference_phone_number>
+    <desktop_sharing_app>Приложение для демонстрации экрана</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>Сожалеем, но приложение для демонстрации экрана с сайта не работает на мобильных устройствах. Перейдя по ссылке ниже, вы найдете нужное приложение.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>Сожалеем, но приложение для демонстрации экрана с сайта на работает на Mac. Вам нужно установить приложение, перейдя по ссылке ниже.</desktop_sharing_mac_warning>
+    <continue_to_call>Продолжить звонок</continue_to_call>
+    <meeting_api_unexpected_response>Неожиданный API-ответ</meeting_api_unexpected_response>
+    <applet_unreachable>Апплет Java недоступен</applet_unreachable>
+    <sip_applet_load_failed>Не удалось загрузить аудио апплет</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Не удалось получить информацию о конференции</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>Совместный доступ к экрану остановлен, аудио конференция продолжает работать</meeting_mikogo_ended>
+    <meeting_ended>Веб-конференция окончена</meeting_ended>
+    <meeting_hang_up>Отключиться</meeting_hang_up>
+    <meeting_id>ID конференции</meeting_id>
+    <meeting_mikogo_ready>Совместный доступ к экрану готов.</meeting_mikogo_ready>
+    <meeting_sip_ready>Аудио готово</meeting_sip_ready>
+    <meeting_call_failed>Звонок не удался</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Срок действия приглашения истек. Повторить попытку через %s сек.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Повторение попытки через %s сек.</meeting_trying_again_in>
+    <meeting_preparing_sip>Подготовка аудио</meeting_preparing_sip>
+    <meeting_starting_sip>Запуск аудио</meeting_starting_sip>
+    <meeting_waiting_for_reply>Аудио апплет ожидает ответа сервера</meeting_waiting_for_reply>
+    <meeting_in_progress>Конференция запущена</meeting_in_progress>
+    <meeting_you_can_join>Сейчас вы можете присоединиться к веб-конференции</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Апплет конференции не готов</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>Ответ не содержит код апплета конференции</meeting_no_applet_code>
+    <meeting_unexpected_response>Неожиданный ответ от апплета конференции</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Ваш браузер не поддерживает веб-конференции</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>Chrome больше всего подходит для конференций. Вы будете перенаправлены на инструкцию по установке.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>Веб-конференция еще не началась</meeting_meeting_wasnt_started>
+    <meeting_waiting>Ожидаем  %s для начала веб-конференции</meeting_waiting>
+    <meeting_created_by_ready>Веб-конференция, созданная  %s готова</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Загрузка конференции</meeting_loading_meeting_info>
+    <unknown_error>Неизвестная ошибка</unknown_error>
+    <meeting_no_name>Пожалуйста, введите ваше имя или никнейм.</meeting_no_name>
+    <meeting_api_error_104>Неверный ID конференции</meeting_api_error_104>
+    <meeting_api_error_description_104>Адрес конференции не существует или введен неполностью</meeting_api_error_description_104>
+    <meeting_api_error_111>Эта служба отключена</meeting_api_error_111>
+    <meeting_api_error_120>Невозможно соединиться с удаленным сервером</meeting_api_error_120>
+    <meeting_api_error_125>На сервере отсутствует действующая лицензия для веб-конференций</meeting_api_error_125>
+    <meeting_id_doesnt_exist>ID конференции не существует</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Микрофон недоступен</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Доступ к микрофону отсутствует, или он не подключён. Вы хотите продолжить без микрофона?</meeting__no_microphone_continue>
+    <fill_in_name>Введите ваше имя</fill_in_name>
+    <fill_in_email>Введите ваш емейл адрес</fill_in_email>
+    <join_meeting>Присоединиться к веб-конференции</join_meeting>
+    <already_a_member>Вы уже участвуете в конференции.</already_a_member>
+    <name>Имя</name>
+    <enter_your_name>Введите ваше имя</enter_your_name>
+    <enter_your_name_description>Это имя будет видно другим участникам и использовано для вашей идентификации в течение веб-конференции</enter_your_name_description>
+    <cancel>Отмена</cancel>
+    <login_caption>IceWarp Вебклиент</login_caption>
+    <copy>На базе &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp сервера &lt;/a&gt;</copy>
+    <copy_new>&lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp сервер&lt;/a&gt;</copy_new>
+    <title>Вебклиент IceWarp</title>
+    <user>Пользователь</user>
+    <email>Емейл адрес</email>
+    <pass>Пароль</pass>
+    <old_pass>Старый пароль</old_pass>
+    <new_pass>Новый пароль</new_pass>
+    <check_pass>Подтверждение пароля</check_pass>
+    <change_password>Изменить пароль</change_password>
+    <remember>Запомнить</remember>
+    <save0>Авто вход</save0>
+    <save1>Имя пользователя и пароль</save1>
+    <save2>Имя пользователя</save2>
+    <save3>Всегда спрашивать</save3>
+    <login>Войти</login>
+    <send>Отправить</send>
+    <create_account>Создать учетную запись</create_account>
+    <switch>Переключить на&lt;a href=&quot;./basic&quot;&gt;планшетный &lt;/a&gt; или &lt;a href=&quot;./pda&quot;&gt;мобильный&lt;/a&gt; интерфейс.</switch>
+    <downloads>Загрузить</downloads>
+    <interface>Интерфейс</interface>
+    <basic>Для планшетов</basic>
+    <pda>Для мобильных</pda>
+    <pro>Полноценный интерфейс</pro>
+    <osx>Mac OS X</osx>
+    <lang>Язык</lang>
+    <keep_me_signed>Запомнить меня</keep_me_signed>
+    <utilities>Инструменты</utilities>
+    <pw_policy_minlength>Минимальная длина пароля</pw_policy_minlength>
+    <pw_policy_digits>Количество цифр в пароле [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Количество латинских букв в пароле</pw_policy_alpha>
+    <pw_policy_nonalphanum>Количество специфических символов в пароле![@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>Проверка, чтобы пароль и имя пользователя или псевдоним не были одинаковыми, включена</pw_policy_useralias>
+    <pw_policy_uppercase>Количество заглавных букв</pw_policy_uppercase>
+    <virtual_keyboard_01>Показать виртуальную клавиатуру</virtual_keyboard_01>
+    <virtual_keyboard_02>Выберите раскладку клавиатуры</virtual_keyboard_02>
+    <virtual_keyboard_04>Вкл.</virtual_keyboard_04>
+    <virtual_keyboard_05>Выкл.</virtual_keyboard_05>
+    <virtual_keyboard_06>Закрыть клавиатуру</virtual_keyboard_06>
+    <virtual_keyboard_07>Очистить</virtual_keyboard_07>
+    <virtual_keyboard_08>Очистить это поле</virtual_keyboard_08>
+    <virtual_keyboard_10>Уменьшить размер клавиатуры</virtual_keyboard_10>
+    <virtual_keyboard_11>Увеличить размер клавиатуры</virtual_keyboard_11>
+    <js_problem>Невозможно запустить JavaScript</js_problem>
+    <public_calendar>Общий календарь</public_calendar>
+    <login_to_pro>Войти в полноценный интерфейс</login_to_pro>
+    <login_to_basic>Войти в интерфейс для планшетов</login_to_basic>
+    <login_to_pda>Войти в интерфейс для мобильных</login_to_pda>
+    <js_turned_off_message_text>For the best user experience and advanced features, we recommend Desktop interface. This requires JavaScript capability. Verify that JavaScript is enabled in browser settings, or continue to the</js_turned_off_message_text>
+    <js_turned_off_message_link>Интерфейс для планшетов</js_turned_off_message_link>
+    <learn_more>Узнать больше обо всех функциях</learn_more>
+    <learn_more_short>Узнать больше</learn_more_short>
+    <login_back>Вернуться к странице входа</login_back>
+    <changepwd>Измените ваш&lt;br/&gt; пароль</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Полноценный</advanced>
+    <basic>Для планшетов</basic>
+  </login_client>
+  <login_style>
+    <gray>Серый</gray>
+    <white>Белый</white>
+    <black>Графит</black>
+    <red>Красный</red>
+    <yellow>Жёлтый</yellow>
+    <green>Зелёный</green>
+    <blue>Голубой</blue>
+    <purple>Пурпурный</purple>
+    <orange>Оранжевый</orange>
+    <brown>Коричневый</brown>
+    <pink>Розовый</pink>
+  </login_style>
+  <skin_style>
+    <default>Синий</default>
+    <black>Черный</black>
+    <brown>Коричневый</brown>
+    <graphite>Графит</graphite>
+    <green>Зеленый</green>
+    <orange>Оранжевый</orange>
+    <pink>Розовый</pink>
+    <purple>Пурпурный</purple>
+    <red>Красный</red>
+    <yellow>Желтый</yellow>
+  </skin_style>
+  <sign_up>
+    <question>У вас еще нет аккаунта?</question>
+    <answer>Создать аккаунт</answer>
+    <sign_up>Регистрация</sign_up>
+    <create_account>Введите информацию</create_account>
+    <fullname>Полное имя</fullname>
+    <domain>Домен</domain>
+    <username>Имя пользователя</username>
+    <alternative>Дополнительный емейл</alternative>
+    <captcha_error>Ошибка ввода CAPTCHA</captcha_error>
+    <pass_error>Указанный пароль не был принят</pass_error>
+    <incorrect_error>Неверное имя пользователя или псевдоним</incorrect_error>
+    <exists_error>Учетная запись уже существует</exists_error>
+    <error>Новая учетная запись не может быть создана</error>
+    <account_created>Новая учетная запись была успешно создана</account_created>
+    <invalid_cpass>Ошибка подтверждения пароля</invalid_cpass>
+    <confirm_pass>Подтвердить</confirm_pass>
+    <password_change>Изменить пароль</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Забыли пароль?</question>
+    <question_br>Забыли свой&lt;br/&gt; пароль?</question_br>
+    <title>Сброс вашего&lt;br&gt; пароля</title>
+    <answer>Сбросить</answer>
+    <generate>Кликните дважды для получения нового кода безопасности</generate>
+    <captcha>Введите код с изображения</captcha>
+    <captcha_error>Неверный ввод CAPTCHA</captcha_error>
+    <security_code>CAPTCHA</security_code>
+    <reset_pass>Сбросить пароль</reset_pass>
+    <enter_alt_pass>Ваши регистрационные данные были отправлены на ваш емейл и на дополнительный емейл адрес, если вы его указывали.</enter_alt_pass>
+    <reset_send>Ваши регистрационные данные были отправлены на следующий(-ие) емейл адрес(а):</reset_send>
+    <reset_error>Учетная запись не существует или ее пароль не может быть восстановлен</reset_error>
+    <subject>Сброшен пароль аккаунта %EMAIL%</subject>
+    <email>Здравствуйте, %FULLNAME%,&#13;&#10;&#13;&#10;Вы запрашивали сброс пароля вашего аккаунта (%EMAIL%) в вебклиенте?&#13;&#10;&#13;&#10;Перейдите по ссылке ниже (или скопируйте ее и вставьте в адресную строку браузера), чтобы подтвердить, что этот емейл адрес принадлежит вам.&#13;&#10;%URL%&#13;&#10;&#13;&#10;Если вы не запрашивали сброс или получили это сообщение по ошибке, пожалуйста, проигнорируйте его.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Имя уже существует</duplicity>
+    <label>Документ с таким именем &quot;%s&quot; уже существует.</label>
+    <suggested_name>Предложенное имя</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Обработка</processing>
+    <step1>1) Загрузите резервную копию</step1>
+    <step2>2) Выберите папку</step2>
+    <step3>3) Выберите типы столбцов для импорта</step3>
+    <step1e>Выберите исходную папку</step1e>
+    <step2e>Выберите тип экспорта</step2e>
+    <step_date>Выберите формат даты</step_date>
+    <default_date>По умолчанию</default_date>
+    <charset>Шрифт</charset>
+    <skipfirst>Пропустить первую строку в CSV</skipfirst>
+    <email1>Емейл 1</email1>
+    <email2>Емейл 2</email2>
+    <email3>Емейл 3</email3>
+    <phone1>Тел. 1</phone1>
+    <phone2>Тел. 2</phone2>
+    <phone3>Тел. 3</phone3>
+    <phone4>Тел. 4</phone4>
+    <phone_type1>Тел. тип 1</phone_type1>
+    <phone_type2>Тел. тип 2</phone_type2>
+    <phone_type3>Тел. тип 3</phone_type3>
+    <phone_type4>Тел. тип 4</phone_type4>
+    <import_successful>Импорт успешно завершен</import_successful>
+    <import_unsuccessful>Ошибка импорта</import_unsuccessful>
+    <import_finished>Импорт завершен. %s элементов было пропущено из-за ошибки.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Авто</auto>
+    <load>Загрузить</load>
+    <import>Импорт</import>
+    <export>Экспорт</export>
+    <unknown_ext>Неизвестное расширение файла</unknown_ext>
+    <download_csv_file>Скачать CSV файл с элементами календаря</download_csv_file>
+    <csv>CSV</csv>
+    <gw>Групповые данные</gw>
+    <download_file>Скачать</download_file>
+    <select_col>Укажите столбцы для импорта</select_col>
+    <select_email>Выберите минимальнo один емейл столбeц</select_email>
+    <gw_xml_file>Резервная копия Групповых данных в формате XML</gw_xml_file>
+    <comma>CSV - запятая (,)</comma>
+    <semicolon>CSV - точка с запятой (;)</semicolon>
+    <colon>CSV - двоеточие (:)</colon>
+    <sharing>Форсировать режим совместного использования</sharing>
+    <import_info>Форматы файлов, поддерживаемые для загрузки</import_info>
+    <import_info_itm>CSV (отделено запятой или точкой с запятой), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Лицензии</license>
+    <licenses>Лицензии</licenses>
+    <out>Outlook Sync</out>
+    <desk>Десктоп Клиент</desk>
+    <download>Загрузить</download>
+    <key>Активационный ключ продукта (использовать Ctrl C + Ctrl V)</key>
+    <nokey>Активация ключа для этого приложения недоступна. Обратитесь к администратору.</nokey>
+  </license>
+  <devices>
+    <device>Устройство</device>
+    <device_model>Модель устройства</device_model>
+    <device_type>Тип устройства</device_type>
+    <protocol>Протокол</protocol>
+    <registered>Зарегистрированный</registered>
+    <lastsync>Последняя синхронизация</lastsync>
+    <factory>Вернуться к заводским настройкам</factory>
+    <wipe>Удаленная очистка</wipe>
+    <wiping>Происходит удаленная очистка</wiping>
+    <nowipe>Устройство не поддерживает удаленную очистку</nowipe>
+    <reset>Отменить очистку устройства</reset>
+    <delete_confirmation>Удаление устройства из списка вызовет повторную синхронизацию данных при следующем подключении (полезно, если устройство остановило обновление). Если вы все же хотите удалить все данные пользователя/учетной записи с устройства, выберите Свойства устройства и нажмите Удаленная очистка.&lt;br/&gt;&lt;br/&gt; Вы действительно хотите удалить устройство(а) из списка?</delete_confirmation>
+    <wipe_confirmation>Удаленная очистка удалит все пользовательские данные и данные аккаунта с устройства (и карт памяти) и сбросит все настройки до заводских. Устройство должно иметь соединение с Интернетом.&lt;br/&gt;&lt;br/&gt;Вы действительно хотите продолжить?</wipe_confirmation>
+    <options>Опции устройства</options>
+    <folders>Папки</folders>
+    <sync>Синхронизация</sync>
+    <private_folders>Частные папки</private_folders>
+    <special_folders>Специальные папки</special_folders>
+    <gw_folders>Папки групповых данных</gw_folders>
+    <mail_folders>Почтовые папки</mail_folders>
+    <archive>Архив</archive>
+    <public>Публичные папки</public>
+    <shared>Общие папки</shared>
+    <past_mail>Период синхронизации сообщений</past_mail>
+    <past_calendar>Период синхронизации календарей</past_calendar>
+    <sync_tase>Синхронизировать задачи как события</sync_tase>
+    <sync_note>Синхронизировать заметки как</sync_note>
+    <all_folders>Все папки</all_folders>
+    <all_folders_mail>Все папки с групповыми данными как почтовые</all_folders_mail>
+    <default_only>Только основные папки</default_only>
+    <sync_all>Все</sync_all>
+    <one_day>1 день</one_day>
+    <three_days>3 дня</three_days>
+    <one_week>1 неделя</one_week>
+    <two_weeks>2 недели</two_weeks>
+    <one_month>1 месяц</one_month>
+    <three_months>3 месяца</three_months>
+    <six_months>6 месяцев</six_months>
+    <inc_tasks>Только незавершенные задачи</inc_tasks>
+    <new_cfolders>Новая папка календаря</new_cfolders>
+    <merge_taks>Объединить в основной календарь</merge_taks>
+    <events>События</events>
+    <tasks>Задачи</tasks>
+    <inotes>Задачи и заметки (Android приложение)</inotes>
+    <new_folders>Новая папка</new_folders>
+    <merge_default>Объединить в основную папку</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Дерево папок</leftpanel>
+    <rightpanel>Панель чата</rightpanel>
+    <share>Разрешить доступ</share>
+    <new_document>Создать документ</new_document>
+    <new_message>Использовать шаблон</new_message>
+    <devices>Мобильные устройства</devices>
+    <vcard>Мои данные</vcard>
+    <basic>Планшетный интерфейс</basic>
+    <old_client>Старый интерфейс</old_client>
+    <search>Поиск</search>
+    <filter>Фильтр</filter>
+    <new>Создать</new>
+    <print>Печать</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Установки</settings>
+    <accounts>Учетная запись</accounts>
+    <logout>Выход</logout>
+    <logout_title>Ctrl+щелчок мыши для выхода</logout_title>
+    <update>Получить</update>
+    <compose>Создать</compose>
+    <new_contact>Контакт</new_contact>
+    <new_template>Шаблон сообщения</new_template>
+    <new_distrib_list>Список рассылки</new_distrib_list>
+    <new_event>Событие</new_event>
+    <new_journal>Журнал</new_journal>
+    <new_note>Заметку</new_note>
+    <new_task>Задачу</new_task>
+    <new_file>Документ</new_file>
+    <new_upload>Загрузить файл</new_upload>
+    <new_word>Документ Microsoft Word</new_word>
+    <new_excel>Таблица Excel</new_excel>
+    <new_ppoint>Презентация PowerPoint</new_ppoint>
+    <new_text>Текстовый документ</new_text>
+    <new_html>HTML документ</new_html>
+    <new_folder>Папку</new_folder>
+    <reply_to_sender>Ответить</reply_to_sender>
+    <reply_to_all>Ответить всем</reply_to_all>
+    <reply_to_sender_t>Ответить шаблоном</reply_to_sender_t>
+    <reply_to_all_t>Ответить всем шаблоном</reply_to_all_t>
+    <forward>Переслать</forward>
+    <delete>Удалить</delete>
+    <empty_folder>Очистить папку</empty_folder>
+    <day_view>День</day_view>
+    <week_view>Неделя</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Месяц</month_view>
+    <dial>Вызвать</dial>
+    <sms>Отправить SMS</sms>
+    <calls>Вызвать</calls>
+    <conference>Веб-конференция</conference>
+    <contacts_list>Список контактов</contacts_list>
+    <events_list>Список</events_list>
+    <address_card>Карточки с адресами</address_card>
+    <tasks_lists>Список задач</tasks_lists>
+    <tasks_detailed>Подробный список</tasks_detailed>
+    <active_tasks>Активные задачи</active_tasks>
+    <journal_day_view>День</journal_day_view>
+    <journal_week_view>Неделя</journal_week_view>
+    <journal_month_view>Месяц</journal_month_view>
+    <journal_list>Список записей</journal_list>
+    <notes_list>Список заметок</notes_list>
+    <options>Настройки</options>
+    <admin_options>Настройки администратора</admin_options>
+    <domain_options>Настройки домена</domain_options>
+    <tools>Инструменты</tools>
+    <deliver>Доставить</deliver>
+    <quarantine>Карантин</quarantine>
+    <black_list>Добавить в черный список</black_list>
+    <white_list>Добавить в белый список</white_list>
+    <black_listed>Занесен в черный список</black_listed>
+    <white_listed>Занесен в белый список</white_listed>
+    <rules>Правила</rules>
+    <help>Помощь</help>
+  </main_menu>
+  <short_days>
+    <monday>Пн</monday>
+    <tuesday>Вт</tuesday>
+    <wednesday>Ср</wednesday>
+    <thursday>Чт</thursday>
+    <friday>Пт</friday>
+    <saturday>Сб</saturday>
+    <sunday>Вс</sunday>
+  </short_days>
+  <days>
+    <monday>Понедельник</monday>
+    <tuesday>Вторник</tuesday>
+    <wednesday>Среда</wednesday>
+    <thursday>Четверг</thursday>
+    <friday>Пятница</friday>
+    <saturday>Суббота</saturday>
+    <sunday>Воскресенье</sunday>
+  </days>
+  <months>
+    <january>Январь</january>
+    <february>Февраль</february>
+    <march>Март</march>
+    <april>Апрель</april>
+    <may>Май</may>
+    <june>Июнь</june>
+    <july>Июль</july>
+    <august>Август</august>
+    <september>Сентябрь</september>
+    <october>Октябрь</october>
+    <november>Ноябрь</november>
+    <december>Декабрь</december>
+  </months>
+  <short_months>
+    <january>Янв</january>
+    <february>Фев</february>
+    <march>Март</march>
+    <april>Апр</april>
+    <may>Май</may>
+    <june>Июнь</june>
+    <july>Июль</july>
+    <august>Авг</august>
+    <september>Сент</september>
+    <october>Окт</october>
+    <november>Нояб</november>
+    <december>Дек</december>
+  </short_months>
+  <dates>
+    <every>Все</every>
+    <secondly>секунду</secondly>
+    <minutely>минуту</minutely>
+    <hour>час</hour>
+    <day>день</day>
+    <weeks>недели</weeks>
+    <month>месяц</month>
+    <year>год</year>
+    <the>.</the>
+    <first>первый</first>
+    <last>последний</last>
+    <second>секунд</second>
+    <third>третий</third>
+    <fourth>четвертый</fourth>
+    <firth>пятый</firth>
+    <postfix>.</postfix>
+    <except>исключая</except>
+    <on>в</on>
+    <mondays>Понедельники</mondays>
+    <tuesdays>Вторники</tuesdays>
+    <wednesdays>Среды</wednesdays>
+    <thursdays>Четверги</thursdays>
+    <fridays>Пятницы</fridays>
+    <saturdays>Субботы</saturdays>
+    <sundays>Воскресенья</sundays>
+    <yearday>день года</yearday>
+    <in>в</in>
+    <week>неделю</week>
+    <week2>Неделя</week2>
+    <at>.</at>
+    <and>и</and>
+    <from>от</from>
+    <until>до</until>
+    <times>повторять %s раз</times>
+  </dates>
+  <form_buttons>
+    <revision>Создать версию</revision>
+    <skip>Пропустить</skip>
+    <refresh>Обновить</refresh>
+    <retrieve>Вернуть</retrieve>
+    <inherit>Наследовать</inherit>
+    <accept>Принять</accept>
+    <decline>Отклонить</decline>
+    <ok>OK</ok>
+    <close>Закрыть</close>
+    <retry>Повторить</retry>
+    <test>Тест</test>
+    <cancel>Отменить</cancel>
+    <rename>Переименовать</rename>
+    <rewrite>Переписать</rewrite>
+    <rewrite_all>Переписать все</rewrite_all>
+    <save>Сохранить</save>
+    <dont>Не</dont>
+    <add>Добавить</add>
+    <edit>Изменить</edit>
+    <find>Найти</find>
+    <add_file>Добавить файл</add_file>
+    <add_item>Добавить элемент</add_item>
+    <remove>Удалить</remove>
+    <address_book>Адресная книга</address_book>
+    <search>Поиск</search>
+    <new_folder>Новая папка</new_folder>
+    <map_it>Показать на карте</map_it>
+    <sign_in>Войти</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Основная папка</step1>
+    <create_new_folder>Создать новую папку</create_new_folder>
+    <create_error>Папка уже существует или не может быть создана.</create_error>
+    <name>Имя</name>
+    <type>Тип</type>
+    <channel>Канал</channel>
+    <sharetype>Применить</sharetype>
+    <all>Все папки</all>
+    <private>Личные папки</private>
+    <selected>Выбранные папки</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Пользователь</username>
+    <password>Пароль</password>
+    <protocol>Протокол</protocol>
+    <server>Сервер</server>
+    <server_proxy>Сервер/Прокси</server_proxy>
+    <port>Порт</port>
+    <extension>Дополнительный номер</extension>
+    <description>Описание</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Работать с содержанием</item_actions>
+    <recovery>Восстановить удаленные элементы</recovery>
+    <add_virtual>Создать папку поиска</add_virtual>
+    <edit_virtual>Править папку поиска</edit_virtual>
+    <add_favorites>Добавить в Избранное</add_favorites>
+    <sharing>Права доступа</sharing>
+    <change_channel>Править RSS каналы</change_channel>
+    <subscribe>Синхронизировать</subscribe>
+    <subscribed>Синхронизировано</subscribed>
+    <add_folder>Добавить папку</add_folder>
+    <add_shared_account>Добавить общий аккаунт</add_shared_account>
+    <delete_folder>Удалить папку</delete_folder>
+    <unsubscribe_folder>Удалить папку</unsubscribe_folder>
+    <move_folder>Переместить</move_folder>
+    <move_folder_into>Переместить папку в</move_folder_into>
+    <rename_folder>Переименовать папку</rename_folder>
+    <remove_account>Удалить аккаунт</remove_account>
+    <sent_folder>Выбрать папку сохранения отправленных сообщений</sent_folder>
+    <select_folder>Выбрать папку</select_folder>
+    <mark_all_as_read>Пометить как прочитанные</mark_all_as_read>
+    <default>Назначить основной</default>
+    <export>Экспорт папки</export>
+    <color>Цвет</color>
+    <move_default>Вы уверены, что хотите переместить папку по умолчанию?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>Все</all>
+    <pdf>PDF</pdf>
+    <play_sound>Воспроизвести</play_sound>
+    <attachments>Вложения</attachments>
+    <upload>Загрузить файл</upload>
+    <download>Скачать</download>
+    <download_all>Скачать все</download_all>
+    <open_window>Открыть в окне</open_window>
+    <import>Импорт в Вебклиент</import>
+    <import_error>Неподдерживаемый тип элемента</import_error>
+    <remove>Удалить</remove>
+    <remove_all>Удалить все</remove_all>
+    <add_item>Добавить элемент</add_item>
+    <link_dropbox>Ссылка в Dropbox</link_dropbox>
+    <view>Вид</view>
+    <save>Скачать</save>
+    <save_all>Скачать все</save_all>
+    <save_to_folder>Сохранить в папку</save_to_folder>
+    <show_images>Просмотр изображений</show_images>
+    <show_image>Предварительный просмотр</show_image>
+    <show_text>Отобразить текстовое сообщение</show_text>
+    <show_headers>Все заголовки</show_headers>
+    <show_cert>Отображать сертификат</show_cert>
+    <append_cert>Добавить к контакту</append_cert>
+    <dropzone>&lt;Отпустите файл здесь&gt;</dropzone>
+    <drop_holder>Перетащите и отпустите файл здесь...</drop_holder>
+    <quick_add>Быстрая загрузка...</quick_add>
+    <quick_contact>Поместите vCard файл сюда...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Ошибка Dropbox</erroralert>
+    <missingkey>Dropbox не настроен. Сначала администратор должен установить интеграцию с Dropbox.</missingkey>
+    <unavailable>Dropbox временно недоступен и будет отключен до следующего входа в систему.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Конвертировать в HTML</convert_item>
+    <source>Источник</source>
+    <send_notify>Оповещать об изменениях</send_notify>
+    <recover>Восстановить</recover>
+    <new>Создать</new>
+    <delivery_report>Отчет о доставке</delivery_report>
+    <properties>Свойства</properties>
+    <doc_management>Свойства документа</doc_management>
+    <open>Открыть</open>
+    <open_pdf>Открыть как PDF</open_pdf>
+    <open_window>Открыть в окне</open_window>
+    <edit>Правка</edit>
+    <reply_to_sender>Ответить</reply_to_sender>
+    <reply_to_all>Ответить всем</reply_to_all>
+    <forward>Переслать</forward>
+    <forward_as_message>Переслать как вложение</forward_as_message>
+    <redirect>Перенаправить</redirect>
+    <mark_as_read>Пометить как прочитанное</mark_as_read>
+    <mark_as_unread>Пометить как непрочитанное</mark_as_unread>
+    <move_mail_to>Переместить в папку</move_mail_to>
+    <copy_mail_to>Копировать в папку</copy_mail_to>
+    <delete>Удалить</delete>
+    <delete_selected>Удалить выбранные</delete_selected>
+    <open_item>Открыть</open_item>
+    <move_item_to>Переместить в папку</move_item_to>
+    <copy_item_to>Копировать в папку</copy_item_to>
+    <new_distriblist>Новый список рассылки</new_distriblist>
+    <save_as>Сохранить как...</save_as>
+    <html>HTML</html>
+    <text>Текст</text>
+    <eml>EML</eml>
+    <download_vcalendar>Сохранить как vCalendar</download_vcalendar>
+    <download_vcard>Сохранить как vCard</download_vcard>
+    <download_vnote>Сохранить как vNote</download_vnote>
+    <download_file>Сохранить как файл</download_file>
+    <open_office>Открыть в Office</open_office>
+    <deliver>Доставить</deliver>
+    <black_list>Черный список</black_list>
+    <white_list>Белый список</white_list>
+    <blacklist_sender>Добавить отправителя в Чёрный сп.</blacklist_sender>
+    <blacklist_domain>Добавить домен в Чёрный список</blacklist_domain>
+    <whitelist_sender>Добавить отправителя в Белый сп.</whitelist_sender>
+    <whitelist_domain>Добавить домен в Белый список</whitelist_domain>
+    <send_as_email>Отправить как письмо</send_as_email>
+    <send_email_to>Отправить письмо</send_email_to>
+    <add_to_contacts>Создать новый контакт</add_to_contacts>
+    <add_to_exist_contacts>Добавить к контакту</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Добавить в папку контактов</add_contact>
+    <add_im>Добавить в список контактов чата</add_im>
+    <add_to_im>Добавить в чат</add_to_im>
+    <add>Добавить…</add>
+    <manage_sender>Отправитель...</manage_sender>
+    <invite_appointment>Пригласить на встречу</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Добавить сертификат к контакту</cert_to_contact>
+    <contacts>Контакт</contacts>
+    <mandatorydetails>Пожалуйста, заполните ваши контактные данные</mandatorydetails>
+    <im>Список контактов чата</im>
+    <skip_delete>Не спрашивать снова</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>Без цвета</none>
+    <color>Цвет</color>
+    <white_flag>Белая</white_flag>
+    <red_flag>Красная</red_flag>
+    <blue_flag>Голубая</blue_flag>
+    <yellow_flag>Желтая</yellow_flag>
+    <green_flag>Зеленая</green_flag>
+    <orange_flag>Оранжевая</orange_flag>
+    <purple_flag>Фиолетовая</purple_flag>
+    <flag_complete>Выполнено</flag_complete>
+    <clear_flag>Без метки</clear_flag>
+    <important>Важное</important>
+    <business>Служебное</business>
+    <personal>Личное</personal>
+    <vacation>Отпуск</vacation>
+    <must_attend>Обязательное посещение</must_attend>
+    <travel_required>Требуется поездка</travel_required>
+    <needs_preparation>Требуется подготовка</needs_preparation>
+    <birthday>День рождения</birthday>
+    <anniversary>Годовщина</anniversary>
+    <phone_call>Телефонный звонок</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Добавить аккаунт</add_account>
+    <delete_account>Удалить аккаунт</delete_account>
+    <edit_account>Править аккаунт</edit_account>
+    <validating>Проверка аккаунта...</validating>
+    <invalid>Неправильный аккаунт</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Входящие</inbox>
+    <drafts>Черновики</drafts>
+    <sent>Отправленные</sent>
+    <trash>Корзина</trash>
+    <spam>Спам</spam>
+    <templates>Шаблоны</templates>
+    <quarantine>Карантин</quarantine>
+    <spam_queue>Фильтры</spam_queue>
+    <spam_queue-whitelist>Белый список</spam_queue-whitelist>
+    <spam_queue-blacklist>Черный список</spam_queue-blacklist>
+    <virtual-folders>Папки поиска</virtual-folders>
+    <gw-trash>Удаленные элементы</gw-trash>
+    <calendars>Коллективные календари</calendars>
+  </common_folders>
+  <folders>
+    <mails>Почтовые папки</mails>
+    <contacts>Контакты</contacts>
+    <events>Календарь</events>
+    <tasks>Задачи</tasks>
+    <notes>Заметки</notes>
+    <journal>Журнал</journal>
+    <files>Документы</files>
+    <home>Домашняя</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>Почтовая</mail>
+    <contact>Контакты</contact>
+    <event>Календарь</event>
+    <journal>Журнал</journal>
+    <note>Заметки</note>
+    <task>Задачи</task>
+    <file>Документ</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>Невозможно переместить папку</cantmove>
+    <cantrename>Невозможно переименовать папку</cantrename>
+    <cantdelete>Невозможно удалить папку</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Вложения</attachments>
+    <to>Кому</to>
+    <subject>Тема</subject>
+    <nosubject>Без темы</nosubject>
+    <cc>Копия</cc>
+    <bcc>Скрытая копия</bcc>
+    <body>Тело</body>
+    <from>От</from>
+    <date>Дата</date>
+    <size>Размер</size>
+    <type>Тип</type>
+    <itmclassifyas>Имя</itmclassifyas>
+    <phone>Телефон</phone>
+    <itmcompany>Компания</itmcompany>
+    <itmdepartment>Подразделение</itmdepartment>
+    <contact_email>Емейл</contact_email>
+    <expires>Истекает</expires>
+    <itmcategory>Категория</itmcategory>
+    <evntitle>Название</evntitle>
+    <itmtitle>Название</itmtitle>
+    <itmoriginalfolder>Исходная папка</itmoriginalfolder>
+    <itm_deleted>Удаленный</itm_deleted>
+    <item_moved>Удаленный</item_moved>
+    <evnlocation>Адрес</evnlocation>
+    <upcoming>Будущие</upcoming>
+    <event_startdate>Начало</event_startdate>
+    <event_enddate>Конец</event_enddate>
+    <evntype>Категория</evntype>
+    <evncontact>Контакт</evncontact>
+    <evnstatus>Статус</evnstatus>
+    <task_startdate>Начало</task_startdate>
+    <task_enddate>Срок исполнения</task_enddate>
+    <sndemail>Отправитель</sndemail>
+    <sndowner>Владелец</sndowner>
+    <snddomain>Домен</snddomain>
+    <sndsubject>Тема</sndsubject>
+    <revised_by>Изменения внесены</revised_by>
+    <comment>Комментарий</comment>
+    <qdate>Дата</qdate>
+    <name>Имя</name>
+    <evnfilename>Имя файла</evnfilename>
+    <evnnote>Описание</evnnote>
+    <evn_modified>Измененный</evn_modified>
+    <evnfilesize>Размер</evnfilesize>
+    <lctphnwork1>Рабочий</lctphnwork1>
+    <lctphnfaxwork>Рабочий факс</lctphnfaxwork>
+    <lctphnhome1>Домашний</lctphnhome1>
+    <lctphnmobile>Мобильный</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Общедоступный URL</public>
+    <share>Общедоступный URL</share>
+    <ticket>Другой</ticket>
+    <revisions>Версии</revisions>
+    <revert>Восстановить</revert>
+    <edit_comment>Изменить комментарий</edit_comment>
+    <new_revision>Новая версия</new_revision>
+  </item>
+  <event_view>
+    <week_label>Неделя</week_label>
+    <notitle>Без названия</notitle>
+    <private>Скрытый</private>
+    <newappointment>Новая встреча</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Прочитано: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Ваше сообщение было прочитано.&#13;&#10;&#13;&#10;Детали сообщения:&#13;&#10;&#13;&#10;От: %FROM%&#13;&#10;Кому: %TO%&#13;&#10;Дата: %DATE%&#13;&#10;Тема: %SUBJECT%</reading_confirmation>
+    <reply_message>-----Исходное сообщение-----</reply_message>
+    <reply_message_html>-----Исходное сообщение-----</reply_message_html>
+    <from>От:</from>
+    <to>Кому:</to>
+    <cc>Копия:</cc>
+    <date>Дата:</date>
+    <subject>Тема:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>г-н</mr>
+    <mrs>г-жа</mrs>
+    <miss>Miss</miss>
+    <ms>Ms.</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Мл.</jr>
+    <sr>Ст.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Отображаемое имя</displayname>
+    <avatar>Изображение</avatar>
+    <contact>Контакт</contact>
+    <general>Общие</general>
+    <profile>Учетная запись</profile>
+    <personal>Личные</personal>
+    <business>Служебные</business>
+    <other_l>Прочие</other_l>
+    <other>Заметка</other>
+    <contact_name>Показывать имя как</contact_name>
+    <sort_as>Сортировать по</sort_as>
+    <first_name>Имя</first_name>
+    <middle_name>Отчество</middle_name>
+    <last_name>Фамилия</last_name>
+    <nick_name>Псевдоним</nick_name>
+    <full_name>Полное имя</full_name>
+    <title>Обращ.</title>
+    <suffix>Суффикс</suffix>
+    <category>Категория</category>
+    <email_address>Емейл адрес</email_address>
+    <birthdate>День рождения</birthdate>
+    <anniversary>Годовщина</anniversary>
+    <spouse>Супруг(а)</spouse>
+    <gender>Пол</gender>
+    <company>Компания</company>
+    <job>Профессия</job>
+    <profession>Специальность</profession>
+    <department>Подразделение</department>
+    <assistant>Помощник</assistant>
+    <manager>Руководитель</manager>
+    <office_location>Рабочий адрес</office_location>
+    <email1>Емейл 1</email1>
+    <email2>Емейл 2</email2>
+    <email3>Емейл 3</email3>
+    <im>IM</im>
+    <phone>Телефон</phone>
+    <phones>Телефон(ы)</phones>
+    <male>Муж.</male>
+    <female>Жен.</female>
+    <street>Улица</street>
+    <city>Город</city>
+    <zip>Индекс</zip>
+    <state>Штат</state>
+    <country>Страна</country>
+    <home_address>Домашний адрес</home_address>
+    <business_address>Рабочий адрес</business_address>
+    <other_address>Другой адрес</other_address>
+    <homepage>Bеб-сайт</homepage>
+    <calendar_url>Свободен/Занят (URL)</calendar_url>
+    <share_type>Тип доступа</share_type>
+    <address>Адрес</address>
+    <web>Веб-сайт</web>
+    <notes>Заметки</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Список рассылки</distrib_list>
+    <general>Общие</general>
+    <members>Члены</members>
+    <title>Название</title>
+    <category>Категория</category>
+    <add_title>Добавить</add_title>
+    <edit_title>Pедактировать</edit_title>
+    <name>Имя</name>
+    <email>Емейл</email>
+  </distrib_list>
+  <time_interval>
+    <from>От</from>
+    <to>До</to>
+    <duration>Продолжительность</duration>
+    <all_day_event>Целый день</all_day_event>
+    <days>д.</days>
+    <change_default>Измененить исходный часовой пояс</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>Повторяющийся элемент</title_edit>
+    <text_edit>Изменить только это, все в серии или это и все последующие?</text_edit>
+    <title_delete>Повторяющийся элемент</title_delete>
+    <text_edit_2>Изменить только это или все в серии?</text_edit_2>
+    <text_delete>Удалить только это или все в серии?</text_delete>
+    <btn_this>Только это</btn_this>
+    <btn_all>Все в серии</btn_all>
+    <btn_allfromnow>Все будущие события</btn_allfromnow>
+    <btn_cancel>Отменить</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Причина отклонения</reason>
+    <event>Событие</event>
+    <general>Общие</general>
+    <repeating>Повторять</repeating>
+    <schedule>Расписание</schedule>
+    <reminders>Напоминания</reminders>
+    <onlinemeeting>Веб-конференция</onlinemeeting>
+    <startmeeting>Начать конференцию</startmeeting>
+    <joinmeeting>Присоединиться</joinmeeting>
+    <title>Название</title>
+    <location>Местоположение</location>
+    <category>Категория</category>
+    <notes>Заметки</notes>
+    <timezone>Часовой пояс</timezone>
+    <show_as>Показать как</show_as>
+    <free>Свободен</free>
+    <busy>Занят</busy>
+    <tentative>Под вопросом</tentative>
+    <out_of_office>Нет на работе</out_of_office>
+    <unknown>Нет информации</unknown>
+    <label>Метка</label>
+    <meeting_hint>Создать и присоединиться к конференции, открыть доступ к своему экрану</meeting_hint>
+    <high>Высокий:</high>
+    <low>Низкий:</low>
+  </event>
+  <file>
+    <file>Документ</file>
+    <expire>Доступен до %s</expire>
+    <name>Имя файла</name>
+    <lock>Заблокировать</lock>
+    <unlock>Разблокировать</unlock>
+    <locked>Заблокирован</locked>
+    <unlocked>Разблокирован</unlocked>
+    <locked_by>Документ заблокирован %s</locked_by>
+    <blank_doc>Документ</blank_doc>
+    <description>Описание</description>
+    <new_doc>Пустой документ</new_doc>
+    <converting>Конверсия документа в процессе.</converting>
+  </file>
+  <note>
+    <note>Заметка</note>
+    <category>Категория</category>
+    <title>Название</title>
+    <general>Общие</general>
+  </note>
+  <task>
+    <task>Задача</task>
+    <attendees>Участники</attendees>
+    <status>Статус</status>
+    <complete>Выполнена</complete>
+    <repeating>Повторять</repeating>
+    <reminders>Напоминания</reminders>
+    <general>Общие</general>
+    <title>Название</title>
+    <start_date>Начало</start_date>
+    <due_date>Срок исполнения</due_date>
+    <category>Категория</category>
+    <not_started>Не началась</not_started>
+    <in_progress>Выполняется</in_progress>
+    <completed>Завершена</completed>
+    <deferred>Отложена</deferred>
+    <waiting>Ожидает что-то еще</waiting>
+    <done>Выполнена</done>
+  </task>
+  <blackwhite>
+    <black>Черный список</black>
+    <white>Белый список</white>
+    <email>Адрес/домен</email>
+  </blackwhite>
+  <compose>
+    <template>Шаблон</template>
+    <newmail>Сообщение</newmail>
+    <send>Отправить</send>
+    <sendinfo>Отправить сообщение</sendinfo>
+    <save>Сохранить</save>
+    <saveinfo>Сохранить в Черновики</saveinfo>
+    <options>Настройки</options>
+    <advanced>Дополнительные возможности</advanced>
+    <html>HTML</html>
+    <text>Текст</text>
+    <sms>Смс</sms>
+    <compose_sms>Создать смс</compose_sms>
+    <sms_preview>Просмотр смс</sms_preview>
+    <sms_info>%s символов в %s сообщениях</sms_info>
+    <smartattach>SmartAttach</smartattach>
+    <smartattachinfo>Вложения будут сохранены в  %s и заменены ссылками для скачивания в теле письма.</smartattachinfo>
+    <readconfirmationinfo>Получить подтверждение, что получатель прочел это сообщение</readconfirmationinfo>
+    <show_all>Показать все записи</show_all>
+    <signinfo>Электронная подпись сообщения</signinfo>
+    <encryptinfo>Зашифровать сообщение</encryptinfo>
+    <priorityinfo>Установить приоритет сообщения</priorityinfo>
+    <subject_empty>Сообщение не содержит темы.&lt;br&gt;Отправить его?</subject_empty>
+    <rcp_empty>Добавьте получателя сообщения.</rcp_empty>
+    <optionstitle>Опции сообщения</optionstitle>
+    <encrypt>Зашифровать сообщение</encrypt>
+    <sign>Электронная подпись сообщения</sign>
+    <nosign>Не обнаружен сертификат для подписи.&lt;br&gt;Отправить сообщение без сертификата?</nosign>
+    <delivery_report>Показать Отчет о доставке</delivery_report>
+    <reply_to>Ответить</reply_to>
+    <upload_file>Загрузить с диска компьютера</upload_file>
+    <upload_item>Загрузить из Вебклиента</upload_item>
+  </compose>
+  <sharing>
+    <public>Общий</public>
+    <private>Частный</private>
+    <anonymous>Анонимные/Все</anonymous>
+    <custom>Пользовательские настройки</custom>
+    <inherited>Унаследованные</inherited>
+    <none>Не имеет прав</none>
+    <enter_address>Введите адрес</enter_address>
+    <permissions>Права доступа</permissions>
+    <user>Пользователь</user>
+    <items>Элементы</items>
+    <folder>Папка</folder>
+    <administration>Управление</administration>
+  </sharing>
+  <time>
+    <hours>ч.</hours>
+    <minutes>мин.</minutes>
+    <days>д.</days>
+    <oneday>день</oneday>
+    <moredays>дни</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Выбрать контакты</select_emails>
+    <add>Добавить</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Поиск</placeholder>
+    <tags>Теги</tags>
+    <used>Использован</used>
+    <hint>Использован %s элементами</hint>
+    <selected>Выбранный</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Домашний 1</lctphnhome1>
+    <lctphnhome2>Домашний 2</lctphnhome2>
+    <lctphnassistant>Помощник</lctphnassistant>
+    <lctphnwork1>Рабочий 1</lctphnwork1>
+    <lctphnwork2>Рабочий 2</lctphnwork2>
+    <lctphnfaxhome>Домашний факс</lctphnfaxhome>
+    <lctphnfaxwork>Рабочий факс</lctphnfaxwork>
+    <lctphncallback>Обратный вызов</lctphncallback>
+    <lctphncompany>Компания</lctphncompany>
+    <lctphncar>В машине</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>Мобильный</lctphnmobile>
+    <lctphnother>Другой</lctphnother>
+    <lctphnotherfax>Другой факс</lctphnotherfax>
+    <lctphnpager>Пейджер</lctphnpager>
+    <lctphnprimary>Основной</lctphnprimary>
+    <lctphnradio>Радио</lctphnradio>
+    <lctphntelex>Телекс</lctphntelex>
+    <lctphnhearing>Hearing</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>День</day>
+    <week>Неделя в</week>
+    <week_of_month>Недель в месяце</week_of_month>
+    <month_of_year>Месяцев в году</month_of_year>
+    <month>Месяц</month>
+    <year>Год</year>
+    <year_s>год(ы)</year_s>
+    <repeats>Повторять каждый:</repeats>
+    <not_repeats>Не повторять</not_repeats>
+    <end_date>Дата окончания:</end_date>
+    <no_end>Без конечной даты</no_end>
+    <until>До</until>
+    <count>Кол-во раз</count>
+    <daily>Ежедневно</daily>
+    <weekly>Еженедельно</weekly>
+    <monthly>Ежемесячно</monthly>
+    <yearly>Ежегодно</yearly>
+    <every>Каждый</every>
+    <the>В</the>
+    <of>.</of>
+    <recur_every>Повторять каждую</recur_every>
+    <weeks_on>неделю в:</weeks_on>
+    <of_every>в течение</of_every>
+    <months>мес.</months>
+    <days>д.</days>
+    <day_list>Неделя</day_list>
+    <every_weekday>Каждый будний день</every_weekday>
+    <first>первый</first>
+    <second>второй</second>
+    <third>третий</third>
+    <fourth>четвертый</fourth>
+    <last>последний</last>
+    <weekday>Рабочая неделя</weekday>
+    <weekend_day>Выходные дни</weekend_day>
+  </repeating>
+  <reminder>
+    <none>нет</none>
+    <email>Емейл</email>
+    <popup>Всплывающим сообщением</popup>
+    <address>Адрес</address>
+    <remind1>Напомнить</remind1>
+    <remind2>перед началом</remind2>
+    <is_reminder>Отправить напоминание</is_reminder>
+    <no_reminder>Не напоминать</no_reminder>
+    <type>Тип</type>
+    <snooze>Напомнить снова</snooze>
+    <meeting>Запустить сейчас</meeting>
+    <dismiss>Закрыть</dismiss>
+    <reminder>Напоминание</reminder>
+  </reminder>
+  <journal>
+    <journal>Журнал</journal>
+    <title>Название</title>
+    <type>Тип</type>
+    <company>Компания</company>
+    <conversation>Разговор</conversation>
+    <document>Документ</document>
+    <e-mail_message>Емейл сообщение</e-mail_message>
+    <fax>Факс</fax>
+    <letter>Письмо</letter>
+    <meeting>Встреча</meeting>
+    <meeting_cancellation>Отменить встречу</meeting_cancellation>
+    <meeting_request>Запланировать встречу</meeting_request>
+    <meeting_response>Ответная встреча</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Заметка</note>
+    <phone_call>Телефонный звонок</phone_call>
+    <remote_session>Удаленная сессия</remote_session>
+    <task>Задача</task>
+    <task_request>Запрос задачи</task_request>
+    <task_response>Ответная задача</task_response>
+  </journal>
+  <certificate>
+    <purposes>Этот сертификат для следующих целей</purposes>
+    <ssl>Удостоверяет Вашу личность удаленному компьютеру</ssl>
+    <smime>Защищать емейл сообщения</smime>
+    <serial>Номер</serial>
+    <view>Вид</view>
+    <certificate>Сертификат</certificate>
+    <invalid>Неправильный сертификат или парольная фраза</invalid>
+    <passphrase>Парольная фраза</passphrase>
+    <issuedto>Выпущен для</issuedto>
+    <issuedby>Выпущен</issuedby>
+    <email>Емейл</email>
+    <validity>Действителен</validity>
+    <badtype>Private часть сертификата отсутствует</badtype>
+    <missing>Сертификат не найден</missing>
+    <invaliditem>Невозможно добавить сертификат</invaliditem>
+    <assigned>Сертификат успешно добавлен</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Папка не существует: &quot;%s&quot;</folder_not_exist>
+    <accepted>Событие было принято</accepted>
+    <unsure>Статус события: &quot;Под вопросом&quot;.</unsure>
+    <declined>Событие не было принято</declined>
+    <proposed>Было предложено новое время</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Принудить пользователей указывать контактные данные</force_enter_user_info>
+    <disable_wipe>Отключить удалённую очистку</disable_wipe>
+    <documents>Документы</documents>
+    <aliases>Псевдонимы</aliases>
+    <disable_mailformat>Запретить переключение HTML/текст в окне создания сообщений</disable_mailformat>
+    <disable_altmail>Скрыть альтернативный адрес</disable_altmail>
+    <rcpt_suggest>Автозаполнение</rcpt_suggest>
+    <rcpt_cache>Очистить список</rcpt_cache>
+    <keep_search>Сохранять условия поиска при выборе другой папки</keep_search>
+    <smartfolder>Папка для SmartAttach</smartfolder>
+    <always_show_rcp>Отображать адресные строки:</always_show_rcp>
+    <login_screen>Страница входа</login_screen>
+    <exclude_gal>Отключить автозаполнение контактов из ОАК</exclude_gal>
+    <password_policy>Политика паролей</password_policy>
+    <notifications>Всплывающие уведомления</notifications>
+    <nofocus>Автоматически (только в фоновом режиме)</nofocus>
+    <autorevision_mode>Включить автоматическое создание версий документов</autorevision_mode>
+    <disable_support>Скрыть возможность обращения к администратору на странице входа</disable_support>
+    <check_subject>Уведомлять об отсутствующей теме письма</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Скрыть возможность общего доступа для анонимных аккаунтов</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Показать избранные папки</show_favorites>
+    <layout>Глобальные настройки</layout>
+    <signature>Подпись</signature>
+    <signature_separator>Использовать стандартный  разделитель подписи &quot;-- &quot;</signature_separator>
+    <signature_to_top>Подпись вверху сообщения</signature_to_top>
+    <groups>Группы</groups>
+    <group>Группа</group>
+    <trash_folder>Корзина</trash_folder>
+    <sent_folder>Отправленные</sent_folder>
+    <groupsend>Сохранять отправленные сообщения в общей папке этой группы</groupsend>
+    <ftime>Плавающее время</ftime>
+    <sso_only>Позволить только SSO вход</sso_only>
+    <activity_monitor>Выход из системы после простоя (в минутах)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 часов</time_12>
+    <time_24>24 часа</time_24>
+    <logout_url>URL страницы-выхода</logout_url>
+    <disable_attach_item>Запретить прикладывать вложения из Вебклиента</disable_attach_item>
+    <disable_virtual>Запретить папки поиска</disable_virtual>
+    <disable_interfaces>Отключить выбора интерфейса на странице входа</disable_interfaces>
+    <disable_languages>Отключить выбор языка на странице входа</disable_languages>
+    <confirm_exit>Подтверждать выход</confirm_exit>
+    <compose>Подготовка сообщения</compose>
+    <never>Никогда</never>
+    <always>Всегда</always>
+    <homepage>Домашняя страница</homepage>
+    <banner_enable>Включить баннер</banner_enable>
+    <application_enable>Включить приложение загрузки баннера</application_enable>
+    <banner_url>URL баннера</banner_url>
+    <banner_height>Высота баннера</banner_height>
+    <count_subject>Соединить префиксы темы (напр.Re[4], Fw[2])</count_subject>
+    <reply_prefix>Использовать префикс ответа (&gt;)</reply_prefix>
+    <collate>Поддержка национальной сортировки емейл для MySQL</collate>
+    <init_page>Главная страница</init_page>
+    <remember_folder>Помнить последнюю папку</remember_folder>
+    <show_inbox>Входящие</show_inbox>
+    <show_home>Домашняя страница</show_home>
+    <clear_trash>Удалять из Корзины сообщения старше (дней)</clear_trash>
+    <clear_gwtrash>Удалять из корзины содержимое старше (дней)</clear_gwtrash>
+    <alias>Псевдоним</alias>
+    <subscribed_holidays>Выбрать праздники</subscribed_holidays>
+    <holidays>Праздники</holidays>
+    <weather>Погода</weather>
+    <temperature>Температура</temperature>
+    <c>шкала Цельсия (°C)</c>
+    <f>шкала Фаренгейта (°F)</f>
+    <city>Город</city>
+    <disable_folder_types>Отключить выбранные типы папок</disable_folder_types>
+    <antispam>Антиспам</antispam>
+    <spam_mode>Вид спам-папки</spam_mode>
+    <reports_mode>Вид спам-отчетов</reports_mode>
+    <quarantine>Карантин</quarantine>
+    <last_time>Время последнего входа</last_time>
+    <last_ip>Последний IP</last_ip>
+    <current_time>Текущее время входа</current_time>
+    <current_ip>Текущий IP</current_ip>
+    <default>По умолчанию</default>
+    <use_spam>Использовать спам-папку</use_spam>
+    <not_spam>Не использовать спам-папку</not_spam>
+    <disabled>Отключено</disabled>
+    <all>Все</all>
+    <full>Полные</full>
+    <new_items>Новые элементы</new_items>
+    <smtp_relay>Возвращать сообщения, которые не удалось отправить</smtp_relay>
+    <restrictions>Ограничения</restrictions>
+    <hide_sortstring>Скрыть строку сортировки</hide_sortstring>
+    <disable_aliases>Отключить псевдонимы</disable_aliases>
+    <disable_redirect>Отключить перенаправление</disable_redirect>
+    <disable_other_accounts>Отключить другие аккаунты</disable_other_accounts>
+    <disable_edit_vcard>Отключить редактирование &quot;Моих данных&quot;</disable_edit_vcard>
+    <disable_edit_account>Запретить исправление пользовательских данных</disable_edit_account>
+    <disable_change_password>Запретить изменение пароля</disable_change_password>
+    <disable_antispam_control>Скрыть закладку Анти-спам</disable_antispam_control>
+    <disable_licenses>Скрыть закладку Лицензии</disable_licenses>
+    <disable_login_help>Скрыть помощь на странице входа</disable_login_help>
+    <disable_login_banners>Скрыть баннеры на странице входа</disable_login_banners>
+    <disable_signup>Отключить регистрацию</disable_signup>
+    <disable_sip>Отключить Вeбфон (внутренний VoIP клиент)</disable_sip>
+    <disable_call_forwarding>Запретить переадресацию вызова</disable_call_forwarding>
+    <disable_external_sip>Отключить внешний VoIP</disable_external_sip>
+    <disable_export>Отключить экспорт групповых данных</disable_export>
+    <disable_smart>Отключить SmartAttach</disable_smart>
+    <disable_dropbox>Отключить Dropbox</disable_dropbox>
+    <disable_im>Отключить чат</disable_im>
+    <disable_sms>Отключить смс</disable_sms>
+    <disable_remember_pulldown>Скрыть меню запоминания пароля</disable_remember_pulldown>
+    <disable_autofill>Отключить автозаполнение имени пользователя и пароля</disable_autofill>
+    <disable_rules>Отключить правила</disable_rules>
+    <disable_gmaps>Отключить Google Maps</disable_gmaps>
+    <disable_forwarder>Скрыть закладку Переадресация</disable_forwarder>
+    <disable_keep_emails>Скрыть &quot;Хранить почту в моём ящике&quot; в Переадресации</disable_keep_emails>
+    <disable_autoresponder>Скрыть закладку Автоответчик</disable_autoresponder>
+    <share_mode>Доступ к данным</share_mode>
+    <share_p>Запрещен</share_p>
+    <share_pf>Разрешен всем</share_pf>
+    <share_f>Только друзьям</share_f>
+    <daily_event_report>Присылать ежедневный отчет по эл. почте</daily_event_report>
+    <reminder_notification>Присылать напоминания по эл. почте</reminder_notification>
+    <reminder_email>Присылать напоминания и отчеты по эл. почте</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Код запроса</dropbox_app_key>
+    <dropbox_instructions>Для интеграции Dropbox, зарегистрируйтесь на www.dropbox.com, перейдите в раздел разработчиков и создайте код запроса. Необходимо будет ввести краткое описание и доменное имя или IP-адрес для доступа из вебклиента.</dropbox_instructions>
+    <server>Сервер</server>
+    <login_with_email>Для входа использовать емейл</login_with_email>
+    <server_logs>Уровень журналирования</server_logs>
+    <server_logs0>Выключен</server_logs0>
+    <server_logs2>Сводный</server_logs2>
+    <server_logs3>Для отладки</server_logs3>
+    <server_logs4>Расширенный</server_logs4>
+    <http_port>HTTP порт</http_port>
+    <imapserver>IMAP сервер</imapserver>
+    <smtpserver>SMTP сервер</smtpserver>
+    <xmppserver>XMPP сервер</xmppserver>
+    <port>Порт</port>
+    <pgtitle>Заголовок страницы</pgtitle>
+    <logo>Логотип входа в систему</logo>
+    <login_style>Стиль входа в систему</login_style>
+    <login_client>Предпочительный интерфейс</login_client>
+    <skin_style>Стиль оформления</skin_style>
+    <interfaces>Доступные интерфейсы</interfaces>
+    <spell_language>Проверка правописания</spell_language>
+    <delete_emptyfolder>Безвозвратно удалить сообщения, нажав на Очистить папку</delete_emptyfolder>
+    <show_images>Отображать встроенные изображения</show_images>
+    <show_images_spam>Применить для папки Спам</show_images_spam>
+    <auto_show_images>Автоматически отображать прикрепленные изображения</auto_show_images>
+    <sound_notify>Включить звуковое уведомление</sound_notify>
+    <domains_settings>Домены</domains_settings>
+    <domain>Домен</domain>
+    <edit_settings>Изменить настройки домена</edit_settings>
+    <resetpass>Сброс пароля</resetpass>
+    <resetmail>Емейл</resetmail>
+    <resetenable>Разрешить сброс пароля</resetenable>
+    <accounts>Аккаунты</accounts>
+    <account>Учётная запись</account>
+    <tools>Инструменты</tools>
+    <autoresponder>Автоответчик</autoresponder>
+    <forwarder>Переадресация</forwarder>
+    <pcertificate>Частные сертификаты</pcertificate>
+    <certificate>Сертификаты</certificate>
+    <mail_settings>Почта</mail_settings>
+    <im_settings>Чат</im_settings>
+    <sip_settings>Вебфон</sip_settings>
+    <sip_webrtc>Использовать исходные возможности браузера для медиа</sip_webrtc>
+    <sip_start>Автоматический старт Вeбфона</sip_start>
+    <sip_internal>Интегрировать с вашей учетной записью VoIP (SIP)</sip_internal>
+    <sip_external>Интегрировать с вашей внешнeй учетной запистью VoIP (SIP)</sip_external>
+    <sip_dial>Набор номера через  внешнюю учетную запись VoIP (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>Набор номера по вашей учетной записи VoIP (уже зарегистрированного софттелефонa/телефона)</sip_dial_internal>
+    <call_forwarding>Переадресация вызова</call_forwarding>
+    <use_forwarding>Использовать переадресацию вызова</use_forwarding>
+    <forward_to>Переадресовать вызов на</forward_to>
+    <forward_after>Переадресовать после (секунд)</forward_after>
+    <chat_window>Окно чата</chat_window>
+    <auto_chat>Автоматически открывать окно чата</auto_chat>
+    <auto_subscribe>Автоматически подписывать новых пользователей</auto_subscribe>
+    <remember_status>Помнить статус</remember_status>
+    <extended_status>Доступные статусы</extended_status>
+    <newline_chat>Чат на новой строке</newline_chat>
+    <smiles_chat>Использовать смайлики</smiles_chat>
+    <enter_send>Отправка сообщения через Enter</enter_send>
+    <general_settings>Общие</general_settings>
+    <other_accounts>Другие аккаунты</other_accounts>
+    <primary_accounts>Мой аккаунт</primary_accounts>
+    <account_settings>Аккаунты</account_settings>
+    <importexport_settings>Импорт/Экспорт</importexport_settings>
+    <default_reminder>Использовать напоминания по умолчанию для новых событий</default_reminder>
+    <use_sslswfatt>Использовать HTTP Flash загрузку в SSL сессии</use_sslswfatt>
+    <use_swfupload>Использовать Flash для загрузки вложений</use_swfupload>
+    <use_office>Открывать в Office, когда это возможно</use_office>
+    <banner_enabled>Разрешить баннер на странице входа</banner_enabled>
+    <twitter_disabled>Отключить интеграциюTwitter</twitter_disabled>
+    <twitter_link>Ссылка на Twitter</twitter_link>
+    <facebook_disabled>Отключить интеграцию Facebook</facebook_disabled>
+    <facebook_link>Ссылка на Facebook</facebook_link>
+    <skin>Скин</skin>
+    <items_ab_shown>Количество выбранных адресов</items_ab_shown>
+    <date_format>Формат даты</date_format>
+    <time_format>Формат времени</time_format>
+    <language>Язык</language>
+    <timezone>Часовой пояс</timezone>
+    <general>Общие</general>
+    <default_mail_settings>Настройки письма</default_mail_settings>
+    <folders_mapping>Основные папки</folders_mapping>
+    <subject>Тема</subject>
+    <message_format>Формат сообщения</message_format>
+    <re_message_format>Формат ответного сообщения</re_message_format>
+    <html_message>HTML сообщение</html_message>
+    <read_confirmation>Подтверждение прочтения</read_confirmation>
+    <request_read_confirmation>Запросить подтверждение прочтения</request_read_confirmation>
+    <send_read_confirmation>Разрешить отправку</send_read_confirmation>
+    <ask_before>Спросить меня перед отправкой</ask_before>
+    <smart_attach>Использовать SmartAttach</smart_attach>
+    <save_sent_message>Сохранять oтправленные сообщения в папке Отправленные</save_sent_message>
+    <save_folder_message>Сохранять oтправленные сообщения в папке</save_folder_message>
+    <encrypt>Зашифровать сообщение</encrypt>
+    <sign>Сообщения, содержащие электронную подпись</sign>
+    <appendvcard>Добавить Мои данные (vCard)</appendvcard>
+    <charset>Кодировка</charset>
+    <priority>Приоритет</priority>
+    <reply_to>Отправлять ответы на</reply_to>
+    <reply_myself>Добавлять мой адрес в скрытую копию</reply_myself>
+    <move_to_trash>Перемещать удалённые сообщения в Корзину</move_to_trash>
+    <auto_add_recipient_to_addressbook>Автоматически добавлять получателя в контакты</auto_add_recipient_to_addressbook>
+    <edit_rules>Правила</edit_rules>
+    <rules>Правила</rules>
+    <forward_messages>Переслать сообщения</forward_messages>
+    <inline>Текстом</inline>
+    <as_attachment>Вложением</as_attachment>
+    <autoupdate_message>Проверять новые сообщения каждые (мин.)</autoupdate_message>
+    <autosave_message>Сохранять черновик сообщений каждые (мин.)</autosave_message>
+    <calendar_settings>Календарь</calendar_settings>
+    <main>Основное</main>
+    <day_begins_at>Начало дня</day_begins_at>
+    <day_ends_at>Конец дня</day_ends_at>
+    <week_begins_on>Начало недели</week_begins_on>
+    <week_starts_today>Неделя начинается в текущий день</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Общий доступ</sharing_settings>
+    <shared_email>Доступ к почте</shared_email>
+    <email>Емейл</email>
+    <rights>Права</rights>
+    <read>Чтение</read>
+    <write>Правка</write>
+    <modify>Изменение</modify>
+    <delete>Удаление</delete>
+    <owner>Администратор</owner>
+    <acc_name>Имя</acc_name>
+    <quota>Пространство</quota>
+    <sms_quota>Смс-лимит</sms_quota>
+    <quota_home>Пространство диска (включая элементы из всех почтовых папок, вложения контактов, встреч...)</quota_home>
+    <description>Описание</description>
+    <old_password>Старый пароль</old_password>
+    <new_password>Новый пароль</new_password>
+    <new_password_conf>Повторить пароль</new_password_conf>
+    <save_drafts_to>Сохранить черновики в</save_drafts_to>
+    <default_flag>Метка по умолчанию</default_flag>
+    <alternative_email>Дополнительный адрес</alternative_email>
+    <default_settings>Настройки по умолчанию</default_settings>
+    <event_view>Вид календаря</event_view>
+    <event_show_as>Показывать события как</event_show_as>
+    <event_sharing>Доступ к Событиям</event_sharing>
+    <contact_sharing>Доступ к Контактам</contact_sharing>
+    <journal_sharing>Доступ к Журналу</journal_sharing>
+    <note_sharing>Доступ к Заметкам</note_sharing>
+    <task_sharing>Доступ к Задачам</task_sharing>
+    <file_sharing>Доступ к Файлам</file_sharing>
+    <force_for_domainadmin>Настройка действительна для администраторов домена и пользователей</force_for_domainadmin>
+    <force_for_users>Настройка действительна для пользователей</force_for_users>
+    <force>Доступ к настройкам закрыт пользователям</force>
+  </settings>
+  <email_priority>
+    <highest>Наивысший</highest>
+    <high>Высокий</high>
+    <normal>Обычный</normal>
+    <medium>Средний</medium>
+    <low>Низкий</low>
+    <lowest>Наименьший</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Выберите папку</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Выберите элемент</insert_item>
+    <untitled>Безымянный</untitled>
+    <embedded>Вложенный</embedded>
+    <link>Ссылку</link>
+  </insert_item>
+  <attendees>
+    <shared>Предлагаемые контакты</shared>
+    <add_title>Добавить</add_title>
+    <edit_title>Правка</edit_title>
+    <resource>Ресурс</resource>
+    <remove>Удалить</remove>
+    <edit>Правка</edit>
+    <name>Имя</name>
+    <email>Емейл</email>
+    <folder>Выбрать папку</folder>
+    <all_attendees>Все участники</all_attendees>
+    <status>Статус</status>
+    <status_p>В процессе</status_p>
+    <status_a>Принял</status_a>
+    <status_d>Отклонил</status_d>
+    <role>Роль</role>
+    <role_q>Обязательный</role_q>
+    <role_s>Ресурс</role_s>
+    <role_t>Необязательный</role_t>
+    <role_g>Организатор</role_g>
+    <quick_add>Введите имя участника или ресурса</quick_add>
+  </attendees>
+  <dial>
+    <dial>Набрать</dial>
+    <keypad>Клавиатура</keypad>
+    <call>Звонок</call>
+    <mute>Отключить звук</mute>
+    <answer>Ответить</answer>
+    <decline>Отклонить</decline>
+    <filter>Показать только контакты Вебфона</filter>
+    <hfilter>Пропущенные вызовы</hfilter>
+    <phone>Вебфон</phone>
+    <duration>Длительность:</duration>
+    <video>Видео</video>
+    <localcam>Этот компьютер</localcam>
+    <remotecam>Удаленный компьютер</remotecam>
+    <answer_video>Ответ + Видео</answer_video>
+    <hang_up>Повесить трубку</hang_up>
+    <busy>Пользователь занят</busy>
+    <pbook>Телефонная книга</pbook>
+    <refresh>Обновить историю</refresh>
+    <call_duration>Продолжительность %s</call_duration>
+    <history>История</history>
+    <missed>Пропущенные</missed>
+    <incoming>Входящие</incoming>
+    <outgoing>Исходящие</outgoing>
+    <select_contect>Выберите приоритетный контакт</select_contect>
+    <calling>Звонок</calling>
+    <incomingcall>Звонок от:</incomingcall>
+    <callestablished>Разговор с:</callestablished>
+    <notify_ext>Звонок осуществлен через внешний телефон</notify_ext>
+  </dial>
+  <sip>
+    <sip>Вебфон</sip>
+    <external>Позвонить через внешний телефон</external>
+    <screen>Звонок с демонстрацией экрана</screen>
+    <sip_status>Вебфон: %s</sip_status>
+    <default_contact>Вебфон контакт по умолчанию</default_contact>
+    <unreachable>Сервер недоступен</unreachable>
+    <device>Нет аудио устройства</device>
+    <videonotsupported>Ваш браузер не поддерживает видео звонки. Пожалуйста, используйте последнюю версию Chrome или Firefox.</videonotsupported>
+    <offline>Вебфон выключен (звонки будут осуществляться через внешний VoIP софтфон/телефон)</offline>
+    <outgoingcall>Вы звоните %s</outgoingcall>
+    <incomingcall>%s звонит вам</incomingcall>
+    <callongoing>Вы разговариваете с %s</callongoing>
+    <callestablished>Соединение с %s установлено</callestablished>
+    <userbusy>Пользователь %s занят</userbusy>
+    <callfinished>Вызов завершен</callfinished>
+    <callcanceled>Этот вызов был завершен</callcanceled>
+    <notreachable>Этот пользователь не в сети или не существует</notreachable>
+    <calldeclined>Вызов был отклонен</calldeclined>
+    <info>Вебфон инфо: %s</info>
+    <notification>Пользователь %s - %s</notification>
+    <error>Предупреждение Вебфона</error>
+    <notice>Заметка Вебфона</notice>
+    <udp>Ошибка соединения Вебфона. Проверьте ваш сетевой экран или подключение к Интернету.</udp>
+    <slow>Инициализация слишком медленная. Вебфон может работать неправильно.</slow>
+    <init>Ошибка соединения Вебфона. Проверьте настройки, зайдя в Настройки - Вебфон.</init>
+    <mediarequest>Пожалуйста, разрешите доступ к вашим микрофону и камере. Или нажмите кнопку Диагностика ниже, чтобы запустить интерактивный гид.</mediarequest>
+    <invalidstate>Не удается получить доступ к запрашиваемым устройствам.  Устройство может использоваться другим приложением.</invalidstate>
+    <nopermission>Запрос был отклонен или заблокирован. Вам нужно разрешить использование микрофона или камеры.</nopermission>
+    <mediadenied>Не удается получить доступ к запрашиваемым устройствам. Возможно, они не подключены или неправильно настроены.</mediadenied>
+    <ffmedia>Доступ к медиа не осуществлён. Используйте иконку микрофона или камеры рядом с адресной строкой в браузере, чтобы разрешить или запретить доступ к медиа устройствам.</ffmedia>
+    <nowebrtc>Ваш браузер не поддерживает WebRTC для аудио/видео. Используйте другой браузер (мы рекомендуем Chrome) или установите WebRTC плагин для браузера.</nowebrtc>
+    <gettingmedia>Онлайн конференция запущена. Пожалуйста, разрешите или запретите доступ к устройствам, чтобы продолжить.</gettingmedia>
+    <occupied>Вебфон уже используется.</occupied>
+  </sip>
+  <conference>
+    <planner>Планировщик веб-конференций</planner>
+    <aborted>Конференция была прекращена.</aborted>
+    <access>Информация для доступа</access>
+    <allattendees>Все участники</allattendees>
+    <missinguserid>Вы не являетесь участником этой конференции. Прекращение конференции.</missinguserid>
+    <appletrunning>Java запущена, ожидается установление соединения с конференцией...</appletrunning>
+    <callestablished>Веб-конференция в процессе</callestablished>
+    <callfinished>Веб-конференция закончилась</callfinished>
+    <came>присоединился к конференции</came>
+    <cancelled>Конференция была неожиданно завершена</cancelled>
+    <privatechat>Начать личный чат</privatechat>
+    <chatalreadymeeting>Вы получили приглашение на конференцию, но не можете присоединиться сейчас, поскольку вы уже участвуете в ней или в другой конференции.</chatalreadymeeting>
+    <chatinvite>Разрешите пригласить вас для участия в веб-конференции</chatinvite>
+    <closed>Веб-конференция была завершена</closed>
+    <closing>Вы хотите покинуть эту конференцию или закончить ее для всех участников?</closing>
+    <confirminvite>отправил вам приглашение на веб-конференцию</confirminvite>
+    <connectfailure>Невозможно установить соединение с конференцией</connectfailure>
+    <connecting>Попытка подключения к конференции...</connecting>
+    <create>Создать новую веб-конференцию</create>
+    <created>Веб-конференция создана и запускается…</created>
+    <createfirst>В настоящее время нет начатых веб-конференций, хотите начать?</createfirst>
+    <delegate>Назначить модератора</delegate>
+    <screen>Удалённый экран</screen>
+    <desktop>Демонстрировать экран</desktop>
+    <waitvideo>Демонстрация экрана: загрузка</waitvideo>
+    <notchrome>Для демонстрации экрана вам нужно использовать Chrome</notchrome>
+    <nohttps>Для демонстрации необходимо безопасное соединение (https).</nohttps>
+    <noplugin>Плагин демонстрации экрана не установлен.</noplugin>
+    <desktopinfo>Начать демонстрацию вашего экрана другим пользователям</desktopinfo>
+    <dialin>Если вы хотите позвонить, наберите один из следующих номеров:</dialin>
+    <disablefirebug>Эта функция может не работать с расширением Firebug. Рекомендуется отключить Firebug и зайти снова.</disablefirebug>
+    <dismiss>Удалить участника</dismiss>
+    <duration>Продолжительность:</duration>
+    <end>Закончить веб-конференцию</end>
+    <endcall>Завершить вызов</endcall>
+    <endforall>Завершить веб-конференцию для всех</endforall>
+    <endinfo>Завершение конференции...</endinfo>
+    <finished>Аудио конференции будет записано и сохранено в Документах.</finished>
+    <generalerror>Произошла неопределенная ошибка, связанная с конференцией.</generalerror>
+    <id>ID конференции:</id>
+    <shortid>ID:</shortid>
+    <info>Информация о веб-конференции</info>
+    <instruct>Теперь вы подключены к голосовой конференции, рекомендуется использование гарнитуры.</instruct>
+    <invalidmeetingid>Вы не можете присоединиться к этой конференции.  Она завершена или введен неверный ID конференции.</invalidmeetingid>
+    <invalidsessionid>Сессия истекла, завершение конференции</invalidsessionid>
+    <invitationedit>Текст приглашения:</invitationedit>
+    <invite>Приглашение</invite>
+    <inviteinfo>Пригласить участников</inviteinfo>
+    <invitation_sent>Приглашение отправлено</invitation_sent>
+    <invited>Приглашение в веб-конференцию получено</invited>
+    <invitesubject>Приглашение на веб-конференцию</invitesubject>
+    <join>Присоединиться к веб-конференции</join>
+    <joining>Подключение к конференции</joining>
+    <leave>Покинуть</leave>
+    <leaveinfo>Покинуть веб-конференцию</leaveinfo>
+    <leaveorend>Выберите нового модератора, если вы хотите продолжить эту конференцию. В противном случае, эта конференция завершится для всех участников.</leaveorend>
+    <leaving>Вы уверены, что хотите покинуть эту конференцию?</leaving>
+    <left>покинул конференцию</left>
+    <leftchat>Сообщение не может быть доставлено, этот участник покинул конференцию.</leftchat>
+    <mailinvite>Вы можете присоединиться к этой конференции прямо сейчас</mailinvite>
+    <manager>Модератор</manager>
+    <meeting>Веб-конференция</meeting>
+    <mikogoerror>На сервере произошла ошибка, связанная с демонстрацией экрана.</mikogoerror>
+    <servererror>Произошла общая ошибка, связанная с конференцией. Свяжитесь с вашим администратором.</servererror>
+    <connectionerror>Конференция была завершена в связи с ошибкой сетевого соединения. Пожалуйста, повторите попытку позже.</connectionerror>
+    <mute>Выкл.микрофон</mute>
+    <muteall>Отключить микрофон всем участникам</muteall>
+    <muteinfo>Отключить микрофон</muteinfo>
+    <muteone>Отключить микрофон участника</muteone>
+    <attendees>Участники</attendees>
+    <chat>Чат</chat>
+    <name>Имя:</name>
+    <needspecialpermissions>Недостаточно полномочий для выполнения этой операции.</needspecialpermissions>
+    <networkrequesterror>Возникли проблемы с подключением к сети. Вы были отключены от конференции.</networkrequesterror>
+    <nocallallowed>Совершение звонков невозможно в течение веб-конференции</nocallallowed>
+    <noparticipants>Нет участников</noparticipants>
+    <notaccessmode>Служба веб-конференций отключена для этого аккаунта.</notaccessmode>
+    <notauthenticated>Вы не аутентифицированы в этой службе.</notauthenticated>
+    <notenabled>Служба веб-конференций была отключена администратором сервера</notenabled>
+    <notonline>Нет соединения с сетью</notonline>
+    <notsetupproperly>Служба веб-конференций не настроена должным образом.</notsetupproperly>
+    <notlicensed>Недостаточно лицензий для веб-конференций.</notlicensed>
+    <licenseerror>Недостаточно лицензий для запуска большего числа веб-конференций.</licenseerror>
+    <offline>Конференция не запущена.</offline>
+    <ongoing>Веб-конференция в процессе</ongoing>
+    <onlyorganizercandothis>Эта функция доступна только организатору конференции.</onlyorganizercandothis>
+    <onlysuperusercandothis>Вы не авторизованы для выполнения этой операции.</onlysuperusercandothis>
+    <organizer>организатор</organizer>
+    <pending>Ожидается, когда организатор начнет веб-конференцию...</pending>
+    <phone>Телефон:</phone>
+    <phoning>Осуществляется текущий вызов. Хотите завершить его и начать веб-конференцию?</phoning>
+    <preparing>Загрузка данных о конференции</preparing>
+    <promoted>теперь модератор</promoted>
+    <ready>Конференция готова к началу</ready>
+    <recap>Вы можете ознакомиться с этой информацией в любое время, нажав  иконку &quot;Информация&quot; сверху.</recap>
+    <record>Записать аудио</record>
+    <recordinfo>Запись</recordinfo>
+    <recording>Запись аудио</recording>
+    <restart>Перезапустить веб-конференцию</restart>
+    <schedule>Запланировать веб-конференцию</schedule>
+    <scheduleorstart>Вы желаете начать конференцию сейчас или запланировать конференцию на другое время?</scheduleorstart>
+    <silenceinfo>Отключить динамики</silenceinfo>
+    <sipnoparticipants>В конференции нет участников, конференция прервана.</sipnoparticipants>
+    <start>Начать веб-конференцию</start>
+    <started>Конференция запущена, ожидается запуск Java...</started>
+    <startedconnect>Конференция запущена, устанавливается соединение...</startedconnect>
+    <startednojava>Конференция запущена, ожидается доступ к медиа...</startednojava>
+    <starting>Конференция начинается</starting>
+    <startnow>Начать веб-конференцию</startnow>
+    <joinnow>Присоединиться к существующей веб-конференции</joinnow>
+    <terminate>Вы уверены, что хотите закончить эту конференцию?</terminate>
+    <timeout>Не удается поддерживать подключение к конференции</timeout>
+    <unknown>Скрытый участник</unknown>
+    <unmuteone>Включить микрофон участника</unmuteone>
+    <details>Детали веб-конференции</details>
+    <callin>Детали вызова</callin>
+    <url>URL конференции:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>ID вызова:</callid>
+    <waitfailure>Невозможно присоединиться к конференции.</waitfailure>
+    <waiting>Ожидается запуск Java, это может занять некоторое время.</waiting>
+    <welcome>Добро пожаловать в веб-конференцию IceWarp</welcome>
+    <me>Я</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>Java запрашивает запуск приложений Office непосредственно из вашего браузера для автоматической загрузки изменений документа.</nolaunch>
+    <nooffice>Office пакет не обнаружен.</nooffice>
+    <openfailed>Документ не может быть открыт в Office. Вы хотите скачать этот документ?</openfailed>
+    <noappfound>Не обнаружена программа, чтобы открыть этот тип документа.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Режим:</mode>
+    <disabled>Отключен</disabled>
+    <respond_always>Отвечaть всегда</respond_always>
+    <respond_once>Ответить один раз</respond_once>
+    <respond_after_period>Отвечать через время</respond_after_period>
+    <respond_period>Отвечать снова через (дней):</respond_period>
+    <from>От</from>
+    <subject>Тема</subject>
+    <text>Текст</text>
+    <respond_only_if_to_me>Отвечать на сообщения, отправленные только на мой адрес эл. почты</respond_only_if_to_me>
+    <respond_between>Отвечать только, если промежуток:</respond_between>
+    <noresponderfor>Не отвечать на</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Переслать:</forward_to>
+    <keep_copy>Хранить копию в этом ящике</keep_copy>
+    <forward_older>Пересылать почту, которая старше (дней):</forward_older>
+    <forward_older_to>Переслать старую почту на:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Добавить/Править</addedit>
+    <header>Заголовок</header>
+    <filters>Фильтры</filters>
+    <edit_header>Править заголовок</edit_header>
+    <empty_operator/>
+    <not>НЕ</not>
+    <and>И</and>
+    <or>ИЛИ</or>
+    <and_not>И НЕ</and_not>
+    <or_not>ИЛИ НЕ</or_not>
+    <from>От:</from>
+    <to>Кому:</to>
+    <subject>Тема:</subject>
+    <cc>Копия:</cc>
+    <reply_to>Ответ на:</reply_to>
+    <date>Дата:</date>
+    <message>Сообщение</message>
+    <message_type>Тип сообщения:</message_type>
+    <message_body>Тело сообщения</message_body>
+    <custom_message_header>Выбранный  заголовок сообщения</custom_message_header>
+    <any_message_header>Любой заголовок сообщения</any_message_header>
+    <attachment_name>Имя вложения</attachment_name>
+    <sender>Отправитель</sender>
+    <recipient>Получатель</recipient>
+    <senders_ip>IP отправителя</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Отправитель</ip>
+    <all_messages>Все сообщения</all_messages>
+    <no_messages>Нет сообщений</no_messages>
+    <priority_is>приоритет</priority_is>
+    <priority_isnt>приоритет не</priority_isnt>
+    <is_spam>спам</is_spam>
+    <isnt_spam>не спам</isnt_spam>
+    <is_greater_than>больше чем</is_greater_than>
+    <is_lower_than>меньше чем</is_lower_than>
+    <match_case>Учитывать часть</match_case>
+    <regexp>Регулярное выражение</regexp>
+    <whole_word>Учитывать целое слово</whole_word>
+    <matches>соответствует</matches>
+    <doesnt_match>не соответствует</doesnt_match>
+    <contains_string>содержит</contains_string>
+    <doesnt_contain_string>не содержит</doesnt_contain_string>
+    <matches_regex>содержит рег. выражение</matches_regex>
+    <doesnt_match_regex>не содержит рег. выражение</doesnt_match_regex>
+    <is_string>-</is_string>
+    <isnt_string>не</isnt_string>
+    <spam_score>Спам оценка</spam_score>
+    <authorized>разрешенный</authorized>
+    <unauthorized>запрещенный</unauthorized>
+    <add>Добавить</add>
+    <delete>Удалить</delete>
+    <up>Вверх</up>
+    <down>Вниз</down>
+    <action>Действие</action>
+    <actions>Действия</actions>
+    <accept>Принять</accept>
+    <reject>Отклонить</reject>
+    <quarantine>Карантин</quarantine>
+    <spam>Спам</spam>
+    <stop_processing>Прекратить обрабатывать больше правил</stop_processing>
+    <move_to>Переместить в</move_to>
+    <copy_to>Копировать в</copy_to>
+    <encrypt_message>Зашифровать сообщение</encrypt_message>
+    <set_message_priority>Установить приоритет сообщения</set_message_priority>
+    <set_message_flag>Установить метку сообщения</set_message_flag>
+    <text>Текст:</text>
+    <title>Название</title>
+    <conditions>Условия</conditions>
+    <edit>Правка</edit>
+    <rule>Правило</rule>
+    <rules>Правила</rules>
+    <highest>наивысший</highest>
+    <high>высокий</high>
+    <normal>нормальный</normal>
+    <low>низкий</low>
+    <lowest>наименьший</lowest>
+    <spam_is_greater_than>больше чем</spam_is_greater_than>
+    <spam_is_lower_than>меньше чем</spam_is_lower_than>
+    <forward_to>Переслать</forward_to>
+    <send_message>Отправить сообщение</send_message>
+    <three_dots>...</three_dots>
+    <email>Емейл</email>
+    <instant_messaging>Чат</instant_messaging>
+    <active>Активно</active>
+  </filters>
+  <rich>
+    <alt>Альтернативный текст</alt>
+    <code>Источник</code>
+    <paragraph>Стиль</paragraph>
+    <normal>Обычный</normal>
+    <heading>Заголовок</heading>
+    <clearformatting>Без форматирования</clearformatting>
+    <font>Шрифт</font>
+    <size>Размер</size>
+    <rows>Число строк</rows>
+    <columns>Число столбцов</columns>
+    <padding>Отступ ячейки</padding>
+    <spacing>Расстояние между ячейками</spacing>
+    <img_spacing>Pазрядка</img_spacing>
+    <bordercolor>Цвет рамки</bordercolor>
+    <border>Рамка</border>
+    <bold>Выделить жирным шрифтом</bold>
+    <italic>Выделить курсивом</italic>
+    <underline>Подчеркнуть текст</underline>
+    <style>Тип форматирования</style>
+    <align>Выравнивание текста</align>
+    <left>По левому краю</left>
+    <center>По центру</center>
+    <right>По правому краю</right>
+    <justify>По ширине страницы</justify>
+    <numberedlist>Нумерованный список</numberedlist>
+    <bulletedlist>Маркированный список</bulletedlist>
+    <indent>Отступ</indent>
+    <leftindent>Отступ влево</leftindent>
+    <rightindent>Отступ вправо</rightindent>
+    <bgcolor>Цвет фона</bgcolor>
+    <color>Цвет текста</color>
+    <cut>Вырезать</cut>
+    <copy>Копировать</copy>
+    <paste>Вставить</paste>
+    <pastew>Вставить как текст</pastew>
+    <insert>Вставить</insert>
+    <addlink>Ссылку</addlink>
+    <table>Таблицу</table>
+    <image>Изображение</image>
+    <dropbox>Ссылку на Dropbox</dropbox>
+    <spell>Проверка правописания</spell>
+    <url>URL</url>
+    <uploaded>Загружено</uploaded>
+    <internal>Внутренний</internal>
+    <direction>Направление текста (HTML)</direction>
+    <ltr>Слева направо</ltr>
+    <rtl>Справа налево</rtl>
+    <screenshot>Сделать снимок экрана</screenshot>
+    <paste_img>Вставить изображение</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Загрузка</loading>
+    <framework>Загрузка ядра</framework>
+    <settings>Загрузка настроек</settings>
+    <language>Загрузка ресурсов</language>
+    <indexing>Индексация</indexing>
+    <startup>Запуск</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Десктоп клиент</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Скачать Десктоп клиент</help_win_desktop1>
+    <help_win_desktop2>Запустите мастер установки. В главном меню Десктоп клиента выберите &lt;b&gt;Инструменты - Аккаунты&lt;/b&gt;. Появится диалоговое окно &lt;b&gt;Аккаунты&lt;/b&gt;. В этом окне нажмите &lt;b&gt;Новый Аккаунт&lt;/i&gt;&lt;/b&gt;. Появится мастер новых аккаунтов. Заполните поля &lt;i&gt;Емейл&lt;/i&gt; и &lt;i&gt;Пароль&lt;/i&gt; и нажмите &lt;b&gt;Запустить сейчас.&lt;/b&gt;</help_win_desktop2>
+    <help_win_desktop3>В разделе Детали аккаунта, вы можете изменить имя аккаунта. Нажмите Далее. В следующем разделе вы можете отключить функции, которые вы не хотите использовать. Нажмите Завершить для окончания установки.</help_win_desktop3>
+    <help_win_osync1>Скачать Outlook Sync</help_win_osync1>
+    <help_win_osync2>Запустите мастер установки, введите ваш &lt;i&gt;Емейл адрес&lt;/i&gt; и &lt;i&gt;Пароль&lt;/i&gt;, &lt;b&gt;не&lt;/b&gt; отмечайте строку &lt;i&gt;пропустить  SmartDiscover и настроить вручную&lt;/i&gt;. Нажмите Далее.</help_win_osync2>
+    <help_win_osync3>Далее появится диалоговое окно Активация лицензии.</help_win_osync3>
+    <help_win_osync4>Если у вас есть лицензия на IceWarp Outlook Sync, нажмите Да. Если вы сначала хотите использовать IceWarp Outlook Sync в рамках 30-дневного пробного периода, нажмите Нет.</help_win_osync4>
+    <help_win_osync5>Нажмите Завершить для завершения установки.</help_win_osync5>
+    <help_win_20131>В меню &lt;b&gt;Файл&lt;/b&gt;, в окне &lt;b&gt;Информация об аккаунте&lt;/b&gt; нажмите &lt;b&gt;Добавить аккаунт&lt;/b&gt;, откроется диалоговое окно Добавление аккаунта. В окне &lt;b&gt;Автоматическая установка аккаунта&lt;/b&gt; выберите опцию &lt;i&gt; Установка вручную или дополнительные типы серверов&lt;/i&gt; и нажмите Далее.&#13;&#10;В окне &lt;b&gt;Выбор службы&lt;/b&gt; выберите опцию &lt;i&gt; служба, совместимая с Outlook.com или Exchange ActiveSync  &lt;/i&gt; и нажмите Далее.</help_win_20131>
+    <help_win_20132>В окне &lt;b&gt;Настройки сервера&lt;/b&gt; заполните информацию в разделах Пользователь, Сервер  и пользовательские данные. Нажмите Далее.</help_win_20132>
+    <help_win_20133>После проверки настроек аккаунта, нажмите Завершить.</help_win_20133>
+    <help_osx_all_applications_title>Все приложения</help_osx_all_applications_title>
+    <help_osx_messages_title>Сообщения</help_osx_messages_title>
+    <help_osx_messages1>Откройте Сообщения и в главном меню выберите &lt;b&gt;Сообщения - Добавить аккаунт&lt;/b&gt;. Из предлагаемых к добавлению типов аккаунтов выберите &lt;b&gt;Аккаунт для других сообщений&lt;/b&gt; и нажмите Продолжить.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Календарь</help_osx_calendar_title>
+    <help_osx_calendar1>Откройте Календарь и в главном меню выберите &lt;b&gt;Календарь - Добавить аккаунт&lt;/b&gt;. Из предлагаемых к добавлению типов аккаунтов выберите &lt;b&gt;Добавить аккаунт CalDAV &lt;/b&gt; и нажмите Продолжить.</help_osx_calendar1>
+    <help_osx_calendar2>В диалоговом окне &lt;b&gt;Добавить аккаунт CalDAV &lt;/b&gt; в опции &lt;i&gt;Тип аккаунта&lt;/i&gt; выберите &lt;b&gt;Вручную&lt;/b&gt;.&#13;&#10;Введите ваш емейл адрес в &lt;i&gt;Имя пользователя&lt;/i&gt; и ваш &lt;i&gt;Пароль&lt;/i&gt;.&#13;&#10;В поле &lt;i&gt;Адрес сервера&lt;/i&gt; вставьте имя хоста сервера. Нажмите Создать.</help_osx_calendar2>
+    <help_osx_calendar3>Для установки &lt;b&gt;Напоминаний&lt;/b&gt; откройте &lt;b&gt;Системные настройки - Интернет-аккаунты&lt;/b&gt; и найдите аккаунт календаря, который вы только что создали. Отметьте галочкой флажок &lt;i&gt;Использовать: Напоминания&lt;/i&gt;</help_osx_calendar3>
+    <help_osx_contacts_title>Контакты</help_osx_contacts_title>
+    <help_osx_contacts1>Откройте Контакты и в главном меню выберите &lt;b&gt;Контакты - Добавить аккаунт&lt;/b&gt;. Из предлагаемых к добавлению типов аккаунтов выберите &lt;b&gt;Other contacts account&lt;/b&gt; и нажмите Продолжить.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>Все приложения</help_osx_all>
+    <help_osx_all1>Скачать конфигуратор</help_osx_all1>
+    <help_osx_all2>Откройте загруженный IceWarp Configurator image file. Запустите конфигуратор IceWarp. Если появится подсказка, что приложение было загружено, нажмите Открыть. Заполните поля Емейл адрес и пароль и нажмите &lt;strong&gt;Продолжить&lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>Каждое приложение, которое может быть автоматически сконфигурировано, будет отмечено зеленой кнопкой &lt;strong&gt;Соединить&lt;/strong&gt; . Отметьте их по очереди или выберите &lt;strong&gt;Соединить все&lt;/strong&gt; для установки всех доступных приложений.</help_osx_all3>
+    <help_tablet_and_title>Планшетные устройства Android</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Планшетные устройства Windows</help_tablet_win_title>
+    <help_tablet_win1>Выберите меню справа, нажмите &lt;i&gt;Настройки- Изменить настройки компьютера - Аккаунты&lt;/i&gt;. На странице Аккаунты выберите &lt;i&gt;Другие аккаунты&lt;/i&gt;.&#13;&#10;На странице Другие аккаунты нажмите &lt;i&gt;Добавить пользователя&lt;/i&gt;. На следующей странице заполните поле имя сервера и нажмите Далее.</help_tablet_win1>
+    <help_tablet_win2>На странице создания аккаунта Microsoft, заполните ваши данные аккаунта и нажмите Далее.</help_tablet_win2>
+    <help_tablet_win3>На странице добавления информации о безопасности, установите ваши предпочтения безопасности и нажмите Далее. На странице коммуникационных предпочтений нажмите Далее. На последней странице нажмите Завершить.</help_tablet_win3>
+    <help_phone_and_title>Устройства Android</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>В окне &lt;b&gt;Удаленное администрирование безопасности&lt;/b&gt; нажмите &lt;b&gt;OK&lt;/b&gt;. Это необходимо для обеспечения соблюдения политики безопасности вашей компании на устройстве, или его удаленной очистки, в случае утери.</help_phone_and2>
+    <help_phone_and3>В окне &lt;b&gt;Настройки аккаунта&lt;/b&gt; выберите &lt;i&gt;Расписание синхронизации &lt;/i&gt; и установите период синхронизации по возрасту сообщения. Опционально отметьте &lt;i&gt;Отправлять емейлы с этого аккаунта по умолчанию&lt;/i&gt;.</help_phone_and3>
+    <help_phone_and4>Выберите имя учетной записи для  определения этой учетной записи в приложениях и нажмите Далее.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>Откройте &lt;b&gt;Настройки&lt;/b&gt;, выберите &lt;i&gt;Почта, Адреса, Календари - Учетные записи - Добавить... - Microsoft Exchange&lt;/i&gt;.</help_ios1>
+    <help_ios2>На следующей странице заполните поля &lt;i&gt;Емейл, Пароль, Описание&lt;/i&gt;. Нажмите Далее.</help_ios2>
+    <help_ios3>В следующем окне при необходимости отключите компоненты, которые вы не хотите использовать, переведя контроллер в режим &quot;Выкл&quot;. Нажмите Сохранить. Дополнительные настройки вы найдете под Описанием аккаунта в разделе &lt;b&gt;Почта, Контакты, Календари &lt;/b&gt;.</help_ios3>
+    <help_phone_win_title>Windows Phone</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Заполните ваш&lt;i&gt;Емейл адрес&lt;/i&gt; и &lt;i&gt;Пароль&lt;/i&gt;. По окончании нажмите &lt;b&gt;войти&lt;/b&gt;.</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X являются товарными знаками Apple Inc., зарегистрированными в США и других странах. Microsoft, Windows, Outlook and Windows Phone также являются зарагистрированными торговыми марками или товарными знаками корпорации Microsoft в США и/или других странах. Android - товарный знак корпорации Google Inc. IceWarp является зарегистрированной торговой маркой в США и других странах.</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>Емейл, календари, контакты, задачи</subtitle>
+    <descr>Пошаговая настройка аккаунта.</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>Установить IceWarp Десктоп клиент</subtitle>
+    <descr>Пошаговая установка.</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Календари и Напоминания</subtitle>
+    <descr>Пошаговая установка на Mac.</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>Почта, календарь, контакты</subtitle>
+    <descr>Пошаговая установка.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>Емейл, календари и контакты</subtitle>
+    <descr>Пошаговая установка аккаунта.</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>Емейл, календари и контакты</subtitle>
+    <descr>Пошаговая установка аккаунта.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Предыдущая страница</previous_title>
+    <previous_label>Предыдущий</previous_label>
+    <next_title>Следующая страница</next_title>
+    <next_label>Следующий</next_label>
+    <page_label>Страница:</page_label>
+    <page_of>из {{pageCount}}</page_of>
+    <zoom_out_title>Отдалить</zoom_out_title>
+    <zoom_out_label>Отдалить</zoom_out_label>
+    <zoom_in_title>Приблизить</zoom_in_title>
+    <zoom_in_label>Приблизить</zoom_in_label>
+    <zoom_title>Масштаб</zoom_title>
+    <presentation_mode_title>Переключить в полноэкранный режим</presentation_mode_title>
+    <presentation_mode_label>Полноэкранный режим</presentation_mode_label>
+    <print_title>Печать</print_title>
+    <print_label>Печать</print_label>
+    <download_title>Загрузить</download_title>
+    <download_label>Загрузить</download_label>
+    <bookmark_title>Закладка</bookmark_title>
+    <bookmark_label>Закладка</bookmark_label>
+    <tools_title>Инструменты</tools_title>
+    <tools_label>Инструменты</tools_label>
+    <first_page_title>Перейти на первую страницу</first_page_title>
+    <first_page_label>Перейти на первую страницу</first_page_label>
+    <last_page_title>Перейти на последнюю страницу</last_page_title>
+    <last_page_label>Перейти на последнюю страницу</last_page_label>
+    <page_rotate_cw_title>Повернуть по часовой стрелке</page_rotate_cw_title>
+    <page_rotate_cw_label>Повернуть по часовой стрелке</page_rotate_cw_label>
+    <page_rotate_ccw_title>Повернуть против часовой стрелки</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Повернуть против часовой стрелки</page_rotate_ccw_label>
+    <hand_tool_enable_title>Использовать инструмент &quot;рука&quot;</hand_tool_enable_title>
+    <hand_tool_enable_label>Использовать инструмент &quot;рука&quot;</hand_tool_enable_label>
+    <hand_tool_disable_title>Отключить инструмент &quot;рука&quot;</hand_tool_disable_title>
+    <hand_tool_disable_label>Отключить инструмент &quot;рука&quot;</hand_tool_disable_label>
+    <document_properties_label>Свойства документа</document_properties_label>
+    <document_properties_file_name>Имя файла:</document_properties_file_name>
+    <document_properties_file_size>Размер файла:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} Кб ({{size_b}} байт)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} Мб ({{size_b}} байты)</document_properties_mb>
+    <document_properties_title>Название:</document_properties_title>
+    <document_properties_author>Автор:</document_properties_author>
+    <document_properties_subject>Тема:</document_properties_subject>
+    <document_properties_keywords>Ключевые слова:</document_properties_keywords>
+    <document_properties_creation_date>Дата создания:</document_properties_creation_date>
+    <document_properties_modification_date>Дата изменения:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Создатель:</document_properties_creator>
+    <document_properties_producer>Владелец:</document_properties_producer>
+    <document_properties_version>Версия:</document_properties_version>
+    <document_properties_page_count>Количество страниц:</document_properties_page_count>
+    <document_properties_close>Закрыть</document_properties_close>
+    <toggle_sidebar_title>Панель предпросмотра</toggle_sidebar_title>
+    <toggle_sidebar_label>Панель предпросмотра</toggle_sidebar_label>
+    <outline_title>Показать эскиз документа</outline_title>
+    <outline_label>Показать эскиз документа</outline_label>
+    <thumbs_title>Показать предпросмотр</thumbs_title>
+    <thumbs_label>Показать предпросмотр</thumbs_label>
+    <findbar_title>Найти в документе</findbar_title>
+    <findbar_label>Найти</findbar_label>
+    <thumb_page_title>Страница {{page}}</thumb_page_title>
+    <thumb_page_canvas>Предпросмотр страницы {{page}}</thumb_page_canvas>
+    <find_label>Найти:</find_label>
+    <find_previous_title>Найти предыдущее</find_previous_title>
+    <find_previous_label>Предыдущий</find_previous_label>
+    <find_next_title>Найти следующее</find_next_title>
+    <find_next_label>Следующий</find_next_label>
+    <find_highlight>Выделить все</find_highlight>
+    <find_match_case_label>С учетом регистра</find_match_case_label>
+    <find_reached_top>Достигнуто начало документа</find_reached_top>
+    <find_reached_bottom>Достигнут конец документа</find_reached_bottom>
+    <find_not_found>Не найдено</find_not_found>
+    <error_more_info>Подробнее</error_more_info>
+    <error_less_info>Скрыть подробности</error_less_info>
+    <error_close>Закрыть</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Сообщение: {{message}}</error_message>
+    <error_stack>Stack: {{stack}}</error_stack>
+    <error_file>Файл: {{file}}</error_file>
+    <error_line>Строка: {{line}}</error_line>
+    <rendering_error>Ошибка отображения</rendering_error>
+    <page_scale_width>Полный размер</page_scale_width>
+    <page_scale_fit>По размеру экрана</page_scale_fit>
+    <page_scale_auto>Автоматическое масштабирование</page_scale_auto>
+    <page_scale_actual>Фактический размер</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Ошибка</loading_error_indicator>
+    <loading_error>Ошибка в процессе загрузки PDF</loading_error>
+    <invalid_file_error>Неверный или поврежденный PDF-файл</invalid_file_error>
+    <missing_file_error>PDF-файл отсутствует</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>Введите пароль, чтобы открыть этот защищенный PDF-файл</password_label>
+    <password_invalid>Неверный пароль, пожалуйста, попробуйте снова.</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Отмена</password_cancel>
+    <printing_not_supported>Внимание: Функция печати в этом браузере поддерживается не полностью.</printing_not_supported>
+    <printing_not_ready>Внимание: PDF-файл загружен для печати не полностью</printing_not_ready>
+    <web_fonts_disabled>Веб-шрифты недоступны: невозможно использовать шрифты из PDF</web_fonts_disabled>
+    <document_colors_disabled>PDF-документ не позволяет использовать цвета</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>Веб-документ</title>
+    <preview>Предпросмотр документов</preview>
+    <error>Ошибка Веб-документа</error>
+    <error_msg>Проблема с загрузкой документа. Для полноценной работы необходимо закрыть документ и открыть снова.</error_msg>
+    <zoom_in>Приблизить</zoom_in>
+    <zoom_out>Отдалить</zoom_out>
+    <fullscreen>Развернуть/Свернуть</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

@@ -1,0 +1,32 @@
+.frm_select_folder div.obj_tree {
+	padding-top: 60px;
+}
+
+.frm_select_folder div.obj_tree ul.fTree {
+	padding: 5px;
+}
+
+.frm_select_folder div.obj_tree.search {
+	padding-bottom: 0;
+}
+
+.frm_select_folder div.obj_tree>div.search {
+	top: 0;
+	bottom: auto;
+	margin-left: 0;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+}
+
+.frm_select_folder form.obj_input_search.active,
+.frm_select_folder form.obj_input_search.active>input {
+	background-color: transparent;
+}
+
+.frm_select_folder div.obj_tree_folder li.root>ul>li {
+	padding-left: 7px;
+}
+
+.frm_select_folder div.obj_tree li.active:before {
+	left: 0;
+}

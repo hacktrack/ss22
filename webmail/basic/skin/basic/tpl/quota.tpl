@@ -1,0 +1,1 @@
+{optional quota}{lang::settings::quota} {quota::percentage}% ({quota::usage} / {quota::limit}) | {/optional}

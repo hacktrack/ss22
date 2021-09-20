@@ -1,0 +1,22 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<helper>groupware</helper>
+		<form id="contact" helper="item" template="contact.detail">
+			<config>
+				<controller>item</controller>
+				<data>item.fdr</data>
+				<stylesheet>
+					<src>grid</src>
+					<src>contacts.main</src>
+				</stylesheet>
+				<javascript>
+					<src>jquery</src>
+					<src>general</src>
+				</javascript>
+			</config>
+		</form>
+	</panel>
+</form>

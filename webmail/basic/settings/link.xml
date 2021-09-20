@@ -1,0 +1,45 @@
+<settings>
+	<links>
+		<link id="folder">
+			<parameters>
+				<param variable="window">_n[w]</param>
+				<param variable="target">target</param>
+				<param variable="view" replace="1">_n[p][%%target%%]</param>
+				<param variable="data">_s[data]</param>
+				<param variable="id">_s[id]</param>
+				<param variable="type">_s[type]</param>
+			</parameters>
+		</link>
+		<link id="item">
+			<parameters>
+				<param variable="window">_n[w]</param>
+				<param variable="target">target</param>
+				<param variable="view" replace="1">_n[p][%%target%%]</param>
+				<param variable="data">_s[data]</param>
+				<param variable="id">_s[id]</param>
+				<param variable="type">_s[type]</param>
+				<param variable="item">_s[item]</param>
+			</parameters>
+		</link>
+		<link id="draft">
+			<parameters>
+				<param variable="window">_n[w]</param>
+				<param variable="data">_s[data]</param>
+				<param variable="id">_s[id]</param>
+				<param variable="type">_s[type]</param>
+				<param variable="item">_s[item]</param>
+			</parameters>
+			<additional>&amp;_s[action]=continue&amp;_n[p][content]=mail.compose</additional>
+		</link>
+		<link id="action">
+			<parameters>
+				<param variable="controller">controller</param>
+				<param variable="action">action</param>
+				<param variable="window">window</param>
+				<param variable="view">view</param>
+				<param variable="param" optional="1">param</param>
+			</parameters>
+		</link>
+
+	</links>
+</settings>

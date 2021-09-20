@@ -1,0 +1,306 @@
+input:active,input:focus,select:active,select:focus,a:active,a:focus
+{
+	outline: none;
+	-moz-outline-style: none;
+	-khtml-outline-style: none;
+}
+
+.main{
+	width:100%;
+}
+.main_tree
+{	
+	overflow:auto;
+	
+	width:200px;
+	float:left;
+}
+
+.main_tree #main
+{
+	/*padding-left: 10px;*/
+}
+
+.main_content{
+	float:left;
+	overflow:auto;
+	width:100%;
+	background-color: #eee;
+}
+
+.mainContentBox
+{
+	padding:5px;
+	background-color:#eee;
+}
+
+.mainBox
+{
+	/*border:1px solid #333;*/
+	padding:5px;
+	margin:0 2px 0 2px;
+	background-color:#000;
+}
+
+.main_contentInnerBox
+{
+	margin-left:215px;
+}
+
+.resizer
+{
+	width: 10px; 
+	height: 500px; 
+	background: transparent; 
+	left: 215px;
+	top:36px;
+	cursor: w-resize;
+	position:absolute;
+	z-index:1000;
+	background-image:url(../../default/css/blank.gif);
+}
+
+.resizerInner
+{
+	width: 10px; 
+	height: 100%;  
+	cursor: w-resize;
+	background: transparent;
+	background-image:url(../../default/css/resize.gif);
+	background-position: 50% 0;
+	background-repeat: repeat-y;
+}
+
+.resizerActive
+{
+	background-image:url(../../default/css/resizeuse.gif);
+}
+
+.gridtab{
+	width:100%;
+	border:1px solid #000;
+	border-collapse:collapse;
+	position:relative;
+}
+table.gridtab tr td{
+ border:1px solid #000;
+}
+table.gridtab tr.recent td{
+ font-weight:bold;
+ border:1px solid #000;
+ background:#FD8;
+}
+
+table.gridtab tr th{
+ background:#EC9;
+ color:#000;
+}
+
+table.contacts tr th{
+	background:#ACF;
+}
+table.events tr th{
+ background:#FCA;
+}
+
+div.grid{
+ -moz-box-sizing:padding-box;
+ padding:1px;
+}
+
+.cleaner
+{
+	clear:both;
+}
+
+#coverBox.notree #tree,#coverBox.notree #resizer 
+{
+	display:none;
+}
+#coverBox.notree .main_contentInnerBox
+{
+	margin-left:0px;
+}
+
+/** basic */
+#coverBox.basic .mainBox
+{
+	background-color:#2c6eb6
+}
+#coverBox.basic .mainContent,#coverBox.blue .mainContentBox
+{
+	background-color: #e8ecff;
+}
+/** / basic */
+
+/** carbon Blue */
+#coverBox.blue .mainBox
+{
+	background-color:#023972
+}
+#coverBox.blue .mainContent,#coverBox.blue .mainContentBox,#coverBox.blue .main_content
+{
+	background-color: #eef6ff;
+}
+/** / carbon Blue */
+
+/** carbon green */
+#coverBox.green .mainBox
+{
+	background-color:#8db763;
+}
+#coverBox.green .mainContent,#coverBox.green .mainContentBox,#coverBox.green .main_content
+{
+	background-color: #f6fff6;
+}
+/** /carbon green */
+
+/** carbon brown */
+#coverBox.brown .mainBox
+{
+	background-color:#704733;
+}
+#coverBox.brown .mainContent,#coverBox.brown .mainContentBox,#coverBox.brown .main_content
+{
+	background-color: #fff3ed;
+}
+/** /carbon brown */
+
+/** carbon red */
+#coverBox.red .mainBox
+{
+	background-color:#d14342;
+}
+#coverBox.red .mainContent,#coverBox.red .mainContentBox,#coverBox.red .main_content
+{
+	background-color: #fff6f6;
+}
+/** /carbon red */
+
+/** carbon gray */
+#coverBox.gray .mainBox
+{
+	background-color:#b3b3b3;
+}
+#coverBox.gray .mainContent,#coverBox.gray .mainContentBox,#coverBox.gray .main_content
+{
+	background-color: #f5f5f5;
+}
+/** /carbon gray */
+
+/***/
+
+/** fullclear Blue */
+#coverBox.fullclear.blue .mainBox
+{
+	background-color:#013e8e;
+}
+/** / carbon Blue */
+
+/** carbon green */
+#coverBox.green .mainBox
+{
+	background-color:#a1d070;
+}
+/** /carbon green */
+
+/** carbon brown */
+#coverBox.fullclear.brown .mainBox
+{
+	background-color:#7c4e34;
+}
+/** /carbon brown */
+
+/** carbon red */
+#coverBox.red .mainBox
+{
+	background-color:#eb4b4b;
+}
+/** /carbon red */
+
+/** carbon gray */
+#coverBox.gray .mainBox
+{
+	background-color:#c3c3c3;
+}
+/** /carbon gray */
+
+/***/
+
+/** light Blue */
+#coverBox.light.blue .mainBox
+{
+	background-color:#008aff;
+}
+/** / carbon Blue */
+
+/** carbon green */
+#coverBox.green .mainBox
+{
+	background-color:#a1d070;
+}
+/** /carbon green */
+
+/** carbon brown */
+#coverBox.light.brown .mainBox
+{
+	background-color:#7c4e34;
+}
+/** /carbon brown */
+
+/** carbon red */
+#coverBox.red .mainBox
+{
+	background-color:#eb4b4b;
+}
+/** /carbon red */
+
+/** carbon gray */
+#coverBox.gray .mainBox
+{
+	background-color:#c3c3c3;
+}
+/** /carbon gray */
+
+/** carbon orange */
+#coverBox.orange .mainBox
+{
+	background-color:#e18e58;
+}
+#coverBox.orange .mainContent,#coverBox.orange .mainContentBox,#coverBox.orange .main_content
+{
+	background-color:#f1eeeb;
+}
+/** /carbon orange */
+
+/** carbon yellow */
+#coverBox.yellow .mainBox
+{
+	background-color:#f8e354;
+}
+#coverBox.yellow .mainContent,#coverBox.yellow .mainContentBox,#coverBox.yellow .main_content
+{
+	background-color:#fafae0;
+}
+/** /carbon yellow */
+
+/** carbon violet */
+#coverBox.violet .mainBox
+{
+	background-color:#823ffe;
+}
+#coverBox.violet .mainContent,#coverBox.violet .mainContentBox,#coverBox.violet .main_content
+{
+	background-color:#efe8fc;
+}
+/** /carbon violet */
+/** carbon vine */
+#coverBox.vine .mainBox
+{
+	background-color:#ca0002;
+}
+#coverBox.vine .mainContent,#coverBox.vine .mainContentBox,#coverBox.vine .main_content
+{
+	background-color:#fff2f2;
+}
+/** /carbon vine */

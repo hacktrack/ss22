@@ -1,0 +1,479 @@
+// CSS RESET
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+// CUSTOM SELECT
+/* Container used for styling the custom select, the buttom class below adds the bg gradient, corners, etc. */
+.custom-select {
+	position: relative;
+	display: block;
+	padding: 0;
+}
+
+
+/* This is the native select, we're making everything but the text invisible so we can see the button styles in the wrapper */
+.custom-select select {
+	text-transform: uppercase;
+	color: #cfd5db;
+	border: none;
+	width: 100%;
+	margin: 0;
+	background: none;
+	outline: none;
+	/* Prefixed box-sizing rules necessary for older browsers */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/* Remove select styling */
+	appearance: none;
+	-webkit-appearance: none;
+	/* Font size must the 16px or larger to prevent iOS page zoom on focus */
+	font-size: 14px;
+	/* General select styles: change as needed */
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	padding: .6em 1.9em .5em .8em;
+	line-height: 1.3;
+}
+
+
+/* Custom arrow sits on top of the select - could be an image, SVG, icon font, etc. or the arrow could just baked into the bg image on the select. Note this si a 2x image so it will look bad in browsers that don't support background-size. In production, you'd handle this resolution switch via media query but this is a demo. */
+
+.custom-select::after {
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	top: 50%;
+	right: 1em;
+	margin-top: -7px;
+	background-image: url('../login/images/select-arrow--default.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: 2;
+	/* This hack make the select behind the arrow clickable in some browsers */
+	pointer-events: none;
+}
+
+.custom-select:hover::after {
+	background-image: url('../login/images/select-arrow--hover.jpg');
+}
+
+
+/* Hover style */
+.custom-select:hover select {
+	color: #0b86d2;
+}
+
+/* Focus style */
+.custom-select select:focus {
+	outline: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+/* Set options to normal weight */
+.custom-select option {
+	font-weight: normal;
+}
+
+
+x:-o-prefocus, .custom-select::after {
+	display: none;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+	.custom-select select::-ms-expand {
+		display: none;
+	}
+
+	.custom-select select:focus::-ms-value {
+		background: transparent;
+		color: #222;
+	}
+}
+
+@-moz-document url-prefix() {
+
+	.custom-select {
+		overflow: hidden;
+	}
+
+	.custom-select select {
+		width: 120%;
+		width: -moz-calc(100% + 3em);
+		width: calc(100% + em);
+	}
+}
+
+.custom-select select:-moz-focusring {
+	color: transparent;
+	text-shadow: 0 0 0 #000;
+}
+
+
+// PAGE STYLES
+html, body, input[type="submit"], input[type="button"] {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+p {
+	margin: 8px 0;
+}
+
+h1 {
+	font-size: 42px;
+	color: #0b86d2;
+	font-weight: bold;
+	margin-bottom: 16px;
+	line-height: 1.2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+h3 {
+	margin-bottom: 32px;
+	color: #9b9ea3;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	top: -8px;
+	line-height: 1.2;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #9b9ea3;
+	width: 150px;
+	height: 1px;
+	margin: 32px 0;
+}
+
+.custom-select {
+	width: 200px;
+}
+
+.login {
+	min-width: 320px;
+	background: #f8f8f8;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	line-height: 1.625;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.login a {
+	text-decoration: none;
+	color: #444;
+
+	&:hover {
+
+		&, .browser-support {
+			color: #0b86d2;
+		}
+	}
+}
+
+.login a img {
+	border: none;
+}
+
+.login-wrap {
+	// background: url('../login/images/login-background--large.jpg') center top no-repeat;
+	// padding-bottom: 64px;
+	background: #fff;
+}
+
+.login-header {
+	*zoom: 1;
+	padding: 48px;
+}
+
+.login-header:after {
+	clear: both;
+}
+
+.login-header:before,
+.login-header:after {
+	content: " ";
+	display: table;
+}
+
+.login-logo {
+	float: left;
+}
+
+.login-language {
+	float: right;
+}
+
+.login-headline {
+	text-align: center;
+	padding: 16px 16px 80px 16px;
+
+	p {
+		width: 400px;
+	}
+}
+
+.login-browsers {
+	padding-bottom: 64px;
+}
+
+.browser-table-wrap {
+	text-align: center;
+	width: 800px;
+	*zoom: 1;
+}
+
+.browser-table-wrap:after {
+	clear: both;
+}
+
+.browser-table-wrap:before,
+.browser-table-wrap:after {
+	content: " ";
+	display: table;
+}
+
+.browser-group {
+	padding-bottom: 64px;
+}
+
+.browser-group-title {
+	width: 100%;
+
+	td {
+		width: 50%;
+		vertical-align: middle;
+		border-top: 1px solid #9b9ea3;
+
+		.browser-recommended & {
+
+			.large & {
+				border: 0;
+			}
+		}
+	}
+
+	.border-clear {
+		padding: 0 16px;
+		width: auto;
+		border: 0;
+		white-space: nowrap;
+	}
+}
+
+.browser-recommended {
+	float: left;
+	width: 30%;
+}
+
+.browser-supported {
+	float: right;
+	width: 60%;
+}
+
+.browser-table {
+	white-space: nowrap;
+	*zoom: 1;
+}
+
+.browser-table:after {
+	clear: both;
+}
+
+.browser-table:before,
+.browser-table:after {
+	content: " ";
+	display: table;
+}
+
+.browser-anchor {
+	display: block;
+}
+
+.browser-item {
+	*zoom: 1;
+	float: left;
+	height: 150px;
+
+	.browser-recommended & {
+		width: 100%;
+	}
+
+	.browser-supported & {
+		width: 25%;
+		margin-right: -1px;
+	}
+}
+
+.browser-item:after {
+	clear: both;
+}
+
+.browser-item:before,
+.browser-item:after {
+	content: " ";
+	display: table;
+}
+
+.browser-image {
+	width: 64px;
+	height: 64px;
+	padding: 16px 16px 8px 16px;
+}
+
+.browser-name {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.browser-support {
+	color: #9b9ea3;
+}
+
+.browser-name,
+.browser-support {
+	display: block;
+	white-space: normal;
+}
+
+.login-footer {
+	padding: 16px 16px 64px 16px;
+	text-align: center;
+}
+
+.social-icon {
+	margin: -16px 4px 0 4px;
+}
+
+// Responsive
+.medium,
+.small {
+
+	.browser-recommended,
+	.browser-supported {
+		float: none;
+		width: 100%;
+	}
+
+	.browser-image {
+		padding: 16px;
+	}
+}
+
+.medium {
+
+	.browser-table-wrap {
+		width: 594px;
+	}
+
+	h3 {
+		margin-bottom: 16px;
+	}
+}
+
+.small {
+
+	h3 {
+		margin-bottom: 0;
+	}
+
+	.login-logo-image {
+		max-width: 169px;
+		width: 100%;
+		height: auto;
+	}
+
+	.custom-select {
+		width: 100%;
+	}
+
+	.login-header {
+		padding: 5%;
+	}
+
+	.login-logo,
+	.login-language {
+		width: 40%;
+	}
+
+	.login-headline {
+
+		p {
+			width: auto;
+		}
+	}
+
+	.browser-table-wrap {
+		width: 280px;
+	}
+}
+
+.small,
+.medium .browser-recommended {
+
+	.browser-item {
+		width: 100%;
+		float: none;
+		height: 64px;
+		margin: 24px auto;
+	}
+
+	.browser-anchor {
+		height: 64px;
+	}
+
+	.browser-image {
+		float: left;
+		width: auto;
+		padding: 0;
+	}
+
+	.browser-text {
+		width: 70%;
+		padding: 6px 0;
+		float: right;
+		text-align: left;
+	}
+
+	.browser-anchor {
+		display: block;
+		text-align: left;
+	}
+}
+
+.medium .browser-recommended {
+
+	.browser-item {
+		width: 280px;
+		margin: 8px auto;
+	}
+}
+
+// UTILITY
+.padding {
+	padding: 16px;
+}
+
+.bold {
+	font-weight: bold !important;
+}
+
+.underline {
+	text-decoration: underline !important;
+}
+
+.grey {
+	color: #9b9ea3;
+}

@@ -1,0 +1,193 @@
+.frm_main_chat{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	padding-top: 40px;
+}
+
+.frm_main_chat div.text_input{
+	padding: 7px 20px;
+
+   	max-width: 1024px;
+    margin: 0 auto;
+}
+/* UPLOAD */
+.frm_main_chat>.obj_upload{
+	position: absolute!important;
+	top: -9999px;
+	right: 0;
+	z-index: 100;
+}
+
+/* TABS */
+.frm_main_chat .viewtabs .obj_tab.files>.obj_tabmain>.head>div{
+	height: 60px;
+	position: relative;
+	padding: 15px 22px 0 22px;
+}
+.frm_main_chat .viewtabs .obj_tab.files>.obj_tabmain>.body{
+	position: absolute;
+	top: 61px;
+	bottom: 0;
+	width: 100%;
+	z-index: 0;
+}
+.frm_main_chat div.input_block,
+.frm_main_chat .viewtabs .obj_tab>.obj_tabmain>.body{
+	-webkit-transition: padding 200ms;
+	transition: padding 200ms;
+}
+
+/* show tabs */
+.frm_main_chat.show:not(.fixed) .viewtabs .obj_tab .obj_list_load em.sbarY{
+	right: 360px;
+}
+.rtl .frm_main_chat.show:not(.fixed) .viewtabs .obj_tab .obj_list_load em.sbarY{
+	right: auto;
+	left: 360px;
+}
+.rtl .frm_main_chat.show:not(.wide):not(.fixed) .viewtabs .obj_tab .obj_list_load em.sbarY{
+	left: 370px;
+}
+/* show tabs + width mode */
+.frm_main_chat.show.fixed .viewtabs .obj_tab>.obj_tabmain>.body,
+.frm_main_chat.show.fixed div.input_block{
+	padding-right: 360px;
+}
+.rtl .frm_main_chat.show.fixed .viewtabs .obj_tab>.obj_tabmain>.body,
+.rtl .frm_main_chat.show.fixed div.input_block{
+	padding-right: 0;
+	padding-left: 360px;
+}
+.rtl .frm_main_chat.show.fixed:not(.wide) .viewtabs .obj_tab>.obj_tabmain>.body,
+.rtl .frm_main_chat.show.fixed:not(.wide) div.input_block{
+	padding-left: 370px;
+}
+
+/* upload progress bar */
+.frm_main_chat>.obj_progress{
+	position: absolute;
+	z-index: 10;
+	top: 110px;
+}
+
+/* Room/Tabs */
+.frm_main_chat .obj_tabs.roomtabs{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 11px 0 15px 0;
+	z-index: 10;
+	width: auto;
+	height: 100%;
+}
+
+.frm_main_chat .obj_tabs.roomtabs.active>.obj_tabsmain{
+  	background-color: #FFF;
+    width: 350px;
+}
+	.frm_main_chat:not(.wide) .obj_tabs.roomtabs>.obj_tabsmain>.obj_tab{
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	}
+	.frm_main_chat.wide .obj_tabs.roomtabs.active{
+		border-left: 1px solid #EDEDED;
+		position: fixed;
+		top: 129px;
+		bottom: 0px;
+		height: auto;
+		padding-top: 0;
+	}
+
+	.frm_main_chat:not(.wide) .obj_tabs.roomtabs{
+		right: 10px;
+	}
+	.rtl .frm_main_chat:not(.wide) .obj_tabs.roomtabs{
+		left: 10px;
+	}
+	.frm_main.rdock.rd_small .frm_main_chat.wide .obj_tabs.roomtabs{
+		right: 67px!important;
+	}
+	.rtl .frm_main.rdock.rd_small .frm_main_chat.wide .obj_tabs.roomtabs{
+		left: 67px!important;
+	}
+	.rtl .frm_main_chat .obj_tabs.roomtabs,
+	.rtl .frm_main.rdock.rd_small .frm_main_chat.wide .obj_tabs.roomtabs{
+		right: auto!important;
+	}
+	.rtl .frm_main_chat.wide .obj_tabs.roomtabs{
+		border-left: none;
+		border-right: 1px solid #EDEDED;
+	}
+
+.frm_main_chat .obj_tabs.roomtabs>.obj_tabsheader li:before{
+	content: '\e08f';
+}
+.frm_main_chat .obj_tabs.roomtabs>.obj_tabsheader li.mentions:before{
+	content: '\e091';
+}
+
+	/* X close button */
+	.frm_main_chat .obj_tabs.roomtabs .close{
+		position: absolute;
+		right: 0;
+		top: 0;
+
+		width: 20px;
+		height: 20px;
+
+		font-size: 16px;
+		line-height: 20px;
+		font-family: "ico16";
+		text-indent: 2px;
+		cursor: pointer;
+	}
+	.rtl .frm_main_chat .obj_tabs.roomtabs .close {
+		left: 0;
+		right: auto;
+	}
+		.frm_main_chat .obj_tabs.roomtabs .close:after{
+			content: '\e036';
+		}
+
+.frm_main_chat .obj_tabs.roomtabs .mentiontab{
+	padding-top: 30px;
+}
+
+.frm_main_chat .obj_tabs.roomtabs .pintab{
+	padding-top: 80px;
+}
+	.frm_main_chat .obj_tabs.roomtabs .pintab .switch{
+		position: absolute;
+		top: 30px;
+		left: 35px;
+		right: 35px;
+	}
+
+/* Files */
+
+/* direction buttton */
+.frm_main_chat .obj_tab.files > .obj_tabmain > .head form.obj_button{
+	position: relative;
+	top: 7px;
+    float: right;
+}
+.rtl .frm_main_chat .obj_tab.files > .obj_tabmain > .head form.obj_button,
+.frm_main_chat .files .head .sort {
+    float: left;
+}
+.rtl .frm_main_chat .files .head .sort {
+	float: right;
+}
+.frm_main_chat .files .head .sort li.label>div{
+	padding-top: 1px;
+	color: #888888;
+}
+
+/* .frm_main_chat.blur .text_input,
+.frm_main_chat.blur .obj_tab.room .obj_groupchat{
+	filter: blur(3px);
+	-webkit-transform: scale(1);
+	-webkit-filter: blur(3px);
+	transform: translateZ(0);
+	-o-filter: blur(3px);
+} */

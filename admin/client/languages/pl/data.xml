@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <other>
+    <primary>Pierwszy</primary>
+    <secondary>Drugi</secondary>
+    <success>Sukces</success>
+    <warning>Ostrzeżenie</warning>
+    <error>Błąd</error>
+    <grey>Szary</grey>
+    <borderless>Bez ograniczeń</borderless>
+    <demo>Demo</demo>
+    <other>Inne</other>
+    <search_placeholder>Czego szukasz?</search_placeholder>
+    <imagepath_en>client/languages/en/images/</imagepath_en>
+    <session_expired>Twoja sesja wygasła</session_expired>
+  </other>
+  <main>
+    <logout>Wyloguj</logout>
+    <dashboard>Panel</dashboard>
+    <console>Konsola API</console>
+    <search>Szukaj</search>
+    <support_url>http://www.icewarp.com/support/</support_url>
+    <spam_queues>Kolejki spamu</spam_queues>
+    <white_labeling>White labeling</white_labeling>
+    <content_rules>Reguły zawartości</content_rules>
+    <certificates>Certyfikaty</certificates>
+    <server_settings>Ustawienia serwera</server_settings>
+    <policies>Polityki</policies>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <webclient>WebClient</webclient>
+    <support>Wsparcie</support>
+    <subscription>Subskrybcja</subscription>
+    <account_settings>Ustawienia konta</account_settings>
+    <management>Użytkownicy i domeny</management>
+    <oauth>Dostawcy OAuth</oauth>
+    <night_mode>Tryb nocny</night_mode>
+  </main>
+  <form_buttons>
+    <ok>OK</ok>
+    <cancel>Anuluj</cancel>
+    <retry>Ponów</retry>
+    <close>Zamknij</close>
+  </form_buttons>
+  <datetime>
+    <php_date>d/m/r</php_date>
+    <php_time>G:m:s</php_time>
+    <php_time_minutes>G:m</php_time_minutes>
+    <mon>Pon</mon>
+    <tue>Wt</tue>
+    <wed>Śr</wed>
+    <thu>Czw</thu>
+    <fri>Pt</fri>
+    <sat>So</sat>
+    <sun>Nd</sun>
+    <monday>Poniedziałek</monday>
+    <tuesday>Wtorek</tuesday>
+    <wednesday>Środa</wednesday>
+    <thursday>Czwartek</thursday>
+    <friday>Piątek</friday>
+    <saturday>Sobota</saturday>
+    <sunday>Niedziela</sunday>
+    <january>Styczeń</january>
+    <february>Luty</february>
+    <march>Marzec</march>
+    <april>Kwiecień</april>
+    <may>Maj</may>
+    <june>Czerwiec</june>
+    <july>Lipiec</july>
+    <august>Sierpień</august>
+    <september>Wrzesień</september>
+    <october>Październik</october>
+    <november>Listopad</november>
+    <december>Grudzień</december>
+    <days>dzień;dni</days>
+    <year>rok</year>
+    <years>lata</years>
+  </datetime>
+  <service_statistics>
+    <uptime>Czas działania</uptime>
+    <memorysize>Wymagana pamięć</memorysize>
+    <memorypeak>Wymagana pamięć (w szczycie)</memorypeak>
+    <msgreceived>Otrzymane</msgreceived>
+    <msgsent>Wysłane</msgsent>
+    <msgfailed>Nieudane</msgfailed>
+    <msgvirus>Wirus</msgvirus>
+    <msgcontentfilter>Filtr zawartości</msgcontentfilter>
+    <msgrules>Reguły</msgrules>
+    <msgexternal>Filtr zewnętrzny</msgexternal>
+    <msgintrusionprevention>Ochrona przed atakami</msgintrusionprevention>
+    <msgdns>DNSBL</msgdns>
+    <quarantine>Kwarantanna</quarantine>
+    <spamassasin>SpamAssassin</spamassasin>
+    <spammarked>Oznaczone jako spam</spammarked>
+    <spamlivebulk>AntySpam Live (Zbiorczo)</spamlivebulk>
+    <spamlive>AntySpam Live (Spam)</spamlive>
+    <refused>Odrzucony spam</refused>
+    <greylisting>Szara lista</greylisting>
+    <conntotal>Połączenia sumarycznie</conntotal>
+    <serverconn>Połączenia serwera (zliczone)</serverconn>
+    <serverconnpeak>Połączenia serwera (w szczycie)</serverconnpeak>
+    <serverdatatotal>Dane serwera sumarycznie</serverdatatotal>
+    <serverdatain>Przychodzące dane serwera</serverdatain>
+    <serverdataout>Wychodzące dane serwera</serverdataout>
+    <clientconn>Połączenia klienckie (zliczone)</clientconn>
+    <clientconnpeak>Połączenia klienckie (w szczycie)</clientconnpeak>
+    <clientdatatotal>Przetransferowane dane klienckie</clientdatatotal>
+    <clientdatain>Przychodzące dane klienckie</clientdatain>
+    <clientdataout>Wychodzące dane klienckie</clientdataout>
+    <packetsreceived>Otrzymane pakiety</packetsreceived>
+    <packetssent>Wysłane pakiety</packetssent>
+    <rtppacketsreceived>Otrzymane pakiety RTP</rtppacketsreceived>
+    <rtppacketssent>Wysłane pakiety RTP</rtppacketssent>
+    <callcount>Liczba połączeń</callcount>
+    <callpeak>Liczba połączeń w szczycie</callpeak>
+    <calltotal>Połączenia sumarycznie</calltotal>
+  </service_statistics>
+  <management>
+    <domainlist>Lista domen</domainlist>
+    <guest_accounts>Konta gości</guest_accounts>
+  </management>
+  <dashboard>
+    <server_data>Dane serwera (MB)</server_data>
+    <client_data>Dane klienta (MB)</client_data>
+    <received>Odebrane</received>
+    <sent>Wysłane</sent>
+    <active_users>Aktywni użytkownicy</active_users>
+    <storage>Całkowita wykorzystana przestrzeń dyskowa</storage>
+    <mail_sent>Poczta wysłana</mail_sent>
+    <mail_received>Poczta otrzymana</mail_received>
+    <realtime>Czas bieżący</realtime>
+    <hour>Ostatnia godzina</hour>
+    <day>Ostatni dzień</day>
+    <week>Ostatni tydzień</week>
+    <month>Ostatni miesiąc</month>
+    <year>Ostatni rok</year>
+    <current_traffic>Bieżący ruch</current_traffic>
+    <services_statuses>Stan usługi</services_statuses>
+    <services>Usługi</services>
+    <uptime>Czas pracy</uptime>
+    <connections>Połączenia</connections>
+    <data>Dane</data>
+    <service>Usługa</service>
+    <category>Kategoria</category>
+    <time_period>Przedział czasowy</time_period>
+    <cancel>Anuluj</cancel>
+    <smtp_connections>Połączenia SMTP</smtp_connections>
+    <imappop3_connections>Połączenia IMAP/POP3</imappop3_connections>
+    <web_connections>Połączenia Web</web_connections>
+    <statistics>Statystyki</statistics>
+    <settings>Ustawienia</settings>
+    <restart>Restart</restart>
+    <stop>Stop</stop>
+    <start>Start</start>
+    <mail_services>Poczta</mail_services>
+    <web_services>Usługi webowe</web_services>
+    <smtp>SMTP</smtp>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+    <control>Web</control>
+    <ftp>FTP</ftp>
+    <socks>SOCKS</socks>
+    <supportive_services>Usługi pracujące w tle</supportive_services>
+    <minger>Minger</minger>
+    <ldap>LDAP</ldap>
+    <snmp>SNMP</snmp>
+    <communication>Komunikacja</communication>
+    <im>Wiadomości błyskawiczne</im>
+    <voip>VoIP</voip>
+    <sms>SMS</sms>
+    <meeting>Web Meetingi</meeting>
+    <collaboration>Współpraca</collaboration>
+    <calendar>Praca grupowa</calendar>
+    <groupware_notification>Powiadomienia dot. pracy grupowej</groupware_notification>
+    <webclient>WebClient</webclient>
+    <webdav>WebDAV</webdav>
+    <security>Bezpieczeństwo</security>
+    <antivirus>Antywirus</antivirus>
+    <antispam>Antyspam</antispam>
+    <mobility>Mobilność</mobility>
+    <activesync>ActiveSync</activesync>
+    <syncml>SyncML</syncml>
+    <sip>VoIP</sip>
+    <teamchat>TeamChat</teamchat>
+    <sqlite>Server uses the SQLite database which is not sufficient for this service. Please configure Groupware to use standalone database server (e.g. MySQL, MS SQL, Oracle) before enabling this service.</sqlite>
+    <plan>Plan</plan>
+    <cluster_id>Klaster</cluster_id>
+    <price_user_month>Całkowite koszty miesięczne</price_user_month>
+    <next_billing>Następny rachunek</next_billing>
+    <upgrade>Przejdź na wyższy plan</upgrade>
+    <hypervisor>Hipernadzorca</hypervisor>
+    <manage>Zarządzaj</manage>
+  </dashboard>
+  <generic>
+    <hh_mm>gg:mm</hh_mm>
+    <and>I</and>
+    <or>Lub</or>
+    <not>Nie</not>
+    <add uses="server certificates">Dodaj</add>
+    <alias>Alias</alias>
+    <cancel>Anuluj</cancel>
+    <continue>Kontynuuj</continue>
+    <reset>Resetuj</reset>
+    <back>Cofnij</back>
+    <create_new_account_0>Stwórz nowego użytkownika</create_new_account_0>
+    <create_new_account_1>Stwórz nową listę mailingową</create_new_account_1>
+    <create_new_account_7>Stwórz nową grupę</create_new_account_7>
+    <create_new_account_8>Stwórz nowy zasób</create_new_account_8>
+    <create_new_account_d>Stwórz nową domenę</create_new_account_d>
+    <days>dni</days>
+    <delete uses="server certificates">Usuń</delete>
+    <domain>Domena</domain>
+    <domain_name>Nazwa domeny</domain_name>
+    <enter_additional_alias>Wprowadź dodatkowy alias</enter_additional_alias>
+    <enter_password>Wprowadź hasło</enter_password>
+    <enter_time_in_minutes>Wprowadź czas w minutach</enter_time_in_minutes>
+    <enter_value>Wprowadź wartość</enter_value>
+    <from>Od</from>
+    <generate>Generuj</generate>
+    <size_b>B</size_b>
+    <size_kb>kB</size_kb>
+    <size_mb>MB</size_mb>
+    <size_gb>GB</size_gb>
+    <size_tb>TB</size_tb>
+    <size_pb>PB</size_pb>
+    <messages>wiadomości</messages>
+    <message_error_heading>Błąd</message_error_heading>
+    <message_success_heading>Powodzenie</message_success_heading>
+    <message_warning_heading>Ostrzeżenie</message_warning_heading>
+    <minutes>min</minutes>
+    <seconds>sek</seconds>
+    <name>Nazwa</name>
+    <new_group>Nowa grupa</new_group>
+    <new_mailing_list>Nowa lista mailingowa</new_mailing_list>
+    <new_user>Nowy użytkownik</new_user>
+    <new_domain>Nowa domena</new_domain>
+    <new_resource>Nowy zasób</new_resource>
+    <password>Hasło</password>
+    <plus_symbol>+</plus_symbol>
+    <reset_to_default>Przywróć domyślne</reset_to_default>
+    <results>wyniki</results>
+    <retry>Ponów</retry>
+    <save>Zapisz</save>
+    <do_not_save>Nie zapisuj</do_not_save>
+    <save_and_add_another>Zapisz i dodaj kolejne</save_and_add_another>
+    <save_as>Zapisz jako</save_as>
+    <select>Wybierz</select>
+    <select_action>Wybierz akcję</select_action>
+    <share>Udostępnij</share>
+    <subject>Temat</subject>
+    <first_name>Imię</first_name>
+    <surname>Nazwisko</surname>
+    <text>Tekst</text>
+    <try_again>Spróbuj ponownie</try_again>
+    <icewarp_webadmin>IceWarp WebAdmin</icewarp_webadmin>
+    <group_name>Nazwa grupy</group_name>
+    <resource_name>Nazwa zasobu</resource_name>
+    <upload>Wczytaj</upload>
+    <upload_photo>Wczytaj zdjęcie</upload_photo>
+    <type uses="new resource">Typ</type>
+    <done uses="permissions">Wykonane</done>
+    <set_to_default>Ustaw jako wartości domyślne</set_to_default>
+    <export>Eksport</export>
+    <all>Wszystko</all>
+    <ok>OK</ok>
+    <close>Zamknij</close>
+    <download>Pobierz</download>
+    <port>port</port>
+    <on>Wł.</on>
+    <off>Wył.</off>
+    <copy_to_clipboard>Kopiuj do schowka</copy_to_clipboard>
+    <plan_selection>Wybór planu</plan_selection>
+  </generic>
+  <api_console>
+    <webserver>Serwer webowy</webserver>
+    <webdav>WebDAV</webdav>
+    <voip>VoIP</voip>
+    <system_tools>Narzędzia systemowe</system_tools>
+    <storage>Magazyn danych</storage>
+    <smtp_pop3_imap>SMTP/POP3/IMAP</smtp_pop3_imap>
+    <sms>SMS</sms>
+    <smart_discover>SmartDiscover</smart_discover>
+    <proxy>Proxy</proxy>
+    <protocols>Protokoły</protocols>
+    <mobile_sync>Mobile Sync</mobile_sync>
+    <mail>Poczta</mail>
+    <logging>Logi</logging>
+    <ldap>LDAP</ldap>
+    <instant_messaging>Wiadomości błyskawiczne</instant_messaging>
+    <gui>GUI</gui>
+    <groupware>Praca grupowa</groupware>
+    <general>Ogólne</general>
+    <ftp>FTP</ftp>
+    <domains>Domeny</domains>
+    <connection>Połączenie</connection>
+    <conferencing>Web Meetingi</conferencing>
+    <antivirus>Antywirus</antivirus>
+    <antispam>Antyspam</antispam>
+    <advanced>Zaawansowane</advanced>
+    <accounts_policies>Polityki kont</accounts_policies>
+    <accounts>Konta</accounts>
+    <save>Zapisz</save>
+    <type_string>String</type_string>
+    <type_longstring>Długi string</type_longstring>
+    <type_integer>Liczba całkowita</type_integer>
+    <type_boolean>Logiczny typ danych</type_boolean>
+    <type_enum>Wyliczenie</type_enum>
+    <true>Prawda</true>
+    <false>Fałsz</false>
+    <mailinglist>Lista mailingowa</mailinglist>
+    <domain>Domena</domain>
+    <user>Użytkownik</user>
+    <edit>Edytuj</edit>
+    <group>Grupa</group>
+    <resource>Zasób</resource>
+    <name>Nazwa</name>
+    <type>Typ</type>
+    <val>Wartość</val>
+    <description>Opis</description>
+    <view>Zobacz</view>
+  </api_console>
+  <client_applications>
+    <client_applications>Aplikacje klienckie</client_applications>
+    <icewarp_desktop>Desktop Client</icewarp_desktop>
+    <icewarp_outlook_sync>Outlook Sync</icewarp_outlook_sync>
+    <mobile_devices>Urządzenia przenośne</mobile_devices>
+  </client_applications>
+  <client_applications_help>
+    <client_applications>Zarządzaj urządzeniami przenośnymi użytkownika, Aplikacjami Outlook Sync i Desktop Client.</client_applications>
+    <icewarp_desktop>Pobierz instalator Desktop Clienta i zarządzaj licencjonowaniem.</icewarp_desktop>
+    <icewarp_outlook_sync>Pobierz instalator Outlook Sync i zdalnie zarządzaj ustawieniami i licencjonowaniem.</icewarp_outlook_sync>
+    <mobile_devices>Zarządzaj ustawieniami podłączonych urządzeń przenośnych.</mobile_devices>
+  </client_applications_help>
+  <permissions>
+    <inbox>Skrzynka odbiorcza</inbox>
+    <calendar>Kalendarz</calendar>
+    <contacts>Kontakty</contacts>
+    <files>Pliki</files>
+    <permissions>Uprawnienia</permissions>
+    <anyone>Każdy / Anonimowy</anyone>
+    <custom>Niestandardowe</custom>
+    <all>Wszystko</all>
+    <none>Żadne</none>
+    <read>Odczyt</read>
+    <write>Zapis</write>
+    <full>Pełen dostęp</full>
+    <owner>Właściciel</owner>
+    <add_new_user_or_domain>Dodaj nowego użytkownika lub domenę</add_new_user_or_domain>
+    <inherit>Odziedzicz</inherit>
+    <show_all_folders>Pokaż wszystkie foldery</show_all_folders>
+    <show_less>Ukryj</show_less>
+    <domains>Domeny</domains>
+  </permissions>
+  <permissions_help>
+    <inbox>Pozwól innym użytkownikom w Twojej firmie na czytanie poczty i dokonywanie zmian w domyślnym folerze poczty.</inbox>
+    <calendar>Pozwól innym użytkownikom w Twojej firmie na przeglądanie i tworzenie zdarzeń w domyślnym folerze kalendarza.</calendar>
+    <contacts>Pozwalaj innym użytkownikom w Twojej firmie na listowanie lub dokonywanie zmian wpisów w domyślnym folderze kontaktów.</contacts>
+    <files>Pozwalaj innym użytkownikom w Twojej firmie na czytanie lub dodawanie dokumentów w domślnym folderze plików.</files>
+  </permissions_help>
+  <mobile_devices>
+    <allowed>Dozwolone</allowed>
+    <blocked>Zablokowane</blocked>
+    <quarantine>W kwarantannie</quarantine>
+    <all_mail_items>Wszystko</all_mail_items>
+    <all_calendar_events>Wszystko</all_calendar_events>
+    <all_status>Wszystko</all_status>
+    <all_sync>Wszystko</all_sync>
+    <last_24_hours>Ostatnie 24 godziny</last_24_hours>
+    <last_7_days>Ostatnie 7 dni</last_7_days>
+    <last_4_weeks>Ostatnie 4 tygodnie</last_4_weeks>
+    <one_day>Jeden dzień</one_day>
+    <three_days>Trzy dni</three_days>
+    <one_week>Jeden tydzień</one_week>
+    <two_weeks>Dwa tygodnie</two_weeks>
+    <one_month>Jeden miesiąc</one_month>
+    <three_months>Trzy miesiące</three_months>
+    <six_months>Sześć miesięcy</six_months>
+    <incomplete_tasks_only>Tylko niezakończone zadania</incomplete_tasks_only>
+    <new_calendar_folders>Nowy folder kalendarza</new_calendar_folders>
+    <merge_to_default_calendar_folder>Scal z domyślnym folderem kalendarza</merge_to_default_calendar_folder>
+    <events>Wydarzenia</events>
+    <tasks>Zadania</tasks>
+    <tasks_and_notes>Zadania i notatki (aplikacja Android )</tasks_and_notes>
+    <new_folders>Nowe foldery</new_folders>
+    <merge_to_default_folder>Scal w domyślnym folderze</merge_to_default_folder>
+    <allow>Zezwól</allow>
+    <block>Blokuj</block>
+    <delete>Usuń</delete>
+    <wipe>Wipe</wipe>
+  </mobile_devices>
+  <vcard>
+    <male>Mężczyzna</male>
+    <female>Kobieta</female>
+    <unknown>Nieznany</unknown>
+    <home1>Dom 1</home1>
+    <home2>Dom 2</home2>
+    <assistant>Asystent</assistant>
+    <work1>Praca 1</work1>
+    <work2>Praca 2</work2>
+    <fax_home>Faks domowy</fax_home>
+    <fax_work>Faks firmowy</fax_work>
+    <callback>Oddzwanianie</callback>
+    <company>Firma</company>
+    <car>Samochód</car>
+    <isdn>ISDN</isdn>
+    <mobile>Komórkowy</mobile>
+    <other>Inne</other>
+    <other_fax>Inny faks</other_fax>
+    <pager>Pager</pager>
+    <primary>Główny</primary>
+    <radio>Radio</radio>
+    <telex>Teleks</telex>
+    <hearing>Odsłuchanie</hearing>
+    <sip>SIP</sip>
+    <email1>E-mail 1</email1>
+    <email2>E-mail 2</email2>
+    <email3>E-mail 3</email3>
+    <imaddress>Adres IM</imaddress>
+  </vcard>
+  <devicedetail>
+    <allow_block_device>Urządzenie włączone</allow_block_device>
+    <allow_device>Dopuść urządzenie</allow_device>
+    <block_device>Blokuj urządzenie</block_device>
+    <device_in_quarantine>Urządzenie jest w kwarantannie</device_in_quarantine>
+    <account>Konto</account>
+    <device_info>Informacje o urządzeniu</device_info>
+    <device_name>Nazwa urządzenia</device_name>
+    <groupware_synchronization>Synchronizacja elementu</groupware_synchronization>
+    <hard_wipe>Hard wipe</hard_wipe>
+    <info>Info</info>
+    <last_sync>Ostatnia synchronizacja</last_sync>
+    <model>Model</model>
+    <notes_synchronization_type>Informacje o typie synchronizacji</notes_synchronization_type>
+    <os>System operacyjny</os>
+    <past_calendar_events>Archiwalne zdarzenia kalendarza</past_calendar_events>
+    <past_mail_items>Archiwalne elementy poczty</past_mail_items>
+    <private_special_folders>Synchronizacja folderów</private_special_folders>
+    <registered>Zarejestrowane</registered>
+    <soft_hard_wipe>Wykonaj zdalny wipe urządzenia</soft_hard_wipe>
+    <soft_wipe>Soft wipe</soft_wipe>
+    <status>Stan</status>
+    <sync_notes_as>Synchronizuj notatki jako</sync_notes_as>
+    <sync_tasks_as_calendar_events>Synchronizuj zadania jako zdarzenia kalendarza</sync_tasks_as_calendar_events>
+    <synchronization>Synchronizacja</synchronization>
+    <tasks_synchronization_type>Typ synchronizacji zadań</tasks_synchronization_type>
+    <type>Typ</type>
+    <groupware_folders>Foldery pracy grupowej (prywatne)</groupware_folders>
+    <mail_folders>Foldery poczty (prywatne)</mail_folders>
+    <shared_folders>Foldery współdzielone</shared_folders>
+    <archive>Archiwum poczty</archive>
+    <public_folders>Foldery publiczne</public_folders>
+    <all_folders>Wszystkie foldery</all_folders>
+    <default_folders_only>Tylko foldery domyślne</default_folders_only>
+    <all_with_groupware_as_email>Wszystko z pracy grupowej  jako e-mail</all_with_groupware_as_email>
+  </devicedetail>
+  <devicedetail_help>
+    <device_info>Przejrzyj i/lub edytuj właściwości urządzenia lub zablokuj urządzenia, aby nie miały dostępu do serwera.</device_info>
+    <groupware_synchronization>Zarządzaj synchronizacją pracy grupowej i elementami poczty. Tam, gdzie to możliwe ustaw odpowiednią opcję i wybierz odpowiednią opcję z listy. Te ustawienia nadpiszą ustawienia w urządzeniu..</groupware_synchronization>
+    <private_special_folders>Zarządzaj synchronizacją folderów domyślnych i specjalnych. Wybierz z odpowiedniej listy lub włącz opcję.</private_special_folders>
+    <soft_hard_wipe>Soft wipe usuwa tylko dane pobrane z serwera. Hard wipe resetuje urządzenie do ustawień fabrycznych, usuwając wszystkie dane z urządzenia i kart SD.</soft_hard_wipe>
+  </devicedetail_help>
+  <domainlist>
+    <domain_list>Lista domen</domain_list>
+    <all_types>Wszystkie typy</all_types>
+    <standard>Standard</standard>
+    <domain_alias>Alias domeny</domain_alias>
+    <backup_domain>Domena zapasowa</backup_domain>
+    <distributed_domain>Domena dystrybuowana</distributed_domain>
+    <etrn_atrn_queue>Kolejka ETRN/ATRN</etrn_atrn_queue>
+    <verification_default>Domyślnie</verification_default>
+    <verification_use_minger_with_password>Użyj Mingera z hasłem</verification_use_minger_with_password>
+    <verification_usevrfy_command>Użyj komendy VRFY</verification_usevrfy_command>
+    <verification_use_rcpt_to_command>Użyj komendy RCPT TO</verification_use_rcpt_to_command>
+  </domainlist>
+  <domainlist_header>
+    <users>Użytkownicy</users>
+    <name>Nazwa</name>
+    <type>Typ</type>
+    <description>Opis</description>
+  </domainlist_header>
+  <domaindetail>
+    <users>Konta</users>
+    <settings>Właściwości</settings>
+    <limits>Limity</limits>
+    <rules>Reguły</rules>
+    <active_directory>Active Directory</active_directory>
+    <mobile_devices>Urządzenia przenośne</mobile_devices>
+    <general>Ogólne</general>
+    <name>Nazwa</name>
+    <description>Opis</description>
+    <type>Typ</type>
+    <val>Wartość</val>
+    <verification>Weryfikacja</verification>
+    <password>Hasło</password>
+    <administrator_email>E-mail administratora</administrator_email>
+    <aliases>Aliasy</aliases>
+    <add_alias>Dodaj alias</add_alias>
+    <quotas>Przydziały</quotas>
+    <storage_usage>Wykorzystanie miejsca</storage_usage>
+    <numbers_of_emails_sent>Liczba wiadomości wysłanych</numbers_of_emails_sent>
+    <change_quotas>Limity w domenie</change_quotas>
+    <permissions_and_rights>Uprawnienia i prawa dostępu</permissions_and_rights>
+    <unknown_accounts>Nieznane konta</unknown_accounts>
+    <reject>Odrzuć</reject>
+    <delete>Usuń</delete>
+    <forward_to>Przekaż do</forward_to>
+    <target_email>Docelowy e-mail</target_email>
+    <two_factor_authentication>Weryfikacja dwuetapowa</two_factor_authentication>
+    <instant_messaging_shared_roster>Współdzielona lista kont do wiadomości błyskawicznych</instant_messaging_shared_roster>
+    <domain_features>Funkcjonalności domeny</domain_features>
+    <features>Funkcjonalności</features>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <desktop_client>Desktop Client</desktop_client>
+    <manage>Zarządzaj</manage>
+    <download>Pobierz</download>
+    <domain_limits>Limity domenowe</domain_limits>
+    <maximum_number_of_accounts>Limit kont administratora w domenie (konta #)</maximum_number_of_accounts>
+    <disk_quota>Przydział powierzchni dyskowej</disk_quota>
+    <daily_send_out_limit_for_domain>Dzienny limit wiadomości wysłanych dla domeny</daily_send_out_limit_for_domain>
+    <disable_login_to_this_domain>Zablokuj logowanie do tej domeny</disable_login_to_this_domain>
+    <daily_data_limit>Limit danych wysłanych</daily_data_limit>
+    <daily_message_count_limit>Limit wiadomości wysłanych</daily_message_count_limit>
+    <number_per_day># na dzień</number_per_day>
+    <domain_expiration>Wygaśnięcie domeny</domain_expiration>
+    <expires_on>Wygasa</expires_on>
+    <notify_before_expiration>Powiadom przed wygaśnięciem</notify_before_expiration>
+    <days>dni</days>
+    <delete_domain_when_expired>Usuń domenę, jeśli wygasła</delete_domain_when_expired>
+    <user_limits>Limity użytkownika</user_limits>
+    <account_size>Rozmiar konta</account_size>
+    <default_max_message_size>Maksymalny rozmiar wiadomości</default_max_message_size>
+    <default_daily_send_out_limit_for_users>Domyślne dzienne limity poczty wychodzącej dla użytkowników</default_daily_send_out_limit_for_users>
+    <forward_to_address>Przekaż na adres</forward_to_address>
+    <dns_validation>Walidacja DNS</dns_validation>
+    <validation>Walidacja</validation>
+    <rename>Zmień nazwę</rename>
+    <rename_and_logout>Zmień nazwę i wyloguj</rename_and_logout>
+    <change_domain_name>Zmień nazwę domeny</change_domain_name>
+    <same_domain_helper>Zmieniasz nazwę swojej domeny. Po zakończeniu, zostaniesz automatycznie wylogowany i będziesz musiał zalogować się ponownie.</same_domain_helper>
+    <dkim>DKIM</dkim>
+    <delete_spam_older_than>Usuń spam starszy niż</delete_spam_older_than>
+    <max_allowed_subscription_plan>Maksymalny plan subskrypcji</max_allowed_subscription_plan>
+  </domaindetail>
+  <domaindetail_help>
+    <domain_limits>Poniższe limity domeny mają pierwszeństwo przed jakimikolwiek limitami użytkownika. Przykład: jeśli masz limit przydziału powierzchni dyskowej ustawiony na 100 MB i rozmiar konta użytkownika ustawiony na 500 MB, to miejsce zostanie ograniczone według reguł domenowych (100 MB).</domain_limits>
+    <domain_expiration>Określ datę wygaśnięcia dla domeny. Kiedy domena wygaśnie, niedostępne jest tylko logowanie do domeny. Jeśli wybierzesz usunięcie domeny, wszystkie konta i ich dane zostaną usunięte!</domain_expiration>
+    <user_limits>Następujące limity mają niższy priorytet niż jakiekolwiek limity użytkownika. Przykład: jeśli masz 100 kont w domenie i 98 powinno mieć takie same limity, a 2 powinny mieć inne limity, sprecyzuj tutaj limit dla 98 użytkowników i dla 2 sprecyzuj inny limit na poziomie użytkownika.</user_limits>
+    <quotas>Kliknij limity domenowe, aby ograniczyć rozmiar w domenie, liczbę wiadomości wysyłanych lub maksymalny rozmiar wiadomości na poziomie domeny. Możesz też zastosować inne limity dla wszystkich kont w domenie jednorazowo.</quotas>
+    <permissions_and_rights>Sprecyzuj, jak obsługiwać wiadomości wysyłane na konta, które nie są zdefiniowane na serwerze. Kliknij przycisk funkcjonalności, aby włączyć lub wyłączyć usługi dla wszystkich użytkowników w domenie. Funkcjonalności konfigurowane na poziomie użytkownika mają wyższy priorytet.</permissions_and_rights>
+    <client_applications>Zarządzaj urządzeniami mobilnymi w domenie, aplikacjami Outlook Sync i Desktop Client.</client_applications>
+    <aliases>Wprowadź aliasy dla tej domeny. Wiadomości wysłane na te adresy będą dostarczane do skrzynek pocztowych w tej domenie. Dla aliasów nie możesz ustawiać reguł innych niż dla domeny pierwotnej.</aliases>
+  </domaindetail_help>
+  <subscription_plans>
+    <any_plan>Dowolny plan</any_plan>
+    <standard>Standardowy</standard>
+    <professional>Profesjonalny</professional>
+    <user_per_month>użytkownik na miesiąc</user_per_month>
+  </subscription_plans>
+  <rules>
+    <lower>Niższy</lower>
+    <greater>Wyższy</greater>
+    <priority_highest>Najwyższy</priority_highest>
+    <priority_high>Wysoki</priority_high>
+    <priority_normal>Normalny</priority_normal>
+    <priority_low>Niski</priority_low>
+    <priority_lowest>Najniższy</priority_lowest>
+    <function_contains_value_from_list>Zawiera wartość z listy (oddzielone średnikiem)</function_contains_value_from_list>
+    <function_matches_regex>Spełnia (RegEx)</function_matches_regex>
+    <function_starts_with>Zaczyna się od</function_starts_with>
+    <function_ends_with>Kończy się na</function_ends_with>
+    <function_equals>Równa się</function_equals>
+    <function_contains_value_from_file>Zawiera wartość od pliku lub wzoru</function_contains_value_from_file>
+    <condition_all_messages>Wszystkie wiadomości</condition_all_messages>
+    <condition_where_from>Gdzie w polu od</condition_where_from>
+    <condition_message_header_matches>Nagłówek wiadomości pasuje do</condition_message_header_matches>
+    <condition_where_subject>Gdzie w polu temat</condition_where_subject>
+    <condition_where_message_body_matches>Gdzie tekst wiadomości pasuje do</condition_where_message_body_matches>
+    <condition_where_message_contains_attachment>Gdzie wiadomość zawiera załącznik</condition_where_message_contains_attachment>
+    <condition_where_attachment_name_matches>Gdzie nazwa załącznika pasuje do</condition_where_attachment_name_matches>
+    <condition_where_message_priority_is>Gdzie priorytet wiadomości jest</condition_where_message_priority_is>
+    <condition_where_message_size_is>Gdzie rozmiar wiadomości jest</condition_where_message_size_is>
+    <condition_where_message_is_spam>Gdzie wiadomość jest spamem</condition_where_message_is_spam>
+    <condition_where_to>Gdzie pole Do</condition_where_to>
+    <condition_where_cc>Gdzie pole DW</condition_where_cc>
+    <condition_where_replyto>Gdzie pole odpowiedz do</condition_where_replyto>
+    <condition_where_date>Gdzie data</condition_where_date>
+    <condition_where_custom_message_header_matches>Gdzie niestandardowy nagłówek wiadomosci pasuje do</condition_where_custom_message_header_matches>
+    <condition_where_any_message_header_matches>Gdzie dowolny nagłówek wiadomości pasuje do</condition_where_any_message_header_matches>
+    <condition_where_sender_matches>Gdzie nadawca pasuje do</condition_where_sender_matches>
+    <condition_where_recipient_matches>Gdzie odbiorca pasuje do</condition_where_recipient_matches>
+    <condition_where_sender_recipient_is_local_remote>Gdzie nadawca /odbiorca jest lokalny / zdalny</condition_where_sender_recipient_is_local_remote>
+    <condition_where_spam_score_is>Gdzie punktacja spamu wynosi</condition_where_spam_score_is>
+    <condition_where_local_time_meets>Gdzie czas lokalny to</condition_where_local_time_meets>
+    <condition_where_rdns_matches>Gdzie RDNS pasuje do</condition_where_rdns_matches>
+    <condition_where_senders_ip_address_matches>Gdy adres IP nadawcy pasuje</condition_where_senders_ip_address_matches>
+    <condition_where_senders_ip_address_is_listed_on_dnsbl>Gdzie adres IP nadawcy jest na liście DNSBL</condition_where_senders_ip_address_is_listed_on_dnsbl>
+    <condition_where_session_is_trusted>Gdzie sesja jest zaufana</condition_where_session_is_trusted>
+    <condition_where_smtp_auth>Gdzie SMTP AUTH</condition_where_smtp_auth>
+    <condition_where_message_direct_to_user>Wiadomość wysłana bezpośednio do użytkownika</condition_where_message_direct_to_user>
+    <action_accept_reject_delete_spam_quarantine>Akceptuj / Odrzuć / Usuń / Spam / Kwarantanna</action_accept_reject_delete_spam_quarantine>
+    <action_forward_to_email>Przekaż na e-mail</action_forward_to_email>
+    <action_copy_to_folder>Kopiuj do folderu</action_copy_to_folder>
+    <action_move_to_folder>Przenieś do folderu</action_move_to_folder>
+    <action_encrypt_message>Zaszyfruj wiadomość</action_encrypt_message>
+    <action_send_new_message>Wyślij nową wiadomość</action_send_new_message>
+    <action_edit_message_header>Edytuj nagłówek wiadomości</action_edit_message_header>
+    <action_set_message_priority_to>Ustaw priorytet wiadomości na</action_set_message_priority_to>
+    <action_set_message_flags_to>Ustaw flagi wiadomości na</action_set_message_flags_to>
+    <action_stop_processing_more_rules>Zatrzymaj procesowanie reguł</action_stop_processing_more_rules>
+    <and>I</and>
+    <or>Lub</or>
+    <and_not>I  nie</and_not>
+    <or_not>Lub nie</or_not>
+    <rules>Reguły</rules>
+    <result_title>Jak utworzyć regułę:</result_title>
+    <result_step_1>1. Najpierw wybierz jeden lub więcej warunków</result_step_1>
+    <result_step_2>2. Dodaj kilka akcji do tych warunków</result_step_2>
+    <result_step_3>3. Dodaj tytuł, aby rozpoznać regułę</result_step_3>
+    <result>Wynik</result>
+    <basic>Podstawowy</basic>
+    <headers>Nagłówki</headers>
+    <advanced>Zaawansowane</advanced>
+    <standard>Standardowe</standard>
+    <extra>Dodatkowe</extra>
+    <title>Tytuł</title>
+    <actions>Akcje</actions>
+    <conditions>Warunki</conditions>
+    <rule_number>Numer reguły</rule_number>
+    <new_rule>Dodaj regułę</new_rule>
+    <delete>Usuń</delete>
+    <activate>Aktywuj</activate>
+    <deactivate>Dezaktywuj</deactivate>
+  </rules>
+  <rulepopup>
+    <action>Akcja</action>
+    <add_new_header_condition>Dodaj nowy warunek nagłówka</add_new_header_condition>
+    <from>Od</from>
+    <header>Nagłówek</header>
+    <match_regex>Spełnia wyrażenie regularne w oryginalnym nagłówku</match_regex>
+    <regex>Wyrażenie regularne</regex>
+    <subject>Temat</subject>
+    <text>Tekst</text>
+    <to>Do</to>
+    <val>Wartość</val>
+    <add_edit>Dodaj / Edytuj</add_edit>
+    <delete>Usuń</delete>
+  </rulepopup>
+  <rulecard>
+    <monday>Po</monday>
+    <tuesday>Wt</tuesday>
+    <wednesday>Śr</wednesday>
+    <thursday>Cz</thursday>
+    <friday>Pt</friday>
+    <saturday>So</saturday>
+    <sunday>Nd</sunday>
+    <action>Akcja</action>
+    <all_items_match>Wszystkie elementy pasują</all_items_match>
+    <antivirus>Antywirus</antivirus>
+    <bare_lfs>Bare LFs</bare_lfs>
+    <between_dates>Pomiędzy datami (rrrr:mm:dd)</between_dates>
+    <between_times>Pomiędzy zakresem czasowym (gg:mm)</between_times>
+    <change_mime>Zmień MIME-Version na 1.0</change_mime>
+    <copy_to_folder>Kopiuj do folderu</copy_to_folder>
+    <crlf>CRLF.CRLF wewnątrz wiadomości</crlf>
+    <db_connection>Połączenie bazy danych</db_connection>
+    <delete>Usuń</delete>
+    <dnsbl_server>Serwer DNSBL</dnsbl_server>
+    <email_address>Adres e-mail</email_address>
+    <eof>EOF wewnątrz wiadomości</eof>
+    <executable>wykonywalne</executable>
+    <flagged>Oflagowane</flagged>
+    <flags>Flagi</flags>
+    <function>Funkcja</function>
+    <ignore>Ignoruj</ignore>
+    <junk>Śmieć</junk>
+    <label_1>Etykieta 1</label_1>
+    <label_2>Etykieta 2</label_2>
+    <label_3>Etykieta 3</label_3>
+    <label_4>Etykieta 4</label_4>
+    <label_5>Etykieta 5</label_5>
+    <label_6>Etykieta 6</label_6>
+    <local>Lokalnie</local>
+    <match_case>Dopasuj przypadek</match_case>
+    <member_of>Należy do</member_of>
+    <message_not_virus>Wiadomość nie zawiera wirusa</message_not_virus>
+    <message_password>Wiadomość zawiera pliki chronione hasłem</message_password>
+    <message_priority>Priorytet wiadomości</message_priority>
+    <message_size>Rozmiar wiadomości</message_size>
+    <message_virus>Wiadomość zawiera wirusa</message_virus>
+    <move_to_folder>Przenieś do folderu</move_to_folder>
+    <non_junk>Nie-spam</non_junk>
+    <not>Nie</not>
+    <one_item_matches>Przynajmniej jeden element pasuje</one_item_matches>
+    <parse_xml>Parsuj XML</parse_xml>
+    <quarantine>Kwarantanna</quarantine>
+    <recipient>Odbiorca</recipient>
+    <regex>RegEx</regex>
+    <reject>Odrzuć</reject>
+    <remote>Zdalny</remote>
+    <remove_mime>Usuń MIME-Version double char</remove_mime>
+    <rfc2822>Napraw naruszenie RFC2822</rfc2822>
+    <score>Punktacja</score>
+    <seen>Widoczny</seen>
+    <sender>Nadawca</sender>
+    <sender_recipient>Nadawca / Odbiorca</sender_recipient>
+    <single_string>Przekonwertuj na pojedynczy string</single_string>
+    <spam>Spam</spam>
+    <sql_statement>Instrukcja SQL</sql_statement>
+    <string>String</string>
+    <string_condition>Warunek zmiennej</string_condition>
+    <than>Niż</than>
+    <time_criteria>Kryteria czasowe</time_criteria>
+    <type>typ</type>
+    <user_doesnt_exists>Użytkownik nie istnieje</user_doesnt_exists>
+    <user_exists>Użytkownik istnieje</user_exists>
+    <weekdays>Dni tygodnia</weekdays>
+    <whole_word>Całe słowo</whole_word>
+    <zerobyte>0x00 wewnątrz wiadomości</zerobyte>
+    <accept>Akceptuj</accept>
+    <add_edit>Dodaj / Edytuj</add_edit>
+    <add>Dodaj</add>
+    <edit>Edytuj</edit>
+    <forward_as_attachment>Przekaż jako załącznik</forward_as_attachment>
+    <custom_flags>Niestandardowe flagi</custom_flags>
+    <userisonlyrecipient>Użytkownik jest jedynym odbiorcą</userisonlyrecipient>
+    <checkuserinto>Sprawdź użytkownika w polu Do</checkuserinto>
+    <checkuserincc>Sprawdź użytkownika w polu DW</checkuserincc>
+    <checkuserinbcc>Sprawdź użytkownika w polu UDW</checkuserinbcc>
+  </rulecard>
+  <userlist>
+    <admin>Administrator systemu</admin>
+    <webadmin>Administrator webowy</webadmin>
+    <catalog>Katalog</catalog>
+    <domain_admin>Administrator domenowy</domain_admin>
+    <executable>Wykonywalne</executable>
+    <group>Grupa</group>
+    <list_of_all_accounts>Lista wszystkich kont</list_of_all_accounts>
+    <list_server>Listuj serwer</list_server>
+    <mailing_list>Lista mailingowa</mailing_list>
+    <notification>Powiadomienie</notification>
+    <resource>Zasób</resource>
+    <static_route>Trasa statyczna</static_route>
+    <user>Użytkownik</user>
+    <external>Zewnętrzny</external>
+    <room>Pokój</room>
+    <equipment>Wyposażenie</equipment>
+    <car>Samochód</car>
+  </userlist>
+  <userlist_header>
+    <account>Konto</account>
+    <name_and_account>Nazwa i konto</name_and_account>
+    <name>Nazwa</name>
+    <quota>Wykorzystanie</quota>
+    <type>Typ</type>
+  </userlist_header>
+  <userlist_help>
+    <list_of_all_accounts>Podglądaj i zarządzaj wszystkimi kontami domeny. Kliknij na odpowiednie konto aby otworzyć je do edycji.</list_of_all_accounts>
+  </userlist_help>
+  <mailinglist>
+    <account_member_itself>Konto nie może być członkiem samego siebie.</account_member_itself>
+    <mailinglist_members>Lista członków listy mailingowej</mailinglist_members>
+    <members>Uczestnicy</members>
+    <general_details>Szczegóły ogólne</general_details>
+    <security>Bezpieczeństwo</security>
+    <members_source>Źródło uczestników</members_source>
+    <settings>Ustawienia</settings>
+    <owner>Właściciel</owner>
+    <description>Opis</description>
+    <alias>Alias</alias>
+    <add_alias>Dodaj alias</add_alias>
+    <source>Źródło</source>
+    <password_protection>Ochrona hasłem</password_protection>
+    <password>Hasło</password>
+    <default_rights>Uprawnienia domyślne</default_rights>
+    <max_number_of_messages>Maksymalna liczba wiadomości do wysłania w 1 minutę</max_number_of_messages>
+    <send_to_sender>Wyślij do nadawcy</send_to_sender>
+    <forward_copy_to_owner>Przekaż kopię do właściciela</forward_copy_to_owner>
+    <process_mailing_list>Obsługuj zmienne listy mailingowej</process_mailing_list>
+    <personalized_mailing_list>Personalizowana lista mailingowa - pola zmiennych</personalized_mailing_list>
+    <remove_failed_email_addresses>Usuń błędne adresy pocztowe</remove_failed_email_addresses>
+    <not_password_protected>Niechronione hasłem</not_password_protected>
+    <server_moderated>Serwer moderowany</server_moderated>
+    <client_moderated>Klient moderowany</client_moderated>
+    <recieve_and_post>Odbierz i wyślij</recieve_and_post>
+    <digest_recieve_and_post>Przetwarzaj otrzymane i wysłane</digest_recieve_and_post>
+    <recieve_only>Tylko odbieraj</recieve_only>
+    <digest_recieve_only>Analizuj tylko otrzymane</digest_recieve_only>
+    <post_only>Tylko wysyłaj</post_only>
+    <members_defined_manually>Uczestnicy definiowani ręcznie</members_defined_manually>
+    <members_from_text_file>Uczestnicy z pliku tekstowego</members_from_text_file>
+    <members_from_database>Członkowie z bazy danych</members_from_database>
+    <all_current_domain_users>Wszyscy użytkownicy z domeny bieżącej</all_current_domain_users>
+    <all_system_users>Wszyscy użytkownicy systemowi</all_system_users>
+    <all_system_domain_administrators>Wszyscy administratorzy domen systemu</all_system_domain_administrators>
+    <all_system_administrators>Wszyscy administratorzy systemu</all_system_administrators>
+    <only_members_can_post>Tylko członkowie mogą wysyłać nowe wiadomości</only_members_can_post>
+    <do_not_deliver>Nie dostarczaj do użytkowników z przekroczonym limitem</do_not_deliver>
+    <rights>Prawa</rights>
+    <default>Domyślne</default>
+    <post>Post</post>
+    <receive>Odbierz</receive>
+    <digest>Ekstrakt</digest>
+  </mailinglist>
+  <mailinglist_help>
+    <mailinglist_members>Przejrzyj listę członków listy mailingowej, dodaj nowych członków lub usuń obecnych. Zaznacz odpowiednie okno dialogowe i kliknij na przycisk Wybierz akcję, aby usunąć członka.</mailinglist_members>
+    <general_details>Zarządzaj własnościami ogólnymi listy mailingowej. Użyj przycisku Dodaj jeśli należy.</general_details>
+    <security>Zarządzaj prawami domyślnych członków listy mailingowej, hasłami i innymi.</security>
+    <members_source>Wybierz jak/gdzie są zdefiniowani członkowie listy mailingowej.</members_source>
+    <settings>Definiuj reguły dla dostarczania poczty i postępowania z problematycznymi adresami.</settings>
+  </mailinglist_help>
+  <group>
+    <account_member_itself>Konto nie może być członkiem samego siebie.</account_member_itself>
+    <group_members>Lista użytkowników grup</group_members>
+    <members>Członkowie</members>
+    <general_details>Ogólne</general_details>
+    <group_sharing>Współdzielenie grup</group_sharing>
+    <group_email_delivery>Grupowe dostarczanie poczty</group_email_delivery>
+    <security>Bezpieczeństwo</security>
+    <advanced_settings>Ustawienia zaawansowane</advanced_settings>
+    <name>Nazwa</name>
+    <description>Opis</description>
+    <alias>Alias</alias>
+    <add_alias>Dodaj alias</add_alias>
+    <create_public_folder>Utwórz folder publiczny</create_public_folder>
+    <setup_permissions>Prawa i upoważnienia ustawianie</setup_permissions>
+    <permissions>Uprawnienia</permissions>
+    <only_members_can_post>Tylko członkowie mogą wysyłać nowe wiadomości</only_members_can_post>
+    <do_not_deliver>Nie dostarczaj do członków z przekroczoną kwotą</do_not_deliver>
+    <password_protection>Ochrona hasła</password_protection>
+    <max_number_of_messages>Maksymalna liczba wiadomości wysyłana w 1 minutę</max_number_of_messages>
+    <populate_gal>Uzupełniaj Globalną Listę Adresową (GAL) o wszystkich członków</populate_gal>
+    <allow_gal_export>Pozwól na eksport GAL do innych serwerów zgodnie wewnątrz domeny dystrybucyjnej</allow_gal_export>
+    <organize_gal>Organizuj GAL w hierarchicznej książce adresowej (HAB)</organize_gal>
+    <deliver_to_all_members_individually>Dostarczaj do wszystkich członków indywidualnie</deliver_to_all_members_individually>
+    <deliver_mail_to_shared_folder>Dostarcz pocztę do współdzielonego folderu</deliver_mail_to_shared_folder>
+    <teamchat>TeamChat</teamchat>
+    <enable_teamchat>Włącz TeamChat</enable_teamchat>
+  </group>
+  <group_help>
+    <group_members>Przejrzyj członków grupy, dodaj nowych członków lub usuń obecnych. Zaznacz odpowiednie okno dialogowe i kliknij przycisk Wybierz akcję, aby usunąć członka.</group_members>
+    <general_details>Zarządzaj włsnościami ogólnymi listy mailingowej. Użyj przycisku Dodaj aby dodać alias.</general_details>
+    <group_sharing>Włącz przełącznik jeśli chcesz utworzyć folder publiczny dla tej grupy. Wprowadź nazwę folderu i kliknij przycisk Uprawnienia aby ustawić prawa dostępu dla członków grupy.</group_sharing>
+    <group_email_delivery>Wybierz jak mają być dostarczane wiadomości do członków grupy. Wybierz czy wiadomosci mają być dostarczane także do członków grupy z przekroczonym limitem konta.</group_email_delivery>
+    <security>Ustaw czy nie członkowie grupy mogą wysyłać wiadomości, czy wysyłanie wiadomości do tej grupy ma być chronione hasłem i ustaw kontrolę przeływu wiadomosci wychodzących.</security>
+    <advanced_settings>Zarządzaj własnościami Global Address List.</advanced_settings>
+    <populate_gal>Włącz przełącznik jeśli chesz mieć kontakty GroupWare dla wszystkich członków utworzonych w grupie.</populate_gal>
+    <allow_gal_export>Jeśli należy, włącz przełącznik aby używać zdalnie GAL dla domen dystrybucyjnych.</allow_gal_export>
+    <organize_gal>Włącz przełącznik jeśli chcesz posiadać utworzoną hierarchiczną strukturę folderów w której nazwa podgrupy jest używana jako nazwa folderu.</organize_gal>
+    <teamchat>Włącz tworzenie prywatnych i publicznych pokoi chat wewnątrz grupy.</teamchat>
+  </group_help>
+  <group_placeholder>
+    <create_public_folder>Wprowadź folder publiczny</create_public_folder>
+  </group_placeholder>
+  <accountdetail>
+    <device>Urządzenie</device>
+    <account_is_disabled>To konto jest wyłączone.</account_is_disabled>
+    <active>Aktywne</active>
+    <last_sync>Ostatnia synchronizacja</last_sync>
+    <add_members>Dodaj członków</add_members>
+    <members>Członkowie</members>
+    <message>Wiadomość</message>
+    <mailinglistinfo>Lista mailingowa</mailinglistinfo>
+    <groupinfo>Grupa</groupinfo>
+    <select_domain>Wybierz domenę</select_domain>
+    <all_types>Wszzystkie typy</all_types>
+    <custom>Dowolne (aż do progu rozmiaru)</custom>
+    <headers>Tylko nagłówki</headers>
+    <full>Wszystkie dane</full>
+    <numbered_structure>Struktura numerowana</numbered_structure>
+    <folder_name_only>Tylko nazwa folderu</folder_name_only>
+    <full_folder_path>Pełna ścieżka folderu</full_folder_path>
+    <outlook_native>Outlook natywny</outlook_native>
+    <force_settings>Ustawienia siły</force_settings>
+    <set_as_default>Ustaw jako domyślne</set_as_default>
+    <account_features>Właściowości konta</account_features>
+    <account_quote_enabled>Kwota dyskowa konta</account_quote_enabled>
+    <account_state>Stan konta</account_state>
+    <account_type>Typ konta</account_type>
+    <accountpicker>Wybierz konto</accountpicker>
+    <folderpicker>Wybierz folder</folderpicker>
+    <activation_key>Klucz aktywacyjny</activation_key>
+    <add_alias>Dodaj alias</add_alias>
+    <add_email>Dodaj e-mail</add_email>
+    <add_phone>Dodaj telefon</add_phone>
+    <address>Adres</address>
+    <advanced>Zaawansowane</advanced>
+    <alias>Alias</alias>
+    <aliases>Aliasy</aliases>
+    <all_items>Wszystkie elementy</all_items>
+    <allowed_activation_count>Dozwolona ilość aktywacji</allowed_activation_count>
+    <alternate_email>Alternatywny email</alternate_email>
+    <amount_per_day># na dzień</amount_per_day>
+    <anniversary>Rocznica</anniversary>
+    <antispam>Antyspam</antispam>
+    <antivirus>Antywirus</antivirus>
+    <appearance>Wygląd</appearance>
+    <archive>Archiwum</archive>
+    <assistant>Aystent</assistant>
+    <at>w</at>
+    <birthday>Urodziny</birthday>
+    <card>Karta</card>
+    <certificates>Certyfikaty</certificates>
+    <change_password>Zmień hasło</change_password>
+    <change_quotas>Limity użytkownika</change_quotas>
+    <check_password_policy>Hało nie spełnia warunków bezpieczeństwa haseł.</check_password_policy>
+    <city>Miasto</city>
+    <client_applications>Aplikacje klienta</client_applications>
+    <company>Firma</company>
+    <content_of_folders>Synchronizuj zawartość wybranych folderów natychmiast po wykryciu zmiany</content_of_folders>
+    <copy_incoming_mail>Kopiuj poczte przychodzącą</copy_incoming_mail>
+    <copy_outgoing_mail>Kopiuj pocztę wychodzącą</copy_outgoing_mail>
+    <country>Kraj</country>
+    <days>Dni</days>
+    <default>Domyślne</default>
+    <delete_account_when_expired>Usuń konto gdy wygaśnie</delete_account_when_expired>
+    <delete_mail_older_than>Usuń pocztę starszą niż</delete_mail_older_than>
+    <delete_spam_older_than>Delete spam older than</delete_spam_older_than>
+    <delete_older>Usuń pocztę starszą niż (dni)</delete_older>
+    <department>Departament</department>
+    <description>Opis</description>
+    <digital_certificates>Certyfikaty cyfrowe</digital_certificates>
+    <disabled>Wyłączone</disabled>
+    <disabled_login>Wyłączone (login)</disabled_login>
+    <disabled_login_receive>Wyłączone (login, otrzymać)</disabled_login_receive>
+    <display_address_book_names>Pokazuj nazwy z książki adresowej jako</display_address_book_names>
+    <do_not_forward>Nie przekazuj wiadomości spamu</do_not_forward>
+    <do_not_use_spam>Nie używaj folderu spam</do_not_use_spam>
+    <download>Pobierz</download>
+    <download_files>Pobierz pliki</download_files>
+    <email>E-mail</email>
+    <enabled>Włącz</enabled>
+    <exchange_activesync>Exchange ActiveSync</exchange_activesync>
+    <expiration>Wygaśnięcie</expiration>
+    <expires_if_inactive_for>Wygasa jeśli nieaktywne przez</expires_if_inactive_for>
+    <expires_on>Wygasa</expires_on>
+    <reset_authentication>Are you sure you wish to reset the two-factor authentication?</reset_authentication>
+    <authentication_reset_succeeded>Two-factor authentication has been reset</authentication_reset_succeeded>
+    <features>Właściwości</features>
+    <file_storage>Składowanie plików</file_storage>
+    <web_documents>WebDokumenty</web_documents>
+    <file_transfer>Transfer plików (FTP)</file_transfer>
+    <folder_structure_after>Synchronizuj strukturę folderu po</folder_structure_after>
+    <folder_synchronization_threshold>Próg synchronizacji folderu (wiadomości w folderze)</folder_synchronization_threshold>
+    <forward_to>Przekaż do</forward_to>
+    <forwarder>Forwarder</forwarder>
+    <from>od</from>
+    <gal_automatically>Synchronizuj automatycznie GAL</gal_automatically>
+    <gender>Płeć</gender>
+    <general>Ogólne</general>
+    <generate>Generuj</generate>
+    <generate_key>Generuj klucz</generate_key>
+    <groupware>GroupWare</groupware>
+    <home_address>Adres domowy</home_address>
+    <home_email>E-mail domowy</home_email>
+    <home_phone>Telefon domowy</home_phone>
+    <info>Info</info>
+    <instant_messaging>Wiadomości błyskawiczne</instant_messaging>
+    <job>Praca</job>
+    <last_time_logged>Ostatnio zalogowany</last_time_logged>
+    <lastname>Nazwisko</lastname>
+    <licence>Licencja</licence>
+    <licenses>Licencja</licenses>
+    <limits>Limity</limits>
+    <manage>Zarządzaj</manage>
+    <manager>Manager</manager>
+    <max_message_size>Max rozmiar wiadomości</max_message_size>
+    <messaging>Messaging</messaging>
+    <mobile_devices>Urządzenia przenośne</mobile_devices>
+    <mode>Mode</mode>
+    <must_change_password>Wymuś zmianę hasła po pierwszym logowaniu</must_change_password>
+    <name>Imię</name>
+    <new_items>Nowe elementy</new_items>
+    <note>Notatka</note>
+    <notify_before_expiration>Powiadom przed wygaśnięciem</notify_before_expiration>
+    <numbers_of_emails_sent>Liczba wysłanych maili</numbers_of_emails_sent>
+    <of>z</of>
+    <online_conferencing>WebMeetings</online_conferencing>
+    <password>Hasło</password>
+    <old_password>Stare hasło</old_password>
+    <new_password>Nowe hasło</new_password>
+    <password_again>Potwierdź hasło</password_again>
+    <password_not_saved>Hasło nie zostało zapisane. Sprawdź politykę haseł.</password_not_saved>
+    <password_policy_alpha>Liczba znaków alfanumerycznych w haśle [a-z][A-Z]</password_policy_alpha>
+    <password_policy_digits>Liczba cyfr w haśle [0-9]:</password_policy_digits>
+    <password_policy_minlength>Minimalna długość hasła:</password_policy_minlength>
+    <password_policy_nonalphanum>Liczba znaków nie alfa-numerycznych w haśle [!@#$%...]:</password_policy_nonalphanum>
+    <password_policy_upperalpha>Liczba wielkich znaków alfanumerycznych w haśle [A-Z]</password_policy_upperalpha>
+    <password_policy_useralias>Hasło nie może zawierać nazwy użytkownika lub aliasa</password_policy_useralias>
+    <permissions>Uprawnienia</permissions>
+    <permissions_and_rights>Uprawnienia &amp; prawa</permissions_and_rights>
+    <phone>Telefon</phone>
+    <pop_imap>POP3/IMAP</pop_imap>
+    <quarantine>Kwarantanna</quarantine>
+    <quotas>Kwoty</quotas>
+    <respond_again_after>Odpowiedz ponownie po (dni)</respond_again_after>
+    <respond_again_after_period>Odpowiedz ponownie po okresie</respond_again_after_period>
+    <respond_always>Odpowiadaj zawsze</respond_always>
+    <respond_once>Odpowiedz raz</respond_once>
+    <respond_only_if_between>Odpowiedz tylko jeśli w okresie</respond_only_if_between>
+    <respond_to_messages>Odpowiedz na wiadomości wysłane tylko na adres email użytkownika</respond_to_messages>
+    <responder>Responder</responder>
+    <responder_message>Wiadomość</responder_message>
+    <rules>Reguły</rules>
+    <security>Bezpieczeństwo</security>
+    <selected_priority_folders>Synchronizuj wybrane foldery priorytetowe po</selected_priority_folders>
+    <selected_standard_folders>Synchronizuj wybrane foldery standardowe po</selected_standard_folders>
+    <send_key_to_user_by_email>Wyślij klucz do uzytkownika pocztą</send_key_to_user_by_email>
+    <send_out_data_limit>Wyślij limit danych</send_out_data_limit>
+    <send_out_limit>Dzienne limity wysłanych</send_out_limit>
+    <send_out_message_limit>Litmit wiadomości wysłanych</send_out_message_limit>
+    <shared_folders>Foldery współdzielone</shared_folders>
+    <sms>Wiadomości tekstowe</sms>
+    <smtp>SMTP</smtp>
+    <spam_folder_mode>Tryb folderu spam</spam_folder_mode>
+    <spam_reports_mode>Tryb raportów spam</spam_reports_mode>
+    <spam_trap>Pułapka spam</spam_trap>
+    <state_county>Stan / Hrabstwo</state_county>
+    <status>Status</status>
+    <storage_usage>Wykorzystanie składowania</storage_usage>
+    <street>Ulica</street>
+    <surname>Nazwisko</surname>
+    <synchronization>Synchronizacja</synchronization>
+    <syncml>SyncML</syncml>
+    <threshold_for_full_download>Próg dla pełnego pobrania</threshold_for_full_download>
+    <unknown_ip>nieznane IP</unknown_ip>
+    <upload_photo>Załaduj foto</upload_photo>
+    <use_spam>Użyj folderu spam</use_spam>
+    <user_can_send_to_local_domains_only>Użytkownik może wysyłać tylko do domen lokalnych</user_can_send_to_local_domains_only>
+    <username>Nazwa użytkownika</username>
+    <voip>VoIP</voip>
+    <web_folders>Foldery Web (WebDAV)</web_folders>
+    <webclient>WebClient</webclient>
+    <website>Strona internetowa</website>
+    <work_address>Adres firmowy</work_address>
+    <zip>Kod pocztowy</zip>
+    <add_to_group>Dodaj do grupy</add_to_group>
+    <change_rights>Zmień prawa</change_rights>
+    <move>Przesuń</move>
+    <delete>Usuń</delete>
+    <remove>Usuń</remove>
+    <not_yet>Jeszcze nie</not_yet>
+    <teamchat>TeamChat</teamchat>
+    <enable_client_licence>Aktywuj licencję</enable_client_licence>
+    <disable_access_to_pop3>Disable access to POP3 (IMAP only account)</disable_access_to_pop3>
+    <two_factor_authentication>Two-factor authentication</two_factor_authentication>
+    <max_file_size>Max file size</max_file_size>
+    <subscription_plan>Subscription plan</subscription_plan>
+    <change_user_plan>Zmień plan użytkownika</change_user_plan>
+  </accountdetail>
+  <accountdetail_help>
+    <account_state>Wybierz czy to konto ma być w pełni funkcjonalne, częściowo ograniczone (użytkownik nie może się logować ale wiadomości będą akceptowane), wyłączone (użytkownik nie może się logować, wiadomości są odrzucane) lub będzie funkcjonować jako pułapka spamu.</account_state>
+    <activation_key>Klucz aktywacyjny umożliwia użytkownikowi poprawnie licencjonować wybrane aplikacje klienckie. Kiedy wygenerowane, jest dostępne dla użytkownika przez interfejs WebClient lub poprzez żądanie SmartSync z aplikacji klienta.</activation_key>
+    <address>Wprowadź nazwę ulicy lub miejsca pracy.</address>
+    <advanced>Włącz przełącznik tych zaawansowanych funkcji synchronizacji, które chcesz ustawić dla tego użytkownika. Wprowadź odpowiednie wartości.</advanced>
+    <aliases>Wprowadź aliasy dla tego konta. Wiadomości wysłane na te wszystkie adresy będą dostarczone do tej skrzynki.</aliases>
+    <antispam>Wybierz czy ten użytkownik będzie otrzymywał raporty spamu, będzie otrzymywał raporty jak ustawiono w Antyspam - Czynność - Raporty, raporty z wylistowanymi nowymi elementami spamu lub raporty ze wszystkimi wylistowanymi elementami spamu. Wybierz również czy ma być zastosowany folder spamu.</antispam>
+    <antispam_features>Wszechstronne filtrowanie spamu zapewnia użytkownikom kontrolę nad systemem poprzez Black Lists, White Lists, Foldery spamu &amp; raporty z kwarantanny.</antispam_features>
+    <antivirus>Firmowy Antywirus skanuje i weryfikuje każdy plik wchodżcy i wychodzący z konta, moze to byc wiadomość pocztowa, załączniki kalendarza, dokumenty i transfery plików.</antivirus>
+    <appearance>Włącz przełącznik i wybierz sposób w jaki mają być pokazywane nazwy książki adresowej.</appearance>
+    <archive>Archiwizacja zapisuje wszystkie przychodzące i wychodzące wiadomości pocztowe i wiadomości tekstowe oraz zapewnia użytkownikom dostęp do folderu Archiwum w postaci tylko do odczytu aby mogli odzyskiwać utracone wiadomości.</archive>
+    <client_applications>Zarządzaj urządzeniami mobilnymi użytkowników, aplikacjami Outlook Sync i Desktop Client.</client_applications>
+    <email>Wprowadź adres(y) pocztowe użytkownika.</email>
+    <exchange_activesync>Bezpieczna synchronizacja email, kalendarzy, kontaktów, zadań i notatek na wszystkich urządzeniach mobilnych w tym Windows Phone, iPhone, iPad i Android.</exchange_activesync>
+    <expiration>Ustaw wygaśnięcie konta użytkownika.</expiration>
+    <file_transfer>FTP pozwala użytkownikom transferować duże pliki na dedykowaną przestrzeń na serwerze. Używając standardowego klienta FTP, użytkownicy mogą przegladać, zarządzać, ładować lub pobierać pliki.</file_transfer>
+    <forwarder>Ustaw gdzie wiadomości mają być przekazywane lub kopiowane,oddzielaj kilka średnikiem. Alternatywny email jest używany podczas odzyskiwania hasła. Przychodząca/wychodząca kopia nie może być modyfikowana przez użytkownika.</forwarder>
+    <general>Wprowadź informacje o koncie. Wszystkie dane prezentowane tutaj będą także widoczne w kontaktach użytkownika w GAL. Użytkownicy mogą edytować pola w oknie dialogowym Moje szczegóły w WebClient. Wszystkie pola są opcjonalne.</general>
+    <groupware>GroupWare  musi być dozwolony dla użytkowników aby mogli mieć dostęp do informacji publicznej w tym Global Address List,kalendarzy firmowych, plików i folderów publicznych.</groupware>
+    <instant_messaging>Przekazywanie w czasie rzeczywistym wiadomości i Chat umożliwiają ciągłą i nieprzerwaną komunikację między użytkownikami, dają możliwość współdzielenia plików i widzenie obecności siebie nawzajem na liście.</instant_messaging>
+    <licence_description>Wprowadź tekst opisowy.</licence_description>
+    <limits>Włącz przełączniki i wprowadź odpowiednie wartości dla limitów kont które chcesz ustawić.</limits>
+    <note>Notatka do kontaktu (to pole jest zwykle edytowane przez użytkownika).</note>
+    <online_conferencing>Usługa WebMeetingów wspomaga współpracę i podnosi wydajność w Twoim zespole łącząc użytkowników poprzez rozmowy, wykorzystując chat i współdzielenie ekranu.</online_conferencing>
+    <permissions_and_rights>Wybierz czy ten użytkownik jest zwykłym kontem pocztowym lub administratorem serwera czy administratorem domeny. Kliknij Właściwości aby udostępnić lub nie udostępnić indywidualnie serwisy dla tego użytkownika.</permissions_and_rights>
+    <phone>Wprowadź numer(y) telefonu użytkownika.</phone>
+    <pop_imap>Serwis sytemowy dla przychodzących wiadomości musi być włączony aby poprawnie funkcjonował WebClient i inni klienci pocztowi jak Outlook, Thunderbird lub Mail.</pop_imap>
+    <quarantine>Kwarantanna pozwala Ci umieścić oczekiwane wiadomości przychodzące w kolejce oczekujących na ręczną autoryzację przez administratora lub osobiscie przez użytkownika.</quarantine>
+    <quotas>Przejrzyj limity liczby wiadomości wysyłanych w ciągu dnia i przestrzeni dyskowej zajmowanej przez to konto.</quotas>
+    <responder>Wybierz tryb respondera dla tego konta. Inne pola są dostępne w zależności od trybu.</responder>
+    <sms>Wbudowane wiadomości tekstowe (SMS) pozwalają użytkownikom wysyłać wiadomości tekstowe z WebClient, odpowiadać na otrzymywane wiadomości i zarządzać nimi jak emailami w Skrzynce odbiorczej.</sms>
+    <smtp>Serwis systemowy w celu wysyłania wiadomości musi być włączony aby prawidłowo funkcjonował WebClient i inni klienci pocztowi jak  Outlook, Thunderbird lub Mail.</smtp>
+    <synchronization>Włącz przełącznik tych funkcji synchronizacji które chesz usztawić dla tego użytkownika. Wprowadź odpowiednie wartości.</synchronization>
+    <syncml>Bezprzewodowa synchronizacja kalendarzy, kontaktów, zadań i notatek ze starszymi typami urządzeń mobilnych opartymi na Palm OS, Symbianie i innymi nie obsługującymi ActiveSync.</syncml>
+    <voip>Telefonia internetowa pozwala użytkownikom na wykonywanie rozmów audio/wideo i brać udział w rozmowach konferencyjnych bezpośrednio z WebClient lub przy użyciu telefonu kompatybilnego z  SIP lub  aplikacji.</voip>
+    <web_folders>Zwenętrzny dostęp do prywatnej chmury użytkownika pozwala na mapowanie jej jako dysku sieciowego w Windows/Linux/Mac i składowanie dokumentów, zdjęć i innych plików.</web_folders>
+    <webclient>Dostęp przez Web do poczty, kalendarzy, kontaktów, zadań, notatek i dokumentów. Wszystkie informacje mogą być współdzielone między użytkownikami poprzez foldery współdzielone i publiczne.</webclient>
+    <website>Wprowadź adres strony internetowej użytkownika.</website>
+    <teamchat>TeamChat jest nowoczesnym narzędziem współpracy dla zespołów i projektów. Pozwala na pozostawanie w kontakcie z innymi członkami zespołu, organizowanie rozmów dotyczących jednego tematu, współdzielenie plików lub tworzenie meeting&apos;ów ad-hoc.</teamchat>
+    <web_documents>Online editors of Microsoft Office and OpenOffice file formats. Create documents with beautiful formatting, stunning presentations, spreadsheets with formulas, all without leaving the WebClient.</web_documents>
+  </accountdetail_help>
+  <accountdetail_placeholder>
+    <folder_synchronization_threshold>Wprowadź maksymalną liczbę wiadomości w folderze</folder_synchronization_threshold>
+  </accountdetail_placeholder>
+  <accountinfo>
+    <name>Nazwa</name>
+    <ignore_password_policy>Ignoruj reguły haseł</ignore_password_policy>
+  </accountinfo>
+  <synchronization>
+    <address_books>Address books</address_books>
+    <advanced>Advanced</advanced>
+    <appearance>Appearance</appearance>
+    <authentication_method>Authentication method</authentication_method>
+    <automatically_revert_changes>Automatically revert changes in read only folders</automatically_revert_changes>
+    <check_for_updates>Check for updates</check_for_updates>
+    <delete_after_specified_days>Delete after specified days</delete_after_specified_days>
+    <delete_logs>Delete logs</delete_logs>
+    <disable_tnef>Disable TNEF</disable_tnef>
+    <do_not_show_connection_errors>Do not show connection errors</do_not_show_connection_errors>
+    <do_not_show_login_errors>Do not show login errors</do_not_show_login_errors>
+    <do_not_show_progress>Do not show progress</do_not_show_progress>
+    <hide_notification_after>Hide notification after (seconds)</hide_notification_after>
+    <licence_and_updates>Licence and updates</licence_and_updates>
+    <line_security>Line security</line_security>
+    <logging_level>Logging level</logging_level>
+    <login>Login</login>
+    <login_credentials>Login credentials</login_credentials>
+    <login_port>Login port</login_port>
+    <logs>Logs</logs>
+    <log_debug>Debug</log_debug>
+    <log_errors>Errors only</log_errors>
+    <new_mail_options>New mail options</new_mail_options>
+    <play_default_sound>Play default sound</play_default_sound>
+    <show_desktop_notification>Show desktop notification</show_desktop_notification>
+    <skip_trash_folder>Skip trash folder startup check</skip_trash_folder>
+    <synchronization_exceptions>Synchronization exceptions</synchronization_exceptions>
+    <synchronization_frequency>Synchronization frequency</synchronization_frequency>
+    <plain>Czysty</plain>
+    <cram_md5>Cram MD5</cram_md5>
+    <starttsl>STARTTSL</starttsl>
+    <ssl>SSL</ssl>
+    <updates>Updates</updates>
+  </synchronization>
+  <dns>
+    <no_dns_records uses="DNS validation">Brak rekordów DNS</no_dns_records>
+    <all_available>Wszystko dostępne</all_available>
+    <service_mx>Poczta</service_mx>
+    <service_autodiscover>SmartDiscover</service_autodiscover>
+    <service_autodiscover_srv>SmartDiscover</service_autodiscover_srv>
+    <service_webdav>WebDAV</service_webdav>
+    <service_sip>SIP</service_sip>
+    <service_xmpp>XMPP</service_xmpp>
+    <service_ischedule>iSchedule</service_ischedule>
+    <service_rdns>RDNS</service_rdns>
+    <service_spf>SPF</service_spf>
+    <service_dkim>DKIM</service_dkim>
+    <default_alias>Domyślny alias</default_alias>
+    <domain_type>Typ domeny</domain_type>
+    <email>E-mail</email>
+    <expires_on>Wygasa</expires_on>
+    <hostname>Hostname</hostname>
+    <ip_address>Adres IP</ip_address>
+    <name>Nazwa</name>
+    <type>Typ</type>
+    <user_count>Licznik użytkownika</user_count>
+    <user_limit>Limit użytkownika</user_limit>
+    <dns>Current DNS records</dns>
+    <academy_text>Zapoznaj się z filmem w Akademii IceWarp, jak prawidłowo skonfigurować rekordy DNS. Przykładowy plik strefy dla Twojej domeny można pobrać poniżej.</academy_text>
+    <academy_caption>Aktualizacja pliku stref</academy_caption>
+    <academy_warning>Sprawdź ustawienia rekordów DNS</academy_warning>
+    <general>Ogólne</general>
+    <loading>Łauje informacje o domenie</loading>
+    <learn_more>Dowiedz się więcej o walidacji</learn_more>
+  </dns>
+  <dns_help>
+    <dns>Current DNS settings for your domain are listed below. Incorrect or missing entries are marked in red color.</dns>
+  </dns_help>
+  <dkim>
+    <domain_key_selector>Domain key selector</domain_key_selector>
+    <selector>Selektor</selector>
+    <selector_placeholder>Unique arbitrary string</selector_placeholder>
+    <no_selector>Podaj unikalny selektor dla tego serwera</no_selector>
+    <generate_key>Generuj nowy klucz</generate_key>
+    <selector_host>Nazwa hosta</selector_host>
+    <selector_record>Rekord selektora</selector_record>
+    <sign_outgoing_mails>Podpisz maile wychodzące DKIM</sign_outgoing_mails>
+    <reset>Zresetuj ustawienia DKIM</reset>
+    <reset_succeeded>DKIM został zresetowany</reset_succeeded>
+    <wizard>Kreator DKIM</wizard>
+    <academy_title>Poradnik dotyczący konfiguracji DKIM w akademii IceWarpa</academy_title>
+    <academy_caption>Aktualizacja pliku stref</academy_caption>
+    <academy_text>Zobacz materiały wideo na stronie, aby dowiedzieć się jak poprawnie skonfigurować DKIM.</academy_text>
+    <setup>Ustawienia DKIM</setup>
+    <setup_failed>Konfiguracja DKIM nie powiodła się</setup_failed>
+    <loading>Generowanie nowego klucza</loading>
+  </dkim>
+  <dkim_help>
+    <domain_key_selector>Any text, if you set DKIM for this domain on multiple servers, each server has to have unique selector.</domain_key_selector>
+    <selector_record>Configure your DNS server with the public key. You need to add the following entry into your DNS server for e.g. icecream._domainkey.www.icewarp.com.</selector_record>
+    <wizard>DKIM is used by remote servers for verification that emails sent from this domain are not spoofed. In order to use DKIM, DNS TXT record &amp;lt;Selector&amp;gt;._domainkey.&amp;lt;domainname&amp;gt; has to be created.</wizard>
+  </dkim_help>
+  <accountpicker>
+    <users>Użytkownicy</users>
+    <domains>Domeny</domains>
+    <items_selected>Elementy wybrane</items_selected>
+    <show_them>Pokaż wybrane</show_them>
+    <hide_them>Pokaż wszystko</hide_them>
+    <account_picker>Wybierz konto</account_picker>
+    <account_type>Typ konta</account_type>
+    <add_account>Dodaj konta</add_account>
+    <add_domain>Dodaj domenę</add_domain>
+    <add_user>Dodaj użytkownika</add_user>
+    <domain>Domena</domain>
+    <filter>Filtr</filter>
+    <add_external>Dodaj z zewnątrz</add_external>
+    <add_external_members>Dodaj użytkowników zewnętrznych</add_external_members>
+  </accountpicker>
+  <spam_queues>
+    <quarantine>Kwarantanna</quarantine>
+    <whitelist>Biała lista</whitelist>
+    <blacklist>Czarna lista</blacklist>
+    <action_delete>Usuń</action_delete>
+    <action_deliver>Dostarcz</action_deliver>
+    <action_whitelist>Biała lista</action_whitelist>
+    <action_blacklist>Czarna lista</action_blacklist>
+    <add_item>Dodaj</add_item>
+    <detail>Szczegół</detail>
+  </spam_queues>
+  <spamqueues_header>
+    <sender>Nadawca</sender>
+    <subject>Temat</subject>
+    <date>Data</date>
+    <owner>Właściciel</owner>
+    <domain>Domena</domain>
+    <filter_sender>Filtruj nadawcę</filter_sender>
+    <filter_owner>Filtruj właściciela</filter_owner>
+    <filter_domain>Filtruj domenę</filter_domain>
+    <filter>Filtruj wyniki</filter>
+  </spamqueues_header>
+  <certificates>
+    <server_certificates>Certyfikaty serwera</server_certificates>
+    <ca_certificates>Certyfikaty CA</ca_certificates>
+    <secure_destinations>Zabezpiecz miejsca docelowe</secure_destinations>
+    <create_certificate>Utwórz certyfikat CSR / serwera</create_certificate>
+    <wizard>Opcje certyfikatu</wizard>
+    <reissue>Ponowne wydanie</reissue>
+    <finalize>Zakończ</finalize>
+    <properties>Właściwości</properties>
+    <edit>Edytuj</edit>
+    <add_hostname>Dodaj inną nazwę hosta</add_hostname>
+    <bits>Bity</bits>
+    <validity>Ważność</validity>
+    <country>Kraj</country>
+    <state>Stan</state>
+    <city>Miasto</city>
+    <organization>Organizacja</organization>
+    <organization_unit>Jednostka organizacyjna</organization_unit>
+    <email>E-mail</email>
+    <common_name>Nazwa zwyczajowa (FQDN)</common_name>
+    <signature_request>Utwórz Certificate Signing Request (CSR)</signature_request>
+    <ip_address>Adres IP</ip_address>
+    <no_ip_limit>Wszystko</no_ip_limit>
+    <certificate>Certyfikat</certificate>
+    <ip>Adres IP</ip>
+    <cn>CN</cn>
+    <issuer>Wystawca</issuer>
+    <expiration>Wygasa</expiration>
+    <subject>Temat</subject>
+    <cert_bits>Bity</cert_bits>
+    <fingerprint>Odcisk palca</fingerprint>
+    <type>Typ</type>
+    <type_normal>Standard</type_normal>
+    <type_csr/>
+    <type_letsencrypt>Let&apos;s Encrypt</type_letsencrypt>
+    <hostname>Nazwa hosta</hostname>
+    <default>Domyślny</default>
+    <set_as_default>Ustaw jako domyślny</set_as_default>
+    <csr>CSR</csr>
+    <add_existing>Dodaj istniejący</add_existing>
+    <new_icewarp_cert>Żądanie certyfikatu IceWarp</new_icewarp_cert>
+    <new_ca_cert>Żądaj certyfikatu organu</new_ca_cert>
+    <new_lets_encrypt_cert>Bezpłatny certyfikat Let’s Encrypt</new_lets_encrypt_cert>
+    <new_self_signed_cert>Bezpłatny samopodpisany certyfikat</new_self_signed_cert>
+    <reissue_cert>Wznów certyfikat</reissue_cert>
+    <reissue_icewarp_cert>Wznów jako certyfikat IceWarp</reissue_icewarp_cert>
+    <reissue_ca_cert>Wznów jako certyfikat organu</reissue_ca_cert>
+    <reissue_lets_encrypt_cert>Wznów jako certyfikat Let’s Encrypt</reissue_lets_encrypt_cert>
+    <reissue_self_signed_cert>Wznów jako certyfikat samopodpisany</reissue_self_signed_cert>
+    <unit>Jednostka</unit>
+    <company_details>Dane firmy</company_details>
+    <add_certificate>Dodaj certyfikat</add_certificate>
+    <certificate_settings>Ustawienia certyfikatu</certificate_settings>
+    <icewarp_details>Certyfikat IceWarp</icewarp_details>
+    <authority_details>Szczegóły certyfikatu</authority_details>
+    <letsencrypt_details>Certyfikat Let&apos;s Encrypt</letsencrypt_details>
+    <selfsigned_details>Certyfikat samopodpisany</selfsigned_details>
+    <email_details>Certyfikat e-mail</email_details>
+    <details>Szczegóły</details>
+    <ip_binding>Łączenie IP</ip_binding>
+    <domains>Domeny</domains>
+    <errors>Błędy</errors>
+    <export_csr>Eksportuj CSR</export_csr>
+    <bind_certificate>Połącz certyfikat</bind_certificate>
+    <all_ips>Wszystkie adresy IP</all_ips>
+    <selected_ips>Wybrane adresy IP</selected_ips>
+    <cert_domains>Certyfikowane domeny</cert_domains>
+    <cert_failure>Błąd certyfikatu</cert_failure>
+    <last_cert_attempt>Ostatnia próba autoryzacji certyfikatu</last_cert_attempt>
+    <error>Błąd</error>
+    <ver_failed_for>Niepoprawna weryfikacja dla</ver_failed_for>
+    <reuse>Użyj ponownie pary klucza prywatnego / publicznego</reuse>
+    <generate>Generuj parę klucz prywatny / publiczny</generate>
+    <domain_unknown>Nieznany</domain_unknown>
+    <domain_error>Błąd</domain_error>
+    <domain_valid>Ważny</domain_valid>
+    <domain_invalid>Nieważny</domain_invalid>
+    <domain_timeout>Limit czasu</domain_timeout>
+    <key_pair>Para klucza</key_pair>
+    <hostnames>Nazwy hostów</hostnames>
+  </certificates>
+  <certificates_help>
+    <add_existing>Wybierz, jeśli masz już certyfikat SSL.</add_existing>
+    <new_icewarp_cert>Kup zaufany certyfikat SSL serwera od IceWarp&apos;a w kilku prostych krokach. Wznów, jeśli certyfikat wygasa lub jeśli dodałeś nowe domeny.</new_icewarp_cert>
+    <new_ca_cert>Generuj żądanie certyfikatu poprzez wybranego zaufanego dostawcę certyfikatów. Wznów, jeśli certyfikat wygasa lub jeśli dodałeś nowe domeny.</new_ca_cert>
+    <new_lets_encrypt_cert>Wygeneruj bezpłatny certyfikat Let&apos;s Encrypt. Certyfikat jest automatycznie wznawiany przed wygaśnięciem, wznów go ręcznie, jeśli domeny muszą być dodane lub usunięte.</new_lets_encrypt_cert>
+    <new_self_signed_cert>Generuj bezpłatny certyfikat niezweryfikowany przez organ certyfikujący. Użyj tego rozwiązania raczej jako tymczasowego. Pamiętaj o odnowieniu certyfikatu.</new_self_signed_cert>
+    <csr>To jest Certificate Signing Request (CSR). CSR musi zostać dostarczony do organu certyfikującego. Po zakończeniu procesu walidacji, połącz certyfikat otrzymany od organu z oryginalnym CSR&apos;em.</csr>
+  </certificates_help>
+  <policies>
+    <login>Polityka logowania</login>
+    <password>Polityka haseł</password>
+    <outlook>Polityka Outlooka</outlook>
+    <block_user_login_accounts>Blokuj logowanie dla kont, które przekroczyły liczbę błędnych logowań</block_user_login_accounts>
+    <block_user_login_time>Blokuj logowanie użytkownika przez</block_user_login_time>
+    <login_policy_mode>Model polityki logowania:</login_policy_mode>
+    <require_administrator>Wymaga logowania administratora, aby mieć dostęp do ustawień systemu</require_administrator>
+    <usernames>Nazwy użytkownika</usernames>
+    <email_addresses>Adresy e-mail</email_addresses>
+    <convert_usernames>Konwertuj % i / na @ w nazwach użytkownika</convert_usernames>
+    <account_ip_restriction>Ogranicz logowanie użytkowników do wybranych adresów IP</account_ip_restriction>
+    <login_restriction>Ograniczenia logowania</login_restriction>
+    <users_login>Login uzytkowników z ich</users_login>
+    <login_policy>Polityka logowania</login_policy>
+    <password_policy>Polityka haseł</password_policy>
+    <active>Aktywne</active>
+    <password_cannot_contain>Hasło nie może zawierać nazwy użytkownika lub aliasu</password_cannot_contain>
+    <enable_password>Pozwalaj na szyfrowanie hasła</enable_password>
+    <minimal_password_length>Minimalna długość hasła</minimal_password_length>
+    <numeric>Liczba znaków numerycznych w haśle [0-9]</numeric>
+    <non_alpha_numeric>Liczba znaków niealfanumerycznych w haśle [!@#$%...]</non_alpha_numeric>
+    <alpha>Liczba znaków alfanumerycznych w haśle [a-z][A-Z]</alpha>
+    <uppercase_alpha>Liczba wielkich liter w haśle [A-Z]</uppercase_alpha>
+    <password_expires_after>Hasło wygasa po</password_expires_after>
+    <notify_before_expiration>Powiadom przed wygaśnięciem</notify_before_expiration>
+    <custom_notification>Plik niestandardowego powiadamiania o wiadomościach</custom_notification>
+    <passwords_read_exported>Hasła nie mogą być odczytywane lub eksportowane</passwords_read_exported>
+    <admin_passwords_read_exported>Hasła administatora nie mogą być odczytywane lub eksportowane</admin_passwords_read_exported>
+    <do_not_block_but_delay>Nie blokuj, ale opóźnij proces uwierzytelniania</do_not_block_but_delay>
+    <block_account>Blokuj konto przez określony czas</block_account>
+    <manage>Zarządzaj</manage>
+    <general>Ogólne</general>
+    <password_format>Format hasła</password_format>
+    <password_expiration>Wygaśnięcie hasła</password_expiration>
+    <password_retrieval>Odzyskiwanie hasła</password_retrieval>
+  </policies>
+  <whitelabeling>
+    <use_default>Ustaw jako wartości domyślne</use_default>
+    <available_interfaces>Dostępne interfejsy</available_interfaces>
+    <disable_autofill>Autouzupełnianie nazwy użytkownika / hasła</disable_autofill>
+    <disable_facebook_integration>Integracja z Facebookiem</disable_facebook_integration>
+    <disable_interface>Wybór interfejsu</disable_interface>
+    <disable_language>Wybór języka</disable_language>
+    <disable_login_banners>Reklamy</disable_login_banners>
+    <disable_login_help>Pomoc przy logowaniu</disable_login_help>
+    <disable_remember_me>Zapamiętaj mnie</disable_remember_me>
+    <disable_sign_up>Zarejestruj się</disable_sign_up>
+    <disable_support_link>Link do wsparcia technicznego</disable_support_link>
+    <disable_twitter_integration>Integracja zTwitterem</disable_twitter_integration>
+    <disable_linkedin_integration>Integracja z LinkedIn</disable_linkedin_integration>
+    <login_logo>Logo strony logowania</login_logo>
+    <login_style>Styl logowania</login_style>
+    <page_title>Tytuł strony</page_title>
+    <preferred_interface>Preferowany interfejs</preferred_interface>
+    <skin>Skórka</skin>
+    <skin_style>Styl skórki</skin_style>
+    <background_img>Obraz tła</background_img>
+    <twitter_handle>Obsługa Twittera</twitter_handle>
+    <upload>Wczytaj</upload>
+    <url_to_like>URL strony do polubienia</url_to_like>
+    <wa_skin>Skórka WebAdmina</wa_skin>
+    <wc_skin>Skórka WebClienta</wc_skin>
+    <blue uses="Login style,Skin style">Niebieski</blue>
+    <black uses="Login style,Skin style">Czarny</black>
+    <brown uses="Login style,Skin style">Brązowy</brown>
+    <graphite uses="Login style,Skin style">Grafitowy</graphite>
+    <green uses="Login style,Skin style">Zielony</green>
+    <orange uses="Login style,Skin style">Pomarańczowy</orange>
+    <pink uses="Login style,Skin style">Różowy</pink>
+    <purple uses="Login style,Skin style">Purpurowy</purple>
+    <red uses="Login style,Skin style">Czerwony</red>
+    <yellow uses="Login style,Skin style">Żółty</yellow>
+    <desktop uses="Preferred interface,Available interfaces">Desktop</desktop>
+    <tablet uses="Preferred interface,Available interfaces">Tablet</tablet>
+    <mobile uses="Preferred interface,Available interfaces">Mobilny</mobile>
+    <facebook_page_url>URL strony Facebook</facebook_page_url>
+    <twitter_page_url>URL strony Twittera</twitter_page_url>
+    <linkedin_page_url>URL strony LinkedIn</linkedin_page_url>
+    <language>Język</language>
+    <server_language>Język serwera</server_language>
+    <login_page_options>Opcje strony logowania</login_page_options>
+    <social_integration>Integracja z mediami społecznościowymi</social_integration>
+    <interfaces>Interfejsy</interfaces>
+    <background_image>Obraz tła</background_image>
+    <choose_image>Wybierz obraz</choose_image>
+    <choose_color>Wybierz kolor</choose_color>
+    <login_heading>Nagłówek logowania</login_heading>
+    <login_title>Tytuł logowania</login_title>
+    <login_text>Tekst logowania</login_text>
+    <login_skin>Skórka ekranu logowania</login_skin>
+    <email>E-mail</email>
+    <sms>Wiadomość tekstowa</sms>
+    <upload_custom_background>Załaduj spersonalizowane tło</upload_custom_background>
+    <search>Szukaj</search>
+    <search_query>Zapytanie wyszukiwania</search_query>
+    <banners>Reklamy banerowe</banners>
+    <banner_none>Wyłącz</banner_none>
+    <banner_url>Obraz statyczny</banner_url>
+    <banner_code>AdSense</banner_code>
+    <top_banner_type>Leaderboard przy logowaniu</top_banner_type>
+    <bottom_banner_type>Prostokąt w liście IM</bottom_banner_type>
+    <desktop_banner_type>Pełna rozdzielczość (728x90 px)</desktop_banner_type>
+    <mobile_banner_type>Mobilna rozdzielczość (300 x100 px)</mobile_banner_type>
+    <login_banners>Strona logowania</login_banners>
+    <webclient_banners>WebClient</webclient_banners>
+    <adsense_settings>Ustawienia AdSense</adsense_settings>
+    <adsense_customer_id>ID klienta AdSense</adsense_customer_id>
+    <adsense_slot_id>ID slotu AdSense</adsense_slot_id>
+    <required>Wymagane</required>
+    <custom_sign_up_fields>Spersonalizowane pola logowania</custom_sign_up_fields>
+    <nickname>Pseudonim</nickname>
+    <company>Firma</company>
+    <job>Zawód</job>
+    <profession>Wykształcenie</profession>
+    <mobile_phone>Telefon komórkowy</mobile_phone>
+    <work_phone>Telefon służbowy</work_phone>
+    <home_phone>Telefon domowy</home_phone>
+    <im>IM</im>
+    <gender>Płeć</gender>
+    <birthday>Urodziny</birthday>
+    <homepage>Strona domowa</homepage>
+    <two_step_verification>Weryfikacja logowania</two_step_verification>
+    <verification_method>Metoda weryfikacji</verification_method>
+    <ic_skin>Skórka IceChat Mobile</ic_skin>
+    <require_contact_number>Wymaga numeru kontaktowego</require_contact_number>
+    <conferencing>Konferencje</conferencing>
+    <conferencing_logo>Logo konferencji</conferencing_logo>
+  </whitelabeling>
+  <whitelabeling_help>
+    <login_logo>Wybierz logo widoczne na stronie logowania. Wspierane rozszerzenia: JPG, PNG, GIF, SVG. Maksymalny rozmiar pliku: 20 MB.</login_logo>
+    <login_page_options>Wybierz elementy strony logowania, które chcesz pokazać lub ukryć.</login_page_options>
+    <login_skin>Skonfiguruj wygląd strony logowania.</login_skin>
+    <login_skin_style>Wybierz dominujący kolor strony logowania.</login_skin_style>
+    <login_background>Wybierz obraz tła dla strony logowania.</login_background>
+    <page_title>Zmień tekst, który widzą użytkownicy w tytule okna.</page_title>
+    <server_language>Ustaw preferencje języka dla Twoich użytkowników.</server_language>
+    <social_integration>Ustaw linki do mediów społecznościowych.</social_integration>
+    <wa_skin>Wybierz, jak WebAdmin ma wyglądać.</wa_skin>
+    <wa_skin_style>Wybierz wiodący kolor konsoli WebAdmin.</wa_skin_style>
+    <wc_skin>Wybierz, jak WebClient ma wyglądać.</wc_skin>
+    <wc_skin_style>Wybierz wiodący kolor WebClienta.</wc_skin_style>
+    <search_query>Dostarcza link do silnika wyszukiwarki którą wybierasz, gdzie %%query%% będzie zastąpione przez frazy wyszukiwania wprowadzone przez użytkowników. Przykład: https://www.google.com/#q=%%query%%+site:icewarp.com.</search_query>
+    <banners>Umieść reklamy na banerze na Twojej stronie logowania i w WebCliencie.</banners>
+    <banner_url>Wprowadź URL obrazu który będzie używany jako baner.</banner_url>
+    <banner_code>Wprowadź spersonalizowany AdSense slot ID dostarczony przez dostawcę AdSense.</banner_code>
+    <login_banners>Użyj mobilnej alternatywy i obrazów w pełnej rozdzielczości jako banerów reklamowych lub połącz z siecią reklamową.</login_banners>
+    <webclient_banners>Umieść reklamy dla różnych rozdzielczości ekranu na stronie logowania lub na dole liście kontaktów IM.</webclient_banners>
+    <adsense_settings>Wprowadź Twoje ID klienta AdSense.</adsense_settings>
+    <custom_sign_up_fields>Wybierz które pola vCard będą wymagane podczas logowania.</custom_sign_up_fields>
+    <two_step_verification>Wybierz metodę weryfikacji podczas logowania się użytkowników.</two_step_verification>
+    <conferencing>Zmień wygląd aplikacji do konferencji</conferencing>
+    <conferencing_logo>Zmień logo wyświetlane na stronie konferencji. Wspierane formaty plików: JPG, PNG, GIF. Maksymalny rozmiar: 20 MB.</conferencing_logo>
+  </whitelabeling_help>
+  <preview>
+    <language>EN</language>
+    <sign_in_webclient>Zaloguj się do serwera poczty</sign_in_webclient>
+    <password>Hasło</password>
+    <sign_in>Zaloguj się</sign_in>
+    <remember_me>Nie wylogowuj mnie</remember_me>
+    <contact_admin>Skontaktuj się z nami</contact_admin>
+    <not_you>To nie Ty?</not_you>
+    <choose_account>Wybierz inne konto</choose_account>
+    <powered>Powered by IceWarp © 2020</powered>
+    <find_out_more>Aby dowiedzieć się więcej o IceWarpie, odwiedź</find_out_more>
+    <search>Szukaj</search>
+  </preview>
+  <preview_icechat>
+    <sign_in_with>Zaloguj się kontem IceWarp WebClient</sign_in_with>
+    <email>E-mail</email>
+    <password>Hasło</password>
+    <sign_in>ZALOGUJ SIĘ</sign_in>
+  </preview_icechat>
+  <resource>
+    <alias>Alias</alias>
+    <name>Nazwa</name>
+    <type>Typ</type>
+    <general>Ogólne</general>
+    <temporarily_unavailable>Czasowo niedostępne</temporarily_unavailable>
+    <allow_conflicts>Pozwól na konflikt</allow_conflicts>
+    <send_notification>Wyślij powiadomienie do użytkownika</send_notification>
+    <permissions>Uprawnienia</permissions>
+    <resource_members>Lista uczestników używających zasoby</resource_members>
+    <members>Uczestnicy</members>
+  </resource>
+  <resource_help>
+    <resource_members>Przejrzyj uczestników, dodaj nowych lub usuń obecnych. Zaznacz odpowiednie pole i kliknij przycisk Wybierz akcję, aby usunąć uczestnika.</resource_members>
+  </resource_help>
+  <smartdiscover>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <public_hostname>Publiczna nazwa hosta</public_hostname>
+    <smtp>SMTP</smtp>
+    <pop3>POP3</pop3>
+    <imap>IMAP</imap>
+    <xmpp>XMPP</xmpp>
+    <sip>SIP</sip>
+    <mobilesync>MobileSync (ActiveSync)</mobilesync>
+    <syncml>SyncML (OMA DS)</syncml>
+    <webdav_smartattach>WebDAV &amp; SmartAttach</webdav_smartattach>
+    <webclient>WebClient</webclient>
+    <webadmin>WebAdmin</webadmin>
+    <free_busy>Wolny / Zajęty</free_busy>
+    <internet_calendar>Kalendarz internetowy</internet_calendar>
+    <sms>SMS</sms>
+    <anti_spam_reports>Raporty antyspamu</anti_spam_reports>
+    <install>Instaluj</install>
+    <teamchat>TeamChat</teamchat>
+    <standard>Standard</standard>
+    <tls_ssl>TLS / SSL</tls_ssl>
+    <no_ssl>Drugi port podstawowy (nie SSL)</no_ssl>
+    <set_all_to_new_domain_name>Ustaw wszystko dla nowej nazwy hosta</set_all_to_new_domain_name>
+    <collaboration>Adres URL API do pracy grupowej</collaboration>
+    <conference>URL konferencji</conference>
+  </smartdiscover>
+  <subscription>
+    <active_users>Podgląd aktywnych użytkowników</active_users>
+    <any_questions>Jakieś pytania?</any_questions>
+    <billing_address>Adres rozliczeniowy</billing_address>
+    <cancel_subscription>Anuluj</cancel_subscription>
+    <order_information>Informacje o zamówieniu</order_information>
+    <order_id>ID zamówienia</order_id>
+    <card_details>Szczegóły karty</card_details>
+    <card_number>Numer karty</card_number>
+    <change_details>Szczegóły zmiany</change_details>
+    <change_plan>Zmień</change_plan>
+    <company_name>Nazwa firmy</company_name>
+    <current_plan>Bieżący plan</current_plan>
+    <customer_details>Szczegóły klienta</customer_details>
+    <expiration_date>Data wygaśnięcia</expiration_date>
+    <invoices>Faktury</invoices>
+    <last_invoices>Ostatnie faktury</last_invoices>
+    <no_invoices>Obecnie nie posiadasz &lt;strong&gt;żadnych faktur&lt;/strong&gt;</no_invoices>
+    <payment_details>Szczegóły płatności</payment_details>
+    <payments>Informacje o płatności</payments>
+    <per_user_month>za użytkownika/miesiąc</per_user_month>
+    <plan_details>Szczegóły planu</plan_details>
+    <price_all_users_month>Całkowite koszty miesięczne</price_all_users_month>
+    <price_user_month>Cena za użytkownika/miesiąc</price_user_month>
+    <trial>Wersja próbna</trial>
+    <show_invoice_list>Pokaż wszystkie faktury</show_invoice_list>
+    <storage>Przestrzeń na użytkownika</storage>
+    <subscription_details>Szczegóły subskrybcji</subscription_details>
+    <your_trial_ends>Twoja wersja próbna kończy się:</your_trial_ends>
+    <number_of_users>Ilość użytkowników</number_of_users>
+    <manage_subscription>Zarządzaj subskrypcją</manage_subscription>
+    <subscription_settings>Ustawienia subskrypcji</subscription_settings>
+    <datacenter_storage_support>Centrum danych, magazyn danych i wsparcie</datacenter_storage_support>
+    <support>Wsparcie</support>
+    <next_billing>Następne rozliczenie</next_billing>
+    <total_price>Cena całkowita</total_price>
+    <billing_period>Okres rozliczeniowy:</billing_period>
+    <technical_support>Wsparcie techniczne</technical_support>
+    <business_support>Wsparcie dla biznesu</business_support>
+    <contact_our_support>Możesz skontaktować się z naszym wsparciem 24/7</contact_our_support>
+    <free>DARMOWA</free>
+    <page_reload>Strona musi zostać odświeżona, w celu wczytania nowej licencji</page_reload>
+  </subscription>
+  <loginpage>
+    <no_cookie>Twoja przeglądarka nie zezwala Javascriptowi na utworzenie cookies</no_cookie>
+    <title_admin>IceWarp WebAdmin</title_admin>
+    <new_interface>Nowy interfejs</new_interface>
+    <old_interface>Stary interfejs</old_interface>
+    <sign_in_text>Zaloguj się na &lt;strong&gt;konto administratora,&lt;/strong&gt;aby zarządzać domenami i użytkownikami</sign_in_text>
+    <sign_in>Zaloguj się</sign_in>
+    <email>E-mail</email>
+    <username>Nazwa użytkownika</username>
+    <password>Hasło</password>
+    <remember_me>Zapamiętaj mnie</remember_me>
+    <forgotten_password>Zapomniane hasło</forgotten_password>
+    <visit_text>Aby dowiedzieć się więcej o serwerze IceWarp, odwiedź</visit_text>
+    <visit_url>http://www.icewarp.com/</visit_url>
+    <visit_link>www.icewarp.com</visit_link>
+    <powered_by>Powered by IceWarp Server &amp;copy; 2020</powered_by>
+    <oops_headline>Nieobsługiwana przeglądarka</oops_headline>
+    <oops_text>WebAdmin jest &lt;strong&gt;niekompatybilny&lt;/strong&gt; z Twoją przeglądarką lub urządzeniem. Dla komfortu użytkowania, użyj jednej z tych przeglądarek:</oops_text>
+    <recommended>Zalecane</recommended>
+    <supported>Wspierane</supported>
+    <supported_version>Wspierane</supported_version>
+    <chrome>Chrome</chrome>
+    <explorer>Explorer (Edge)</explorer>
+    <firefox>Firefox</firefox>
+    <safari>Safari</safari>
+    <opera>Opera</opera>
+    <divtcha>Przepisz kod</divtcha>
+    <wrong_captcha>Kod jest niepoprawny.</wrong_captcha>
+    <auth_sent>Wysłaliśmy Ci e-mail który zawiera bezpieczny link. Kliknięcie na link pozwoli Ci na dostęp do zarządzania spamem przez ograniczony czas.</auth_sent>
+  </loginpage>
+  <error>
+    <failed>Niepowodzenie</failed>
+    <fill_in_non_negative_value>Ujemne wartości nie są dozwolone.</fill_in_non_negative_value>
+    <account_password_policy>Hasło nie spełnia polityki haseł</account_password_policy>
+    <auth_email_missing>Brak adresu e-mail</auth_email_missing>
+    <identical_email>Nie możesz przypisać swojej nazwy użytkownika do innego użytkownika w tej samej domenie</identical_email>
+    <insufficient_rights>Niedostateczne uprawnienia, aby wykonać tę akcję.</insufficient_rights>
+    <connection>Nie można połączyć się z serwerem. Sprawdź swoje połączenie z internetem lub skontaktuj się z administratorem.</connection>
+    <invalid_command>Polecenie nie może zostać wykonane</invalid_command>
+    <invalid_data>Niepoprawne dane</invalid_data>
+    <no_key_defined>Brak zdefiniowanego klucza</no_key_defined>
+    <save_unsuccessful>Ustawienia nie zostały zapisane</save_unsuccessful>
+    <action_failed>Żądana akcja nie może zostać wykonana</action_failed>
+    <license_key_send_failed>Nie można wysłać klucza licencyjnego</license_key_send_failed>
+    <unknown_error>Nieznany błąd</unknown_error>
+    <auth_login_invalid>Błędny login</auth_login_invalid>
+    <wrong_password>Błędne hasło</wrong_password>
+    <password_too_short>Hasło jest zbyt krótkie</password_too_short>
+    <password_does_not_match>Hasła nie pasują</password_does_not_match>
+    <password_contains_alias>Hasło nie może zawierać danych aliasu</password_contains_alias>
+    <password_numeric_chars>Zbyt mało cyfr w haśle</password_numeric_chars>
+    <password_non_alpha_num_chars>Zbyt mało znaków alfanumerycznych w haśle</password_non_alpha_num_chars>
+    <password_alpha_chars>Zbyt mało liter w haśle</password_alpha_chars>
+    <password_upper_alpha_chars>Zbyt mało dużych liter w haśle</password_upper_alpha_chars>
+    <uploader_file_type_not_allowed>Niedozwolony typ pliku</uploader_file_type_not_allowed>
+    <specify_account_name_with_domain_name>Podaj nazwę konta wraz z nazwą domeny</specify_account_name_with_domain_name>
+    <specify_domain_name>Wprowadź nazwę domeny</specify_domain_name>
+    <fatal_communication_error>Krytyczny błąd podczas komunikacji</fatal_communication_error>
+    <account_disabled>Konto wyłączone</account_disabled>
+    <account_domain_limit_exceeded>Przekroczony limit na koncie</account_domain_limit_exceeded>
+    <connection_error>Błąd połączenia</connection_error>
+    <server_failure>Nie udało się dostarczyć wymaganych danych:</server_failure>
+    <password_missing>Brak hasła</password_missing>
+    <auth_digest_expired>Hash loginu wygasł</auth_digest_expired>
+    <unexpected_response>Nieoczekiwana odpowiedź</unexpected_response>
+    <service_stop_unsuccessful>Nie można zatrzymać usługi</service_stop_unsuccessful>
+    <service_start_unsuccessful>Nie można uruchomić usługi</service_start_unsuccessful>
+    <service_restart_unsuccessful>Nie można ponownie uruchomić usługi</service_restart_unsuccessful>
+    <rule_delete_unsuccessful>Nie można usunąć reguły</rule_delete_unsuccessful>
+    <rule_save_unsuccessful>Nie można zapisać reguły</rule_save_unsuccessful>
+    <cannot_add_member_to_itself>Nie można dodać uczestnika do samego siebie</cannot_add_member_to_itself>
+    <rule_at_least_one_condition_required>Wymagany przynajmniej jeden warunek</rule_at_least_one_condition_required>
+    <account_not_created>Konto nie może zostać utworzone. Konto z takim samym aliasem już istnieje.</account_not_created>
+    <auth_password_missing>Brak hasła</auth_password_missing>
+    <login_unsuccessful>Logowanie nieudane</login_unsuccessful>
+    <sender_must_be_filled>Pole nadawcy nie może być puste</sender_must_be_filled>
+    <items_delete_failed>Usuwanie nie powiodło się</items_delete_failed>
+    <spam_queue_item_does_not_exist>Element nie istnieje</spam_queue_item_does_not_exist>
+    <items_deliver_failed>Nie udało się dostarczyć</items_deliver_failed>
+    <save_failed>Nie można zapisać</save_failed>
+    <reset_failed>Nie udało się zresetować</reset_failed>
+    <default_reset_failed>Nie można zresetować do wartości domyślnych</default_reset_failed>
+    <fetch_failed>Dane nie mogły zostać pobrane</fetch_failed>
+    <certificate_not_saved uses="server certificates">Certyfikat nie został zapisany</certificate_not_saved>
+    <delete_unsuccessfull>Usunięcie nie powiodło się</delete_unsuccessfull>
+    <account_permission>Niewystarczające uprawnienia</account_permission>
+    <license_evaluation>Licencja próbna</license_evaluation>
+    <license_reference_mismatch>Reference ID nie zgadza się z numerem licencji</license_reference_mismatch>
+    <license_revalidation>Nie udało się sprawdzić poprawności licencji</license_revalidation>
+    <license_expired>Licencja wygasła</license_expired>
+    <license_none>Brak licencji</license_none>
+    <license_build>Nieodpowiednia licencja</license_build>
+    <license_version>Nieodpowiednia licencja</license_version>
+    <cert_some_domains_were_not_verified>Niektóre z domen nie zostały zweryfikowane</cert_some_domains_were_not_verified>
+    <cert_requesting_challenges_for_domain_verification>Błąd podczas żądania ujawnienia tożsamości podczas weryfikacji domeny</cert_requesting_challenges_for_domain_verification>
+    <cert_parsing_challenges_for_domain_verification>Błąd podczas dokonywania analizy składniowej wezwania do ujawnienia tożsamości dla weryfikacji domeny</cert_parsing_challenges_for_domain_verification>
+    <cert_triggering_challenges_challenges_for_domain_verification>Błąd podczas wywoływania do ujawnienia tożsamości dla weryfikacji domeny</cert_triggering_challenges_challenges_for_domain_verification>
+    <cert_registering_acme_account>Błąd podczas rejestracji konta ACME.</cert_registering_acme_account>
+    <cert_invalid_csr_detected>Wykryto błędny CSR</cert_invalid_csr_detected>
+    <cert_signing_certificate>Błąd podczas podpisywania certyfikatu</cert_signing_certificate>
+    <cert_letsEncrypt_rate_limits_applied>Zastosowano ograniczenia Let&apos;s Encrypt&apos;a</cert_letsEncrypt_rate_limits_applied>
+    <domain_delete_failed>Domena nie może zostać usunięta</domain_delete_failed>
+    <incorrect_filetype>Wskazany plik ma nieobsługiwany format</incorrect_filetype>
+    <password_expired>Twoje hasło wygasło</password_expired>
+    <rule_activate_unsuccessful>Nie można aktywować reguły</rule_activate_unsuccessful>
+    <rule_deactivate_unsuccessful>Nie można dezaktywować reguły</rule_deactivate_unsuccessful>
+    <unsupported_image_format>Niewspierany format graficzny</unsupported_image_format>
+    <rule_at_least_one_action_required>Przynajmniej jedna czynność jest wymagana, aby kontynuować</rule_at_least_one_action_required>
+  </error>
+  <warning>
+    <operation_may_take_long_time>Ta operacja może długo potrwać. Zaparz sobie kawę.</operation_may_take_long_time>
+    <delete_selected_members>Na pewno usunąć wybranych uczestników (%s)?</delete_selected_members>
+    <delete_selected_items>Na pewno usunąć wybrane konta (%s)?</delete_selected_items>
+    <delete_selected_devices>Na pewno usunąć wybrane urządzenia (%s)?</delete_selected_devices>
+    <move_selected_accounts>Na pewno przenieść wybrane konta (%s) do domeny %s?</move_selected_accounts>
+    <changes_found>Chesz zapisać zmiany?</changes_found>
+    <identical_username>Nazwa użytkownika jest taka sama jak Twoja nazwa użytkownika. Na pewno chcesz użyć takiej nazwy?</identical_username>
+    <default_certificate_will_be_overwritten uses="server certificates">Domyślny certyfikat zostanie nadpisany</default_certificate_will_be_overwritten>
+    <delete_selected_certificates uses="server certificates">Chcesz usunąć wybrane certyfikaty?</delete_selected_certificates>
+    <delete_selected_oauths>Usunąć wskazanych klientów OAuth?</delete_selected_oauths>
+    <set_to_default>Na pewno chcesz przywrócić wartości domyślne? Stracisz bieżące ustawienia.</set_to_default>
+    <delete_domain>Domena %s będzie usunięta</delete_domain>
+  </warning>
+  <message>
+    <device_soft_wipe_set>Soft Wipe został ustawiony pomyślnie</device_soft_wipe_set>
+    <device_hard_wipe_set>Hard wipe został ustawiony pomyślnie</device_hard_wipe_set>
+    <device_set_wipe_failed>Komenda wipe nie zdziałała</device_set_wipe_failed>
+    <save_successfull>Ustawienia zostały zapisane</save_successfull>
+    <reset_to_default>Wartości zostały zresetowane do domyślnych</reset_to_default>
+    <license_key_sent_successfuly>Klucz licencyjny został pomyślnie przesłany</license_key_sent_successfuly>
+    <device_blocked>Urządzenie jest na liście blokowanych</device_blocked>
+    <device_allowed>Urządzenie jest na liście dozwolonych</device_allowed>
+    <rule_delete_successfull>Reguła została usunięta</rule_delete_successfull>
+    <rule_save_successfull>Reguła została zapisana</rule_save_successfull>
+    <item_saved_successfully>Element został pomyślnie zapisany</item_saved_successfully>
+    <items_deleted_successfully>Usunięto pomyślnie.</items_deleted_successfully>
+    <items_delivered_successfully>Elementy dostarczone pomyślnie.</items_delivered_successfully>
+    <certificate_saved uses="server certificates">Certyfikat zapisany</certificate_saved>
+    <delete_successfull>Element został usunięty</delete_successfull>
+    <domain_renamed>Nazwa domeny zmieniona</domain_renamed>
+    <items_blacklisted_successfully>Elementy dodane do czarnej listy</items_blacklisted_successfully>
+    <items_whitelisted_successfully>Elementy dodane do whitelist</items_whitelisted_successfully>
+    <rule_activate_successful>Reguła została aktywowana</rule_activate_successful>
+    <rule_deactivate_successful>Reguła została zdezaktywowana</rule_deactivate_successful>
+  </message>
+  <description>
+    <device_soft_wipe>Czy na pewno chesz zrobić soft wipe dla wybranych urządzeń?</device_soft_wipe>
+    <device_hard_wipe>Na pewno wykonać twardy wipe dla wybranego urządzenia?</device_hard_wipe>
+  </description>
+  <iframe>
+    <something_went_wrong>Coś się skiepściło.</something_went_wrong>
+    <loading>Wczytywanie</loading>
+    <reload>Wczytaj ponownie</reload>
+    <reload_helper>Proszę ponownie wczytać zawartość</reload_helper>
+  </iframe>
+  <change_plan>
+    <title>Zmień plan</title>
+  </change_plan>
+  <oauth>
+    <wizard>Kreator dostawcy OAuth</wizard>
+    <wizard_edit>Edytuj dostawcę OAuth</wizard_edit>
+    <client_id>ID klienta</client_id>
+    <name>Dostawca OAuth</name>
+    <description>Opis</description>
+    <redirect_uri>URI przekierowania</redirect_uri>
+    <auth_type>Typ autoryzacji</auth_type>
+    <auth_type_standard>Standard</auth_type_standard>
+    <auth_type_mobile>Mobilna</auth_type_mobile>
+    <auth_type_single_page>Pojedyncza strona</auth_type_single_page>
+    <secret>Hasło OAuth</secret>
+  </oauth>
+  <fulltext_search>
+    <title>Pełne wyszukiwanie tekstowe</title>
+    <configured>Pełne wyszukiwanie tekstowe jest &lt;b&gt;skonfigurowane&lt;/b&gt;</configured>
+    <not_configured>Pełne wyszukwianie tekstowe jest &lt;b&gt;nieskonfigurowane&lt;/b&gt;</not_configured>
+    <indexer>Skaner pełnego wyszukiwania tekstowego</indexer>
+    <server>Baza danych pełnego wyszukiwania tekstowego</server>
+    <docconv>Usługa konwersji dokumentów</docconv>
+    <indexpath>Folder przechowywania indeksów</indexpath>
+    <configure>Skonfiguruj pełne wyszukiwanie tekstowe</configure>
+  </fulltext_search>
+  <fulltext_search_wizard>
+    <heading>Kreator pełnego wyszukiwania tekstowego</heading>
+    <search>Pełne wyszukiwanie tekstowe</search>
+    <search_enable>Włacz pełne wyszukiwanie tekstowe w IceWarpie</search_enable>
+    <search_helper1>IceWarp obsługuje wyszukiwanie pełnotekstowe, które jest dostępne dla użytkowników w interfejsie webowym, na urządzeniach mobilnych zsynchronizowanych przez ActiveSync oraz w klientach poczty e-mail, które mogą wyszukiwać wiadomości e-mail przez protokół IMAP.</search_helper1>
+    <search_helper2>Wyszukiwarka pełnotekstowa składa się z trzech komponentów, z których każdy może działać lokalnie w tym samym systemie co IceWarp lub zdalnie, aby odciążyć procesor i wykorzystanie pamięci. Powinieneś dokładnie rozważyć, która konfiguracja będzie najlepsza dla Ciebie. Te trzy składniki to:</search_helper2>
+    <search_helper_component1>Skaner pełnego wyszukiwania tekstowego (skaner yoda)</search_helper_component1>
+    <search_helper_component2>Baza danych pełnego wyszukiwania tekstowego (yoda)</search_helper_component2>
+    <search_helper_component3>Usługa konwersji dokumentów (mundi)</search_helper_component3>
+    <scanner>Konfiguracja skanera pełnego wyszukiwania tekstowego</scanner>
+    <scanner_helper>Usługa skanera odczytuje dane z pamięci e-mail, przetwarza treść wiadomości e-mail i wysyła tekst do bazy wyszukiwania pełnotekstowego. Usługa skanera wymaga dostępu (przynajmniej z uprawnieniem do odczytu) do dysku z danymi o poczcie elektronicznej IceWarpa. Jeśli skaner jest wdrożony na zdalnym serwerze, zamontuj dysk z danymi poczty w tym samym punkcie montowania, co serwer IceWarp (% s).</scanner_helper>
+    <scanner_local>Uruchom usługę skanera lokalnie</scanner_local>
+    <scanner_local_helper>Port usługi lokalnego skanera</scanner_local_helper>
+    <scanner_remote>Połącz ze zdalną usługą skanera</scanner_remote>
+    <scanner_remote_helper>URL zdalnego skanera</scanner_remote_helper>
+    <database>Konfiguracja bazy danych pełnego wyszukiwania tekstowego</database>
+    <database_helper1>Usługa bazy danych posiada własną bazę metadanych wyszukiwania pełnotekstowego (indeks). Indeks jest przechowywany bezpośrednio w systemie plików i będzie zajmował około 10-20% pierwotnego rozmiarudysku na którym są wiadomości e-mail IceWarpa (rzeczywisty rozmiar zależy od typu danych). Usługa bazy danych działa samodzielnie i nie musi mieć dostępu do danych poczty.</database_helper1>
+    <database_helper2>Note: If you are going to change local &lt;i&gt;Index storage folder&lt;/i&gt;, you should also manually move the existing index data to the new location (this operation cannot be done automatically).</database_helper2>
+    <database_local>Uruchamiaj bazę danych lokalnie</database_local>
+    <database_local_helper>Port lokalnej bazy danych</database_local_helper>
+    <database_remote>Połącz ze zdalną usługą bazy danych</database_remote>
+    <database_remote_helper>URL zdalnej usługi bazy danych</database_remote_helper>
+    <index_storage_path>Folder plików indeksowania</index_storage_path>
+    <docconv>Konfiguracja usługi konwersji dokumentów</docconv>
+    <docconv_helper>Usługa konwersji dokumentów jest odpowiedzialna za wyodrębnianie tekstu z załączników wiadomości e-mail oraz z dokumentów przechowywanych w lokalizacjach klienta webowego lub FileSynca. IceWarp zapewnia wstępnie skonfigurowany serwer wirtualny z usługą konwersji dokumentów, który może być wdrożony na zewnątrz z serwera, na którym działa IceWarp [zalecane]. Usługa konwersji dokumentów może również działać lokalnie w tym samym systemie IceWarp, jednak w takim przypadku może nie być w stanie przekonwertować niektórych typów dokumentów. Usługa konwersji dokumentów działa samodzielnie i nie musi mieć dostępu do plików poczty.</docconv_helper>
+    <docconv_local>Uruchamiaj usługę konwersji dokumentów lokalnie</docconv_local>
+    <docconv_local_helper>Port lokalnej usługi konwersji dokumentów</docconv_local_helper>
+    <docconv_remote>Połącz ze zdalną usługą konwersji dokumentów</docconv_remote>
+    <docconv_remote_helper>URL zdalnej usługi konwersji dokumentów</docconv_remote_helper>
+    <docconv_disable>Wyłącz usługę konwersji dokumentów</docconv_disable>
+    <summary>Podsumowanie konfiguracji pełnego wyszukiwania tekstowego</summary>
+    <summary_helper>Ukończyłeś konfigurację komponentów niezbędnych do pełnego wyszukiwania tekstowego. Poniżej znajduje się podsumowanie Twojej konfiguracji.</summary_helper>
+    <runs_locally>%s działa lokalnie</runs_locally>
+    <runs_remotely>%s działa zdalnie</runs_remotely>
+    <is_disabled>%s jest wyłączone</is_disabled>
+  </fulltext_search_wizard>
+</language>

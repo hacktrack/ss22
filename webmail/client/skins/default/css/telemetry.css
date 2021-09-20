@@ -1,0 +1,37 @@
+/* block */
+*[telemetry]{
+	border: 1px dotted red!important;
+}
+	aside.telemetry_info{
+		position: absolute;
+
+		font-size: 9px;
+		padding: 0 2px;
+
+		background-color: rgba(255,0,0,0.7)!important;
+		color: #fff!important;
+
+		display: block!important;
+		width: auto!important;
+		height: auto!important;
+		line-height: 11px!important;
+
+		z-index: 100!important;
+		text-indent: 0!important;
+
+		cursor: help;
+	}
+
+/* tooltip */
+div.obj_tooltip.telemetry *{
+	line-height: 18px;
+}
+div.obj_tooltip.telemetry th{
+	text-align: left;
+	font-weight: normal;
+	color: #606060;
+	padding-right: 10px;
+}
+div.obj_tooltip.telemetry td.space{
+	height: 10px;
+}

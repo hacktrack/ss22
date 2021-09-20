@@ -1,0 +1,93 @@
+// UTILITY MIXINS
+
+// Flexit
+@mixin flexit {
+	@include flexbox;
+	@include flex-direction(column);
+	@include flex(1, 1, 0);
+}
+
+// Default border
+@mixin border($side: null) {
+	$sides: top, left, bottom, right;
+
+	@include theme {
+		@if index($sides, $side) {
+			border-#{$side}: 1px solid $theme-border-grey;
+		} @else if $side == null {
+			border: 1px solid $theme-border-grey;
+		} @else if $side == 'outline' {
+			outline: 1px solid $theme-border-grey;
+		}
+	}
+}
+
+// Vertical scroll
+@mixin scroll-vertical {
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	margin-top: -$box-padding-top;
+	padding-top: $box-padding-top;
+}
+
+// Text overflow ellipsis
+@mixin text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+// Prefixes user-select
+@mixin user-select {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+// Rotate element
+@mixin rotate($angle: 180deg) {
+	will-change: transform;
+	-webkit-transform: rotate($angle);
+	        transform: rotate($angle);
+	-webkit-transition: -webkit-transform $normal;
+	        transition: transform $normal;
+}
+
+// Object square size
+@mixin square-size($height: auto, $width: $height) {
+	width: $width;
+	height: $height;
+	line-height: $height;
+}
+
+// Element has absolute position and is the size of relative parent
+@mixin full-absolute {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+// Hides content with display: none
+@mixin hide {
+	display: none !important;
+}
+
+// Hides content only visually (stays in DOM)
+@mixin visually-hidden {
+	position: absolute !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+@mixin flex-center {
+	@include flexbox;
+	@include align-items(center);
+}

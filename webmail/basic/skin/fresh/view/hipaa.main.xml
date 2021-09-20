@@ -1,0 +1,34 @@
+<view>
+	<!-- Users form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<grid id="items" helper="item" template="hipaa.main">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<data>item.fdr</data>
+				<default>
+					<orderby>itmClassifyAs ASC</orderby>
+				</default>
+				<fields>
+					<field label="Name">fullname</field>
+					<field label="Email">email</field>
+					<field label="Type">type</field>
+				</fields>
+				<select>
+					<type>multiple</type>
+					<variable>items</variable>
+				</select>
+				<javascript>
+					<src>contact.main</src>
+					<src>toolbar</src>
+					<src>datagrid</src>
+				</javascript>
+				<stylesheet>
+					<src>datagrid</src>
+				</stylesheet>
+			</config>
+		</grid>
+	</panel>
+</view>

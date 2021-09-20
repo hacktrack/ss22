@@ -1,0 +1,108 @@
+// Usermenu
+// Main menu in main topbar on the right side, contains user info.
+
+// Block
+.usermenu {
+	@include flexbox;
+	@include align-items(center);
+	@include order(1); // Puts object at the end of the topbar
+	@include user-select;
+	padding: 0 0 0 p(1);
+	border: 0;
+	text-align: left;
+	cursor: pointer;
+
+	@include theme {
+		color: $theme-primary;
+	}
+
+	transition-property: color, background-color;
+	transition-duration: $normal;
+
+	@media #{$medium-up} {
+		@include border('left');
+		width: $main-menu-width;
+	}
+
+	// States
+	&.menu-is-open {
+		color: $white;
+		width: $main-menu-width;
+
+		&, .usermenu__rank {
+			@include theme {
+				background-color: lighten($theme-primary, 5%);
+			}
+			transition: none;
+		}
+
+		.usermenu__userhead {
+			border-color: $transparent;
+		}
+	}
+}
+
+
+// Elements
+.usermenu__userhead, .usermenu__icon {
+	@include flex(none);
+}
+
+.usermenu__text {
+	@include flex(1, 1, 0);
+	margin-left: g(1);
+	min-width: 0; // Fixes Firefox flexbox overflow bug // TEST: see if this bug got fixed
+
+	// Don't hide on small when button is active / menu is open
+	.usermenu:not(.menu-is-open) & {
+
+		@media #{$small-only} {
+			display: none;
+		}
+	}
+}
+
+.usermenu__userhead {
+	border-color: currentColor;
+	border-radius: $circle;
+	overflow: visible;
+
+	@include theme {
+		border-color: $theme-primary;
+	}
+
+	@include size-map(
+		('width', 'height', 'font-size', 'line-height'),
+		$userhead-topbar-size
+	);
+}
+
+.usermenu__name, .usermenu__email {
+	@include text-ellipsis;
+	line-height: $normal-line-height;
+}
+
+.usermenu__name {
+	font-weight: 600;
+}
+
+.usermenu__email {
+	font-size: rem(12);
+}
+
+.usermenu__icon {
+	font-size: s(1);
+	@include square-size(s(3));
+}
+
+.usermenu__rank {
+	@include square-size(s(1.5));
+	font-size: s(1);
+	position: absolute;
+	top: 0;
+	right: s(-3/4);
+	background-color: $white;
+	border-radius: $circle;
+
+	transition: background-color $normal;
+}

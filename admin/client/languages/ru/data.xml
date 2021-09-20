@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <other>
+    <primary>Основной</primary>
+    <secondary>Подчинённый</secondary>
+    <success>Успешно</success>
+    <warning>Предупреждение</warning>
+    <error>Ошибка</error>
+    <grey>Серый</grey>
+    <borderless>Неограниченный</borderless>
+    <demo>Демо</demo>
+    <other>Другое</other>
+    <search_placeholder>Поиск</search_placeholder>
+    <imagepath_en>client/languages/ru/images/</imagepath_en>
+    <session_expired>Сессия истекла</session_expired>
+  </other>
+  <main>
+    <logout>Выход</logout>
+    <dashboard>Панель</dashboard>
+    <console>API консоль</console>
+    <search>Поиск</search>
+    <support_url>https://www.icewarp.ru/support/faq/</support_url>
+    <spam_queues>СПАМ очереди</spam_queues>
+    <white_labeling>Оформление</white_labeling>
+    <content_rules>Правила содержимого</content_rules>
+    <certificates>Сертификаты</certificates>
+    <server_settings>Настройки сервера</server_settings>
+    <policies>Политики</policies>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <webclient>Веб-Клиент</webclient>
+    <support>Поддержка</support>
+    <subscription>Права доступа</subscription>
+    <account_settings>Настройки учетной записи</account_settings>
+    <management>Пользователи &amp; домены</management>
+    <oauth>OAuth providers</oauth>
+    <night_mode>Night mode</night_mode>
+  </main>
+  <form_buttons>
+    <ok>Ок</ok>
+    <cancel>Отмена</cancel>
+    <retry>Повтор</retry>
+    <close>Закрыть</close>
+  </form_buttons>
+  <datetime>
+    <php_date>d/m/Y</php_date>
+    <php_time>H:i:s</php_time>
+    <php_time_minutes>H:i</php_time_minutes>
+    <mon>Пн</mon>
+    <tue>Вт</tue>
+    <wed>Ср</wed>
+    <thu>Чт</thu>
+    <fri>Пт</fri>
+    <sat>Сб</sat>
+    <sun>Вс</sun>
+    <monday>Понедельник</monday>
+    <tuesday>Вторник</tuesday>
+    <wednesday>Среда</wednesday>
+    <thursday>Четверг</thursday>
+    <friday>Пятница</friday>
+    <saturday>Суббота</saturday>
+    <sunday>Воскресенье</sunday>
+    <january>Январь</january>
+    <february>Февраль</february>
+    <march>Март</march>
+    <april>Апрель</april>
+    <may>Май</may>
+    <june>Июнь</june>
+    <july>Июль</july>
+    <august>Август</august>
+    <september>Сентябрь</september>
+    <october>Октябрь</october>
+    <november>Ноябрь</november>
+    <december>Декабрь</december>
+    <days>день;дни</days>
+    <year>год</year>
+    <years>лет</years>
+  </datetime>
+  <service_statistics>
+    <uptime>Длительность</uptime>
+    <memorysize>Память</memorysize>
+    <memorypeak>Память (пик)</memorypeak>
+    <msgreceived>Получено</msgreceived>
+    <msgsent>Отправлено</msgsent>
+    <msgfailed>Не удалось</msgfailed>
+    <msgvirus>Вирус</msgvirus>
+    <msgcontentfilter>Фильтр содержания</msgcontentfilter>
+    <msgrules>Правила</msgrules>
+    <msgexternal>Внешний фильтр</msgexternal>
+    <msgintrusionprevention>Предотвращение вторжений</msgintrusionprevention>
+    <msgdns>DNSBL</msgdns>
+    <quarantine>Карантин</quarantine>
+    <spamassasin>SpamAssassin</spamassasin>
+    <spammarked>Отмечено как спам</spammarked>
+    <spamlivebulk>Антиспам Live (Bulk)</spamlivebulk>
+    <spamlive>Антиспам Live (Spam)</spamlive>
+    <refused>Отклонённый спам</refused>
+    <greylisting>Грейлистинг</greylisting>
+    <conntotal>Общее число соединений</conntotal>
+    <serverconn>Серверные соединения (количество)</serverconn>
+    <serverconnpeak>Серверные соединения (пик)</serverconnpeak>
+    <serverdatatotal>Данные сервера (итого)</serverdatatotal>
+    <serverdatain>Данные, полученные сервером</serverdatain>
+    <serverdataout>Данные, отправленные сервером</serverdataout>
+    <clientconn>Клиентские соединения (количество)</clientconn>
+    <clientconnpeak>Клиентские соединения (пик)</clientconnpeak>
+    <clientdatatotal>Переданные клиентские данные</clientdatatotal>
+    <clientdatain>Входящие клиентские данные</clientdatain>
+    <clientdataout>Исходящие клиентские данные</clientdataout>
+    <packetsreceived>Получено пакетов</packetsreceived>
+    <packetssent>Отправлено пакетов</packetssent>
+    <rtppacketsreceived>Отправлено RTP пакетов</rtppacketsreceived>
+    <rtppacketssent>Получено RTP пакетов</rtppacketssent>
+    <callcount>Количество звонков</callcount>
+    <callpeak>Максимальное количество звонков</callpeak>
+    <calltotal>Всего звонков</calltotal>
+  </service_statistics>
+  <management>
+    <domainlist>Список доменов</domainlist>
+    <guest_accounts>Гостевые учетные записи</guest_accounts>
+  </management>
+  <dashboard>
+    <server_data>Данные сервера (МБ)</server_data>
+    <client_data>Клиентские данные (МБ)</client_data>
+    <received>Получено</received>
+    <sent>Отправлено</sent>
+    <active_users>Активные пользователи</active_users>
+    <storage>Использованный объем хранилища</storage>
+    <mail_sent>Сообщений отправлено</mail_sent>
+    <mail_received>Сообщений получено</mail_received>
+    <realtime>В настоящее время</realtime>
+    <hour>За последний час</hour>
+    <day>За последний день</day>
+    <week>За последнюю неделю</week>
+    <month>За последний месяц</month>
+    <year>За последний год</year>
+    <current_traffic>Текущий трафик</current_traffic>
+    <services_statuses>Статусы служб</services_statuses>
+    <services>Службы</services>
+    <uptime>Длительность</uptime>
+    <connections>Соединения</connections>
+    <data>Данные</data>
+    <service>Служба</service>
+    <category>Категория</category>
+    <time_period>Период</time_period>
+    <cancel>Отмена</cancel>
+    <smtp_connections>SMTP соединения</smtp_connections>
+    <imappop3_connections>IMAP/POP3 соединения</imappop3_connections>
+    <web_connections>Web соединения</web_connections>
+    <statistics>Статистика</statistics>
+    <settings>Настройки</settings>
+    <restart>Перезапуск</restart>
+    <stop>Стоп</stop>
+    <start>Старт</start>
+    <mail_services>Почтовые службы</mail_services>
+    <web_services>Веб службы</web_services>
+    <smtp>SMTP</smtp>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+    <control>Веб</control>
+    <ftp>FTP</ftp>
+    <socks>SOCKS</socks>
+    <supportive_services>Поддерживающие службы</supportive_services>
+    <minger>Minger</minger>
+    <ldap>LDAP</ldap>
+    <snmp>SNMP</snmp>
+    <communication>Коммуникация</communication>
+    <im>Мгновенные сообщения</im>
+    <voip>VoIP</voip>
+    <sms>СМС</sms>
+    <meeting>Веб-конференции</meeting>
+    <collaboration>Совместная работа</collaboration>
+    <calendar>Групповые данные</calendar>
+    <groupware_notification>Групповые данные Push</groupware_notification>
+    <webclient>Веб-клиент</webclient>
+    <webdav>WebDAV</webdav>
+    <security>Безопасность</security>
+    <antivirus>Антивирус</antivirus>
+    <antispam>Антиспам</antispam>
+    <mobility>Мобильные устройства</mobility>
+    <activesync>ActiveSync</activesync>
+    <syncml>SyncML</syncml>
+    <sip>VoIP</sip>
+    <teamchat>Корпоративный Чат</teamchat>
+    <sqlite>Сервер использует базу данных SQLite, которая непредназначена для этой службы. Перед включением этой службы настройте модуль Групповых Данных на использование автономного сервера базы данных (например, MySQL, MS SQL, Oracle).</sqlite>
+    <plan>План</plan>
+    <cluster_id>Кластер</cluster_id>
+    <price_user_month>Общие ежемесячные расходы</price_user_month>
+    <next_billing>Следующее выставление счета</next_billing>
+    <upgrade>Обновить ваш план</upgrade>
+    <hypervisor>Гипервизор</hypervisor>
+    <manage>Управление</manage>
+  </dashboard>
+  <generic>
+    <hh_mm>чч:мм</hh_mm>
+    <and>и</and>
+    <or>или</or>
+    <not>не</not>
+    <add uses="server certificates">Добавить</add>
+    <alias>Псевдоним</alias>
+    <cancel>Отменить</cancel>
+    <continue>Продолжить</continue>
+    <reset>Сброс</reset>
+    <back>Назад</back>
+    <create_new_account_0>Создать нового пользователя</create_new_account_0>
+    <create_new_account_1>Создать новый список рассылки</create_new_account_1>
+    <create_new_account_7>Создать новую группу</create_new_account_7>
+    <create_new_account_8>Создать новый ресурс</create_new_account_8>
+    <create_new_account_d>Создать новый домен</create_new_account_d>
+    <days>дней</days>
+    <delete uses="server certificates">Удалить</delete>
+    <domain>Домен</domain>
+    <domain_name>Имя домена</domain_name>
+    <enter_additional_alias>Добавить псевдоним</enter_additional_alias>
+    <enter_password>Введите пароль</enter_password>
+    <enter_time_in_minutes>Введите время в минутах</enter_time_in_minutes>
+    <enter_value>Введите значение</enter_value>
+    <from>От</from>
+    <generate>Сгенерировать</generate>
+    <size_b>Б</size_b>
+    <size_kb>кБ</size_kb>
+    <size_mb>МБ</size_mb>
+    <size_gb>ГБ</size_gb>
+    <size_tb>ТБ</size_tb>
+    <size_pb>ПБ</size_pb>
+    <messages>сообщения</messages>
+    <message_error_heading>Ошибка</message_error_heading>
+    <message_success_heading>Успех</message_success_heading>
+    <message_warning_heading>Предупреждение</message_warning_heading>
+    <minutes>мин</minutes>
+    <seconds>сек</seconds>
+    <name>Имя</name>
+    <new_group>Новая группа</new_group>
+    <new_mailing_list>Новый список рассылки</new_mailing_list>
+    <new_user>Новый пользователь</new_user>
+    <new_domain>Новый домен</new_domain>
+    <new_resource>Новый ресурс</new_resource>
+    <password>Пароль</password>
+    <plus_symbol>+</plus_symbol>
+    <reset_to_default>Восстановить значения по умолчанию</reset_to_default>
+    <results>результаты</results>
+    <retry>Повторить</retry>
+    <save>Сохранить</save>
+    <do_not_save>Не сохранять</do_not_save>
+    <save_and_add_another>Сохранить и добавить ещё</save_and_add_another>
+    <save_as>Сохранить как</save_as>
+    <select>Выбрать</select>
+    <select_action>Выбрать действие</select_action>
+    <share>Предоставить доступ</share>
+    <subject>Тема</subject>
+    <first_name>Имя</first_name>
+    <surname>Фамилия</surname>
+    <text>Текст</text>
+    <try_again>Попробовать снова</try_again>
+    <icewarp_webadmin>IceWarp WebAdmin</icewarp_webadmin>
+    <group_name>Название группы</group_name>
+    <resource_name>Название ресурса</resource_name>
+    <upload>Загрузить</upload>
+    <upload_photo>Загрузить фото</upload_photo>
+    <type uses="new resource">Тип</type>
+    <done uses="permissions">Готово</done>
+    <set_to_default>Установить значение по умолчанию</set_to_default>
+    <export>Экспорт</export>
+    <all>Все</all>
+    <ok>ОК</ok>
+    <close>Закрыть</close>
+    <download>Скачать</download>
+    <port>порт</port>
+    <on>Вкл.</on>
+    <off>Выкл.</off>
+    <copy_to_clipboard>Скопировать в буфер обмена</copy_to_clipboard>
+    <plan_selection>Выбор плана</plan_selection>
+  </generic>
+  <api_console>
+    <webserver>Веб сервер</webserver>
+    <webdav>WebDAV</webdav>
+    <voip>VoIP</voip>
+    <system_tools>Системные инструменты</system_tools>
+    <storage>Хранилище</storage>
+    <smtp_pop3_imap>SMTP/POP3/IMAP</smtp_pop3_imap>
+    <sms>СМС</sms>
+    <smart_discover>SmartDiscover</smart_discover>
+    <proxy>Прокси</proxy>
+    <protocols>Протоколы</protocols>
+    <mobile_sync>Синхронизация мобильных устройств</mobile_sync>
+    <mail>Почта</mail>
+    <logging>Журналирование</logging>
+    <ldap>LDAP</ldap>
+    <instant_messaging>Мгновенные сообщения</instant_messaging>
+    <gui>Интерфейс</gui>
+    <groupware>Групповые данные</groupware>
+    <general>Общие</general>
+    <ftp>FTP</ftp>
+    <domains>Домены</domains>
+    <connection>Соединение</connection>
+    <conferencing>Веб-конференции</conferencing>
+    <antivirus>Антивирус</antivirus>
+    <antispam>Антиспам</antispam>
+    <advanced>Расширенный вид</advanced>
+    <accounts_policies>Службы</accounts_policies>
+    <accounts>Аккаунты</accounts>
+    <save>Сохранить</save>
+    <type_string>String</type_string>
+    <type_longstring>Longstring</type_longstring>
+    <type_integer>Integer</type_integer>
+    <type_boolean>Boolean</type_boolean>
+    <type_enum>Enumeration</type_enum>
+    <true>Вкл</true>
+    <false>Выкл</false>
+    <mailinglist>Список рассылки</mailinglist>
+    <domain>Домен</domain>
+    <user>Пользователь</user>
+    <edit>Изменить</edit>
+    <group>Группа</group>
+    <resource>Ресурс</resource>
+    <name>Название</name>
+    <type>Тип</type>
+    <val>Значение</val>
+    <description>Описание</description>
+    <view>View</view>
+  </api_console>
+  <client_applications>
+    <client_applications>Клиентские приложения</client_applications>
+    <icewarp_desktop>Десктоп клиент</icewarp_desktop>
+    <icewarp_outlook_sync>Outlook Sync</icewarp_outlook_sync>
+    <mobile_devices>Мобильные устройства</mobile_devices>
+  </client_applications>
+  <client_applications_help>
+    <client_applications>Управление мобильными устройствами пользователя, Outlook Sync и Десктоп клиентами.</client_applications>
+    <icewarp_desktop>Загрузить файл установки Десктоп клиента и управлять лицензией.</icewarp_desktop>
+    <icewarp_outlook_sync>Загрузить файл установки Outlook Sync и удаленно управлять настройками и лицензией.</icewarp_outlook_sync>
+    <mobile_devices>Управлять настройками подключённых мобильных устройств.</mobile_devices>
+  </client_applications_help>
+  <permissions>
+    <inbox>Входящие</inbox>
+    <calendar>Календарь</calendar>
+    <contacts>Контакты</contacts>
+    <files>Файлы</files>
+    <permissions>Права доступа</permissions>
+    <anyone>Анонимные/Все</anyone>
+    <custom>Пользовательские</custom>
+    <all>Все</all>
+    <none>Не имеет прав</none>
+    <read>Чтение</read>
+    <write>Правка</write>
+    <full>Полные</full>
+    <owner>Владелец</owner>
+    <add_new_user_or_domain>Добавить нового пользователя или домен</add_new_user_or_domain>
+    <inherit>Наследовать</inherit>
+    <show_all_folders>Показать все папки</show_all_folders>
+    <show_less>Показать меньше</show_less>
+    <domains>Домены</domains>
+  </permissions>
+  <permissions_help>
+    <inbox>Разрешить другим пользователям в вашей компании читать емейлы или вносить изменения в почтовую папку по умолчанию.</inbox>
+    <calendar>Разрешить другим пользователям в вашей компании просматривать или создавать события в календарной папке по умолчанию.</calendar>
+    <contacts>Разрешить другим пользователям в вашей компании добавлять или вносить изменения в папку контактов по умолчанию.</contacts>
+    <files>Разрешить другим пользователям в вашей компании читать или добавлять документы в папку файлов по умолчанию.</files>
+  </permissions_help>
+  <mobile_devices>
+    <allowed>Разрешено</allowed>
+    <blocked>Заблокировано</blocked>
+    <quarantine>В карантине</quarantine>
+    <all_mail_items>Все</all_mail_items>
+    <all_calendar_events>Все</all_calendar_events>
+    <all_status>Все</all_status>
+    <all_sync>Все</all_sync>
+    <last_24_hours>Последние 24 часа</last_24_hours>
+    <last_7_days>Последние 7 дней</last_7_days>
+    <last_4_weeks>Последние 4 недели</last_4_weeks>
+    <one_day>Один день</one_day>
+    <three_days>Три дня</three_days>
+    <one_week>Одна неделя</one_week>
+    <two_weeks>Две недели</two_weeks>
+    <one_month>Один месяц</one_month>
+    <three_months>Три месяца</three_months>
+    <six_months>Шесть месяцев</six_months>
+    <incomplete_tasks_only>Только незавершённые задачи</incomplete_tasks_only>
+    <new_calendar_folders>Новая папка календаря</new_calendar_folders>
+    <merge_to_default_calendar_folder>Связать с календарём по умолчанию</merge_to_default_calendar_folder>
+    <events>События</events>
+    <tasks>Задачи</tasks>
+    <tasks_and_notes>Tasks &amp; Notes (Android app)</tasks_and_notes>
+    <new_folders>Новые папки</new_folders>
+    <merge_to_default_folder>Связать с папкой по умолчанию</merge_to_default_folder>
+    <allow>Разрешить</allow>
+    <block>Заблокировать</block>
+    <delete>Удалить</delete>
+    <wipe>Очистить</wipe>
+  </mobile_devices>
+  <vcard>
+    <male>Мужской</male>
+    <female>Женский</female>
+    <unknown>Неизвестно</unknown>
+    <home1>Домашний 1</home1>
+    <home2>Домашний 2</home2>
+    <assistant>Ассистент</assistant>
+    <work1>Рабочий 1</work1>
+    <work2>Рабочий 2</work2>
+    <fax_home>Домашний факс</fax_home>
+    <fax_work>Рабочий факс</fax_work>
+    <callback>Обратный вызов</callback>
+    <company>Компания</company>
+    <car>В машине</car>
+    <isdn>ISDN</isdn>
+    <mobile>Мобильный</mobile>
+    <other>Другой</other>
+    <other_fax>Другой факс</other_fax>
+    <pager>Пейджер</pager>
+    <primary>Основной</primary>
+    <radio>Радио</radio>
+    <telex>Телекс</telex>
+    <hearing>Hearing</hearing>
+    <sip>SIP</sip>
+    <email1>Емейл 1</email1>
+    <email2>Емейл 2</email2>
+    <email3>Емейл 3</email3>
+    <imaddress>IM</imaddress>
+  </vcard>
+  <devicedetail>
+    <allow_block_device>Устройство разрешено</allow_block_device>
+    <allow_device>Разрешить устройство</allow_device>
+    <block_device>Заблокировать устройство</block_device>
+    <device_in_quarantine>Устройства в карантине</device_in_quarantine>
+    <account>Учётная запись</account>
+    <device_info>Информация об устройстве</device_info>
+    <device_name>Имя устройства</device_name>
+    <groupware_synchronization>Синхронизация элементов</groupware_synchronization>
+    <hard_wipe>Hard Wipe</hard_wipe>
+    <info>Данные устройства</info>
+    <last_sync>Последняя синхронизация</last_sync>
+    <model>Модель</model>
+    <notes_synchronization_type>Тип синхронизации заметок</notes_synchronization_type>
+    <os>ОС</os>
+    <past_calendar_events>Прошлые события в календаре</past_calendar_events>
+    <past_mail_items>Прошлые почтовые элементы</past_mail_items>
+    <private_special_folders>Синхронизация папок</private_special_folders>
+    <registered>Зарегистрирован</registered>
+    <soft_hard_wipe>Удалённая очистка устройства</soft_hard_wipe>
+    <soft_wipe>Soft Wipe</soft_wipe>
+    <status>Статус</status>
+    <sync_notes_as>Синхронизировать заметки как</sync_notes_as>
+    <sync_tasks_as_calendar_events>Синхронизировать задачи как события календаря</sync_tasks_as_calendar_events>
+    <synchronization>Синхронизация</synchronization>
+    <tasks_synchronization_type>Тип синхронизации задач</tasks_synchronization_type>
+    <type>Тип</type>
+    <groupware_folders>Папки Групповых данных (частные)</groupware_folders>
+    <mail_folders>Почтовые папки (частные)</mail_folders>
+    <shared_folders>Общие папки</shared_folders>
+    <archive>Архив почты</archive>
+    <public_folders>Публичные папки</public_folders>
+    <all_folders>Все папки</all_folders>
+    <default_folders_only>Только папки по умолчанию</default_folders_only>
+    <all_with_groupware_as_email>Все групповые папки как почтовые</all_with_groupware_as_email>
+  </devicedetail>
+  <devicedetail_help>
+    <device_info>Просмотр и/или изменение свойств устройства или блокировка доступа устройств к серверу.</device_info>
+    <groupware_synchronization>Управление синхронизацией Групповых данных и элементов почты. Там, где это необходимо, выберите нужное значение из списка. Эти настройки имеют приоритет над настройками устройства.</groupware_synchronization>
+    <private_special_folders>Управление синхронизацией папок по умолчанию и специальных папок. Выберите из соответствующего списка или сдвиньте переключатель.</private_special_folders>
+    <soft_hard_wipe>Soft Wipe удаляет только данные, загруженные с сервера. Hard Wipe сбрасывает все настройки к заводским, удаляет данные с устройства и с SD-карт.</soft_hard_wipe>
+  </devicedetail_help>
+  <domainlist>
+    <domain_list>Список доменов</domain_list>
+    <all_types>Все типы</all_types>
+    <standard>Стандартный</standard>
+    <domain_alias>Псевдоним домена</domain_alias>
+    <backup_domain>Резервный домен</backup_domain>
+    <distributed_domain>Распределённый домен</distributed_domain>
+    <etrn_atrn_queue>ETRN/ATRN очередь</etrn_atrn_queue>
+    <verification_default>По умолчанию</verification_default>
+    <verification_use_minger_with_password>Использовать Minger с паролем</verification_use_minger_with_password>
+    <verification_usevrfy_command>Использовать команду VRFY</verification_usevrfy_command>
+    <verification_use_rcpt_to_command>Использовать команду RCPT TO</verification_use_rcpt_to_command>
+  </domainlist>
+  <domainlist_header>
+    <users>Пользователей</users>
+    <name>Имя</name>
+    <type>Тип</type>
+    <description>Описание</description>
+  </domainlist_header>
+  <domaindetail>
+    <users>Учётные записи</users>
+    <settings>Свойства</settings>
+    <limits>Ограничения</limits>
+    <rules>Правила</rules>
+    <active_directory>Служба каталогов</active_directory>
+    <mobile_devices>Мобильные устройства</mobile_devices>
+    <general>Общие</general>
+    <name>Имя</name>
+    <description>Описание</description>
+    <type>Тип</type>
+    <val>Значение</val>
+    <verification>Подтверждение</verification>
+    <password>Пароль</password>
+    <administrator_email>Емейл администратора</administrator_email>
+    <aliases>Псевдонимы</aliases>
+    <add_alias>Добавить псевдоним</add_alias>
+    <quotas>Ограничения</quotas>
+    <storage_usage>Использование хранилища</storage_usage>
+    <numbers_of_emails_sent>Количество отправленных емейлов</numbers_of_emails_sent>
+    <change_quotas>Изменить ограничения</change_quotas>
+    <permissions_and_rights>Права доступа</permissions_and_rights>
+    <unknown_accounts>Неизвестные аккаунты</unknown_accounts>
+    <reject>Отклонить</reject>
+    <delete>Удалить</delete>
+    <forward_to>Переслать</forward_to>
+    <target_email>Целевой емейл</target_email>
+    <two_factor_authentication>Двухфакторная аутентификация</two_factor_authentication>
+    <instant_messaging_shared_roster>Общий список контактов IM</instant_messaging_shared_roster>
+    <domain_features>Службы домена</domain_features>
+    <features>Службы</features>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <desktop_client>Десктоп клиент</desktop_client>
+    <manage>Управлять</manage>
+    <download>Загрузить</download>
+    <domain_limits>Ограничения домена</domain_limits>
+    <maximum_number_of_accounts>Администратор домена может создать макс. # аккаунтов</maximum_number_of_accounts>
+    <disk_quota>Пространство на диске</disk_quota>
+    <daily_send_out_limit_for_domain>Ограничение отправки в день для домена</daily_send_out_limit_for_domain>
+    <disable_login_to_this_domain>Отключить доступ к этому домену</disable_login_to_this_domain>
+    <daily_data_limit>Объём отправленных данных в день</daily_data_limit>
+    <daily_message_count_limit>Количество отправленных сообщений в день</daily_message_count_limit>
+    <number_per_day># в день</number_per_day>
+    <domain_expiration>Истечение срока действия домена</domain_expiration>
+    <expires_on>Истекает</expires_on>
+    <notify_before_expiration>Уведомить перед истечением срока действия</notify_before_expiration>
+    <days>Дней</days>
+    <delete_domain_when_expired>Удалить домен по истечении срока действия</delete_domain_when_expired>
+    <user_limits>Ограничения пользователя</user_limits>
+    <account_size>Объём почтового ящика</account_size>
+    <default_max_message_size>Максимальный размер сообщения</default_max_message_size>
+    <default_daily_send_out_limit_for_users>Количество отправленных сообщений в день</default_daily_send_out_limit_for_users>
+    <forward_to_address>Перенаправить на адрес</forward_to_address>
+    <dns_validation>Проверка DNS</dns_validation>
+    <validation>Проверка</validation>
+    <rename>Переименовать</rename>
+    <rename_and_logout>Переименовать и выйти</rename_and_logout>
+    <change_domain_name>Изменение имени домена</change_domain_name>
+    <same_domain_helper>Вы переименовываете свой собственный домен. Когда действие будет завершено, вы автоматически выйдете из WebAdmin и вам потребуется снова войти в систему.</same_domain_helper>
+    <dkim>DKIM</dkim>
+    <delete_spam_older_than>Удалить спам старше</delete_spam_older_than>
+    <max_allowed_subscription_plan>Максимальный план подписки</max_allowed_subscription_plan>
+  </domaindetail>
+  <domaindetail_help>
+    <domain_limits>Следующие настройки имеют приоритет над настройками пользователей. Например, если у вас пространство на диске настроено на 100МБ, а размер почтового ящика пользователя на 500МБ, то его лимит будет исчерпан по достижении объёма в 100МБ.</domain_limits>
+    <domain_expiration>Определите срок действия домена. Когда срок действия истекает, пользователи этого домена не могут зайти в свои аккаунты. Если вы выберете удалить домен, то все аккаунты и их данные будут удалены!</domain_expiration>
+    <user_limits>Следующие настройки имеют приоритет ниже, чем настройки пользователя. Например, если у вас 100 пользователей домена, а вы хотите применить ограничения только для 98, а 2 исключить, то введите ограничения для 98 здесь, а для 2 в настройках на уровне пользователя.</user_limits>
+    <quotas>Нажмите кнопку Изменить ограничения, чтобы применить ограничения к размеру домена, числу отправленных сообщений или максимальному размеру сообщений  или применить другие ограничения для всех аккаунтов домена единовременно.</quotas>
+    <permissions_and_rights>Выберите действия для сообщений, отправляемых на неизвестные серверу аккаунты. Нажмите Службы для включения или отключения всех служб для всех пользователей домена.</permissions_and_rights>
+    <client_applications>Управление мобильными устройствами, Outlook Sync и Десктоп клиентами, подключёнными к этому домену.</client_applications>
+    <aliases>Укажите псевдонимы для этого домена. Сообщения, отправленные на все эти адреса, будут доставлены пользователям этого домена.</aliases>
+  </domaindetail_help>
+  <subscription_plans>
+    <any_plan>Любой план</any_plan>
+    <standard>Стандартный</standard>
+    <professional>Профессиональный</professional>
+    <user_per_month>пользователя(ей) в месяц</user_per_month>
+  </subscription_plans>
+  <rules>
+    <lower>Меньше</lower>
+    <greater>Больше</greater>
+    <priority_highest>Высший</priority_highest>
+    <priority_high>Высокий</priority_high>
+    <priority_normal>Нормальный</priority_normal>
+    <priority_low>Низкий</priority_low>
+    <priority_lowest>Низший</priority_lowest>
+    <function_contains_value_from_list>Содержит значение из списка (отделяется точкой с запятой)</function_contains_value_from_list>
+    <function_matches_regex>Соответствует (RegEx)</function_matches_regex>
+    <function_starts_with>Начинается с</function_starts_with>
+    <function_ends_with>Заканчивается на</function_ends_with>
+    <function_equals>Равно</function_equals>
+    <function_contains_value_from_file>Содержит значение из файла или шаблона</function_contains_value_from_file>
+    <condition_all_messages>Все сообщения</condition_all_messages>
+    <condition_where_from>Где От</condition_where_from>
+    <condition_message_header_matches>Где заголовок сообщения соответствует</condition_message_header_matches>
+    <condition_where_subject>Где тема</condition_where_subject>
+    <condition_where_message_body_matches>Где совпадения в теле письма</condition_where_message_body_matches>
+    <condition_where_message_contains_attachment>Где сообщение содержит вложение</condition_where_message_contains_attachment>
+    <condition_where_attachment_name_matches>Где название вложения совпадает</condition_where_attachment_name_matches>
+    <condition_where_message_priority_is>Где приоритет сообщения</condition_where_message_priority_is>
+    <condition_where_message_size_is>Где размер сообщения</condition_where_message_size_is>
+    <condition_where_message_is_spam>Где сообщение спам</condition_where_message_is_spam>
+    <condition_where_to>Где Кому</condition_where_to>
+    <condition_where_cc>Где Копия</condition_where_cc>
+    <condition_where_replyto>Где Reply To</condition_where_replyto>
+    <condition_where_date>Где дата</condition_where_date>
+    <condition_where_custom_message_header_matches>Где другой заголовок соответствует</condition_where_custom_message_header_matches>
+    <condition_where_any_message_header_matches>Где любой заголовок соответствует</condition_where_any_message_header_matches>
+    <condition_where_sender_matches>Где отправитель соответствует</condition_where_sender_matches>
+    <condition_where_recipient_matches>Где получатель соответствует</condition_where_recipient_matches>
+    <condition_where_sender_recipient_is_local_remote>Где отправитель / получатель локальный / удаленный</condition_where_sender_recipient_is_local_remote>
+    <condition_where_spam_score_is>Где сообщение получило спам-баллов</condition_where_spam_score_is>
+    <condition_where_local_time_meets>Где локальное время</condition_where_local_time_meets>
+    <condition_where_rdns_matches>Где RDNS совпадает</condition_where_rdns_matches>
+    <condition_where_senders_ip_address_matches>Где IP адрес отправителя</condition_where_senders_ip_address_matches>
+    <condition_where_senders_ip_address_is_listed_on_dnsbl>Где IP адрес отправителя в списке DNSBL</condition_where_senders_ip_address_is_listed_on_dnsbl>
+    <condition_where_session_is_trusted>Если сессия доверенная</condition_where_session_is_trusted>
+    <condition_where_smtp_auth>Где SMTP AUTH</condition_where_smtp_auth>
+    <condition_where_message_direct_to_user>Message sent directly to user</condition_where_message_direct_to_user>
+    <action_accept_reject_delete_spam_quarantine>Принять / Отклонить / Удалить / Спам / Карантин</action_accept_reject_delete_spam_quarantine>
+    <action_forward_to_email>Перенаправить на емейл</action_forward_to_email>
+    <action_copy_to_folder>Скопировать в папку</action_copy_to_folder>
+    <action_move_to_folder>Переместить в папку</action_move_to_folder>
+    <action_encrypt_message>Зашифровать сообщение</action_encrypt_message>
+    <action_send_new_message>Отправить новое сообщение</action_send_new_message>
+    <action_edit_message_header>Редактировать заголовок сообщения</action_edit_message_header>
+    <action_set_message_priority_to>Установить сообщению приоритет</action_set_message_priority_to>
+    <action_set_message_flags_to>Отметить сообщение флажком</action_set_message_flags_to>
+    <action_stop_processing_more_rules>Прекратить обработку следующих правил</action_stop_processing_more_rules>
+    <and>и</and>
+    <or>или</or>
+    <and_not>и не</and_not>
+    <or_not>или не</or_not>
+    <rules>Правила</rules>
+    <result_title>Как создать правило:</result_title>
+    <result_step_1>1. Сначала выберите одно или более условий</result_step_1>
+    <result_step_2>2. Добавьте действия к условиям</result_step_2>
+    <result_step_3>3. Добавьте название, чтобы отличить правило</result_step_3>
+    <result>Результат</result>
+    <basic>Основные</basic>
+    <headers>Заголовки</headers>
+    <advanced>Расширенные</advanced>
+    <standard>Стандартные</standard>
+    <extra>Дополнительные</extra>
+    <title>Название</title>
+    <actions>Действия</actions>
+    <conditions>Условия</conditions>
+    <rule_number>Номер правила</rule_number>
+    <new_rule>Добавить правило</new_rule>
+    <delete>Удалить</delete>
+    <activate>Activate</activate>
+    <deactivate>Deactivate</deactivate>
+  </rules>
+  <rulepopup>
+    <action>Действие</action>
+    <add_new_header_condition>Добавьте новое условие заголовка</add_new_header_condition>
+    <from>От</from>
+    <header>Заголовок</header>
+    <match_regex>Соответствие RegEx в исходном заголовке</match_regex>
+    <regex>RegEx</regex>
+    <subject>Тема</subject>
+    <text>Текст</text>
+    <to>Кому</to>
+    <val>Значение</val>
+    <add_edit>Добавить / Изменить</add_edit>
+    <delete>Удалить</delete>
+  </rulepopup>
+  <rulecard>
+    <monday>Пн</monday>
+    <tuesday>Вт</tuesday>
+    <wednesday>Ср</wednesday>
+    <thursday>Чт</thursday>
+    <friday>Пт</friday>
+    <saturday>Сб</saturday>
+    <sunday>Вс</sunday>
+    <action>Действие</action>
+    <all_items_match>Все элементы соответствуют</all_items_match>
+    <antivirus>Антивирус</antivirus>
+    <bare_lfs>Bare LFs</bare_lfs>
+    <between_dates>Между датами (yyyy:mm:dd)</between_dates>
+    <between_times>В промежуток времени (HH:MM)</between_times>
+    <change_mime>Сменить MIME-версию на 1.0</change_mime>
+    <copy_to_folder>Скопировать в папку</copy_to_folder>
+    <crlf>CRLF.CRLF внутри сообщения</crlf>
+    <db_connection>Соединение с БД</db_connection>
+    <delete>Удалить</delete>
+    <dnsbl_server>DNSBL сервер</dnsbl_server>
+    <email_address>Емейл адрес</email_address>
+    <eof>EOF внутри сообщения</eof>
+    <executable>выполняемый</executable>
+    <flagged>С флажком</flagged>
+    <flags>Флажки</flags>
+    <function>Тип</function>
+    <ignore>Игнорировать</ignore>
+    <junk>Junk</junk>
+    <label_1>Оформление 1</label_1>
+    <label_2>Оформление 2</label_2>
+    <label_3>Оформление 3</label_3>
+    <label_4>Оформление 4</label_4>
+    <label_5>Оформление 5</label_5>
+    <label_6>Оформление 6</label_6>
+    <local>Локальный</local>
+    <match_case>С учётом регистра</match_case>
+    <member_of>Член</member_of>
+    <message_not_virus>Сообщение не содержит вирус</message_not_virus>
+    <message_password>Сообщение содержит файлы, защищённые паролем</message_password>
+    <message_priority>Приоритет сообщения</message_priority>
+    <message_size>Размер сообщения</message_size>
+    <message_virus>Сообщение содержит вирус</message_virus>
+    <move_to_folder>Переместить в папку</move_to_folder>
+    <non_junk>NonJunk</non_junk>
+    <not>Не</not>
+    <one_item_matches>Хотя бы одно значение совпадает</one_item_matches>
+    <parse_xml>Обработать XML</parse_xml>
+    <quarantine>Карантин</quarantine>
+    <recipient>Получатель</recipient>
+    <regex>RegEx</regex>
+    <reject>Отклонить</reject>
+    <remote>Удалённый</remote>
+    <remove_mime>Удалить MIME-Version double char</remove_mime>
+    <rfc2822>Сообщение не совпадает с RFC2822</rfc2822>
+    <score>Баллов</score>
+    <seen>Все</seen>
+    <sender>Отправитель</sender>
+    <sender_recipient>Отправитель / Получатель</sender_recipient>
+    <single_string>Конвертировать в одно значение</single_string>
+    <spam>Спам</spam>
+    <sql_statement>SQL команда</sql_statement>
+    <string>Значение</string>
+    <string_condition>Условие</string_condition>
+    <than>чем</than>
+    <time_criteria>Срок</time_criteria>
+    <type>тип</type>
+    <user_doesnt_exists>Пользователь не существует</user_doesnt_exists>
+    <user_exists>Пользователь существует</user_exists>
+    <weekdays>Рабочие дни</weekdays>
+    <whole_word>Целое слово</whole_word>
+    <zerobyte>0x00 внутри сообщения</zerobyte>
+    <accept>Принять</accept>
+    <add_edit>Добавить / Изменить</add_edit>
+    <add>Добавить</add>
+    <edit>Изменить</edit>
+    <forward_as_attachment>Forward as attachment</forward_as_attachment>
+    <custom_flags>Custom flags</custom_flags>
+    <userisonlyrecipient>User is the only recipient</userisonlyrecipient>
+    <checkuserinto>Check user in To header</checkuserinto>
+    <checkuserincc>Check user in Cc header</checkuserincc>
+    <checkuserinbcc>Check user in Bcc header</checkuserinbcc>
+  </rulecard>
+  <userlist>
+    <admin>Администратор системы</admin>
+    <webadmin>Web администратор</webadmin>
+    <catalog>Каталог</catalog>
+    <domain_admin>Администратор домена</domain_admin>
+    <executable>Исполняющий</executable>
+    <group>Группа</group>
+    <list_of_all_accounts>Список аккаунтов</list_of_all_accounts>
+    <list_server>Сервер списков</list_server>
+    <mailing_list>Список рассылки</mailing_list>
+    <notification>Уведомление</notification>
+    <resource>Ресурс</resource>
+    <static_route>Статический маршрут</static_route>
+    <user>Пользователь</user>
+    <external>Внешний</external>
+    <room>Комната</room>
+    <equipment>Оборудование</equipment>
+    <car>Машина</car>
+  </userlist>
+  <userlist_header>
+    <account>Емейл</account>
+    <name_and_account>Имя и Аккаунт</name_and_account>
+    <name>Имя</name>
+    <quota>Объём</quota>
+    <type>Тип</type>
+  </userlist_header>
+  <userlist_help>
+    <list_of_all_accounts>Просмотр и управление всеми аккаунтами домена. Кликните на соответствующую учётную запись, чтобы открыть её для изменения.</list_of_all_accounts>
+  </userlist_help>
+  <mailinglist>
+    <account_member_itself>Группа не может быть членом.</account_member_itself>
+    <mailinglist_members>Список всех членов</mailinglist_members>
+    <members>Члены</members>
+    <general_details>Общие данные</general_details>
+    <security>Безопасность</security>
+    <members_source>Источник</members_source>
+    <settings>Настройки</settings>
+    <owner>Владелец</owner>
+    <description>Описание</description>
+    <alias>Псевдоним</alias>
+    <add_alias>Добавить псевдоним</add_alias>
+    <source>Источник</source>
+    <password_protection>Защита паролем</password_protection>
+    <password>Пароль</password>
+    <default_rights>Права по умолчанию</default_rights>
+    <max_number_of_messages>Максимальное число сообщений для отправки в течение 1 минуты</max_number_of_messages>
+    <send_to_sender>Отправить отправителю</send_to_sender>
+    <forward_copy_to_owner>Переслать копию владельцу</forward_copy_to_owner>
+    <process_mailing_list>Обработка переменных в теле письма</process_mailing_list>
+    <personalized_mailing_list>Персонализировать список рассылки</personalized_mailing_list>
+    <remove_failed_email_addresses>Удалять неработающие емейл адреса</remove_failed_email_addresses>
+    <not_password_protected>Не защищено паролем</not_password_protected>
+    <server_moderated>Регулируемый сервером</server_moderated>
+    <client_moderated>Регулируемый клиентом</client_moderated>
+    <recieve_and_post>Получение &amp; Публикация</recieve_and_post>
+    <digest_recieve_and_post>Получение обзора &amp; Публикация</digest_recieve_and_post>
+    <recieve_only>Получение</recieve_only>
+    <digest_recieve_only>Получение обзора</digest_recieve_only>
+    <post_only>Публикация</post_only>
+    <members_defined_manually>Добавить участников вручную</members_defined_manually>
+    <members_from_text_file>Адресаты из файла</members_from_text_file>
+    <members_from_database>Адресаты из базы данных</members_from_database>
+    <all_current_domain_users>Все пользователи домена</all_current_domain_users>
+    <all_system_users>Все пользователи сервера</all_system_users>
+    <all_system_domain_administrators>Все администраторы доменов</all_system_domain_administrators>
+    <all_system_administrators>Все системные администраторы</all_system_administrators>
+    <only_members_can_post>Только члены могут отправлять сообщения</only_members_can_post>
+    <do_not_deliver>Не доставлять членам, которые имеют превышенный размер ящика</do_not_deliver>
+    <rights>Права</rights>
+    <default>По умолчанию</default>
+    <post>Отправлять</post>
+    <receive>Получать</receive>
+    <digest>Сборник</digest>
+  </mailinglist>
+  <mailinglist_help>
+    <mailinglist_members>Добавление, удаление и просмотр членов списка. Отметьте галочкой соответствующую позицию и кликните на Выбрать действие, чтобы удалить члена.</mailinglist_members>
+    <general_details>Управление основными настройками списка рассылок. Нажмите Добавить, там, где это необходимо сделать.</general_details>
+    <security>Управление основными правами, паролями и другими свойствами членов списка.</security>
+    <members_source>Выберите источник членов списка.</members_source>
+    <settings>Выберите правила для доставки сообщений и действия для проблематичных адресов.</settings>
+  </mailinglist_help>
+  <group>
+    <account_member_itself>Группа не может быть членом.</account_member_itself>
+    <group_members>Список членов группы</group_members>
+    <members>Члены</members>
+    <general_details>Общие данные</general_details>
+    <group_sharing>Общедоступность группы</group_sharing>
+    <group_email_delivery>Доставка почты для группы</group_email_delivery>
+    <security>Безопасность</security>
+    <advanced_settings>Расширенные настройки</advanced_settings>
+    <name>Имя</name>
+    <description>Описание</description>
+    <alias>Псевдоним</alias>
+    <add_alias>Добавить псевдоним</add_alias>
+    <create_public_folder>Создать публичную папку</create_public_folder>
+    <setup_permissions>Права доступа</setup_permissions>
+    <permissions>Права доступа</permissions>
+    <only_members_can_post>Только члены могут отправлять новые сообщения</only_members_can_post>
+    <do_not_deliver>Не доставлять членам, которые имеют превышенный размер ящика</do_not_deliver>
+    <password_protection>Защитить паролем</password_protection>
+    <max_number_of_messages>Макс. число исходящих  сообщений за 1 минуту:</max_number_of_messages>
+    <populate_gal>Создать Общедоступную Адресную Книгу (ОАК) из контактов членов группы</populate_gal>
+    <allow_gal_export>Разрешить экспорт ОАК на другие серверы в распределённом домене</allow_gal_export>
+    <organize_gal>Упорядочить ОАК как Иерархическую Адресную Книгу (ИАК)</organize_gal>
+    <deliver_to_all_members_individually>Доставить всем участникам индивидуально</deliver_to_all_members_individually>
+    <deliver_mail_to_shared_folder>Доставлять почту в общую папку</deliver_mail_to_shared_folder>
+    <teamchat>Корпоративный Чат</teamchat>
+    <enable_teamchat>Включить Корпоративный Чат</enable_teamchat>
+  </group>
+  <group_help>
+    <group_members>Обзор членов группы, добавление новых членов или удаление текущих. Отметьте галочкой соответствующую позицию и кликните на Выбрать действие, чтобы удалить члена группы.</group_members>
+    <general_details>Управление общими свойствами группы. Для добавления псевдонима используйте кнопку Добавить псевдоним.</general_details>
+    <group_sharing>Сдвиньте переключатель, если вы хотите создать общую папку для этой группы. Введите имя папки и нажмите кнопку Права доступа, чтобы установить их для членов группы.</group_sharing>
+    <group_email_delivery>Выберите, как сообщения будут доставляться членам группы. Выберите также, если сообщения будут доставляться членам группы, которые имеют превышенный размер ящика.</group_email_delivery>
+    <security>Укажите, могут ли не члены группы отправлять сообщения, или отправка сообщений в эту группу будет защищена паролем, и будет установлен контроль потока исходящих сообщений.</security>
+    <advanced_settings>Управление свойствами Общей Адресной Книги.</advanced_settings>
+    <populate_gal>Сдвиньте переключатель, если вы хотите создать контакты членов группы для всех членов.</populate_gal>
+    <allow_gal_export>При необходимости сдвиньте переключатель, чтобы использовать удалённую ОАК для распределённого домена.</allow_gal_export>
+    <organize_gal>Сдвиньте переключатель, если вы хотите создать Иерархическую Адресную Книгу, где папки будут называться как подгруппы.</organize_gal>
+    <teamchat>Позволяет создавать общие и частные чаты в этой группе.</teamchat>
+  </group_help>
+  <group_placeholder>
+    <create_public_folder>Введите название публичной папки</create_public_folder>
+  </group_placeholder>
+  <accountdetail>
+    <device>Устройство</device>
+    <account_is_disabled>Аккаунт отключён.</account_is_disabled>
+    <active>Включен</active>
+    <last_sync>Последняя синхронизация</last_sync>
+    <add_members>Добавить членов</add_members>
+    <members>Члены</members>
+    <message>Сообщение</message>
+    <mailinglistinfo>Список рассылки</mailinglistinfo>
+    <groupinfo>Группа</groupinfo>
+    <select_domain>Выбрать домен</select_domain>
+    <all_types>Все типы</all_types>
+    <custom>Другое (до указанного размера)</custom>
+    <headers>Только заголовки</headers>
+    <full>Все данные</full>
+    <numbered_structure>Нумерованная структура</numbered_structure>
+    <folder_name_only>Только имя папки</folder_name_only>
+    <full_folder_path>Полный путь папки</full_folder_path>
+    <outlook_native>Outlook native</outlook_native>
+    <force_settings>Принудительные настройки</force_settings>
+    <set_as_default>По умолчанию</set_as_default>
+    <account_features>Службы</account_features>
+    <account_quote_enabled>Размер почтового ящика</account_quote_enabled>
+    <account_state>Статус аккаунта</account_state>
+    <account_type>Тип аккаунта</account_type>
+    <accountpicker>Выбрать аккаунт</accountpicker>
+    <folderpicker>Выбрать папку</folderpicker>
+    <activation_key>Ключ активации</activation_key>
+    <add_alias>Добавить псевдоним</add_alias>
+    <add_email>Добавить адрес электронной почты</add_email>
+    <add_phone>Добавить телефон</add_phone>
+    <address>Адрес</address>
+    <advanced>Дополнительно</advanced>
+    <alias>Псевдоним</alias>
+    <aliases>Псевдонимы</aliases>
+    <all_items>Все элементы</all_items>
+    <allowed_activation_count>Разрешённое число активаций</allowed_activation_count>
+    <alternate_email>Альтернативный емейл</alternate_email>
+    <amount_per_day># за день</amount_per_day>
+    <anniversary>Годовщина</anniversary>
+    <antispam>Антиспам</antispam>
+    <antivirus>Антивирус</antivirus>
+    <appearance>Вид</appearance>
+    <archive>Архив</archive>
+    <assistant>Ассистент</assistant>
+    <at>в</at>
+    <birthday>День рождения</birthday>
+    <card>Персональные данные</card>
+    <certificates>Сертификаты</certificates>
+    <change_password>Сменить пароль</change_password>
+    <change_quotas>Изменить ограничение</change_quotas>
+    <check_password_policy>Пароль не соответствует политике паролей.</check_password_policy>
+    <city>Город</city>
+    <client_applications>Клиентские приложения</client_applications>
+    <company>Компания</company>
+    <content_of_folders>Синхронизировать содержимое выбранных папок сразу, как обнаружены локальные изменения</content_of_folders>
+    <copy_incoming_mail>Скопировать входящее сообщение</copy_incoming_mail>
+    <copy_outgoing_mail>Копировать исходящие сообщения</copy_outgoing_mail>
+    <country>Страна</country>
+    <days>Дней</days>
+    <default>По умолчанию</default>
+    <delete_account_when_expired>Удалять аккаунт по истечении</delete_account_when_expired>
+    <delete_mail_older_than>Удалять сообщения старше</delete_mail_older_than>
+    <delete_spam_older_than>Удалить спам старше</delete_spam_older_than>
+    <delete_older>Удалять сообщения старше (дней)</delete_older>
+    <department>Отдел</department>
+    <description>Описание</description>
+    <digital_certificates>Сертификаты</digital_certificates>
+    <disabled>Отключён</disabled>
+    <disabled_login>Отключён (логин)</disabled_login>
+    <disabled_login_receive>Отключен (логин, получение)</disabled_login_receive>
+    <display_address_book_names>Отображать имя адресной книги как</display_address_book_names>
+    <do_not_forward>Не перенаправлять спам</do_not_forward>
+    <do_not_use_spam>Не использовать папку Спам</do_not_use_spam>
+    <download>Скачать</download>
+    <download_files>Скачать файлы</download_files>
+    <email>Электронная почта</email>
+    <enabled>Включен</enabled>
+    <exchange_activesync>Exchange ActiveSync</exchange_activesync>
+    <expiration>Срок действия</expiration>
+    <expires_if_inactive_for>Истекает, если неактивен</expires_if_inactive_for>
+    <expires_on>Истекает</expires_on>
+    <reset_authentication>Вы действительно хотите сбросить двухфакторную аутентификацию?</reset_authentication>
+    <authentication_reset_succeeded>Двухфакторная аутентификация сброшена</authentication_reset_succeeded>
+    <features>Службы</features>
+    <file_storage>Хранилище файлов</file_storage>
+    <web_documents>Веб-Документы</web_documents>
+    <file_transfer>Передача файлов (FTP)</file_transfer>
+    <folder_structure_after>Синхронизировать структуру папок после</folder_structure_after>
+    <folder_synchronization_threshold>Предельная величина синхронизируемой папки (сообщений в папке)</folder_synchronization_threshold>
+    <forward_to>Переслать</forward_to>
+    <forwarder>Переадресация</forwarder>
+    <from>с</from>
+    <gal_automatically>Синхронизировать ОАК автоматически</gal_automatically>
+    <gender>Пол</gender>
+    <general>Основные данные</general>
+    <generate>Сгенерировать</generate>
+    <generate_key>Сгенерировать ключ</generate_key>
+    <groupware>Групповые данные</groupware>
+    <home_address>Домашний адрес</home_address>
+    <home_email>Домашний адрес электронной почты</home_email>
+    <home_phone>Домашний телефон</home_phone>
+    <info>Пользователь</info>
+    <instant_messaging>Мгновенные сообщения</instant_messaging>
+    <job>Профессия</job>
+    <last_time_logged>Время последнего входа</last_time_logged>
+    <lastname>Фамилия</lastname>
+    <licence>Лицензия</licence>
+    <licenses>Лицензии</licenses>
+    <limits>Ограничения</limits>
+    <manage>Управлять</manage>
+    <manager>Менеджер</manager>
+    <max_message_size>Максимальный размер сообщения</max_message_size>
+    <messaging>Коммуникации</messaging>
+    <mobile_devices>Мобильные устройства</mobile_devices>
+    <mode>Режим</mode>
+    <must_change_password>Принудительная смена пароля после первого входа</must_change_password>
+    <name>Имя</name>
+    <new_items>Новые элементы</new_items>
+    <note>Заметка</note>
+    <notify_before_expiration>Уведомить перед истечением</notify_before_expiration>
+    <numbers_of_emails_sent>Количество отправленных емейлов</numbers_of_emails_sent>
+    <of>из</of>
+    <online_conferencing>Веб-конференции</online_conferencing>
+    <password>Пароль</password>
+    <old_password>Old password</old_password>
+    <new_password>New password</new_password>
+    <password_again>Повторить пароль</password_again>
+    <password_not_saved>Пароль не был сохранён. Проверьте политику паролей.</password_not_saved>
+    <password_policy_alpha>Количество латинских букв в пароле [a-z][A-Z]</password_policy_alpha>
+    <password_policy_digits>Количество цифр в пароле [0-9]:</password_policy_digits>
+    <password_policy_minlength>Минимальная длина пароля:</password_policy_minlength>
+    <password_policy_nonalphanum>Количество специфических символов в пароле [!@#$%...]:</password_policy_nonalphanum>
+    <password_policy_upperalpha>Количество символов верхнего регистра в пароле [A-Z]</password_policy_upperalpha>
+    <password_policy_useralias>Пароль не может содержать имя пользователя или псевдоним</password_policy_useralias>
+    <permissions>Права доступа</permissions>
+    <permissions_and_rights>Права доступа</permissions_and_rights>
+    <phone>Телефон</phone>
+    <pop_imap>POP3/IMAP</pop_imap>
+    <quarantine>Карантин</quarantine>
+    <quotas>Ограничения</quotas>
+    <respond_again_after>Ответить снова через (дней)</respond_again_after>
+    <respond_again_after_period>Отвечать снова через (дней)</respond_again_after_period>
+    <respond_always>Отвечать всегда</respond_always>
+    <respond_once>Ответить один раз</respond_once>
+    <respond_only_if_between>Отвечать только в период</respond_only_if_between>
+    <respond_to_messages>Отвечать только на сообщения, отправленные на адрес пользователя</respond_to_messages>
+    <responder>Автоответчик</responder>
+    <responder_message>Сообщение</responder_message>
+    <rules>Правила</rules>
+    <security>Безопасность</security>
+    <selected_priority_folders>Синхронизировать выбранные приоритетные папки через</selected_priority_folders>
+    <selected_standard_folders>Синхронизировать выбранные стандартные папки через</selected_standard_folders>
+    <send_key_to_user_by_email>Отправить ключ пользователю на емейл</send_key_to_user_by_email>
+    <send_out_data_limit>Объем отправленных сообщений в день</send_out_data_limit>
+    <send_out_limit>Ограничение отправленных данных за день</send_out_limit>
+    <send_out_message_limit>Количество отправленных сообщений в день:</send_out_message_limit>
+    <shared_folders>Общие папки</shared_folders>
+    <sms>СМС</sms>
+    <smtp>SMTP</smtp>
+    <spam_folder_mode>Режим папки Спам</spam_folder_mode>
+    <spam_reports_mode>Режим спам отчётов</spam_reports_mode>
+    <spam_trap>Спам ловушка</spam_trap>
+    <state_county>Штат / Регион</state_county>
+    <status>Статус</status>
+    <storage_usage>Размер на диске</storage_usage>
+    <street>Улица</street>
+    <surname>Фамилия</surname>
+    <synchronization>Синхронизация</synchronization>
+    <syncml>SyncML</syncml>
+    <threshold_for_full_download>Предельная величина полной загрузки сообщения</threshold_for_full_download>
+    <unknown_ip>неизвестный IP</unknown_ip>
+    <upload_photo>Загрузить фото</upload_photo>
+    <use_spam>Использовать папку Спам</use_spam>
+    <user_can_send_to_local_domains_only>Пользователь может отправлять сообщения только на локальные домены</user_can_send_to_local_domains_only>
+    <username>Имя пользователя</username>
+    <voip>VoIP</voip>
+    <web_folders>Веб папки (WebDAV)</web_folders>
+    <webclient>Веб-клиент</webclient>
+    <website>Сайт</website>
+    <work_address>Рабочий адрес</work_address>
+    <zip>Индекс</zip>
+    <add_to_group>Добавить в группу</add_to_group>
+    <change_rights>Изменить права доступа</change_rights>
+    <move>Переместить</move>
+    <delete>Удалить</delete>
+    <remove>Удалить</remove>
+    <not_yet>Еще не</not_yet>
+    <teamchat>Корпоративный Чат</teamchat>
+    <enable_client_licence>Включить лицензию для приложений</enable_client_licence>
+    <disable_access_to_pop3>Отключить доступ к POP3 (учетная запись только по IMAP)</disable_access_to_pop3>
+    <two_factor_authentication>Двухфакторная аутентификация</two_factor_authentication>
+    <max_file_size>Максимальный размер файла</max_file_size>
+    <subscription_plan>План подписки</subscription_plan>
+    <change_user_plan>Изменить план пользователя</change_user_plan>
+  </accountdetail>
+  <accountdetail_help>
+    <account_state>Выберите, если этот аккаунт будет полнофункциональным, частично ограниченным (пользователь не может войти, но сообщения принимаются), отключённым (пользователь не может войти, сообщения отклоняются) или будет работать как спам ловушка.</account_state>
+    <activation_key>Ключ активации позволяет воспользоваться клиентским приложением. Однажды сгенерированный, он доступен пользователю в Вебклиенте или через запрос SmartSync из клиентского приложения.</activation_key>
+    <address>Введите адрес или место работы.</address>
+    <advanced>Сдвиньте переключатель, тех функций синхронизации, которые вы хотите выбрать для этого пользователя. Введите соответствующие значения.</advanced>
+    <aliases>Введите псевдонимы для этого аккаунта. Сообщения, отправленные на все эти адреса, будут доставлены в этот почтовый ящик.</aliases>
+    <antispam>Выберите, если данный пользователь будет получать спам-отчёты, так, как они настроены на сервере в разделе Антиспам - Действие - Отчеты, или примените пользовательские настройки. Также вы можете выбрать, если данный пользоватьель будет использовать папку Спам.</antispam>
+    <antispam_features>Комплексная фильтрация спама предоставляет пользователям контроль над системой через черные и белые списки, папки спама и отчеты из карантина.</antispam_features>
+    <antivirus>Мощный Антивирус проверяет и подтверждает каждый входящий или исходящий файл аккаунта: в электронной почте, вложениях календаря, документах и при передаче файлов.</antivirus>
+    <appearance>Сдвиньте переключатель и выберите способ, как будут отображаться названия адресных книг.</appearance>
+    <archive>Архивирование сохраняет все входящие и исходящие сообщения электронной почты и СМС и обеспечивает доступ пользователей папке архива для восстановления потерянных сообщений.</archive>
+    <client_applications>Управляйте мобильными устройствами пользователей, Outlook Sync и Десктоп клиентами.</client_applications>
+    <email>Введите емейл-адрес(а) пользователя.</email>
+    <exchange_activesync>Безопасная синхронизация емейлов, календарей, контактов, задач и заметок со всеми мобильными устройствами, включая Windows Phone, iPhone, iPad и Android.</exchange_activesync>
+    <expiration>Установите срок действия аккаунта этого пользователя.</expiration>
+    <file_transfer>FTP позволяет пользователям передавать большие файлы через специальное хранилище на сервере. Используя стандартный FTP-клиент, пользователи могут просматривать, управлять, загружать или скачивать файлы.</file_transfer>
+    <forwarder>Выберите, куда сообщения будут перенаправлены или скопированы, отделите их точкой с запятой (;). Дополнительный емейл используется для восстановления пароля.Копии входящих/исходящих сообщений не могут быть изменены пользователем.</forwarder>
+    <general>Введите персональные данные пользователя. Все данные, указанные здесь, отобразятся в контакте пользователя в ОАК. Пользователи могут редактировать их в разделе Мои данные в Вебклиенте. Заполнение всех полей опционально.</general>
+    <groupware>Групповые данные должны быть включены, чтобы пользователи имели доступ к их публичной информации, включая Общедоступную Адресную Книгу, календарь компании, файлы и Публичные папки.</groupware>
+    <instant_messaging>Отправка СМС-сообщений и Чат обеспечивают неприрывную коммуникацию между пользователями, позволяя им пересылать файлы и видеть статус присутствия друг друга в списке контактов.</instant_messaging>
+    <licence_description>Введите текст описания.</licence_description>
+    <limits>Сдвиньте переключатель и введите соответствующие значения ограничений для аккаунта, которые вы хотите установить.</limits>
+    <note>Это поле обычно редактируется пользователем.</note>
+    <online_conferencing>Веб-конференции стимулируют совместную работу и способствуют повышению продуктивности в команде, связывая пользователей посредством аудио, общего чата и возможностью демонстрировать экран.</online_conferencing>
+    <permissions_and_rights>Выберите статус этого пользователя: обычный почтовый аккаунт, администратор сервера или администратор домена. Нажмите Службы для индивидуального включения или отключения служб для этого пользователя.</permissions_and_rights>
+    <phone>Введите телефонные номер(а) пользователя.</phone>
+    <pop_imap>Системная служба для получения емейлов должна быть включена для правильной работы Вебклиента и других почтовых клиентов, таких как Outlook, Thunderbird или Mail.</pop_imap>
+    <quarantine>Карантин позволяет вам поместить подозрительные входящие сообщения в очередь сообщений, ожидающих авторизации администратором или самим пользователем.</quarantine>
+    <quotas>Обзор ограничений количества сообщений, отправленных в день и дискового пространства, занимаемого этой учетной записью.</quotas>
+    <responder>Выберите режим автоответчика для этой учётной записи. Другие поля включаются в зависимости от этого режима.</responder>
+    <sms>Встроенный сервер текстовых сообщений (СМС) позволяет пользователям отправлять сообщения из Вебклиента, отвечать на полученные сообщения и управлять ими так же, как емейлами в папке Входящие.</sms>
+    <smtp>Системная служба для отправки емейлов должна быть включена для правильной работы Вебклиента и других почтовых клиентов, таких как Outlook, Thunderbird или Mail.</smtp>
+    <synchronization>Сдвиньте переключатель, если вы хотите включить функции синхронизации для этого пользователя. Введите соответствующие значения.</synchronization>
+    <syncml>Беспроводная синхронизация календарей, контактов, задач и заметок для устройств старшего поколения, работающих на Palm OS, Symbian и других, не поддерживающих ActiveSync.</syncml>
+    <voip>Интернет-телефония позволяет пользователям совершать Аудио/Видео звонки и присоединяться к Онлайн-конференциям из Вебклиента или используя совместимые SIP телефоны или приложения.</voip>
+    <web_folders>Внешний доступ к собственному облаку пользователя позволяет отобразить его в качестве сетевого диска в Windows / Linux / Mac и хранить документы, фотографии и другие файлы.</web_folders>
+    <webclient>Веб-доступ к почте, календарям, контактам, задачам, заметкам и документам. Пользователи могут делиться информацией друг с другом посредством общих и публичных папок.</webclient>
+    <website>Введите адрес сайта пользователя.</website>
+    <teamchat>Корпоративный Чат - это современный инструмент совместной работы в команде над проектами. Он позволяет вам общаться с другими людьми, организовывая беседы, делиться файлами и легко создавать встречи с участниками чата.</teamchat>
+    <web_documents>Онлайн-редакторы форматов файлов Microsoft Office и OpenOffice. Создавайте документы с красивым форматированием, потрясающими презентациями, электронными таблицами с формулами, не выходя из Веб-Клиента.</web_documents>
+  </accountdetail_help>
+  <accountdetail_placeholder>
+    <folder_synchronization_threshold>Введите максимальное число сообщений в папке</folder_synchronization_threshold>
+  </accountdetail_placeholder>
+  <accountinfo>
+    <name>Имя</name>
+    <ignore_password_policy>Игнорировать политику паролей</ignore_password_policy>
+  </accountinfo>
+  <synchronization>
+    <address_books>Адресные книги</address_books>
+    <advanced>Расширенные настройки</advanced>
+    <appearance>Вид</appearance>
+    <authentication_method>Метод аутентификации</authentication_method>
+    <automatically_revert_changes>Автоматически отменять изменения в папках с правами только на чтение</automatically_revert_changes>
+    <check_for_updates>Проверить наличие обновлений</check_for_updates>
+    <delete_after_specified_days>Удалить через определенные дни</delete_after_specified_days>
+    <delete_logs>Удалить журналы</delete_logs>
+    <disable_tnef>Отключить TNEF</disable_tnef>
+    <do_not_show_connection_errors>Не показывать ошибки подключения</do_not_show_connection_errors>
+    <do_not_show_login_errors>Не показывать ошибки входа</do_not_show_login_errors>
+    <do_not_show_progress>Не показывать прогресс</do_not_show_progress>
+    <hide_notification_after>Скрыть уведомление через (секунд)</hide_notification_after>
+    <licence_and_updates>Лицензия и обновления</licence_and_updates>
+    <line_security>Уровень безопасности</line_security>
+    <logging_level>Уровень журналирования</logging_level>
+    <login>Вход</login>
+    <login_credentials>Учетные данные</login_credentials>
+    <login_port>Порт</login_port>
+    <logs>Журналы</logs>
+    <log_debug>Для отладки</log_debug>
+    <log_errors>Только ошибки</log_errors>
+    <new_mail_options>Новые параметры почты</new_mail_options>
+    <play_default_sound>Воспроизводить звук по умолчанию</play_default_sound>
+    <show_desktop_notification>Показать оповещение</show_desktop_notification>
+    <skip_trash_folder>Пропустить проверку загрузки корзины</skip_trash_folder>
+    <synchronization_exceptions>Исключения синхронизации</synchronization_exceptions>
+    <synchronization_frequency>Частота синхронизации</synchronization_frequency>
+    <plain>Plain</plain>
+    <cram_md5>Cram MD5</cram_md5>
+    <starttsl>STARTTSL</starttsl>
+    <ssl>SSL</ssl>
+    <updates>Обновления</updates>
+  </synchronization>
+  <dns>
+    <no_dns_records uses="DNS validation">Нет записей DNS</no_dns_records>
+    <all_available>Все доступные</all_available>
+    <service_mx>Почта</service_mx>
+    <service_autodiscover>SmartDiscover</service_autodiscover>
+    <service_autodiscover_srv>SmartDiscover</service_autodiscover_srv>
+    <service_webdav>WebDAV</service_webdav>
+    <service_sip>SIP</service_sip>
+    <service_xmpp>XMPP</service_xmpp>
+    <service_ischedule>iSchedule</service_ischedule>
+    <service_rdns>RDNS</service_rdns>
+    <service_spf>SPF</service_spf>
+    <service_dkim>DKIM</service_dkim>
+    <default_alias>Алиас по умолчанию</default_alias>
+    <domain_type>Тип домена</domain_type>
+    <email>Почта</email>
+    <expires_on>Истекает</expires_on>
+    <hostname>Имя хоста</hostname>
+    <ip_address>IP адресс</ip_address>
+    <name>Название</name>
+    <type>Тип</type>
+    <user_count>Количество пользователей</user_count>
+    <user_limit>Ограничение пользователя</user_limit>
+    <dns>Текущие записи DNS</dns>
+    <academy_text>Пожалуйста обратитесь к видео IceWarp академии, чтобы правильно настроить записи DNS. Пример файла зоны для вашего домена можно скачать ниже.</academy_text>
+    <academy_caption>Обновление «файла зоны»</academy_caption>
+    <academy_warning>Пожалуйста проверьте ваши записи DNS</academy_warning>
+    <general>Общее</general>
+    <loading>Загрузка информации о домене</loading>
+    <learn_more>Подробнее о проверке</learn_more>
+  </dns>
+  <dns_help>
+    <dns>Текущие настройки DNS для вашего домена доступны ниже. Неправильные или отсутствующие записи отмечены красным цветом.</dns>
+  </dns_help>
+  <dkim>
+    <domain_key_selector>Селектор ключевых слов</domain_key_selector>
+    <selector>Селектор</selector>
+    <selector_placeholder>Уникальная произвольная строка</selector_placeholder>
+    <no_selector>Укажите уникальный селектор для этого сервера</no_selector>
+    <generate_key>Создать новый ключ</generate_key>
+    <selector_host>Имя хоста</selector_host>
+    <selector_record>Селекторная запись</selector_record>
+    <sign_outgoing_mails>Подписывать исходящие письма с помощью DKIM</sign_outgoing_mails>
+    <reset>Сбросить настройки DKIM</reset>
+    <reset_succeeded>DKIM был сброшен</reset_succeeded>
+    <wizard>Мастер настройки DKIM</wizard>
+    <academy_title>Учебник по настройке DKIM в академии IceWarp</academy_title>
+    <academy_caption>Обновление «файла зоны»</academy_caption>
+    <academy_text>Пожалуйста обратитесь к видео IceWarp академии чтобы правильно настроить записи DKIM в DNS.</academy_text>
+    <setup>Настройка DKIM</setup>
+    <setup_failed>Процесс установки DKIM не удался</setup_failed>
+    <loading>Создание нового ключа</loading>
+  </dkim>
+  <dkim_help>
+    <domain_key_selector>Любой текст, если вы установите DKIM для этого домена на нескольких серверах, каждый сервер должен иметь уникальный селектор.</domain_key_selector>
+    <selector_record>Настройте DNS-сервер открытым ключом. Вам необходимо добавить следующую запись на ваш DNS-сервер, например icecream._domainkey.www.icewarp.com</selector_record>
+    <wizard>DKIM используется удаленными серверами чтобы проверить электронные письма, отправленных из этого домена, если они не подделаны. Чтобы использовать DKIM, необходимо создать DNS TXT запись &amp;lt;Selector&amp;gt;._domainkey.&amp;lt;domainname&amp;gt;</wizard>
+  </dkim_help>
+  <accountpicker>
+    <users>Пользователи</users>
+    <domains>Домены</domains>
+    <items_selected>выбранные элементы</items_selected>
+    <show_them>Показать выбранное</show_them>
+    <hide_them>Показать все</hide_them>
+    <account_picker>Выбрать учётную запись</account_picker>
+    <account_type>Тип учётной записи</account_type>
+    <add_account>Добавить учётную запись</add_account>
+    <add_domain>Добавить домен</add_domain>
+    <add_user>Добавить пользователя</add_user>
+    <domain>Домен</domain>
+    <filter>Фильтр</filter>
+    <add_external>Добавить внешний</add_external>
+    <add_external_members>Добавить внешних членов</add_external_members>
+  </accountpicker>
+  <spam_queues>
+    <quarantine>Карантин</quarantine>
+    <whitelist>Белый список</whitelist>
+    <blacklist>Черный список</blacklist>
+    <action_delete>Удалить</action_delete>
+    <action_deliver>Доставить</action_deliver>
+    <action_whitelist>Белый список</action_whitelist>
+    <action_blacklist>Черный список</action_blacklist>
+    <add_item>Добавить</add_item>
+    <detail>Подробнее</detail>
+  </spam_queues>
+  <spamqueues_header>
+    <sender>Отправитель</sender>
+    <subject>Тема</subject>
+    <date>Дата</date>
+    <owner>Владелец</owner>
+    <domain>Домен</domain>
+    <filter_sender>Фильтрация по отправителю</filter_sender>
+    <filter_owner>Владелец фильтра</filter_owner>
+    <filter_domain>Фильтрация по домену</filter_domain>
+    <filter>Результаты фильтрации</filter>
+  </spamqueues_header>
+  <certificates>
+    <server_certificates>Сервер сертификаты</server_certificates>
+    <ca_certificates>CA сертификаты</ca_certificates>
+    <secure_destinations>Защищенная область</secure_destinations>
+    <create_certificate>Создать запрос сертификата CSR / серверный сертификат</create_certificate>
+    <wizard>Параметры сертификата</wizard>
+    <reissue>Создать заново</reissue>
+    <finalize>Завершить</finalize>
+    <properties>Свойства</properties>
+    <edit>Редактировать</edit>
+    <add_hostname>Добавить другое имя хоста</add_hostname>
+    <bits>Биты</bits>
+    <validity>Срок действия</validity>
+    <country>Страна</country>
+    <state>Регион</state>
+    <city>Город</city>
+    <organization>Организация</organization>
+    <organization_unit>Подразделение организации</organization_unit>
+    <email>E-mail</email>
+    <common_name>Общее имя (FQDN)</common_name>
+    <signature_request>Создание запроса на подпись сертификата (CSR)</signature_request>
+    <ip_address>IP адрес</ip_address>
+    <no_ip_limit>Все</no_ip_limit>
+    <certificate>Сертификат</certificate>
+    <ip>IP адрес</ip>
+    <cn>CN</cn>
+    <issuer>Издатель</issuer>
+    <expiration>Срок действия</expiration>
+    <subject>Субъект</subject>
+    <cert_bits>Биты</cert_bits>
+    <fingerprint>Сигнатура</fingerprint>
+    <type>Тип</type>
+    <type_normal>Стандартный</type_normal>
+    <type_csr/>
+    <type_letsencrypt>Let&apos;s Encrypt</type_letsencrypt>
+    <hostname>Имя хоста</hostname>
+    <default>По умолчанию</default>
+    <set_as_default>Установить по умолчанию</set_as_default>
+    <csr>CSR</csr>
+    <add_existing>Добавить существующий сертификат</add_existing>
+    <new_icewarp_cert>Запросить IceWarp сертификат</new_icewarp_cert>
+    <new_ca_cert>Запросить сертификат от Центра сертификации</new_ca_cert>
+    <new_lets_encrypt_cert>Бесплатный сертификат Let’s Encrypt</new_lets_encrypt_cert>
+    <new_self_signed_cert>Бесплатный самоподписанный сертификат</new_self_signed_cert>
+    <reissue_cert>Создать сертификат заново</reissue_cert>
+    <reissue_icewarp_cert>Создать заново как IceWarp сертификат</reissue_icewarp_cert>
+    <reissue_ca_cert>Создать заново как сертификат от Центра сертификации</reissue_ca_cert>
+    <reissue_lets_encrypt_cert>Создать заново как Let’s Encrypt сертификат</reissue_lets_encrypt_cert>
+    <reissue_self_signed_cert>Создать заново как самоподписанный сертификат</reissue_self_signed_cert>
+    <unit>Элемент</unit>
+    <company_details>Информация о компании</company_details>
+    <add_certificate>Добавить сертификат</add_certificate>
+    <certificate_settings>Настройки сертификата</certificate_settings>
+    <icewarp_details>IceWarp сертификат</icewarp_details>
+    <authority_details>Информация о сертификате</authority_details>
+    <letsencrypt_details>Let&apos;s Encrypt сертификат</letsencrypt_details>
+    <selfsigned_details>Самоподписанный сертификат</selfsigned_details>
+    <email_details>Сертификат электронной почты</email_details>
+    <details>Детали</details>
+    <ip_binding>Привязка IP</ip_binding>
+    <domains>Домены</domains>
+    <errors>Ошибки</errors>
+    <export_csr>Экспорт CSR</export_csr>
+    <bind_certificate>Привязать сертификат</bind_certificate>
+    <all_ips>Все IP адреса</all_ips>
+    <selected_ips>Выбранные IP адреса</selected_ips>
+    <cert_domains>Сертифицируемые домены</cert_domains>
+    <cert_failure>Ошибка сертификации</cert_failure>
+    <last_cert_attempt>Последняя попытка сертификации</last_cert_attempt>
+    <error>Ошибка</error>
+    <ver_failed_for>Не удалось выполнить проверку для</ver_failed_for>
+    <reuse>Повторно использовать пару частный / открытый ключ</reuse>
+    <generate>Создание пары частный / открытый ключ</generate>
+    <domain_unknown>Неизвестная</domain_unknown>
+    <domain_error>Ошибка</domain_error>
+    <domain_valid>Действителен</domain_valid>
+    <domain_invalid>Недействителен</domain_invalid>
+    <domain_timeout>Истекло время ожидания</domain_timeout>
+    <key_pair>Пара ключей</key_pair>
+    <hostnames>Имена хостов</hostnames>
+  </certificates>
+  <certificates_help>
+    <add_existing>Выберите, если у вас уже есть SSL сертификат для сервера.</add_existing>
+    <new_icewarp_cert>Приобретите доверенный IceWarp SSL сертификат сервера в несколько простых шагов. Возможность повторного выпуска в случае истечения срока или добавления доменов.</new_icewarp_cert>
+    <new_ca_cert>Создайте запрос сертификата (CSR) для использования с вашим предпочитаемым поставщиком сертификатов. Возможность повторного выпуска в случае истечения срока или добавления доменов.</new_ca_cert>
+    <new_lets_encrypt_cert>Создайте бесплатный сертификат от центра сертификации Let&apos;s Encrypt. Никогда не истекает и нуждается в повторном выпуске только в случае добавления новых доменов.</new_lets_encrypt_cert>
+    <new_self_signed_cert>Бесплатный сертификат не подтвержден сертификационным центром. Используется, если безопасности не придается особая важность. Пересоздание возможно при необходимости.</new_self_signed_cert>
+    <csr>Это запрос на подпись сертификата (CSR). Запрос на подпись необходимо предоставить в центр сертификации. Как только процесс проверки завершится, привяжите полученный сертификат от центра к данному запросу.</csr>
+  </certificates_help>
+  <policies>
+    <login>Политика входа в систему</login>
+    <password>Политика паролей</password>
+    <outlook>Политики Outlook</outlook>
+    <block_user_login_accounts>Блокировать вход в систему для учетных записей, которые превышают количество неудачных попыток входа</block_user_login_accounts>
+    <block_user_login_time>Заблокировать учетную запись на</block_user_login_time>
+    <login_policy_mode>Действия для заблокированных учетных записей</login_policy_mode>
+    <require_administrator>Требовать аутентификацию администратора для доступа к системным настройкам</require_administrator>
+    <usernames>Имя пользователя</usernames>
+    <email_addresses>Адрес электронной почты</email_addresses>
+    <convert_usernames>Заменить % и / на @ в именах пользователей</convert_usernames>
+    <account_ip_restriction>Использовать ограничение IP-адресов для входа в систему</account_ip_restriction>
+    <login_restriction>Ограничение для входа в систему</login_restriction>
+    <users_login>Для входа в систему использовать</users_login>
+    <login_policy>Политика входа в систему</login_policy>
+    <password_policy>Политика паролей</password_policy>
+    <active>Включена</active>
+    <password_cannot_contain>Пароль не может содержать имя пользователя или псевдоним</password_cannot_contain>
+    <enable_password>Включить шифрование паролей</enable_password>
+    <minimal_password_length>Минимальная длина пароля</minimal_password_length>
+    <numeric>Количество цифр в пароле [0-9]</numeric>
+    <non_alpha_numeric>Количество неалфавитно-цифровых символов в пароле [!@#$%...]</non_alpha_numeric>
+    <alpha>Количество буквенных символов в пароле [a-z][A-Z]</alpha>
+    <uppercase_alpha>Количество заглавных алфавитных символов в пароле [A-Z]</uppercase_alpha>
+    <password_expires_after>Истекает через</password_expires_after>
+    <notify_before_expiration>Уведомить об истечении за</notify_before_expiration>
+    <custom_notification>Использовать для уведомлений свой файл</custom_notification>
+    <passwords_read_exported>Пароли не могут быть прочитаны или экспортированы</passwords_read_exported>
+    <admin_passwords_read_exported>Пароли администратора не могут быть прочитаны или экспортированы</admin_passwords_read_exported>
+    <do_not_block_but_delay>Задерживать авторизацию без блокировки</do_not_block_but_delay>
+    <block_account>Блокировать учетную запись на указанное время</block_account>
+    <manage>Настроить</manage>
+    <general>Общие</general>
+    <password_format>Формат пароля</password_format>
+    <password_expiration>Срок действия пароля</password_expiration>
+    <password_retrieval>Экспорт пароля</password_retrieval>
+  </policies>
+  <whitelabeling>
+    <use_default>Восстановить настройки по умолчанию</use_default>
+    <available_interfaces>Доступные интерфейсы</available_interfaces>
+    <disable_autofill>Автозаполнение имени пользователя и пароля</disable_autofill>
+    <disable_facebook_integration>Интеграция с Facebook</disable_facebook_integration>
+    <disable_interface>Выбор интерфейса</disable_interface>
+    <disable_language>Выбор языка</disable_language>
+    <disable_login_banners>Реклама</disable_login_banners>
+    <disable_login_help>Помощь по входу в систему</disable_login_help>
+    <disable_remember_me>Запомнить меня</disable_remember_me>
+    <disable_sign_up>Регистрация учетной записи</disable_sign_up>
+    <disable_support_link>Ссылка на техническую поддержку</disable_support_link>
+    <disable_twitter_integration>Интеграция с Twitter</disable_twitter_integration>
+    <disable_linkedin_integration>Интеграция с LinkedIn</disable_linkedin_integration>
+    <login_logo>Логотип входа в систему</login_logo>
+    <login_style>Стиль входа в систему</login_style>
+    <page_title>Заголовок страницы</page_title>
+    <preferred_interface>Предпочтительный интерфейс</preferred_interface>
+    <skin>Скин</skin>
+    <skin_style>Цвет темы</skin_style>
+    <background_img>Фоновое изображение</background_img>
+    <twitter_handle>Интеграция Twitter</twitter_handle>
+    <upload>Загрузить</upload>
+    <url_to_like>URL-адрес понравившейся страницы</url_to_like>
+    <wa_skin>Скин Веб-админа</wa_skin>
+    <wc_skin>Скин Веб-клиента</wc_skin>
+    <blue uses="Login style,Skin style">Синий</blue>
+    <black uses="Login style,Skin style">Черный</black>
+    <brown uses="Login style,Skin style">Коричневый</brown>
+    <graphite uses="Login style,Skin style">Графит</graphite>
+    <green uses="Login style,Skin style">Зеленый</green>
+    <orange uses="Login style,Skin style">Оранжевый</orange>
+    <pink uses="Login style,Skin style">Розовый</pink>
+    <purple uses="Login style,Skin style">Пурпурный</purple>
+    <red uses="Login style,Skin style">Красный</red>
+    <yellow uses="Login style,Skin style">Желтый</yellow>
+    <desktop uses="Preferred interface,Available interfaces">Полноценный</desktop>
+    <tablet uses="Preferred interface,Available interfaces">Для планшетов</tablet>
+    <mobile uses="Preferred interface,Available interfaces">Для мобильных</mobile>
+    <facebook_page_url>Ссылка на страницу в Facebook</facebook_page_url>
+    <twitter_page_url>Ссылка на страницу в Twitter</twitter_page_url>
+    <linkedin_page_url>Ссылка на страницу в LinkedIn</linkedin_page_url>
+    <language>Язык</language>
+    <server_language>Язык сервера</server_language>
+    <login_page_options>Параметры страницы входа</login_page_options>
+    <social_integration>Интеграция с социальными сетями</social_integration>
+    <interfaces>Интерфейсы</interfaces>
+    <background_image>Фоновое изображение</background_image>
+    <choose_image>Выбрать изображение</choose_image>
+    <choose_color>Выберать цвет</choose_color>
+    <login_heading>Заглавие страницы входа</login_heading>
+    <login_title>Заголовок страницы входа</login_title>
+    <login_text>Текст страницы входа</login_text>
+    <login_skin>Скин страницы входа в систему</login_skin>
+    <email>По электронной почте</email>
+    <sms>По СМС</sms>
+    <upload_custom_background>Загрузить фоновое изображение</upload_custom_background>
+    <search>Поиск</search>
+    <search_query>Поисковой запрос</search_query>
+    <banners>Рекламные баннеры</banners>
+    <banner_none>Отключить</banner_none>
+    <banner_url>Статическое изображение</banner_url>
+    <banner_code>AdSense</banner_code>
+    <top_banner_type>Баннер при входе в систему</top_banner_type>
+    <bottom_banner_type>Нижнее поле в списке контактов чата</bottom_banner_type>
+    <desktop_banner_type>Изображение в более высоком разрешении (728x90 px)</desktop_banner_type>
+    <mobile_banner_type>Разрешение для мобильных устройств (300x100 px)</mobile_banner_type>
+    <login_banners>Страница входа в систему</login_banners>
+    <webclient_banners>Веб-клиент</webclient_banners>
+    <adsense_settings>Настройки AdSense</adsense_settings>
+    <adsense_customer_id>Идентификатор клиента AdSense</adsense_customer_id>
+    <adsense_slot_id>Идентификатор слота AdSense</adsense_slot_id>
+    <required>Обязательно</required>
+    <custom_sign_up_fields>Пользовательские поля для регистрации</custom_sign_up_fields>
+    <nickname>Псевдоним</nickname>
+    <company>Компания</company>
+    <job>Специальность</job>
+    <profession>Профессия</profession>
+    <mobile_phone>Мобильный телефон</mobile_phone>
+    <work_phone>Рабочий телефон</work_phone>
+    <home_phone>Домашний телефон</home_phone>
+    <im>IM</im>
+    <gender>Пол</gender>
+    <birthday>Дата рождения</birthday>
+    <homepage>Веб-сайт</homepage>
+    <two_step_verification>Подтверждение регистрации</two_step_verification>
+    <verification_method>Метод проверки</verification_method>
+    <ic_skin>Мобильный скин IceChat</ic_skin>
+    <require_contact_number>Требуется ввести номер телефона</require_contact_number>
+    <conferencing>Conferencing</conferencing>
+    <conferencing_logo>Conferencing logo</conferencing_logo>
+  </whitelabeling>
+  <whitelabeling_help>
+    <login_logo>Изменить логотип на странице входа. Поддерживаемые форматы изображений: JPG, PNG, GIF, SVG. Максимальный размер файла: 20 МБ.</login_logo>
+    <login_page_options>Выберите, какие элементы вы хотите показывать или скрывать на странице входа.</login_page_options>
+    <login_skin>Настройте оформление страницы входа.</login_skin>
+    <login_skin_style>Выберите основной цвет страницы входа.</login_skin_style>
+    <login_background>Выберите фоновое изображение для страницы входа.</login_background>
+    <page_title>Текст, который увидят пользователи в названии вкладки.</page_title>
+    <server_language>Выберете основной язык для ваших пользователей.</server_language>
+    <social_integration>Настройте ссылки на социальные сети.</social_integration>
+    <wa_skin>Настройте интерфейс Веб-админа.</wa_skin>
+    <wa_skin_style>Выберите основной цвет Веб-админа.</wa_skin_style>
+    <wc_skin>Настройте интерфейс Веб-клиента.</wc_skin>
+    <wc_skin_style>Выберите основной цвет Веб-клиента.</wc_skin_style>
+    <search_query>Вставьте ссылку на поисковую систему по вашему выбору, где  %%query%% будет заменена поисковой фразой, введенной пользователями. Например: https://www.google.com/#q=%%query%%+site:icewarp.com.</search_query>
+    <banners>Разместите рекламные баннеры на странице входа в систему и внутри Веб-клиента.</banners>
+    <banner_url>Вставьте URL-адрес статического изображения, которое будет использоваться в качестве баннера.</banner_url>
+    <banner_code>Вставьте собственный идентификатор слота AdSense, предоставленный поставщиком AdSense.</banner_code>
+    <login_banners>Включайте или отключайте мобильные изображения или изображения в более высоком качестве как рекламные баннеры или подключайтесь к рекламной сети.</login_banners>
+    <webclient_banners>Разместите объявления для различных разрешений экрана на странице входа в систему или в нижнем поле списка контактов мгновенного обмена сообщениями.</webclient_banners>
+    <adsense_settings>Введите идентификатор клиента AdSense.</adsense_settings>
+    <custom_sign_up_fields>Выберите, какие поля визитной карточки будут необходимы при регистрации.</custom_sign_up_fields>
+    <two_step_verification>Выберите способ проверки при регистрации пользователей.</two_step_verification>
+    <conferencing>Change the look of the conferencing app.</conferencing>
+    <conferencing_logo>Change the logo shown on the conferencing page. Supported image formats: JPG, PNG, GIF. Maximum file size: 20 MB.</conferencing_logo>
+  </whitelabeling_help>
+  <preview>
+    <language>RU</language>
+    <sign_in_webclient>Войти в Веб-клиент</sign_in_webclient>
+    <password>Пароль</password>
+    <sign_in>Войти</sign_in>
+    <remember_me>Запомнить меня</remember_me>
+    <contact_admin>Свяжитесь с нами</contact_admin>
+    <not_you>Это не ваша учетная запись?</not_you>
+    <choose_account>Выбрать другую учетную запись</choose_account>
+    <powered>Powered by IceWarp © 2020</powered>
+    <find_out_more>Чтобы узнать больше о IceWarp, посетите</find_out_more>
+    <search>Поиск</search>
+  </preview>
+  <preview_icechat>
+    <sign_in_with>Войдите в свою учетную запись IceWarp Веб-клиент</sign_in_with>
+    <email>E-mail</email>
+    <password>Пароль</password>
+    <sign_in>ВОЙТИ</sign_in>
+  </preview_icechat>
+  <resource>
+    <alias>Псевдоним</alias>
+    <name>Имя</name>
+    <type>Тип</type>
+    <general>Общие</general>
+    <temporarily_unavailable>Временно недоступен</temporarily_unavailable>
+    <allow_conflicts>Разрешать конфликты</allow_conflicts>
+    <send_notification>Отправлять уведомления пользователю</send_notification>
+    <permissions>Права доступа</permissions>
+    <resource_members>Список участников ресурса</resource_members>
+    <members>Участники</members>
+  </resource>
+  <resource_help>
+    <resource_members>Просмотр участников ресурса, добавление новых участников или удаление текущих. Отметьте соответствующую ячейку и нажмите кнопку «Выбрать действие», чтобы удалить участника.</resource_members>
+  </resource_help>
+  <smartdiscover>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <public_hostname>Общедоступное имя хоста</public_hostname>
+    <smtp>SMTP</smtp>
+    <pop3>POP3</pop3>
+    <imap>IMAP</imap>
+    <xmpp>XMPP</xmpp>
+    <sip>SIP</sip>
+    <mobilesync>MobileSync (ActiveSync)</mobilesync>
+    <syncml>SyncML (OMA DS)</syncml>
+    <webdav_smartattach>WebDAV &amp; SmartAttach</webdav_smartattach>
+    <webclient>Веб-клиент</webclient>
+    <webadmin>Веб-админ</webadmin>
+    <free_busy>Свободен / Занят</free_busy>
+    <internet_calendar>Интернет Календарь</internet_calendar>
+    <sms>СМС</sms>
+    <anti_spam_reports>Anti-Spam отчеты</anti_spam_reports>
+    <install>Установочные файлы</install>
+    <teamchat>Корпоративный Чат</teamchat>
+    <standard>Стандартный</standard>
+    <tls_ssl>TLS / SSL</tls_ssl>
+    <no_ssl>2-й основной порт (не SSL)</no_ssl>
+    <set_all_to_new_domain_name>Присвоить новое имя хоста для всех</set_all_to_new_domain_name>
+    <collaboration>Collaboration API URL</collaboration>
+    <conference>Conference URL</conference>
+  </smartdiscover>
+  <subscription>
+    <active_users>Просмотр активных пользователей</active_users>
+    <any_questions>Есть вопросы?</any_questions>
+    <billing_address>Адрес для выставления счета</billing_address>
+    <cancel_subscription>Отмена</cancel_subscription>
+    <order_information>Информация о лицензии</order_information>
+    <order_id>Заказ ID</order_id>
+    <card_details>Информация о карте</card_details>
+    <card_number>Номер карты</card_number>
+    <change_details>Изменить данные</change_details>
+    <change_plan>Изменить</change_plan>
+    <company_name>Название компании</company_name>
+    <current_plan>Текущий тариф</current_plan>
+    <customer_details>Информация о клиенте</customer_details>
+    <expiration_date>Истекает</expiration_date>
+    <invoices>Invoices</invoices>
+    <last_invoices>Последние фактуры</last_invoices>
+    <no_invoices>В настоящее время у вас нет &lt;strong&gt; каких-либо счетов-фактур &lt;/ strong&gt;</no_invoices>
+    <payment_details>Детали оплаты</payment_details>
+    <payments>Платежная информация</payments>
+    <per_user_month>на пользователя в месяц</per_user_month>
+    <plan_details>Информация о тарифе</plan_details>
+    <price_all_users_month>Общие ежемесячные расходы</price_all_users_month>
+    <price_user_month>Цена за пользователя в месяц</price_user_month>
+    <trial>Пробная версия</trial>
+    <show_invoice_list>Показать все счета-фактуры</show_invoice_list>
+    <storage>Хранилище на одного пользователя</storage>
+    <subscription_details>Детали подписки</subscription_details>
+    <your_trial_ends>Ваша пробная (trial) версия заканчивается::</your_trial_ends>
+    <number_of_users>Количество пользователей</number_of_users>
+    <manage_subscription>Управление подпиской</manage_subscription>
+    <subscription_settings>Настройки подписки</subscription_settings>
+    <datacenter_storage_support>ЦОД, хранилище и служба поддержки</datacenter_storage_support>
+    <support>Служба поддержки</support>
+    <next_billing>Следующий биллинг (выставление счёта)</next_billing>
+    <total_price>Итоговая стоимость</total_price>
+    <billing_period>Расчётный период:</billing_period>
+    <technical_support>Техническая поддержка</technical_support>
+    <business_support>Бизнес поддержка</business_support>
+    <contact_our_support>Вы можете связаться с нашей поддержкой круглосуточно, 7 дней в неделю</contact_our_support>
+    <free>БЕСПЛАТНО</free>
+    <page_reload>Page needs to be reloaded in order to load new license</page_reload>
+  </subscription>
+  <loginpage>
+    <no_cookie>Ваш браузер не разрешает javascript создавать cookies</no_cookie>
+    <title_admin>IceWarp Веб-админ</title_admin>
+    <new_interface>Новый интерфейс</new_interface>
+    <old_interface>Старый интерфейс</old_interface>
+    <sign_in_text>Вход в систему администрирования: введите данные администратора сервера или домена.</sign_in_text>
+    <sign_in>Войти</sign_in>
+    <email>Емейл</email>
+    <username>Имя пользователя</username>
+    <password>Пароль</password>
+    <remember_me>Запомнить меня</remember_me>
+    <forgotten_password>Забыл пароль</forgotten_password>
+    <visit_text>Больше информации об IceWarp сервер на</visit_text>
+    <visit_url>http://www.icewarp.ru/</visit_url>
+    <visit_link>www.icewarp.ru</visit_link>
+    <powered_by>Powered by IceWarp Server &amp;copy; 2020</powered_by>
+    <oops_headline>Ваш браузер не поддерживается.</oops_headline>
+    <oops_text>Ваш браузер или устройство &lt;strong&gt;не поддерживается&lt;/strong&gt;. Чтобы использовать WebAdmin, загрузите один из рекомендованных:</oops_text>
+    <recommended>Рекомендованные</recommended>
+    <supported>Поддерживаемые</supported>
+    <supported_version>Поддерживаемые</supported_version>
+    <chrome>Chrome</chrome>
+    <explorer>Explorer</explorer>
+    <firefox>Firefox</firefox>
+    <safari>Safari</safari>
+    <opera>Opera</opera>
+    <divtcha>Введите код еще раз</divtcha>
+    <wrong_captcha>Код указан неверно.</wrong_captcha>
+    <auth_sent>Мы отправили вам электронное письмо с защищенной ссылкой. Нажав на ссылку, вы получите доступ к управлению спамом в течение ограниченного времени.</auth_sent>
+  </loginpage>
+  <error>
+    <failed>Не удалось</failed>
+    <fill_in_non_negative_value>Введите положительное значение</fill_in_non_negative_value>
+    <account_password_policy>Пароль не соответствует политике паролей.</account_password_policy>
+    <auth_email_missing>Адрес электронной почты отсутствует.</auth_email_missing>
+    <identical_email>Вы не можете назначить свое собственное имя пользователя другому пользователю в том же домене.</identical_email>
+    <insufficient_rights>Недостаточно прав для выполнения этого действия.</insufficient_rights>
+    <connection>Невозможно связаться с сервером. Пожалуйста, проверьте ваше интернет-соединение или обратитесь к администратору.</connection>
+    <invalid_command>Не удалось выполнить действие</invalid_command>
+    <invalid_data>Неверные данные</invalid_data>
+    <no_key_defined>Ключ не определён</no_key_defined>
+    <save_unsuccessful>Настройки не сохранены</save_unsuccessful>
+    <action_failed>Запрошенное действие невозможно выполнить</action_failed>
+    <license_key_send_failed>Не удается отправить ключ лицензии</license_key_send_failed>
+    <unknown_error>Неизвестная ошибка</unknown_error>
+    <auth_login_invalid>Неверный логин</auth_login_invalid>
+    <wrong_password>Wrong password</wrong_password>
+    <password_too_short>Password too short</password_too_short>
+    <password_does_not_match>Passwords do not match</password_does_not_match>
+    <password_contains_alias>Password cannot contain alias</password_contains_alias>
+    <password_numeric_chars>Not enough numeric characters in password</password_numeric_chars>
+    <password_non_alpha_num_chars>Not enough non alphanumeric characters in password</password_non_alpha_num_chars>
+    <password_alpha_chars>Not enough alpha characters in password</password_alpha_chars>
+    <password_upper_alpha_chars>Not enough uppercase characters in password</password_upper_alpha_chars>
+    <uploader_file_type_not_allowed>Неразрешённый тип файла</uploader_file_type_not_allowed>
+    <specify_account_name_with_domain_name>Укажите имя аккаунта с доменом</specify_account_name_with_domain_name>
+    <specify_domain_name>Укажите доменное имя</specify_domain_name>
+    <fatal_communication_error>Критическая ошибка соединения</fatal_communication_error>
+    <account_disabled>Аккаунт выключен</account_disabled>
+    <account_domain_limit_exceeded>Превышен лимит аккаунта</account_domain_limit_exceeded>
+    <connection_error>Ошибка соединения</connection_error>
+    <server_failure>Серверу не удалось доставить необходимые данные:</server_failure>
+    <password_missing>Отсутствует пароль</password_missing>
+    <auth_digest_expired>Сессия истекла</auth_digest_expired>
+    <unexpected_response>Неожиданный ответ</unexpected_response>
+    <service_stop_unsuccessful>Не удалось остановить службу</service_stop_unsuccessful>
+    <service_start_unsuccessful>Не удалось запустить службу</service_start_unsuccessful>
+    <service_restart_unsuccessful>Не удалось перезагрузить службу</service_restart_unsuccessful>
+    <rule_delete_unsuccessful>Не удалось удалить правило</rule_delete_unsuccessful>
+    <rule_save_unsuccessful>Не удалось сохранить правило</rule_save_unsuccessful>
+    <cannot_add_member_to_itself>Невозможно добавить элемент в самого себя</cannot_add_member_to_itself>
+    <rule_at_least_one_condition_required>Требуется как минимум одно условие</rule_at_least_one_condition_required>
+    <account_not_created>Учетная запись не может быть создана. Возможно существует учетная запись с таким же псевдонимом или из-за лицензионных ограничений.</account_not_created>
+    <auth_password_missing>Пароль отсутствует</auth_password_missing>
+    <login_unsuccessful>Не удалось выполнить вход в систему</login_unsuccessful>
+    <sender_must_be_filled>Поле Отправитель не может быть пустым</sender_must_be_filled>
+    <items_delete_failed>Ошибка при удалении</items_delete_failed>
+    <spam_queue_item_does_not_exist>Элемент не существует</spam_queue_item_does_not_exist>
+    <items_deliver_failed>Доставка не удалась</items_deliver_failed>
+    <save_failed>Не удалось сохранить</save_failed>
+    <reset_failed>Не удалось сбросить</reset_failed>
+    <default_reset_failed>Не удалось сбросить до значений по умолчанию</default_reset_failed>
+    <fetch_failed>Не удалось получить данные</fetch_failed>
+    <certificate_not_saved uses="server certificates">Сертификат не был сохранен</certificate_not_saved>
+    <delete_unsuccessfull>Не удалось удалить</delete_unsuccessfull>
+    <account_permission>Недостаточно прав</account_permission>
+    <license_evaluation>Пробная лицензия</license_evaluation>
+    <license_reference_mismatch>Связующее ID не совпадает</license_reference_mismatch>
+    <license_revalidation>Сбой при проверке лицензии</license_revalidation>
+    <license_expired>Срок действия лицензии истек</license_expired>
+    <license_none>Нет лицензии</license_none>
+    <license_build>Несоответствие с версией лицензии</license_build>
+    <license_version>Несоответствие с версией лицензии</license_version>
+    <cert_some_domains_were_not_verified>Некоторые домены не были подтверждены</cert_some_domains_were_not_verified>
+    <cert_requesting_challenges_for_domain_verification>Ошибка при запросе для проверки домена</cert_requesting_challenges_for_domain_verification>
+    <cert_parsing_challenges_for_domain_verification>Ошибка при обработке запроса для проверки домена</cert_parsing_challenges_for_domain_verification>
+    <cert_triggering_challenges_challenges_for_domain_verification>Ошибка при запуске проверки домена</cert_triggering_challenges_challenges_for_domain_verification>
+    <cert_registering_acme_account>Ошибка при регистрации учетной записи ACME.</cert_registering_acme_account>
+    <cert_invalid_csr_detected>Обнаружен недействительный запрос на подпись (CSR)</cert_invalid_csr_detected>
+    <cert_signing_certificate>Ошибка при подписании сертификата</cert_signing_certificate>
+    <cert_letsEncrypt_rate_limits_applied>Применено ограничение количества запросов на Let&apos;s Encrypt</cert_letsEncrypt_rate_limits_applied>
+    <domain_delete_failed>Не удалось удалить домен</domain_delete_failed>
+    <incorrect_filetype>Предоставленный файл имеет неправильный тип</incorrect_filetype>
+    <password_expired>Ваш пароль истек</password_expired>
+    <rule_activate_unsuccessful>Could not activate the rule</rule_activate_unsuccessful>
+    <rule_deactivate_unsuccessful>Could not deactivate the rule</rule_deactivate_unsuccessful>
+    <unsupported_image_format>Unsupported image format</unsupported_image_format>
+    <rule_at_least_one_action_required>At least one action is required</rule_at_least_one_action_required>
+  </error>
+  <warning>
+    <operation_may_take_long_time>This operation may take a long time.</operation_may_take_long_time>
+    <delete_selected_members>Вы действительно хотите удалить выбранных участников? (%s)</delete_selected_members>
+    <delete_selected_items>Вы действительно хотите удалить выбранные учетные записи? (%s)</delete_selected_items>
+    <delete_selected_devices>Вы действительно хотите удалить выбранные устройства? (%s)</delete_selected_devices>
+    <move_selected_accounts>Вы уверены, что хотите переместить выбранные аккаунты (%s) в домен %s?</move_selected_accounts>
+    <changes_found>Вы хотите сохранить изменения?</changes_found>
+    <identical_username>Имя пользователя совпадает с вашим именем пользователя. Вы действительно хотите сохранить это имя пользователя?</identical_username>
+    <default_certificate_will_be_overwritten uses="server certificates">Сертификат по умолчанию будет перезаписан</default_certificate_will_be_overwritten>
+    <delete_selected_certificates uses="server certificates">Вы хотите удалить выбранные сертификаты?</delete_selected_certificates>
+    <delete_selected_oauths>Do you want to delete selected OAuth clients?</delete_selected_oauths>
+    <set_to_default>Вы уверены, что хотите восстановить настройки по умолчанию? Текущие настройки будут удалены.</set_to_default>
+    <delete_domain>Домен %s будет удален</delete_domain>
+  </warning>
+  <message>
+    <device_soft_wipe_set>Soft Wipe: очистка завершена успешно</device_soft_wipe_set>
+    <device_hard_wipe_set>Hard Wipe: очистка завершена успешно</device_hard_wipe_set>
+    <device_set_wipe_failed>Команда очистки не удалась</device_set_wipe_failed>
+    <save_successfull>Настройки сохранены</save_successfull>
+    <reset_to_default>Значения были сброшены к значениям по умолчанию</reset_to_default>
+    <license_key_sent_successfuly>Ключ лицензии успешно отправлен</license_key_sent_successfuly>
+    <device_blocked>Устройство заблокировано</device_blocked>
+    <device_allowed>Устройство разрешено</device_allowed>
+    <rule_delete_successfull>Правило было удалено</rule_delete_successfull>
+    <rule_save_successfull>Правило было сохранено</rule_save_successfull>
+    <item_saved_successfully>Элемент успешно сохранен</item_saved_successfully>
+    <items_deleted_successfully>Удаление успешно завершено</items_deleted_successfully>
+    <items_delivered_successfully>Элементы доставлены успешно</items_delivered_successfully>
+    <certificate_saved uses="server certificates">Сертификат сохранен</certificate_saved>
+    <delete_successfull>Элемент удален</delete_successfull>
+    <domain_renamed>Домен переименован</domain_renamed>
+    <items_blacklisted_successfully>Элементы добавлены в черный список</items_blacklisted_successfully>
+    <items_whitelisted_successfully>Элементы добавлены в белый список</items_whitelisted_successfully>
+    <rule_activate_successful>The rule has been activated</rule_activate_successful>
+    <rule_deactivate_successful>The rule has been deactivated</rule_deactivate_successful>
+  </message>
+  <description>
+    <device_soft_wipe>Вы уверены, что хотите осуществить очистку Soft wipe на выбранном устройстве?</device_soft_wipe>
+    <device_hard_wipe>Вы уверены, что хотите осуществить очистку Hard wipe на выбранном устройстве?</device_hard_wipe>
+  </description>
+  <iframe>
+    <something_went_wrong>Что-то пошло не так.</something_went_wrong>
+    <loading>Загрузка</loading>
+    <reload>Перезагрузка</reload>
+    <reload_helper>Пожалуйста, перезагрузите контент</reload_helper>
+  </iframe>
+  <change_plan>
+    <title>Изменить план</title>
+  </change_plan>
+  <oauth>
+    <wizard>OAuth provider wizard</wizard>
+    <wizard_edit>Edit OAuth provider</wizard_edit>
+    <client_id>Client ID</client_id>
+    <name>OAuth provider</name>
+    <description>Description</description>
+    <redirect_uri>Redirect URI</redirect_uri>
+    <auth_type>Auth type</auth_type>
+    <auth_type_standard>Standard</auth_type_standard>
+    <auth_type_mobile>Mobile</auth_type_mobile>
+    <auth_type_single_page>Single Page</auth_type_single_page>
+    <secret>OAuth secret</secret>
+  </oauth>
+  <fulltext_search>
+    <title>Fulltext Search</title>
+    <configured>Fulltext Search engine is &lt;b&gt;configured&lt;/b&gt;</configured>
+    <not_configured>Fulltext Search engine is currently &lt;b&gt;not configured&lt;/b&gt;</not_configured>
+    <indexer>Fulltext Search scanner</indexer>
+    <server>Fulltext Search database</server>
+    <docconv>Documents conversion service</docconv>
+    <indexpath>Index storage folder</indexpath>
+    <configure>Configure Fulltext Search</configure>
+  </fulltext_search>
+  <fulltext_search_wizard>
+    <heading>Fulltext Search Wizard</heading>
+    <search>Fulltext Search</search>
+    <search_enable>Enable Fulltext Search in IceWarp</search_enable>
+    <search_helper1>IceWarp supports fulltext search that is available to users in WebClient interface, on mobile devices synchronized through ActiveSync and in desktop email clients that can search for emails through IMAP protocol.</search_helper1>
+    <search_helper2>Fulltext Search engine consists of three components, each of them can run locally on the same system as IceWarp, or remotely, to offload CPU and storage utilization. You should carefully consider which setup will be the best for your use case. The three components are:</search_helper2>
+    <search_helper_component1>Fulltext Search scanner (yoda-scan)</search_helper_component1>
+    <search_helper_component2>Fulltext Search database (yoda)</search_helper_component2>
+    <search_helper_component3>Documents conversion service (mundi)</search_helper_component3>
+    <scanner>Fulltext Search scanner configuration</scanner>
+    <scanner_helper>Scanner service reads data from email storage, parses out text of emails and sends the text to the fulltext search database. Scanner service needs access (at least with read permission) to the email storage of IceWarp. If Scanner is deployed on a remote server, mount the email storage to the same mount point as on the IceWarp server (%s).</scanner_helper>
+    <scanner_local>Run Scanner service locally</scanner_local>
+    <scanner_local_helper>Local Scanner service port</scanner_local_helper>
+    <scanner_remote>Connect to remote Scanner service</scanner_remote>
+    <scanner_remote_helper>Remote Scanner service URL</scanner_remote_helper>
+    <database>Fulltext Search database configuration</database>
+    <database_helper1>Database service maintains its own database for fulltext search metadata (index). The index is stored directly on filesystem and will occupy approximately 10-20% of the original size of IceWarp email storage (the actual size varies by the type of data). Database service operates on its own and does not need to have any access to email storage.</database_helper1>
+    <database_helper2>Note: If you are going to change local &lt;i&gt;Index storage folder&lt;/i&gt;, you should also manually move the existing index data to the new location (this operation cannot be done automatically).</database_helper2>
+    <database_local>Run Database service locally</database_local>
+    <database_local_helper>Local Database service port</database_local_helper>
+    <database_remote>Connect to remote Database service</database_remote>
+    <database_remote_helper>Remote Database service URL</database_remote_helper>
+    <index_storage_path>Index storage folder</index_storage_path>
+    <docconv>Documents conversion service configuration</docconv>
+    <docconv_helper>Documents conversion service is responsible for extracting text from email attachments and from documents stored in WebClient or FileSync locations. IceWarp provides a preconfigured virtual server with Documents conversion service that can be deployed externally from server where IceWarp runs [recommended]. Documents conversion service can also run locally on the same IceWarp system, however in such case it may not be able to convert some document types. Documents conversion service operates on its own and does not need to have any access to email storage.</docconv_helper>
+    <docconv_local>Run Documents conversion service locally</docconv_local>
+    <docconv_local_helper>Local Documents conversion service port</docconv_local_helper>
+    <docconv_remote>Connect to remote Documents conversion service</docconv_remote>
+    <docconv_remote_helper>Remote Documents conversion service URL</docconv_remote_helper>
+    <docconv_disable>Disable Documents conversion service</docconv_disable>
+    <summary>Fulltext Search configuration summary</summary>
+    <summary_helper>You have now finished configuration of Fulltext Search engine components. Below is summary of your current configuration.</summary_helper>
+    <runs_locally>%s runs locally</runs_locally>
+    <runs_remotely>%s runs remotely</runs_remotely>
+    <is_disabled>%s is disabled</is_disabled>
+  </fulltext_search_wizard>
+</language>

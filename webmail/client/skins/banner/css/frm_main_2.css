@@ -1,0 +1,29 @@
+#top_banner{
+	display: block!important;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 50;
+	border-bottom: 1px solid #ECECEC;
+}
+	#top_banner img{
+		position: relative;
+		left: 15px;
+		top: 13px;
+	}
+
+div.frm_main{
+	padding-top: 138px!important;
+}
+	div.frm_main > .menu{
+		top: 50px!important;
+	}
+	div.frm_main>.toolbar{
+		top: 98px!important;
+	}
+	div.frm_main>.filter{
+		top: 50px!important;
+	}

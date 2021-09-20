@@ -1,0 +1,69 @@
+// Theme mixin
+@mixin theme($selector: null, $color: null, $qualified: null, $map: $wa-themes) {
+
+	// Iterate over the themes
+	@each $theme, $properties in $map {
+		$theme-selector: '.skin-#{$theme} &';
+
+		@if $qualified {
+			$theme-selector: '&.skin-#{$theme}';
+		}
+
+		// Create theme selector
+		#{$theme-selector} {
+
+			// Use for single colors
+			@if ($selector == null) {
+
+				// Set the theme variables with `!global`
+				$theme-primary: map-deep-get($properties, colors, 'primary') !global;
+				$theme-border-grey: mix($theme-primary, $border-grey, 10%) !global;
+
+				// Output user content
+				@content;
+
+				// Unset the theme variables with `!global`
+				$theme-primary: null !global;
+				$theme-border-grey: null !global;
+			}
+
+			// Checks if the selector from theme() is in $themes
+			@if map-has-key(map-get($properties, colors), $selector) {
+
+				// Set the theme variables with `!global`
+				$theme-color: map-deep-get($properties, colors, $selector) !global;
+
+				// Output user content
+				@content;
+
+				// Unset the theme variables with `!global`
+				$theme-color: null !global;
+			}
+		}
+	}
+
+	// Use for the mixin generated colors that aren't themed
+	@if ($selector == null) {
+
+		// Set the theme variables with `!global`
+		$theme-primary: $primary !global;
+		$theme-border-grey: mix($theme-primary, $border-grey, 10%) !global;
+
+		// Output user content
+		@content;
+
+		// Unset the theme variables with `!global`
+		$theme-primary: null !global;
+		$theme-border-grey: null !global;
+	} @else {
+
+		// Set the theme variables with `!global`
+		$theme-color: $color !global;
+
+		// Output user content
+		@content;
+
+		// Unset the theme variables with `!global`
+		$theme-color: null !global;
+	}
+}

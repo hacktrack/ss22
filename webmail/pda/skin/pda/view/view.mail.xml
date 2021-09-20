@@ -1,0 +1,30 @@
+<form>
+	<!-- Users form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<form id="main_menu" target="_self">
+			<menu template="menu/view.mail" />
+			<config>
+				<controller>menu</controller>
+				<window>main</window>
+			</config>
+		</form>
+		<mailview id="items" helper="item" template="view.mail">
+			<config>
+				<stylesheet>
+					<src>pda</src>
+				</stylesheet>
+				<javascript>
+					<src>lib</src>
+				</javascript>
+				<data>item.fdr</data>
+			</config>
+		</mailview>
+	</panel>
+	<config>
+		<base>
+			<target>_blank</target>
+		</base>
+	</config>
+</form>

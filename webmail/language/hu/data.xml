@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Kék</blue>
+    <green>Zöld</green>
+    <brown>Barna</brown>
+    <purple>Rózsaszín</purple>
+    <yellow>Sárga</yellow>
+    <teal>Pávakék</teal>
+    <plum>Szilvakék</plum>
+    <red>Piros</red>
+    <aqua>Tengerkék</aqua>
+    <aquamarine>Akvamarin</aquamarine>
+    <orchid>Ibolyaszínű</orchid>
+    <pink>Rózsaszín</pink>
+    <silver>Ezüst</silver>
+    <white>Fehér</white>
+    <gray>Szürke</gray>
+    <lemon>Citromsárga</lemon>
+  </colors>
+  <title>
+    <new_email>* Új e-mail</new_email>
+    <new_im>* Új üzenet &apos;%s&apos;</new_im>
+    <new_reminder>* Emlékeztető: %s</new_reminder>
+    <cerror>! Kommunikációs hiba</cerror>
+  </title>
+  <audio>
+    <player>Lejátszó</player>
+  </audio>
+  <signature>
+    <none>Nincs aláírás</none>
+    <alias>Feladótól</alias>
+    <newmsg>Új üzenetek</newmsg>
+    <oldmsg>Válaszok</oldmsg>
+    <signature>Aláírás</signature>
+    <variable>Változó beillesztése</variable>
+  </signature>
+  <alias>
+    <add>Új aliasz hozzáadása</add>
+    <notify>A megerősítő üzenet elküldve.</notify>
+    <instructions>A megerősítés kérés a fenti e-mail címre fog elküldésre kerülni. Olvassa el benne a további utasításokat.</instructions>
+  </alias>
+  <notify>
+    <title>Értesítés részletei</title>
+    <to_all>Mindíg értesítse azokat, akik a mappához hozzáférnek</to_all>
+    <copy>Másolat az értesítésről</copy>
+    <comment>Megjegyzés (üresen maradhat). Az értesített felhasználók ezt a megjegyzést is megkapják.</comment>
+    <success>Az értesítés elküldése megtörtént</success>
+  </notify>
+  <datagrid>
+    <nomessages>Nincsenek üzenetek</nomessages>
+    <noitems>Üres</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Betekintő</preview>
+    <down>Alul</down>
+    <right>Jobb oldalon</right>
+    <none>Nincs</none>
+    <noitem>Nincs elem</noitem>
+    <message_to>Üzenet címzett: %s</message_to>
+    <doc_revisions>Dokumentum változatok</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Kereső varázsló</wizard>
+    <since>Kezdés</since>
+    <until>Befejezés</until>
+    <contains>Mindenhol</contains>
+    <fulltext>Teljes szöveg</fulltext>
+    <makefolder>Keresési mappa létrehozása</makefolder>
+    <contact_note>Megjegyzés</contact_note>
+  </search>
+  <search_hints>
+    <folder>Elemek keresése a megadott mappában</folder>
+    <from>Keresés feladó alapján (from:Név)</from>
+    <to>Keresés címzett alapján (to:Név)</to>
+    <subject>Keresés a tárgy alapján (subject:Szavak)</subject>
+    <or>logikai bővítés</or>
+    <not>logikai szűkítés</not>
+    <hasattachment>Mellékletet tartalmazó üzenetek keresése</hasattachment>
+    <isflagged>Megjelült üzenetek keresése</isflagged>
+    <isunread>Olvasatlan üzenetek keresése</isunread>
+    <isread>Olvasott üzenetek keresése</isread>
+    <isdone>Elvégzett feladatok keresése</isdone>
+    <cc>Másolatban szereplő címzett keresése</cc>
+    <bcc>Titkos másolatban szereplő címzett keresése</bcc>
+    <sms>Keresés SMS címzett alapján</sms>
+    <after>Adott időpont után küldött üzenetek keresése (after:2007/03/04)</after>
+    <after_e>Megadott időpont utáni elemek keresése (after: 2004/04/16)</after_e>
+    <after_f>Megadott időpont után módosított elemek keresése (after: 2004/04/16)</after_f>
+    <after_t>Megadott időpont után befejeződő elemek keresése (after: 2004/04/16)</after_t>
+    <after_j>Megadott időpont után befejeződő elemek keresése (after:2004/04/16)</after_j>
+    <before>Adott időpont előtt küldött üzenetek keresése (before:2004/04/16)</before>
+    <before_e>Megadott időpont előtt kezdődő elemek keresése (after: 2004/04/16)</before_e>
+    <before_f>Megadott időpont előtt módosított elemek keresése (before: 2004/04/16)</before_f>
+    <before_t>Megadott időpont előtt befejeződő elemek keresése (before: 2004/04/16)</before_t>
+    <before_j>Megadott időpont előtt kezdődő elemek keresése (before: 2004/04/16)</before_j>
+    <title>Keresés megnevezésben (title:Test)</title>
+    <description>Keresés leírásban és megjegyzésben (description:Test)</description>
+    <name>Kapcsolattartó</name>
+    <email>E-mail cím</email>
+    <keyword>Elemek jelölővel (tag:Üzleti)</keyword>
+    <tag>Elemek jelölővel (tag:Business)</tag>
+    <tag2>Elemek &quot;%s&quot; jelölővel (used in %s items)</tag2>
+    <greater>Méret alapján, nagyobb mint kB (greater:1024)</greater>
+    <smaller>Méret alapján, kisebb mint kB (smaller:1024)</smaller>
+    <company>Cég alapján (company:IceWarp.hu)</company>
+    <department>Osztály alapján (department:IT)</department>
+    <note>Névjegy keresése megjegyzéssel (pl:VIP)</note>
+    <location>Kapcsolatok keresése hely alapján (location:Budapest)</location>
+    <fulltext>Keresés az üzenet törzsében (fulltext:teszt)</fulltext>
+    <priority>Fontosség alapján, magas, alacsony (priority:magas)</priority>
+    <isprivate>Privát feladatok keresése</isprivate>
+    <ispublic>Megosztott feladatok keresése</ispublic>
+    <isfree>Szabad feladatok keresése</isfree>
+    <isbusy>Foglalt feladatok keresése</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Keresési mappa</virtual>
+    <general>Általános</general>
+    <primary>Elsődleges</primary>
+    <filter>Szűrő</filter>
+    <all>Összes mappa</all>
+  </virtual>
+  <notifier>
+    <notifier>IceWarp E-mail Értesítő</notifier>
+    <permissions>Az IceWarp E-mail Értesítővel figyelmeztetést kap új e-mail vagy üzenet érkezésekor, akkor is ha a WebMail nincs megnyitva.&lt;br&gt;Először válassza ki, hogy milyen gyakran szeretne értesítést kapni, majd kattintson az OK gombra. A megjelenő párbeszédpanelen pedig erősítse meg a modul engedélyezését.</permissions>
+    <denied>Ön elutasította a hozzáférést az asztali értesítésekhez.</denied>
+    <redirect>Üzenet átirányítva.</redirect>
+    <send>Üzenet elküldve.</send>
+    <item_save>Elem mentve.</item_save>
+    <new_email>Új e-mail érkezett: %s</new_email>
+    <new_revision>A dokumentum új változata elkészült.</new_revision>
+    <email_exist>E-mail cím már létezik.</email_exist>
+    <email_added>E-mail cím névjegyhez adva.</email_added>
+    <contact_email_list_full>E-mail cím nem adható hozzá. Már minden mező foglalt.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google térkép</map>
+    <go>Cím mutatása</go>
+    <open>Google megnyitása</open>
+    <alert>Google térkép hiba</alert>
+    <g_geo_missing_address>Hiányzó cím: A cím nincs megadva.</g_geo_missing_address>
+    <g_geo_too_many_queries>Túl sok lekérdezés: Túllépte a maximális lekérdezési számot.</g_geo_too_many_queries>
+    <g_geo_server_error>Szerver hiba: A lekérdezés során hiba történt.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Bejelentkezési adatok</login_info>
+    <licenses>Bővítmények letöltése és licencek</licenses>
+    <licenses_text>&lt;b&gt;IceWarp Levelező és Kommunikációs Szerver&lt;/b&gt; bővítmények.&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;&lt;b&gt;IceWarp Levelező&lt;/b&gt; - komplett IceWarp Levelező naptárral és CsoportMunka eszközökkel.&lt;/li&gt;&#13;&#10;&lt;li&gt;&lt;b&gt;IceWarp Outlook Szinkronizáló&lt;/b&gt; - az IceWarp CsoportMunka Szerver és az Outlook automatikus szinkronizálása.&lt;/li&gt;&#13;&#10;&lt;li&gt;&lt;b&gt;IceWarp e-mail értesítő&lt;/b&gt; - automatikus figyelmeztetés új e-mailek érkezésekor.&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Kézbesítve</delivered>
+    <delivered_info>Az e-mail sikeresen kézbesítve egy helyi címzettnek.</delivered_info>
+    <sent>Elküldve</sent>
+    <sent_info>Az e-mail sikeresen elküldve a távoli szerverre.</sent_info>
+    <queue>Várakozás</queue>
+    <queue_info>Az e-mail átmenetileg nem kézbesíthető, a szerver újra próbálkozik.</queue_info>
+    <error>Hiás</error>
+    <error_info>A kézbesítés során hiba lépett fel. Erről egy e-mail üzenetet kapott.</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Összes fájl</all_files>
+    <images>Képek</images>
+    <queue_limit_exceeded>Túl hosszú várakozási sor</queue_limit_exceeded>
+    <zero_byte_file>Üres fájl</zero_byte_file>
+    <invalid_filetype>Érvénytelen kiterjesztésű fájl</invalid_filetype>
+    <item>Elem</item>
+    <title>Feltöltés: %s - %s%</title>
+    <error1>A fájl mérete nagyobb a határértéknél (%sMB)</error1>
+    <error3>A fájlt csak részben sikerült feltölteni</error3>
+    <error4>Nincs fájl feltöltve</error4>
+    <error6>Hiányzik az ideiglenes (temp) mappa</error6>
+    <error7>A fájl nem írható a lemezre</error7>
+    <error8>Érvénytelen fájl kiterjesztés</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Állapot...</status_msg>
+    <add_private>Magán</add_private>
+    <unsupported_img>Nem támogatott kép</unsupported_img>
+    <add_gateway>Átjáró hozzáadása</add_gateway>
+    <error_im>WebChat hiba</error_im>
+    <registred>Erre a kiszolgálóra már feliratkozott.</registred>
+    <registr>Feliratkozás</registr>
+    <error_ticket>Bejegyzés nem hozható létre!</error_ticket>
+    <error_socket>Kapcsolat nem nyitható meg!</error_socket>
+    <error_bytestream>Folyamat nem támogatott!</error_bytestream>
+    <error_cancel>Kérés megszüntetve.</error_cancel>
+    <error_registr>A regisztráció nem hozható létre!</error_registr>
+    <add_service>Feliratkozás</add_service>
+    <service>Szolgáltatás</service>
+    <call>WebTelefon</call>
+    <audio_call>WebTelefon</audio_call>
+    <video_call>WebTelefon kamerával</video_call>
+    <meeting>WebKonferencia</meeting>
+    <invite>Meghívás WebKonferenciára</invite>
+    <closetab>Fül bezárása</closetab>
+    <show>Összes kapcsolat</show>
+    <hide>Csak elérhetők</hide>
+    <other>Egyéb</other>
+    <selected>Kiválasztott</selected>
+    <chat>WebChat</chat>
+    <groupmsg>Üzenet küldése</groupmsg>
+    <group>Csoport</group>
+    <new_group>Új csoport</new_group>
+    <subscription>Feliratkozás</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>&lt;b&gt;%s&lt;/b&gt; fel szeretné venni Önt a partnerlistájára.</sub_ask>
+    <send>Küldés</send>
+    <request>Kérés</request>
+    <remove>Törlés</remove>
+    <remove_account>Valóban törli &lt;strong&gt; %s &lt;/strong&gt; felhasználót a listáról?</remove_account>
+    <remove_accounts>Valóban törli a felhasználókat a listáról?</remove_accounts>
+    <rem_grp>Csoport törlése</rem_grp>
+    <rem_grpc>Csoport névjegyeinek törlése</rem_grpc>
+    <rename>Átnevezés</rename>
+    <add>Új partner</add>
+    <jabber_id>Felhasználónév</jabber_id>
+    <nick>Név</nick>
+    <vcard>Névjegy</vcard>
+    <history>Előzmények</history>
+    <sharedesktop>Képernyő mutatása</sharedesktop>
+    <tab_general>Általános</tab_general>
+    <tab_work>Munkahely</tab_work>
+    <tab_location>Cím</tab_location>
+    <tab_about>Névjegy</tab_about>
+    <send_mail>E-mail küldés</send_mail>
+    <send_file>Fájl küldés</send_file>
+    <receive_file>Fájlé fogadása</receive_file>
+    <not_listed>Nincs a listán</not_listed>
+    <composing>WebChat: %s folyamatban van...</composing>
+    <file_message>Fájl érkezett:&#13;&#10;%s&#13;&#10;&#13;&#10;Link: %s</file_message>
+    <file_cancel>A fájlátvitelt a másik fél megállította.</file_cancel>
+    <file_error>Fájl átviteli hiba.</file_error>
+    <file_ok>Fájlküldés sikeres.</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/b&gt; fájlt küldött &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>WebChat üzenetek megjelenítése ez után: %s</show_after>
+    <im_status>WebChat állapota: %s</im_status>
+    <im>WebChat</im>
+    <sip_inprogress>Hívás folyamatban</sip_inprogress>
+    <sip_incomming>Bejövő hívás</sip_incomming>
+    <sip_calling>Hívás</sip_calling>
+    <status_sec>%s kevesebb mint egy perc alatt</status_sec>
+    <status_min>%s %s perc alatt</status_min>
+    <status_hour>%s %s óra alatt</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Javaslat új időpontra</propose>
+    <nosubject>Nincs tárgy</nosubject>
+    <when>Időpont</when>
+    <location>Hely</location>
+    <comment>Megjegyzés</comment>
+    <description>Leírás</description>
+    <accept>Elfogadás</accept>
+    <tentative>Esetleges</tentative>
+    <decline>Visszautasítás</decline>
+    <skip_img>Külső képek biztonsági okokból blokkolva! Engedélyezésükhöz kattintson ide.</skip_img>
+    <show_img>A melléklet képeket tartalmaz. Megtekintésükhöz kattintson ide.</show_img>
+    <smart>A mellékleteket megbízható IceWarp óriásmellékletként kézbesítjük.</smart>
+    <show_raw>Nyers üzenet megnyitása</show_raw>
+    <certificate>Digitális aláírás</certificate>
+    <serror>Hibás tanúsítvány.</serror>
+    <sverify>Az aláírás nem hitelesíthető.</sverify>
+    <expired>Visszafejtési hiba. Valós, de lejárt tanúsítvány.</expired>
+    <access>Hozzáférést kapott a következőhöz: &quot;%s&quot;, adta: &quot;%s&quot;.</access>
+    <account_access>Hozzáférést kapott a következőtől: %s.</account_access>
+    <subscribe>Feliratkozás mappára</subscribe>
+    <subscribe_account>Feliratkozás fiókra</subscribe_account>
+    <subscribed>%s fiókra feliratkozott.</subscribed>
+    <subscribed_folder>&quot;%s/%s&quot; mappa elérhető.</subscribed_folder>
+    <unsubscribe>Leiratkozás</unsubscribe>
+    <unsubscribed>Feliratkozás eltávolítva: &quot;%s&quot;.</unsubscribed>
+    <unsubscribed_folder>&quot;%s/%s&quot; a továbbiakban már NEM érhető el.</unsubscribed_folder>
+    <error>Nem hajtható végre a művelet.</error>
+    <recurrent>Rekurzív</recurrent>
+    <occurrence>Szabálytalan ismétlődő elem</occurrence>
+    <attendee>Résztvevők</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Újdonságok</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Súgó</help>
+    <about>Névjegy</about>
+  </help>
+  <print>
+    <preview>Nyomtatási kép</preview>
+    <opera>Böngészője nem támogatja ezt a funkciót.</opera>
+  </print>
+  <status>
+    <online>Elérhető</online>
+    <offline>Kijelentkezve</offline>
+    <chat>Beszélgetnék</chat>
+    <away>Nincs a gépnél</away>
+    <xa>Nincs információ</xa>
+    <dnd>Ne zavarj</dnd>
+    <invisible>Láthatatlan</invisible>
+    <gone>A felhasználó kilépett a WebChatből</gone>
+    <error>Hiba</error>
+    <sip>Online vagy WebTelefon</sip>
+    <chat_with>Beszélgatés partnerrel: %s</chat_with>
+  </status>
+  <policy>
+    <minlength>A jelszónak minimum %s karakter hosszúnak kell lennie</minlength>
+    <digits>Szám karakterek [0-9] minimális száma: %s</digits>
+    <alpha>Betű karakterek [a-Z] minimális száma: %s</alpha>
+    <nonalphanum>Különleges karakterek [!@#$%...] minimális száma: %s</nonalphanum>
+    <upperalpha>Nagybetűs betű karakterek [A-Z] minimális száma: %s</upperalpha>
+    <useralias>A jelszó nem egyezhet meg a felhasználónévvel vagy aliasszal</useralias>
+  </policy>
+  <alerts>
+    <alert>Figyelmeztetés</alert>
+    <suppress>Ne mutassa újra</suppress>
+    <create_revision>Nem hozható létre új változat</create_revision>
+    <password_do_not_match>Jelszó nem egyezik!</password_do_not_match>
+    <invalid_password>Érvénytelen jelszó!</invalid_password>
+    <new_password_match>Az új jelszó megegyezik a régivel</new_password_match>
+    <invalid_cpassword>A jelszó ismétlés nem egyezik meg!</invalid_cpassword>
+    <folder_exist>A mappa már létezik!</folder_exist>
+    <create_folder>&quot;%s&quot; mappa nem hozható létre</create_folder>
+    <rename_folder>A mappa &quot;%s&quot; nem nevezhető át erre: &quot;%s&quot;.</rename_folder>
+    <attachment_size>A melléklet mérete túl nagy!</attachment_size>
+    <attachment_quota>A melléklet mérete túl nagy.</attachment_quota>
+    <attachment_missing>Melléklet nem található</attachment_missing>
+    <attachment_virus>A melléklet vírussal fertőzött.</attachment_virus>
+    <could_not_create>Nem lehetett létrehozni a dokumentumot.</could_not_create>
+    <could_not_edit>Nem lehetett szerkeszteni a dokumentumot.</could_not_edit>
+    <general_error>Ismeretlen hiba történt&lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>A jelszó nem felel meg a biztonsági feltételeknek!</password_policy>
+    <password_requirements>Ellenőrizze a követelményeket és válasszon új jelszót:</password_requirements>
+    <password_incorrect>Hibás jelszó. Próbálja újra.</password_incorrect>
+    <message_not_sent>Az üzenet nem küldhető el!</message_not_sent>
+    <message_not_saved>Az üzenet nincs elmentve!</message_not_saved>
+    <mailingfailed>Az üzenet nem menthető el és nem továbbítható. Próbálja újra.</mailingfailed>
+    <distribution_list_invalid_id>Érvénytelen partnercsoport:</distribution_list_invalid_id>
+    <smtp_from_failed>Az üzenetet a feladó nem fogadta el:</smtp_from_failed>
+    <smtp_recipients_failed>A címzett a következő hibát jelezte:</smtp_recipients_failed>
+    <smtp_data_not_accepted>Az üzenetet a szerver NEM fogadta el.</smtp_data_not_accepted>
+    <default_folder_missing>&quot;%s&quot; alapértelmezett mappa hiányzik.</default_folder_missing>
+    <no_recipient_certificate>Címzett bizonyítványa hiányzik.</no_recipient_certificate>
+    <recipient_certificate_expired>A címzett tanúsítványa lejárt.</recipient_certificate_expired>
+    <personal_certificate>Hibás személyes tanúsítvány</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>Az üzenet nem található.</imap_null>
+    <delete_item>A kijelölt elem(ek) nem törölhető(k)</delete_item>
+    <reserved_folder>&quot;%s&quot; mappanév nem használható</reserved_folder>
+    <undefined>Ismeretlen hiba</undefined>
+    <timezone_differ>Időzónája megváltozott. Válassza ki jelenlegi időzónáját.</timezone_differ>
+    <popup_blocker>Az előugró ablak letiltásra került.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Olvasatlan</unread>
+    <contact_ok>Sikerült felvenni a kapcsolatot az adminisztrátorral</contact_ok>
+    <signup_ok>Új fiók sikeresen létrhozva.</signup_ok>
+    <logout>A felhasználó kijelentkezett</logout>
+    <logged_out>A felhasználó kijelentkezett</logged_out>
+    <forgot_ok>A belépési adatokat elküldtük e-mail címére és másodlagos e-mail címére</forgot_ok>
+    <password_change_ok>Jelszó módosítva</password_change_ok>
+    <close_window>Ez az ablak bezárható</close_window>
+    <personality_confirmation_ok>E-mail címe megerősítve.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Érvénytelen felhasználónév vagy jelszó, próbálja újra.</invalid_login>
+    <account_disabled>Fiók letiltva.</account_disabled>
+    <expired>Lejárt munkamenet</expired>
+    <connection>A szerver jelenleg nem érhető el! Ellenőrizze az Internet kapcsolatot vagy forduljon az adminisztrátorhoz.</connection>
+    <servererror>A szolgáltatás nem érhető el. Próbálja újra vagy hívja adminisztrátorát.</servererror>
+    <overloaded>A szerver túlterhelt. Próbálja újra vagy hívja adminisztrátorát.</overloaded>
+    <countdown>Új próba %s másodperc múlva.</countdown>
+    <filenotfound>A kiszolgálóról hiányzó fájlok vannak, néhány váratlan viselkedés történhet.</filenotfound>
+    <subscribe_error>Nem lehet bejelentkezni a fiókba: %s.</subscribe_error>
+    <wc_disabled>A WebMail jelenleg NEM üzemel!</wc_disabled>
+    <invalid_rsa>RSA jelszó nem hozható létre.</invalid_rsa>
+    <no_db>Adatbázis kapcsolódási hiba.</no_db>
+    <no_data>Nincs elérhető adat.</no_data>
+    <access_error>A fiók nem érhető el, forduljon az adminisztrátorhoz.</access_error>
+    <ip_mismatch>Megváltozott az IP-je, így biztonsági okokból újra be kell jelentkeznie. Ennek kiküszöbölésére, a jövőben javasoljuk a biztonságos elérés használatát (HTTPS).</ip_mismatch>
+    <javatip1>Fogadja el a megjelenő Java biztonsági figyelmeztetést.</javatip1>
+    <javatip2>Forduljon az adminisztrátorhoz, hogy telepítse a Javát számítógépére.</javatip2>
+    <javatip3>További hasznos információkat kap az alábbi Tippek gombra kattintva.</javatip3>
+    <contactadmin>Írjon adminisztrátorának</contactadmin>
+    <troubleshoot>Tippek</troubleshoot>
+  </error>
+  <common>
+    <all>Összes</all>
+    <processing>Feldolgozás</processing>
+    <loading>Betöltés...</loading>
+    <sending>Küldés...</sending>
+    <comment>Megjegyzés (nem szükséges)</comment>
+    <email>E-mail</email>
+    <folder>Mappa</folder>
+    <items>Elemek</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Összes</select_all>
+    <clear>Törlés</clear>
+    <yes>Igen</yes>
+    <no>Nem</no>
+    <auto>Automatikus</auto>
+    <disable>Letiltás</disable>
+    <enable>Engedélyez</enable>
+    <enabled>Engedélyezve</enabled>
+    <show_all>Mindent mutat</show_all>
+    <previous>Előző</previous>
+    <next>Következő</next>
+    <more>További...</more>
+    <show>Megjelenítés</show>
+    <hide>Elrejtés</hide>
+    <appearance>Panel megjelenése</appearance>
+    <expand>Kibontva</expand>
+    <collapsed>Összecsukva</collapsed>
+    <autocollapsed>Automatikus összecsukás</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Kedvencek</favorites>
+    <remove>Eltávolítás a kedvencek közül</remove>
+    <rename>Link átnevezése</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>Tulajdonos</owner>
+    <address_book>Névjegyek</address_book>
+    <add_recipient>Címzett hozzáadása</add_recipient>
+    <selected_addresses>Kijelölt</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Törlés</empty>
+    <today>Ma</today>
+    <this_week>Ezen a héten</this_week>
+    <this_month>Ebben a hónapban</this_month>
+    <yesterday>Tegnap</yesterday>
+    <tomorrow>Holnap</tomorrow>
+    <typetoadd>Típussal</typetoadd>
+    <owner>Tulajdonos</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>Helyi idő</timezones>
+    <serverzone>Szerver idő</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Kívánja törölni az automatikus kiegészítés listát?</clear_autosuggest>
+    <suppress>Ne kérdezze újra</suppress>
+    <reset_password_subject>Jelszó visszaállítás: %email%</reset_password_subject>
+    <reset_password>Helló, %username%!&#13;&#10;&#13;&#10;Ön kérte a fiókja (%email%) jelszócseréjét a WebMailben?&#13;&#10;&#13;&#10;Kattintson az alábbi hivatkozásra (vagy másolja a vágólapra és illessze be a böngészőjébe) annak megerősítéséhez, hogy ez az e-mail cím az Öné.&#13;&#10;&#13;&#10;Ha nem Ön kérte, vagy hiba folytán kapta ezt az üzenetet, akkor kérjük, hagyja figyelmen kívül.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Új feladó hitelesítése a címhez: %username%</alias_subject>
+    <alias_confirmation>Helló, %username%!&#13;&#10;&#13;&#10;Ön kérte az új Feladó cím (%email%) hozzáadását a WebMailben?&#13;&#10;&#13;&#10;Kattintson az alábbi hivatkozásra (vagy másolja a vágólapra és illessze be a böngészőjébe) annak megerősítéséhez, hogy ez az e-mail cím az Öné.&#13;&#10;&#13;&#10;Ha nem Ön kérte, vagy hiba folytán kapta ezt az üzenetet, akkor kérjük, hagyja figyelmen kívül.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>Adatvesztés elkerüléséhez mentse el az összes nyitott elemet.</unload>
+    <expired>Lejárt folyamat</expired>
+    <no_mobile>Mobil telefonszám nem található.</no_mobile>
+    <expired_msg>Befejezetlen levelek küldése vagy mentése nem lehetséges. Magváltozott az IP-je, vagy lejárt a használati idő.</expired_msg>
+    <delete_account_confirmation>Fiók megerősítés eltávolítása</delete_account_confirmation>
+    <delete_account>Valóban törli a fiókot: %s?</delete_account>
+    <recover_item>Valóban visszaállítja az elemeket?</recover_item>
+    <delete_folder_confirmation>Mappa törlés megerősítése</delete_folder_confirmation>
+    <delete_folder>Valóban törli a mappát &quot;%s&quot;?&lt;br/&gt;(Ezzel annak tartalmát és almappáit is törli.)</delete_folder>
+    <delete_item_confirmation>Törlés megerősítése</delete_item_confirmation>
+    <delete_item>Valóban törli az elemet?</delete_item>
+    <delete_avatar>A névjegyben használt kép törlődik.</delete_avatar>
+    <blacklist_sender_confirmation>Feketelista megerősítése</blacklist_sender_confirmation>
+    <blacklist_sender>Valóban feketelistára veszi a feladót?</blacklist_sender>
+    <blacklist_domain>A domén minden felhasználóját feketelistára veszi?</blacklist_domain>
+    <blacklisted>Feladó fekete listára került</blacklisted>
+    <whitelist_sender_confirmation>Fehérlista megerősítése</whitelist_sender_confirmation>
+    <whitelist_sender>Valóban fehérlistára veszi a feladót?</whitelist_sender>
+    <whitelist_domain>A domén minden felhasználóját fehérlistára veszi?</whitelist_domain>
+    <whitelisted>Feladó fehér listára került.</whitelisted>
+    <empty_folder_confirmation>Mappa ürítés megerősítése</empty_folder_confirmation>
+    <empty_folder>Valóban törli a mappa összes elemét?</empty_folder>
+    <empty_to_trash>Valóban áthelyezi a mappa összes elemét a [Törölt e-mailek] mappába?</empty_to_trash>
+    <save_title>Üzenet mentése</save_title>
+    <save_confirmation>Az üzenet még nincs elmentve. Elmenti a piszkozatok mappába?</save_confirmation>
+    <save_file>Fájl módosítva. Menti?</save_file>
+    <save>Igen</save>
+    <discard>Elvet</discard>
+    <create_reading_confirmation_title>Olvasás megerősítése</create_reading_confirmation_title>
+    <create_reading_confirmation>A feladó az üzenet elolvasásáról visszaigazolást kért. Elküldi a visszaigazolást?</create_reading_confirmation>
+    <send_reading_confirmation>Kér olvasási visszaigazolást?</send_reading_confirmation>
+    <browser_warning_title>Böngésző figyelmeztetés</browser_warning_title>
+    <browser_warning_text_unsupported>Jelenlegi böngészőjét az IceWarp WebMail NEM támogatja.&#13;&#10;&#13;&#10;Ezen böngészővel a WebMail használata során különböző problémák léphetnek fel, ill. használhatatlanul lassúvá válhat.&#13;&#10;&#13;&#10;Az IceWarp WebMail a Firefox 4.0 (vagy újabb) ill. az Internet Explorer 8.0 (vagy újabb) verziójára optimalizált. Javasoljuk hogy böngészőjét frissítse az Internet Explorer, vagy a FireFox legújabb verziójára (mindkét program díjmentes).&#13;&#10;&#13;&#10;A Firefoxot innen töltheti le:&#13;&#10; http://www.firefox.com/&#13;&#10;Az Internet Explorert pedig innen:&#13;&#10; http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;A folytatáshoz kattintson az OK gombra. A Mégse gombra kattintva a WebMail egy egyszerűsített felülettel indul.</browser_warning_text_unsupported>
+    <expired_password>A jelszó lejárt, módosítsa azt meg!</expired_password>
+    <authentication>Sikertelen hitelesítés</authentication>
+    <authenticate>Biztonsági okokból újra be kell lépnie.</authenticate>
+    <enterpass>Adja meg jelszavát és lépjen be újra.</enterpass>
+    <secure>Ahhoz hogy ez a jövőben ne forduljon elő, kapcsolódjon HTTPS kapcsolaton.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>A felület nyelvének módosításához lépjen be újra!</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Megnyitás új ablakban</open_in_separate_window>
+    <help_restriction>Ezt a funkciót az adminisztrátor nem engedélyezte</help_restriction>
+    <switch_older>Váltás a WebMail előző verziójára</switch_older>
+    <choose_interface>Hogyan jelenjen meg?</choose_interface>
+    <choose_lang>Válasszon nyelvet</choose_lang>
+    <migration_in_progress>Jelenleg áthelyezés zajlik, próbálja később!</migration_in_progress>
+    <message_sent>Az üzenet kézbesítve</message_sent>
+    <message_send_failed>Az üzenet nem kézbesíthető</message_send_failed>
+    <antispam_code_error>Hibás kódot adott meg</antispam_code_error>
+    <antispam>Kód</antispam>
+    <contact_support_subject>Új kapcsolat a bejelentkezési oldalról</contact_support_subject>
+    <text>Szöveg</text>
+    <contact_administrator>Vegye fel velünk a kapcsolatot</contact_administrator>
+    <contact_question>Segítségre van szüksége?</contact_question>
+    <contact_answer>Írjon adminisztrátorának.</contact_answer>
+    <contact_1>Miben segíthetünk?</contact_1>
+    <contact_2/>
+    <contact_placeholder_1>E-mail vagy telefon</contact_placeholder_1>
+    <contact_placeholder_2>Írja le problémáját.</contact_placeholder_2>
+    <help>Audió súgó</help>
+    <meeting_me>Én</meeting_me>
+    <meeting_hang_up_confirmation>Valóban kilép a WebKonferenciából?</meeting_hang_up_confirmation>
+    <online_meeting>WebKonferencia</online_meeting>
+    <meeting_connected>Kapcsolódva</meeting_connected>
+    <meeting_connecting>Kapcsolódás...</meeting_connecting>
+    <phone_access>Telefonon keresztül</phone_access>
+    <meeting_chat_ready>Üdvözöljük a WebKonferencián!</meeting_chat_ready>
+    <meeting_chat_send>Küldés</meeting_chat_send>
+    <meeting_user_left_meeting>&quot;%s&quot; elhagyta a WebKonferenciát</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>&quot;%s&quot; belépett a WebKonferenciába</meeting_user_joined_meeting>
+    <meeting_no_participants>Nincs résztvevő</meeting_no_participants>
+    <meeting_server_not_responding>A szerver nem érhető el</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Kapcsolódás sikeres</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Nem indítható el az audió kisalkalmazás. Ha jelent meg megerősítő párbeszédpanel a böngészőben, akkor erősítse meg a Java kisalkalmazás futtatásának engedélyezését. Néhány esetben a böngésző újraindítása segíthet. A Java legújabb verzióját és annak megfelelő telepítését a &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt; webcím felkeresésével ellenőrizheti.</java_warning_no_java>
+    <duration>Időtartam</duration>
+    <mute>Elnémítás</mute>
+    <desktop_sharing_id>Képernyőmegosztáshoz használt azonosító</desktop_sharing_id>
+    <conference_phone_number>WebKonferencia telefonszáma</conference_phone_number>
+    <desktop_sharing_app>Képernyőmegosztás bővítmény</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>Sajnos mobileszközökön közvetlenül a webről nem működik a képernyőmegosztás. Az alábbi hivatkozáson talál ehhez egy alkalmazást.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>Sajnos Mac-en közvetlenül a webről nem működik a képernyőmegosztás. Egy alkalmazást kell telepítenie az alábbi hivatkozásról.</desktop_sharing_mac_warning>
+    <continue_to_call>Hívás folytatása</continue_to_call>
+    <meeting_api_unexpected_response>Hibás szerver válasz</meeting_api_unexpected_response>
+    <applet_unreachable>A Java alkalmazás nem érhető el</applet_unreachable>
+    <sip_applet_load_failed>A hang alkalmazás nem tölthető be</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>WebKonferencia információ nem érhető el</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>A képernyőmegosztás befejeződött, a WebKonferencia folytatódik.</meeting_mikogo_ended>
+    <meeting_ended>WebKonferencia befejezve</meeting_ended>
+    <meeting_hang_up>Befejezés</meeting_hang_up>
+    <meeting_id>WebKonferencia azonosító</meeting_id>
+    <meeting_mikogo_ready>Képernyőmegosztás indítható</meeting_mikogo_ready>
+    <meeting_sip_ready>Hang kész</meeting_sip_ready>
+    <meeting_call_failed>Hívás megszakadt</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Hívás megszakadt, próbálja újra %s másodperc múlva.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Próbálja újra %s másodperc múlva.</meeting_trying_again_in>
+    <meeting_preparing_sip>Hang előkészítése</meeting_preparing_sip>
+    <meeting_starting_sip>Hang indítása</meeting_starting_sip>
+    <meeting_waiting_for_reply>Hang alkalmazás a szerver válaszára vár</meeting_waiting_for_reply>
+    <meeting_in_progress>WebKonferencia folyamatban</meeting_in_progress>
+    <meeting_you_can_join>Most kapcsolódhat a WebKonferenciához</meeting_you_can_join>
+    <meeting_applet_is_not_ready>WebKonferencia alkalmazás kész</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>WebKonferencia alkalmazás nem válaszol</meeting_no_applet_code>
+    <meeting_unexpected_response>Hibás válasz a WebKonferencia alkalmazástól</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Böngészője nem támogatja a WebKonferenciát</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>A Chrome böngésző nyújtja a legjobb élményt. Átirányítjuk a beállítási kézikönyvhöz.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>A WebKonferencia még nem kezdődött el</meeting_meeting_wasnt_started>
+    <meeting_waiting>Várakozás hogy %s elindítsa a WebKonferenciát</meeting_waiting>
+    <meeting_created_by_ready>%s WebKonferenciája kész</meeting_created_by_ready>
+    <meeting_loading_meeting_info>WebKonferencia betöltése</meeting_loading_meeting_info>
+    <unknown_error>Ismeretlen hiba</unknown_error>
+    <meeting_no_name>Adja meg nevét</meeting_no_name>
+    <meeting_api_error_104>Érvénytelen WebKonferencia azonosító</meeting_api_error_104>
+    <meeting_api_error_description_104>A WebKonferencia címe hibás</meeting_api_error_description_104>
+    <meeting_api_error_111>A szolgáltatás ki van kapcsolva</meeting_api_error_111>
+    <meeting_api_error_120>Nem tudott kapcsolódni a szerverhez</meeting_api_error_120>
+    <meeting_api_error_125>WebKonferencia indításához nincs licence</meeting_api_error_125>
+    <meeting_id_doesnt_exist>WebKonferencia azonosító nem létezik</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>A mikrofon nem érhető el</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>A mikrofon letiltott, vagy az nincs csatlakoztatva. Szeretné mikrofon nélkül folytatni?</meeting__no_microphone_continue>
+    <fill_in_name>Adja meg nevét.</fill_in_name>
+    <fill_in_email>Adja meg e-mail címét.</fill_in_email>
+    <join_meeting>Kapcsolódás a WebKonferenciához</join_meeting>
+    <already_a_member>Ön már résztvevő</already_a_member>
+    <name>Név</name>
+    <enter_your_name>Adja meg a nevét</enter_your_name>
+    <enter_your_name_description>Ez a név látható lesz más résztvevők számára is, és az Ön azonosítására szolgál a WebKonferencia folyamán</enter_your_name_description>
+    <cancel>Mégse</cancel>
+    <login_caption>IceWarp WebMail</login_caption>
+    <copy>Erőforrás: &lt;a href=&quot;http://www.IceWarp.hu&quot; target=&quot;_blank&quot;&gt;IceWarp Levelező és Kommunikációs Szerver&lt;/a&gt;</copy>
+    <copy_new>&lt;a target=&quot;_blank&quot; href=&quot;http://www.icewarp.hu&quot;&gt;IceWarp Szerver&lt;/a&gt;</copy_new>
+    <title>IceWarp WebMail</title>
+    <user>Felhasználó</user>
+    <email>E-mail</email>
+    <pass>Jelszó</pass>
+    <old_pass>Régi jelszó</old_pass>
+    <new_pass>Új jelszó</new_pass>
+    <check_pass>Jelszó újra</check_pass>
+    <change_password>Jelszó módosítása</change_password>
+    <remember>Megjegyzi</remember>
+    <save0>Automatikus bejelentkezés</save0>
+    <save1>Felhasználó és jelszó</save1>
+    <save2>Felhasználó</save2>
+    <save3>Semmi</save3>
+    <login>Bejelentkezés</login>
+    <send>OK</send>
+    <create_account>Felhasználó létrehozása</create_account>
+    <switch>Váltás &lt;a href=&quot;./basic&quot;&gt;Tábla&lt;/a&gt; vagy &lt;a href=&quot;./pda&quot;&gt;Mobil&lt;/a&gt; felületre.</switch>
+    <downloads>Letöltés</downloads>
+    <interface>Felület</interface>
+    <basic>Tábla</basic>
+    <pda>Mobil</pda>
+    <pro>Profi</pro>
+    <osx>Mac OS X</osx>
+    <lang>Nyelv</lang>
+    <keep_me_signed>Automatikus bejelentkezés</keep_me_signed>
+    <utilities>Bővítmények</utilities>
+    <pw_policy_minlength>Minimális jelszó hossz</pw_policy_minlength>
+    <pw_policy_digits>Számkarakterek száma a jelszóban [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Alfanumerikus karakterek száma a jelszóban [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>Nem alfanumerikus karakterek száma a jelszóban [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>Jelszó nem egyezhet meg a felhasználónévvel vagy aliasszal</pw_policy_useralias>
+    <pw_policy_uppercase>A nagybetűs [A-Z] karakterek száma</pw_policy_uppercase>
+    <virtual_keyboard_01>Virtuális billentyűzet mutatása</virtual_keyboard_01>
+    <virtual_keyboard_02>Válasszon billentyűzet elrendezést</virtual_keyboard_02>
+    <virtual_keyboard_04>Be</virtual_keyboard_04>
+    <virtual_keyboard_05>Ki</virtual_keyboard_05>
+    <virtual_keyboard_06>A billentyűzet bezárása</virtual_keyboard_06>
+    <virtual_keyboard_07>Törlés</virtual_keyboard_07>
+    <virtual_keyboard_08>Ezen bevitel törlése</virtual_keyboard_08>
+    <virtual_keyboard_10>A billentyűzet méretének csökkentése</virtual_keyboard_10>
+    <virtual_keyboard_11>A billentyűzet méretének növelése</virtual_keyboard_11>
+    <js_problem>A JavaScript nem futtatható</js_problem>
+    <public_calendar>Megosztott naptár</public_calendar>
+    <login_to_pro>Bejelentkezés Profi felülettel</login_to_pro>
+    <login_to_basic>Bejelentkezés Tábla felülettel</login_to_basic>
+    <login_to_pda>Bejelentkezés Mobil felülettel</login_to_pda>
+    <js_turned_off_message_text>Az ideális felhasználói élményhez javasoljuk használja a profi felületet. Ehhez szükséges a JavaScript amit a böngészőjében engedélyeznie kell, vagy folytassa ezzel</js_turned_off_message_text>
+    <js_turned_off_message_link>Tábla felületet</js_turned_off_message_link>
+    <learn_more>Fedezze fel!</learn_more>
+    <learn_more_short>Fedezze fel</learn_more_short>
+    <login_back>WebMail bejelentkezés</login_back>
+    <changepwd>Módosítsa&lt;br/&gt; jelszavát</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Profi</advanced>
+    <basic>Tábla</basic>
+  </login_client>
+  <login_style>
+    <gray>Szürke</gray>
+    <white>Fehér</white>
+    <black>Fekete</black>
+    <red>Piros</red>
+    <yellow>Sárga</yellow>
+    <green>Zöld</green>
+    <blue>Kék</blue>
+    <purple>Bíbor</purple>
+    <orange>Narancs</orange>
+    <brown>Barna</brown>
+    <pink>Rózsaszín</pink>
+  </login_style>
+  <skin_style>
+    <default>Kék</default>
+    <black>Fekete</black>
+    <brown>Barna</brown>
+    <graphite>Grafit</graphite>
+    <green>Zöld</green>
+    <orange>Narancssárga</orange>
+    <pink>Rózsaszín</pink>
+    <purple>Lila</purple>
+    <red>Vörös</red>
+    <yellow>Sárga</yellow>
+  </skin_style>
+  <sign_up>
+    <question>Még nincs fiókja?</question>
+    <answer>Fiók létrehozása</answer>
+    <sign_up>Új felhasználó</sign_up>
+    <create_account>Új felhasználó létrehozásához adja meg az alábbi adatokat.</create_account>
+    <fullname>Teljes név</fullname>
+    <domain>Domén</domain>
+    <username>Felhasználónév</username>
+    <alternative>Másodlagos e-mail cím</alternative>
+    <captcha_error>Érvénytelen biztonsági kód</captcha_error>
+    <pass_error>A jelszó nem megfelelő</pass_error>
+    <incorrect_error>Hibás felhasználónév</incorrect_error>
+    <exists_error>Ilyen felhasználónév már létezik</exists_error>
+    <error>A felhasználó NEM hozható létre.</error>
+    <account_created>Az új fiók sikeresen elkészült! Használatához jelentkezzen be.</account_created>
+    <invalid_cpass>Jelszó ellenőrzése érvénytelen</invalid_cpass>
+    <confirm_pass>Ellenőrzés</confirm_pass>
+    <password_change>Jelszó csere</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Elfelejtette jelszavát?</question>
+    <question_br>Elfelejtette&lt;br/&gt; jelszavát?</question_br>
+    <title>Új&lt;br&gt; jelszó</title>
+    <answer>Lecserélés</answer>
+    <generate>Dupla kattintásra új biztonsági kód</generate>
+    <captcha>Adja meg a kódot</captcha>
+    <captcha_error>Hibás kódot adott meg</captcha_error>
+    <security_code>Kód</security_code>
+    <reset_pass>Jelszó módosítása</reset_pass>
+    <enter_alt_pass>Bejelentkezési adatai az e-mail címére és, ha létezik,  másodlagos e-mail címére kerülnek megküldésre.</enter_alt_pass>
+    <reset_send>Bejelentkezési adatai az alábbi e-mail címekre kerültek elküldésre:</reset_send>
+    <reset_error>A megadott fiók nem létezik, vagy nem kérdezhető le a jelszava</reset_error>
+    <subject>Új jelszó: %EMAIL%</subject>
+    <email>Helló, %FULLNAME%!&#13;&#10;&#13;&#10;Ön kérte a fiókja (%EMAIL%) jelszócseréjét a WebMailben?&#13;&#10;&#13;&#10;Kattintson az alábbi hivatkozásra (vagy másolja a vágólapra és illessze be a böngészőjébe) annak megerősítéséhez, hogy ez az e-mail cím az Öné.&#13;&#10;%URL%&#13;&#10;&#13;&#10;Ha nem Ön kérte, vagy hiba folytán kapta ezt az üzenetet, akkor kérjük, hagyja figyelmen kívül.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>A név már létezik</duplicity>
+    <label>Már létezik &quot;%s&quot; nevű dokumentum.</label>
+    <suggested_name>Javasolt név</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Folyamatban</processing>
+    <step1>1) Biztonsági másolat feltöltése</step1>
+    <step2>2) Célmappa kiválasztása</step2>
+    <step3>3) Válassza ki az oszlopokat az importhoz</step3>
+    <step1e>Válassza ki a névjegyek forrásmappáját</step1e>
+    <step2e>Válassza ki az exportálás típusát</step2e>
+    <step_date>Válassza ki a dátumformátumot</step_date>
+    <default_date>Alapértelmezett</default_date>
+    <charset>Karakter tábla</charset>
+    <skipfirst>CSV fájl első sorának mellőzése</skipfirst>
+    <email1>E-mail</email1>
+    <email2>E-mail 2</email2>
+    <email3>E-mail 3</email3>
+    <phone1>Telefon 1</phone1>
+    <phone2>Telefon 2</phone2>
+    <phone3>Telefon 3</phone3>
+    <phone4>Telefon 4</phone4>
+    <phone_type1>Telefon típus 1</phone_type1>
+    <phone_type2>Telefon típus 2</phone_type2>
+    <phone_type3>Telefon típus 3</phone_type3>
+    <phone_type4>Telefon típus 4</phone_type4>
+    <import_successful>Import sikeres</import_successful>
+    <import_unsuccessful>Import sikertelen</import_unsuccessful>
+    <import_finished>Az importálás befejeződött. Hiba miatt %s elem kihagyva.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Automatikus</auto>
+    <load>Betöltés</load>
+    <import>Import</import>
+    <export>Export</export>
+    <unknown_ext>Ismeretlen kiterjesztés</unknown_ext>
+    <download_csv_file>CSV fájl letöltése naptár elemekkel</download_csv_file>
+    <csv>CSV</csv>
+    <gw>CsoportMunka</gw>
+    <download_file>Letöltés</download_file>
+    <select_col>Válassza ki az oszlopokat az importhoz</select_col>
+    <select_email>Legalább egy e-mail típusú oszlopot válasszon ki</select_email>
+    <gw_xml_file>CsoportMunka biztonsági mentés</gw_xml_file>
+    <comma>CSV - vessző (,)</comma>
+    <semicolon>CSV - pontosvessző (;)</semicolon>
+    <colon>CSV - kettőspont (:)</colon>
+    <sharing>Megosztott mód használata</sharing>
+    <import_info>Támogatott feltöltési fájlformátumok</import_info>
+    <import_info_itm>CSV (ponttal vagy pontosvesszővel tagolt), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Bővítmények letöltése</license>
+    <licenses>Licencek</licenses>
+    <out>Outlook Szinkronizáló</out>
+    <desk>IceWarp Levelező</desk>
+    <download>Bővítmények letöltése</download>
+    <key>Aktiváló kulcs (másolja be)</key>
+    <nokey>Nem érhető el ennek az alkalmazásnak az aktiválási kulcsa. A részletekért forduljon adminisztrátorához.</nokey>
+  </license>
+  <devices>
+    <device>Eszköz</device>
+    <device_model>Modell</device_model>
+    <device_type>Típus</device_type>
+    <protocol>Protokoll</protocol>
+    <registered>Regisztrált</registered>
+    <lastsync>Utolsó szinkronizálás</lastsync>
+    <factory>Gyári beállítások visszaállítása</factory>
+    <wipe>Távoli törlés</wipe>
+    <wiping>Távoli törlés folyamatban</wiping>
+    <nowipe>Távoli törlés NEM támogatott</nowipe>
+    <reset>Távoli törlés visszavonása</reset>
+    <delete_confirmation>Az eszköz törlése a listáról az adatok újraszinkronizálását okozza a következő kapcsolódáskor (hasznos, ha az eszköz leállt a frissítéssel). Ha ehelyett törölni akarja az összes felhasználó/fiók adatot az eszközről, akkor menjen az eszköz Tulajdonságaiba, és kattintson a Távoli törlés elemre.&lt;br/&gt;&lt;br/&gt;Biztosan törölni akarja az eszköz(öke)t a listáról?</delete_confirmation>
+    <wipe_confirmation>A Távoli törlés az összes felhasználó/fiók adatot adatot törölni fogja az eszközről (és a tárolókártyákról), és gyári beállításaira állítja vissza az eszközt. Az eszköznek működő internetkapcsolattal kell rendelkeznie.&lt;br/&gt;&lt;br/&gt;Biztosan folytatja?</wipe_confirmation>
+    <options>Eszköz beállításai</options>
+    <folders>Mappák</folders>
+    <sync>Szinkronizálás</sync>
+    <private_folders>Személyes mappák</private_folders>
+    <special_folders>Speciális mappák</special_folders>
+    <gw_folders>Csoportmunka mappák</gw_folders>
+    <mail_folders>Levelezési mappák</mail_folders>
+    <archive>Archívum</archive>
+    <public>Nyilvános mappák</public>
+    <shared>Megosztott mappák</shared>
+    <past_mail>Régebbi levelek</past_mail>
+    <past_calendar>Régebbi naptáresemények</past_calendar>
+    <sync_tase>Feladatok szinkronizálása naptárba</sync_tase>
+    <sync_note>A jegyzetek szinkronizálása, mint</sync_note>
+    <all_folders>Minden mappa</all_folders>
+    <all_folders_mail>Minden a csoportmunkával e-mailként</all_folders_mail>
+    <default_only>Csak az alapértelmezett mappák</default_only>
+    <sync_all>Mind</sync_all>
+    <one_day>Egy nap</one_day>
+    <three_days>Három nap</three_days>
+    <one_week>Egy hét</one_week>
+    <two_weeks>Két hét</two_weeks>
+    <one_month>Egy hónap</one_month>
+    <three_months>Három hónap</three_months>
+    <six_months>Hat hónap</six_months>
+    <inc_tasks>Csak befejezetlen feladatok</inc_tasks>
+    <new_cfolders>Új naptármappa</new_cfolders>
+    <merge_taks>Egyesítés az alapértelmezett naptárba</merge_taks>
+    <events>Események</events>
+    <tasks>Feladatok</tasks>
+    <inotes>Feladatok és jegyetek (Android)</inotes>
+    <new_folders>Új mappa</new_folders>
+    <merge_default>Egyesítés az alapértelmezett mappába</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Mappa panel</leftpanel>
+    <rightpanel>WebChat ablak</rightpanel>
+    <share>Megosztás</share>
+    <new_document>Dokumentum létrehozása</new_document>
+    <new_message>Új, sablonból</new_message>
+    <devices>Mobileszközök</devices>
+    <vcard>Névjegyem</vcard>
+    <basic>Váltás Tábla felületre</basic>
+    <old_client>Váltás a régi felületre</old_client>
+    <search>Keresés</search>
+    <filter>Szűrő</filter>
+    <new>Új</new>
+    <print>Nyomtatás</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Beállítások</settings>
+    <accounts>Fiókok</accounts>
+    <logout>Kijelentkezés</logout>
+    <logout_title>Kijelentkezés Ctrl+kattintással</logout_title>
+    <update>Frissítés</update>
+    <compose>Új e-mail</compose>
+    <new_contact>Névjegy</new_contact>
+    <new_template>Üzenetsablon</new_template>
+    <new_distrib_list>Partnercsoport</new_distrib_list>
+    <new_event>Esemény</new_event>
+    <new_journal>Napló</new_journal>
+    <new_note>Feljegyzés</new_note>
+    <new_task>Feladat</new_task>
+    <new_file>Dokumentum</new_file>
+    <new_upload>Fájl feltöltése</new_upload>
+    <new_word>Word dokumentum</new_word>
+    <new_excel>Excel munkalap</new_excel>
+    <new_ppoint>PowerPoint bemutató</new_ppoint>
+    <new_text>Szöveges dokumentum</new_text>
+    <new_html>HTML lap</new_html>
+    <new_folder>Mappa</new_folder>
+    <reply_to_sender>Válasz</reply_to_sender>
+    <reply_to_all>Válasz mindenkinek</reply_to_all>
+    <reply_to_sender_t>Válasz sablonnal</reply_to_sender_t>
+    <reply_to_all_t>Válasz mindenkinek sablonnal</reply_to_all_t>
+    <forward>Továbbítás</forward>
+    <delete>Törlés</delete>
+    <empty_folder>Mappa ürítése</empty_folder>
+    <day_view>Nap</day_view>
+    <week_view>Hét</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Hónap</month_view>
+    <dial>Hívás</dial>
+    <sms>SMS küldés</sms>
+    <calls>WebTelefon</calls>
+    <conference>WebKonferencia</conference>
+    <contacts_list>Lista</contacts_list>
+    <events_list>Lista</events_list>
+    <address_card>Névjegyek</address_card>
+    <tasks_lists>Lista</tasks_lists>
+    <tasks_detailed>Rászletes lista</tasks_detailed>
+    <active_tasks>Aktív feladatok</active_tasks>
+    <journal_day_view>Nap</journal_day_view>
+    <journal_week_view>Hét</journal_week_view>
+    <journal_month_view>Hónap</journal_month_view>
+    <journal_list>Lista</journal_list>
+    <notes_list>Lista</notes_list>
+    <options>Beállítások</options>
+    <admin_options>Adminisztrátori beállítások</admin_options>
+    <domain_options>Domén beállítások</domain_options>
+    <tools>Eszközök</tools>
+    <deliver>Kézbesítés</deliver>
+    <quarantine>Karantén</quarantine>
+    <black_list>Áthelyezés a feketelistára</black_list>
+    <white_list>Áthelyezés a fehérlistára</white_list>
+    <black_listed>Feketelistán</black_listed>
+    <white_listed>Fehérlistán</white_listed>
+    <rules>Szabályok</rules>
+    <help>Súgó</help>
+  </main_menu>
+  <short_days>
+    <monday>Hé</monday>
+    <tuesday>Ke</tuesday>
+    <wednesday>Sze</wednesday>
+    <thursday>Csü</thursday>
+    <friday>Pé</friday>
+    <saturday>Szo</saturday>
+    <sunday>Va</sunday>
+  </short_days>
+  <days>
+    <monday>Hétfő</monday>
+    <tuesday>Kedd</tuesday>
+    <wednesday>Szerda</wednesday>
+    <thursday>Csütörtök</thursday>
+    <friday>Péntek</friday>
+    <saturday>Szombat</saturday>
+    <sunday>Vasárnap</sunday>
+  </days>
+  <months>
+    <january>Január</january>
+    <february>Február</february>
+    <march>Március</march>
+    <april>Aprilis</april>
+    <may>Május</may>
+    <june>Június</june>
+    <july>Július</july>
+    <august>Augusztus</august>
+    <september>Szeptember</september>
+    <october>Október</october>
+    <november>November</november>
+    <december>December</december>
+  </months>
+  <short_months>
+    <january>Jan</january>
+    <february>Febr</february>
+    <march>Márc</march>
+    <april>Ápr</april>
+    <may>Máj</may>
+    <june>Jún</june>
+    <july>Júl</july>
+    <august>Aug</august>
+    <september>Szept</september>
+    <october>Okt</october>
+    <november>Nov</november>
+    <december>Dec</december>
+  </short_months>
+  <dates>
+    <every>Minden</every>
+    <secondly>másodperc</secondly>
+    <minutely>perc</minutely>
+    <hour>óra</hour>
+    <day>nap</day>
+    <weeks>hetek</weeks>
+    <month>hónap</month>
+    <year>év</year>
+    <the>a(z)</the>
+    <first>első</first>
+    <last>utolsó</last>
+    <second>második</second>
+    <third>harmadik</third>
+    <fourth>negyedik</fourth>
+    <firth>ötödik</firth>
+    <postfix>-dik</postfix>
+    <except>kivéve</except>
+    <on>ekkor</on>
+    <mondays>hétfőn</mondays>
+    <tuesdays>kedden</tuesdays>
+    <wednesdays>szerdán</wednesdays>
+    <thursdays>csütörtökön</thursdays>
+    <fridays>pénteken</fridays>
+    <saturdays>szombaton</saturdays>
+    <sundays>vasárnap</sundays>
+    <yearday>napja az évnek</yearday>
+    <in>ekkor</in>
+    <week>hét</week>
+    <week2>hét</week2>
+    <at>ekkor</at>
+    <and>és</and>
+    <from>mettől</from>
+    <until>meddig</until>
+    <times>ismétlődik %s alkalommal</times>
+  </dates>
+  <form_buttons>
+    <revision>Új változat létrehozása</revision>
+    <skip>Kihagyás</skip>
+    <refresh>Frissítés</refresh>
+    <retrieve>Javítás</retrieve>
+    <inherit>Öröklés</inherit>
+    <accept>Elfogadás</accept>
+    <decline>Visszautasítás</decline>
+    <ok>OK</ok>
+    <close>Bezárás</close>
+    <retry>Újra</retry>
+    <test>Teszt</test>
+    <cancel>Mégse</cancel>
+    <rename>Átnevez</rename>
+    <rewrite>Átírás</rewrite>
+    <rewrite_all>Az összes átírása</rewrite_all>
+    <save>Mentés</save>
+    <dont>Ne</dont>
+    <add>Hozzáadás</add>
+    <edit>Szerkesztés</edit>
+    <find>Keresés</find>
+    <add_file>Fájl hozzáadása</add_file>
+    <add_item>Elem hozzáadása</add_item>
+    <remove>Eltávolítás</remove>
+    <address_book>Címjegyzék</address_book>
+    <search>Keresés</search>
+    <new_folder>Új mappa</new_folder>
+    <map_it>Térképen mutat</map_it>
+    <sign_in>Bejelentkezés</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Mappa helye</step1>
+    <create_new_folder>Új mappa létrehozása</create_new_folder>
+    <create_error>Fő mappa nem létezik!</create_error>
+    <name>Név</name>
+    <type>Típus</type>
+    <channel>Csatorna</channel>
+    <sharetype>Alkalmazás erre</sharetype>
+    <all>Minden mappa</all>
+    <private>Személyes mappák</private>
+    <selected>Kijelölt mappák</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Felhasználó</username>
+    <password>Jelszó</password>
+    <protocol>Protokoll</protocol>
+    <server>Szerver</server>
+    <server_proxy>Szerver/Átjáró</server_proxy>
+    <port>Port</port>
+    <extension>Kiterjesztés</extension>
+    <description>Laírás</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Tartalom kezelése</item_actions>
+    <recovery>Törölt elemek visszaállítása</recovery>
+    <add_virtual>Új keresési mappa</add_virtual>
+    <edit_virtual>Keresési mappa szerkesztése</edit_virtual>
+    <add_favorites>Hozzáadás a kedvencekhez</add_favorites>
+    <sharing>Megosztás és jogosultságok</sharing>
+    <change_channel>RSS csatornák kezelése</change_channel>
+    <subscribe>Szinkronizálás</subscribe>
+    <subscribed>Szinkronizálva</subscribed>
+    <add_folder>Új mappa</add_folder>
+    <add_shared_account>Megosztott fiók hozzáadása</add_shared_account>
+    <delete_folder>Mappa törlése</delete_folder>
+    <unsubscribe_folder>Leiratkozás mappáról</unsubscribe_folder>
+    <move_folder>Mappa áthelyezése</move_folder>
+    <move_folder_into>Mappa áthelyezése ide</move_folder_into>
+    <rename_folder>Mappa átnevezése</rename_folder>
+    <remove_account>Fiók eltávolítása</remove_account>
+    <sent_folder>Küldemények mappa kijelölése</sent_folder>
+    <select_folder>Mappa kiválasztása</select_folder>
+    <mark_all_as_read>Megjelölés olvasottként</mark_all_as_read>
+    <default>Alapértelmezett</default>
+    <export>Mappa exportálása</export>
+    <color>Szín</color>
+    <move_default>Biztosan át akarja helyezni az alapértelmezett mappát?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>Minden</all>
+    <pdf>PDF</pdf>
+    <play_sound>Lejátszás</play_sound>
+    <attachments>Mellékletek</attachments>
+    <upload>Feltöltés</upload>
+    <download>Letöltés</download>
+    <download_all>Mindent letölt</download_all>
+    <open_window>Megnyitás ablakban</open_window>
+    <import>WebMailbe importálás</import>
+    <import_error>Nem támogatott típus</import_error>
+    <remove>Eltávolítás</remove>
+    <remove_all>Összes eltávolítása</remove_all>
+    <add_item>Elem hozzáadása</add_item>
+    <link_dropbox>Dropboxból</link_dropbox>
+    <view>Mutatás</view>
+    <save>Letöltés</save>
+    <save_all>Összes melléklet letöltése</save_all>
+    <save_to_folder>Mentés mappába</save_to_folder>
+    <show_images>Képek előnézete</show_images>
+    <show_image>Kép előnézete</show_image>
+    <show_text>Egyszerű szöveges üzenet</show_text>
+    <show_headers>Minden fejléc</show_headers>
+    <show_cert>Tanúsítvány mutatása</show_cert>
+    <append_cert>Névjegyekbe</append_cert>
+    <dropzone>&lt; Húzza IDE a fájlokat &gt;</dropzone>
+    <drop_holder>Húzza ide a fájlokat...</drop_holder>
+    <quick_add>Villám feltöltés...</quick_add>
+    <quick_contact>Dobjon ide vCard fájlt...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Dropbox hiba</erroralert>
+    <missingkey>A Dropbox elérés nincs beállítva. Kérje adminisztrátorát hogy állítsa azt be.</missingkey>
+    <unavailable>A Dropbox átmenetileg nem érhető el, így a következő bejelentkezésig kikapcsolásra kerül.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Átalakítás HTML formátumba</convert_item>
+    <source>Forrás</source>
+    <send_notify>Értesítés a változásokról</send_notify>
+    <recover>Visszaállítás</recover>
+    <new>Új</new>
+    <delivery_report>Kézbesítési jelentés</delivery_report>
+    <properties>Tulajdonságok</properties>
+    <doc_management>Dokumentum tulajdonságai</doc_management>
+    <open>Megnyitás</open>
+    <open_pdf>PDF megnyitása</open_pdf>
+    <open_window>Megnyitás ablakban</open_window>
+    <edit>Szerkesztés</edit>
+    <reply_to_sender>Válasz</reply_to_sender>
+    <reply_to_all>Válasz mindenkinek</reply_to_all>
+    <forward>Továbbítás</forward>
+    <forward_as_message>Továbbítás mellékletként</forward_as_message>
+    <redirect>Átirányítás</redirect>
+    <mark_as_read>Megjelölés olvasottként</mark_as_read>
+    <mark_as_unread>Megjelölés olvasatlanként</mark_as_unread>
+    <move_mail_to>Áthelyezés mappába</move_mail_to>
+    <copy_mail_to>Másolás mappába</copy_mail_to>
+    <delete>Törlés</delete>
+    <delete_selected>Kijelöltek törlése</delete_selected>
+    <open_item>Megnyitás</open_item>
+    <move_item_to>Áthelyezés mappába</move_item_to>
+    <copy_item_to>Másolás mappába</copy_item_to>
+    <new_distriblist>Új Partnercsoport</new_distriblist>
+    <save_as>Mentés másként...</save_as>
+    <html>HTML</html>
+    <text>Szöveg</text>
+    <eml>EML</eml>
+    <download_vcalendar>Mentés vCalendar formátumban</download_vcalendar>
+    <download_vcard>Mentés vCard formátumban</download_vcard>
+    <download_vnote>Mentés vNote formátumban</download_vnote>
+    <download_file>Letöltés</download_file>
+    <open_office>Megnyitás Office programmal</open_office>
+    <deliver>Kézbesítés</deliver>
+    <black_list>Feketelistára</black_list>
+    <white_list>Fehérlistára</white_list>
+    <blacklist_sender>Feladó feketelistára</blacklist_sender>
+    <blacklist_domain>Teljes domén feketelistára</blacklist_domain>
+    <whitelist_sender>Feladó fehérlistára</whitelist_sender>
+    <whitelist_domain>Teljes domén fehérlistára</whitelist_domain>
+    <send_as_email>Küldés e-mailként</send_as_email>
+    <send_email_to>E-mail küldése</send_email_to>
+    <add_to_contacts>Új névjegy létrehozása</add_to_contacts>
+    <add_to_exist_contacts>Hozzáadás létező névjegyhez</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Hozzáadás névjegymappához</add_contact>
+    <add_im>Felvétel a WebChat tagok listájára</add_im>
+    <add_to_im>Felvétel WebChat címlistára</add_to_im>
+    <add>Hozzáadás...</add>
+    <manage_sender>Feladó kezelése...</manage_sender>
+    <invite_appointment>Meghívás találkozóra</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Tanúsítvány hozzáadása a névjegyhez</cert_to_contact>
+    <contacts>Névjegyekhez</contacts>
+    <mandatorydetails>Kérjük, töltse ki az elérhetőségi adatait</mandatorydetails>
+    <im>WebChat címlistára</im>
+    <skip_delete>Ne kérdezze újra</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>Nincs szín</none>
+    <color>Szín</color>
+    <white_flag>Fehér jelölő</white_flag>
+    <red_flag>Piros jelölő</red_flag>
+    <blue_flag>Kék jelölő</blue_flag>
+    <yellow_flag>Sárga jelölő</yellow_flag>
+    <green_flag>Zöld jelölő</green_flag>
+    <orange_flag>Narancs jelölő</orange_flag>
+    <purple_flag>Lila jelölő</purple_flag>
+    <flag_complete>Befejezett jelölő</flag_complete>
+    <clear_flag>Jelölő törlése</clear_flag>
+    <important>Fontos</important>
+    <business>Hivatali</business>
+    <personal>Személyes</personal>
+    <vacation>Szabadság</vacation>
+    <must_attend>Kötelező részvétel</must_attend>
+    <travel_required>Utazással jár</travel_required>
+    <needs_preparation>Felkészülés szükséges</needs_preparation>
+    <birthday>Születésnap</birthday>
+    <anniversary>Évforduló</anniversary>
+    <phone_call>WebTelefon</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Új e-mail fiók hozzáadása</add_account>
+    <delete_account>Fiók törlése</delete_account>
+    <edit_account>Fiók szerkesztése</edit_account>
+    <validating>A fiók érvényesítése...</validating>
+    <invalid>Érvénytelen fiók</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Beérkezett üzenetek</inbox>
+    <drafts>Piszkozatok</drafts>
+    <sent>Elküldött elemek</sent>
+    <trash>Törölt e-mailek</trash>
+    <spam>Spam</spam>
+    <templates>Sablonok</templates>
+    <quarantine>Karantén</quarantine>
+    <spam_queue>Szűrők</spam_queue>
+    <spam_queue-whitelist>Fehérlista</spam_queue-whitelist>
+    <spam_queue-blacklist>Feketelista</spam_queue-blacklist>
+    <virtual-folders>Keresési mappák</virtual-folders>
+    <gw-trash>Törölt elemek</gw-trash>
+    <calendars>Több naptár</calendars>
+  </common_folders>
+  <folders>
+    <mails>E-mailek</mails>
+    <contacts>Névjegyalbum</contacts>
+    <events>Naptár</events>
+    <tasks>Feladatok</tasks>
+    <notes>Feljegyzések</notes>
+    <journal>Napló</journal>
+    <files>Fájlok</files>
+    <home>Elsődleges</home>
+    <smart>ÓriásMelléklet</smart>
+  </folders>
+  <folder_types>
+    <mail>E-mailek</mail>
+    <contact>Névjegyalbum</contact>
+    <event>Naptár</event>
+    <journal>Napló</journal>
+    <note>Feljegyzések</note>
+    <task>Feladatok</task>
+    <file>Dokumentum</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>Ez a mappa nem helyezhető át!</cantmove>
+    <cantrename>Ez a mapa nem nevezhető át!</cantrename>
+    <cantdelete>Ez a mappa nem törölhető!</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Melléklet</attachments>
+    <to>Címzett</to>
+    <subject>Tárgy</subject>
+    <nosubject>Nincs tárgy</nosubject>
+    <cc>Másolat</cc>
+    <bcc>Titkos másolat</bcc>
+    <body>Törzs</body>
+    <from>Feladó</from>
+    <date>Dátum</date>
+    <size>Méret</size>
+    <type>Típus</type>
+    <itmclassifyas>Kapcsolattartó</itmclassifyas>
+    <phone>Telefonszám</phone>
+    <itmcompany>Cég</itmcompany>
+    <itmdepartment>Részleg</itmdepartment>
+    <contact_email>E-mail</contact_email>
+    <expires>Lejárat</expires>
+    <itmcategory>Jelölők</itmcategory>
+    <evntitle>Tárgy</evntitle>
+    <itmtitle>Cím</itmtitle>
+    <itmoriginalfolder>Eredeti mappa</itmoriginalfolder>
+    <itm_deleted>Törölve</itm_deleted>
+    <item_moved>Törölve</item_moved>
+    <evnlocation>Típus</evnlocation>
+    <upcoming>Elkövetkező</upcoming>
+    <event_startdate>Kezdés</event_startdate>
+    <event_enddate>Befejezés</event_enddate>
+    <evntype>Jelölők</evntype>
+    <evncontact>Kapcsolattartó</evncontact>
+    <evnstatus>Állapot</evnstatus>
+    <task_startdate>Kezdő dátum</task_startdate>
+    <task_enddate>Határidő</task_enddate>
+    <sndemail>Feladó</sndemail>
+    <sndowner>Tulajdonos</sndowner>
+    <snddomain>Domén</snddomain>
+    <sndsubject>Tárgy</sndsubject>
+    <revised_by>Módosította</revised_by>
+    <comment>Megjegyzés</comment>
+    <qdate>Dátum</qdate>
+    <name>Név</name>
+    <evnfilename>Fájlnév</evnfilename>
+    <evnnote>Leírás</evnnote>
+    <evn_modified>Módosított</evn_modified>
+    <evnfilesize>Méret</evnfilesize>
+    <lctphnwork1>Munkahelyi telefon</lctphnwork1>
+    <lctphnfaxwork>Munkahelyi fax</lctphnfaxwork>
+    <lctphnhome1>Otthoni telefon</lctphnhome1>
+    <lctphnmobile>Mobiltelefon</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Nyilvános link</public>
+    <share>Hivatkozás megosztása</share>
+    <ticket>Egyéb</ticket>
+    <revisions>Változatok</revisions>
+    <revert>Visszaállítás</revert>
+    <edit_comment>Megjegyzés szerkesztése</edit_comment>
+    <new_revision>Új változat</new_revision>
+  </item>
+  <event_view>
+    <week_label>Hét</week_label>
+    <notitle>Nincs cím</notitle>
+    <private>Nincs megadva</private>
+    <newappointment>Új találkozó</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Elolvasva: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Üzenetét a címzett elolvasta.&#13;&#10;&#13;&#10;Az eredeti üzenet részletei&#13;&#10;&#13;&#10;Feladó : %FROM%&#13;&#10;Címzett: %TO%&#13;&#10;Dátum: %DATE%&#13;&#10;Tárgy: %SUBJECT%</reading_confirmation>
+    <reply_message>-----Eredeti üzenet-----</reply_message>
+    <reply_message_html>-----Eredeti üzenet-----</reply_message_html>
+    <from>Feladó :</from>
+    <to>Címzett:</to>
+    <cc>Másolat:</cc>
+    <date>Dátum  :</date>
+    <subject>Tárgy  :</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>Mr.</mr>
+    <mrs>Mrs.</mrs>
+    <miss>Miss</miss>
+    <ms>Ms.</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Jr.</jr>
+    <sr>Sr.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Megjelenített név</displayname>
+    <avatar>Kép</avatar>
+    <contact>Névjegy</contact>
+    <general>Általános</general>
+    <profile>Profil</profile>
+    <personal>Személyes</personal>
+    <business>Üzleti</business>
+    <other_l>Egyéb</other_l>
+    <other>Egyebek</other>
+    <contact_name>Megjelenítés</contact_name>
+    <sort_as>Rendezés</sort_as>
+    <first_name>Keresztnév</first_name>
+    <middle_name>Középső</middle_name>
+    <last_name>Családnév</last_name>
+    <nick_name>Becenév</nick_name>
+    <full_name>Teljes név</full_name>
+    <title>Előtag</title>
+    <suffix>Utótag</suffix>
+    <category>Jelölők</category>
+    <email_address>E-mail</email_address>
+    <birthdate>Születésnap</birthdate>
+    <anniversary>Évforduló</anniversary>
+    <spouse>Házastárs</spouse>
+    <gender>Nem</gender>
+    <company>Cég</company>
+    <job>Beosztás</job>
+    <profession>Foglalkozás</profession>
+    <department>Részleg</department>
+    <assistant>Titkár</assistant>
+    <manager>Felettes</manager>
+    <office_location>Iroda</office_location>
+    <email1>E-mail</email1>
+    <email2>E-mail 2</email2>
+    <email3>E-mail 3</email3>
+    <im>WebChat</im>
+    <phone>WebTelefon</phone>
+    <phones>Telefonszám</phones>
+    <male>Férfi</male>
+    <female>Nő</female>
+    <street>Utca</street>
+    <city>Város</city>
+    <zip>Irányítószám</zip>
+    <state>Állam</state>
+    <country>Ország</country>
+    <home_address>Otthoni cím</home_address>
+    <business_address>Munkahelyi cím</business_address>
+    <other_address>Egyéb cím</other_address>
+    <homepage>Honlap</homepage>
+    <calendar_url>Naptár link</calendar_url>
+    <share_type>Megosztás típusa</share_type>
+    <address>Cím</address>
+    <web>Honlap</web>
+    <notes>Megjegyzés</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Partnercsoport</distrib_list>
+    <general>Csoport</general>
+    <members>Tagok</members>
+    <title>Csoportnév:</title>
+    <category>Jelölők</category>
+    <add_title>Hozzáadás</add_title>
+    <edit_title>Szerkesztés</edit_title>
+    <name>Név</name>
+    <email>E-mail</email>
+  </distrib_list>
+  <time_interval>
+    <from>Kezdés</from>
+    <to>Befejezés</to>
+    <duration>Időtartam</duration>
+    <all_day_event>Egész napos esemény</all_day_event>
+    <days>Nap</days>
+    <change_default>Alapértelmezett időzóna módosítása</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>Ez egy ismétlődő elem</title_edit>
+    <text_edit>Csak a jelenlegit módosítja, a teljes sorozatot, vagy ezt és az ezt követőket?</text_edit>
+    <title_delete>Ez egy ismétlődő elem</title_delete>
+    <text_edit_2>Csak ezt módosítja, vagy a teljes sorozatot?</text_edit_2>
+    <text_delete>Csak ezt távolítja el, vagy a teljes sorozatot?</text_delete>
+    <btn_this>Csak ezt</btn_this>
+    <btn_all>A teljes sorozatot</btn_all>
+    <btn_allfromnow>Az alábbiakat</btn_allfromnow>
+    <btn_cancel>Mégse</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Elutasítás oka</reason>
+    <event>Esemény</event>
+    <general>Általános</general>
+    <repeating>Ismétlődés</repeating>
+    <schedule>Résztvevők</schedule>
+    <reminders>Emlékeztető</reminders>
+    <onlinemeeting>WebKonferencia</onlinemeeting>
+    <startmeeting>Kezdés most</startmeeting>
+    <joinmeeting>Csatlakozás most</joinmeeting>
+    <title>Tárgy</title>
+    <location>Hely</location>
+    <category>Jelölők</category>
+    <notes>Megjegyzés</notes>
+    <timezone>Időzóna</timezone>
+    <show_as>Foglaltság</show_as>
+    <free>Szabad</free>
+    <busy>Foglalt</busy>
+    <tentative>Feltételes</tentative>
+    <out_of_office>Házon kívül</out_of_office>
+    <unknown>Nincs információ</unknown>
+    <label>Címke</label>
+    <meeting_hint>Találkozó létrehozása azonnali csatlakozással és képernyő megosztással</meeting_hint>
+    <high>Magas:</high>
+    <low>Alacsony:</low>
+  </event>
+  <file>
+    <file>Dokumentum</file>
+    <expire>Lejár: %s</expire>
+    <name>Fájlnév</name>
+    <lock>Zárolás</lock>
+    <unlock>Feloldás</unlock>
+    <locked>Zárolva</locked>
+    <unlocked>Feloldva</unlocked>
+    <locked_by>A dokumentumot %s zárolta</locked_by>
+    <blank_doc>Dokumentum</blank_doc>
+    <description>Leírás</description>
+    <new_doc>Üres dokumentum</new_doc>
+    <converting>A dokumentum átalakítása folyamatban.</converting>
+  </file>
+  <note>
+    <note>Feljegyzés</note>
+    <category>Jelölők</category>
+    <title>Tárgy</title>
+    <general>Általános</general>
+  </note>
+  <task>
+    <task>Feladat</task>
+    <attendees>Résztvevők</attendees>
+    <status>Állapot</status>
+    <complete>Kész</complete>
+    <repeating>Ismétlődő</repeating>
+    <reminders>Emlékeztető</reminders>
+    <general>Általános</general>
+    <title>Tárgy</title>
+    <start_date>Kezdő dátum</start_date>
+    <due_date>Határidő</due_date>
+    <category>Jelölők</category>
+    <not_started>Nem kezdődött el</not_started>
+    <in_progress>Folyamatban</in_progress>
+    <completed>Kész</completed>
+    <deferred>Elhalasztott</deferred>
+    <waiting>Várakozás egy résztvevőre</waiting>
+    <done>Kész</done>
+  </task>
+  <blackwhite>
+    <black>Feketelista</black>
+    <white>Fehérlista</white>
+    <email>E-mail/Domén</email>
+  </blackwhite>
+  <compose>
+    <template>Sablon</template>
+    <newmail>E-mail</newmail>
+    <send>Küldés</send>
+    <sendinfo>E-mail küldése</sendinfo>
+    <save>Mentés</save>
+    <saveinfo>Üzenet mentése a Piszkozatok mappába</saveinfo>
+    <options>Beállítások</options>
+    <advanced>Speciális beállítások</advanced>
+    <html>HTML</html>
+    <text>Szöveg</text>
+    <sms>SMS</sms>
+    <compose_sms>SMS írása</compose_sms>
+    <sms_preview>SMS mutatása</sms_preview>
+    <sms_info>%s karakter %s üzenetben</sms_info>
+    <smartattach>Óriásmelléklet</smartattach>
+    <smartattachinfo>A mellékletek a(z) %s helyre kerülnek mentésre, és letöltési hivatkozásra lesznek cserélve az e-mail szövegtörzsében.</smartattachinfo>
+    <readconfirmationinfo>Olvasási visszaigazolás kérése</readconfirmationinfo>
+    <show_all>Az összes elem megjelenítése</show_all>
+    <signinfo>Az e-mail digitális aláírása</signinfo>
+    <encryptinfo>Az e-mail titkosítása</encryptinfo>
+    <priorityinfo>Az e-mail fontosságának megadása</priorityinfo>
+    <subject_empty>Az üzenetnek nincs tárgya.&lt;br&gt;Mindenképp elküldi?</subject_empty>
+    <rcp_empty>Adjon meg néhány címzettet, akinek elküldi az e-mailt.</rcp_empty>
+    <optionstitle>Üzenet beállításai</optionstitle>
+    <encrypt>Az e-mail titkosítása</encrypt>
+    <sign>Az e-mail digitális aláírása</sign>
+    <nosign>Nem található aláíró tanúsítvány.&lt;br&gt;Elküldi aláíratlanul az üzenetet?</nosign>
+    <delivery_report>Kézbesítési jelentés megjelenítése</delivery_report>
+    <reply_to>Válasz</reply_to>
+    <upload_file>Csatolás helyi meghajtóról</upload_file>
+    <upload_item>Melléklet WebMailből</upload_item>
+  </compose>
+  <sharing>
+    <public>Megosztott</public>
+    <private>Magánjellegű</private>
+    <anonymous>Anonymous/mindenki</anonymous>
+    <custom>Egyéni</custom>
+    <inherited>Örökölt</inherited>
+    <none>Nincs</none>
+    <enter_address>Írja be a címet</enter_address>
+    <permissions>Engedélyek</permissions>
+    <user>Felhasználó</user>
+    <items>Elemek</items>
+    <folder>Mappa</folder>
+    <administration>Felügyelet</administration>
+  </sharing>
+  <time>
+    <hours>Óra</hours>
+    <minutes>Perc</minutes>
+    <days>Nap</days>
+    <oneday>nap</oneday>
+    <moredays>napok</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Fiók kiválasztása</select_emails>
+    <add>Hozzáadás</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Keresés</placeholder>
+    <tags>Jelölők</tags>
+    <used>Használt</used>
+    <hint>használva %s elemnél</hint>
+    <selected>Kijelölt</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Otthoni 1</lctphnhome1>
+    <lctphnhome2>Otthoni 2</lctphnhome2>
+    <lctphnassistant>Segéd</lctphnassistant>
+    <lctphnwork1>Munkahelyi 1</lctphnwork1>
+    <lctphnwork2>Munkahelyi 2</lctphnwork2>
+    <lctphnfaxhome>Otthoni fax</lctphnfaxhome>
+    <lctphnfaxwork>Munkahelyi fax</lctphnfaxwork>
+    <lctphncallback>Visszahívás</lctphncallback>
+    <lctphncompany>Cég</lctphncompany>
+    <lctphncar>Autó</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>Mobil</lctphnmobile>
+    <lctphnother>Egyéb</lctphnother>
+    <lctphnotherfax>Egyéb FAX</lctphnotherfax>
+    <lctphnpager>Személyi hívó</lctphnpager>
+    <lctphnprimary>Elsődleges</lctphnprimary>
+    <lctphnradio>Rádió</lctphnradio>
+    <lctphntelex>Telex</lctphntelex>
+    <lctphnhearing>Hallás</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>Nap</day>
+    <week>Héten</week>
+    <week_of_month>Hete a hónapnak</week_of_month>
+    <month_of_year>Hónapja az évnek</month_of_year>
+    <month>Hó</month>
+    <year>Év</year>
+    <year_s>évente</year_s>
+    <repeats>Ismétlődik minden:</repeats>
+    <not_repeats>Nincs ismétlődés</not_repeats>
+    <end_date>Az ismétlődés időtartománya</end_date>
+    <no_end>Nincs befejezés</no_end>
+    <until>Befejezés dátuma</until>
+    <count>Alkalom</count>
+    <daily>Naponta</daily>
+    <weekly>Hetente</weekly>
+    <monthly>Havonta</monthly>
+    <yearly>Évente</yearly>
+    <every>.</every>
+    <the>Az</the>
+    <of>, minden</of>
+    <recur_every>Ismétlődik</recur_every>
+    <weeks_on>hetente, a következő napon:</weeks_on>
+    <of_every>, minden</of_every>
+    <months>hónapban</months>
+    <days>naponta</days>
+    <day_list>hét</day_list>
+    <every_weekday>Minden hétköznap ismétlődik</every_weekday>
+    <first>Első</first>
+    <second>Második</second>
+    <third>Harmadik</third>
+    <fourth>Negyedik</fourth>
+    <last>utolsó</last>
+    <weekday>munkahét</weekday>
+    <weekend_day>hétvége</weekend_day>
+  </repeating>
+  <reminder>
+    <none>Nincs</none>
+    <email>E-mail</email>
+    <popup>Felbukkanó ablak (Asztal)</popup>
+    <address>Tárgy</address>
+    <remind1>Emlékeztető</remind1>
+    <remind2>.</remind2>
+    <is_reminder>Emlékeztető küldése</is_reminder>
+    <no_reminder>Ne küldjön emlékeztetőt</no_reminder>
+    <type>Típus</type>
+    <snooze>Újra emlékeztet</snooze>
+    <meeting>Indítás most</meeting>
+    <dismiss>Nem emlékeztet újra</dismiss>
+    <reminder>Emlékeztető</reminder>
+  </reminder>
+  <journal>
+    <journal>Napló</journal>
+    <title>Tárgy</title>
+    <type>Típus</type>
+    <company>Cég</company>
+    <conversation>Párbeszéd</conversation>
+    <document>Dokumentum</document>
+    <e-mail_message>E-mail üzenet</e-mail_message>
+    <fax>Fax</fax>
+    <letter>Levél</letter>
+    <meeting>Talélkozó</meeting>
+    <meeting_cancellation>Találkozó törlése</meeting_cancellation>
+    <meeting_request>Találkozó meghívó</meeting_request>
+    <meeting_response>Találkozó válasz</meeting_response>
+    <microsoft_office_access>Microsoft Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Feljegyzés</note>
+    <phone_call>WebTelefon</phone_call>
+    <remote_session>Távoli esemény</remote_session>
+    <task>Feladat</task>
+    <task_request>Feladat felkérés</task_request>
+    <task_response>Feladat válasz</task_response>
+  </journal>
+  <certificate>
+    <purposes>Ezen tanúsítvány szerepe</purposes>
+    <ssl>Biztonságos adatkapcsolat a szerverrel</ssl>
+    <smime>E-mail üzenetek titkosítésa és védelme</smime>
+    <serial>Sorozatszám</serial>
+    <view>Mutat</view>
+    <certificate>Tanúsítvány</certificate>
+    <invalid>Érvénytelen tanúsítvány</invalid>
+    <passphrase>Jelszó</passphrase>
+    <issuedto>Tulajdonos</issuedto>
+    <issuedby>Kiállító</issuedby>
+    <email>E-mail</email>
+    <validity>Érvényesség</validity>
+    <badtype>Privát kulcs hiányzik</badtype>
+    <missing>Tanúsítvány nem található</missing>
+    <invaliditem>Tanúsítvány nem csatolható</invaliditem>
+    <assigned>A tanúsítvány sikeresen hozzáadva</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>A következő mappa nem létezik: &quot;%s&quot;</folder_not_exist>
+    <accepted>Meghívást elfogadta</accepted>
+    <unsure>Meghívás esetlegesen elfogadva</unsure>
+    <declined>Meghívást visszautasította</declined>
+    <proposed>New time was proposed</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>A felhasználóknak elérhetőségi adataikat kötelezően meg kell adniuk</force_enter_user_info>
+    <disable_wipe>Távoli törlés tiltása</disable_wipe>
+    <documents>Dokumentumok</documents>
+    <aliases>Aliaszok</aliases>
+    <disable_mailformat>A HTML/egyszerű szöveges kapcsoló letiltása az üzenetírás ablakban</disable_mailformat>
+    <disable_altmail>A másodlagos e-mail cím elrejtése</disable_altmail>
+    <rcpt_suggest>Automatikus kiegészítés</rcpt_suggest>
+    <rcpt_cache>Lista törlése</rcpt_cache>
+    <keep_search>A keresőkifejezés megőrzése mappaváltáskor</keep_search>
+    <smartfolder>ÓriásMelléklet mappa</smartfolder>
+    <always_show_rcp>A cím sorai mindig láthatók</always_show_rcp>
+    <login_screen>Bejelentkező képernyő</login_screen>
+    <exclude_gal>A globális címlista (GAL) ne tartalmazzon automatikus javaslatokat</exclude_gal>
+    <password_policy>Jelszóházirend</password_policy>
+    <notifications>IceWarp E-mail Értesítő</notifications>
+    <nofocus>Automatikus (háttérben)</nofocus>
+    <autorevision_mode>Dokumentumok változatainak automatikus kezelése</autorevision_mode>
+    <disable_support>A támogatási hivatkozás letiltása bejelentkezéskor</disable_support>
+    <check_subject>Üres tárgy ellenőrzése</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Megosztás tiltása Névtelen fiókoknak</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Kedvenc mappák megjelenítése</show_favorites>
+    <layout>Globális beállítások</layout>
+    <signature>Aláírás</signature>
+    <signature_separator>&quot;-- &quot; aláírás elválasztó hozzáadása</signature_separator>
+    <signature_to_top>Aláírás az üzenet elején</signature_to_top>
+    <groups>Csoportok</groups>
+    <group>Csoport</group>
+    <trash_folder>Törölt e-mailek mappa</trash_folder>
+    <sent_folder>Küldemények mappa</sent_folder>
+    <groupsend>Elküldött üzenetek mentése a nyilvános mappába ezen csoport számára</groupsend>
+    <ftime>Lebegő idő</ftime>
+    <sso_only>Csak SSO bejelentkezéssel</sso_only>
+    <activity_monitor>Kijelentkezés tétlenség után (perc)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 órás</time_12>
+    <time_24>24 órás</time_24>
+    <logout_url>Kijelentkezési URL</logout_url>
+    <disable_attach_item>Melléklet letiltása a WebMailből</disable_attach_item>
+    <disable_virtual>Keresési mappák letiltása</disable_virtual>
+    <disable_interfaces>A felhasználó felület bejelentkezéskori választásának letiltása</disable_interfaces>
+    <disable_languages>Bejelentkezés lapon nyelv választás tiltása</disable_languages>
+    <confirm_exit>Kilépéskor figyelmeztet</confirm_exit>
+    <compose>Megnyitott elem esetén</compose>
+    <never>Soha</never>
+    <always>Mindíg</always>
+    <homepage>Honlap</homepage>
+    <banner_enable>Szalagcím megjelenítése</banner_enable>
+    <application_enable>[Bővítmények letöltése] ablakrész megjelenítése</application_enable>
+    <banner_url>Szalagcím link</banner_url>
+    <banner_height>Magasság</banner_height>
+    <count_subject>Tárgy előtagok csoportosítása (pl. Re[4], Fw[2])</count_subject>
+    <reply_prefix>Válaszban az eredeti üzenet elé előtag (&gt;)</reply_prefix>
+    <collate>Magyar ABC szerinti rendezés (SQL használata estén)</collate>
+    <init_page>Bejelentkezés után megjelenik</init_page>
+    <remember_folder>Utoljára használt</remember_folder>
+    <show_inbox>Beérkezett üzenetek</show_inbox>
+    <show_home>Honlap</show_home>
+    <clear_trash>Törölt e-mailek végleged törlése, ha régebbi, mint (nap)</clear_trash>
+    <clear_gwtrash>Törölt elemkek végleges törlése ha régebbi mint (nap)</clear_gwtrash>
+    <alias>Feladó</alias>
+    <subscribed_holidays>Ünnepnapok mutatása</subscribed_holidays>
+    <holidays>Ünnepnapok</holidays>
+    <weather>Időjárás</weather>
+    <temperature>Hőmérséklet</temperature>
+    <c>Celsius (°C)</c>
+    <f>Fahrenheit (°F)</f>
+    <city>Város</city>
+    <disable_folder_types>Adott típusú mappák tiltása</disable_folder_types>
+    <antispam>Spamblokkoló használata</antispam>
+    <spam_mode>Spam mappa mód</spam_mode>
+    <reports_mode>Spam jelentés küldése</reports_mode>
+    <quarantine>Karantén használata</quarantine>
+    <last_time>Utolsó bejelentkezés</last_time>
+    <last_ip>Utolsó IP</last_ip>
+    <current_time>Jelenlegi bejelentkezés</current_time>
+    <current_ip>Jelenlegi IP</current_ip>
+    <default>Alapértelmezett</default>
+    <use_spam>Spam mappa használata</use_spam>
+    <not_spam>Ne használjon Spam mappát</not_spam>
+    <disabled>Kikapcsolva</disabled>
+    <all>Összes elem</all>
+    <full>Teljes</full>
+    <new_items>Új elem</new_items>
+    <smtp_relay>Hibás címzett esetén újra próbálkozás csak hibás részére</smtp_relay>
+    <restrictions>Korlátok</restrictions>
+    <hide_sortstring>Elrendező karakter elrejtése</hide_sortstring>
+    <disable_aliases>Aliaszok tiltása</disable_aliases>
+    <disable_redirect>Átirányítás tiltása</disable_redirect>
+    <disable_other_accounts>Egyéb fiók tiltása</disable_other_accounts>
+    <disable_edit_vcard>Adataim szerkesztésének letiltása</disable_edit_vcard>
+    <disable_edit_account>Saját fiók szerkesztésének letiltása</disable_edit_account>
+    <disable_change_password>Jelszómódosítás tiltása</disable_change_password>
+    <disable_antispam_control>[Spamblokkoló használata] fül elrejtése</disable_antispam_control>
+    <disable_licenses>A licencek fül elrejtése</disable_licenses>
+    <disable_login_help>Súgó letiltása a bejelentkezési oldalon</disable_login_help>
+    <disable_login_banners>A bejelentkezési oldalon a szalagok elrejtése</disable_login_banners>
+    <disable_signup>A regisztráció letiltása</disable_signup>
+    <disable_sip>Beépített IceWarp WebTelefon tiltása</disable_sip>
+    <disable_call_forwarding>A hívásátirányítás letiltása</disable_call_forwarding>
+    <disable_external_sip>Külső VoIP tiltása</disable_external_sip>
+    <disable_export>Exportálás tiltása</disable_export>
+    <disable_smart>Óriásmelléklet tiltása</disable_smart>
+    <disable_dropbox>Dropbox letiltása</disable_dropbox>
+    <disable_im>WebChat tiltása</disable_im>
+    <disable_sms>SMS tiltása</disable_sms>
+    <disable_remember_pulldown>Automatikus bejelentkezés tiltása</disable_remember_pulldown>
+    <disable_autofill>A felhasználónév/jelszó automatikus kitöltésének letiltása</disable_autofill>
+    <disable_rules>[Szabályok] elrejtése</disable_rules>
+    <disable_gmaps>Google Térkép tiltása</disable_gmaps>
+    <disable_forwarder>[Továbbítás] fül elrejtése</disable_forwarder>
+    <disable_keep_emails>&quot;Az e-mailek megőrzése a postaládában&quot; elrejtése az Átirányítóban</disable_keep_emails>
+    <disable_autoresponder>[Automatikus válasz] fül elrejtése</disable_autoresponder>
+    <share_mode>Megosztás</share_mode>
+    <share_p>Magán (Nincs megosztva)</share_p>
+    <share_pf>Megosztott (Mindenkivel megosztva)</share_pf>
+    <share_f>Ismerőseim (Csak ismerőseimmel megosztva)</share_f>
+    <daily_event_report>Napirend küldése naponta e-mailben</daily_event_report>
+    <reminder_notification>Figyelmeztetés küldése e-mailben</reminder_notification>
+    <reminder_email>Emlékeztető és napirend e-mail cím</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Alkalmazáskulcs</dropbox_app_key>
+    <dropbox_instructions>A Dropbox integráció használatához jelentkezzen be a www.dropbox.com címen, menjen a fejlesztői részhez és hozzon létre egy alkalmazáskulcsot. Ott A WebMaillel történő eléréshez meg kell adni az IceWarp Szerverének nevét vagy IP címét.</dropbox_instructions>
+    <server>Szerver</server>
+    <login_with_email>Bejelentkezés e-mail címmel</login_with_email>
+    <server_logs>Naplózási szint</server_logs>
+    <server_logs0>Nincs</server_logs0>
+    <server_logs2>Kommunikáció és hibakeresés</server_logs2>
+    <server_logs3>Hibakeresés</server_logs3>
+    <server_logs4>Bővített</server_logs4>
+    <http_port>HTTP port</http_port>
+    <imapserver>IMAP szerver</imapserver>
+    <smtpserver>SMTP szerver</smtpserver>
+    <xmppserver>XMPP szerver</xmppserver>
+    <port>Port</port>
+    <pgtitle>Bejelentkezési oldal neve</pgtitle>
+    <logo>Kép a bejelentkezési oldalon</logo>
+    <login_style>Bejelentkezési oldal stílusa</login_style>
+    <login_client>Elsődleges felület</login_client>
+    <skin_style>Felszín stílusa</skin_style>
+    <interfaces>Elérhető felületek</interfaces>
+    <spell_language>Helyesírás ellenőrző</spell_language>
+    <delete_emptyfolder>Az üzenetek törlése a Mappa kiürítése művelet végrehajtásakor</delete_emptyfolder>
+    <show_images>Beágyazott külső képek automatikus mutatása</show_images>
+    <show_images_spam>Alkalmazás a spam mappára is</show_images_spam>
+    <auto_show_images>A mellékelt képek automatikus előnézete</auto_show_images>
+    <sound_notify>Hangjelzések</sound_notify>
+    <domains_settings>Domének</domains_settings>
+    <domain>Domén</domain>
+    <edit_settings>Domén beállítások módosítása</edit_settings>
+    <resetpass>Jelszó módosítása</resetpass>
+    <resetmail>E-mail</resetmail>
+    <resetenable>Jelszó módosítás engedélyezése</resetenable>
+    <accounts>Fiókok</accounts>
+    <account>Fiók</account>
+    <tools>Eszközök</tools>
+    <autoresponder>Automatikus válasz</autoresponder>
+    <forwarder>Továbbítás</forwarder>
+    <pcertificate>Privát tanúsítványok</pcertificate>
+    <certificate>Tanúsítványok</certificate>
+    <mail_settings>Levelezés</mail_settings>
+    <im_settings>WebChat</im_settings>
+    <sip_settings>WebTelefon</sip_settings>
+    <sip_webrtc>A webböngésző natív képességeinek használata a médiához, amikor lehet</sip_webrtc>
+    <sip_start>Beépített IceWarp WebTelefon automatikus indítása</sip_start>
+    <sip_internal>Integráció VoIP fiókkal (SIP)</sip_internal>
+    <sip_external>Beépülés külső VoIP fiókba (SIP)</sip_external>
+    <sip_dial>Hívás külső VoIP fiókon keresztül (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>Hívás saját VoIP fiókon keresztül (regisztrált szoftveres telefonnal/telefonkészülékkel)</sip_dial_internal>
+    <call_forwarding>Hívásátirányítás</call_forwarding>
+    <use_forwarding>Hívásátirányítás használata</use_forwarding>
+    <forward_to>Hívásátirányítás ide:</forward_to>
+    <forward_after>Átirányítás után (másodperc)</forward_after>
+    <chat_window>WebChat ablak</chat_window>
+    <auto_chat>WebChat ablak automatikus megnyitása</auto_chat>
+    <auto_subscribe>Új felhasználók automatikus engedélyezése</auto_subscribe>
+    <remember_status>Állapot megjegyzése</remember_status>
+    <extended_status>Elérhető állapotok</extended_status>
+    <newline_chat>Üzenetküldés új sorban</newline_chat>
+    <smiles_chat>Hangulatjelek használata</smiles_chat>
+    <enter_send>Enter lütésekor üzenet küldése</enter_send>
+    <general_settings>Általános</general_settings>
+    <other_accounts>További fiókok</other_accounts>
+    <primary_accounts>Fiókom</primary_accounts>
+    <account_settings>Fiókok</account_settings>
+    <importexport_settings>Importálás/exportálás</importexport_settings>
+    <default_reminder>Alapértelmezett emlékeztető új eseményekhez</default_reminder>
+    <use_sslswfatt>HTTP Flash feltöltés használata SSL esetén</use_sslswfatt>
+    <use_swfupload>swfUpload (Flash) használata mellékletekhez</use_swfupload>
+    <use_office>Megnyitás Officeban ha lehetséges</use_office>
+    <banner_enabled>A bejelentkezési oldalon szalag engedélyezése</banner_enabled>
+    <twitter_disabled>A Twitter integráció letiltása</twitter_disabled>
+    <twitter_link>Twitter azonosító</twitter_link>
+    <facebook_disabled>A Facebook integráció letiltása</facebook_disabled>
+    <facebook_link>A kedvelendő oldal URL-címe</facebook_link>
+    <skin>Felület</skin>
+    <items_ab_shown>Kijelölt címek számlálása</items_ab_shown>
+    <date_format>Dátum formátum</date_format>
+    <time_format>Idő formátum</time_format>
+    <language>Nyelv</language>
+    <timezone>Időzóna</timezone>
+    <general>Általános</general>
+    <default_mail_settings>Új e-mal</default_mail_settings>
+    <folders_mapping>Alapértelmezett mappák</folders_mapping>
+    <subject>Tárgy</subject>
+    <message_format>Formátum</message_format>
+    <re_message_format>Válaszüzenet formátuma</re_message_format>
+    <html_message>HTML üzenet</html_message>
+    <read_confirmation>Olvasás visszaigazolása</read_confirmation>
+    <request_read_confirmation>Olvasás visszaigazolás kérése</request_read_confirmation>
+    <send_read_confirmation>Küldés engedélyezése</send_read_confirmation>
+    <ask_before>Küldés előtt rákérdez</ask_before>
+    <smart_attach>Óriásmelléklet használata</smart_attach>
+    <save_sent_message>Az elküldött e-mailek mentése az [Elküldött elemek] mappába</save_sent_message>
+    <save_folder_message>Az elküldött üzenetek mentése</save_folder_message>
+    <encrypt>Az üzenetek titkosítása</encrypt>
+    <sign>Az üzenetek digitális aláírása</sign>
+    <appendvcard>Névjegyem csatolása (vCard)</appendvcard>
+    <charset>Karakterkészlet</charset>
+    <priority>Fontosság</priority>
+    <reply_to>Válasz cím</reply_to>
+    <reply_myself>Automatikus titkos másolat nekem</reply_myself>
+    <move_to_trash>Törölt elemek áthelyezése a [Törölt e-mailek] mappába</move_to_trash>
+    <auto_add_recipient_to_addressbook>Címzettek automatikus hozzáadása a névjegyekhez</auto_add_recipient_to_addressbook>
+    <edit_rules>Szabályok</edit_rules>
+    <rules>Szabályok</rules>
+    <forward_messages>Üzenetek továbbítása</forward_messages>
+    <inline>Szövegként</inline>
+    <as_attachment>Mellékletként</as_attachment>
+    <autoupdate_message>Új üzenetek automatikus fogadása [perc]</autoupdate_message>
+    <autosave_message>Üzenetek automatikus mentése piszkozatként [perc]</autosave_message>
+    <calendar_settings>Naptár</calendar_settings>
+    <main>Fő</main>
+    <day_begins_at>Nap kezdete</day_begins_at>
+    <day_ends_at>Nap vége</day_ends_at>
+    <week_begins_on>Hét kezdőnapja</week_begins_on>
+    <week_starts_today>A hét kezdete a mai napon</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Megosztás</sharing_settings>
+    <shared_email>Fiók e-mail címe</shared_email>
+    <email>E-mail</email>
+    <rights>Jogok</rights>
+    <read>Olvasás</read>
+    <write>Írás</write>
+    <modify>Módosítás</modify>
+    <delete>Törlés</delete>
+    <owner>Tulajdonos</owner>
+    <acc_name>Név</acc_name>
+    <quota>Tárhely</quota>
+    <sms_quota>SMS kvóta</sms_quota>
+    <quota_home>Lemez terület (tartalmazza az e-maileket, fájlokat, névjegyek mellékleteit, eseményeket...)</quota_home>
+    <description>Leírás</description>
+    <old_password>Régi jelszó</old_password>
+    <new_password>Jelszó</new_password>
+    <new_password_conf>Jelszó újra</new_password_conf>
+    <save_drafts_to>Piszkozatok mentése</save_drafts_to>
+    <default_flag>Alapértelmezett jelölő</default_flag>
+    <alternative_email>Másodlagos e-mail cím</alternative_email>
+    <default_settings>Alapértelmezett beállítások</default_settings>
+    <event_view>Esemény nézet</event_view>
+    <event_show_as>Események mutatása</event_show_as>
+    <event_sharing>Megosztott naptár</event_sharing>
+    <contact_sharing>Megosztott névjegyek</contact_sharing>
+    <journal_sharing>Megosztott napló</journal_sharing>
+    <note_sharing>Megosztott feljegyzések</note_sharing>
+    <task_sharing>Megosztott feladatok</task_sharing>
+    <file_sharing>Fájlmegosztás</file_sharing>
+    <force_for_domainadmin>Beállítások átadása domén adminisztrátoroknak és felhasználóknak</force_for_domainadmin>
+    <force_for_users>Beállítások átadása felhasználóknak</force_for_users>
+    <force>Beállítások átadása</force>
+  </settings>
+  <email_priority>
+    <highest>Nagyon fontos</highest>
+    <high>Fontos</high>
+    <normal>Normál</normal>
+    <medium>Normál</medium>
+    <low>Mellékes</low>
+    <lowest>Nagyon mellékes</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Mappa kiválasztása</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Elem kiválasztása</insert_item>
+    <untitled>Nincs cím</untitled>
+    <embedded>Beágyazott</embedded>
+    <link>Link</link>
+  </insert_item>
+  <attendees>
+    <shared>Megosztott fiókok</shared>
+    <add_title>További résztvevő</add_title>
+    <edit_title>Szerkesztés</edit_title>
+    <resource>Erőforrás</resource>
+    <remove>Eltávolítás</remove>
+    <edit>Szerkesztés</edit>
+    <name>Név</name>
+    <email>E-mail</email>
+    <folder>Névjegyek</folder>
+    <all_attendees>Résztvevők</all_attendees>
+    <status>Állapot</status>
+    <status_p>Függőben</status_p>
+    <status_a>Elfogadva</status_a>
+    <status_d>Visszautasítva</status_d>
+    <role>Szerep</role>
+    <role_q>Résztvevő</role_q>
+    <role_s>Helyszín</role_s>
+    <role_t>Tájékoztatás</role_t>
+    <role_g>Szervező</role_g>
+    <quick_add>Írja be a résztvevő vagy az eszköz nevét</quick_add>
+  </attendees>
+  <dial>
+    <dial>Hívás</dial>
+    <keypad>Tárcsázó</keypad>
+    <call>WebTelefon</call>
+    <mute>Elnémítás</mute>
+    <answer>Fogadás</answer>
+    <decline>Elutasítás</decline>
+    <filter>Csak WebTelefon kapcsolatok mutatása</filter>
+    <hfilter>Csak az elmulasztott hívások kijelzése</hfilter>
+    <phone>WebTelefon</phone>
+    <duration>Időtartam:</duration>
+    <video>Videó</video>
+    <localcam>Ez a számítógép</localcam>
+    <remotecam>Távoli számítógép</remotecam>
+    <answer_video>Válasz + Videó</answer_video>
+    <hang_up>Befejezés</hang_up>
+    <busy>Foglalt</busy>
+    <pbook>Telefonkönyv</pbook>
+    <refresh>Előzmények frissítése</refresh>
+    <call_duration>Időtartam %s</call_duration>
+    <history>Előzmények</history>
+    <missed>Elmulasztott</missed>
+    <incoming>Bejövő</incoming>
+    <outgoing>Kimenő</outgoing>
+    <select_contect>Válassza ki az előnyben részesített kapcsolattartót</select_contect>
+    <calling>Kimenő hívás</calling>
+    <incomingcall>Bejövő hívás</incomingcall>
+    <callestablished>Beszélgetés vele</callestablished>
+    <notify_ext>Hagyományos telefonszám hívása</notify_ext>
+  </dial>
+  <sip>
+    <sip>WebTelefon</sip>
+    <external>Telefonszám hívása</external>
+    <screen>Hívás és képernyő mutatása</screen>
+    <sip_status>WebTelefon: %s</sip_status>
+    <default_contact>Alapértelmezett WebTelefon kapcsolatok</default_contact>
+    <unreachable>A szerver jelenleg nem érhető el</unreachable>
+    <device>Hangeszköz nem található</device>
+    <videonotsupported>Böngészője nem támogatja a videohívásokat. A legjobb eredmény érdekében használja a legújabb Chrome vagy Firefox böngészőt.</videonotsupported>
+    <offline>A WebTelefon nem érhető el (a hívások külső VoIP szoftveres telefonra/telefonra kerülnek átirányításra)</offline>
+    <outgoingcall>Ön a következőt hívja: %s</outgoingcall>
+    <incomingcall>%s hív</incomingcall>
+    <callongoing>Ön a következővel beszélget: %s</callongoing>
+    <callestablished>%s hívása folyamatban</callestablished>
+    <userbusy>%s foglalt</userbusy>
+    <callfinished>Hívás vége</callfinished>
+    <callcanceled>A hívás befejeződött</callcanceled>
+    <notreachable>Nincs válasz WebTelefon hívásra</notreachable>
+    <calldeclined>A hívást elutasították</calldeclined>
+    <info>WebTelefon állapota: %s</info>
+    <notification>%s jelenleg: %s</notification>
+    <error>WebTelefon figyelmeztetés</error>
+    <notice>WebTelefon riasztás</notice>
+    <udp>WebTelefon kapcsolódási hiba. Ellenőrizze tűzfalát vagy internetkapcsolatát.</udp>
+    <slow>A kapcsolódás túl sokáig tart. Lehet, hogy a WebTelefon nem működik megfelelően.</slow>
+    <init>WebTelefon kapcsolódáshi hiba. Ellenőrizze beállításait a Beállítások - WebTelefon alatt.</init>
+    <mediarequest>A WebTelefon használatához engedélyezze a mikrofon ill. kamera használatát.&lt;br&gt;Ehhez válaszoljon a böngészőjének felső részén megjelenő kérdésre.</mediarequest>
+    <invalidstate>A mikrofon ill. a kamera nem használható. Valószínűleg egy másik alkalmazás használja azt.</invalidstate>
+    <nopermission>A mikrofon ill. a kamera használata nincs engedélyezve. A szolgáltatás használatához azt mindenképp engedélyeznie kell.</nopermission>
+    <mediadenied>A mikrofon ill. kamera nem érhető el. Valószínűleg az eszköz nincs megfelelően csatlakoztatva vagy hibás a beállítása.</mediadenied>
+    <ffmedia>Böngészőjének felső részében kattintson a mikrofon ill. kamera ikonra és engedélyezze annak használatát.</ffmedia>
+    <nowebrtc>Böngészője nem támogatja a hanghoz ill. videóhoz szükséges WebRTC-t. A WebTelefont indítsa egyszerűen pl. Chrome böngészőben vagy telepítse jelenlegi böngészőjébe a szükséges WebRTC bővítményt.</nowebrtc>
+    <gettingmedia>Az ablak bezárása előtt engedélyezze böngészőjében a mikrofon ill. kamera használatát.</gettingmedia>
+    <occupied>A WebTelefon már fut.</occupied>
+  </sip>
+  <conference>
+    <planner>WebKonferencia szervezése</planner>
+    <aborted>A WebKonferencia befejeződött.</aborted>
+    <access>Adatok elérése</access>
+    <allattendees>Minden résztvevő</allattendees>
+    <missinguserid>Ön nem meghívott résztvevője ennek a WebKonferenciának. A WebKonferencia befejezése.</missinguserid>
+    <appletrunning>A Java elindult, várakozás az értekezlethez való kapcsolódásra...</appletrunning>
+    <callestablished>A WebKonferencia folyamatban van</callestablished>
+    <callfinished>A WebKonferencia befejeződött</callfinished>
+    <came>csatlakozott a WebKonferenciához</came>
+    <cancelled>A WebKonferencia váratlanul véget ért</cancelled>
+    <privatechat>Magánbeszélgetés indítása</privatechat>
+    <chatalreadymeeting>Felkérést kapott egy új WebKonferenciára amin nem tud részt venni mivel egyszerre csak egy WebKonferencián vehet részt.</chatalreadymeeting>
+    <chatinvite>WebKonferenciára hívom:</chatinvite>
+    <closed>A WebKonferencia véget ért</closed>
+    <closing>Kilép a WebKonferenciából, vagy befejezi azt az összes résztvevő számára?</closing>
+    <confirminvite>meghívta egy WebKonferenciára</confirminvite>
+    <connectfailure>Nem lehet kapcsolódni a WebKonferenciához</connectfailure>
+    <connecting>Kapcsolódás WebKonferenciához...</connecting>
+    <create>Új WebKonferencia létrehozása</create>
+    <created>A WebKonferencia elkezdődött, csatlakozás...</created>
+    <createfirst>Jelenleg nem zajlik WebKonferencia, indít egyet?</createfirst>
+    <delegate>Legyen moderátor</delegate>
+    <screen>Távoli képernyő</screen>
+    <desktop>Képernyő mutatás</desktop>
+    <waitvideo>Várakozás a távoli képernyőre</waitvideo>
+    <notchrome>Képernyőmegosztáshoz a Chrome böngészőt kell használni</notchrome>
+    <nohttps>A képernyőmegosztáshoz biztonságos kapcsolat (https) szükséges.</nohttps>
+    <noplugin>Nincs telepítve képernyőmegosztás bővítmény.</noplugin>
+    <desktopinfo>Képernyőmegosztás a résztvevőkkel</desktopinfo>
+    <dialin>Telefonos csatlakozáshoz hívja az alábbi számok egyikét:</dialin>
+    <disablefirebug>A Firebug kiterjesztés megzavarhatja ezt a funkciót. Javasoljuk hogy tiltsa le a Firebugot, és jelentkezzen be újra.</disablefirebug>
+    <dismiss>Résztvevő kiléptetése</dismiss>
+    <duration>Időtartam:</duration>
+    <end>WebKonferencia befejezése</end>
+    <endcall>Hívás befejezése</endcall>
+    <endforall>A WebKonferencia befejezése mindenki számára</endforall>
+    <endinfo>A WebKonferencia felfüggesztése...</endinfo>
+    <finished>A hangfelvételt a Fájlok mappában találja.</finished>
+    <generalerror>A WebKonferencia során ismeretlen hiba lépett fel</generalerror>
+    <id>WebKonferencia azonosító:</id>
+    <shortid>WebKonferencia azonosító:</shortid>
+    <info>WebKonferencia adatai</info>
+    <instruct>Sikeresen kapcsolódott a WebKonferenciához. Beszélgetéshez használja mikrofonját és hangszóróját.</instruct>
+    <invalidmeetingid>Nem csatlakozhat ehhez a WebKonferenciához. Az azonosító lejárt, vagy érvénytelen.</invalidmeetingid>
+    <invalidsessionid>A munkamenet lejárt, a WebKonferencia felfüggesztése</invalidsessionid>
+    <invitationedit>Meghívó:</invitationedit>
+    <invite>Meghívás</invite>
+    <inviteinfo>Résztvevők meghívása</inviteinfo>
+    <invitation_sent>A meghívó elküldve:</invitation_sent>
+    <invited>WebKonferencia meghívó érkezett</invited>
+    <invitesubject>WebKonferencia meghívó</invitesubject>
+    <join>WebKonferencia indítása</join>
+    <joining>Csatlakozás WebKonferenciához</joining>
+    <leave>Kilépés</leave>
+    <leaveinfo>Kilépés a WebKonferenciából</leaveinfo>
+    <leaveorend>Válasszon új moderátort, ha folytatni kívánja ezt a WebKonferenciát. Egyébként ez a WebKonferencia minden résztvevő számára véget ér.</leaveorend>
+    <leaving>Biztosan kilép a WebKonferenciából?</leaving>
+    <left>kilépett a WebKonferenciából</left>
+    <leftchat>Az üzenet nem kézbesíthető, a résztvevő már kilépett a WebKonferenciából.</leftchat>
+    <mailinvite>Közvetlen csatlakozás:</mailinvite>
+    <manager>moderátor</manager>
+    <meeting>WebKonferencia</meeting>
+    <mikogoerror>A képernyőmegosztás jelenleg nem működik</mikogoerror>
+    <servererror>A WebKonferencia során ismeretlen hiba történt. További részletekért forduljon az adminisztrátorhoz.</servererror>
+    <connectionerror>A WebKonferencia hálózati hiba miatt befejeződött. Próbálkozzon később.</connectionerror>
+    <mute>Elnémítás</mute>
+    <muteall>Az összes mikrofon elnémítása</muteall>
+    <muteinfo>Mikrofon elnémítása</muteinfo>
+    <muteone>Résztvevő elnémítása</muteone>
+    <attendees>Résztvevők</attendees>
+    <chat>WebChat</chat>
+    <name>Név:</name>
+    <needspecialpermissions>Nem megfelelőek az engedélyek ennek a műveletnek a végrehajtásához</needspecialpermissions>
+    <networkrequesterror>Úgy tűnik, probléma van a hálózattal. A WebKonferencia nem működik.</networkrequesterror>
+    <nocallallowed>WebKonferencia alatt a WebTelefon nem engedélyezett</nocallallowed>
+    <noparticipants>Nincsenek résztvevők</noparticipants>
+    <notaccessmode>A WebKonferencia szolgáltatás ezen felhasználó számára nem engedélyezett</notaccessmode>
+    <notauthenticated>Ön nincs hitelesítve erre a szolgáltatásra.</notauthenticated>
+    <notenabled>Az adminisztrátor letiltotta a WebKonferenciát</notenabled>
+    <notonline>Nincs hálózati kapcsolat</notonline>
+    <notsetupproperly>A WebKonferencia szolgáltatás nincs megfelelően beállítva.</notsetupproperly>
+    <notlicensed>Jelenlegi licencével sajnos nem kezdeményezhet WebKonferenciát. Kérjük bővítse licencét!</notlicensed>
+    <licenseerror>Jelenlegi licencével sajnos nem kezdeményezhet több WebKonferenciát. Kérjük bővítse licencét!</licenseerror>
+    <offline>A WebKonferencia nem érhető el.</offline>
+    <ongoing>A WebKonferencia folyamatbna van</ongoing>
+    <onlyorganizercandothis>Ezt a funkciót csak a WebKonferencia szervezője használhatja.</onlyorganizercandothis>
+    <onlysuperusercandothis>Ehhez a művelethez nincs engedélye.</onlysuperusercandothis>
+    <organizer>szervező</organizer>
+    <pending>Várakozás a szervezőre...</pending>
+    <phone>Telefon:</phone>
+    <phoning>Jelenleg WebTelefont használ. Szeretné befejezni, és elkezdeni a WebKonferenciát?</phoning>
+    <preparing>WebKonferencia indítása. Adatok lekérése...</preparing>
+    <promoted>moderátor</promoted>
+    <ready>Indíthatja a WebKonferenciát</ready>
+    <recap>Ez az információ a fenti &quot;i&quot; - infó ikonra kattintva bármikor megtekinthető.</recap>
+    <record>Hangfelvétel</record>
+    <recordinfo>A rögzítés folyamatban</recordinfo>
+    <recording>A hangrögzítés folyamatban</recording>
+    <restart>A WebKonferencia újraindítása</restart>
+    <schedule>WebKonferencia beütemezése</schedule>
+    <scheduleorstart>Szeretne most WebKonferenciát elkezdeni, vagy későbbi időpontra ütemezi be?</scheduleorstart>
+    <silenceinfo>Hangszórók elnémítása</silenceinfo>
+    <sipnoparticipants>Nincsenek résztvevők, a WebKonferencia befejeződött.</sipnoparticipants>
+    <start>WebKonferencia indítása</start>
+    <started>WebKonferencia indítása. Java indítás...</started>
+    <startedconnect>WebKonferencia indítása. Kapcsolódás...</startedconnect>
+    <startednojava>WebKonferencia indítása. Csatlakozás a mikrofonhoz ill. kamerához...</startednojava>
+    <starting>WebKonferencia indítása folyamatban</starting>
+    <startnow>WebKonferencia indítása</startnow>
+    <joinnow>Csatlakozás folyamatban lévő WebKonferenciához</joinnow>
+    <terminate>Biztosan befejezi a WebKonferenciát?</terminate>
+    <timeout>Nem lehet fenntartani a WebKonferencia kapcsolatát</timeout>
+    <unknown>Nem nyilvános résztvevő</unknown>
+    <unmuteone>A résztvevő némításának feloldása</unmuteone>
+    <details>WebKonferencia részletei</details>
+    <callin>WebTelefon részletei</callin>
+    <url>WebKonferencia elérése:</url>
+    <shorturl>Web elérés:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>Hívás azonosító:</callid>
+    <waitfailure>Nem lehet csatlakozni a WebKonferenciához.</waitfailure>
+    <waiting>Várakozás a Java indulására, ezt eltarthat egy ideig.</waiting>
+    <welcome>Üdvözöljük az IceWarp WebKonferencián!</welcome>
+    <me>Én</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>Az Office alkalmazások közvetlenül a webböngészőből való indításához és a dokumentum-módosítások automatikus feltöltéséhez Java szükséges.</nolaunch>
+    <nooffice>Nincs Irodai (Office) csomag telepítve gépére.</nooffice>
+    <openfailed>Nem lehetett megnyitni a dokumentumot a helyi Office-alkalmazással. Szeretné inkább letölteni a dokumentumot?</openfailed>
+    <noappfound>Nem található alkalmazás ennek a dokumentumtípusnak a megnyitásához.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Mód</mode>
+    <disabled>Kikapcsolva</disabled>
+    <respond_always>Válasz mindig</respond_always>
+    <respond_once>Válasz egyszer</respond_once>
+    <respond_after_period>Válasz időközönként újra</respond_after_period>
+    <respond_period>Válasz időköze [nap]</respond_period>
+    <from>Feladó</from>
+    <subject>Tárgy</subject>
+    <text>Szöveg</text>
+    <respond_only_if_to_me>Ha csak nekem szól</respond_only_if_to_me>
+    <respond_between>Válasz intervallumban</respond_between>
+    <noresponderfor>Nincs válasz</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Továbbítás:</forward_to>
+    <keep_copy>E-mailek megtartása</keep_copy>
+    <forward_older>Régebbi üzenetek továbbítása [nap]</forward_older>
+    <forward_older_to>Régebbi üzenetek továbbítási címe</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Hozzáad / Szerkeszt</addedit>
+    <header>Fejléc</header>
+    <filters>Szűrők</filters>
+    <edit_header>Fejléc szerkesztése</edit_header>
+    <empty_operator/>
+    <not>NEM</not>
+    <and>ÉS</and>
+    <or>VAGY</or>
+    <and_not>ÉS NEM</and_not>
+    <or_not>VAGY NEM</or_not>
+    <from>Feladó:</from>
+    <to>Címzett:</to>
+    <subject>Tárgy:</subject>
+    <cc>Másolat:</cc>
+    <reply_to>Válasz:</reply_to>
+    <date>Dátum:</date>
+    <message>Üzenet</message>
+    <message_type>Üzenet típusa:</message_type>
+    <message_body>Üzenet szövege</message_body>
+    <custom_message_header>Egyéni fejléc</custom_message_header>
+    <any_message_header>Bármely fejléc mező</any_message_header>
+    <attachment_name>Melléklet neve</attachment_name>
+    <sender>Feladó</sender>
+    <recipient>Címzett</recipient>
+    <senders_ip>Feladó IP-je</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Feladó</ip>
+    <all_messages>Összes üzenet</all_messages>
+    <no_messages>Nincs üzenet</no_messages>
+    <priority_is>a fontosság</priority_is>
+    <priority_isnt>a fontosság nem</priority_isnt>
+    <is_spam>spam</is_spam>
+    <isnt_spam>nem spam</isnt_spam>
+    <is_greater_than>nagyobb mint</is_greater_than>
+    <is_lower_than>kisebb mint</is_lower_than>
+    <match_case>megegyezik</match_case>
+    <regexp>Regexp</regexp>
+    <whole_word>Teljes szó</whole_word>
+    <matches>megegyezik</matches>
+    <doesnt_match>nem egyezik meg</doesnt_match>
+    <contains_string>tartalmaz</contains_string>
+    <doesnt_contain_string>nem tartalmaz</doesnt_contain_string>
+    <matches_regex>regex egyezés</matches_regex>
+    <doesnt_match_regex>nincs regex egyezés</doesnt_match_regex>
+    <is_string>pontosan</is_string>
+    <isnt_string>nem</isnt_string>
+    <spam_score>Spam pont</spam_score>
+    <authorized>elfogadva</authorized>
+    <unauthorized>nincs elfogadva</unauthorized>
+    <add>Hozzáadás</add>
+    <delete>Törlés</delete>
+    <up>Fel</up>
+    <down>Le</down>
+    <action>Esemény</action>
+    <actions>Események</actions>
+    <accept>Elfogadás</accept>
+    <reject>Visszautasítás</reject>
+    <quarantine>Karanténba</quarantine>
+    <spam>Spam</spam>
+    <stop_processing>Többi szabály mellőzése</stop_processing>
+    <move_to>Áthelyezés</move_to>
+    <copy_to>Másolás</copy_to>
+    <encrypt_message>Titkostás</encrypt_message>
+    <set_message_priority>Fontosság beállítása</set_message_priority>
+    <set_message_flag>Jelölő beállítása</set_message_flag>
+    <text>Szöveg:</text>
+    <title>Tárgy</title>
+    <conditions>Feltételek</conditions>
+    <edit>Szerkesztés</edit>
+    <rule>Szabály</rule>
+    <rules>Szabályok</rules>
+    <highest>legmagasabb</highest>
+    <high>magas</high>
+    <normal>átlagos</normal>
+    <low>alacsony</low>
+    <lowest>legalacsonyabb</lowest>
+    <spam_is_greater_than>magasabb mint</spam_is_greater_than>
+    <spam_is_lower_than>alacsonyabb mint</spam_is_lower_than>
+    <forward_to>Továbbítás</forward_to>
+    <send_message>Üzenet küldése</send_message>
+    <three_dots>...</three_dots>
+    <email>E-mail</email>
+    <instant_messaging>WebChat</instant_messaging>
+    <active>Aktív</active>
+  </filters>
+  <rich>
+    <alt>Eltérő szöveg</alt>
+    <code>Forrás</code>
+    <paragraph>Bekezdés</paragraph>
+    <normal>Átlagos</normal>
+    <heading>Fejléc</heading>
+    <clearformatting>Formázás törlése</clearformatting>
+    <font>Betűtípus</font>
+    <size>Méret</size>
+    <rows>Sor</rows>
+    <columns>Oszlop</columns>
+    <padding>Cellamargó</padding>
+    <spacing>Cellatávolság</spacing>
+    <img_spacing>Köz</img_spacing>
+    <bordercolor>Szegélyszín</bordercolor>
+    <border>Keret</border>
+    <bold>Félkövér</bold>
+    <italic>Dőlt</italic>
+    <underline>Szöveg aláhúzása</underline>
+    <style>Formázás típusa</style>
+    <align>Szöveg igazítása</align>
+    <left>Balra igazítás</left>
+    <center>Középre igazítás</center>
+    <right>Jobbra igazítás</right>
+    <justify>Sorkizárás</justify>
+    <numberedlist>Számozott lista</numberedlist>
+    <bulletedlist>Listajeles lista</bulletedlist>
+    <indent>Behúzás</indent>
+    <leftindent>Bal oldali behúzás</leftindent>
+    <rightindent>Jobb oldali behúzás</rightindent>
+    <bgcolor>Háttér színe</bgcolor>
+    <color>Szöveg színe</color>
+    <cut>Kijelöltek kivágása</cut>
+    <copy>Kijelöltek másolása</copy>
+    <paste>Kijelöltek beillesztése</paste>
+    <pastew>Beillesztés szövegként</pastew>
+    <insert>Beszúrás</insert>
+    <addlink>Hivatkozás</addlink>
+    <table>Táblázat</table>
+    <image>Kép</image>
+    <dropbox>Dropbox-hivatkozás</dropbox>
+    <spell>Helyesírás ellenőrző</spell>
+    <url>URL</url>
+    <uploaded>Feltöltött</uploaded>
+    <internal>Belső</internal>
+    <direction>Szövegirány (HTML)</direction>
+    <ltr>Balról jobbra</ltr>
+    <rtl>Jobbról balra</rtl>
+    <screenshot>Képernyőfelvétel készítése</screenshot>
+    <paste_img>Kép beillesztése</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Betöltés</loading>
+    <framework>Keretrendszer betöltése...</framework>
+    <settings>Beállítások betöltése...</settings>
+    <language>Programfelület betöltése...</language>
+    <indexing>Indexelés...</indexing>
+    <startup>Indítás...</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>IceWarp Levelező</desktop_client>
+    <outlook_sync>Outlook Szinkronizáló</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>IceWarp Levelező letöltése</help_win_desktop1>
+    <help_win_desktop2>Futtassa a telepítőt. Az IceWarp Levelező főmenüjében válassza az &lt;b&gt;Eszközök - Fiókok&lt;/b&gt; parancsot. Megjelenik a &lt;b&gt;Fiókok&lt;/b&gt; párbeszédpanel. Ezen a párbeszédpanelen kattintson az &lt;b&gt;Új fiók&lt;/i&gt;&lt;/b&gt; elemre. Megjelenik az Új fiók varázsló. Adja meg az &lt;i&gt;E-mail címét&lt;/i&gt; és &lt;i&gt;Jelszavát&lt;/i&gt;, majd kattintson az &lt;b&gt;Csatlakozás&lt;/b&gt; gombra.</help_win_desktop2>
+    <help_win_desktop3>A Fiók adatai oldalon módosíthatja fiókja nevét. Kattintson a Tovább gombra. A következő oldalon kapcsolhatja ki azokat a funkciókat, melyeket nem kíván használni. Kattintson a Befejezés gombra a beállítás befejezéséhez.</help_win_desktop3>
+    <help_win_osync1>Outlook Szinronizáló letöltése</help_win_osync1>
+    <help_win_osync2>Futtassa a telepítőt. Az automatikus észlelés oldalon írja be az &lt;i&gt;E-mail címét&lt;/i&gt; és &lt;i&gt;jelszavát&lt;/i&gt;, &lt;b&gt;ne&lt;/b&gt; pipálja ki a &lt;i&gt;Az intelligens észlelés kihagyása és kézi konfigurálás&lt;/i&gt; beállítást. Kattintson a Tovább gombra.</help_win_osync2>
+    <help_win_osync3>A következő lépésben jelenik meg a Licenc aktiválása párbeszédpanel.</help_win_osync3>
+    <help_win_osync4>Ha rendelkezik IceWarp Outlook Szinkronizáló licenccel, kattintson az Igen gombra. Ha nincs licence és a 30 napos díjmentes bamutató keretén belül szeretné azt kipróbálni, kattintson a Nem gombra.</help_win_osync4>
+    <help_win_osync5>Kattintson a Befejezés gombra a telepítés befejezéséhez.</help_win_osync5>
+    <help_win_20131>A &lt;b&gt;Fájl&lt;/b&gt; menüben, a &lt;b&gt;Fiókadatok&lt;/b&gt; oldalon kattintson a &lt;b&gt;Fiók hozzáadása&lt;/b&gt; elemre, megnyílik a Fiók hozzáadása párbeszédpanel. Az &lt;b&gt;Automatikus fiókbeállítás&lt;/b&gt; oldalon jelölje be a &lt;i&gt;Kézi beállítás vagy további szervertípusok&lt;/i&gt; beállítást, majd kattintson a Tovább gombra.&#13;&#10;A &lt;b&gt;Szolgáltatás választása&lt;/b&gt; oldalon jelölje be az &lt;i&gt;Outlook.com vagy Exchange ActiveSync kompatibilis szolgáltatás&lt;/i&gt; beállítást, majd kattintson a Tovább gombra.</help_win_20131>
+    <help_win_20132>A &lt;b&gt;Kiszolgáló beállításai&lt;/b&gt; oldalon töltse ki a felhasználó, a kiszolgáló és a bejelentkezés adatait. Kattintson a Tovább gombra.</help_win_20132>
+    <help_win_20133>A fiókbeállítások tesztelése után kattintson a Befejezés gombra.</help_win_20133>
+    <help_osx_all_applications_title>Az összes alkalmazás</help_osx_all_applications_title>
+    <help_osx_messages_title>Üzenetek</help_osx_messages_title>
+    <help_osx_messages1>Nyissa meg az Üzenetek párbeszédpanelt, és a főmenüben válassza az &lt;b&gt;Üzenetek - Fiók hozzáadása&lt;/b&gt; parancsot. A hozzáadni kívánt fióktípusok közül válassza az &lt;b&gt;Egyéb üzenetek fiók...&lt;/b&gt; lehetőséget, majd kattintson a Folytatás gombra.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Naptár</help_osx_calendar_title>
+    <help_osx_calendar1>Nyissa meg a naptárt, és a főmenüben válassza a &lt;b&gt;Naptár - Fiók hozzáadása&lt;/b&gt; parancsot. A hozzáadni kívánt fióktípusokból válassza a &lt;b&gt;CalDAV-fiók hozzáadása&lt;/b&gt; lehetőséget, majd kattintson a Folytatás gombra.</help_osx_calendar1>
+    <help_osx_calendar2>A &lt;b&gt;CalDAV-fiók hozzáadása&lt;/b&gt; párbeszédpanelen a &lt;i&gt;Fióktípus&lt;/i&gt; lehetőségekből válassza a &lt;b&gt;Kézi&lt;/b&gt; elemet.&#13;&#10;Írja be &lt;i&gt;felhasználónévként&lt;/i&gt; az e-mail címét és a &lt;i&gt;jelszavát&lt;/i&gt;.&#13;&#10;A &lt;i&gt;Kiszolgáló címe&lt;/i&gt; mezőben adja meg a kiszolgáló állomásnevét. Kattintson a Létrehozás gombra.</help_osx_calendar2>
+    <help_osx_calendar3>Az &lt;b&gt;emlékeztetők&lt;/b&gt; beállításához válassza a &lt;b&gt;Rendszerbeállítások - Internetfiókok&lt;/b&gt; parancsot, és adja meg az imént konfigurált naptárfiók helyét. Pipálja ki a &lt;i&gt;Használat a következővel: Emlékeztetők&lt;/i&gt; jelölőnégyzetét</help_osx_calendar3>
+    <help_osx_contacts_title>Névjegyek</help_osx_contacts_title>
+    <help_osx_contacts1>Nyissa meg a névjegyeket, és a főmenüben válassza a &lt;b&gt;Névjegyek - Fiók hozzáadása&lt;/b&gt; parancsot. A hozzáadni kívánt fióktípusokból válassza a &lt;b&gt;További névjegyek fiókja&lt;/b&gt; elemet, majd kattintson a Folytatás gombra.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>Az összes alkalmazás</help_osx_all>
+    <help_osx_all1>Konfiguráló letöltése</help_osx_all1>
+    <help_osx_all2>Nyissa meg a letöltött IceWarp konfiguráló lemezképfájlt. Futtassa az IceWarp konfigurálót. Ha megjelenik az értesítés, hogy az alkalmazás letöltésre került az internetről, kattintson a Megnyitás gombra. Töltse ki az E-mail cím és a Jelszó mezőt, majd kattintson a &lt;strong&gt;Folytatás&lt;/strong&gt; gombra.</help_osx_all2>
+    <help_osx_all3>Minden automatikusan konfigurálható alkalmazás mellett zöld &lt;strong&gt;Csatlakoztatás&lt;/strong&gt; gomb jelenik meg. Kattintson rájuk egyenként, illetve az összes létező alkalmazás telepítéséhez válassza a &lt;strong&gt;Mind csatlakoztatása&lt;/strong&gt; elemet.</help_osx_all3>
+    <help_tablet_and_title>Android táblagépek</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Windows táblagépek</help_tablet_win_title>
+    <help_tablet_win1>A &lt;b&gt;Start&lt;/b&gt; képernyő jobb oldalán válassza a &lt;i&gt;Beállítások - Számítógép-beállítások módosítása - Fiókok&lt;/i&gt; parancsot. A Fiókok oldalon válassza az &lt;i&gt;Egyéb fiókok&lt;/i&gt; lehetőséget. Az Egyéb fiókok oldalon koppintson a &lt;i&gt;Felhasználó hozzáadása&lt;/i&gt; elemre. A következő oldalon töltse ki a kiszolgáló állomásnevét és koppintson a Tovább gombra.</help_tablet_win1>
+    <help_tablet_win2>A Microsoft-fiók létrehozása oldalon töltse ki fiókja hitelesítési adatait, majd koppintson a Tovább gombra.</help_tablet_win2>
+    <help_tablet_win3>A Biztonsági adatok hozzáadása oldalon adja meg biztonsági beállításait, majd koppintson a Tovább gombra. A Kommunikáció beállításai oldalon koppintson a Tovább gombra. Az utolsó oldalon koppintson a Befejezés gombra.</help_tablet_win3>
+    <help_phone_and_title>Android eszközök</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>A &lt;b&gt;Távoli biztonsági felügyelet&lt;/b&gt; képernyőn nyomja meg az &lt;b&gt;OK&lt;/b&gt; gombot. Ez lényeges a cége biztonsági házirendjének az eszközön való érvényre juttatásához, vagy távoli alaphelyzetbe állításához, ha elveszett.</help_phone_and2>
+    <help_phone_and3>A &lt;b&gt;Fiókbeállítások&lt;/b&gt; képernyőn válassza &lt;i&gt;A beérkezett üzenetek ellenőrzésének gyakorisága&lt;/i&gt; elemet, és a &lt;i&gt;Szinkronizálandó napok&lt;/i&gt; alatt adja meg, hogyan kell szinkronizálni a régi e-maileket. Szükség esetén pipálja ki az &lt;i&gt;E-mail küldése alapértelmezettként ebből a fiókból&lt;/i&gt; beállítást, nézze át a többit, majd koppintson a Tovább gombra.</help_phone_and3>
+    <help_phone_and4>Adjon meg egy fiókcímkét ennek a fióknak az alkalmazásokban való azonosításához, majd koppintson a Tovább gombra.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>iPhone készülékén közvetlen eléréshez válassza a &lt;b&gt;Beállítások&lt;/b&gt; képernyőt, majd a &lt;i&gt;Levelek, névjegyek, naptárak - Fiók hozzáadása - Csere&lt;/i&gt; pontot.</help_ios1>
+    <help_ios2>A következő oldalon töltse ki az &lt;i&gt;e-mail, jelszó, leírás&lt;/i&gt; mezőt. Koppintson a Tovább gombra.</help_ios2>
+    <help_ios3>Szükség esetén a következő oldalon kikapcsolhatja azon funkciókat, amiket nem kíván használni. Koppintson a Mentés gombra. A speciális beállítások a fiók leírása alatt, a &lt;b&gt;Levelek, névjegyek, naptárak - Fiókok &lt;/b&gt; részben találhatók.</help_ios3>
+    <help_phone_win_title>Windows Phone</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Töltse ki az &lt;i&gt;e-mail címét&lt;/i&gt; és a &lt;i&gt;jelszavát&lt;/i&gt;. Amikor elkészült, koppintson a &lt;b&gt;belépés&lt;/b&gt; gombra.</help_phone_win2>
+    <help_trademark>Az IceWarp az Egyesült Államokban és más országokban bejegyzett védjegy. Az iPhone, iPad, Mac és OS X az Apple Inc. az Egyesült Államokban és más országokban bejegyzett védjegyei. A Microsoft, Windows, Outlook és Windows Phone a Microsoft Corp. az Egyesült Államokban és más országokban bejegyzett védjegyei. Az Android a Google Inc. védjegye.</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>E-mail, naptár, névjegyek</subtitle>
+    <descr>Folyamatosan szinkronban.</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>Ügyintézés programmal</subtitle>
+    <descr>Levelezés és kommunikáció felső fokon.</descr>
+  </banner_2>
+  <banner_4>
+    <title>Mac OS X</title>
+    <subtitle>E-mail, naptár, emlékeztetők</subtitle>
+    <descr>Folyamatosan szinkronban Mac-en.</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Szinkronizáló</title>
+    <subtitle>E-mail, naptár, névjegyek</subtitle>
+    <descr>Folyamatosan szinkronban.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>E-mail, naptár, névjegyek</subtitle>
+    <descr>Folyamatosan szinkronban.</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>E-mail, naptár, névjegyek</subtitle>
+    <descr>Folyamatosan szinkronban.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Előző oldal</previous_title>
+    <previous_label>Előző</previous_label>
+    <next_title>Következő oldal</next_title>
+    <next_label>Következő</next_label>
+    <page_label>Oldal:</page_label>
+    <page_of>/ {{pageCount}}</page_of>
+    <zoom_out_title>Kicsinyítés</zoom_out_title>
+    <zoom_out_label>Kicsinyítés</zoom_out_label>
+    <zoom_in_title>Nagyítás</zoom_in_title>
+    <zoom_in_label>Nagyítás</zoom_in_label>
+    <zoom_title>Nagyítás/kicsinyítés</zoom_title>
+    <presentation_mode_title>Váltás teljes képernyős módba</presentation_mode_title>
+    <presentation_mode_label>Teljes képernyő</presentation_mode_label>
+    <print_title>Nyomtatás</print_title>
+    <print_label>Nyomtatás</print_label>
+    <download_title>Letöltés</download_title>
+    <download_label>Letöltés</download_label>
+    <bookmark_title>Könyvjelző</bookmark_title>
+    <bookmark_label>Könyvjelző</bookmark_label>
+    <tools_title>Eszközök</tools_title>
+    <tools_label>Eszközök</tools_label>
+    <first_page_title>Ugrás az első oldalra</first_page_title>
+    <first_page_label>Go to first page</first_page_label>
+    <last_page_title>Ugrás az utolsó oldalra</last_page_title>
+    <last_page_label>Ugrás az utolsó oldalra</last_page_label>
+    <page_rotate_cw_title>Elforgatás jobbra</page_rotate_cw_title>
+    <page_rotate_cw_label>Elforgatás jobbra</page_rotate_cw_label>
+    <page_rotate_ccw_title>Elforgatás balra</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Elforgatás balra</page_rotate_ccw_label>
+    <hand_tool_enable_title>Kéz eszköz engedélyezése</hand_tool_enable_title>
+    <hand_tool_enable_label>Kéz eszköz engedélyezése</hand_tool_enable_label>
+    <hand_tool_disable_title>Kéz eszköz letiltása</hand_tool_disable_title>
+    <hand_tool_disable_label>Kéz eszköz letiltása</hand_tool_disable_label>
+    <document_properties_label>Dokumentum tulajdonságai</document_properties_label>
+    <document_properties_file_name>Fájlnév:</document_properties_file_name>
+    <document_properties_file_size>Fájlméret:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bájt)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bájt)</document_properties_mb>
+    <document_properties_title>Cím:</document_properties_title>
+    <document_properties_author>Szerző:</document_properties_author>
+    <document_properties_subject>Tárgy:</document_properties_subject>
+    <document_properties_keywords>Kulcsszavak:</document_properties_keywords>
+    <document_properties_creation_date>Létrehozás dátuma:</document_properties_creation_date>
+    <document_properties_modification_date>Módosítás dátuma:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Létrehozó:</document_properties_creator>
+    <document_properties_producer>Készítő:</document_properties_producer>
+    <document_properties_version>Verzió:</document_properties_version>
+    <document_properties_page_count>Oldalszám:</document_properties_page_count>
+    <document_properties_close>Bezárás</document_properties_close>
+    <toggle_sidebar_title>Oldalsáv ki-/bekapcsolása</toggle_sidebar_title>
+    <toggle_sidebar_label>Oldalsáv ki-/bekapcsolása</toggle_sidebar_label>
+    <outline_title>Dokcumentumvázlat megjelenítése</outline_title>
+    <outline_label>Dokcumentumvázlat megjelenítése</outline_label>
+    <thumbs_title>Miniatűrök megjelenítése</thumbs_title>
+    <thumbs_label>Miniatűrök megjelenítése</thumbs_label>
+    <findbar_title>Keresés a dokumentumban</findbar_title>
+    <findbar_label>Keresés</findbar_label>
+    <thumb_page_title>{{page}}. oldal</thumb_page_title>
+    <thumb_page_canvas>A(z) {{page}}. oldal miniatűrje</thumb_page_canvas>
+    <find_label>Keresés:</find_label>
+    <find_previous_title>Előző keresése</find_previous_title>
+    <find_previous_label>Előző</find_previous_label>
+    <find_next_title>Következő keresése</find_next_title>
+    <find_next_label>Következő</find_next_label>
+    <find_highlight>Az összes kiemelése</find_highlight>
+    <find_match_case_label>Kis- és nagybetűk megkülönböztetése</find_match_case_label>
+    <find_reached_top>A kereső a dokumentum elejére ért</find_reached_top>
+    <find_reached_bottom>A kereső a dokumentum végére ért</find_reached_bottom>
+    <find_not_found>Nem található</find_not_found>
+    <error_more_info>Több információ</error_more_info>
+    <error_less_info>Kevesebb információ</error_less_info>
+    <error_close>Bezárás</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Üzenet: {{message}}</error_message>
+    <error_stack>Verem: {{stack}}</error_stack>
+    <error_file>Fájl: {{file}}</error_file>
+    <error_line>Sor: {{line}}</error_line>
+    <rendering_error>Megjelenítési hiba</rendering_error>
+    <page_scale_width>Teljes szélesség</page_scale_width>
+    <page_scale_fit>Oldalhoz illesztés</page_scale_fit>
+    <page_scale_auto>Automatikus nagyítás/kicsinyítés</page_scale_auto>
+    <page_scale_actual>Tényleges méret</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Hiba</loading_error_indicator>
+    <loading_error>Hiba a PDF betöltésekor</loading_error>
+    <invalid_file_error>Érvénytelen vagy sérült PDF-fájl</invalid_file_error>
+    <missing_file_error>Hiányzó PDF-fájl</missing_file_error>
+    <text_annotation_type_alt>[{{type}} jegyzet]</text_annotation_type_alt>
+    <password_label>Írja be a jelszót ennek a védett PDF-nek a megnyitásához</password_label>
+    <password_invalid>Téves jelszó, próbálja újra.</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Mégse</password_cancel>
+    <printing_not_supported>Figyelmeztetés: A nyomtatás nem teljesen támogatott ebben a böngészőben.</printing_not_supported>
+    <printing_not_ready>Figyelmeztetés: A PDF nem teljesen töltődött be a nyomtatáshoz</printing_not_ready>
+    <web_fonts_disabled>A webes betűkészletek letiltottak: nem lehet használni PDF-betűkészleteket</web_fonts_disabled>
+    <document_colors_disabled>A színek használata a PDF-dokumentum számára nem engedélyezett</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDokumentum</title>
+    <preview>Dokumentum előnézet</preview>
+    <error>WebDokumentum hiba</error>
+    <error_msg>Document loading problem. You may need to close and reopen the document for full functionality.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

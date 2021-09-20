@@ -1,0 +1,106 @@
+// Folders
+// Graphical UI of WebClient folders in WebAdmin.
+
+// Block
+.folders {
+	@include flexit;
+	@include scroll-vertical;
+}
+
+
+// Elements
+.folders-child {
+	position: relative;
+	padding-left: p(1);
+	margin-left: p(0.75);
+	line-height: s(2.2);
+	font-weight: 400;
+	white-space: nowrap;
+
+	@if $folders-trailing-lines {
+		border-left: 1px solid $text-grey;
+	}
+
+	@if $folders-trailing-lines {
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: s(1.1);
+			left: -1px;
+			background-color: $white;
+			border-top: 1px solid $text-grey;
+			display: block;
+			width: s(7/8);
+			height: 100%;
+		}
+	}
+
+	&::before {
+		content: "\e60b";
+		font-family: 'icons';
+		text-align: center;
+		margin-right: $folders-icon-margin;
+		font-weight: 400;
+		vertical-align: middle;
+		font-size: s(1.3);
+		width: $folders-icon-width;
+		padding-bottom: 2px;
+		display: inline-block;
+	}
+
+	// States
+	&:hover {
+		@include theme {
+			color: $theme-primary;
+		}
+		cursor: pointer;
+	}
+
+	&.open > .folders-parent {
+		color: $dark;
+		cursor: default;
+	}
+
+	&:not(:last-child) {
+
+		&::after {
+			background-color: $transparent;
+		}
+	}
+
+	// Modifiers
+	// Folder icon types
+	&.type_x::before { content: $icon-server; } 		// Root
+	&.type_e::before { content: $icon-expiration; } 	// Calendar
+	&.type_t::before { content: $icon-resources; } 		// Task
+	&.type_j::before { content: $icon-journal; } 		// Journal
+	&.type_n::before { content: $icon-notes; } 			// Note
+	&.type_c::before { content: $icon-collaboration; } 	// Contact
+	&.type_f::before { content: $icon-documents ; } 	// Document
+	&.type_a::before { content: $icon-spam-folder; } 	// Spam
+	&.type_i::before { content: $icon-email; } 			// Inbox
+
+	// Don't apply for very first child in tree
+	&.folders-root { // Root folder
+		border: 0;
+		padding: 0;
+		margin: 0;
+		font-weight: 600;
+
+		&::after {
+			display: none; // Always root lines
+		}
+	}
+
+	&.folders-root, &.folders-top { // 2nd to root folder
+		font-weight: 600;
+	}
+}
+
+.folders-name {
+	@include text-ellipsis;
+	width: $folders-name-width;
+	display: inline-block;
+	vertical-align: middle;
+}

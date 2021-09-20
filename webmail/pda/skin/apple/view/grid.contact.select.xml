@@ -1,0 +1,52 @@
+<view>
+	<!-- Contact select form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<helper>groupware</helper>
+		<form id="contact_select" name="contact_select" method="post">
+			<config>
+				<parameters>?_n[w]=main&amp;_n[p][main]=grid.contact.select&amp;_s[data]=item.fdr&amp;_s[id]=__@@ADDRESSBOOK@@__&amp;_dlg=1</parameters>
+			</config>
+			<grid id="items" helper="item" template="grid/contact.select">
+				<config>
+					<controller>item</controller>
+					<target>main</target>
+					<data>item.fdr</data>
+					<view>grid.contact.list.select</view>
+					<default>
+						<orderby>itmclassifyas</orderby>
+						<sql></sql>
+					</default>
+					<fields>
+						<field label="datagrid_items_view|itmclassifyas">itmclassifyas</field>
+						<field label="datagrid_items_view|itmcompany" sort="itmcompany,itmdepartment">itmcompany</field>
+						<field label="datagrid_items_view|itmdepartment" sort="itmdepartment,itmcompany">itmdepartment</field>
+						<field label="Category">itmcategory</field>
+						<field label="First Name">itmfirstname</field>
+						<field label="Middle Name">itmmiddlename</field>
+						<field label="Surname">itmsurname</field>
+						<field label="Title">itmtitle</field>
+						<field label="Suffix">itmsuffix</field>
+						<field label="Job">itmjobtitle</field>
+						<field label="backup|email1">lctemail1</field>
+						<field label="backup|email2">lctemail2</field>
+						<field label="backup|email3">lctemail3</field>
+					</fields>
+					<select>
+						<type>multiple</type>
+						<variable>items</variable>
+					</select>
+					<stylesheet>
+						<src>apple</src>
+						<src>grid.contacts</src>
+					</stylesheet>
+					<javascript>
+						<src>lib</src>
+					</javascript>
+				</config>
+			</grid>
+		</form>
+	</panel>
+</view>

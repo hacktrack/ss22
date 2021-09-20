@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="Do"/>
+  <ITEM id="attachments" value="Załączniki"/>
+  <ITEM id="bytes" value="Bajty"/>
+  <ITEM id="view_mail" value="Pokaż pocztę"/>
+  <ITEM id="show_source" value="Pokaż źródło"/>
+  <ITEM id="title" value="Challenge Response"/>
+  <ITEM id="request" value="Aby udowodnić że Twoja wiadomość została wysłana przez człowieka, a nie komputer, wpisz tekst alfanumeryczny, który widzisz na obrazku poniżej i kliknij OK. Będziesz musiał zrobić to tylko raz dla tego adresu e-mail."/>
+  <ITEM id="result_ok" value="Podane przez Ciebie słowo jest poprawne. Twój adres e-mail został uwierzytelniony"/>
+  <ITEM id="result_error" value="Podane słowo jest niewłaściwe. Spróbuj ponownie."/>
+  <ITEM id="result_already" value="Twój adres e-mail był już uwierzytelniany"/>
+  <ITEM id="result_black" value="Twój adres znajduje się na czarnej liście."/>
+  <ITEM id="result_notfound" value="Twój adres nie został odnaleziony! Musiał zostać usunięty. Prosimy o ponowne wysłanie wiadomości e-mail."/>
+  <ITEM id="thanks" value="Dziękujemy za współpracę."/>
+  <ITEM id="reason" value="Czemu to robię?"/>
+  <ITEM id="explanation" value="Niepożądane, komputerowo generowane wiadomości - reklamy nie są w stanie odpowiedzieć na powyższe polecenie. Używając tego systemu, ograniczam pocztę przychodząco do uwierzytelnionych nadawców, upewniając się, że są to prawdziwi ludzie, którzy chcą komunikować się ze mną poprzez e-mail."/>
+  <ITEM id="thanks2" value="Dziękujemy za pomoc w zwalczaniu spamu"/>
+  <ITEM id="copyright" value="Prawa własności"/>
+  <ITEM id="link" value="Oprogramowanie IceWarp"/>
+  <ITEM id="gateway_link_label" value="Zarządzaj spamem / kwarantanną online"/>
+  <ITEM id="copyright2" value="Wszystkie prawa zastrzeżone"/>
+  <LIST>
+    <ITEM id="title" value="Raport Spam"/>
+    <ITEM id="intro" value="Ten automatycznie generowany raport informuje Cię o wiadomościach w folderze Spam (lub Kwarantanna) Twojego konta pocztowego. Pozwala podjąć akcje administracyjne przez kliknięcie na jednym z przycisków obok nagłówka poczty.&lt;br/&gt;UWAGA: Raporty pokazują tylko pierwsze wiadomości wysłane przez poszczególnych nadawców. Jeśli je zaakceptujesz, dostarczą kolejne wiadomości od tego użytkownika."/>
+    <ITEM id="outro" value="Możesz kliknąć na jeden z powyższych linków aby wykonać wybraną akcje na WSZYSTKICH wiadomościach pozostałych w folderze Spam (lub Kwarantanna)."/>
+    <ITEM id="admin_action" value="Wybierz akcję dla wszystkich elementów wszystkich kont"/>
+    <ITEM id="account_action" value="Wybierz akcję dla wszystkich elementów konta"/>
+    <ITEM id="you_are_admin" value="Opcje zarządzania spamem"/>
+    <ITEM id="sender" value="Od"/>
+    <ITEM id="subject" value="Tematy"/>
+    <ITEM id="recipient" value="Do"/>
+    <ITEM id="date" value="Data"/>
+    <ITEM id="time" value="Czas"/>
+    <ITEM id="actions" value="Akcje"/>
+    <ITEM id="delete" value="Usuń"/>
+    <ITEM id="authorize" value="Wpisz na białą listę"/>
+    <ITEM id="accept" value="Dostarcz"/>
+    <ITEM id="blacklist" value="Dodaj do czarnej listy"/>
+    <ITEM id="deleteall" value="Usuń"/>
+    <ITEM id="authorizeall" value="Wpisz na Białą Listę"/>
+    <ITEM id="acceptall" value="Dostarcz"/>
+    <ITEM id="blacklistall" value="Dodaj do czarnej listy"/>
+    <ITEM id="submit" value="Zatwierdź"/>
+    <ITEM id="view" value="Pokaż wiadomość"/>
+    <ITEM id="msgsubject" value="Raport Spam z %%Current_Date%%"/>
+    <ITEM id="domain" value="Domena"/>
+    <ITEM id="account" value="Konto"/>
+    <ITEM id="location" value="Lokalizacja"/>
+    <ITEM id="type_quarantine" value="Kwarantanna"/>
+    <ITEM id="type_spam" value="Folder Spam"/>
+    <ITEM id="delivery_problem" value="Nie można dostarczyć wiadomości na konto"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autoryzacja użytkownika"/>
+      <ITEM id="success" value="Nadawca został zweryfikowany."/>
+      <ITEM id="failure" value="Uzytkownik nie może być zweryfikowany."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Dostarczanie wiadomości"/>
+      <ITEM id="success" value="Wiadomość dostarczona."/>
+      <ITEM id="failure" value="Nie można dostarczyć wiadomości."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Usunięcie wiadomości"/>
+      <ITEM id="success" value="Wiadomość została skasowana i usunięta z kolejki."/>
+      <ITEM id="failure" value="Wiadomość nie może zostać skasowana"/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Odrzucenie przez użytkownika"/>
+      <ITEM id="success" value="Nadawca został dodany do czarnej listy."/>
+      <ITEM id="failure" value="Nie można dodać nadawcy do czarnej listy."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Widok wiadmości."/>
+      <ITEM id="failure" value="Nie można wyświetlić wiadomości .Przyczyną może być to , że wiadomość została już usnięta z folderu Kwarantanna / Spam"/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Błąd"/>
+      <ITEM id="failure" value="Nie można wykonać żadanej operacji."/>
+      <ITEM id="wrongid" value="Niepoprawne ID wiadomości. Podana wiadomość została właśnie usunięta z Kwarantanny(lub folderu Spam)."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Weryfikacja użytkownika"/>
+      <ITEM id="success" value="Użytkownik został zweryfikowany, a wiadomość dostarczona."/>
+      <ITEM id="failure" value="Użytkownik nie mógł zostać zweryfikowany , a wiadomość dostarczona."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Dostarczanie wiadomości"/>
+      <ITEM id="success" value="Wiadomość została dostarczona."/>
+      <ITEM id="failure" value="Wiadomość nie może zostać dostarczona"/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Usuwanie wiadomości"/>
+      <ITEM id="success" value="Wiadomość została usnięta z folderu Spam."/>
+      <ITEM id="failure" value="Wiadomość nie może zostać usunięta."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Odrzucenie przez użytkownika."/>
+      <ITEM id="success" value="Nadawca został dodany do czarnej listy, a wiadomość usunięta z folderu Spam."/>
+      <ITEM id="failure" value="Użytkownik nie może zostać dodany do czarnej listy lub wiadomość nie może zostać usunięta."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Widok wiadomości"/>
+      <ITEM id="failure" value="Wiadomość nie może zostać wyświetlona. Wiadomość została już najprawdopodobniej usunięta."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Błąd"/>
+      <ITEM id="failure" value="Nie można przeprowadzić żądanej operacji"/>
+      <ITEM id="wrongid" value="Niepoprawne ID wiadomości.Podana wiadomość została właśnie usunięta z Kwarantanny (lub folderu Spam)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Błąd"/>
+      <ITEM id="failure" value="Nie można wykonać żądanej operacji."/>
+      <ITEM id="wrongid" value="Nieprawidłowe ID administratora. Podane konto administratora nie istnieje."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Raporty spamu są wyłączone %s"/>
+    <ITEM id="challenge_already_running" value="Raporty spamu są obecnie uruchomione"/>
+    <ITEM id="challenge_invalid_path_variable" value="Raporty spamu nie zostały prawidłowo załadowane: %s"/>
+    <ITEM id="api_findinitquery" value="API raportów spamu: odzyskiwanie obiektu konto IceWarp. Domena: %s, Filtr: %s"/>
+    <ITEM id="challenge_language_file_missing" value="Brak pliku języka raportu spamu: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Uszkodzony plik języka raportów spamu: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Spam report nieporawna funkcja skrótu (możliwy atak URL): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

@@ -1,0 +1,377 @@
+/* ico */
+div.frm_collaboration.obj_popup .obj_popupico:after {
+	content: '\e97d';
+}
+
+.rtl div.frm_collaboration {
+	text-align: right;
+}
+
+div.frm_collaboration input::-ms-reveal {
+	display: none;
+}
+
+.frm_collaboration .hidden {
+	display: none !important;
+}
+
+.frm_collaboration .collaboration .disabled {
+	opacity: 0.2;
+	pointer-events: none;
+}
+
+.frm_collaboration .collaboration h2 {
+	font-size: 16px;
+	line-height: 28px;
+	margin: 20px 0;
+	font-weight: 500;
+}
+
+.frm_collaboration .collaboration h2 .reset_link {
+	float: right;
+}
+
+.frm_collaboration .collaboration>div {
+	border-bottom: 1px solid #E2E0DE;
+	display: block;
+	margin: 32px 0 10px 0;
+	padding: 0 36px 20px 36px;
+}
+
+.frm_collaboration .collaboration>div.no-border {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+.frm_collaboration .collaboration .label {
+	color: #aaa;
+	margin-bottom: 10px;
+}
+
+.frm_collaboration .collaboration .wrapper {
+	position: relative;
+	padding: 12px 12px 12px 60px;
+	margin: 3px 0;
+}
+.rtl .frm_collaboration .collaboration .wrapper {
+	padding: 12px 60px 12px 12px;
+}
+
+.frm_collaboration .collaboration .wrapper:not(.disabled):not(.noborder):hover {
+	box-shadow: 0 1px 6px #e5e5e5;
+	border-radius: 4px;
+}
+.frm_collaboration .collaboration .no-border .wrapper {
+	margin: 8px 0;
+}
+
+.frm_collaboration .collaboration .wrapper::before {
+	content: '';
+	left: 20px;
+	top: 22px;
+	position: absolute;
+	font-family: 'ico16';
+	font-size: 20px;
+	color: {bg_main #08C};
+}
+.rtl .frm_collaboration .collaboration .wrapper::before {
+	right: 20px;
+	left: auto;
+}
+
+.frm_collaboration .collaboration .wrapper.collaborate::before {
+	content: '\e02b';
+}
+
+.frm_collaboration .collaboration .wrapper.editing::before {
+	content: '\e978';
+}
+
+.frm_collaboration .collaboration .wrapper.password::before {
+	content: '\e936';
+}
+
+.frm_collaboration .collaboration .wrapper.noborder::before {
+	top: 10px;
+}
+
+.frm_collaboration .collaboration .wrapper.email::before {
+	content: '\e94d';
+}
+
+.frm_collaboration .collaboration .wrapper.link::before {
+	content: '\e061';
+}
+
+.frm_collaboration .collaboration .wrapper.teamchat::before {
+	content: '\e964';
+}
+
+.frm_collaboration .collaboration .wrapper .title {
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 48px;
+}
+.rtl .frm_collaboration .collaboration .wrapper .title {
+	padding-left: 48px;
+	padding-right: auto;
+}
+
+.frm_collaboration .collaboration .wrapper.noborder .title {
+	cursor: pointer;
+	color: {bg_main #08C};
+}
+
+.frm_collaboration .collaboration .wrapper .subtitle {
+	font-size: 12px;
+	line-height: 20px;
+	color: #6b6b6b;
+	padding-right: 48px;
+}
+.rtl .frm_collaboration .collaboration .wrapper .subtitle {
+	padding-left: 48px;
+	padding-right: auto;
+}
+
+.frm_collaboration .collaboration .wrapper .obj_checkbox {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 30px;
+}
+.rtl .frm_collaboration .collaboration .wrapper .obj_checkbox {
+	left: 20px;
+	right: auto;
+}
+
+.frm_collaboration .collaboration .wrapper .obj_checkbox.switch > span{
+	width: 30px;
+	left: auto;
+	right: auto;
+}
+
+.frm_collaboration .collaboration .input {
+	display: table;
+	width: 100%;
+	margin-top: 13px;
+	padding-right: 10px;
+	margin-bottom: 5px;
+}
+.rtl .frm_collaboration .collaboration .input {
+	padding-left: 10px;
+	padding-right: auto;
+	direction: rtl;
+}
+
+.frm_collaboration .collaboration .input>div {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.frm_collaboration .collaboration .input>div:first-child {
+	width: 100%;
+}
+
+.frm_collaboration .collaboration .input>div form>input {
+	width: 100%;
+	height: 30px;
+}
+
+.frm_collaboration .collaboration .input>div>.obj_password {
+	border-radius: 4px;
+	min-height: 32px;
+	border: 1px solid #e5e5e5;
+	position: relative;
+	width: 100%;
+	vertical-align: bottom;
+}
+
+.frm_collaboration .collaboration .input>div>.obj_password .mask_container {
+	padding-top: 2px;
+	right: 8px;
+}
+.rtl .frm_collaboration .collaboration .input>div>.obj_password .mask_container {
+	left: 8px;
+	right: auto;
+}
+
+.frm_collaboration .collaboration .input>div>.obj_password .mask_container a {
+	position: relative;
+	width: 20px;
+}
+.frm_collaboration .collaboration .input>div>.obj_password .mask_container a:before {
+	content: '\e07d';
+	font-family: 'ico16';
+	color: {bg_main #08C};
+}
+
+.frm_collaboration .collaboration .input>div>.obj_password .obj_mail_suggest {
+	padding-left: 24px;
+}
+.frm_collaboration .collaboration .input>div>.obj_password .obj_mail_suggest > div {
+	padding: 0;
+}
+.rtl .frm_collaboration .collaboration .input>div>.obj_password .obj_mail_suggest {
+	padding-left: auto;
+	padding-right: 24px;
+}
+
+.frm_collaboration .collaboration .input>div>.obj_password .useradd {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: {bg_main #08C};
+	width: 28px;
+}
+.rtl .frm_collaboration .collaboration .input>div>.obj_password .useradd {
+	left: auto;
+	right: 0;
+}
+
+.frm_collaboration .collaboration .input>div>.obj_button {
+	min-width: 100px;
+	border-radius: 16px;
+	vertical-align: middle;
+	padding: 0 24px;
+	margin: 0;
+	margin-left: 8px;
+}
+.rtl .frm_collaboration .collaboration .input>div>.obj_button {
+	margin-left: auto;
+	margin-right: 8px;
+}
+
+.frm_collaboration .collaboration .input>div>.obj_button.disabled {
+	opacity: 0.8;
+	background-color: {bg_main #08C}!important;
+}
+
+.frm_collaboration .collaboration .input>div>.obj_button.disabled input {
+	color: #fff !important;
+}
+
+.frm_collaboration .collaboration .input>div>.obj_button>input {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	min-width: auto;
+	padding: 0;
+	cursor: pointer;
+	height: 29px;
+	vertical-align: unset;
+}
+
+.frm_collaboration .collaboration .confirm {
+	color: #32c456;
+	padding-left: 20px;
+	position: relative;
+	margin-top: 8px;
+}
+.frm_collaboration .collaboration .confirm:before {
+	content: '\e01a';
+	font-family: 'ico16';
+	position: absolute;
+	left: 0;
+	top: 1px;
+	font-weight: bold;
+}
+.rtl .frm_collaboration .collaboration .confirm {
+	padding-left: 0;
+	padding-right: 20px;
+}
+.rtl .frm_collaboration .collaboration .confirm:before {
+	left: auto;
+	right: 0;
+}
+
+.frm_collaboration .collaboration form.obj_label {
+	padding-left: 60px;
+	position: relative;
+	cursor: pointer;
+
+	color: {bg_main #08C};
+	font-size: 14px;
+}
+.rtl .frm_collaboration .collaboration form.obj_label {
+	padding-left: 0;
+	padding-right: 60px;
+}
+
+.frm_collaboration .collaboration form.obj_label label {
+	cursor: pointer;
+}
+
+.frm_collaboration .collaboration .teamchat form.obj_button.ico.useradd:after {
+	content: '\e01c';
+}
+
+.frm_collaboration .collaboration.success {
+	min-height: 500px;
+	padding-top: 130px;
+}
+
+.frm_collaboration .collaboration.success .back {
+	position: absolute;
+	top: 16px;
+	left: 10px;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	color: {bg_main #08C};
+}
+
+.frm_collaboration .collaboration.success .icon {
+	width: 48px;
+	height: 48px;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	border: 1px solid {bg_main #08C};
+}
+
+.frm_collaboration .collaboration.success .icon:before {
+	content: '\e01a';
+	width: 47px;
+	display: block;
+	font-family: 'ico16';
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 47px;
+	color: {bg_main #08C};
+}
+
+.frm_collaboration .collaboration.success .text {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+}
+
+.frm_collaboration .collaboration.success .name,
+.frm_collaboration .collaboration.success .others {
+	color: {bg_main #08C};
+}
+
+div.obj_popup.frm_collaboration .obj_popupmainbody {
+	padding-bottom: 20px;
+}
+
+div.obj_popup.frm_collaboration .obj_popupfoot {
+	padding-bottom: 30px;
+	text-align: center;
+	border-top: none;
+	background-color: #fff;
+}
+
+div.obj_popup.frm_collaboration .obj_popupfoot form {
+	display: inline-block;
+	float: none;
+	background: #fff;
+	font-weight: 500;
+	color: {bg_main #08C};
+}
+
+div.obj_popup.frm_collaboration .obj_popupfoot form input {
+	cursor: pointer;
+}

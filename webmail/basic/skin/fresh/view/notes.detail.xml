@@ -1,0 +1,28 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>groupware</helper>
+		<form id="notes" helper="item" template="notes.detail">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<window>main</window>
+				<view>notes.main</view>
+				<data>item.fdr</data>
+				<stylesheet>
+					<src>datagrid_detail</src>
+					<src>file_types</src>
+				</stylesheet>
+			</config>
+			<wysiwyg anchor="noteText" anchoronly="1">
+				<config>
+					<name>item[notes][0][note][0][values][0][note_text]</name>
+					<dataindex>item::ADDONS::NOTE::NOTE_TEXT</dataindex>
+					<formatindex>item::EVNDESCFORMAT</formatindex>
+					<id>noteText</id>
+				</config>
+			</wysiwyg>
+		</form>
+	</panel>
+</form>

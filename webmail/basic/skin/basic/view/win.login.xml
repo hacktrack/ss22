@@ -1,0 +1,23 @@
+<window>
+	<panel>
+		<helper>settings</helper>
+		<form id="login" method="post" template="form.login">
+			<panel id="logintemplate" template="login"></panel>
+			<config>
+				<controller>auth</controller>
+				<view>win.main.tree</view>
+				<window>main</window>
+				<stylesheet>
+					<src>login</src>
+				</stylesheet>
+				<javascript>
+					<src>jquery</src>
+					<src>jq_login</src>
+					<src>lib</src>
+					<src>rsa</src>
+				</javascript>
+			</config>
+			<footer anchor="footer"/> 
+		</form>
+	</panel>
+</window>

@@ -1,0 +1,103 @@
+div.frm_storage {
+	
+}
+
+div.frm_storage .head > div:first-child div {
+	text-indent: 35px;
+}
+
+div.frm_storage .obj_datagrid-body > div:first-child div {
+	padding-left: 35px;
+	text-indent: 0;
+}
+
+.rtl div.frm_storage .obj_datagrid-body > div:first-child div {
+	padding-left: 0;
+	padding-right: 35px;
+}
+
+div.frm_storage .obj_datagrid-body > div.col div {
+	border-bottom: 1px solid #eee;
+}
+
+div.frm_storage .head > div:last-child div,
+div.frm_storage .obj_datagrid-body > div:last-child div {
+	text-align: center;
+	text-indent: 0;
+}
+
+div.frm_storage .obj_datagrid {
+	padding-top: 30px;
+}
+
+div.frm_storage .obj_datagrid .container1 {
+	height: 30px;
+}
+
+div.frm_storage .obj_datagrid .container1 .head .col {
+	border-right: 0;
+}
+
+div.frm_storage .obj_datagrid .container1 .head .col div {
+	line-height: 30px;
+}
+
+div.frm_storage .obj_datagrid .obj_datagrid-body .col div {
+	line-height: 40px;
+}
+
+div.frm_storage .obj_datagrid .obj_datagrid-body .col div.active {
+	color: inherit!important;
+	background-color: #eee!important;
+}
+
+div.frm_storage .menu:before {
+	content: '\e040';
+	font-family: 'ico16';
+	font-size: 16px;
+	height: 16px;
+	width: 16px;
+}
+
+div.frm_storage .obj_datagrid>.container1>.head .asc:before {
+	top: 4px;
+}
+
+div.frm_storage .obj_datagrid>.container1>.head .desc:before {
+	top: 11px;
+}
+
+div.storageMenu {
+	max-width: 200px;
+}
+
+div.storageMenu .ico.icocontact a span {
+	padding-left: 40px;
+    padding-right: 10px;
+    text-indent: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.rtl div.storageMenu .ico.icocontact a span {
+	padding-left: 10px;
+    padding-right: 40px;
+}
+
+div.storageMenu .helper div {
+	color: #999;
+	font-size: 12px;
+}
+
+div.storageMenu .ico.icocontact a span:before {
+	content: '\e041';
+	font-family: 'ico16';
+	font-size: 16px;
+	left: 14px;
+	color: #000;
+}
+
+.rtl div.storageMenu .ico.icocontact a span:before {
+	right: 14px;
+}

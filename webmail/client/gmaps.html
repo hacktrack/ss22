@@ -1,0 +1,131 @@
+<?php
+	if (!$_GET['obj'] || !preg_match("/^[a-z0-9\_\-\.]+$/i",$_GET['obj']))
+		exit;
+	define('SHAREDLIB_PATH',get_cfg_var('icewarp_sharedlib_path'));
+	require_once(SHAREDLIB_PATH.'system.php');
+	$obj = slToolsPHP::htmlspecialchars($_GET['obj']);
+	$lat = slToolsPHP::htmlspecialchars(isset($_GET['lat'])? $_GET['lat']: 40);
+	$lon = slToolsPHP::htmlspecialchars(isset($_GET['lon'])? $_GET['lon'] : -20);
+	$key = slToolsPHP::htmlspecialchars(isset($_GET['key'])? $_GET['key'] : '');
+	$scale_controll = slToolsPHP::htmlspecialchars(isset($_GET['scale_controll'])? $_GET['scale_controll'] : 1);
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+<!-- <script type="text/javascript" src="//maps.googleapis.com/maps/api/js"></script> -->
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=<?php echo $key;?>&libraries=places"></script>
+<script type="text/javascript">
+
+function initialize() {
+	
+	//INIT
+	geocoder = new google.maps.Geocoder();
+	infowindow = new google.maps.InfoWindow();
+	aMarkers = [];
+
+	var latlng = new google.maps.LatLng(<?php echo $lat.','.$lon; ?>);
+	var myOptions = {
+		zoom: 14,
+		center: latlng,
+		scaleControl: !!<?php echo $scale_controll;?>,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	}
+	map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+	
+	var marker = new google.maps.Marker({
+        position: latlng,
+        map: map,
+        title: 'Shared location'
+    });
+
+	//geocoder API
+	window.showAddress = function (address) {
+
+		//Remove OLD Markers
+		for (var i in aMarkers)
+			aMarkers[i].setMap(null);
+		aMarkers = [];
+
+		//Search for address
+		geocoder.geocode({'address': address}, function(results, status) {
+			if (status == google.maps.GeocoderStatus.OK) {
+
+				var bounds = new google.maps.LatLngBounds();
+
+				//Add New Markers
+				for (var i in results){
+
+					addMarker(results[i]);
+
+					bounds.extend(results[i].geometry.viewport.getSouthWest());
+					bounds.extend(results[i].geometry.viewport.getNorthEast());
+				}
+
+				//Center map
+				map.fitBounds(bounds);
+
+			} else {
+				//Address Doesnt exist, try Place API
+				showPlace(address);
+			}
+		});
+	};
+
+	//Places API
+	window.service = new google.maps.places.PlacesService(map);
+	window.showPlace = function (address) {	
+
+		service.textSearch({query:address}, function(results, status){
+			if (status == google.maps.places.PlacesServiceStatus.OK) {
+				for (var marker,i = 0; i < results.length; i++) {
+					
+					addMarker(results[i]);
+
+					map.setCenter(results[i].geometry.location);
+					map.setZoom(17);
+					break;
+				}
+			}
+			else {
+				<?php echo 'try{(window.opener || window.parent).'.$obj.'._error(status);}catch(r){}';?>
+			}
+		});
+	};
+
+	window.addMarker = function(result){
+		var marker = new google.maps.Marker({
+				map: map,
+				title: result.geometry.formatted_address,
+				position: result.geometry.location				
+			});
+
+		google.maps.event.addListener(marker, 'click', function() {
+			infowindow.setContent(result.formatted_address);
+			infowindow.open(map, this);
+		});
+
+		aMarkers.push(marker);
+	};
+
+	<?php echo 'try{(window.opener || window.parent).'.$obj.'._init(window);}catch(r){}';?>
+}
+
+</script>
+<style>
+html, body, #map, #map_canvas{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body{
+	background-color: #99B3CC;
+}
+</style>
+</head>
+<body onload="initialize()">
+	<div id="map_canvas"></div>
+</body>
+</html>

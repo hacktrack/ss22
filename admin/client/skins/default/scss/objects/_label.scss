@@ -1,0 +1,66 @@
+// Label
+// Basic label styles used for form elements.
+
+// Block
+.label {
+	@include text-ellipsis;
+	color: $text-grey;
+	font-weight: 600;
+	font-size: rem(12);
+	text-transform: uppercase;
+	transition: opacity $normal;
+	white-space: normal;
+	line-height: $label-line-height;
+	max-height: $label-line-height * $label-font-size * 2; // Allow 2 lines of label text for small widths
+
+	// States
+	.input & {
+		@include flex(none);
+		text-transform: none;
+		padding: 0 p(1);
+		background-color: $lighter-grey;
+		height: 100%;
+		transition: color $normal;
+		border-radius: $radius;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+
+		// Reset from normal label properties
+		white-space: nowrap;
+		line-height: $object-height;
+		max-height: none;
+	}
+}
+
+
+// Elements
+// New BEM version for form template inclusion
+.label__text {
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+	line-height: $label-line-height;
+	max-height: $label-line-height * $label-font-size * 2;
+}
+
+.label__button {
+	margin: 0 0 0 g(1);
+	font-size: rem(12);
+
+	@include theme {
+		color: $theme-primary !important;
+	}
+
+	input {
+		padding: 0 !important;
+	}
+}
+
+
+// Modifiers
+.label.big {
+	font-size: rem(20);
+	white-space: nowrap;
+}

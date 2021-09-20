@@ -1,0 +1,24 @@
+// Bubble
+// Informational bubble contextual to form elements.
+
+// Block
+.bubble {
+	@include content-bubble($colors: 'true');
+	font-weight: 400;
+	pointer-events: none;
+	padding: p(0.5) p(1);
+	line-height: $default-line-height; // Reset line height to body line-height
+	visibility: visible;
+	opacity: 1;
+	display: none; // Default display
+
+	transition:
+		visibility $fast,
+		opacity $fast;
+
+	// States
+	&.is-visible,
+	.has-error & { // Show only when input has error
+		display: block;
+	}
+}

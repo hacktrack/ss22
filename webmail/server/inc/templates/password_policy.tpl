@@ -1,0 +1,1 @@
+<password_policy><item>{dynamic variables}<{*::name}>{*::value}</{*::name}>{/dynamic}</item></password_policy>

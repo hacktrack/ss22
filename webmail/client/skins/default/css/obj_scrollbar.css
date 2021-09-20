@@ -1,0 +1,186 @@
+/*** Cursors ***/
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 8px;
+}
+::-webkit-scrollbar:horizontal{
+	height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+	background-color: rgba(102,102,102,0.5);
+}
+
+.scroll_mobile{
+	-webkit-overflow-scrolling: touch;
+}
+.scroll_tablet{
+	overflow: auto!important;
+	-ms-scroll-rails: none!important;
+	-ms-overflow-style: none!important;
+	overflow-style: none!important;
+
+	/*mozilla specific*/
+	scrollbar-width: none!important;
+}
+.scroll_tablet.scroll_disabled_x{
+	overflow-x: hidden!important;
+}
+.scroll_tablet.scroll_disabled_y{
+	overflow-y: hidden!important;
+}
+
+.scroll_tablet::-webkit-scrollbar { width: 0 !important; height: 0 !important}
+
+	.scroll_tablet,
+	.scroll_tablet *{
+		-ms-touch-action: pan-x pan-y!important;
+	}
+
+em.sbarX, em.sbarY{
+	position: absolute;
+	z-index: 500;
+
+	cursor: default!important;
+
+	-moz-transition: background-color 0.3s, padding 0.2s ease-in-out;
+	-o-transition: background-color 0.3s, padding 0.2s ease-in-out;
+	-ms-transition: background-color 0.3s, padding 0.2s ease-in-out;
+	-webkit-transition: background-color 0.3s, padding 0.2s ease-in-out;
+	transition: background-color 0.3s, padding 0.2s ease-in-out;
+}
+em.sbarX>ins, em.sbarY>ins{
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+em.sbarY{
+	height: 100%;
+	width: 12px;
+	right: 0;
+	top: 0;
+	padding: 2px 1px 8px 5px;
+}
+.rtl em.sbarY {
+	left: 0;
+	right: auto;
+	padding: 2px 5px 8px 1px;
+}
+	em.sbarY.active,
+	em.sbarY:hover{
+		background-color: #F0F0F0;
+		background-color: rgba(0,0,0,0.05);
+
+		padding-left: 1px;
+	}
+	.rtl .rtl em.sbarY.active,em.sbarY:hover {
+		padding-right: 1px;
+	}
+
+/* Fine scrolling buttons */
+em.sbarY.long:hover,
+em.sbarY.long.active{
+	padding-bottom: 32px;
+}
+
+em.sbarY b,
+em.sbarY i{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 15px;
+
+	line-height: 15px;
+	font-size: 12px;
+	font-family: 'ico16';
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	border-radius: 2px;
+}
+	em.sbarY b:hover,
+	em.sbarY i:hover{
+		background-color: #888;
+		color: #FFF;
+	}
+
+em.sbarY b{
+	bottom: 15px;
+}
+	em.sbarY.long.active b,
+	em.sbarY.long:hover b,
+	em.sbarY.long.active i,
+	em.sbarY.long:hover i{
+		display: block;
+	}
+
+	em.sbarY b:after{
+		content: '\e044';
+	}
+	em.sbarY i:after{
+		content: '\e043';
+	}
+
+/***/
+
+em.sbarX{
+	width: 100%;
+	height: 12px;
+	left: 0;
+	bottom: 0;
+	padding: 5px 8px 1px 2px;
+}
+.rtl em.sbarX {
+	padding: 5px 2px 1px 8px;
+}
+	em.sbarX.active,
+	em.sbarX:hover{
+		padding: 1px 8px 1px 2px;
+		background-color: #F0F0F0;
+		background-color: rgba(0,0,0,0.05);
+	}
+	.rtl em.sbarX.active {
+		padding: 1px 2px 1px 8px;
+	}
+
+
+em.sbarX.hide sub, em.sbarY.hide sub{
+	opacity: 0.2; /*0.15*/
+	filter: alpha(opacity=20);
+}
+
+em.sbarX.active sub, em.sbarY.active sub,
+em.sbarX.hide.active sub, em.sbarY.hide.active sub,
+em.sbarX:hover sub, em.sbarY:hover sub{
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+}
+
+em.sbarX sub, em.sbarY sub{
+	display: block;
+	position: relative;
+	background-color: #666;
+	width: 8px;
+	height: 8px;
+
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+
+	border-radius: 10px;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+em.sbarX sub{
+	height: 100%;
+}
+em.sbarY sub{
+	width: 100%;
+}

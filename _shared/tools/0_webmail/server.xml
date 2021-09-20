@@ -1,0 +1,10 @@
+<global_settings>
+  <item>
+    <dbconn>sqlite:%WMUSERPATH%cache.db</dbconn>
+    <smtpport>25</smtpport>
+    <imapport>143</imapport>
+    <logging_type>0</logging_type>
+    <logs>0</logs>
+    <fulltext>0</fulltext>
+  </item>
+</global_settings>

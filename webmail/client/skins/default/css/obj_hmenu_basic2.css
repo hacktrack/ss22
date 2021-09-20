@@ -1,0 +1,128 @@
+.obj_hmenu_basic2{
+	position: relative;
+	z-index: 15;
+}
+	/*
+	.obj_hmenu_basic2:before{
+		content: '';
+		position: absolute;
+		left: -1px;
+		top: 0;
+		width: 1px;
+		height: 100%;
+		background-color: #006DA3;
+	}
+	*/
+
+/* no labels version */
+div.obj_hmenu_basic2.short li.ico>a>span{
+	padding: 0;
+	width: 36px;
+	text-indent: 36px;
+	overflow: hidden;
+}
+
+div.obj_hmenu_basic2.short li.ico.plus>a>span{
+	padding-left: 46px;
+}
+
+/* ICO */
+.obj_hmenu_basic2 li.ico.reply a>span:before,
+div.obj_hmenu_basic2_plus li.ico.reply span:before{
+	content: '\e010';
+}
+
+.obj_hmenu_basic2 li.ico.reply_all a>span:before,
+div.obj_hmenu_basic2_plus li.ico.reply_all span:before{
+	content: '\e011';
+}
+
+.obj_hmenu_basic2 li.ico.forward a>span:before{
+	content: '\e013';
+}
+
+.obj_hmenu_basic2 li.ico.empty a>span:before{
+	/*background-position: 0px -2472px;*/
+	content: '\e030';
+}
+
+div.obj_hmenu_basic2_plus li.ico.print span:before{
+	content: '\e018';
+}
+
+.obj_hmenu_basic2 li.ico.conference a>span:before{
+	/*background-position: 2px -3894px;*/
+	content: '\e00c';
+}
+.obj_hmenu_basic2 li.ico.dial a>span:before{
+	/*background-position: 0px -2171px;*/
+	content: '\e032';
+}
+.obj_hmenu_basic2 li.ico.sms a>span:before{
+	/*background-position: 2px -3375px;*/
+	content: '\e009';
+}
+.obj_hmenu_basic2 li.ico.day a>span:before{
+	/*background-position: -174px -2323px;*/
+	content: '\e035';
+}
+.obj_hmenu_basic2 li.ico.week a>span:before{
+	/*background-position: -87px -2323px;*/
+	content: '\e033';
+}
+.obj_hmenu_basic2 li.ico.month a>span:before{
+	/*background-position: 0px -2323px;*/
+	content: '\e034';
+}
+.obj_hmenu_basic2 li.ico.list a>span:before{
+	background-position: -261px -2323px;
+	content: '\e01d';
+}
+.obj_hmenu_basic2 li.ico.open a>span:before{
+	/*background-position: -88px -2624px;*/
+	content: '\e01a';
+}
+.obj_hmenu_basic2 li.ico.lock a>span:before{
+	/*background-position: -84px -1721px;*/
+	content: '\e054';
+}
+
+.obj_hmenu_basic2 li.ico.deliver a>span:before{
+	/*background-position: 0px -2396px;*/
+	content: '\e026';
+}
+.obj_hmenu_basic2 li.ico.plus a>span:before{
+	/*background-position: 0px -1722px;*/
+	content: '\e05';
+}
+.obj_hmenu_basic2 li.ico.menu a>span:before{
+	/*background-position: -260px -4683px;*/
+	content: '\e014';
+}
+
+/* preview */
+.obj_hmenu_basic2 li.ico.preview a>span:before{
+	/*background-position: -86px -4682px;*/
+	content: '\e029';
+}
+.obj_hmenu_basic2 li.ico.wpreview a>span:before{
+	/*background-position: -3px -4682px;*/
+	content: '\e00e';
+}
+.obj_hmenu_basic2 li.ico.lpreview a>span:before{
+	/*background-position: -174px -4682px;*/
+	content: '\e01d';
+}
+
+	div.obj_hmenu_basic2_plus li.ico.preview span:before{
+		/*background-position: -86px -4682px;*/
+		content: '\e029';
+	}
+	div.obj_hmenu_basic2_plus li.ico.wpreview span:before{
+		/*background-position: -3px -4682px;*/
+		content: '\e00e';
+	}
+	div.obj_hmenu_basic2_plus li.ico.lpreview span:before{
+		/*background-position: -174px -4682px;*/
+		content: '\e01d';
+	}

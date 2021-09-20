@@ -1,0 +1,22 @@
+<window>
+	<panel>
+		<form id="login" method="post" template="form.login">
+			<panel id="logintemplate" template="login"></panel>
+			<config>
+				<controller>auth</controller>
+				<view>win.main</view>
+				<window>main</window>
+				<stylesheet>
+					<src>login</src>
+				</stylesheet>
+				<javascript>
+					<src>lib</src>
+					<src>rsa</src>
+				</javascript>
+			</config>
+		</form>
+	</panel>
+	<panel>
+		<footer />
+	</panel>
+</window>

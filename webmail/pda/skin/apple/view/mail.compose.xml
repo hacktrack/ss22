@@ -1,0 +1,20 @@
+<view>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<compose id="mail_compose" helper="item">
+			<menu template="menu/mail.compose" anchor="compose.menu"/>
+			<menu template="menu/mail.compose_bottom" anchor="compose.menu_bottom"/>
+		</compose>
+		<config>
+			<javascript>
+				<src>lib</src>
+				<src>compose</src>
+			</javascript>
+			<stylesheet>
+				<src>apple</src>
+			</stylesheet>
+		</config>
+	</panel>
+</view>

@@ -1,0 +1,162 @@
+// COMPONENTS
+// Flex Grid Settings
+$grid-gutter						: g(2);
+$grid-gutter-half					: $grid-gutter / 2;
+$grid-gutter-quarter				: $grid-gutter / 4;
+$grid-gutter-double					: $grid-gutter * 2;
+$grid-columns						: 8;
+$cell-columns						: 8;
+
+
+// OBJECTS
+// General
+$object-height						: s(2.75);
+$mobile-image-max-width				: 176px;
+$mobile-image-ratio					: 0.5625; // (1080 / 1920)
+$image-max-width					: 572px;
+$image-ratio						: 1.75; // (7/4)
+
+
+// Bar
+$bar-height							: $object-height;
+
+
+// Button
+$button-small-height				: s(2);
+$button-bottom-border				: 0 solid;
+
+
+// Menu
+$menu-height						: rem(60);
+$menu-item-padding					: p(4/3);
+
+
+// Main menu
+$main-menu-width					: rem(210);
+
+
+// Panel
+$panel-block-icon-size				: s(6);
+$panel-block-icon-size-absolute		: s(2.5);
+
+
+// Userhead
+$userhead-size						: 40px;
+$userhead-size-large				: 87px;
+$userhead-topbar-size				: 36px;
+
+
+// Form, Dropdown
+$form-padding						: 0 0 0 p(1);
+$form-min-width						: rem(72);
+$form-label-offset					: g(-1/3);
+$form-row-margin					: $object-height + $form-label-offset;
+
+
+// Dashboard
+$service-group-height				: $menu-height;
+$stat-item-height					: $menu-height;
+
+
+// Box
+$box-head-size						: $menu-height;
+$box-foot-size						: $box-head-size;
+$box-padding-bottom					: 0;
+$box-padding-top					: p(1.5);
+$box-min-height						: s(12.5);
+$box-height							: 100vh - #{$menu-height}; // Needs to be inside calc()
+
+$box-content-padding				: p(1);
+
+$box-modal-width-small				: s(30);
+$box-modal-width-medium				: s(40);
+
+$box-modal-width-large-desktop		: 80vw;
+$box-modal-width-large-tablet		: 90vw;
+$box-modal-width-large-mobile		: 100vw;
+
+$box-modal-height-large-desktop		: 80vh;
+$box-modal-height-large-tablet		: 90vh;
+$box-modal-height-large-mobile		: 100vh;
+
+
+// Table
+$table-cell-height					: $menu-height; // was s(4)
+$table-compact-cell-height			: s(3);
+$table-sub-padding					: p(8/3);
+
+
+// Modal
+$modal-backdrop-color				: rgba(black, 0.8);
+
+
+// Label
+$label-font-size					: rem(12);
+$label-line-height					: 1.2;
+
+
+// Folders
+$folders-trailing-lines				: false;
+$folders-icon-width					: s(1.5);
+$folders-icon-margin				: g(0.5);
+$folders-name-width					: calc(100% - #{$folders-icon-width + $folders-icon-margin}); // Using calc instead of flex because performance
+
+
+// Radio-Checkbox
+$radio-checkbox-size				: 20px;
+$radio-checkbox-border-size			: 1px;
+
+
+// Radio
+$radio-dot-size						: 10px;
+$radio-dot-scale					: $radio-dot-size / ($radio-checkbox-size - ($radio-checkbox-border-size * 2));
+
+
+// Colorpicker
+$colorpicker-size					: 36px;
+$colorpicker-active-border-width	: 2px;
+
+
+// Imagepicker
+$imagepicker-ratio					: 1/3;
+$imagepicker-icon-offset			: 3%;
+$imagepicker-columns				: 3;
+$imagepicker-margin					: g(1);
+
+
+// Rulecard
+$hide-rulecard-arrows				: true;
+$rulecard-bottom-margin				: g(1/2);
+
+
+// Toggle
+$toggle-width						: 38px;
+$toggle-height						: 20px;
+$toggle-border						: 0;
+$toggle-transition					: $fast ease-in-out;
+$toggle-dot-size					: $toggle-height - 4px;
+$toggle-margin						: (($toggle-height - $toggle-dot-size) / 2) - $toggle-border;
+$toggle-radius						: $oval;
+$toggle-path						: $toggle-width - $toggle-height;
+
+
+// Account
+$account-icon-size					: 5em;
+$account-state-size 				: 24px;
+
+
+// MIXINS
+// Content bubble
+$bubble-border-width				: 1px;
+$bubble-offset-vertical				: 2px;
+$bubble-offset-horizontal			: g(1);
+$triangle-size						: s(0.5);
+$triangle-gutter-vertical			: g(1);
+$triangle-gutter-horizontal			: g(2);
+
+
+// SPECIFIC
+// frm_main
+$main-content-animation				: false;
+$main-disable-popup-flash			: true;
+$main-connection-overlay			: false;

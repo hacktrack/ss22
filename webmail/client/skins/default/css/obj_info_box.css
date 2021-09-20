@@ -1,0 +1,64 @@
+
+/* Button Bubble look and behaviour */
+
+div.obj_info_box {
+	pointer-events:none;
+}
+
+.rtl div.obj_info_box {
+	direction: rtl;
+}
+
+div.obj_info_box div.box {
+	position: absolute;
+	padding: 5px;
+
+	border-collapse: separate;	/* IE 9 fix, shadow will not show without this zoom-like magic */
+	background-color: #FFF;
+
+	min-width: 60px;
+	min-height: 27px;
+
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+div.obj_info_box div.box:before{
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: 50%;
+
+	border: 10px solid transparent;
+	border-bottom-color: #FFF;
+	margin-left: -10px;
+}
+
+div.obj_info_box div.box.up:before{
+	top: auto;
+	bottom: -20px;
+	border-bottom-color: transparent;
+	border-top-color: #FFF;
+}
+
+/* IE 8 fix, no shadow, border instead */
+@media \0screen {
+	div.obj_info_box div.box {border: 1px solid #ccc;}
+}
+
+/* Content styling */
+
+.obj_info_box ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	min-width: 150px;
+}
+
+.obj_info_box ul li {
+	margin: 0.2em;
+}
+
+.obj_info_box ul li em {
+	font-style: normal;
+	color: #888;
+}

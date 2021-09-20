@@ -1,0 +1,66 @@
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.ico.more>div:before{
+	content: '\e043';
+	left: auto;
+	right: 5px;
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.ico.more span {
+	display: block;
+	border: 1px solid #CDCDCD;
+	border-radius: 4px;
+	height: 28px;
+	line-height: 26px;
+	margin: 6px 2px;
+	background-color: #ffffff;
+	color: #333;
+}
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.ico.more div.active span{
+	border-color: transparent;
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div {
+	text-indent: 30px;
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div::before {
+	top: 11px;
+	color:#606060;
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 10px;
+	font-family: 'ico16';
+	text-indent: 0;
+	font-size: 16px;
+	color:#606060;
+}
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div.active::after {
+	color: {bg_main #08C}!important;
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div::after {
+	content: '\e953';
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div.r.l::after {
+	content: '\e07d';
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div.r.l.i::after {
+	content: '\e07d';
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div.r.l.i.k.w::after {
+	content: '\e07d';
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div.r.l.i.k.w.t.x::after {
+	content: '\e07d';
+}
+
+.frm_sharing .obj_datagrid div.obj_datagrid-body div.col.more div.r.l.i.k.w.t.x.a.w::after {
+	content: '\e610';
+}

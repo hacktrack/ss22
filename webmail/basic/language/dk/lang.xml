@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>Nyt element</add>
+    <quarantine>Karantæne</quarantine>
+    <whitelist>Hvidliste</whitelist>
+    <blacklist>Sortliste</blacklist>
+    <save>Gem</save>
+    <cancel>Annuller</cancel>
+    <new_item>TIlføj ny e-mail</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Deaktiver genveje</disable_shortcuts>
+    <enable_swipe_gestures>Aktivér strygebevægelser på berøringsenheder</enable_swipe_gestures>
+    <use_high_contrast_skin>Brug brugerflade med høj kontrast</use_high_contrast_skin>
+    <menu_as_text>Vis tekst i stedet for ikoner i værktøjslinjen</menu_as_text>
+    <change_password>Skift adgangskode</change_password>
+    <open_change_password_dialog>Åbn dialogboksen for ændring af adgangskode</open_change_password_dialog>
+    <oldpassword>Gammel adgangskode</oldpassword>
+    <newpassword>Ny adgangskode</newpassword>
+    <confirmpassword>Bekræft adgangskode</confirmpassword>
+    <remove>Fjern</remove>
+    <settings>Indstillinger</settings>
+    <navigate>Administrer</navigate>
+    <user>Mine indstillinger</user>
+    <domain>Domæneadministrator</domain>
+    <admin>Administrator indstillinger</admin>
+    <new_domain>Nyt domæne</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>Generel</general>
+    <layout>Layout</layout>
+    <mail>E-mail</mail>
+    <compose>Forfat</compose>
+    <person>E-mail</person>
+    <person_header>Tilføj ny Fra-adresse</person_header>
+    <person_description>for eksempel &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>Autoresponder</autoresponder>
+    <forwarder>Forwarder</forwarder>
+    <layout_desc>Layout, e-mail</layout_desc>
+    <compose_desc>Standardindstillinger for en ny meddelelse (Læsbekræftelse, HTML / almindeligt format, signatur).</compose_desc>
+    <general_desc>Konfiguration af din postkasse til browsing, sletning og besvarelse af meddelelser.</general_desc>
+    <personalities_desc>Konfigurer alternative e-mail-identiteter (forskellige Fra: adresser) til din brugerkonto.</personalities_desc>
+    <autoresponder_desc>Svar automatisk på indgående e-mail-meddelelser, når du er på ferie.</autoresponder_desc>
+    <forwarder_desc>Videresend eller kopier indgående e-mail-meddelelser til enhver anden e-mail-adresse.</forwarder_desc>
+    <date_format>Datoformat</date_format>
+    <time_format>Tidsformat</time_format>
+    <list_count>Elementliste antal</list_count>
+    <font_family>Standard skrifttype</font_family>
+    <font_size>Standard skriftstørrelse</font_size>
+    <text_direction>Tekstretning</text_direction>
+    <text_direction_values>Venstre til højre|Højre til venstre</text_direction_values>
+    <empty_trash_every>Tom papirkurv mappe hver</empty_trash_every>
+    <days>dage</days>
+    <move_deleted>Flyt slettede meddelelser til papirkurven</move_deleted>
+    <delete_messages_on_empty>Slet meddelelser permanent ved handlingen &quot;Tøm mappe&quot;</delete_messages_on_empty>
+    <add_recipients>Føj automatisk meddelelsesmodtagere til adressebogen</add_recipients>
+    <group_pref>Gruppeemne-præfikser (f.eks. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>Anmod om læsebekræftelse</request_read_confirmation>
+    <save_sent_msg>Gem den sendte meddelelse i mappen</save_sent_msg>
+    <message_format>Meddelelsesformat</message_format>
+    <message_format_labels>Almindelig|HTML</message_format_labels>
+    <signature>Signatur</signature>
+    <forward_to>Videresend til</forward_to>
+    <keep_in_inbox>Behold meddelelser i indbakken</keep_in_inbox>
+    <forward_older>Videresend e-mails ældre end</forward_older>
+    <forward_older_to>Videresend ældre e-mail til</forward_older_to>
+    <ar_mode>Tilstand</ar_mode>
+    <ar_mode_labels>Deaktiveret|Svar altid|Svar én gang|Svar igen efter periode</ar_mode_labels>
+    <ar_respond_only>Svar kun på meddelelser, der sendes til brugerens e-mail-adresse</ar_respond_only>
+    <ar_respond_again>Svar igen efter (Dage)</ar_respond_again>
+    <ar_from>Fra</ar_from>
+    <ar_subject>Emne</ar_subject>
+    <ar_text>Tekst</ar_text>
+    <ar_no_responder_for>Ingen responder til</ar_no_responder_for>
+    <ar_respond_only_between>Svar kun, hvis mellem</ar_respond_only_between>
+    <email>E-mail</email>
+    <responder>Intet svar på</responder>
+    <show_attached_images>Vis automatisk vedhæftede billeder</show_attached_images>
+    <show_inline_images>Vis automatisk eksterne billeder</show_inline_images>
+    <use_reply_prefix>Brug svarpræfiks (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 timer|24 timer</time_format_list_labels>
+    <force_admin>Tving denne indstilling til både domæne- og brugerindstillinger</force_admin>
+    <force_domain>Tving denne indstilling til brugerindstillinger</force_domain>
+    <to_top>Signatur øverst i meddelelsen</to_top>
+    <quota>Diskkvote:</quota>
+    <section_layout>Generelle layoutindstillinger</section_layout>
+    <section_mail>Generelle mailindstillinger</section_mail>
+    <section_autoresponder>Opsæt et automatisk svar, i tilfælde af, at du er væk fra dit skrivebord.</section_autoresponder>
+    <section_norespond>Oplistede e-mail-adresser vil ikke blive besvaret.</section_norespond>
+    <domains>Domæner</domains>
+    <accounts>Konti</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Vil du slette de valgte meddelelse(r)?</delete_mail>
+    <blacklist_mail>Vil du sortliste valgte meddelelser?</blacklist_mail>
+    <delete_contact>Vil du slette denne kontakt?</delete_contact>
+    <delete_contact_distribution>Vil du virkelig slette denne distributionsliste?</delete_contact_distribution>
+    <delete_event>Ønsker du at slette valgte begivenheder?</delete_event>
+    <delete_note>Ønsker du at slette valgte noter?</delete_note>
+    <delete_task>Ønsker du at slette valgte opgaver?</delete_task>
+    <delete_personalities>Ønsker du at slette valgte element(er)?</delete_personalities>
+    <delete_quarantine>Ønsker du at slette valgte elementer?</delete_quarantine>
+    <delete_this_mail>Ønsker du at slette denne meddelelese?</delete_this_mail>
+    <delete_items>Ønsker du at slette valgte element(er)?</delete_items>
+    <delete_item>Ønsker du at slette dette element?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>Der er ingen elementer i denne mappe.</no_item>
+  </string>
+  <menu>
+    <files>Filer</files>
+    <notes>Noter</notes>
+    <tasks>Opgaver</tasks>
+    <journal>Journal</journal>
+    <calendar>Kalender</calendar>
+    <search>Søg</search>
+    <messages>Meddelelser</messages>
+    <contacts>Kontakter</contacts>
+    <searchBut>Find</searchBut>
+    <address_book>Adressebog</address_book>
+    <logout>Log ud</logout>
+    <help>Hjælp</help>
+    <settings>Indstillinger</settings>
+    <switch>Skift til</switch>
+    <help_url>language/en/help.html</help_url>
+    <quarantine>Filtre</quarantine>
+    <alert_restricted_access>Beklager, adgang til denne fane er forbudt</alert_restricted_access>
+    <basic>Tablet-brugerflade</basic>
+    <advanced>Desktop--brugerflade</advanced>
+    <mobile>Mobil-brugerflade</mobile>
+  </menu>
+  <tree>
+    <add_folder>Tilføj mappe</add_folder>
+    <new_message>Ny meddelelse</new_message>
+    <manage_folders>Mappehåndtering</manage_folders>
+    <open_folder>Åbn mappe</open_folder>
+    <open>Åbn</open>
+  </tree>
+  <mail_view>
+    <attachments>Vedhæftede filer</attachments>
+    <from>Fra</from>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Emne</subject>
+    <all_headers>Se alle overskrifter</all_headers>
+    <all_images>Vis billeder</all_images>
+    <next>Næste</next>
+    <prev>Forrige</prev>
+    <first>Første</first>
+    <last>Sidste</last>
+    <show_external_images>Eksterne ressourcer er blevet blokeret. Klik her for at få vist dem.</show_external_images>
+    <download_all>Download alle</download_all>
+    <detail>Detalje</detail>
+    <blue_box_start>Start</blue_box_start>
+    <blue_box_end>Slut</blue_box_end>
+    <blue_box_description>Beskrivelse</blue_box_description>
+    <blue_box_accept>Accepter</blue_box_accept>
+    <blue_box_decline>Afvis</blue_box_decline>
+    <blue_box_subscribe_folder>Tilmeld mappe</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Tildmeld konto</blue_box_subscribe_account>
+    <item_accept_ok>Element accepteret</item_accept_ok>
+    <read>læs</read>
+    <write>skriv</write>
+    <modify>rediger</modify>
+    <delete>slet</delete>
+    <administer>administrer</administer>
+    <folder_rights>Mapperettigheder</folder_rights>
+    <items_rights>Elementrettigheder</items_rights>
+  </mail_view>
+  <login>
+    <send>Send</send>
+    <ip_check>Deaktiver udvidet sikkerhed</ip_check>
+    <user>Bruger</user>
+    <email>E-mail</email>
+    <password>Adgangskode</password>
+    <remember>Husk</remember>
+    <language>Sprog</language>
+    <allways_ask>Spørg altid</allways_ask>
+    <username>Brugernavn</username>
+    <username_and_password>Brugernavn og adgangskode</username_and_password>
+    <auto_login>Automatisk log ind</auto_login>
+    <login>Log ind</login>
+    <copyright>Powered by IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Version: $1</copyright>
+    <welcome>Velkommen til IceWarp WebClient tablet</welcome>
+    <public_welcome>Velkommen til IceWarp Offentlig kalender</public_welcome>
+    <title>IceWarp WebClient tablet</title>
+    <public_title>IceWarp Offentlig kalender</public_title>
+    <reset_password>Nulstil adgangskode</reset_password>
+    <sign_up>Tilmeld</sign_up>
+    <email>E-mail</email>
+    <domain>Domæne</domain>
+    <new_password>Ny adgangskode</new_password>
+    <confirm_password>Bekræft adgangskode</confirm_password>
+    <full_name>Fulde navn</full_name>
+    <alternative_email>Alternativ e-mail</alternative_email>
+    <switch>Skift til &lt;a href=&quot;../&quot;&gt;PC&lt;/a&gt; eller &lt;a href=&quot;../pda&quot;&gt;mobil&lt;/a&gt; brugerflade.</switch>
+    <no_javascript>&lt;b&gt;JavaScript er deaktiveret i øjeblikket. &lt;/b&gt;&lt;/div&gt;Som følge deraf, videresendes du til WebClient Tablet brugerfladen, som kun har en begrænset funktionalitet. Hvis du ønsker at bruge WebClient computer-brugerfladen, besøg vores &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;vidensbase&lt;/a&gt; for instruktioner til, hvordan du aktiverer JavaScript i din browser.&lt;br /&gt;Hvis din browser ikke understøtter JavaScript, kanl du hente den seneste version af &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; eller &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>Indtast koden fra billedet</word>
+  </login>
+  <files>
+    <add>Upload fil</add>
+    <download>Download</download>
+    <file>Fil</file>
+  </files>
+  <file_list>
+    <filename>Filnavn</filename>
+    <description>Beskrivelse</description>
+    <modified>Ændret</modified>
+    <size>Størrelse</size>
+    <tags>Mærkater</tags>
+  </file_list>
+  <notes>
+    <category>Kategori</category>
+    <add>Ny note</add>
+  </notes>
+  <notes_detail>
+    <note>Note</note>
+    <tags>Mærkater</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Ny opgave</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Opgave</task>
+    <status>Status</status>
+    <complete>Fuldfør</complete>
+    <priority>Prioritet</priority>
+    <not_started>Ikke startet</not_started>
+    <in_progress>I gang</in_progress>
+    <completed>Fuldført</completed>
+    <deferred>Udsat</deferred>
+    <waiting_for_someone_else>Venter på en anden</waiting_for_someone_else>
+    <medium>Medium</medium>
+    <high>Høj</high>
+    <low>Lav</low>
+    <tags>Mærkater</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Startdato</start_date>
+    <due_date>Stopdato</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Fuld skærm</fullscreen>
+    <subject>Emne</subject>
+    <no_subject>Intet emne</no_subject>
+    <no_address>Ingen adresse</no_address>
+    <from>Fra</from>
+    <date>Dato</date>
+    <size>Størrelse</size>
+    <delete>Slet</delete>
+    <reply>Svar</reply>
+    <reply_to_all>Svar alle</reply_to_all>
+    <forward>Videresend</forward>
+    <print>Udskriv</print>
+    <whitelist>Hvidliste</whitelist>
+    <blacklist>Sortliste</blacklist>
+    <dws>Handling</dws>
+    <copy>Kopi</copy>
+    <move>Flyt</move>
+    <copy_to_folder>Kopier til mappe:</copy_to_folder>
+    <move_to_folder>Flyt til mappe:</move_to_folder>
+    <mar>Marker som læst</mar>
+    <mau>Marker som ulæst</mau>
+    <select>Vælg</select>
+    <all>Alle</all>
+    <none>Ingen</none>
+    <read>Læs</read>
+    <unread>Ulæst</unread>
+    <invert>Inverter valg</invert>
+    <doit>Anvend</doit>
+    <to>Til</to>
+    <fast_reply>Hurtigt svar</fast_reply>
+    <send_message>Send meddelelse</send_message>
+    <src>Afsenderen har anmodet om et svar på, om du har læst denne meddelelse. Ønsker du at sende et svar?</src>
+    <save>Gem</save>
+    <select_folder>Vælg mappe</select_folder>
+    <deliver>Lever</deliver>
+    <text>Tekst</text>
+    <received>Modtaget</received>
+    <saved>Gemt</saved>
+    <sender>Afsender</sender>
+    <owner>Ejer</owner>
+    <domain>Domæne</domain>
+    <show_all>Vis alle</show_all>
+  </mail_main>
+  <event_list>
+    <title>Titel</title>
+    <start>Start</start>
+    <end>Slut</end>
+    <tags>Mærkater</tags>
+  </event_list>
+  <event_detail>
+    <tags>Mærkater</tags>
+    <show_as>Vis som</show_as>
+    <free>Ledig</free>
+    <tentative>Foreløbige</tentative>
+    <busy>Optaget</busy>
+    <out_of_office>Ikke på kontoret</out_of_office>
+    <title>Titel</title>
+    <location>Placering</location>
+    <label>Etiket</label>
+    <none>Ingen</none>
+    <important>Vigtigt</important>
+    <business>Virksomhed</business>
+    <personal>Personlig</personal>
+    <vacation>Ferie</vacation>
+    <must_attend>Skal deltage</must_attend>
+    <travel_required>Rejse påkrævet</travel_required>
+    <needs_preparation>Skal forberedes</needs_preparation>
+    <birthday>Fødselsdag</birthday>
+    <anniversary>Mærkedag</anniversary>
+    <phone_call>Telefonopkald</phone_call>
+    <category>Kategori</category>
+    <private>Privat</private>
+    <from>Fra</from>
+    <to>Til</to>
+    <notes>Noter</notes>
+    <allday>Heldagsbegivenhed</allday>
+    <event>Begivenhed</event>
+    <minutes>Minut(ter)</minutes>
+    <hours>Time(r)</hours>
+    <days>Dag(e)</days>
+    <remind_me>Påmind mig</remind_me>
+    <before>før</before>
+    <no_repeating>Gentag ikke</no_repeating>
+    <daily>Daglig</daily>
+    <weekly>Ugentlig</weekly>
+    <monthly>Månedlig</monthly>
+    <yearly>Årlig</yearly>
+    <end_date>Slutdato</end_date>
+    <no_end_date>Ingen slutdato</no_end_date>
+    <repeat>Gentag</repeat>
+    <every>Hver</every>
+    <every_workday>Hver arbejdsdag</every_workday>
+    <recur_every>Gentag hver</recur_every>
+    <weeks>uge(r)</weeks>
+    <on>til</on>
+    <monday>Mandag</monday>
+    <tuesday>Tirsdag</tuesday>
+    <wednesday>Onsdag</wednesday>
+    <thursday>Torsdag</thursday>
+    <friday>Fredag</friday>
+    <saturday>Lørdag</saturday>
+    <sunday>Søndag</sunday>
+    <day>Dag</day>
+    <months>måned(er)</months>
+    <first>Første</first>
+    <second>Anden</second>
+    <third>Tredie</third>
+    <fourth>Fjerde</fourth>
+    <last>Sidste</last>
+    <week>Uge</week>
+    <work_week>Arbejdsuge</work_week>
+    <weekend>Weekend</weekend>
+    <of_every>af hver</of_every>
+    <of>af</of>
+    <years>år</years>
+    <the>Den</the>
+    <times>gange</times>
+    <count>tæl</count>
+    <until>indtil</until>
+    <tags>Mærkater</tags>
+  </event_detail>
+  <event_main>
+    <mon>Man</mon>
+    <tue>Tir</tue>
+    <wed>Ons</wed>
+    <thu>Tor</thu>
+    <fri>Fre</fri>
+    <sat>Lør</sat>
+    <sun>Søn</sun>
+    <jan>Januar</jan>
+    <feb>Februar</feb>
+    <mar>Marts</mar>
+    <apr>April</apr>
+    <may>Maj</may>
+    <jun>Juni</jun>
+    <jul>Juli</jul>
+    <aug>August</aug>
+    <sep>September</sep>
+    <oct>Oktober</oct>
+    <nov>November</nov>
+    <dec>December</dec>
+    <week>Uge</week>
+    <week_view>Uge</week_view>
+    <work_week_view>Arbejdsuge</work_week_view>
+    <month_view>Måned</month_view>
+    <day_view>Dag</day_view>
+    <list>Liste</list>
+    <add>Ny begivehed</add>
+    <save>Gem</save>
+    <no_title>Ingen titel</no_title>
+    <search>Søg:</search>
+    <account>Konto:</account>
+    <print>Udskriv</print>
+  </event_main>
+  <contact_main>
+    <contact>Kontakt</contact>
+    <distribution_list>Omdelingsliste</distribution_list>
+    <title>Titel</title>
+    <no_email>Ingen e-mail</no_email>
+    <card_view>Kortvisning</card_view>
+    <list_view>Listevisning</list_view>
+    <contact_name>Kontaktnavn</contact_name>
+    <email>E-mail</email>
+    <company>Firma</company>
+    <job>Stilling</job>
+    <department>Afdeling</department>
+    <profession>Stilling</profession>
+    <category>Kategori</category>
+    <general>Generel</general>
+    <first_name>Fornavn</first_name>
+    <middle_name>Mellemnavn</middle_name>
+    <last_name>Efternavn</last_name>
+    <nick>Kaldenavn</nick>
+    <sort_string>Sorter streng</sort_string>
+    <title>Titel</title>
+    <suffix>Endelse</suffix>
+    <category>Kategori</category>
+    <web>Hjemmeside</web>
+    <street>Vejnavn</street>
+    <city>By</city>
+    <zip>Postnummer</zip>
+    <state>Stat</state>
+    <country>Land</country>
+    <im>Onlinemeddelelser</im>
+    <phones>Telefoner</phones>
+    <work>Arbejde</work>
+    <home>Hjem</home>
+    <assistant>Assistent</assistant>
+    <fax_home>Fax hjemme</fax_home>
+    <fax_work>Fax arbejde</fax_work>
+    <call_back>Ring tilbage</call_back>
+    <company>Firma</company>
+    <car>Bil</car>
+    <isdn>ISDN</isdn>
+    <mobile>Mobil</mobile>
+    <other>Andet</other>
+    <other_fax>Anden fax</other_fax>
+    <pager>Personsøger</pager>
+    <primary>Primære</primary>
+    <radio>Radio</radio>
+    <telex>Telex</telex>
+    <hearing>Teleslynge</hearing>
+    <add>Ny kontakt</add>
+    <notes>Noter</notes>
+    <no_name>Intet kontaktnavn</no_name>
+    <select>Vælg type</select>
+    <select_contacts>Vælg de kontakter du vil tilføje</select_contacts>
+    <add_distribution>Ny omdelingsliste</add_distribution>
+    <add_new>Tilføj</add_new>
+    <add_item_distribution>Tilføj fra adressebog</add_item_distribution>
+    <save>Gem</save>
+    <edit>Rediger</edit>
+    <edit_selected>Rediger valgte</edit_selected>
+    <delete_selected>Slet</delete_selected>
+    <cancel>Annuller</cancel>
+    <onleave_warning>Ønsker du at logge ud? Alle ugemte data vil gå tabt.</onleave_warning>
+    <tags>Mærkater</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>Ny patient</new_patient>
+    <new_staff>Nyt personale</new_staff>
+    <notify_email>Underret e-mail</notify_email>
+    <notify_sms>Underret SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>Ny</add>
+    <staff>Personale</staff>
+    <patient>Patient</patient>
+  </hippa_detail>
+  <grid>
+    <title>Titel</title>
+    <note>Note</note>
+    <size>Størrelse</size>
+    <category>Kategori</category>
+    <start>Start</start>
+    <end>Slut</end>
+    <save>Gem</save>
+    <cancel>Annuller</cancel>
+    <number_of_items>Antal valgte elementer på andre sider:</number_of_items>
+    <clear>Ryd</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Vælg den tekst, du vil hyperlink til.</select_text>
+    <enter_url>Indtast URL&apos;en til dette link:</enter_url>
+    <image_location>Indtast placeringen for dette billede:</image_location>
+    <image_alt>Indtast den alternative tekst til dette billede:</image_alt>
+    <image>Indsæt billede</image>
+    <htmlsource>HTML kilde</htmlsource>
+    <hyperlink>Hyperlink</hyperlink>
+    <underline>Understreg</underline>
+    <italic>Kursiv</italic>
+    <bold>Fed</bold>
+    <fontsize>Skriftstørrelse</fontsize>
+    <fontformat>Skriftformat</fontformat>
+    <outdent>Formindsk indrykning</outdent>
+    <indent>Forøg indrykning</indent>
+    <orderedlist>Nummereret liste</orderedlist>
+    <unorderedlist>Punktliste</unorderedlist>
+    <justify>Lige margener</justify>
+    <right>Juster højre</right>
+    <center>Centrer</center>
+    <left>Juster venstre</left>
+    <blockformat>Blokformat</blockformat>
+    <block_type>Bloktype</block_type>
+    <heading>Overskrift</heading>
+    <paragraph>Afsnit</paragraph>
+    <size>Størrelse</size>
+    <font>Skrifttype</font>
+    <cancel>Annuller</cancel>
+    <email>E-mail</email>
+    <options>Indstillinger</options>
+    <plain>Almindelig</plain>
+    <html>HTML</html>
+    <from>Fra</from>
+    <to>Til</to>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Emne</subject>
+    <date>Dato</date>
+    <attachments>Vedhæftede filer</attachments>
+    <text>Tekst</text>
+    <send_message>Send meddelelse</send_message>
+    <save_message>Gem</save_message>
+    <br/>
+    <spellchecker>Stavekontrol sprog</spellchecker>
+    <rrc>Anmod om læsebekræftelse</rrc>
+    <ssm>Gem sendte meddelelser i mappen</ssm>
+    <psa>Brug SmartAttach</psa>
+    <priority>Prioritet</priority>
+    <lowest>Laveste</lowest>
+    <low>Lav</low>
+    <normal>Normal</normal>
+    <high>Høj</high>
+    <highest>Højeste</highest>
+    <rta>Svar-til-adresse</rta>
+    <charset>Tegnsæt</charset>
+    <auto>Auto</auto>
+    <original_message>-----Original Meddelelse-----</original_message>
+    <read_confirmation_subject>Læs: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Din meddelelse er blevet læst.&#13;&#10;&#13;&#10;Meddelelsesoplysninger:&#13;&#10;&#13;&#10;Fra: %FROM%&#13;&#10;Til: %TO%&#13;&#10;Dato: %DATE%&#13;&#10;Emne: %SUBJECT%</read_confirmation_text>
+    <add_contacts>Tilføj kontakter</add_contacts>
+    <add_files>Tilføj filer</add_files>
+    <add_files_from_folder>Tilføj filer fra mappe</add_files_from_folder>
+    <add_files_from_dropbox>Tilføj filer fra Dropbox</add_files_from_dropbox>
+    <leave_notice>Vil du afslutte? Meddelelsen går tabt.</leave_notice>
+    <alias>Alias</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Ny mappe</add>
+    <delete>Slet</delete>
+    <link>Link</link>
+    <unlink>Ophæv link</unlink>
+    <create_folder>Opret ny mappe</create_folder>
+    <create>Opret</create>
+    <delete_confirmation_text>Vil du slette denne mappe permanent?</delete_confirmation_text>
+    <empty_confirmation_text>Vil du slette elementerne i denne mappe permanent?</empty_confirmation_text>
+    <delete_yes>Ja</delete_yes>
+    <delete_no>Nej</delete_no>
+    <link_as>Link mappe som</link_as>
+    <unlink_as>Slet / omdøb mappelink</unlink_as>
+    <unlink_confirmation_text>Vil du slette mappelinket?</unlink_confirmation_text>
+    <unlink_yes>Ja</unlink_yes>
+    <unlink_no>Nej</unlink_no>
+    <virtual>Virtuel mappe</virtual>
+    <delete_empty_folder>Slet eller tøm mappe</delete_empty_folder>
+    <edit>Rediger</edit>
+    <empty>Tøm</empty>
+    <rename_folder>Omdøb mappe</rename_folder>
+    <save>Gem</save>
+    <rename>Omdøb</rename>
+    <perform_action>Udfør handling for</perform_action>
+    <select_folder>Vælg mappe, der skal administreres</select_folder>
+    <open_folder>Åbn mappe</open_folder>
+    <open_folder_des>Bruges til at få adgang til indholdet i en mappe.</open_folder_des>
+    <link_folder>Link mappe</link_folder>
+    <link_folder_des>Bruges til at oprette en genvej i menuen til venstre for en mappe i oversigten.</link_folder_des>
+    <add_folder>Tilføj mappe</add_folder>
+    <add_folder_dis>Bruges til at oprette en ny mappe under den valgte mappe.</add_folder_dis>
+    <rename_folder_des>Bruges til at omdøbe den valgte mappe.</rename_folder_des>
+    <remove_folder>Fjern mappe</remove_folder>
+    <remove_folder_des>Bruges til permanent at tømme og slette den valgte mappe. Advarsel: Du kan ikke fortryde denne handling!</remove_folder_des>
+    <default_folder>Indstil som standardmappe</default_folder>
+    <default_folder_des>Bruges til at indstille denne mappe som standardmappe.</default_folder_des>
+    <set_default>Indstil denne mappe som standard</set_default>
+    <set>Indstil</set>
+    <as_drafts>Kladder</as_drafts>
+    <as_sent>Sendt</as_sent>
+    <as_trash>Papirkurv</as_trash>
+    <set_as_default>Indstil</set_as_default>
+    <link_first>Der skal først linkes til en mappe, før den kan indstilles som standard.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Indbakke</inbox>
+    <drafts>Kladder</drafts>
+    <sent>Sendt</sent>
+    <trash>Papirkurv</trash>
+  </common_folders>
+  <common>
+    <yes>Ja</yes>
+    <no>Nej</no>
+  </common>
+  <folder_types>
+    <mail>E-mail</mail>
+    <contact>Kontakt</contact>
+    <event>Kalender</event>
+    <journal>Journal</journal>
+    <note>Note</note>
+    <task>Opgave</task>
+    <file>Fil</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA fejlede. Prøv igen.</login_invalid_keypair>
+    <divtcha_confirmation>Forkert captcha code</divtcha_confirmation>
+    <missing_values_text>Tomt tekstfelt</missing_values_text>
+    <missing_values_email>Tomt e-mail-felt</missing_values_email>
+    <invalid_email>Ugyldig e-mail-adresse</invalid_email>
+    <password_not_changed>Ny adgangskode kan ikke være den samme som den gamle</password_not_changed>
+    <reset_password_invalid_hashid>Ugyldigt hash-ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID-fil findes ikke</reset_password_uid_file>
+    <account_alternative_email>Kontoen har ingen alternativ e-mail-adresse</account_alternative_email>
+    <migration_in_progress>Migration af kontoen er i gang, prøv igen senere</migration_in_progress>
+    <login_ip_invalid>Log ind IP-begrænsning: %s</login_ip_invalid>
+    <unauthorized>Uautoriseret adgang</unauthorized>
+    <folder_type_restricted>Denne mappetype blev begrænset af administratoren</folder_type_restricted>
+    <account_does_not_exists>Den angivne konto findes ikke</account_does_not_exists>
+    <account_invalid_id>Kan ikke hente kontoen %s</account_invalid_id>
+    <account_unknown_protocol>Ukendt kontoprotokol</account_unknown_protocol>
+    <account_missing_tag>Kontoen mangler mærkat %s</account_missing_tag>
+    <account_missing_id>Konto-ID mangler</account_missing_id>
+    <account_invalid_action>Kontohandling er ugyldig</account_invalid_action>
+    <account_already_exists>Kontoen %s eksisterer allerede</account_already_exists>
+    <account_no_username>Konto-brugernavn mangler eller er tomt</account_no_username>
+    <account_no_password>Kontoadgangskode mangler eller er tom</account_no_password>
+    <account_bad_password>Gammel adgangskode indtastet forkert</account_bad_password>
+    <account_password_policy>Adgangskoden matcher ikke adgangskodepolitikken</account_password_policy>
+    <account_sync>Kontosynkronisering mislykkedes for kontoen %s</account_sync>
+    <account_primary_delete>Kan ikke slette den primære konto</account_primary_delete>
+    <account_test_failed>Kontotest mislykkedes for kontoen %s</account_test_failed>
+    <account_signup_disabled>Selvtilmelding deaktiveret</account_signup_disabled>
+    <account_signup_error>Fejl ved tilmelding af konto: %s</account_signup_error>
+    <account_signup_1>Udefineret fejl</account_signup_1>
+    <account_signup_2>Utilstrækkelig licens</account_signup_2>
+    <account_signup_3>Parameterens størrelse er for kort</account_signup_3>
+    <account_signup_4>Funktionsfejl</account_signup_4>
+    <account_signup_5>Konfiguration ikke fundet</account_signup_5>
+    <account_signup_6>Adgangskodepolitik</account_signup_6>
+    <account_signup_7>Kontoen eksisterer allerede</account_signup_7>
+    <account_signup_8>Ugyldige tegn</account_signup_8>
+    <attachment_too_large>Vedhæftet fil er for stor: %s</attachment_too_large>
+    <password_confirmation>Uoverensstemmelse adgangskode</password_confirmation>
+    <missing_values>Uoverensstemmelse adgangskode</missing_values>
+    <addon_copy>Tilføjelsen kan ikke kopieres</addon_copy>
+    <attachment_file_not_found>Kan ikke tilføje filen</attachment_file_not_found>
+    <attachment_add>Kunne ikke tilføje en vedhæftet fil</attachment_add>
+    <attachment_get>Kan ikke få adgang til vedhæftet fil %s</attachment_get>
+    <attacment_class_unknown>Ukendt klasse for vedhæftning</attacment_class_unknown>
+    <auth_missing_tag>Godkendelse mangler et mærkat %s</auth_missing_tag>
+    <auth_export_key_private>Kan ikke eksportere privat nøgle</auth_export_key_private>
+    <auth_invalid_char>Ugyldigt tegn i privat nøgle</auth_invalid_char>
+    <confirmation_uid>Captcha-session blev ikke fundet</confirmation_uid>
+    <confirmation_word_mismatch>Captcha indtastet forkert</confirmation_word_mismatch>
+    <db_auto_create>Kan ikke oprette databasen automatisk</db_auto_create>
+    <db_create_sqlitefile>Kan ikke oprette SQLite DB-fil</db_create_sqlitefile>
+    <db_create_tables>Kan ikke oprette tabeller</db_create_tables>
+    <db_statement_prepare>Kan ikke udarbejde erklæringen</db_statement_prepare>
+    <db_invalid_statement>Ugyldig erklæringstype</db_invalid_statement>
+    <flags_unknown_field>Forkert markeringsfelt</flags_unknown_field>
+    <folder_autocreate_failed>Mappen %s eksisterer allerede</folder_autocreate_failed>
+    <folder_already_exists>Mappen %s eksisiterer allerede</folder_already_exists>
+    <folder_does_not_exist>Mappen %s eksisterer ikket</folder_does_not_exist>
+    <folder_name_bad_char>Specialtegn er ikke tilladt i mappenavn</folder_name_bad_char>
+    <folder_name_length>Kan ikke få længden på mappens navn</folder_name_length>
+    <folder_name_too_long>Det nye mappenavn er for langt</folder_name_too_long>
+    <folder_get_list>Kan ikke få vist listen over mapper</folder_get_list>
+    <folder_delete>Kan ikke slette mappen %s</folder_delete>
+    <folder_create>Kan ikke oprette mappe %s</folder_create>
+    <folder_rename_empty>Kan ikke omdøbe mappen til et tomt navn</folder_rename_empty>
+    <folder_move_to_self>Kan ikke flytte mappen til sig selv</folder_move_to_self>
+    <folder_move_to_subfolder>Kan ikke flytte mappe til en undermappe i sig selv</folder_move_to_subfolder>
+    <folder_rename>Kan ikke omdøbe mappe</folder_rename>
+    <folder_copy>Kan ikke kopiere mappe</folder_copy>
+    <folder_empty>Mappen kan ikke tømmes</folder_empty>
+    <folder_missing_tag>Mappemærkat mangler %s</folder_missing_tag>
+    <folder_missing_account_id>Mappe mangler konto-ID</folder_missing_account_id>
+    <folder_invalid_account_id>Mappen har et ugyldigt konto-ID %s</folder_invalid_account_id>
+    <folder_missing_id>Manglende mappe-ID</folder_missing_id>
+    <folder_missing_name>Manglende mappenavn</folder_missing_name>
+    <folder_invalid_action>Ugyldig mappehandling %s</folder_invalid_action>
+    <folder_invalid_type>Ugyldig mappetype %s</folder_invalid_type>
+    <folder_sync>Kan ikke synkronisere mappen %s</folder_sync>
+    <folder_empty_non_mail>Kan ikke tømme en mappe der ikke er en e-mail-mappe</folder_empty_non_mail>
+    <folder_insufficient_rights>Utilstrækkelige rettigheder til at udføre operationen</folder_insufficient_rights>
+    <folder_mark_non_mail>Forsøger at oprette markering på en mappe, der ikke er e-mail-mappe</folder_mark_non_mail>
+    <freebusy_missing_tag>LedigOptaget markering mangler %s</freebusy_missing_tag>
+    <group_open>Kan ikke åbne gruppen %s</group_open>
+    <group_subscribe>Kan ikke tilmelde til gruppen %s</group_subscribe>
+    <group_add>Kan ikke oprette gruppe</group_add>
+    <group_edit>Kan ikke redigere gruppe %s</group_edit>
+    <group_user_add>Kan ikke tilføje brugere til gruppe %s</group_user_add>
+    <group_user_edit>Kan ikke redigere gruppebruger %s</group_user_edit>
+    <group_user_delete>Kan ikke slette gruppebruger %s</group_user_delete>
+    <groupware_upgrade_task>GroupWare-serviceopdateringsproceduren kører. Prøv igen senere.</groupware_upgrade_task>
+    <folder_open>Kan ikke åbne gruppe %s</folder_open>
+    <call_open_folder_first>GroupWare-mappe åbnes ikke under drift, når det er nødvendigt</call_open_folder_first>
+    <call_open_group_first>GroupWare-gruppen er ikke åben under drift, hvor det er nødvendigt</call_open_group_first>
+    <subscribe_account_gw>Fejl ved tilmelding af konto</subscribe_account_gw>
+    <unsubscribe_account_gw>Fejl ved afmelding af konto</unsubscribe_account_gw>
+    <imap_clone>Kan ikke klone IMAP-objekt</imap_clone>
+    <imap_open>IMAP-stream kan ikke åbnes</imap_open>
+    <imap_internal>IMAP intern fejl: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP modtag afgrænsningsfejl</imap_delimiter_retrieval>
+    <imap_getmailboxes>Kan ikke hente listen over postkasser</imap_getmailboxes>
+    <imap_mailbox_create>IMAP opret postkasse %s opret</imap_mailbox_create>
+    <imap_mailbox_subscribe>Kan ikke tilmelde postkasse %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>Kan ikke slette postkasse %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Kan ikke afmelde postkasse %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>Omdøbning af IMAP postkasse %s fejlede</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP-postkasse slet elementer</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP-postkasse tøm elementer</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP kopiering af elementer fejlede</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP flyt elementer fejlede</imap_mailbox_moveitems>
+    <imap_mailbox_open>Kan ikke genåbne postkasse %s</imap_mailbox_open>
+    <imap_mailbox_message_list>Kan ikke hente listen over meddelelser</imap_mailbox_message_list>
+    <imap_message_details>Kan ikke hente detaljer for meddelelse %s</imap_message_details>
+    <imap_no_headers>Kan ikke hente overskrifter for meddelelse %s</imap_no_headers>
+    <imap_no_body>Kan ikke hente brødteksten %s</imap_no_body>
+    <imap_message_create>Meddelelsen kan ikke tilføjes</imap_message_create>
+    <imap_message_delete>Kan ikke slette meddelelse %s</imap_message_delete>
+    <imap_message_copy>Kan ikke kopiere meddelelse %s</imap_message_copy>
+    <imap_message_move>Kan ikke flytte meddelelse %s</imap_message_move>
+    <imap_flags_set>Kan ikke angive meddelelsens %s markeringer</imap_flags_set>
+    <imap_flags_clear>Kan ikke rydde meddelelsens %s markeringer</imap_flags_clear>
+    <imap_message_not_found>Ny meddelelse blev ikke fundet i destinationspostkassen</imap_message_not_found>
+    <subscribe_account_imap>Fejl ved tilmelding af konto</subscribe_account_imap>
+    <unsubscribe_account_imap>Fejl ved afmelding af konto</unsubscribe_account_imap>
+    <import_vcalendar>Import af vCalendar mislykkedes</import_vcalendar>
+    <import_vcard>Import af vCard mislykkedes</import_vcard>
+    <import_missing_tag>Import-markering mangler %s</import_missing_tag>
+    <import_missing_action>Importer manglende handling</import_missing_action>
+    <import_invalid_action>Ugyldig importhandling %s</import_invalid_action>
+    <import_missing_account_id>Importering mangler konto-ID</import_missing_account_id>
+    <import_invalid_account_id>Importer ugyldigt konto-ID</import_invalid_account_id>
+    <import_missing_folder_id>Importer manglende mappe-ID</import_missing_folder_id>
+    <import_invalid_folder_id>Importer ugyldigt mappe-ID</import_invalid_folder_id>
+    <import_invalid_item_id>Importer ugyldigt element-ID</import_invalid_item_id>
+    <import_add_items>Kan ikke oprette elementer (liste)</import_add_items>
+    <import_invalid_data>Forsøger at importere ikke-understøttede data</import_invalid_data>
+    <export_invalid_account>Forsøger at eksportere ikke-eksisterende konto</export_invalid_account>
+    <imip_versit_convert>iMIP-versitkonvertering</imip_versit_convert>
+    <imip_versit_empty>iMIP versit tomt</imip_versit_empty>
+    <imip_missing_folder>iMIP-mappe mangler</imip_missing_folder>
+    <inputstream_no_xml_input>Ingen XML videregivet til input</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Ødelagt XML-input</inputstream_corrupted_input>
+    <item_invalid_id>Intet element-ID</item_invalid_id>
+    <item_count>Kan ikke få antallet af elementer</item_count>
+    <item_create>Kan ikke oprette element</item_create>
+    <item_delete>Element %s kan ikke slettes</item_delete>
+    <item_move>Element kan ikke flyttes</item_move>
+    <item_edit>Element %s redigeringsfjel</item_edit>
+    <item_occurrance_delete>Kan ikke slette forekomst %s</item_occurrance_delete>
+    <item_occurrance_create>Kan ikke oprette forekomst</item_occurrance_create>
+    <item_exception_delete>Kan ikke slette undtagelse %s</item_exception_delete>
+    <item_exception_create>Kan ikke oprette undtagelse</item_exception_create>
+    <item_copy>Kan ikke kopiere elementet</item_copy>
+    <item_copy_multiple>Kan ikke kopiere adskillige elementer</item_copy_multiple>
+    <item_copy_destination>Kan ikke hente destinationsmappen</item_copy_destination>
+    <item_copy_destination_type>Kan ikke kopiere til mapper af anden type end kildemappen</item_copy_destination_type>
+    <item_count_retrieve>Kan ikke tælle mappeelementer</item_count_retrieve>
+    <item_missing_tag>Element-markering mangler</item_missing_tag>
+    <item_missing_account_id>Mangler konto-ID</item_missing_account_id>
+    <item_invalid_account_id>Ugyldigt konto-ID %s</item_invalid_account_id>
+    <item_missing_folder_id>Manglende mappe-ID</item_missing_folder_id>
+    <item_invalid_folder_id>Ugyldigt mappe-ID %s</item_invalid_folder_id>
+    <item_missing_item_id>Manglende element-ID</item_missing_item_id>
+    <item_invalid_item_id>Ugyldigt element-ID %s</item_invalid_item_id>
+    <item_invalid_action>Elementhandling er ugyldig</item_invalid_action>
+    <login_invalid>Ugyldigt log ind for bruger %s</login_invalid>
+    <login_account_valid>Ugyldig konto %s</login_account_valid>
+    <phpmailer_>Generisk mailerfejl, meddelelsen blev ikke sendt</phpmailer_>
+    <phpmailer_smtp_auth>Mailer kunne ikke godkende, meddelelsen blev ikke sendt</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer kunne ikke oprette forbindelse til SMTP, meddelelsen blev ikke sendt</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer mangler modtagere, meddelelsen blev ikke sendt</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer understøtter ikke denne meddelelsestype, meddelelsen sendes ikke</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail-sendefejl</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Fejl ved afsendelse af e-mail</phpmailer_mail_send>
+    <phpmailer_language>Sprogfilen kan ikke åbnes</phpmailer_language>
+    <phpmailer_add_attachment>Kan ikke vedhæfte filen</phpmailer_add_attachment>
+    <phpmailer_encode_file>Kan ikke kode vedhæftede fil</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Ukendt kodningstype for vedhæftet fil</phpmailer_encode_unknown>
+    <mailparse_empty>Ingen kilde at analysere</mailparse_empty>
+    <mailparse_parser_init>Analysering af e-mail fejlede</mailparse_parser_init>
+    <mailparse_get_part>Kan ikke hente delen %s</mailparse_get_part>
+    <message_missing_tag>Meddelelsen mangler en markering %s</message_missing_tag>
+    <message_missing_account_id>Meddelelse mangler konto-ID</message_missing_account_id>
+    <message_invald_account>Meddelelse har ugyldigt konto-ID</message_invald_account>
+    <message_missing_folder_id>Meddelelse mangler mappe-ID</message_missing_folder_id>
+    <message_invald_folder>Meddelelse ugyldigt mappe-id</message_invald_folder>
+    <message_missing_item_id>Meddelelse mangler element-ID</message_missing_item_id>
+    <message_invalid_action>Meddelelse ugyldig handling</message_invalid_action>
+    <message_get_not_allowed>Kan ikke opdatere mappelisten på grund af utilstrækkelige rettigheder</message_get_not_allowed>
+    <message_attachment_type>Kan ikke analysere vedhæftet fil %s</message_attachment_type>
+    <message_attachment_existence>Nyligt uploadet vedhæftet fil blev ikke fundet</message_attachment_existence>
+    <rss_channel_exist>Den angivne kanal-URL kan ikke åbnes %s</rss_channel_exist>
+    <rss_invalid_channel>Kan ikke få adgang til kanalen</rss_invalid_channel>
+    <settings_access_denied>Adgang nægtet</settings_access_denied>
+    <settings_missing_tag>Indstilling mangler et markat %s</settings_missing_tag>
+    <settings_duplicity>XML-indstillingsfilformateringsfejl</settings_duplicity>
+    <settings_get_domain_file>Kan ikke læse domæneindstillingsfilen %s</settings_get_domain_file>
+    <settings_domain_set>Indstillinger indstiller domæneindstillinger til fil %s</settings_domain_set>
+    <settings_user_set>Kan ikke få adgang til brugerindstillinger i filen %.Tjek tilladelser og mailmappe.</settings_user_set>
+    <settings_public_set>Indstillinger indstiller offentlige data til fil %s</settings_public_set>
+    <settings_shared_set>De delte konti kan ikke gemmes</settings_shared_set>
+    <settings_owner_set>Kan ikke indstille ejerindstillingerne</settings_owner_set>
+    <session_expired>Sessionen %s er udløbet</session_expired>
+    <session_no_user>Sessionsbrugerobjekt kan ikke hentes</session_no_user>
+    <smime_no_recipient>SMIME ingen modtager</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP-data accepteres ikke fra serveren: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP Fra: mislykkedes (from)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP-modtagere mislykkedes (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Kan ikke indstille stavekontroltilstand</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Kan ikke åbne ordbog til stavekontrol (dic)</spellchecker_open_dictionary>
+    <spellchecker_add_word>Kan ikke tilføje nyt ord %s til ordbogen</spellchecker_add_word>
+    <spellchecker_missing_check_id>Manglende ordidentifikator</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Manglende mærkat %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Manglende ordbogs-identifikator</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Manglende ord</spellchecker_missing_word>
+    <upload_tag_missing>Upload-mærkat mangler</upload_tag_missing>
+    <upload_missing_attribute>Upload mangler attribut</upload_missing_attribute>
+    <upload_attachment_missing>Upload mangler vedhæftet fil</upload_attachment_missing>
+    <xml_invalid_file_name>XML-filnavn tomt</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath returnerede mere end et resultat i din forespørgsel</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML angivet node ikke fundet %s</xml_node_does_not_exist>
+    <xmlrequest_path>Ugyldig skabelonfil (path)</xmlrequest_path>
+    <xmlrequest_access_denied>Adgang nægtet</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Ugyldig anmodningstype (type)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Manglende navneområde-attribut</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Manglende eller ugyldig SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XMLRequest-mærkat mangler %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Manglende klassekonstruktør</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Ukendt resultatformat %s</xmlrequest_unkown_format>
+    <not_implemented>Ikke implementeret endnu</not_implemented>
+    <logdir_create>Kan ikke oprette logfiler %s</logdir_create>
+    <api_property_get>Kan ikke hente egenskaber til %s</api_property_get>
+    <wm_disabled>WebClient er deaktiveret</wm_disabled>
+    <gw_init_error>GroupWare initialiseringsfejl</gw_init_error>
+    <default>Standardundtagelse %s</default>
+    <other_accounts_disabled>Oprettelse af andre konti er deaktiveret</other_accounts_disabled>
+    <link_compressed_variable_missing>Fejl i URL, du blev omdirigeret til hovedskærmen</link_compressed_variable_missing>
+    <login_expired>Log ind udløbet. Log ind igen</login_expired>
+    <account_disabled>Konto deaktiveret</account_disabled>
+    <folder_set_default>Mappen &quot;%s&quot; kan ikke indstilles som standard</folder_set_default>
+    <personality_confirmation_invalid_user>E-mail-adresse kan ikke bekræftes: Ugyldig bruger</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>E-mail-adresse kan ikke bekræftes: Ugyldig Hash</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Sortlisteelement mislykkedes</item_blacklist_error>
+    <item_whitelist_error>Hvidlisteelement mislykkedes</item_whitelist_error>
+    <unverified_signature>Kunne ikke bekræfte meddelelsessignatur</unverified_signature>
+    <account_is_guest>Adgang er ikke tilladt for gæster</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Elementvalg ryddet</item_selection_cleared>
+    <logged_out>Du er logget af</logged_out>
+    <message_send_ok>Meddelelse sendt</message_send_ok>
+    <item_move_ok>Element(er) flyttet</item_move_ok>
+    <item_copy_ok>Element(er) kopieret</item_copy_ok>
+    <item_delete_ok>Element(er) slettet</item_delete_ok>
+    <item_mark_ok>Element(er) markeret</item_mark_ok>
+    <settings_save_ok>Indstillinger gemt</settings_save_ok>
+    <loading_next_message>Indlæser næste meddelelse</loading_next_message>
+    <loading_prev_message>Indlæser forrige meddelelse</loading_prev_message>
+    <loading_next_page>Indlæser næste side</loading_next_page>
+    <loading_prev_page>Indlæser forrige side</loading_prev_page>
+    <loading_next_month>Indlæser næste måned</loading_next_month>
+    <loading_prev_month>Indlæser forrige måned</loading_prev_month>
+    <loading_next_week>Indlæser næste uge</loading_next_week>
+    <loading_prev_week>Indlæser forrige uge</loading_prev_week>
+    <loading_next_day>Indlæser næste dag</loading_next_day>
+    <loading_prev_day>Indlæser forrige dag</loading_prev_day>
+    <password_change_ok>Adgangskode ændret</password_change_ok>
+    <item_whitelist_ok>Elementet blev føjet til hvidlisten</item_whitelist_ok>
+    <item_blacklist_ok>Elementet blev tilføjet til sortlisten</item_blacklist_ok>
+    <folder_set_default_ok>Mappe indstillet som standard</folder_set_default_ok>
+    <subscribe_account_ok>Konto tilmeldt</subscribe_account_ok>
+    <subscribe_folder_ok>Mappe tilmeldt</subscribe_folder_ok>
+    <item_decline_ok>Elementet blev afvist</item_decline_ok>
+    <access_granted>Du har fået adgang til &quot;%s&quot; af &quot;%s&quot;.</access_granted>
+    <message_save_ok>Meddelelse gemt</message_save_ok>
+    <item_accept_ok>Element accepteret</item_accept_ok>
+  </messages>
+</language>

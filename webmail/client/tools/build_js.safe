@@ -1,0 +1,84 @@
+<?php
+//build js file
+define("incdir",CLIENT.'/inc/');
+define("jsext",'.js');
+define("startfile",'startscript.js');
+define("jsfile",'javascript.js');
+
+//THIS FILES ARE NOT INCLUDED
+$skip_file = array(jsfile,startfile);
+
+// Create startscript.js
+if (!is_dir(incdir)) return;
+
+//THE SAME VALUES MUST BE IN STORAGE.JS!!!!
+$fjoin = array(
+//global
+//'rsa/rsa.js', linked by /login
+'browser_ext.js','object_ext.js','debug.js','template.js','xmltools.js',
+'request.js',
+'httprequest.js','dataset.js','storage.js','gui.js','wm_generic.js',
+'wm_auth.js','wm_accounts.js','wm_folders.js','wm_items.js','wm_storage.js','init.js',
+'gw_others.js','json.js',
+
+//objects from login screen
+'obj_loader.js','obj_form_generic.js','obj_form_tab.js','obj_button.js','obj_connection.js'
+);
+
+$files = array();
+$ftime = 0;
+
+foreach ($fjoin as $file) {
+		$files[] = incdir.$file;
+		$tmp = filemtime(incdir.$file);
+		$ftime = $ftime<$tmp?$tmp:$ftime;
+}
+
+// Create startscript.js
+if (!file_exists(incdir.startfile) || ($ftime && filemtime(incdir.startfile)<$ftime)){
+
+	$str = '';
+	foreach($files as $filepath){
+		$tmp  = JSMin::minify(file_get_contents($filepath));
+		$str .= ($str==''?'':"\r\n")."\r\n/* ".$filepath." */".$tmp;
+	}
+	if ($fhandle = fopen(incdir.startfile, 'wb')){
+		fwrite($fhandle, $str);
+		fclose($fhandle);
+	}
+}
+
+// Create javascript.js
+if (!$_REQUEST['frm']){
+	$fskip = array_merge($fjoin, $skip_file);
+	if ($handle2 = opendir(incdir)) {
+
+		$files = array();
+		$ftime = 0;
+		while (false !== ($file2 = readdir($handle2))) {
+			if ($file2 != "." && $file2 != ".." && $file2!=".svn" && is_file(incdir.$file2) && strpos($file2,jsext)) {
+
+				if (in_array($file2,$fskip)) continue;
+
+				$files[] = incdir.$file2;
+				$tmp = filemtime(incdir.$file2);
+				$ftime = $ftime<$tmp?$tmp:$ftime;
+			}
+		}
+		closedir($handle2);
+
+		if (!file_exists(incdir.jsfile) || ($ftime && filemtime(incdir.jsfile)<$ftime)){
+			sort($files);
+			$str = '';
+			foreach($files as $filepath){
+				$tmp  = JSMin::minify(file_get_contents($filepath));
+				$str .= ($str==''?'':"\r\n")."\r\n/* ".$filepath." */".$tmp;
+			}
+			if ($fhandle = fopen(incdir.jsfile, 'wb')){
+				fwrite($fhandle, $str);
+				fclose($fhandle);
+			}
+		}
+	}
+}
+?>

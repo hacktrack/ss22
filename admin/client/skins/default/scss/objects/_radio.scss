@@ -1,0 +1,183 @@
+// Radio
+// Input type radio.
+
+// Block
+.radio {
+	@include radio-checkbox;
+}
+
+
+// Elements
+.radio i {
+	transition: border-color $fast;
+	border-radius: $circle;
+
+	&::after {
+		@include theme {
+			background-color: $theme-primary;
+		}
+		content: '';
+		display: block;
+		width: 100%;
+		height: 100%;
+		border-radius: $circle;
+	    border: 1px solid $transparent; // Fixes border-radius rendering issues in Firefox (and possibly other browsers)
+
+		// will-change: transform, opacity;
+		opacity: 0;
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+
+		-webkit-transition:
+			opacity $normal $fast,
+			transform $normal;
+
+		transition:
+			opacity $normal $fast,
+			transform $normal;
+	}
+}
+
+.radio input:checked + i {
+	@include theme {
+		border-color: $theme-primary;
+	}
+
+	&::after {
+		opacity: 1;
+		-webkit-transform: scale($radio-dot-scale);
+		        transform: scale($radio-dot-scale);
+
+		-webkit-transition:
+			opacity $fast,
+			-webkit-transform $fast;
+
+		transition:
+			opacity $fast,
+			transform $fast;
+	}
+}
+
+
+// Modifiers
+.radio--default {
+
+	i {
+		border-radius: $circle;
+
+		&::after {
+			content: '';
+		}
+	}
+}
+/*
+.icechat .radio--imagepicker{
+	@include backgrounds('i', true, 'icechat');
+}
+*/
+.radio--imagepicker {
+	@include backgrounds('i', true);
+	@include animation('reveal');
+	@include flex-basis(100% / $imagepicker-columns);
+	max-width: (100% / $imagepicker-columns); // Fixes IE
+	height: auto;
+	padding-left: $imagepicker-margin;
+	margin-right: 0 !important;
+
+	@at-root .form__element--imagepicker {
+		@include flexbox;
+		@include flex-wrap(wrap);
+		@include flex(1, 1, 100%);
+		margin-left: -$imagepicker-margin;
+	}
+
+	i {
+		display: block;
+		position: relative;
+		width: auto;
+		height: 0;
+		padding-bottom: (100% * $imagepicker-ratio);
+		margin-bottom: g(1);
+		background: center no-repeat;
+		background-size: cover;
+		border-radius: 0;
+
+		&::after {
+			content: none;
+		}
+
+		&::before {
+			@include size-map(('width', 'height', 'line-height'), 28px);
+			@include theme {
+				background-color: $theme-primary;
+			}
+			content: $icon-checkmark;
+			font-family: 'icons';
+			font-style: normal;
+			position: absolute;
+			bottom: $imagepicker-icon-offset / $imagepicker-ratio;
+			right: $imagepicker-icon-offset;
+			border-radius: $circle;
+			color: $white;
+			font-size: s(3/2);
+			text-align: center;
+			opacity: 0;
+
+			transition: opacity $normal;
+			-webkit-transform: scale(1) !important;
+			        transform: scale(1) !important;
+		}
+	}
+
+	input:checked + i {
+		@include theme {
+			box-shadow: inset 0 0 0 1px $theme-primary;
+		}
+
+		&::before {
+			opacity: 1;
+			transition: none;
+		}
+	}
+
+	// States
+	&:not(.is-visible) {
+		display: none;
+	}
+}
+
+.radio--colorpicker {
+	height: auto;
+	line-height: $default-line-height;
+
+	&:not(:last-of-type):not(.radio--block) {
+		margin: 0 g(1) g(1) 0;
+	}
+
+	i {
+		border-radius: $circle;
+		height: $colorpicker-size;
+		width: $colorpicker-size;
+
+		&::after {
+			content: '';
+			background-color: currentColor !important;
+			opacity: 1;
+			-webkit-transform: scale(3/4) !important;
+			        transform: scale(3/4) !important;
+		}
+	}
+
+	input:checked + i {
+			border-color: currentColor !important;
+			border-width: $colorpicker-active-border-width;
+	}
+}
+
+// Radio colors
+@each $theme, $properties in map-merge($wa-themes, $wc-themes) {
+
+	.radio--#{$theme} {
+		color: map-deep-get($properties, colors, 'primary');
+	}
+}

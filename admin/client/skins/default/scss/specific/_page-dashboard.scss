@@ -1,0 +1,11 @@
+.dashboard-current_traffic-options {
+	padding: p(1);
+
+	@media #{$medium-up} {
+		padding: p(1) p(2);
+	}
+}
+
+.obj_dashboard_cloudstats .button:not(.is-trial) {
+	display: none !important;
+}

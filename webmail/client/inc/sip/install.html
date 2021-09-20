@@ -1,0 +1,16 @@
+<html>
+
+<head>
+<title>IceWarp Screen sharing Chrome Plugin</title>
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/gpeicpibkllbejpnminnmecpjedmhhdg">
+</head>
+
+<body>
+<form>
+<label>Click to install</label>
+<input type="button" value="Install" onClick="chrome.webstore.install('https://chrome.google.com/webstore/detail/gpeicpibkllbejpnminnmecpjedmhhdg', function(){alert('Installed');}, function(){alert('Failed');})">
+</form>
+<script type="text/javascript">
+document.write("Plugin: "+chrome.app.isInstalled);
+</script>
+</body></html>

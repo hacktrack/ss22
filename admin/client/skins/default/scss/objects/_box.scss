@@ -1,0 +1,434 @@
+// Box
+// All content boxes and modals and popups. Contains header, footer, menu, content.
+
+// Block
+.box {
+	@include flexit;
+	z-index: z('box');
+	background-color: $white;
+	min-width: s(20);
+	min-height: $box-min-height;
+	overflow: hidden;
+	border-style: solid;
+	@include theme {
+		border-color: $theme-border-grey;
+	}
+	border-width: 0;
+
+	@media #{$large-up} {
+		margin: g(1);
+		border-width: 1px;
+	}
+
+	// Put a margin on bottom when box is not alone or last
+	&:not(:last-child) {
+		margin-bottom: g(1);
+	}
+
+	// States
+	.content-boxes[iw-type="multi"] & {
+		margin: g(1);
+		border-width: 1px;
+
+		.box, .box-body {
+			@include flex(initial);
+		}
+
+		.box-content {
+			@include flex(1, 1, auto);
+		}
+	}
+}
+
+
+// Elements
+.box-body {
+	@include flexbox;
+	@include flex(1, 1, 0);
+	overflow: hidden;
+	z-index: z('box__body');
+
+	@media #{$small-only} {
+		@include flex-direction(column); // Change orientation of menu and content
+	}
+}
+
+.box-menu {
+	@include flex(none);
+	@include enable-scroll(vertical);
+	width: s(16);
+	background-color: $lighter-grey;
+	@include theme {
+		box-shadow: inset -1px 0 0 0 $theme-border-grey;
+	}
+	padding-bottom: $box-padding-bottom;
+
+	@media #{$small-only} {
+		@include border('top');
+		width: 100%;
+		z-index: z('box__menu');
+		@include order(3); // Put menu on the bottom on mobile
+		// max-height: $menu-height * 6; // Limit the number of menu items on mobile
+		box-shadow: 0 s(4) s(8) s(4) rgba(black, 0.25);
+	}
+
+	@media #{$medium-only} { // Make box-menu smaller on tablet
+		width: s(12);
+	}
+}
+
+.box-content {
+	@include webkit-scroll; // Always show scrollbar on webkit OSX
+	@include flexbox;
+	@include flex-direction(column);
+	@include flex(1, 1, 0);
+	@include enable-scroll(vertical);
+	padding: p(1) $box-content-padding 0;
+
+	@media #{$small-only} {
+		@include order(1); // Put content on the top on mobile
+	}
+
+	@media #{$medium-up} {
+		padding: $box-padding-top p(2) $box-padding-bottom p(2);
+		min-height: s(10);
+	}
+
+	// Remove padding with this modifier
+	&.no-padding {
+		padding: 0;
+	}
+
+	> div { // Select box-content's direct child
+		@include animation('reveal'); // Fade new content with old
+	}
+}
+
+.box-content-title {
+	line-height: $normal-line-height;
+	font-weight: 300;
+	font-size: rem(30);
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.box-content-title-context {
+	position: relative;
+	display: inline-block;
+	line-height: $object-height;
+	padding-left: 1.5rem;
+	margin: 0 1rem;
+	font-size: rem(20);
+	text-transform: none;
+	vertical-align: text-top;
+
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 20%;
+		bottom: 20%;
+		display: block;
+		width: 1px;
+		background-color: $blue-grey;
+	}
+}
+
+.box-content-desc {
+	padding: 0 0 p(1) 0;
+}
+
+.box-head, .box-foot {
+	@include flexbox;
+	@include flex(none);
+	position: relative;
+	height: $box-head-size;
+	background-color: $white;
+	z-index: z('box__head');
+	white-space: nowrap;
+}
+
+.box-head {
+	@include border('bottom');
+	box-sizing: content-box;
+}
+
+.box-head-left, .box-head-right {
+	@include flexbox;
+	@include align-items(center);
+	white-space: nowrap;
+}
+
+.box-head-left {
+	@include flex(auto);
+	padding-left: p(1);
+
+	@media #{$medium-up} {
+		padding-left: p(2);
+	}
+}
+
+.box-head-right {
+	@include flex(none);
+	@include justify-content(flex-end);
+	padding-right: p(1);
+	text-align: right;
+
+	@media #{$medium-up} {
+		padding-right: p(2);
+	}
+
+	// Select buttons in .box-head-right that arent icons or selects
+	.button:not(.icon):not([iw-type="select"])  {
+		margin-left: g(1); // So box head buttons do not touch
+
+		// Hide all of these buttons on mobile
+		@media #{$small-only} {
+			display: none !important;
+		}
+	}
+}
+
+.box-head-info {
+	padding-left: p(1);
+	@include flex(1, 1, 0);
+}
+
+.box-head-back {
+	margin-left: p(-0.75);
+	// Protects box title from under-flowing below the back button
+	min-width: s(2.5);
+	box-sizing: content-box;
+	@include flex(none);
+
+	@media #{$medium-up} {
+		margin-left: p(-2);
+	}
+}
+
+.box-head-back + .box-head-info {
+	padding-left: 0;
+}
+
+.box-head-back-anchor {
+	@include theme {
+		color: $theme-primary;
+	}
+	cursor: pointer;
+	display: block;
+	padding: 0 0 0 p(1);
+}
+
+.box-head-title {
+	@include text-ellipsis;
+	@include theme {
+		color: $theme-primary;
+	}
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.box-foot {
+	@include enable-scroll(horizontal); // Allow horizontal scroll when needed
+	@include border('top');
+	padding: 0 p(1);
+
+	@media #{$medium-up} {
+		padding: 0 p(2);
+	}
+}
+
+.box-action { // Shows alternative save button above box-menu
+	@include order(2);
+	z-index: z('box__menu');
+	box-shadow: 0 s(4) s(8) s(4) rgba(black, 0.25);
+
+	@media #{$medium-up} { // Show only on mobile
+		display: none;
+	}
+}
+
+.box-action:not([is-hidden]) + .box-menu { // Apply on mobile when box-action is present
+
+	@media #{$small-only} {
+		box-shadow: none; // Hide box-menu shadow
+		border-top: none; // Hide box-menu top-border
+	}
+}
+
+
+// Modifiers
+
+// HEIGHT
+// Auto
+.box[iw-height="auto"] {
+	height: auto;
+}
+
+
+// TYPE
+// Modal
+.box[iw-type="modal"] { // TODO[WAD-896]: Clean old selector
+	@include flex(initial);
+	border: none;
+	@include theme {
+		border-top: 4px solid $theme-primary;
+	}
+	margin: 0;
+	max-height: 100%;
+	overflow-y: auto; // Fix IE not honoring max-height
+
+	@media #{$medium-up} {
+		max-height: calc(100% - #{g(2)});
+	}
+
+	.box-body {
+		@include flex(initial);
+	}
+
+	.box-content {
+		@include flex(1, 1, auto); // Flex basis needs to be 'auto' in non-flexed context
+	}
+
+	.box-head {
+
+		@media #{$medium-up} {
+			@include justify-content(center);
+		}
+	}
+
+	.box-head-right .icon-close { // TODO: Find a more universal selector
+		color: $grey;
+		margin-right: p(-1);
+
+		@media #{$medium-up} {
+			margin-right: p(-2);
+		}
+
+		&:hover {
+			@include theme {
+				color: $theme-primary;
+			}
+		}
+	}
+
+	// HEIGHT
+	// Default
+	& 							{ height: auto; }
+
+	// Full
+	&[iw-height="full"] {
+		@include flex(initial); // Fixes incorrect sizing behaviour in modals
+
+		& 						{ height: $box-modal-height-large-mobile; }
+		@media #{$medium-up} 	{ height: $box-modal-height-large-tablet; }
+		@media #{$large-up} 	{ height: $box-modal-height-large-desktop; }
+
+		.box-body, .box-content {
+			@include flex(1, 1, 0);
+		}
+	}
+
+
+	// WIDTH
+	// Default
+	& {
+		& 						{ width: 90vw; }
+		@media #{$medium-up} 	{ width: $box-modal-width-medium; }
+	}
+
+	// Large
+	&[iw-width="large"] {
+		& 						{ width: $box-modal-width-large-mobile; }
+		@media #{$medium-up} 	{ width: $box-modal-width-large-tablet; }
+		@media #{$large-up} 	{ width: $box-modal-width-large-desktop; }
+	}
+
+	// Medium
+	&[iw-width="medium"] {
+		@media #{$medium-up} 	{ width: $box-modal-width-medium; }
+
+		.box-menu {
+			@media #{$medium-up} { width: s(12); }
+		}
+	}
+
+	// Small
+	&[iw-width="small"] {
+
+		// This causes the box to size the width according to non-wrapping objects (header, footer)
+		// Text content won't resize the box width
+		@media #{$medium-up} {
+			width: auto; // IE fallback
+
+			width: -webkit-min-content;
+			width: -moz-min-content;
+			width: min-content;
+			min-width: $box-modal-width-small;
+
+			.box-content {
+				// This causes content not to go beyond the actual width of the box object..
+				width: $box-modal-width-small; // ..in IE
+
+				// These are fallbacks for other browsers that dont work like IE
+				width: -webkit-min-content;
+				width: -moz-min-content;
+				width: min-content;
+			}
+		}
+	}
+
+	// SIZE
+	// Fullscreen
+	&[iw-subtype="fullscreen"] {
+		width: 100vw;
+		max-width: 100vw;
+		height: 100vh;
+		max-height: 100vh;
+		border: none;
+
+		.box-head {
+			@include animation('moveDown');
+		}
+
+		.box-content {
+			padding-top: 0;
+			padding-bottom: 0;
+
+			> div {
+				margin: 0;
+			}
+		}
+	}
+
+	// HEIGHT: full + WIDTH: medium
+	// Make full-height medium modals full-size on mobile
+	&[iw-height="full"][iw-width="medium"] {
+		@media #{$small-only} 	{ width: 100vw; }
+	}
+
+	// NAME
+	// iframe
+	&[iw-name="iframe"] .box-content {
+		overflow: hidden;
+		padding: 0;
+	}
+}
+
+
+// SUBTYPE
+.box[iw-subtype="message"] {
+	@include mixin-message-color; // Controls color in modal messages
+
+	// Special styles for error / notice / warning messages
+	.box-content {
+		text-align: center;
+		margin: auto;
+		padding: p(1) p(2);
+	}
+
+	.box-foot {
+		@include flex-direction(column);
+		text-align: center;
+	}
+}

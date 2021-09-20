@@ -1,0 +1,53 @@
+<?php
+//build css file
+define("tpldir",'/templates/');
+define("tplext",'.tpl');
+define("tplfile",'templates.xml');
+
+if ($handle = opendir(skindir)) {
+
+	$TPL_default = readFolder(skindir.'default'.tpldir, tplext, array(tplfile,'obj_loader.tpl','obj_connection.tpl'));
+
+	while (false !== ($dir = readdir($handle)))
+		if ($dir != "." && $dir != ".." && $dir!=".svn" && is_dir(skindir.$dir)) {
+
+			if ($dir == 'default')
+				$tpl = $TPL_default;
+			else{
+				$tpl = readFolder(skindir.$dir.tpldir, tplext, array(tplfile,'obj_loader.tpl','obj_connection.tpl'));
+
+				if (!count($tpl[0]))
+					continue;
+
+				//doplnit
+				$append = false;
+				foreach($TPL_default[0] as $def_file)
+					if (!in_array(skindir.$dir.tpldir.$def_file, $tpl[0])){
+						$tpl[0][] = $def_file;
+						$append = true;
+					}
+
+				if ($append && $TPL_default[1]>$tpl[1])
+					$tpl[1] = $TPL_default[1];
+			}
+
+			//make style.css file
+			if (!file_exists(skindir.$dir.tpldir.tplfile) || ($tpl[1] && filemtime(skindir.$dir.tpldir.tplfile)<$tpl[1])){
+
+				sort($tpl[0]);
+
+				$str = "<template>\r\n";
+				foreach($tpl[0] as $file)
+					$str .= '<'.substr(basename($file),0,-4)."><![CDATA[\r\n".preg_replace("/\t+/","\t",trim(file_get_contents($file)))."\r\n]]></".substr(basename($file),0,-4).">\r\n";
+				$str .= '</template>';
+
+				if ($fhandle = fopen(skindir.$dir.tpldir.tplfile, 'wb')){
+					fwrite($fhandle, $str);
+					@fclose($fhandle);
+				}
+			}
+		}
+
+	@closedir($handle);
+}
+?>

@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Blue</blue>
+    <green>Green</green>
+    <brown>Brown</brown>
+    <purple>Purple</purple>
+    <yellow>Yellow</yellow>
+    <teal>Teal</teal>
+    <plum>Plum</plum>
+    <red>Red</red>
+    <aqua>Aqua</aqua>
+    <aquamarine>Aquamarine</aquamarine>
+    <orchid>Orchid</orchid>
+    <pink>Pink</pink>
+    <silver>Silver</silver>
+    <white>White</white>
+    <gray>Gray</gray>
+    <lemon>Lemon</lemon>
+  </colors>
+  <title>
+    <new_email>* ข้อความอีเมล์ใหม่</new_email>
+    <new_im>* New message from %s</new_im>
+    <new_reminder>* แจ้งเตือน: %s</new_reminder>
+    <cerror>! Communication Error</cerror>
+  </title>
+  <audio>
+    <player>Player</player>
+  </audio>
+  <signature>
+    <none>ไม่ใส่ลายเซ็น</none>
+    <alias>From Address</alias>
+    <newmsg>New Messages</newmsg>
+    <oldmsg>Replies</oldmsg>
+    <signature>ลายเซ็น</signature>
+    <variable>Insert Variable</variable>
+  </signature>
+  <alias>
+    <add>Add new Alias</add>
+    <notify>Confirmation message has been sent.</notify>
+    <instructions>Confirmation request will be sent to email address above. Please check it for further instructions.</instructions>
+  </alias>
+  <notify>
+    <title>Notification Details</title>
+    <to_all>Notify everyone with access to this folder</to_all>
+    <copy>Notify also</copy>
+    <comment>Comment (optional), which will be sent to users you wanted to notify of changes</comment>
+    <success>Notification sent</success>
+  </notify>
+  <datagrid>
+    <nomessages>No Messages</nomessages>
+    <noitems>ไม่มีรายการ</noitems>
+  </datagrid>
+  <itemview>
+    <preview>ตัวอย่าง</preview>
+    <down>ด้านล่าง</down>
+    <right>ด้านขวา</right>
+    <none>ปิด</none>
+    <noitem>ไม่มีรายการ</noitem>
+    <message_to>Message to: %s</message_to>
+    <doc_revisions>Document Revisions</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Search Wizard</wizard>
+    <since>ตั้งแต่วันที่</since>
+    <until>ถึงวันที่</until>
+    <contains>ทุกที่</contains>
+    <fulltext>Fulltext</fulltext>
+    <makefolder>สร้าง Search Folder</makefolder>
+    <contact_note>Note</contact_note>
+  </search>
+  <search_hints>
+    <folder>ค้นหารายการจากโฟลเดอร์ที่ระบุ</folder>
+    <from>ใช้เพื่อระบุผู้ส่ง (from:Amy)</from>
+    <to>ใช้เพื่อระบุผู้รับ (to:David)</to>
+    <subject>ค้นหาคำในบรรทัดเรื่อง (subject:Dinner)</subject>
+    <or>logical operator</or>
+    <not>logical operator</not>
+    <hasattachment>ค้นหาข้อความที่มีสิ่งที่แนบมาด้วย</hasattachment>
+    <isflagged>ค้นหาข้อความที่มีการทำเครื่องหมาย</isflagged>
+    <isunread>ค้นหาข้อความที่ยังไม่ได้อ่าน</isunread>
+    <isread>ค้นหาข้อความที่อ่านแล้ว</isread>
+    <isdone>ค้นหาภารกิจที่ทำแล้ว</isdone>
+    <cc>ใช้เพื่อระบุผู้รับในสำเนาถึง:เขตข้อมูล</cc>
+    <bcc>ใช้เพื่อระบุผู้รับในสำเนาซ่อน: เขตข้อมูล</bcc>
+    <sms>ใช้เพื่อระบุผู้รับใน SMS: เขตข้อมูล</sms>
+    <after>ค้นหาข้อความที่ส่งหลังจากเวลาที่กำหนด(หลังจาก:2004/04/16)</after>
+    <after_e>ค้นหารายการเริ่มต้นหลังจากเวลาที่กำหนด(หลังจาก:2004/04/16)</after_e>
+    <after_f>ค้นหารายการแก้ไขได้หลังจากเวลาที่กำหนด (หลังจาก:2004/04/16)</after_f>
+    <after_t>ค้นหารายการที่สิ้นสุดหลังจากเวลาที่กำหนด (หลังจาก:2004/04/16)</after_t>
+    <after_j>ค้นหารายการเริ่มต้นหลังจากเวลาที่กำหนด (หลังจาก:2004/04/16)</after_j>
+    <before>ค้นหาข้อความที่ส่งก่อนเวลาที่ระบุ (ก่อน:2004/04/16)</before>
+    <before_e>ค้นหารายการเริ่มต้นก่อนเวลาที่ระบุ (ก่อน:2004/04/16)</before_e>
+    <before_f>ค้นหารายการแก้ไขก่อนเวลาที่ระบุ (ก่อน:2004/04/16)</before_f>
+    <before_t>ค้นหารายการจบก่อนเวลาที่ระบุ (ก่อน:2004/04/16)</before_t>
+    <before_j>ค้นหารายการเริ่มต้นก่อนเวลาที่ระบุ (ก่อน:2004/04/16)</before_j>
+    <title>ใช้ระบุชื่อรายการ (หัวข้อ:Test)</title>
+    <description>ใช้เพื่อระบุรายละเอียดหรือหมายเหตุ(รายละเอียด:Test)</description>
+    <name>ใช้เพื่อระบุผู้ติดต่อ</name>
+    <email>ใช้เพื่อระบุอีเมล์</email>
+    <keyword>ค้นหารายการที่มีแท็กที่กำหนด (แท็ก:Business)</keyword>
+    <tag>ค้นหารายการที่มีแท็กที่กำหนด (แท็ก:Business)</tag>
+    <tag2>ค้นหารายการที่มีแท็ก &quot;%s&quot; (ผู้ใช้ใน%s รายการ)</tag2>
+    <greater>ค้นหาขึ้นอยู่กับขนาดใน kB (มากกว่า:1024)</greater>
+    <smaller>ค้นหาขึ้นอยู่กับขนาดใน kB (มีขนาดเล็ก:1024)</smaller>
+    <company>ค้นหาที่อยู่ติดต่อกับบริษัท (บริษัท:IceWarp)</company>
+    <department>ค้นหาที่อยู่ติดต่อกับแผนก (แผนก:IT)</department>
+    <note>Search for a contact with some note (note:VIP)</note>
+    <location>ค้นหาที่อยู่ติดต่อกับสถานที่ตั้ง(สถานที่:London)</location>
+    <fulltext>ค้นหาข้อความแบบเต็ม(ข้อความเต็ม:test)</fulltext>
+    <priority>ค้นหาตามลำดับความสำคัญ สูงที่สุด สูง ปกติ ต่ำ ต่ำที่สุด (ลำดับความสำคัญ : สูง)</priority>
+    <isprivate>ค้นหาภารกิจที่เป็นส่วนตัว</isprivate>
+    <ispublic>ค้นหาภารกิจที่เป็นสาธารณะ</ispublic>
+    <isfree>ค้นหาภารกิจฟรี</isfree>
+    <isbusy>ค้นหาภารกิจที่ไม่ว่าง</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Search Folder</virtual>
+    <general>ทั่วไป</general>
+    <primary>โฟลเดอร์หลัก</primary>
+    <filter>Filter</filter>
+    <all>โฟลเดอร์ทั้งหมด</all>
+  </virtual>
+  <notifier>
+    <notifier>Notifier</notifier>
+    <permissions>Desktop notifications let you know when you have a new email or chat message, even if your browser is not visible.&lt;br&gt;First choose how you want to be notified. Click OK and confirm the next dialog window to enable desktop notifications.</permissions>
+    <denied>You have denied access to desktop notifications.</denied>
+    <redirect>Message redirected.</redirect>
+    <send>Message sent.</send>
+    <item_save>Item saved.</item_save>
+    <new_email>New email message for %s</new_email>
+    <new_revision>New document revision has been created.</new_revision>
+    <email_exist>Email address already exists.</email_exist>
+    <email_added>Email address has been added to contact.</email_added>
+    <contact_email_list_full>Failed to add email address, all fields are taken.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google Maps</map>
+    <go>แสดงที่อยู่</go>
+    <open>เปิด Google</open>
+    <alert>Google Maps Error</alert>
+    <g_geo_missing_address>ที่อยู่ขาดหายไป: ที่อยู่ได้ขาดหายไปหรือไม่มีค่า</g_geo_missing_address>
+    <g_geo_too_many_queries>แบบสอบถามมากมาย: geocoding โควต้ารายวันสำหรับเว็ปไซต์นี้ได้รับเกินขีดจำกัด</g_geo_too_many_queries>
+    <g_geo_server_error>Server Error: The geocoding request could not be processed.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>รายละเอียดการเข้าสู่ระบบ</login_info>
+    <licenses>Desktop Applications and Licenses</licenses>
+    <licenses_text>Get the most out of your IceWarp account. Click here for additional software downloads, activation keys, guides and syntax you need to access your calendars, contacts and Free/Busy information from compatible applications on your desktop:&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Desktop Client&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Notifier&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>นำส่ง</delivered>
+    <delivered_info>successfully delivered to local recipient</delivered_info>
+    <sent>ส่ง</sent>
+    <sent_info>successfully delivered to remote server</sent_info>
+    <queue>คิว</queue>
+    <queue_info>the message was temporarily deferred, server will try to send it later</queue_info>
+    <error>ข้อผิดพลาด</error>
+    <error_info>ตรวจสอบรายละเอียดของคุณ กล่องจดหมายสำหรับข้อความแสดงข้อผิดพลาด</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>ไฟล์ทั้งหมด</all_files>
+    <images>รูปภาพ</images>
+    <queue_limit_exceeded>คิวเกินขีดจำกัด</queue_limit_exceeded>
+    <zero_byte_file>ไฟล์ Zero Byte</zero_byte_file>
+    <invalid_filetype>ประเภทของไฟล์ไม่ถูกต้อง</invalid_filetype>
+    <item>รายการ</item>
+    <title>กำลังอัพโหลด: %s - %s%</title>
+    <error1>ไฟล์มีขนาดใหญ่เกินกว่าที่กำหนด (%sMB)</error1>
+    <error3>The uploaded file was only partially uploaded</error3>
+    <error4>No file was uploaded</error4>
+    <error6>Missing a temporary folder</error6>
+    <error7>Failed to write file to disk</error7>
+    <error8>Invalid file type</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>ข้อความสถานะ...</status_msg>
+    <add_private>ส่วนตัว</add_private>
+    <unsupported_img>ไม่รองรับประเภทรูปภาพ</unsupported_img>
+    <add_gateway>เพิ่ม Gateway</add_gateway>
+    <error_im>WebChat error</error_im>
+    <registred>เข้าสู่ระบบเรียบร้อยแล้ว</registred>
+    <registr>เข้าสู่ระบบ</registr>
+    <error_ticket>ไม่สามารถสร้างทิคเก็ต.</error_ticket>
+    <error_socket>ไม่สามารถเปิดซ็อกเก็ต</error_socket>
+    <error_bytestream>ผู้ใช้ไม่สนับสนุนไบต์ streams.</error_bytestream>
+    <error_cancel>ผู้ใช้ได้ยกเลิกการร้องขอ</error_cancel>
+    <error_registr>เซอร์วิสปฏิเสธการลงทะเบียบของคุณ</error_registr>
+    <add_service>เซอร์วิสสมาชิก</add_service>
+    <service>เซอร์วิส</service>
+    <call>โทรเดี๋ยวนี้</call>
+    <audio_call>Audio Call</audio_call>
+    <video_call>Video Call</video_call>
+    <meeting>Start WebMeeting</meeting>
+    <invite>Invite to WebMeeting</invite>
+    <closetab>ปิดแถบ</closetab>
+    <show>Show All Contacts</show>
+    <hide>Hide Offline Contacts</hide>
+    <other>Other</other>
+    <selected>เลือก</selected>
+    <chat>เปิดการสนทนา</chat>
+    <groupmsg>เปิดกลุ่มข้อความ</groupmsg>
+    <group>กลุ่ม</group>
+    <new_group>กลุ่มใหม่</new_group>
+    <subscription>รายละเอียด</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>User &lt;b&gt;%s&lt;/b&gt; has requested permission to add you to their WebChat contact list</sub_ask>
+    <send>อนุมัติการติดต่อสนทนา</send>
+    <request>คำขออนุมัติการหักบัญชี</request>
+    <remove>อนุญาตลบ</remove>
+    <remove_account>Are you sure to remove account %s from roster?</remove_account>
+    <remove_accounts>คุณแน่ใจที่จะลบบัญชีผู้ใช้ที่เลือกออกจากบัญชีรายชื่อ</remove_accounts>
+    <rem_grp>ลบกลุ่ม</rem_grp>
+    <rem_grpc>ลบกลุ่ม &amp; ผู้ติดต่อ</rem_grpc>
+    <rename>เปลี่ยนชื่อ</rename>
+    <add>เพิ่มรายชื่อ</add>
+    <jabber_id>Jabber ID</jabber_id>
+    <nick>ชื่อที่แสดง</nick>
+    <vcard>Show Contact Info</vcard>
+    <history>Show Conversation History</history>
+    <sharedesktop>Share screen</sharedesktop>
+    <tab_general>ทั่วไป</tab_general>
+    <tab_work>ทำงาน</tab_work>
+    <tab_location>ที่ตั้ง</tab_location>
+    <tab_about>เกี่ยวกับ</tab_about>
+    <send_mail>ส่งอีเมล์</send_mail>
+    <send_file>ส่งไฟล์</send_file>
+    <receive_file>รับไฟล์</receive_file>
+    <not_listed>ไม่ได้อยู่ในรายการ</not_listed>
+    <composing>WebChat: %s is composing...</composing>
+    <file_message>User sent you a file with description:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s</file_message>
+    <file_cancel>การเคลื่อนย้ายไฟล์ถูกปฎิเสธโดยผู้รับ</file_cancel>
+    <file_error>การเคลื่อนย้ายไฟล์เกิดข้อผิดพลาด</file_error>
+    <file_ok>การเคลื่อนย้ายไฟล์สมบูรณ์</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/b&gt; has sent you a file &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>แสดงหลังจากการสนทนา: %s</show_after>
+    <im_status>WebChat: %s</im_status>
+    <im>WebChat</im>
+    <sip_inprogress>Call in progress</sip_inprogress>
+    <sip_incomming>Incoming Call</sip_incomming>
+    <sip_calling>Calling</sip_calling>
+    <status_sec>%s for less than a minute</status_sec>
+    <status_min>%s for %s minute(s)</status_min>
+    <status_hour>%s for %s hour(s)</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Propose new time</propose>
+    <nosubject>ไม่มีชื่อเรื่อง</nosubject>
+    <when>เมื่อ</when>
+    <location>สถานที่</location>
+    <comment>Comment</comment>
+    <description>รายละเอียด</description>
+    <accept>ยอมรับ</accept>
+    <tentative>Tentative</tentative>
+    <decline>ปฏิเสธ</decline>
+    <skip_img>External resources have been blocked. Click here to display them.</skip_img>
+    <show_img>Message contains attached images. Click here to open preview.</show_img>
+    <smart>Attachments are delivered using IceWarp SmartAttach technology.</smart>
+    <show_raw>Open Raw Message</show_raw>
+    <certificate>ใบรับรองสาธารณะ</certificate>
+    <serror>การถอดรหัสผิดพลาด ใบรับรองหายไปหรือไม่ถูกต้อง.</serror>
+    <sverify>Unable to verify message signature</sverify>
+    <expired>Decryption error, valid but expired certificate.</expired>
+    <access>You have been granted access to &quot;%s&quot; by %s.</access>
+    <account_access>You have been granted access by %s.</account_access>
+    <subscribe>Subscribe Folder</subscribe>
+    <subscribe_account>Subscribe Account</subscribe_account>
+    <subscribed>Account %s subscribed.</subscribed>
+    <subscribed_folder>Folder &quot;%s/%s&quot; subscribed.</subscribed_folder>
+    <unsubscribe>ยกเลิกการสมัคร</unsubscribe>
+    <unsubscribed>Subscription removed for %s.</unsubscribed>
+    <unsubscribed_folder>Subscription removed for &quot;%s/%s&quot;.</unsubscribed_folder>
+    <error>ไม่สามารถดำเนินการได้</error>
+    <recurrent>Recurrent</recurrent>
+    <occurrence>Exception from recurrent event</occurrence>
+    <attendee>With</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>What&apos;s New</whatsnew>
+  </whatsnew>
+  <help>
+    <help>ช่วยเหลือ</help>
+    <about>เกี่ยวกับ</about>
+  </help>
+  <print>
+    <preview>ตัวอย่างก่อนพิมพ์</preview>
+    <opera>เบราว์เซอร์ของคุณไม่สนับสนุนคุณลักษณะนี้</opera>
+  </print>
+  <status>
+    <online>ออนไลน์</online>
+    <offline>ออฟไลน์</offline>
+    <chat>Free for Chat</chat>
+    <away>ไม่อยู่</away>
+    <xa>ไม่แน่ชัด</xa>
+    <dnd>DND</dnd>
+    <invisible>ซ่อนตัว</invisible>
+    <gone>ผู้ใช้ออกจากการสนทนา</gone>
+    <error>Error</error>
+    <sip>Online on WebPhone</sip>
+    <chat_with>Chat with %s</chat_with>
+  </status>
+  <policy>
+    <minlength>รหัสผ่านความยาวต่ำ: %s ตัวอักษร</minlength>
+    <digits>Number of numeric characters [0-9]: %s</digits>
+    <alpha>Number of alpha characters [a-Z]: %s</alpha>
+    <nonalphanum>Number of non-alphanumeric characters [!@#$%...]: %s</nonalphanum>
+    <upperalpha>Number of uppercase alpha characters [A-Z]: %s</upperalpha>
+    <useralias>รหัสผ่านไม่สามารถเหมือนกับชื่อผู้ใช้หรือนามแฝง</useralias>
+  </policy>
+  <alerts>
+    <alert>แจ้งเตือน</alert>
+    <suppress>Do not show this message again</suppress>
+    <create_revision>Unable to create revision</create_revision>
+    <password_do_not_match>รหัสผ่านไม่ตรงกัน</password_do_not_match>
+    <invalid_password>รหัสผ่านไม่ถูกต้อง</invalid_password>
+    <new_password_match>New password is the same as the old one</new_password_match>
+    <invalid_cpassword>ยืนยันรหัสผ่านไม่ตรงกัน</invalid_cpassword>
+    <folder_exist>โฟลเดอร์นี้มีอยู่แล้ว</folder_exist>
+    <create_folder>Unable to create folder &quot;%s&quot;</create_folder>
+    <rename_folder>ไม่สามารถเปลี่ยนชื่อโฟลเดอร์ได้ &quot;%s&quot; ไป &quot;%s&quot;</rename_folder>
+    <attachment_size>สิ่งที่แนบมาด้วยเกินขนาด</attachment_size>
+    <attachment_quota>Attachment quota exceeded.</attachment_quota>
+    <attachment_missing>Attachment file not found.</attachment_missing>
+    <attachment_virus>Attachment contains virus.</attachment_virus>
+    <could_not_create>Document could not be created.</could_not_create>
+    <could_not_edit>Document could not be edited.</could_not_edit>
+    <general_error>An unspecified error occured&lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>รหัสผ่านฝ่าฝืนนโยบายของรหัสผ่าน</password_policy>
+    <password_requirements>โปรดตรวจสอบข้อกำหนดต่อไปนี้และเลือกรหัสผ่านใหม่:</password_requirements>
+    <password_incorrect>Incorrect password. Please try again.</password_incorrect>
+    <message_not_sent>ข้อความไม่ได้รับการส่ง</message_not_sent>
+    <message_not_saved>ข้อความไม่ได้รับการบันทึก</message_not_saved>
+    <mailingfailed>Could not send or save the message due to server error. Please try again later.</mailingfailed>
+    <distribution_list_invalid_id>Invalid distribution list:</distribution_list_invalid_id>
+    <smtp_from_failed>ผู้ส่งต่อไปนี้ไม่ถูกยอมรับ:</smtp_from_failed>
+    <smtp_recipients_failed>เกิดความผิดพลาดที่ผู้รับ:</smtp_recipients_failed>
+    <smtp_data_not_accepted>ข้อความของคุณไม่ได้รับการยอมรับจากเซิร์ฟเวอร์</smtp_data_not_accepted>
+    <default_folder_missing>Default folder &quot;%s&quot; is missing.</default_folder_missing>
+    <no_recipient_certificate>ผู้รับใบรับรองขาดหายไป</no_recipient_certificate>
+    <recipient_certificate_expired>Recipient certificate has expired.</recipient_certificate_expired>
+    <personal_certificate>Personal certificate mismatch</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>ไม่สามารถเรียกข้อความได้</imap_null>
+    <delete_item>รายการที่เลือกไม่สามารถลบได้</delete_item>
+    <reserved_folder>Reserved folder name &quot;%s&quot;</reserved_folder>
+    <undefined>ไม่ได้ระบุข้อผิดพลาด</undefined>
+    <timezone_differ>Your time zone has changed. Select a corresponding location below to adjust the time of your calendar events.</timezone_differ>
+    <popup_blocker>Pop-up window has been blocked.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Unread</unread>
+    <contact_ok>Administrator contacted successfully</contact_ok>
+    <signup_ok>New account created successfully</signup_ok>
+    <logout>ผู้ใช้ออกจากระบบ</logout>
+    <logged_out>ผู้ใช้ออกจากระบบ</logged_out>
+    <forgot_ok>ข้อมลูประจำตัวถูกส่งไปยังที่อยู่อีเมล์ของคุณและที่อยู่อีเมล์อื่น</forgot_ok>
+    <password_change_ok>Password changed successfully</password_change_ok>
+    <close_window>You can now close this window</close_window>
+    <personality_confirmation_ok>Your email address has been confirmed.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>ผู้ใช้หรือรหัสผ่านไม่ถูกต้อง โปรดลองใหม่อีกครั้ง</invalid_login>
+    <account_disabled>ชื่อบัญชีนี้ไม่สามารถใช้ได้</account_disabled>
+    <expired>session หมดอายุ</expired>
+    <connection>ไม่สามารถติดต่อเซิร์ฟเวอร์ กรุณาตรวจสอบการเชื่อมต่ออินเตอร์เน็ตหรือติดต่อผู้ดูแลระบบของคุณ</connection>
+    <servererror>Unable to access this service. Please try again later or contact administrator.</servererror>
+    <overloaded>The server is currently overloaded. Please try again later or contact administrator.</overloaded>
+    <countdown>Will try again in %s seconds.</countdown>
+    <filenotfound>There are files missing on the server, some unexpected behaviour may occur.</filenotfound>
+    <subscribe_error>Unable to subscribe account %s.</subscribe_error>
+    <wc_disabled>WebClient ถูกปิดการใช้งาน</wc_disabled>
+    <invalid_rsa>ไม่สามารถสร้างรหัสผ่าน RSA</invalid_rsa>
+    <no_db>เกิดข้อผิดพลาดการเชื่อมต่อฐานข้อมลู</no_db>
+    <no_data>ไม่พบข้อมูล</no_data>
+    <access_error>ไม่สามารถเข้าถึงโฟลเดอร์กล่องจดหมายโปรดติดต่อผู้ดูแลระบบ</access_error>
+    <ip_mismatch>Your IP has changed, you will be logged out. To prevent this problem in the future, please access WebClient via HTTPS connection.</ip_mismatch>
+    <javatip1>Look around the screen for Java security prompts or alerts. Click Yes or Allow.</javatip1>
+    <javatip2>Contact Administrator to help you install Java on your computer, or</javatip2>
+    <javatip3>Click the Troubleshoot button below to resolve the problem now</javatip3>
+    <contactadmin>Contact Admin</contactadmin>
+    <troubleshoot>Troubleshoot</troubleshoot>
+  </error>
+  <common>
+    <all>All</all>
+    <processing>Processing</processing>
+    <loading>กำลังโหลด...</loading>
+    <sending>Sending...</sending>
+    <comment>Comment (optional)</comment>
+    <email>อีเมล์</email>
+    <folder>Folder</folder>
+    <items>รายการ</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>เลือกทั้งหมด</select_all>
+    <clear>ลบ</clear>
+    <yes>ใช่</yes>
+    <no>ไม่</no>
+    <auto>Auto</auto>
+    <disable>Disable</disable>
+    <enable>เปิดใช้งาน</enable>
+    <enabled>Enabled</enabled>
+    <show_all>Show All</show_all>
+    <previous>Previous</previous>
+    <next>Next</next>
+    <more>เพิ่มเติม ...</more>
+    <show>Show</show>
+    <hide>Hide</hide>
+    <appearance>Panel Appearance</appearance>
+    <expand>Expanded</expand>
+    <collapsed>Collapsed</collapsed>
+    <autocollapsed>Auto Collapse</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>รายการโปรด</favorites>
+    <remove>Remove from Favorites</remove>
+    <rename>เปลี่ยนชื่อทางลัด</rename>
+  </favorites>
+  <address_book>
+    <r>อ่าน</r>
+    <rw>อ่าน/เขียน</rw>
+    <rwm>อ่าน/เขียน/แก้</rwm>
+    <rwmd>อ่าน/เขียน/แก้/ลบ</rwmd>
+    <owner>เจ้าของ</owner>
+    <address_book>สมุดที่อยู่</address_book>
+    <add_recipient>Add Recipient</add_recipient>
+    <selected_addresses>ที่เลือกไว้</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>ว่างเปล่า</empty>
+    <today>วันนี้</today>
+    <this_week>สัปดาห์นี้</this_week>
+    <this_month>เดือนนี้</this_month>
+    <yesterday>Yesterday</yesterday>
+    <tomorrow>Tomorrow</tomorrow>
+    <typetoadd>Type to Add</typetoadd>
+    <owner>Owner</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>- มาตรฐาน -</timezones>
+    <serverzone>เวลาเซิร์ฟเวอร์</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Do you wish to clear the auto-complete list?</clear_autosuggest>
+    <suppress>Do not ask me again</suppress>
+    <reset_password_subject>Password reset for account %email%</reset_password_subject>
+    <reset_password>Hello %username%,&#13;&#10;&#13;&#10;Did you request a password reset for your account (%email%) in WebClient?&#13;&#10;&#13;&#10;Click the link below (or copy and paste it to your browser) to confirm that this email address belongs to you.&#13;&#10;&#13;&#10;If you didn&apos;t make this request or have received this message in error, please ignore it.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Confirm new From address of: %username%</alias_subject>
+    <alias_confirmation>Hello %username%,&#13;&#10;&#13;&#10;Did you request to add (%email%) as a new From address in WebClient?&#13;&#10;&#13;&#10;Click the link below (or copy and paste it to your browser) to confirm that this email address belongs to you.&#13;&#10;&#13;&#10;If you didn&apos;t make this request or have received this message in error, please ignore it.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>เพื่อป้องกันการสูญเสียข้อมลูโปรดตรวจสอบว่าทุกรายการที่เปิดและแบบร่างได้รับการบันทึกข้อความ</unload>
+    <expired>เซสชั่น หมดอายุ</expired>
+    <no_mobile>ไม่พบหมายเลข</no_mobile>
+    <expired_msg>Unable to send or save unfinished messages. Your IP has been changed or the session expired.</expired_msg>
+    <delete_account_confirmation>Remove account confirmation</delete_account_confirmation>
+    <delete_account>Are you sure to remove account %s?</delete_account>
+    <recover_item>คุณแน่ใจที่จะกู้คืนรายการที่คุณเลือก?</recover_item>
+    <delete_folder_confirmation>ยืนยันการลบโฟล์เดอร์</delete_folder_confirmation>
+    <delete_folder>Are you sure to delete folder &quot;%s&quot;?&lt;br/&gt;(All subfolders will be permanently deleted)</delete_folder>
+    <delete_item_confirmation>ยืนยันการลบรายการ</delete_item_confirmation>
+    <delete_item>คุณแน่ใจที่จะลบรายการที่เลือกไว้?</delete_item>
+    <delete_avatar>Current contact picture will be deleted</delete_avatar>
+    <blacklist_sender_confirmation>Blacklist confirmation</blacklist_sender_confirmation>
+    <blacklist_sender>ต้องการ Blacklist ผู้ส่งที่เลือกไว้หรือไม่</blacklist_sender>
+    <blacklist_domain>Are you sure to blacklist all items from this domain?</blacklist_domain>
+    <blacklisted>Sender has been blacklisted</blacklisted>
+    <whitelist_sender_confirmation>Whietlist confirmation</whitelist_sender_confirmation>
+    <whitelist_sender>ต้องการ Whitelist ผู้ส่งที่เลือกไว้หรือไม่</whitelist_sender>
+    <whitelist_domain>Are you sure to whitelist all items from this domain?</whitelist_domain>
+    <whitelisted>Sender has been whitelisted</whitelisted>
+    <empty_folder_confirmation>ยืนยันการล้างโฟล์เดอร์</empty_folder_confirmation>
+    <empty_folder>คุณแน่ใจที่จะลบรายการในโฟลเดอร์ทั้งหมด?</empty_folder>
+    <empty_to_trash>คุณแน่ใจที่จะย้ายรายการในโฟลเดอร์ทั้งหมดไปที่ถังขยะ</empty_to_trash>
+    <save_title>บันทึกข้อความ</save_title>
+    <save_confirmation>ข้อความไม่ได้บันทึก คุณต้องการบันทึกข้อความแบบร่างหรือไม่</save_confirmation>
+    <save_file>File has been modified. Save the changes?</save_file>
+    <save>บันทึก</save>
+    <discard>Discard</discard>
+    <create_reading_confirmation_title>ยืนยันการอ่านข้อความ</create_reading_confirmation_title>
+    <create_reading_confirmation>ผู้ส่งขอให้ทำการยืนยัน ว่าได้อ่านจดหมายเรียบร้อยแล้ว, คุณต้องการยืนยันการอ่านจดหมายหรือไม่?</create_reading_confirmation>
+    <send_reading_confirmation>Ask recipient for reading confirmation?</send_reading_confirmation>
+    <browser_warning_title>แจ้งตือน</browser_warning_title>
+    <browser_warning_text_unsupported>Your current browser is NOT OFFICIALLY SUPPORTED by IceWarp WebClient.&#13;&#10;&#13;&#10;Please note that the performance of WebClient with your current browser could be extremely slow or inoperable.&#13;&#10;&#13;&#10;WebClient has been optimized for use with Firefox 4.0 (or higher) and Internet Explorer 8.0 (or higher). We strongly recommend that you upgrade to the latest version of Internet Explorer or install Mozilla Firefox (both are free).&#13;&#10;&#13;&#10;For the latest version of Firefox visit:&#13;&#10; http://www.firefox.com/&#13;&#10;For the latest version of Internet Explorer visit:&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;Press OK to continue or press Cancel to switch to WebClient Tablet interface.</browser_warning_text_unsupported>
+    <expired_password>รหัสผ่านของคุณหมดอายุแล้ว กรุณาเปลี่ยนรหัสผ่านของคุณตอนนี้</expired_password>
+    <authentication>Authentication Failure</authentication>
+    <authenticate>For security reasons, you need to authenticate again.</authenticate>
+    <enterpass>Enter your password and sign in to continue your work, or log out to exit.</enterpass>
+    <secure>To prevent this problem in the future, please access WebClient via HTTPS connection.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>ภาษาจะถูกเปลี่ยนหลังจากที่คุณออกจากระบบแล้วเข้าระบบมาใหม่</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Open in separate window</open_in_separate_window>
+    <help_restriction>This feature is currently not enabled by administrator</help_restriction>
+    <switch_older>Switch to previous version of WebClient</switch_older>
+    <choose_interface>Choose your preferred interface</choose_interface>
+    <choose_lang>Choose your language</choose_lang>
+    <migration_in_progress>Migration in progress, please try again later</migration_in_progress>
+    <message_sent>Your message has been delivered</message_sent>
+    <message_send_failed>Message failed to send</message_send_failed>
+    <antispam_code_error>Security code is incorrect</antispam_code_error>
+    <antispam>Security code</antispam>
+    <contact_support_subject>New contact request from login screen</contact_support_subject>
+    <text>Text</text>
+    <contact_administrator>Contact us for support</contact_administrator>
+    <contact_question>Need help?</contact_question>
+    <contact_answer>Contact our administrator</contact_answer>
+    <contact_1>Contact our</contact_1>
+    <contact_2>administrator</contact_2>
+    <contact_placeholder_1>Your e-mail or phone</contact_placeholder_1>
+    <contact_placeholder_2>Describe your problem</contact_placeholder_2>
+    <help>Audio help</help>
+    <meeting_me>Me</meeting_me>
+    <meeting_hang_up_confirmation>Do you really want to leave the meeting?</meeting_hang_up_confirmation>
+    <online_meeting>WebMeeting</online_meeting>
+    <meeting_connected>Connected</meeting_connected>
+    <meeting_connecting>Connecting...</meeting_connecting>
+    <phone_access>Phone Access</phone_access>
+    <meeting_chat_ready>Welcome to the WebMeeting! Group chat is ready.</meeting_chat_ready>
+    <meeting_chat_send>Send</meeting_chat_send>
+    <meeting_user_left_meeting>User &quot;%s&quot; has left the meeting</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>User &quot;%s&quot; has joined the meeting</meeting_user_joined_meeting>
+    <meeting_no_participants>No participants</meeting_no_participants>
+    <meeting_server_not_responding>Server is not responding</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Connection successful</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Audio applet cannot be started. If there&apos;s a browser confirmation dialog, confirm to allow the Java applet to run. In some cases, restarting your browser can help. You can check for the latest version of Java and that it&apos;s properly installed by visiting &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>Duration</duration>
+    <mute>Mute</mute>
+    <desktop_sharing_id>Screen Sharing Session ID</desktop_sharing_id>
+    <conference_phone_number>WebMeetings phone number</conference_phone_number>
+    <desktop_sharing_app>Screen-sharing application</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>We are sorry, screen sharing directly from web is not working for mobile devices. At the link below you can find an app for that.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>We are sorry, screen sharing directly from web is not working on Mac. You&apos;ll need to install an application from the link below.</desktop_sharing_mac_warning>
+    <continue_to_call>Continue to call</continue_to_call>
+    <meeting_api_unexpected_response>Unexpected API response</meeting_api_unexpected_response>
+    <applet_unreachable>Java applet is unreachable</applet_unreachable>
+    <sip_applet_load_failed>Audio applet failed to load</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Get meeting info failed</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>Screen-sharing session has ended, but audio is still active</meeting_mikogo_ended>
+    <meeting_ended>WebMeeting ended</meeting_ended>
+    <meeting_hang_up>Hang up</meeting_hang_up>
+    <meeting_id>Meeting ID</meeting_id>
+    <meeting_mikogo_ready>Screen sharing is ready</meeting_mikogo_ready>
+    <meeting_sip_ready>Audio is ready</meeting_sip_ready>
+    <meeting_call_failed>Call failed</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Invite timeout. Trying again in %s sec.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Trying again in %s sec.</meeting_trying_again_in>
+    <meeting_preparing_sip>Preparing audio</meeting_preparing_sip>
+    <meeting_starting_sip>Starting audio</meeting_starting_sip>
+    <meeting_waiting_for_reply>Audio applet is waiting for server response</meeting_waiting_for_reply>
+    <meeting_in_progress>Meeting in progress</meeting_in_progress>
+    <meeting_you_can_join>You can now join the WebMeeting</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Meeting applet is not ready</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>No meeting applet code in response</meeting_no_applet_code>
+    <meeting_unexpected_response>Unexpected response from meeting applet</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Your browser doesn&apos;t support WebMeetings</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>Chrome browser will provide the best experience. You will be redirected to the setup guide.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>The WebMeeting hasn&apos;t started yet</meeting_meeting_wasnt_started>
+    <meeting_waiting>Waiting for %s to start the WebMeeting</meeting_waiting>
+    <meeting_created_by_ready>WebMeeting created by %s is ready</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Loading meeting data</meeting_loading_meeting_info>
+    <unknown_error>Unknown error</unknown_error>
+    <meeting_no_name>Please enter your name or nickname</meeting_no_name>
+    <meeting_api_error_104>Invalid Meeting ID</meeting_api_error_104>
+    <meeting_api_error_description_104>The meeting address doesn&apos;t exist or is incomplete</meeting_api_error_description_104>
+    <meeting_api_error_111>This service is disabled</meeting_api_error_111>
+    <meeting_api_error_120>Could not connect to the remote server</meeting_api_error_120>
+    <meeting_api_error_125>Server doesn&apos;t have a valid license for WebMeetings</meeting_api_error_125>
+    <meeting_id_doesnt_exist>Meeting ID doesn&apos;t exist</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Microphone not available</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Access to microphone is disabled or it is not connected. Do you wish to continue without microphone?</meeting__no_microphone_continue>
+    <fill_in_name>Enter your name</fill_in_name>
+    <fill_in_email>Enter your email address</fill_in_email>
+    <join_meeting>Join WebMeeting</join_meeting>
+    <already_a_member>Already a member</already_a_member>
+    <name>Name</name>
+    <enter_your_name>Enter your name</enter_your_name>
+    <enter_your_name_description>This name will be visible to other participants and used to identify you during the WebMeeting</enter_your_name_description>
+    <cancel>Cancel</cancel>
+    <login_caption>ยินดีต้อนรับ IceWarp WebMail</login_caption>
+    <copy>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy>
+    <copy_new>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>IceWarp WebClient</title>
+    <user>ชื่อผู้ใช้</user>
+    <email>อีเมล์</email>
+    <pass>รหัสผ่าน</pass>
+    <old_pass>รหัสผ่านเดิม</old_pass>
+    <new_pass>รหัสผ่านใหม่</new_pass>
+    <check_pass>ยืนยันรหัสผ่าน</check_pass>
+    <change_password>เปลี่ยนรหัสผ่าน</change_password>
+    <remember>จำค่าเข้าสู่ระบบ</remember>
+    <save0>ลงชื่อเข้าใช้อัตโนมัติ</save0>
+    <save1>บันทึกชื่อและรหัสผ่าน</save1>
+    <save2>บันทึกชื่อ</save2>
+    <save3>ถามชื่อและรหัสผ่านทุกครั้ง</save3>
+    <login>ลงชื่อเข้าใช้</login>
+    <send>ส่ง</send>
+    <create_account>สร้างชื่อบัญชี</create_account>
+    <switch>Switch to &lt;a href=&quot;./basic&quot;&gt;Tablet&lt;/a&gt; or &lt;a href=&quot;./pda&quot;&gt;Mobile&lt;/a&gt; interface.</switch>
+    <downloads>ดาวน์โหลด</downloads>
+    <interface>การเชื่อมต่อ</interface>
+    <basic>Tablet</basic>
+    <pda>Mobile</pda>
+    <pro>Desktop</pro>
+    <osx>Mac OS X</osx>
+    <lang>ภาษา</lang>
+    <keep_me_signed>Remember me</keep_me_signed>
+    <utilities>Tools</utilities>
+    <pw_policy_minlength>รหัสผ่านความยาวต่ำ</pw_policy_minlength>
+    <pw_policy_digits>จำนวนตัวอักษรที่เป็นตัวเลขในรหัสผ่าน [0-9]</pw_policy_digits>
+    <pw_policy_alpha>จำนวนตัวอักษรอัลฟาในรหัสผ่าน[a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>จำนวนตัวอักษรที่ไม่ใช่ตัวเลขและตัวอักษรในรหัสผ่าน [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>รหัสผ่านตรวจสอบกับชื่อผู้ใช้และนามแฝงเปิดการใช้งาน</pw_policy_useralias>
+    <pw_policy_uppercase>จำนวนตัวอักษรอัลฟาเป็นตัวพิมพ์ใหญ่ [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>Display virtual keyboard</virtual_keyboard_01>
+    <virtual_keyboard_02>เลือกเค้าโครงคีย์บอร์ด</virtual_keyboard_02>
+    <virtual_keyboard_04>เปิด</virtual_keyboard_04>
+    <virtual_keyboard_05>ปิด</virtual_keyboard_05>
+    <virtual_keyboard_06>ปิดคีย์บอร์ด</virtual_keyboard_06>
+    <virtual_keyboard_07>ล้าง</virtual_keyboard_07>
+    <virtual_keyboard_08>ล้างข้อมูล</virtual_keyboard_08>
+    <virtual_keyboard_10>ลดขนาดคีย์บอร์ด</virtual_keyboard_10>
+    <virtual_keyboard_11>เพิ่มขนาดคีย์บอร์ด</virtual_keyboard_11>
+    <js_problem>ไม่สามารถดำเนินงาน JavaScript</js_problem>
+    <public_calendar>ปฏิทินสาธารณะ</public_calendar>
+    <login_to_pro>Login to Desktop interface</login_to_pro>
+    <login_to_basic>Login to Tablet interface</login_to_basic>
+    <login_to_pda>Login to Mobile interface</login_to_pda>
+    <js_turned_off_message_text>For the best user experience and advanced features, we recommend Desktop interface. This requires JavaScript capability. Verify that JavaScript is enabled in browser settings, or continue to the</js_turned_off_message_text>
+    <js_turned_off_message_link>Tablet interface</js_turned_off_message_link>
+    <learn_more>Learn more about all features</learn_more>
+    <learn_more_short>Learn more</learn_more_short>
+    <login_back>Back to login</login_back>
+    <changepwd>Change your&lt;br/&gt; password</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Desktop</advanced>
+    <basic>Tablet</basic>
+  </login_client>
+  <login_style>
+    <gray>Gray</gray>
+    <white>สีขาว</white>
+    <black>สีดำ</black>
+    <red>สีแดง</red>
+    <yellow>สีเหลือง</yellow>
+    <green>สีเขียว</green>
+    <blue>สีฟ้า</blue>
+    <purple>สีม่วง</purple>
+    <orange>สีส้ม</orange>
+    <brown>สีน้ำตาล</brown>
+    <pink>สีชมพู</pink>
+  </login_style>
+  <skin_style>
+    <default>Blue</default>
+    <black>Black</black>
+    <brown>Brown</brown>
+    <graphite>Graphite</graphite>
+    <green>Green</green>
+    <orange>Orange</orange>
+    <pink>Pink</pink>
+    <purple>Purple</purple>
+    <red>Red</red>
+    <yellow>Yellow</yellow>
+  </skin_style>
+  <sign_up>
+    <question>Don&apos;t have an account yet?</question>
+    <answer>Create an account</answer>
+    <sign_up>สมัคร</sign_up>
+    <create_account>ใส่ชื่อบัญชีใหม่</create_account>
+    <fullname>Full name</fullname>
+    <domain>โดเมน</domain>
+    <username>ชื่อผู้ใช้</username>
+    <alternative>Alternate email</alternative>
+    <captcha_error>Invalid security code</captcha_error>
+    <pass_error>รหัสผ่านที่ระบุไม่ได้รับการยอมรับ</pass_error>
+    <incorrect_error>ชื่อผู้ใช้หรือนามแฝงไม่ถูกต้อง</incorrect_error>
+    <exists_error>มีบัญชีผู้ใช้นี้อยู่แล้ว</exists_error>
+    <error>ไม่สามารถสร้างบัญชีผู้ใช้ใหม่ได้</error>
+    <account_created>ชื่อบัญชีได้ถูกสร้างเรียบร้อยแล้ว</account_created>
+    <invalid_cpass>รหัสผ่านไม่ถูกต้อง</invalid_cpass>
+    <confirm_pass>ยืนยัน</confirm_pass>
+    <password_change>Password change</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Forgot your password?</question>
+    <question_br>Forgot your&lt;br/&gt; password?</question_br>
+    <title>Reset your&lt;br&gt; password</title>
+    <answer>Reset it</answer>
+    <generate>Double-click for new security code</generate>
+    <captcha>Type the code shown</captcha>
+    <captcha_error>Invalid security code</captcha_error>
+    <security_code>Security code</security_code>
+    <reset_pass>Reset Password</reset_pass>
+    <enter_alt_pass>Your login information will be sent to your email address and alternate email address if it exists</enter_alt_pass>
+    <reset_send>Your login information has been sent to email address(es) below:</reset_send>
+    <reset_error>Specified account does not exist or its password cannot be retrieved</reset_error>
+    <subject>Password reset for account %EMAIL%</subject>
+    <email>Hello %FULLNAME%,&#13;&#10;&#13;&#10;Did you request a password reset for your account (%EMAIL%) in WebClient?&#13;&#10;&#13;&#10;Click the link below (or copy and paste it to your browser) to confirm that this email address belongs to you.&#13;&#10;%URL%&#13;&#10;&#13;&#10;If you didn&apos;t make this request or have received this message in error, please ignore it.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Name already exists</duplicity>
+    <label>Document with the same name &quot;%s&quot; already exists.</label>
+    <suggested_name>Suggested name</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Processing</processing>
+    <step1>1) เลือกรูปแบบ</step1>
+    <step2>2) เลือก Folder ปลายทาง</step2>
+    <step3>3) เลือกประเภทคอลัมน์สำหรับการนำเข้า</step3>
+    <step1e>Select source contact folder</step1e>
+    <step2e>Select export type</step2e>
+    <step_date>Select Date format</step_date>
+    <default_date>Default</default_date>
+    <charset>Character set</charset>
+    <skipfirst>ข้ามบรรทัดแรกใน CSV</skipfirst>
+    <email1>อีเมล์ 1</email1>
+    <email2>อีเมล์ 2</email2>
+    <email3>อีเมล์ 3</email3>
+    <phone1>Phone 1</phone1>
+    <phone2>Phone 2</phone2>
+    <phone3>Phone 3</phone3>
+    <phone4>Phone 4</phone4>
+    <phone_type1>Phone Type 1</phone_type1>
+    <phone_type2>Phone Type 2</phone_type2>
+    <phone_type3>Phone Type 3</phone_type3>
+    <phone_type4>Phone Type 4</phone_type4>
+    <import_successful>นำเข้าข้อมูลสำเร็จ</import_successful>
+    <import_unsuccessful>Import failed</import_unsuccessful>
+    <import_finished>Import completed. %s items were skipped due to an error.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>อัตโนมัติ</auto>
+    <load>Load</load>
+    <import>นำเข้า</import>
+    <export>ส่งออก</export>
+    <unknown_ext>ไม่ทราบนามสกุล</unknown_ext>
+    <download_csv_file>ดาวน์โหลดไฟล์ CSV กับรายการปฏิทิน</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>ดาวน์โหลด</download_file>
+    <select_col>เลือกคอลัมน์สำหรับนำเข้า</select_col>
+    <select_email>เลือกอย่างน้อยหนึ่งอีเมล์</select_email>
+    <gw_xml_file>XML with GroupWare backup</gw_xml_file>
+    <comma>CSV - Comma (,)</comma>
+    <semicolon>CSV - Semicolon (;)</semicolon>
+    <colon>CSV - Colon (:)</colon>
+    <sharing>โหมดที่ใช้ร่วมกัน</sharing>
+    <import_info>Supported file formats for upload</import_info>
+    <import_info_itm>CSV (comma, colon, semicolon separated), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>License</license>
+    <licenses>Licenses</licenses>
+    <out>Outlook Sync</out>
+    <desk>Desktop Client</desk>
+    <download>ดาว์นโหลด</download>
+    <key>Product Activation Key (use Copy &amp; Paste)</key>
+    <nokey>Activation key for this application is not available. Contact your administrator for details.</nokey>
+  </license>
+  <devices>
+    <device>Device</device>
+    <device_model>Device Model</device_model>
+    <device_type>Device Type</device_type>
+    <protocol>Protocol</protocol>
+    <registered>Registered</registered>
+    <lastsync>Last Sync</lastsync>
+    <factory>Reset to Factory Settings</factory>
+    <wipe>Remote Wipe</wipe>
+    <wiping>Remote Wipe in Progress</wiping>
+    <nowipe>Remote Wipe Not Supported</nowipe>
+    <reset>Reset Wipe</reset>
+    <delete_confirmation>Deleting the device from the list will cause data resynchronization upon the next connection (useful if the device stopped updating). If you instead want to erase all user/account data from the device, go to device Properties and click Remote Wipe.&lt;br/&gt;&lt;br/&gt;Are you sure to delete the device(s) from the list?</delete_confirmation>
+    <wipe_confirmation>Remote Wipe will delete all user/account data from the device (and storage cards) and will reset the device to factory settings. The device must have a working internet connection.&lt;br/&gt;&lt;br/&gt;Are you sure to continue?</wipe_confirmation>
+    <options>Device Options</options>
+    <folders>Folders</folders>
+    <sync>Synchronizaton</sync>
+    <private_folders>Private Folders</private_folders>
+    <special_folders>Special Folders</special_folders>
+    <gw_folders>GroupWare Folders</gw_folders>
+    <mail_folders>Mail Folders</mail_folders>
+    <archive>Archive</archive>
+    <public>Public Folders</public>
+    <shared>Shared Folders</shared>
+    <past_mail>Past Mail items</past_mail>
+    <past_calendar>Past Calendar events</past_calendar>
+    <sync_tase>Sync Tasks as Calendar events</sync_tase>
+    <sync_note>Sync Notes as</sync_note>
+    <all_folders>All folders</all_folders>
+    <all_folders_mail>All with GroupWare as email</all_folders_mail>
+    <default_only>Default folders only</default_only>
+    <sync_all>All</sync_all>
+    <one_day>One day</one_day>
+    <three_days>Three days</three_days>
+    <one_week>One week</one_week>
+    <two_weeks>Two weeks</two_weeks>
+    <one_month>One month</one_month>
+    <three_months>Three months</three_months>
+    <six_months>Six months</six_months>
+    <inc_tasks>Incomplete tasks only</inc_tasks>
+    <new_cfolders>New calendar folder</new_cfolders>
+    <merge_taks>Merge to default calendar</merge_taks>
+    <events>Events</events>
+    <tasks>ภารกิจ</tasks>
+    <inotes>Tasks &amp; Notes (Android app)</inotes>
+    <new_folders>New folder</new_folders>
+    <merge_default>Merge to default folder</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Folder Panel</leftpanel>
+    <rightpanel>WebChat Panel</rightpanel>
+    <share>Share</share>
+    <new_document>สร้างเอกสาร</new_document>
+    <new_message>New from Template</new_message>
+    <devices>อุปกรณ์พกพา</devices>
+    <vcard>ข้อมูลส่วนตัว</vcard>
+    <basic>ใช้ Tablet Interface</basic>
+    <old_client>ใช้ Old Interface</old_client>
+    <search>ค้นหา</search>
+    <filter>Filter</filter>
+    <new>สร้าง</new>
+    <print>พิมพ์</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>ตั้งค่าระบบ</settings>
+    <accounts>ชื่อบัญชี</accounts>
+    <logout>Logout</logout>
+    <logout_title>Ctrl+Click to Logout</logout_title>
+    <update>อัพเดท</update>
+    <compose>จดหมายใหม่</compose>
+    <new_contact>ผู้ติดต่อ</new_contact>
+    <new_template>Message Template</new_template>
+    <new_distrib_list>กลุ่มผู้ติดต่อ</new_distrib_list>
+    <new_event>ตำแหน่ง</new_event>
+    <new_journal>บันทึกประจำวัน</new_journal>
+    <new_note>โน๊ต</new_note>
+    <new_task>ภารกิจ</new_task>
+    <new_file>เอกสาร</new_file>
+    <new_upload>Upload File</new_upload>
+    <new_word>Word Document</new_word>
+    <new_excel>Excel Spreadsheet</new_excel>
+    <new_ppoint>PowerPoint Presentation</new_ppoint>
+    <new_text>Text Document</new_text>
+    <new_html>HTML Document</new_html>
+    <new_folder>Folder</new_folder>
+    <reply_to_sender>ตอบ</reply_to_sender>
+    <reply_to_all>ตอบทั้งหมด</reply_to_all>
+    <reply_to_sender_t>Reply with Template</reply_to_sender_t>
+    <reply_to_all_t>Reply to All with Template</reply_to_all_t>
+    <forward>ส่งต่อ</forward>
+    <delete>ลบ</delete>
+    <empty_folder>ล้างโฟล์เดอร์</empty_folder>
+    <day_view>วัน</day_view>
+    <week_view>สัปดาห์</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>เดือน</month_view>
+    <dial>โทรศัพท์</dial>
+    <sms>ส่ง SMS</sms>
+    <calls>Call</calls>
+    <conference>WebMeeting</conference>
+    <contacts_list>รายการ</contacts_list>
+    <events_list>รายการ</events_list>
+    <address_card>นามบัตร</address_card>
+    <tasks_lists>รายการ</tasks_lists>
+    <tasks_detailed>รายละเอียด</tasks_detailed>
+    <active_tasks>งานที่ค้างอยู่</active_tasks>
+    <journal_day_view>วัน</journal_day_view>
+    <journal_week_view>สัปดาห์</journal_week_view>
+    <journal_month_view>เดือน</journal_month_view>
+    <journal_list>รายการ</journal_list>
+    <notes_list>รายการ</notes_list>
+    <options>ตัวเลือก</options>
+    <admin_options>ตัวเลือก ผู้ดูแลระบบ</admin_options>
+    <domain_options>ตัวเลือกโดเมน</domain_options>
+    <tools>เครื่องมือ</tools>
+    <deliver>ส่ง</deliver>
+    <quarantine>Quarantine</quarantine>
+    <black_list>ย้ายไป Blacklist</black_list>
+    <white_list>ย้ายไป Whitelist</white_list>
+    <black_listed>Blacklisted</black_listed>
+    <white_listed>Whietlisted</white_listed>
+    <rules>Rules</rules>
+    <help>ช่วยเหลือ</help>
+  </main_menu>
+  <short_days>
+    <monday>จ.</monday>
+    <tuesday>อ.</tuesday>
+    <wednesday>พ.</wednesday>
+    <thursday>พฤ.</thursday>
+    <friday>ศ.</friday>
+    <saturday>ส.</saturday>
+    <sunday>อา.</sunday>
+  </short_days>
+  <days>
+    <monday>วันจันทร์</monday>
+    <tuesday>วันอังคาร</tuesday>
+    <wednesday>วันพุธ</wednesday>
+    <thursday>วันพฤหัสบดี</thursday>
+    <friday>วันศุกร์</friday>
+    <saturday>วันเสาร์</saturday>
+    <sunday>วันอาทิตย์</sunday>
+  </days>
+  <months>
+    <january>มกราคม</january>
+    <february>กุมภาพันธ์</february>
+    <march>มีนาคม</march>
+    <april>เมษายน</april>
+    <may>พฤษภาคม</may>
+    <june>มิถุนายน</june>
+    <july>กรกฎาคม</july>
+    <august>สิงหาคม</august>
+    <september>กันยายน</september>
+    <october>ตุลาคม</october>
+    <november>พฤศจิกายน</november>
+    <december>ธันวาคม</december>
+  </months>
+  <short_months>
+    <january>Jan</january>
+    <february>Feb</february>
+    <march>Mar</march>
+    <april>Apr</april>
+    <may>May</may>
+    <june>Jun</june>
+    <july>Jul</july>
+    <august>Aug</august>
+    <september>Sep</september>
+    <october>Oct</october>
+    <november>Nov</november>
+    <december>Dec</december>
+  </short_months>
+  <dates>
+    <every>Every</every>
+    <secondly>second</secondly>
+    <minutely>minute</minutely>
+    <hour>hour</hour>
+    <day>day</day>
+    <weeks>weeks</weeks>
+    <month>month</month>
+    <year>year</year>
+    <the>the</the>
+    <first>first</first>
+    <last>last</last>
+    <second>second</second>
+    <third>third</third>
+    <fourth>fourth</fourth>
+    <firth>fifth</firth>
+    <postfix>th</postfix>
+    <except>except</except>
+    <on>on</on>
+    <mondays>Mondays</mondays>
+    <tuesdays>Tuesdays</tuesdays>
+    <wednesdays>Wednesdays</wednesdays>
+    <thursdays>Thursdays</thursdays>
+    <fridays>Fridays</fridays>
+    <saturdays>Saturdays</saturdays>
+    <sundays>Sundays</sundays>
+    <yearday>day of the year</yearday>
+    <in>in</in>
+    <week>week</week>
+    <week2>สัปดาห์</week2>
+    <at>at</at>
+    <and>and</and>
+    <from>from</from>
+    <until>until</until>
+    <times>repeating %s times</times>
+  </dates>
+  <form_buttons>
+    <revision>Make Revision</revision>
+    <skip>Skip</skip>
+    <refresh>ฟื้นฟู</refresh>
+    <retrieve>เรียกดู</retrieve>
+    <inherit>รับช่วง</inherit>
+    <accept>ยอมรับ</accept>
+    <decline>ปฏิเสธ</decline>
+    <ok>ตกลง</ok>
+    <close>Close</close>
+    <retry>ลองใหม่</retry>
+    <test>ทดลอง</test>
+    <cancel>ยกเลิก</cancel>
+    <rename>Rename</rename>
+    <rewrite>Rewrite</rewrite>
+    <rewrite_all>Rewrite All</rewrite_all>
+    <save>Save</save>
+    <dont>ไม่</dont>
+    <add>เพิ่ม</add>
+    <edit>แก้ไข</edit>
+    <find>Find</find>
+    <add_file>เพิ่มไฟล์</add_file>
+    <add_item>เพิ่มรายการ</add_item>
+    <remove>ลบออก</remove>
+    <address_book>Address Book</address_book>
+    <search>ค้นหา</search>
+    <new_folder>โฟล์เดอร์ใหม่</new_folder>
+    <map_it>Show on Map</map_it>
+    <sign_in>Sign in</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>โฟลเดอร์หลัก</step1>
+    <create_new_folder>สร้างโฟล์เดอร์</create_new_folder>
+    <create_error>มีโฟลเดอร์อยู่แล้วหรือไม่สามารถสร้างได้</create_error>
+    <name>ชื่อ</name>
+    <type>รูปแบบ</type>
+    <channel>ช่องสัญญาณ</channel>
+    <sharetype>Apply to</sharetype>
+    <all>All Folders</all>
+    <private>Private folders</private>
+    <selected>Selected folders</selected>
+  </form_folders>
+  <form_accounts>
+    <username>ชื่อ</username>
+    <password>รหัสผ่าน</password>
+    <protocol>โปรโตคอล</protocol>
+    <server>เซิร์ฟเวอร์</server>
+    <server_proxy>Server/Proxy</server_proxy>
+    <port>พอร์ต</port>
+    <extension>Extension</extension>
+    <description>รายละเอียด</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Manage Content</item_actions>
+    <recovery>Recover Deleted Items</recovery>
+    <add_virtual>Create New Search Folder</add_virtual>
+    <edit_virtual>Edit Search Folder</edit_virtual>
+    <add_favorites>Add to Favorites</add_favorites>
+    <sharing>Sharing and Permissions</sharing>
+    <change_channel>Manage RSS Channels</change_channel>
+    <subscribe>Synchronize</subscribe>
+    <subscribed>Synchronized</subscribed>
+    <add_folder>Create New Folder</add_folder>
+    <add_shared_account>Add Shared Account</add_shared_account>
+    <delete_folder>Delete Folder</delete_folder>
+    <unsubscribe_folder>Unsubscribe folder</unsubscribe_folder>
+    <move_folder>Move Folder</move_folder>
+    <move_folder_into>Move Folder into</move_folder_into>
+    <rename_folder>Rename Folder</rename_folder>
+    <remove_account>Remove Account</remove_account>
+    <sent_folder>Select Sent folder</sent_folder>
+    <select_folder>Select Folder</select_folder>
+    <mark_all_as_read>Mark as Read</mark_all_as_read>
+    <default>Set as Default</default>
+    <export>Export Folder</export>
+    <color>Color</color>
+    <move_default>Are you sure you want to move default folder?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>All</all>
+    <pdf>PDF</pdf>
+    <play_sound>Play</play_sound>
+    <attachments>แนบไฟล์</attachments>
+    <upload>อัพโหลด</upload>
+    <download>ดาวน์โหลด</download>
+    <download_all>Download All</download_all>
+    <open_window>Open in Window</open_window>
+    <import>Import to WebClient</import>
+    <import_error>Unsupported Item Type</import_error>
+    <remove>ลบออก</remove>
+    <remove_all>ลบออกทั้งหมด</remove_all>
+    <add_item>Add Item</add_item>
+    <link_dropbox>Link to Dropbox</link_dropbox>
+    <view>ดู</view>
+    <save>Download</save>
+    <save_all>Download All</save_all>
+    <save_to_folder>Save to Folder</save_to_folder>
+    <show_images>Preview Images</show_images>
+    <show_image>Preview Image</show_image>
+    <show_text>Plain Text Message</show_text>
+    <show_headers>All Headers</show_headers>
+    <show_cert>แสดงใบรับรอง</show_cert>
+    <append_cert>ติดต่อไปยัง</append_cert>
+    <dropzone>&lt; Drop File Here &gt;</dropzone>
+    <drop_holder>Drag &amp; Drop files here...</drop_holder>
+    <quick_add>Quick upload...</quick_add>
+    <quick_contact>Drop vCard file here...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Dropbox error</erroralert>
+    <missingkey>Dropbox is not configured. Administrator needs to setup Dropbox integration first.</missingkey>
+    <unavailable>Dropbox is temporarily unavailable and will be disabled until next login.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Convert to HTML</convert_item>
+    <source>Source</source>
+    <send_notify>Notify of Changes</send_notify>
+    <recover>Recover</recover>
+    <new>New</new>
+    <delivery_report>Delivery Report</delivery_report>
+    <properties>Properties</properties>
+    <doc_management>Document Properties</doc_management>
+    <open>Open</open>
+    <open_pdf>Open as PDF</open_pdf>
+    <open_window>Open in Window</open_window>
+    <edit>Edit</edit>
+    <reply_to_sender>Reply</reply_to_sender>
+    <reply_to_all>ตอบทั้งหมด</reply_to_all>
+    <forward>Forward</forward>
+    <forward_as_message>ส่งต่อเป็นไฟล์แนบ</forward_as_message>
+    <redirect>Redirect</redirect>
+    <mark_as_read>Mark as Read</mark_as_read>
+    <mark_as_unread>Mark as Unread</mark_as_unread>
+    <move_mail_to>Move to Folder</move_mail_to>
+    <copy_mail_to>Copy to Folder</copy_mail_to>
+    <delete>Delete</delete>
+    <delete_selected>Delete Selected</delete_selected>
+    <open_item>Open</open_item>
+    <move_item_to>Move to Folder</move_item_to>
+    <copy_item_to>Copy to Folder</copy_item_to>
+    <new_distriblist>New Distribution List</new_distriblist>
+    <save_as>Save As...</save_as>
+    <html>HTML</html>
+    <text>Text</text>
+    <eml>EML</eml>
+    <download_vcalendar>Save as vCalendar</download_vcalendar>
+    <download_vcard>Save as vCard</download_vcard>
+    <download_vnote>Save as vNote</download_vnote>
+    <download_file>Download</download_file>
+    <open_office>Open in Office</open_office>
+    <deliver>Deliver</deliver>
+    <black_list>Blacklist</black_list>
+    <white_list>Whietlist</white_list>
+    <blacklist_sender>Blacklist Sender</blacklist_sender>
+    <blacklist_domain>Blacklist whole Domain</blacklist_domain>
+    <whitelist_sender>Whitelist Sender</whitelist_sender>
+    <whitelist_domain>Whitelist whole Domain</whitelist_domain>
+    <send_as_email>Send as Email</send_as_email>
+    <send_email_to>Send Message</send_email_to>
+    <add_to_contacts>Create New Contact</add_to_contacts>
+    <add_to_exist_contacts>Add to Existing Contact</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Add to Contacts Folder</add_contact>
+    <add_im>Add to WebChat Contact List</add_im>
+    <add_to_im>Add to WebChat</add_to_im>
+    <add>เพิ่ม...</add>
+    <manage_sender>Manage Sender...</manage_sender>
+    <invite_appointment>Invite to Appointment</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Add Certificate to Contact</cert_to_contact>
+    <contacts>ผู้ติดต่อ</contacts>
+    <mandatorydetails>Please fill in your contact details</mandatorydetails>
+    <im>WebChat Roster</im>
+    <skip_delete>Do not ask me again</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>No color</none>
+    <color>Color</color>
+    <white_flag>White flag</white_flag>
+    <red_flag>Red flag</red_flag>
+    <blue_flag>Blue flag</blue_flag>
+    <yellow_flag>Yellow flag</yellow_flag>
+    <green_flag>Green flag</green_flag>
+    <orange_flag>Orange flag</orange_flag>
+    <purple_flag>Purple flag</purple_flag>
+    <flag_complete>Flag complete</flag_complete>
+    <clear_flag>Clear flag</clear_flag>
+    <important>Important</important>
+    <business>Business</business>
+    <personal>Personal</personal>
+    <vacation>Vacation</vacation>
+    <must_attend>Must attend</must_attend>
+    <travel_required>Travel required</travel_required>
+    <needs_preparation>Needs preparation</needs_preparation>
+    <birthday>Birthday</birthday>
+    <anniversary>Anniversary</anniversary>
+    <phone_call>Phone call</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Add New Email Account</add_account>
+    <delete_account>ลบบัญชี</delete_account>
+    <edit_account>แก้ไขบัญชี</edit_account>
+    <validating>Validating account...</validating>
+    <invalid>ไม่สามารถใช้บัญชีนี้ได้</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Inbox</inbox>
+    <drafts>Drafts</drafts>
+    <sent>Sent</sent>
+    <trash>Trash</trash>
+    <spam>Spam</spam>
+    <templates>Templates</templates>
+    <quarantine>Quarantine</quarantine>
+    <spam_queue>Filters</spam_queue>
+    <spam_queue-whitelist>Whitelist</spam_queue-whitelist>
+    <spam_queue-blacklist>Blacklist</spam_queue-blacklist>
+    <virtual-folders>Search Folders</virtual-folders>
+    <gw-trash>Recovery Items</gw-trash>
+    <calendars>Multiple Calendars</calendars>
+  </common_folders>
+  <folders>
+    <mails>Mail</mails>
+    <contacts>Contacts</contacts>
+    <events>Calendar</events>
+    <tasks>Tasks</tasks>
+    <notes>Notes</notes>
+    <journal>Journal</journal>
+    <files>Documents</files>
+    <home>Home</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>Mail</mail>
+    <contact>Contact</contact>
+    <event>Calendar</event>
+    <journal>Journal</journal>
+    <note>Note</note>
+    <task>Task</task>
+    <file>Document</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>คุณไม่สามารถย้ายโฟลเดอร์ได้</cantmove>
+    <cantrename>คุณไม่สามารถเปลี่ยนชื่อโฟล์เดอร์นี้ได้!</cantrename>
+    <cantdelete>คุณไม่สามารถลบโฟล์เดอร์นี้ได้!</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>แนบไฟล์</attachments>
+    <to>ส่งถึง</to>
+    <subject>ชื่อเรื่อง</subject>
+    <nosubject>ไม่มีชื่อเรื่อง</nosubject>
+    <cc>สำเนาถึง</cc>
+    <bcc>สำเนาซ่อน</bcc>
+    <body>ส่วนสำคัญ</body>
+    <from>จาก</from>
+    <date>วันที่</date>
+    <size>ขนาด</size>
+    <type>รูปแบบ</type>
+    <itmclassifyas>ชื่อผู้ติดต่อ</itmclassifyas>
+    <phone>โทรศัพท์</phone>
+    <itmcompany>บริษัท</itmcompany>
+    <itmdepartment>แผนก</itmdepartment>
+    <contact_email>อีเมล์</contact_email>
+    <expires>Expires on</expires>
+    <itmcategory>ประเภท</itmcategory>
+    <evntitle>ชื่อเรื่อง</evntitle>
+    <itmtitle>เรื่อง</itmtitle>
+    <itmoriginalfolder>โฟลเดอร์เดิม</itmoriginalfolder>
+    <itm_deleted>ลบ</itm_deleted>
+    <item_moved>Deleted</item_moved>
+    <evnlocation>สถานที่</evnlocation>
+    <upcoming>ใกล้จะเริ่ม</upcoming>
+    <event_startdate>เริ่ม</event_startdate>
+    <event_enddate>สิ้นสุด</event_enddate>
+    <evntype>ประเภท</evntype>
+    <evncontact>ผู้ติดต่อ</evncontact>
+    <evnstatus>สถานะ</evnstatus>
+    <task_startdate>Start date</task_startdate>
+    <task_enddate>Due date</task_enddate>
+    <sndemail>ผู้ส่ง</sndemail>
+    <sndowner>เจ้าของ</sndowner>
+    <snddomain>โดเมน</snddomain>
+    <sndsubject>หัวข้อ</sndsubject>
+    <revised_by>Revised by</revised_by>
+    <comment>Comment</comment>
+    <qdate>วันที่</qdate>
+    <name>ชื่อ</name>
+    <evnfilename>ชื่อไฟล์</evnfilename>
+    <evnnote>รายละเอียด</evnnote>
+    <evn_modified>Modified</evn_modified>
+    <evnfilesize>ขนาด</evnfilesize>
+    <lctphnwork1>โทรศัพท์ที่ทำงาน</lctphnwork1>
+    <lctphnfaxwork>แฟกซ์ที่ทำงาน</lctphnfaxwork>
+    <lctphnhome1>โทรศัพท์บ้าน</lctphnhome1>
+    <lctphnmobile>โทรศัพท์มือถือ</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Public URL</public>
+    <share>Share Link</share>
+    <ticket>อื่นๆ</ticket>
+    <revisions>Revisions</revisions>
+    <revert>Revert</revert>
+    <edit_comment>Edit Comment</edit_comment>
+    <new_revision>New Revision</new_revision>
+  </item>
+  <event_view>
+    <week_label>สัปดาห์</week_label>
+    <notitle>No Title</notitle>
+    <private>Undisclosed</private>
+    <newappointment>New Appointment</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>อ่าน: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>ผู้รับอ่านจดหมายของคุณเรียบร้อยแล้ว.&#13;&#10;&#13;&#10;รายละเอียดจดหมาย:&#13;&#10;&#13;&#10;จาก: %FROM%&#13;&#10;ถึง: %TO%&#13;&#10;วันที่: %DATE%&#13;&#10;หัวเรื่อง: %SUBJECT%</reading_confirmation>
+    <reply_message>-----ข้อความ ต้นฉบับ-----</reply_message>
+    <reply_message_html>-----ข้อความ ต้นฉบับ-----</reply_message_html>
+    <from>จาก:</from>
+    <to>ถึง:</to>
+    <cc>สำเนา:</cc>
+    <date>วันที่:</date>
+    <subject>หัวเรื่อง:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>Mr.</mr>
+    <mrs>Mrs.</mrs>
+    <miss>Miss</miss>
+    <ms>Ms.</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Jr.</jr>
+    <sr>Sr.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Display name</displayname>
+    <avatar>รูปภาพ</avatar>
+    <contact>ผู้ติดต่อ</contact>
+    <general>ทั่วไป</general>
+    <profile>Profile</profile>
+    <personal>ส่วนตัว</personal>
+    <business>ธุรกิจ</business>
+    <other_l>อื่นๆ</other_l>
+    <other>อื่นๆ</other>
+    <contact_name>Show as</contact_name>
+    <sort_as>Sort as</sort_as>
+    <first_name>ชื่อแรก</first_name>
+    <middle_name>ชื่อกลาง</middle_name>
+    <last_name>นามสกุล</last_name>
+    <nick_name>ชื่อเล่น</nick_name>
+    <full_name>Full name</full_name>
+    <title>หัวข้อ</title>
+    <suffix>คำลงท้าย</suffix>
+    <category>ประเภท</category>
+    <email_address>อีเมล์</email_address>
+    <birthdate>วันเกิด</birthdate>
+    <anniversary>วันครอบรอบ</anniversary>
+    <spouse>คู่สมรส</spouse>
+    <gender>เพศ</gender>
+    <company>บริษัท</company>
+    <job>ตำแหน่ง</job>
+    <profession>อาชีพ</profession>
+    <department>แผนก</department>
+    <assistant>ผู้ช่วย</assistant>
+    <manager>ผู้จัดการ</manager>
+    <office_location>ทำงาน</office_location>
+    <email1>อีเมล์ 1</email1>
+    <email2>อีเมล์ 2</email2>
+    <email3>อีเมล์ 3</email3>
+    <im>IM</im>
+    <phone>โทรศัพท์</phone>
+    <phones>โทรศัพท์</phones>
+    <male>เพศชาย</male>
+    <female>เพศหญิง</female>
+    <street>ถนน</street>
+    <city>แขวง/ตำบล</city>
+    <zip>ZIP</zip>
+    <state>จังหวัด</state>
+    <country>ประเทศ</country>
+    <home_address>ที่อยู่บ้าน</home_address>
+    <business_address>Business address</business_address>
+    <other_address>ที่อยู่อื่นๆ</other_address>
+    <homepage>โฮมเพจ</homepage>
+    <calendar_url>ลิงค์ ปฏิทิน</calendar_url>
+    <share_type>ประเภทการแบ่งส่วน</share_type>
+    <address>ที่อยู่</address>
+    <web>เว็ป</web>
+    <notes>หมายเหตุ</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>กลุ่มผู้ติดต่อ</distrib_list>
+    <general>ทั่วไป</general>
+    <members>บันทึก</members>
+    <title>หัวข้อ</title>
+    <category>ประเภท</category>
+    <add_title>เพิ่ม</add_title>
+    <edit_title>แก้ไข</edit_title>
+    <name>ชื่อ</name>
+    <email>อีเมล์</email>
+  </distrib_list>
+  <time_interval>
+    <from>จาก</from>
+    <to>ถึง</to>
+    <duration>เวลา</duration>
+    <all_day_event>เหตุการณ์ทุกวัน</all_day_event>
+    <days>วัน</days>
+    <change_default>Change Default Time Zone</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>This is a repeating item</title_edit>
+    <text_edit>Change only this one, all in the series, or this and all following?</text_edit>
+    <title_delete>This is a repeating item</title_delete>
+    <text_edit_2>Change only this one, or all in the series?</text_edit_2>
+    <text_delete>Remove only this one, or all in the series?</text_delete>
+    <btn_this>Only this one</btn_this>
+    <btn_all>All in the series</btn_all>
+    <btn_allfromnow>ทั้งหมด</btn_allfromnow>
+    <btn_cancel>ยกเลิก</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Decline reason</reason>
+    <event>เหตุการณ์</event>
+    <general>ทั่วไป</general>
+    <repeating>เตือนซ้ำ</repeating>
+    <schedule>ตารางเวลา</schedule>
+    <reminders>เตือนความจำ</reminders>
+    <onlinemeeting>WebMeeting</onlinemeeting>
+    <startmeeting>Start now</startmeeting>
+    <joinmeeting>Join now</joinmeeting>
+    <title>หัวข้อ</title>
+    <location>สถานที่</location>
+    <category>ประเภท</category>
+    <notes>หมายเหตุ</notes>
+    <timezone>โซนเวลา</timezone>
+    <show_as>สถานะ</show_as>
+    <free>ว่าง</free>
+    <busy>ไม่ว่าง</busy>
+    <tentative>ไม่แน่นอน</tentative>
+    <out_of_office>วันหยุดงาน</out_of_office>
+    <unknown>No Information</unknown>
+    <label>ประเภท</label>
+    <meeting_hint>Create and join meetings, share your screen</meeting_hint>
+    <high>High:</high>
+    <low>Low:</low>
+  </event>
+  <file>
+    <file>Document</file>
+    <expire>Expires at %s</expire>
+    <name>File Name</name>
+    <lock>Lock</lock>
+    <unlock>Unlock</unlock>
+    <locked>Locked</locked>
+    <unlocked>Unlocked</unlocked>
+    <locked_by>Document locked by %s</locked_by>
+    <blank_doc>Document</blank_doc>
+    <description>Description</description>
+    <new_doc>Empty Document</new_doc>
+    <converting>Document conversion in progress.</converting>
+  </file>
+  <note>
+    <note>ข้อความ</note>
+    <category>ประเภท</category>
+    <title>หัวข้อ</title>
+    <general>ทั่วไป</general>
+  </note>
+  <task>
+    <task>เหตุการณ์</task>
+    <attendees>ผู้เข้าร่วม</attendees>
+    <status>สถานะ</status>
+    <complete>เสร็จสิ้น</complete>
+    <repeating>เตือนซ้ำ</repeating>
+    <reminders>เตือนความจำ</reminders>
+    <general>ทั่วไป</general>
+    <title>หัวข้อ</title>
+    <start_date>Start date</start_date>
+    <due_date>Due date</due_date>
+    <category>ประเภท</category>
+    <not_started>Not started</not_started>
+    <in_progress>In progress</in_progress>
+    <completed>เสร็จสิ้น</completed>
+    <deferred>ยืดเวลา</deferred>
+    <waiting>Waiting on someone else</waiting>
+    <done>Done</done>
+  </task>
+  <blackwhite>
+    <black>Blacklist</black>
+    <white>Whitelist</white>
+    <email>อีเมล์</email>
+  </blackwhite>
+  <compose>
+    <template>Template</template>
+    <newmail>จดหมาย</newmail>
+    <send>ส่ง</send>
+    <sendinfo>Send message</sendinfo>
+    <save>บันทึก</save>
+    <saveinfo>Save message to Drafts</saveinfo>
+    <options>ตัวเลือก</options>
+    <advanced>Advanced options</advanced>
+    <html>HTML</html>
+    <text>ข้อความ</text>
+    <sms>SMS</sms>
+    <compose_sms>Compose SMS</compose_sms>
+    <sms_preview>ตัวอย่าง SMS</sms_preview>
+    <sms_info>%s ตัวอักษรใน %s ข้อความ</sms_info>
+    <smartattach>SmartAttach</smartattach>
+    <smartattachinfo>Attachments will be saved to your %s and replaced by download links in the email body.</smartattachinfo>
+    <readconfirmationinfo>Receive confirmation that recipient has read this message</readconfirmationinfo>
+    <show_all>Show all entries</show_all>
+    <signinfo>Digitally sign the message</signinfo>
+    <encryptinfo>Encrypt the message</encryptinfo>
+    <priorityinfo>Set message priority</priorityinfo>
+    <subject_empty>Message has no subject.&lt;br&gt;Send it anyway?</subject_empty>
+    <rcp_empty>Add some recipient to send the mail to.</rcp_empty>
+    <optionstitle>Message Options</optionstitle>
+    <encrypt>Encrypt the message</encrypt>
+    <sign>Digitally sign the message</sign>
+    <nosign>No signing certificate found.&lt;br&gt;Send the message unsigned?</nosign>
+    <delivery_report>Show Delivery Report</delivery_report>
+    <reply_to>Reply To</reply_to>
+    <upload_file>Attach from Local Disk</upload_file>
+    <upload_item>Attach from WebClient</upload_item>
+  </compose>
+  <sharing>
+    <public>ส่วนรวม</public>
+    <private>ส่วนตัว</private>
+    <anonymous>Anonymous/Everyone</anonymous>
+    <custom>Custom</custom>
+    <inherited>Inherited</inherited>
+    <none>ไม่</none>
+    <enter_address>Enter Address</enter_address>
+    <permissions>การอนุญาต</permissions>
+    <user>ผู้ใช้</user>
+    <items>Items</items>
+    <folder>Folder</folder>
+    <administration>Administration</administration>
+  </sharing>
+  <time>
+    <hours>ชั่วโมง</hours>
+    <minutes>นาที</minutes>
+    <days>วัน</days>
+    <oneday>day</oneday>
+    <moredays>days</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>เลือกรายชื่อผู้ติดต่อ</select_emails>
+    <add>เพิ่ม</add>
+  </select_recipients>
+  <tags>
+    <placeholder>ค้นหา</placeholder>
+    <tags>Tags</tags>
+    <used>ใช้</used>
+    <hint>ใช้โดย %s  รายการ</hint>
+    <selected>เลือก</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>บ้าน 1</lctphnhome1>
+    <lctphnhome2>บ้าน 2</lctphnhome2>
+    <lctphnassistant>ผู้ช่วย</lctphnassistant>
+    <lctphnwork1>ที่ทำงาน1</lctphnwork1>
+    <lctphnwork2>ที่ทำงาน2</lctphnwork2>
+    <lctphnfaxhome>แฟกซ์บ้าน</lctphnfaxhome>
+    <lctphnfaxwork>แฟกซ์ที่ทำงาน</lctphnfaxwork>
+    <lctphncallback>โทรกลับ</lctphncallback>
+    <lctphncompany>บริษัท</lctphncompany>
+    <lctphncar>รถ</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>โทรศัพท์มือถือ</lctphnmobile>
+    <lctphnother>อื่นๆ</lctphnother>
+    <lctphnotherfax>แฟกซ์อื่นๆ</lctphnotherfax>
+    <lctphnpager>เพจเจอร์</lctphnpager>
+    <lctphnprimary>เบื้องต้น</lctphnprimary>
+    <lctphnradio>วิทยุ</lctphnradio>
+    <lctphntelex>เทเลกซ์</lctphntelex>
+    <lctphnhearing>หูฟัง</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>วันที่</day>
+    <week>ในสัปดาห์</week>
+    <week_of_month>สัปดาห์ที่ของเดือน</week_of_month>
+    <month_of_year>เดือนที่ของปี</month_of_year>
+    <month>เดือน</month>
+    <year>ปี</year>
+    <year_s>ปี</year_s>
+    <repeats>เตือนซ้ำทุก:</repeats>
+    <not_repeats>ไม่เตือนซ้ำ</not_repeats>
+    <end_date>ถึงวันที่:</end_date>
+    <no_end>ไม่มีกำหนด</no_end>
+    <until>ก่อนวันที่</until>
+    <count>การนับ</count>
+    <daily>วัน</daily>
+    <weekly>สัปดาห์</weekly>
+    <monthly>เดือน</monthly>
+    <yearly>ปี</yearly>
+    <every>ทุก</every>
+    <the>ทุกวัน</the>
+    <of>ของเดือน</of>
+    <recur_every>ทุก</recur_every>
+    <weeks_on>สัปดาห์:</weeks_on>
+    <of_every>ของทุก</of_every>
+    <months>เดือน</months>
+    <days>วัน</days>
+    <day_list>week</day_list>
+    <every_weekday>ทุกวันธรรมดา (จันทร์ - ศุกร์)</every_weekday>
+    <first>ที่ 1</first>
+    <second>ที่ 2</second>
+    <third>ที่ 3</third>
+    <fourth>ที่ 4</fourth>
+    <last>last</last>
+    <weekday>work week</weekday>
+    <weekend_day>weekend</weekend_day>
+  </repeating>
+  <reminder>
+    <none>ไม่มี</none>
+    <email>อีเมล์</email>
+    <popup>หน้าต่างเตือน(ไม่ทำงานใน WebMail)</popup>
+    <address>ที่อยู่</address>
+    <remind1>เตือน</remind1>
+    <remind2>ก่อนหน้า</remind2>
+    <is_reminder>Send reminder</is_reminder>
+    <no_reminder>Do not send reminder</no_reminder>
+    <type>รูปแบบ</type>
+    <snooze>Snooze</snooze>
+    <meeting>Launch now</meeting>
+    <dismiss>ยกเลิก</dismiss>
+    <reminder>แจ้งเตือน</reminder>
+  </reminder>
+  <journal>
+    <journal>บันทึกประจำวัน</journal>
+    <title>หัวข้อ</title>
+    <type>รูปแบบ</type>
+    <company>บริษัท</company>
+    <conversation>การสนทนา</conversation>
+    <document>เอกสาร</document>
+    <e-mail_message>ข้อความ อีเมล์</e-mail_message>
+    <fax>โทรสาร</fax>
+    <letter>จดหมาย</letter>
+    <meeting>การประชุม</meeting>
+    <meeting_cancellation>ยกเลิก การประชุม</meeting_cancellation>
+    <meeting_request>ร้องขอ การประชุม</meeting_request>
+    <meeting_response>ตอบรับ การประชุม</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>โน๊ต</note>
+    <phone_call>โทรศัพท์</phone_call>
+    <remote_session>ประชุมทางไกล</remote_session>
+    <task>ภารกิจ</task>
+    <task_request>ร้องขอ งาน</task_request>
+    <task_response>ตอบรับ งาน</task_response>
+  </journal>
+  <certificate>
+    <purposes>ใบรับรองนี้จัดทำขึ้นเพื่อวัตถุประสงค์ต่อไปนี้</purposes>
+    <ssl>พิสูจน์ตัวตนของคุณกับรีโมทคอมพิวเตอร์</ssl>
+    <smime>ปกป้องข้อความอีเมล์</smime>
+    <serial>ซีเรียล</serial>
+    <view>ตรวจดู</view>
+    <certificate>ใบรับรอง</certificate>
+    <invalid>ใบรับรองหรือ passphrase ใช้งานไม่ได้</invalid>
+    <passphrase>Passphrase</passphrase>
+    <issuedto>ออกให้กับ...</issuedto>
+    <issuedby>ออกให้โดย…</issuedby>
+    <email>อีเมล์</email>
+    <validity>ความสมเหตุสมผล</validity>
+    <badtype>ส่วนบุคคลที่ขาดหายไป</badtype>
+    <missing>ไม่พบ certificate</missing>
+    <invaliditem>ไม่สามารถที่จะผนวกการรับรอง</invaliditem>
+    <assigned>Certificate was successfully added</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Folder doesn&apos;t exist: &quot;%s&quot;</folder_not_exist>
+    <accepted>Event was accepted</accepted>
+    <unsure>Event was replied tentatively</unsure>
+    <declined>Event was declined</declined>
+    <proposed>New time was proposed</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Force users to enter contact information</force_enter_user_info>
+    <disable_wipe>Disable Remote Wipe</disable_wipe>
+    <documents>Documents</documents>
+    <aliases>Aliases</aliases>
+    <disable_mailformat>Disable HTML/plain switch in compose window</disable_mailformat>
+    <disable_altmail>Hide Alternate Email</disable_altmail>
+    <rcpt_suggest>Auto-complete</rcpt_suggest>
+    <rcpt_cache>Clear List</rcpt_cache>
+    <keep_search>Keep search term when switching folders</keep_search>
+    <smartfolder>SmartAttach folder</smartfolder>
+    <always_show_rcp>Always show address lines</always_show_rcp>
+    <login_screen>Login Screen</login_screen>
+    <exclude_gal>Exclude GAL from auto-complete</exclude_gal>
+    <password_policy>Password policy</password_policy>
+    <notifications>Desktop Notifications</notifications>
+    <nofocus>Auto (background only)</nofocus>
+    <autorevision_mode>Enable automatic revisions of documents</autorevision_mode>
+    <disable_support>Disable support link on login</disable_support>
+    <check_subject>Check for empty subject</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Hide sharing for Anonymous account</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Show Favorite folders</show_favorites>
+    <layout>Global Settings</layout>
+    <signature>ลายเซ็น</signature>
+    <signature_separator>Add standard signature separator &quot;-- &quot;</signature_separator>
+    <signature_to_top>ลายเซ็นไว้ด้านบน</signature_to_top>
+    <groups>Groups</groups>
+    <group>Group</group>
+    <trash_folder>Trash Folder</trash_folder>
+    <sent_folder>Sent Folder</sent_folder>
+    <groupsend>Save sent messages in public folder for this group</groupsend>
+    <ftime>Floating Time</ftime>
+    <sso_only>SSO อนุญาตให้เข้าสู่ระบบเท่านั้น</sso_only>
+    <activity_monitor>Logout after inactivity (Minutes)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 ชั่วโมง</time_12>
+    <time_24>24 ชั่วโมง</time_24>
+    <logout_url>ออกจากระบบ URL</logout_url>
+    <disable_attach_item>Disable Attach from WebClient</disable_attach_item>
+    <disable_virtual>Disable Search Folders</disable_virtual>
+    <disable_interfaces>ยกเลิกการใช้งานการเชื่อมต่อเข้าสู่ระบบ</disable_interfaces>
+    <disable_languages>ยกเลิกการใช้ภาษาเข้าสู่ระบบ</disable_languages>
+    <confirm_exit>ยืนยันเมื่อออกจากระบบ</confirm_exit>
+    <compose>เขียนข้อความ</compose>
+    <never>ไม่เคย</never>
+    <always>เสมอ</always>
+    <homepage>Home Page</homepage>
+    <banner_enable>เปิดใช้งาน Banner Frame</banner_enable>
+    <application_enable>เปิดใช้งานแอพพลิเคชั่นดาว์นโหลด Banner</application_enable>
+    <banner_url>Banner URL</banner_url>
+    <banner_height>Banner Height</banner_height>
+    <count_subject>Group Subject prefixes (e.g. Re[4], Fw[2])</count_subject>
+    <reply_prefix>Use Reply prefix (&gt;)</reply_prefix>
+    <collate>Use collation in SQL statements</collate>
+    <init_page>หน้าเริ่มต้น</init_page>
+    <remember_folder>จดจำโฟลเดอร์ล่าสุด</remember_folder>
+    <show_inbox>Home Page</show_inbox>
+    <show_home>Home Page</show_home>
+    <clear_trash>Delete Trash emails older than (Days)</clear_trash>
+    <clear_gwtrash>Delete Trash items older than (Days)</clear_gwtrash>
+    <alias>ชื่อ</alias>
+    <subscribed_holidays>เลือก วันหยุด</subscribed_holidays>
+    <holidays>วันหยุด</holidays>
+    <weather>สภาพอากาศ</weather>
+    <temperature>อุณหภูมิ</temperature>
+    <c>เซลเซียส (°C)</c>
+    <f>ฟาเรนไฮต์ (°F)</f>
+    <city>เมือง</city>
+    <disable_folder_types>ปิดการใช้งานประเภทที่เลือกโฟลเดอร์</disable_folder_types>
+    <antispam>Anti-Spam</antispam>
+    <spam_mode>แบบ โฟล์เดอร์สแปม</spam_mode>
+    <reports_mode>แบบ รายงานตัวป้องกันสแปม</reports_mode>
+    <quarantine>Quarantine</quarantine>
+    <last_time>ครั้งสุดท้าย</last_time>
+    <last_ip>IP สุดท้าย</last_ip>
+    <current_time>เวลาปัจจุบัน</current_time>
+    <current_ip>IP ปัจจุบัน</current_ip>
+    <default>ค่าเริ่มต้น</default>
+    <use_spam>ใช้ โฟล์เดอร์สแปม</use_spam>
+    <not_spam>ไม่ใช้ โฟล์เดอร์สแปม</not_spam>
+    <disabled>ไม่ใช้งาน</disabled>
+    <all>ทั้งหมด</all>
+    <full>Full</full>
+    <new_items>รายการใหม่</new_items>
+    <smtp_relay>ส่งจดหมายกลับเมื่อผิดพลาดที่ผู้รับ</smtp_relay>
+    <restrictions>การยับยั้ง</restrictions>
+    <hide_sortstring>Hide Sort String</hide_sortstring>
+    <disable_aliases>Disable Aliases</disable_aliases>
+    <disable_redirect>Disable Redirect</disable_redirect>
+    <disable_other_accounts>ยกเลิกการใช้งาน บัญชีอื่นๆ</disable_other_accounts>
+    <disable_edit_vcard>Disable My Details editing</disable_edit_vcard>
+    <disable_edit_account>Disable My Account editing</disable_edit_account>
+    <disable_change_password>Disable Password Change</disable_change_password>
+    <disable_antispam_control>การเลิก การควบคุมตัวป้องกันสแปม</disable_antispam_control>
+    <disable_licenses>Disable Licenses Tab</disable_licenses>
+    <disable_login_help>Disable Login Help</disable_login_help>
+    <disable_login_banners>Disable Login Banners</disable_login_banners>
+    <disable_signup>Disable Sign Up</disable_signup>
+    <disable_sip>ปิดการใช้งาน VoIP</disable_sip>
+    <disable_call_forwarding>Disable Call Forwarding</disable_call_forwarding>
+    <disable_external_sip>ปิดการใช้งานภายนอก VoIP</disable_external_sip>
+    <disable_export>ปิดการใช้งานส่งออกกรุ๊ปแวร์</disable_export>
+    <disable_smart>ปิดการใช้งาน SmartAttach</disable_smart>
+    <disable_dropbox>Disable Dropbox</disable_dropbox>
+    <disable_im>Disable WebChat</disable_im>
+    <disable_sms>ปิดการใช้งาน SMS</disable_sms>
+    <disable_remember_pulldown>Disable &quot;Remember me&quot;</disable_remember_pulldown>
+    <disable_autofill>Disable Username/Password Autofill</disable_autofill>
+    <disable_rules>ปิดการใช้งาน Rules</disable_rules>
+    <disable_gmaps>Disable Google Maps</disable_gmaps>
+    <disable_forwarder>ซ่อน ปุ่มส่งต่อ</disable_forwarder>
+    <disable_keep_emails>Hide &quot;Keep emails in mailbox&quot; in Forwarder</disable_keep_emails>
+    <disable_autoresponder>ซ่อนแท็บระบบตอบรับอัตโนมัติ</disable_autoresponder>
+    <share_mode>รูปแบบ ใช้ร่วมกัน</share_mode>
+    <share_p>ส่วนตัว (ไม่ใช้ข้อมูลร่วมกัน)</share_p>
+    <share_pf>สาธารณะ (ใช้ข้อมูลร่วมกับทุกคน)</share_pf>
+    <share_f>เพื่อน (ใช้ข้อมูลร่วมกับเพื่อนเท่านั้น)</share_f>
+    <daily_event_report>ส่งรายงานประจำวัน ทางเมล์</daily_event_report>
+    <reminder_notification>ส่งการแจ้งเตือน ทางเมล์</reminder_notification>
+    <reminder_email>แจ้งเตือนและวาระที่อยู่อีเมล์</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Application Key</dropbox_app_key>
+    <dropbox_instructions>For Dropbox integration, login at www.dropbox.com, go to the developer section and create an application key. You will be asked to enter a short description and the hostname or IP for WebClient access.</dropbox_instructions>
+    <server>เครื่องแม่ข่าย</server>
+    <login_with_email>เข้าระบบด้วยชื่อบัญชี</login_with_email>
+    <server_logs>ระดับการเข้าสู่ระบบ</server_logs>
+    <server_logs0>ไม่</server_logs0>
+    <server_logs2>ข้อสรุป</server_logs2>
+    <server_logs3>ดีบัก</server_logs3>
+    <server_logs4>เพิ่มเติม</server_logs4>
+    <http_port>HTTP port</http_port>
+    <imapserver>เครื่องแม่ข่าย IMAP</imapserver>
+    <smtpserver>เครื่องแม่ข่าย SMTP</smtpserver>
+    <xmppserver>เซิร์ฟเวอร์ XMPP</xmppserver>
+    <port>พอร์ท</port>
+    <pgtitle>ชื่อ หน้า</pgtitle>
+    <logo>Login logo</logo>
+    <login_style>ลักษณะการเข้าสู่ระบบ</login_style>
+    <login_client>Preferred interface</login_client>
+    <skin_style>Skin style</skin_style>
+    <interfaces>Available interfaces</interfaces>
+    <spell_language>Spell checker</spell_language>
+    <delete_emptyfolder>Delete messages on Empty Folder action</delete_emptyfolder>
+    <show_images>แสดงภาพแบบอินไลน์ภายนอกโดยอัตโนมัติ</show_images>
+    <show_images_spam>Apply also to Spam folder</show_images_spam>
+    <auto_show_images>Automatically preview attached images</auto_show_images>
+    <sound_notify>ใช้งานแจ้งเตือนด้วยเสียง</sound_notify>
+    <domains_settings>โดเมน</domains_settings>
+    <domain>โดเมน</domain>
+    <edit_settings>แก้ไขค่าโดเมน</edit_settings>
+    <resetpass>Password Reset</resetpass>
+    <resetmail>Email</resetmail>
+    <resetenable>Enable Password Reset</resetenable>
+    <accounts>บัญชี</accounts>
+    <account>Account</account>
+    <tools>เครื่องมือ</tools>
+    <autoresponder>ตอบกลับอัตโนมัติ</autoresponder>
+    <forwarder>ส่งต่อ</forwarder>
+    <pcertificate>Private Certificates</pcertificate>
+    <certificate>Certificate</certificate>
+    <mail_settings>จดหมาย</mail_settings>
+    <im_settings>WebChat</im_settings>
+    <sip_settings>WebPhone</sip_settings>
+    <sip_webrtc>Use native web browser capabilities for media when possible</sip_webrtc>
+    <sip_start>Start internal VoIP client automatically</sip_start>
+    <sip_internal>Integrate with your VoIP account (SIP)</sip_internal>
+    <sip_external>Integrate with external VoIP account (SIP)</sip_external>
+    <sip_dial>Dial via external VoIP account (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>Dial via your VoIP account (already registered softphone/telephone)</sip_dial_internal>
+    <call_forwarding>Call Forwarding</call_forwarding>
+    <use_forwarding>Use call forwarding</use_forwarding>
+    <forward_to>Forward call to</forward_to>
+    <forward_after>Forward after (seconds)</forward_after>
+    <chat_window>หน้าต่างสนทนา</chat_window>
+    <auto_chat>เปิดหน้าต่างสนทนาอัตโนมัติ</auto_chat>
+    <auto_subscribe>สมัครผู้ใช้ใหม่อัตโนมัต</auto_subscribe>
+    <remember_status>จดจำสถานะ</remember_status>
+    <extended_status>Available statuses</extended_status>
+    <newline_chat>สนทนาแบบขึ้นบรรทัดใหม่</newline_chat>
+    <smiles_chat>Use emoticons</smiles_chat>
+    <enter_send>Send message with Enter</enter_send>
+    <general_settings>ทั่วไป</general_settings>
+    <other_accounts>Other Accounts</other_accounts>
+    <primary_accounts>My Account</primary_accounts>
+    <account_settings>Accounts</account_settings>
+    <importexport_settings>นำเข้า/ส่งออก</importexport_settings>
+    <default_reminder>สมัครการแจ้งเตือนเริ่มต้นในการนัดหมายใหม่</default_reminder>
+    <use_sslswfatt>ใช้HTTP Flash อัพโหลดใน SSL session</use_sslswfatt>
+    <use_swfupload>ใช้ Flashอัพโหลดสำหรับไฟล์แนบ</use_swfupload>
+    <use_office>Use Open in Office when possible</use_office>
+    <banner_enabled>Allow banner on login page</banner_enabled>
+    <twitter_disabled>Disable Twitter integration</twitter_disabled>
+    <twitter_link>Twitter handle</twitter_link>
+    <facebook_disabled>Disable Facebook integration</facebook_disabled>
+    <facebook_link>URL of page to like</facebook_link>
+    <skin>รูปแบบที่แสดงผล</skin>
+    <items_ab_shown>จำนวนรายการที่เลือก ที่แสดงผล</items_ab_shown>
+    <date_format>รูปแบบวันที่</date_format>
+    <time_format>รูปแบบเวลา</time_format>
+    <language>ภาษา</language>
+    <timezone>โซนเวลา</timezone>
+    <general>ทั่วไป</general>
+    <default_mail_settings>Mail Compose</default_mail_settings>
+    <folders_mapping>จับคู่ โฟล์เดอร์</folders_mapping>
+    <subject>หัวข้อ</subject>
+    <message_format>รูปแบบข้อความ</message_format>
+    <re_message_format>Response Message format</re_message_format>
+    <html_message>ข้อความ HTML</html_message>
+    <read_confirmation>ยืนยันการอ่านข้อความ</read_confirmation>
+    <request_read_confirmation>Request read confirmation</request_read_confirmation>
+    <send_read_confirmation>Allow sending</send_read_confirmation>
+    <ask_before>Ask me before sending</ask_before>
+    <smart_attach>ใช้ SmartAttach</smart_attach>
+    <save_sent_message>Save sent messages to Sent folder</save_sent_message>
+    <save_folder_message>Save sent messages</save_folder_message>
+    <encrypt>Encrypt messages</encrypt>
+    <sign>Digitally sign messages</sign>
+    <appendvcard>Append My Details (vCard)</appendvcard>
+    <charset>รูปแบบอักษร</charset>
+    <priority>ความสำคัญ</priority>
+    <reply_to>ตอบกลับที่อยู่</reply_to>
+    <reply_myself>Auto Bcc myself</reply_myself>
+    <move_to_trash>ย้ายจดหมายไปยังโฟล์เดอร์ถังขยะ</move_to_trash>
+    <auto_add_recipient_to_addressbook>เพิ่มชื่อผู้รับลงสมุดที่อยู่อัตโนมัติ</auto_add_recipient_to_addressbook>
+    <edit_rules>Rules</edit_rules>
+    <rules>Rules</rules>
+    <forward_messages>ส่งต่อจดหมาย</forward_messages>
+    <inline>อินไลน์</inline>
+    <as_attachment>แนบ เอกสาร</as_attachment>
+    <autoupdate_message>เช็คอีเมล์เข้าใหม่อัตโนมัติทุก (นาที)</autoupdate_message>
+    <autosave_message>บันทึกจดหมายอัตโนมัติทุก (นาที)</autosave_message>
+    <calendar_settings>ปฏิทิน</calendar_settings>
+    <main>หน้าหลัก</main>
+    <day_begins_at>เวลาเริ่มต้น</day_begins_at>
+    <day_ends_at>เวลาสิ้นสุด</day_ends_at>
+    <week_begins_on>วันเริ่มต้นของสัปดาห์</week_begins_on>
+    <week_starts_today>Week starts on current day</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>การใช้ร่วมกัน</sharing_settings>
+    <shared_email>ใช้อีเมล์ร่วมกัน</shared_email>
+    <email>อีเมล์</email>
+    <rights>สิทธิ์</rights>
+    <read>อ่าน</read>
+    <write>เขียน</write>
+    <modify>แก้ไข</modify>
+    <delete>ลบ</delete>
+    <owner>เจ้าของ</owner>
+    <acc_name>ชื่อ</acc_name>
+    <quota>พื้นที่ ที่กำหนดไว้</quota>
+    <sms_quota>SMS Quota</sms_quota>
+    <quota_home>Disk Quota (incl. items from all mail folders, file folders, attachments to contacts, events,...)</quota_home>
+    <description>รายละเอียด</description>
+    <old_password>รหัสผ่านเดิม</old_password>
+    <new_password>รหัสผ่านใหม่</new_password>
+    <new_password_conf>ยันยันรหัสผ่าน</new_password_conf>
+    <save_drafts_to>บันทึก จดหมายร่าง ที่</save_drafts_to>
+    <default_flag>สัญลักษณ์</default_flag>
+    <alternative_email>อีเมล์สำรอง</alternative_email>
+    <default_settings>ค่ามาตรฐาน</default_settings>
+    <event_view>มุมมองปฏิทิน</event_view>
+    <event_show_as>Appointments show as</event_show_as>
+    <event_sharing>การนัดหมายร่วมกัน</event_sharing>
+    <contact_sharing>ใช้รายชื่อผู้ติดต่อร่วมกัน</contact_sharing>
+    <journal_sharing>ใช้บันทึกประจำวันร่วมกัน</journal_sharing>
+    <note_sharing>ใช้สมุดบันทึกร่วมกัน</note_sharing>
+    <task_sharing>ใช้งานร่วมกัน</task_sharing>
+    <file_sharing>File sharing</file_sharing>
+    <force_for_domainadmin>Force this option for both Domain Admins and Users</force_for_domainadmin>
+    <force_for_users>Force this option for Users</force_for_users>
+    <force>Force Option</force>
+  </settings>
+  <email_priority>
+    <highest>สูงสุด</highest>
+    <high>สูง</high>
+    <normal>ปกติ</normal>
+    <medium>ปานกลาง</medium>
+    <low>ต่ำ</low>
+    <lowest>ต่ำสุด</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>เลือกโฟล์เดอร์</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>เลือกรายการ</insert_item>
+    <untitled>ไม่มีชื่อ</untitled>
+    <embedded>ถูกฝัง</embedded>
+    <link>ลิ้งค์</link>
+  </insert_item>
+  <attendees>
+    <shared>แนะนำที่ติดต่อ</shared>
+    <add_title>เพิ่ม</add_title>
+    <edit_title>แก้ไข</edit_title>
+    <resource>Resource</resource>
+    <remove>ลบออก</remove>
+    <edit>แก้ไข</edit>
+    <name>ชื่อ</name>
+    <email>อีเมล์</email>
+    <folder>โฟล์เดอร์</folder>
+    <all_attendees>ผู้เข้าร่วมทุกคน</all_attendees>
+    <status>สถานะ</status>
+    <status_p>ระหว่างตัดสินใจ</status_p>
+    <status_a>ยอมรับ</status_a>
+    <status_d>ปฏิเสธ</status_d>
+    <role>Rules</role>
+    <role_q>ต้องการ</role_q>
+    <role_s>แหล่งข้อมูล</role_s>
+    <role_t>ตัวเลือกเสริม</role_t>
+    <role_g>ผู้ตั้ง</role_g>
+    <quick_add>Enter Attendee or Resource Name</quick_add>
+  </attendees>
+  <dial>
+    <dial>Dial</dial>
+    <keypad>Keypad</keypad>
+    <call>Call</call>
+    <mute>Mute</mute>
+    <answer>ตอบรับ</answer>
+    <decline>ปฏิเสธ</decline>
+    <filter>Display only WebPhone contacts</filter>
+    <hfilter>Display only Missed calls</hfilter>
+    <phone>WebPhone</phone>
+    <duration>ระหว่าง:</duration>
+    <video>Video</video>
+    <localcam>This Computer</localcam>
+    <remotecam>Remote Computer</remotecam>
+    <answer_video>ตอบรับ + วีดีโอ</answer_video>
+    <hang_up>รับสาย</hang_up>
+    <busy>User is busy</busy>
+    <pbook>สมุดโทรศัพท์</pbook>
+    <refresh>ปรับประวัติการโทร</refresh>
+    <call_duration>Call Duration %s</call_duration>
+    <history>ประวัติการโทร</history>
+    <missed>ไม่รับสาย</missed>
+    <incoming>สายโทรเข้า</incoming>
+    <outgoing>สายโทรออก</outgoing>
+    <select_contect>Choose preferred contact</select_contect>
+    <calling>Calling to</calling>
+    <incomingcall>Call from</incomingcall>
+    <callestablished>Call with</callestablished>
+    <notify_ext>Dialed over External Phone</notify_ext>
+  </dial>
+  <sip>
+    <sip>WebPhone</sip>
+    <external>Dial over external phone</external>
+    <screen>Call with screensharing</screen>
+    <sip_status>WebPhone: %s</sip_status>
+    <default_contact>Default WebPhone Contact</default_contact>
+    <unreachable>เซิร์ฟเวอร์ไม่สามารถเข้าถึง</unreachable>
+    <device>ไม่พบอุปกรณ์เสียง</device>
+    <videonotsupported>Your browser doesn&apos;t support video calls. For best results use the latest Chrome or Firefox.</videonotsupported>
+    <offline>WebPhone is Offline (calls will be dialed over external VoIP softphone/telephone)</offline>
+    <outgoingcall>You are calling %s</outgoingcall>
+    <incomingcall>%s is calling you</incomingcall>
+    <callongoing>You are in a call with %s</callongoing>
+    <callestablished>Call with %s established</callestablished>
+    <userbusy>User %s is busy</userbusy>
+    <callfinished>การโทรเสร็จสิ้น</callfinished>
+    <callcanceled>The call has ended</callcanceled>
+    <notreachable>Cannot reach user on WebPhone</notreachable>
+    <calldeclined>The call was declined</calldeclined>
+    <info>WebPhone Info: %s</info>
+    <notification>ผู้ใช้ %s คือ %s</notification>
+    <error>WebPhone Alert</error>
+    <notice>WebPhone Alert</notice>
+    <udp>WebPhone connection error. Check your firewall or Internet connection.</udp>
+    <slow>Initialization is too slow. WebPhone may not work properly.</slow>
+    <init>WebPhone connection error. Check your setting in Options - Phone.</init>
+    <mediarequest>Please allow access to your microphone or camera. Alternatively click on Troubleshoot button below to access an interactive guide.</mediarequest>
+    <invalidstate>Could not access required media devices. Another application could be already using them.</invalidstate>
+    <nopermission>Permission to media devices was denied or is blocked. You need to allow use of microphone or camera to interact.</nopermission>
+    <mediadenied>Could not access the requested media device(s). Possibly they are disconnected or misconfigured.</mediadenied>
+    <ffmedia>Media access not granted. Use the microphone or camera icon top left in the browser to Allow or Deny media access.</ffmedia>
+    <nowebrtc>Your browser doesn&apos;t support WebRTC for audio/video. Use another browser (we suggest Chrome) or install a WebRTC browser plugin.</nowebrtc>
+    <gettingmedia>There is a call or conference in progress. Please allow or deny access to devices to continue.</gettingmedia>
+    <occupied>WebPhone is already in use.</occupied>
+  </sip>
+  <conference>
+    <planner>WebMeeting planner</planner>
+    <aborted>The meeting has been terminated.</aborted>
+    <access>Access information</access>
+    <allattendees>All attendees</allattendees>
+    <missinguserid>You are not a participant in this meeting. Terminating the meeting.</missinguserid>
+    <appletrunning>Java started, waiting for connection to meeting...</appletrunning>
+    <callestablished>WebMeeting is in progress</callestablished>
+    <callfinished>WebMeeting has ended</callfinished>
+    <came>has joined the meeting</came>
+    <cancelled>The meeting has ended unexpectedly</cancelled>
+    <privatechat>Start Private Chat</privatechat>
+    <chatalreadymeeting>You have received a new meeting invitation but cannot join it now, since you are busy in a meeting already.</chatalreadymeeting>
+    <chatinvite>I would like to invite you to a WebMeeting</chatinvite>
+    <closed>The WebMeeting session ended</closed>
+    <closing>Do you want to leave this meeting or end the meeting for all attendees?</closing>
+    <confirminvite>sent you an invitation to WebMeeting</confirminvite>
+    <connectfailure>Unable to connect to meeting</connectfailure>
+    <connecting>Attempting connection to meeting...</connecting>
+    <create>Create new WebMeeting</create>
+    <created>WebMeeting created, starting meeting...</created>
+    <createfirst>There is currently no WebMeeting in progress, would you like to start one?</createfirst>
+    <delegate>Make Moderator</delegate>
+    <screen>Remote screen</screen>
+    <desktop>Share screen</desktop>
+    <waitvideo>Waiting for remote screen</waitvideo>
+    <notchrome>For screen sharing you need to use Chrome</notchrome>
+    <nohttps>Secure connection (https) is required for screen sharing.</nohttps>
+    <noplugin>Screen-sharing plugin is not installed.</noplugin>
+    <desktopinfo>Share your screen with other attendees</desktopinfo>
+    <dialin>If you want to call in, dial one of the following numbers:</dialin>
+    <disablefirebug>Firebug extension may interfere with this functionality. Better disable Firebug and login again.</disablefirebug>
+    <dismiss>Dismiss Attendee</dismiss>
+    <duration>Duration:</duration>
+    <end>End WebMeeting</end>
+    <endcall>End call</endcall>
+    <endforall>End WebMeeting for all</endforall>
+    <endinfo>Terminating meeting...</endinfo>
+    <finished>Your audio recording will be processed and saved to Documents.</finished>
+    <generalerror>Unspecified meeting-related error occurred.</generalerror>
+    <id>Meeting ID:</id>
+    <shortid>ID:</shortid>
+    <info>WebMeeting Info</info>
+    <instruct>You are now connected to the voice conference, simply use your microphone and speakers - a headset is recommended.</instruct>
+    <invalidmeetingid>You cannot join this meeting. It has an expired or invalid Meeting ID.</invalidmeetingid>
+    <invalidsessionid>The session has expired, terminating meeting</invalidsessionid>
+    <invitationedit>Invitation message:</invitationedit>
+    <invite>Invite</invite>
+    <inviteinfo>Invite Participants</inviteinfo>
+    <invitation_sent>Invitation sent to</invitation_sent>
+    <invited>WebMeeting invitation received</invited>
+    <invitesubject>WebMeeting Invitation</invitesubject>
+    <join>Join WebMeeting</join>
+    <joining>Joining meeting</joining>
+    <leave>Leave</leave>
+    <leaveinfo>Leave WebMeeting</leaveinfo>
+    <leaveorend>Select a new moderator if you want this meeting to continue. Otherwise this meeting will end for all attendees.</leaveorend>
+    <leaving>Are you sure you want to leave this meeting?</leaving>
+    <left>has left the meeting</left>
+    <leftchat>Message could not be delivered, this attendee has left the meeting.</leftchat>
+    <mailinvite>You can join this meeting now</mailinvite>
+    <manager>moderator</manager>
+    <meeting>WebMeeting</meeting>
+    <mikogoerror>Server reported an error with screen sharing.</mikogoerror>
+    <servererror>General meeting-related error occurred. Contact your administrator for more details.</servererror>
+    <connectionerror>The meeting was terminated by network connection error. Please try again later.</connectionerror>
+    <mute>Mute</mute>
+    <muteall>Mute All Attendees</muteall>
+    <muteinfo>Mute Microphone</muteinfo>
+    <muteone>Mute Attendee</muteone>
+    <attendees>Attendees</attendees>
+    <chat>WebChat</chat>
+    <name>Name:</name>
+    <needspecialpermissions>Insufficient permissions to perform this operation</needspecialpermissions>
+    <networkrequesterror>There appears to be a problem with the network. You have been disconnected from the meeting.</networkrequesterror>
+    <nocallallowed>Calls are not allowed during a WebMeeting</nocallallowed>
+    <noparticipants>No participants</noparticipants>
+    <notaccessmode>WebMeeting service is disabled for this account.</notaccessmode>
+    <notauthenticated>You are not authenticated to this service.</notauthenticated>
+    <notenabled>WebMeetings are disabled by server administrator</notenabled>
+    <notonline>There is no network connection</notonline>
+    <notsetupproperly>WebMeeting service is not configured properly.</notsetupproperly>
+    <notlicensed>Insufficient license for WebMeetings.</notlicensed>
+    <licenseerror>Insufficient license to start more WebMeetings.</licenseerror>
+    <offline>The meeting is offline.</offline>
+    <ongoing>WebMeeting in progress</ongoing>
+    <onlyorganizercandothis>This feature is accessible only to meeting organizer.</onlyorganizercandothis>
+    <onlysuperusercandothis>You are not authorized to perform this operation.</onlysuperusercandothis>
+    <organizer>organizer</organizer>
+    <pending>Waiting for organizer to start the WebMeeting...</pending>
+    <phone>Phone:</phone>
+    <phoning>You are on a call. Would you like to end it and start the WebMeeting?</phoning>
+    <preparing>Getting meeting data</preparing>
+    <promoted>is now moderator</promoted>
+    <ready>The meeting is ready to start</ready>
+    <recap>This information can be viewed anytime by clicking the &quot;info&quot; icon above.</recap>
+    <record>Record audio</record>
+    <recordinfo>Recording</recordinfo>
+    <recording>Recording audio</recording>
+    <restart>Restart WebMeeting</restart>
+    <schedule>Schedule WebMeeting</schedule>
+    <scheduleorstart>Would you like to start a meeting now or schedule a meeting for a later time?</scheduleorstart>
+    <silenceinfo>Mute Speakers</silenceinfo>
+    <sipnoparticipants>There are no participants, the meeting was terminated.</sipnoparticipants>
+    <start>Start WebMeeting</start>
+    <started>Meeting started, waiting for Java to start...</started>
+    <startedconnect>Meeting started, connecting...</startedconnect>
+    <startednojava>Meeting started, waiting for media access...</startednojava>
+    <starting>Starting meeting</starting>
+    <startnow>Start WebMeeting now</startnow>
+    <joinnow>Join existing WebMeeting</joinnow>
+    <terminate>Are you sure you want to end this meeting?</terminate>
+    <timeout>Unable to maintain connection to meeting</timeout>
+    <unknown>Undisclosed participant</unknown>
+    <unmuteone>Unmute Attendee</unmuteone>
+    <details>WebMeeting details</details>
+    <callin>Call-in details</callin>
+    <url>Meeting URL:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>Call ID:</callid>
+    <waitfailure>Unable to join the meeting.</waitfailure>
+    <waiting>Waiting for Java to start, this may take a while.</waiting>
+    <welcome>Welcome to IceWarp WebMeeting</welcome>
+    <me>Me</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>Java is required to launch your Office applications directly from your web browser and automatically upload document changes.</nolaunch>
+    <nooffice>No Office suite detected.</nooffice>
+    <openfailed>Could not open the document in Office. Would you like to download it instead?</openfailed>
+    <noappfound>Could not find an application to open this type of document.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>โหมด:</mode>
+    <disabled>ไม่ตอบกลับ</disabled>
+    <respond_always>ตอบกลับทุกครั้ง</respond_always>
+    <respond_once>ตอบกลับครั้งเดียว</respond_once>
+    <respond_after_period>ตอบกลับในภายหลัง</respond_after_period>
+    <respond_period>ตอบกลับในภายหลัง (วัน):</respond_period>
+    <from>จาก</from>
+    <subject>หัวข้อ</subject>
+    <text>ข้อความ</text>
+    <respond_only_if_to_me>ตอบกลับเฉพาะจดหมายที่ส่งถึงอีเมล์นี้เท่านั้น</respond_only_if_to_me>
+    <respond_between>กำหนดช่วงเวลาในการตอบกลับ:</respond_between>
+    <noresponderfor>ไม่มีการตอบกลับสำหรับ</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>ส่งต่อถึง:</forward_to>
+    <keep_copy>เก็บจดหมายที่กล่องจดหมายเข้า</keep_copy>
+    <forward_older>ส่งต่อจดหมายเมื่อได้รับเกิน (วัน):</forward_older>
+    <forward_older_to>ส่งต่อไปยัง:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>เพิ่ม / แก้ไข</addedit>
+    <header>หัวเรื่อง</header>
+    <filters>Filter</filters>
+    <edit_header>แก้ไขหัวเรื่อง</edit_header>
+    <empty_operator/>
+    <not>ไม่ใช่</not>
+    <and>และ</and>
+    <or>หรือ</or>
+    <and_not>และ ไม่</and_not>
+    <or_not>หรือ ไม่</or_not>
+    <from>จาก:</from>
+    <to>ถึง:</to>
+    <subject>หัวเรื่อง:</subject>
+    <cc>สำเนาถึง:</cc>
+    <reply_to>ตอบกลับไปยัง:</reply_to>
+    <date>วันที่:</date>
+    <message>จดหมาย</message>
+    <message_type>รูปแบบจดหมาย:</message_type>
+    <message_body>รูปแบบจดหมาย</message_body>
+    <custom_message_header>ปรับแต่งหัวข้อความ</custom_message_header>
+    <any_message_header>ทุกหัวข้อความ</any_message_header>
+    <attachment_name>ชื่อไฟล์แนบ</attachment_name>
+    <sender>ผู้ส่ง</sender>
+    <recipient>ผู้รับ</recipient>
+    <senders_ip>IP ผู้ส่ง</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / ผู้ส่ง</ip>
+    <all_messages>ทุกข้อความ</all_messages>
+    <no_messages>ไม่มีข้อความ</no_messages>
+    <priority_is>สำคัญ</priority_is>
+    <priority_isnt>ไม่มีความสำคัญ</priority_isnt>
+    <is_spam>เป็นสแปม</is_spam>
+    <isnt_spam>ไม่ใช่สแปม</isnt_spam>
+    <is_greater_than>มากกว่า</is_greater_than>
+    <is_lower_than>น้อยกว่า</is_lower_than>
+    <match_case>ต้องตรงกัน</match_case>
+    <regexp>Regex</regexp>
+    <whole_word>ทุกคำ</whole_word>
+    <matches>ตรงกัน</matches>
+    <doesnt_match>ไม่ตรงกัน</doesnt_match>
+    <contains_string>จำกัด</contains_string>
+    <doesnt_contain_string>ไม่จำกัด</doesnt_contain_string>
+    <matches_regex>regex ตรงกัน</matches_regex>
+    <doesnt_match_regex>regex ไม่ตรงกัน</doesnt_match_regex>
+    <is_string>คือ</is_string>
+    <isnt_string>ไม่</isnt_string>
+    <spam_score>คะแนน สแปม</spam_score>
+    <authorized>อนุญาติ</authorized>
+    <unauthorized>ไม่อนุญาติ</unauthorized>
+    <add>เพิ่ม</add>
+    <delete>ลบ</delete>
+    <up>ขึ้น</up>
+    <down>ลง</down>
+    <action>เตือน</action>
+    <actions>เตือน</actions>
+    <accept>ยอมรับ</accept>
+    <reject>ไม่ยอมรับ</reject>
+    <quarantine>Quarantine</quarantine>
+    <spam>สแปม</spam>
+    <stop_processing>หยุดการประมวลผลกฎอื่นๆ</stop_processing>
+    <move_to>ย้ายไปยัง</move_to>
+    <copy_to>คัดลอกไปยัง</copy_to>
+    <encrypt_message>เอ็นคริปจดหมาย</encrypt_message>
+    <set_message_priority>ความสำคัญของจดหมาย</set_message_priority>
+    <set_message_flag>ตั้งค่าธงข้อความเป็น</set_message_flag>
+    <text>ข้อความ:</text>
+    <title>ชื่อเรื่อง</title>
+    <conditions>เงื่อนไข</conditions>
+    <edit>แก้ไข</edit>
+    <rule>Rules</rule>
+    <rules>หลายกฎ</rules>
+    <highest>สูงสุด</highest>
+    <high>สูง</high>
+    <normal>ปกติ</normal>
+    <low>ต่ำ</low>
+    <lowest>ต่ำสุด</lowest>
+    <spam_is_greater_than>มากกว่า</spam_is_greater_than>
+    <spam_is_lower_than>น้อยกว่า</spam_is_lower_than>
+    <forward_to>ส่งต่อถึง</forward_to>
+    <send_message>ส่งจดหมาย</send_message>
+    <three_dots>...</three_dots>
+    <email>อีเมล์</email>
+    <instant_messaging>WebChat</instant_messaging>
+    <active>ทำงาน</active>
+  </filters>
+  <rich>
+    <alt>ข้อความอื่น</alt>
+    <code>Source</code>
+    <paragraph>ย่อหน้า</paragraph>
+    <normal>ปกติ</normal>
+    <heading>หัวเรื่อง</heading>
+    <clearformatting>Clear formatting</clearformatting>
+    <font>รูปแบบอักษร</font>
+    <size>ขนาด</size>
+    <rows>แถวแนวนอน</rows>
+    <columns>แถวแนวตั้ง</columns>
+    <padding>Cell padding</padding>
+    <spacing>Cell spacing</spacing>
+    <img_spacing>การเว้นวรรค</img_spacing>
+    <bordercolor>Border color</bordercolor>
+    <border>เส้นขอบ</border>
+    <bold>Make bold</bold>
+    <italic>Make italic</italic>
+    <underline>Underline text</underline>
+    <style>Formatting type</style>
+    <align>Text Align</align>
+    <left>Align left</left>
+    <center>Align center</center>
+    <right>Align right</right>
+    <justify>Justify</justify>
+    <numberedlist>Numbered list</numberedlist>
+    <bulletedlist>Bulleted list</bulletedlist>
+    <indent>Indent</indent>
+    <leftindent>Left indent</leftindent>
+    <rightindent>Right indent</rightindent>
+    <bgcolor>สีพื้นหลัง</bgcolor>
+    <color>สีข้อความ</color>
+    <cut>ตัด</cut>
+    <copy>คัดลอก</copy>
+    <paste>วาง</paste>
+    <pastew>วางแบบตัวอักษร</pastew>
+    <insert>Insert</insert>
+    <addlink>Link</addlink>
+    <table>Table</table>
+    <image>Image</image>
+    <dropbox>Dropbox link</dropbox>
+    <spell>ตรวจสอบคำสะกด</spell>
+    <url>URL</url>
+    <uploaded>อัพโหลด</uploaded>
+    <internal>Internal</internal>
+    <direction>ทิศทางข้อความ (HTML)</direction>
+    <ltr>Left to right</ltr>
+    <rtl>Right to left</rtl>
+    <screenshot>Take screenshot</screenshot>
+    <paste_img>Paste image</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Loading</loading>
+    <framework>กำลังโหลด framework</framework>
+    <settings>กำลังโหลดการตั้งค่า</settings>
+    <language>Loading resources</language>
+    <indexing>ดัชนี</indexing>
+    <startup>เริ่มต้น</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Desktop Client</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Download Desktop Client</help_win_desktop1>
+    <help_win_desktop2>Run the installer. In the Desktop Client main menu, select &lt;b&gt;Tools - Accounts&lt;/b&gt;. The &lt;b&gt;Accounts&lt;/b&gt; dialog appears. In this dialog, click &lt;b&gt;New Account&lt;/i&gt;&lt;/b&gt;. The New Account wizard appears. Fill in the &lt;i&gt;Email&lt;/i&gt; and &lt;i&gt;Password&lt;/i&gt; fields and click &lt;b&gt;Start Now.&lt;/b&gt;</help_win_desktop2>
+    <help_win_desktop3>On the Account details page, you can modify your Account name. Click Next. On the next page, you can deactivate features that you do not want to use. Click Finish to complete the setup.</help_win_desktop3>
+    <help_win_osync1>Download Outlook Sync</help_win_osync1>
+    <help_win_osync2>Run the installer. On the SmartDiscover page, enter your &lt;i&gt;Email address&lt;/i&gt; and &lt;i&gt;Password&lt;/i&gt;, do &lt;b&gt;not&lt;/b&gt; tick the box &lt;i&gt;Skip SmartDiscover and configure manually&lt;/i&gt;. Click Next.</help_win_osync2>
+    <help_win_osync3>In the next step, the License activation dialog is shown.</help_win_osync3>
+    <help_win_osync4>If you were granted a license for IceWarp Outlook Sync, click Yes. If you want to use IceWarp Outlook Sync within the scope of 30-day trial period first, click No.</help_win_osync4>
+    <help_win_osync5>Click Finish to complete the installation.</help_win_osync5>
+    <help_win_20131>In the &lt;b&gt;File&lt;/b&gt; menu, on the &lt;b&gt;Account Information&lt;/b&gt; page, click &lt;b&gt;Add Account&lt;/b&gt;, the Add Account dialog opens. On the &lt;b&gt;Auto Account Setup&lt;/b&gt; page, select the &lt;i&gt;Manual setup or additional server types&lt;/i&gt; option and click Next.&#13;&#10;On the &lt;b&gt;Choose Service&lt;/b&gt; page, select the &lt;i&gt;Outlook.com or Exchange ActiveSync compatible service&lt;/i&gt; option and click Next.</help_win_20131>
+    <help_win_20132>On the &lt;b&gt;Server Settings&lt;/b&gt; page, fill in your user, server and logon information. Click Next.</help_win_20132>
+    <help_win_20133>After the account settings test, click Finish.</help_win_20133>
+    <help_osx_all_applications_title>All applications</help_osx_all_applications_title>
+    <help_osx_messages_title>Messages</help_osx_messages_title>
+    <help_osx_messages1>Open Messages and from the main menu select &lt;b&gt;Messages - Add Account&lt;/b&gt;. From the types of account to add, choose &lt;b&gt;Other messages account...&lt;/b&gt; and click Continue.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Calendar</help_osx_calendar_title>
+    <help_osx_calendar1>Open Calendar and from the main menu select &lt;b&gt;Calendar - Add Account&lt;/b&gt;. From the types of account to add, choose &lt;b&gt;Add CalDAV Account&lt;/b&gt; and click Continue.</help_osx_calendar1>
+    <help_osx_calendar2>In the &lt;b&gt;Add a CalDAV Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Manual&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_calendar2>
+    <help_osx_calendar3>To setup &lt;b&gt;Reminders&lt;/b&gt; go to &lt;b&gt;System Preferences - Internet Accounts&lt;/b&gt; and locate the calendar account you have just configured. Tick the checkbox by &lt;i&gt;Use With: Reminders&lt;/i&gt;</help_osx_calendar3>
+    <help_osx_contacts_title>Contacts</help_osx_contacts_title>
+    <help_osx_contacts1>Open Contacts and from the main menu select &lt;b&gt;Contacts - Add Account&lt;/b&gt;. From the types of account to add, choose &lt;b&gt;Other contacts account&lt;/b&gt; and click Continue.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>All applications</help_osx_all>
+    <help_osx_all1>Download configurator</help_osx_all1>
+    <help_osx_all2>Open the downloaded IceWarp Configurator image file. Run IceWarp Configurator. If prompted that the application was downloaded from the Internet, click Open. Fill in the Email Address and Password fields and click &lt;strong&gt;Continue&lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>Each application that can be auto-configured will have a green &lt;strong&gt;Connect&lt;/strong&gt; button next to it. Click one by one, or select &lt;strong&gt;Connect All&lt;/strong&gt; to setup all available applications.</help_osx_all3>
+    <help_tablet_and_title>Android Tablets</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Windows Tablets</help_tablet_win_title>
+    <help_tablet_win1>On the right-hand side of the &lt;b&gt;Start&lt;/b&gt; screen, select the &lt;i&gt;Settings - Change PC Settings - Accounts&lt;/i&gt;. On the Accounts page, select the &lt;i&gt;Other accounts&lt;/i&gt; option.&#13;&#10;On the Other accounts page, tap &lt;i&gt;Add a user&lt;/i&gt;. On the next page, fill in the server hostname and tap Next.</help_tablet_win1>
+    <help_tablet_win2>On the Create a Microsoft account page, fill in your account credentials and tap Next.</help_tablet_win2>
+    <help_tablet_win3>On the Add security info page, set your security preferences and tap Next. On the Communication preferences page, tap Next. On the final page, tap Finish.</help_tablet_win3>
+    <help_phone_and_title>Android Devices</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>On the &lt;b&gt;Remote security administration&lt;/b&gt; screen, press &lt;b&gt;OK&lt;/b&gt;. This is essential to enforce your company&apos;s security policies on the device, or reset it remotely if lost.</help_phone_and2>
+    <help_phone_and3>On the &lt;b&gt;Account settings&lt;/b&gt; screen, choose &lt;i&gt;Inbox checking frequency&lt;/i&gt; and set how old emails to synchronize under &lt;i&gt;Days to sync&lt;/i&gt;. Optionally tick &lt;i&gt;Send email from this account by default&lt;/i&gt;, review other settings and tap Next.</help_phone_and3>
+    <help_phone_and4>Provide an account label to identify this account in applications and tap Next.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>Go to &lt;b&gt;Settings&lt;/b&gt;, select &lt;i&gt;Mail, Contacts, Calendars - Add Account - Exchange&lt;/i&gt; options.</help_ios1>
+    <help_ios2>On the next page, fill in the &lt;i&gt;Email, Password, Description&lt;/i&gt; fields. Tap Next.</help_ios2>
+    <help_ios3>On the next page, optionally deactivate features you do not want to use by sliding the controllers to off. Tap Save. Advanced settings can be found under the account&apos;s Description in the &lt;b&gt;Mail, Contacts, Calendars - Accounts &lt;/b&gt; section.</help_ios3>
+    <help_phone_win_title>Windows Phone</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Fill in your &lt;i&gt;Email address&lt;/i&gt; and &lt;i&gt;Password&lt;/i&gt;. When done, tap &lt;b&gt;sign in&lt;/b&gt;.</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X are trademarks of Apple Inc., registered in the U.S. and other countries. Microsoft, Windows, Outlook and Windows Phone are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries. Android is a trademark of Google Inc. IceWarp is a registered trademark in the USA and other countries.</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>Email, calendars, contacts, tasks</subtitle>
+    <descr>Step-by-step account setup.</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>Setup IceWarp Desktop Client</subtitle>
+    <descr>Step-by-step installation.</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Calendars and Reminders</subtitle>
+    <descr>Step-by-step setup on Mac.</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>Mail, calendar, people</subtitle>
+    <descr>Step-by-step installation.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>Email, calendars and contacts</subtitle>
+    <descr>Step-by-step account setup.</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>Email, calendars and contacts</subtitle>
+    <descr>Step-by-step account setup.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Previous page</previous_title>
+    <previous_label>Previous</previous_label>
+    <next_title>Next page</next_title>
+    <next_label>Next</next_label>
+    <page_label>Page:</page_label>
+    <page_of>of {{pageCount}}</page_of>
+    <zoom_out_title>Zoom out</zoom_out_title>
+    <zoom_out_label>Zoom out</zoom_out_label>
+    <zoom_in_title>Zoom in</zoom_in_title>
+    <zoom_in_label>Zoom in</zoom_in_label>
+    <zoom_title>Zoom</zoom_title>
+    <presentation_mode_title>Switch to fullscreen</presentation_mode_title>
+    <presentation_mode_label>Fullscreen</presentation_mode_label>
+    <print_title>Print</print_title>
+    <print_label>Print</print_label>
+    <download_title>Download</download_title>
+    <download_label>Download</download_label>
+    <bookmark_title>Bookmark</bookmark_title>
+    <bookmark_label>Bookmark</bookmark_label>
+    <tools_title>Tools</tools_title>
+    <tools_label>Tools</tools_label>
+    <first_page_title>Go to first page</first_page_title>
+    <first_page_label>Go to first page</first_page_label>
+    <last_page_title>Go to last page</last_page_title>
+    <last_page_label>Go to last page</last_page_label>
+    <page_rotate_cw_title>Rotate clockwise</page_rotate_cw_title>
+    <page_rotate_cw_label>Rotate clockwise</page_rotate_cw_label>
+    <page_rotate_ccw_title>Rotate counterclockwise</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Rotate counterclockwise</page_rotate_ccw_label>
+    <hand_tool_enable_title>Enable hand tool</hand_tool_enable_title>
+    <hand_tool_enable_label>Enable hand tool</hand_tool_enable_label>
+    <hand_tool_disable_title>Disable hand tool</hand_tool_disable_title>
+    <hand_tool_disable_label>Disable hand tool</hand_tool_disable_label>
+    <document_properties_label>Document properties</document_properties_label>
+    <document_properties_file_name>File name:</document_properties_file_name>
+    <document_properties_file_size>File size:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>Title:</document_properties_title>
+    <document_properties_author>Author:</document_properties_author>
+    <document_properties_subject>Subject:</document_properties_subject>
+    <document_properties_keywords>Keywords:</document_properties_keywords>
+    <document_properties_creation_date>Creation date:</document_properties_creation_date>
+    <document_properties_modification_date>Modification date:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Creator:</document_properties_creator>
+    <document_properties_producer>Producer:</document_properties_producer>
+    <document_properties_version>Version:</document_properties_version>
+    <document_properties_page_count>Page count:</document_properties_page_count>
+    <document_properties_close>Close</document_properties_close>
+    <toggle_sidebar_title>Toggle sidebar</toggle_sidebar_title>
+    <toggle_sidebar_label>Toggle sidebar</toggle_sidebar_label>
+    <outline_title>Show document outline</outline_title>
+    <outline_label>Show document outline</outline_label>
+    <thumbs_title>Show thumbnails</thumbs_title>
+    <thumbs_label>Show thumbnails</thumbs_label>
+    <findbar_title>Find in document</findbar_title>
+    <findbar_label>Find</findbar_label>
+    <thumb_page_title>Page {{page}}</thumb_page_title>
+    <thumb_page_canvas>Thumbnail of page {{page}}</thumb_page_canvas>
+    <find_label>Find:</find_label>
+    <find_previous_title>Find previous</find_previous_title>
+    <find_previous_label>Previous</find_previous_label>
+    <find_next_title>Find next</find_next_title>
+    <find_next_label>Next</find_next_label>
+    <find_highlight>Highlight all</find_highlight>
+    <find_match_case_label>Match case</find_match_case_label>
+    <find_reached_top>Reached the top of the document</find_reached_top>
+    <find_reached_bottom>Reached the bottom of the document</find_reached_bottom>
+    <find_not_found>Not found</find_not_found>
+    <error_more_info>More info</error_more_info>
+    <error_less_info>Less info</error_less_info>
+    <error_close>Close</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Message: {{message}}</error_message>
+    <error_stack>Stack: {{stack}}</error_stack>
+    <error_file>File: {{file}}</error_file>
+    <error_line>Line: {{line}}</error_line>
+    <rendering_error>Rendering error</rendering_error>
+    <page_scale_width>Full width</page_scale_width>
+    <page_scale_fit>Fit page</page_scale_fit>
+    <page_scale_auto>Automatic zoom</page_scale_auto>
+    <page_scale_actual>Actual size</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Error</loading_error_indicator>
+    <loading_error>Error while loading PDF</loading_error>
+    <invalid_file_error>Invalid or corrupted PDF file</invalid_file_error>
+    <missing_file_error>Missing PDF file</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>Enter password to open this protected PDF</password_label>
+    <password_invalid>Incorrect password, please try again.</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Cancel</password_cancel>
+    <printing_not_supported>Warning: Printing is not fully supported in this browser.</printing_not_supported>
+    <printing_not_ready>Warning: PDF is not completly loaded for printing</printing_not_ready>
+    <web_fonts_disabled>Web fonts are disabled: not possible to use PDF fonts</web_fonts_disabled>
+    <document_colors_disabled>PDF document is not allowed to use colors</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDocument</title>
+    <preview>Document preview</preview>
+    <error>WebDocument Error</error>
+    <error_msg>Document loading problem. You may need to close and reopen the document for full functionality.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

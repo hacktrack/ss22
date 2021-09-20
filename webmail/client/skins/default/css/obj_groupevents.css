@@ -1,0 +1,27 @@
+.obj_groupevents section{
+	padding: 0 22px!important;
+
+	margin: 10px auto;
+	max-width: 1024px;
+}
+
+.obj_groupevents div.separator>span{
+	display: block;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 15px 22px 0;
+
+}
+
+/* placeholder */
+.obj_list_load.obj_groupevents>div.placeholder>span:before{
+	content: '\e072';
+	font-family: "ico24";
+	font-size: 48px;
+	color: {txt_main_vf '#0088CC'};
+	display: block;
+	margin-bottom: 15px;
+}

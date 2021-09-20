@@ -1,0 +1,35 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>groupware</helper>
+		<form id="file" helper="item" template="file.detail">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<window>main</window>
+				<view>file.main</view>
+				<data>item.fdr</data>
+				<stylesheet>
+					<src>datagrid_detail</src>
+					<src>file_types</src>
+					<src>grid</src>
+					<src>tasks</src>
+					<src>file.main</src>
+				</stylesheet>
+				<javascript>
+					<src>jquery</src>
+					<src>general</src>
+				</javascript>
+			</config>
+			<wysiwyg anchor="fileDescription" anchoronly="1">
+				<config>
+					<name>item[values][0][EVNNOTE]</name>
+					<dataindex>item::EVNNOTE</dataindex>
+					<formatindex>item::EVNDESCFORMAT</formatindex>
+					<id>fileDescription</id>
+				</config>
+			</wysiwyg>
+		</form>
+	</panel>
+</form>

@@ -1,0 +1,160 @@
+/*
+Source	EOT		https://code.google.com/p/roboto-webfont/
+		WOFF	google fonts
+*/
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+
+  src:  local('Roboto Light'),  local('Roboto-Light'),
+        url(../fonts/font/Roboto-Light.woff2) format('woff2'),
+        url(../fonts/font/Roboto-Light.woff) format('woff'),
+        url(../fonts/font/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 200;
+
+  src:  local('Roboto Light Italic'), local('Roboto-LightItalic'),
+        url(../fonts/font/Roboto-LightItalic.woff) format('woff'),
+        url(../fonts/font/Roboto-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+
+  src:  local('Roboto'), local('Roboto-Regular'),
+        url(../fonts/font/Roboto-Regular.woff2) format('woff2'),
+        url(../fonts/font/Roboto-Regular.woff) format('woff'),
+        url(../fonts/font/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+
+  src:  local('Roboto Italic'), local('Roboto-Italic'),
+        url(../fonts/font/Roboto-Italic.woff2) format('woff2'),
+        url(../fonts/font/Roboto-Italic.woff) format('woff'),
+        url(../fonts/font/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+
+  src:  local('Roboto Medium'), local('Roboto-Medium'),
+        url(../fonts/font/Roboto-Medium.woff2) format('woff2'),
+        url(../fonts/font/Roboto-Medium.woff) format('woff'),
+        url(../fonts/font/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+	src: local('Roboto Medium'), local('Roboto-Medium'),
+	url(../fonts/font/Roboto-MediumItalic-webfont.woff) format('woff'),
+	url(../fonts/font/Roboto-MediumItalic-webfont.ttf) format('truetype'),
+	url(../fonts/font/Roboto-MediumItalic-webfont.eot) format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src:  local('Roboto Bold'), local('Roboto-Bold'),
+        url(../fonts/font/Roboto-Bold.woff2) format('woff2'),
+        url(../fonts/font/Roboto-Bold.woff) format('woff'),
+        url(../fonts/font/Roboto-Bold.ttf) format('truetype');
+}
+
+/*
+Source	TTF		https://fonts.google.com/specimen/Heebo
+*/
+
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 200;
+
+  src:  local('Heebo Light'),  local('Heebo-Light'),
+        url(../fonts/font/Heebo-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Heebo';
+  font-style: italic;
+  font-weight: 200;
+
+  src:  local('Roboto Light'), local('Roboto-Light'),
+        url(../fonts/font/Heebo-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+
+  src:  local('Heebo'), local('Heebo-Regular'),
+        url(../fonts/font/Heebo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Heebo';
+  font-style: italic;
+  font-weight: 400;
+
+  src:  local('Heebo'), local('Heebo-Regular'),
+        url(../fonts/font/Heebo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+
+  src:  local('Heebo Medium'), local('Heebo-Medium'),
+        url(../fonts/font/Heebo-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  src:  local('Heebo Bold'), local('Heebo-Bold'),
+        url(../fonts/font/Heebo-Bold.ttf) format('truetype');
+}
+
+/*
+Samim Font for Persian
+
+SIL Open Font License Version 1.1
+Copyright © 2015, Saber Rastikerdar
+*/
+
+@font-face {
+  font-family: 'Samim';
+  font-style: normal;
+  font-weight: normal;
+
+  src: url('../fonts/font/Samim.eot');
+  src: local('Samim'), url('../fonts/font/Samim.eot?#iefix') format('embedded-opentype'), url(../fonts/font/Samim.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Samim';
+  font-style: normal;
+  font-weight: bold;
+
+  src: url('../fonts/font/Samim-Bold.eot');
+  src: local('Samim Bold'), local('Samim-Bold'), url('../fonts/font/Samim-Bold.eot?#iefix') format('embedded-opentype'), url(../fonts/font/Samim-Bold.woff) format('woff');
+}

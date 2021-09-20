@@ -1,0 +1,22 @@
+http://mozilla.github.io/pdf.js/
+
+Update se dela tak, ze se prekopiruje cely balicek WEB a BUILD a pak se z viewer.html udela index.html dle informaci nize. dal je potreba handlebars.js
+
+web/index.html je viewer.html s nadstavbou na jazyk. Sekce <!-- ICEWARP SPECIFIC --> oznacuje vlozenou cast + PHP na zacatku.
+
+-------
+Patches
+-------
+
+file viewer.js
+-  validateFileURL(file);
++//  validateFileURL(file);
+
+file viewer.js
+-        print.call(window);
++        if (document.queryCommandSupported && document.queryCommandSupported('print')) {
++          window.document.execCommand('print', false, null);
++        }
++        else {
++          print.call(window);
++        }

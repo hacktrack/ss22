@@ -1,0 +1,32 @@
+
+/* message */
+
+div.frm_no_java form.obj_label>label {
+	text-align: left;
+}
+
+div.frm_no_java ul {
+	padding: 0 0 0 2em;
+}
+
+div.frm_no_java ul>li {
+	margin: 0.4em 0;
+	line-height: 170%;
+}
+
+/* buttons */
+
+/*
+div.frm_no_java div.obj_popupfoot form.obj_button:first-child {
+}
+*/
+div.frm_no_java div.obj_popupfoot form.obj_button.big.ico.admin:after {
+	content: '\e03a';
+}
+/*
+div.frm_no_java div.obj_popupfoot form.obj_button:first-child+form {
+}
+*/
+div.frm_no_java div.obj_popupfoot form.obj_button:last-child {
+	float: right;
+}

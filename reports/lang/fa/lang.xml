@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="به"/>
+  <ITEM id="attachments" value="پیوست‌ها"/>
+  <ITEM id="bytes" value="بایت"/>
+  <ITEM id="view_mail" value="مشاهده ایمیل"/>
+  <ITEM id="show_source" value="مشاهده سورس"/>
+  <ITEM id="title" value="پاسخ چالش"/>
+  <ITEM id="request" value="برای اثبات ارسال پیام شما توسط انسان و نه رایانه ، متن الفبایی را که در تصویر زیر می بینید تایپ کنید و OK را کلیک کنید. فقط یک بار برای این آدرس ایمیل از شما خواسته می شود این کار را انجام دهید."/>
+  <ITEM id="result_ok" value="کلمه ای که مشخص کردید صحیح است. آدرس ایمیل شما مجاز است"/>
+  <ITEM id="result_error" value="کلمه ای که تعیین کردید نادرست است. لطفا دوباره تلاش کنید."/>
+  <ITEM id="result_already" value="آدرس ایمیل شما قبلاً مجاز بوده است."/>
+  <ITEM id="result_black" value="آدرس ایمیل شما در لیست سیاه قرار گرفته است."/>
+  <ITEM id="result_notfound" value="آدرس ایمیل شما پیدا نشد حتماً حذف شده است. لطفاً پیام ایمیل خود را دوباره ارسال کنید."/>
+  <ITEM id="thanks" value="با تشکر از همکاری شما."/>
+  <ITEM id="reason" value="چرا من این کار را می کنم؟"/>
+  <ITEM id="explanation" value="ایمیل تجاری ناخواسته توسط رایانه تولید شده و نمی تواند به دستور بالا پاسخ دهد. با استفاده از این سیستم ایمیل مبتنی بر مجوز ، ایمیل ورودی خود را به فرستنده هایی که احراز هویت می کنند محدود می کنم ، به شرط آنکه آنها انسانهای واقعی باشند که مایلند از طریق ایمیل با من ارتباط برقرار کنند."/>
+  <ITEM id="thanks2" value="متشکرم که به من کمک کردید هرزنامه را پس بزنم!"/>
+  <ITEM id="copyright" value="کپی‌رایت"/>
+  <ITEM id="link" value="نرم افزار آیس وارپ"/>
+  <ITEM id="gateway_link_label" value="قرنطینه / هرزنامه خود را بصورت آنلاین مدیریت کنید"/>
+  <ITEM id="copyright2" value="کلیه حقوق محفوظ است."/>
+  <LIST>
+    <ITEM id="title" value="گزارش هرزنامه آیس وارپ"/>
+    <ITEM id="intro" value="این گزارش تولید شده به صورت خودکار شما را از پیام های موجود در پوشه هرزنامه (یا قرنطینه) حساب ایمیل شما مطلع می کند. به شما امکان می دهد با کلیک کردن روی یکی از دکمه های کنار هر سرآیند ایمیل اقدامات اداری را انجام دهید. &lt;br/&gt; توجه: گزارش ها فقط اولین پیام ارسال شده توسط هر فرستنده را نشان می دهد. وقتی آن را بپذیرید ، پیام های دیگر از همان فرستنده نیز تحویل داده می شوند."/>
+    <ITEM id="outro" value="می توانید روی یکی از پیوندهای بالا کلیک کنید تا اقدامات انتخاب شده در مورد همه پیام های باقی مانده در پوشه هرزنامه یا قرنطینه را انجام دهید."/>
+    <ITEM id="admin_action" value="برای همه موارد در اکانت ها عملی را انتخاب کنید"/>
+    <ITEM id="account_action" value="برای همه موارد در اکانت ها عملی را انتخاب کنید"/>
+    <ITEM id="you_are_admin" value="گزینه های مدیر هرزنامه"/>
+    <ITEM id="sender" value="از"/>
+    <ITEM id="subject" value="موضوع"/>
+    <ITEM id="recipient" value="به"/>
+    <ITEM id="date" value="تاریخ"/>
+    <ITEM id="time" value="ساعت"/>
+    <ITEM id="actions" value="عملیات"/>
+    <ITEM id="delete" value="حذف"/>
+    <ITEM id="authorize" value="لیست مجاز"/>
+    <ITEM id="accept" value="دریافت"/>
+    <ITEM id="blacklist" value="لیست‌سیاه"/>
+    <ITEM id="deleteall" value="حذف"/>
+    <ITEM id="authorizeall" value="لیست مجاز"/>
+    <ITEM id="acceptall" value="دریافت"/>
+    <ITEM id="blacklistall" value="لیست سیاه"/>
+    <ITEM id="submit" value="ارسال"/>
+    <ITEM id="view" value="نمایش پیام"/>
+    <ITEM id="msgsubject" value="گزارش اسپم از %%Current_Date%%"/>
+    <ITEM id="domain" value="دامنه"/>
+    <ITEM id="account" value="اکانت"/>
+    <ITEM id="location" value="مکان"/>
+    <ITEM id="type_quarantine" value="قرنطینه"/>
+    <ITEM id="type_spam" value="پوشه اسپم"/>
+    <ITEM id="delivery_problem" value="امکان انتقال پیام به اکانت وجود ندارد"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="مجوز ارسال کننده"/>
+      <ITEM id="success" value="فرستنده تایید شد."/>
+      <ITEM id="failure" value="امکان تایید فرستنده وجود ندارد."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="تحویل پیام"/>
+      <ITEM id="success" value="پیام تحویل داده شد."/>
+      <ITEM id="failure" value="امکان تحویل پیام وجود ندارد."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="حذف پیام"/>
+      <ITEM id="success" value="پیام حذف شده واز صف خارج شد."/>
+      <ITEM id="failure" value="امکان حذف پیام وجود ندارد."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="رد فرستنده"/>
+      <ITEM id="success" value="فرستنده به لیست سیاه اضافه شد."/>
+      <ITEM id="failure" value="امکان اضافه کردن فرستنده به لیست سیاه وجود ندارد."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="مشاهده پیام"/>
+      <ITEM id="failure" value="پیام نمایش داده نمی شود. این ممکن است در صورتی اتفاق بیفتد که پیام قبلاً از قرنطینه (یا پوشه هرزنامه) حذف شده باشد."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="عدم موفقیت"/>
+      <ITEM id="failure" value="عملیات درخواستی انجام نشد."/>
+      <ITEM id="wrongid" value="شناسه پیام نامعتبر است. پیام مشخص شده قبلاً از قرنطینه (یا پوشه هرزنامه) حذف شده است."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="مجوز ارسال کننده"/>
+      <ITEM id="success" value="ارسال کننده مجاز بوده و پیام تحویل داده شده است."/>
+      <ITEM id="failure" value="فرستنده مجاز نیست یا پیام تحویل داده نمی شود."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="ارسال پیام"/>
+      <ITEM id="success" value="پیام تحویل داده شد"/>
+      <ITEM id="failure" value="پیام ارسال نشد"/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="حذف پیام"/>
+      <ITEM id="success" value="پیام از پوشه هرزنامه حذف شد."/>
+      <ITEM id="failure" value="پیام حذف نشد"/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="رد فرستنده"/>
+      <ITEM id="success" value="فرستنده به لیست سیاه اضافه شد و پیام از پوشه هرزنامه حذف شد."/>
+      <ITEM id="failure" value="فرستنده نمی تواند به لیست سیاه اضافه شود یا پیام قابل حذف نیست."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="نمایش پیام"/>
+      <ITEM id="failure" value="پیام نمایش داده نمی شود. این امر می تواند در صورت حذف پیام از قبل صورت گیرد."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="شکست"/>
+      <ITEM id="failure" value="عملیات درخواستی انجام نشد."/>
+      <ITEM id="wrongid" value="شناسه پیام نامعتبر است. پیام مشخص شده قبلاً از قرنطینه (یا پوشه هرزنامه) حذف شده است."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="شکست"/>
+      <ITEM id="failure" value="عملیات درخواستی انجام نشد."/>
+      <ITEM id="wrongid" value="شناسه مدیر نامعتبر است. اکانت سرپرست مشخص شده دیگر وجود ندارد."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="گزارش های هرزنامه غیرفعال شده است %s"/>
+    <ITEM id="challenge_already_running" value="گزارش های هرزنامه در حال اجرا است"/>
+    <ITEM id="challenge_invalid_path_variable" value="مسیر گزارش هرزنامه به درستی بارگیری نشده است: %s"/>
+    <ITEM id="api_findinitquery" value="API گزارش هرزنامه: بازیابی شی حساب IceWarp. دامنه:٪ s ، فیلتر:٪ s"/>
+    <ITEM id="challenge_language_file_missing" value="پرونده زبان گزارشات هرزنامه موجود نیست:٪ s"/>
+    <ITEM id="challenge_language_file_corrupted" value="پرونده زبان هرزنامه خراب است:٪ s"/>
+    <ITEM id="challenge_invalid_hash" value="هرزنامه هش نامعتبر را گزارش می کند (حمله URL احتمالی):٪ s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

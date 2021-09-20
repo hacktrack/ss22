@@ -1,0 +1,97 @@
+div.obj_barmenu_block{
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+div.obj_barmenu_block.obj_barmenu_cell{
+	overflow: none;
+}
+div.obj_barmenu_block.overflow{
+	overflow: visible;
+}
+
+div.obj_barmenu_cell_open {
+	height: auto;
+}
+
+div.obj_barmenu_cell a.bar_cell_title{
+	display: none;
+}
+
+div.obj_barmenu div.obj_barmenu_cell_title a.bar_cell_title{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	height: 40px;
+	width: 100%;
+	line-height: 42px;
+	white-space: nowrap;
+	padding-left: 37px;
+	cursor: default;
+
+	font-size: 16px;
+	font-weight: 500;
+	color: #6b6b6b;
+}
+
+.rtl div.obj_barmenu div.obj_barmenu_cell_title a.bar_cell_title {
+	padding-left: 0;
+	padding-right: 35px;
+}
+
+div.obj_barmenu div.obj_barmenu_cell_title a.bar_cell_title:before{
+	display: block;
+	position: absolute;
+	top: 14px;
+	left: 15px;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+
+	content: '\e043';
+	font-family: 'ico16';
+	font-size: 14px;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #9a9a9a;
+
+	transition: transform 0.3s;
+	transform: rotate(-90deg);
+}
+	div.obj_barmenu div.obj_barmenu_cell_open a.bar_cell_title:before{
+		transform: rotate(0);
+	}
+
+div.obj_barmenu_cell div.bar_cell_container{
+	display: none;
+}
+	div.obj_barmenu_cell_open div.bar_cell_container{
+		display: block!important;
+	}
+
+div.obj_barmenu_cell div.bar_cell_body{
+	overflow: auto;
+}
+
+/*** MIDDLE ***/
+div.obj_barmenu div.bar_middle div.obj_barmenu_cell,
+div.obj_barmenu div.bar_middle div.obj_barmenu_cell div.bar_cell_body,
+div.obj_barmenu div.bar_middle div.obj_barmenu_cell div.bar_cell_container{
+	height: 100%;
+}
+
+div.obj_barmenu div.bar_middle div.obj_barmenu_cell div.bar_cell_container{
+	display: block;
+	border-top: 1px solid #D4D8DE;
+}
+
+/* middle with title */
+div.obj_barmenu div.bar_middle div.obj_barmenu_cell_title a.bar_cell_title{
+	position: absolute;
+	display: block;
+}
+div.obj_barmenu div.bar_middle div.obj_barmenu_cell_title div.bar_cell_container{
+	padding-top: 23px;
+	border-top-width: 0;
+}

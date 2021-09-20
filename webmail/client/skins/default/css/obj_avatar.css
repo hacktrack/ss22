@@ -1,0 +1,57 @@
+div.obj_avatar{
+	padding: 0 5px;
+}
+
+div.obj_avatar>div{
+	position: relative;
+	border: 2px solid transparent;
+	border-radius: 100px;
+
+	width: 50px;
+	height: 50px;
+
+	background: url("../images/face-placeholder.gif") no-repeat center center #C6C4C2;
+	background-size: cover;
+    background-clip: border-box;
+	background-origin: border-box;
+
+
+	cursor: pointer;
+}
+
+div.obj_avatar.size32>div{
+	width: 32px;
+	height: 32px;
+}
+
+/* im part */
+div.obj_avatar>div.status:after{
+	content: '';
+	position: absolute;
+
+	display: block;
+	width: 16px;
+	height: 16px;
+	border-radius: 10px;
+
+	top: -10px;
+	left: -10px;
+	margin-top: 50%;
+
+	background-color: #D3D3D3;
+	border: 2px solid #FFF;
+}
+
+	div.obj_avatar>div.status.im_chat:after,
+	div.obj_avatar>div.status.im_online:after{
+		background-color: #32c456;
+	}
+	div.obj_avatar>div.status.im_away:after{
+		background-color: #FFCD25;
+	}
+	div.obj_avatar>div.status.im_xa:after{
+		background-color: #FF9725;
+	}
+	div.obj_avatar>div.status.im_dnd:after{
+		background-color: #FA4D34;
+	}

@@ -1,0 +1,35 @@
+// Textarea
+// <textarea> form element.
+
+// Block
+.textarea {
+	@include form-element('textarea'); // <textarea>, <input> and dropdown object share these styles
+	line-height: $default-line-height;
+
+	// States
+	&.is-disabled {
+		opacity: 1;
+	}
+}
+
+
+// Elements
+.textarea textarea {
+	min-height: s(7.5);
+	margin-bottom: p(-0.5); // Textarea shouldn't have bottom padding
+	padding: p(0.5) p(1) 0 p(1);
+}
+
+
+// Modifiers
+.textarea.full {
+	@include flexit;
+
+	textarea {
+		@include webkit-scroll;
+		@include flex(1, 1, 0);
+		resize: none;
+		margin: 0;
+		padding-bottom: p(0.5);
+	}
+}

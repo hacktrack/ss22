@@ -1,0 +1,30 @@
+// Loop generating color classes with palette colors
+@mixin color-classes {
+
+	@each $class, $color in $color-map {
+
+		// Construct color classes
+		.color-#{$class} {
+
+			@include theme($class, $color) {
+				color: $theme-color;
+			}
+		}
+
+		// Construct background color classes
+		.bg-color-#{$class} {
+
+			@include theme($class, $color) {
+				background-color: $theme-color;
+			}
+		}
+
+		// Construct border color classes
+		.border-color-#{$class} {
+
+			@include theme($class, $color) {
+				border-color: $theme-color;
+			}
+		}
+	}
+}

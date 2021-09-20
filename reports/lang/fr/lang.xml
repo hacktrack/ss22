@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="À"/>
+  <ITEM id="attachments" value="Pièces jointes"/>
+  <ITEM id="bytes" value="Octets"/>
+  <ITEM id="view_mail" value="Visualiser le message"/>
+  <ITEM id="show_source" value="Visualiser la source"/>
+  <ITEM id="title" value="Confirmation"/>
+  <ITEM id="request" value="Pour vérifier que ce message a bien été envoyé par une personne et non par un robot, tapez le code que vous pouvez lire sur l&apos;image ci-dessous puis cliquez sur Valider. Ceci ne vous sera demandé qu&apos;une seule fois pour votre adresse email."/>
+  <ITEM id="result_ok" value="Le code entré est correct. Votre adresse email a été autorisée."/>
+  <ITEM id="result_error" value="Le code entré n&apos;est pas correct ! Réessayer."/>
+  <ITEM id="result_already" value="Votre adresse email a déjà été autorisée."/>
+  <ITEM id="result_black" value="Votre adresse email a été mise en liste noire !"/>
+  <ITEM id="result_notfound" value="Votre adresse email n&apos;a pas été trouvée. Elle a probablement été supprimée, veuillez renvoyer votre message."/>
+  <ITEM id="thanks" value="Nous vous remercions de votre coopération."/>
+  <ITEM id="reason" value="Pourquoi cette confirmation est-elle nécessaire ?"/>
+  <ITEM id="explanation" value="Les emails commerciaux non sollicités sont générés par des robots qui ne pourront pas effectuer cette confirmation. En vous demandant ceci, je limite les correspondants qui m&apos;écrivent aux personnes qui confirment leur premier envoi."/>
+  <ITEM id="thanks2" value="Je vous remercie pour votre aide dans la lutte contre le spam!"/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="Darnis - IceWarp france"/>
+  <ITEM id="gateway_link_label" value="Gérer les mails classés spam / en quarantaine"/>
+  <ITEM id="copyright2" value="Tous droits réservés."/>
+  <LIST>
+    <ITEM id="title" value="Rapport de spams IceWarp"/>
+    <ITEM id="intro" value="Ce message a été généré automatiquement pour vous informer des messages se trouvant dans le dossier Spam (ou Quarantaine) de votre compte e-mail. Vous pouvez gérer ces messages en cliquant sur un des boutons se trouvant à côté de chaque en-tête.&lt;br/&gt;NOTE: Ce rapport ne montre que le premier message émis par chaque expéditeur, si vous l&apos;acceptez, tous les autres messages du même expéditeur vous seront distribués."/>
+    <ITEM id="outro" value="Vous pouvez cliquer sur un des liens ci-dessus pour agir sur TOUS les messages restant dans votre dossier Spam ou Quarantaine."/>
+    <ITEM id="admin_action" value="Action sur tous les mails de tous les comptes"/>
+    <ITEM id="account_action" value="Action sur tous les mails du compte"/>
+    <ITEM id="you_are_admin" value="Action sur tous les mails des comptes Administrés"/>
+    <ITEM id="sender" value="De"/>
+    <ITEM id="subject" value="Objet"/>
+    <ITEM id="recipient" value="À"/>
+    <ITEM id="date" value="Date"/>
+    <ITEM id="time" value="Heure"/>
+    <ITEM id="actions" value="Actions"/>
+    <ITEM id="delete" value="Supprimer"/>
+    <ITEM id="authorize" value="Liste blanche"/>
+    <ITEM id="accept" value="Distribuer"/>
+    <ITEM id="blacklist" value="Liste noire"/>
+    <ITEM id="deleteall" value="Supprimer tous"/>
+    <ITEM id="authorizeall" value="Tous en liste blanche"/>
+    <ITEM id="acceptall" value="Distribuer tous"/>
+    <ITEM id="blacklistall" value="Tous en liste noire"/>
+    <ITEM id="submit" value="Valider"/>
+    <ITEM id="view" value="Voir"/>
+    <ITEM id="msgsubject" value="Rapport de spams du %%Current_Date%%"/>
+    <ITEM id="domain" value="Domaine"/>
+    <ITEM id="account" value="Compte"/>
+    <ITEM id="location" value="Dossier"/>
+    <ITEM id="type_quarantine" value="Quarantaine"/>
+    <ITEM id="type_spam" value="Spam"/>
+    <ITEM id="delivery_problem" value="Impossible de remettre les messages au compte"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autorisation de l&apos;expéditeur"/>
+      <ITEM id="success" value="L&apos;expéditeur a été autorisé."/>
+      <ITEM id="failure" value="L&apos;expéditeur ne peut pas être autorisé."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Remise des messages"/>
+      <ITEM id="success" value="Le message a été distribué."/>
+      <ITEM id="failure" value="Le message ne peut pas être remis."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Sélection des messages"/>
+      <ITEM id="success" value="Le message a été supprimé et retiré de la file d&apos;attente."/>
+      <ITEM id="failure" value="Le message ne peut pas être supprimé."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="L&apos;expéditeur rejeté"/>
+      <ITEM id="success" value="L&apos;expéditeur a été ajouté en liste noire."/>
+      <ITEM id="failure" value="L&apos;expéditeur ne peut pas être ajouté en liste noire."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Affichage des messages"/>
+      <ITEM id="failure" value="Le message ne peut pas être affiché. Ceci se produit lorsque le message a été supprimé de la quarantaine (ou du dossier Spam)."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Problème"/>
+      <ITEM id="failure" value="L&apos;opération demandée ne peut pas être réalisée."/>
+      <ITEM id="wrongid" value="ID de message non valide. Le message a probablement déjà été supprimé de la Quarantaine (ou du dossier Spam)."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autorisation de l&apos;expéditeur"/>
+      <ITEM id="success" value="L&apos;expéditeur a été autorisé et le message a été distribué."/>
+      <ITEM id="failure" value="L&apos;expéditeur ne peut pas être autorisé ou le message ne peut pas être remis."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Remise des messages"/>
+      <ITEM id="success" value="Le message a été distribué."/>
+      <ITEM id="failure" value="Le message ne peut pas être remis."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Suppression des messages"/>
+      <ITEM id="success" value="Le message a été supprimé du dossier de spams."/>
+      <ITEM id="failure" value="Le message ne peut pas être supprimé."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Rejet des expéditeurs"/>
+      <ITEM id="success" value="L&apos;expéditeur a été ajouté en liste noire et le message a été supprimé du dossier des spams."/>
+      <ITEM id="failure" value="L&apos;expéditeur ne peut pas être ajouté en liste noire ou le message ne peut pas être supprimé."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Affichage des messages"/>
+      <ITEM id="failure" value="Le message ne peut pas être affiché. Il est probable que le message ne soit plus en quarantaine."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Problème"/>
+      <ITEM id="failure" value="L&apos;opération demandée ne peut pas être réalisée."/>
+      <ITEM id="wrongid" value="ID de dossier non valide! Le message a probablement déjà été supprimé de la Quarantaine (ou du dossier Spam)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Échec"/>
+      <ITEM id="failure" value="L&apos;action demandée n&apos;a pas pu être effectuée"/>
+      <ITEM id="wrongid" value="Identifiant administrateur invalide. Ce compte administrateur a probablement été supprimé."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Les rapports de spam sont désactivés %s"/>
+    <ITEM id="challenge_already_running" value="Un rapport de spam est en cours d&apos;exécution"/>
+    <ITEM id="challenge_invalid_path_variable" value="Le chemin des rapports de spam n&apos;est pas correct : %s"/>
+    <ITEM id="api_findinitquery" value="Spam reports API: Récupération du compte IceWarp. Domaine : %s, Filtre : %s"/>
+    <ITEM id="challenge_language_file_missing" value="Le fichier de langue pour les rapports de spam n&apos;a pas été trouvé : %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Le fichier de langue des rapports de spam est corrompu : %s"/>
+    <ITEM id="challenge_invalid_hash" value="Hash invalide pour les rapports de spam (possible attaque URL) : %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

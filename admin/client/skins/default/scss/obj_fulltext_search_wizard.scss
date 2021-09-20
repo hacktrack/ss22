@@ -1,0 +1,39 @@
+.obj_fulltext_search_wizard {
+	margin: 0 1rem;
+
+	.hidden {
+		display: none;
+	}
+
+	.steps {
+		margin-bottom: 2rem;
+	}
+
+	[iw-flex-grid] {
+		margin: 0;
+	}
+
+	[iw-flex-cell] {
+		margin: 0;
+		padding: 0;
+
+		>div {
+			width: 100%;
+		}
+	}
+
+	.pad {
+		padding-left: 2rem;
+	}
+
+	.form__block ul {
+		margin-left: 1rem;
+		margin-bottom: 1rem;
+
+		li {
+			margin: initial;
+			padding: initial;
+			list-style-type: disc;
+		}
+	}
+}

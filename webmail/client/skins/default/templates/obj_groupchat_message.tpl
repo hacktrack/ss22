@@ -1,0 +1,1 @@
+<div class="cell"><article>{optional private_email}<span rel="{htmlspecialchars private_email}" class="private_msg">{htmlspecialchars private_name}</span>{/optional}{body}</article></div>

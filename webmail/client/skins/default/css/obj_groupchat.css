@@ -1,0 +1,308 @@
+.obj_groupchat>.maxbox{
+	padding-top: 60px;
+	background-color: #FFF;
+}
+.obj_groupchat section{
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+@keyframes chat_section {
+	0% {
+		z-index: 1000000;
+		background-color: #FFF;
+		outline: 0px solid #FFF;
+	}
+	10%{
+		background-color: #FFF5BD;
+		outline: 10px solid #FFF5BD;
+	}
+	80%{
+		background-color: #FFF5BD;
+		outline: 10px solid #FFF5BD;
+	}
+	99%{
+		background-color: #FFF;
+		outline: 0px solid #FFF;
+	}
+	100%{
+		background-color: transparent;
+		outline: 0;
+		z-index: 1;
+	}
+}
+.obj_groupchat section.selected:not(.com),
+.obj_groupchat section.selected.com>div>.message{
+	background-color: #FFF5BD;
+	outline: 10px solid #FFF5BD;
+
+	-webkit-animation: chat_section 8s ease;
+	-moz-animation: chat_section 8s ease;
+	animation: chat_section 8s ease;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+
+/* Separator */
+.obj_groupchat .separator{
+	font-size: 14px;
+	font-weight: 500;
+	color: {txt_main '#0088CC'};
+	line-height: 30px;
+	padding: 5px 0;
+	position: relative;
+}
+	.obj_groupchat>.separator{
+		background-color: #FFF;
+	}
+	.obj_groupchat .separator.today{
+		color: #757575;
+	}
+	.obj_groupchat .separator>span{
+		background-color: #FFF;
+		padding: 0 15px;
+		position: relative;
+	}
+	.obj_groupchat .separator.today:before{
+		content: "";
+		height: 0;
+		border-top: 1px solid #EDEDED;
+		position: absolute;
+		left: 20px;
+		right: 20px;
+		top: 20px;
+	}
+
+
+
+
+	/* message grouping */
+	.obj_groupchat .item + .item.group:not(.nogroup) .message{
+		margin-top: -19px;
+	}
+	.obj_groupchat .item + .item.group:not(.nogroup) .message>.avatar,
+	.obj_groupchat .item + .item.group:not(.nogroup) .message>h3,
+	.obj_groupchat .item + .item.group:not(.nogroup) .message .border:before,
+	.obj_groupchat .item + .item.group:not(.nogroup) .message .cell>span.private_msg{
+		display: none;
+	}
+
+/*********************/
+
+	.obj_groupchat .item.com.group.nogroup>div>.message{
+		padding-top: 5px;
+	}
+	.obj_groupchat .item.com.group.nogroup>div>.message .avatar{
+		top: 35px;
+	}
+
+	.obj_groupchat .item:not(.com) + .item.com.group.nogroup>div>.message .avatar{
+		top: 45px;
+	}
+
+	.obj_groupchat .item:not(.com) + .item.com.group.nogroup{
+		z-index: 0;
+	}
+
+	.obj_groupchat div.separator + .item.com.group>div>.message{
+		margin-top: 15px;
+		padding-top: 13px;
+
+		border-top-width: 1px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+	.obj_groupchat div.separator + .item.com.group>div>.comment{
+		display: none;
+	}
+
+	.obj_groupchat .item:not(.com) + .item.com.group.nogroup>div>.message,
+	.obj_groupchat .item.com:not(.group)>div>.message{
+		padding-top: 13px;
+		margin-top: -26px;
+	}
+
+	.obj_groupchat .item.com:not(.group)>div>.message{
+		margin-top: -26px!important;
+	}
+
+	.obj_groupchat .item.com:not(.group)>div>.message .avatar{
+		top: 45px;
+	}
+
+	/* message grouping disabled after ext */
+	.obj_groupchat .item.ext + .item.group .message{
+		margin-top: 12px;
+	}
+	.obj_groupchat .item.ext + .item.group .message>.avatar,
+	.obj_groupchat .item.ext + .item.group .message>h3,
+	.obj_groupchat .item.ext + .item.group .message:before,
+	.obj_groupchat .item.ext + .item.group .message .cell>span.private_msg{
+		display: block;
+	}
+
+/* reply link */
+
+.obj_groupchat section>div>.reply_block{
+	height: 32px;
+	color: {bg_main '#0088CC'};
+	line-height: 26px;
+	white-space: nowrap;
+	padding-left: 10px;
+
+	border: 1px solid #EEE;
+	border-radius: 0 0 3px 3px;
+	margin: 0 10px 15px 50px;
+}
+	.rtl .obj_groupchat section>div>.reply_block {
+		margin-left: 10px;
+		margin-right: 50px;
+		padding-left: 0px;
+		padding-right: 10px;
+	}
+
+	.obj_groupchat section>div>.reply_block>span{
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		font-weight: 500;
+	}
+	.obj_groupchat section>div>.reply_block>span:before{
+		content: '\e095';
+		margin-right: 7px;
+		position: relative;
+		top: 3px;
+		left: 0;
+		font-size: 16px;
+		font-family: 'ico16';
+		font-weight: normal;
+	}
+
+.obj_groupchat section.edit>div>.reply_block{
+	visibility: hidden;
+}
+
+/*
+.obj_groupchat .item.group>.com>.message{
+	margin-top: -39px;
+}
+
+.obj_groupchat .item:not(.group) + .item.group.nogroup>.com>.message{
+	margin-top: -9px;
+}
+*/
+
+.obj_groupchat .item.com + .item.com.group>.com>.message{
+	margin-top: -66px;
+}
+
+
+
+/*
+.obj_groupchat .item:not(.group) + .item.group>.com>.message{
+	margin-top: 12px;
+}
+
+/*
+.obj_groupchat .item.group.nogroup>.com>.message{
+	margin-top: -39px!important;
+}
+*/
+
+
+
+.obj_groupchat .item.group:not(.edit)>.com,
+.obj_groupchat .item.group.edit>.com>.message>h3{
+	background-color: #FFF;
+}
+
+	.obj_groupchat .item.group.edit>.com:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		height: 50px;
+		background:#FFF;
+		z-index: 0;
+	}
+
+/* scroll to bottom */
+@keyframes list_scroll {
+	0% {
+		top: -2px;
+		opacity: 0;
+	}
+	40%{
+		opacity: 1;
+	}
+	50%{
+		top: 1px;
+	}
+	60%{
+		opacity: 1;
+	}
+	100%{
+		top: 5px;
+		opacity: 0;
+	}
+}
+
+/* refresh */
+.obj_groupchat > div.refresh{
+	top: auto!important;
+	bottom: -30px;
+	padding-right: 25px;
+	opacity: 0;
+	width: 200px;
+
+	transition: bottom 0.5s ease 0s, background 200ms, opacity 200ms;
+}
+	.obj_groupchat > div.refresh:hover:after{
+		-webkit-animation: list_scroll 1s infinite ease-in-out;
+		-moz-animation: list_scroll 1s infinite ease-in-out;
+		animation: list_scroll 1s infinite ease-in-out;
+	}
+
+	.obj_groupchat > div.refresh:after{
+		content: "\e043";
+		font-family: "ico16";
+		font-size: 15px;
+		position: absolute;
+		right: 6px;
+		top: 1px;
+	}
+
+	.obj_groupchat > div.refresh:before{
+		content: "";
+		border: 1px solid #FFF;
+		width: 16px;
+		height: 16px;
+		display: block;
+		position: absolute;
+		right: 5px;
+		top: 4px;
+		border-radius: 10px;
+	}
+/*.obj_groupchat.refresh > div.refresh*/
+.obj_groupchat.refresh.newitem > div.refresh,
+.obj_groupchat.refresh.scrollbtn > div.refresh{
+	bottom: 7px;
+	opacity: 1;
+}
+
+/* loading */
+.obj_groupchat>div.loading{
+    top: -30px;
+    bottom: auto!important;
+    opacity: 0;
+    transition: top 300ms, opacity 100ms ease-in;
+}
+.obj_groupchat.loading>div.loading{
+	top: 35px;
+	opacity: 1;
+    transition: top 300ms, opacity 150ms ease-in 150ms;
+}

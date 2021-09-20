@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Blue</blue>
+    <green>Green</green>
+    <brown>Brown</brown>
+    <purple>Purple</purple>
+    <yellow>Yellow</yellow>
+    <teal>Teal</teal>
+    <plum>Plum</plum>
+    <red>Red</red>
+    <aqua>Aqua</aqua>
+    <aquamarine>Aquamarine</aquamarine>
+    <orchid>Orchid</orchid>
+    <pink>Pink</pink>
+    <silver>Silver</silver>
+    <white>White</white>
+    <gray>Gray</gray>
+    <lemon>Lemon</lemon>
+  </colors>
+  <title>
+    <new_email>* Ny post besked</new_email>
+    <new_im>* New message from %s</new_im>
+    <new_reminder>* Påmindelse: %s</new_reminder>
+    <cerror>! Communication Error</cerror>
+  </title>
+  <audio>
+    <player>Player</player>
+  </audio>
+  <signature>
+    <none>No Signature</none>
+    <alias>From Address</alias>
+    <newmsg>New Messages</newmsg>
+    <oldmsg>Replies</oldmsg>
+    <signature>Signature</signature>
+    <variable>Insert Variable</variable>
+  </signature>
+  <alias>
+    <add>Add new Alias</add>
+    <notify>Confirmation message has been sent.</notify>
+    <instructions>Confirmation request will be sent to email address above. Please check it for further instructions.</instructions>
+  </alias>
+  <notify>
+    <title>Notification Details</title>
+    <to_all>Notify everyone with access to this folder</to_all>
+    <copy>Notify also</copy>
+    <comment>Comment (optional), which will be sent to users you wanted to notify of changes</comment>
+    <success>Notification sent</success>
+  </notify>
+  <datagrid>
+    <nomessages>No Messages</nomessages>
+    <noitems>Ingen emner</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Preview</preview>
+    <down>Bottom Pane</down>
+    <right>Right Pane</right>
+    <none>None</none>
+    <noitem>No Item</noitem>
+    <message_to>Message to: %s</message_to>
+    <doc_revisions>Document Revisions</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Search Wizard</wizard>
+    <since>From Date</since>
+    <until>To Date</until>
+    <contains>Everywhere</contains>
+    <fulltext>Fulltext</fulltext>
+    <makefolder>Create Search Folder</makefolder>
+    <contact_note>Note</contact_note>
+  </search>
+  <search_hints>
+    <folder>Søg efter emner i specifiseret folder</folder>
+    <from>Brug til at specifisere afsender (from:Amy)</from>
+    <to>Brug til at specifisere modtager (to:David)</to>
+    <subject>Søg efter ord i emne feldtet (subject:Dinner)</subject>
+    <or>logisk operator</or>
+    <not>logisk operator</not>
+    <hasattachment>Søg efter beskedder med ved hæftet fil</hasattachment>
+    <isflagged>Søg efter beskedder med markering</isflagged>
+    <isunread>Søg efter ulæste beskedder</isunread>
+    <isread>Søg efter læste beskedder</isread>
+    <isdone>Søg efter færdige opgaver</isdone>
+    <cc>Bruges til at specifisere modtagere i Cc: field</cc>
+    <bcc>Bruges til at specifisere modtageree i Bcc: field</bcc>
+    <sms>Bruges til at specifisere modtagere i SMS: field</sms>
+    <after>Søg efter beskedder sendt efter given dato (after:2004/04/16)</after>
+    <after_e>Søg efter beskedder efter given start tidspunkt (after:2004/04/16)</after_e>
+    <after_f>Søg efter beskedder ændret efter given given tidspunkt (after:2004/04/16)</after_f>
+    <after_t>Søg efter emner som slutter efter givet tidspunkt(after:2004/04/16)</after_t>
+    <after_j>Søg efter emner som starter efter givet tidspunkt (after:2004/04/16)</after_j>
+    <before>Søg efter beskedder som er sendt før givet tidspunkt (before:2004/04/16)</before>
+    <before_e>Søg efter beskedder som starter føf givet tidspunkt (before:2004/04/16)</before_e>
+    <before_f>Søg efter beskedder som er ændret før givet tidspunkt (before:2004/04/16)</before_f>
+    <before_t>Søg efter beskedder som slutter før given tidspunkt (before:2004/04/16)</before_t>
+    <before_j>Søg efter emner som starter før given tidspunkt (before:2004/04/16)</before_j>
+    <title>Bruges til at specifisere tittel (title:Test)</title>
+    <description>Bruges til at specifisere beskrivelse eller notat (description:Test)</description>
+    <name>Bruges til at specifsere kontakt navn</name>
+    <email>Bruges til at specifisere email</email>
+    <keyword>Søge efter emner i specifiseret mærke (tag:Business)</keyword>
+    <tag>Søge efter emner i specifiseret mærke (tag:Business)</tag>
+    <tag2>Søge efter emner mærket &quot;%s&quot; (used in %s items)</tag2>
+    <greater>Søg efter størrelse i kB over (greater:1024)</greater>
+    <smaller>Søg efter størrelse i kB under (smaller:1024)</smaller>
+    <company>Søg i kontakter efter firmanavn (company:IceWarp)</company>
+    <department>Søg i kontakter efter afdeling (department:IT)</department>
+    <note>Search for a contact with some note (note:VIP)</note>
+    <location>Søg i kontakter efter lokation (location:London)</location>
+    <fulltext>Søg hele besked teksten (fulltext:test)</fulltext>
+    <priority>Søg efter prioritering,  highest,high,normal,low,lowest (priority:high)</priority>
+    <isprivate>Søg efter private opgaver</isprivate>
+    <ispublic>Søg efter offentlige opgaver</ispublic>
+    <isfree>Søg efter ledige opgaver</isfree>
+    <isbusy>Søg efter optagede opgaver</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Search Folder</virtual>
+    <general>Generelt</general>
+    <primary>Primær Folder</primary>
+    <filter>Filter</filter>
+    <all>Alle foldere</all>
+  </virtual>
+  <notifier>
+    <notifier>Notifier</notifier>
+    <permissions>Desktop notifications let you know when you have a new email or chat message, even if your browser is not visible.&lt;br&gt;First choose how you want to be notified. Click OK and confirm the next dialog window to enable desktop notifications.</permissions>
+    <denied>You have denied access to desktop notifications.</denied>
+    <redirect>Message redirected.</redirect>
+    <send>Message sent.</send>
+    <item_save>Item saved.</item_save>
+    <new_email>New email message for %s</new_email>
+    <new_revision>New document revision has been created.</new_revision>
+    <email_exist>Email address already exists.</email_exist>
+    <email_added>Email address has been added to contact.</email_added>
+    <contact_email_list_full>Failed to add email address, all fields are taken.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google Maps</map>
+    <go>Vis adresse</go>
+    <open>Åben Google</open>
+    <alert>Fejl på Google Maps</alert>
+    <g_geo_missing_address>Manglende adresse: Adresen mangler eller har ingen værdi.</g_geo_missing_address>
+    <g_geo_too_many_queries>For Mange forespørgsler: Den daglige geocoding quota er overskredet.</g_geo_too_many_queries>
+    <g_geo_server_error>Server Error: The geocoding request could not be processed.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Login Information</login_info>
+    <licenses>Desktop Applications and Licenses</licenses>
+    <licenses_text>Get the most out of your IceWarp account. Click here for additional software downloads, activation keys, guides and syntax you need to access your calendars, contacts and Free/Busy information from compatible applications on your desktop:&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Desktop Client&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Notifier&lt;/li&gt;&#13;&#10;&lt;/ul&gt;&#13;&#10;&#9;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Leveret</delivered>
+    <delivered_info>successfully delivered to local recipient</delivered_info>
+    <sent>Sendt</sent>
+    <sent_info>successfully delivered to remote server</sent_info>
+    <queue>Kø</queue>
+    <queue_info>the message was temporarily deferred, server will try to send it later</queue_info>
+    <error>Fejl</error>
+    <error_info>Tjek din indbakke for detaljeret fejlbesked</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Alle Filer</all_files>
+    <images>BIlleder</images>
+    <queue_limit_exceeded>Kø grænse overskredet</queue_limit_exceeded>
+    <zero_byte_file>Nul Byte fil</zero_byte_file>
+    <invalid_filetype>Forkert filtype</invalid_filetype>
+    <item>emne</item>
+    <title>Sender: %s - %s%</title>
+    <error1>File exceeds size limit (%sMB)</error1>
+    <error3>The uploaded file was only partially uploaded</error3>
+    <error4>No file was uploaded</error4>
+    <error6>Missing a temporary folder</error6>
+    <error7>Failed to write file to disk</error7>
+    <error8>Invalid file type</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Status Text...</status_msg>
+    <add_private>Privat</add_private>
+    <unsupported_img>Ikke supporteret billedformat</unsupported_img>
+    <add_gateway>Tilføj Gateway</add_gateway>
+    <error_im>WebChat error</error_im>
+    <registred>Er allerede registreret</registred>
+    <registr>Registrer</registr>
+    <error_ticket>Kan ikke lave ticket.</error_ticket>
+    <error_socket>kan ikke åbne socket.</error_socket>
+    <error_bytestream>Brugeren supportere ikke byte streams.</error_bytestream>
+    <error_cancel>Brugeren har aflyst forespørgslen.</error_cancel>
+    <error_registr>Service afslog din registrering.</error_registr>
+    <add_service>Abonner På Service</add_service>
+    <service>Service</service>
+    <call>Ring Nu</call>
+    <audio_call>Audio Call</audio_call>
+    <video_call>Video Call</video_call>
+    <meeting>Start WebMeeting</meeting>
+    <invite>Invite to WebMeeting</invite>
+    <closetab>Luk Tab</closetab>
+    <show>Show All Contacts</show>
+    <hide>Hide Offline Contacts</hide>
+    <other>Other</other>
+    <selected>Valgt</selected>
+    <chat>Åben Chat</chat>
+    <groupmsg>Open Group Message</groupmsg>
+    <group>Gruppe</group>
+    <new_group>Ny Gruppe</new_group>
+    <subscription>Abonnement</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>User &lt;b&gt;%s&lt;/b&gt; has requested permission to add you to their WebChat contact list</sub_ask>
+    <send>Godken Chat Kontact</send>
+    <request>Forespørg på Godkendelse</request>
+    <remove>Fjern Godkendelse</remove>
+    <remove_account>Are you sure to remove account %s from roster?</remove_account>
+    <remove_accounts>Er du sikker på at du vil slette den valgte fra tjenesteliste?</remove_accounts>
+    <rem_grp>Fjern Gruppe</rem_grp>
+    <rem_grpc>Fjern Gruppe &amp; Kontakter</rem_grpc>
+    <rename>Omdøb</rename>
+    <add>Tilføj Kontakt</add>
+    <jabber_id>Jabber ID</jabber_id>
+    <nick>Display name</nick>
+    <vcard>Show Contact Info</vcard>
+    <history>Show Conversation History</history>
+    <sharedesktop>Share screen</sharedesktop>
+    <tab_general>Generelt</tab_general>
+    <tab_work>Arbejde</tab_work>
+    <tab_location>Lokation</tab_location>
+    <tab_about>Om</tab_about>
+    <send_mail>Send Email</send_mail>
+    <send_file>Send Fil</send_file>
+    <receive_file>Modtag Fil</receive_file>
+    <not_listed>Ikke listet</not_listed>
+    <composing>WebChat: %s is composing...</composing>
+    <file_message>User sent you a file with description:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s</file_message>
+    <file_cancel>Fil overførsel afslået af modtager.</file_cancel>
+    <file_error>Fejl i fil overførsel.</file_error>
+    <file_ok>Fil overført med success.</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/b&gt; has sent you a file &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>Vis samtale efter: %s</show_after>
+    <im_status>WebChat: %s</im_status>
+    <im>WebChat</im>
+    <sip_inprogress>Call in progress</sip_inprogress>
+    <sip_incomming>Incoming Call</sip_incomming>
+    <sip_calling>Calling</sip_calling>
+    <status_sec>%s for less than a minute</status_sec>
+    <status_min>%s for %s minute(s)</status_min>
+    <status_hour>%s for %s hour(s)</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Propose new time</propose>
+    <nosubject>Intet Emne</nosubject>
+    <when>Når</when>
+    <location>Lokation</location>
+    <comment>Comment</comment>
+    <description>Beskrivelse</description>
+    <accept>Accepter</accept>
+    <tentative>Tentative</tentative>
+    <decline>Afslå</decline>
+    <skip_img>External resources have been blocked. Click here to display them.</skip_img>
+    <show_img>Message contains attached images. Click here to open preview.</show_img>
+    <smart>Attachments are delivered using IceWarp SmartAttach technology.</smart>
+    <show_raw>Open Raw Message</show_raw>
+    <certificate>Offentlig Certificate</certificate>
+    <serror>Dekrypterings fejl, Manglende eller forkert certifikat.</serror>
+    <sverify>Unable to verify message signature</sverify>
+    <expired>Decryption error, valid but expired certificate.</expired>
+    <access>You have been granted access to &quot;%s&quot; by %s.</access>
+    <account_access>You have been granted access by %s.</account_access>
+    <subscribe>Subscribe Folder</subscribe>
+    <subscribe_account>Subscribe Account</subscribe_account>
+    <subscribed>Account %s subscribed.</subscribed>
+    <subscribed_folder>Folder &quot;%s/%s&quot; subscribed.</subscribed_folder>
+    <unsubscribe>Afmeld</unsubscribe>
+    <unsubscribed>Subscription removed for %s.</unsubscribed>
+    <unsubscribed_folder>Subscription removed for &quot;%s/%s&quot;.</unsubscribed_folder>
+    <error>Handlingen kan ikke udføres</error>
+    <recurrent>Recurrent</recurrent>
+    <occurrence>Exception from recurrent event</occurrence>
+    <attendee>With</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>What&apos;s New</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Hjælp</help>
+    <about>Om</about>
+  </help>
+  <print>
+    <preview>Vis Udskrift</preview>
+    <opera>Din browser supportere ikke denne funktion.</opera>
+  </print>
+  <status>
+    <online>Online</online>
+    <offline>Offline</offline>
+    <chat>Free for Chat</chat>
+    <away>Borte</away>
+    <xa>N/A</xa>
+    <dnd>DND</dnd>
+    <invisible>Usynlig</invisible>
+    <gone>Brugeren har forladt samtalen</gone>
+    <error>Error</error>
+    <sip>Online on WebPhone</sip>
+    <chat_with>Chat with %s</chat_with>
+  </status>
+  <policy>
+    <minlength>Mindste password længde er: %s karakterer</minlength>
+    <digits>Number of numeric characters [0-9]: %s</digits>
+    <alpha>Number of alpha characters [a-Z]: %s</alpha>
+    <nonalphanum>Number of non-alphanumeric characters [!@#$%...]: %s</nonalphanum>
+    <upperalpha>Number of uppercase alpha characters [A-Z]: %s</upperalpha>
+    <useralias>Password kan ikke være det samme som brugernavn eller alias</useralias>
+  </policy>
+  <alerts>
+    <alert>Advarsel</alert>
+    <suppress>Do not show this message again</suppress>
+    <create_revision>Unable to create revision</create_revision>
+    <password_do_not_match>Passwords er ikke ens</password_do_not_match>
+    <invalid_password>Forkert password</invalid_password>
+    <new_password_match>New password is the same as the old one</new_password_match>
+    <invalid_cpassword>Password bekræftielse matcher ikke</invalid_cpassword>
+    <folder_exist>Folderen eksister allerede</folder_exist>
+    <create_folder>Unable to create folder &quot;%s&quot;</create_folder>
+    <rename_folder>Kan ikke omdøbe folder &quot;%s&quot; to &quot;%s&quot;</rename_folder>
+    <attachment_size>For stor vedhæftning</attachment_size>
+    <attachment_quota>Attachment quota exceeded.</attachment_quota>
+    <attachment_missing>Attachment file not found.</attachment_missing>
+    <attachment_virus>Attachment contains virus.</attachment_virus>
+    <could_not_create>Document could not be created.</could_not_create>
+    <could_not_edit>Document could not be edited.</could_not_edit>
+    <general_error>An unspecified error occured&lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>Password matcher ikke password politik</password_policy>
+    <password_requirements>Venligst tjek følgende krav og vælg et nyt password:</password_requirements>
+    <password_incorrect>Incorrect password. Please try again.</password_incorrect>
+    <message_not_sent>Beskeden blev ikke sendt</message_not_sent>
+    <message_not_saved>Besked blev ikke gemt</message_not_saved>
+    <mailingfailed>Could not send or save the message due to server error. Please try again later.</mailingfailed>
+    <distribution_list_invalid_id>Invalid distribution list:</distribution_list_invalid_id>
+    <smtp_from_failed>Følgende afsender Er ikke accepteret:</smtp_from_failed>
+    <smtp_recipients_failed>Modtagere skabte følgende fejl:</smtp_recipients_failed>
+    <smtp_data_not_accepted>Din besked blev ikke accepteret af serveren</smtp_data_not_accepted>
+    <default_folder_missing>Default folder &quot;%s&quot; is missing.</default_folder_missing>
+    <no_recipient_certificate>Modtager certifikat mangler</no_recipient_certificate>
+    <recipient_certificate_expired>Recipient certificate has expired.</recipient_certificate_expired>
+    <personal_certificate>Personal certificate mismatch</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>Kan ikke modtage besked</imap_null>
+    <delete_item>Valgte embe(r) kan ikke slettes</delete_item>
+    <reserved_folder>Reserved folder name &quot;%s&quot;</reserved_folder>
+    <undefined>Udefineret fejl</undefined>
+    <timezone_differ>Your time zone has changed. Select a corresponding location below to adjust the time of your calendar events.</timezone_differ>
+    <popup_blocker>Pop-up window has been blocked.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Unread</unread>
+    <contact_ok>Administrator contacted successfully</contact_ok>
+    <signup_ok>New account created successfully</signup_ok>
+    <logout>Bruger loggede af</logout>
+    <logged_out>Bruger loggede af</logged_out>
+    <forgot_ok>Dine legitimationer er blevet sendt til din email adresse og alternative email adresse</forgot_ok>
+    <password_change_ok>Password changed successfully</password_change_ok>
+    <close_window>You can now close this window</close_window>
+    <personality_confirmation_ok>Your email address has been confirmed.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Forkert bruger navn eller password, prøv igen.</invalid_login>
+    <account_disabled>Konto slået fra</account_disabled>
+    <expired>Session udløbet</expired>
+    <connection>Server ikke fundet Tjek din internet forbindelse eller kontakt administratoren.</connection>
+    <servererror>Unable to access this service. Please try again later or contact administrator.</servererror>
+    <overloaded>The server is currently overloaded. Please try again later or contact administrator.</overloaded>
+    <countdown>Will try again in %s seconds.</countdown>
+    <filenotfound>There are files missing on the server, some unexpected behaviour may occur.</filenotfound>
+    <subscribe_error>Unable to subscribe account %s.</subscribe_error>
+    <wc_disabled>WebClient er deaktiveret</wc_disabled>
+    <invalid_rsa>Kan ikke få RSA password.</invalid_rsa>
+    <no_db>Database forbindelses fejl</no_db>
+    <no_data>Ingen data tilgængelige</no_data>
+    <access_error>Ingen adgang til postkase, kontakt venligst administrator.</access_error>
+    <ip_mismatch>Your IP has changed, you will be logged out. To prevent this problem in the future, please access WebClient via HTTPS connection.</ip_mismatch>
+    <javatip1>Look around the screen for Java security prompts or alerts. Click Yes or Allow.</javatip1>
+    <javatip2>Contact Administrator to help you install Java on your computer, or</javatip2>
+    <javatip3>Click the Troubleshoot button below to resolve the problem now</javatip3>
+    <contactadmin>Contact Admin</contactadmin>
+    <troubleshoot>Troubleshoot</troubleshoot>
+  </error>
+  <common>
+    <all>All</all>
+    <processing>Processing</processing>
+    <loading>Henter...</loading>
+    <sending>Sending...</sending>
+    <comment>Comment (optional)</comment>
+    <email>Email</email>
+    <folder>Folder</folder>
+    <items>Emner</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Vælg alt</select_all>
+    <clear>Ryd</clear>
+    <yes>Ja</yes>
+    <no>Nej</no>
+    <auto>Auto</auto>
+    <disable>Disable</disable>
+    <enable>Aktiver</enable>
+    <enabled>Enabled</enabled>
+    <show_all>Show All</show_all>
+    <previous>Previous</previous>
+    <next>Next</next>
+    <more>More...</more>
+    <show>Show</show>
+    <hide>Hide</hide>
+    <appearance>Panel Appearance</appearance>
+    <expand>Expanded</expand>
+    <collapsed>Collapsed</collapsed>
+    <autocollapsed>Auto Collapse</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Favoriter</favorites>
+    <remove>Remove from Favorites</remove>
+    <rename>Omdøb genvej</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>Ejer</owner>
+    <address_book>Adresse Bog</address_book>
+    <add_recipient>Add Recipient</add_recipient>
+    <selected_addresses>Valgt</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Tom</empty>
+    <today>I dag</today>
+    <this_week>This Week</this_week>
+    <this_month>This Month</this_month>
+    <yesterday>Yesterday</yesterday>
+    <tomorrow>Tomorrow</tomorrow>
+    <typetoadd>Type to Add</typetoadd>
+    <owner>Owner</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>- Standard -</timezones>
+    <serverzone>Server Tid</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Do you wish to clear the auto-complete list?</clear_autosuggest>
+    <suppress>Do not ask me again</suppress>
+    <reset_password_subject>Password reset for account %email%</reset_password_subject>
+    <reset_password>Hello %username%,&#13;&#10;&#13;&#10;Did you request a password reset for your account (%email%) in WebClient?&#13;&#10;&#13;&#10;Click the link below (or copy and paste it to your browser) to confirm that this email address belongs to you.&#13;&#10;&#13;&#10;If you didn&apos;t make this request or have received this message in error, please ignore it.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Confirm new From address of: %username%</alias_subject>
+    <alias_confirmation>Hello %username%,&#13;&#10;&#13;&#10;Did you request to add (%email%) as a new From address in WebClient?&#13;&#10;&#13;&#10;Click the link below (or copy and paste it to your browser) to confirm that this email address belongs to you.&#13;&#10;&#13;&#10;If you didn&apos;t make this request or have received this message in error, please ignore it.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>For at undgå datatab, Tjek at alle åbne emner og klader er gemt.</unload>
+    <expired>Session udløbet</expired>
+    <no_mobile>Mobil nummer ikke fundet.</no_mobile>
+    <expired_msg>Unable to send or save unfinished messages. Your IP has been changed or the session expired.</expired_msg>
+    <delete_account_confirmation>Remove account confirmation</delete_account_confirmation>
+    <delete_account>Are you sure to remove account %s?</delete_account>
+    <recover_item>Er du sikker på at du vil genskabe valgte emne(r)?</recover_item>
+    <delete_folder_confirmation>Bekæft sletning af mappe</delete_folder_confirmation>
+    <delete_folder>Are you sure to delete folder &quot;%s&quot;?&lt;br/&gt;(All subfolders will be permanently deleted)</delete_folder>
+    <delete_item_confirmation>Bekæft sletning af element</delete_item_confirmation>
+    <delete_item>Er du sikker på at du vil slette valgte emne(r)?</delete_item>
+    <delete_avatar>Current contact picture will be deleted</delete_avatar>
+    <blacklist_sender_confirmation>Sortliste godkendelse</blacklist_sender_confirmation>
+    <blacklist_sender>Er du sikker på at du vil sortliste afsendere af de valgte elementer?</blacklist_sender>
+    <blacklist_domain>Are you sure to blacklist all items from this domain?</blacklist_domain>
+    <blacklisted>Sender has been blacklisted</blacklisted>
+    <whitelist_sender_confirmation>Hvidliste godkendelse</whitelist_sender_confirmation>
+    <whitelist_sender>Er du sikker på at du vil hvidliste afsenderen af valgte elementer?</whitelist_sender>
+    <whitelist_domain>Are you sure to whitelist all items from this domain?</whitelist_domain>
+    <whitelisted>Sender has been whitelisted</whitelisted>
+    <empty_folder_confirmation>Tøm mappe godkendelse</empty_folder_confirmation>
+    <empty_folder>Er du sikker på at du vil slette alle emner i denne folder</empty_folder>
+    <empty_to_trash>Er du sikker på at du vil flytte alle emner fra folder over i affalds kurv?</empty_to_trash>
+    <save_title>Gem besked</save_title>
+    <save_confirmation>Beksed ikke gemt. Vil du gemme besked i mappen kladder?</save_confirmation>
+    <save_file>File has been modified. Save the changes?</save_file>
+    <save>Gem</save>
+    <discard>Discard</discard>
+    <create_reading_confirmation_title>Læse godkendelse</create_reading_confirmation_title>
+    <create_reading_confirmation>Afsenderen har bedt om et svar som indikere at du har læst denne besked. Vil du afsende et svar?</create_reading_confirmation>
+    <send_reading_confirmation>Ask recipient for reading confirmation?</send_reading_confirmation>
+    <browser_warning_title>Browser Advarsel</browser_warning_title>
+    <browser_warning_text_unsupported>Your current browser is NOT OFFICIALLY SUPPORTED by IceWarp WebClient.&#13;&#10;&#13;&#10;Please note that the performance of WebClient with your current browser could be extremely slow or inoperable.&#13;&#10;&#13;&#10;WebClient has been optimized for use with Firefox 4.0 (or higher) and Internet Explorer 8.0 (or higher). We strongly recommend that you upgrade to the latest version of Internet Explorer or install Mozilla Firefox (both are free).&#13;&#10;&#13;&#10;For the latest version of Firefox visit:&#13;&#10; http://www.firefox.com/&#13;&#10;For the latest version of Internet Explorer visit:&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;Press OK to continue or press Cancel to switch to WebClient Tablet interface.</browser_warning_text_unsupported>
+    <expired_password>Dit password er udløbet. Venligst skift det nu.</expired_password>
+    <authentication>Authentication Failure</authentication>
+    <authenticate>For security reasons, you need to authenticate again.</authenticate>
+    <enterpass>Enter your password and sign in to continue your work, or log out to exit.</enterpass>
+    <secure>To prevent this problem in the future, please access WebClient via HTTPS connection.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>Sproget i Merak Webmail vil blive ændret efter du logger ud og logger ind.</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Open in separate window</open_in_separate_window>
+    <help_restriction>This feature is currently not enabled by administrator</help_restriction>
+    <switch_older>Switch to previous version of WebClient</switch_older>
+    <choose_interface>Choose your preferred interface</choose_interface>
+    <choose_lang>Choose your language</choose_lang>
+    <migration_in_progress>Migration in progress, please try again later</migration_in_progress>
+    <message_sent>Your message has been delivered</message_sent>
+    <message_send_failed>Message failed to send</message_send_failed>
+    <antispam_code_error>Security code is incorrect</antispam_code_error>
+    <antispam>Security code</antispam>
+    <contact_support_subject>New contact request from login screen</contact_support_subject>
+    <text>Text</text>
+    <contact_administrator>Contact us for support</contact_administrator>
+    <contact_question>Need help?</contact_question>
+    <contact_answer>Contact our administrator</contact_answer>
+    <contact_1>Contact our</contact_1>
+    <contact_2>administrator</contact_2>
+    <contact_placeholder_1>Your e-mail or phone</contact_placeholder_1>
+    <contact_placeholder_2>Describe your problem</contact_placeholder_2>
+    <help>Audio help</help>
+    <meeting_me>Me</meeting_me>
+    <meeting_hang_up_confirmation>Do you really want to leave the meeting?</meeting_hang_up_confirmation>
+    <online_meeting>WebMeeting</online_meeting>
+    <meeting_connected>Connected</meeting_connected>
+    <meeting_connecting>Connecting...</meeting_connecting>
+    <phone_access>Phone Access</phone_access>
+    <meeting_chat_ready>Welcome to the WebMeeting! Group chat is ready.</meeting_chat_ready>
+    <meeting_chat_send>Send</meeting_chat_send>
+    <meeting_user_left_meeting>User &quot;%s&quot; has left the meeting</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>User &quot;%s&quot; has joined the meeting</meeting_user_joined_meeting>
+    <meeting_no_participants>No participants</meeting_no_participants>
+    <meeting_server_not_responding>Server is not responding</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Connection successful</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Audio applet cannot be started. If there&apos;s a browser confirmation dialog, confirm to allow the Java applet to run. In some cases, restarting your browser can help. You can check for the latest version of Java and that it&apos;s properly installed by visiting &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>Duration</duration>
+    <mute>Mute</mute>
+    <desktop_sharing_id>Screen Sharing Session ID</desktop_sharing_id>
+    <conference_phone_number>WebMeetings phone number</conference_phone_number>
+    <desktop_sharing_app>Screen-sharing application</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>We are sorry, screen sharing directly from web is not working for mobile devices. At the link below you can find an app for that.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>We are sorry, screen sharing directly from web is not working on Mac. You&apos;ll need to install an application from the link below.</desktop_sharing_mac_warning>
+    <continue_to_call>Continue to call</continue_to_call>
+    <meeting_api_unexpected_response>Unexpected API response</meeting_api_unexpected_response>
+    <applet_unreachable>Java applet is unreachable</applet_unreachable>
+    <sip_applet_load_failed>Audio applet failed to load</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Get meeting info failed</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>Screen-sharing session has ended, but audio is still active</meeting_mikogo_ended>
+    <meeting_ended>WebMeeting ended</meeting_ended>
+    <meeting_hang_up>Hang up</meeting_hang_up>
+    <meeting_id>Meeting ID</meeting_id>
+    <meeting_mikogo_ready>Screen sharing is ready</meeting_mikogo_ready>
+    <meeting_sip_ready>Audio is ready</meeting_sip_ready>
+    <meeting_call_failed>Call failed</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Invite timeout. Trying again in %s sec.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Trying again in %s sec.</meeting_trying_again_in>
+    <meeting_preparing_sip>Preparing audio</meeting_preparing_sip>
+    <meeting_starting_sip>Starting audio</meeting_starting_sip>
+    <meeting_waiting_for_reply>Audio applet is waiting for server response</meeting_waiting_for_reply>
+    <meeting_in_progress>Meeting in progress</meeting_in_progress>
+    <meeting_you_can_join>You can now join the WebMeeting</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Meeting applet is not ready</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>No meeting applet code in response</meeting_no_applet_code>
+    <meeting_unexpected_response>Unexpected response from meeting applet</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Your browser doesn&apos;t support WebMeetings</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>Chrome browser will provide the best experience. You will be redirected to the setup guide.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>The WebMeeting hasn&apos;t started yet</meeting_meeting_wasnt_started>
+    <meeting_waiting>Waiting for %s to start the WebMeeting</meeting_waiting>
+    <meeting_created_by_ready>WebMeeting created by %s is ready</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Loading meeting data</meeting_loading_meeting_info>
+    <unknown_error>Unknown error</unknown_error>
+    <meeting_no_name>Please enter your name or nickname</meeting_no_name>
+    <meeting_api_error_104>Invalid Meeting ID</meeting_api_error_104>
+    <meeting_api_error_description_104>The meeting address doesn&apos;t exist or is incomplete</meeting_api_error_description_104>
+    <meeting_api_error_111>This service is disabled</meeting_api_error_111>
+    <meeting_api_error_120>Could not connect to the remote server</meeting_api_error_120>
+    <meeting_api_error_125>Server doesn&apos;t have a valid license for WebMeetings</meeting_api_error_125>
+    <meeting_id_doesnt_exist>Meeting ID doesn&apos;t exist</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Microphone not available</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Access to microphone is disabled or it is not connected. Do you wish to continue without microphone?</meeting__no_microphone_continue>
+    <fill_in_name>Enter your name</fill_in_name>
+    <fill_in_email>Enter your email address</fill_in_email>
+    <join_meeting>Join WebMeeting</join_meeting>
+    <already_a_member>Already a member</already_a_member>
+    <name>Name</name>
+    <enter_your_name>Enter your name</enter_your_name>
+    <enter_your_name_description>This name will be visible to other participants and used to identify you during the WebMeeting</enter_your_name_description>
+    <cancel>Cancel</cancel>
+    <login_caption>Velkommen til IceWarp WebMail</login_caption>
+    <copy>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy>
+    <copy_new>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>IceWarp WebMail</title>
+    <user>Bruger</user>
+    <email>E-mail Adresse</email>
+    <pass>Password</pass>
+    <old_pass>Old password</old_pass>
+    <new_pass>New password</new_pass>
+    <check_pass>Confirm password</check_pass>
+    <change_password>Change password</change_password>
+    <remember>Husk</remember>
+    <save0>Automatisk login</save0>
+    <save1>Brugernavn og adgangskode</save1>
+    <save2>Brugernavn</save2>
+    <save3>Spørg altid</save3>
+    <login>Login</login>
+    <send>Send</send>
+    <create_account>Opret Konto</create_account>
+    <switch>Switch to &lt;a href=&quot;./basic&quot;&gt;Tablet&lt;/a&gt; or &lt;a href=&quot;./pda&quot;&gt;Mobile&lt;/a&gt; interface.</switch>
+    <downloads>Downloads</downloads>
+    <interface>Interface</interface>
+    <basic>Tablet</basic>
+    <pda>Mobile</pda>
+    <pro>Desktop</pro>
+    <osx>Mac OS X</osx>
+    <lang>Sprog</lang>
+    <keep_me_signed>Remember me</keep_me_signed>
+    <utilities>Tools</utilities>
+    <pw_policy_minlength>Minimal længde på password</pw_policy_minlength>
+    <pw_policy_digits>Antal numeriske Karakterer i password [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Antal alfa numeriske Karakterer i password [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>Antal ikke alfa numeriske Karakterer i password [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>Tjek password mod  brugernavn og alias aktiveret</pw_policy_useralias>
+    <pw_policy_uppercase>Antal store bogstaver [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>Display virtual keyboard</virtual_keyboard_01>
+    <virtual_keyboard_02>Vælg tastatur layout</virtual_keyboard_02>
+    <virtual_keyboard_04>On</virtual_keyboard_04>
+    <virtual_keyboard_05>Off</virtual_keyboard_05>
+    <virtual_keyboard_06>luk for tastatur</virtual_keyboard_06>
+    <virtual_keyboard_07>Ryd</virtual_keyboard_07>
+    <virtual_keyboard_08>Ryd dette input</virtual_keyboard_08>
+    <virtual_keyboard_10>Forminsk tastatur størrelse</virtual_keyboard_10>
+    <virtual_keyboard_11>Forstør tastatur størrelse</virtual_keyboard_11>
+    <js_problem>Kan ikke køre JavaScript</js_problem>
+    <public_calendar>Offentlig kalender</public_calendar>
+    <login_to_pro>Login to Desktop interface</login_to_pro>
+    <login_to_basic>Login to Tablet interface</login_to_basic>
+    <login_to_pda>Login to Mobile interface</login_to_pda>
+    <js_turned_off_message_text>For the best user experience and advanced features, we recommend Desktop interface. This requires JavaScript capability. Verify that JavaScript is enabled in browser settings, or continue to the</js_turned_off_message_text>
+    <js_turned_off_message_link>Tablet interface</js_turned_off_message_link>
+    <learn_more>Learn more about all features</learn_more>
+    <learn_more_short>Learn more</learn_more_short>
+    <login_back>Back to login</login_back>
+    <changepwd>Change your&lt;br/&gt; password</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Desktop</advanced>
+    <basic>Tablet</basic>
+  </login_client>
+  <login_style>
+    <gray>Gray</gray>
+    <white>Hvid</white>
+    <black>Grafit</black>
+    <red>Rød</red>
+    <yellow>Gul</yellow>
+    <green>Green</green>
+    <blue>Blå</blue>
+    <purple>Lilla</purple>
+    <orange>Orange</orange>
+    <brown>Brun</brown>
+    <pink>Pink</pink>
+  </login_style>
+  <skin_style>
+    <default>Blue</default>
+    <black>Black</black>
+    <brown>Brown</brown>
+    <graphite>Graphite</graphite>
+    <green>Green</green>
+    <orange>Orange</orange>
+    <pink>Pink</pink>
+    <purple>Purple</purple>
+    <red>Red</red>
+    <yellow>Yellow</yellow>
+  </skin_style>
+  <sign_up>
+    <question>Don&apos;t have an account yet?</question>
+    <answer>Create an account</answer>
+    <sign_up>Tilmeld</sign_up>
+    <create_account>Indtast din nye konto oplysninger</create_account>
+    <fullname>Full name</fullname>
+    <domain>Domain</domain>
+    <username>Brugernavn</username>
+    <alternative>Alternate email</alternative>
+    <captcha_error>Invalid security code</captcha_error>
+    <pass_error>Valgt password ikke accepteret</pass_error>
+    <incorrect_error>Forkert brugernavn eller alias</incorrect_error>
+    <exists_error>Konto eksiterer</exists_error>
+    <error>Konto kan ikke oprettes</error>
+    <account_created>Kontoen blev oprettet</account_created>
+    <invalid_cpass>Bekræftigelses password er forkert</invalid_cpass>
+    <confirm_pass>Godkend</confirm_pass>
+    <password_change>Password change</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Forgot your password?</question>
+    <question_br>Forgot your&lt;br/&gt; password?</question_br>
+    <title>Reset your&lt;br&gt; password</title>
+    <answer>Reset it</answer>
+    <generate>Double-click for new security code</generate>
+    <captcha>Type the code shown</captcha>
+    <captcha_error>Invalid security code</captcha_error>
+    <security_code>Security code</security_code>
+    <reset_pass>Reset Password</reset_pass>
+    <enter_alt_pass>Your login information will be sent to your email address and alternate email address if it exists</enter_alt_pass>
+    <reset_send>Your login information has been sent to email address(es) below:</reset_send>
+    <reset_error>Specified account does not exist or its password cannot be retrieved</reset_error>
+    <subject>Password reset for account %EMAIL%</subject>
+    <email>Hello %FULLNAME%,&#13;&#10;&#13;&#10;Did you request a password reset for your account (%EMAIL%) in WebClient?&#13;&#10;&#13;&#10;Click the link below (or copy and paste it to your browser) to confirm that this email address belongs to you.&#13;&#10;%URL%&#13;&#10;&#13;&#10;If you didn&apos;t make this request or have received this message in error, please ignore it.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Name already exists</duplicity>
+    <label>Document with the same name &quot;%s&quot; already exists.</label>
+    <suggested_name>Suggested name</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Processing</processing>
+    <step1>1) Vælg fil format</step1>
+    <step2>2) Vælg destinations mappe</step2>
+    <step3>3) Vælg kolonne typer for import</step3>
+    <step1e>Select source contact folder</step1e>
+    <step2e>Select export type</step2e>
+    <step_date>Select Date format</step_date>
+    <default_date>Default</default_date>
+    <charset>Character set</charset>
+    <skipfirst>Skip første linie i CSV</skipfirst>
+    <email1>Email 1</email1>
+    <email2>Email 2</email2>
+    <email3>Email 3</email3>
+    <phone1>Telefon 1</phone1>
+    <phone2>Telefon 2</phone2>
+    <phone3>Telefon 3</phone3>
+    <phone4>Telefon 4</phone4>
+    <phone_type1>Telefon Type 1</phone_type1>
+    <phone_type2>Telefon Type 2</phone_type2>
+    <phone_type3>Telefon Type 3</phone_type3>
+    <phone_type4>Telefon Type 4</phone_type4>
+    <import_successful>import lykkedes</import_successful>
+    <import_unsuccessful>Import failed</import_unsuccessful>
+    <import_finished>Import completed. %s items were skipped due to an error.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Auto</auto>
+    <load>Load</load>
+    <import>Import</import>
+    <export>Eksport</export>
+    <unknown_ext>Ukendt udvidelse</unknown_ext>
+    <download_csv_file>Hent CSV fil med kalender emner</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>Hent</download_file>
+    <select_col>Vælg kolonner til import</select_col>
+    <select_email>Vælg mindst en email kollone</select_email>
+    <gw_xml_file>XML med GroupWare backup</gw_xml_file>
+    <comma>CSV - Comma (,)</comma>
+    <semicolon>CSV - Semicolon (;)</semicolon>
+    <colon>CSV - Colon (:)</colon>
+    <sharing>Forcer deling</sharing>
+    <import_info>Supported file formats for upload</import_info>
+    <import_info_itm>CSV (comma, colon, semicolon separated), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Licenses</license>
+    <licenses>Licenses</licenses>
+    <out>Outlook Sync</out>
+    <desk>Desktop klient</desk>
+    <download>Hent</download>
+    <key>Product Activation Key (use Copy &amp; Paste)</key>
+    <nokey>Activation key for this application is not available. Contact your administrator for details.</nokey>
+  </license>
+  <devices>
+    <device>Device</device>
+    <device_model>Device Model</device_model>
+    <device_type>Device Type</device_type>
+    <protocol>Protocol</protocol>
+    <registered>Registered</registered>
+    <lastsync>Last Sync</lastsync>
+    <factory>Reset to Factory Settings</factory>
+    <wipe>Remote Wipe</wipe>
+    <wiping>Remote Wipe in Progress</wiping>
+    <nowipe>Remote Wipe Not Supported</nowipe>
+    <reset>Reset Wipe</reset>
+    <delete_confirmation>Deleting the device from the list will cause data resynchronization upon the next connection (useful if the device stopped updating). If you instead want to erase all user/account data from the device, go to device Properties and click Remote Wipe.&lt;br/&gt;&lt;br/&gt;Are you sure to delete the device(s) from the list?</delete_confirmation>
+    <wipe_confirmation>Remote Wipe will delete all user/account data from the device (and storage cards) and will reset the device to factory settings. The device must have a working internet connection.&lt;br/&gt;&lt;br/&gt;Are you sure to continue?</wipe_confirmation>
+    <options>Device Options</options>
+    <folders>Folders</folders>
+    <sync>Synchronizaton</sync>
+    <private_folders>Private Folders</private_folders>
+    <special_folders>Special Folders</special_folders>
+    <gw_folders>GroupWare Folders</gw_folders>
+    <mail_folders>Mail Folders</mail_folders>
+    <archive>Archive</archive>
+    <public>Public Folders</public>
+    <shared>Shared Folders</shared>
+    <past_mail>Past Mail items</past_mail>
+    <past_calendar>Past Calendar events</past_calendar>
+    <sync_tase>Sync Tasks as Calendar events</sync_tase>
+    <sync_note>Sync Notes as</sync_note>
+    <all_folders>All folders</all_folders>
+    <all_folders_mail>All with GroupWare as email</all_folders_mail>
+    <default_only>Default folders only</default_only>
+    <sync_all>All</sync_all>
+    <one_day>One day</one_day>
+    <three_days>Three days</three_days>
+    <one_week>One week</one_week>
+    <two_weeks>Two weeks</two_weeks>
+    <one_month>One month</one_month>
+    <three_months>Three months</three_months>
+    <six_months>Six months</six_months>
+    <inc_tasks>Incomplete tasks only</inc_tasks>
+    <new_cfolders>New calendar folder</new_cfolders>
+    <merge_taks>Merge to default calendar</merge_taks>
+    <events>Events</events>
+    <tasks>Tasks</tasks>
+    <inotes>Tasks &amp; Notes (Android app)</inotes>
+    <new_folders>New folder</new_folders>
+    <merge_default>Merge to default folder</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Folder Panel</leftpanel>
+    <rightpanel>WebChat Panel</rightpanel>
+    <share>Share</share>
+    <new_document>Create Document</new_document>
+    <new_message>New from Template</new_message>
+    <devices>Mobile Devices</devices>
+    <vcard>My Details</vcard>
+    <basic>Switch to Tablet Interface</basic>
+    <old_client>Switch to Old Interface</old_client>
+    <search>Søg</search>
+    <filter>Filter</filter>
+    <new>Ny</new>
+    <print>Print</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Indstillinger</settings>
+    <accounts>Konti</accounts>
+    <logout>Log ud</logout>
+    <logout_title>Ctrl+Click to Logout</logout_title>
+    <update>Hent nye</update>
+    <compose>Compose</compose>
+    <new_contact>Kontakt</new_contact>
+    <new_template>Message Template</new_template>
+    <new_distrib_list>Distributionsliste</new_distrib_list>
+    <new_event>Aftale</new_event>
+    <new_journal>Journal</new_journal>
+    <new_note>Note</new_note>
+    <new_task>Opgave</new_task>
+    <new_file>Document</new_file>
+    <new_upload>Upload File</new_upload>
+    <new_word>Word Document</new_word>
+    <new_excel>Excel Spreadsheet</new_excel>
+    <new_ppoint>PowerPoint Presentation</new_ppoint>
+    <new_text>Text Document</new_text>
+    <new_html>HTML Document</new_html>
+    <new_folder>Mappe</new_folder>
+    <reply_to_sender>Besvar</reply_to_sender>
+    <reply_to_all>Reply to All</reply_to_all>
+    <reply_to_sender_t>Reply with Template</reply_to_sender_t>
+    <reply_to_all_t>Reply to All with Template</reply_to_all_t>
+    <forward>Vidresend</forward>
+    <delete>Slet</delete>
+    <empty_folder>Tøm Mappe</empty_folder>
+    <day_view>Dag</day_view>
+    <week_view>Uge</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Måned</month_view>
+    <dial>Ring op</dial>
+    <sms>Send SMS</sms>
+    <calls>Calls</calls>
+    <conference>WebMeeting</conference>
+    <contacts_list>Liste</contacts_list>
+    <events_list>Liste</events_list>
+    <address_card>Adresse Kort</address_card>
+    <tasks_lists>Lister</tasks_lists>
+    <tasks_detailed>Detaljeret Liste</tasks_detailed>
+    <active_tasks>Aktive Opgaver</active_tasks>
+    <journal_day_view>Dag</journal_day_view>
+    <journal_week_view>Uge</journal_week_view>
+    <journal_month_view>Måned</journal_month_view>
+    <journal_list>Liste</journal_list>
+    <notes_list>Liste</notes_list>
+    <options>Indstillinger</options>
+    <admin_options>Administrator Indstillinger</admin_options>
+    <domain_options>Domæne Indstillinger</domain_options>
+    <tools>Værktøj</tools>
+    <deliver>Aflever</deliver>
+    <quarantine>Karantæne</quarantine>
+    <black_list>Move to Blacklist</black_list>
+    <white_list>Move to Whitelist</white_list>
+    <black_listed>Sortlistet</black_listed>
+    <white_listed>Hvidlistet</white_listed>
+    <rules>Regler</rules>
+    <help>Hjælp</help>
+  </main_menu>
+  <short_days>
+    <monday>Man</monday>
+    <tuesday>Tir</tuesday>
+    <wednesday>Ons</wednesday>
+    <thursday>Tor</thursday>
+    <friday>Fre</friday>
+    <saturday>Lør</saturday>
+    <sunday>Søn</sunday>
+  </short_days>
+  <days>
+    <monday>Mandag</monday>
+    <tuesday>Tirsdag</tuesday>
+    <wednesday>Onsdag</wednesday>
+    <thursday>Torsdag</thursday>
+    <friday>Fredag</friday>
+    <saturday>Lørdag</saturday>
+    <sunday>Søndag</sunday>
+  </days>
+  <months>
+    <january>Januar</january>
+    <february>Februar</february>
+    <march>Marts</march>
+    <april>April</april>
+    <may>Maj</may>
+    <june>Juni</june>
+    <july>Juli</july>
+    <august>August</august>
+    <september>September</september>
+    <october>Oktober</october>
+    <november>November</november>
+    <december>December</december>
+  </months>
+  <short_months>
+    <january>Jan</january>
+    <february>Feb</february>
+    <march>Mar</march>
+    <april>Apr</april>
+    <may>May</may>
+    <june>Jun</june>
+    <july>Jul</july>
+    <august>Aug</august>
+    <september>Sep</september>
+    <october>Oct</october>
+    <november>Nov</november>
+    <december>Dec</december>
+  </short_months>
+  <dates>
+    <every>Every</every>
+    <secondly>second</secondly>
+    <minutely>minute</minutely>
+    <hour>hour</hour>
+    <day>day</day>
+    <weeks>weeks</weeks>
+    <month>month</month>
+    <year>year</year>
+    <the>the</the>
+    <first>first</first>
+    <last>last</last>
+    <second>second</second>
+    <third>third</third>
+    <fourth>fourth</fourth>
+    <firth>fifth</firth>
+    <postfix>th</postfix>
+    <except>except</except>
+    <on>on</on>
+    <mondays>Mondays</mondays>
+    <tuesdays>Tuesdays</tuesdays>
+    <wednesdays>Wednesdays</wednesdays>
+    <thursdays>Thursdays</thursdays>
+    <fridays>Fridays</fridays>
+    <saturdays>Saturdays</saturdays>
+    <sundays>Sundays</sundays>
+    <yearday>day of the year</yearday>
+    <in>in</in>
+    <week>week</week>
+    <week2>Week</week2>
+    <at>at</at>
+    <and>and</and>
+    <from>from</from>
+    <until>until</until>
+    <times>repeating %s times</times>
+  </dates>
+  <form_buttons>
+    <revision>Make Revision</revision>
+    <skip>Skip</skip>
+    <refresh>Opfrisk</refresh>
+    <retrieve>Modtag</retrieve>
+    <inherit>Arv</inherit>
+    <accept>Godkend</accept>
+    <decline>Afvis</decline>
+    <ok>OK</ok>
+    <close>Close</close>
+    <retry>Igen</retry>
+    <test>Test</test>
+    <cancel>Annuller</cancel>
+    <rename>Rename</rename>
+    <rewrite>Rewrite</rewrite>
+    <rewrite_all>Rewrite All</rewrite_all>
+    <save>Save</save>
+    <dont>Lad være med</dont>
+    <add>Tilføj</add>
+    <edit>Rediger</edit>
+    <find>Find</find>
+    <add_file>Tilføj Fil</add_file>
+    <add_item>Tilføj Element</add_item>
+    <remove>Fjern</remove>
+    <address_book>Address Book</address_book>
+    <search>Søg</search>
+    <new_folder>Ny Mappe</new_folder>
+    <map_it>Show on Map</map_it>
+    <sign_in>Sign in</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Over Folder</step1>
+    <create_new_folder>Lav Ny Mappe</create_new_folder>
+    <create_error>Folder eksiterer allerede og kan ikke laves.</create_error>
+    <name>Navn</name>
+    <type>Type</type>
+    <channel>Kanal</channel>
+    <sharetype>Apply to</sharetype>
+    <all>All Folders</all>
+    <private>Private folders</private>
+    <selected>Selected folders</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Brugernavn</username>
+    <password>Adgangskode</password>
+    <protocol>Protokol</protocol>
+    <server>Server</server>
+    <server_proxy>Server/Proxy</server_proxy>
+    <port>Port</port>
+    <extension>Extension</extension>
+    <description>Beskrivelse</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Manage Content</item_actions>
+    <recovery>Recover Deleted Items</recovery>
+    <add_virtual>Create New Search Folder</add_virtual>
+    <edit_virtual>Rediger søgemappe</edit_virtual>
+    <add_favorites>Føj til favoritter</add_favorites>
+    <sharing>Sharing and Permissions</sharing>
+    <change_channel>Skift kanal</change_channel>
+    <subscribe>Synkroniser</subscribe>
+    <subscribed>Synchronized</subscribed>
+    <add_folder>Create New Folder</add_folder>
+    <add_shared_account>Tilføj delt Kont</add_shared_account>
+    <delete_folder>Slet Mappe</delete_folder>
+    <unsubscribe_folder>Unsubscribe folder</unsubscribe_folder>
+    <move_folder>Flyt Mappe</move_folder>
+    <move_folder_into>Move Folder into</move_folder_into>
+    <rename_folder>Omdøb Mappe</rename_folder>
+    <remove_account>Remove Account</remove_account>
+    <sent_folder>Select Sent folder</sent_folder>
+    <select_folder>Vælg Mappe</select_folder>
+    <mark_all_as_read>Mark as Read</mark_all_as_read>
+    <default>Set as Default</default>
+    <export>Export Folder</export>
+    <color>Color</color>
+    <move_default>Are you sure you want to move default folder?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>All</all>
+    <pdf>PDF</pdf>
+    <play_sound>Play</play_sound>
+    <attachments>Vedhæftninger</attachments>
+    <upload>Vedhæft fil</upload>
+    <download>Download</download>
+    <download_all>Download All</download_all>
+    <open_window>Open in Window</open_window>
+    <import>Import to WebClient</import>
+    <import_error>Unsupported Item Type</import_error>
+    <remove>Fjern</remove>
+    <remove_all>Fjern Alle</remove_all>
+    <add_item>Add Item</add_item>
+    <link_dropbox>Link to Dropbox</link_dropbox>
+    <view>View</view>
+    <save>Download</save>
+    <save_all>Download All</save_all>
+    <save_to_folder>Save to Folder</save_to_folder>
+    <show_images>Preview Images</show_images>
+    <show_image>Preview Image</show_image>
+    <show_text>Plain Text Message</show_text>
+    <show_headers>All Headers</show_headers>
+    <show_cert>Vis Certifikat</show_cert>
+    <append_cert>Føj til kontakt</append_cert>
+    <dropzone>&lt; Drop File Here &gt;</dropzone>
+    <drop_holder>Drag &amp; Drop files here...</drop_holder>
+    <quick_add>Quick upload...</quick_add>
+    <quick_contact>Drop vCard file here...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Dropbox error</erroralert>
+    <missingkey>Dropbox is not configured. Administrator needs to setup Dropbox integration first.</missingkey>
+    <unavailable>Dropbox is temporarily unavailable and will be disabled until next login.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Convert to HTML</convert_item>
+    <source>Source</source>
+    <send_notify>Notify of Changes</send_notify>
+    <recover>Genskab</recover>
+    <new>Ny</new>
+    <delivery_report>Modtage Report</delivery_report>
+    <properties>Egenskaber</properties>
+    <doc_management>Document Properties</doc_management>
+    <open>Åben</open>
+    <open_pdf>Open as PDF</open_pdf>
+    <open_window>Open in Window</open_window>
+    <edit>Rediger</edit>
+    <reply_to_sender>Besvar</reply_to_sender>
+    <reply_to_all>Reply to All</reply_to_all>
+    <forward>Vidresend</forward>
+    <forward_as_message>Forward as Attachment</forward_as_message>
+    <redirect>Omdiriger</redirect>
+    <mark_as_read>Mark as Read</mark_as_read>
+    <mark_as_unread>Mark as Unread</mark_as_unread>
+    <move_mail_to>Move to Folder</move_mail_to>
+    <copy_mail_to>Copy to Folder</copy_mail_to>
+    <delete>Slet</delete>
+    <delete_selected>Slet valgte</delete_selected>
+    <open_item>Åben</open_item>
+    <move_item_to>Move to Folder</move_item_to>
+    <copy_item_to>Copy to Folder</copy_item_to>
+    <new_distriblist>Ny Distributionsliste</new_distriblist>
+    <save_as>Gem som...</save_as>
+    <html>HTML</html>
+    <text>Text</text>
+    <eml>EML</eml>
+    <download_vcalendar>Save as vCalendar</download_vcalendar>
+    <download_vcard>Save as vCard</download_vcard>
+    <download_vnote>Save as vNote</download_vnote>
+    <download_file>Download Fil</download_file>
+    <open_office>Open in Office</open_office>
+    <deliver>Aflever</deliver>
+    <black_list>Sortliste</black_list>
+    <white_list>Hvidliste</white_list>
+    <blacklist_sender>Sortlist afsender</blacklist_sender>
+    <blacklist_domain>Blacklist whole Domain</blacklist_domain>
+    <whitelist_sender>Hvidlist afsender</whitelist_sender>
+    <whitelist_domain>Whitelist whole Domain</whitelist_domain>
+    <send_as_email>Send as Email</send_as_email>
+    <send_email_to>Send Message</send_email_to>
+    <add_to_contacts>Create New Contact</add_to_contacts>
+    <add_to_exist_contacts>Add to Existing Contact</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Add to Contacts Folder</add_contact>
+    <add_im>Add to WebChat Contact List</add_im>
+    <add_to_im>Add to WebChat</add_to_im>
+    <add>Tilføj...</add>
+    <manage_sender>Manage Sender...</manage_sender>
+    <invite_appointment>Invite to Appointment</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Add Certificate to Contact</cert_to_contact>
+    <contacts>Kontakt</contacts>
+    <mandatorydetails>Please fill in your contact details</mandatorydetails>
+    <im>WebChat Roster</im>
+    <skip_delete>Do not ask me again</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>No color</none>
+    <color>Color</color>
+    <white_flag>Hvid flag</white_flag>
+    <red_flag>Rødt flag</red_flag>
+    <blue_flag>Blåt flag</blue_flag>
+    <yellow_flag>Gult flag</yellow_flag>
+    <green_flag>Grønt flag</green_flag>
+    <orange_flag>Orange flag</orange_flag>
+    <purple_flag>Lilla flag</purple_flag>
+    <flag_complete>Flag fuldendt</flag_complete>
+    <clear_flag>Ryd flag</clear_flag>
+    <important>Vigtigt</important>
+    <business>Business</business>
+    <personal>Personligt</personal>
+    <vacation>Ferie</vacation>
+    <must_attend>Skal deltage</must_attend>
+    <travel_required>Rejse krævet</travel_required>
+    <needs_preparation>Kræver forberedelse</needs_preparation>
+    <birthday>Fødselsdag</birthday>
+    <anniversary>Årsdag</anniversary>
+    <phone_call>Telefonopkald</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Add New Email Account</add_account>
+    <delete_account>Slet konto</delete_account>
+    <edit_account>Rediger konto</edit_account>
+    <validating>Validating account...</validating>
+    <invalid>Konto er ikke godkendt</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Indbakke</inbox>
+    <drafts>Kladder</drafts>
+    <sent>Sendt</sent>
+    <trash>Papirkurv</trash>
+    <spam>Spam</spam>
+    <templates>Templates</templates>
+    <quarantine>Karantæne</quarantine>
+    <spam_queue>Filtre</spam_queue>
+    <spam_queue-whitelist>Hvidliste</spam_queue-whitelist>
+    <spam_queue-blacklist>Sortliste</spam_queue-blacklist>
+    <virtual-folders>Virtual Folders</virtual-folders>
+    <gw-trash>Genskabte Emner</gw-trash>
+    <calendars>Multiple Calendars</calendars>
+  </common_folders>
+  <folders>
+    <mails>Mail</mails>
+    <contacts>Kontakter</contacts>
+    <events>Kalender</events>
+    <tasks>Opgaver</tasks>
+    <notes>Noter</notes>
+    <journal>Journal</journal>
+    <files>Documents</files>
+    <home>Hjem</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>Post</mail>
+    <contact>Kontakt</contact>
+    <event>Kalender</event>
+    <journal>Journal</journal>
+    <note>Note</note>
+    <task>Opgave</task>
+    <file>Document</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>Du kan ikke flytte denne folder</cantmove>
+    <cantrename>Du kan ikke omdøbe denne folder</cantrename>
+    <cantdelete>Du kan ikke sette denne folder</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Vedhæftninger</attachments>
+    <to>Til</to>
+    <subject>Emne</subject>
+    <nosubject>Intet Emne</nosubject>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <body>Body</body>
+    <from>Fra</from>
+    <date>Dato</date>
+    <size>Størrelse</size>
+    <type>Type</type>
+    <itmclassifyas>Kontakt Navn</itmclassifyas>
+    <phone>Phone</phone>
+    <itmcompany>Virksomhed</itmcompany>
+    <itmdepartment>Afdeling</itmdepartment>
+    <contact_email>Email</contact_email>
+    <expires>Expires on</expires>
+    <itmcategory>Kategori</itmcategory>
+    <evntitle>Titel</evntitle>
+    <itmtitle>Tittel</itmtitle>
+    <itmoriginalfolder>Original Folder</itmoriginalfolder>
+    <itm_deleted>Slettet</itm_deleted>
+    <item_moved>Deleted</item_moved>
+    <evnlocation>Lokation</evnlocation>
+    <upcoming>Opkommende</upcoming>
+    <event_startdate>Start</event_startdate>
+    <event_enddate>Slut</event_enddate>
+    <evntype>Kategori</evntype>
+    <evncontact>Kontakt</evncontact>
+    <evnstatus>Ikke færdigt</evnstatus>
+    <task_startdate>Start date</task_startdate>
+    <task_enddate>Due date</task_enddate>
+    <sndemail>Afsender</sndemail>
+    <sndowner>Ejer</sndowner>
+    <snddomain>Domæne</snddomain>
+    <sndsubject>Emne</sndsubject>
+    <revised_by>Revised by</revised_by>
+    <comment>Comment</comment>
+    <qdate>Dato</qdate>
+    <name>Navn</name>
+    <evnfilename>Filnavn</evnfilename>
+    <evnnote>Beskrivelse</evnnote>
+    <evn_modified>Modified</evn_modified>
+    <evnfilesize>Størrelse</evnfilesize>
+    <lctphnwork1>Arbejds telefon</lctphnwork1>
+    <lctphnfaxwork>Arbejds Fax</lctphnfaxwork>
+    <lctphnhome1>Hjemme telefon</lctphnhome1>
+    <lctphnmobile>Mobile Telefon</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Public URL</public>
+    <share>Share Link</share>
+    <ticket>Andet</ticket>
+    <revisions>Revisions</revisions>
+    <revert>Revert</revert>
+    <edit_comment>Edit Comment</edit_comment>
+    <new_revision>New Revision</new_revision>
+  </item>
+  <event_view>
+    <week_label>Uge</week_label>
+    <notitle>No Title</notitle>
+    <private>Undisclosed</private>
+    <newappointment>New Appointment</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Læs: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Din besked er blevet læst.&#13;&#10;&#13;&#10;Besked detaljer følger:&#13;&#10;&#13;&#10;Fra: %FROM%&#13;&#10;Til: %TO%&#13;&#10;Dato: %DATE%&#13;&#10;Emne: %SUBJECT%</reading_confirmation>
+    <reply_message>-----Original Besked-----</reply_message>
+    <reply_message_html>-----Original Besked-----</reply_message_html>
+    <from>Fra:</from>
+    <to>Til:</to>
+    <cc>Cc:</cc>
+    <date>Dato:</date>
+    <subject>Emne:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>Mr.</mr>
+    <mrs>Mrs.</mrs>
+    <miss>Miss</miss>
+    <ms>Ms.</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Jr.</jr>
+    <sr>Sr.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Display name</displayname>
+    <avatar>Billede</avatar>
+    <contact>Kontakt</contact>
+    <general>Generelt</general>
+    <profile>Profile</profile>
+    <personal>Personligt</personal>
+    <business>Business</business>
+    <other_l>Andet</other_l>
+    <other>Andet</other>
+    <contact_name>Show as</contact_name>
+    <sort_as>Sort as</sort_as>
+    <first_name>Fornavn</first_name>
+    <middle_name>Mellemnavn</middle_name>
+    <last_name>Efternavn</last_name>
+    <nick_name>Kælenavn</nick_name>
+    <full_name>Full name</full_name>
+    <title>Titel</title>
+    <suffix>Suffiks</suffix>
+    <category>Kategori</category>
+    <email_address>Email adresse</email_address>
+    <birthdate>Fødselsdag</birthdate>
+    <anniversary>Jubilæum</anniversary>
+    <spouse>Ægtefælle</spouse>
+    <gender>Køn</gender>
+    <company>Firma</company>
+    <job>Job</job>
+    <profession>Erhverv</profession>
+    <department>Afdeling</department>
+    <assistant>Assistent</assistant>
+    <manager>Chef</manager>
+    <office_location>Kontor beliggenhed</office_location>
+    <email1>Email 1</email1>
+    <email2>Email 2</email2>
+    <email3>Email 3</email3>
+    <im>IM</im>
+    <phone>Telefon</phone>
+    <phones>Telefon(er)</phones>
+    <male>Mand</male>
+    <female>Kvinde</female>
+    <street>Gade</street>
+    <city>By</city>
+    <zip>ZIP</zip>
+    <state>Stat</state>
+    <country>Land</country>
+    <home_address>Hjemmeadresse</home_address>
+    <business_address>Business address</business_address>
+    <other_address>Anden adresse</other_address>
+    <homepage>Hjemmeside</homepage>
+    <calendar_url>Kalender URL</calendar_url>
+    <share_type>Delings type</share_type>
+    <address>Adresse</address>
+    <web>Net</web>
+    <notes>Noter</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Distributionsliste</distrib_list>
+    <general>Generelt</general>
+    <members>Medlemmer</members>
+    <title>Titel</title>
+    <category>Kategori</category>
+    <add_title>Tilføj</add_title>
+    <edit_title>Rediger</edit_title>
+    <name>Navn</name>
+    <email>Email</email>
+  </distrib_list>
+  <time_interval>
+    <from>Fra</from>
+    <to>Til</to>
+    <duration>Varighed</duration>
+    <all_day_event>Hel dags aftale</all_day_event>
+    <days>Dage</days>
+    <change_default>Change Default Time Zone</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>This is a repeating item</title_edit>
+    <text_edit>Change only this one, all in the series, or this and all following?</text_edit>
+    <title_delete>This is a repeating item</title_delete>
+    <text_edit_2>Change only this one, or all in the series?</text_edit_2>
+    <text_delete>Remove only this one, or all in the series?</text_delete>
+    <btn_this>Only this one</btn_this>
+    <btn_all>All in the series</btn_all>
+    <btn_allfromnow>Alle følgende</btn_allfromnow>
+    <btn_cancel>Annuller</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Decline reason</reason>
+    <event>Aftale</event>
+    <general>Generelt</general>
+    <repeating>Gentagelse</repeating>
+    <schedule>Skema</schedule>
+    <reminders>Påmindelser</reminders>
+    <onlinemeeting>WebMeeting</onlinemeeting>
+    <startmeeting>Start now</startmeeting>
+    <joinmeeting>Join now</joinmeeting>
+    <title>Titel</title>
+    <location>Sted</location>
+    <category>Kategori</category>
+    <notes>Noter</notes>
+    <timezone>Tids Zone</timezone>
+    <show_as>Vis som</show_as>
+    <free>Gratis</free>
+    <busy>Optaget</busy>
+    <tentative>Tentativ</tentative>
+    <out_of_office>Ikke på kontoret</out_of_office>
+    <unknown>No Information</unknown>
+    <label>Label</label>
+    <meeting_hint>Create and join meetings, share your screen</meeting_hint>
+    <high>High:</high>
+    <low>Low:</low>
+  </event>
+  <file>
+    <file>Document</file>
+    <expire>Expires at %s</expire>
+    <name>File Name</name>
+    <lock>Lock</lock>
+    <unlock>Unlock</unlock>
+    <locked>Locked</locked>
+    <unlocked>Unlocked</unlocked>
+    <locked_by>Document locked by %s</locked_by>
+    <blank_doc>Document</blank_doc>
+    <description>Description</description>
+    <new_doc>Empty Document</new_doc>
+    <converting>Document conversion in progress.</converting>
+  </file>
+  <note>
+    <note>Note</note>
+    <category>Kategori</category>
+    <title>Titel</title>
+    <general>Generelt</general>
+  </note>
+  <task>
+    <task>Opgave</task>
+    <attendees>Attendees</attendees>
+    <status>Status</status>
+    <complete>Fuldført</complete>
+    <repeating>Gentagende</repeating>
+    <reminders>Påmindelser</reminders>
+    <general>Generelt</general>
+    <title>Titel</title>
+    <start_date>Start date</start_date>
+    <due_date>Due date</due_date>
+    <category>Kategori</category>
+    <not_started>Not started</not_started>
+    <in_progress>In progress</in_progress>
+    <completed>Fuldført</completed>
+    <deferred>Udskudt</deferred>
+    <waiting>Waiting on someone else</waiting>
+    <done>Done</done>
+  </task>
+  <blackwhite>
+    <black>Sortliste</black>
+    <white>Hvidliste</white>
+    <email>Email</email>
+  </blackwhite>
+  <compose>
+    <template>Template</template>
+    <newmail>Email Besked</newmail>
+    <send>Send</send>
+    <sendinfo>Send message</sendinfo>
+    <save>Gem</save>
+    <saveinfo>Save message to Drafts</saveinfo>
+    <options>Indstillinger</options>
+    <advanced>Advanced options</advanced>
+    <html>HTML</html>
+    <text>Tekst</text>
+    <sms>SMS</sms>
+    <compose_sms>Compose SMS</compose_sms>
+    <sms_preview>SMS Preview</sms_preview>
+    <sms_info>%s karakterer i %s besked</sms_info>
+    <smartattach>SmartAttach</smartattach>
+    <smartattachinfo>Attachments will be saved to your %s and replaced by download links in the email body.</smartattachinfo>
+    <readconfirmationinfo>Receive confirmation that recipient has read this message</readconfirmationinfo>
+    <show_all>Show all entries</show_all>
+    <signinfo>Digitally sign the message</signinfo>
+    <encryptinfo>Encrypt the message</encryptinfo>
+    <priorityinfo>Set message priority</priorityinfo>
+    <subject_empty>Message has no subject.&lt;br&gt;Send it anyway?</subject_empty>
+    <rcp_empty>Add some recipient to send the mail to.</rcp_empty>
+    <optionstitle>Message Options</optionstitle>
+    <encrypt>Encrypt the message</encrypt>
+    <sign>Digitally sign the message</sign>
+    <nosign>No signing certificate found.&lt;br&gt;Send the message unsigned?</nosign>
+    <delivery_report>Show Delivery Report</delivery_report>
+    <reply_to>Reply To</reply_to>
+    <upload_file>Attach from Local Disk</upload_file>
+    <upload_item>Attach from WebClient</upload_item>
+  </compose>
+  <sharing>
+    <public>Offentlig</public>
+    <private>Privat</private>
+    <anonymous>Anonymous/Everyone</anonymous>
+    <custom>Custom</custom>
+    <inherited>Inherited</inherited>
+    <none>Ingen</none>
+    <enter_address>Enter Address</enter_address>
+    <permissions>Tilladelser</permissions>
+    <user>Bruger</user>
+    <items>Items</items>
+    <folder>Folder</folder>
+    <administration>Administration</administration>
+  </sharing>
+  <time>
+    <hours>Timer</hours>
+    <minutes>Minutter</minutes>
+    <days>Dage</days>
+    <oneday>day</oneday>
+    <moredays>days</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Vælg Kontakter</select_emails>
+    <add>Tilføj</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Search</placeholder>
+    <tags>Tags</tags>
+    <used>Brugt</used>
+    <hint>Brugt af %s emne(r)</hint>
+    <selected>Valgt</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Hjem 1</lctphnhome1>
+    <lctphnhome2>Hjem 2</lctphnhome2>
+    <lctphnassistant>Assistant</lctphnassistant>
+    <lctphnwork1>Arbejde 1</lctphnwork1>
+    <lctphnwork2>Arbejde 2</lctphnwork2>
+    <lctphnfaxhome>Fax Hjem</lctphnfaxhome>
+    <lctphnfaxwork>Fax Arbejde</lctphnfaxwork>
+    <lctphncallback>Tilbagekald</lctphncallback>
+    <lctphncompany>Firma</lctphncompany>
+    <lctphncar>Bil</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>Mobil</lctphnmobile>
+    <lctphnother>Andet</lctphnother>
+    <lctphnotherfax>Andet FAX</lctphnotherfax>
+    <lctphnpager>Pager</lctphnpager>
+    <lctphnprimary>Primær</lctphnprimary>
+    <lctphnradio>Radio</lctphnradio>
+    <lctphntelex>Telex</lctphntelex>
+    <lctphnhearing>Hearing</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>Dag</day>
+    <week>Uge af</week>
+    <week_of_month>Uge i måned</week_of_month>
+    <month_of_year>Måned i år</month_of_year>
+    <month>Måned</month>
+    <year>År</year>
+    <year_s>År</year_s>
+    <repeats>Gentag hvert:</repeats>
+    <not_repeats>Ingen gentagelse</not_repeats>
+    <end_date>Slutdato:</end_date>
+    <no_end>Ingen slutdato</no_end>
+    <until>Indtil</until>
+    <count>Antal</count>
+    <daily>Dagligt</daily>
+    <weekly>Ugentligt</weekly>
+    <monthly>Månedligt</monthly>
+    <yearly>Årligt</yearly>
+    <every>Hver</every>
+    <the>Den</the>
+    <of>Af</of>
+    <recur_every>Gentag hver</recur_every>
+    <weeks_on>Uge(er) på:</weeks_on>
+    <of_every>Hvert den</of_every>
+    <months>Måned(er)</months>
+    <days>Dag(e)</days>
+    <day_list>week</day_list>
+    <every_weekday>Hver ugedag</every_weekday>
+    <first>første</first>
+    <second>Anden</second>
+    <third>Tredje</third>
+    <fourth>Fjerde</fourth>
+    <last>last</last>
+    <weekday>work week</weekday>
+    <weekend_day>weekend</weekend_day>
+  </repeating>
+  <reminder>
+    <none>Ingen</none>
+    <email>Email</email>
+    <popup>Popup</popup>
+    <address>Adresse</address>
+    <remind1>Påmind mig</remind1>
+    <remind2>inden</remind2>
+    <is_reminder>Send reminder</is_reminder>
+    <no_reminder>Do not send reminder</no_reminder>
+    <type>Type</type>
+    <snooze>Snooze</snooze>
+    <meeting>Launch now</meeting>
+    <dismiss>Afvis</dismiss>
+    <reminder>Påmindelse</reminder>
+  </reminder>
+  <journal>
+    <journal>Journal</journal>
+    <title>Titel</title>
+    <type>Type</type>
+    <company>Firma</company>
+    <conversation>Samtale</conversation>
+    <document>Dokument</document>
+    <e-mail_message>Email besked</e-mail_message>
+    <fax>Fax</fax>
+    <letter>Brev</letter>
+    <meeting>Møde</meeting>
+    <meeting_cancellation>Aflys møde</meeting_cancellation>
+    <meeting_request>Mødeanmodning</meeting_request>
+    <meeting_response>Mødesvar</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Note</note>
+    <phone_call>Telefon opkald</phone_call>
+    <remote_session>Fjernsession</remote_session>
+    <task>Opgave</task>
+    <task_request>Opgaveanmodning</task_request>
+    <task_response>Opgavesvar</task_response>
+  </journal>
+  <certificate>
+    <purposes>Dette certifikat er bestemt til følgende formål</purposes>
+    <ssl>Viser din identitet til en fjerncomputer</ssl>
+    <smime>Beskytter email beskedder</smime>
+    <serial>Serienr</serial>
+    <view>Vis</view>
+    <certificate>Certifikat</certificate>
+    <invalid>Invalid certificate or passphrase</invalid>
+    <passphrase>Adgangskode</passphrase>
+    <issuedto>Udstedt til</issuedto>
+    <issuedby>Udstedt af</issuedby>
+    <email>Email</email>
+    <validity>Gyldig</validity>
+    <badtype>Privat del mangler</badtype>
+    <missing>Certifkat ikke fundet</missing>
+    <invaliditem>Ikke i stand til at tilføjje certifikat</invaliditem>
+    <assigned>Certificate was successfully added</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Folder doesn&apos;t exist: &quot;%s&quot;</folder_not_exist>
+    <accepted>Event was accepted</accepted>
+    <unsure>Event was replied tentatively</unsure>
+    <declined>Event was declined</declined>
+    <proposed>New time was proposed</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Force users to enter contact information</force_enter_user_info>
+    <disable_wipe>Disable Remote Wipe</disable_wipe>
+    <documents>Documents</documents>
+    <aliases>Aliases</aliases>
+    <disable_mailformat>Disable HTML/plain switch in compose window</disable_mailformat>
+    <disable_altmail>Hide Alternate Email</disable_altmail>
+    <rcpt_suggest>Auto-complete</rcpt_suggest>
+    <rcpt_cache>Clear List</rcpt_cache>
+    <keep_search>Keep search term when switching folders</keep_search>
+    <smartfolder>SmartAttach folder</smartfolder>
+    <always_show_rcp>Always show address lines</always_show_rcp>
+    <login_screen>Login Screen</login_screen>
+    <exclude_gal>Exclude GAL from auto-complete</exclude_gal>
+    <password_policy>Password policy</password_policy>
+    <notifications>Desktop Notifications</notifications>
+    <nofocus>Auto (background only)</nofocus>
+    <autorevision_mode>Enable automatic revisions of documents</autorevision_mode>
+    <disable_support>Disable support link on login</disable_support>
+    <check_subject>Check for empty subject</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Hide sharing for Anonymous account</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Show Favorite folders</show_favorites>
+    <layout>Global Settings</layout>
+    <signature>Signatur</signature>
+    <signature_separator>Add standard signature separator &quot;-- &quot;</signature_separator>
+    <signature_to_top>Signatur øverst i besked</signature_to_top>
+    <groups>Groups</groups>
+    <group>Group</group>
+    <trash_folder>Trash Folder</trash_folder>
+    <sent_folder>Sent Folder</sent_folder>
+    <groupsend>Save sent messages in public folder for this group</groupsend>
+    <ftime>Floating Time</ftime>
+    <sso_only>Tillad kun SSO Login</sso_only>
+    <activity_monitor>Logout after inactivity (Minutes)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 hours</time_12>
+    <time_24>24 hours</time_24>
+    <logout_url>Logout URL</logout_url>
+    <disable_attach_item>Disable Attach from WebClient</disable_attach_item>
+    <disable_virtual>Disable Search Folders</disable_virtual>
+    <disable_interfaces>Deaktiver Interface valg ved login</disable_interfaces>
+    <disable_languages>Deaktiver Valg af sprog ved login</disable_languages>
+    <confirm_exit>Bekræftigelse ved exit</confirm_exit>
+    <compose>Beksed skrevet</compose>
+    <never>Aldrig</never>
+    <always>Altid</always>
+    <homepage>Hjemme side</homepage>
+    <banner_enable>Aktiver Banner Frame</banner_enable>
+    <application_enable>Enable Application Download Banner</application_enable>
+    <banner_url>Banner URL</banner_url>
+    <banner_height>Banner Højde</banner_height>
+    <count_subject>Gruppe emne prefixes (e.g. Re[4], Fw[2])</count_subject>
+    <reply_prefix>Brug svar prefix (&gt;)</reply_prefix>
+    <collate>Supporter national sortering af emails (Anretninger) til MySQL</collate>
+    <init_page>Oprindelig side</init_page>
+    <remember_folder>Husk sidst valgte mappe</remember_folder>
+    <show_inbox>Indbakke</show_inbox>
+    <show_home>Hjemmeside</show_home>
+    <clear_trash>Delete Trash emails older than (Days)</clear_trash>
+    <clear_gwtrash>Delete Trash items older than (Days)</clear_gwtrash>
+    <alias>Alias</alias>
+    <subscribed_holidays>Tilsluttede Helligdage</subscribed_holidays>
+    <holidays>Helligdage</holidays>
+    <weather>Vejr</weather>
+    <temperature>Temperatur</temperature>
+    <c>Celsius (°C)</c>
+    <f>Fahrenheit (°F)</f>
+    <city>By</city>
+    <disable_folder_types>Deaktiver valgte mappe typer</disable_folder_types>
+    <antispam>Anti-Spam</antispam>
+    <spam_mode>Spam folder tilstand</spam_mode>
+    <reports_mode>Antispam rapporter tilstand</reports_mode>
+    <quarantine>Karantæne</quarantine>
+    <last_time>Sidste gang</last_time>
+    <last_ip>Sidste IP</last_ip>
+    <current_time>Nuværende Login Tid</current_time>
+    <current_ip>Nuværende Login IP</current_ip>
+    <default>Standart</default>
+    <use_spam>Brug Spam Mappe</use_spam>
+    <not_spam>Brug ikke Spam Mappe</not_spam>
+    <disabled>Slået fra</disabled>
+    <all>Alt</all>
+    <full>Full</full>
+    <new_items>Nye Ting</new_items>
+    <smtp_relay>Send beskeder tilbage hvis bruger ikke eksistere</smtp_relay>
+    <restrictions>Begrænsninger</restrictions>
+    <hide_sortstring>Hide Sort String</hide_sortstring>
+    <disable_aliases>Disable Aliases</disable_aliases>
+    <disable_redirect>Disable Redirect</disable_redirect>
+    <disable_other_accounts>Deaktiver andre konti</disable_other_accounts>
+    <disable_edit_vcard>Disable My Details editing</disable_edit_vcard>
+    <disable_edit_account>Disable My Account editing</disable_edit_account>
+    <disable_change_password>Disable Password Change</disable_change_password>
+    <disable_antispam_control>Deaktiver Anti-Spam styring</disable_antispam_control>
+    <disable_licenses>Disable Licenses Tab</disable_licenses>
+    <disable_login_help>Disable Login Help</disable_login_help>
+    <disable_login_banners>Disable Login Banners</disable_login_banners>
+    <disable_signup>Disable Sign Up</disable_signup>
+    <disable_sip>Deaktiver WebPhone (internn VoIP klient)</disable_sip>
+    <disable_call_forwarding>Disable Call Forwarding</disable_call_forwarding>
+    <disable_external_sip>Deaktiver Eksternl VoIP</disable_external_sip>
+    <disable_export>Deaktiver GroupWare Export</disable_export>
+    <disable_smart>Deaktiver SmartAttach</disable_smart>
+    <disable_dropbox>Disable Dropbox</disable_dropbox>
+    <disable_im>Disable WebChat</disable_im>
+    <disable_sms>Deaktiver SMS</disable_sms>
+    <disable_remember_pulldown>Disable &quot;Remember me&quot;</disable_remember_pulldown>
+    <disable_autofill>Disable Username/Password Autofill</disable_autofill>
+    <disable_rules>Deaktiver Regler</disable_rules>
+    <disable_gmaps>Disable Google Maps</disable_gmaps>
+    <disable_forwarder>Gem Videresender faneblad</disable_forwarder>
+    <disable_keep_emails>Hide &quot;Keep emails in mailbox&quot; in Forwarder</disable_keep_emails>
+    <disable_autoresponder>Skjul Autoresponder Tab</disable_autoresponder>
+    <share_mode>Delt tilstand</share_mode>
+    <share_p>Privat (Data bliver ikke delt)</share_p>
+    <share_pf>Offentlig (Data bliver delt med alle)</share_pf>
+    <share_f>Venner (Data bliver kun delt med venner)</share_f>
+    <daily_event_report>Send daglig rapport med email</daily_event_report>
+    <reminder_notification>Send påmindelse med email</reminder_notification>
+    <reminder_email>Påmindelse og dagsordens email addresse</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Application Key</dropbox_app_key>
+    <dropbox_instructions>For Dropbox integration, login at www.dropbox.com, go to the developer section and create an application key. You will be asked to enter a short description and the hostname or IP for WebClient access.</dropbox_instructions>
+    <server>Server</server>
+    <login_with_email>Logind med email adresse</login_with_email>
+    <server_logs>Logging niveau</server_logs>
+    <server_logs0>Ingen</server_logs0>
+    <server_logs2>Summary</server_logs2>
+    <server_logs3>Debug</server_logs3>
+    <server_logs4>Udvidede</server_logs4>
+    <http_port>HTTP port</http_port>
+    <imapserver>IMAP server</imapserver>
+    <smtpserver>SMTP server</smtpserver>
+    <xmppserver>XMPP server</xmppserver>
+    <port>Port</port>
+    <pgtitle>Side titel</pgtitle>
+    <logo>Login logo</logo>
+    <login_style>Login stil</login_style>
+    <login_client>Preferred interface</login_client>
+    <skin_style>Skin style</skin_style>
+    <interfaces>Available interfaces</interfaces>
+    <spell_language>Spell checker</spell_language>
+    <delete_emptyfolder>Delete messages on Empty Folder action</delete_emptyfolder>
+    <show_images>Automatisk vis eksterne indsatte billeder</show_images>
+    <show_images_spam>Apply also to Spam folder</show_images_spam>
+    <auto_show_images>Automatically preview attached images</auto_show_images>
+    <sound_notify>Aktiver lyd notifikation</sound_notify>
+    <domains_settings>Domæner</domains_settings>
+    <domain>Domæner</domain>
+    <edit_settings>Rediger domæneindstillinger</edit_settings>
+    <resetpass>Password Reset</resetpass>
+    <resetmail>Email</resetmail>
+    <resetenable>Enable Password Reset</resetenable>
+    <accounts>Konti</accounts>
+    <account>Account</account>
+    <tools>Værktøjer</tools>
+    <autoresponder>Autosvar</autoresponder>
+    <forwarder>Vidersender</forwarder>
+    <pcertificate>Private Certificates</pcertificate>
+    <certificate>Certifikat</certificate>
+    <mail_settings>Mail</mail_settings>
+    <im_settings>WebChat</im_settings>
+    <sip_settings>WebPhone</sip_settings>
+    <sip_webrtc>Use native web browser capabilities for media when possible</sip_webrtc>
+    <sip_start>Start WebPhone automatisk</sip_start>
+    <sip_internal>Integrate with your VoIP account (SIP)</sip_internal>
+    <sip_external>Integrate with external VoIP account (SIP)</sip_external>
+    <sip_dial>Dial via external VoIP account (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>Dial via your VoIP account (already registered softphone/telephone)</sip_dial_internal>
+    <call_forwarding>Call Forwarding</call_forwarding>
+    <use_forwarding>Use call forwarding</use_forwarding>
+    <forward_to>Forward call to</forward_to>
+    <forward_after>Forward after (seconds)</forward_after>
+    <chat_window>Chat Vindue</chat_window>
+    <auto_chat>Auto åben chat vindue</auto_chat>
+    <auto_subscribe>automatisk abonner nye brugere</auto_subscribe>
+    <remember_status>Husk status</remember_status>
+    <extended_status>Available statuses</extended_status>
+    <newline_chat>Chat på ny linie</newline_chat>
+    <smiles_chat>Use emoticons</smiles_chat>
+    <enter_send>Send message with Enter</enter_send>
+    <general_settings>Generelt</general_settings>
+    <other_accounts>Other Accounts</other_accounts>
+    <primary_accounts>My Account</primary_accounts>
+    <account_settings>Accounts</account_settings>
+    <importexport_settings>Import/Export</importexport_settings>
+    <default_reminder>Anvende standard påmindelse til nye aftaler</default_reminder>
+    <use_sslswfatt>Brug HTTP Flash upload i SSL session</use_sslswfatt>
+    <use_swfupload>Brug Flash upload til vedhæftninger</use_swfupload>
+    <use_office>Use Open in Office when possible</use_office>
+    <banner_enabled>Allow banner on login page</banner_enabled>
+    <twitter_disabled>Disable Twitter integration</twitter_disabled>
+    <twitter_link>Twitter handle</twitter_link>
+    <facebook_disabled>Disable Facebook integration</facebook_disabled>
+    <facebook_link>URL of page to like</facebook_link>
+    <skin>Skin</skin>
+    <items_ab_shown>Optælling af valgte adresse elementer</items_ab_shown>
+    <date_format>Dato format</date_format>
+    <time_format>Tids format</time_format>
+    <language>Sprog</language>
+    <timezone>Tids zone</timezone>
+    <general>Generelt</general>
+    <default_mail_settings>Mail Compose</default_mail_settings>
+    <folders_mapping>Mappeopsætning</folders_mapping>
+    <subject>Emne</subject>
+    <message_format>Beskedformat</message_format>
+    <re_message_format>Response Message format</re_message_format>
+    <html_message>HTML besked</html_message>
+    <read_confirmation>Læs bekræftelse</read_confirmation>
+    <request_read_confirmation>Request read confirmation</request_read_confirmation>
+    <send_read_confirmation>Allow sending</send_read_confirmation>
+    <ask_before>Ask me before sending</ask_before>
+    <smart_attach>Brug SmartAttach</smart_attach>
+    <save_sent_message>Save sent messages to Sent folder</save_sent_message>
+    <save_folder_message>Save sent messages</save_folder_message>
+    <encrypt>Encrypt messages</encrypt>
+    <sign>Digitally sign messages</sign>
+    <appendvcard>Append My Details (vCard)</appendvcard>
+    <charset>Tegnsæt</charset>
+    <priority>Prioritet</priority>
+    <reply_to>Svar-til adresse</reply_to>
+    <reply_myself>Auto Bcc myself</reply_myself>
+    <move_to_trash>Flyt slettede beskeder til Papirkurven</move_to_trash>
+    <auto_add_recipient_to_addressbook>Tilføj automatisk modtager til adressebog</auto_add_recipient_to_addressbook>
+    <edit_rules>Rules</edit_rules>
+    <rules>Rules</rules>
+    <forward_messages>Vidersend besked</forward_messages>
+    <inline>På linie</inline>
+    <as_attachment>Som vedhæftning</as_attachment>
+    <autoupdate_message>Kontroller automatisk efter nye beskeder hvert minut</autoupdate_message>
+    <autosave_message>Gem automatisk besked hvert minut</autosave_message>
+    <calendar_settings>Kalender</calendar_settings>
+    <main>Hoved</main>
+    <day_begins_at>Dag begynder på</day_begins_at>
+    <day_ends_at>Dag slutter på</day_ends_at>
+    <week_begins_on>Uge begynder på</week_begins_on>
+    <week_starts_today>Week starts on current day</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Deling</sharing_settings>
+    <shared_email>Delt email</shared_email>
+    <email>Email</email>
+    <rights>Rettigheder</rights>
+    <read>Læs</read>
+    <write>Skriv</write>
+    <modify>Rediger</modify>
+    <delete>Slet</delete>
+    <owner>Ejer</owner>
+    <acc_name>Navn</acc_name>
+    <quota>Disk kvote</quota>
+    <sms_quota>SMS Quota</sms_quota>
+    <quota_home>Disk Quota (incl. items from all mail folders, file folders, attachments to contacts, events,...)</quota_home>
+    <description>Beskrivelse</description>
+    <old_password>Gammel adgangskode</old_password>
+    <new_password>Ny adgangskode</new_password>
+    <new_password_conf>Bekræft adgangskode</new_password_conf>
+    <save_drafts_to>Gem udkast i</save_drafts_to>
+    <default_flag>Standard flag</default_flag>
+    <alternative_email>Alternativ email</alternative_email>
+    <default_settings>Standard opsætning</default_settings>
+    <event_view>Kalendervisning</event_view>
+    <event_show_as>Appointments show as</event_show_as>
+    <event_sharing>Deling af aftaler</event_sharing>
+    <contact_sharing>Del kontakter</contact_sharing>
+    <journal_sharing>Del journal</journal_sharing>
+    <note_sharing>Del noter</note_sharing>
+    <task_sharing>Del opgaver</task_sharing>
+    <file_sharing>File deling</file_sharing>
+    <force_for_domainadmin>Force this option for both Domain Admins and Users</force_for_domainadmin>
+    <force_for_users>Force this option for Users</force_for_users>
+    <force>Force Option</force>
+  </settings>
+  <email_priority>
+    <highest>Højeste</highest>
+    <high>Høj</high>
+    <normal>Normal</normal>
+    <medium>Medium</medium>
+    <low>Lav</low>
+    <lowest>Laveste</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Vælg folder</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Vælg post</insert_item>
+    <untitled>Unavngivet</untitled>
+    <embedded>Integreret</embedded>
+    <link>Link</link>
+  </insert_item>
+  <attendees>
+    <shared>Foreslåede kontakter</shared>
+    <add_title>Tilføj</add_title>
+    <edit_title>Rediger</edit_title>
+    <resource>Resource</resource>
+    <remove>Fjern</remove>
+    <edit>Rediger</edit>
+    <name>Navn</name>
+    <email>Email</email>
+    <folder>Folder</folder>
+    <all_attendees>All Deltagere</all_attendees>
+    <status>Status</status>
+    <status_p>Afventer</status_p>
+    <status_a>Accepterert</status_a>
+    <status_d>Afvist</status_d>
+    <role>Rolle</role>
+    <role_q>Påkrævet</role_q>
+    <role_s>Ressource</role_s>
+    <role_t>Valgfri</role_t>
+    <role_g>Organizer</role_g>
+    <quick_add>Enter Attendee or Resource Name</quick_add>
+  </attendees>
+  <dial>
+    <dial>Dial</dial>
+    <keypad>Keypad</keypad>
+    <call>Call</call>
+    <mute>Mute</mute>
+    <answer>Svar</answer>
+    <decline>Afvis</decline>
+    <filter>Display only WebPhone contacts</filter>
+    <hfilter>Display only Missed calls</hfilter>
+    <phone>WebPhone</phone>
+    <duration>Varighed:</duration>
+    <video>Video</video>
+    <localcam>This Computer</localcam>
+    <remotecam>Remote Computer</remotecam>
+    <answer_video>Svar + Video</answer_video>
+    <hang_up>Afslut kald</hang_up>
+    <busy>User is busy</busy>
+    <pbook>Telefonbog</pbook>
+    <refresh>Genopfrisk historie</refresh>
+    <call_duration>Call Duration %s</call_duration>
+    <history>Historie</history>
+    <missed>Mistet</missed>
+    <incoming>inkomne</incoming>
+    <outgoing>Udgående</outgoing>
+    <select_contect>Choose preferred contact</select_contect>
+    <calling>Calling to</calling>
+    <incomingcall>Call from</incomingcall>
+    <callestablished>Call with</callestablished>
+    <notify_ext>Dialed over External Phone</notify_ext>
+  </dial>
+  <sip>
+    <sip>WebPhone</sip>
+    <external>Dial over external phone</external>
+    <screen>Call with screensharing</screen>
+    <sip_status>WebPhone: %s</sip_status>
+    <default_contact>Default WebPhone Contact</default_contact>
+    <unreachable>Server ikke tilgængelig</unreachable>
+    <device>Ingen lydenhed fundet</device>
+    <videonotsupported>Your browser doesn&apos;t support video calls. For best results use the latest Chrome or Firefox.</videonotsupported>
+    <offline>WebPhone is Offline (calls will be dialed over external VoIP softphone/telephone)</offline>
+    <outgoingcall>You are calling %s</outgoingcall>
+    <incomingcall>%s is calling you</incomingcall>
+    <callongoing>You are in a call with %s</callongoing>
+    <callestablished>Call with %s established</callestablished>
+    <userbusy>User %s is busy</userbusy>
+    <callfinished>Samtale sluttet</callfinished>
+    <callcanceled>The call has ended</callcanceled>
+    <notreachable>Cannot reach user on WebPhone</notreachable>
+    <calldeclined>The call was declined</calldeclined>
+    <info>WebPhone Info: %s</info>
+    <notification>Bruger %s er %s</notification>
+    <error>WebPhone Alert</error>
+    <notice>WebPhone Alert</notice>
+    <udp>WebPhone connection error. Check your firewall or Internet connection.</udp>
+    <slow>Initialization is too slow. WebPhone may not work properly.</slow>
+    <init>WebPhone connection error. Check your setting in Options - Phone.</init>
+    <mediarequest>Please allow access to your microphone or camera. Alternatively click on Troubleshoot button below to access an interactive guide.</mediarequest>
+    <invalidstate>Could not access required media devices. Another application could be already using them.</invalidstate>
+    <nopermission>Permission to media devices was denied or is blocked. You need to allow use of microphone or camera to interact.</nopermission>
+    <mediadenied>Could not access the requested media device(s). Possibly they are disconnected or misconfigured.</mediadenied>
+    <ffmedia>Media access not granted. Use the microphone or camera icon top left in the browser to Allow or Deny media access.</ffmedia>
+    <nowebrtc>Your browser doesn&apos;t support WebRTC for audio/video. Use another browser (we suggest Chrome) or install a WebRTC browser plugin.</nowebrtc>
+    <gettingmedia>There is a call or conference in progress. Please allow or deny access to devices to continue.</gettingmedia>
+    <occupied>WebPhone is already in use.</occupied>
+  </sip>
+  <conference>
+    <planner>WebMeeting planner</planner>
+    <aborted>The meeting has been terminated.</aborted>
+    <access>Access information</access>
+    <allattendees>All attendees</allattendees>
+    <missinguserid>You are not a participant in this meeting. Terminating the meeting.</missinguserid>
+    <appletrunning>Java started, waiting for connection to meeting...</appletrunning>
+    <callestablished>WebMeeting is in progress</callestablished>
+    <callfinished>WebMeeting has ended</callfinished>
+    <came>has joined the meeting</came>
+    <cancelled>The meeting has ended unexpectedly</cancelled>
+    <privatechat>Start Private Chat</privatechat>
+    <chatalreadymeeting>You have received a new meeting invitation but cannot join it now, since you are busy in a meeting already.</chatalreadymeeting>
+    <chatinvite>I would like to invite you to a WebMeeting</chatinvite>
+    <closed>The WebMeeting session ended</closed>
+    <closing>Do you want to leave this meeting or end the meeting for all attendees?</closing>
+    <confirminvite>sent you an invitation to WebMeeting</confirminvite>
+    <connectfailure>Unable to connect to meeting</connectfailure>
+    <connecting>Attempting connection to meeting...</connecting>
+    <create>Create new WebMeeting</create>
+    <created>WebMeeting created, starting meeting...</created>
+    <createfirst>There is currently no WebMeeting in progress, would you like to start one?</createfirst>
+    <delegate>Make Moderator</delegate>
+    <screen>Remote screen</screen>
+    <desktop>Share screen</desktop>
+    <waitvideo>Waiting for remote screen</waitvideo>
+    <notchrome>For screen sharing you need to use Chrome</notchrome>
+    <nohttps>Secure connection (https) is required for screen sharing.</nohttps>
+    <noplugin>Screen-sharing plugin is not installed.</noplugin>
+    <desktopinfo>Share your screen with other attendees</desktopinfo>
+    <dialin>If you want to call in, dial one of the following numbers:</dialin>
+    <disablefirebug>Firebug extension may interfere with this functionality. Better disable Firebug and login again.</disablefirebug>
+    <dismiss>Dismiss Attendee</dismiss>
+    <duration>Duration:</duration>
+    <end>End WebMeeting</end>
+    <endcall>End call</endcall>
+    <endforall>End WebMeeting for all</endforall>
+    <endinfo>Terminating meeting...</endinfo>
+    <finished>Your audio recording will be processed and saved to Documents.</finished>
+    <generalerror>Unspecified meeting-related error occurred.</generalerror>
+    <id>Meeting ID:</id>
+    <shortid>ID:</shortid>
+    <info>WebMeeting Info</info>
+    <instruct>You are now connected to the voice conference, simply use your microphone and speakers - a headset is recommended.</instruct>
+    <invalidmeetingid>You cannot join this meeting. It has an expired or invalid Meeting ID.</invalidmeetingid>
+    <invalidsessionid>The session has expired, terminating meeting</invalidsessionid>
+    <invitationedit>Invitation message:</invitationedit>
+    <invite>Invite</invite>
+    <inviteinfo>Invite Participants</inviteinfo>
+    <invitation_sent>Invitation sent to </invitation_sent>
+    <invited>WebMeeting invitation received</invited>
+    <invitesubject>WebMeeting Invitation</invitesubject>
+    <join>Join WebMeeting</join>
+    <joining>Joining meeting</joining>
+    <leave>Leave</leave>
+    <leaveinfo>Leave WebMeeting</leaveinfo>
+    <leaveorend>Select a new moderator if you want this meeting to continue. Otherwise this meeting will end for all attendees.</leaveorend>
+    <leaving>Are you sure you want to leave this meeting?</leaving>
+    <left>has left the meeting</left>
+    <leftchat>Message could not be delivered, this attendee has left the meeting.</leftchat>
+    <mailinvite>You can join this meeting now</mailinvite>
+    <manager>moderator</manager>
+    <meeting>WebMeeting</meeting>
+    <mikogoerror>Server reported an error with screen sharing.</mikogoerror>
+    <servererror>General meeting-related error occurred. Contact your administrator for more details.</servererror>
+    <connectionerror>The meeting was terminated by network connection error. Please try again later.</connectionerror>
+    <mute>Mute</mute>
+    <muteall>Mute All Attendees</muteall>
+    <muteinfo>Mute Microphone</muteinfo>
+    <muteone>Mute Attendee</muteone>
+    <attendees>Attendees</attendees>
+    <chat>WebChat</chat>
+    <name>Name:</name>
+    <needspecialpermissions>Insufficient permissions to perform this operation</needspecialpermissions>
+    <networkrequesterror>There appears to be a problem with the network. You have been disconnected from the meeting.</networkrequesterror>
+    <nocallallowed>Calls are not allowed during a WebMeeting</nocallallowed>
+    <noparticipants>No participants</noparticipants>
+    <notaccessmode>WebMeeting service is disabled for this account.</notaccessmode>
+    <notauthenticated>You are not authenticated to this service.</notauthenticated>
+    <notenabled>WebMeetings are disabled by server administrator</notenabled>
+    <notonline>There is no network connection</notonline>
+    <notsetupproperly>WebMeeting service is not configured properly.</notsetupproperly>
+    <notlicensed>Insufficient license for WebMeetings.</notlicensed>
+    <licenseerror>Insufficient license to start more WebMeetings.</licenseerror>
+    <offline>The meeting is offline.</offline>
+    <ongoing>WebMeeting in progress</ongoing>
+    <onlyorganizercandothis>This feature is accessible only to meeting organizer.</onlyorganizercandothis>
+    <onlysuperusercandothis>You are not authorized to perform this operation.</onlysuperusercandothis>
+    <organizer>organizer</organizer>
+    <pending>Waiting for organizer to start the WebMeeting...</pending>
+    <phone>Phone:</phone>
+    <phoning>You are on a call. Would you like to end it and start the WebMeeting?</phoning>
+    <preparing>Getting meeting data</preparing>
+    <promoted>is now moderator</promoted>
+    <ready>The meeting is ready to start</ready>
+    <recap>This information can be viewed anytime by clicking the &quot;info&quot; icon above.</recap>
+    <record>Record audio</record>
+    <recordinfo>Recording</recordinfo>
+    <recording>Recording audio</recording>
+    <restart>Restart WebMeeting</restart>
+    <schedule>Schedule WebMeeting</schedule>
+    <scheduleorstart>Would you like to start a meeting now or schedule a meeting for a later time?</scheduleorstart>
+    <silenceinfo>Mute Speakers</silenceinfo>
+    <sipnoparticipants>There are no participants, the meeting was terminated.</sipnoparticipants>
+    <start>Start WebMeeting</start>
+    <started>Meeting started, waiting for Java to start...</started>
+    <startedconnect>Meeting started, connecting...</startedconnect>
+    <startednojava>Meeting started, waiting for media access...</startednojava>
+    <starting>Starting meeting</starting>
+    <startnow>Start WebMeeting now</startnow>
+    <joinnow>Join existing WebMeeting</joinnow>
+    <terminate>Are you sure you want to end this meeting?</terminate>
+    <timeout>Unable to maintain connection to meeting</timeout>
+    <unknown>Undisclosed participant</unknown>
+    <unmuteone>Unmute Attendee</unmuteone>
+    <details>WebMeeting details</details>
+    <callin>Call-in details</callin>
+    <url>Meeting URL:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>Call ID:</callid>
+    <waitfailure>Unable to join the meeting.</waitfailure>
+    <waiting>Waiting for Java to start, this may take a while.</waiting>
+    <welcome>Welcome to IceWarp WebMeeting</welcome>
+    <me>Me</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>Java is required to launch your Office applications directly from your web browser and automatically upload document changes.</nolaunch>
+    <nooffice>No Office suite detected.</nooffice>
+    <openfailed>Could not open the document in Office. Would you like to download it instead?</openfailed>
+    <noappfound>Could not find an application to open this type of document.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Tilstand:</mode>
+    <disabled>Deaktiveret</disabled>
+    <respond_always>Svar altid</respond_always>
+    <respond_once>Svar en gang</respond_once>
+    <respond_after_period>Svar igen efter periode</respond_after_period>
+    <respond_period>Svar igen efter (Dage):</respond_period>
+    <from>Fra</from>
+    <subject>Emne</subject>
+    <text>Tekst</text>
+    <respond_only_if_to_me>Svar kun på beskeder sendt til min email adresse</respond_only_if_to_me>
+    <respond_between>Svar kun imellem:</respond_between>
+    <noresponderfor>Ingen Responder til</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Vidersend til:</forward_to>
+    <keep_copy>Behold kopi af email</keep_copy>
+    <forward_older>Vidersend mails ældre end (Dage):</forward_older>
+    <forward_older_to>Vidersend ældre mails til:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Tilføj /Ændre</addedit>
+    <header>Header</header>
+    <filters>Filtre</filters>
+    <edit_header>Ændre header</edit_header>
+    <empty_operator/>
+    <not>IKKE</not>
+    <and>OG</and>
+    <or>ELLER</or>
+    <and_not>OG IKKE</and_not>
+    <or_not>ELLER IKKE</or_not>
+    <from>Fra:</from>
+    <to>Til:</to>
+    <subject>Emne:</subject>
+    <cc>Cc:</cc>
+    <reply_to>Svar til:</reply_to>
+    <date>Dato:</date>
+    <message>Besked</message>
+    <message_type>Besked type:</message_type>
+    <message_body>Besked</message_body>
+    <custom_message_header>Speciel besked header</custom_message_header>
+    <any_message_header>Hvilken som helst besked header</any_message_header>
+    <attachment_name>Navn på vedhæftning</attachment_name>
+    <sender>Afsender</sender>
+    <recipient>Modtager</recipient>
+    <senders_ip>Afsenders IP</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Afsender</ip>
+    <all_messages>Alle beskeder</all_messages>
+    <no_messages>Ingen beskeder</no_messages>
+    <priority_is>prioritet er</priority_is>
+    <priority_isnt>prioritet er ikke</priority_isnt>
+    <is_spam>er spam</is_spam>
+    <isnt_spam>er ikke spam</isnt_spam>
+    <is_greater_than>er større end</is_greater_than>
+    <is_lower_than>er mindre end</is_lower_than>
+    <match_case>Case sensitiv</match_case>
+    <regexp>Regex</regexp>
+    <whole_word>Hele ord</whole_word>
+    <matches>matcher</matches>
+    <doesnt_match>matcher ikke</doesnt_match>
+    <contains_string>indeholder</contains_string>
+    <doesnt_contain_string>indeholder ikke</doesnt_contain_string>
+    <matches_regex>matcher regex</matches_regex>
+    <doesnt_match_regex>matcher ikke regex</doesnt_match_regex>
+    <is_string>er</is_string>
+    <isnt_string>er ikke</isnt_string>
+    <spam_score>Spam score</spam_score>
+    <authorized>autoriseret</authorized>
+    <unauthorized>uautoriseret</unauthorized>
+    <add>Tilføj</add>
+    <delete>Slet</delete>
+    <up>Op</up>
+    <down>Ned</down>
+    <action>Action</action>
+    <actions>Handlinger</actions>
+    <accept>Accepter</accept>
+    <reject>Afvis</reject>
+    <quarantine>Karantæne</quarantine>
+    <spam>Spam</spam>
+    <stop_processing>Behandel ikke flere regler</stop_processing>
+    <move_to>Flyt til</move_to>
+    <copy_to>Kopier til</copy_to>
+    <encrypt_message>Krypter besked</encrypt_message>
+    <set_message_priority>Sæt beskedprioritet til</set_message_priority>
+    <set_message_flag>Sæt beskedflag til</set_message_flag>
+    <text>Tekst:</text>
+    <title>Title</title>
+    <conditions>Betingelser</conditions>
+    <edit>Rediger</edit>
+    <rule>Regel</rule>
+    <rules>Regler</rules>
+    <highest>højeste</highest>
+    <high>høj</high>
+    <normal>normal</normal>
+    <low>lav</low>
+    <lowest>laveste</lowest>
+    <spam_is_greater_than>er større end</spam_is_greater_than>
+    <spam_is_lower_than>er mindre end</spam_is_lower_than>
+    <forward_to>Vidersend til</forward_to>
+    <send_message>Send besked</send_message>
+    <three_dots>...</three_dots>
+    <email>Email</email>
+    <instant_messaging>WebChat</instant_messaging>
+    <active>Aktive</active>
+  </filters>
+  <rich>
+    <alt>Alternativ text</alt>
+    <code>Source</code>
+    <paragraph>Paragraf</paragraph>
+    <normal>Normal</normal>
+    <heading>Header</heading>
+    <clearformatting>Clear formatting</clearformatting>
+    <font>Skrift</font>
+    <size>Størrelse</size>
+    <rows>Rækker</rows>
+    <columns>Kolonner</columns>
+    <padding>Cell padding</padding>
+    <spacing>Cell spacing</spacing>
+    <img_spacing>Afstand</img_spacing>
+    <bordercolor>Border color</bordercolor>
+    <border>Ramme</border>
+    <bold>Make bold</bold>
+    <italic>Make italic</italic>
+    <underline>Underline text</underline>
+    <style>Formatting type</style>
+    <align>Text Align</align>
+    <left>Align left</left>
+    <center>Align center</center>
+    <right>Align right</right>
+    <justify>Justify</justify>
+    <numberedlist>Numbered list</numberedlist>
+    <bulletedlist>Bulleted list</bulletedlist>
+    <indent>Indent</indent>
+    <leftindent>Left indent</leftindent>
+    <rightindent>Right indent</rightindent>
+    <bgcolor>Baggrundsfarve</bgcolor>
+    <color>Tekstfarve</color>
+    <cut>Klip</cut>
+    <copy>Kopier</copy>
+    <paste>Sæt ind</paste>
+    <pastew>Indsæt som tekst</pastew>
+    <insert>Insert</insert>
+    <addlink>Link</addlink>
+    <table>Table</table>
+    <image>Image</image>
+    <dropbox>Dropbox link</dropbox>
+    <spell>Stavekontrol</spell>
+    <url>URL</url>
+    <uploaded>Uploaded</uploaded>
+    <internal>Internal</internal>
+    <direction>Tekst retning (HTML)</direction>
+    <ltr>Left to right</ltr>
+    <rtl>Right to left</rtl>
+    <screenshot>Take screenshot</screenshot>
+    <paste_img>Paste image</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Loading</loading>
+    <framework>Henter framework</framework>
+    <settings>Henter Opsæning</settings>
+    <language>Loading resources</language>
+    <indexing>Indkserer</indexing>
+    <startup>Starter</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Desktop Client</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Download Desktop Client</help_win_desktop1>
+    <help_win_desktop2>Run the installer. In the Desktop Client main menu, select &lt;b&gt;Tools - Accounts&lt;/b&gt;. The &lt;b&gt;Accounts&lt;/b&gt; dialog appears. In this dialog, click &lt;b&gt;New Account&lt;/i&gt;&lt;/b&gt;. The New Account wizard appears. Fill in the &lt;i&gt;Email&lt;/i&gt; and &lt;i&gt;Password&lt;/i&gt; fields and click &lt;b&gt;Start Now.&lt;/b&gt;</help_win_desktop2>
+    <help_win_desktop3>On the Account details page, you can modify your Account name. Click Next. On the next page, you can deactivate features that you do not want to use. Click Finish to complete the setup.</help_win_desktop3>
+    <help_win_osync1>Download Outlook Sync</help_win_osync1>
+    <help_win_osync2>Run the installer. On the SmartDiscover page, enter your &lt;i&gt;Email address&lt;/i&gt; and &lt;i&gt;Password&lt;/i&gt;, do &lt;b&gt;not&lt;/b&gt; tick the box &lt;i&gt;Skip SmartDiscover and configure manually&lt;/i&gt;. Click Next.</help_win_osync2>
+    <help_win_osync3>In the next step, the License activation dialog is shown.</help_win_osync3>
+    <help_win_osync4>If you were granted a license for IceWarp Outlook Sync, click Yes. If you want to use IceWarp Outlook Sync within the scope of 30-day trial period first, click No.</help_win_osync4>
+    <help_win_osync5>Click Finish to complete the installation.</help_win_osync5>
+    <help_win_20131>In the &lt;b&gt;File&lt;/b&gt; menu, on the &lt;b&gt;Account Information&lt;/b&gt; page, click &lt;b&gt;Add Account&lt;/b&gt;, the Add Account dialog opens. On the &lt;b&gt;Auto Account Setup&lt;/b&gt; page, select the &lt;i&gt;Manual setup or additional server types&lt;/i&gt; option and click Next.&#13;&#10;On the &lt;b&gt;Choose Service&lt;/b&gt; page, select the &lt;i&gt;Outlook.com or Exchange ActiveSync compatible service&lt;/i&gt; option and click Next.</help_win_20131>
+    <help_win_20132>On the &lt;b&gt;Server Settings&lt;/b&gt; page, fill in your user, server and logon information. Click Next.</help_win_20132>
+    <help_win_20133>After the account settings test, click Finish.</help_win_20133>
+    <help_osx_all_applications_title>All applications</help_osx_all_applications_title>
+    <help_osx_messages_title>Messages</help_osx_messages_title>
+    <help_osx_messages1>Open Messages and from the main menu select &lt;b&gt;Messages - Add Account&lt;/b&gt;. From the types of account to add, choose &lt;b&gt;Other messages account...&lt;/b&gt; and click Continue.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Calendar</help_osx_calendar_title>
+    <help_osx_calendar1>Open Calendar and from the main menu select &lt;b&gt;Calendar - Add Account&lt;/b&gt;. From the types of account to add, choose &lt;b&gt;Add CalDAV Account&lt;/b&gt; and click Continue.</help_osx_calendar1>
+    <help_osx_calendar2>In the &lt;b&gt;Add a CalDAV Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Manual&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_calendar2>
+    <help_osx_calendar3>To setup &lt;b&gt;Reminders&lt;/b&gt; go to &lt;b&gt;System Preferences - Internet Accounts&lt;/b&gt; and locate the calendar account you have just configured. Tick the checkbox by &lt;i&gt;Use With: Reminders&lt;/i&gt;</help_osx_calendar3>
+    <help_osx_contacts_title>Contacts</help_osx_contacts_title>
+    <help_osx_contacts1>Open Contacts and from the main menu select &lt;b&gt;Contacts - Add Account&lt;/b&gt;. From the types of account to add, choose &lt;b&gt;Other contacts account&lt;/b&gt; and click Continue.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>All applications</help_osx_all>
+    <help_osx_all1>Download configurator</help_osx_all1>
+    <help_osx_all2>Open the downloaded IceWarp Configurator image file. Run IceWarp Configurator. If prompted that the application was downloaded from the Internet, click Open. Fill in the Email Address and Password fields and click &lt;strong&gt;Continue&lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>Each application that can be auto-configured will have a green &lt;strong&gt;Connect&lt;/strong&gt; button next to it. Click one by one, or select &lt;strong&gt;Connect All&lt;/strong&gt; to setup all available applications.</help_osx_all3>
+    <help_tablet_and_title>Android Tablets</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Windows Tablets</help_tablet_win_title>
+    <help_tablet_win1>On the right-hand side of the &lt;b&gt;Start&lt;/b&gt; screen, select the &lt;i&gt;Settings - Change PC Settings - Accounts&lt;/i&gt;. On the Accounts page, select the &lt;i&gt;Other accounts&lt;/i&gt; option.&#13;&#10;On the Other accounts page, tap &lt;i&gt;Add a user&lt;/i&gt;. On the next page, fill in the server hostname and tap Next.</help_tablet_win1>
+    <help_tablet_win2>On the Create a Microsoft account page, fill in your account credentials and tap Next.</help_tablet_win2>
+    <help_tablet_win3> On the Add security info page, set your security preferences and tap Next. On the Communication preferences page, tap Next. On the final page, tap Finish.</help_tablet_win3>
+    <help_phone_and_title>Android Devices</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>On the &lt;b&gt;Remote security administration&lt;/b&gt; screen, press &lt;b&gt;OK&lt;/b&gt;. This is essential to enforce your company&apos;s security policies on the device, or reset it remotely if lost.</help_phone_and2>
+    <help_phone_and3>On the &lt;b&gt;Account settings&lt;/b&gt; screen, choose &lt;i&gt;Inbox checking frequency&lt;/i&gt; and set how old emails to synchronize under &lt;i&gt;Days to sync&lt;/i&gt;. Optionally tick &lt;i&gt;Send email from this account by default&lt;/i&gt;, review other settings and tap Next.</help_phone_and3>
+    <help_phone_and4>Provide an account label to identify this account in applications and tap Next.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>Go to &lt;b&gt;Settings&lt;/b&gt;, select &lt;i&gt;Mail, Contacts, Calendars - Add Account - Exchange&lt;/i&gt; options.</help_ios1>
+    <help_ios2>On the next page, fill in the &lt;i&gt;Email, Password, Description&lt;/i&gt; fields. Tap Next.</help_ios2>
+    <help_ios3>On the next page, optionally deactivate features you do not want to use by sliding the controllers to off. Tap Save. Advanced settings can be found under the account&apos;s Description in the &lt;b&gt;Mail, Contacts, Calendars - Accounts &lt;/b&gt; section.</help_ios3>
+    <help_phone_win_title>Windows Phone</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Fill in your &lt;i&gt;Email address&lt;/i&gt; and &lt;i&gt;Password&lt;/i&gt;. When done, tap &lt;b&gt;sign in&lt;/b&gt;.</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X are trademarks of Apple Inc., registered in the U.S. and other countries. Microsoft, Windows, Outlook and Windows Phone are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries. Android is a trademark of Google Inc. IceWarp is a registered trademark in the USA and other countries.</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>Email, calendars, contacts, tasks</subtitle>
+    <descr>Step-by-step account setup.</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>Setup IceWarp Desktop Client</subtitle>
+    <descr>Step-by-step installation.</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Calendars and Reminders</subtitle>
+    <descr>Step-by-step setup on Mac.</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>Mail, calendar, people</subtitle>
+    <descr>Step-by-step installation.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>Email, calendars and contacts</subtitle>
+    <descr>Step-by-step account setup.</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>Email, calendars and contacts</subtitle>
+    <descr>Step-by-step account setup.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Previous page</previous_title>
+    <previous_label>Previous</previous_label>
+    <next_title>Next page</next_title>
+    <next_label>Next</next_label>
+    <page_label>Page:</page_label>
+    <page_of>of {{pageCount}}</page_of>
+    <zoom_out_title>Zoom out</zoom_out_title>
+    <zoom_out_label>Zoom out</zoom_out_label>
+    <zoom_in_title>Zoom in</zoom_in_title>
+    <zoom_in_label>Zoom in</zoom_in_label>
+    <zoom_title>Zoom</zoom_title>
+    <presentation_mode_title>Switch to fullscreen</presentation_mode_title>
+    <presentation_mode_label>Fullscreen</presentation_mode_label>
+    <print_title>Print</print_title>
+    <print_label>Print</print_label>
+    <download_title>Download</download_title>
+    <download_label>Download</download_label>
+    <bookmark_title>Bookmark</bookmark_title>
+    <bookmark_label>Bookmark</bookmark_label>
+    <tools_title>Tools</tools_title>
+    <tools_label>Tools</tools_label>
+    <first_page_title>Go to first page</first_page_title>
+    <first_page_label>Go to first page</first_page_label>
+    <last_page_title>Go to last page</last_page_title>
+    <last_page_label>Go to last page</last_page_label>
+    <page_rotate_cw_title>Rotate clockwise</page_rotate_cw_title>
+    <page_rotate_cw_label>Rotate clockwise</page_rotate_cw_label>
+    <page_rotate_ccw_title>Rotate counterclockwise</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Rotate counterclockwise</page_rotate_ccw_label>
+    <hand_tool_enable_title>Enable hand tool</hand_tool_enable_title>
+    <hand_tool_enable_label>Enable hand tool</hand_tool_enable_label>
+    <hand_tool_disable_title>Disable hand tool</hand_tool_disable_title>
+    <hand_tool_disable_label>Disable hand tool</hand_tool_disable_label>
+    <document_properties_label>Document properties</document_properties_label>
+    <document_properties_file_name>File name:</document_properties_file_name>
+    <document_properties_file_size>File size:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>Title:</document_properties_title>
+    <document_properties_author>Author:</document_properties_author>
+    <document_properties_subject>Subject:</document_properties_subject>
+    <document_properties_keywords>Keywords:</document_properties_keywords>
+    <document_properties_creation_date>Creation date:</document_properties_creation_date>
+    <document_properties_modification_date>Modification date:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Creator:</document_properties_creator>
+    <document_properties_producer>Producer:</document_properties_producer>
+    <document_properties_version>Version:</document_properties_version>
+    <document_properties_page_count>Page count:</document_properties_page_count>
+    <document_properties_close>Close</document_properties_close>
+    <toggle_sidebar_title>Toggle sidebar</toggle_sidebar_title>
+    <toggle_sidebar_label>Toggle sidebar</toggle_sidebar_label>
+    <outline_title>Show document outline</outline_title>
+    <outline_label>Show document outline</outline_label>
+    <thumbs_title>Show thumbnails</thumbs_title>
+    <thumbs_label>Show thumbnails</thumbs_label>
+    <findbar_title>Find in document</findbar_title>
+    <findbar_label>Find</findbar_label>
+    <thumb_page_title>Page {{page}}</thumb_page_title>
+    <thumb_page_canvas>Thumbnail of page {{page}}</thumb_page_canvas>
+    <find_label>Find:</find_label>
+    <find_previous_title>Find previous</find_previous_title>
+    <find_previous_label>Previous</find_previous_label>
+    <find_next_title>Find next</find_next_title>
+    <find_next_label>Next</find_next_label>
+    <find_highlight>Highlight all</find_highlight>
+    <find_match_case_label>Match case</find_match_case_label>
+    <find_reached_top>Reached the top of the document</find_reached_top>
+    <find_reached_bottom>Reached the bottom of the document</find_reached_bottom>
+    <find_not_found>Not found</find_not_found>
+    <error_more_info>More info</error_more_info>
+    <error_less_info>Less info</error_less_info>
+    <error_close>Close</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Message: {{message}}</error_message>
+    <error_stack>Stack: {{stack}}</error_stack>
+    <error_file>File: {{file}}</error_file>
+    <error_line>Line: {{line}}</error_line>
+    <rendering_error>Rendering error</rendering_error>
+    <page_scale_width>Full width</page_scale_width>
+    <page_scale_fit>Fit page</page_scale_fit>
+    <page_scale_auto>Automatic zoom</page_scale_auto>
+    <page_scale_actual>Actual size</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Error</loading_error_indicator>
+    <loading_error>Error while loading PDF</loading_error>
+    <invalid_file_error>Invalid or corrupted PDF file</invalid_file_error>
+    <missing_file_error>Missing PDF file</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>Enter password to open this protected PDF</password_label>
+    <password_invalid>Incorrect password, please try again.</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Cancel</password_cancel>
+    <printing_not_supported>Warning: Printing is not fully supported in this browser.</printing_not_supported>
+    <printing_not_ready>Warning: PDF is not completly loaded for printing</printing_not_ready>
+    <web_fonts_disabled>Web fonts are disabled: not possible to use PDF fonts</web_fonts_disabled>
+    <document_colors_disabled>PDF document is not allowed to use colors</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDocument</title>
+    <preview>Document preview</preview>
+    <error>WebDocument Error</error>
+    <error_msg>Document loading problem. You may need to close and reopen the document for full functionality.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

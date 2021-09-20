@@ -1,0 +1,160 @@
+div.obj_vtabs{
+	position: relative;
+	padding-left: 210px;
+	height: 100%;
+}
+.rtl div.obj_vtabs {
+	padding-left: 0;
+	padding-right: 210px;
+}
+div.obj_vtabs.border{
+	border: 1px solid #EDEDED;
+}
+
+/* header */
+div.obj_vtabs>.obj_tabsheader{
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	width: 180px;
+	height: 100%;
+}
+.rtl div.obj_vtabs>.obj_tabsheader {
+	left: auto;
+	right: 0;
+}
+
+div.obj_vtabs>.obj_tabsheader>.obj_tabsheader2{
+	height: 100%;
+	overflow: hidden;
+}
+
+
+/* tab labels */
+div.obj_vtabs>.obj_tabsheader ul,
+div.obj_vtabs>.obj_tabsheader li{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.obj_vtabs>.obj_tabsheader li{
+	position: relative;
+	height: 40px;
+	padding: 0;
+	line-height: 39px;
+	border-bottom: 1px solid #EDEDED;
+}
+	div.obj_vtabs>.obj_tabsheader li:last-child{
+		border-bottom-color: transparent;
+	}
+div.obj_vtabs>.obj_tabsheader li.active{
+	color: {txt_main '#0088CC'};
+}
+
+div.obj_vtabs>.obj_tabsheader li>span.mask{
+	display: none;
+}
+
+div.obj_vtabs>.obj_tabsheader li.disabled{
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+}
+
+div.obj_vtabs>.obj_tabsheader li>span{
+	display: block;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+	.rtl div.obj_vtabs>.obj_tabsheader li>span {
+		text-align: right;
+		direction: rtl;
+	}
+
+/* prev/next buttons */
+div.obj_vtabs>.obj_tabsheader div.prev,
+div.obj_vtabs>.obj_tabsheader div.next{
+	display: none;
+}
+
+/* close tab button obj_tab_close */
+.obj_vtabs>.obj_tabsheader li.obj_tab_close_link{
+	padding-right: 5px;
+	overflow: hidden;
+}
+.rtl .obj_vtabs>.obj_tabsheader li.obj_tab_close_link {
+	padding-left: 30px;
+	padding-right: 0;
+}
+div.obj_vtabs>.obj_tabsheader li.obj_tab_close_link>b{
+	/*display: none;*/
+	position: absolute;
+	right: -30px;
+	opacity: 0;
+	top: 13px;
+
+	width: 35px;
+	height: 16px;
+	line-height: 16px;
+	font-weight: normal;
+	font-size: 16px;
+	color: #333;
+
+	cursor: default;
+
+	transition: right 200ms;
+	z-index: 200;
+	text-indent: 15px;
+
+	background: inherit; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0), #FFF, #FFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left, rgba(255,255,255,0), #FFF, #FFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left, rgba(255,255,255,0), #FFF, #FFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(left, rgba(255,255,255,0), #FFF, #FFF); /* Standard syntax */
+
+}
+body.light div.obj_vtabs>.obj_tabsheader li.obj_tab_close_link>b{
+	font-weight: 200;
+}
+.rtl div.obj_vtabs>.obj_tabsheader li.obj_tab_close_link>b {
+	left: -30px;
+	right: auto;
+	transition: left 200ms;
+}
+	div.obj_vtabs>.obj_tabsheader li.obj_tab_close_link:hover>b{
+		right: 5px;
+		opacity: 1;
+	}
+	.rtl div.obj_vtabs>.obj_tabsheader li.obj_tab_close_link:hover>b {
+		left: 5px;
+		right: auto;
+	}
+	div.obj_vtabs>.obj_tabsheader li.obj_tab_close_link>b>span:after{
+		content: '\e036';
+		font-family: 'ico16';
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+		cursor: pointer;
+
+	}
+	.obj_vtabs>.obj_tabsheader li.obj_tab_close_link>b>span:after:hover{
+		color: #FF7777;
+	}
+
+/* body */
+div.obj_vtabs>.obj_tabsmain{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+/* tab style */
+div.obj_vtabs>.obj_tabsmain>.obj_tab{
+	border: none;
+	padding: 0;
+}

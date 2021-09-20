@@ -1,0 +1,91 @@
+<window>
+	<helper>auth</helper>
+	<helper>folder</helper>
+	<helper>item</helper>
+	<helper>settings</helper>
+	<config>
+		<stylesheet>
+			<src>win.main</src>
+		</stylesheet>
+	</config>
+	
+	<!-- theme set start -->
+	<panel template="theme.start" data="themex"/>
+	<!-- /theme set start -->
+	
+	<!-- Top menu -->
+	<panel css="menu">
+	<form id="search" template="form.search" helper="item" method="post">
+		<config>
+			<controller>item</controller>
+			<target>content</target>
+			<data>item.fdr</data>
+		</config>
+		<menu />
+	</form>
+	</panel>
+	<!-- Content -->
+	
+	<panel css="main">
+		<!-- Internal window(content) -->
+		<panel css="mainBox">
+		
+		<panel css="mainContentBox">
+		
+		<panel css="main_content wsto" id="main_content">
+		
+			<!-- tree -->
+			<panel css="main_tree" id="tree">
+				<menu_left id="main" helper="folder">
+					<config>
+						<type>simple</type>
+						<target>content</target>
+						<targetData>item.fdr</targetData>
+						<data>folder.main</data>
+						<javascript>
+							<src>tree</src>
+							<src>lib</src>
+						</javascript>
+					</config>
+				</menu_left>
+			</panel>
+			<!-- /tree -->
+		
+			<panel id="main_contentInnerBox" css="main_contentInnerBox">
+				<view id="content" default="mail.main" />
+			</panel>
+		</panel>
+		
+		<panel id="round_bottom_box">
+			<panel id="round_bottom">
+				<panel css="cover-b cover-rp">
+					<panel css="cover-a cover-lp">
+						<panel id="bottom-line">
+						</panel>
+					</panel>
+				</panel>
+				<panel css="round_bottom_left">
+					<panel css="round_bottom_right">
+						<panel css="round_bottom_center"></panel>
+					</panel>
+				</panel>
+			</panel>
+		</panel>
+		
+		<panel css="cleaner"></panel>
+		</panel>
+		<panel css="cleaner"></panel>
+		</panel>
+	</panel>
+	<panel css="blank_footer">
+		<panel css="quota">
+				<quota/>
+				<switcher/>
+			</panel>
+	</panel>
+	
+	<!-- theme set end -->
+	<panel id="logintemplate" template="theme.end" />
+	<!-- /theme set end -->
+	
+</window>

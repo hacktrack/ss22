@@ -1,0 +1,82 @@
+
+/* Firefox, Safari, Chrome - old draft spec, IE10 - new draft, Opera 12+ - new cand. rec. */
+
+div.obj_container {
+
+	/* Firefox */
+	display: -moz-box;
+	-moz-box-orient: vertical;
+	-moz-box-align: stretch;
+
+	/* Safari and Chrome */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+
+	/* WD Mar 2012 - IE10*/
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-flex-align: stretch;
+	-ms-flex-pack: start;
+
+	/* RC Oct 2012 - Opera 12.1 */
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+
+	height: 100%;
+	width: 100%;
+}
+
+div.obj_container.hide {
+	display: none;
+}
+
+div.obj_container div.header {
+	-moz-box-flex: 0;
+	-moz-box-align: start;
+}
+
+div.obj_container div.expander {
+	position: relative;
+	overflow: hidden;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 auto;
+	flex: 1;
+}
+
+div.obj_container div.expander>div {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+div.obj_container div.footer {
+	-moz-box-flex: 0;
+	-moz-box-align: end;
+}
+
+/* Opera before 12.1 - requires wrapping extra div */
+
+div.obj_container.tbl {
+	display: table;
+	height: 100%;
+	width: 100%;
+	table-layout: fixed;
+	vertical-align: top;
+}
+
+div.obj_container.tbl>div {
+	display: table-row;
+}
+
+div.obj_container.tbl>div>div {
+	display: table-cell;
+}
+
+/*
+div.obj_container.tbl div.expander {
+}
+*/
+/* IE 8,9 relies on resize event */

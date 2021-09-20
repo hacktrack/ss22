@@ -1,0 +1,80 @@
+div.frm_main_view{
+	height: 100%;
+
+	position: relative;
+	overflow: hidden;
+
+	padding: 200px 0 0 0;
+}
+
+/* toolbar */
+div.frm_main_view.toolbar{
+	padding-top: 40px;
+}
+div.frm_main_view .obj_hmenu_calendar_view{
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #EDEDED;
+}
+	div.frm_main_view .obj_hmenu_calendar_view>ul{
+		float: right;
+	}
+	body.rtl div.frm_main_view .obj_hmenu_calendar_view>ul{
+		float: left;
+	}
+
+div.frm_main_view.toolbar .obj_hmenu_calendar_view{
+	display: block;
+}
+
+/* list */
+div.frm_main_view>.list{
+	position: absolute;
+	z-index:0;
+	top: 0;
+	height: 200px;
+	width: 100%;
+}
+	/* div.frm_main_datagrid_view>.list>.obj_progress{
+		position: absolute;
+		top: 27px;
+		z-index: 100;
+	} */
+
+	div.frm_main_datagrid_view.toolbar>.list{
+		top: 40px;
+	}
+
+	div.frm_main_datagrid_view.quick>div.list{
+		padding-bottom: 30px!important;
+	}
+
+div.frm_main_view>.slider{
+	position: absolute;
+	z-index: 10;
+	top: 197px;
+}
+
+div.frm_main_view>.container{
+	border-top: 3px solid #DFDCDA;
+	margin-top: 1px;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+/* Quick Edit */
+div.frm_main_datagrid_view.quick>.list{
+	padding-bottom: 33px!important;
+}
+div.frm_main_datagrid_view.quick .obj_upload_edit{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 33px;
+}

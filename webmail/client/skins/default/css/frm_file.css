@@ -1,0 +1,312 @@
+.frm_file .obj_popupmainbody>.obj_popupmainbody_main{
+	background-color: #f7f7f7;
+}
+
+.frm_file div.obj_popupmain .popupmaindialog {
+	padding: 0;
+}
+
+.frm_file .obj_tab {
+	padding: 0;
+	padding-top: 20px;
+}
+
+.frm_file table.frmtbl100,
+.frm_file div.obj_popupmain .popupmaindialog > table {
+	border-spacing: 0;
+	padding-bottom: 20px;
+}
+
+.frm_file table tr > td {
+	padding: 0 20px;
+}
+
+.frm_file table tr > td td {
+	padding: 0;
+}
+
+.frm_file table tr td.pad {
+	padding-top: 10px;
+}
+
+.frm_file .obj_popupmainbody>.obj_popupmainbody_main>.container{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 0 10px;
+	/*padding-left: 3px;
+	border-bottom: 1px solid #D1D1D1;*/
+}
+.frm_file .obj_upload_edit .obj_button.ico.blank:after{
+/*	background-image: url('../images/set.png');
+	background-position: -351px -1722px;
+*/
+	content: '\e05';
+	font-family: 'ico24';
+	font-size: 24px;
+	line-height: 24px;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+.frm_file .obj_upload_edit.big .col1{
+	padding-left: 10px;
+}
+
+/* UPLOAD BUTTON */
+.frm_file .obj_upload_edit.noborder form.obj_attach_multiple,
+.frm_file .obj_upload_edit.noborder form.obj_attach_swf,
+.frm_file .obj_upload_edit.noborder form.obj_attach_old{
+	color: #FFF;
+}
+.frm_file .obj_upload_edit.noborder form.obj_attach_multiple,
+.frm_file .obj_upload_edit.noborder form.obj_attach_swf,
+.frm_file .obj_upload_edit.noborder form.obj_attach_old{
+	background-color: {bg_main '#0088CC'};
+}
+.frm_file .obj_upload_edit.noborder form.obj_attach_multiple:hover,
+.frm_file .obj_upload_edit.noborder form.obj_attach_swf:hover,
+.frm_file .obj_upload_edit.noborder form.obj_attach_old:hover{
+	background-color: {bg_main_darker '#006DA3'}!important;
+}
+
+.frm_file .obj_upload_edit form.disabled {
+	display: none;
+}
+
+.frm_file .icon {
+    padding-top: 55px;
+    text-align: center;
+    font-size: 14px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.frm_file .obj_tab .icon {
+    padding-top: 40px;
+}
+
+.frm_file .obj_tab .icon:after {
+    top: 5px;
+}
+
+.frm_file .ico_docx {
+	color: rgb(39, 85, 156);
+}
+
+.frm_file .ico_xlsx {
+	color: rgb(30, 116, 68);
+}
+.frm_file .ico_pptx {
+	color: rgb(183, 69, 32);
+}
+
+.frm_file .icon:after {
+	font-size: 40px;
+    font-family: 'filetypes';
+    position: absolute;
+    line-height: 24px;
+    left: 50%;
+    top: 25px;
+    margin-left: -20px;
+	content: '\e21';
+}
+.frm_file .full_width {
+	width: 100%;
+	border-collapse: separate;
+    border-spacing: 0;
+}
+
+.frm_file .min-width {
+	width: 1%;
+	padding-right: 0px!important;
+	white-space: nowrap;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.rtl .frm_file .min-width {
+	padding-left: 0px!important;
+	padding-right: 20px!important;
+}
+
+.frm_file .name {
+	padding: 10px;
+	border: 1px solid transparent;
+	margin: 0;
+}
+
+.frm_file .name.error {
+	border-color: red;
+}
+
+.frm_file .input,
+.frm_file .folder {
+	border: 1px solid #d3d3d3;
+	border-radius: 3px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-right: 0;
+}
+
+.rtl .frm_file .input,
+.rtl .frm_file .folder {
+	border: 1px solid #d3d3d3;
+	border-radius: 3px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-left: 0;
+}
+
+.frm_file .folder.readonly {
+	color: #A9A9A9;
+}
+
+.frm_file .extension,
+.frm_file .change_folder {
+	border: 1px solid #d3d3d3;
+	border-radius: 3px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	background-color: #e9e9e9;
+	padding: 0 5px!important;
+	min-width: 35px;
+    text-align: center;
+}
+
+.rtl .frm_file .extension,
+.rtl .frm_file .change_folder {
+	border: 1px solid #d3d3d3;
+	border-radius: 3px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	padding: 0 5px!important;
+}
+
+.frm_file .change_folder {
+	color: {bg_main #08c};
+	background-color: #fff;
+	border-left: 0;
+	padding-top: 5px!important;
+}
+
+.frm_file .folder {
+    background: #fff;
+    line-height: 35px;
+	padding: 0 10px!important;
+}
+
+.frm_file .folder div {
+	height: 35px;
+    overflow: hidden;
+    word-break: break-all;
+    position: relative;
+    padding-left: 24px;
+	line-height: 35px;
+}
+
+.frm_file .folder div:before {
+    content: '\e01c';
+    font-family: 'ico16';
+    padding-right: 7px;
+    font-size: 16px;
+    position: absolute;
+    left: 0px;
+    top: -1px;
+}
+
+.frm_file .separator {
+	padding: 0!important;
+}
+
+.frm_file .separator .text {
+	color: {bg_main #08c};
+	text-align: center;
+	padding: 10px!important;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.frm_file .separator .text:after {
+    content: '\e902';
+    font-family: 'ico16';
+    margin-left: 5px;
+    transition: all 0.2s;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.frm_file .separator.less .text:after {
+	transform: rotate(180deg);
+	margin-top: -4px;
+}
+
+.frm_file .obj_wysiwyg {
+	min-height: 200px;
+}
+
+.frm_file .obj_popupmainbody .change_folder form.obj_button {
+	float: none;
+	margin: 0;
+	border: 0;
+	background: #fff;
+	cursor: pointer;
+	padding-right: 20px;
+	position: relative;
+}
+
+.frm_file .obj_popupmainbody .change_folder form.obj_button:after {
+	content: '\e900';
+	font-family: 'ico16';
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    font-size: 16px;
+}
+
+/*.frm_file .obj_popupmainbody .obj_richheader {
+	display: none;
+}
+
+.frm_file .obj_popupmainbody .obj_rich {
+	min-height: initial;
+}
+
+.frm_file .obj_popupmainbody .obj_rich>table {
+	position: relative;
+}
+
+.frm_file .obj_popupmainbody .obj_rich.border2 div.msiebox {
+	border-top-width: 1px;
+	border-radius: 3px;
+	border-color: #d3d3d3;
+	padding: 5px;
+    height: 76px;
+	background: #fff;
+	margin: 3px 0;
+}
+*/
+.frm_file form.obj_button_check.big.ico.img input {
+	width: auto!important;
+    padding-right: 30px!important;
+}
+
+.frm_file form.obj_button_check.big.ico.img:after {
+    right: 2px;
+    left: initial;
+	font-size: 16px;
+}
+/*
+.frm_file .new_document:after{
+    content: '\e903'!important;
+    font-family: 'ico16'!important;
+    font-size: 16px!important;
+    top: 6px!important;
+    left: 10px!important;
+}
+
+.frm_file form.obj_button.big.ico.cancel:after{
+    content: '\e901'!important;
+	font-family: 'ico16'!important;
+	font-size: 16px!important;
+	left: 10px!important;
+}
+*/

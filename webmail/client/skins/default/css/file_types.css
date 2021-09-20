@@ -1,0 +1,107 @@
+/* Default */
+.ico_none:after{
+	content: '\e21'!important;
+}
+
+/* Rater image*/
+.ico_jpg:after,
+.ico_jpeg:after,
+.ico_tif:after,
+.ico_bmp:after,
+.ico_png:after,
+.ico_ico:after,
+.ico_gif:after,
+.ico_xcf:after{
+	content: '\e22'!important;
+}
+/* Vector */
+.ico_svg:after,.ico_psd:after,.ico_ai:after{
+	content: '\e09'!important;
+}
+/* Word */
+.ico_doc:after,.ico_docx:after,.ico_dotx:after,
+.ico_odt:after,.ico_ott:after,.ico_dot:after,.ico_uot:after{
+	content: '\e12'!important;
+}
+/* Libre Office */
+.ico_ods:after,.ico_ots:after,.ico_sxt:after{
+	content: '\e11'!important;
+}
+/* Excel */
+.ico_xls:after,.ico_xlsx:after,.ico_csv:after,.ico_xlt:after,.ico_xlm:after{
+	content: '\e16'!important;
+}
+/* Power Point */
+.ico_ppt:after,.ico_pptx:after,.ico_pps:after,.ico_ppsx:after,.ico_vsd:after{
+	content: '\e19'!important;
+}
+/* Acrobat */
+.ico_pdf:after{
+	content: '\e14'!important;
+}
+
+/* Code */
+.ico_html:after,.ico_htm:after{
+	content: '\e08'!important;
+}
+.ico_xml:after,.ico_tpl:after{
+	content: '\e15'!important;
+}
+.ico_js:after{
+	content: '\e15'!important;
+}
+.ico_php:after{
+	content: '\e18'!important;
+}
+.ico_swf:after,.ico_fla:after{
+	content: '\e17'!important;
+}
+
+/* App */
+.ico_exe:after{
+	content: '\e04'!important;
+}
+.ico_bat:after,.ico_com:after{
+	content: '\e03'!important;
+}
+.ico_pif:after,.ico_lnk:after{
+	content: '\e01'!important;
+}
+
+
+/* Compress */
+.ico_all:after,.ico_zip:after,.ico_rar:after,.ico_arj:after,.ico_lha:after,.ico_7z:after,.ico_gz:after,.ico_ace:after,.ico_tgz:after{
+	content: '\e06'!important;
+}
+.ico_tar:after{
+	content: '\e13'!important;
+}
+
+/* WebClient */
+.ico_vcf:after{
+	content: '\e23'!important;
+}
+.ico_calendar:after,.ico_ics:after{
+	content: '\e05'!important;
+}
+
+/* Video */
+.ico_avi:after,.ico_wmv:after,.ico_mkv:after,.ico_3gp:after,.ico_mpg:after,.ico_mpeg:after,.ico_mp4:after,.ico_mov:after{
+	content: '\e07'!important;
+}
+/* Audio */
+.ico_mp3:after,.ico_wma:after,.ico_mid:after,.ico_mpa:after,.ico_wav:after,.ico_ogg:after,.ico_ac3:after{
+	content: '\e10'!important;
+}
+.ico_conference-record:after{
+	font-family: "ico16" !important;
+	content: '\e059'!important;
+}
+
+/* DOPLNIT */
+.ico_eml:after,.ico_msg:after,.ico_pop3:after,.ico_imap:after{
+	content: '\e20'!important;
+}
+.ico_txt:after,.ico_css:after,.ico_log:after{
+	content: '\e20'!important;
+}

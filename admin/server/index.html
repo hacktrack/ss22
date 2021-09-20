@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="content-language" content="en">
+<title>JS POST - Administrator admin@icewarpemo.com</title>
+</head>
+<SCRIPT type="text/javascript" src="xml.js"></SCRIPT>
+<!-- <script type="text/javascript" src="inc/cipher/sha1.js"></script> -->
+<body>
+<b>Input:</b>
+<form name="debug" id="debug">
+  <textarea name="inXML" rows="10" style="width:100%" wrap="virtual">&lt;iq&gt;&lt;query xmlns="webmail:iq:auth"&gt;&lt;username&gt;admin&lt;/username&gt;&lt;method&gt;sha1&lt;/method&gt;&lt;/query&gt;&lt;/iq&gt;</textarea>
+  <!--<input type="text" name="inSID">-->
+  <input type="button" name="send" onclick="testit()" value="Send text" /><br>
+  <!--<input type="button" name="send" onclick="autofill(1)" value="GET auth:hashid" />-->
+  <!-- <input type="button" name="send" onclick="autofill(2)" value="SET auth:login" /><br> -->
+  <!--<input type="button" name="send" onclick="autofill(3)" value="SET auth:private (test1.xml)" />
+  <input type="button" name="send" onclick="autofill(4)" value="GET auth:private (test1.xml)" />-->
+
+</form>
+<div id="in"></div>
+<br />
+<b>Output:</b>
+<pre><div id="out"></div></pre>
+
+<script LANGUAGE="javascript1.2">
+
+function inspect(obj,win) {
+    var str = "";
+    for (var prop in obj) str += "obj." + prop + " = " + obj[prop] + "<br>";
+    if(win){var kokos = window.open("","ins_win"); kokos.document.writeln(str);}else alert(str);
+}
+
+/////////// XML ///////////
+// retrieve text of an XML document element, including
+// elements using namespaces
+function getElementTextNS(prefix, local, parentElem, index) {
+    var result = "";
+    if (prefix && isIE) {
+        // IE/Windows way of handling namespaces
+        result = parentElem.getElementsByTagName(prefix + ":" + local)[index];
+    } else {
+        result = parentElem.getElementsByTagName(local)[index];
+    }
+    if (result) {
+        // get text, accounting for possible
+        // whitespace (carriage return) text nodes
+        if (result.childNodes.length > 1) {
+            return result.childNodes[1].nodeValue;
+        } else {
+            return result.firstChild.nodeValue;
+        }
+    } else {
+        return "n/a";
+    }
+}
+
+var myXML;
+function testit(){
+    com(document.debug.inXML.value);
+}
+function com(TXTdata){
+    myXML = new XMLQuery('/icewarpapi/','divwrite(xmlhttp)');
+    myXML.TXTdata = TXTdata;
+    myXML.XMLExecute();
+}
+
+    function divwrite(txt){
+        document.getElementById("out").innerHTML = txt.responseText.replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\&gt;\&lt;/g,"&gt;<br>&lt;").replace(/\n/g, '<br/>');
+    }
+
+
+function sha1password(password)
+{
+  platnost = new Date;
+  platnost.setTime(platnost.getTime()+(86400000*365));
+
+  document.cookie="js_cipher=1;expires="+platnost.toGMTString();
+  return hex_sha1(3448908744+""+password);
+}
+
+function autofill(num){
+
+	 var dat = new Date();
+	 var tim = dat.toGMTString();
+	 //document.cookie = 'auth_cookie=admin='+tim+';';<cookie>'+tim+'</cookie>
+
+   var out;
+   //sid = document.debug.inSID.value;
+   switch(num){
+   // auth
+     case 1:  out = '<iq id="1"><query xmlns="webmail:iq:auth"><username>admin</username><method>sha1</method></query></iq>';
+              break;
+     case 2:  out = '<iq id="2" type="set"><query xmlns="webmail:iq:auth"><username>admin</username><digest>admin</digest></query></iq>';
+              break;
+   // private
+     case 3:  out = '<iq id="3" type="set" sid="'+sid+'"><query xmlns="webmail:iq:private"><storage name="settings"><value>1</value><value>2</value></storage></query></iq>';
+              break;
+     case 4:  out = '<iq id="3" type="get" sid="'+sid+'"><query xmlns="webmail:iq:private"><storage name="settings" /></query></iq>';
+              break;
+   }
+   com(out);
+}
+
+</script>
+</body>
+</html>

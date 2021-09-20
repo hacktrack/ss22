@@ -1,0 +1,1 @@
+{optional copyright}<center>{copyright}</center>{/optional}

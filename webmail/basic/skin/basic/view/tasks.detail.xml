@@ -1,0 +1,24 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>groupware</helper>
+		<form id="tasks" helper="item" template="tasks.detail">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<window>main</window>
+				<view>tasks.main</view>
+				<data>item.fdr</data>
+				<stylesheet>
+					<src>grid</src>
+					<src>tasks.main</src>
+				</stylesheet>
+				<javascript>
+					<src>jquery</src>
+					<src>general</src>
+				</javascript>
+			</config>
+		</form>
+	</panel>
+</form>

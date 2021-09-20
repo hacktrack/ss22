@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes> B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>รายการใหม่</add>
+    <quarantine>Quarantine</quarantine>
+    <whitelist>Whitelist</whitelist>
+    <blacklist>Blacklist</blacklist>
+    <save>บันทึก</save>
+    <cancel>ยกเลิก</cancel>
+    <new_item>เพิ่มอีเมล์ใหม่</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Disable shortcuts</disable_shortcuts>
+    <enable_swipe_gestures>Enable swipe gestures on touch devices</enable_swipe_gestures>
+    <use_high_contrast_skin>Use high contrast skin</use_high_contrast_skin>
+    <menu_as_text>Show text instead of icons in toolbar</menu_as_text>
+    <change_password>เปลี่ยนรหัสผ่าน</change_password>
+    <open_change_password_dialog>Open change password dialog</open_change_password_dialog>
+    <oldpassword>Old password</oldpassword>
+    <newpassword>New password</newpassword>
+    <confirmpassword>Confirm password</confirmpassword>
+    <remove>เอาออก</remove>
+    <settings>ตั้งค่า</settings>
+    <navigate>บริหารงาน</navigate>
+    <user>การตั้งค่าของฉัน</user>
+    <domain>ผู้ดูแลโดเมน</domain>
+    <admin>การตั้งค่าผู้ดูแลระบบ</admin>
+    <new_domain>โดเมนใหม่</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>ทั่วไป</general>
+    <layout>แบบ</layout>
+    <mail>เมล์</mail>
+    <compose>เรียบเรียง</compose>
+    <person>Email</person>
+    <person_header>Add new From address</person_header>
+    <person_description>for example &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>ระบบตอบรับอัตโนมัติ</autoresponder>
+    <forwarder>ผู้ส่งต่อ</forwarder>
+    <layout_desc>เค้าโครง, เมล์</layout_desc>
+    <compose_desc>Default settings for a new message (Read Confirmation, HTML/Plain Format, Signature).</compose_desc>
+    <general_desc>การกำหนดค่าของกล่องจดหมายของคุณสำหรับการเรียก ลบ และการตอบกลับข้อความ</general_desc>
+    <personalities_desc>ตั้งค่าอีเมล์อื่นที่เหมือนกัน (แตกต่างจาก: ที่อยู่) สำหรับบัญชีผู้ใช้ของคุณ.</personalities_desc>
+    <autoresponder_desc>ตอบกลับข้อความอีเมล์ที่เข้าเมื่อคุณอยู่ในวันหยุดโดยอัตโนมัติ</autoresponder_desc>
+    <forwarder_desc>ส่งต่อหรือคัดลองข้อความอีเมล์ที่เข้ามาไปยังที่อยู่อีเมล์อื่นๆ</forwarder_desc>
+    <date_format>รูปแบบวัน</date_format>
+    <time_format>รูปแบบเวลา</time_format>
+    <list_count>นับรายชื่อ</list_count>
+    <font_family>ค่าเริ่มต้นตัวอักษร</font_family>
+    <font_size>ค่าเริ่มต้นขนาดตัวอักษร</font_size>
+    <text_direction>ทิศทางของข้อความ</text_direction>
+    <text_direction_values>Left to right|Right to left</text_direction_values>
+    <empty_trash_every>ถังขยะทุกโฟลเดอร์</empty_trash_every>
+    <days>วัน</days>
+    <move_deleted>ย้ายข้อความที่ถูกลบไปยังถังขยะ</move_deleted>
+    <delete_messages_on_empty>Delete messages on &quot;Empty Folder&quot; action permanently</delete_messages_on_empty>
+    <add_recipients>เพิ่มผู้รับข้อความในสมุดที่อยู่โดยอัตโนมัติ</add_recipients>
+    <group_pref>กลุ่มเรื่องคำนำหน้าชื่อ(e.g. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>ขอยืนยันการอ่าน</request_read_confirmation>
+    <save_sent_msg>บันทึกการส่งข้อความไปยังโฟลเดอร์</save_sent_msg>
+    <message_format>รูปแบบข้อความ</message_format>
+    <message_format_labels>Plain|HTML</message_format_labels>
+    <signature>ลายเซ็น</signature>
+    <forward_to>ส่งต่อไปยัง</forward_to>
+    <keep_in_inbox>เก็บข้อความในกล่องจดหมายเข้า</keep_in_inbox>
+    <forward_older>ส่งต่ออีเมล์เก่า</forward_older>
+    <forward_older_to>ส่งอีเมล์เก่าไปที่</forward_older_to>
+    <ar_mode>โหมด</ar_mode>
+    <ar_mode_labels>ปิดการใช้งาน|ตอบเสมอ|ตอบครั้งเดียว|ตอบอีกครั้งภายหลัง</ar_mode_labels>
+    <ar_respond_only>ตอบกลับต่อข้อความที่ส่งไปยังที่อยู่อีเมล์ของผู้ใช้เท่านั้น</ar_respond_only>
+    <ar_respond_again>ตอบกลับครั้งหลัง (วัน)</ar_respond_again>
+    <ar_from>จาก</ar_from>
+    <ar_subject>เรื่อง</ar_subject>
+    <ar_text>ตัวอักษร</ar_text>
+    <ar_no_responder_for>สำหรับไม่มีการตอบกลับ</ar_no_responder_for>
+    <ar_respond_only_between>เฉพาะในกรณีที่ตอบสนองระหว่าง</ar_respond_only_between>
+    <email>อีเมล์</email>
+    <responder>No response for</responder>
+    <show_attached_images>แสดงภาพที่แนบมาโดยอัตโนมัติ</show_attached_images>
+    <show_inline_images>แสดงภาพภายนอกโดยอัตโนมัติ</show_inline_images>
+    <use_reply_prefix>ใช้คำนำหน้าตอบ (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 ชั่วโมง|24 ชั่วโมง</time_format_list_labels>
+    <force_admin>Force this option for both domain and user settings</force_admin>
+    <force_domain>Force this option for user settings</force_domain>
+    <to_top>เซ็นชื่อบนข้อความ</to_top>
+    <quota>Disk Quota:</quota>
+    <section_layout>General layout settings</section_layout>
+    <section_mail>General mail settings</section_mail>
+    <section_autoresponder>Set an automatic response for the case, you are not at your desk.</section_autoresponder>
+    <section_norespond>Listed email addresses will not be responded.</section_norespond>
+    <domains>Domains</domains>
+    <accounts>Accounts</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>คุณต้องการลบจดหมายที่เลือกไว้</delete_mail>
+    <blacklist_mail>คุณต้องการ Blacklist จดหมายที่เลือกไว้</blacklist_mail>
+    <delete_contact>คุณต้องการลบผู้ติดต่อที่เลือกไว้</delete_contact>
+    <delete_contact_distribution>คุณต้องการลบกลุ่มผู้รับนี้หรือไม่</delete_contact_distribution>
+    <delete_event>คุณต้องการลบกิจกรรมที่เลือกไว้</delete_event>
+    <delete_note>คุณต้องการลบสมุดบันทึกที่เลือก</delete_note>
+    <delete_task>คุณต้องการลบภารกิจที่เลือก</delete_task>
+    <delete_personalities>คุณต้องการลบรายการที่เลือก</delete_personalities>
+    <delete_quarantine>คุณต้องการลบรายการที่เลือก</delete_quarantine>
+    <delete_this_mail>คุณต้องการลบข้อความนี้</delete_this_mail>
+    <delete_items>Do you really want to delete selected item(s)?</delete_items>
+    <delete_item>Do you really want to delete this item?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>ไม่มีรายการนี้ในโฟลเดอร์</no_item>
+  </string>
+  <menu>
+    <files>ไฟล์</files>
+    <notes>โน๊ต</notes>
+    <tasks>ภารกิจ</tasks>
+    <journal>บันทึกประจำวัน</journal>
+    <calendar>ปฏิทิน</calendar>
+    <search>ค้นหา</search>
+    <messages>ข้อความ</messages>
+    <contacts>ผู้ติดต่อ</contacts>
+    <searchBut>หา</searchBut>
+    <address_book>สมุดที่อยู่</address_book>
+    <logout>Logout</logout>
+    <help>ช่วยเหลือ</help>
+    <settings>ตั้งค่า</settings>
+    <switch>เปลี่ยนไปใช้</switch>
+    <help_url>ภาษา/en/help.html</help_url>
+    <quarantine>Filters</quarantine>
+    <alert_restricted_access>ขออภัยเข้าแท็บนี้เป็นสิ่งต้องห้าม</alert_restricted_access>
+    <basic>Tablet Interface</basic>
+    <advanced>Desktop Interface</advanced>
+    <mobile>Mobile Interface</mobile>
+  </menu>
+  <tree>
+    <add_folder>เพิ่มโฟรเดอร์</add_folder>
+    <new_message>ข้อความใหม่</new_message>
+    <manage_folders>การจัดการโฟลเดอร์</manage_folders>
+    <open_folder>Open Folder</open_folder>
+    <open>Open</open>
+  </tree>
+  <mail_view>
+    <attachments>สิ่งที่แนบมา</attachments>
+    <from>จาก</from>
+    <cc>สำเนาถึง</cc>
+    <bcc>Bcc</bcc>
+    <subject>เรื่อง</subject>
+    <all_headers>ดูส่วนหัวทั้งหมด</all_headers>
+    <all_images>แสดงรูปภาพ</all_images>
+    <next>ถัดไป</next>
+    <prev>ก่อน</prev>
+    <first>แรกสุด</first>
+    <last>สุดท้าย</last>
+    <show_external_images>External resources have been blocked. Click here to display them.</show_external_images>
+    <download_all>Download all</download_all>
+    <detail>Detail</detail>
+    <blue_box_start>Start</blue_box_start>
+    <blue_box_end>End</blue_box_end>
+    <blue_box_description>Description</blue_box_description>
+    <blue_box_accept>Accept</blue_box_accept>
+    <blue_box_decline>Decline</blue_box_decline>
+    <blue_box_subscribe_folder>Subscribe folder</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Subscribe account</blue_box_subscribe_account>
+    <item_accept_ok>Item accepted</item_accept_ok>
+    <read>read</read>
+    <write>write</write>
+    <modify>modify</modify>
+    <delete>delete</delete>
+    <administer>administer</administer>
+    <folder_rights>Folder rights</folder_rights>
+    <items_rights>Items rights</items_rights>
+  </mail_view>
+  <login>
+    <send>ส่ง</send>
+    <ip_check>ปิดการเพิ่มเติมการรักษาความปลอดภัย</ip_check>
+    <user>ผู้ใช้</user>
+    <email>อีเมล์</email>
+    <password>รหัสผ่าน</password>
+    <remember>จำไว้</remember>
+    <language>ภาษา</language>
+    <allways_ask>ถามทุกครั้ง</allways_ask>
+    <username>ชื่อผู้ใช้</username>
+    <username_and_password>ชื่อผู้ใช้และรหัสผ่าน</username_and_password>
+    <auto_login>เข้าสู่ระบบอัตโนมัติ</auto_login>
+    <login>เข้าสู่ระบบ</login>
+    <copyright>Powered by IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Version: $1</copyright>
+    <welcome>Welcome to IceWarp WebClient Tablet</welcome>
+    <public_welcome>ยินดีต้อนรับสู่  IceWarp Public Calendar</public_welcome>
+    <title>IceWarp WebClient Tablet</title>
+    <public_title>IceWarp Public Calendar</public_title>
+    <reset_password>Reset Password</reset_password>
+    <sign_up>ลงชื่อเข้าใช้</sign_up>
+    <email>อีเมล์</email>
+    <domain>โดเมน</domain>
+    <new_password>รหัสผ่านใหม่</new_password>
+    <confirm_password>ยืนยันรหัสผ่าน</confirm_password>
+    <full_name>ชื่อเต็ม</full_name>
+    <alternative_email>อีเมล์สำรอง</alternative_email>
+    <switch>Switch to &lt;a href=&quot;../&quot;&gt;Desktop&lt;/a&gt; or &lt;a href=&quot;../pda&quot;&gt;Mobile&lt;/a&gt; Interface.</switch>
+    <no_javascript>&lt;b&gt;JavaScript is currently disabled. &lt;/b&gt;&lt;/div&gt;As a result, you are being redirected to WebClient Tablet Interface, which offers limited functionality. If you would like to use WebClient Desktop Interface, please visit our &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;knowledge base&lt;/a&gt; for instructions on how to enable it in your browser.&lt;br /&gt;If your browser does not support JavaScript, please download the latest version of &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; or &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>captcha</captcha>
+    <word>พิมพ์รหัสจากภาพ</word>
+  </login>
+  <files>
+    <add>Upload File</add>
+    <download>Download</download>
+    <file>File</file>
+  </files>
+  <file_list>
+    <filename>File name</filename>
+    <description>Description</description>
+    <modified>Modified</modified>
+    <size>Size</size>
+    <tags>Tags</tags>
+  </file_list>
+  <notes>
+    <category>ประเภท</category>
+    <add>บันทึกใหม่</add>
+  </notes>
+  <notes_detail>
+    <note>Note</note>
+    <tags>Tags</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>ภารกิจใหม่</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Task</task>
+    <status>สถานะ</status>
+    <complete>สมบูรณ์แบบ</complete>
+    <priority>ลำดับความสำคัญ</priority>
+    <not_started>ยังไม่เริ่ม</not_started>
+    <in_progress>คืบหน้า</in_progress>
+    <completed>เสร็จ</completed>
+    <deferred>รอการตัดบัญชี</deferred>
+    <waiting_for_someone_else>กำลังรอบุคคลอื่น</waiting_for_someone_else>
+    <medium>ปานกลาง</medium>
+    <high>สูง</high>
+    <low>ต่ำ</low>
+    <tags>Tags</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>เริ่มวันที่</start_date>
+    <due_date>วันที่ครบกำหนด</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Fullscreen</fullscreen>
+    <subject>เรื่อง</subject>
+    <no_subject>ไม่มีชื่อเรื่อง</no_subject>
+    <no_address>ไม่มีที่อยู่</no_address>
+    <from>จาก</from>
+    <date>วันที่</date>
+    <size>ขนาด</size>
+    <delete>ลบ</delete>
+    <reply>ตอบ</reply>
+    <reply_to_all>ตอบทั้งหมด</reply_to_all>
+    <forward>ส่งต่อ</forward>
+    <print>พิมพ์</print>
+    <whitelist>Whitelist</whitelist>
+    <blacklist>Blacklist</blacklist>
+    <dws>แอคชั่น</dws>
+    <copy>คัดลอก</copy>
+    <move>ย้าย</move>
+    <copy_to_folder>Copy to folder:</copy_to_folder>
+    <move_to_folder>Move to folder:</move_to_folder>
+    <mar>อ่านแล้ว</mar>
+    <mau>ยังไม่ได้อ่าน</mau>
+    <select>เลือก</select>
+    <all>ทั้งหมด</all>
+    <none>ไม่</none>
+    <read>อ่าน</read>
+    <unread>ไม่อ่าน</unread>
+    <invert>Invert selection</invert>
+    <doit>ใช้</doit>
+    <to>ส่งถึง</to>
+    <fast_reply>ตอบกลับอย่างเร็ว</fast_reply>
+    <send_message>ส่งข้อความ</send_message>
+    <src>ผู้ส่งขอให้ตอบกลับเพื่อแสดงว่าคุณอ่านข้อความนี้้แล้ว คุณต้องการที่จะส่งหรือไม่?</src>
+    <save>บันทึก</save>
+    <select_folder>เลือกโฟลเดอร์</select_folder>
+    <deliver>ส่งมอบ</deliver>
+    <text>Text</text>
+    <received>Received</received>
+    <saved>Saved</saved>
+    <sender>Sender</sender>
+    <owner>Owner</owner>
+    <domain>Domain</domain>
+    <show_all>Show all</show_all>
+  </mail_main>
+  <event_list>
+    <title>หัวข้อ</title>
+    <start>เริ่ม</start>
+    <end>สิ้นสุด</end>
+    <tags>Tags</tags>
+  </event_list>
+  <event_detail>
+    <tags>Tags</tags>
+    <show_as>แสดงเป็น</show_as>
+    <free>ฟรี</free>
+    <tentative>ชั่วคราว</tentative>
+    <busy>ไม่ว่าง</busy>
+    <out_of_office>ไม่อยู่ที่สำนักงาน</out_of_office>
+    <title>หัวข้อ</title>
+    <location>สถานที่</location>
+    <label>สัญลักษณ์</label>
+    <none>ไม่</none>
+    <important>สำคัญ</important>
+    <business>ธุรกิจ</business>
+    <personal>ส่วนตัว</personal>
+    <vacation>พักร้อน</vacation>
+    <must_attend>ต้องเข้าร่วม</must_attend>
+    <travel_required>ต้องการเดินทาง</travel_required>
+    <needs_preparation>การเตรียมความต้องการ</needs_preparation>
+    <birthday>วันเกิด</birthday>
+    <anniversary>วันครบรอบปี</anniversary>
+    <phone_call>สายโทรศัพท์</phone_call>
+    <category>หมวด</category>
+    <private>ส่วนตัว</private>
+    <from>จาก</from>
+    <to>ส่งถึง</to>
+    <notes>หมายเหตุ</notes>
+    <allday>เหตุการณ์ทั้งวัน</allday>
+    <event>Event</event>
+    <minutes>Minute(s)</minutes>
+    <hours>Hour(s)</hours>
+    <days>Day(s)</days>
+    <remind_me>Remind me</remind_me>
+    <before>before</before>
+    <no_repeating>No Repeating</no_repeating>
+    <daily>Daily</daily>
+    <weekly>Weekly</weekly>
+    <monthly>Monthly</monthly>
+    <yearly>Yearly</yearly>
+    <end_date>End date</end_date>
+    <no_end_date>No end date</no_end_date>
+    <repeat>Repeat</repeat>
+    <every>Every</every>
+    <every_workday>Every workday</every_workday>
+    <recur_every>Recur every</recur_every>
+    <weeks>week(s)</weeks>
+    <on>on</on>
+    <monday>Monday</monday>
+    <tuesday>Tuesday</tuesday>
+    <wednesday>Wednesday</wednesday>
+    <thursday>Thursday</thursday>
+    <friday>Friday</friday>
+    <saturday>Saturday</saturday>
+    <sunday>Sunday</sunday>
+    <day>Day</day>
+    <months>month(s)</months>
+    <first>First</first>
+    <second>Second</second>
+    <third>Third</third>
+    <fourth>Fourth</fourth>
+    <last>Last</last>
+    <week>สัปดาห์</week>
+    <work_week>Work week</work_week>
+    <weekend>สุดสัปดาห์</weekend>
+    <of_every>of every</of_every>
+    <of>of</of>
+    <years>year(s)</years>
+    <the>The</the>
+    <times>times</times>
+    <count>count</count>
+    <until>until</until>
+    <tags>Tags</tags>
+  </event_detail>
+  <event_main>
+    <mon>จ.</mon>
+    <tue>อ.</tue>
+    <wed>พ.</wed>
+    <thu>พฤ.</thu>
+    <fri>ศ.</fri>
+    <sat>ส.</sat>
+    <sun>อา.</sun>
+    <jan>มกราคม</jan>
+    <feb>กุมภาพันธ์</feb>
+    <mar>มีนาคม</mar>
+    <apr>เมษายน</apr>
+    <may>พฤษภาคม</may>
+    <jun>มิถุนายน</jun>
+    <jul>กรกฎาคม</jul>
+    <aug>สิงหาคม</aug>
+    <sep>กันยายน</sep>
+    <oct>ตุลาคม</oct>
+    <nov>พฤศจิกายน</nov>
+    <dec>ธันวาคม</dec>
+    <week>สัปดาห์</week>
+    <week_view>สัปดาห์</week_view>
+    <work_week_view>สัปดาห์การทำงาน</work_week_view>
+    <month_view>เดือน</month_view>
+    <day_view>วัน</day_view>
+    <list>รายชื่อ</list>
+    <add>เหตุการณ์ใหม่</add>
+    <save>บันทึก</save>
+    <no_title>ไม่มีหัวข้อ</no_title>
+    <search>ค้นหา:</search>
+    <account>บัญชีผู้ใช้:</account>
+    <print>พิมพ์</print>
+  </event_main>
+  <contact_main>
+    <contact>Contact</contact>
+    <distribution_list>Distribution List</distribution_list>
+    <title>หัวข้อ</title>
+    <no_email>ไม่มีอีเมล์</no_email>
+    <card_view>ดูบัตร</card_view>
+    <list_view>ดูรายชื่อ</list_view>
+    <contact_name>ชื่อผู้ติดต่</contact_name>
+    <email>อีเมล์</email>
+    <company>บริษัท</company>
+    <job>ภารกิจ</job>
+    <department>แผนก</department>
+    <profession>อาชีพ</profession>
+    <category>หมวด</category>
+    <general>ทั่วไป</general>
+    <first_name>ชื่อ</first_name>
+    <middle_name>ชื่อกลาง</middle_name>
+    <last_name>นามสกุล</last_name>
+    <nick>ชื่อเล่น</nick>
+    <sort_string>Sort string</sort_string>
+    <title>หัวข้อ</title>
+    <suffix>คำเสริมท้าย</suffix>
+    <category>หมวด</category>
+    <web>เว็บไซต์</web>
+    <street>ถนน</street>
+    <city>เมือง</city>
+    <zip>รหัสไปรษณีย์</zip>
+    <state>รัฐ</state>
+    <country>ประเทศ</country>
+    <im>IM</im>
+    <phones>โทรศัพท์</phones>
+    <work>ที่ทำงาน</work>
+    <home>บ้าน</home>
+    <assistant>ผู้ช่วย</assistant>
+    <fax_home>แฟกซ์บ้าน</fax_home>
+    <fax_work>แฟกซ์ที่ทำงาน</fax_work>
+    <call_back>โทรกลับ</call_back>
+    <company>บริษัท</company>
+    <car>รถ</car>
+    <isdn>ISDN</isdn>
+    <mobile>โทรศัพท์มือถือ</mobile>
+    <other>อื่นๆ</other>
+    <other_fax>แฟกซ์อื่นๆ</other_fax>
+    <pager>เพจเจอร์</pager>
+    <primary>เบื้องต้น</primary>
+    <radio>วิทยุ</radio>
+    <telex>โทรสาร</telex>
+    <hearing>หูฟัง</hearing>
+    <add>ติดต่อใหม่</add>
+    <notes>หมายเหตุ</notes>
+    <no_name>ไม่มีชื่อผู้ติดต่อ</no_name>
+    <select>เลือกประเภท</select>
+    <select_contacts>เลือกรายชื่อที่คุณต้องการเพิ่ม</select_contacts>
+    <add_distribution>New Distribution List</add_distribution>
+    <add_new>เพิ่ม</add_new>
+    <add_item_distribution>เพิ่มจากสมุดที่อยู่</add_item_distribution>
+    <save>บันทึก</save>
+    <edit>แก้ไข</edit>
+    <edit_selected>แก้ไขที่เลือกไว้</edit_selected>
+    <delete_selected>ลบ</delete_selected>
+    <cancel>ยกเลิก</cancel>
+    <onleave_warning>คุณต้องการออกจากระบบ? ยังไม่ได้บันทึก ข้อมลูทั้งหมดจะหายไป</onleave_warning>
+    <tags>Tags</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>New Patient</new_patient>
+    <new_staff>New Staff</new_staff>
+    <notify_email>Notify email</notify_email>
+    <notify_sms>Notify SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>New</add>
+    <staff>Staff</staff>
+    <patient>Patient</patient>
+  </hippa_detail>
+  <grid>
+    <title>หัวข้อ</title>
+    <note>หมายเหตุ</note>
+    <size>ขนาด</size>
+    <category>หมวด</category>
+    <start>เริ่ม</start>
+    <end>สิ้นสุด</end>
+    <save>บันทึก</save>
+    <cancel>ยกเลิก</cancel>
+    <number_of_items>Number of items selected on other pages:</number_of_items>
+    <clear>Clear</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Please select the text you wish to hyperlink.</select_text>
+    <enter_url>Enter the URL for this link:</enter_url>
+    <image_location>โปรดใส่สถานที่สำหรับภาพนี้:</image_location>
+    <image_alt>ป้อนตัวอักษรอื่นสำหรับภาพนี้:</image_alt>
+    <image>แทรกรูปภาพ</image>
+    <htmlsource>HTML source</htmlsource>
+    <hyperlink>เชื่อมโยง</hyperlink>
+    <underline>ขีดเส้นใต้</underline>
+    <italic>ตัวเอียง</italic>
+    <bold>ชัดเจน</bold>
+    <fontsize>ขนาดตัวอักษร</fontsize>
+    <fontformat>รูปแบบตัวอักษร</fontformat>
+    <outdent>ลดการเยื้อง</outdent>
+    <indent>เพิ่มการเยื้อง</indent>
+    <orderedlist>Numbered list</orderedlist>
+    <unorderedlist>Bulleted list</unorderedlist>
+    <justify>Justify</justify>
+    <right>ชิดขวา</right>
+    <center>ชิดขวา</center>
+    <left>ชิดซ้าย</left>
+    <blockformat>รูปแบบบล็อค</blockformat>
+    <block_type>ประเภทบล็อค</block_type>
+    <heading>หัวเรื่อง</heading>
+    <paragraph>ย่อหน้า</paragraph>
+    <size>ขนาด</size>
+    <font>ตัวอักษร</font>
+    <cancel>ยกเลิก</cancel>
+    <email>อีเมล์</email>
+    <options>ตัวเลือก</options>
+    <plain>ปกติ</plain>
+    <html>HTML</html>
+    <from>จาก</from>
+    <to>ส่งถึง</to>
+    <cc>สำเนาถึง</cc>
+    <bcc>สำเนาซ่อน</bcc>
+    <subject>เรื่อง</subject>
+    <date>วันที่</date>
+    <attachments>สิ่งที่แนบมา</attachments>
+    <text>ข้อความ</text>
+    <send_message>ส่งข้อความ</send_message>
+    <save_message>บันทึก</save_message>
+    <br/>
+    <spellchecker>ตรวจสอบการสะกดภาษา</spellchecker>
+    <rrc>ขอยืนยันการอ่าน</rrc>
+    <ssm>Save sent messages to folder</ssm>
+    <psa>ใช้ SmartAttach</psa>
+    <priority>ลำดับความสำคัญ</priority>
+    <lowest>ต่ำที่สุด</lowest>
+    <low>ต่ำ</low>
+    <normal>ปกติ</normal>
+    <high>สูง</high>
+    <highest>สูงที่สุด</highest>
+    <rta>ตอบกลับไปยังที่อยู่</rta>
+    <charset>รหัสตัวอักษร</charset>
+    <auto>อัตโนมัติ</auto>
+    <original_message>-----ข้อความต้นฉบับ-----</original_message>
+    <read_confirmation_subject>อ่าน: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>ข้อความของคุณได้รับการอ่าน.&#13;&#10;&#13;&#10;Message details follow:&#13;&#10;&#13;&#10;จาก: %FROM%&#13;&#10;ส่งถึง: %TO%&#13;&#10;วันที่: %DATE%&#13;&#10;เรื่อง: %SUBJECT%</read_confirmation_text>
+    <add_contacts>เพิ่มผู้ติดต่อ</add_contacts>
+    <add_files>Add files</add_files>
+    <add_files_from_folder>Add files from folder</add_files_from_folder>
+    <add_files_from_dropbox>Add files from Dropbox</add_files_from_dropbox>
+    <leave_notice>Do you want to leave? The message will be lost.</leave_notice>
+    <alias>นามแฝง</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>โฟร์เดอร์ใหม่</add>
+    <delete>ลบ</delete>
+    <link>เชื่อมโยง</link>
+    <unlink>ยกเลิกการเชื่องโยง</unlink>
+    <create_folder>สร้างโฟลเดอร์ใหม่</create_folder>
+    <create>สร้าง</create>
+    <delete_confirmation_text>คุณแน่ใจจะลบโฟลเดอร์นี้หรือไม่</delete_confirmation_text>
+    <empty_confirmation_text>คุณแน่ใจที่จะลบรายการในโฟลเดอร์นี้หรือไม่</empty_confirmation_text>
+    <delete_yes>ใช่</delete_yes>
+    <delete_no>ไม่</delete_no>
+    <link_as>เชื่องโยงโฟลเดอร์ไปที่</link_as>
+    <unlink_as>ลบ / เปลี่ยนชื่อโฟลเดอร์เชื่อมโยง</unlink_as>
+    <unlink_confirmation_text>คุณแน่ใจที่ลบโฟลเดอร์เชื่อมโยง</unlink_confirmation_text>
+    <unlink_yes>ใช่</unlink_yes>
+    <unlink_no>ไม่</unlink_no>
+    <virtual>โฟร์เดอร์เสมือน</virtual>
+    <delete_empty_folder>ลบหรือโฟลเดอร์เปล่า</delete_empty_folder>
+    <edit>แก้ไข</edit>
+    <empty>ว่าง</empty>
+    <rename_folder>เปลี่ยนชื่อโฟลเดอร์</rename_folder>
+    <save>บันทึก</save>
+    <rename>เปลี่ยนชื่อ</rename>
+    <perform_action>การดำเนินการปฏิบัติสำหรับ</perform_action>
+    <select_folder>เลือกโฟลเดอร์เพื่อจัดการ</select_folder>
+    <open_folder>เปิดโฟลเดอร์</open_folder>
+    <open_folder_des>ใช้ในการเข้าถึงเนื้อหาของโฟลเดอร์</open_folder_des>
+    <link_folder>เชื่อมโยงโฟลเดอร์</link_folder>
+    <link_folder_des>ใช้เพื่อสร้างทางลัดในเมนูด้านซ้ายสำหรับโฟลเดอร์ในโครงสร้าง</link_folder_des>
+    <add_folder>เพิ่มโฟลเดอร์</add_folder>
+    <add_folder_dis>ใช้เพื่อสร้างโฟลเดอร์ใหม่ภายใต้โฟลเดอร์ที่เลือก</add_folder_dis>
+    <rename_folder_des>ใช้เพื่อเปลี่ยนชื่อโฟลเดอร์ที่เลือก</rename_folder_des>
+    <remove_folder>ลบโฟลเดอร์</remove_folder>
+    <remove_folder_des>Use it to permanently empty and delete selected folder. Warning: you cannot undo this action!</remove_folder_des>
+    <default_folder>ตั้งเป็นโฟลเดอร์เริ่มต้น</default_folder>
+    <default_folder_des>ใช้เพื่อกำหนดโฟลเดอร์นี้เป็นค่าเริ่มต้น</default_folder_des>
+    <set_default>ตั้งค่าโฟลเดอร์ที่เป็นค่าเริ่มต้นนี้</set_default>
+    <set>Set</set>
+    <as_drafts>แบบร่าง</as_drafts>
+    <as_sent>ส่ง</as_sent>
+    <as_trash>ขยะ</as_trash>
+    <set_as_default>ตั้งค่า</set_as_default>
+    <link_first>โฟลเดอร์ที่จะต้องมีการเชื่อมโยงก่อนที่จะสามารถตั้งเป็นค่าเริ่มต้น</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Inbox</inbox>
+    <drafts>Drafts</drafts>
+    <sent>Sent</sent>
+    <trash>Trash</trash>
+  </common_folders>
+  <common>
+    <yes>ใช่</yes>
+    <no>ไม่</no>
+  </common>
+  <folder_types>
+    <mail>Mail</mail>
+    <contact>Contact</contact>
+    <event>Calendar</event>
+    <journal>Journal</journal>
+    <note>Note</note>
+    <task>Task</task>
+    <file>File</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA validation failed. Try again.</login_invalid_keypair>
+    <divtcha_confirmation>Wrong captcha code</divtcha_confirmation>
+    <missing_values_text>Empty text input</missing_values_text>
+    <missing_values_email>Empty email input</missing_values_email>
+    <invalid_email>Invalid email address</invalid_email>
+    <password_not_changed>New password cannot be the same as old password</password_not_changed>
+    <reset_password_invalid_hashid>Invalid hash ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID file doesn&apos;t exist</reset_password_uid_file>
+    <account_alternative_email>Account has no alternate email address</account_alternative_email>
+    <migration_in_progress>Migration of account is in progress, please try again later</migration_in_progress>
+    <login_ip_invalid>Login IP restriction: %s</login_ip_invalid>
+    <unauthorized>ไม่ได้รับอนุญาต</unauthorized>
+    <folder_type_restricted>ประเภทของโฟลเดอร์นี้ถูกจำกัดโดยผู้ดูแล</folder_type_restricted>
+    <account_does_not_exists>Specified account doesn&apos;t exist</account_does_not_exists>
+    <account_invalid_id>ไม่สามารถได้รับบัญชีผู้ใช้ %s</account_invalid_id>
+    <account_unknown_protocol>บัญชีผู้ใช้ไม่รู้จักโปรโตคอล</account_unknown_protocol>
+    <account_missing_tag>แท็กบัญชีผู้ใช้ที่ขาดหายไป %s</account_missing_tag>
+    <account_missing_id>รหัสบัญชีผู้ใช้หายไป</account_missing_id>
+    <account_invalid_action>บัญชีผู้ใช้ดำเนินการไม่ถูกต้อง</account_invalid_action>
+    <account_already_exists>บัญชีผู้ใช้ %s มีอยู่แล้ว</account_already_exists>
+    <account_no_username>ชื่อบัญชีผู้ใช้หายไปหรือว่างเปล่า</account_no_username>
+    <account_no_password>รหัสบัญชีผู้ใช้หายไปหรือว่างเปล่า</account_no_password>
+    <account_bad_password>Old password entered incorrectly</account_bad_password>
+    <account_password_policy>Password does not match the password policy</account_password_policy>
+    <account_sync>บัญชีผู้ใช้ทำข้อมลูไม่ตรงกัน ล้มเหลว%s</account_sync>
+    <account_primary_delete>ไม่สามารถลบบัญชีหลัก</account_primary_delete>
+    <account_test_failed>ทดสอบบัญชีผู้ใช้สำหรับบัญชีที่ล้มเหลว%s</account_test_failed>
+    <account_signup_disabled>ปิดการใช้งานลงชื่อเข้าใช้ด้วยตนเอง</account_signup_disabled>
+    <account_signup_error>บัญชีผู้ใช้ผิดพลาดในการลงทะเบียน:  %s</account_signup_error>
+    <account_signup_1>ข้อผิดพลาดไม่ได้กำหนด</account_signup_1>
+    <account_signup_2>ใบอนุญาตไม่เพียงพอ</account_signup_2>
+    <account_signup_3>ขนาดของพารามิเตอร์สั้นเกินไป</account_signup_3>
+    <account_signup_4>ความล้มเหลวของฟังก์ชั้น</account_signup_4>
+    <account_signup_5>ไม่พบการกำหนดค่า</account_signup_5>
+    <account_signup_6>นโยบายรหัสผ่าน</account_signup_6>
+    <account_signup_7>บัญชีผู้ใช้มีอยู่แล้ว</account_signup_7>
+    <account_signup_8>Invalid characters</account_signup_8>
+    <attachment_too_large>Attachment is too large: %s</attachment_too_large>
+    <password_confirmation>รหัสผ่านไม่ตรงกัน</password_confirmation>
+    <missing_values>รหัสผ่านไม่ตรงกัน</missing_values>
+    <addon_copy>ไม่สามารถคัดลอก add-on</addon_copy>
+    <attachment_file_not_found>ไม่สามารถแนบไฟล์</attachment_file_not_found>
+    <attachment_add>ไม่สามารถเพิ่มสิ่งที่แนบมาด้วยได้</attachment_add>
+    <attachment_get>ไม่สามารถรับสิ่งที่แนบมา%s</attachment_get>
+    <attacment_class_unknown>สิ่งที่แนบมาไม่ทราบระดับ</attacment_class_unknown>
+    <auth_missing_tag>Authentication missing tag %s</auth_missing_tag>
+    <auth_export_key_private>ไม่สามารถส่งคีย์ส่วนตัว</auth_export_key_private>
+    <auth_invalid_char>อักขระไม่ถูกต้องในคีย์ส่วนตัว</auth_invalid_char>
+    <confirmation_uid>Captcha session ไม่พบ</confirmation_uid>
+    <confirmation_word_mismatch>Captcha ป้อนไม่ถูกต้อง</confirmation_word_mismatch>
+    <db_auto_create>ไม่สามารถสร้างฐานข้อมูลได้อัตโนมัติ</db_auto_create>
+    <db_create_sqlitefile>ไม่สามารถสร้างไฟล์ SQLite DB</db_create_sqlitefile>
+    <db_create_tables>ไม่สามารถสร้างตาราง</db_create_tables>
+    <db_statement_prepare>ไม่สามารถจัดเตรียมข้อความสั่ง</db_statement_prepare>
+    <db_invalid_statement>Invalid statement type</db_invalid_statement>
+    <flags_unknown_field>เขตข้อมลูไม่ถูกต้อง</flags_unknown_field>
+    <folder_autocreate_failed>โฟลเดอร์ %s มีอยุ่แล้ว</folder_autocreate_failed>
+    <folder_already_exists>โฟลเดอร์ %s มีอยุ่แล้ว</folder_already_exists>
+    <folder_does_not_exist>โฟลเดอร์ %s ไม่มี</folder_does_not_exist>
+    <folder_name_bad_char>ไม่อนุญาตให้ใช้อักขระพิเศษในโฟลเดอร์</folder_name_bad_char>
+    <folder_name_length>ไม่สามารถรับความยาวชื่อของโฟลเดอร์</folder_name_length>
+    <folder_name_too_long>โฟลเดอร์ใหม่ชื่อยาวเกินไป</folder_name_too_long>
+    <folder_get_list>ไม่สามารถดูรายชื่อโฟลเดอร์</folder_get_list>
+    <folder_delete>ไม่สามารถลบโฟลเดอร์%s</folder_delete>
+    <folder_create>ไม่สามารถสร้างโฟลเดอร์ %s</folder_create>
+    <folder_rename_empty>ไม่สามารถเปลี่ยนชื่อโฟลดอร์เป็นชื่อว่าง</folder_rename_empty>
+    <folder_move_to_self>ไม่สามารถย้ายโฟลเดอร์ที่ตัวเอง</folder_move_to_self>
+    <folder_move_to_subfolder>ไม่สามารถย้ายโฟลเดอร์ไปยังโฟลเดอร์ย่อยของตัวเอง</folder_move_to_subfolder>
+    <folder_rename>ไม่สามารถเปลี่ยนชื่อโฟลเดอร์</folder_rename>
+    <folder_copy>ไม่สามารถคัดลอกโฟลเดอร์</folder_copy>
+    <folder_empty>ไม่มีโฟลเดอร์ว่าง</folder_empty>
+    <folder_missing_tag>โฟลเดอร์แท็กหายไป</folder_missing_tag>
+    <folder_missing_account_id>Folder missing account ID</folder_missing_account_id>
+    <folder_invalid_account_id>Folder has an invalid account ID %s</folder_invalid_account_id>
+    <folder_missing_id>โฟลเดอร์รหัสไม่มี</folder_missing_id>
+    <folder_missing_name>ชื่อโฟลเดอร์หายไป</folder_missing_name>
+    <folder_invalid_action>ดำเนินการไม่ถูกต้องในโฟลเดอร์ %s</folder_invalid_action>
+    <folder_invalid_type>ประเภทของโฟลเดอร์ไม่ถูกต้อง %s</folder_invalid_type>
+    <folder_sync>ไม่สามารถทำข้อมูลในโฟลเดอร์ %s</folder_sync>
+    <folder_empty_non_mail>ไม่มีโฟลเดอร์อีเมล์ที่ไม่ใช้</folder_empty_non_mail>
+    <folder_insufficient_rights>สิทธิไม่เพียงพอที่จะดำเนินการ</folder_insufficient_rights>
+    <folder_mark_non_mail>การพยายามที่จะตั้งค่าสถานะของโฟลเดอร์ที่ไม่ใช่อีเมล์</folder_mark_non_mail>
+    <freebusy_missing_tag>แท็ก FreeBusy หายไป %s</freebusy_missing_tag>
+    <group_open>ไม่สามารถเปิดกลุ่ม%s</group_open>
+    <group_subscribe>ไม่สามารถสมัครสมาชิกกลุ่ม %s</group_subscribe>
+    <group_add>ไม่สามารถสร้างกลุ่ม</group_add>
+    <group_edit>ไม่สามารถแก้ไขกลุ่ม %s</group_edit>
+    <group_user_add>ไม่สามารถเพิ่มกลุ่มผู้ใช้%s</group_user_add>
+    <group_user_edit>ไม่สามารถแก้ไขกลุ่มผู้ใช้ %s</group_user_edit>
+    <group_user_delete>ไม่สามารถลบกลุ่มผู้ใช้ %s</group_user_delete>
+    <groupware_upgrade_task>GroupWare service update procedure is running. Please try again later.</groupware_upgrade_task>
+    <folder_open>ไม่สามารถลบกลุ่มผู้ใช้ %s</folder_open>
+    <call_open_folder_first>โฟลเดอร์ไม่ได้เปิดกรุ๊ปแวร์ที่จำเป็นในการดำเนินงาน</call_open_folder_first>
+    <call_open_group_first>กรุ๊ปแวร์ไม่ได้เปิดในการดำเนินการงานที่จำเป็น</call_open_group_first>
+    <subscribe_account_gw>เกิดข้อผิดพลาดการสมัครบัญชีผู้ใช้</subscribe_account_gw>
+    <unsubscribe_account_gw>เกิดข้อผิดพลาดในการยกเลิกบัญชีผู้ใช้</unsubscribe_account_gw>
+    <imap_clone>ไม่สามารถโคลน IMAP object</imap_clone>
+    <imap_open>ไม่สามารถเปิด IMAP stream</imap_open>
+    <imap_internal>IMAP เกิดข้อผิดพลาดภายใน: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP ค้นคืนตัวคั่นเกิดข้อเกิดผิดพลาด</imap_delimiter_retrieval>
+    <imap_getmailboxes>ไม่สามารถดูรายการของกล่องจดหมาย</imap_getmailboxes>
+    <imap_mailbox_create>IMAP สร้างกล่องจดหมาย %s สร้าง</imap_mailbox_create>
+    <imap_mailbox_subscribe>ไม่สามารถสมัครสมาชิกกล่องจดหมาย %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>ไม่สามารถลบกล่องจดหมาย %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>ไม่สามารถยกเลิกการเป็นสมาชิกกล่องจดหมาย %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>เปลี่ยนชื่อกล่องจดหมาย IMAP  %s ล้มเหลว</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP ลบรายการที่กล่องจดหมายแล้ว</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP รายการในกล่องจดหมายว่างเปล่า</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP รายการที่คัดลอกล้มเหลว</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAPย้ายรายการที่ล้มเหลว</imap_mailbox_moveitems>
+    <imap_mailbox_open>ไม่สามารถเปิดกล่องจดหมาย%s</imap_mailbox_open>
+    <imap_mailbox_message_list>ไม่สามารถดูรายการของข้อความ</imap_mailbox_message_list>
+    <imap_message_details>ไม่สามารถดูรายละเอียดของข้อความ%s</imap_message_details>
+    <imap_no_headers>ไม่สามารถได้รับส่วนหัวของข้อความ %s</imap_no_headers>
+    <imap_no_body>ไม่สามรถดูเนื้อหาของข้อความ%s</imap_no_body>
+    <imap_message_create>ไม่สามารถดูคำต่อท้ายข้อความ</imap_message_create>
+    <imap_message_delete>ไม่สามารถลบข้อความ %s</imap_message_delete>
+    <imap_message_copy>ไม่สามารถคัดลอกข้อความ %s</imap_message_copy>
+    <imap_message_move>ไม่สามารถย้ายข้อความ %s</imap_message_move>
+    <imap_flags_set>ไม่สามารถตั้งค่าข้อความ %s ตัวบ่งชี้</imap_flags_set>
+    <imap_flags_clear>ไม่สามารถล้างข้อความ %s ตัวบ่งชี้</imap_flags_clear>
+    <imap_message_not_found>ข้อความใหม่จะพบกล่องจดหมายในปลายทาง</imap_message_not_found>
+    <subscribe_account_imap>เกิดข้อผิดพลาดในขณะที่สมัครบัญชีผู้ใช้</subscribe_account_imap>
+    <unsubscribe_account_imap>เกิดข้อผิดพลาดขณะยกเลิกการสมัครบัญชีผู้ใช้</unsubscribe_account_imap>
+    <import_vcalendar>การนำ vCalendar เข้าล้มเหลว</import_vcalendar>
+    <import_vcard>การนำ vCard เข้าล้มเหลว</import_vcard>
+    <import_missing_tag>การนำแท็กหายไป%s</import_missing_tag>
+    <import_missing_action>การดำเนินนำเข้าขาดหายไป</import_missing_action>
+    <import_invalid_action>การดำเนินการนำเข้าไม่ถูกต้อง%s</import_invalid_action>
+    <import_missing_account_id>รหัสบัญชีผู้ใช้ที่นำเข้าหายไป</import_missing_account_id>
+    <import_invalid_account_id>รหัสบัญชีผู้ใช้และการนำเข้าไม่ถูกต้อง</import_invalid_account_id>
+    <import_missing_folder_id>รหัสโฟลเดอร์ที่นำเข้าหายไป</import_missing_folder_id>
+    <import_invalid_folder_id>รหัสโฟลเดอร์ที่นำเข้าไม่ถูกต้อง</import_invalid_folder_id>
+    <import_invalid_item_id>รหัสรายการที่นำเข้าไม่ถูกต้อง</import_invalid_item_id>
+    <import_add_items>ไม่สามารถสร้างสินค้า (รายการ)</import_add_items>
+    <import_invalid_data>การพยายามที่นำข้อมลูเข้าที่ไม่สนับสนุน</import_invalid_data>
+    <export_invalid_account>การพยายามที่จะส่งออกที่ไม่ใช่บัญชีผู้ใช้ที่อยู่</export_invalid_account>
+    <imip_versit_convert>iMIP versit conversion</imip_versit_convert>
+    <imip_versit_empty>iMIP versit empty</imip_versit_empty>
+    <imip_missing_folder>iMIP missing folder</imip_missing_folder>
+    <inputstream_no_xml_input>No XML passed to input</inputstream_no_xml_input>
+    <inputstream_corrupted_input>ป้อนข้อมูลเสียหาย XML</inputstream_corrupted_input>
+    <item_invalid_id>ไม่มีรายการ ID</item_invalid_id>
+    <item_count>ไม่สามารถได้รับการนับรายการ</item_count>
+    <item_create>ไม่สามารถสร้างรายการ</item_create>
+    <item_delete>รายการ %s ไม่สามารถถูกลบได้</item_delete>
+    <item_move>Item cannot be moved</item_move>
+    <item_edit>รายการ %s แก้ไขข้อผิดพลาด</item_edit>
+    <item_occurrance_delete>ไม่สามารถลบเหตุการณ์ %s</item_occurrance_delete>
+    <item_occurrance_create>Cannot create occurrence</item_occurrance_create>
+    <item_exception_delete>ไม่สามารถลบข้อยกเว้น %s</item_exception_delete>
+    <item_exception_create>ไม่สามารถสร้างข้อยกเว้น</item_exception_create>
+    <item_copy>ไม่สามารถคัดลอกรายการ</item_copy>
+    <item_copy_multiple>ไม่สามารถคัดลอกหลายรายการ</item_copy_multiple>
+    <item_copy_destination>ไม่สามารถดูโฟลเดอร์ปลายทาง</item_copy_destination>
+    <item_copy_destination_type>ไม่สามารถคัดลอกไปยังโฟลเดอร์ของประเภทอื่นที่ไม่ใช่โฟลเดอร์ที่มา</item_copy_destination_type>
+    <item_count_retrieve>ไม่สามารถนับจำนวนรายการโฟลเดอร์</item_count_retrieve>
+    <item_missing_tag>รายการที่แท็กหายไป</item_missing_tag>
+    <item_missing_account_id>รหัสบัญชีผู้ใช้ไม่มี</item_missing_account_id>
+    <item_invalid_account_id>รหัสบัญชีผู้ใช้ไม่ถูกต้อง %s</item_invalid_account_id>
+    <item_missing_folder_id>รหัสโฟลเดอร์ไม่มี</item_missing_folder_id>
+    <item_invalid_folder_id>รหัสโฟลเดอร์ไม่ถูกต้อง%s</item_invalid_folder_id>
+    <item_missing_item_id>รหัสรายการไม่มี</item_missing_item_id>
+    <item_invalid_item_id>รหัสรายการไม่ถูกต้อง %s</item_invalid_item_id>
+    <item_invalid_action>การดำเนินการรายการไม่ถูกต้อง</item_invalid_action>
+    <login_invalid>การเข้าสู่ระบบของผู้ใช้ไม่ถูกต้อง %s</login_invalid>
+    <login_account_valid>Invalid account %s</login_account_valid>
+    <phpmailer_>Generic mailer error, message not sent</phpmailer_>
+    <phpmailer_smtp_auth>Mailer could not authenticate, message not sent</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer could not connect to SMTP, message not sent</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer is missing recipients, message not sent</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer doesn&apos;t support this message type, message not sent</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail ส่งข้อความผิด</phpmailer_sendmail_send>
+    <phpmailer_mail_send>เกิดข้อผิดพลาดในการส่งอีเมล์</phpmailer_mail_send>
+    <phpmailer_language>ไม่สามารถเปิดไฟล์ภาษาได้</phpmailer_language>
+    <phpmailer_add_attachment>ไม่สามารถแนบไฟล์</phpmailer_add_attachment>
+    <phpmailer_encode_file>ไม่สามารถถอดรหัสไฟล์สิ่งที่แนบมา</phpmailer_encode_file>
+    <phpmailer_encode_unknown>สิ่งที่แนบมาไม่ทราบประเภทการเข้ารหัส</phpmailer_encode_unknown>
+    <mailparse_empty>ไม่มีต้นฉบับเพื่อวิเคราะห์คำ</mailparse_empty>
+    <mailparse_parser_init>การแยกอีเมล์ล้มเหลว</mailparse_parser_init>
+    <mailparse_get_part>ไม่สามารถรับได้บางส่วน %s</mailparse_get_part>
+    <message_missing_tag>แท็กข้อความหายไป %s</message_missing_tag>
+    <message_missing_account_id>ข้อความรหัสบัญชีผู้ใช้หายไป</message_missing_account_id>
+    <message_invald_account>ข้อความรหัสบัญชีผู้ใช้ไม่ถูกต้อง</message_invald_account>
+    <message_missing_folder_id>รหัสข้อความในโฟลเดอร์หายไป</message_missing_folder_id>
+    <message_invald_folder>รหัสข้อความโฟลเดอร์ไม่ถูกต้อง</message_invald_folder>
+    <message_missing_item_id>รหัสรายการข้อความหายไป</message_missing_item_id>
+    <message_invalid_action>ข้อความแสดงการดำเนินการที่ไม่ถูกต้อง</message_invalid_action>
+    <message_get_not_allowed>Cannot update folder list due to insufficient rights</message_get_not_allowed>
+    <message_attachment_type>Cannot parse attachment %s</message_attachment_type>
+    <message_attachment_existence>อัพโหลดล่าสุดไม่พบสิ่งที่แนบมา</message_attachment_existence>
+    <rss_channel_exist>URL ช่องทางที่ระบุไม่สามารถเปิดได้ %s</rss_channel_exist>
+    <rss_invalid_channel>ไม่สามารถเข้าถึงช่องทาง</rss_invalid_channel>
+    <settings_access_denied>ปฏิเสธการเข้าใช้</settings_access_denied>
+    <settings_missing_tag>แท็กการตั้งค่าขาดหายไป %s</settings_missing_tag>
+    <settings_duplicity>XML settings file formatting error</settings_duplicity>
+    <settings_get_domain_file>ไม่สามารถอ่านแฟ้มการตั้งค่าโดเมน %s</settings_get_domain_file>
+    <settings_domain_set>การตั้งค่าตั้งไปยังไฟล์การตั้งค่าโดเมน %s</settings_domain_set>
+    <settings_user_set>Cannot access users settings in file %. Check permissions and mail folder.</settings_user_set>
+    <settings_public_set>การตั้งค่าตั้งไปยังไฟล์ข้อมลูสาธารณะ %s</settings_public_set>
+    <settings_shared_set>ไม่สามารถบันทึกบัญชีผู้ใช้ที่ใช้ร่วมกัน</settings_shared_set>
+    <settings_owner_set>ไม่สามารถตั้งค่าการเป็นเจ้าของ</settings_owner_set>
+    <session_expired>Session %s หมดอายุแล้ว</session_expired>
+    <session_no_user>Sessionผู้ใช้วัตถุไม่สามารถเรียกคืน</session_no_user>
+    <smime_no_recipient>SMIME ไม่มีผู้รับ</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP ข้อมลูไม่ได้รับการยอมรับจากเซิร์ฟเวอร์: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP จาก: ล้มเหลว (จาก)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTPผู้รับล้มเหลว (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>ไม่สามารถตั้งค่าโหมดการตรวจสอบการสะกดคำ</spellchecker_set_mode>
+    <spellchecker_open_dictionary>ไม่สามารถเปิดพจนานุกรมตรวจสอบการสะกด (ดิก)</spellchecker_open_dictionary>
+    <spellchecker_add_word>ไม่สามารถเพิ่มคำใหม่ %s ในพจนานุกรม</spellchecker_add_word>
+    <spellchecker_missing_check_id>ระบุคำที่ขาดหายไป</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>แท็กขาดหายไป %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>ระบุพจนานุกรมที่ขาดหายไป</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>คำที่ขาดหายไป</spellchecker_missing_word>
+    <upload_tag_missing>แท็บอัพโหลดขาดหายไป</upload_tag_missing>
+    <upload_missing_attribute>อัพโหลดคุณลักษณะที่ขาดหายไป</upload_missing_attribute>
+    <upload_attachment_missing>อัพโหลดไฟล์แนบหายไป</upload_attachment_missing>
+    <xml_invalid_file_name>XML ชื่อไฟล์ว่างเปล่า</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath ส่งกลับมามากกว่าหนึ่งจากแบบสอบถามของคุณ</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML โหนดที่ระบุไว้ไม่พบ%s</xml_node_does_not_exist>
+    <xmlrequest_path>ไฟล์เทมเพลตไม่ถูกต้อง (path)</xmlrequest_path>
+    <xmlrequest_access_denied>ปฏิเสธการเข้าใช้</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>ประเภทการร้องขอไม่ถูกต้อง (ประเภท)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>namespace attribute ขาดหายไป</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>หายไปหรือSID ไม่ถูกต้อง</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XMLRequest แท็กหายไป%s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>ตัวสร้างระดับขาดหายไป</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>รูปแบบผลลัพธ์ไม่รู้จัก %s</xmlrequest_unkown_format>
+    <not_implemented>ยังไม่ได้ดำเนินการ</not_implemented>
+    <logdir_create>ไม่สามารถสร้างไดเรกทอรี่เข้าสู่ระบบ%s</logdir_create>
+    <api_property_get>ไม่สามารถเรียกข้อมูล %s</api_property_get>
+    <wm_disabled>WebClient ถูกปิดการใช้งาน</wm_disabled>
+    <gw_init_error>เกิดข้อผิดพลาดในการเริ่มต้นกรุ๊ปแวร์</gw_init_error>
+    <default>Default exception %s</default>
+    <other_accounts_disabled>Creating other accounts is disabled</other_accounts_disabled>
+    <link_compressed_variable_missing>เกิดข้อผิดพลาดใน URL ของคุณถูกนำไปยังหน้าจอหลัก</link_compressed_variable_missing>
+    <login_expired>เข้าสู่ระบบหมดอายุ, กรุณาลองใหม่อีกครั้ง</login_expired>
+    <account_disabled>Account disabled</account_disabled>
+    <folder_set_default>Folder &quot;%s&quot; cannot be set as default</folder_set_default>
+    <personality_confirmation_invalid_user>Email address cannot be confirmed: Invalid User</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>Email address cannot be confirmed: Invalid Hash</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Blacklist item failed</item_blacklist_error>
+    <item_whitelist_error>Whitelist item failed</item_whitelist_error>
+    <unverified_signature>Unable to verify message signature</unverified_signature>
+    <account_is_guest>Access not allowed for guests</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Item selection cleared</item_selection_cleared>
+    <logged_out>You have logged out</logged_out>
+    <message_send_ok>Message sent</message_send_ok>
+    <item_move_ok>Item(s) moved</item_move_ok>
+    <item_copy_ok>Item(s) copied</item_copy_ok>
+    <item_delete_ok>Item(s) deleted</item_delete_ok>
+    <item_mark_ok>Item(s) marked</item_mark_ok>
+    <settings_save_ok>Settings saved</settings_save_ok>
+    <loading_next_message>Loading next message</loading_next_message>
+    <loading_prev_message>Loading previous message</loading_prev_message>
+    <loading_next_page>Loading next page</loading_next_page>
+    <loading_prev_page>Loading previous page</loading_prev_page>
+    <loading_next_month>Loading next month</loading_next_month>
+    <loading_prev_month>Loading previous month</loading_prev_month>
+    <loading_next_week>Loading next week</loading_next_week>
+    <loading_prev_week>Loading previous week</loading_prev_week>
+    <loading_next_day>Loading next day</loading_next_day>
+    <loading_prev_day>Loading previous day</loading_prev_day>
+    <password_change_ok>Password changed</password_change_ok>
+    <item_whitelist_ok>Item was added to whitelist</item_whitelist_ok>
+    <item_blacklist_ok>Item was added to blacklist</item_blacklist_ok>
+    <folder_set_default_ok>Folder set as default</folder_set_default_ok>
+    <subscribe_account_ok>Account subscribed</subscribe_account_ok>
+    <subscribe_folder_ok>Folder subscribed</subscribe_folder_ok>
+    <item_decline_ok>Item declined</item_decline_ok>
+    <access_granted>You have been granted access to &quot;%s&quot; by &quot;%s&quot;.</access_granted>
+    <message_save_ok>Message saved</message_save_ok>
+    <item_accept_ok>Item accepted</item_accept_ok>
+  </messages>
+</language>

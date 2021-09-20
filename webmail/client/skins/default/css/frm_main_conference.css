@@ -1,0 +1,96 @@
+.frm_main_conference {
+	height: 100%;
+	position: relative;
+	background-color: #ffffff;
+}
+.frm_main_conference .obj_loader .obj_loaderd {
+	background-color: transparent;
+}
+.frm_main_conference>div{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.frm_main_conference.full>div{
+	float: left;
+	width: 50%;
+}
+	.rtl .frm_main_conference.full>div{
+		float: right;
+	}
+.frm_main_conference.full>.view_pane{
+	border: 1px solid #ececec;
+	border-width: 0 1px 0 0;
+}
+	.rtl .frm_main_conference.full>.view_pane{
+		border-width: 0 0 0 1px;
+	}
+	.frm_main_conference>.view_pane>.back{
+		position: absolute;
+		z-index: 5;
+		left: 22px;
+		top: -20px;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 16px;
+		cursor: pointer;
+		background-color: #ffffff;
+
+		opacity: 0;
+		transition: top 300ms ease-in, opacity 300ms;
+
+		color: {txt_main '#0088CC'};
+	}
+	.rtl .frm_main_conference>.view_pane>.back{
+		right: 22px;
+		left: auto;
+	}
+
+	.frm_main_conference.back>.view_pane>.back{
+		opacity: 1;
+		top: 32px;
+	}
+	.frm_main_conference>.view_pane>.back:hover{
+		color: {txt_main_vf '#0088CC'};
+	}
+		.frm_main_conference>.view_pane>.back:before{
+			content: '\e047';
+			display: inline;
+			font-size: 14px;
+			font-family: 'ico16';
+			margin: 0 2px;
+			vertical-align: text-top;
+		}
+		.rtl .frm_main_conference>.view_pane>.back:before{
+			content: '\e03e';
+			float: right;
+		}
+
+.frm_main_conference>.list_pane .obj_tabs{
+	padding-top: 60px;
+}
+
+.frm_main_conference>.list_pane .obj_tabs>.obj_tabsheader{
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 32px;
+}
+.frm_main_conference>.list_pane .obj_tabs.big > .obj_tabsheader li:not(.active)>span {
+	color: #637282;
+}
+.frm_main_conference>.list_pane .obj_tab{
+	padding: 0;
+	padding-top: 15px;
+}
+
+.frm_main_conference.full>.list_pane>.obj_tabs{
+	margin: 0 auto;
+}
+
+/* sent to teamchat, room picker */
+.frm_select_folder-conference form.obj_checkbox.pass-conference{
+	float: none!important;
+	clear: both;
+	margin-bottom: 8px;
+}

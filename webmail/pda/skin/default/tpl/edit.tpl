@@ -1,0 +1,1 @@
+<tr><th><label for="{property::id}">{property::label}</label></th><td><input id="{property::id}" type="text" name="{property::name}"{optional property::value} value="{property::value}"{/optional} {optional property::css}class="{property::css}"{/optional}{optional property::events}{dynamic property::events} {*::name}="{*::value}"{/dynamic}{/optional} /></td></tr>

@@ -1,0 +1,62 @@
+div.frm_video div.maxbox {
+	background-color: #333;
+	overflow: hidden;
+	position: relative;
+}
+
+	div.frm_video video.remote,
+	div.frm_video object.remote {
+		width: 100%;
+	}
+	div.frm_video .container.maximized video.remote,
+	div.frm_video .container.maximized object.remote {
+		height: 100%;
+	}
+
+	div.frm_video video.local,
+	div.frm_video object.local {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		width: 25%;
+		max-width: 200px;
+
+		opacity: 0.8;
+	}
+
+	div.frm_video video.local,
+	div.frm_video object.local {
+		box-shadow: 0 0 5px #000;
+		
+		-webkit-transform:rotateY(180deg);
+		-moz-transform:rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+	div.frm_video .local:hover{
+		opacity: 1;
+	}
+
+	div.frm_video form.obj_button.mute{
+		position: absolute;
+		top: 10px;
+		right: 0;
+		opacity: 0.6;
+		z-index: 1;
+	}
+		
+		div.frm_video form.obj_button.mute:hover,
+		div.frm_video form.obj_button.mute.active{
+			opacity: 1;
+		}
+
+		div.frm_video form.obj_button.mute:after{
+			content: '\e01e';
+			color: {ico_main '#0088CC'};
+			/*text-shadow: 0 0 1px #fff;*/
+		}
+		div.frm_video form.obj_button.mute.active:after{
+			content: '\e01f';
+			color: #A44A3E;/*#BF6559;*/
+			text-shadow: none;
+		}	

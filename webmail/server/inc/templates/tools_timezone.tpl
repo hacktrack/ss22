@@ -1,0 +1,1 @@
+<timezone><time>{dynamic times}<item{optional *::uidset} uid="{*::uid}"{/optional}><time>{*::time}</time><date>{*::date}</date></item>{/dynamic}</time></timezone>

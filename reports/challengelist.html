@@ -1,0 +1,79 @@
+<?php header("X-Robots-Tag: noindex"); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Challenge list</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+	<body>
+		<?php
+			try{
+				//Lib
+				chdir(dirname(__FILE__));
+				require_once('inc/application.php');
+				$stime = $ptime = 0;
+				$t = time();
+				$m = microtime();	
+				//Run report for specific account/domain
+				$domain = $_REQUEST['domain']?$_REQUEST['domain']:'';
+				$account = $_REQUEST['account']?$_REQUEST['account']:'';
+				//report_type parameter can force "spam only" or "quarantine only" report
+				$reportType = $_REQUEST['report_type'] ? $_REQUEST['report_type'] : null;
+				if($account && !$domain){
+					$domain = substr($account, strpos( $account, '@' ) + 1 );
+				}
+				if($account){
+					$account = substr($account, 0, strpos( $account, '@' ) );
+				}
+				//Mode - user(0),domain(1),system(2)
+				$mode = $_REQUEST['mode']?$_REQUEST['mode']:0;
+				//Create challenge application object
+				$challenge = ChallengeApplication::instance();
+				$challenge->setStartTime( $t, $m );
+				$challenge->setMode( $mode );
+				$challenge->setReportType( $reportType );
+				//$challenge->run('reset', $domain, $account); 	//Reset 	- all items will be treated as NEW
+				$challenge->run('report', $domain, $account );	//Report 	- send report emails
+				//$challenge->run('empty');						//Empty 	- for testing
+				//$challenge->run('test');						//Test 		- test callback
+				if($challenge->getDebugging() > 1){
+					echo "Total memory:".memory_get_usage();
+					echo "Total time:".$challenge->duration();
+					echo "Total parsing time:".($ptime);
+					echo "Total send time:".($stime);
+				}
+				echo "OK";
+			}catch(Exception $e){
+				icewarp_releaselock('challenge');
+				$api = IceWarpAPI::instance();
+				$primarydomain = $api->getDomain(0);
+				$email = 'admin@'.$primarydomain;
+				try{
+					$mail = new slMail();
+					$mail->SMTPAutoTLS =  $api->getProperty('c_system_adv_ext_sslservermethod')!=5 && $api->getProperty('c_system_adv_ext_sslservermethod')!=6;
+					$mail->setSendMode('string');
+					$RecDomain = explode("@", $email);
+					$address = $challenge->reportFrom['address'];
+					$address = str_ireplace("%%recipient_domain%%", $primarydomain, $address);
+					$display = $challenge->reportFrom['display'];
+					
+					$mail->setFrom($address,$display);
+					$mail->addTo($email);
+					
+					$mail->setSubject("Spam reports error notification");
+					$mail->setBody("There was following error during last spam report : ".($e->challengeMsg?$e->challengeMsg:$e->getMessage()));
+					$mail->send();
+				}catch(Exception $e){
+					//Ignore send message error
+				}
+				echo '<div style="border:1px solid #F00;background-color:#F99;">';
+				if($e->challengeMsg){
+					echo $e->challengeMsg;
+				}else{
+					echo $e->getMessage();
+				}
+				echo '</div>';
+			}
+		?>
+	</body>
+</html>

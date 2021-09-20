@@ -1,0 +1,79 @@
+<?php
+header('X-Frame-Options: SAMEORIGIN');
+  require_once("./inc/include.php");
+
+  global $data;
+
+	$bold=false;
+
+  $data['dir_name'] = "/" . $_REQUEST['dir_name'];
+  $data['proto'] = ($_SERVER["HTTPS"]=="ON"?"https://":"http://");
+  list($data['host_name'], $data['port']) = explode(':', $_REQUEST['server_host']);
+  list($data['server_name']) = explode(':', $_REQUEST['default_host']);
+
+  $data['sort_dir'] = ($_REQUEST['sort_dir'] == "asc") ? "desc" : "asc";
+
+  if ($_REQUEST["dir_content"]) {
+    $c = explode(";", $_REQUEST["dir_content"]);
+    $data['file']['num'] = array();  
+  }
+  
+  $data['slash'] = "";
+  
+  if ($_REQUEST['dir_name'] != "") {
+    $data['dir_up']['num'][0]['icon'] = ICON_UP;
+    $s = "/" . $data['dir_name'];
+    for ($i = strlen($s); $s[$i] != "/"; $i--)
+    {
+	    if ($bold){$bold=false;$data['dir_up']['num'][0]['bold']=$bold;}else{$bold=true;$data['dir_up']['num'][0]['bold']=$bold;}
+    }
+    $data['dir_up']['num'][0]['path'] = htmlspecialchars(substr($s, 1, $i));
+    $data['slash'] = "/";
+  }
+
+  for ($i = 0; $i <= count($c) - 1; $i++) {
+    if ($c[$i]) {
+      $data['file']['num'][] = explode(",", $c[$i]);
+      if ($data['file']['num'][$i][0] == "f") 
+        $data['file']['num'][$i]['icon'] = ICON_FILE;
+      else
+        $data['file']['num'][$i]['icon'] = ICON_DIRECTORY;
+      $data['file']['num'][$i]['name'] = $slash . $data['file']['num'][$i][1];
+      
+      if ($bold){$bold=false;$data['file']['num'][$i]['bold']=$bold;}else{$bold=true;$data['file']['num'][$i]['bold']=$bold;}
+      
+      if ($data['file']['num'][$i][3] <= 800 * 1024)
+        $data['file']['num'][$i]['size'] = round($data['file']['num'][$i][3] / 1024, 2) . "k";
+      else if ($data['file']['num'][$i][3] <= 800 * 1024 * 1024)
+        $data['file']['num'][$i]['size'] = round($data['file']['num'][$i][3] / (1024 * 1024), 2) . "M";
+      else
+        $data['file']['num'][$i]['size'] = round($data['file']['num'][$i][3] / (1024 * 1024 * 1024), 2) . "G";
+
+      $data['file']['num'][$i]['date'] = date(DATE_FORMAT, $data['file']['num'][$i][2]);
+    }
+  }
+/*
+echo "<pre>";
+echo print_r($data,true);
+echo "</pre>";
+*/
+  if ($c)
+    usort($data['file']['num'], "compare_" . ($_REQUEST['sort_dir'] ? $_REQUEST['sort_dir'] : "desc") . "_" . ($_REQUEST['sort_by'] ? $_REQUEST['sort_by'] : "name"));
+
+  // Headers
+  header("Expires: " . gmdate("D, d M Y H:i:s"). " GMT");
+  if (!$noheadercache) { 
+    if ($_SERVER['SERVER_PROTOCOL'] == "HTTP/1.0")
+      $nocache = "Pragma: no-cache"; 
+    else 
+      $nocache = "Cache-Control: no-cache, must-revalidate"; 
+    header($nocache); 
+  }
+  // XSS sanitize
+  $data['host_name'] = htmlspecialchars($data['host_name']);
+  $data['server_name'] = htmlspecialchars($data['server_name']);
+  $data['dir_name'] = htmlspecialchars($data['dir_name']);
+  $data['port'] = htmlspecialchars($data['port']);
+
+  echo template('tpl/dir_list.tpl', $data);
+?>

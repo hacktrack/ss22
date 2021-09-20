@@ -1,0 +1,49 @@
+form.obj_button_check{
+	position: relative;
+}
+form.obj_button.obj_button_check>input{
+	text-indent: 17px;
+}
+
+form.obj_button.obj_button_check.ico>input{
+	text-indent: 60px;
+}
+form.obj_button_check:before{
+	background: url("../images/checkbox.gif") no-repeat scroll 5px 5px transparent;
+	content: "";
+	height: 23px;
+	left: 2px;
+	position: absolute;
+	top: 1px;
+	width: 23px;
+}
+
+form.obj_button_check.active:before{
+	background-position: 5px -41px;
+}
+
+form.obj_button_check.ico:after{
+	left: 25px;
+}
+.rtl form.obj_button_check.ico:after {
+	left: 6px;
+	right: auto;
+}
+
+.rtl form.obj_button_check:before {
+	top: 2px;
+	left: 21px;
+}
+
+form.obj_button_check.big:before{
+	top: 3px;
+}
+
+form.obj_button_check.active>input.obj_button{
+	background-color: #BABABA!important;
+}
+
+form.obj_button_check.ico.img input {
+    text-indent: 47px;
+    width: 45px;
+}

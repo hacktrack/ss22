@@ -1,0 +1,259 @@
+div.obj_tag{
+	line-height: 21px;
+	position: relative;
+	cursor: text;
+	min-height: 28px;
+}
+	div.obj_tag.collapsed {
+		cursor: default;
+	}
+	div.obj_tag>div:after{
+		display: block;
+		content: '';
+		clear: both;
+	}
+
+div.obj_tag.border,
+div.obj_tag.noborder{
+	border: 1px solid transparent;
+	padding: 0 2px;
+	line-height: 20px;
+}
+div.obj_tag.border{
+	border-radius: 2px;
+	border: 1px solid #ABABAB;
+	background-color: #FFF;
+}
+
+.rtl div.obj_tag>div:first-child {
+	padding-left: 25px;
+}
+
+div.obj_tag>div>div>span{
+	display: block;
+	position: relative;
+	float: left;
+	overflow: hidden;
+
+	margin: 1px 2px 1px 0;
+	padding: 3px 6px 2px;
+
+	border: 1px solid #ABABAB;
+	border-color: rgba(0,0,0,0.1);
+	border-radius: 13px;
+	background-color: #FFF;
+
+	max-width: 400px;
+	cursor: default;
+
+	user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+
+	opacity: 1;
+	transition: opacity 500ms;
+}
+
+div.obj_tag>div>div>span.tag.collapsed{
+	max-width: 0;
+    height: 22px;
+    visibility: hidden;
+    padding: 0;
+    margin: 2px 0;
+    overflow: hidden;
+	border: none;
+	opacity: 0;
+}
+
+.rtl div.obj_tag>div>div>span {
+	float: right;
+	unicode-bidi: plaintext;
+}
+div.obj_tag.border>div>div>span,
+div.obj_tag.noborder>div>div>span{
+	margin: 1px 2px 1px 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 24px;
+	line-height: 24px;
+}
+
+div.obj_tag.big.border>div>div>span,
+div.obj_tag.big.noborder>div>div>span{
+	height: 28px;
+	line-height: 27px;
+	margin-top: 7px;
+	font-size: 15px;
+}
+
+
+div.obj_tag>div>div>span.active{
+	border-color: #EEE;
+	border-color: rgba(0,0,0,0.8);
+}
+
+/* remove button */
+div.obj_tag>div>div>span{
+	padding-right: 20px;
+}
+.rtl div.obj_tag>div>div>span {
+	padding-left: 20px;
+	padding-right: 5px;
+}
+
+div.obj_tag>div>div>span.edit{
+	padding: 0;
+
+	user-select: text;
+	-khtml-user-select: text;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+}
+
+div.obj_tag>div>div>span>em{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 17px;
+	height: 100%;
+
+	cursor: pointer;
+}
+div.obj_tag.big>div>div>span>em{
+	top: 1px;
+}
+.rtl div.obj_tag>div>div>span>em {
+	left: 0;
+	right: auto;
+}
+	div.obj_tag>div>div>span>em:after{
+		content: '\e036';
+		font-size: 16px;
+		font-family: 'ico16';
+		font-style: normal;
+		line-height: 27px;
+
+		color: rgba(0,0,0,0.4);
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}
+	div.obj_tag.border>div>div>span>em:after,
+	div.obj_tag.noborder>div>div>span>em:after{
+		line-height: 23px;
+	}
+
+	div.obj_tag>div>div>span>em:hover:after{
+		color: rgba(0,0,0,0.6);
+	}
+
+div.obj_tag.readonly{
+	cursor: default;
+}
+
+div.obj_tag.readonly>div>div>span{
+	padding-right: 6px;
+}
+div.obj_tag.readonly>div>div>span>em{
+	display: none;
+}
+
+/* expand button */
+div.obj_tag>div>div>span.expand{
+	padding-left: 20px;
+}
+	div.obj_tag>div>div>span>b{
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 16px;
+		height: 100%;
+		text-indent: 3px;
+
+		cursor: pointer;
+	}
+	div.obj_tag>div>div>span>b:after{
+		content: '\e03c';
+		font-size: 12px;
+		font-family: 'ico16';
+		font-style: normal;
+		line-height: 27px;
+		color: rgba(0,0,0,0.4);
+
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}
+	div.obj_tag.border>div>div>span>b:after,
+	div.obj_tag.noborder>div>div>span>b:after{
+		line-height: 21px;
+	}
+	div.obj_tag>div>div>span>b:hover:after{
+		color: rgba(0,0,0,0.6);
+	}
+
+
+div.obj_tag form.obj_input.plus{
+	margin: 1px 0;
+	border-radius: 2px;
+	border-color: rgba(0,0,0,0.2);
+	color: #3C3D3D;
+	float: left!important;
+}
+.rtl div.obj_tag form.obj_input.plus{
+	float: right!important;
+}
+div.obj_tag.border form.obj_input.plus,
+div.obj_tag.noborder form.obj_input.plus{
+	margin: 3px 1px 1px 0;
+}
+
+div.obj_tag form.obj_input input{
+	background-color: transparent;
+	width: 45px;
+	text-indent: 5px;
+	color: inherit;
+
+	padding: 0;
+}
+div.obj_tag.collapsed form.obj_input input::placeholder{
+	color: #333;
+}
+div.obj_tag.collapsed form.obj_input input{
+	cursor: default!important;
+}
+
+.rtl div.obj_tag form.obj_input input {
+	padding-right: 3px;
+	text-align: right;
+}
+div.obj_tag form.obj_input.edit input{
+	height: 24px;
+	background-color: #FFF;
+	color: #333;
+}
+
+div.obj_tag.border form.obj_input input,
+div.obj_tag.noborder form.obj_input input{
+	height: 20px;
+	line-height: 20px;
+}
+
+div.obj_tag.border form.obj_input.ico.plus:after,
+div.obj_tag.noborder form.obj_input.ico.plus:after{
+	line-height: 20px;
+	content: '';
+}
+div.obj_tag.border form.obj_input.ico.plus,
+div.obj_tag.noborder form.obj_input.ico.plus{
+	border-color: transparent;
+	background-color: transparent;
+	padding-left: 0;
+}
+.rtl div.obj_tag.border form.obj_input.ico.plus,
+.rtl div.obj_tag.noborder form.obj_input.ico.plus {
+	padding-left: 0;
+	padding-right: 0;
+}
+div.obj_tag form.obj_input.active.plus{
+	border-color:  rgba(0,0,0,0.6);
+}

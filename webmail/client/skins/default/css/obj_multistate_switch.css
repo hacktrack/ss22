@@ -1,0 +1,75 @@
+.obj_multistate_switch {
+	position: relative;
+	height: 100%;
+}
+
+.obj_multistate_switch .minus,
+.obj_multistate_switch .plus {
+    color: #fff;
+    float: left;
+    font-size: 18px;
+	padding: 0 5px;
+}
+
+.obj_multistate_switch .minus:before {
+	content: '-';
+	top: 0;
+	left: 0;
+}
+
+.obj_multistate_switch .plus:before {
+	content: '+';
+	top: 0;
+	left: 0;
+}
+
+.obj_multistate_switch .radios {
+	position: relative;
+	float: left;
+}
+
+.rtl .obj_multistate_switch .plus,
+.rtl .obj_multistate_switch .minus,
+.rtl .obj_multistate_switch .radios {
+	float: right;
+}
+
+.obj_multistate_switch .radios:before {
+	border-radius: 3px;
+	background-color: #ccc;
+	height: 2px;
+	left: 0;
+	z-index: -1;
+	position: absolute;
+	content: '';
+	right: 0;
+	margin: 18px 10px;
+}
+
+.obj_multistate_switch .radios .radio {
+	margin: 5px;
+	cursor: pointer;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-top: 13px;
+}
+
+.obj_multistate_switch .radios .radio:before {
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #ffffff;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.48);
+	border-radius: 50%;
+}
+
+.obj_multistate_switch .radios .radio:hover:before {
+	opacity: 0.5;
+}
+
+.obj_multistate_switch .radios .radio.active:before {
+	opacity: 1;
+}

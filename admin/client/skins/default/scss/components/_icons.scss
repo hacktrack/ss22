@@ -1,0 +1,217 @@
+[class^="icon-"],
+[class*=" icon-"] {
+	font-size: s(1.8333);
+	width: s(1.8333);
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+
+	&::before {
+		display: inline-block;
+		font-family: 'icons';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+	}
+
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+
+	&.large {
+		font-size: s(3.5);
+		width: s(3.5);
+	}
+
+	// Right margin should be applied within these classes
+	.topbar-center & {
+		margin-right: g(1);
+	}
+
+	.table & {
+
+		@media #{$large-up} {
+			margin-right: g(1);
+		}
+	}
+
+}
+
+// User type icons
+// TODO[WAD-855]: *** Not final icons
+.icon-user {
+
+	&.type_0 { // User
+
+		&::before { // Default user type fallback
+			content: $icon-user;
+		}
+		&.subtype_0::before { // User
+			content: $icon-user;
+		}
+		&.subtype_1::before { // System Admin
+			content: $icon-administrator_system;
+		}
+		&.subtype_2::before { // Domain admin
+			content: $icon-administrator_domain;
+		}
+		&.subtype_3::before { // Admin
+			content: $icon-administrator;
+		}
+	}
+
+	&.type_1::before { // Mailing list
+		content: $icon-mailing-list;
+	}
+	&.type_2::before { // Executable
+		content: $icon-card ; // ***
+	}
+	&.type_3::before { // Notification
+		content: $icon-card ; // ***
+	}
+	&.type_4::before { // Static Route
+		content: $icon-card ; // ***
+	}
+	&.type_5::before { // Catalog
+		content: $icon-card ; // ***
+	}
+	&.type_6::before { // List server
+		content: $icon-card ; // ***
+	}
+	&.type_7::before { // Group
+		content: $icon-collaboration;
+	}
+	&.type_8::before { // Resource
+		content: $icon-resources;
+	}
+}
+
+.icon-user_rank {
+
+	&::before { // Default user type fallback
+		content: $icon-user;
+	}
+	&.subtype_0::before { // User
+		content: $icon-user;
+	}
+	&.subtype_1::before { // System Admin
+		content: $icon-star;
+	}
+	&.subtype_2::before { // Domain admin
+		content: $icon-server;
+	}
+	&.subtype_3::before { // Admin
+		content: $icon-star;
+	}
+}
+
+.icon-star::before {
+	content: $icon-star;
+}
+
+// OS type icons
+.icon-os {
+	color: $dark;
+
+	&.class-default::before { // Default mobile
+		content: $icon-server;
+		font-size: s(1.5); // Smaller default size
+	}
+	&.class-android::before { // Android
+		content: $icon-android;
+	}
+	&.class-blackberry::before { // Blackberry
+		content: $icon-blackberry;
+	}
+	&.class-ios::before { // Apple
+		content: $icon-apple;
+	}
+	&.class-windows::before { // Windows
+		content: $icon-windows;
+	}
+}
+
+// Deliver mail icons
+.deliver_mail {
+
+	.icon-status {
+		width: auto; // Overrides default icon sizing
+	}
+
+	&[status="0"] .icon-status::before { // All members
+		content: $icon-to-all-users;
+	}
+
+	&[status="1"] .icon-status::before { // Shared folder
+		content: $icon-to-folder;
+	}
+}
+
+// Domain rules datagrid icons
+.icon-ruletype {
+
+	&.ruletype {
+
+		&_accept::before {
+			content: $icon-checkmark;
+			color: $success;
+		}
+
+		&_reject::before {
+			content: $icon-xmark;
+			color: $error;
+		}
+
+		&_delete::before {
+			content: $icon-delete;
+			color: $warning;
+		}
+
+		&_spam::before {
+			content: $icon-spam;
+			color: $error;
+		}
+
+		&_quarantine::before {
+			content: $icon-warning;
+			color: $warning;
+		}
+	}
+}
+
+// Domain rules datagrid icons
+.icon-certificate {
+
+	&.certificate {
+
+		&_ok::before {
+			content: $icon-checkmark;
+			color: $success;
+		}
+
+		&_warning::before {
+			content: $icon-spam;
+			color: $warning;
+		}
+
+		&_error::before {
+			content: $icon-xmark;
+			color: $error;
+		}
+	}
+}
+
+// Generate icon classes
+@each $name, $code in $icon-map {
+
+	@if index(('false', 'none', null), $name) {
+		// Don't show icons in these classes
+		.icon-#{$name} 			{ @extend %hide; }
+	}
+	@else {
+		// Assign icon code from icon map
+		.icon-#{$name}::before 	{ content: $code; }
+	}
+}

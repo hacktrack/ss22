@@ -1,0 +1,158 @@
+body
+{
+	background-image:url('bg_main.gif');
+	background-repeat:repeat-x;
+	background-color: #b2e8ff;
+}
+
+input:active,input:focus,select:active,select:focus,a:active,a:focus
+{
+	outline: none;
+	-moz-outline-style: none;
+	-khtml-outline-style: none;
+}
+
+#login
+{
+	margin-top:20px;
+}
+
+.logo
+{
+	background-image: url(logo.gif);
+	background-repeat: no-repeat;
+	width:150px;
+	height:200px;
+}
+
+label
+{
+	font-family:tahoma,helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.fancyInput
+{
+	background-image: url(bg_input.gif);
+	background-repeat: repeat-x;
+	font-family:tahoma,helvetica,sans-serif;
+	font-size:10px;
+	width:150px;
+	height:15px;
+	padding:2px 5px 0px 5px;
+	border:#aaa 1px solid;
+}
+
+.fancyButton
+{
+	background-image: url(bg_button.gif);
+	background-repeat: repeat-x;
+	font-family:tahoma,helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	width:162px;
+	height:20px;
+	padding:2px 5px 2px 5px;
+	border:#aaa 1px solid;
+	cursor:pointer;
+}
+
+.fancyLabel
+{
+	font-family: "Trebuchet MS",Verdana,Helvetica,sans-serif;
+	font-size: 18px;
+	font-weight:bold;
+	color:#888;
+	margin-bottom:20px;
+}
+#login fieldset{
+	border:0px;
+}
+
+.footer
+{	
+	margin: 130px 0px 10px 0px;
+	font-family:Tahoma,Helvetica,sans-serif;
+	font-size:10px;
+	color:#000;
+}
+
+.footer a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.select
+{
+	width:162px;
+	border:#aaa 1px solid;
+}
+
+/**/
+.tab
+{
+	padding:3px 5px;
+	border:#a0a0a0 1px solid;
+	border-bottom:none;
+	background-color:#ebedfa;
+	margin-right:5px;
+	float:left;
+	cursor:pointer;
+	position:relative;
+	top:1px;
+	height:18px;
+	.height:16px;
+	background-image: url(../../default/css/tabbg.gif);
+	background-repeat: repeat-x;
+	color:#333;
+	text-decoration:none;
+	font-family:Tahoma;
+	font-size:13px;
+}
+
+.tab:hover
+{
+	background-image: url(../../default/css/tabbgh.gif);
+}
+
+.activeTab:hover
+{
+	background-image: url(../../default/css/tabbga.gif);
+}
+
+.activeTab
+{
+	background-image: url(../../default/css/tabbga.gif);
+	height:20px;
+	.height:18px;
+	background-color: #efefef;
+	font-weight:bold;
+	color:#000;
+	overflow:hidden;
+}
+
+.cleaner
+{
+	clear:both;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.fulltab
+{
+	border:#a0a0a0 1px solid;
+	margin-bottom:3px;
+	padding:5px;
+	background-color:#efefef;
+}
+
+#signupfulltab th,#loginfulltab th,#forgotfulltab th
+{
+	text-align: right;
+	white-space: nowrap;
+}

@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes> B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>Προσθήκη</add>
+    <quarantine>Καραντίνα</quarantine>
+    <whitelist>Ασφαλής λίστα</whitelist>
+    <blacklist>Μαύρη λίστα</blacklist>
+    <save>Αποθήκευση</save>
+    <cancel>Ακύρωση</cancel>
+    <new_item>Προσθήκη νέου email</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Disable shortcuts</disable_shortcuts>
+    <enable_swipe_gestures>Enable swipe gestures on touch devices</enable_swipe_gestures>
+    <use_high_contrast_skin>Use high contrast skin</use_high_contrast_skin>
+    <menu_as_text>Show text instead of icons in toolbar</menu_as_text>
+    <change_password>Αλλαγή κωδικού πρόσβασης</change_password>
+    <open_change_password_dialog>Άνοιγμα παραθύρου διαλόγου αλλαγής κωδικού πρόσβασης</open_change_password_dialog>
+    <oldpassword>Παλιός κωδικός πρόσβασης</oldpassword>
+    <newpassword>Νέος κωδικός πρόσβασης</newpassword>
+    <confirmpassword>Επιβεβαίωση κωδικού πρόσβασης</confirmpassword>
+    <remove>Αφαίρεση</remove>
+    <settings>Ρυθμίσεις</settings>
+    <navigate>Διαχείριση</navigate>
+    <user>Οι ρυθμίσεις μου</user>
+    <domain>Διαχειριστής Τομέα</domain>
+    <admin>Ρυθμίσεις διαχειριστή</admin>
+    <new_domain>Νέος τομέας</new_domain>
+    <test_dropdown>α|β|γ|δ</test_dropdown>
+    <general>Γενικά</general>
+    <layout>Διάταξη</layout>
+    <mail>Mail</mail>
+    <compose>Σύνθεση</compose>
+    <person>Email</person>
+    <person_header>Add new From address</person_header>
+    <person_description>for example &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>Αυτόματη απάντηση</autoresponder>
+    <forwarder>Προώθηση</forwarder>
+    <layout_desc>Διάταξη, Mail</layout_desc>
+    <compose_desc>Default settings for a new message (Read Confirmation, HTML/Plain Format, Signature).</compose_desc>
+    <general_desc>Παραμετροποίηση του mailbox σας για πλοήγηση, διαγραφή και απάντηση μηνυμάτων.</general_desc>
+    <personalities_desc>Εγκατάσταση εναλλακτικής ταυτότητας email (διαφορετικό από: διεύθυνση) για το λογαριασμό σας.</personalities_desc>
+    <autoresponder_desc>Αυτόματη απάντηση των εισερχόμενων μηνυμάτων email κατά την διάρκεια των διακοπών σας.</autoresponder_desc>
+    <forwarder_desc>Προώθηση ή αντιγραφή εισερχόμενων μηνυμάτων email σε άλλη διεύθυνση email.</forwarder_desc>
+    <date_format>Μορφή ημερομηνίας</date_format>
+    <time_format>Μορφή ώρας</time_format>
+    <list_count>Καταμέτρηση λίστας αντικειμένου</list_count>
+    <font_family>Προεπιλογή γραμματοσειράς</font_family>
+    <font_size>Προκαθορισμένο μεγέθους γραμματοσειράς</font_size>
+    <text_direction>Κατεύθυνση κειμένου</text_direction>
+    <text_direction_values>Left to right|Right to left</text_direction_values>
+    <empty_trash_every>Άδειασμα κάδου απορριμάτων κάθε</empty_trash_every>
+    <days>μέρες</days>
+    <move_deleted>Μετακίνηση διαγραμμένων μηνυμάτων στον κάδο απορριμάτων</move_deleted>
+    <delete_messages_on_empty>Οριστική διαγραφή μηνυμάτων κατά την ενέργεια &quot;Άδειασμα Φακέλου&quot;</delete_messages_on_empty>
+    <add_recipients>Αυτόματη εισαγωγή νέων παραληπτών μηνυμάτων στο Βιβλίο Διευθύνσεων</add_recipients>
+    <group_pref>Ομάδα προθεμάτων θέματος (π.χ. Απ[4], Πρ[2])</group_pref>
+    <request_read_confirmation>Αίτηση επιβεβαίωσης ανάγνωσης</request_read_confirmation>
+    <save_sent_msg>Αποθήκευση απεστ. μηνύματος</save_sent_msg>
+    <message_format>Μορφή μηνύματος</message_format>
+    <message_format_labels>Κείμενο|HTML</message_format_labels>
+    <signature>Υπογραφή</signature>
+    <forward_to>Προώθηση σε</forward_to>
+    <keep_in_inbox>Διατήρηση μηνυμάτων στα εισερχόμενα</keep_in_inbox>
+    <forward_older>Προώθηση email παλαιότερο από</forward_older>
+    <forward_older_to>Προώθηση παλαιότερου email σε</forward_older_to>
+    <ar_mode>Τρόπος</ar_mode>
+    <ar_mode_labels>Απενεργοποιημένο|Απάντηση πάντα|Απάντηση μία φορά|Απάντηση ξανά μετά από διάστημα</ar_mode_labels>
+    <ar_respond_only>Απάντηση στα μηνύματα που στάλθηκαν μόνο στη διεύθυνση email του χρήστη</ar_respond_only>
+    <ar_respond_again>Απάντηση ξανά μετά από (Μέρες)</ar_respond_again>
+    <ar_from>Από</ar_from>
+    <ar_subject>Θέμα</ar_subject>
+    <ar_text>Κείμενο</ar_text>
+    <ar_no_responder_for>Μη ανταπόκριση για</ar_no_responder_for>
+    <ar_respond_only_between>Ανταπόκριση μόνο μεταξύ</ar_respond_only_between>
+    <email>Email</email>
+    <responder>Καμία απάντηση για</responder>
+    <show_attached_images>Αυτόματη εμφάνιση συνημμένων εικόνων</show_attached_images>
+    <show_inline_images>Αυτόματη εμφάνιση εξωτερικών εικόνων</show_inline_images>
+    <use_reply_prefix>Χρήση προθέματος απάντησης (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 ώρες|24 ώρες</time_format_list_labels>
+    <force_admin>Force this option for both domain and user settings</force_admin>
+    <force_domain>Force this option for user settings</force_domain>
+    <to_top>Υπογραφή στο πάνω μέρος του μηνύματος</to_top>
+    <quota>Disk Quota:</quota>
+    <section_layout>Ρυθμίσεις γενικής διάταξης</section_layout>
+    <section_mail>Γενικές ρυθμίσεις mail</section_mail>
+    <section_autoresponder>Ορισμός αυτόματης απάντησης σε περίπτωση που βρίσκεστε εκτός γραφείου.</section_autoresponder>
+    <section_norespond>Οι email διευθύνσεις της λίστας δεν θα απαντηθούν.</section_norespond>
+    <domains>Domains</domains>
+    <accounts>Accounts</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Επιθυμείτε να διαγράψετε τα επιλεγμένα μηνύματα?</delete_mail>
+    <blacklist_mail>Επιθυμείτε να προσθέσετε τα επιλεγμένα μηνύματα στην μαύρη λίστα?</blacklist_mail>
+    <delete_contact>Επιθυμείτε να διαγράψετε αυτή την επαφή;</delete_contact>
+    <delete_contact_distribution>Επιθυμείτε να διαγράψετε αυτή την λίστα διανομής?</delete_contact_distribution>
+    <delete_event>Επιθυμείτε να διαγράψετε τα επιλεγμένα συμβάντα?</delete_event>
+    <delete_note>Επιθυμείτε να διαγράψετε τις επιλεγμένες σημειώσεις?</delete_note>
+    <delete_task>Επιθυμείτε να διαγράψετε τα επιλεγμένα καθήκοντα?</delete_task>
+    <delete_personalities>Επιθυμείτε να διαγράψετε τα επιλεγμένα αντικείμενα?</delete_personalities>
+    <delete_quarantine>Επιθυμείτε να διαγράψετε τα επιλεγμένα αντικείμενα?</delete_quarantine>
+    <delete_this_mail>Επιθυμείτε να διαγράψετε αυτό το μήνυμα?</delete_this_mail>
+    <delete_items>Επιθυμείτε την διαγραφή του(των) επιλεγμένου(ων) στοιχείου(ων);</delete_items>
+    <delete_item>Επιθυμείτε τη διαγραφή αυτού του στοιχείου;</delete_item>
+  </confirmation>
+  <string>
+    <no_item>Δεν υπάρχουν αντικείμενα σ&apos; αυτόν τον φάκελο.</no_item>
+  </string>
+  <menu>
+    <files>Αρχεία</files>
+    <notes>Σημειώσεις</notes>
+    <tasks>Καθήκοντα</tasks>
+    <journal>εφημερίδα</journal>
+    <calendar>Ημερολόγιο</calendar>
+    <search>Αναζήτηση</search>
+    <messages>Μηνύματα</messages>
+    <contacts>Επαφές</contacts>
+    <searchBut>Αναζήτηση</searchBut>
+    <address_book>Βιβλίο Διευθύνσεων</address_book>
+    <logout>Αποσύνδεση</logout>
+    <help>Βοήθεια</help>
+    <settings>Ρυθμίσεις</settings>
+    <switch>Αλλαγή σε</switch>
+    <help_url>language/en/help.html</help_url>
+    <quarantine>Filters</quarantine>
+    <alert_restricted_access>Δυστυχώς, η πρόσβαση σε αυτήν την καρτέλα απαγορεύεται</alert_restricted_access>
+    <basic>Έκδοση Tablet</basic>
+    <advanced>Έκδοση Υπολογιστή</advanced>
+    <mobile>Έκδοση Κινητού Τηλεφώνου</mobile>
+  </menu>
+  <tree>
+    <add_folder>Προσθήκη Φακέλου</add_folder>
+    <new_message>Νέο Μήνυμα</new_message>
+    <manage_folders>Διαχείριση Φακέλου</manage_folders>
+    <open_folder>Άνοιγμα Φακέλου</open_folder>
+    <open>Άνοιγμα</open>
+  </tree>
+  <mail_view>
+    <attachments>Συνημμένα</attachments>
+    <from>Από</from>
+    <cc>Κοιν.</cc>
+    <bcc>Κρυφή Κοιν.</bcc>
+    <subject>Θέμα</subject>
+    <all_headers>Προβολή όλων των κεφαλίδων</all_headers>
+    <all_images>Εμφάνιση εικόνων</all_images>
+    <next>Επόμενο</next>
+    <prev>Προηγούμενο</prev>
+    <first>Πρώτο</first>
+    <last>Τελευταίο</last>
+    <show_external_images>External resources have been blocked. Click here to display them.</show_external_images>
+    <download_all>Κατέβασμα όλων</download_all>
+    <detail>Λεπτομέρειες</detail>
+    <blue_box_start>Εκκίνηση</blue_box_start>
+    <blue_box_end>Τερματισμός</blue_box_end>
+    <blue_box_description>Περιγραφή</blue_box_description>
+    <blue_box_accept>Αποδοχή</blue_box_accept>
+    <blue_box_decline>Απόρριψη</blue_box_decline>
+    <blue_box_subscribe_folder>Subscribe folder</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Subscribe account</blue_box_subscribe_account>
+    <item_accept_ok>Αποδοχή στοιχείου</item_accept_ok>
+    <read>read</read>
+    <write>write</write>
+    <modify>modify</modify>
+    <delete>delete</delete>
+    <administer>administer</administer>
+    <folder_rights>Folder rights</folder_rights>
+    <items_rights>Items rights</items_rights>
+  </mail_view>
+  <login>
+    <send>Αποστολή</send>
+    <ip_check>Απενεργοποίηση εκτεταμένης ασφάλειας</ip_check>
+    <user>Χρήστης</user>
+    <email>Email</email>
+    <password>Κωδικός</password>
+    <remember>Απομνημόνευση</remember>
+    <language>Γλώσσα</language>
+    <allways_ask>Ερώτηση Πάντα</allways_ask>
+    <username>Όνομα Χρήστη</username>
+    <username_and_password>Όνομα Χρήστη και Κωδικός</username_and_password>
+    <auto_login>Αυτόματη Σύνδεση</auto_login>
+    <login>Σύνδεση</login>
+    <copyright>Powered by IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Version: $1</copyright>
+    <welcome>Καλωσήρθατε στην έκδοση του WebClient για Tablet</welcome>
+    <public_welcome>Καλωσήρθατε στο Κοινόχρηστο Ημερολόγιο</public_welcome>
+    <title>IceWarp WebClient Tablet</title>
+    <public_title>Κοινόχρηστο Ημερολόγιο</public_title>
+    <reset_password>Reset Password</reset_password>
+    <sign_up>Εγγραφή</sign_up>
+    <email>Email</email>
+    <domain>Τομέας</domain>
+    <new_password>Νέος Κωδικός</new_password>
+    <confirm_password>Επιβεβαίωση Κωδικού</confirm_password>
+    <full_name>Πλήρες Όνομα</full_name>
+    <alternative_email>Αναπληρωματικό Email</alternative_email>
+    <switch>Αλλαγή σε &lt;a href=&quot;../&quot;&gt;Προηγμένη&lt;/a&gt; ή &lt;a href=&quot;../pda&quot;&gt;Κινητού&lt;/a&gt; Έκδοση.</switch>
+    <no_javascript>&lt;b&gt;JavaScript is currently disabled. &lt;/b&gt;&lt;/div&gt;As a result, you are being redirected to WebClient Tablet Interface, which offers limited functionality. If you would like to use WebClient Desktop Interface, please visit our &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;knowledge base&lt;/a&gt; for instructions on how to enable it in your browser.&lt;br /&gt;If your browser does not support JavaScript, please download the latest version of &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; or &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>Πληκτρολογήστε τον κωδικό από την εικόνα</word>
+  </login>
+  <files>
+    <add>Μεταφόρτωση Αρχείου</add>
+    <download>Κατέβασμα</download>
+    <file>Αρχείο</file>
+  </files>
+  <file_list>
+    <filename>Όνομα αρχείου</filename>
+    <description>Περιγραφή</description>
+    <modified>Τροποποιήθηκε</modified>
+    <size>Μέγεθος</size>
+    <tags>Ετικέτες</tags>
+  </file_list>
+  <notes>
+    <category>Κατηγορία</category>
+    <add>Νέα Σημείωση</add>
+  </notes>
+  <notes_detail>
+    <note>Σημείωση</note>
+    <tags>Ετικέτες</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Νέο Καθήκον</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Εργασία</task>
+    <status>Κατάσταση</status>
+    <complete>Ολοκληρωμένο</complete>
+    <priority>Προτεραιότητα</priority>
+    <not_started>Δεν έχει ξεκινήσει</not_started>
+    <in_progress>Σε εξέλιξη</in_progress>
+    <completed>Ολοκληρώθηκε</completed>
+    <deferred>Αναβλήθηκε</deferred>
+    <waiting_for_someone_else>Σε αναμονή κάποιου άλλου</waiting_for_someone_else>
+    <medium>Μεσαία</medium>
+    <high>Υψηλή</high>
+    <low>Χαμηλή</low>
+    <tags>Ετικέτες</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Ημερομηνία Έναρξης</start_date>
+    <due_date>Ημερομηνία Λήξης</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Fullscreen</fullscreen>
+    <subject>Θέμα</subject>
+    <no_subject>Κανένα θέμα</no_subject>
+    <no_address>Καμία διεύθυνση</no_address>
+    <from>Από</from>
+    <date>Ημερομηνία</date>
+    <size>Μέγεθος</size>
+    <delete>Διαγραφή</delete>
+    <reply>Απάντηση</reply>
+    <reply_to_all>Απάντηση σε όλους</reply_to_all>
+    <forward>Προώθηση</forward>
+    <print>Εκτύπωση</print>
+    <whitelist>Ασφαλής Λίστα</whitelist>
+    <blacklist>Μαύρη Λίστα</blacklist>
+    <dws>Ενέργεια</dws>
+    <copy>Αντιγραφή</copy>
+    <move>Μεταφορά</move>
+    <copy_to_folder>Αντιγραφή στον φάκελο:</copy_to_folder>
+    <move_to_folder>Μετακίνηση στον φάκελο:</move_to_folder>
+    <mar>Σημείωση ως Αναγνωσμένο</mar>
+    <mau>Σημείωση ως Μη Αναγνωσμένο</mau>
+    <select>Επιλογή</select>
+    <all>Όλα</all>
+    <none>Κανένα</none>
+    <read>Αναγνωσμένο</read>
+    <unread>Unread</unread>
+    <invert>Αντιστροφή επιλογής</invert>
+    <doit>Να γίνει</doit>
+    <to>Προς</to>
+    <fast_reply>Γρήγορη Απάντηση</fast_reply>
+    <send_message>Αποστολή</send_message>
+    <src>ο αποστολέας αιτήθηκε ενημέρωση για να γνωρίζει ότι διαβάσατε το μήνυμα. Επιθυμείτε να αποσταλεί;</src>
+    <save>Αποθήκευση</save>
+    <select_folder>Επιλογή φακέλου</select_folder>
+    <deliver>Παράδοση</deliver>
+    <text>Κείμενο</text>
+    <received>Ληφθέντα</received>
+    <saved>Αποθηκευμένα</saved>
+    <sender>Αποστολέας</sender>
+    <owner>Ιδιοκτήτης</owner>
+    <domain>Domain</domain>
+    <show_all>Εμφάνιση όλων</show_all>
+  </mail_main>
+  <event_list>
+    <title>Τίτλος</title>
+    <start>Εκκίνηση</start>
+    <end>Λήξη</end>
+    <tags>Ετικέτες</tags>
+  </event_list>
+  <event_detail>
+    <tags>Ετικέτες</tags>
+    <show_as>Εμφάνιση ως</show_as>
+    <free>Διαθέσιμο</free>
+    <tentative>Αβέβαιο</tentative>
+    <busy>Απασχολημένο</busy>
+    <out_of_office>Εκτός Γραφείου</out_of_office>
+    <title>Τίτλος</title>
+    <location>Τοποθεσία</location>
+    <label>Ετικέτα</label>
+    <none>Κανένα</none>
+    <important>Σημαντικό</important>
+    <business>Εταιρικό</business>
+    <personal>Προσωπικό</personal>
+    <vacation>Διακοπές</vacation>
+    <must_attend>Υποχρεωτική Παρακολούθηση</must_attend>
+    <travel_required>Απαιτούμενο Ταξίδι</travel_required>
+    <needs_preparation>Χρειάζεται Προετοιμασία</needs_preparation>
+    <birthday>Γενέθλια</birthday>
+    <anniversary>Επέτειος</anniversary>
+    <phone_call>Τηλεφωνική Κλήση</phone_call>
+    <category>Κατηγορία</category>
+    <private>Προσωπικό</private>
+    <from>Από</from>
+    <to>Προς</to>
+    <notes>Σημειώσεις</notes>
+    <allday>Ημερήσιο συμβάν</allday>
+    <event>Συμβάν</event>
+    <minutes>Λεπτό(ά)</minutes>
+    <hours>Ώρα(ες)</hours>
+    <days>Ημέρα(ες)</days>
+    <remind_me>Υπενθύμιση</remind_me>
+    <before>πριν</before>
+    <no_repeating>Μη επαναλαμβανόμενο</no_repeating>
+    <daily>Καθημερινό</daily>
+    <weekly>Εβδομαδιαίο</weekly>
+    <monthly>Μηνιαίο</monthly>
+    <yearly>Ετήσιο</yearly>
+    <end_date>Ημερομηνία ολοκλήρωσης</end_date>
+    <no_end_date>Χωρίς ημερομηνία ολοκλήρωσης</no_end_date>
+    <repeat>Επανάληψη</repeat>
+    <every>Κάθε</every>
+    <every_workday>Κάθε εργάσιμη ημέρα</every_workday>
+    <recur_every>Επανάληψη κάθε</recur_every>
+    <weeks>εβδομάδα(ες)</weeks>
+    <on>στις</on>
+    <monday>Δευτέρα</monday>
+    <tuesday>Τρίτη</tuesday>
+    <wednesday>Τετάρτη</wednesday>
+    <thursday>Πέμπτη</thursday>
+    <friday>Παρασκευή</friday>
+    <saturday>Σάββατο</saturday>
+    <sunday>Κυριακή</sunday>
+    <day>Ημέρα</day>
+    <months>μήνας(ες)</months>
+    <first>Πρώτο</first>
+    <second>Δεύτερο</second>
+    <third>Τρίτο</third>
+    <fourth>Τέταρτο</fourth>
+    <last>Τελευταίο</last>
+    <week>Εβδομάδα</week>
+    <work_week>Εργάσιμη εβδομάδα</work_week>
+    <weekend>Σαββατοκύριακο</weekend>
+    <of_every>κάθε</of_every>
+    <of>του</of>
+    <years>έτος(η)</years>
+    <the>Το</the>
+    <times>φορές</times>
+    <count>πλήθος</count>
+    <until>έως</until>
+    <tags>Ετικέτες</tags>
+  </event_detail>
+  <event_main>
+    <mon>Δευ</mon>
+    <tue>Τρι</tue>
+    <wed>Τετ</wed>
+    <thu>Πεμ</thu>
+    <fri>Παρ</fri>
+    <sat>Σαβ</sat>
+    <sun>Κυρ</sun>
+    <jan>Ιανουάριος</jan>
+    <feb>Φεβρουάριος</feb>
+    <mar>Μάρτιος</mar>
+    <apr>Απρίλιος</apr>
+    <may>Μάιος</may>
+    <jun>Ιούνιος</jun>
+    <jul>Ιούλιος</jul>
+    <aug>Αύγουστος</aug>
+    <sep>Σεπτέμβριος</sep>
+    <oct>Οκτώβριος</oct>
+    <nov>Νοέμβριος</nov>
+    <dec>Δεκέμβριος</dec>
+    <week>Εβδομάδα</week>
+    <week_view>Εβδομάδα</week_view>
+    <work_week_view>Εβδομάδα Εργασίας</work_week_view>
+    <month_view>Μήνας</month_view>
+    <day_view>Ημέρα</day_view>
+    <list>Λίστα</list>
+    <add>Νέο Συμβάν</add>
+    <save>Αποθήκευση</save>
+    <no_title>Χωρίς Τίτλο</no_title>
+    <search>Αναζήτηση:</search>
+    <account>Λογαριασμός:</account>
+    <print>Εκτύπωση</print>
+  </event_main>
+  <contact_main>
+    <contact>Επαφή</contact>
+    <distribution_list>Λίστα Διανομής</distribution_list>
+    <title>Τίτλος</title>
+    <no_email>Κανένα email</no_email>
+    <card_view>Προβολή Κάρτας</card_view>
+    <list_view>Προβολή Λίστας</list_view>
+    <contact_name>Όνομα επαφής</contact_name>
+    <email>Email</email>
+    <company>Εταιρεία</company>
+    <job>Εργασία</job>
+    <department>Τμήμα</department>
+    <profession>Ειδικότητα</profession>
+    <category>Κατηγορία</category>
+    <general>Γενικά</general>
+    <first_name>Όνομα</first_name>
+    <middle_name>Όνομα Πατρός</middle_name>
+    <last_name>Επώνυμο</last_name>
+    <nick>Όνομα Χρήστη</nick>
+    <sort_string>Συμβολοσειρά ταξινόμησης</sort_string>
+    <title>Τίτλος</title>
+    <suffix>Κατάληξη</suffix>
+    <category>Κατηγορία</category>
+    <web>Ιστοσελίδα</web>
+    <street>Διεύθυνση</street>
+    <city>Πόλη</city>
+    <zip>ΤΚ</zip>
+    <state>Νομός</state>
+    <country>Χώρα</country>
+    <im>IM</im>
+    <phones>Τηλέφωνα</phones>
+    <work>Εργασία</work>
+    <home>Οικία</home>
+    <assistant>Βοηθός</assistant>
+    <fax_home>Fax οικίας</fax_home>
+    <fax_work>Fax εργασίας</fax_work>
+    <call_back>Επανάκληση</call_back>
+    <company>Εταιρεία</company>
+    <car>Αυτοκίνητο</car>
+    <isdn>ISDN</isdn>
+    <mobile>Κινητό</mobile>
+    <other>Άλλα</other>
+    <other_fax>Άλλα fax</other_fax>
+    <pager>Βομβητής</pager>
+    <primary>Πρώτιστο</primary>
+    <radio>Ραδιόφωνο</radio>
+    <telex>Telex</telex>
+    <hearing>Ακοή</hearing>
+    <add>Νέα επαφή</add>
+    <notes>Σημειώσεις</notes>
+    <no_name>Κανένα όνομα επαφής</no_name>
+    <select>Επιλογή τύπου</select>
+    <select_contacts>Επιλέξτε επαφές που επιθυμείτε να εισαχθούν</select_contacts>
+    <add_distribution>Νέα Λίστα Διανομής</add_distribution>
+    <add_new>Προσθήκη</add_new>
+    <add_item_distribution>Προσθήκη από βιβλίο διευθύνσεων</add_item_distribution>
+    <save>Αποθήκευση</save>
+    <edit>Επεξεργασία</edit>
+    <edit_selected>Επεξεργασία επιλεγμένων</edit_selected>
+    <delete_selected>Διαγραφή</delete_selected>
+    <cancel>Ακύρωση</cancel>
+    <onleave_warning>Επιθυμείτε να αποσυνδεθείτε; Όλα τα δεδομένα που δεν έχουν αποθηκευτεί θα χαθούν.</onleave_warning>
+    <tags>Ετικέτες</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>New Patient</new_patient>
+    <new_staff>New Staff</new_staff>
+    <notify_email>Notify email</notify_email>
+    <notify_sms>Notify SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>New</add>
+    <staff>Staff</staff>
+    <patient>Patient</patient>
+  </hippa_detail>
+  <grid>
+    <title>Τίτλος</title>
+    <note>Σημείωση</note>
+    <size>Μέγεθος</size>
+    <category>Κατηγορία</category>
+    <start>Εκκίνηση</start>
+    <end>Λήξη</end>
+    <save>Αποθήκευση</save>
+    <cancel>Ακύρωση</cancel>
+    <number_of_items>Number of items selected on other pages:</number_of_items>
+    <clear>Clear</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Παρακαλώ επιλέξτε το κείμενο στο οποίο επιθυμείτε να προσθέσετε υπερσύνδεσμο.</select_text>
+    <enter_url>Εισάγετε το URL για αυτόν τον σύνδεσμο:</enter_url>
+    <image_location>Εισάγετε την τοποθεσία για την εικόνα:</image_location>
+    <image_alt>Εισάγετε το εναλλακτικό κείμενο για την εικόνα:</image_alt>
+    <image>Εισαγωγή εικόνας</image>
+    <htmlsource>Κώδικας HTML</htmlsource>
+    <hyperlink>Υπερσύνδεσμος</hyperlink>
+    <underline>Υπογράμμιση</underline>
+    <italic>Πλάγια γραφή</italic>
+    <bold>Έντονη γραφή</bold>
+    <fontsize>Μέγεθος γραμματοσειράς</fontsize>
+    <fontformat>Μορφή γραμματοσειράς</fontformat>
+    <outdent>Μείωση εσοχής</outdent>
+    <indent>Αύξηση εσοχής</indent>
+    <orderedlist>Numbered list</orderedlist>
+    <unorderedlist>Bulleted list</unorderedlist>
+    <justify>Justify</justify>
+    <right>Στοίχιση δεξιά</right>
+    <center>Στοίχιση στο κέντρο</center>
+    <left>Στοίχιση αριστερά</left>
+    <blockformat>Μορφή του block</blockformat>
+    <block_type>Τύπος του block</block_type>
+    <heading>Eπικεφαλίδα</heading>
+    <paragraph>Παράγραφος</paragraph>
+    <size>Μέγεθος</size>
+    <font>Γραμματοσειρά</font>
+    <cancel>Ακύρωση</cancel>
+    <email>Email</email>
+    <options>Επιλογές</options>
+    <plain>Κείμενο</plain>
+    <html>HTML</html>
+    <from>Από</from>
+    <to>Προς</to>
+    <cc>Κοιν.</cc>
+    <bcc>Κρυφή Κοιν.</bcc>
+    <subject>Θέμα</subject>
+    <date>Ημερομηνία</date>
+    <attachments>Συνημμένα</attachments>
+    <text>Κείμενο</text>
+    <send_message>Αποστολή</send_message>
+    <save_message>Αποθήκευση</save_message>
+    <br/>
+    <spellchecker>Γλώσσα ορθογραφικού ελέγχου</spellchecker>
+    <rrc>Eπιβεβαίωση ανάγνωσης</rrc>
+    <ssm>Save sent messages to folder</ssm>
+    <psa>Χρήση Έξυπνης Σύνδεσης</psa>
+    <priority>Προτεραιότητα</priority>
+    <lowest>Μικρότερη</lowest>
+    <low>Μικρή</low>
+    <normal>Κανονική</normal>
+    <high>Υψηλή</high>
+    <highest>Ύψιστη</highest>
+    <rta>Απάντηση-Στη διεύθυνση</rta>
+    <charset>Charset</charset>
+    <auto>Αυτόματο</auto>
+    <original_message>-----Αρχικό Μήνυμα-----</original_message>
+    <read_confirmation_subject>Ανάγνωση: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Το μήνυμά σας έχει διαβαστεί.&#13;&#10;&#13;&#10;Ακολουθούν οι λεπτομέρειες του μηνύματος:&#13;&#10;&#13;&#10;Από: %FROM%&#13;&#10;Προς: %TO%&#13;&#10;Ημερομηνία: %DATE%&#13;&#10;Θέμα: %SUBJECT%</read_confirmation_text>
+    <add_contacts>Εισαγωγή επαφών</add_contacts>
+    <add_files>Add files</add_files>
+    <add_files_from_folder>Add files from folder</add_files_from_folder>
+    <add_files_from_dropbox>Add files from Dropbox</add_files_from_dropbox>
+    <leave_notice>Επιθυμείτε να αποχωρήσετε; Το μήνυμα θα χαθεί.</leave_notice>
+    <alias>Ψευδώνυμο</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Νέος Φάκελος</add>
+    <delete>Διαγραφή</delete>
+    <link>Σύνδεσμος</link>
+    <unlink>Αφαίρεση συνδέσμου</unlink>
+    <create_folder>Δημιουργία νέου φακέλου</create_folder>
+    <create>Δημιουργία</create>
+    <delete_confirmation_text>Είστε σίγουρος ότι επιθυμείτε να διαγράψετε μόνιμα τον συγκεκριμένο φάκελο;</delete_confirmation_text>
+    <empty_confirmation_text>Είστε σίγουρος ότι επιθυμείτε να διαγράψετε μόνιμα τα συγκεκριμένα αντικείμενα του φακέλου;</empty_confirmation_text>
+    <delete_yes>Ναι</delete_yes>
+    <delete_no>Όχι</delete_no>
+    <link_as>Δημιουργία συνδέσμου στον φάκελο ως</link_as>
+    <unlink_as>Διαγραφή / Μετονομασία συνδέσμου φακέλου</unlink_as>
+    <unlink_confirmation_text>Είστε σίγουρος ότι επιθυμείτε να διαγράψετε τον σύνδεσμο φακέλου;</unlink_confirmation_text>
+    <unlink_yes>Ναι</unlink_yes>
+    <unlink_no>Όχι</unlink_no>
+    <virtual>Εικονικός Φάκελος</virtual>
+    <delete_empty_folder>Διαγραφή ή Άδειασμα Φακέλου</delete_empty_folder>
+    <edit>Επεξεργασία</edit>
+    <empty>Άδειασμα</empty>
+    <rename_folder>Μετονομασία Φακέλου</rename_folder>
+    <save>Αποθήκευση</save>
+    <rename>Μετονομασία</rename>
+    <perform_action>Εκτέλεση ενέργειας για</perform_action>
+    <select_folder>Επιλογή φακέλου για διαχείριση</select_folder>
+    <open_folder>Άνοιγμα φακέλου</open_folder>
+    <open_folder_des>Χρησιμοποιήστε για να έχετε πρόσβαση στα αρχεία ενός φακέλου.</open_folder_des>
+    <link_folder>Σύνδεσμος φακέλου</link_folder>
+    <link_folder_des>Χρησιμοποιήστε το για την δημιουργία συντόμευσης στο αριστερό μενού για ένα φάκελο στην δενδροειδή εμφάνιση.</link_folder_des>
+    <add_folder>Προσθήκη φακέλου</add_folder>
+    <add_folder_dis>Χρησιμοποιήστε το για την δημιουργία ενός νέου φακέλου κάτω από τον επιλεγμένο φάκελο.</add_folder_dis>
+    <rename_folder_des>Χρησιμοποιήστε το για την μετονομασία του επιλεγμένου φακέλου.</rename_folder_des>
+    <remove_folder>Κατάργηση φακέλου</remove_folder>
+    <remove_folder_des>Use it to permanently empty and delete selected folder. Warning: you cannot undo this action!</remove_folder_des>
+    <default_folder>Ορισμός ως προεπιλεγμένος φάκελος</default_folder>
+    <default_folder_des>Χρησιμοποιήστε το για τον ορισμό του φακέλου ως προεπιλεγμένο.</default_folder_des>
+    <set_default>Ορισμός του φακέλου ως προεπιλεγμένος</set_default>
+    <set>Ορισμός</set>
+    <as_drafts>Πρότυπα</as_drafts>
+    <as_sent>Απεσταλμένα</as_sent>
+    <as_trash>Σκουπίδια</as_trash>
+    <set_as_default>Ορισμός</set_as_default>
+    <link_first>Ένας φάκελος χρειάζεται να έχει σύνδεσμο πριν οριστεί ως προεπιλεγμένος.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Εισερχόμενα</inbox>
+    <drafts>Πρότυπα</drafts>
+    <sent>Απεσταλμένα</sent>
+    <trash>Σκουπίδια</trash>
+  </common_folders>
+  <common>
+    <yes>Ναι</yes>
+    <no>Όχι</no>
+  </common>
+  <folder_types>
+    <mail>Mail</mail>
+    <contact>Επαφές</contact>
+    <event>Ημερολόγιο</event>
+    <journal>Εφημερίδα</journal>
+    <note>Σημείωση</note>
+    <task>Καθήκον</task>
+    <file>Αρχείο</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA validation failed. Try again.</login_invalid_keypair>
+    <divtcha_confirmation>Wrong captcha code</divtcha_confirmation>
+    <missing_values_text>Empty text input</missing_values_text>
+    <missing_values_email>Empty email input</missing_values_email>
+    <invalid_email>Invalid email address</invalid_email>
+    <password_not_changed>New password cannot be the same as old password</password_not_changed>
+    <reset_password_invalid_hashid>Invalid hash ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID file doesn&apos;t exist</reset_password_uid_file>
+    <account_alternative_email>Account has no alternate email address</account_alternative_email>
+    <migration_in_progress>Migration of account is in progress, please try again later</migration_in_progress>
+    <login_ip_invalid>Login IP restriction: %s</login_ip_invalid>
+    <unauthorized>Μη εξουσιοδοτημένη πρόσβαση</unauthorized>
+    <folder_type_restricted>Αυτός ο τύπος φακέλου περιορίστηκε από το διαχειριστή</folder_type_restricted>
+    <account_does_not_exists>Specified account doesn&apos;t exist</account_does_not_exists>
+    <account_invalid_id>Δεν μπορεί να ληφθεί ο λογαριασμός %s</account_invalid_id>
+    <account_unknown_protocol>Άγνωστο πρωτόκολλο λογαριασμού</account_unknown_protocol>
+    <account_missing_tag>Ο λογαριασμός δεν έχει ετικέτα %s</account_missing_tag>
+    <account_missing_id>Λείπει το ID λογαριασμού</account_missing_id>
+    <account_invalid_action>Η ενέργεια του λογαριασμού δεν είναι έγκυρη</account_invalid_action>
+    <account_already_exists>Ο λογαριασμός %s υπάρχει ήδη</account_already_exists>
+    <account_no_username>Το όνομα του λογαριασμού είτε λείπει είτε είναι κενό</account_no_username>
+    <account_no_password>Ο κωδικός του λογαριασμού είτε λείπει είτε είναι κενός</account_no_password>
+    <account_bad_password>Old password entered incorrectly</account_bad_password>
+    <account_password_policy>Password does not match the password policy</account_password_policy>
+    <account_sync>Ο συγχρονισμός λογαριασμού απέτυχε για τον λογαριασμό %s</account_sync>
+    <account_primary_delete>Δεν είναι δυνατή η διαγραφή κύριου λογαριασμού</account_primary_delete>
+    <account_test_failed>Η δοκιμή λογαριασμού απέτυχε για τον λογαριασμό %s</account_test_failed>
+    <account_signup_disabled>Απενεργοποιημένη επιλογή εγγραφής</account_signup_disabled>
+    <account_signup_error>Σφάλμα εγγραφής λογαριασμού: %s</account_signup_error>
+    <account_signup_1>Απροσδιόριστο σφάλμα</account_signup_1>
+    <account_signup_2>Ανεπαρκής άδεια</account_signup_2>
+    <account_signup_3>Πολύ μικρό μέγεθος παραμέτρων</account_signup_3>
+    <account_signup_4>Αποτυχία λειτουργίας</account_signup_4>
+    <account_signup_5>Δεν βρέθηκε διαμόρφωση</account_signup_5>
+    <account_signup_6>Πολιτική κωδικού πρόσβασης</account_signup_6>
+    <account_signup_7>Ο λογαριασμός υπάρχει ήδη</account_signup_7>
+    <account_signup_8>Invalid characters</account_signup_8>
+    <attachment_too_large>Attachment is too large: %s</attachment_too_large>
+    <password_confirmation>Αναντιστοιχία κωδικού</password_confirmation>
+    <missing_values>Αναντιστοιχία κωδικού</missing_values>
+    <addon_copy>Δεν είναι δυνατή η αντιγραφή πρόσθετου</addon_copy>
+    <attachment_file_not_found>Δεν είναι δυνατή η επισύναψη αρχείου</attachment_file_not_found>
+    <attachment_add>Αποτυχία προσθήκης συνημμένου</attachment_add>
+    <attachment_get>Αδυναμία λήψης του συνημμένου %s</attachment_get>
+    <attacment_class_unknown>Άγνωστη κλάση συνημμένου</attacment_class_unknown>
+    <auth_missing_tag>Authentication missing tag %s</auth_missing_tag>
+    <auth_export_key_private>Δεν είναι δυνατή η εξαγωγή του ιδιωτικού κλειδιού</auth_export_key_private>
+    <auth_invalid_char>Μη έγκυρος χαρακτήρας στο ιδιωτικό κλειδί</auth_invalid_char>
+    <confirmation_uid>Δεν βρέθηκε σύνδεση captcha</confirmation_uid>
+    <confirmation_word_mismatch>Εσφαλμένη εισαγωγή κείμενου captcha</confirmation_word_mismatch>
+    <db_auto_create>Δεν είναι δυνατή η αυτόματη δημιουργία της βάσης δεδομένων</db_auto_create>
+    <db_create_sqlitefile>Δεν είναι δυνατή η δημιουργία αρχείου βάσης δεδομένων SQLite</db_create_sqlitefile>
+    <db_create_tables>Δεν είναι δυνατή η δημιουργία πινάκων</db_create_tables>
+    <db_statement_prepare>Αδυναμία προετοιμασίας της δήλωσης</db_statement_prepare>
+    <db_invalid_statement>Invalid statement type</db_invalid_statement>
+    <flags_unknown_field>Σημαία λανθασμένο πεδίο</flags_unknown_field>
+    <folder_autocreate_failed>Ο φάκελος %s υπάρχει ήδη</folder_autocreate_failed>
+    <folder_already_exists>Ο φάκελος %s υπάρχει ήδη</folder_already_exists>
+    <folder_does_not_exist>Ο φάκελος %s δεν υπάρχει</folder_does_not_exist>
+    <folder_name_bad_char>Ειδικοί χαρακτήρες δεν επιτρέπονται στο όνομα του φακέλου</folder_name_bad_char>
+    <folder_name_length>Αδυναμία λήψης μήκους ονόματος φακέλου</folder_name_length>
+    <folder_name_too_long>Νέο όνομα του φακέλου είναι πολύ μεγάλο</folder_name_too_long>
+    <folder_get_list>Δεν μπορείτε να πάρετε τον κατάλογο των φακέλων</folder_get_list>
+    <folder_delete>Δεν μπορείτε να διαγράψετε το φάκελο %s</folder_delete>
+    <folder_create>Δεν είναι δυνατή η δημιουργία του φακέλου %s</folder_create>
+    <folder_rename_empty>Δεν μπορείτε να μετονομάσετε το φάκελο σε ένα κενό όνομα</folder_rename_empty>
+    <folder_move_to_self>Δεν μπορείτε να μετακινήσετε το φάκελο στον εαυτό του</folder_move_to_self>
+    <folder_move_to_subfolder>Δεν μπορείτε να μετακινήσετε το φάκελο σε έναν υποφάκελο του εαυτού του</folder_move_to_subfolder>
+    <folder_rename>Δεν μπορείτε να μετονομάσετε το φάκελο</folder_rename>
+    <folder_copy>Δεν είναι δυνατή η αντιγραφή φακέλου</folder_copy>
+    <folder_empty>Δεν μπορείτε να αδειάσετε το φάκελο</folder_empty>
+    <folder_missing_tag>Λείπει η ετικέτα του φακέλου %s</folder_missing_tag>
+    <folder_missing_account_id>Folder missing account ID</folder_missing_account_id>
+    <folder_invalid_account_id>Folder has an invalid account ID %s</folder_invalid_account_id>
+    <folder_missing_id>Λείπει το ID του φακέλου</folder_missing_id>
+    <folder_missing_name>Λείπει το όνομα φακέλου</folder_missing_name>
+    <folder_invalid_action>Άκυρη ενέργεια του φακέλου %s</folder_invalid_action>
+    <folder_invalid_type>Άκυρος τύπος του φακέλου %s</folder_invalid_type>
+    <folder_sync>Αδυναμία συγχρονισμού του φακέλου %s</folder_sync>
+    <folder_empty_non_mail>Δεν μπορεί να αδειάσει φάκελο που δεν περιέχει email</folder_empty_non_mail>
+    <folder_insufficient_rights>Ανεπαρκή δικαιώματα για να εκτελέσετε τη λειτουργία</folder_insufficient_rights>
+    <folder_mark_non_mail>Προσπάθεια για ορισμό σημαιών σε φάκελο που δεν περιέχει email</folder_mark_non_mail>
+    <freebusy_missing_tag>Λείπει η ετικέτα του freeBusy %s</freebusy_missing_tag>
+    <group_open>Δεν μπορείτε να ανοίξετε η ομάδα %s</group_open>
+    <group_subscribe>Δεν μπορείτε να εγγραφείτε στην ομάδα %s</group_subscribe>
+    <group_add>Δεν μπορείτε να δημιουργήσετε ομάδα</group_add>
+    <group_edit>Δεν μπορείτε να επεξεργαστείτε την ομάδα %s</group_edit>
+    <group_user_add>Δεν μπορείτε να προσθέσετε χρήστες στην ομάδα %s</group_user_add>
+    <group_user_edit>Δεν μπορείτε να επεξεργαστείτε τον χρήστη ομάδας %s</group_user_edit>
+    <group_user_delete>Δεν μπορείτε να διαγράψετε τον χρήστη ομάδας %s</group_user_delete>
+    <groupware_upgrade_task>GroupWare service update procedure is running. Please try again later.</groupware_upgrade_task>
+    <folder_open>Δεν μπορείτε να ανοίξετε την ομάδα %s</folder_open>
+    <call_open_folder_first>Ο φάκελος groupware δεν ανοίγει σε λειτουργία όπου απαιτείται</call_open_folder_first>
+    <call_open_group_first>Η ομάδα groupware δεν ανοίγει σε λειτουργία όπου απαιτείται</call_open_group_first>
+    <subscribe_account_gw>Σφάλμα εγγραφής λογαριασμού</subscribe_account_gw>
+    <unsubscribe_account_gw>Σφάλμα διαγραφής λογαριασμού</unsubscribe_account_gw>
+    <imap_clone>Αδυναμία κλωνοποίησης IMAP αντικειμένου</imap_clone>
+    <imap_open>Δεν μπορεί να ανοίξει το IMAP stream</imap_open>
+    <imap_internal>Εσωτερικό σφάλμα IMAP: %s</imap_internal>
+    <imap_delimiter_retrieval>Λάθος οριοθέτησης ανάκτησης IMAP</imap_delimiter_retrieval>
+    <imap_getmailboxes>Δεν μπορείτε να πάρετε τον κατάλογο των γραμματοκιβωτίων</imap_getmailboxes>
+    <imap_mailbox_create>Το γραμματοκιβώτιο IMAP %s δημιουργία</imap_mailbox_create>
+    <imap_mailbox_subscribe>Δεν μπορείτε να εγγράψετε το γραμματοκιβώτιο ΙΜΑP %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>Δεν μπορείτε να διαγράψετε το γραμματοκιβώτιο %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Δεν μπορείτε να διαγράψετε το γραμματοκιβώτιο %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>Η μετονομασία του γραμματοκιβωτίου IMAP %s απέτυχε</imap_mailbox_rename>
+    <imap_mailbox_delete_items>Διαγραφή αντικειμένων γραμματοκιβώτιου IMAP</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>Άδειασμα αντικειμένων γραμματοκιβώτιου IMAP</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>Αποτυχία μεταφοράς αντικειμένων IMAP</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>Αποτυχία μεταφοράς αντικειμένων IMAP</imap_mailbox_moveitems>
+    <imap_mailbox_open>Δεν είναι δυνατό το εκ νέου άνοιγμα του γραμματοκιβώτιου %s</imap_mailbox_open>
+    <imap_mailbox_message_list>Δεν μπορείτε να πάρετε τον κατάλογο των μηνυμάτων</imap_mailbox_message_list>
+    <imap_message_details>Δεν μπορείτε να πάρετε τις λεπτομέρειες για το μήνυμα %s</imap_message_details>
+    <imap_no_headers>Δεν μπορείτε να λάβετε τις κεφαλίδες του μηνύματος %s</imap_no_headers>
+    <imap_no_body>Δεν μπορείτε να λάβετε το σώμα του μηνύματος %s</imap_no_body>
+    <imap_message_create>Δεν μπορείτε να προσθέσετε μήνυμα</imap_message_create>
+    <imap_message_delete>Δεν μπορείτε να διαγράψετε το μήνυμα %s</imap_message_delete>
+    <imap_message_copy>Δεν μπορείτε να αντιγράψετε το μήνυμα %s</imap_message_copy>
+    <imap_message_move>Δεν είναι δυνατή η μετακίνηση του μηνύματος %s</imap_message_move>
+    <imap_flags_set>Δεν μπορείτε να ορίσετε τις σημαίες του μηνύματος %s</imap_flags_set>
+    <imap_flags_clear>Δεν μπορείτε να καθαρίσετε τις σημαίες του μηνύματος %s</imap_flags_clear>
+    <imap_message_not_found>Νέο μήνυμα δεν βρέθηκε στο γραμματοκιβώτιο προορισμού</imap_message_not_found>
+    <subscribe_account_imap>Σφάλμα κατά την εγγραφή λογαριασμού</subscribe_account_imap>
+    <unsubscribe_account_imap>Σφάλμα κατά τη διαγραφή λογαριασμού</unsubscribe_account_imap>
+    <import_vcalendar>Αδυναμία εισαγωγής vCalendar</import_vcalendar>
+    <import_vcard>Αδυναμία εισαγωγής vCard</import_vcard>
+    <import_missing_tag>Εισαγωγή της ετικέτας που λείπει %s</import_missing_tag>
+    <import_missing_action>Εισαγωγή της ενέργειας που λείπει</import_missing_action>
+    <import_invalid_action>Λανθασμένη εισαγωγή της ενέργειας που λείπει %s</import_invalid_action>
+    <import_missing_account_id>Εισαγωγή του ID λογαριασμού που λείπει</import_missing_account_id>
+    <import_invalid_account_id>Εισαγωγή λανθασμένου ID λογαριασμού</import_invalid_account_id>
+    <import_missing_folder_id>Εισαγωγή του ID φακέλου που λείπει</import_missing_folder_id>
+    <import_invalid_folder_id>Εισαγωγή λανθασμένου ID φακέλου</import_invalid_folder_id>
+    <import_invalid_item_id>Εισαγωγή λανθασμένου ID αντικειμένου</import_invalid_item_id>
+    <import_add_items>Αδυναμία δημιουργίας αντικειμένων (λίστα)</import_add_items>
+    <import_invalid_data>Προσπάθεια εισαγωγής δεδομένων που δεν υποστηρίζονται</import_invalid_data>
+    <export_invalid_account>Προσπάθεια εξαγωγής μη υπάρχοντος λογαριασμού</export_invalid_account>
+    <imip_versit_convert>iMIP versit conversion</imip_versit_convert>
+    <imip_versit_empty>iMIP versit empty</imip_versit_empty>
+    <imip_missing_folder>iMIP missing folder</imip_missing_folder>
+    <inputstream_no_xml_input>No XML passed to input</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Κατεστραμμένη XML input</inputstream_corrupted_input>
+    <item_invalid_id>Δεν υπάρχει ID αντικειμένου</item_invalid_id>
+    <item_count>Δεν μπορείτε να πάρετε το στοιχείο μέτρησης</item_count>
+    <item_create>Δεν είναι δυνατή η δημιουργία στοιχείου</item_create>
+    <item_delete>Το στοιχείο %s δεν μπορεί να διαγραφεί</item_delete>
+    <item_move>Item cannot be moved</item_move>
+    <item_edit>Σφάλμα επεξεργασίας του αντικειμένου %s</item_edit>
+    <item_occurrance_delete>Δεν είναι δυνατή η διαγραφή του περιστατικού %s</item_occurrance_delete>
+    <item_occurrance_create>Cannot create occurrence</item_occurrance_create>
+    <item_exception_delete>Δεν είναι δυνατή η διαγραφή του περιστατικού %s</item_exception_delete>
+    <item_exception_create>Δεν είναι δυνατή η δημιουργία εξαίρεσης</item_exception_create>
+    <item_copy>Δεν μπορείτε να αντιγράψετε το στοιχείο</item_copy>
+    <item_copy_multiple>Δεν είναι δυνατή η αντιγραφή πολλών στοιχείων</item_copy_multiple>
+    <item_copy_destination>Δεν μπορεί να πάρει το φάκελο προορισμού</item_copy_destination>
+    <item_copy_destination_type>Δεν μπορείτε να αντιγράψετε σε φάκελο διαφορετικού τύπου από τον φάκελο προέλευσης</item_copy_destination_type>
+    <item_count_retrieve>Δεν μπορείτε να μετρήσετε αντικείμενα του φακέλου</item_count_retrieve>
+    <item_missing_tag>Δεν υπάρχει η ετικέτα του στοιχείου</item_missing_tag>
+    <item_missing_account_id>Δεν υπάρχει το ID λογαριασμού</item_missing_account_id>
+    <item_invalid_account_id>Λανθασμένο ID του λογαριασμού %s</item_invalid_account_id>
+    <item_missing_folder_id>Δεν υπάρχει το ID του φακέλου</item_missing_folder_id>
+    <item_invalid_folder_id>Λανθασμένο ID του φακέλου %s</item_invalid_folder_id>
+    <item_missing_item_id>Δεν υπάρχει το ID του στοιχείου</item_missing_item_id>
+    <item_invalid_item_id>Λανθασμένο ID του στοιχείου %s</item_invalid_item_id>
+    <item_invalid_action>Λανθασμένη ενέργεια αντικειμένου</item_invalid_action>
+    <login_invalid>Λανθασμένη σύνδεση για τον χρήστη %s</login_invalid>
+    <login_account_valid>Invalid account %s</login_account_valid>
+    <phpmailer_>Generic mailer error, message not sent</phpmailer_>
+    <phpmailer_smtp_auth>Mailer could not authenticate, message not sent</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer could not connect to SMTP, message not sent</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer is missing recipients, message not sent</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer doesn&apos;t support this message type, message not sent</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Σφάλμα αποστολής sendmail</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Σφάλμα αποστολής email</phpmailer_mail_send>
+    <phpmailer_language>Δεν είναι δυνατό το άνοιγμα αρχείου γλώσσας</phpmailer_language>
+    <phpmailer_add_attachment>Δεν είναι δυνατή η επισύναψη αρχείου</phpmailer_add_attachment>
+    <phpmailer_encode_file>Δεν είναι δυνατή η κωδικοποίηση συνημμένων αρχείου</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Άγνωστος τύπος κωδικοποίησης συνημμένου</phpmailer_encode_unknown>
+    <mailparse_empty>Καμία πηγή προς ανάλυση</mailparse_empty>
+    <mailparse_parser_init>Απέτυχε η ανάλυση του email</mailparse_parser_init>
+    <mailparse_get_part>Δεν μπορείτε να πάρετε το μέρος %s</mailparse_get_part>
+    <message_missing_tag>Έλλειψη ετικέτας του μηνύματος %s</message_missing_tag>
+    <message_missing_account_id>Έλλειψη ID λογαριασμού μηνύματος</message_missing_account_id>
+    <message_invald_account>Λανθασμένο ID λογαριασμού μηνύματος</message_invald_account>
+    <message_missing_folder_id>Έλλειψη ID φακέλου μηνύματος</message_missing_folder_id>
+    <message_invald_folder>Λανθασμένο ID φακέλου μηνύματος</message_invald_folder>
+    <message_missing_item_id>Έλλειψη ID αντικειμένου μηνύματος</message_missing_item_id>
+    <message_invalid_action>Λανθασμένη ενέργεια μηνύματος</message_invalid_action>
+    <message_get_not_allowed>Cannot update folder list due to insufficient rights</message_get_not_allowed>
+    <message_attachment_type>Cannot parse attachment %s</message_attachment_type>
+    <message_attachment_existence>Δεν βρέθηκε το πρόσφατα φορτωμένο συνημμένο</message_attachment_existence>
+    <rss_channel_exist>Το συγκεκριμένο κανάλι URL δεν μπορεί να ανοιχτεί %s</rss_channel_exist>
+    <rss_invalid_channel>Δεν είναι δυνατή η πρόσβαση στο κανάλι</rss_invalid_channel>
+    <settings_access_denied>Δεν επιτρέπεται η πρόσβαση</settings_access_denied>
+    <settings_missing_tag>Ορισμός ελλιπούς ετικέτας %s</settings_missing_tag>
+    <settings_duplicity>XML settings file formatting error</settings_duplicity>
+    <settings_get_domain_file>Δεν μπορώ να διαβάσω το αρχείο ρυθμίσεων τομέα %s</settings_get_domain_file>
+    <settings_domain_set>Ορισμός ρυθμίσεων τομέα στο αρχείο %s</settings_domain_set>
+    <settings_user_set>Cannot access users settings in file %. Check permissions and mail folder.</settings_user_set>
+    <settings_public_set>Ορισμός κοινόχρηστων δεδομένων στο αρχείο %s</settings_public_set>
+    <settings_shared_set>Δεν είναι δυνατή η αποθήκευση των κοινών λογαριασμών</settings_shared_set>
+    <settings_owner_set>Δεν μπορείτε να ορίσετε τις ρυθμίσεις για τον ιδιοκτήτη</settings_owner_set>
+    <session_expired>Η σύνδεση %s έχει λήξει</session_expired>
+    <session_no_user>Δεν μπορεί να ανακτηθεί το αντικείμενο συνεδρίας χρήστη</session_no_user>
+    <smime_no_recipient>Κανένας παραλήπτης SMIME</smime_no_recipient>
+    <SMTP_data_not_accepted>Τα δεδομένα SMTP δεν έχουν γίνει αποδεκτά από τον server: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP Από: αποτυχία (από)</SMTP_from_failed>
+    <SMTP_recipients_failed>αποτυχία παραληπτών SMTP (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Δεν μπορείτε να ορίσετε ορθογραφικό έλεγχο λειτουργίας</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Δεν είναι δυνατό το άνοιγμα λεξικού ορθογραφικού έλεγχος (λεξ)</spellchecker_open_dictionary>
+    <spellchecker_add_word>Δεν μπορεί αν εισαχθεί νέα λέξη %s στο λεξικό</spellchecker_add_word>
+    <spellchecker_missing_check_id>Λείπει η λέξη αναγνώρισης</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Λείπει η ετικέτα %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Λείπει το λεξικό αναγνώρισης</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Λείπει λέξη</spellchecker_missing_word>
+    <upload_tag_missing>Φόρτωση ελλιπούς ετικέτας</upload_tag_missing>
+    <upload_missing_attribute>Φόρτωση ελλιπούς χαρακτηριστικού</upload_missing_attribute>
+    <upload_attachment_missing>Φόρτωση ελλιπούς συνημμένου</upload_attachment_missing>
+    <xml_invalid_file_name>Κενό όνομα φακέλου XML</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>Το XML Xpath επέστρεψε περισσότερα από ένα αποτελέσματα στην αναζήτησή σας</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>Ο συγκεκριμένο κόμβος XML δεν βρέθηκε %s</xml_node_does_not_exist>
+    <xmlrequest_path>Λανθασμένο αρχείο προτύπου (διαδρομή)</xmlrequest_path>
+    <xmlrequest_access_denied>Δεν επιτρέπεται η πρόσβαση</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Λανθασμένος τύπος αίτησης (τύπος)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Λείπει χαρακτηριστικό ονομάτων</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Λείπει ή είναι λανθασμένο το SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>Η ετικέτα του XMLRequest %s λείπει</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Λείπει ο κατασκευαστής κλάσης</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Άγνωστο αποτέλεσμα μορφής %s</xmlrequest_unkown_format>
+    <not_implemented>Δεν έχει υλοποιηθεί ακόμα</not_implemented>
+    <logdir_create>Δεν είναι δυνατή η δημιουργία καταλόγου καταγραφής %s</logdir_create>
+    <api_property_get>Δεν μπορείτε να ανακτήσετε τις ιδιότητες για %s</api_property_get>
+    <wm_disabled>Ο WebClient είναι απενεργοποιημένος</wm_disabled>
+    <gw_init_error>Σφάλμα προετοιμασίας GroupWare</gw_init_error>
+    <default>Default exception %s</default>
+    <other_accounts_disabled>Creating other accounts is disabled</other_accounts_disabled>
+    <link_compressed_variable_missing>Σφάλμα στο URL, έχετε επαναπροωθηθεί στην αρχική σελίδα</link_compressed_variable_missing>
+    <login_expired>Η σύνδεση έχει λήξει, παρακαλώ συνδεθείτε ξανά</login_expired>
+    <account_disabled>Απενεργοποιημένος λογαριασμός</account_disabled>
+    <folder_set_default>Ο φάκελος &quot;%s&quot; δεν μπορεί να οριστεί ως προεπιλογή</folder_set_default>
+    <personality_confirmation_invalid_user>Email address cannot be confirmed: Invalid User</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>Email address cannot be confirmed: Invalid Hash</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Blacklist item failed</item_blacklist_error>
+    <item_whitelist_error>Whitelist item failed</item_whitelist_error>
+    <unverified_signature>Unable to verify message signature</unverified_signature>
+    <account_is_guest>Access not allowed for guests</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Item selection cleared</item_selection_cleared>
+    <logged_out>You have logged out</logged_out>
+    <message_send_ok>Message sent</message_send_ok>
+    <item_move_ok>Item(s) moved</item_move_ok>
+    <item_copy_ok>Item(s) copied</item_copy_ok>
+    <item_delete_ok>Item(s) deleted</item_delete_ok>
+    <item_mark_ok>Item(s) marked</item_mark_ok>
+    <settings_save_ok>Settings saved</settings_save_ok>
+    <loading_next_message>Φόρτωση επόμενου μηνύματος</loading_next_message>
+    <loading_prev_message>Φόρτωση προηγούμενου μηνύματος</loading_prev_message>
+    <loading_next_page>Φόρτωση επόμενης σελίδας</loading_next_page>
+    <loading_prev_page>Φόρτωση προηγούμενης σελίδας</loading_prev_page>
+    <loading_next_month>Φόρτωση επόμενου μήνα</loading_next_month>
+    <loading_prev_month>Φόρτωση προηγούμενου μήνα</loading_prev_month>
+    <loading_next_week>Φόρτωση επόμενης εβδομάδας</loading_next_week>
+    <loading_prev_week>Φόρτωση προηγούμενης εβδομάδας</loading_prev_week>
+    <loading_next_day>Φόρτωση επόμενης ημέρας</loading_next_day>
+    <loading_prev_day>Φόρτωση προηγούμενης ημέρας</loading_prev_day>
+    <password_change_ok>Password changed</password_change_ok>
+    <item_whitelist_ok>Το στοιχείο προστέθηκε στη λευκή λίστα</item_whitelist_ok>
+    <item_blacklist_ok>Το στοιχείο προστέθηκε στη μαύρη λίστα</item_blacklist_ok>
+    <folder_set_default_ok>Folder set as default</folder_set_default_ok>
+    <subscribe_account_ok>Account subscribed</subscribe_account_ok>
+    <subscribe_folder_ok>Folder subscribed</subscribe_folder_ok>
+    <item_decline_ok>Item declined</item_decline_ok>
+    <access_granted>You have been granted access to &quot;%s&quot; by &quot;%s&quot;.</access_granted>
+    <message_save_ok>Message saved</message_save_ok>
+    <item_accept_ok>Item accepted</item_accept_ok>
+  </messages>
+</language>

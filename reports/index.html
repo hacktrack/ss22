@@ -1,0 +1,26 @@
+<?php
+header('X-Frame-Options: SAMEORIGIN');
+header("X-Robots-Tag: noindex");
+try{
+	require_once( "inc/action.php" );
+	
+	//Process form - authorize folder
+	$go = $_REQUEST['go']?true:false;
+	//Word passed to form input
+	$word = $_REQUEST['word'];
+	//Folder id to be authorized
+	$folder = $_REQUEST['folder'];
+	
+	// Display image
+	if ($_REQUEST['image']) {
+	  challengeresponseimage($folder);
+	}
+	
+	//Create Challenge Action object
+	$challengeAction = ChallengeAction::instance();
+	//Authorize the message,prove you are hunan (challenge response)
+	$challengeAction->challengeResponse( $folder, $go, $word );
+}catch(Exception $e){
+	echo '<div style="border:1px solid #F00;background-color:#F99;">Error UID:' . print_r($e->getMessage()) . '</div>';
+}
+?>

@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <other>
+    <primary>기본</primary>
+    <secondary>두번째</secondary>
+    <success>성공</success>
+    <warning>경고</warning>
+    <error>오류</error>
+    <grey>회색</grey>
+    <borderless>경계선 없음</borderless>
+    <demo>데모</demo>
+    <other>기타</other>
+    <search_placeholder>무엇을 찾고 계십니까?</search_placeholder>
+    <imagepath_en>client/languages/en/images/</imagepath_en>
+    <session_expired>세션이 만료되었습니다</session_expired>
+  </other>
+  <main>
+    <logout>로그아웃</logout>
+    <dashboard>대시보드</dashboard>
+    <console>API Console</console>
+    <search>검색</search>
+    <support_url>http://www.icewarp.co.kr/support/</support_url>
+    <spam_queues>스팸 큐</spam_queues>
+    <white_labeling>화이트 라벨링</white_labeling>
+    <content_rules>콘텐트 규칙</content_rules>
+    <certificates>인증서</certificates>
+    <server_settings>서버 설정</server_settings>
+    <policies>정책</policies>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <webclient>웹클라이언트</webclient>
+    <support>지원</support>
+    <subscription>등록</subscription>
+    <account_settings>계정 설정</account_settings>
+    <management>사용자와 도메인</management>
+    <oauth>OAuth 공급자</oauth>
+    <night_mode>저녁 모드</night_mode>
+  </main>
+  <form_buttons>
+    <ok>확인</ok>
+    <cancel>취소</cancel>
+    <retry>재시도</retry>
+    <close>닫기</close>
+  </form_buttons>
+  <datetime>
+    <php_date>d/m/Y</php_date>
+    <php_time>H:i:s</php_time>
+    <php_time_minutes>H:i</php_time_minutes>
+    <mon>월</mon>
+    <tue>화</tue>
+    <wed>수</wed>
+    <thu>목</thu>
+    <fri>금</fri>
+    <sat>토</sat>
+    <sun>일</sun>
+    <monday>월요일</monday>
+    <tuesday>화요일</tuesday>
+    <wednesday>수요일</wednesday>
+    <thursday>목요일</thursday>
+    <friday>금요일</friday>
+    <saturday>토요일</saturday>
+    <sunday>일요일</sunday>
+    <january>1월</january>
+    <february>2월</february>
+    <march>3월</march>
+    <april>4월</april>
+    <may>5월</may>
+    <june>6월</june>
+    <july>7월</july>
+    <august>8월</august>
+    <september>9월</september>
+    <october>10월</october>
+    <november>11월</november>
+    <december>12월</december>
+    <days>일;일</days>
+    <year>년</year>
+    <years>년</years>
+  </datetime>
+  <service_statistics>
+    <uptime>가동시간</uptime>
+    <memorysize>운영 Set 크기</memorysize>
+    <memorypeak>운영 Set 크기 (Peak)</memorypeak>
+    <msgreceived>수신</msgreceived>
+    <msgsent>발송</msgsent>
+    <msgfailed>실패</msgfailed>
+    <msgvirus>바이러스</msgvirus>
+    <msgcontentfilter>콘텐트필터</msgcontentfilter>
+    <msgrules>규칙</msgrules>
+    <msgexternal>외부 필터</msgexternal>
+    <msgintrusionprevention>침입방지</msgintrusionprevention>
+    <msgdns>DNSBL</msgdns>
+    <quarantine>격리</quarantine>
+    <spamassasin>스팸어세신</spamassasin>
+    <spammarked>스팸 표시</spammarked>
+    <spamlivebulk>안티스팸 라이브 (Bulk)</spamlivebulk>
+    <spamlive>안티스팸 라이브 (Spam)</spamlive>
+    <refused>스팸 거부</refused>
+    <greylisting>그레이리스트</greylisting>
+    <conntotal>전체 연결</conntotal>
+    <serverconn>서버 연결 (수)</serverconn>
+    <serverconnpeak>서버 연결 (Peak)</serverconnpeak>
+    <serverdatatotal>전체 서버 데이터</serverdatatotal>
+    <serverdatain>서버 수신 데이터</serverdatain>
+    <serverdataout>서버 발송 데이터</serverdataout>
+    <clientconn>클라이언트 연결 (수)</clientconn>
+    <clientconnpeak>클라이언트 연결 (Peak)</clientconnpeak>
+    <clientdatatotal>클라이언트 전송 데이터</clientdatatotal>
+    <clientdatain>클라이언트 수신 데이터</clientdatain>
+    <clientdataout>클라이언트 발신 데이터</clientdataout>
+    <packetsreceived>수신 패킷</packetsreceived>
+    <packetssent>발송 패킷</packetssent>
+    <rtppacketsreceived>수신 RTP 패킷</rtppacketsreceived>
+    <rtppacketssent>발송 RTP 패킷</rtppacketssent>
+    <callcount>Call 수량</callcount>
+    <callpeak>Call 피크</callpeak>
+    <calltotal>전체 Call</calltotal>
+  </service_statistics>
+  <management>
+    <domainlist>도메인 목록</domainlist>
+    <guest_accounts>손님 계정</guest_accounts>
+  </management>
+  <dashboard>
+    <server_data>서버 데이터 (MB)</server_data>
+    <client_data>클라이언트 데이터 (MB)</client_data>
+    <received>수신</received>
+    <sent>발신</sent>
+    <active_users>실제 사용자</active_users>
+    <storage>사용된 전체 스토리지</storage>
+    <mail_sent>발송 메일</mail_sent>
+    <mail_received>수신 메일</mail_received>
+    <realtime>실시간</realtime>
+    <hour>최근 시간</hour>
+    <day>하루</day>
+    <week>한 주</week>
+    <month>한 달</month>
+    <year>1년</year>
+    <current_traffic>현재 트래픽</current_traffic>
+    <services_statuses>서비스 상태</services_statuses>
+    <services>서비스</services>
+    <uptime>가동시간</uptime>
+    <connections>연결</connections>
+    <data>데이터</data>
+    <service>서비스</service>
+    <category>카테고리</category>
+    <time_period>기간</time_period>
+    <cancel>취소</cancel>
+    <smtp_connections>SMTP 연결</smtp_connections>
+    <imappop3_connections>IMAP/POP3 연결</imappop3_connections>
+    <web_connections>Web 연결</web_connections>
+    <statistics>통계</statistics>
+    <settings>설정</settings>
+    <restart>재시작</restart>
+    <stop>중지</stop>
+    <start>시작</start>
+    <mail_services>메일 서비스</mail_services>
+    <web_services>웹 서비스</web_services>
+    <smtp>SMTP</smtp>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+    <control>Web</control>
+    <ftp>FTP</ftp>
+    <socks>SOCKS</socks>
+    <supportive_services>백그라운드 서비스</supportive_services>
+    <minger>Minger</minger>
+    <ldap>LDAP</ldap>
+    <snmp>SNMP</snmp>
+    <communication>커뮤이케이션</communication>
+    <im>메신저</im>
+    <voip>VoIP</voip>
+    <sms>SMS</sms>
+    <meeting>웹미팅</meeting>
+    <collaboration>협업</collaboration>
+    <calendar>그룹웨어</calendar>
+    <groupware_notification>그룹웨어 알림</groupware_notification>
+    <webclient>웹클라이언트</webclient>
+    <webdav>WebDAV</webdav>
+    <security>보안</security>
+    <antivirus>안티-바이러스</antivirus>
+    <antispam>안티-스팸</antispam>
+    <mobility>모바일</mobility>
+    <activesync>ActiveSync</activesync>
+    <syncml>SyncML</syncml>
+    <sip>VoIP</sip>
+    <teamchat>팀채팅</teamchat>
+    <sqlite>서버는 SQLite 데이터베이스를 사용하지만 현재 사용 권한이 없습니다. 데이터베이스 서버 사용을 위해 그룹웨어에서 DB를 설정하시기 바랍니다.</sqlite>
+    <plan>플랜</plan>
+    <cluster_id>클러스터</cluster_id>
+    <price_user_month>전체 월 비용</price_user_month>
+    <next_billing>다음 빌링</next_billing>
+    <upgrade>서비스 플랜 업그레이드</upgrade>
+    <hypervisor>하이퍼바이저</hypervisor>
+    <manage>관리</manage>
+  </dashboard>
+  <generic>
+    <hh_mm>hh:mm</hh_mm>
+    <and>And</and>
+    <or>Or</or>
+    <not>Not</not>
+    <add uses="server certificates">추가</add>
+    <alias>별명</alias>
+    <cancel>취소</cancel>
+    <continue>계속</continue>
+    <reset>리셋</reset>
+    <back>뒤로</back>
+    <create_new_account_0>새 사용자 생성</create_new_account_0>
+    <create_new_account_1>새 메일리스트 생성</create_new_account_1>
+    <create_new_account_7>새 그룹 생성</create_new_account_7>
+    <create_new_account_8>신규 자원 생성</create_new_account_8>
+    <create_new_account_d>새 도메인 생성</create_new_account_d>
+    <days>일</days>
+    <delete uses="server certificates">삭제</delete>
+    <domain>도메인</domain>
+    <domain_name>도메인 명</domain_name>
+    <enter_additional_alias>추가 별명 입력</enter_additional_alias>
+    <enter_password>비밀번호 입력</enter_password>
+    <enter_time_in_minutes>시간 (분)을 입력</enter_time_in_minutes>
+    <enter_value>값 입력</enter_value>
+    <from>수신자</from>
+    <generate>생성</generate>
+    <size_b>B</size_b>
+    <size_kb>kB</size_kb>
+    <size_mb>MB</size_mb>
+    <size_gb>GB</size_gb>
+    <size_tb>TB</size_tb>
+    <size_pb>PB</size_pb>
+    <messages>메시지</messages>
+    <message_error_heading>오류</message_error_heading>
+    <message_success_heading>성공</message_success_heading>
+    <message_warning_heading>경고</message_warning_heading>
+    <minutes>분</minutes>
+    <seconds>초</seconds>
+    <name>이름</name>
+    <new_group>새 그룹</new_group>
+    <new_mailing_list>새 메일링 리스트</new_mailing_list>
+    <new_user>새 유저</new_user>
+    <new_domain>새 도메인</new_domain>
+    <new_resource>새 자원</new_resource>
+    <password>비밀번호</password>
+    <plus_symbol>+</plus_symbol>
+    <reset_to_default>기본값으로 재설정</reset_to_default>
+    <results>결과</results>
+    <retry>재시도</retry>
+    <save>저장</save>
+    <do_not_save>저장하지 않음</do_not_save>
+    <save_and_add_another>저장하고 계속 추가</save_and_add_another>
+    <save_as>다른 이름으로 저장</save_as>
+    <select>선택</select>
+    <select_action>작업 선택</select_action>
+    <share>공유</share>
+    <subject>제목</subject>
+    <first_name>이름</first_name>
+    <surname>성</surname>
+    <text>택스트</text>
+    <try_again>재시도</try_again>
+    <icewarp_webadmin>IceWarp 웹관리자</icewarp_webadmin>
+    <group_name>그룹 이름</group_name>
+    <resource_name>자원 이름</resource_name>
+    <upload>업로드</upload>
+    <upload_photo>사진 업로드</upload_photo>
+    <type uses="new resource">유형</type>
+    <done uses="permissions">완료</done>
+    <set_to_default>기본 값으로 설정</set_to_default>
+    <export>내보내기</export>
+    <all>전부</all>
+    <ok>확인</ok>
+    <close>닫기</close>
+    <download>다운로드</download>
+    <port>포트</port>
+    <on>On</on>
+    <off>Off</off>
+    <copy_to_clipboard>대시보드로 복사</copy_to_clipboard>
+    <plan_selection>플랜 선택</plan_selection>
+  </generic>
+  <api_console>
+    <webserver>웹 서버</webserver>
+    <webdav>WebDAV</webdav>
+    <voip>VoIP</voip>
+    <system_tools>시스템 도구</system_tools>
+    <storage>저장공간</storage>
+    <smtp_pop3_imap>SMTP/POP3/IMAP</smtp_pop3_imap>
+    <sms>SMS</sms>
+    <smart_discover>SmartDiscover</smart_discover>
+    <proxy>Proxy</proxy>
+    <protocols>Protocols</protocols>
+    <mobile_sync>Mobile Sync</mobile_sync>
+    <mail>메일</mail>
+    <logging>로그</logging>
+    <ldap>LDAP</ldap>
+    <instant_messaging>메신저</instant_messaging>
+    <gui>GUI</gui>
+    <groupware>그룹웨어</groupware>
+    <general>일반</general>
+    <ftp>FTP</ftp>
+    <domains>도메인</domains>
+    <connection>연결</connection>
+    <conferencing>웹미팅</conferencing>
+    <antivirus>안티-바이러스</antivirus>
+    <antispam>안티-스팸</antispam>
+    <advanced>고급</advanced>
+    <accounts_policies>계정 정책</accounts_policies>
+    <accounts>계정</accounts>
+    <save>저장</save>
+    <type_string>문자열</type_string>
+    <type_longstring>긴문자</type_longstring>
+    <type_integer>정수</type_integer>
+    <type_boolean>논리</type_boolean>
+    <type_enum>숫자</type_enum>
+    <true>참</true>
+    <false>거짓</false>
+    <mailinglist>메일링 리스트</mailinglist>
+    <domain>도메인</domain>
+    <user>사용자</user>
+    <edit>수정</edit>
+    <group>그룹</group>
+    <resource>자원</resource>
+    <name>이름</name>
+    <type>유형</type>
+    <val>값</val>
+    <description>설명</description>
+    <view>보기</view>
+  </api_console>
+  <client_applications>
+    <client_applications>클라이언트 어플리케이션</client_applications>
+    <icewarp_desktop>데스크탑 클라이언트</icewarp_desktop>
+    <icewarp_outlook_sync>Outlook Sync</icewarp_outlook_sync>
+    <mobile_devices>모바일 기기</mobile_devices>
+  </client_applications>
+  <client_applications_help>
+    <client_applications>사용자의 모바일 기기, Outlook Sync, 데스크탑 클라이언트 어플리케이션을 관리합니다.</client_applications>
+    <icewarp_desktop>데스크탑 클라이언트 설치 프로그램을 다운로드하고 라이선스를 관리합니다.</icewarp_desktop>
+    <icewarp_outlook_sync>Outlook Sync 설치 프로그램을 다운로드하고 원격으로 설정 및 라이선스를 관리합니다.</icewarp_outlook_sync>
+    <mobile_devices>연결된 모바일 기기 설정을 관리합니다.</mobile_devices>
+  </client_applications_help>
+  <permissions>
+    <inbox>받은 편지함</inbox>
+    <calendar>일정</calendar>
+    <contacts>연락처</contacts>
+    <files>파일</files>
+    <permissions>권한</permissions>
+    <anyone>모두 / 익명</anyone>
+    <custom>커스텀</custom>
+    <all>모두</all>
+    <none>없음</none>
+    <read>읽기</read>
+    <write>쓰기</write>
+    <full>모든</full>
+    <owner>소유자</owner>
+    <add_new_user_or_domain>새 사용자 또는 도메인 추가</add_new_user_or_domain>
+    <inherit>상속</inherit>
+    <show_all_folders>모든 폴더 보기</show_all_folders>
+    <show_less>작게 보기</show_less>
+    <domains>도메인</domains>
+  </permissions>
+  <permissions_help>
+    <inbox>회사 내의 다른 사용자가 기본 이메일 폴더에서 메일 읽거나 변경을 허용합니다.</inbox>
+    <calendar>회사 내의 다른 사용자가 기본 일정 폴더에서 이벤트를 보거나 생성하는 것을 허용합니다.</calendar>
+    <contacts>회사 내의 다른 사용자가 기본 연락처 폴더에서 항목을 보거나 변경하는 것을 허용합니다.</contacts>
+    <files>회사 내의 다른 사용자가 기본 파일 폴더에서 문서를 읽거나 추가하는 것을 허용합니다.</files>
+  </permissions_help>
+  <mobile_devices>
+    <allowed>허용됨</allowed>
+    <blocked>차단됨</blocked>
+    <quarantine>격리됨</quarantine>
+    <all_mail_items>전부</all_mail_items>
+    <all_calendar_events>전부</all_calendar_events>
+    <all_status>전부</all_status>
+    <all_sync>전부</all_sync>
+    <last_24_hours>최근 24시간</last_24_hours>
+    <last_7_days>최근 7일</last_7_days>
+    <last_4_weeks>최근 4주</last_4_weeks>
+    <one_day>하루</one_day>
+    <three_days>3일</three_days>
+    <one_week>1주</one_week>
+    <two_weeks>2주</two_weeks>
+    <one_month>1개월</one_month>
+    <three_months>3개월</three_months>
+    <six_months>6개월</six_months>
+    <incomplete_tasks_only>미완성된 작업만</incomplete_tasks_only>
+    <new_calendar_folders>새 일정 폴더</new_calendar_folders>
+    <merge_to_default_calendar_folder>일정 폴더를 기본값으로 병합</merge_to_default_calendar_folder>
+    <events>이벤트</events>
+    <tasks>작업</tasks>
+    <tasks_and_notes>작업 및 노트 (안드로이드 앱)</tasks_and_notes>
+    <new_folders>새 폴더</new_folders>
+    <merge_to_default_folder>폴더를 기본값으로 병합</merge_to_default_folder>
+    <allow>허용</allow>
+    <block>차단</block>
+    <delete>삭제</delete>
+    <wipe>정리</wipe>
+  </mobile_devices>
+  <vcard>
+    <male>남성</male>
+    <female>여성</female>
+    <unknown>모름</unknown>
+    <home1>집 1</home1>
+    <home2>집 2</home2>
+    <assistant>보조</assistant>
+    <work1>회사 1</work1>
+    <work2>회사 2</work2>
+    <fax_home>집 팩스</fax_home>
+    <fax_work>회사 팩스</fax_work>
+    <callback>회신번호</callback>
+    <company>회사</company>
+    <car>자동차</car>
+    <isdn>ISDN</isdn>
+    <mobile>휴대폰</mobile>
+    <other>기타</other>
+    <other_fax>기타 팩스</other_fax>
+    <pager>호출기</pager>
+    <primary>Primary</primary>
+    <radio>무전기</radio>
+    <telex>텔렉스</telex>
+    <hearing>청각</hearing>
+    <sip>SIP</sip>
+    <email1>이메일 1</email1>
+    <email2>이메일 2</email2>
+    <email3>이메일 3</email3>
+    <imaddress>메신저 주소</imaddress>
+  </vcard>
+  <devicedetail>
+    <allow_block_device>장치 사용가능</allow_block_device>
+    <allow_device>장치를 허용</allow_device>
+    <block_device>장치를 차단</block_device>
+    <device_in_quarantine>장치를 격리</device_in_quarantine>
+    <account>계정</account>
+    <device_info>장치 정보</device_info>
+    <device_name>장치 이름</device_name>
+    <groupware_synchronization>항목 동기화</groupware_synchronization>
+    <hard_wipe>하드 리셋</hard_wipe>
+    <info>정보</info>
+    <last_sync>마지막 동기화</last_sync>
+    <model>모델</model>
+    <notes_synchronization_type>메모 동기유형</notes_synchronization_type>
+    <os>운영체제</os>
+    <past_calendar_events>과거 일정 이벤트</past_calendar_events>
+    <past_mail_items>과거 메일 항목</past_mail_items>
+    <private_special_folders>폴더 동기화</private_special_folders>
+    <registered>등록됨</registered>
+    <soft_hard_wipe>원격으로 하드 리셋</soft_hard_wipe>
+    <soft_wipe>소프트 리셋</soft_wipe>
+    <status>상태</status>
+    <sync_notes_as>노트 싱크</sync_notes_as>
+    <sync_tasks_as_calendar_events>일정 이벤트로 작업 동기화</sync_tasks_as_calendar_events>
+    <synchronization>동기화</synchronization>
+    <tasks_synchronization_type>작업 동기화 유형</tasks_synchronization_type>
+    <type>유형</type>
+    <groupware_folders>그룹웨어 폴더 (개인)</groupware_folders>
+    <mail_folders>메일 폴더 (개인)</mail_folders>
+    <shared_folders>공유 폴더</shared_folders>
+    <archive>이메일 아카이브</archive>
+    <public_folders>공용 폴더</public_folders>
+    <all_folders>모든 폴더</all_folders>
+    <default_folders_only>기본 폴더만 보이기</default_folders_only>
+    <all_with_groupware_as_email>이메일로서 그룹웨어를 사용하는 전체</all_with_groupware_as_email>
+  </devicedetail>
+  <devicedetail_help>
+    <device_info>서버에 접근하는것으로부터 검토하고 또는 장치  속성을 편집하거나, 장치를 차단 합니다.</device_info>
+    <groupware_synchronization>그룹웨어 및 이메일 항목의 동기화를 관리합니다. 해당되는 경우에, 토글을 설정하고 목록에서 적절한 값을 선택합니다. 이러한 설정은 장치 설정을 무시합니다.</groupware_synchronization>
+    <private_special_folders>기본 및 특수한 폴더의 동기화를 관리할 수 있습니다. 해당 목록에서 선택하거나 토글을 켜세요.</private_special_folders>
+    <soft_hard_wipe>소프트 리셋(Soft Wipe)은 서버에서 다운로드된 데이터만을 삭제합니다. 하드 리셋(Hard Wipe)은 장치의 설정값을 초기 상태로 리셋하고, 장치와 SD 카드에서 데이터를 삭제합니다.   </soft_hard_wipe>
+  </devicedetail_help>
+  <domainlist>
+    <domain_list>도메인 목록</domain_list>
+    <all_types>모든 유형</all_types>
+    <standard>표준</standard>
+    <domain_alias>도메인 별명</domain_alias>
+    <backup_domain>도메인 백업</backup_domain>
+    <distributed_domain>분산 도메인</distributed_domain>
+    <etrn_atrn_queue>ETRN/ATRN 큐</etrn_atrn_queue>
+    <verification_default>기본</verification_default>
+    <verification_use_minger_with_password>비밀번호를 갖은 Minger 사용</verification_use_minger_with_password>
+    <verification_usevrfy_command>VRFY command 사용</verification_usevrfy_command>
+    <verification_use_rcpt_to_command>RCPT TO command 사용</verification_use_rcpt_to_command>
+  </domainlist>
+  <domainlist_header>
+    <users>사용자</users>
+    <name>이름</name>
+    <type>유형</type>
+    <description>설명</description>
+  </domainlist_header>
+  <domaindetail>
+    <users>계정</users>
+    <settings>속성</settings>
+    <limits>제한</limits>
+    <rules>규칙</rules>
+    <active_directory>활성 디렉토리</active_directory>
+    <mobile_devices>모바일 장치</mobile_devices>
+    <general>일반</general>
+    <name>이름</name>
+    <description>설명</description>
+    <type>유형</type>
+    <val>값</val>
+    <verification>인증</verification>
+    <password>비밀번호</password>
+    <administrator_email>관리자 이메일</administrator_email>
+    <aliases>별명</aliases>
+    <add_alias>별명 추가</add_alias>
+    <quotas>할당량</quotas>
+    <storage_usage>저장공간 사용</storage_usage>
+    <numbers_of_emails_sent>발송 이메일 건 수</numbers_of_emails_sent>
+    <change_quotas>도메인 제한</change_quotas>
+    <permissions_and_rights>권한</permissions_and_rights>
+    <unknown_accounts>알지 못 한 계정</unknown_accounts>
+    <reject>거부</reject>
+    <delete>삭제</delete>
+    <forward_to>전달 주소</forward_to>
+    <target_email>대상 메일</target_email>
+    <two_factor_authentication>2단계 인증</two_factor_authentication>
+    <instant_messaging_shared_roster>메신저 공유 목록</instant_messaging_shared_roster>
+    <domain_features>도메인 기능</domain_features>
+    <features>기능</features>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <desktop_client>데스크탑 클라이언트</desktop_client>
+    <manage>관리</manage>
+    <download>다운로드</download>
+    <domain_limits>도메인 제한</domain_limits>
+    <maximum_number_of_accounts>도메인 관리자 계정 제한 (계정 수)</maximum_number_of_accounts>
+    <disk_quota>디스크 할당량</disk_quota>
+    <daily_send_out_limit_for_domain>이 도메인에 대한 일 발송 제한</daily_send_out_limit_for_domain>
+    <disable_login_to_this_domain>이 도메인에 로그인 금지</disable_login_to_this_domain>
+    <daily_data_limit>발송 데이터 제한</daily_data_limit>
+    <daily_message_count_limit>발송 메시지 제한</daily_message_count_limit>
+    <number_per_day>일일 건 수</number_per_day>
+    <domain_expiration>도메인 만료</domain_expiration>
+    <expires_on>만료일</expires_on>
+    <notify_before_expiration>만료시 통지</notify_before_expiration>
+    <days>일</days>
+    <delete_domain_when_expired>만료시 도메인 삭제</delete_domain_when_expired>
+    <user_limits>사용자 제한</user_limits>
+    <account_size>계정 크기</account_size>
+    <default_max_message_size>최대 메시지 크기</default_max_message_size>
+    <default_daily_send_out_limit_for_users>사용자에 대한 기본 일일 발송 제한</default_daily_send_out_limit_for_users>
+    <forward_to_address>전달할 주소</forward_to_address>
+    <dns_validation>DNS 검증</dns_validation>
+    <validation>검증</validation>
+    <rename>이름 변경</rename>
+    <rename_and_logout>이름변경 &amp; 로그아웃</rename_and_logout>
+    <change_domain_name>도메인 이름 변경</change_domain_name>
+    <same_domain_helper>도메인 이름을 변경 중입니다. 이 처리가 완료되면 웹관리자에서 자동으로 로그아웃되어 다시 로그인하셔야 합니다.</same_domain_helper>
+    <dkim>DKIM</dkim>
+    <delete_spam_older_than>오래된 스팸 삭제</delete_spam_older_than>
+    <max_allowed_subscription_plan>허용가능한 최대 구독 플랜</max_allowed_subscription_plan>
+  </domaindetail>
+  <domaindetail_help>
+    <domain_limits>다음 도메인 제한은 사용자 레벨 제한에 우선합니다. 예를 들어, 도메인 상에서 디스크 할당량이 100MB이고 사용자 계정 크기가 500MB로 설정되어 있다면 도메인에 대한 할당량이 100MB이 도달하면 더이상 저장되지 않습니다.</domain_limits>
+    <domain_expiration>이 도메인에 대한 만료일을 정의합니다. 도메인이 만료되면 도메인에 대한 로그인이 금지됩니다. 도메인 삭제 옵션을 선택하면 모든 계정과 데이터는 자동으로 삭제됩니다.</domain_expiration>
+    <user_limits>다음의 제한은 사용자 레벨의 제한 보다 낮은 우선순위를 갖습니다. 이 도메인에 100계정의 계정을 갖고 있고 98개의 계정이 같은 제한 사항을 적용하고 2개는 다른 제한 사항이 설정되어 있다면 98개는 도메인 제한 사항을 따르고 나머지 2개는 사용자 계정의 제한 사항을 따릅니다.</user_limits>
+    <quotas>도메인 레벨 상에서 도메인 크기, 메시지 발송 수, 메시지 최대 크기 등은 도메인 제한을 클릭하여 제한할 수 있습니다. 도메인에 속한 모든 계정에 대한 즉시 제한이 적용됩니다.</quotas>
+    <permissions_and_rights>서버 상에서 정의되지 않은 계정에 대한 메시지 발송을 처리 방법을 설정합니다. 기능을 클릭하여 이 도메인의 모든 사용자에 대한 서비스 사용 여부를 설정합니다. 사용자 단에서 설정한 기능은 우선 순위가 높습니다.</permissions_and_rights>
+    <client_applications>도메인의 모바일 기기, Outlook Sync, 데스크탑 클라이언트 어플리케이션을 관리합니다.</client_applications>
+    <aliases>이 도메인에 대한 별명을 입력합니다. 모든 이메일 주소로 전송된 메일은 도메인의 메일박스로 배달됩니다. 이 별명에 대한 설정은 불가능하며 원본 도메인에서 설정하여야 합니다.</aliases>
+  </domaindetail_help>
+  <subscription_plans>
+    <any_plan>다른 플랜</any_plan>
+    <standard>스탠다드</standard>
+    <professional>프로</professional>
+    <user_per_month>사용자/월</user_per_month>
+  </subscription_plans>
+  <rules>
+    <lower>작은</lower>
+    <greater>큰</greater>
+    <priority_highest>최고높음</priority_highest>
+    <priority_high>높음</priority_high>
+    <priority_normal>보통</priority_normal>
+    <priority_low>낮음</priority_low>
+    <priority_lowest>매우낮음</priority_lowest>
+    <function_contains_value_from_list>목록에 포함(;로 구분)</function_contains_value_from_list>
+    <function_matches_regex>비교 (RegEx)</function_matches_regex>
+    <function_starts_with>시작하는</function_starts_with>
+    <function_ends_with>끝나는</function_ends_with>
+    <function_equals>동일</function_equals>
+    <function_contains_value_from_file>파일 또는 패턴에 포함</function_contains_value_from_file>
+    <condition_all_messages>모든 메시지</condition_all_messages>
+    <condition_where_from>보낸사람에서</condition_where_from>
+    <condition_message_header_matches>메시지 헤더 비교</condition_message_header_matches>
+    <condition_where_subject>제목에서</condition_where_subject>
+    <condition_where_message_body_matches>편지 본문에서 비교</condition_where_message_body_matches>
+    <condition_where_message_contains_attachment>첨부파일에서</condition_where_message_contains_attachment>
+    <condition_where_attachment_name_matches>첨부파일 이름으로 비교</condition_where_attachment_name_matches>
+    <condition_where_message_priority_is>우선순위 비교</condition_where_message_priority_is>
+    <condition_where_message_size_is>편지 크기 비교</condition_where_message_size_is>
+    <condition_where_message_is_spam>스팸편지인 경우</condition_where_message_is_spam>
+    <condition_where_to>받는사람</condition_where_to>
+    <condition_where_cc>참조</condition_where_cc>
+    <condition_where_replyto>회신주소</condition_where_replyto>
+    <condition_where_date>날짜</condition_where_date>
+    <condition_where_custom_message_header_matches>커스텀 편지 헤더 비교</condition_where_custom_message_header_matches>
+    <condition_where_any_message_header_matches>모든 메시지 해더 비교</condition_where_any_message_header_matches>
+    <condition_where_sender_matches>송신자 비교</condition_where_sender_matches>
+    <condition_where_recipient_matches>수신자 비교</condition_where_recipient_matches>
+    <condition_where_sender_recipient_is_local_remote>송신자/수신자 내부/외부</condition_where_sender_recipient_is_local_remote>
+    <condition_where_spam_score_is>스팸점수 비교</condition_where_spam_score_is>
+    <condition_where_local_time_meets>로컬시간 비교</condition_where_local_time_meets>
+    <condition_where_rdns_matches>RDNS 비교</condition_where_rdns_matches>
+    <condition_where_senders_ip_address_matches>송신자 IP 주소 비교</condition_where_senders_ip_address_matches>
+    <condition_where_senders_ip_address_is_listed_on_dnsbl>송신자 IP 주소 DNSBL에서 검색</condition_where_senders_ip_address_is_listed_on_dnsbl>
+    <condition_where_session_is_trusted>세션이 신뢰이면</condition_where_session_is_trusted>
+    <condition_where_smtp_auth>SMTP 인증</condition_where_smtp_auth>
+    <condition_where_message_direct_to_user>사용자에게 직접 메시지 전송</condition_where_message_direct_to_user>
+    <action_accept_reject_delete_spam_quarantine>허용 / 거부 / 삭제 / 스팸 / 격리</action_accept_reject_delete_spam_quarantine>
+    <action_forward_to_email>메일 전달</action_forward_to_email>
+    <action_copy_to_folder>폴더로 복사</action_copy_to_folder>
+    <action_move_to_folder>폴더로 이동</action_move_to_folder>
+    <action_encrypt_message>메시지 암호화</action_encrypt_message>
+    <action_send_new_message>새 메시지 발송</action_send_new_message>
+    <action_edit_message_header>메시지 헤더 수정</action_edit_message_header>
+    <action_set_message_priority_to>메시지 우선순위 설정</action_set_message_priority_to>
+    <action_set_message_flags_to>메시지 깃발 설정</action_set_message_flags_to>
+    <action_stop_processing_more_rules>다음 규칙 처리 중지</action_stop_processing_more_rules>
+    <and>And</and>
+    <or>Or</or>
+    <and_not>And not</and_not>
+    <or_not>Or not</or_not>
+    <rules>규칙</rules>
+    <result_title>규칙 추가 안내:</result_title>
+    <result_step_1>1. 하나 이상의 조건을 선택합니다</result_step_1>
+    <result_step_2>2. 조건에 따른 처리 방법을 추가합니다</result_step_2>
+    <result_step_3>3. 규칙에 대한 제목을 추가합니다</result_step_3>
+    <result>결과</result>
+    <basic>기본</basic>
+    <headers>헤더</headers>
+    <advanced>고급</advanced>
+    <standard>표준</standard>
+    <extra>부가</extra>
+    <title>제목</title>
+    <actions>처리</actions>
+    <conditions>조건</conditions>
+    <rule_number>규칙 수량</rule_number>
+    <new_rule>규칙 추가</new_rule>
+    <delete>삭제</delete>
+    <activate>활성화</activate>
+    <deactivate>비활성화</deactivate>
+  </rules>
+  <rulepopup>
+    <action>처리</action>
+    <add_new_header_condition>새 헤더 조건 추가</add_new_header_condition>
+    <from>보낸사람</from>
+    <header>헤더</header>
+    <match_regex>원본 헤더에서 RegEx 비교</match_regex>
+    <regex>RegEx</regex>
+    <subject>제목</subject>
+    <text>텍스트</text>
+    <to>받는사람</to>
+    <val>값</val>
+    <add_edit>추가 / 수정</add_edit>
+    <delete>삭제</delete>
+  </rulepopup>
+  <rulecard>
+    <monday>월</monday>
+    <tuesday>화</tuesday>
+    <wednesday>수</wednesday>
+    <thursday>목</thursday>
+    <friday>금</friday>
+    <saturday>토</saturday>
+    <sunday>일</sunday>
+    <action>처리</action>
+    <all_items_match>모든 항목 비교</all_items_match>
+    <antivirus>Anti-Virus</antivirus>
+    <bare_lfs>Bare LFs</bare_lfs>
+    <between_dates>날짜 구간 (yyyy:mm:dd)</between_dates>
+    <between_times>시간 구간 (hh:mm)</between_times>
+    <change_mime>MIME-Version을 1.0으로 변경</change_mime>
+    <copy_to_folder>폴더로 복사</copy_to_folder>
+    <crlf>편지 내의 CRLF.CRLF</crlf>
+    <db_connection>DB 연결</db_connection>
+    <delete>삭제</delete>
+    <dnsbl_server>DNSBL 서버</dnsbl_server>
+    <email_address>이메일 주소</email_address>
+    <eof>편지 내의 EOF</eof>
+    <executable>실행</executable>
+    <flagged>깃발</flagged>
+    <flags>깃발</flags>
+    <function>기능</function>
+    <ignore>무시</ignore>
+    <junk>정크</junk>
+    <label_1>Label 1</label_1>
+    <label_2>Label 2</label_2>
+    <label_3>Label 3</label_3>
+    <label_4>Label 4</label_4>
+    <label_5>Label 5</label_5>
+    <label_6>Label 6</label_6>
+    <local>내부</local>
+    <match_case>일치 조건</match_case>
+    <member_of>구성원</member_of>
+    <message_not_virus>바이러스가 없는</message_not_virus>
+    <message_password>암호로 보호된 파일이 있는</message_password>
+    <message_priority>우선순위</message_priority>
+    <message_size>편지 크기</message_size>
+    <message_virus>바이러스가 포함된</message_virus>
+    <move_to_folder>폴더로 이동</move_to_folder>
+    <non_junk>NonJunk</non_junk>
+    <not>Not</not>
+    <one_item_matches>최소 1개 이상 일치</one_item_matches>
+    <parse_xml>XML 파싱</parse_xml>
+    <quarantine>격리</quarantine>
+    <recipient>수신자</recipient>
+    <regex>RegEx</regex>
+    <reject>거부</reject>
+    <remote>외부</remote>
+    <remove_mime>MIME-Version double char 제거</remove_mime>
+    <rfc2822>RFC2822 위반 수정</rfc2822>
+    <score>점수</score>
+    <seen>읽음</seen>
+    <sender>송신자</sender>
+    <sender_recipient>송신자 / 수신자</sender_recipient>
+    <single_string>single 문자로 변경</single_string>
+    <spam>스팸</spam>
+    <sql_statement>SQL 문</sql_statement>
+    <string>문자열</string>
+    <string_condition>문자열 조건</string_condition>
+    <than>보다</than>
+    <time_criteria>시간 기준</time_criteria>
+    <type>유형</type>
+    <user_doesnt_exists>사용자가 없으면</user_doesnt_exists>
+    <user_exists>사용자가 있으면</user_exists>
+    <weekdays>주간</weekdays>
+    <whole_word>전체 단어</whole_word>
+    <zerobyte>편지 내의 0x00</zerobyte>
+    <accept>허용</accept>
+    <add_edit>추가 / 수정</add_edit>
+    <add>추가</add>
+    <edit>수정</edit>
+    <forward_as_attachment>첨부파일로 전달</forward_as_attachment>
+    <custom_flags>사용자 깃발</custom_flags>
+    <userisonlyrecipient>사용자는 수신자만</userisonlyrecipient>
+    <checkuserinto>To 헤더에서 사용자 체크</checkuserinto>
+    <checkuserincc>Cc 헤더에서 사용자 체크</checkuserincc>
+    <checkuserinbcc>Bcc 헤더에서 사용자 체크</checkuserinbcc>
+  </rulecard>
+  <userlist>
+    <admin>시스템 관리자</admin>
+    <webadmin>웹 관리자</webadmin>
+    <catalog>목록</catalog>
+    <domain_admin>도메인 관리자</domain_admin>
+    <executable>실행</executable>
+    <group>그룹</group>
+    <list_of_all_accounts>모든 계정 목록</list_of_all_accounts>
+    <list_server>리스트 서버</list_server>
+    <mailing_list>메일링 리스트</mailing_list>
+    <notification>알림</notification>
+    <resource>자원</resource>
+    <static_route>고정 경로</static_route>
+    <user>사용자</user>
+    <external>외부</external>
+    <room>대화방</room>
+    <equipment>장비</equipment>
+    <car>자동차</car>
+  </userlist>
+  <userlist_header>
+    <account>계정</account>
+    <name_and_account>이름 및 계정</name_and_account>
+    <name>이름</name>
+    <quota>사용법</quota>
+    <type>유형</type>
+  </userlist_header>
+  <userlist_help>
+    <list_of_all_accounts>보기와 모든 도메인의 계정을 관리할 수 있습니다. 편집을 위해서는 해당 계정을 클릭하세요.</list_of_all_accounts>
+  </userlist_help>
+  <mailinglist>
+    <account_member_itself>계정은 해당 회원이 될 수 없습니다.</account_member_itself>
+    <mailinglist_members>메일링 리스트 회원 목록</mailinglist_members>
+    <members>회원</members>
+    <general_details>일반 세부사항</general_details>
+    <security>보안</security>
+    <members_source>회원 원본</members_source>
+    <settings>설정</settings>
+    <owner>소유주</owner>
+    <description>설명</description>
+    <alias>별명</alias>
+    <add_alias>별명 추가</add_alias>
+    <source>원본</source>
+    <password_protection>비밀번호 보호</password_protection>
+    <password>비밀번호</password>
+    <default_rights>기본 권한</default_rights>
+    <max_number_of_messages>1 분동안 발송할 수 있는 최대 메시지 수량</max_number_of_messages>
+    <send_to_sender>수신자에게 수신</send_to_sender>
+    <forward_copy_to_owner>소유자에게 복사본 전달</forward_copy_to_owner>
+    <process_mailing_list>메일링 리스트 변수 진행</process_mailing_list>
+    <personalized_mailing_list>개인 메일링 리스트 - 변수 필드</personalized_mailing_list>
+    <remove_failed_email_addresses>실패한 이메일 주소 제거</remove_failed_email_addresses>
+    <not_password_protected>비밀번호로 보호되지 않음</not_password_protected>
+    <server_moderated>서버 관리됨</server_moderated>
+    <client_moderated>클라이언트 관리됨</client_moderated>
+    <recieve_and_post>수신 및 게시</recieve_and_post>
+    <digest_recieve_and_post>수신 &amp; 게시 요람</digest_recieve_and_post>
+    <recieve_only>수신 만</recieve_only>
+    <digest_recieve_only>요람 정보만 수신</digest_recieve_only>
+    <post_only>게시만</post_only>
+    <members_defined_manually>회원을 수동으로 설정</members_defined_manually>
+    <members_from_text_file>텍스파일에서 회원 가져오기</members_from_text_file>
+    <members_from_database>데이터베이스에서 회원 가져오기</members_from_database>
+    <all_current_domain_users>모든 현재의 도매인 사용자</all_current_domain_users>
+    <all_system_users>모든 시스템 사용자</all_system_users>
+    <all_system_domain_administrators>모든 시스템 도메인 관리자</all_system_domain_administrators>
+    <all_system_administrators>모든 시스템 관리자</all_system_administrators>
+    <only_members_can_post>회원만 글을 게시할 수 있습니다</only_members_can_post>
+    <do_not_deliver>회원에게 할당량을 초과하여 제공하지 마세요</do_not_deliver>
+    <rights>권한</rights>
+    <default>기본</default>
+    <post>개제</post>
+    <receive>수신</receive>
+    <digest>요약</digest>
+  </mailinglist>
+  <mailinglist_help>
+    <mailinglist_members>그룹 회원을 검토하고 새로운 회원 추가 또는 현재 회원을 제거할 수 있습니다. 회원을 제거하려면 처리 버튼을 클릭하여 해당 메뉴를 클릭하세요.</mailinglist_members>
+    <general_details>일반 메일링 리스트 등록 정보를 관리 할 수 있습니다. 해당되는 경우 추가 버튼을 사용합니다.</general_details>
+    <security>메일링 리스트의 기본 회원 권한, 비밀번호 및 기타 속성을 관리합니다.</security>
+    <members_source>메일링 리스트 회원에 대한 선택을 합니다.</members_source>
+    <settings>메세지 전달 및 문제 주소 처리를 위한 규칙을 정의합니다.</settings>
+  </mailinglist_help>
+  <group>
+    <account_member_itself>계정 그자체의 회원이 될 수 없습니다.</account_member_itself>
+    <group_members>그룹 회원 목록</group_members>
+    <members>회원</members>
+    <general_details>일반적인 세부사항</general_details>
+    <group_sharing>그룹 공유</group_sharing>
+    <group_email_delivery>그룹 이메일 배달</group_email_delivery>
+    <security>보안</security>
+    <advanced_settings>고급 설정</advanced_settings>
+    <name>이름</name>
+    <description>설명</description>
+    <alias>별명</alias>
+    <add_alias>별명 추가</add_alias>
+    <create_public_folder>공용 폴더 추가</create_public_folder>
+    <setup_permissions>설치 권한과 권리</setup_permissions>
+    <permissions>권한</permissions>
+    <only_members_can_post>회원만 글을 게시할 수 있습니다</only_members_can_post>
+    <do_not_deliver>회원에게 할당량을 초과하여 제공하지 마세요</do_not_deliver>
+    <password_protection>비밀번호 보호</password_protection>
+    <max_number_of_messages>1 분 동안 발송할 최대 메시지 수량</max_number_of_messages>
+    <populate_gal>모든 회원을 전역 주소록 목록(GAL)으로 생성</populate_gal>
+    <allow_gal_export>분산 도메인 내의 다른 서버에 대한 GAL 내보내기를 허용합니다</allow_gal_export>
+    <organize_gal>계층 구조 주소록(HAB)에 GAL을 구성합니다</organize_gal>
+    <deliver_to_all_members_individually>개별적으로 모든 회원들에게 제공합니다</deliver_to_all_members_individually>
+    <deliver_mail_to_shared_folder>공유 폴더에 메일을 제공합니다</deliver_mail_to_shared_folder>
+    <teamchat>팀채팅</teamchat>
+    <enable_teamchat>팀채팅 사용</enable_teamchat>
+  </group>
+  <group_help>
+    <group_members>그룹 회원을 검토하고 새로운 회원 추가 또는 현재 회원을 제거할 수 있습니다. 회원을 제거하려면 처리 버튼을 클릭하여 해당 메뉴를 클릭하세요.</group_members>
+    <general_details>일반 그룹 속성을 관리합니다. 별명을 추가하려면 추가버튼을 누르세요</general_details>
+    <group_sharing>이 그룹에 대한 공유폴더를 생성할 경우, 토글을 켜세요. 폴더 이름을 입력하고 그룹 멤버에 대한 접근권한을 설정하기 위해 승인버튼을 클릭하세요</group_sharing>
+    <group_email_delivery>그룹 회원에게 메시지를 전달하는 방법을 선택합니다. 계정 제한이 초과된 그룹 회원에게도 메시지를 전달할지에 대한 여부를 선택합니다.</group_email_delivery>
+    <security>회원이 아닌 사용자가 메시지를 게시할 수 있는지, 이 그룹에게 메시지를 전송하는 것이 비밀번호로 보호되는지 설정하고, 보내는 메시지의 흐름제어를 설정합니다.</security>
+    <advanced_settings>전역 주소록 목록 속성 관리</advanced_settings>
+    <populate_gal>모든 회원들과 전역 주소록 목록(GAL) 을 채웁니다</populate_gal>
+    <allow_gal_export>해당되는 경우에, 분산 도메인에 대한 원격 GAL을 사용하는 토글을 켭니다.</allow_gal_export>
+    <organize_gal>하위 그룹 이름이 폴더 이름으로 사용되는 계층 적 폴더 구조를 만들려는 경우에 토글을컵니다.</organize_gal>
+    <teamchat>이 그룹 내에 비공개 및 공개 채팅방을 만들 수 있습니다.</teamchat>
+  </group_help>
+  <group_placeholder>
+    <create_public_folder>공용 폴더를 입력</create_public_folder>
+  </group_placeholder>
+  <accountdetail>
+    <device>기기</device>
+    <account_is_disabled>이 계정은 사용할 수 없습니다.</account_is_disabled>
+    <active>활성화</active>
+    <last_sync>마지막 동기화</last_sync>
+    <add_members>회원 추가</add_members>
+    <members>회원</members>
+    <message>메시지</message>
+    <mailinglistinfo>메일링 리스트</mailinglistinfo>
+    <groupinfo>그룹</groupinfo>
+    <select_domain>도메인 선택</select_domain>
+    <all_types>모든 유형</all_types>
+    <custom>사용자 정의 (최대 크기 까지)</custom>
+    <headers>헤더 만</headers>
+    <full>전체 데이터</full>
+    <numbered_structure>숫자로된 구조</numbered_structure>
+    <folder_name_only>폴더 이름만</folder_name_only>
+    <full_folder_path>전체 폴더 경로</full_folder_path>
+    <outlook_native>Outlook 네이티브</outlook_native>
+    <force_settings>강제 설정</force_settings>
+    <set_as_default>기본값으로 설정</set_as_default>
+    <account_features>계정 기능</account_features>
+    <account_quote_enabled>계정 디스크 할당량</account_quote_enabled>
+    <account_state>계정 상태</account_state>
+    <account_type>계정 유형</account_type>
+    <accountpicker>계정 선택</accountpicker>
+    <folderpicker>폴더 선택</folderpicker>
+    <activation_key>활성화 키</activation_key>
+    <add_alias>별명 추가</add_alias>
+    <add_email>이메일 추가</add_email>
+    <add_phone>핸드폰번호 추가</add_phone>
+    <address>주소</address>
+    <advanced>고급</advanced>
+    <alias>별명</alias>
+    <aliases>별명</aliases>
+    <all_items>모든 항목</all_items>
+    <allowed_activation_count>허용된 정품 인증 수</allowed_activation_count>
+    <alternate_email>대안 이메일</alternate_email>
+    <amount_per_day>1일 당 수량</amount_per_day>
+    <anniversary>기념일</anniversary>
+    <antispam>안티-스팸</antispam>
+    <antivirus>안티-바이러스</antivirus>
+    <appearance>모양</appearance>
+    <archive>아카이브</archive>
+    <assistant>보조</assistant>
+    <at>at</at>
+    <birthday>생일</birthday>
+    <card>카드</card>
+    <certificates>인증서</certificates>
+    <change_password>비밀번호 변경</change_password>
+    <change_quotas>사용자 제한</change_quotas>
+    <check_password_policy>비밀번호가 비밀번호 정책과 일치하지 않습니다</check_password_policy>
+    <city>도시</city>
+    <client_applications>클라이언트 응용프로그램</client_applications>
+    <company>회사</company>
+    <content_of_folders>로컬 변경이 검출된 이후 선택한 폴더의 콘텐츠를 동기화합니다</content_of_folders>
+    <copy_incoming_mail>수신 메일을 복사</copy_incoming_mail>
+    <copy_outgoing_mail>발신 메일을 복사</copy_outgoing_mail>
+    <country>국가</country>
+    <days>날짜</days>
+    <default>기본값</default>
+    <delete_account_when_expired>만료시 계정 삭제</delete_account_when_expired>
+    <delete_mail_older_than>오래된 메일 삭제</delete_mail_older_than>
+    <delete_spam_older_than>오래된 스팸 삭제</delete_spam_older_than>
+    <delete_older>오래된 메일 삭제 (일)</delete_older>
+    <department>부서</department>
+    <description>설명</description>
+    <digital_certificates>전자 증명서</digital_certificates>
+    <disabled>비활성화</disabled>
+    <disabled_login>비활성화 (로그인)</disabled_login>
+    <disabled_login_receive>비활성화 (로그인, 수신)</disabled_login_receive>
+    <display_address_book_names>이름으로된 주소록 보기</display_address_book_names>
+    <do_not_forward>스팸 메시지를 전달하지 마십시오</do_not_forward>
+    <do_not_use_spam>스팸 폴더를 사용하지 마십시오</do_not_use_spam>
+    <download>다운로드</download>
+    <download_files>다운로드 파일</download_files>
+    <email>이메일</email>
+    <enabled>활성화</enabled>
+    <exchange_activesync>활성 동기화를 교환</exchange_activesync>
+    <expiration>만료</expiration>
+    <expires_if_inactive_for>비활성 상태일 경우 만료</expires_if_inactive_for>
+    <expires_on>만료일에</expires_on>
+    <reset_authentication>2단계 인증 초기화를 진행하시겠습니까?</reset_authentication>
+    <authentication_reset_succeeded>2단계 인증이 초기화되었습니다</authentication_reset_succeeded>
+    <features>기능</features>
+    <file_storage>파일 저장소</file_storage>
+    <web_documents>웹문서</web_documents>
+    <file_transfer>파일전송 (FTP)</file_transfer>
+    <folder_structure_after>폴더 구조를 동기화</folder_structure_after>
+    <folder_synchronization_threshold>폴더 동기화 임계값 (폴더의 메시지)</folder_synchronization_threshold>
+    <forward_to>전달</forward_to>
+    <forwarder>전달자</forwarder>
+    <from>수신자</from>
+    <gal_automatically>GAL을 자동으로 동기화</gal_automatically>
+    <gender>성별</gender>
+    <general>일반</general>
+    <generate>생성</generate>
+    <generate_key>키 생성</generate_key>
+    <groupware>그룹웨어</groupware>
+    <home_address>집 주소</home_address>
+    <home_email>개인 이메일</home_email>
+    <home_phone>집 전화</home_phone>
+    <info>정보</info>
+    <instant_messaging>인스턴트 메시징</instant_messaging>
+    <job>직업</job>
+    <last_time_logged>마지막 기록</last_time_logged>
+    <lastname>성</lastname>
+    <licence>라이선스</licence>
+    <licenses>라이선스</licenses>
+    <limits>제한</limits>
+    <manage>관리</manage>
+    <manager>관리자</manager>
+    <max_message_size>최대 메시지 크기</max_message_size>
+    <messaging>메시징</messaging>
+    <mobile_devices>모바일 장치</mobile_devices>
+    <mode>모드</mode>
+    <must_change_password>첫 로그인 후 강제로 비밀번호 변경</must_change_password>
+    <name>이름</name>
+    <new_items>새 항목</new_items>
+    <note>노트</note>
+    <notify_before_expiration>만료되기 전에 알림</notify_before_expiration>
+    <numbers_of_emails_sent>발송 가능한 이메일 건 수</numbers_of_emails_sent>
+    <of>of</of>
+    <online_conferencing>웹미팅</online_conferencing>
+    <password>비밀번호</password>
+    <old_password>기존 비밀번호</old_password>
+    <new_password>새 비밀번호</new_password>
+    <password_again>비밀번호 확인</password_again>
+    <password_not_saved>비밀번호가 저장되지 않았습니다. 비밀번호 정책을 확인하세요.</password_not_saved>
+    <password_policy_alpha>비밀번호에서 사용할 수 있는 문자 범위[a-z][A-Z]</password_policy_alpha>
+    <password_policy_digits>비밀번호에서 사용할 수 있는 숫자 범위[0-9]:</password_policy_digits>
+    <password_policy_minlength>최소 비밀번호 길이:</password_policy_minlength>
+    <password_policy_nonalphanum>비밀번호에서 사용할 수 있는 특수문자[!@#$%...]:</password_policy_nonalphanum>
+    <password_policy_upperalpha>비밀번호에서 사용할 수 있는 대문자 범위 [A-Z]</password_policy_upperalpha>
+    <password_policy_useralias>비밀번호는 사용자 이름이나 별명을 포함할 수 없습니다</password_policy_useralias>
+    <permissions>권한</permissions>
+    <permissions_and_rights>권한 및 권리</permissions_and_rights>
+    <phone>전화</phone>
+    <pop_imap>POP3/IMAP</pop_imap>
+    <quarantine>격리</quarantine>
+    <quotas>할당</quotas>
+    <respond_again_after>몇 일 이후에 다시 응답</respond_again_after>
+    <respond_again_after_period>기간 이후에 다시 응답</respond_again_after_period>
+    <respond_always>항상 응답</respond_always>
+    <respond_once>한번 응답</respond_once>
+    <respond_only_if_between>기간 내에 있을 경우에만 응답</respond_only_if_between>
+    <respond_to_messages>사용자의 이메일 주소로 전송된 메시지에만 응답</respond_to_messages>
+    <responder>응답자</responder>
+    <responder_message>메시지</responder_message>
+    <rules>규칙</rules>
+    <security>보안</security>
+    <selected_priority_folders>이후에 선택 우선 순위 폴더를 동기화  </selected_priority_folders>
+    <selected_standard_folders>이후에 선택한 표준 폴더를 동기화</selected_standard_folders>
+    <send_key_to_user_by_email>이메일로 사용자에게 키를 보냄</send_key_to_user_by_email>
+    <send_out_data_limit>발송할 데이터 최대 크기</send_out_data_limit>
+    <send_out_limit>일일 발송 수량 제한</send_out_limit>
+    <send_out_message_limit>발송 메일 제한</send_out_message_limit>
+    <shared_folders>공유된 폴더</shared_folders>
+    <sms>문자 메시지</sms>
+    <smtp>SMTP</smtp>
+    <spam_folder_mode>스팸 폴더 모드</spam_folder_mode>
+    <spam_reports_mode>스팸 보고서 모드</spam_reports_mode>
+    <spam_trap>스팸 트랩</spam_trap>
+    <state_county>시 / 국가</state_county>
+    <status>도/시</status>
+    <storage_usage>저장소 사용</storage_usage>
+    <street>상세 주소</street>
+    <surname>성</surname>
+    <synchronization>동기화</synchronization>
+    <syncml>SyncML</syncml>
+    <threshold_for_full_download>전체 다운로드 임계 값</threshold_for_full_download>
+    <unknown_ip>알려지지 않은 IP</unknown_ip>
+    <upload_photo>사진 업로드</upload_photo>
+    <use_spam>스팸 폴더 사용</use_spam>
+    <user_can_send_to_local_domains_only>사용자는 로컬 도메인에만 전송할 수 있습니다</user_can_send_to_local_domains_only>
+    <username>사용자 이름</username>
+    <voip>VoIP</voip>
+    <web_folders>웹 폴더 (WebDAV)</web_folders>
+    <webclient>웹클라이언트</webclient>
+    <website>웹사이트</website>
+    <work_address>회사 주소</work_address>
+    <zip>우편번호</zip>
+    <add_to_group>그룹 생성</add_to_group>
+    <change_rights>권한 변경</change_rights>
+    <move>이동</move>
+    <delete>삭제</delete>
+    <remove>제거</remove>
+    <not_yet>아직 안함</not_yet>
+    <teamchat>팀채팅</teamchat>
+    <enable_client_licence>클라이언트 라이선스 사용</enable_client_licence>
+    <disable_access_to_pop3>POP3 (IMAP 전용 계정)에 접속 금지</disable_access_to_pop3>
+    <two_factor_authentication>2단계 인증</two_factor_authentication>
+    <max_file_size>최대 파일 크기</max_file_size>
+    <subscription_plan>구독 플랜</subscription_plan>
+    <change_user_plan>사용자 플랜 변경</change_user_plan>
+  </accountdetail>
+  <accountdetail_help>
+    <account_state>이 계정에 대해 사용권한이나 기능의 부분 제한(사용자 로그인은 금지하지만 메일 수신 가능), 사용금지(로그인 금지 및 수신 거부) 권한을 선택할 수 있습니다. 또는 스팸 트랩으로 사용할 수 있습니다.</account_state>
+    <activation_key>활성화 키는 선택한 클라이언트 어플을 해당 사용자에게 사용권한을 부여합니다. 화성화화 되면 웹클라이언트 인터페이스를 통해 사용자가 해당 기능을 사용할 수 있습니다.</activation_key>
+    <address>주소 또는 작업 장소를 입력하세요</address>
+    <advanced>이 사용자에 대해 설정하려는 고급 동기화 기능의 토글을 켜세요. 적절한 값을 입력하세요.</advanced>
+    <aliases>이 계정에 대한 별명을 입력하세요. 이러한 모든 주소로 전송된 메시지는 이 사서함으로 배달 됩니다.</aliases>
+    <antispam>이 사용자가 스팸 보고서를 수신할지,안티 스팸 설정으로 보고서를 받을것인지에 대한 여부를 선택하고, 나열된 새로운 스팸 항목 또는 모든 스팸 항목을 보고합니다. 또한 스팸 폴더를 사용할 것인지 선택하세요.</antispam>
+    <antispam_features>종합 스팸 필터링은 블랙리스트, 화이트리스트, 스팸 폴더 및 검역 보고서를 통해 시스템에 대한 통제를 사용자에게 제공합니다.</antispam_features>
+    <antivirus>엔터프라이즈 안티바이러스는 계정,이메일,일정,첨부파일,문서 및 파일 전송에서의 모든 파일 출입을 스캔하고 유효성을 검사합니다. </antivirus>
+    <appearance>주소록 이름이 어떻게 보여지는지 방법을 선택하고 토글을 켜세요.</appearance>
+    <archive>보관은 모든 수신 및 발신 이메일과 메시지를 저장하고 손실 된 메시지를 복원하기 위해 보관 폴더에 대한 사용자 읽기 전용 액세스를 제공합니다.</archive>
+    <client_applications>사용자의 모바일 장치, Outlook 동기화 및 데스크탑 클라이언트 응용 프로그램을 관리합니다.</client_applications>
+    <email>사용자의 이메일 주소를 입력하세요.</email>
+    <exchange_activesync>윈도우 폰, 아이폰, 아이패드 그리고 안드로이드를 포함한 모든 모바일 장치에 이메일,일정,연락처,작업 및 메모의 안전한 동기화</exchange_activesync>
+    <expiration>사용자 계정의 설정 만료.</expiration>
+    <file_transfer>FTP는 사용자가 서버에 있는 전용 저장소로 대용량 파일을 전송할 수 있습니다. 표준 FTP 클라이언트를 사용하여, 사용자는 검색,관리,파일을 업로드하거나 다운로드할 수 있습니다.</file_transfer>
+    <forwarder>세미콜론으로 전달, 복사할 메일주소를 구분하여 복수 설정이 가능합니다. 대안 이메일은 비밀번호 조회시 사용됩니다. 송수신 메일 복사는 사용자가 수정할 수 없습니다.</forwarder>
+    <general>계정 정보를 입력하세요. 모든 데이터는 사용자의 GAL 연락처에서 볼 수 있습니다. 사용자는 웹클라이언트의 나의 정보에서 정보를 수정할 수 있습니다.</general>
+    <groupware>전체 주소 목록, 회사, 일정, 파일 및 공용 폴더를 포함하여 그들의 공용 정보에 접근하는 사용자들을 위해 그룹웨어가 활성화될 필요가 있습니다.</groupware>
+    <instant_messaging>실시간 메시징이나 채팅은 사용자들 사이에서 인스턴트 통신을 가능하게 하고, 파일을 공유하고 연락처 명단에서 서로의 존재를 볼 수 있습니다.</instant_messaging>
+    <licence_description>설명을 입력하세요.</licence_description>
+    <limits>기능 사용 여부를 선택하고 설정하고자 하는 계정의 제한 사항에 대해 적절한 값을 입력합니다.</limits>
+    <note>연락처에 메모 (이 필드는 일반적으로 사용자에 의해 편집됩니다).</note>
+    <online_conferencing>웹미팅 서비스는 오디오, 다중채팅, 화면 공유를 연결된 사용자 들과 함께 사용할 수 있는 생산적 협업 기능을 제공합니다.</online_conferencing>
+    <permissions_and_rights>사용자 계정에 대한 일반 사용자,  서버 관리자 또는 도메인 관리자 중에 하나를 선택합니다. 개별 사용자에 대한 서비스 기능의 사용여부를 설정할 수 있습니다.</permissions_and_rights>
+    <phone>사용자의 전화번호를 입력하세요</phone>
+    <pop_imap>이메일을 수신하기 위한 시스템 서비스는 웹 클라이언트 및 Outlook과 Thunderbird 또는 메일 같은 다른 이메일 클라이언트의 기능을 활성화해야 합니다.</pop_imap>
+    <quarantine>격리는 수상한 수신 메일을 관리자 또는 사용자가 수동으로 승인하기 전까지 메일 보류 큐에 보관하도록 합니다.</quarantine>
+    <quotas>1 일 동안 발송할 수 있는 메시지 수량 제한과 계정에 할당할 디스크 공간에 대한 개요를 보여 줍니다.</quotas>
+    <responder>이 계정에 대한 응답자 모드를 선택합니다. 다른 필드는 이 모드에 따라 사용할 수 있습니다.</responder>
+    <sms>내장된 문자 메시지(SMS)는 사용자가 웹 클라이언트로부터 문자 메세지를 보낼 수 있도록 받은 메시지에서 수신받은 메시지와 메시지에 대한 관리를 회신할 수 있습니다.</sms>
+    <smtp>이메일을 보내는 시스템 서비스는 Outlook, 썬더 버드 또는 메일 같은 웹 클라이를트와 다른 이메일 클라이언트의 적절한 기능을 활성화해야 합니다.</smtp>
+    <synchronization>이 사용자에 대해 설정하려는 동기화 기능의 토글을 켭니다. 적절한 값을 입력합니다</synchronization>
+    <syncml>ActiveSync를 지원하지 않는 팜 OS 기반의 구형 모바일 장치, 심비안 및 다른 장치에게 일정,연락처,작업 및 메모의 무선 동기화</syncml>
+    <voip>인터넷 전화 사용자가 오디오 / 비디오 통화를 할 수 있도록 하고 웹 클라이언트에서 전화회의에 직접 또는 SIP 호환 전화 또는 응용프로그램을 사용하여 참여할 수 있습니다.</voip>
+    <web_folders>사용자 자신의 개인 클라우드에 대한 외부 접근은 윈도우/리눅스/맥 및 저장 문서, 사진 및 기타 파일에서 네트워크 드라이브로 사상(mapping) 될 수 있습니다</web_folders>
+    <webclient>이메일, 일정, 연락처, 작업, 메모 및 문서에 대해 웹기반 접근을 할 수 있습니다. 모든 정보는 공유 및 공용 폴더를 통해 사용자와 공유할 수 있습니다.</webclient>
+    <website>사용자의 웹 사이트 주소를 입력합니다</website>
+    <teamchat>팀채팅은 팀 및 프로젝트를 위한 최신 협업 도구입니다. 팀의 다른 사람들과 연락하거나 주제를 중심으로 대화를 구성하거나, 파일을 공유하고 임시 모임을 만들 수 있습니다.</teamchat>
+    <web_documents>MS 오피스 및 오픈 오피스 파일 형식의  온라인 편집. 웹클라이언트 상에서 이들 오피스 문서를 생성할 수 있습니다.</web_documents>
+  </accountdetail_help>
+  <accountdetail_placeholder>
+    <folder_synchronization_threshold>폴더에 있는 메시지의 최대 수를 입력</folder_synchronization_threshold>
+  </accountdetail_placeholder>
+  <accountinfo>
+    <name>이름</name>
+    <ignore_password_policy>비밀번호 정책 무시</ignore_password_policy>
+  </accountinfo>
+  <synchronization>
+    <address_books>주소록</address_books>
+    <advanced>고급</advanced>
+    <appearance>모양</appearance>
+    <authentication_method>인증 방법</authentication_method>
+    <automatically_revert_changes>읽기 전용 폴더에서 자동으로 전환 변경</automatically_revert_changes>
+    <check_for_updates>업데이트 확인</check_for_updates>
+    <delete_after_specified_days>며칠 이후 삭제</delete_after_specified_days>
+    <delete_logs>로그 삭제</delete_logs>
+    <disable_tnef>TNEF 금지</disable_tnef>
+    <do_not_show_connection_errors>연결 오류 표시 안함</do_not_show_connection_errors>
+    <do_not_show_login_errors>로그인 오류 표시 안함</do_not_show_login_errors>
+    <do_not_show_progress>진행과정 표시 안함</do_not_show_progress>
+    <hide_notification_after>몇 초 후에 알림 숨김</hide_notification_after>
+    <licence_and_updates>라이선스 및 업데이트</licence_and_updates>
+    <line_security>라인 보안</line_security>
+    <logging_level>로그 수준</logging_level>
+    <login>로그인</login>
+    <login_credentials>로그인 정보</login_credentials>
+    <login_port>로그인 포트</login_port>
+    <logs>로그</logs>
+    <log_debug>디버그</log_debug>
+    <log_errors>오류 만</log_errors>
+    <new_mail_options>새 메일 옵션</new_mail_options>
+    <play_default_sound>기본 소리 재생</play_default_sound>
+    <show_desktop_notification>데스크탑 알림 보기</show_desktop_notification>
+    <skip_trash_folder>시작시 휴지통 폴더 검사 건너뛰기</skip_trash_folder>
+    <synchronization_exceptions>예외 동기화</synchronization_exceptions>
+    <synchronization_frequency>동기화 빈도</synchronization_frequency>
+    <plain>Plain</plain>
+    <cram_md5>Cram MD5</cram_md5>
+    <starttsl>STARTTSL</starttsl>
+    <ssl>SSL</ssl>
+    <updates>업데이트</updates>
+  </synchronization>
+  <dns>
+    <no_dns_records uses="DNS validation">DNS 레코드 없음</no_dns_records>
+    <all_available>모두 사용가능</all_available>
+    <service_mx>메일</service_mx>
+    <service_autodiscover>SmartDiscover</service_autodiscover>
+    <service_autodiscover_srv>SmartDiscover</service_autodiscover_srv>
+    <service_webdav>WebDAV</service_webdav>
+    <service_sip>SIP</service_sip>
+    <service_xmpp>XMPP</service_xmpp>
+    <service_ischedule>iSchedule</service_ischedule>
+    <service_rdns>RDNS</service_rdns>
+    <service_spf>SPF</service_spf>
+    <service_dkim>DKIM</service_dkim>
+    <default_alias>기본 별명</default_alias>
+    <domain_type>도메인 유형</domain_type>
+    <email>이메일</email>
+    <expires_on>만료일</expires_on>
+    <hostname>호스트명</hostname>
+    <ip_address>IP 주소</ip_address>
+    <name>이름</name>
+    <type>유형</type>
+    <user_count>사용자 수</user_count>
+    <user_limit>사용자 제한</user_limit>
+    <dns>현재 DNS 레코드</dns>
+    <academy_text>DNS 레코드를 설정하기 위한 아케데미 과정을 참조하세요. 도메인에 대한 zone 파일 설정을 아래에서 참조하실 수 있습니다.</academy_text>
+    <academy_caption>”zone 파일” 업데이트</academy_caption>
+    <academy_warning>DNS 레코드 유효성 확인하세요</academy_warning>
+    <general>일반</general>
+    <loading>도메인 정보 로딩</loading>
+    <learn_more>유효화에 대한 정보</learn_more>
+  </dns>
+  <dns_help>
+    <dns>이 도메인에 대한 현재 DNS 설정은 아래와 같습니다. 잘못된 정보는 빨간색으로 표시됩니다</dns>
+  </dns_help>
+  <dkim>
+    <domain_key_selector>도메인 키 선택자</domain_key_selector>
+    <selector>선택자</selector>
+    <selector_placeholder>고유 임의 문자열</selector_placeholder>
+    <no_selector>이 서버에 대한 고유 선택자를 설정하세요</no_selector>
+    <generate_key>새 키 생성</generate_key>
+    <selector_host>호스트명</selector_host>
+    <selector_record>선택자 레코드</selector_record>
+    <sign_outgoing_mails>DKIM으로 발송 메일 서명</sign_outgoing_mails>
+    <reset>DKIM 설정 초기화</reset>
+    <reset_succeeded>DKIM이 초기화 되었습니다</reset_succeeded>
+    <wizard>DKIM 마법사</wizard>
+    <academy_title>IceWarp 아카데미에서 DKIM 설정 매뉴얼 참조</academy_title>
+    <academy_caption>“zone 파일” 업데이트</academy_caption>
+    <academy_text>IceWarp 아카데미에서 DKIM과 DNS 설정에 대해 학습하실 수 있습니다</academy_text>
+    <setup>DKIM 설정</setup>
+    <setup_failed>DKIM 설정 과정 실패</setup_failed>
+    <loading>새 키 생성 중</loading>
+  </dkim>
+  <dkim_help>
+    <domain_key_selector>여러 서버에서 이 도메인에 대한 DKIM을 설정하려면, 각 서버에 유일한 선택자 값을 설정하셔야 합니다</domain_key_selector>
+    <selector_record>DNS 서버에서 공개키를 구성하시기 바랍니다. DNS 서버에 icecream._domainkey.www.icewarp.com 처럼 값을 설정하셔야 합니다</selector_record>
+    <wizard>DKIM은 이 도메인에서 이메일을 발송할 때 외부 서버에서의 검증을 위해 사용됩니다. DKIM 사용하는 DNS에서 구성하여야 하며 TXT 레코드로 &amp;lt;Selector&amp;gt;._domainkey.&amp;lt;domainname&amp;gt; 과 같이 생성하여야 합니다.</wizard>
+  </dkim_help>
+  <accountpicker>
+    <users>사용자</users>
+    <domains>도메인</domains>
+    <items_selected>항목 선택</items_selected>
+    <show_them>보기 선택</show_them>
+    <hide_them>모두 보기</hide_them>
+    <account_picker>계정 선택</account_picker>
+    <account_type>계정 유형</account_type>
+    <add_account>계정 추가</add_account>
+    <add_domain>도메인 추가</add_domain>
+    <add_user>사용자 추가</add_user>
+    <domain>도메인</domain>
+    <filter>필더</filter>
+    <add_external>외부 추가</add_external>
+    <add_external_members>외부 회원 추가</add_external_members>
+  </accountpicker>
+  <spam_queues>
+    <quarantine>격리</quarantine>
+    <whitelist>화이트리스트</whitelist>
+    <blacklist>블랙리스트</blacklist>
+    <action_delete>삭제</action_delete>
+    <action_deliver>배달</action_deliver>
+    <action_whitelist>화이트리스트</action_whitelist>
+    <action_blacklist>블랙리스트</action_blacklist>
+    <add_item>추가</add_item>
+    <detail>상세</detail>
+  </spam_queues>
+  <spamqueues_header>
+    <sender>발송자</sender>
+    <subject>제목</subject>
+    <date>날짜</date>
+    <owner>소유자</owner>
+    <domain>도메인</domain>
+    <filter_sender>발송자 필터</filter_sender>
+    <filter_owner>소유자 필터</filter_owner>
+    <filter_domain>도메인 필터</filter_domain>
+    <filter>결과 필터</filter>
+  </spamqueues_header>
+  <certificates>
+    <server_certificates>서버 인증서</server_certificates>
+    <ca_certificates>CA 인증서</ca_certificates>
+    <secure_destinations>보안 대상</secure_destinations>
+    <create_certificate>CSR / 서버 인증서 생성</create_certificate>
+    <wizard>인증서 옵션</wizard>
+    <reissue>재발행</reissue>
+    <finalize>완료</finalize>
+    <properties>속성</properties>
+    <edit>수정</edit>
+    <add_hostname>다른 호스트명 추가</add_hostname>
+    <bits>비트</bits>
+    <validity>유효기간</validity>
+    <country>국가</country>
+    <state>도/시</state>
+    <city>시/군</city>
+    <organization>기관</organization>
+    <organization_unit>부서</organization_unit>
+    <email>이메일</email>
+    <common_name>일반 명 (FQDN)</common_name>
+    <signature_request>인증서 서명 요청 (CSR) 생성</signature_request>
+    <ip_address>IP 주소</ip_address>
+    <no_ip_limit>전부</no_ip_limit>
+    <certificate>인증서</certificate>
+    <ip>IP 주소</ip>
+    <cn>CN</cn>
+    <issuer>발행기관</issuer>
+    <expiration>만료일</expiration>
+    <subject>제목</subject>
+    <cert_bits>비트</cert_bits>
+    <fingerprint>지문</fingerprint>
+    <type>유형</type>
+    <type_normal>표준</type_normal>
+    <type_csr/>
+    <type_letsencrypt>Let&apos;s Encrypt</type_letsencrypt>
+    <hostname>호스트명</hostname>
+    <default>기본</default>
+    <set_as_default>기본으로 설정</set_as_default>
+    <csr>CSR</csr>
+    <add_existing>기존 추가</add_existing>
+    <new_icewarp_cert>IceWarp 인증서 요청</new_icewarp_cert>
+    <new_ca_cert>기관 인증서 요청</new_ca_cert>
+    <new_lets_encrypt_cert>무료 Let’s Encrypt 인증서</new_lets_encrypt_cert>
+    <new_self_signed_cert>무료 자기 서명 인증서</new_self_signed_cert>
+    <reissue_cert>인증서 재발행</reissue_cert>
+    <reissue_icewarp_cert>IceWarp 인증서로 재발행</reissue_icewarp_cert>
+    <reissue_ca_cert>기관 인증서로 재발행</reissue_ca_cert>
+    <reissue_lets_encrypt_cert>Let’s Encrypt 인증서로 재발행</reissue_lets_encrypt_cert>
+    <reissue_self_signed_cert>자기 서명 인증서로 재발행</reissue_self_signed_cert>
+    <unit>단위</unit>
+    <company_details>회사 정보</company_details>
+    <add_certificate>인증서 추가</add_certificate>
+    <certificate_settings>인증서 설정</certificate_settings>
+    <icewarp_details>IceWarp 인증서</icewarp_details>
+    <authority_details>인증서 상세정보</authority_details>
+    <letsencrypt_details>Let&apos;s Encrypt 인증서</letsencrypt_details>
+    <selfsigned_details>자기서명 인증서</selfsigned_details>
+    <email_details>Email 인증서</email_details>
+    <details>상세</details>
+    <ip_binding>IP 바인딩</ip_binding>
+    <domains>도메인</domains>
+    <errors>오류</errors>
+    <export_csr>CSR 내보내기</export_csr>
+    <bind_certificate>인증서 묶기</bind_certificate>
+    <all_ips>모든 IP 주소</all_ips>
+    <selected_ips>선택한 IP 주소</selected_ips>
+    <cert_domains>인증서 도메인</cert_domains>
+    <cert_failure>인증서 실패</cert_failure>
+    <last_cert_attempt>최근 인증서 시도</last_cert_attempt>
+    <error>오류</error>
+    <ver_failed_for>검증 실패 :</ver_failed_for>
+    <reuse>사설 / 공인 키 쌍 재사용</reuse>
+    <generate>사설 / 공인 키 쌍 생성</generate>
+    <domain_unknown>알 수 없는</domain_unknown>
+    <domain_error>오류</domain_error>
+    <domain_valid>유효</domain_valid>
+    <domain_invalid>잘못된</domain_invalid>
+    <domain_timeout>시간초과</domain_timeout>
+    <key_pair>키 쌍</key_pair>
+    <hostnames>호스트명</hostnames>
+  </certificates>
+  <certificates_help>
+    <add_existing>SSL 서버 인증서가 준비된 경우 선택하세요.</add_existing>
+    <new_icewarp_cert>몇 단계 만으로 IceWarp로 부터 검증된 SSL 서버를 구입하세요. 만료되거나 도메인을 추가하는 경우 재발행하세요.</new_icewarp_cert>
+    <new_ca_cert>유명한 인증서 기관의 인증서를 사용하려면 인증서를 생성하십시오. 만료되거나 도메인을 추가하는 경우 재발행하세요.</new_ca_cert>
+    <new_lets_encrypt_cert>Let&apos;s Encrypt 인증서 기관에서 무료 인증서를 생성합니다. 인증서는 만료 전에 자동으로 재발행됩니다. 도메인이 추가되거나 제거되면 수동으로 재발행하면 됩니다.</new_lets_encrypt_cert>
+    <new_self_signed_cert>어떤 인증기관에서도 인증되지 않은 무료 인증서를 생성합니다. 보안이 크게 중요하지 않다면 이 인증서를 사용하면 됩니다. 필요할 때마다 재발행할 수 있습니다.</new_self_signed_cert>
+    <csr>이것은 인증서 서명 요청 (CSR)입니다. CSR은 인증 기관으로 부터 받으셔야 합니다. 검증 절차가 완료되면 원본 CSR을 기관으로 부터 받은 인증서와 묶어야 합니다.</csr>
+  </certificates_help>
+  <policies>
+    <login>로그인 정책</login>
+    <password>비밀번호 정책</password>
+    <outlook>Outlook 정책</outlook>
+    <block_user_login_accounts>실패한 로그인 시도 횟수를 초과하는 계정에 대해 사용자 로그인 차단</block_user_login_accounts>
+    <block_user_login_time>사용자 로그인 차단 대상</block_user_login_time>
+    <login_policy_mode>로그인 정책 모드</login_policy_mode>
+    <require_administrator>시스템 설정에 접근하려면 관리자 인증이 필요합니다</require_administrator>
+    <usernames>아이디</usernames>
+    <email_addresses>Email 주소</email_addresses>
+    <convert_usernames>아이디에 있는 % 와 / 를 @ 로 변환</convert_usernames>
+    <account_ip_restriction>계정 로그인 IP 제한 사용</account_ip_restriction>
+    <login_restriction>로그인 제한</login_restriction>
+    <users_login>다음으로 사용자 로그인</users_login>
+    <login_policy>로그인 정책</login_policy>
+    <password_policy>비밀번호 정책</password_policy>
+    <active>사용</active>
+    <password_cannot_contain>비밀번호에 아이디 또는 별명을 포함할 수 없습니다</password_cannot_contain>
+    <enable_password>비밀번호 암호화 사용</enable_password>
+    <minimal_password_length>최소 비밀번호 길이</minimal_password_length>
+    <numeric>비밀번호에 포함할 숫자의 수 [0-9]</numeric>
+    <non_alpha_numeric>비밀번호에 포함할 특수문자의 수 [!@#$%...]</non_alpha_numeric>
+    <alpha>비밀번호에 포함할 알파벳의 수 [a-z][A-Z]</alpha>
+    <uppercase_alpha>비밀번호에 포함할 대문자의 수 [A-Z]</uppercase_alpha>
+    <password_expires_after>비밀번호 만료</password_expires_after>
+    <notify_before_expiration>만료 전 알림</notify_before_expiration>
+    <custom_notification>사용자 알림 메시지 파일</custom_notification>
+    <passwords_read_exported>비밀번호는 읽거나 내보낼 수 없습니다</passwords_read_exported>
+    <admin_passwords_read_exported>관리자 비밀번호는 읽거나 내보낼 수 없습니다</admin_passwords_read_exported>
+    <do_not_block_but_delay>차단하지 않지만 인증 절차 지연</do_not_block_but_delay>
+    <block_account>일정 시간 동안 계정 차단</block_account>
+    <manage>관리</manage>
+    <general>일반</general>
+    <password_format>비밀번호 형식</password_format>
+    <password_expiration>비밀번호 만료</password_expiration>
+    <password_retrieval>비밀번호 조회</password_retrieval>
+  </policies>
+  <whitelabeling>
+    <use_default>기본 값으로 설정</use_default>
+    <available_interfaces>사용할 수 있는 인터페이스</available_interfaces>
+    <disable_autofill>아이디 /비밀번호 자동등록</disable_autofill>
+    <disable_facebook_integration>페이스북 통합</disable_facebook_integration>
+    <disable_interface>인터페이스 선택</disable_interface>
+    <disable_language>언어 선택</disable_language>
+    <disable_login_banners>광고</disable_login_banners>
+    <disable_login_help>로그인 도움말</disable_login_help>
+    <disable_remember_me>로그인정보 기억</disable_remember_me>
+    <disable_sign_up>가입등록</disable_sign_up>
+    <disable_support_link>고객지원 링크</disable_support_link>
+    <disable_twitter_integration>트위트 통합</disable_twitter_integration>
+    <disable_linkedin_integration>LinkedIn 통합</disable_linkedin_integration>
+    <login_logo>로그인 로고</login_logo>
+    <login_style>로그인 스타일</login_style>
+    <page_title>페이지 제목</page_title>
+    <preferred_interface>좋아하는 인터페이스</preferred_interface>
+    <skin>스킨</skin>
+    <skin_style>스킨 스타일</skin_style>
+    <background_img>배경 이미지</background_img>
+    <twitter_handle>트위터 처리</twitter_handle>
+    <upload>업로드</upload>
+    <url_to_like>좋아하는 페이지 URL</url_to_like>
+    <wa_skin>웹관리자 스킨</wa_skin>
+    <wc_skin>웹클라이언트 스킨</wc_skin>
+    <blue uses="Login style,Skin style">파랑</blue>
+    <black uses="Login style,Skin style">검정</black>
+    <brown uses="Login style,Skin style">갈색</brown>
+    <graphite uses="Login style,Skin style">카본</graphite>
+    <green uses="Login style,Skin style">녹색</green>
+    <orange uses="Login style,Skin style">오렌지</orange>
+    <pink uses="Login style,Skin style">분홍</pink>
+    <purple uses="Login style,Skin style">자주</purple>
+    <red uses="Login style,Skin style">빨강</red>
+    <yellow uses="Login style,Skin style">노랑</yellow>
+    <desktop uses="Preferred interface,Available interfaces">데스크탑</desktop>
+    <tablet uses="Preferred interface,Available interfaces">태블릿</tablet>
+    <mobile uses="Preferred interface,Available interfaces">모바일</mobile>
+    <facebook_page_url>페이스북 페이지 URL</facebook_page_url>
+    <twitter_page_url>트위터 페이지 URL</twitter_page_url>
+    <linkedin_page_url>LinkedIn 페이지 URL</linkedin_page_url>
+    <language>언어</language>
+    <server_language>서버 언어</server_language>
+    <login_page_options>로그인 페이지 옵션</login_page_options>
+    <social_integration>소셜 통합</social_integration>
+    <interfaces>인터페이스</interfaces>
+    <background_image>배경 이미지</background_image>
+    <choose_image>이미지 선택</choose_image>
+    <choose_color>색상 선택</choose_color>
+    <login_heading>로그인 머리</login_heading>
+    <login_title>로그인 제목</login_title>
+    <login_text>로그인 텍스트</login_text>
+    <login_skin>로그인 화면 스킨</login_skin>
+    <email>이메일</email>
+    <sms>문자 메시지</sms>
+    <upload_custom_background>사용자 배경 업로드</upload_custom_background>
+    <search>검색</search>
+    <search_query>검색어</search_query>
+    <banners>배너 광고</banners>
+    <banner_none>금지</banner_none>
+    <banner_url>고정 이미지</banner_url>
+    <banner_code>애드센스</banner_code>
+    <top_banner_type>로그인에서 리더보드</top_banner_type>
+    <bottom_banner_type>메신저 친구 목록에 있는 직사각형</bottom_banner_type>
+    <desktop_banner_type>최대 해상도 (728x90 px)</desktop_banner_type>
+    <mobile_banner_type>휴데폰 해상도 (300x100 px)</mobile_banner_type>
+    <login_banners>로그인 페이지</login_banners>
+    <webclient_banners>웹클라이언트</webclient_banners>
+    <adsense_settings>애드센스 설정</adsense_settings>
+    <adsense_customer_id>애드센스 클라이언트 ID</adsense_customer_id>
+    <adsense_slot_id>애드센스 슬롯 ID</adsense_slot_id>
+    <required>필수</required>
+    <custom_sign_up_fields>사용자 등록 필드</custom_sign_up_fields>
+    <nickname>별명</nickname>
+    <company>회사</company>
+    <job>직업</job>
+    <profession>전문분야</profession>
+    <mobile_phone>휴대폰</mobile_phone>
+    <work_phone>회사 전화</work_phone>
+    <home_phone>집 전화</home_phone>
+    <im>IM</im>
+    <gender>성별</gender>
+    <birthday>생일</birthday>
+    <homepage>홈페이지</homepage>
+    <two_step_verification>등록 검증</two_step_verification>
+    <verification_method>검증 모드</verification_method>
+    <ic_skin>IceChat 모바일 스킨</ic_skin>
+    <require_contact_number>연락처 필수</require_contact_number>
+    <conferencing>컨퍼런싱</conferencing>
+    <conferencing_logo>컨퍼런싱 로고</conferencing_logo>
+  </whitelabeling>
+  <whitelabeling_help>
+    <login_logo>로그인 페이지에서 보여지는 로고를 변경할 수 있습니다. 지원하는 이미지 형식은 JPG, PNG, GIF, SVG입니다. 최대 크기는 20 MB입니다.</login_logo>
+    <login_page_options>로그인 페이지의 요소에 대해 보기/숨김을 설정할 수 있습니다.</login_page_options>
+    <login_skin>로그인 페이지 모습을 설정합니다.</login_skin>
+    <login_skin_style>로그인 페이지의 기본 색상을 선택하십시오.</login_skin_style>
+    <login_background>로그인 페이지에 대한 완벽한 배경 이미지를 선택하십시오.</login_background>
+    <page_title>윈도우 제목에서 보는 텍스트를 변경하십시오.</page_title>
+    <server_language>사용자를 위한 언어를 설정하십시오.</server_language>
+    <social_integration>소셜 미디어에 대한 링크를 설정하십시오.</social_integration>
+    <wa_skin>웹관리자 모습을 설정합니다.</wa_skin>
+    <wa_skin_style>웹관리자의 기본 색상을 선택하십시오.</wa_skin_style>
+    <wc_skin>웹클라이언트 모습을 설정합니다.</wc_skin>
+    <wc_skin_style>웹클라이언트의 기본 색상을 선택하십시오.</wc_skin_style>
+    <search_query>사용자가 입력 한 %%query%% 검색어를 대체 검색 엔진에 대한 링크를 제공하십시오. 예 : https://www.google.com/#q=%%query%%+site:icewarp.com.&#13;&#10;&#13;&#10;&#13;&#10;.</search_query>
+    <banners>로그인 화면과 웹클라이언트에 배너 광고를 배치하십시오.</banners>
+    <banner_url>배너에 사용할 고정 이미지의 URL을 등록합니다.</banner_url>
+    <banner_code>구글 애드센스에서 제공하는 사용자 애드센스 슬롯 ID를 등록합니다.</banner_code>
+    <login_banners>모바일 대체 및 전체 해상도 이미지를 광고 배너로 사용하거나 광고 네트워크에 연결하십시오.</login_banners>
+    <webclient_banners>로그인 페이지 또는 인스턴트 메시징 대화 상대 목록 맨 아래에 다양한 화면 해상도에 대한 광고를 배치하십시오.</webclient_banners>
+    <adsense_settings>AdSense 고객 ID를 입력하세요.</adsense_settings>
+    <custom_sign_up_fields>가입 등록 동안 필수 정보인 vCard 정보를 선택하세요.</custom_sign_up_fields>
+    <two_step_verification>사용자 등록시  검증방법을 선택하십시오.</two_step_verification>
+    <conferencing>컨퍼런스 어플의 모양을 변경</conferencing>
+    <conferencing_logo>컨퍼런스 페이지에서 보여지는 로고 변경. 지원 이미지 형식은 JPG, PNG, GIF입니다. 최대 파일 크기는 20 MB입니다.</conferencing_logo>
+  </whitelabeling_help>
+  <preview>
+    <language>KR</language>
+    <sign_in_webclient>웹클라이언트 로그인</sign_in_webclient>
+    <password>비밀번호</password>
+    <sign_in>로그인</sign_in>
+    <remember_me>로그인 유지</remember_me>
+    <contact_admin>연락처</contact_admin>
+    <not_you>본인이 아닌가요?</not_you>
+    <choose_account>다른 계정을 선택합니다</choose_account>
+    <powered>Powered by IceWarp © 2020</powered>
+    <find_out_more>(주)소프트메일은 다음을 방문하세요 :</find_out_more>
+    <search>검색</search>
+  </preview>
+  <preview_icechat>
+    <sign_in_with>웹클라이언트에 로그인</sign_in_with>
+    <email>이메일</email>
+    <password>비밀번호</password>
+    <sign_in>로그인</sign_in>
+  </preview_icechat>
+  <resource>
+    <alias>별명</alias>
+    <name>이름</name>
+    <type>유형</type>
+    <general>일반</general>
+    <temporarily_unavailable>일시적인 장애</temporarily_unavailable>
+    <allow_conflicts>충돌 허용</allow_conflicts>
+    <send_notification>사용자에게 알림 발송</send_notification>
+    <permissions>권한</permissions>
+    <resource_members>자원 회원의 목록</resource_members>
+    <members>회원</members>
+  </resource>
+  <resource_help>
+    <resource_members>자원 회원을 검토하고 새 회원 추가 또는 현재 회원을 제거할 수 있습니다. 필요한 박스를 선택하고 회원을 제거하려면 처리 버튼을 클릭합니다.</resource_members>
+  </resource_help>
+  <smartdiscover>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <public_hostname>공식 호스트명</public_hostname>
+    <smtp>SMTP</smtp>
+    <pop3>POP3</pop3>
+    <imap>IMAP</imap>
+    <xmpp>XMPP</xmpp>
+    <sip>SIP</sip>
+    <mobilesync>MobileSync (ActiveSync)</mobilesync>
+    <syncml>SyncML (OMA DS)</syncml>
+    <webdav_smartattach>WebDAV &amp; SmartAttach</webdav_smartattach>
+    <webclient>웹클라이언트</webclient>
+    <webadmin>웹관리자</webadmin>
+    <free_busy>부재중</free_busy>
+    <internet_calendar>인터넷 일정</internet_calendar>
+    <sms>SMS</sms>
+    <anti_spam_reports>인티스팸 보고서</anti_spam_reports>
+    <install>설치</install>
+    <teamchat>팀채팅</teamchat>
+    <standard>표준</standard>
+    <tls_ssl>TLS / SSL</tls_ssl>
+    <no_ssl>2차 기본 포트 (no SSL)</no_ssl>
+    <set_all_to_new_domain_name>새 호스트명 설정</set_all_to_new_domain_name>
+    <collaboration>협업을 위한 API URL</collaboration>
+    <conference>컨퍼런스 URL</conference>
+  </smartdiscover>
+  <subscription>
+    <active_users>실제 사용자 개요</active_users>
+    <any_questions>질문있으세요?</any_questions>
+    <billing_address>빌링 주소</billing_address>
+    <cancel_subscription>취소</cancel_subscription>
+    <order_information>주문 정보</order_information>
+    <order_id>주문 ID</order_id>
+    <card_details>카드정보</card_details>
+    <card_number>카드 번호</card_number>
+    <change_details>정보 변경</change_details>
+    <change_plan>변경</change_plan>
+    <company_name>회사명</company_name>
+    <current_plan>현재 플랜</current_plan>
+    <customer_details>고객 정보</customer_details>
+    <expiration_date>만료일</expiration_date>
+    <invoices>인보이스</invoices>
+    <last_invoices>최근 인보이스</last_invoices>
+    <no_invoices>아직 &lt;strong&gt;인보이스&lt;/strong&gt;가 없습니다.</no_invoices>
+    <payment_details>결제 정보</payment_details>
+    <payments>결제 정보</payments>
+    <per_user_month>사용자/월</per_user_month>
+    <plan_details>플랜 정보</plan_details>
+    <price_all_users_month>전체 월비용</price_all_users_month>
+    <price_user_month>사용자/월 가격</price_user_month>
+    <trial>평가판</trial>
+    <show_invoice_list>모든 인보이스 표시</show_invoice_list>
+    <storage>사용자 당 저장공간</storage>
+    <subscription_details>가입 정보</subscription_details>
+    <your_trial_ends>평가판 만료:</your_trial_ends>
+    <number_of_users>사용자 수</number_of_users>
+    <manage_subscription>구독 관리</manage_subscription>
+    <subscription_settings>구독 설정</subscription_settings>
+    <datacenter_storage_support>데이터센터, 스토리지 &amp; 지원</datacenter_storage_support>
+    <support>지원</support>
+    <next_billing>다음 빌링</next_billing>
+    <total_price>합계</total_price>
+    <billing_period>빌링 기간:</billing_period>
+    <technical_support>고객지원</technical_support>
+    <business_support>영업 지원</business_support>
+    <contact_our_support>24/7 고객지원을 받으시려면 별도로 연락하여 주세요</contact_our_support>
+    <free>무료</free>
+    <page_reload>새 라이선스를 적용하기 위해 본 페이지를 새로 접속하세요</page_reload>
+  </subscription>
+  <loginpage>
+    <no_cookie>사용하고 계신 브라우져는 쿠키 생성을 위한 javascript 사용이 허용되지 않았습니다</no_cookie>
+    <title_admin>IceWarp 웹관리자</title_admin>
+    <new_interface>새 인터페이스</new_interface>
+    <old_interface>구 인터페이스</old_interface>
+    <sign_in_text>도메인과 계정 관리는  &lt;strong&gt;administrator&lt;/strong&gt; 계정으로 로그인하셔야 합니다 </sign_in_text>
+    <sign_in>로그인</sign_in>
+    <email>이메일</email>
+    <username>사용자 이름</username>
+    <password>비밀번호</password>
+    <remember_me>기억하기</remember_me>
+    <forgotten_password>비밀번호 찾기</forgotten_password>
+    <visit_text>IceWarp 서버를 더 살펴보시려면 </visit_text>
+    <visit_url>http://www.icewarp.co.kr/</visit_url>
+    <visit_link>www.icewarp.co.kr을 방문하세요</visit_link>
+    <powered_by>Powered by IceWarp Server &amp;copy; 2020</powered_by>
+    <oops_headline>지원하지 않는 브라우저</oops_headline>
+    <oops_text>웹관리자는 현재 사용하는 브라우저 또는 기기와 &lt;strong&gt;호환되지 않습니다&lt;/strong&gt;. 최신의 웹브라우저를 사용하여 주십시오:</oops_text>
+    <recommended>추천</recommended>
+    <supported>지원</supported>
+    <supported_version>지원</supported_version>
+    <chrome>크롬</chrome>
+    <explorer>익스플로러</explorer>
+    <firefox>파이어폭스</firefox>
+    <safari>사파리</safari>
+    <opera>오페라</opera>
+    <divtcha>코드 재입력</divtcha>
+    <wrong_captcha>코드가 일치하지 않습니다.</wrong_captcha>
+    <auth_sent>보안 링크가 포함 된 이메일을 보냈습니다. 링크를 클릭하면 제한된 시간 동안 스팸 관리에 액세스 할 수 있습니다.</auth_sent>
+  </loginpage>
+  <error>
+    <failed>실패</failed>
+    <fill_in_non_negative_value>음수 값은 허용되지 않습니다.</fill_in_non_negative_value>
+    <account_password_policy>비밀번호가 비밀번호 정책에 위반되었습니다.</account_password_policy>
+    <auth_email_missing>이메일 주소가 누락되었습니다.</auth_email_missing>
+    <identical_email>동일한 도메인에서 자신의 아이디를 다른 사람에게 할당할 수 없습니다</identical_email>
+    <insufficient_rights>해당 작업을 수행하는데 권한이 불충분합니다</insufficient_rights>
+    <connection>서버에 연결할 수 없습니다. 인터넷 연결 또는 랜선을 확인해주시기 바랍니다.</connection>
+    <invalid_command>처리를 할 수 없습니다</invalid_command>
+    <invalid_data>잘못된 데이터</invalid_data>
+    <no_key_defined>정의된 키가 없습니다</no_key_defined>
+    <save_unsuccessful>설정이 저장되지 않았습니다</save_unsuccessful>
+    <action_failed>요청한 작업이 수행되지 않았습니다</action_failed>
+    <license_key_send_failed>라이선스 키를 발송할 수 없습니다</license_key_send_failed>
+    <unknown_error>알 수없는 오류</unknown_error>
+    <auth_login_invalid>잘못된 로그인</auth_login_invalid>
+    <wrong_password>잘못된 비밀번호</wrong_password>
+    <password_too_short>비밀번호가 너무 짧습니다</password_too_short>
+    <password_does_not_match>비밀번호가 틀립니다</password_does_not_match>
+    <password_contains_alias>비밀번호는 별명을 포함할 수 없습니다</password_contains_alias>
+    <password_numeric_chars>비밀번호에 숫자 글자가 부족합니다</password_numeric_chars>
+    <password_non_alpha_num_chars>비밀번호에 문자 수가 부족합니다</password_non_alpha_num_chars>
+    <password_alpha_chars>비밀번호에 알파벳 숫자가 부족합니다</password_alpha_chars>
+    <password_upper_alpha_chars>비밀번호에 대문자 수가 부족합니다</password_upper_alpha_chars>
+    <uploader_file_type_not_allowed>이 파일 형식은 허용되지 않습니다</uploader_file_type_not_allowed>
+    <specify_account_name_with_domain_name>도메인 이름과 계정 이름을 지정</specify_account_name_with_domain_name>
+    <specify_domain_name>도메인 이름 설정</specify_domain_name>
+    <fatal_communication_error>치명적인 통신 오류</fatal_communication_error>
+    <account_disabled>비활성화 된 계정</account_disabled>
+    <account_domain_limit_exceeded>계정 제한을 초과</account_domain_limit_exceeded>
+    <connection_error>연결 오류</connection_error>
+    <server_failure>서버가 필수 데이터 전송에 실패하였습니다</server_failure>
+    <password_missing>비밀번호 누락</password_missing>
+    <auth_digest_expired>로그인 해시가 만료되었습니다</auth_digest_expired>
+    <unexpected_response>기대하지 못한 응답</unexpected_response>
+    <service_stop_unsuccessful>서비스를 중지할 수 없습니다</service_stop_unsuccessful>
+    <service_start_unsuccessful>서비스를 시작할 수 없습니다</service_start_unsuccessful>
+    <service_restart_unsuccessful>서비스를 재시작할 수 없습니다</service_restart_unsuccessful>
+    <rule_delete_unsuccessful>규칙을 삭제할 수 없습니다</rule_delete_unsuccessful>
+    <rule_save_unsuccessful>규칙을 저장할 수 없습니다</rule_save_unsuccessful>
+    <cannot_add_member_to_itself>회원을 자기 자신으로 추가할 수 없습니다</cannot_add_member_to_itself>
+    <rule_at_least_one_condition_required>하나 이상의 조건이 필요합니다</rule_at_least_one_condition_required>
+    <account_not_created>계정을 생성할 수 없습니다. 동일한 별명의 계정이 존재하거나 라이선스를 초과하였습니다.</account_not_created>
+    <auth_password_missing>비밀번호를 입력하세요</auth_password_missing>
+    <login_unsuccessful>로그인 실패하였습니다</login_unsuccessful>
+    <sender_must_be_filled>발송자를 반드시 입력하여야 합니다</sender_must_be_filled>
+    <items_delete_failed>실패 삭제</items_delete_failed>
+    <spam_queue_item_does_not_exist>항목이 존재하지 않습니다</spam_queue_item_does_not_exist>
+    <items_deliver_failed>배달 실패</items_deliver_failed>
+    <save_failed>저장할 수 없습니다</save_failed>
+    <reset_failed>초기화 실패</reset_failed>
+    <default_reset_failed>기본 값으로 초기화할 수 없습니다</default_reset_failed>
+    <fetch_failed>데이터를 조회할 수 없습니다</fetch_failed>
+    <certificate_not_saved uses="server certificates">인증서를 저장할 수 없습니다</certificate_not_saved>
+    <delete_unsuccessfull>실패 삭제</delete_unsuccessfull>
+    <account_permission>권한 부족</account_permission>
+    <license_evaluation>평가판 라이선스</license_evaluation>
+    <license_reference_mismatch>레퍼런스 ID 불일치 오류</license_reference_mismatch>
+    <license_revalidation>라이선스 재검증 실패</license_revalidation>
+    <license_expired>라이선스 만료</license_expired>
+    <license_none>라이선스 없음</license_none>
+    <license_build>라이선스 버전 불일치</license_build>
+    <license_version>라이선스 버전 불일치</license_version>
+    <cert_some_domains_were_not_verified>일부 도메인이 검증되지 않았습니다</cert_some_domains_were_not_verified>
+    <cert_requesting_challenges_for_domain_verification>도메인 검증에 대한 이메일 검증시 오류</cert_requesting_challenges_for_domain_verification>
+    <cert_parsing_challenges_for_domain_verification>도메인 검증에 대한 이메일 파싱시 오류</cert_parsing_challenges_for_domain_verification>
+    <cert_triggering_challenges_challenges_for_domain_verification>도메인 검증에 대한 시도 시 오류</cert_triggering_challenges_challenges_for_domain_verification>
+    <cert_registering_acme_account>ACME 계정 등록 시 오류</cert_registering_acme_account>
+    <cert_invalid_csr_detected>잘못된 CSR이 검출되었습니다</cert_invalid_csr_detected>
+    <cert_signing_certificate>인증서 서명 시 오류</cert_signing_certificate>
+    <cert_letsEncrypt_rate_limits_applied>Let&apos;s Encrypt 한도에 적용되었습니다</cert_letsEncrypt_rate_limits_applied>
+    <domain_delete_failed>도메인을 삭제할 수 없습니다</domain_delete_failed>
+    <incorrect_filetype>제공한 파일은 형식이 잘못되었습니다</incorrect_filetype>
+    <password_expired>비밀번호가 만료되었습니다</password_expired>
+    <rule_activate_unsuccessful>규칙을 활성화할 수 없습니다</rule_activate_unsuccessful>
+    <rule_deactivate_unsuccessful>규칙을 비활성화할 수 없습니다</rule_deactivate_unsuccessful>
+    <unsupported_image_format>지원하지 않는 이미지 형식</unsupported_image_format>
+    <rule_at_least_one_action_required>최소한 1개 이상의 처리 필요</rule_at_least_one_action_required>
+  </error>
+  <warning>
+    <operation_may_take_long_time>이 조작은 다소 시간이 걸립니다.</operation_may_take_long_time>
+    <delete_selected_members>선택한 회원을 삭제하시겠습니까? (%s)</delete_selected_members>
+    <delete_selected_items>선택한 계정을 삭제하시겠습니까? (%s)</delete_selected_items>
+    <delete_selected_devices>선택한 기기를 삭제하시겠습니까? (%s)</delete_selected_devices>
+    <move_selected_accounts>선택하신 (%s) 계정을 %s 도메인으로 이동하시겠습니까?</move_selected_accounts>
+    <changes_found>변경된 내용을 저장하시겠습니까?</changes_found>
+    <identical_username>이 사용자 명이 사용자 아이디로 식별됩니다. 아이디로 저장하시겠습니까?</identical_username>
+    <default_certificate_will_be_overwritten uses="server certificates">기본 인증서를 덮어씁니다</default_certificate_will_be_overwritten>
+    <delete_selected_certificates uses="server certificates">선택한 인증서를 삭제하시겠습니까?</delete_selected_certificates>
+    <delete_selected_oauths>선택한 OAuth 클라이언트를 삭제하시겠습니까?</delete_selected_oauths>
+    <set_to_default>기본 값으로 설정하시겠습니까? 현재 설정이 사라지게 됩니다.</set_to_default>
+    <delete_domain>%s 도메인이 제거됩니다</delete_domain>
+  </warning>
+  <message>
+    <device_soft_wipe_set>소프트 리셋이 성공적으로 설정되었습니다</device_soft_wipe_set>
+    <device_hard_wipe_set>하드 리셋이 성공적으로 설정되었습니다</device_hard_wipe_set>
+    <device_set_wipe_failed>리셋 명령이 실패했습니다</device_set_wipe_failed>
+    <save_successfull>설정이 저장되었습니다</save_successfull>
+    <reset_to_default>이 값이 기본 값으로 초기화되었습니다</reset_to_default>
+    <license_key_sent_successfuly>라이선스 키가 성공적으로 전송되었습니다</license_key_sent_successfuly>
+    <device_blocked>장치가 차단되었습니다</device_blocked>
+    <device_allowed>기기가 허용되었습니다</device_allowed>
+    <rule_delete_successfull>규칙이 삭제되었습니다</rule_delete_successfull>
+    <rule_save_successfull>규칙이 저장되었습니다</rule_save_successfull>
+    <item_saved_successfully>항목이 정상 저장되었습니다</item_saved_successfully>
+    <items_deleted_successfully>삭제 성공</items_deleted_successfully>
+    <items_delivered_successfully>항목이 정상적으로 배달되었습니다</items_delivered_successfully>
+    <certificate_saved uses="server certificates">인증서가 저장되었습니다</certificate_saved>
+    <delete_successfull>항목이 삭제되었습니다</delete_successfull>
+    <domain_renamed>도메인 이름이 변경되었습니다</domain_renamed>
+    <items_blacklisted_successfully>블랙리스트 등록된 항목</items_blacklisted_successfully>
+    <items_whitelisted_successfully>화이트리스트 등록된 항목</items_whitelisted_successfully>
+    <rule_activate_successful>규칙이 활성화되었습니다</rule_activate_successful>
+    <rule_deactivate_successful>규칙이 비활성화되었습니다</rule_deactivate_successful>
+  </message>
+  <description>
+    <device_soft_wipe>고객님이 선택한 기기를 소프트리셋 하시겠습니까?</device_soft_wipe>
+    <device_hard_wipe>고객님이 선택한 기기를 하드리셋 하시겠습니까?</device_hard_wipe>
+  </description>
+  <iframe>
+    <something_went_wrong>알 수 없는 문제</something_went_wrong>
+    <loading>로딩 중</loading>
+    <reload>리로드</reload>
+    <reload_helper>컨텐트를 리로드하세요</reload_helper>
+  </iframe>
+  <change_plan>
+    <title>플랜 변경</title>
+  </change_plan>
+  <oauth>
+    <wizard>OAuth 공급자 마법사</wizard>
+    <wizard_edit>OAuth 공급자 수정</wizard_edit>
+    <client_id>클라이언트 ID</client_id>
+    <name>OAuth 공급자</name>
+    <description>설명</description>
+    <redirect_uri>Redirect URI</redirect_uri>
+    <auth_type>인증 형식</auth_type>
+    <auth_type_standard>표준</auth_type_standard>
+    <auth_type_mobile>모바일</auth_type_mobile>
+    <auth_type_single_page>Single Page</auth_type_single_page>
+    <secret>OAuth 비밀</secret>
+  </oauth>
+  <fulltext_search>
+    <title>전문 검색</title>
+    <configured>전문 검색 엔진이 &lt;b&gt;설정되었습니다&lt;/b&gt;</configured>
+    <not_configured>전문 검색 엔진이 아직 &lt;b&gt;설정되지 않았습니다&lt;/b&gt;</not_configured>
+    <indexer>전문 검색 스캐너</indexer>
+    <server>전문 검색 데이터베이스</server>
+    <docconv>문서 변환 서비스</docconv>
+    <indexpath>스토리지 색인 폴더</indexpath>
+    <configure>전문 검색 설정</configure>
+  </fulltext_search>
+  <fulltext_search_wizard>
+    <heading>전문 검색 마법사</heading>
+    <search>전문 검색</search>
+    <search_enable>IceWarp에서 전문 검색 사용</search_enable>
+    <search_helper1>IceWarp는 웹클라이언트에서 사용자에게 전문 검색을 지원합니다. 모바일 기기는 ActiveSync로 동기화되며, 데스크탑 클라이언트는 IMAP을 통해 검색할 수 있습니다.</search_helper1>
+    <search_helper2>전문 검색 엔진은 3가지로 구성되어 있습니다. CPU와 스토리지 효율을 고려하여 로컬 실행 또는 원격 실행에 대해 주의하여 설정을 진행하셔야 합니다. 3가지 구성요소 :</search_helper2>
+    <search_helper_component1>전문 검색 스캐너 (yoda-scan)</search_helper_component1>
+    <search_helper_component2>전문 검색 데이터베이스 (yoda)</search_helper_component2>
+    <search_helper_component3>문서 변환 서비스 (mundi)</search_helper_component3>
+    <scanner>전문 검색 스캐너 설정</scanner>
+    <scanner_helper>스캐너 서비스는 이메일 스토리지에서 데이터를 읽어 옵니다. 그리고 전문 검색 데이터베이스에 검색어를 전송합니다.스캐너 서비스는 IceWarp 이메일 스토리지(최소 읽기 권한)에 접근이 필요합니다. 스캐너가 원격 서버에 구성된다면 이메일 스토리지를 IceWarp 서버 (%s)로서 사용할 수 있도록 마운트하여야 합니다.</scanner_helper>
+    <scanner_local>로컬 스캐너 서비스 실행</scanner_local>
+    <scanner_local_helper>로컬 스캐너 서비스 포트</scanner_local_helper>
+    <scanner_remote>원격 스캐너 서비스 연결</scanner_remote>
+    <scanner_remote_helper>원격 스캐너 서비스 URL</scanner_remote_helper>
+    <database>전문 검색 데이터베이스 설정</database>
+    <database_helper1>데이터베이스 서비스는 메타데이터(색인) 검색을 위해 자신의 전문 검색 데이터베이스를 사용합니다. 색인은 파일시스템에 직접 저장되고 대략 IceWarp 이메일 스토리지 원본의 10~20%를 더 사용합니다. 데이터베이스 서비스는 자체 서비스로 동작하지만 이메일 스토리지 접속 권한은 필요하지 않습니다.</database_helper1>
+    <database_helper2>주의: 로컬 &lt;i&gt;색인 스토리지 폴더&lt;/i&gt;를 변경하려면, 수동으로 색인 데이터를 새 위치로 이동시켜야 합니다 (자동으로 불가)</database_helper2>
+    <database_local>로컬 데이터베이스 서비스 실행</database_local>
+    <database_local_helper>로컬 데이터베이스 서비스 포트</database_local_helper>
+    <database_remote>원격 데이터베이스 서비스 연결</database_remote>
+    <database_remote_helper>원격 데이터베이스 서비스URL</database_remote_helper>
+    <index_storage_path>색인 스토리지 폴더</index_storage_path>
+    <docconv>문서 변환 서비스 설정</docconv>
+    <docconv_helper>문서 변환 서비스는 이메일 첨부파일에서 검색어를 추출하고 웹클라이언트 또는 파일싱크 위치에서 문서를 가져오게 됩니다. IceWarp는 문서 변환 서비스에 대하여 미리 가상서버를 만들어 제공합니다. 이는 IceWarp 서버와 별도로 외부에 가상서버를 구축하는 것이 좋습니다. 문서 변환 서비스는 IceWarp 시스템과 동일한 로컬 서버에 실행할 수 있지만 문서 변환의 로드 등의 이유로 별도의 시스템에 구성할 필요가 있습니다. 문서 변환 서비스는 그 자체로 운영되며 이메일 스토리지에 접근 권한을 갖을 필요는 없습니다.</docconv_helper>
+    <docconv_local>로컬 문서 변환 서비스 실행</docconv_local>
+    <docconv_local_helper>로컬 문서 변환 서비스 포트</docconv_local_helper>
+    <docconv_remote>원격 문서 변환 서비스 연결</docconv_remote>
+    <docconv_remote_helper>원격 문서 변환 서비스 URL</docconv_remote_helper>
+    <docconv_disable>문서 변환 서비스 금지</docconv_disable>
+    <summary>전문 검색 설정 요약</summary>
+    <summary_helper>전문 검색 엔진 구성 설정이 완료되었습니다. 현재재 설정 요약을 확인하세요.</summary_helper>
+    <runs_locally>%s 로컬 실행</runs_locally>
+    <runs_remotely>%s 원격 실행</runs_remotely>
+    <is_disabled>%s 는 금지</is_disabled>
+  </fulltext_search_wizard>
+</language>

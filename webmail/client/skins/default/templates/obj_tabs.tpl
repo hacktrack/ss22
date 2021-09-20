@@ -1,0 +1,1 @@
+<div class="obj_tabsheader" id="{anchor header}"><div class="obj_tabsheader2" id="{anchor header2}"><ul id="{anchor links}" class="obj_tabsprimary"></ul></div><div class="prev" id="{anchor prev}"></div><div class="next" id="{anchor next}"></div></div><div id="{anchor main}" class="obj_tabsmain"></div>

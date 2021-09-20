@@ -1,0 +1,24 @@
+.obj_input_month form.obj_input:after {
+    content: "\e043";
+    position: absolute;
+    display: block;
+    right: 5px;
+    top: 6px;
+    text-indent: 0;
+    line-height: 16px;
+    font-size: 16px;
+    font-family: 'ico16';
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #9b9b9b;
+	cursor: pointer;
+}
+
+.obj_input_month input.obj_input{
+	cursor: pointer!important;
+}
+
+div.obj_input_month_bubble {
+	width: 100%;
+	padding: 5px;
+}

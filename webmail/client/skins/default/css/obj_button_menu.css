@@ -1,0 +1,69 @@
+form.obj_button_menu{
+    padding-right: 25px;
+    position:relative;
+}
+
+.rtl form.obj_button_menu {
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+form.obj_button_menu div.arrow{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 26px;
+    cursor: pointer;
+
+    line-height: 26px;
+
+    text-align: center;
+    /* background-color: #43A508; */
+}
+
+.rtl form.obj_button_menu div.arrow {
+    left: 0;
+    right: auto;
+}
+
+    /* div.frm_dial .obj_button.call div.arrow:hover{
+        background-color: #339500;
+    } */
+
+    form.obj_button_menu div.arrow:before{
+        content: '';
+        display: block;
+        height: 70%;
+        width: 1px;
+        background-color: rgba(0,0,0,0.15);
+        position: absolute;
+        top: 15%;
+        left: 0;
+        z-index: 10;
+	}
+	
+	.rtl form.obj_button_menu div.arrow:before{
+		right: 0;
+		left: auto;
+	}
+
+    form.obj_button_menu div.arrow:after{
+
+        width: 16px;
+        height: 16px;
+
+        content: '\e043';
+        font-family: 'ico16';
+        font-size: 16px;
+
+        vertical-align: middle;
+        -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}
+
+	form.obj_button_menu.color1 div.arrow:after,
+	form.obj_button_menu.color2 div.arrow:after{
+		color: #FFF;
+	}

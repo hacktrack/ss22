@@ -1,0 +1,66 @@
+<window>
+	<helper>auth</helper>
+	<helper>settings</helper>
+	<config>
+		<stylesheet>
+			<src>win.main</src>
+			<src>skinPublic</src>
+		</stylesheet>
+	</config>
+	
+	<!-- theme set start -->
+	<panel template="theme.start"/>
+	<!-- /theme set start -->
+	
+	<!-- Top menu -->
+	<form id="search" template="form.search" helper="item" method="post">
+		<config>
+			<controller>item</controller>
+			<target>content</target>
+			<data>item.fdr</data>
+		</config>
+		<menu />
+	</form>
+	<!-- Content -->
+	
+	<panel css="main">
+		<!-- Internal window(content) -->
+		<panel css="mainBox">
+		
+		<panel css="mainContentBox">
+		
+		<panel css="main_content wsto" id="main_content">
+			<panel id="main_contentInnerBox" css="main_contentInnerBox">
+				<view id="content" default="event.main" />
+			</panel>
+		</panel>
+		
+		<panel id="round_bottom_box">
+			<panel id="round_bottom">
+				<panel css="cover-b cover-rp">
+					<panel css="cover-a cover-lp">
+						<panel id="bottom-line">
+						</panel>
+					</panel>
+				</panel>
+				<panel css="round_bottom_left">
+					<panel css="round_bottom_right">
+						<panel css="round_bottom_center"></panel>
+					</panel>
+				</panel>
+			</panel>
+		</panel>
+		
+		<panel css="cleaner"></panel>
+		</panel>
+		<panel css="cleaner"></panel>
+		</panel>
+	</panel>
+	<panel css="blank_footer">
+	</panel>
+	
+	<!-- theme set end -->
+	<panel id="logintemplate" template="theme.end" />
+	<!-- /theme set end -->
+	
+</window>

@@ -1,0 +1,65 @@
+div.obj_hmenu_calendar_view {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.rtl div.obj_hmenu_calendar_view {
+	right: auto;
+	left: 0;
+}
+
+body div.obj_hmenu.obj_hmenu_calendar_view li.ico>a>span{
+	padding: 0 20px;
+}
+
+div.obj_hmenu.obj_hmenu_calendar_view li.active>a {
+	cursor: auto;
+	color: #444;
+}
+
+div.obj_hmenu.obj_hmenu_calendar_view ul.root li.short{
+	display: none;
+}
+div.obj_hmenu.obj_hmenu_calendar_view ul.root li.short>a>span{
+	color: {txt_main '#0088CC'};
+}
+
+@media (max-width: 1000px) {
+	div.obj_hmenu.obj_hmenu_calendar_view ul.root li{
+		padding: 0 10px;
+	}
+	div.obj_hmenu.obj_hmenu_calendar_view ul.root li{
+		display: none;
+	}
+	div.obj_hmenu.obj_hmenu_calendar_view ul.root li.short{
+		display: inline-block;
+	}
+}
+
+@media (max-width: 1100px) {
+	.frm_main.rd_small:not(.ld_small) div.obj_hmenu.obj_hmenu_calendar_view ul.root li,
+	.frm_main.ld_small:not(.rd_small) div.obj_hmenu.obj_hmenu_calendar_view ul.root li{
+		padding: 0 10px;
+	}
+	.frm_main.rd_small:not(.ld_small) div.obj_hmenu.obj_hmenu_calendar_view ul.root li,
+	.frm_main.ld_small:not(.rd_small) div.obj_hmenu.obj_hmenu_calendar_view ul.root li{
+		display: none;
+	}
+	.frm_main.rd_small:not(.ld_small) div.obj_hmenu.obj_hmenu_calendar_view ul.root li.short,
+	.frm_main.ld_small:not(.rd_small) div.obj_hmenu.obj_hmenu_calendar_view ul.root li.short{
+		display: inline-block;
+	}
+}
+
+@media (max-width: 1200px) {
+	.frm_main:not(.rd_small):not(.ld_small) div.obj_hmenu.obj_hmenu_calendar_view ul.root li{
+		padding: 0 10px;
+	}
+	.frm_main:not(.rd_small):not(.ld_small) div.obj_hmenu.obj_hmenu_calendar_view ul.root li{
+		display: none;
+	}
+	.frm_main:not(.rd_small):not(.ld_small) div.obj_hmenu.obj_hmenu_calendar_view ul.root li.short{
+		display: inline-block;
+	}
+}

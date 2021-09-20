@@ -1,0 +1,170 @@
+.frm_verify .popupmaindialog>.block div.code{
+    display: block;
+    position: relative;
+	margin: 10px 0 15px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 0;
+}
+
+.frm_verify .popupmaindialog>.block form.obj_button.reset{
+    float: none;
+    display: inline-block;
+    margin-top: 10px!important;
+}
+
+.frm_verify .popupmaindialog .activated{
+    margin: 64px 18px 0;
+    position: relative;
+}
+
+.frm_verify .popupmaindialog .activated>span{
+    display: block;
+    color: #417505;
+}
+.frm_verify .popupmaindialog .activated>span.ico{
+    width: 64px;
+    height: 64px;
+    border: 1px solid #417505;
+    border-radius: 32px;
+
+    position: relative;
+    left: calc(50% - 32px);
+}
+    .frm_verify .popupmaindialog .activated>span.ico::after{
+        content: "\e906";
+        display: block;
+        font-family: "ico32";
+        font-size: 32px;
+        line-height: 32px;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        overflow: hidden;
+        -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+
+        animation: 500ms verify_extend ease-in-out;
+    }
+
+.frm_verify .popupmaindialog .activated>span.label{
+    margin: 10px 0;
+    text-align: center;
+}
+.frm_verify .popupmaindialog .activated p span.bold{
+    white-space: nowrap;
+}
+
+.frm_verify .popupmaindialog form.phone_code.show_code{
+    padding-left: 50px;
+}
+.frm_verify .popupmaindialog form.phone_code>.code{
+    display: none;
+    position: absolute;
+    top: 1px;
+    left: 0;
+
+    width: 50px;
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+    color: {txt_main '#0088CC'};
+}
+.frm_verify .popupmaindialog form.phone_code.show_code>.code{
+    display: block;
+}
+
+.obj_popup.frm_verify_code form.obj_input>input,
+.frm_verify .popupmaindialog form.space>input{
+    letter-spacing: 5px;
+}
+.obj_popup.frm_verify_code form.obj_input>input::placeholder,
+.frm_verify .popupmaindialog form.space>input::placeholder{
+    letter-spacing: normal;
+}
+
+/* Code popup */
+.obj_popup.frm_verify_code .obj_popupico:after{
+	content: '\e041';
+}
+
+/* LABEL ICONS */
+.frm_verify .obj_popupmainheader:before{
+    content: '\e903';
+}
+
+.frm_verify[slide="app"] .obj_popupmainheader:before,
+.frm_verify[slide="auth"] .obj_popupmainheader:before,
+.frm_verify[slide="auth_inp"] .obj_popupmainheader:before,
+.frm_verify[slide="manual"] .obj_popupmainheader:before{
+    content: '\e904';
+}
+
+.frm_verify[slide^="sms"] .obj_popupmainheader:before{
+    content: '\e905';
+}
+
+/* main */
+.frm_verify .frm_verify_main .block.app:before{
+    top: 20px;
+}
+    .frm_verify .frm_verify_main .block.app:before{
+        content: '\e904';
+    }
+    .frm_verify .frm_verify_main .block.sms:before{
+        content: '\e905';
+    }
+
+/* sms */
+.frm_verify .frm_verify_sms_code .block.ico{
+    padding-left: 70px;
+}
+.frm_verify svg.ico{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.frm_verify svg.ico g {
+	display: block !important;
+}
+
+.frm_verify svg.ico.phone path.anim{
+    visibility: hidden;
+    transform: translate(0, 8px);
+    animation: 300ms 300ms wizard_fly ease forwards;
+}
+
+.frm_verify svg.ico.enter{
+    left: 45px;
+    top: 60px;
+
+    opacity: 0;
+    transform: translate(-5px, 0);
+    animation: 400ms 700ms wizard_fly ease forwards;
+}
+
+/* ANIMATIONS */
+.frm_verify .frm_verify_main .popupmaindialog>p{
+    opacity: 0;
+    animation: 300ms 100ms reveal ease forwards;
+}
+.frm_verify .frm_verify_main .block{
+    visibility: hidden;
+    transform: translate(0px, 60px);
+    animation: 300ms 200ms wizard_fly ease forwards;
+}
+.frm_verify .frm_verify_main .block:nth-child(3){
+    animation-delay: 350ms;
+}
+
+@keyframes verify_extend {
+    0% {
+      width: 0;
+      opacity: 0;
+    }
+    30%{
+        opacity: 100%;
+    }
+    100% {
+        width: 32px;
+    }
+}

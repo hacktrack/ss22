@@ -1,0 +1,36 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<grid id="items" helper="item" template="mail.drafts">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<data>item.fdr</data>
+				<default>
+					<orderby>date DESC</orderby>
+				</default>
+				<fields>
+					<field label="Subject">subject</field>
+					<field label="To">header_to</field>
+					<field label="Date">date</field>
+					<field label="Size">size</field>
+					<field label="flags">flags</field>
+				</fields>
+				<buttons>
+					<button name="delete" label="buttons|delete"/>
+				</buttons>
+				<javascript>
+					<src>jquery</src>
+					<src>mail.main</src>
+					<src>general</src>
+				</javascript>
+				<stylesheet>
+					<src>mail.main</src>
+					<src>mail.grid</src>
+				</stylesheet>
+				<link>draft</link>
+			</config>
+		</grid>
+	</panel>
+</form>

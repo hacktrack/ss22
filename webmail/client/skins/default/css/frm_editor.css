@@ -1,0 +1,81 @@
+div.frm_editor .obj_popupmainheader .panel {
+	height: 40px;
+	background-color: #fff;
+	left: 0;
+	top: 36px;
+	border-bottom: 1px solid #ccc;
+	padding: 6px 15px 0px;
+	font-size: 14px;
+}
+
+div.frm_editor .obj_popupmainheader .table {
+	width: 100%;
+	display: table;
+}
+
+div.frm_editor .obj_popupmainheader .cell {
+	width: 20%;
+	display: table-cell;
+	line-height: 30px;
+}
+
+div.frm_editor .obj_popupmainheader .cell.last {
+	text-align: right;
+}
+
+div.frm_editor .obj_popupmainheader .cell.middle {
+	width: 60%;
+	text-align: center;
+}
+
+div.frm_editor .obj_popupmainheader .cell.middle > div {
+	display: inline-block;
+}
+
+div.frm_editor .obj_popupmainheader .cell .avatar {
+	vertical-align: middle;
+    margin-right: 10px;
+    height: 28px;
+	position: relative;
+}
+
+div.frm_editor .obj_popupmainheader .cell .avatar img {
+	width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+
+div.frm_editor .obj_popupmainheader .cell .avatar:after {
+	position: absolute;
+    content: '\e049';
+    font-family: 'ico16';
+    color: #fff;
+    right: -5px;
+    bottom: -3px;
+    background: {bg_main '#0088CC'};
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+	font-size: 8px;
+	line-height: 8px;
+}
+
+div.frm_editor .obj_popupmainheader .cell .button {
+	border: 1px solid {bg_main #08c};
+	border-radius: 2px;
+	color: {bg_main #08c};
+	padding: 5px 15px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 10px;
+	line-height: initial;
+}
+
+div.frm_editor .obj_popupmainheader .cell .label:before {
+	content: '\e05d';
+	font-family: 'ico24';
+	padding-right: 10px;
+	vertical-align: middle;
+}

@@ -1,0 +1,36 @@
+<form>
+	<!-- Users form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>groupware</helper>
+		<grid id="items" helper="item" template="file.main">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<data>item.fdr</data>
+				<limit>20</limit>
+				<default>
+					<orderby>EVNSTARTDATE ASC,EVNSTARTTIME ASC</orderby>
+				</default>
+				<fields>
+					<field label="ID">evn_id</field>
+					<field label="Title">EVNTITLE</field>
+					<field label="Note">EVNNOTE</field>
+					<field label="Location">EVN_MODIFIED</field>
+					<field label="Color">EVNCOLOR</field>
+					<field label="Type">EVNTYPE</field>
+					<field label="Size">EVNCOMPLETE</field>
+				</fields>
+				<stylesheet>
+					<src>datagrid</src>
+					<src>file_types</src>
+				</stylesheet>
+				<javascript>
+					<src>toolbar</src>
+					<src>datagrid</src>
+				</javascript>
+			</config>
+		</grid>
+	</panel>
+</form>

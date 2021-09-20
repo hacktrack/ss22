@@ -1,0 +1,46 @@
+form.obj_attach_old{
+	position: relative;
+	float: left;
+}
+
+form.obj_attach_old.ico:after{	
+	content: '\e03a' !important;	
+}
+
+form.obj_attach_old>iframe,
+form.obj_attach_old>div.post_container{
+	display: none;
+}
+
+form.obj_attach_old>div.file_container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+
+	overflow: hidden;
+}
+
+form.obj_attach_old>div.file_container .file_container2{
+	position: absolute;
+	z-index: 10;
+	right: 0;
+	top: 0;
+}
+
+form.obj_attach_old>div.file_container input.file{
+	margin: 0;
+	height: 23px;
+	text-indent: 0;
+	width: auto;
+
+	-moz-opacity: 0;
+	opacity: 0;
+
+	/* Below needed for IE8 */
+	filter:alpha(opacity=0);
+	font-size: 28px;
+
+}

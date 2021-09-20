@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes> B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>New Item</add>
+    <quarantine>Quarantine</quarantine>
+    <whitelist>Whitelist</whitelist>
+    <blacklist>Blacklist</blacklist>
+    <save>Save</save>
+    <cancel>Cancel</cancel>
+    <new_item>Add new email</new_item>
+  </quarantine>
+  <settings>
+  	<disable_shortcuts>Disable shortcuts</disable_shortcuts>
+  	<enable_swipe_gestures>Enable swipe gestures on touch devices</enable_swipe_gestures>
+    <use_high_contrast_skin>Use high contrast skin</use_high_contrast_skin>
+    <menu_as_text>Show text instead of icons in toolbar</menu_as_text>
+    <change_password>Change password</change_password>
+    <open_change_password_dialog>Open change password dialog</open_change_password_dialog>
+    <oldpassword>Old password</oldpassword>
+    <newpassword>New password</newpassword>
+    <confirmpassword>Confirm password</confirmpassword>
+    <remove>Remove</remove>
+    <settings>Settings</settings>
+    <navigate>Administrate</navigate>
+    <user>My Settings</user>
+    <domain>Domain Administrator</domain>
+    <admin>Administrator Settings</admin>
+    <new_domain>New Domain</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>General</general>
+    <layout>Layout</layout>
+    <mail>Mail</mail>
+    <compose>Compose</compose>
+    <person>Email</person>
+    <person_header>Add new From address</person_header>
+    <person_description>for example &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>Autoresponder</autoresponder>
+    <forwarder>Forwarder</forwarder>
+    <layout_desc>Layout, Mail</layout_desc>
+    <compose_desc>Default settings for a new message (Read Confirmation, HTML/Plain Format, Signature).</compose_desc>
+    <general_desc>Configuration of your mailbox for browsing, deleting and replying messages.</general_desc>
+    <personalities_desc>Setup alternate email identities (different From: address) for your user account.</personalities_desc>
+    <autoresponder_desc>Automatically answer to incoming email messages when you are on vacation.</autoresponder_desc>
+    <forwarder_desc>Forward or copy incoming email messages to any other email address.</forwarder_desc>
+    <date_format>Date format</date_format>
+    <time_format>Time format</time_format>
+    <list_count>Item list count</list_count>
+    <font_family>Default font</font_family>
+    <font_size>Default font size</font_size>
+    <text_direction>Text direction</text_direction>
+    <text_direction_values>Left to right|Right to left</text_direction_values>
+    <empty_trash_every>Empty trash folder every</empty_trash_every>
+    <days>days</days>
+    <move_deleted>Move deleted messages to trash folder</move_deleted>
+    <delete_messages_on_empty>Delete messages on &quot;Empty Folder&quot; action permanently</delete_messages_on_empty>
+    <add_recipients>Automatically add message recipients to Address Book</add_recipients>
+    <group_pref>Group Subject prefixes (e.g. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>Request read confirmation</request_read_confirmation>
+    <save_sent_msg>Save sent message to folder</save_sent_msg>
+    <message_format>Message format</message_format>
+    <message_format_labels>Plain|HTML</message_format_labels>
+    <signature>Signature</signature>
+    <forward_to>Forward to</forward_to>
+    <keep_in_inbox>Keep messages in inbox</keep_in_inbox>
+    <forward_older>Forward email older than</forward_older>
+    <forward_older_to>Forward older email to</forward_older_to>
+    <ar_mode>Mode</ar_mode>
+    <ar_mode_labels>Disabled|Respond always|Respond once|Respond again after period</ar_mode_labels>
+    <ar_respond_only>Respond to messages sent to user&apos;s email address only</ar_respond_only>
+    <ar_respond_again>Respond again after (Days)</ar_respond_again>
+    <ar_from>From</ar_from>
+    <ar_subject>Subject</ar_subject>
+    <ar_text>Text</ar_text>
+    <ar_no_responder_for>No responder for</ar_no_responder_for>
+    <ar_respond_only_between>Respond only if between</ar_respond_only_between>
+    <email>Email</email>
+    <responder>No response for</responder>
+    <show_attached_images>Automatically display attached images</show_attached_images>
+    <show_inline_images>Automatically display external images</show_inline_images>
+    <use_reply_prefix>Use Reply Prefix (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 hours|24 hours</time_format_list_labels>
+    <force_admin>Force this option for both domain and user settings</force_admin>
+    <force_domain>Force this option for user settings</force_domain>
+    <to_top>Signature at the top of the message</to_top>
+    <quota>Disk Quota:</quota>
+    <section_layout>General layout settings</section_layout>
+    <section_mail>General mail settings</section_mail>
+    <section_autoresponder>Set an automatic response for the case, you are not at your desk.</section_autoresponder>
+    <section_norespond>Listed email addresses will not be responded.</section_norespond>
+    <domains>Domains</domains>
+    <accounts>Accounts</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Do you really want to delete the selected messages?</delete_mail>
+    <blacklist_mail>Do you really want to blacklist selected messages?</blacklist_mail>
+    <delete_contact>Do you really want to delete this contact?</delete_contact>
+    <delete_contact_distribution>Do you really want to delete this distribution list?</delete_contact_distribution>
+    <delete_event>Do you really want to delete selected events?</delete_event>
+    <delete_note>Do you really want to delete selected notes?</delete_note>
+    <delete_task>Do you really want to delete selected tasks?</delete_task>
+    <delete_personalities>Do you really want to delete selected item(s)?</delete_personalities>
+    <delete_quarantine>Do you really want to delete selected items?</delete_quarantine>
+    <delete_this_mail>Do you really want to delete this message?</delete_this_mail>
+    <delete_items>Do you really want to delete selected item(s)?</delete_items>
+    <delete_item>Do you really want to delete this item?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>There are no items in this folder.</no_item>
+  </string>
+  <menu>
+    <files>Files</files>
+    <notes>Notes</notes>
+    <tasks>Tasks</tasks>
+    <journal>Journal</journal>
+    <calendar>Calendar</calendar>
+    <search>Search</search>
+    <messages>Messages</messages>
+    <contacts>Contacts</contacts>
+    <searchBut>Find</searchBut>
+    <address_book>Address Book</address_book>
+    <logout>Logout</logout>
+    <help>Help</help>
+    <settings>Settings</settings>
+    <switch>Switch to</switch>
+    <help_url>language/en/help.html</help_url>
+    <quarantine>Filters</quarantine>
+    <alert_restricted_access>Sorry, access to this tab is prohibited</alert_restricted_access>
+    <basic>Tablet Interface</basic>
+    <advanced>Desktop Interface</advanced>
+    <mobile>Mobile Interface</mobile>
+  </menu>
+  <tree>
+    <add_folder>Add Folder</add_folder>
+    <new_message>New Message</new_message>
+    <manage_folders>Folder Management</manage_folders>
+    <open_folder>Open Folder</open_folder>
+    <open>Open</open>
+  </tree>
+  <mail_view>
+    <attachments>Attachments</attachments>
+    <from>From</from>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Subject</subject>
+    <all_headers>View all headers</all_headers>
+    <all_images>Show images</all_images>
+    <next>Next</next>
+    <prev>Previous</prev>
+    <first>First</first>
+    <last>Last</last>
+    <show_external_images>External resources have been blocked. Click here to display them.</show_external_images>
+    <download_all>Download all</download_all>
+    <detail>Detail</detail>
+    <blue_box_start>Start</blue_box_start>
+    <blue_box_end>End</blue_box_end>
+    <blue_box_description>Description</blue_box_description>
+    <blue_box_accept>Accept</blue_box_accept>
+    <blue_box_decline>Decline</blue_box_decline>
+    <blue_box_subscribe_folder>Subscribe folder</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Subscribe account</blue_box_subscribe_account>
+    <item_accept_ok>Item accepted</item_accept_ok>
+    <read>read</read>
+    <write>write</write>
+    <modify>modify</modify>
+    <delete>delete</delete>
+    <administer>administer</administer>
+    <folder_rights>Folder rights</folder_rights>
+    <items_rights>Items rights</items_rights>
+  </mail_view>
+  <login>
+    <send>Send</send>
+    <ip_check>Turn off extended security</ip_check>
+    <user>User</user>
+    <email>Email</email>
+    <password>Password</password>
+    <remember>Remember</remember>
+    <language>Language</language>
+    <allways_ask>Always Ask</allways_ask>
+    <username>Username</username>
+    <username_and_password>Username and Password</username_and_password>
+    <auto_login>Auto login</auto_login>
+    <login>Login</login>
+    <copyright>Powered by IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Version: $1</copyright>
+    <welcome>Welcome to IceWarp WebClient Tablet</welcome>
+    <public_welcome>Welcome to IceWarp Public Calendar</public_welcome>
+    <title>IceWarp WebClient Tablet</title>
+    <public_title>IceWarp Public Calendar</public_title>
+    <reset_password>Reset Password</reset_password>
+    <sign_up>Sign Up</sign_up>
+    <email>Email</email>
+    <domain>Domain</domain>
+    <new_password>New Password</new_password>
+    <confirm_password>Confirm Password</confirm_password>
+    <full_name>Full Name</full_name>
+    <alternative_email>Alternate Email</alternative_email>
+    <switch>Switch to &lt;a href=&quot;../&quot;&gt;Desktop&lt;/a&gt; or &lt;a href=&quot;../pda&quot;&gt;Mobile&lt;/a&gt; Interface.</switch>
+    <no_javascript>&lt;b&gt;JavaScript is currently disabled. &lt;/b&gt;&lt;/div&gt;As a result, you are being redirected to WebClient Tablet Interface, which offers limited functionality. If you would like to use WebClient Desktop Interface, please visit our &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;knowledge base&lt;/a&gt; for instructions on how to enable it in your browser.&lt;br /&gt;If your browser does not support JavaScript, please download the latest version of &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; or &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>Type the code from image</word>
+  </login>
+  <files>
+    <add>Upload File</add>
+    <download>Download</download>
+    <file>File</file>
+  </files>
+  <file_list>
+    <filename>File name</filename>
+    <description>Description</description>
+    <modified>Modified</modified>
+    <size>Size</size>
+    <tags>Tags</tags>
+  </file_list>
+  <notes>
+    <category>Category</category>
+    <add>New Note</add>
+  </notes>
+  <notes_detail>
+    <note>Note</note>
+    <tags>Tags</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>New Task</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Task</task>
+    <status>Status</status>
+    <complete>Complete</complete>
+    <priority>Priority</priority>
+    <not_started>Not started</not_started>
+    <in_progress>In progress</in_progress>
+    <completed>Completed</completed>
+    <deferred>Deferred</deferred>
+    <waiting_for_someone_else>Waiting for someone else</waiting_for_someone_else>
+    <medium>Medium</medium>
+    <high>High</high>
+    <low>Low</low>
+    <tags>Tags</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Start Date</start_date>
+    <due_date>Due Date</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Fullscreen</fullscreen>
+    <subject>Subject</subject>
+    <no_subject>No subject</no_subject>
+    <no_address>No address</no_address>
+    <from>From</from>
+    <date>Date</date>
+    <size>Size</size>
+    <delete>Delete</delete>
+    <reply>Reply</reply>
+    <reply_to_all>Reply to All</reply_to_all>
+    <forward>Forward</forward>
+    <print>Print</print>
+    <whitelist>Whitelist</whitelist>
+    <blacklist>Blacklist</blacklist>
+    <dws>Action</dws>
+    <copy>Copy</copy>
+    <move>Move</move>
+    <copy_to_folder>Copy to folder:</copy_to_folder>
+    <move_to_folder>Move to folder:</move_to_folder>
+    <mar>Mark as Read</mar>
+    <mau>Mark as Unread</mau>
+    <select>Select</select>
+    <all>All</all>
+    <none>None</none>
+    <read>Read</read>
+    <unread>Unread</unread>
+    <invert>Invert selection</invert>
+    <doit>Apply</doit>
+    <to>To</to>
+    <fast_reply>Fast Reply</fast_reply>
+    <send_message>Send Message</send_message>
+    <src>The sender has requested a response to indicate that you have read this message. Would you like to send it?</src>
+    <save>Save</save>
+    <select_folder>Select folder</select_folder>
+    <deliver>Deliver</deliver>
+    <text>Text</text>
+    <received>Received</received>
+    <saved>Saved</saved>
+    <sender>Sender</sender>
+    <owner>Owner</owner>
+    <domain>Domain</domain>
+    <show_all>Show all</show_all>
+  </mail_main>
+  <event_list>
+    <title>Title</title>
+    <start>Start</start>
+    <end>End</end>
+    <tags>Tags</tags>
+  </event_list>
+  <event_detail>
+    <tags>Tags</tags>
+    <show_as>Show as</show_as>
+    <free>Free</free>
+    <tentative>Tentative</tentative>
+    <busy>Busy</busy>
+    <out_of_office>Out of Office</out_of_office>
+    <title>Title</title>
+    <location>Location</location>
+    <label>Label</label>
+    <none>None</none>
+    <important>Important</important>
+    <business>Business</business>
+    <personal>Personal</personal>
+    <vacation>Vacation</vacation>
+    <must_attend>Must Attend</must_attend>
+    <travel_required>Travel Required</travel_required>
+    <needs_preparation>Needs Preparation</needs_preparation>
+    <birthday>Birthday</birthday>
+    <anniversary>Anniversary</anniversary>
+    <phone_call>Phone Call</phone_call>
+    <category>Category</category>
+    <private>Private</private>
+    <from>From</from>
+    <to>To</to>
+    <notes>Notes</notes>
+    <allday>All day event</allday>
+    <event>Event</event>
+    <minutes>Minute(s)</minutes>
+    <hours>Hour(s)</hours>
+    <days>Day(s)</days>
+    <remind_me>Remind me</remind_me>
+    <before>before</before>
+    <no_repeating>No Repeating</no_repeating>
+    <daily>Daily</daily>
+    <weekly>Weekly</weekly>
+    <monthly>Monthly</monthly>
+    <yearly>Yearly</yearly>
+    <end_date>End date</end_date>
+    <no_end_date>No end date</no_end_date>
+    <repeat>Repeat</repeat>
+    <every>Every</every>
+    <every_workday>Every workday</every_workday>
+    <recur_every>Recur every</recur_every>
+    <weeks>week(s)</weeks>
+    <on>on</on>
+    <monday>Monday</monday>
+    <tuesday>Tuesday</tuesday>
+    <wednesday>Wednesday</wednesday>
+    <thursday>Thursday</thursday>
+    <friday>Friday</friday>
+    <saturday>Saturday</saturday>
+    <sunday>Sunday</sunday>
+    <day>Day</day>
+    <months>month(s)</months>
+    <first>First</first>
+    <second>Second</second>
+    <third>Third</third>
+    <fourth>Fourth</fourth>
+    <last>Last</last>
+    <week>Week</week>
+    <work_week>Work week</work_week>
+    <weekend>Weekend</weekend>
+    <of_every>of every</of_every>
+    <of>of</of>
+    <years>year(s)</years>
+    <the>The</the>
+    <times>times</times>
+    <count>count</count>
+    <until>until</until>
+    <tags>Tags</tags>
+  </event_detail>
+  <event_main>
+    <mon>Mon</mon>
+    <tue>Tue</tue>
+    <wed>Wed</wed>
+    <thu>Thu</thu>
+    <fri>Fri</fri>
+    <sat>Sat</sat>
+    <sun>Sun</sun>
+    <jan>January</jan>
+    <feb>February</feb>
+    <mar>March</mar>
+    <apr>April</apr>
+    <may>May</may>
+    <jun>June</jun>
+    <jul>July</jul>
+    <aug>August</aug>
+    <sep>September</sep>
+    <oct>October</oct>
+    <nov>November</nov>
+    <dec>December</dec>
+    <week>Week</week>
+    <week_view>Week</week_view>
+    <work_week_view>Work Week</work_week_view>
+    <month_view>Month</month_view>
+    <day_view>Day</day_view>
+    <list>List</list>
+    <add>New Event</add>
+    <save>Save</save>
+    <no_title>No title</no_title>
+    <search>Search:</search>
+    <account>Account:</account>
+    <print>Print</print>
+  </event_main>
+  <contact_main>
+    <contact>Contact</contact>
+    <distribution_list>Distribution List</distribution_list>
+    <title>Title</title>
+    <no_email>No email</no_email>
+    <card_view>Card View</card_view>
+    <list_view>List View</list_view>
+    <contact_name>Contact name</contact_name>
+    <email>Email</email>
+    <company>Company</company>
+    <job>Job</job>
+    <department>Department</department>
+    <profession>Profession</profession>
+    <category>Category</category>
+    <general>General</general>
+    <first_name>First Name</first_name>
+    <middle_name>Middle Name</middle_name>
+    <last_name>Last Name</last_name>
+    <nick>Nickname</nick>
+    <sort_string>Sort string</sort_string>
+    <title>Title</title>
+    <suffix>Suffix</suffix>
+    <category>Category</category>
+    <web>Web Site</web>
+    <street>Street</street>
+    <city>City</city>
+    <zip>ZIP</zip>
+    <state>State</state>
+    <country>Country</country>
+    <im>IM</im>
+    <phones>Phones</phones>
+    <work>Work</work>
+    <home>Home</home>
+    <assistant>Assistant</assistant>
+    <fax_home>Fax home</fax_home>
+    <fax_work>Fax work</fax_work>
+    <call_back>Call back</call_back>
+    <company>Company</company>
+    <car>Car</car>
+    <isdn>ISDN</isdn>
+    <mobile>Mobile</mobile>
+    <other>Other</other>
+    <other_fax>Other fax</other_fax>
+    <pager>Pager</pager>
+    <primary>Primary</primary>
+    <radio>Radio</radio>
+    <telex>Telex</telex>
+    <hearing>Hearing</hearing>
+    <add>New Contact</add>
+    <notes>Notes</notes>
+    <no_name>No contact name</no_name>
+    <select>Select type</select>
+    <select_contacts>Select contacts you wish to add</select_contacts>
+    <add_distribution>New Distribution List</add_distribution>
+    <add_new>Add</add_new>
+    <add_item_distribution>Add from address book</add_item_distribution>
+    <save>Save</save>
+    <edit>Edit</edit>
+    <edit_selected>Edit selected</edit_selected>
+    <delete_selected>Delete</delete_selected>
+    <cancel>Cancel</cancel>
+    <onleave_warning>Do you want to logout? All unsaved data will be lost.</onleave_warning>
+    <tags>Tags</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>New Patient</new_patient>
+    <new_staff>New Staff</new_staff>
+    <notify_email>Notify email</notify_email>
+    <notify_sms>Notify SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>New</add>
+    <staff>Staff</staff>
+    <patient>Patient</patient>
+  </hippa_detail>
+  <grid>
+    <title>Title</title>
+    <note>Note</note>
+    <size>Size</size>
+    <category>Category</category>
+    <start>Start</start>
+    <end>End</end>
+    <save>Save</save>
+    <cancel>Cancel</cancel>
+    <number_of_items>Number of items selected on other pages:</number_of_items>
+    <clear>Clear</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Please select the text you wish to hyperlink.</select_text>
+    <enter_url>Enter the URL for this link:</enter_url>
+    <image_location>Enter the location for this image:</image_location>
+    <image_alt>Enter the alternative text for this image:</image_alt>
+    <image>Insert image</image>
+    <htmlsource>HTML source</htmlsource>
+    <hyperlink>Hyperlink</hyperlink>
+    <underline>Underline</underline>
+    <italic>Italic</italic>
+    <bold>Bold</bold>
+    <fontsize>Font size</fontsize>
+    <fontformat>Font format</fontformat>
+    <outdent>Decrease indent</outdent>
+    <indent>Increase indent</indent>
+    <orderedlist>Numbered list</orderedlist>
+    <unorderedlist>Bulleted list</unorderedlist>
+    <justify>Justify</justify>
+    <right>Align right</right>
+    <center>Align center</center>
+    <left>Align left</left>
+    <blockformat>Block format</blockformat>
+    <block_type>Block type</block_type>
+    <heading>Heading</heading>
+    <paragraph>Paragraph</paragraph>
+    <size>Size</size>
+    <font>Font</font>
+    <cancel>Cancel</cancel>
+    <email>Email</email>
+    <options>Options</options>
+    <plain>Plain</plain>
+    <html>HTML</html>
+    <from>From</from>
+    <to>To</to>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Subject</subject>
+    <date>Date</date>
+    <attachments>Attachments</attachments>
+    <text>Text</text>
+    <send_message>Send message</send_message>
+    <save_message>Save</save_message>
+    <br/>
+    <spellchecker>Spell checker language</spellchecker>
+    <rrc>Request read confirmation</rrc>
+    <ssm>Save sent messages to folder</ssm>
+    <psa>Use SmartAttach</psa>
+    <priority>Priority</priority>
+    <lowest>Lowest</lowest>
+    <low>Low</low>
+    <normal>Normal</normal>
+    <high>High</high>
+    <highest>Highest</highest>
+    <rta>Reply-To address</rta>
+    <charset>Charset</charset>
+    <auto>Auto</auto>
+    <original_message>-----Original Message-----</original_message>
+    <read_confirmation_subject>Read: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Your message has been read.&#13;&#10;&#13;&#10;Message details follow:&#13;&#10;&#13;&#10;From: %FROM%&#13;&#10;To: %TO%&#13;&#10;Date: %DATE%&#13;&#10;Subject: %SUBJECT%</read_confirmation_text>
+    <add_contacts>Add contacts</add_contacts>
+    <add_files>Add files</add_files>
+    <add_files_from_folder>Add files from folder</add_files_from_folder>
+    <add_files_from_dropbox>Add files from Dropbox</add_files_from_dropbox>
+    <leave_notice>Do you want to leave? The message will be lost.</leave_notice>
+    <alias>Alias</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>New Folder</add>
+    <delete>Delete</delete>
+    <link>Link</link>
+    <unlink>Unlink</unlink>
+    <create_folder>Create new folder</create_folder>
+    <create>Create</create>
+    <delete_confirmation_text>Are you sure to permanently delete this folder?</delete_confirmation_text>
+    <empty_confirmation_text>Are you sure to permanently delete items in this folder?</empty_confirmation_text>
+    <delete_yes>Yes</delete_yes>
+    <delete_no>No</delete_no>
+    <link_as>Link folder as</link_as>
+    <unlink_as>Delete / Rename folder link</unlink_as>
+    <unlink_confirmation_text>Are you sure to delete the folder link?</unlink_confirmation_text>
+    <unlink_yes>Yes</unlink_yes>
+    <unlink_no>No</unlink_no>
+    <virtual>Virtual Folder</virtual>
+    <delete_empty_folder>Delete or Empty Folder</delete_empty_folder>
+    <edit>Edit</edit>
+    <empty>Empty</empty>
+    <rename_folder>Rename Folder</rename_folder>
+    <save>Save</save>
+    <rename>Rename</rename>
+    <perform_action>Perform action for</perform_action>
+    <select_folder>Select folder to manage</select_folder>
+    <open_folder>Open folder</open_folder>
+    <open_folder_des>Use it to access contents of a folder.</open_folder_des>
+    <link_folder>Link folder</link_folder>
+    <link_folder_des>Use it to create a shortcut in the left menu for a folder in the tree.</link_folder_des>
+    <add_folder>Add folder</add_folder>
+    <add_folder_dis>Use it to create a new folder under selected folder.</add_folder_dis>
+    <rename_folder_des>Use it to rename the selected folder.</rename_folder_des>
+    <remove_folder>Remove folder</remove_folder>
+    <remove_folder_des>Use it to permanently empty and delete selected folder. Warning: you cannot undo this action!</remove_folder_des>
+    <default_folder>Set as default folder</default_folder>
+    <default_folder_des>Use it to set this folder as the default one.</default_folder_des>
+    <set_default>Set this folder as default</set_default>
+    <set>Set</set>
+    <as_drafts>Drafts</as_drafts>
+    <as_sent>Sent</as_sent>
+    <as_trash>Trash</as_trash>
+    <set_as_default>Set</set_as_default>
+    <link_first>A folder has to be linked first before it can be set as default.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Inbox</inbox>
+    <drafts>Drafts</drafts>
+    <sent>Sent</sent>
+    <trash>Trash</trash>
+  </common_folders>
+  <common>
+    <yes>Yes</yes>
+    <no>No</no>
+  </common>
+  <folder_types>
+    <mail>Mail</mail>
+    <contact>Contact</contact>
+    <event>Calendar</event>
+    <journal>Journal</journal>
+    <note>Note</note>
+    <task>Task</task>
+    <file>File</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+	<login_invalid_keypair>RSA validation failed. Try again.</login_invalid_keypair>
+	<divtcha_confirmation>Wrong captcha code</divtcha_confirmation>
+	<missing_values_text>Empty text input</missing_values_text>
+	<missing_values_email>Empty email input</missing_values_email>
+	<invalid_email>Invalid email address</invalid_email>
+  	<password_not_changed>New password cannot be the same as old password</password_not_changed>
+    <reset_password_invalid_hashid>Invalid hash ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID file doesn&apos;t exist</reset_password_uid_file>
+    <account_alternative_email>Account has no alternate email address</account_alternative_email>
+    <migration_in_progress>Migration of account is in progress, please try again later</migration_in_progress>
+    <login_ip_invalid>Login IP restriction: %s</login_ip_invalid>
+    <unauthorized>Unauthorized access</unauthorized>
+    <folder_type_restricted>This folder type was restricted by administrator</folder_type_restricted>
+    <account_does_not_exists>Specified account doesn&apos;t exist</account_does_not_exists>
+    <account_invalid_id>Cannot get the account %s</account_invalid_id>
+    <account_unknown_protocol>Unknown account protocol</account_unknown_protocol>
+    <account_missing_tag>Account missing tag %s</account_missing_tag>
+    <account_missing_id>Account ID missing</account_missing_id>
+    <account_invalid_action>Account action is invalid</account_invalid_action>
+    <account_already_exists>Account %s already exists</account_already_exists>
+    <account_no_username>Account username is missing or empty</account_no_username>
+    <account_no_password>Account password is missing or empty</account_no_password>
+    <account_bad_password>Old password entered incorrectly</account_bad_password>
+    <account_password_policy>Password does not match the password policy</account_password_policy>
+    <account_sync>Account synchronization failed for account %s</account_sync>
+    <account_primary_delete>Cannot delete primary account</account_primary_delete>
+    <account_test_failed>Account test failed for account %s</account_test_failed>
+    <account_signup_disabled>Self sign-up disabled</account_signup_disabled>
+    <account_signup_error>Account sign-up error: %s</account_signup_error>
+    <account_signup_1>Undefined error</account_signup_1>
+    <account_signup_2>Insufficient license</account_signup_2>
+    <account_signup_3>Size of parameters too short</account_signup_3>
+    <account_signup_4>Function failure</account_signup_4>
+    <account_signup_5>Configuration not found</account_signup_5>
+    <account_signup_6>Password policy</account_signup_6>
+    <account_signup_7>Account already exists</account_signup_7>
+    <account_signup_8>Invalid characters</account_signup_8>
+    <attachment_too_large>Attachment is too large: %s</attachment_too_large>
+    <password_confirmation>Password mismatch</password_confirmation>
+    <missing_values>Password mismatch</missing_values>
+    <addon_copy>Cannot copy add-on</addon_copy>
+    <attachment_file_not_found>Cannot attach file</attachment_file_not_found>
+    <attachment_add>Failed to add an attachment</attachment_add>
+    <attachment_get>Cannot get the attachment %s</attachment_get>
+    <attacment_class_unknown>Unknown attachment class</attacment_class_unknown>
+    <auth_missing_tag>Authentication missing tag %s</auth_missing_tag>
+    <auth_export_key_private>Cannot export private key</auth_export_key_private>
+    <auth_invalid_char>Invalid character in private key</auth_invalid_char>
+    <confirmation_uid>Captcha session not found</confirmation_uid>
+    <confirmation_word_mismatch>Captcha entered incorrectly</confirmation_word_mismatch>
+    <db_auto_create>Cannot auto create the database</db_auto_create>
+    <db_create_sqlitefile>Cannot create SQLite DB file</db_create_sqlitefile>
+    <db_create_tables>Cannot create tables</db_create_tables>
+    <db_statement_prepare>Cannot prepare the statement</db_statement_prepare>
+    <db_invalid_statement>Invalid statement type</db_invalid_statement>
+    <flags_unknown_field>Incorrect flags field</flags_unknown_field>
+    <folder_autocreate_failed>Folder %s already exists</folder_autocreate_failed>
+    <folder_already_exists>Folder %s already exists</folder_already_exists>
+    <folder_does_not_exist>Folder %s does not exist</folder_does_not_exist>
+    <folder_name_bad_char>Special characters not allowed in folder name</folder_name_bad_char>
+    <folder_name_length>Cannot get folder name length</folder_name_length>
+    <folder_name_too_long>New folder name is too long</folder_name_too_long>
+    <folder_get_list>Cannot get the list of folders</folder_get_list>
+    <folder_delete>Cannot delete folder %s</folder_delete>
+    <folder_create>Cannot create folder %s</folder_create>
+    <folder_rename_empty>Cannot rename folder to a blank name</folder_rename_empty>
+    <folder_move_to_self>Cannot move folder to itself</folder_move_to_self>
+    <folder_move_to_subfolder>Cannot move folder to a subfolder of itself</folder_move_to_subfolder>
+    <folder_rename>Cannot rename folder</folder_rename>
+    <folder_copy>Cannot copy folder</folder_copy>
+    <folder_empty>Cannot empty folder</folder_empty>
+    <folder_missing_tag>Folder tag missing %s</folder_missing_tag>
+    <folder_missing_account_id>Folder missing account ID</folder_missing_account_id>
+    <folder_invalid_account_id>Folder has an invalid account ID %s</folder_invalid_account_id>
+    <folder_missing_id>Missing folder ID</folder_missing_id>
+    <folder_missing_name>Missing folder name</folder_missing_name>
+    <folder_invalid_action>Invalid folder action %s</folder_invalid_action>
+    <folder_invalid_type>Invalid type of folder %s</folder_invalid_type>
+    <folder_sync>Cannot synchronize folder %s</folder_sync>
+    <folder_empty_non_mail>Cannot empty non-email folder</folder_empty_non_mail>
+    <folder_insufficient_rights>Insufficient rights to perform the operation</folder_insufficient_rights>
+    <folder_mark_non_mail>Trying to set flags of a non-email folder</folder_mark_non_mail>
+    <freebusy_missing_tag>FreeBusy tag missing %s</freebusy_missing_tag>
+    <group_open>Cannot open group %s</group_open>
+    <group_subscribe>Cannot subscribe to group %s</group_subscribe>
+    <group_add>Cannot create group</group_add>
+    <group_edit>Cannot edit group %s</group_edit>
+    <group_user_add>Cannot add users to group %s</group_user_add>
+    <group_user_edit>Cannot edit group user %s</group_user_edit>
+    <group_user_delete>Cannot delete group user %s</group_user_delete>
+    <groupware_upgrade_task>GroupWare service update procedure is running. Please try again later.</groupware_upgrade_task>
+    <folder_open>Cannot open group %s</folder_open>
+    <call_open_folder_first>GroupWare folder not open in operation where required</call_open_folder_first>
+    <call_open_group_first>GroupWare group not open in operation where required</call_open_group_first>
+    <subscribe_account_gw>Error subscribing account</subscribe_account_gw>
+    <unsubscribe_account_gw>Error unsubscribing account</unsubscribe_account_gw>
+    <imap_clone>Cannot clone IMAP object</imap_clone>
+    <imap_open>Cannot open IMAP stream</imap_open>
+    <imap_internal>IMAP internal error: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP retrieve delimiter error</imap_delimiter_retrieval>
+    <imap_getmailboxes>Cannot get the list of mailboxes</imap_getmailboxes>
+    <imap_mailbox_create>IMAP create mailbox %s create</imap_mailbox_create>
+    <imap_mailbox_subscribe>Cannot subscribe mailbox %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>Cannot delete mailbox %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Cannot unsubscribe mailbox %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP mailbox rename %s failed</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP mailbox delete items</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP mailbox empty items</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP copy items failed</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP move items failed</imap_mailbox_moveitems>
+    <imap_mailbox_open>Cannot reopen mailbox %s</imap_mailbox_open>
+    <imap_mailbox_message_list>Cannot get the list of messages</imap_mailbox_message_list>
+    <imap_message_details>Cannot get the details for message %s</imap_message_details>
+    <imap_no_headers>Cannot get the headers of message %s</imap_no_headers>
+    <imap_no_body>Cannot get the body of message %s</imap_no_body>
+    <imap_message_create>Cannot append message</imap_message_create>
+    <imap_message_delete>Cannot delete message %s</imap_message_delete>
+    <imap_message_copy>Cannot copy message %s</imap_message_copy>
+    <imap_message_move>Cannot move message %s</imap_message_move>
+    <imap_flags_set>Cannot set the message %s flags</imap_flags_set>
+    <imap_flags_clear>Cannot clear the message %s flags</imap_flags_clear>
+    <imap_message_not_found>New message not found in destination mailbox</imap_message_not_found>
+    <subscribe_account_imap>Error while subscribing account</subscribe_account_imap>
+    <unsubscribe_account_imap>Error while unsubscribing account</unsubscribe_account_imap>
+    <import_vcalendar>Import vCalendar failed</import_vcalendar>
+    <import_vcard>Import vCard failed</import_vcard>
+    <import_missing_tag>Import tag missing %s</import_missing_tag>
+    <import_missing_action>Import missing action</import_missing_action>
+    <import_invalid_action>Invalid import action %s</import_invalid_action>
+    <import_missing_account_id>Import missing account ID</import_missing_account_id>
+    <import_invalid_account_id>Import invalid account ID</import_invalid_account_id>
+    <import_missing_folder_id>Import missing folder ID</import_missing_folder_id>
+    <import_invalid_folder_id>Import invalid folder ID</import_invalid_folder_id>
+    <import_invalid_item_id>Import invalid item ID</import_invalid_item_id>
+    <import_add_items>Cannot create items (list)</import_add_items>
+    <import_invalid_data>Trying to import unsupported data</import_invalid_data>
+    <export_invalid_account>Trying to export non-existing account</export_invalid_account>
+    <imip_versit_convert>iMIP versit conversion</imip_versit_convert>
+    <imip_versit_empty>iMIP versit empty</imip_versit_empty>
+    <imip_missing_folder>iMIP missing folder</imip_missing_folder>
+    <inputstream_no_xml_input>No XML passed to input</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Corrupted XML input</inputstream_corrupted_input>
+    <item_invalid_id>No item ID</item_invalid_id>
+    <item_count>Cannot get the item count</item_count>
+    <item_create>Cannot create item</item_create>
+    <item_delete>Item %s cannot be deleted</item_delete>
+    <item_move>Item cannot be moved</item_move>
+    <item_edit>Item %s edit error</item_edit>
+    <item_occurrance_delete>Cannot delete occurrence %s</item_occurrance_delete>
+    <item_occurrance_create>Cannot create occurrence</item_occurrance_create>
+    <item_exception_delete>Cannot delete exception %s</item_exception_delete>
+    <item_exception_create>Cannot create exception</item_exception_create>
+    <item_copy>Cannot copy the item</item_copy>
+    <item_copy_multiple>Cannot copy multiple items</item_copy_multiple>
+    <item_copy_destination>Cannot get the destination folder</item_copy_destination>
+    <item_copy_destination_type>Cannot copy to folder of different type than source folder</item_copy_destination_type>
+    <item_count_retrieve>Cannot count folder items</item_count_retrieve>
+    <item_missing_tag>Item tag missing</item_missing_tag>
+    <item_missing_account_id>Missing account ID</item_missing_account_id>
+    <item_invalid_account_id>Invalid account ID %s</item_invalid_account_id>
+    <item_missing_folder_id>Missing folder ID</item_missing_folder_id>
+    <item_invalid_folder_id>Invalid folder ID %s</item_invalid_folder_id>
+    <item_missing_item_id>Missing item ID</item_missing_item_id>
+    <item_invalid_item_id>Invalid item ID %s</item_invalid_item_id>
+    <item_invalid_action>Item action invalid</item_invalid_action>
+    <login_invalid>Invalid login for user %s</login_invalid>
+    <login_account_valid>Invalid account %s</login_account_valid>
+    <phpmailer_>Generic mailer error, message not sent</phpmailer_>
+    <phpmailer_smtp_auth>Mailer could not authenticate, message not sent</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer could not connect to SMTP, message not sent</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer is missing recipients, message not sent</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer doesn't support this message type, message not sent</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail sending error</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Email sending error</phpmailer_mail_send>
+    <phpmailer_language>Cannot open language file</phpmailer_language>
+    <phpmailer_add_attachment>Cannot attach file</phpmailer_add_attachment>
+    <phpmailer_encode_file>Cannot encode attachment file</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Unknown attachment encoding type</phpmailer_encode_unknown>
+    <mailparse_empty>No source to parse</mailparse_empty>
+    <mailparse_parser_init>Parsing of the email failed</mailparse_parser_init>
+    <mailparse_get_part>Cannot get the part %s</mailparse_get_part>
+    <message_missing_tag>Message missing tag %s</message_missing_tag>
+    <message_missing_account_id>Message missing account ID</message_missing_account_id>
+    <message_invald_account>Message invalid account ID</message_invald_account>
+    <message_missing_folder_id>Message missing folder ID</message_missing_folder_id>
+    <message_invald_folder>Message invalid folder ID</message_invald_folder>
+    <message_missing_item_id>Message missing item ID</message_missing_item_id>
+    <message_invalid_action>Message invalid action</message_invalid_action>
+    <message_get_not_allowed>Cannot update folder list due to insufficient rights</message_get_not_allowed>
+    <message_attachment_type>Cannot parse attachment %s</message_attachment_type>
+    <message_attachment_existence>Recently uploaded attachment not found</message_attachment_existence>
+    <rss_channel_exist>Specified channel URL cannot be opened %s</rss_channel_exist>
+    <rss_invalid_channel>Cannot access the channel</rss_invalid_channel>
+    <settings_access_denied>Access denied</settings_access_denied>
+    <settings_missing_tag>Setting missing tag %s</settings_missing_tag>
+    <settings_duplicity>XML settings file formatting error</settings_duplicity>
+    <settings_get_domain_file>Cannot read domain settings file %s</settings_get_domain_file>
+    <settings_domain_set>Settings set domain settings to file %s</settings_domain_set>
+    <settings_user_set>Cannot access users settings in file %. Check permissions and mail folder.</settings_user_set>
+    <settings_public_set>Settings set public data to file %s</settings_public_set>
+    <settings_shared_set>Cannot save the shared accounts</settings_shared_set>
+    <settings_owner_set>Cannot set the owner settings</settings_owner_set>
+    <session_expired>Session %s expired</session_expired>
+    <session_no_user>Session user object cannot be retrieved</session_no_user>
+    <smime_no_recipient>SMIME no recipient</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP data not accepted from server: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP From: failed (from)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP Recipients failed (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Cannot set spell checker mode</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Cannot open spell checker dictionary (dic)</spellchecker_open_dictionary>
+    <spellchecker_add_word>Cannot add new word %s to dictionary</spellchecker_add_word>
+    <spellchecker_missing_check_id>Missing word identifier</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Missing tag %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Missing dictionary identifier</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Missing word</spellchecker_missing_word>
+    <upload_tag_missing>Upload tag missing</upload_tag_missing>
+    <upload_missing_attribute>Upload missing attribute</upload_missing_attribute>
+    <upload_attachment_missing>Upload attachment missing</upload_attachment_missing>
+    <xml_invalid_file_name>XML file name empty</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath returned more than one result in your query</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML specified node not found %s</xml_node_does_not_exist>
+    <xmlrequest_path>Invalid template file (path)</xmlrequest_path>
+    <xmlrequest_access_denied>Access denied</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Invalid request type (type)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Missing namespace attribute</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Missing or invalid SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XMLRequest tag missing %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Missing class constructor</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Unknown result format %s</xmlrequest_unkown_format>
+    <not_implemented>Not implemented yet</not_implemented>
+    <logdir_create>Cannot create logging directory %s</logdir_create>
+    <api_property_get>Cannot retrieve properties for %s</api_property_get>
+    <wm_disabled>WebClient is disabled</wm_disabled>
+    <gw_init_error>GroupWare initialization error</gw_init_error>
+    <default>Default exception %s</default>
+    <other_accounts_disabled>Creating other accounts is disabled</other_accounts_disabled>
+    <link_compressed_variable_missing>Error in URL, you were redirected to main screen</link_compressed_variable_missing>
+    <login_expired>Login expired, please login again</login_expired>
+    <account_disabled>Account disabled</account_disabled>
+    <folder_set_default>Folder &quot;%s&quot; cannot be set as default</folder_set_default>
+    <personality_confirmation_invalid_user>Email address cannot be confirmed: Invalid User</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>Email address cannot be confirmed: Invalid Hash</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Blacklist item failed</item_blacklist_error>
+    <item_whitelist_error>Whitelist item failed</item_whitelist_error>
+    <unverified_signature>Unable to verify message signature</unverified_signature>
+    <account_is_guest>Access not allowed for guests</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Item selection cleared</item_selection_cleared>
+    <logged_out>You have logged out</logged_out>
+    <message_send_ok>Message sent</message_send_ok>
+    <item_move_ok>Item(s) moved</item_move_ok>
+    <item_copy_ok>Item(s) copied</item_copy_ok>
+    <item_delete_ok>Item(s) deleted</item_delete_ok>
+    <item_mark_ok>Item(s) marked</item_mark_ok>
+    <settings_save_ok>Settings saved</settings_save_ok>
+    <loading_next_message>Loading next message</loading_next_message>
+    <loading_prev_message>Loading previous message</loading_prev_message>
+    <loading_next_page>Loading next page</loading_next_page>
+    <loading_prev_page>Loading previous page</loading_prev_page>
+    <loading_next_month>Loading next month</loading_next_month>
+    <loading_prev_month>Loading previous month</loading_prev_month>
+    <loading_next_week>Loading next week</loading_next_week>
+    <loading_prev_week>Loading previous week</loading_prev_week>
+    <loading_next_day>Loading next day</loading_next_day>
+    <loading_prev_day>Loading previous day</loading_prev_day>
+    <password_change_ok>Password changed</password_change_ok>
+    <item_whitelist_ok>Item was added to whitelist</item_whitelist_ok>
+    <item_blacklist_ok>Item was added to blacklist</item_blacklist_ok>
+    <folder_set_default_ok>Folder set as default</folder_set_default_ok>
+    <subscribe_account_ok>Account subscribed</subscribe_account_ok>
+    <subscribe_folder_ok>Folder subscribed</subscribe_folder_ok>
+    <item_decline_ok>Item declined</item_decline_ok>
+    <access_granted>You have been granted access to &quot;%s&quot; by &quot;%s&quot;.</access_granted>
+    <message_save_ok>Message saved</message_save_ok>
+    <item_accept_ok>Item accepted</item_accept_ok>
+  </messages>
+</language>

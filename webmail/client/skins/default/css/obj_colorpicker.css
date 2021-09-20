@@ -1,0 +1,104 @@
+.obj_colorpicker{
+	position: relative;
+	padding: 10px;
+	width: 380px;
+}
+.obj_colorpicker>.palette{
+	background: url("../images/colorpicker.png") 0 0 no-repeat #FFF;
+	width: 175px;
+	height: 187px;
+	position: relative;
+
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+}
+	.obj_colorpicker>.palette>div{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 20px;
+		text-align: center;
+	}
+	.obj_colorpicker>.palette>div:before{
+		content: '+';
+	}
+
+.obj_colorpicker>.color{
+    background: #888;
+    border-radius: 1px;
+    height: 32px;
+    right: 12px;
+    position: absolute;
+    bottom: 10px;
+    width: 82px;
+
+	/*border: 1px solid #ababab;*/
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);	
+}
+
+.obj_colorpicker>.light{
+	height: 187px;
+	width: 20px;
+	position: absolute;
+	left: 210px;
+	top: 10px;
+	background: #888;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+}
+	.obj_colorpicker>.light>div{
+		width: 26px;
+		height: 8px;
+		position: absolute;
+		bottom: 50%;
+		left: -3px;
+
+		border: 2px solid #888888;
+		border-radius: 1px;
+	}
+
+
+.obj_colorpicker>.light:before{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+
+	background-image: -ms-linear-gradient(top, #FFFFFF 100%, #FFFFFF 0%); /* IE10 */
+	background-image: -webkit-linear-gradient(top, #FFFFFF, rgba(255, 255, 255,0), #000000); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+	background-image:    -moz-linear-gradient(top, #FFFFFF, rgba(255, 255, 255,0), #000000); /* For Firefox (3.6 to 15) */
+	background-image:      -o-linear-gradient(top, #FFFFFF, rgba(255, 255, 255,0), #000000); /* For old Opera (11.1 to 12.0) */
+	background-image:         linear-gradient(to bottom, #FFFFFF, rgba(255, 255, 255,0), #000000); /* Standard syntax; must be last */
+}
+
+.obj_colorpicker>table{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.obj_colorpicker>table th.th{
+	text-align: right;
+	padding-right: 10px;
+}
+.obj_colorpicker .obj_input_small>input.obj_input{
+	width: 80px;
+}
+
+.obj_colorpicker>.standard{
+	left: 185px;
+	position: absolute;
+	top: 10px;
+	height: 187px;
+	overflow: hidden;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+}
+	.obj_colorpicker>.standard>div{
+		display: block;
+		height: 19px;
+		margin-right: 0;
+		width: 15px;
+	}

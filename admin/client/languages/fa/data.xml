@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <other>
+    <primary>اولیه</primary>
+    <secondary>ثانویه</secondary>
+    <success>موفقیت‌آمیز</success>
+    <warning>اخطار</warning>
+    <error>خطا</error>
+    <grey>خاکستری</grey>
+    <borderless>بدون کادر</borderless>
+    <demo>آزمایشی</demo>
+    <other>سایر</other>
+    <search_placeholder>به دنبال چه چیزی هستید؟</search_placeholder>
+    <imagepath_en>client/languages/en/images/</imagepath_en>
+    <session_expired>سشن شما منقضی شده است</session_expired>
+  </other>
+  <main>
+    <logout>خروج</logout>
+    <dashboard>داشبورد</dashboard>
+    <console>کنسول API</console>
+    <search>جستجو</search>
+    <support_url>http://www.icewarp.com/support/</support_url>
+    <spam_queues>صف اسپم</spam_queues>
+    <white_labeling>شخصی‌سازی</white_labeling>
+    <content_rules>قوانین محتویات</content_rules>
+    <certificates>سرتیفیکیت‌ها</certificates>
+    <server_settings>تنظیمات سرور</server_settings>
+    <policies>سیاست‌ها</policies>
+    <smartdiscover>جست و جوی هوشمند</smartdiscover>
+    <webclient>وب‌کلاینت</webclient>
+    <support>پشتیبانی</support>
+    <subscription>عضویت</subscription>
+    <account_settings>تنظیمات اکانت</account_settings>
+    <management>کاربران و دامنه‌ها</management>
+    <oauth>OAuth providers</oauth>
+    <night_mode>حالت شب</night_mode>
+  </main>
+  <form_buttons>
+    <ok>قبول</ok>
+    <cancel>رد</cancel>
+    <retry>سعی مجدد</retry>
+    <close>بستن</close>
+  </form_buttons>
+  <datetime>
+    <php_date>d/m/Y</php_date>
+    <php_time>H:i:s</php_time>
+    <php_time_minutes>H:i</php_time_minutes>
+    <mon>دوشنبه</mon>
+    <tue>سه‌شنبه</tue>
+    <wed>چهارشنبه</wed>
+    <thu>پنجشنبه</thu>
+    <fri>جمعه</fri>
+    <sat>شنبه</sat>
+    <sun>یکشنبه</sun>
+    <monday>دوشنبه</monday>
+    <tuesday>سه‌شنبه</tuesday>
+    <wednesday>چهارشنبه</wednesday>
+    <thursday>پنج‌شنبه</thursday>
+    <friday>جمعه</friday>
+    <saturday>شنبه</saturday>
+    <sunday>یکشنبه</sunday>
+    <january>ژانویه</january>
+    <february>فوریه</february>
+    <march>مارس</march>
+    <april>آوریل</april>
+    <may>می</may>
+    <june>جون</june>
+    <july>جولای</july>
+    <august>آگوست</august>
+    <september>سپتامبر</september>
+    <october>اکتبر</october>
+    <november>نوامبر</november>
+    <december>دسامبر</december>
+    <days>day;days</days>
+    <year>سال</year>
+    <years>سال</years>
+  </datetime>
+  <service_statistics>
+    <uptime>زمان بالا بودن</uptime>
+    <memorysize>اندازه مجموعه کار</memorysize>
+    <memorypeak>اندازه مجموعه کار (اوج)</memorypeak>
+    <msgreceived>دریافت</msgreceived>
+    <msgsent>ارسال</msgsent>
+    <msgfailed>ناموفق</msgfailed>
+    <msgvirus>ویروس</msgvirus>
+    <msgcontentfilter>فیلتر محتوا</msgcontentfilter>
+    <msgrules>قوانین</msgrules>
+    <msgexternal>فیلتر خارجی</msgexternal>
+    <msgintrusionprevention>پیشگیری از نفوذ</msgintrusionprevention>
+    <msgdns>DNSBL</msgdns>
+    <quarantine>قرنطینه</quarantine>
+    <spamassasin>SpamAssassin</spamassasin>
+    <spammarked>نشانه گذاری هرزنامه</spammarked>
+    <spamlivebulk>ضد اسپم آنلاین (انبوه)</spamlivebulk>
+    <spamlive>ضد اسپم آنلاین (اسپم)</spamlive>
+    <refused>اسپم رد شده</refused>
+    <greylisting>Greylisting</greylisting>
+    <conntotal>مجموع اتصالات</conntotal>
+    <serverconn>اتصالات سرور (تعداد)</serverconn>
+    <serverconnpeak>اتصالات سرور (اوج)</serverconnpeak>
+    <serverdatatotal>کل داده های سرور</serverdatatotal>
+    <serverdatain>داده های ورودی سرور</serverdatain>
+    <serverdataout>داده های خروجی سرور</serverdataout>
+    <clientconn>ارتباطات مشتری (تعداد)</clientconn>
+    <clientconnpeak>ارتباطات مشتری (اوج)</clientconnpeak>
+    <clientdatatotal>داده های مشتری منتقل شده است</clientdatatotal>
+    <clientdatain>داده های ورودی مشتری</clientdatain>
+    <clientdataout>داده های خروجی مشتری</clientdataout>
+    <packetsreceived>بسته های دریافت شده</packetsreceived>
+    <packetssent>بسته های ارسالی</packetssent>
+    <rtppacketsreceived>بسته های RTP دریافت شد</rtppacketsreceived>
+    <rtppacketssent>بسته های RTP ارسال شد</rtppacketssent>
+    <callcount>شمارش تماس ها</callcount>
+    <callpeak>اوج تماس ها</callpeak>
+    <calltotal>مجموع تماس ها</calltotal>
+  </service_statistics>
+  <management>
+    <domainlist>لیست دامنه‌ها</domainlist>
+    <guest_accounts>اکانت‌های مهمان</guest_accounts>
+  </management>
+  <dashboard>
+    <server_data>داده های سرور (مگابایت)</server_data>
+    <client_data>داده های مشتری (مگابایت)</client_data>
+    <received>دریافت</received>
+    <sent>ارسال</sent>
+    <active_users>کاربران فعال</active_users>
+    <storage>کل فضای استفاده شده</storage>
+    <mail_sent>ایمیل ارسال‌شده</mail_sent>
+    <mail_received>ایمیل دریافت‌شده</mail_received>
+    <realtime>زنده</realtime>
+    <hour>یک‌ساعت گذشته</hour>
+    <day>روز گذشته</day>
+    <week>هفته گذشته</week>
+    <month>ماه گذشته</month>
+    <year>سال گذشته</year>
+    <current_traffic>ترافیک فعلی</current_traffic>
+    <services_statuses>وضعیت سرویس</services_statuses>
+    <services>سرویس‌ها</services>
+    <uptime>زمان فعال بودن</uptime>
+    <connections>اتصالات</connections>
+    <data>داده</data>
+    <service>سرویس</service>
+    <category>موضوع</category>
+    <time_period>بازه زمانی</time_period>
+    <cancel>رد</cancel>
+    <smtp_connections>اتصالات SMTP</smtp_connections>
+    <imappop3_connections>اتصالات IMAP/POP3</imappop3_connections>
+    <web_connections>اتصالات وب</web_connections>
+    <statistics>آمار</statistics>
+    <settings>تنظیمات</settings>
+    <restart>راه‌اندازی مجدد</restart>
+    <stop>توقف</stop>
+    <start>شروع</start>
+    <mail_services>سرویس‌های ایمیل</mail_services>
+    <web_services>سرویس‌های وب</web_services>
+    <smtp>SMTP</smtp>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+    <control>وب</control>
+    <ftp>FTP</ftp>
+    <socks>SOCKS</socks>
+    <supportive_services>سرویس‌های پشت صحنه</supportive_services>
+    <minger>Minger</minger>
+    <ldap>LDAP</ldap>
+    <snmp>SNMP</snmp>
+    <communication>ارتباط</communication>
+    <im>پیام‌رسانی فوری</im>
+    <voip>VoIP</voip>
+    <sms>پیامک</sms>
+    <meeting>وب‌میتینگ</meeting>
+    <collaboration>کار گروهی</collaboration>
+    <calendar>GroupWare</calendar>
+    <groupware_notification>GroupWare اعلانات</groupware_notification>
+    <webclient>وب‌کلاینت</webclient>
+    <webdav>WebDAV</webdav>
+    <security>امنیت</security>
+    <antivirus>آنتی‌ویروس</antivirus>
+    <antispam>آنتی‌اسپم</antispam>
+    <mobility>تحرک</mobility>
+    <activesync>همگام سازی</activesync>
+    <syncml>SyncML</syncml>
+    <sip>VoIP</sip>
+    <teamchat>تیم‌چت</teamchat>
+    <sqlite>سرور از پایگاه داده SQLite استفاده می کند که برای این سرویس کافی نیست. لطفاً قبل از فعال کردن این سرویس Groupware را پیکربندی کنید تا از سرور پایگاه داده مستقل (به عنوان مثال MySQL ، MS SQL ، Oracle) استفاده کند.</sqlite>
+    <plan>پلن</plan>
+    <cluster_id>کلاستر</cluster_id>
+    <price_user_month>کل هزینه های ماهانه</price_user_month>
+    <next_billing>صورتحساب بعدی</next_billing>
+    <upgrade>برنامه ریزی های خود را به روز رسانی کنید</upgrade>
+    <hypervisor>Hypervisor</hypervisor>
+    <manage>مدیریت</manage>
+  </dashboard>
+  <generic>
+    <hh_mm>hh:mm</hh_mm>
+    <and>و</and>
+    <or>یا</or>
+    <not>نه</not>
+    <add uses="server certificates">اضافه کردن</add>
+    <alias>نام مستعار</alias>
+    <cancel>رد</cancel>
+    <continue>ادامه</continue>
+    <reset>ریست</reset>
+    <back>قبلی</back>
+    <create_new_account_0>ایجاد کاربر جدید</create_new_account_0>
+    <create_new_account_1>ایجاد لیست ایمیل جدید</create_new_account_1>
+    <create_new_account_7>ایجاد گروه جدید</create_new_account_7>
+    <create_new_account_8>ایجاد منبع جدید</create_new_account_8>
+    <create_new_account_d>ایجاد دامنه جدید</create_new_account_d>
+    <days>روز</days>
+    <delete uses="server certificates">حذف</delete>
+    <domain>دامنه</domain>
+    <domain_name>نام دامنه</domain_name>
+    <enter_additional_alias>نام مستعار اضافی را وارد کنید</enter_additional_alias>
+    <enter_password>رمز را وارد نمایید</enter_password>
+    <enter_time_in_minutes>زمان را به دقیقه وارد نمایید</enter_time_in_minutes>
+    <enter_value>مقدار را وارد کنید</enter_value>
+    <from>از</from>
+    <generate>ایجاد</generate>
+    <size_b>B</size_b>
+    <size_kb>kB</size_kb>
+    <size_mb>MB</size_mb>
+    <size_gb>GB</size_gb>
+    <size_tb>TB</size_tb>
+    <size_pb>PB</size_pb>
+    <messages>پیام‌ها</messages>
+    <message_error_heading>خطا</message_error_heading>
+    <message_success_heading>موفقیت</message_success_heading>
+    <message_warning_heading>اخطار</message_warning_heading>
+    <minutes>دقیقه</minutes>
+    <seconds>ثانیه</seconds>
+    <name>نام</name>
+    <new_group>گروه جدید</new_group>
+    <new_mailing_list>لیست ایمیل جدید</new_mailing_list>
+    <new_user>کاربر جدید</new_user>
+    <new_domain>دامنه جدید</new_domain>
+    <new_resource>منبع جدید</new_resource>
+    <password>رمزعبور</password>
+    <plus_symbol>+</plus_symbol>
+    <reset_to_default>تنظیم مجدد به حالت پیش فرض</reset_to_default>
+    <results>نتایج</results>
+    <retry>سعی مجدد</retry>
+    <save>ذخیره</save>
+    <do_not_save>ذخیره نکن</do_not_save>
+    <save_and_add_another>ذخیره و اضافه کردن دوباره</save_and_add_another>
+    <save_as>ذخیره به عنوان</save_as>
+    <select>انتخاب</select>
+    <select_action>عمل مورد نظر را انتخاب کنید</select_action>
+    <share>اشتراک گذاری</share>
+    <subject>موضوع</subject>
+    <first_name>نام</first_name>
+    <surname>نام خانوادگی</surname>
+    <text>متن</text>
+    <try_again>مجددا سعی نمایید</try_again>
+    <icewarp_webadmin>مدیریت تحت وب آیس‌وارپ</icewarp_webadmin>
+    <group_name>نام گروه</group_name>
+    <resource_name>نام منبع</resource_name>
+    <upload>آپلود</upload>
+    <upload_photo>آپلود عکس</upload_photo>
+    <type uses="new resource">نوع</type>
+    <done uses="permissions">انجام شد</done>
+    <set_to_default>برگرداندن به مقادیر پیش‌فرض</set_to_default>
+    <export>صادرات</export>
+    <all>همه</all>
+    <ok>قبول</ok>
+    <close>بستن</close>
+    <download>دانلود</download>
+    <port>پورت</port>
+    <on>روشن</on>
+    <off>خاموش</off>
+    <copy_to_clipboard>کپی به حافظه</copy_to_clipboard>
+    <plan_selection>انتخاب برنامه</plan_selection>
+  </generic>
+  <api_console>
+    <webserver>وب‌سرور</webserver>
+    <webdav>WebDAV</webdav>
+    <voip>VoIP</voip>
+    <system_tools>ابزارها</system_tools>
+    <storage>حافظه</storage>
+    <smtp_pop3_imap>SMTP/POP3/IMAP</smtp_pop3_imap>
+    <sms>پیامک</sms>
+    <smart_discover>یافتن هوشمند</smart_discover>
+    <proxy>پراکسی</proxy>
+    <protocols>پروتوکل‌ها</protocols>
+    <mobile_sync>Mobile Sync</mobile_sync>
+    <mail>ایمیل</mail>
+    <logging>در حال ورود</logging>
+    <ldap>LDAP</ldap>
+    <instant_messaging>پیام رسانی فوری</instant_messaging>
+    <gui>GUI</gui>
+    <groupware>GroupWare</groupware>
+    <general>عمومی</general>
+    <ftp>FTP</ftp>
+    <domains>دامنه‌ها</domains>
+    <connection>ارتباط</connection>
+    <conferencing>وب‌میتینگ</conferencing>
+    <antivirus>آنتی‌ویروس</antivirus>
+    <antispam>آنتی‌اسپم</antispam>
+    <advanced>پیشرفته</advanced>
+    <accounts_policies>سیاست‌های اکانت</accounts_policies>
+    <accounts>اکانت‌ها</accounts>
+    <save>‌ذخیره</save>
+    <type_string>رشته</type_string>
+    <type_longstring>رشته طولانی</type_longstring>
+    <type_integer>عذذ</type_integer>
+    <type_boolean>Boolean</type_boolean>
+    <type_enum>شمارش</type_enum>
+    <true>درست</true>
+    <false>نادرست</false>
+    <mailinglist>لیست ایمیل</mailinglist>
+    <domain>دامنه</domain>
+    <user>کاربر</user>
+    <edit>ویرایش</edit>
+    <group>گروه</group>
+    <resource>منبع</resource>
+    <name>نام</name>
+    <type>نوع</type>
+    <val>مقدار</val>
+    <description>توضیح</description>
+    <view>نمایش</view>
+  </api_console>
+  <client_applications>
+    <client_applications>نرم افزار های مشتری</client_applications>
+    <icewarp_desktop>مشتری دسکتاپ</icewarp_desktop>
+    <icewarp_outlook_sync>همگام سازی Outlook</icewarp_outlook_sync>
+    <mobile_devices>دستگاه های موبایل</mobile_devices>
+  </client_applications>
+  <client_applications_help>
+    <client_applications>دستگاه های تلفن همراه کاربر ، برنامه های Outlook Sync و Desktop Client را مدیریت کنید.</client_applications>
+    <icewarp_desktop>نصب Desktop Client را بارگیری کرده و مجوزها را مدیریت کنید.</icewarp_desktop>
+    <icewarp_outlook_sync>نصب Outlook Sync را بارگیری کنید و تنظیمات و صدور مجوز را از راه دور مدیریت کنید.</icewarp_outlook_sync>
+    <mobile_devices>تنظیمات دستگاه های همراه متصل را مدیریت کنید.</mobile_devices>
+  </client_applications_help>
+  <permissions>
+    <inbox>صندوق دریافتی</inbox>
+    <calendar>تقویم</calendar>
+    <contacts>مخاطبین</contacts>
+    <files>فایل‌ها</files>
+    <permissions>دسترسی‌ها</permissions>
+    <anyone>همه / ناشناس</anyone>
+    <custom>سلیقه‌ای</custom>
+    <all>همه</all>
+    <none>هیچکدام</none>
+    <read>خواندن</read>
+    <write>نوشتن</write>
+    <full>کامل</full>
+    <owner>مالک</owner>
+    <add_new_user_or_domain>اضافه کردن دامنه یا کاربر جدید</add_new_user_or_domain>
+    <inherit>ارث‌بردن</inherit>
+    <show_all_folders>نمایش تمامی پوشه‌ها</show_all_folders>
+    <show_less>نمایش کمتر</show_less>
+    <domains>دامنه‌ها</domains>
+  </permissions>
+  <permissions_help>
+    <inbox>به سایر کاربران شرکتتان اجازه دهید ایمیل را بخوانند یا در پوشه پیش فرض ایمیل تغییراتی ایجاد کنند.</inbox>
+    <calendar>به سایر کاربران شرکتتان اجازه دهید رویدادها را در پوشه پیش فرض تقویم مشاهده یا ایجاد کنند.</calendar>
+    <contacts>به سایر کاربران شرکتتان اجازه دهید ورودی های موجود در پوشه پیش فرض مخاطبین را لیست یا تغییر دهند.</contacts>
+    <files>به سایر کاربران شرکتتان اجازه دهید اسناد را در پوشه پیش فرض پرونده ها بخوانند یا اضافه کنند.</files>
+  </permissions_help>
+  <mobile_devices>
+    <allowed>مجاز</allowed>
+    <blocked>مسدود</blocked>
+    <quarantine>قرنطینه شده</quarantine>
+    <all_mail_items>همه</all_mail_items>
+    <all_calendar_events>همه</all_calendar_events>
+    <all_status>همه</all_status>
+    <all_sync>همه</all_sync>
+    <last_24_hours>۲۴ ساعت گذشته</last_24_hours>
+    <last_7_days>۷ روز گذشته</last_7_days>
+    <last_4_weeks>۴ هفته گذشته</last_4_weeks>
+    <one_day>یک روز</one_day>
+    <three_days>۳ روز</three_days>
+    <one_week>یک هفته</one_week>
+    <two_weeks>دو هفته</two_weeks>
+    <one_month>یک ماه</one_month>
+    <three_months>سه ماه</three_months>
+    <six_months>شش ماه</six_months>
+    <incomplete_tasks_only>فقط کارهای ناقص</incomplete_tasks_only>
+    <new_calendar_folders>پوشه تقویم جدید</new_calendar_folders>
+    <merge_to_default_calendar_folder>در پوشه تقویم پیش فرض ادغام شوید</merge_to_default_calendar_folder>
+    <events>رویدادها</events>
+    <tasks>فعالیت‌ها</tasks>
+    <tasks_and_notes>کارها و یادداشت ها (برنامه Android)</tasks_and_notes>
+    <new_folders>پوشه جدید</new_folders>
+    <merge_to_default_folder>ادغام در پوشه پیش فرض</merge_to_default_folder>
+    <allow>اجازه دادن</allow>
+    <block>مسدود کردن</block>
+    <delete>حذف</delete>
+    <wipe>پاک کردن</wipe>
+  </mobile_devices>
+  <vcard>
+    <male>مذکر</male>
+    <female>مونث</female>
+    <unknown>نامعلوم</unknown>
+    <home1>منزل ۱</home1>
+    <home2>منزل ۲</home2>
+    <assistant>دستیار</assistant>
+    <work1>کاری ۱</work1>
+    <work2>کاری ۲</work2>
+    <fax_home>فکس منزل</fax_home>
+    <fax_work>فکس کاری</fax_work>
+    <callback>تماس مجدد</callback>
+    <company>شرکت</company>
+    <car>ماشین</car>
+    <isdn>ISDN</isdn>
+    <mobile>موبایل</mobile>
+    <other>سایر</other>
+    <other_fax>فکس غیره</other_fax>
+    <pager>پیجر</pager>
+    <primary>اصلی</primary>
+    <radio>رادیو</radio>
+    <telex>تلکس</telex>
+    <hearing>درحال شنیدن</hearing>
+    <sip>SIP</sip>
+    <email1>ایمیل ۱</email1>
+    <email2>ایمیل ۲</email2>
+    <email3>ایمیل ۳</email3>
+    <imaddress>آدرس مسنجر</imaddress>
+  </vcard>
+  <devicedetail>
+    <allow_block_device>دستگاه فعال است</allow_block_device>
+    <allow_device>مجوز به دستگاه</allow_device>
+    <block_device>مسدود کردن دستگاه</block_device>
+    <device_in_quarantine>دستگاه در قرنطینه است</device_in_quarantine>
+    <account>اکانت</account>
+    <device_info>مشخصات دستگاه</device_info>
+    <device_name>نام دستگاه</device_name>
+    <groupware_synchronization>همگام سازی آیتم ها</groupware_synchronization>
+    <hard_wipe>پاک کردن سخت</hard_wipe>
+    <info>اطلاعات</info>
+    <last_sync>آخرین ارتباط</last_sync>
+    <model>مدل</model>
+    <notes_synchronization_type>نوع همگام سازی یادداشت ها</notes_synchronization_type>
+    <os>سیستم‌عامل</os>
+    <past_calendar_events>رویدادهای گذشته تقویم</past_calendar_events>
+    <past_mail_items>موارد پستی گذشته</past_mail_items>
+    <private_special_folders>همگام سازی پوشه ها</private_special_folders>
+    <registered>ثبت نام شده</registered>
+    <soft_hard_wipe>دستگاه را از راه دور پاک کنید</soft_hard_wipe>
+    <soft_wipe>پاک کردن نرم</soft_wipe>
+    <status>وضعیت</status>
+    <sync_notes_as>همگام سازی یادداشت ها به عنوان</sync_notes_as>
+    <sync_tasks_as_calendar_events>همگام سازی کارها به عنوان رویداد های تقویم</sync_tasks_as_calendar_events>
+    <synchronization>همگام سازی</synchronization>
+    <tasks_synchronization_type>نوع همگام سازی کارها</tasks_synchronization_type>
+    <type>نوع</type>
+    <groupware_folders>GroupWare (خصوصی) پوشه های</groupware_folders>
+    <mail_folders>پوشه های ایمیل (خصوصی</mail_folders>
+    <shared_folders>پوشه‌های اشتراک گذاشته‌شده</shared_folders>
+    <archive>آرشیو ایمیل</archive>
+    <public_folders>پوشه‌های عمومی</public_folders>
+    <all_folders>همه پوشه‌ها</all_folders>
+    <default_folders_only>فقط پوشه‌های پیش‌فرض</default_folders_only>
+    <all_with_groupware_as_email>همه دارای GroupWare به عنوان ایمیل</all_with_groupware_as_email>
+  </devicedetail>
+  <devicedetail_help>
+    <device_info>خصوصیات دستگاه را مرور یا ویرایش کنید یا دسترسی دستگاهها به سرور را مسدود کنید.</device_info>
+    <groupware_synchronization>هماهنگ سازی GroupWare و موارد ایمیل را مدیریت کنید. در صورت لزوم ، ضامن را روشن کرده و مقدار مناسب را از لیست انتخاب کنید. این تنظیمات تنظیمات دستگاه را لغو می کند.</groupware_synchronization>
+    <private_special_folders>همگام سازی پوشه های پیش فرض و ویژه را مدیریت کنید. از لیست مناسب انتخاب کنید یا ضامن را روشن کنید.</private_special_folders>
+    <soft_hard_wipe>Soft Wipe فقط داده های بارگیری شده از سرور را پاک می کند. Hard Wipe دستگاه را به تنظیمات کارخانه بازمی گرداند ، داده ها را از دستگاه و کارتهای SD پاک می کند.</soft_hard_wipe>
+  </devicedetail_help>
+  <domainlist>
+    <domain_list>لیست دامنه‌ها</domain_list>
+    <all_types>همه انواع</all_types>
+    <standard>استاندارد</standard>
+    <domain_alias>نام مستعار دامنه</domain_alias>
+    <backup_domain>دامنه پشتیبان</backup_domain>
+    <distributed_domain>دامنه توزیع‌شده</distributed_domain>
+    <etrn_atrn_queue>صف ETRN/ATRN</etrn_atrn_queue>
+    <verification_default>پیش‌فرض</verification_default>
+    <verification_use_minger_with_password>از Minger با رمز عبور استفاده کنید</verification_use_minger_with_password>
+    <verification_usevrfy_command>از دستور VRFY استفاده کنید</verification_usevrfy_command>
+    <verification_use_rcpt_to_command>از دستور RCPT TO استفاده کنید</verification_use_rcpt_to_command>
+  </domainlist>
+  <domainlist_header>
+    <users>کاربران</users>
+    <name>نام</name>
+    <type>نوع</type>
+    <description>توضیح</description>
+  </domainlist_header>
+  <domaindetail>
+    <users>اکانت‌ها</users>
+    <settings>مشخصات</settings>
+    <limits>محدودیت‌ها</limits>
+    <rules>قوانین</rules>
+    <active_directory>اکتیودایرکتوری</active_directory>
+    <mobile_devices>دستگاه‌های موبایل</mobile_devices>
+    <general>عمومی</general>
+    <name>نام</name>
+    <description>توضیح</description>
+    <type>نوع</type>
+    <val>مقدار</val>
+    <verification>تایید</verification>
+    <password>رمزعبور</password>
+    <administrator_email>ایمیل ادمین</administrator_email>
+    <aliases>نام‌های مستعار</aliases>
+    <add_alias>اضافه کردن نام</add_alias>
+    <quotas>سهمیه</quotas>
+    <storage_usage>مصرف فضا</storage_usage>
+    <numbers_of_emails_sent>تعداد ایمیل ارسالی</numbers_of_emails_sent>
+    <change_quotas>محدودیت‌های دامنه</change_quotas>
+    <permissions_and_rights>مجوزها و حقوق</permissions_and_rights>
+    <unknown_accounts>حسابهای ناشناخته</unknown_accounts>
+    <reject>رد کردن</reject>
+    <delete>حذف کردن</delete>
+    <forward_to>فوروارد به</forward_to>
+    <target_email>ایمیل هدف</target_email>
+    <two_factor_authentication>احراز هویت دوگانه</two_factor_authentication>
+    <instant_messaging_shared_roster>پیام فوری فهرست مشترک</instant_messaging_shared_roster>
+    <domain_features>ویژگی های دامنه</domain_features>
+    <features>ویژگی ها</features>
+    <outlook_sync>همگام سازی Outlook</outlook_sync>
+    <desktop_client>مشتری دسکتاپ</desktop_client>
+    <manage>مدیریت کردن</manage>
+    <download>دانلود کردن</download>
+    <domain_limits>محدودیت های دامنه</domain_limits>
+    <maximum_number_of_accounts>محدودیت اکانت سرپرست دامنه (حساب های #)</maximum_number_of_accounts>
+    <disk_quota>ظرفیت دیسک</disk_quota>
+    <daily_send_out_limit_for_domain>روزانه محدودیت هایی برای دامنه ارسال می شود</daily_send_out_limit_for_domain>
+    <disable_login_to_this_domain>ورود به این دامنه را غیرفعال کنید</disable_login_to_this_domain>
+    <daily_data_limit>محدودیت داده برای ارسال خارجی</daily_data_limit>
+    <daily_message_count_limit>محدودیت برای پیام های ارسالی</daily_message_count_limit>
+    <number_per_day># هر روز</number_per_day>
+    <domain_expiration>انقضای دامنه</domain_expiration>
+    <expires_on>منقضی شده در</expires_on>
+    <notify_before_expiration>قبل از انقضا اطلاع دهید</notify_before_expiration>
+    <days>روزها</days>
+    <delete_domain_when_expired>وقتی منقضی شد دامنه را حذف کنید</delete_domain_when_expired>
+    <user_limits>محدودیت‌های کاربر</user_limits>
+    <account_size>سایز اکانت</account_size>
+    <default_max_message_size>ماکزیمم سایز ایمیل</default_max_message_size>
+    <default_daily_send_out_limit_for_users>محدودیت  پیش فرض روزانه برای ارسال کاربران</default_daily_send_out_limit_for_users>
+    <forward_to_address>فوروارد به آدرس</forward_to_address>
+    <dns_validation>DNS اعتبار</dns_validation>
+    <validation>اعتبار</validation>
+    <rename>تغییر نام</rename>
+    <rename_and_logout>تغییر نام و خروج</rename_and_logout>
+    <change_domain_name>تغییر نام دامنه</change_domain_name>
+    <same_domain_helper>شما در حال تغییر نام دامنه خود هستید. پس از اتمام عملکرد ، به طور خودکار از WebAdmin خارج می شوید و باید دوباره وارد سیستم شوید.</same_domain_helper>
+    <dkim>DKIM</dkim>
+    <delete_spam_older_than>هرزنامه های قدیمی تر از</delete_spam_older_than>
+    <max_allowed_subscription_plan>حداکثر طرح اشتراک مجاز</max_allowed_subscription_plan>
+  </domaindetail>
+  <domaindetail_help>
+    <domain_limits>محدودیت های دامنه زیر بر هر محدودیت سطح کاربر اولویت دارند. به عنوان مثال ، اگر یک محدودیت Disk Quota در دامنه ای تنظیم کنید که روی 100 مگابایت تنظیم شده و یک اندازه حساب کاربر را روی 500 مگابایت قرار دهید ، با رسیدن دامنه به 100 مگابایت ، دامنه آن محدود می شود.</domain_limits>
+    <domain_expiration>تاریخ انقضا برای دامنه مشخص کنید. وقتی دامنه منقضی می شود ، فقط ورود به دامنه غیرفعال است. اگر بخواهید دامنه را حذف کنید ، همه حساب ها و داده های آنها حذف می شود!</domain_expiration>
+    <user_limits>محدودیت های زیر اولویت کمتری نسبت به هر محدودیت سطح کاربر دارند. به عنوان مثال ، اگر 100 حساب در دامنه دارید و 98 باید محدودیت یکسانی داشته باشد ، 2 مورد باید محدودیت های مختلفی داشته باشد ، برای 98 کاربر در اینجا محدودیت تعیین کنید و فقط برای 2 نفر محدودیت دیگری در سطح کاربر تعیین کنید.</user_limits>
+    <quotas>برای محدود کردن اندازه دامنه ، تعداد پیام های ارسال شده یا حداکثر اندازه پیام ها در سطح دامنه ، یا اعمال محدودیت های دیگر برای همه حساب های دامنه به طور همزمان ، روی دامنه های دامنه کلیک کنید.</quotas>
+    <permissions_and_rights>نحوه مدیریت پیام های ارسالی به حساب هایی که در سرور تعریف نشده اند را مشخص کنید. برای فعال یا غیرفعال کردن سرویس ها برای همه کاربران دامنه ، روی ویژگی ها کلیک کنید. ویژگی های پیکربندی شده در سطح کاربر از اولویت بیشتری برخوردار هستند.</permissions_and_rights>
+    <client_applications>دستگاه های تلفن همراه دامنه ، برنامه های Outlook Sync و Desktop Client را مدیریت کنید.</client_applications>
+    <aliases>نام های مستعار این دامنه را وارد کنید. پیام های ارسال شده به همه این آدرس ها به صندوق های پستی این دامنه ارسال می شود. برای این نام های مستعار نمی توانید قوانینی متفاوت از دامنه اصلی تعیین کنید.</aliases>
+  </domaindetail_help>
+  <subscription_plans>
+    <any_plan>هر برنامه ای</any_plan>
+    <standard>استاندارد</standard>
+    <professional>پیشرفته</professional>
+    <user_per_month>کاربر در هر ماه</user_per_month>
+  </subscription_plans>
+  <rules>
+    <lower>پایین تر</lower>
+    <greater>بزرگ تر</greater>
+    <priority_highest>بیشترین</priority_highest>
+    <priority_high>بیشتر</priority_high>
+    <priority_normal>معمولی</priority_normal>
+    <priority_low>پایین</priority_low>
+    <priority_lowest>پایین ترین</priority_lowest>
+    <function_contains_value_from_list>حاوی مقداری از لیست است (با ؛ جدا شده)</function_contains_value_from_list>
+    <function_matches_regex>همخوانی ها (RegEx)</function_matches_regex>
+    <function_starts_with>شروع با</function_starts_with>
+    <function_ends_with>پایان با</function_ends_with>
+    <function_equals>برابر</function_equals>
+    <function_contains_value_from_file>حاوی مقداری از یک پرونده یا الگو است</function_contains_value_from_file>
+    <condition_all_messages>همه پیام ها</condition_all_messages>
+    <condition_where_from>از کجا</condition_where_from>
+    <condition_message_header_matches>مطابقت هدر پیام</condition_message_header_matches>
+    <condition_where_subject>موضوع کجا</condition_where_subject>
+    <condition_where_message_body_matches>جایی که متن پیام مطابقت دارد</condition_where_message_body_matches>
+    <condition_where_message_contains_attachment>جایی که پیام حاوی پیوست است</condition_where_message_contains_attachment>
+    <condition_where_attachment_name_matches>جایی که نام پیوست مطابقت دارد</condition_where_attachment_name_matches>
+    <condition_where_message_priority_is>جایی که اولویت پیام است</condition_where_message_priority_is>
+    <condition_where_message_size_is>جایی که اندازه پیام است</condition_where_message_size_is>
+    <condition_where_message_is_spam>جایی که پیام اسپم است</condition_where_message_is_spam>
+    <condition_where_to>جایی که فرستاده شود</condition_where_to>
+    <condition_where_cc>جایی که Ccاست</condition_where_cc>
+    <condition_where_replyto>جایی که پاسخ داده شود</condition_where_replyto>
+    <condition_where_date>جایی که تاریخ است</condition_where_date>
+    <condition_where_custom_message_header_matches>جایی که سرصفحه پیام سفارشی مطابقت دارد</condition_where_custom_message_header_matches>
+    <condition_where_any_message_header_matches>هر جایی که هر سرصفحه پیام مطابقت دارد</condition_where_any_message_header_matches>
+    <condition_where_sender_matches>جایی که فرستنده مطابقت دارد</condition_where_sender_matches>
+    <condition_where_recipient_matches>جایی که گیرنده با هم مطابقت دارد</condition_where_recipient_matches>
+    <condition_where_sender_recipient_is_local_remote>جایی که فرستنده / گیرنده محلی / از راه دور باشد</condition_where_sender_recipient_is_local_remote>
+    <condition_where_spam_score_is>جایی که نمره اسپم</condition_where_spam_score_is>
+    <condition_where_local_time_meets>جایی که زمان محلی</condition_where_local_time_meets>
+    <condition_where_rdns_matches>جایی که RDNS ها مطابقت دارند</condition_where_rdns_matches>
+    <condition_where_senders_ip_address_matches>جایی که آدرس IP فرستنده مطابقت دارد</condition_where_senders_ip_address_matches>
+    <condition_where_senders_ip_address_is_listed_on_dnsbl>جایی که آدرس IP فرستنده در DNSBL ذکر شده است</condition_where_senders_ip_address_is_listed_on_dnsbl>
+    <condition_where_session_is_trusted>جایی که سشن مورد اعتماد است</condition_where_session_is_trusted>
+    <condition_where_smtp_auth>جایی که SMTP AUTH</condition_where_smtp_auth>
+    <condition_where_message_direct_to_user>پیام مستقیماً به کاربر ارسال شد</condition_where_message_direct_to_user>
+    <action_accept_reject_delete_spam_quarantine>قبول / رد / حذف / اسپم / قرنطینه</action_accept_reject_delete_spam_quarantine>
+    <action_forward_to_email>ارسال به ایمیل</action_forward_to_email>
+    <action_copy_to_folder>کپی در پوشه</action_copy_to_folder>
+    <action_move_to_folder>انتقال به پوشه</action_move_to_folder>
+    <action_encrypt_message>رمزگذاری پیام</action_encrypt_message>
+    <action_send_new_message>ارسال پیام جدید</action_send_new_message>
+    <action_edit_message_header>ویرایش سرصفحه پیام</action_edit_message_header>
+    <action_set_message_priority_to>اولویت پیام را بر روی تنظیم کنید</action_set_message_priority_to>
+    <action_set_message_flags_to>پرچم های پیام را روی تنظیم کنید</action_set_message_flags_to>
+    <action_stop_processing_more_rules>پردازش قوانین بیشتر را متوقف کنید</action_stop_processing_more_rules>
+    <and>و</and>
+    <or>یا</or>
+    <and_not>و نه</and_not>
+    <or_not>یا نه</or_not>
+    <rules>قوانین</rules>
+    <result_title>نحوه ایجاد قانون:</result_title>
+    <result_step_1>1. ابتدا یک یا چند شرط را انتخاب کنید</result_step_1>
+    <result_step_2>2. برخی از اقدامات را به شرایط خود اضافه کنید</result_step_2>
+    <result_step_3>3. برای تمییز قانون عنوان اضافه کنید</result_step_3>
+    <result>نتیجه</result>
+    <basic>اساسی</basic>
+    <headers>سرصفحه ها</headers>
+    <advanced>پیشرفته</advanced>
+    <standard>استاندارد</standard>
+    <extra>اضافی</extra>
+    <title>عنوان</title>
+    <actions>فعالیت ها</actions>
+    <conditions>شرایط</conditions>
+    <rule_number>شماره قانون</rule_number>
+    <new_rule>اضافه کردن قانون</new_rule>
+    <delete>حذف کردن</delete>
+    <activate>فعال سازی</activate>
+    <deactivate>غیرفعال کردن</deactivate>
+  </rules>
+  <rulepopup>
+    <action>عمل</action>
+    <add_new_header_condition>اضافه کردن شرط جدید در عنوان</add_new_header_condition>
+    <from>از</from>
+    <header>سرتیتر</header>
+    <match_regex>RegEx را در هدر اصلی مطابقت دهید</match_regex>
+    <regex>RegEx</regex>
+    <subject>موضوع</subject>
+    <text>متن</text>
+    <to>به</to>
+    <val>ارزش</val>
+    <add_edit>اضافه کردن / ویرایش</add_edit>
+    <delete>حذف کردن</delete>
+  </rulepopup>
+  <rulecard>
+    <monday>دوشنبه</monday>
+    <tuesday>سه شنبه</tuesday>
+    <wednesday>چهارشنبه</wednesday>
+    <thursday>پنج شنبه</thursday>
+    <friday>جمعه</friday>
+    <saturday>شنبه</saturday>
+    <sunday>یک شنبه</sunday>
+    <action>عمل</action>
+    <all_items_match>همه ی آیتم ها مطابقت دارند</all_items_match>
+    <antivirus>آنتی ویروس</antivirus>
+    <bare_lfs>Bare LFs</bare_lfs>
+    <between_dates>بین تاریخ ها (yyyy:mm:dd)</between_dates>
+    <between_times>بین زمان ها (hh:mm)</between_times>
+    <change_mime>تغییر MIME-Version به 1.0</change_mime>
+    <copy_to_folder>کپی به پوشه</copy_to_folder>
+    <crlf>CRLF.CRLF درون پیام</crlf>
+    <db_connection>اتصالات پایگاه داده</db_connection>
+    <delete>حذف کردن</delete>
+    <dnsbl_server>DNSBL سرور</dnsbl_server>
+    <email_address>آدرس ایمیل</email_address>
+    <eof>EOF داخل پیام</eof>
+    <executable>قابل اجرا</executable>
+    <flagged>پرچم دار شده</flagged>
+    <flags>پرچم ها</flags>
+    <function>عملیات</function>
+    <ignore>چشم پوشی کردن</ignore>
+    <junk>Junk</junk>
+    <label_1>برچسب 1</label_1>
+    <label_2>برچسب 2</label_2>
+    <label_3>برچسب 3</label_3>
+    <label_4>برچسب 4</label_4>
+    <label_5>برچسب 5</label_5>
+    <label_6>برچسب 6</label_6>
+    <local>محلی</local>
+    <match_case>مورد تطبیق</match_case>
+    <member_of>عضو</member_of>
+    <message_not_virus>پیام حاوی ویروس نیست</message_not_virus>
+    <message_password>پیام شامل پرونده های محافظت شده با رمز عبور است</message_password>
+    <message_priority>اولویت پیام</message_priority>
+    <message_size>سایز پیام</message_size>
+    <message_virus>پیام حاوی ویروس است</message_virus>
+    <move_to_folder>انتقال به پوشه</move_to_folder>
+    <non_junk>NonJunk</non_junk>
+    <not>نه</not>
+    <one_item_matches>حداقل یک مورد مطابقت دارد</one_item_matches>
+    <parse_xml>Parse XML</parse_xml>
+    <quarantine>قرنطینه</quarantine>
+    <recipient>گیرنده</recipient>
+    <regex>RegEx</regex>
+    <reject>رد کردن</reject>
+    <remote>از راه دور</remote>
+    <remove_mime>حذف دو کاراکتر MIME-Version</remove_mime>
+    <rfc2822>Fix RFC2822 violation</rfc2822>
+    <score>نمره</score>
+    <seen>دیده شده</seen>
+    <sender>فرستنده</sender>
+    <sender_recipient>فرستنده / گیرنده</sender_recipient>
+    <single_string>تبدیل به یک رشته</single_string>
+    <spam>اسپم</spam>
+    <sql_statement>SQL دستورات</sql_statement>
+    <string>رشته</string>
+    <string_condition>شرط رشته</string_condition>
+    <than>از</than>
+    <time_criteria>معیارهای زمانی</time_criteria>
+    <type>نوع</type>
+    <user_doesnt_exists>کاربر وجود ندارد</user_doesnt_exists>
+    <user_exists>کاربر وجود دارد</user_exists>
+    <weekdays>روزهای هفته</weekdays>
+    <whole_word>همه کلمات</whole_word>
+    <zerobyte>0x00 داخل پیام</zerobyte>
+    <accept>Accept</accept>
+    <add_edit>Add / Edit</add_edit>
+    <add>Add</add>
+    <edit>Edit</edit>
+    <forward_as_attachment>Forward as attachment</forward_as_attachment>
+    <custom_flags>Custom flags</custom_flags>
+    <userisonlyrecipient>User is the only recipient</userisonlyrecipient>
+    <checkuserinto>Check user in To header</checkuserinto>
+    <checkuserincc>Check user in Cc header</checkuserincc>
+    <checkuserinbcc>Check user in Bcc header</checkuserinbcc>
+  </rulecard>
+  <userlist>
+    <admin>System Administrator</admin>
+    <webadmin>Web Administrator</webadmin>
+    <catalog>Catalog</catalog>
+    <domain_admin>Domain Administrator</domain_admin>
+    <executable>Executable</executable>
+    <group>Group</group>
+    <list_of_all_accounts>List of all accounts</list_of_all_accounts>
+    <list_server>List server</list_server>
+    <mailing_list>Mailing list</mailing_list>
+    <notification>Notification</notification>
+    <resource>Resource</resource>
+    <static_route>Static route</static_route>
+    <user>کاربر</user>
+    <external>خارجی</external>
+    <room>اطاق</room>
+    <equipment>وسیله</equipment>
+    <car>خودرو</car>
+  </userlist>
+  <userlist_header>
+    <account>اکانت</account>
+    <name_and_account>Name &amp; account</name_and_account>
+    <name>نام</name>
+    <quota>مصرف</quota>
+    <type>نوع</type>
+  </userlist_header>
+  <userlist_help>
+    <list_of_all_accounts>View and manage all the domain&apos;s accounts. Click the appropriate account to open it for editing.</list_of_all_accounts>
+  </userlist_help>
+  <mailinglist>
+    <account_member_itself>Account cannot be a member of itself.</account_member_itself>
+    <mailinglist_members>List of mailing list members</mailinglist_members>
+    <members>اعضا</members>
+    <general_details>General details</general_details>
+    <security>امنیت</security>
+    <members_source>Members source</members_source>
+    <settings>تنظیمات</settings>
+    <owner>مالک</owner>
+    <description>توضیح</description>
+    <alias>Alias</alias>
+    <add_alias>Add alias</add_alias>
+    <source>Source</source>
+    <password_protection>Password protection</password_protection>
+    <password>رمزعبور</password>
+    <default_rights>Default rights</default_rights>
+    <max_number_of_messages>Max number of messages to send out in 1 minute</max_number_of_messages>
+    <send_to_sender>Send to sender</send_to_sender>
+    <forward_copy_to_owner>Forward copy to owner</forward_copy_to_owner>
+    <process_mailing_list>Process mailing list variables</process_mailing_list>
+    <personalized_mailing_list>Personalized mailing list - variable fields</personalized_mailing_list>
+    <remove_failed_email_addresses>Remove failed email addresses</remove_failed_email_addresses>
+    <not_password_protected>Not password protected</not_password_protected>
+    <server_moderated>Server moderated</server_moderated>
+    <client_moderated>Client moderated</client_moderated>
+    <recieve_and_post>Receive &amp; post</recieve_and_post>
+    <digest_recieve_and_post>Digest receive &amp; post</digest_recieve_and_post>
+    <recieve_only>فقط دریافت</recieve_only>
+    <digest_recieve_only>Digest receive only</digest_recieve_only>
+    <post_only>فقط ارسال</post_only>
+    <members_defined_manually>Members defined manually</members_defined_manually>
+    <members_from_text_file>Members from text file</members_from_text_file>
+    <members_from_database>Members from database</members_from_database>
+    <all_current_domain_users>All current domain users</all_current_domain_users>
+    <all_system_users>All system users</all_system_users>
+    <all_system_domain_administrators>All system domain administrators</all_system_domain_administrators>
+    <all_system_administrators>All system administrators</all_system_administrators>
+    <only_members_can_post>Only members can post new messages</only_members_can_post>
+    <do_not_deliver>Do not deliver to members with quota exceeded</do_not_deliver>
+    <rights>Rights</rights>
+    <default>Default</default>
+    <post>Post</post>
+    <receive>Receive</receive>
+    <digest>Digest</digest>
+  </mailinglist>
+  <mailinglist_help>
+    <mailinglist_members>Review mailing list members, add new members or remove current ones. Tick the appropriate box and click Select Action button to remove a member.</mailinglist_members>
+    <general_details>Manage general mailing list properties. Use the Add button where applicable.</general_details>
+    <security>Manage mailing list default member rights, password and other properties.</security>
+    <members_source>Select how/where mailing list members are defined.</members_source>
+    <settings>Define rules for messages delivery and problematic addresses treatment.</settings>
+  </mailinglist_help>
+  <group>
+    <account_member_itself>Account cannot be a member of itself.</account_member_itself>
+    <group_members>List of group members</group_members>
+    <members>اعضا</members>
+    <general_details>General details</general_details>
+    <group_sharing>Group sharing</group_sharing>
+    <group_email_delivery>Group email delivery</group_email_delivery>
+    <security>Security</security>
+    <advanced_settings>Advanced settings</advanced_settings>
+    <name>Name</name>
+    <description>Description</description>
+    <alias>Alias</alias>
+    <add_alias>Add alias</add_alias>
+    <create_public_folder>Create a public folder</create_public_folder>
+    <setup_permissions>Setup permissions and rights</setup_permissions>
+    <permissions>Permissions</permissions>
+    <only_members_can_post>Only members can post new messages</only_members_can_post>
+    <do_not_deliver>Do not deliver to members with quota exceeded</do_not_deliver>
+    <password_protection>Password protection</password_protection>
+    <max_number_of_messages>Max number of messages to send out in 1 minute</max_number_of_messages>
+    <populate_gal>Populate Global Address List (GAL) with all members</populate_gal>
+    <allow_gal_export>Allow GAL export for other servers within distributed domain</allow_gal_export>
+    <organize_gal>Organize GAL into hierarchical address book (HAB)</organize_gal>
+    <deliver_to_all_members_individually>Deliver to all members individually</deliver_to_all_members_individually>
+    <deliver_mail_to_shared_folder>Deliver mail to shared folder</deliver_mail_to_shared_folder>
+    <teamchat>تیم‌چت</teamchat>
+    <enable_teamchat>Enable TeamChat</enable_teamchat>
+  </group>
+  <group_help>
+    <group_members>Review group members, add new members or remove current ones. Tick the appropriate box and click Select Action button to remove a member.</group_members>
+    <general_details>Manage general group properties. Use the Add button to add an alias.</general_details>
+    <group_sharing>Turn the toggle on if you want to create a public folder for this group. Enter the folder name and click the Permissions button to set access rights for group members.</group_sharing>
+    <group_email_delivery>Select how messages to the group members are to be delivered. Select whether messages are to be delivered also to group members with account limits exceeded.</group_email_delivery>
+    <security>Set whether also non-members can post messages, whether sending a message to this group is to be password protected and set outgoing messages flow control.</security>
+    <advanced_settings>Manage Global Address List properties.</advanced_settings>
+    <populate_gal>Turn the toggle on if you want to have GroupWare contacts for all group members created.</populate_gal>
+    <allow_gal_export>If applicable, turn the toggle on to use a remote GAL for a distributed domain.</allow_gal_export>
+    <organize_gal>Turn the toggle on if you want to have created a hierarchical folder structure where a subgroup name is used as a folder name.</organize_gal>
+    <teamchat>Enables to create private and public chat rooms within this group.</teamchat>
+  </group_help>
+  <group_placeholder>
+    <create_public_folder>Enter public folder</create_public_folder>
+  </group_placeholder>
+  <accountdetail>
+    <device>Device</device>
+    <account_is_disabled>This account is disabled.</account_is_disabled>
+    <active>فعال</active>
+    <last_sync>Last sync</last_sync>
+    <add_members>Add members</add_members>
+    <members>اعضا</members>
+    <message>پیام</message>
+    <mailinglistinfo>Mailing list</mailinglistinfo>
+    <groupinfo>گروه</groupinfo>
+    <select_domain>انتخاب دامنه</select_domain>
+    <all_types>همه انواع</all_types>
+    <custom>Custom (up to threshold size)</custom>
+    <headers>Headers only</headers>
+    <full>All data</full>
+    <numbered_structure>Numbered structure</numbered_structure>
+    <folder_name_only>Folder name only</folder_name_only>
+    <full_folder_path>Full folder path</full_folder_path>
+    <outlook_native>Outlook native</outlook_native>
+    <force_settings>Force settings</force_settings>
+    <set_as_default>انتخاب بعنوان پیش‌فرض</set_as_default>
+    <account_features>Account features</account_features>
+    <account_quote_enabled>Account disk quota</account_quote_enabled>
+    <account_state>Account state</account_state>
+    <account_type>نوع اکانت</account_type>
+    <accountpicker>انتخاب اکانت</accountpicker>
+    <folderpicker>انتخاب پوشه</folderpicker>
+    <activation_key>Activation key</activation_key>
+    <add_alias>Add alias</add_alias>
+    <add_email>Add email</add_email>
+    <add_phone>Add phone</add_phone>
+    <address>آدرس</address>
+    <advanced>پیشرفته</advanced>
+    <alias>Alias</alias>
+    <aliases>Aliases</aliases>
+    <all_items>All items</all_items>
+    <allowed_activation_count>Allowed activation count</allowed_activation_count>
+    <alternate_email>Alternate email</alternate_email>
+    <amount_per_day># per day</amount_per_day>
+    <anniversary>Anniversary</anniversary>
+    <antispam>Anti-Spam</antispam>
+    <antivirus>Anti-Virus</antivirus>
+    <appearance>Appearance</appearance>
+    <archive>آرشیو</archive>
+    <assistant>Assistant</assistant>
+    <at>at</at>
+    <birthday>Birthday</birthday>
+    <card>Card</card>
+    <certificates>Certificates</certificates>
+    <change_password>Change password</change_password>
+    <change_quotas>User Limits</change_quotas>
+    <check_password_policy>Password does not match the password policy.</check_password_policy>
+    <city>شهر</city>
+    <client_applications>Client applications</client_applications>
+    <company>کشور</company>
+    <content_of_folders>Synchronize content of the selected folders immediately after local change is detected</content_of_folders>
+    <copy_incoming_mail>Copy incoming mail</copy_incoming_mail>
+    <copy_outgoing_mail>Copy outgoing mail</copy_outgoing_mail>
+    <country>کشور</country>
+    <days>Days</days>
+    <default>Default</default>
+    <delete_account_when_expired>Delete account when expired</delete_account_when_expired>
+    <delete_mail_older_than>Delete mail older than</delete_mail_older_than>
+    <delete_spam_older_than>Delete spam older than</delete_spam_older_than>
+    <delete_older>Delete mail older than (days)</delete_older>
+    <department>دپارتمان</department>
+    <description>توضیح</description>
+    <digital_certificates>Digital certificates</digital_certificates>
+    <disabled>غیرفعال</disabled>
+    <disabled_login>Disabled (login)</disabled_login>
+    <disabled_login_receive>Disable (login, receive)</disabled_login_receive>
+    <display_address_book_names>Display address book names as</display_address_book_names>
+    <do_not_forward>Do not forward spam messages</do_not_forward>
+    <do_not_use_spam>Do not use spam folder</do_not_use_spam>
+    <download>Download</download>
+    <download_files>Download files</download_files>
+    <email>Email</email>
+    <enabled>فعال</enabled>
+    <exchange_activesync>Exchange ActiveSync</exchange_activesync>
+    <expiration>Expiration</expiration>
+    <expires_if_inactive_for>Expires if inactive for</expires_if_inactive_for>
+    <expires_on>Expires on</expires_on>
+    <reset_authentication>Are you sure you wish to reset the two-factor authentication?</reset_authentication>
+    <authentication_reset_succeeded>Two-factor authentication has been reset</authentication_reset_succeeded>
+    <features>Features</features>
+    <file_storage>File Storage</file_storage>
+    <web_documents>WebDocuments</web_documents>
+    <file_transfer>File Transfer (FTP)</file_transfer>
+    <folder_structure_after>Synchronize folder structure after</folder_structure_after>
+    <folder_synchronization_threshold>Folder synchronization threshold (messages in folder)</folder_synchronization_threshold>
+    <forward_to>Forward to</forward_to>
+    <forwarder>Forwarder</forwarder>
+    <from>from</from>
+    <gal_automatically>Synchronize GAL automatically</gal_automatically>
+    <gender>جنسیت</gender>
+    <general>عمومی</general>
+    <generate>Generate</generate>
+    <generate_key>Generate key</generate_key>
+    <groupware>GroupWare</groupware>
+    <home_address>Home address</home_address>
+    <home_email>Home email</home_email>
+    <home_phone>Home phone</home_phone>
+    <info>Info</info>
+    <instant_messaging>Instant Messaging</instant_messaging>
+    <job>Job</job>
+    <last_time_logged>Last time logged</last_time_logged>
+    <lastname>Last Name</lastname>
+    <licence>License</licence>
+    <licenses>Licenses</licenses>
+    <limits>محدودیت</limits>
+    <manage>Manage</manage>
+    <manager>مدیر</manager>
+    <max_message_size>Max message size</max_message_size>
+    <messaging>Messaging</messaging>
+    <mobile_devices>Mobile Devices</mobile_devices>
+    <mode>Mode</mode>
+    <must_change_password>Force password change after first login</must_change_password>
+    <name>First Name</name>
+    <new_items>آیتم‌های جدید</new_items>
+    <note>Note</note>
+    <notify_before_expiration>Notify before expiration</notify_before_expiration>
+    <numbers_of_emails_sent>Numbers of emails sent</numbers_of_emails_sent>
+    <of>of</of>
+    <online_conferencing>WebMeetings</online_conferencing>
+    <password>رمزعبور</password>
+    <old_password>Old password</old_password>
+    <new_password>New password</new_password>
+    <password_again>تایید رمز</password_again>
+    <password_not_saved>Password was not saved. Check password policy.</password_not_saved>
+    <password_policy_alpha>Number of alpha characters in password [a-z][A-Z]</password_policy_alpha>
+    <password_policy_digits>Number of numeric characters in password [0-9]:</password_policy_digits>
+    <password_policy_minlength>Minimal password length:</password_policy_minlength>
+    <password_policy_nonalphanum>Number of non alpha-numeric characters in password [!@#$%...]:</password_policy_nonalphanum>
+    <password_policy_upperalpha>Number of uppercase alpha characters in password [A-Z]</password_policy_upperalpha>
+    <password_policy_useralias>Password cannot contain username or alias</password_policy_useralias>
+    <permissions>Permissions</permissions>
+    <permissions_and_rights>Permissions &amp; rights</permissions_and_rights>
+    <phone>تلفن</phone>
+    <pop_imap>POP3/IMAP</pop_imap>
+    <quarantine>Quarantine</quarantine>
+    <quotas>Quotas</quotas>
+    <respond_again_after>Respond again after (days)</respond_again_after>
+    <respond_again_after_period>Respond again after period</respond_again_after_period>
+    <respond_always>Respond always</respond_always>
+    <respond_once>Respond once</respond_once>
+    <respond_only_if_between>Respond only if between</respond_only_if_between>
+    <respond_to_messages>Respond to messages sent to user&apos;s email address only</respond_to_messages>
+    <responder>Responder</responder>
+    <responder_message>Message</responder_message>
+    <rules>قوانین</rules>
+    <security>امنیت</security>
+    <selected_priority_folders>Synchronize selected priority folders after</selected_priority_folders>
+    <selected_standard_folders>Synchronize selected standard folders after</selected_standard_folders>
+    <send_key_to_user_by_email>Send key to user by email</send_key_to_user_by_email>
+    <send_out_data_limit>Send out data limit</send_out_data_limit>
+    <send_out_limit>Daily send out limits</send_out_limit>
+    <send_out_message_limit>Send out messages limit</send_out_message_limit>
+    <shared_folders>پوشه‌های مشترک</shared_folders>
+    <sms>Text Messaging</sms>
+    <smtp>SMTP</smtp>
+    <spam_folder_mode>Spam folder mode</spam_folder_mode>
+    <spam_reports_mode>Spam reports mode</spam_reports_mode>
+    <spam_trap>Spam trap</spam_trap>
+    <state_county>State / County</state_county>
+    <status>Status</status>
+    <storage_usage>Storage usage</storage_usage>
+    <street>Street</street>
+    <surname>نام‌فامیل</surname>
+    <synchronization>Synchronization</synchronization>
+    <syncml>SyncML</syncml>
+    <threshold_for_full_download>Threshold for full download</threshold_for_full_download>
+    <unknown_ip>unknown IP</unknown_ip>
+    <upload_photo>Upload photo</upload_photo>
+    <use_spam>Use spam folder</use_spam>
+    <user_can_send_to_local_domains_only>User can send to local domains only</user_can_send_to_local_domains_only>
+    <username>نام‌کاربری</username>
+    <voip>VoIP</voip>
+    <web_folders>Web Folders (WebDAV)</web_folders>
+    <webclient>وب‌کلاینت</webclient>
+    <website>وب‌سایت</website>
+    <work_address>Work address</work_address>
+    <zip>ZIP</zip>
+    <add_to_group>Add to group</add_to_group>
+    <change_rights>Change rights</change_rights>
+    <move>Move</move>
+    <delete>Delete</delete>
+    <remove>Remove</remove>
+    <not_yet>Not yet</not_yet>
+    <teamchat>تیم‌چت</teamchat>
+    <enable_client_licence>Enable client licence</enable_client_licence>
+    <disable_access_to_pop3>Disable access to POP3 (IMAP only account)</disable_access_to_pop3>
+    <two_factor_authentication>Two-factor authentication</two_factor_authentication>
+    <max_file_size>Max file size</max_file_size>
+    <subscription_plan>Subscription plan</subscription_plan>
+    <change_user_plan>Change user plan</change_user_plan>
+  </accountdetail>
+  <accountdetail_help>
+    <account_state>Select whether this account will be fully functional, partially disabled (user cannot login, but messages are accepted), disabled (user cannot login, messages are rejected) or will work as a spam trap.</account_state>
+    <activation_key>Activation Key enables user to properly license selected client application. Once generated, it is available to user through WebClient interface or via SmartSync request from client application.</activation_key>
+    <address>Enter a street address or place of work.</address>
+    <advanced>Turn on toggles of those advanced synchronization features you want to set for this user. Enter the appropriate values.</advanced>
+    <aliases>Enter aliases for this account. Messages sent to all these addresses will be delivered to this mailbox.</aliases>
+    <antispam>Select whether this user will receive spam reports, will receive reports as set in Anti-Spam - Action - Reports, reports with new spam items listed or reports with all spam items listed. Also select whether a spam folder is to be used.</antispam>
+    <antispam_features>Comprehensive spam filtering provides users with controls over the system through Black Lists, White Lists, Spam Folders &amp; Quarantine Reports.</antispam_features>
+    <antivirus>Enterprise Anti-Virus scans and validates every file going in or out of the account, be it email, calendar attachments, documents and file transfers.</antivirus>
+    <appearance>Turn the toggle on and select the way how address book names are to be shown.</appearance>
+    <archive>Archiving saves all incoming and outgoing email and text messages and provides users read-only access to the Archive folder to restore lost messages.</archive>
+    <client_applications>Manage the user&apos;s mobile devices, Outlook Sync and Desktop Client applications.</client_applications>
+    <email>Enter the user&apos;s email address(es).</email>
+    <exchange_activesync>Secure synchronization of email, calendars, contacts, tasks and notes to all mobile devices including Windows Phone, iPhone, iPad and Android.</exchange_activesync>
+    <expiration>Set expiration of the user&apos;s account.</expiration>
+    <file_transfer>FTP lets users transfer large files to a dedicated storage on the server. Using a standard FTP client, users can browse, manage, upload or download files.</file_transfer>
+    <forwarder>Set where messages are to be forwarded or copied, separate several by semicolon. Alternate email is used during password retrieval. Incoming/outgoing copy cannot be modified by user.</forwarder>
+    <general>Enter the account&apos;s information. All data presented here will be shown also in the user&apos;s GAL contact. Users can edit the fields in My Details dialog in WebClient. All fields are optional.</general>
+    <groupware>GroupWare needs to be enabled for users to access their public information including Global Address List, Company Calendars, Files and Public Folders.</groupware>
+    <instant_messaging>Real-time messaging or Chat enables instant communication among users, lets them share files and see each other&apos;s presence in the contact roster.</instant_messaging>
+    <licence_description>Enter a descriptive text.</licence_description>
+    <limits>Turn the toggles on and enter the appropriate values for the account limits you want to set.</limits>
+    <note>Note to a contact (this field is usually edited by a user).</note>
+    <online_conferencing>WebMeetings service stimulates collaboration and drives productivity in your teams by connecting users with Audio, Multi-User Chat and Screen Sharing.</online_conferencing>
+    <permissions_and_rights>Select whether this user is a regular email account or a server administrator or a domain administrator. Click Features to enable or disable services for this user individually.</permissions_and_rights>
+    <phone>Enter the user&apos;s phone number(s).</phone>
+    <pop_imap>System service for receiving emails needs to be enabled for proper functionality of WebClient and other email clients like Outlook, Thunderbird or Mail.</pop_imap>
+    <quarantine>Quarantine allows you to place suspect incoming messages in a pending queue awaiting manual authorization by administrators or users themselves.</quarantine>
+    <quotas>Overview of limits for number of messages sent per day and disk space occupied by this account.</quotas>
+    <responder>Select the responder mode for this account. Other fields are enabled depending on this mode.</responder>
+    <sms>Built-in text messaging (SMS) lets users send text messages from WebClient, reply to received messages and manage them as emails in the Inbox.</sms>
+    <smtp>System service for sending email needs to be enabled for proper functionality of WebClient and other email clients like Outlook, Thunderbird or Mail.</smtp>
+    <synchronization>Turn on toggles of those synchronization features you want to set for this user. Enter the appropriate values.</synchronization>
+    <syncml>Wireless synchronization of calendars, contacts, tasks and notes to older mobile devices based on Palm OS, Symbian and others not supporting ActiveSync.</syncml>
+    <voip>Internet telephony lets users make Audio/Video calls and join conference calls from WebClient directly or using a SIP compatible phone or application.</voip>
+    <web_folders>External access to user&apos;s own private cloud allows to map it as a network drive in Windows/Linux/Mac and store documents, photos and other files.</web_folders>
+    <webclient>Web-based access to email, calendars, contacts, tasks, notes and documents. All information may be shared among users via shared and public folders.</webclient>
+    <website>Enter the user&apos;s website address.</website>
+    <teamchat>TeamChat is a modern collaboration tool for teams &amp; projects. It lets you get in touch with other people on the team, organize your conversations around one topic, share files or create ad-hoc meetings.</teamchat>
+    <web_documents>Online editors of Microsoft Office and OpenOffice file formats. Create documents with beautiful formatting, stunning presentations, spreadsheets with formulas, all without leaving the WebClient.</web_documents>
+  </accountdetail_help>
+  <accountdetail_placeholder>
+    <folder_synchronization_threshold>Enter maximum number of messages in the folder</folder_synchronization_threshold>
+  </accountdetail_placeholder>
+  <accountinfo>
+    <name>نام</name>
+    <ignore_password_policy>Ignore password policy</ignore_password_policy>
+  </accountinfo>
+  <synchronization>
+    <address_books>Address books</address_books>
+    <advanced>Advanced</advanced>
+    <appearance>Appearance</appearance>
+    <authentication_method>Authentication method</authentication_method>
+    <automatically_revert_changes>Automatically revert changes in read only folders</automatically_revert_changes>
+    <check_for_updates>Check for updates</check_for_updates>
+    <delete_after_specified_days>Delete after specified days</delete_after_specified_days>
+    <delete_logs>Delete logs</delete_logs>
+    <disable_tnef>Disable TNEF</disable_tnef>
+    <do_not_show_connection_errors>Do not show connection errors</do_not_show_connection_errors>
+    <do_not_show_login_errors>Do not show login errors</do_not_show_login_errors>
+    <do_not_show_progress>Do not show progress</do_not_show_progress>
+    <hide_notification_after>Hide notification after (seconds)</hide_notification_after>
+    <licence_and_updates>Licence and updates</licence_and_updates>
+    <line_security>Line security</line_security>
+    <logging_level>Logging level</logging_level>
+    <login>Login</login>
+    <login_credentials>Login credentials</login_credentials>
+    <login_port>Login port</login_port>
+    <logs>Logs</logs>
+    <log_debug>Debug</log_debug>
+    <log_errors>Errors only</log_errors>
+    <new_mail_options>New mail options</new_mail_options>
+    <play_default_sound>Play default sound</play_default_sound>
+    <show_desktop_notification>Show desktop notification</show_desktop_notification>
+    <skip_trash_folder>Skip trash folder startup check</skip_trash_folder>
+    <synchronization_exceptions>Synchronization exceptions</synchronization_exceptions>
+    <synchronization_frequency>Synchronization frequency</synchronization_frequency>
+    <plain>Plain</plain>
+    <cram_md5>Cram MD5</cram_md5>
+    <starttsl>STARTTSL</starttsl>
+    <ssl>SSL</ssl>
+    <updates>Updates</updates>
+  </synchronization>
+  <dns>
+    <no_dns_records uses="DNS validation">No DNS records</no_dns_records>
+    <all_available>All available</all_available>
+    <service_mx>Mail</service_mx>
+    <service_autodiscover>SmartDiscover</service_autodiscover>
+    <service_autodiscover_srv>SmartDiscover</service_autodiscover_srv>
+    <service_webdav>WebDAV</service_webdav>
+    <service_sip>SIP</service_sip>
+    <service_xmpp>XMPP</service_xmpp>
+    <service_ischedule>iSchedule</service_ischedule>
+    <service_rdns>RDNS</service_rdns>
+    <service_spf>SPF</service_spf>
+    <service_dkim>DKIM</service_dkim>
+    <default_alias>Default alias</default_alias>
+    <domain_type>Domain type</domain_type>
+    <email>Email</email>
+    <expires_on>Expires on</expires_on>
+    <hostname>Hostname</hostname>
+    <ip_address>IP address</ip_address>
+    <name>Name</name>
+    <type>Type</type>
+    <user_count>User count</user_count>
+    <user_limit>User limit</user_limit>
+    <dns>Current DNS records</dns>
+    <academy_text>Please refer to IceWarp Academy video how to setup DNS records properly. Example zone file for your domain can be downloaded below.</academy_text>
+    <academy_caption>Updating the ”zone file”</academy_caption>
+    <academy_warning>Please validate your DNS records</academy_warning>
+    <general>General</general>
+    <loading>Loading domain information</loading>
+    <learn_more>Learn more about validation</learn_more>
+  </dns>
+  <dns_help>
+    <dns>Current DNS settings for your domain are listed below. Incorrect or missing entries are marked in red color.</dns>
+  </dns_help>
+  <dkim>
+    <domain_key_selector>Domain key selector</domain_key_selector>
+    <selector>Selector</selector>
+    <selector_placeholder>Unique arbitrary string</selector_placeholder>
+    <no_selector>Please specify a unique Selector for this server</no_selector>
+    <generate_key>Generate new Key</generate_key>
+    <selector_host>Hostname</selector_host>
+    <selector_record>Selector record</selector_record>
+    <sign_outgoing_mails>Sign outgoing mails with DKIM</sign_outgoing_mails>
+    <reset>Reset DKIM settings</reset>
+    <reset_succeeded>DKIM has been reset</reset_succeeded>
+    <wizard>DKIM Wizard</wizard>
+    <academy_title>DKIM setup tutorial in IceWarp academy</academy_title>
+    <academy_caption>Updating the “zone file”</academy_caption>
+    <academy_text>Please refer to IceWarp Academy video how to setup DKIM records in DNS properly.</academy_text>
+    <setup>Setup DKIM</setup>
+    <setup_failed>The DKIM setup process failed</setup_failed>
+    <loading>Generating new key</loading>
+  </dkim>
+  <dkim_help>
+    <domain_key_selector>Any text, if you set DKIM for this domain on multiple servers, each server has to have unique selector.</domain_key_selector>
+    <selector_record>Configure your DNS server with the public key. You need to add the following entry into your DNS server for e.g. icecream._domainkey.www.icewarp.com.</selector_record>
+    <wizard>DKIM is used by remote servers for verification that emails sent from this domain are not spoofed. In order to use DKIM, DNS TXT record &amp;lt;Selector&amp;gt;._domainkey.&amp;lt;domainname&amp;gt; has to be created.</wizard>
+  </dkim_help>
+  <accountpicker>
+    <users>Users</users>
+    <domains>Domains</domains>
+    <items_selected>items selected</items_selected>
+    <show_them>Show selected</show_them>
+    <hide_them>Show all</hide_them>
+    <account_picker>Select account</account_picker>
+    <account_type>Account type</account_type>
+    <add_account>Add accounts</add_account>
+    <add_domain>Add domain</add_domain>
+    <add_user>Add user</add_user>
+    <domain>Domain</domain>
+    <filter>Filter</filter>
+    <add_external>Add external</add_external>
+    <add_external_members>Add external members</add_external_members>
+  </accountpicker>
+  <spam_queues>
+    <quarantine>Quarantine</quarantine>
+    <whitelist>Whitelist</whitelist>
+    <blacklist>Blacklist</blacklist>
+    <action_delete>Delete</action_delete>
+    <action_deliver>Deliver</action_deliver>
+    <action_whitelist>Whitelist</action_whitelist>
+    <action_blacklist>Blacklist</action_blacklist>
+    <add_item>Add</add_item>
+    <detail>Detail</detail>
+  </spam_queues>
+  <spamqueues_header>
+    <sender>Sender</sender>
+    <subject>Subject</subject>
+    <date>Date</date>
+    <owner>Owner</owner>
+    <domain>Domain</domain>
+    <filter_sender>Filter sender</filter_sender>
+    <filter_owner>Filter owner</filter_owner>
+    <filter_domain>Filter domain</filter_domain>
+    <filter>Filter results</filter>
+  </spamqueues_header>
+  <certificates>
+    <server_certificates>Server certificates</server_certificates>
+    <ca_certificates>CA certificates</ca_certificates>
+    <secure_destinations>Secure destinations</secure_destinations>
+    <create_certificate>Create CSR / Server certificate</create_certificate>
+    <wizard>Certificate options</wizard>
+    <reissue>Reissue</reissue>
+    <finalize>Finalize</finalize>
+    <properties>Properties</properties>
+    <edit>ویرایش</edit>
+    <add_hostname>Add another hostname</add_hostname>
+    <bits>Bits</bits>
+    <validity>Validity</validity>
+    <country>کشور</country>
+    <state>State</state>
+    <city>City</city>
+    <organization>Organization</organization>
+    <organization_unit>Organization unit</organization_unit>
+    <email>Email</email>
+    <common_name>Common name (FQDN)</common_name>
+    <signature_request>Create Certificate Signing Request (CSR)</signature_request>
+    <ip_address>IP address</ip_address>
+    <no_ip_limit>All</no_ip_limit>
+    <certificate>Certificate</certificate>
+    <ip>IP address</ip>
+    <cn>CN</cn>
+    <issuer>Issuer</issuer>
+    <expiration>Expiration</expiration>
+    <subject>Subject</subject>
+    <cert_bits>Bits</cert_bits>
+    <fingerprint>Fingerprint</fingerprint>
+    <type>Type</type>
+    <type_normal>Standard</type_normal>
+    <type_csr/>
+    <type_letsencrypt>Let&apos;s Encrypt</type_letsencrypt>
+    <hostname>Hostname</hostname>
+    <default>Default</default>
+    <set_as_default>Set as default</set_as_default>
+    <csr>CSR</csr>
+    <add_existing>Add existing</add_existing>
+    <new_icewarp_cert>Request IceWarp certificate</new_icewarp_cert>
+    <new_ca_cert>Request authority certificate</new_ca_cert>
+    <new_lets_encrypt_cert>Free Let’s Encrypt certificate</new_lets_encrypt_cert>
+    <new_self_signed_cert>Free self-signed certificate</new_self_signed_cert>
+    <reissue_cert>Reissue certificate</reissue_cert>
+    <reissue_icewarp_cert>Reissue as IceWarp certificate</reissue_icewarp_cert>
+    <reissue_ca_cert>Reissue as authority certificate</reissue_ca_cert>
+    <reissue_lets_encrypt_cert>Reissue as Let’s Encrypt certificate</reissue_lets_encrypt_cert>
+    <reissue_self_signed_cert>Reissue as self-signed certificate</reissue_self_signed_cert>
+    <unit>Unit</unit>
+    <company_details>Company details</company_details>
+    <add_certificate>Add certificate</add_certificate>
+    <certificate_settings>Certificate settings</certificate_settings>
+    <icewarp_details>IceWarp Certificate</icewarp_details>
+    <authority_details>Certificate Details</authority_details>
+    <letsencrypt_details>Let&apos;s Encrypt Certificate</letsencrypt_details>
+    <selfsigned_details>Self-Signed Certificate</selfsigned_details>
+    <email_details>Email Certificate</email_details>
+    <details>Details</details>
+    <ip_binding>IP binding</ip_binding>
+    <domains>Domains</domains>
+    <errors>Errors</errors>
+    <export_csr>Export CSR</export_csr>
+    <bind_certificate>Bind certificate</bind_certificate>
+    <all_ips>All IP addresses</all_ips>
+    <selected_ips>Selected IP addresses</selected_ips>
+    <cert_domains>Certificate domains</cert_domains>
+    <cert_failure>Certificate failure</cert_failure>
+    <last_cert_attempt>Last certificate attempt</last_cert_attempt>
+    <error>Error</error>
+    <ver_failed_for>Verification failed for</ver_failed_for>
+    <reuse>Reuse private / public key pair</reuse>
+    <generate>Generate private / public key pair</generate>
+    <domain_unknown>Unknown</domain_unknown>
+    <domain_error>Error</domain_error>
+    <domain_valid>Valid</domain_valid>
+    <domain_invalid>Invalid</domain_invalid>
+    <domain_timeout>Timeout</domain_timeout>
+    <key_pair>Key pair</key_pair>
+    <hostnames>Hostnames</hostnames>
+  </certificates>
+  <certificates_help>
+    <add_existing>Choose if you already have an SSL server certificate ready.</add_existing>
+    <new_icewarp_cert>Purchase a trusted SSL server certificate from IceWarp in a few simple steps. Reissue if expiration is due or more domains are added.</new_icewarp_cert>
+    <new_ca_cert>Generate a certificate request for use with your favorite certificate provider. Reissue if expiration is due or more domains are added.</new_ca_cert>
+    <new_lets_encrypt_cert>Generate a free certificate from Let&apos;s Encrypt certification authority. Certificate is automatically reissued before expiration, reissue manually if domains need to be added or removed.</new_lets_encrypt_cert>
+    <new_self_signed_cert>Generate a free certificate not verified by any certification authority. Use if security is not a big concern. Reissue as often as needed.</new_self_signed_cert>
+    <csr>This is a Certificate Signing Request (CSR). CSR needs to be provided to the certificate authority. Once the validation process is finished, bind the certificate received from authority to the original CSR.</csr>
+  </certificates_help>
+  <policies>
+    <login>Login policy</login>
+    <password>Password policy</password>
+    <outlook>Outlook policy</outlook>
+    <block_user_login_accounts>Block user login for accounts that exceed a number of failed login attempts</block_user_login_accounts>
+    <block_user_login_time>Block user login for</block_user_login_time>
+    <login_policy_mode>Login policy mode</login_policy_mode>
+    <require_administrator>Require administrator authentication to access the system settings</require_administrator>
+    <usernames>Usernames</usernames>
+    <email_addresses>Email addresses</email_addresses>
+    <convert_usernames>Convert % and / to @ in usernames</convert_usernames>
+    <account_ip_restriction>Use account login IP restriction</account_ip_restriction>
+    <login_restriction>Login restriction</login_restriction>
+    <users_login>Users login with their</users_login>
+    <login_policy>Login policy</login_policy>
+    <password_policy>Password policy</password_policy>
+    <active>Active</active>
+    <password_cannot_contain>Password cannot contain username or alias</password_cannot_contain>
+    <enable_password>Enable password encryption</enable_password>
+    <minimal_password_length>Minimal password length</minimal_password_length>
+    <numeric>Number of numeric characters in password [0-9]</numeric>
+    <non_alpha_numeric>Number of non alpha-numeric characters in password [!@#$%...]</non_alpha_numeric>
+    <alpha>Number of alpha characters in password [a-z][A-Z]</alpha>
+    <uppercase_alpha>Number of uppercase alpha characters in password [A-Z]</uppercase_alpha>
+    <password_expires_after>Password expires after</password_expires_after>
+    <notify_before_expiration>Notify before expiration</notify_before_expiration>
+    <custom_notification>Custom notification message file</custom_notification>
+    <passwords_read_exported>Passwords cannot be read or exported</passwords_read_exported>
+    <admin_passwords_read_exported>Administrator passwords cannot be read or exported</admin_passwords_read_exported>
+    <do_not_block_but_delay>Do not block but delay authentication process</do_not_block_but_delay>
+    <block_account>Block account for specified amount of time</block_account>
+    <manage>Manage</manage>
+    <general>General</general>
+    <password_format>Password format</password_format>
+    <password_expiration>Password expiration</password_expiration>
+    <password_retrieval>Password retrieval</password_retrieval>
+  </policies>
+  <whitelabeling>
+    <use_default>Set to default values</use_default>
+    <available_interfaces>Available interfaces</available_interfaces>
+    <disable_autofill>Username / password autofill</disable_autofill>
+    <disable_facebook_integration>Facebook integration</disable_facebook_integration>
+    <disable_interface>Interface selection</disable_interface>
+    <disable_language>Language selection</disable_language>
+    <disable_login_banners>Advertisements</disable_login_banners>
+    <disable_login_help>Login help</disable_login_help>
+    <disable_remember_me>Remember me</disable_remember_me>
+    <disable_sign_up>Sign up</disable_sign_up>
+    <disable_support_link>Support link</disable_support_link>
+    <disable_twitter_integration>Twitter integration</disable_twitter_integration>
+    <disable_linkedin_integration>LinkedIn integration</disable_linkedin_integration>
+    <login_logo>Login logo</login_logo>
+    <login_style>Login style</login_style>
+    <page_title>Page title</page_title>
+    <preferred_interface>Preferred interface</preferred_interface>
+    <skin>Skin</skin>
+    <skin_style>Skin style</skin_style>
+    <background_img>Background image</background_img>
+    <twitter_handle>Twitter handle</twitter_handle>
+    <upload>Upload</upload>
+    <url_to_like>URL of page to like</url_to_like>
+    <wa_skin>WebAdmin skin</wa_skin>
+    <wc_skin>WebClient skin</wc_skin>
+    <blue uses="Login style,Skin style">Blue</blue>
+    <black uses="Login style,Skin style">Black</black>
+    <brown uses="Login style,Skin style">Brown</brown>
+    <graphite uses="Login style,Skin style">Graphite</graphite>
+    <green uses="Login style,Skin style">Green</green>
+    <orange uses="Login style,Skin style">Orange</orange>
+    <pink uses="Login style,Skin style">Pink</pink>
+    <purple uses="Login style,Skin style">Purple</purple>
+    <red uses="Login style,Skin style">Red</red>
+    <yellow uses="Login style,Skin style">Yellow</yellow>
+    <desktop uses="Preferred interface,Available interfaces">Desktop</desktop>
+    <tablet uses="Preferred interface,Available interfaces">Tablet</tablet>
+    <mobile uses="Preferred interface,Available interfaces">Mobile</mobile>
+    <facebook_page_url>Facebook page URL</facebook_page_url>
+    <twitter_page_url>Twitter page URL</twitter_page_url>
+    <linkedin_page_url>LinkedIn page URL</linkedin_page_url>
+    <language>Language</language>
+    <server_language>Server language</server_language>
+    <login_page_options>Login page options</login_page_options>
+    <social_integration>Social integrations</social_integration>
+    <interfaces>Interfaces</interfaces>
+    <background_image>Background image</background_image>
+    <choose_image>Choose image</choose_image>
+    <choose_color>Choose color</choose_color>
+    <login_heading>Login heading</login_heading>
+    <login_title>Login title</login_title>
+    <login_text>Login text</login_text>
+    <login_skin>Login screen skin</login_skin>
+    <email>Email</email>
+    <sms>Text message</sms>
+    <upload_custom_background>Upload custom background</upload_custom_background>
+    <search>Search</search>
+    <search_query>Search query</search_query>
+    <banners>Banner ads</banners>
+    <banner_none>Disable</banner_none>
+    <banner_url>Static image</banner_url>
+    <banner_code>AdSense</banner_code>
+    <top_banner_type>Leaderboard at login</top_banner_type>
+    <bottom_banner_type>Rectangle in IM roster</bottom_banner_type>
+    <desktop_banner_type>Full resolution (728x90 px)</desktop_banner_type>
+    <mobile_banner_type>Mobile resolution (300x100 px)</mobile_banner_type>
+    <login_banners>Login page</login_banners>
+    <webclient_banners>WebClient</webclient_banners>
+    <adsense_settings>AdSense settings</adsense_settings>
+    <adsense_customer_id>AdSense client ID</adsense_customer_id>
+    <adsense_slot_id>AdSense slot ID</adsense_slot_id>
+    <required>Required</required>
+    <custom_sign_up_fields>Custom sign up fields</custom_sign_up_fields>
+    <nickname>Nickname</nickname>
+    <company>Company</company>
+    <job>Job</job>
+    <profession>Profession</profession>
+    <mobile_phone>Mobile phone</mobile_phone>
+    <work_phone>Work phone</work_phone>
+    <home_phone>Home phone</home_phone>
+    <im>IM</im>
+    <gender>Gender</gender>
+    <birthday>Birthday</birthday>
+    <homepage>Homepage</homepage>
+    <two_step_verification>Sign up verification</two_step_verification>
+    <verification_method>Verification method</verification_method>
+    <ic_skin>IceChat mobile skin</ic_skin>
+    <require_contact_number>Require contact number</require_contact_number>
+    <conferencing>Conferencing</conferencing>
+    <conferencing_logo>Conferencing logo</conferencing_logo>
+  </whitelabeling>
+  <whitelabeling_help>
+    <login_logo>Change the logo shown on your login page. Supported image formats: JPG, PNG, GIF, SVG. Maximum file size: 20 MB.</login_logo>
+    <login_page_options>Choose which elements of login page you want to show or hide.</login_page_options>
+    <login_skin>Set up how the login page looks.</login_skin>
+    <login_skin_style>Select the primary color of login page.</login_skin_style>
+    <login_background>Select the perfect background image for your login page.</login_background>
+    <page_title>Change the text your users see in the window title.</page_title>
+    <server_language>Set language preferences for your users.</server_language>
+    <social_integration>Set up links to social media.</social_integration>
+    <wa_skin>Set up how WebAdmin looks on the inside.</wa_skin>
+    <wa_skin_style>Choose the primary color of WebAdmin.</wa_skin_style>
+    <wc_skin>Set up how WebClient looks on the inside.</wc_skin>
+    <wc_skin_style>Choose the primary color of WebClient.</wc_skin_style>
+    <search_query>Provide link to search engine of your choice where %%query%% will be replaced by search phrase entered by users. Example: https://www.google.com/#q=%%query%%+site:icewarp.com.</search_query>
+    <banners>Place banner ads on your login screen and into WebClient.</banners>
+    <banner_url>Insert URL of a static image to be used as a banner.</banner_url>
+    <banner_code>Insert custom AdSense slot ID provided by the AdSense provider.</banner_code>
+    <login_banners>Use mobile alternative and full resolution images as ad banners or connect to an advertising network.</login_banners>
+    <webclient_banners>Place ads for various screen resolutions on the login page or at the bottom of the instant messaging contact list.</webclient_banners>
+    <adsense_settings>Enter your AdSense customer ID.</adsense_settings>
+    <custom_sign_up_fields>Select which vCard fields will be required during sign up.</custom_sign_up_fields>
+    <two_step_verification>Select verification method when users sign up.</two_step_verification>
+    <conferencing>Change the look of the conferencing app.</conferencing>
+    <conferencing_logo>Change the logo shown on the conferencing page. Supported image formats: JPG, PNG, GIF. Maximum file size: 20 MB.</conferencing_logo>
+  </whitelabeling_help>
+  <preview>
+    <language>EN</language>
+    <sign_in_webclient>Sign in to WebClient</sign_in_webclient>
+    <password>Password</password>
+    <sign_in>Sign in</sign_in>
+    <remember_me>Keep me signed in</remember_me>
+    <contact_admin>Contact us</contact_admin>
+    <not_you>Not you?</not_you>
+    <choose_account>Choose a different account</choose_account>
+    <powered>Powered by IceWarp © 2020</powered>
+    <find_out_more>To find out more about IceWarp, visit</find_out_more>
+    <search>Search</search>
+  </preview>
+  <preview_icechat>
+    <sign_in_with>Sign in with your IceWarp WebClient account</sign_in_with>
+    <email>E-mail</email>
+    <password>Password</password>
+    <sign_in>SIGN IN</sign_in>
+  </preview_icechat>
+  <resource>
+    <alias>Alias</alias>
+    <name>Name</name>
+    <type>Type</type>
+    <general>General</general>
+    <temporarily_unavailable>Temporarily unavailable</temporarily_unavailable>
+    <allow_conflicts>Allow conflicts</allow_conflicts>
+    <send_notification>Send notification to user</send_notification>
+    <permissions>Permissions</permissions>
+    <resource_members>List of resource members</resource_members>
+    <members>Members</members>
+  </resource>
+  <resource_help>
+    <resource_members>Review resource members, add new members or remove current ones. Tick the appropriate box and click Select Action button to remove a member.</resource_members>
+  </resource_help>
+  <smartdiscover>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <public_hostname>Public Hostname</public_hostname>
+    <smtp>SMTP</smtp>
+    <pop3>POP3</pop3>
+    <imap>IMAP</imap>
+    <xmpp>XMPP</xmpp>
+    <sip>SIP</sip>
+    <mobilesync>MobileSync (ActiveSync)</mobilesync>
+    <syncml>SyncML (OMA DS)</syncml>
+    <webdav_smartattach>WebDAV &amp; SmartAttach</webdav_smartattach>
+    <webclient>WebClient</webclient>
+    <webadmin>WebAdmin</webadmin>
+    <free_busy>Free / Busy</free_busy>
+    <internet_calendar>Internet Calendar</internet_calendar>
+    <sms>SMS</sms>
+    <anti_spam_reports>Anti-Spam Reports</anti_spam_reports>
+    <install>Install</install>
+    <teamchat>TeamChat</teamchat>
+    <standard>Standard</standard>
+    <tls_ssl>TLS / SSL</tls_ssl>
+    <no_ssl>2nd basic port (no SSL)</no_ssl>
+    <set_all_to_new_domain_name>Set all to new hostname</set_all_to_new_domain_name>
+    <collaboration>Collaboration API URL</collaboration>
+    <conference>Conference URL</conference>
+  </smartdiscover>
+  <subscription>
+    <active_users>Active users overview</active_users>
+    <any_questions>Any questions?</any_questions>
+    <billing_address>Billing address</billing_address>
+    <cancel_subscription>Cancel</cancel_subscription>
+    <order_information>Order information</order_information>
+    <order_id>Order ID</order_id>
+    <card_details>Card details</card_details>
+    <card_number>Card number</card_number>
+    <change_details>Change details</change_details>
+    <change_plan>Change</change_plan>
+    <company_name>Company name</company_name>
+    <current_plan>Current plan</current_plan>
+    <customer_details>Customer details</customer_details>
+    <expiration_date>Expiration date</expiration_date>
+    <invoices>Invoices</invoices>
+    <last_invoices>Last invoices</last_invoices>
+    <no_invoices>You don’t currently have &lt;strong&gt;any invoices&lt;/strong&gt;</no_invoices>
+    <payment_details>Payment details</payment_details>
+    <payments>Payment information</payments>
+    <per_user_month>per user/month</per_user_month>
+    <plan_details>Plan details</plan_details>
+    <price_all_users_month>Total monthly costs</price_all_users_month>
+    <price_user_month>Price per user/month</price_user_month>
+    <trial>Trial</trial>
+    <show_invoice_list>Show all invoices</show_invoice_list>
+    <storage>Storage per user</storage>
+    <subscription_details>Subscription details</subscription_details>
+    <your_trial_ends>Your trial ends:</your_trial_ends>
+    <number_of_users>Number of users</number_of_users>
+    <manage_subscription>Manage subscription</manage_subscription>
+    <subscription_settings>Subscription settings</subscription_settings>
+    <datacenter_storage_support>Datacenter, storage &amp; support</datacenter_storage_support>
+    <support>Support</support>
+    <next_billing>Next billing</next_billing>
+    <total_price>Total price</total_price>
+    <billing_period>Billing period:</billing_period>
+    <technical_support>Technical support</technical_support>
+    <business_support>Business support</business_support>
+    <contact_our_support>You can contact our support within 24/7 hours per day</contact_our_support>
+    <free>FREE</free>
+    <page_reload>Page needs to be reloaded in order to load new license</page_reload>
+  </subscription>
+  <loginpage>
+    <no_cookie>Your browser doesn&apos;t allow javascript to create cookies</no_cookie>
+    <title_admin>IceWarp WebAdmin</title_admin>
+    <new_interface>New interface</new_interface>
+    <old_interface>Old interface</old_interface>
+    <sign_in_text>Sign in with an &lt;strong&gt;administrator&lt;/strong&gt; account to manage domains and users</sign_in_text>
+    <sign_in>Sign in</sign_in>
+    <email>Email</email>
+    <username>نام‌کاربری</username>
+    <password>رمزعبور</password>
+    <remember_me>مرا به خاطر داشته باش</remember_me>
+    <forgotten_password>رمز را فراموش کرده‌ام</forgotten_password>
+    <visit_text>To find out more about IceWarp Server visit</visit_text>
+    <visit_url>http://www.icewarp.com/</visit_url>
+    <visit_link>www.icewarp.com</visit_link>
+    <powered_by>Powered by IceWarp Server &amp;copy; 2020</powered_by>
+    <oops_headline>Unsupported browser</oops_headline>
+    <oops_text>WebAdmin is &lt;strong&gt;not compatible&lt;/strong&gt; with your browser or device. For best experience use one of these modern browsers:</oops_text>
+    <recommended>Recommended</recommended>
+    <supported>Supported</supported>
+    <supported_version>Supported</supported_version>
+    <chrome>Chrome</chrome>
+    <explorer>Explorer</explorer>
+    <firefox>Firefox</firefox>
+    <safari>Safari</safari>
+    <opera>Opera</opera>
+    <divtcha>Retype the code</divtcha>
+    <wrong_captcha>The code is incorrect.</wrong_captcha>
+    <auth_sent>We have sent you an email which contains a secure link. Clicking the link will let you access spam management for a limited time.</auth_sent>
+  </loginpage>
+  <error>
+    <failed>Failed</failed>
+    <fill_in_non_negative_value>Negative values are not allowed.</fill_in_non_negative_value>
+    <account_password_policy>Password is violating password policy.</account_password_policy>
+    <auth_email_missing>Email is missing.</auth_email_missing>
+    <identical_email>You cannot assign your own username to another user in the same domain.</identical_email>
+    <insufficient_rights>Insufficient rights to perform this action.</insufficient_rights>
+    <connection>Unable to reach server. Please check your internet connection or contact administrator.</connection>
+    <invalid_command>Action could not be performed</invalid_command>
+    <invalid_data>Invalid data</invalid_data>
+    <no_key_defined>No key defined</no_key_defined>
+    <save_unsuccessful>Settings not saved</save_unsuccessful>
+    <action_failed>The requested action could not be performed</action_failed>
+    <license_key_send_failed>Could not send the license key</license_key_send_failed>
+    <unknown_error>Unknown error</unknown_error>
+    <auth_login_invalid>Login invalid</auth_login_invalid>
+    <wrong_password>Wrong password</wrong_password>
+    <password_too_short>Password too short</password_too_short>
+    <password_does_not_match>Passwords do not match</password_does_not_match>
+    <password_contains_alias>Password cannot contain alias</password_contains_alias>
+    <password_numeric_chars>Not enough numeric characters in password</password_numeric_chars>
+    <password_non_alpha_num_chars>Not enough non alphanumeric characters in password</password_non_alpha_num_chars>
+    <password_alpha_chars>Not enough alpha characters in password</password_alpha_chars>
+    <password_upper_alpha_chars>Not enough uppercase characters in password</password_upper_alpha_chars>
+    <uploader_file_type_not_allowed>File type not allowed</uploader_file_type_not_allowed>
+    <specify_account_name_with_domain_name>Specify account name with domain name</specify_account_name_with_domain_name>
+    <specify_domain_name>Specify domain name</specify_domain_name>
+    <fatal_communication_error>Fatal communication error</fatal_communication_error>
+    <account_disabled>Account disabled</account_disabled>
+    <account_domain_limit_exceeded>Account limit exceeded</account_domain_limit_exceeded>
+    <connection_error>Connection error</connection_error>
+    <server_failure>Server failed to deliver necessary data: </server_failure>
+    <password_missing>Password missing</password_missing>
+    <auth_digest_expired>Login hash expired</auth_digest_expired>
+    <unexpected_response>Unexpected response</unexpected_response>
+    <service_stop_unsuccessful>Could not stop the service</service_stop_unsuccessful>
+    <service_start_unsuccessful>Could not start the service</service_start_unsuccessful>
+    <service_restart_unsuccessful>Could not restart the service</service_restart_unsuccessful>
+    <rule_delete_unsuccessful>Could not delete the rule</rule_delete_unsuccessful>
+    <rule_save_unsuccessful>Could not save the rule</rule_save_unsuccessful>
+    <cannot_add_member_to_itself>Cannot add member to itself</cannot_add_member_to_itself>
+    <rule_at_least_one_condition_required>At least one condition required</rule_at_least_one_condition_required>
+    <account_not_created>The account could not be created. An account with the same alias might exist or due to licence limitations</account_not_created>
+    <auth_password_missing>Password missing</auth_password_missing>
+    <login_unsuccessful>Login unsuccessful</login_unsuccessful>
+    <sender_must_be_filled>Sender cannot be blank</sender_must_be_filled>
+    <items_delete_failed>Delete failed</items_delete_failed>
+    <spam_queue_item_does_not_exist>Item doesn&apos;t exist</spam_queue_item_does_not_exist>
+    <items_deliver_failed>Delivery failed</items_deliver_failed>
+    <save_failed>Could not be saved</save_failed>
+    <reset_failed>Failed to reset</reset_failed>
+    <default_reset_failed>Could not reset to default values</default_reset_failed>
+    <fetch_failed>Data could not be retrieved</fetch_failed>
+    <certificate_not_saved uses="server certificates">Certificate wasn&apos;t saved</certificate_not_saved>
+    <delete_unsuccessfull>Delete unsuccessful</delete_unsuccessfull>
+    <account_permission>Insufficient rights</account_permission>
+    <license_evaluation>Evaluation license</license_evaluation>
+    <license_reference_mismatch>Reference ID mismatch error</license_reference_mismatch>
+    <license_revalidation>License revalidation failure</license_revalidation>
+    <license_expired>License expired</license_expired>
+    <license_none>No license</license_none>
+    <license_build>License version mismatch</license_build>
+    <license_version>License version mismatch</license_version>
+    <cert_some_domains_were_not_verified>Some domains were not verified</cert_some_domains_were_not_verified>
+    <cert_requesting_challenges_for_domain_verification>Error when requesting challenges for domain verification</cert_requesting_challenges_for_domain_verification>
+    <cert_parsing_challenges_for_domain_verification>Error when parsing challenges for domain verification</cert_parsing_challenges_for_domain_verification>
+    <cert_triggering_challenges_challenges_for_domain_verification>Error when triggering challenges for domain verification</cert_triggering_challenges_challenges_for_domain_verification>
+    <cert_registering_acme_account>Error when registering ACME account.</cert_registering_acme_account>
+    <cert_invalid_csr_detected>Invalid CSR detected</cert_invalid_csr_detected>
+    <cert_signing_certificate>Error when signing the certificate</cert_signing_certificate>
+    <cert_letsEncrypt_rate_limits_applied>Let&apos;s Encrypt rate limits applied</cert_letsEncrypt_rate_limits_applied>
+    <domain_delete_failed>The domain could not be deleted</domain_delete_failed>
+    <incorrect_filetype>The provided file is of incorrect type</incorrect_filetype>
+    <password_expired>Your password has expired</password_expired>
+    <rule_activate_unsuccessful>Could not activate the rule</rule_activate_unsuccessful>
+    <rule_deactivate_unsuccessful>Could not deactivate the rule</rule_deactivate_unsuccessful>
+    <unsupported_image_format>Unsupported image format</unsupported_image_format>
+    <rule_at_least_one_action_required>At least one action is required</rule_at_least_one_action_required>
+  </error>
+  <warning>
+    <operation_may_take_long_time>This operation may take a long time.</operation_may_take_long_time>
+    <delete_selected_members>Are you sure to delete selected members? (%s)</delete_selected_members>
+    <delete_selected_items>Are you sure to delete selected accounts? (%s)</delete_selected_items>
+    <delete_selected_devices>Are you sure to delete selected devices? (%s)</delete_selected_devices>
+    <move_selected_accounts>Are you sure to move selected accounts (%s) to domain %s?</move_selected_accounts>
+    <changes_found>Do you want to save the changes?</changes_found>
+    <identical_username>The username is identical to your username. Are you sure you want to save this username?</identical_username>
+    <default_certificate_will_be_overwritten uses="server certificates">Default certificate will be overwritten</default_certificate_will_be_overwritten>
+    <delete_selected_certificates uses="server certificates">Do you want to delete selected certificates?</delete_selected_certificates>
+    <delete_selected_oauths>Do you want to delete selected OAuth clients?</delete_selected_oauths>
+    <set_to_default>Are you sure to set default values? You will lose current settings.</set_to_default>
+    <delete_domain>The domain %s will be removed</delete_domain>
+  </warning>
+  <message>
+    <device_soft_wipe_set>Soft Wipe set successfully</device_soft_wipe_set>
+    <device_hard_wipe_set>Hard Wipe set successfully</device_hard_wipe_set>
+    <device_set_wipe_failed>Wipe command has failed</device_set_wipe_failed>
+    <save_successfull>Settings saved</save_successfull>
+    <reset_to_default>Values have been reset to default</reset_to_default>
+    <license_key_sent_successfuly>License key sent successfully</license_key_sent_successfuly>
+    <device_blocked>Device blocked</device_blocked>
+    <device_allowed>Device allowed</device_allowed>
+    <rule_delete_successfull>The rule was deleted</rule_delete_successfull>
+    <rule_save_successfull>The rule was saved</rule_save_successfull>
+    <item_saved_successfully>Item saved successfully</item_saved_successfully>
+    <items_deleted_successfully>Delete successful</items_deleted_successfully>
+    <items_delivered_successfully>Items delivered successfully</items_delivered_successfully>
+    <certificate_saved uses="server certificates">Certificate saved</certificate_saved>
+    <delete_successfull>The item was deleted</delete_successfull>
+    <domain_renamed>Domain renamed</domain_renamed>
+    <items_blacklisted_successfully>Items blacklisted</items_blacklisted_successfully>
+    <items_whitelisted_successfully>Items whitelisted</items_whitelisted_successfully>
+    <rule_activate_successful>The rule has been activated</rule_activate_successful>
+    <rule_deactivate_successful>The rule has been deactivated</rule_deactivate_successful>
+  </message>
+  <description>
+    <device_soft_wipe>Are you sure to soft wipe the selected device?</device_soft_wipe>
+    <device_hard_wipe>Are you sure to hard wipe the selected device?</device_hard_wipe>
+  </description>
+  <iframe>
+    <something_went_wrong>Something went wrong.</something_went_wrong>
+    <loading>Loading</loading>
+    <reload>Reload</reload>
+    <reload_helper>Please reload content</reload_helper>
+  </iframe>
+  <change_plan>
+    <title>Change plan</title>
+  </change_plan>
+  <oauth>
+    <wizard>OAuth provider wizard</wizard>
+    <wizard_edit>Edit OAuth provider</wizard_edit>
+    <client_id>Client ID</client_id>
+    <name>OAuth provider</name>
+    <description>Description</description>
+    <redirect_uri>Redirect URI</redirect_uri>
+    <auth_type>Auth type</auth_type>
+    <auth_type_standard>Standard</auth_type_standard>
+    <auth_type_mobile>Mobile</auth_type_mobile>
+    <auth_type_single_page>Single Page</auth_type_single_page>
+    <secret>OAuth secret</secret>
+  </oauth>
+  <fulltext_search>
+    <title>Fulltext Search</title>
+    <configured>Fulltext Search engine is &lt;b&gt;configured&lt;/b&gt;</configured>
+    <not_configured>Fulltext Search engine is currently &lt;b&gt;not configured&lt;/b&gt;</not_configured>
+    <indexer>Fulltext Search scanner</indexer>
+    <server>Fulltext Search database</server>
+    <docconv>Documents conversion service</docconv>
+    <indexpath>Index storage folder</indexpath>
+    <configure>Configure Fulltext Search</configure>
+  </fulltext_search>
+  <fulltext_search_wizard>
+    <heading>Fulltext Search Wizard</heading>
+    <search>Fulltext Search</search>
+    <search_enable>Enable Fulltext Search in IceWarp</search_enable>
+    <search_helper1>IceWarp supports fulltext search that is available to users in WebClient interface, on mobile devices synchronized through ActiveSync and in desktop email clients that can search for emails through IMAP protocol.</search_helper1>
+    <search_helper2>Fulltext Search engine consists of three components, each of them can run locally on the same system as IceWarp, or remotely, to offload CPU and storage utilization. You should carefully consider which setup will be the best for your use case. The three components are:</search_helper2>
+    <search_helper_component1>Fulltext Search scanner (yoda-scan)</search_helper_component1>
+    <search_helper_component2>Fulltext Search database (yoda)</search_helper_component2>
+    <search_helper_component3>Documents conversion service (mundi)</search_helper_component3>
+    <scanner>Fulltext Search scanner configuration</scanner>
+    <scanner_helper>Scanner service reads data from email storage, parses out text of emails and sends the text to the fulltext search database. Scanner service needs access (at least with read permission) to the email storage of IceWarp. If Scanner is deployed on a remote server, mount the email storage to the same mount point as on the IceWarp server (%s).</scanner_helper>
+    <scanner_local>Run Scanner service locally</scanner_local>
+    <scanner_local_helper>Local Scanner service port</scanner_local_helper>
+    <scanner_remote>Connect to remote Scanner service</scanner_remote>
+    <scanner_remote_helper>Remote Scanner service URL</scanner_remote_helper>
+    <database>Fulltext Search database configuration</database>
+    <database_helper1>Database service maintains its own database for fulltext search metadata (index). The index is stored directly on filesystem and will occupy approximately 10-20% of the original size of IceWarp email storage (the actual size varies by the type of data). Database service operates on its own and does not need to have any access to email storage.</database_helper1>
+    <database_helper2>Note: If you are going to change local &lt;i&gt;Index storage folder&lt;/i&gt;, you should also manually move the existing index data to the new location (this operation cannot be done automatically).</database_helper2>
+    <database_local>Run Database service locally</database_local>
+    <database_local_helper>Local Database service port</database_local_helper>
+    <database_remote>Connect to remote Database service</database_remote>
+    <database_remote_helper>Remote Database service URL</database_remote_helper>
+    <index_storage_path>Index storage folder</index_storage_path>
+    <docconv>Documents conversion service configuration</docconv>
+    <docconv_helper>Documents conversion service is responsible for extracting text from email attachments and from documents stored in WebClient or FileSync locations. IceWarp provides a preconfigured virtual server with Documents conversion service that can be deployed externally from server where IceWarp runs [recommended]. Documents conversion service can also run locally on the same IceWarp system, however in such case it may not be able to convert some document types. Documents conversion service operates on its own and does not need to have any access to email storage.</docconv_helper>
+    <docconv_local>Run Documents conversion service locally</docconv_local>
+    <docconv_local_helper>Local Documents conversion service port</docconv_local_helper>
+    <docconv_remote>Connect to remote Documents conversion service</docconv_remote>
+    <docconv_remote_helper>Remote Documents conversion service URL</docconv_remote_helper>
+    <docconv_disable>Disable Documents conversion service</docconv_disable>
+    <summary>Fulltext Search configuration summary</summary>
+    <summary_helper>You have now finished configuration of Fulltext Search engine components. Below is summary of your current configuration.</summary_helper>
+    <runs_locally>%s runs locally</runs_locally>
+    <runs_remotely>%s runs remotely</runs_remotely>
+    <is_disabled>%s is disabled</is_disabled>
+  </fulltext_search_wizard>
+</language>

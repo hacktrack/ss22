@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="Кому"/>
+  <ITEM id="attachments" value="Вложения"/>
+  <ITEM id="bytes" value="Байты"/>
+  <ITEM id="view_mail" value="Просмотр сообщения"/>
+  <ITEM id="show_source" value="Показать источник"/>
+  <ITEM id="title" value="Антиспам бот"/>
+  <ITEM id="request" value="Чтобы подтвердить, что ваше сообщение было отправлено человеком, а не компьютером, введите буквенно-цифровой текст, который вы видите на изображении ниже и нажмите OK. Вам будет предложено сделать это только один раз для этого емейла."/>
+  <ITEM id="result_ok" value="Введенное слово указано правильно. Ваш емейл адрес был авторизован."/>
+  <ITEM id="result_error" value="Введенное слово указано неверно. Пожалуйста, попробуйте снова."/>
+  <ITEM id="result_already" value="Ваш емейл адрес уже был авторизован."/>
+  <ITEM id="result_black" value="Ваш емейл адрес был внесен в Черный список."/>
+  <ITEM id="result_notfound" value="Ваш емейл адрес не был найден. Должно быть, он удален. Пожалуйста, перешлите ваше е-мейл сообщение снова."/>
+  <ITEM id="thanks" value="Спасибо за сотрудничество."/>
+  <ITEM id="reason" value="Почему я это делаю?"/>
+  <ITEM id="explanation" value="Нежелательный коммерческий емейл сгенерирован компьютером и не может ответить на команду выше. Используя эту доверительную почтовую систему, я ограничиваю мою входящую почту проверкой отправителей, которые проходят аутентификацию, подтверждающую, что они реальные люди, которые хотят связяться со мной по емейлу."/>
+  <ITEM id="thanks2" value="Спасибо, что помогаете мне блокировать спам!"/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="IceWarp Software"/>
+  <ITEM id="gateway_link_label" value="Управляйте карантином/ спамом онлайн"/>
+  <ITEM id="copyright2" value="Все права защищены."/>
+  <LIST>
+    <ITEM id="title" value="Спам-отчет IceWarp"/>
+    <ITEM id="intro" value="Это автоматически сгенерированный отчет, который информирует вас о сообщениях в ваших папках Спам или Карантин. Это позволит вам управлять этими сообщениями с помощью одного клика. &lt;br/&gt;Примечание: В отчетах показано только одно сообщение от каждого отправителя. Если вы одобрите отправителя, то все сообщения от него будут доставлены."/>
+    <ITEM id="outro" value="Вы можете перейти по одной из ссылок выше, чтобы выбрать действие для ВСЕХ сообщений, находящихся в папке Спам или Карантин."/>
+    <ITEM id="admin_action" value="Выберите действие для всех элементов всех аккаунтов"/>
+    <ITEM id="account_action" value="Выберите действие для всех элементов аккаунта"/>
+    <ITEM id="you_are_admin" value="Опции администратора спама"/>
+    <ITEM id="sender" value="От"/>
+    <ITEM id="subject" value="Тема"/>
+    <ITEM id="recipient" value="Кому"/>
+    <ITEM id="date" value="Дата"/>
+    <ITEM id="time" value="Время"/>
+    <ITEM id="actions" value="Действия"/>
+    <ITEM id="delete" value="Удалить"/>
+    <ITEM id="authorize" value="В Белый список"/>
+    <ITEM id="accept" value="Доставить"/>
+    <ITEM id="blacklist" value="В Черный список"/>
+    <ITEM id="deleteall" value="Удалить"/>
+    <ITEM id="authorizeall" value="В Белый список"/>
+    <ITEM id="acceptall" value="Доставить"/>
+    <ITEM id="blacklistall" value="В Черный список"/>
+    <ITEM id="submit" value="Применить"/>
+    <ITEM id="view" value="Показать сообщение"/>
+    <ITEM id="msgsubject" value="Спам-отчет от %%Current_Date%%"/>
+    <ITEM id="domain" value="Домен"/>
+    <ITEM id="account" value="Аккаунт"/>
+    <ITEM id="location" value="Местоположение"/>
+    <ITEM id="type_quarantine" value="Карантин"/>
+    <ITEM id="type_spam" value="Папка Спам"/>
+    <ITEM id="delivery_problem" value="Невозможно доставить сообщение аккаунту"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Авторизация отправителя"/>
+      <ITEM id="success" value="Отправитель был авторизован."/>
+      <ITEM id="failure" value="Отправитель не может быть авторизован."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Доставка сообщения"/>
+      <ITEM id="success" value="Сообщение было доставлено."/>
+      <ITEM id="failure" value="Сообщение не может быть доставлено."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Удаление сообщения"/>
+      <ITEM id="success" value="Сообщение было удалено из очереди."/>
+      <ITEM id="failure" value="Сообщение не может быть удалено."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Отклонение отправителя"/>
+      <ITEM id="success" value="Отправитель был добавлен в Черный список."/>
+      <ITEM id="failure" value="Отправитель не может быть добавлен в Черный список."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Просмотр сообщения"/>
+      <ITEM id="failure" value="Сообщение не может быть отображено. Это может произойти в случае, если сообщение уже было удалено из Карантина (или папки Спам)."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Ошибка"/>
+      <ITEM id="failure" value="Запрошенная операция не может быть выполнена."/>
+      <ITEM id="wrongid" value="Неверный ID сообщения. Выбранное сообщение уже было удалено из Карантина (или папки Спам)."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Авторизация отправителя"/>
+      <ITEM id="success" value="Отправитель был авторизован, и сообщение доставлено."/>
+      <ITEM id="failure" value="Отправитель не может быть авторизован или сообщение не может быть доставлено."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Доставка сообщения"/>
+      <ITEM id="success" value="Сообщение было доставлено."/>
+      <ITEM id="failure" value="Сообщение не может быть доставлено."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Удаление сообщения"/>
+      <ITEM id="success" value="Сообщение было удалено из папки Спам."/>
+      <ITEM id="failure" value="Сообщение не может быть удалено."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Отклонение отправителя"/>
+      <ITEM id="success" value="Отправитель был добавлен в Черный список, и сообщение было удалено из папки Спам."/>
+      <ITEM id="failure" value="Отправитель не может быть добавлен в Черный список или сообщение не может быть удалено."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Просмотр сообщения"/>
+      <ITEM id="failure" value="Сообщение не может быть отображено. Это может произойти в случае, если сообщение уже было удалено."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Ошибка"/>
+      <ITEM id="failure" value="Запрошенная операция не может быть выполнена."/>
+      <ITEM id="wrongid" value="Неверный ID сообщения. Выбранное сообщение уже было удалено из Карантина (или папки Спам)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Ошибка"/>
+      <ITEM id="failure" value="Запрошенная операция не может быть выполнена."/>
+      <ITEM id="wrongid" value="Неверный ID администратора. Выбранный аккаунт администратора больше не существует."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Спам-отчеты отключены %s"/>
+    <ITEM id="challenge_already_running" value="Спам-отчеты уже запущены"/>
+    <ITEM id="challenge_invalid_path_variable" value="Путь к спам-отчетам не был загружен полностью: %s"/>
+    <ITEM id="api_findinitquery" value="API Спам отчёта: поиск объекта аккаунта IceWarp. Домен: %s, Фильтр: %s"/>
+    <ITEM id="challenge_language_file_missing" value="Файл языка спам-отчетов отсутствует: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Файл языка спам-отчетов поврежден: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Поврежден хэш спам-отчетов (возможна URL атака): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

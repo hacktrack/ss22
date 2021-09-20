@@ -1,0 +1,67 @@
+div.frm_main_mail_wide{
+	height: 100%;
+}
+
+.frm_main_mail_wide .frm_main_mailcontainer{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+div.frm_main_mail_wide div.frm_main_datagrid_div{
+    position: absolute;
+	top: 0;
+
+    height: 100%;
+	width: 400px;
+    padding-bottom: 33px;
+}
+
+div.frm_main_mail_wide .frm_main_mailview0{
+	height: 100%;
+	padding-left: 405px;
+	overflow: hidden;
+    padding-bottom: 33px;
+}
+	div.frm_main_mail_wide .frm_main_mailview{
+		height: 100%;
+	}
+
+div.frm_main_mail_wide .frm_main_mail_wide_slider{
+	position: absolute;
+	z-index: 99;
+	top: 0;
+
+	width: 5px;
+	height: 100%;
+
+	cursor: col-resize;
+    overflow: hidden;
+    
+	background-color: #FFFFFF;
+
+	left: 400px;
+}
+
+div.frm_main_mail_wide .frm_main_mailslider_active{
+	background-color: #ADA99A;
+}
+
+/* search */
+div.frm_main_mail_wide .frm_main_mail_wide_search{
+    display: block;
+	overflow: hidden;
+
+	width: 100%;
+	height: 28px;
+
+    position: absolute;
+    z-index: 100;
+	bottom: 0;
+	
+	padding: 0 0 0 2px;
+	_padding: 1px 0 0 2px;
+
+    background-color: #F5F3EA;
+	border: solid #ADA99A 1px;
+}

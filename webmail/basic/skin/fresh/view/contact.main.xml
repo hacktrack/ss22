@@ -1,0 +1,47 @@
+<view>
+	<!-- Users form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>groupware</helper>
+		<grid id="items" helper="item" template="contact.main">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<data>item.fdr</data>
+				<default>
+					<orderby>itmClassifyAs ASC</orderby>
+				</default>
+				<fields>
+					<field label="Name">itmSortString</field>
+					<field label="Name">itmClassifyAs</field>
+					<field label="Category">itmCategory</field>
+					<field label="FirstName">itmFirstName</field>
+					<field label="MiddleName">itmMiddleName</field>
+					<field label="LastName">itmSurname</field>
+					<field label="Title">itmTitle</field>
+					<field label="Suffix">itmSuffix</field>
+					<field label="Company">itmCompany</field>
+					<field label="Job">itmJobTitle</field>
+					<field label="Department">itmDepartment</field>
+					<field label="E-mail1">lctemail1</field>
+					<field label="E-mail2">lctemail2</field>
+					<field label="E-mail3">lctemail3</field>
+					<field label="ITMCLASS">ITMCLASS</field>
+				</fields>
+				<select>
+					<type>multiple</type>
+					<variable>items</variable>
+				</select>
+				<javascript>
+					<src>contact.main</src>
+					<src>toolbar</src>
+					<src>datagrid</src>
+				</javascript>
+				<stylesheet>
+					<src>datagrid</src>
+				</stylesheet>
+			</config>
+		</grid>
+	</panel>
+</view>

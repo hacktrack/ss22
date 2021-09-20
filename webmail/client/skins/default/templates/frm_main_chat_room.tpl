@@ -1,0 +1,1 @@
+<div class="body maxbox"><obj name="list" type="obj_groupchat" css="private"></obj></div>

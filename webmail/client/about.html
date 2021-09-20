@@ -1,0 +1,39 @@
+<?php
+define( 'SHAREDLIB_PATH' , get_cfg_var('icewarp_sharedlib_path') );
+require_once( SHAREDLIB_PATH. 'api/api.php' );
+$api=new IceWarpAPI();
+$version=$api->GetProperty('C_Niceversion');
+?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" content="en" />
+	<link rel="stylesheet" href="skins/help.css" media="all" type="text/css" />
+</head>
+<body>
+<?php
+if (isset($_GET['lang']))
+{
+	$about='languages/'.$_GET['lang'].'/about/index.html';
+	$about_en='languages/en/about/index.html';
+	$about=str_replace(array('../'),array(''),$about);
+	if(file_exists($about))
+	{
+		echo str_replace(array('{%Y%}','{%V%}'),array(date('Y'),$version),file_get_contents($about));
+	}
+	elseif(file_exists($about_en))
+	{
+		echo str_replace(array('{%Y%}','{%V%}'),array(date('Y'),$version),file_get_contents($about_en));
+	}
+	else
+	{
+		echo "File not found [".slToolsPHP::htmlspecialchars($about)."]";
+	}
+}
+else
+{
+	echo "Language not set";
+}
+?>
+</body>
+</html>

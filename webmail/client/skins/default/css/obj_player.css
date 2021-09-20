@@ -1,0 +1,76 @@
+div.obj_player{
+	position: relative;
+	height: 28px;
+
+	background-color: #DFDCDA;
+	border-radius: 3px;
+}
+
+div.obj_player.transparent{
+	background-color: transparent;
+}
+
+div.obj_player .obj_label.title{
+	display: none;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 100%;
+	padding: 0 10px;
+}
+
+div.obj_player form.obj_button{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+div.obj_player form.obj_button.prev{
+	display: none;
+	left: 0;
+}
+div.obj_player form.obj_button.next{
+	display: none;
+	left: 60px;
+}
+
+div.obj_player .obj_label.time{
+	position: absolute;
+	left: 25px;
+	width: 45px;
+	text-align: right;
+}
+
+div.obj_player .obj_progress{
+	position: absolute;
+	bottom: 10px;
+	left: 80px;
+	right: 10px;
+	width: auto;
+}
+
+/* title */
+div.obj_player.title{
+	height: 56px;
+}
+	div.obj_player.title .obj_label.title{
+		display: block;
+	}
+
+/* multiple */
+div.obj_player.multiple form.obj_button.prev,
+div.obj_player.multiple form.obj_button.next{
+	display: block;
+}
+
+div.obj_player.multiple form.obj_button{
+	bottom: 1px;
+}
+div.obj_player.multiple form.obj_button_play{
+	left: 30px;
+}
+div.obj_player.multiple .obj_label.time{
+	left: 85px;
+}
+div.obj_player.multiple .obj_progress{
+	left: 140px;
+}

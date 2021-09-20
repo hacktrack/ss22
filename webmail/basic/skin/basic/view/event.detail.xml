@@ -1,0 +1,25 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>groupware</helper>
+		<form id="event" helper="item" template="event.detail">
+			<config>
+				<controller>item</controller>
+				<target>content</target>
+				<window>main</window>
+				<view>event.main</view>
+				<data>item.fdr</data>
+				<stylesheet>
+					<src>grid</src>
+					<src>events</src>
+					<src>events.main</src>
+				</stylesheet>
+				<javascript>
+					<src>jquery</src>
+					<src>general</src>
+				</javascript>
+			</config>
+		</form>
+	</panel>
+</form>

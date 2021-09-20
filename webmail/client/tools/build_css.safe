@@ -1,0 +1,168 @@
+<?php
+//build css file
+define("skindir",CLIENT.'/skins/');
+define("cssdir",'/css/');
+define("cssext",'.css');
+define("cssfile",'style.css');
+
+
+function generateFiles()
+{
+	$skins=array();
+	$d=opendir(skindir);
+	while($f=readdir($d)){
+		if($f!='.' && $f!='..' && substr($f,0,1)!='' && is_dir(skindir.$f)){
+			$skins[]=$f;
+		}
+	}
+	closedir($d);
+	
+	$files=array();
+	$d=opendir(skindir.'default/css/');
+	while($f=readdir($d)){
+		if($f!='.' && $f!='..' && $f!='css.php' && is_file(skindir.'default/css/'.$f)){
+			$files[]=$f;
+		}
+	}
+	closedir($d);
+	
+	$validate_skin="function validateSkin(\$name){
+		\$skins=array(\"".join('","',$skins)."\");
+		foreach(\$skins as \$val){
+			if(\$val==\$name){
+				return \$val;
+			}
+		}
+		die('NOT VALID '.base64_encode(\$name));
+	}";
+	
+	$validate_file="function validateFile(\$name){
+		\$files=array(\"style.css\",\"".join('","',$files)."\");
+		foreach(\$files as \$val){
+			if(\$val==\$name){
+				return \$val;
+			}
+		}
+		die('NOT VALID '.base64_encode(\$name));
+	}";
+	
+	file_put_contents(CLIENT.'/tools/cssbuilder.files.safe',"<?php ".$validate_skin." ".$validate_file." ?>");
+}
+generateFiles();
+
+function palletes($skin){
+	// get pallete names
+	$palletes=array();
+	$palletes_default=array();
+	if(file_exists(skindir.$skin.'/skin.xml')){
+		$oXML_default=simplexml_load_string(file_get_contents(skindir.$skin.'/skin.xml'));
+		if(isset($oXML_default->colors)){
+			foreach($oXML_default->colors[0] as $palette){
+				$palletes[]=strval($palette->getName());
+			}
+		}
+	}
+	if($skin!='default'){
+		if(file_exists(skindir.'default/skin.xml')){
+			$oXML_default=simplexml_load_string(file_get_contents(skindir.'default/skin.xml'));
+			if(isset($oXML_default->colors)){
+				foreach($oXML_default->colors[0] as $palette){
+					$palletes_default[]=strval($palette->getName());
+				}
+			}
+		}
+	}
+	return array_merge($palletes_default,$palletes);
+}
+
+function pallete_files($palletes)
+{
+	$palletes_files=array();
+	foreach($palletes as $val){$palletes_files[]=str_replace(cssext,'',cssfile).'.'.$val.cssext;}
+	return $palletes_files;
+}
+
+$skin_list=array();
+
+if ($handle = opendir(skindir)) {
+
+	$donot=array_merge(array(cssfile,'obj_rich_body.css','obj_mailview_body.css','frm_print_all.css','frm_print_print.css','font.css','print_calendar.css'),pallete_files(palletes('default')));
+	$CSS_default = readFolder(skindir.'default'.cssdir, cssext,$donot);
+
+	while (false !== ($dir = readdir($handle)))
+		if ($dir != "." && $dir != ".." && $dir!=".svn" && is_dir(skindir.$dir)) {
+			if ($dir == 'default'){
+				$css = $CSS_default;
+			} else{
+				$donot=array_merge(array(cssfile,'obj_rich_body.css','obj_mailview_body.css'),pallete_files(palletes($dir)));
+				$css = readFolder(skindir.$dir.cssdir, cssext,$donot);
+				
+				if (!count($css[0])){
+				    continue;
+				}
+				//doplnit
+                $append = false;
+				foreach($CSS_default[0] as $def_file){
+					if (!in_array(skindir.$dir.cssdir.$def_file, $css[0])){
+					    $css[0][] = $def_file;
+					    $append = true;
+					}
+				}
+				if ($append && $CSS_default[1]>$css[1]){
+			    	$css[1] = $CSS_default[1];
+				}
+			}
+
+			//make style.css file
+			if (!file_exists(skindir.$dir.cssdir.cssfile) || ($css[1] && filemtime(skindir.$dir.cssdir.cssfile)<$css[1])){
+
+				$skin_list[]=$dir; // save skin name
+
+				sort($css[0]);
+				$str = '';
+
+				foreach($css[0] as $file)
+				{
+					if(!fnmatch('style.*.css',basename($file))){
+						$str .= ($str==''?'':"\r\n\t\t\r\n").read_clear($file);
+					} else {
+						@unlink($file);
+					}
+				}
+
+				if ($fhandle = fopen(skindir.$dir.cssdir.cssfile, 'wb')){
+					fwrite($fhandle, $str);
+					@fclose($fhandle);
+					//create style.default.css
+					file_put_contents(skindir.$dir.cssdir.'style.default.css',template(skindir.$dir.cssdir.cssfile,array()));
+				}
+			}
+		}
+
+	@closedir($handle);
+}
+
+// apply skin.xml colors
+require_once('cssbuilder.class.safe');
+
+$out=true;
+require_once('css.safe');
+foreach($skin_list as $val)
+{
+	
+	$palletes=palletes($val);
+	foreach($palletes as $val2)
+	{
+		$template=buildcss($val,cssfile,$val2,skindir,true);
+		
+		$replace1 = array("\r\n\t\t\r\n","\r","\n","\t","}",";","//#BR#");
+		$replace2 = array("//#BR#","","","","}\r\n","; ","\r\n");
+		//$template=trim(str_replace($replace1,$replace2,$template));
+		
+		$filepath=skindir.$val.cssdir.str_replace(cssext,'',cssfile).'.'.$val2.cssext;
+		
+		file_put_contents($filepath,$template);
+		//
+	}
+}
+?>

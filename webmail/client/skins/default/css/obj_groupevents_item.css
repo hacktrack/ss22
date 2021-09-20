@@ -1,0 +1,167 @@
+.obj_groupevents_item{
+	border: 1px solid #EDEDED;
+	border-radius: 3px;
+}
+
+
+.obj_groupevents_item>.event{
+	display: table;
+	width: 100%;
+}
+
+.obj_groupevents_item:hover,
+.obj_groupfiles section.active .obj_groupevents_item{
+	background-color: #F7FBFD;
+}
+
+/* item */
+	.obj_groupevents_item>.event>div{
+		display: table-cell;
+		white-space: nowrap;
+		line-height: 70px;
+		padding: 0 10px;
+		cursor: default;
+		width: 0;
+	}
+/*
+	.obj_groupevents_item>.event>div.day,
+	.obj_groupevents_item>.event>div.place,
+	.obj_groupevents_item>.event>div.date,
+	.obj_groupevents_item>.event>div.attendee,
+	.obj_groupevents_item>.event>div.control{
+		width: 0;
+	}
+*/
+	/* day */
+	.obj_groupevents_item>.event>div.day{
+		font-size: 22px;
+		font-weight: 500;
+		position: relative;
+		padding: 0;
+		min-width: 70px;
+
+		text-align: center;
+		vertical-align: middle;
+	}
+		.obj_groupevents_item>.event>div.day:before{
+			content: '';
+			display: block;
+			position: absolute;
+			top: 10px;
+			bottom: 10px;
+			left: 10px;
+			right: 10px;
+
+			border-radius: 5px;
+			border: 2px solid #EDEDED;
+			/*background-color: #FFF;*/
+		}
+
+
+	/* blank cell*/
+	.obj_groupevents_item>.event>div.blank{
+		visibility: hidden;
+	}
+	/* icon */
+	.obj_groupevents_item>.event>div.icon{
+		position: relative;
+		padding-left: 30px;
+	}
+	.rtl .obj_groupevents_item>.event>div.icon {
+		padding-left: 0;
+		padding-right: 30px;
+	}
+		.obj_groupevents_item>.event>div.icon:before{
+			font-family: 'ico16';
+			content: '\e082';
+			font-size: 16px;
+			line-height: 20px;
+			color: #888;
+			position: absolute;
+			left: 10px;
+			top: 50%;
+			margin-top: -10px;
+		}
+		.rtl .obj_groupevents_item>.event>div.icon:before {
+			left: auto;
+			right: 10px;
+		}
+	/* date */
+	.obj_groupevents_item>.event>div.date{
+		color: {bg_main '#0088CC'};
+
+		min-width: 160px;
+		max-width: 160px;
+		overflow: hidden;
+
+		line-height: 20px;
+		vertical-align: middle;
+		text-align: center;
+	}
+	.obj_groupevents_item>.event>div.date span{
+		display: block;
+	}
+
+	/* place */
+	.obj_groupevents_item>.event>div.place{
+		min-width: 130px;
+		max-width: 130px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.obj_groupevents_item>.event>div.place:before{
+		content: '\e029';
+	}
+
+	/* attendee */
+	.obj_groupevents_item>.event>div.attendee:before{
+		content: '\e02b';
+	}
+	.obj_groupevents_item>.event>div.attendee{
+		min-width: 110px;
+		max-width: 110px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		padding-right: 0;
+	}
+
+	/* name */
+	.obj_groupevents_item>.event>div.name{
+		position: relative;
+		padding: 0;
+		width: 100%;
+
+		font-size: 15px;
+		font-weight: 500;
+	}
+		.obj_groupevents_item>.event>div.name>div{
+			position: absolute;
+			left: 5px;
+			right: 5px;
+			top: 0;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		.obj_groupevents_item>.event>div.avatar>span{
+			display: inline-block;
+			width: 28px;
+			height: 28px;
+			line-height: 28px;
+			text-align: center;
+			vertical-align: middle;
+		}
+
+	.obj_groupevents_item>.event>div.control{
+		padding: 0 15px;
+		vertical-align: middle;
+	}
+
+	/* fixed button width */
+	.obj_groupevents_item>.event>div.control input.obj_button{
+		width: 100px;
+		text-align: left;
+	}
+	.rtl .obj_groupevents_item>.event>div.control input.obj_button {
+		text-align: right;
+	}

@@ -1,0 +1,133 @@
+div.frm_mail .obj_popupfoot{
+	height: 5px!important;
+	line-height: 5px!important;
+	margin: 0 5px!important;
+	padding: 0!important;
+}
+div.frm_mail .obj_pupup_menu{
+	border-bottom-width: 0;
+	display: table;
+    width: 100%;
+}
+.rtl div.frm_mail .obj_pupup_menu{
+	direction: rtl;
+}
+
+div.frm_mail .obj_pupup_menu ul {
+	display: table-row;
+}
+div.frm_mail .obj_pupup_menu ul li {
+	display: table-cell;
+    text-align: center;
+}
+div.frm_mail .obj_pupup_menu ul li a span {
+	padding: 0 10px!important;
+	width: auto!important;
+}
+div.frm_mail .obj_pupup_menu ul li a span::before {
+	position: initial;
+	left: unset;
+	top: unset;
+	vertical-align: text-bottom;
+    padding-right: 5px;
+}
+div.frm_mail div.obj_popupmainheader{
+	display: block;
+	border-bottom: 1px solid #dfdcda;
+}
+
+div.frm_mail .obj_hmenu li.ico2.forward a>span:before{
+	content: '\e969';
+}
+div.frm_mail .obj_hmenu li.ico2.reply a>span:before{
+	content: '\e95b';
+}
+div.frm_mail .obj_hmenu li.ico2.reply_all a>span:before{
+	content: '\e95c';
+}
+div.frm_mail .obj_hmenu li.ico2.more a>span:before{
+	content: '\e953';
+}
+
+div.frm_mail .obj_hmenu li.ico2.save a>span:before{
+	content: '\e95d';
+}
+
+div.frm_mail .obj_hmenu li.ico2.prev a>span:before{
+	content: '\e044';
+}
+div.frm_mail .obj_hmenu li.ico2.next a>span:before{
+	content: '\e043';
+}
+
+/* AutoFocus */
+div.frm_mail input.obj_popup_focus{
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+}
+
+/* lock */
+div.frm_mail form.obj_label.lock{
+	display: none;
+	position: absolute;
+	top: 0;
+
+	z-index: 100;
+	width: 100%;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 500;
+	line-height: 34px;
+
+	cursor: pointer;
+	border-bottom: 1px solid #CBE3EF;
+	white-space: nowrap;
+	overflow: hidden;
+
+	color: {txt_main '#0088CC'};
+	background-color: {bg_ok_button_lighter '#F0F8FC'};
+}
+div.frm_mail form.obj_label.lock.color2{
+	color: {txt_important '#BE3F2E'};
+	background-color: #EFD7D5;
+}
+div.frm_mail form.obj_label.lock label{
+	cursor: inherit;
+}
+
+	div.frm_mail form.obj_label.lock label:before{
+		width: 16px;
+		height: 16px;
+		position: relative;
+		content: "\e022";
+		font-family: 'ico16';
+		font-size: 16px;
+		bottom: 3px;
+		right: 5px;
+		vertical-align: middle;
+
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}
+	.rtl div.frm_mail form.obj_label.lock label:before {
+		float: right;
+		right: auto;
+		left: 5px;
+		bottom: 1px;
+	}
+
+/*
+.obj_itemview .itemview_file .obj_tab .tabform form.obj_label.ico.unlocked:before{
+	content: "\e001";
+}
+.obj_itemview .itemview_file .obj_tab .tabform form.obj_label.ico.locked:before{
+	content: "\e022";
+}
+*/
+div.frm_mail.locked form.obj_label.lock{
+	display: block;
+}
+
+div.frm_mail.locked div.obj_popupmainbody_main{
+	padding-top: 34px;
+}

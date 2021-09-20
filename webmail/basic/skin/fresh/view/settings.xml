@@ -1,0 +1,138 @@
+<form>
+<settings>
+
+		<!-- GENERAL (mail_settings_default) -->
+
+		<section id="general" label="settings|general" description="settings|general_desc" css="settings_section">
+			<group id="section_layout" storage="layout_settings" label="settings|layout" description="settings|section_layout">
+				<option type="select" labels="mm/dd/yy|mm/dd/yyyy|dd-mm-yyyy|dd/mm/yyyy|yyyy-mm-dd|dd-mm-yy|dd/mm/yy|dd.mm.yy|dd.mm.yyyy" values="0|1|2|3|4|5|6|7|8" label="settings|date_format" variable="date_format"></option>
+				<option type="select" labels="settings|time_format_list_labels" values="1|0" label="settings|time_format" variable="time_format"></option>
+				<option type="select" labels="10|20|30|40|50|60|70|80|90|100" values="10|20|30|40|50|60|70|80|90|100" label="settings|list_count" storage="basic" variable="dgrid_preload"/>
+				<option type="checkbox" storage="basic" variable="menu_as_text" label="settings|menu_as_text" value="1" />
+				<option type="checkbox" storage="basic" variable="high_contrast" label="settings|use_high_contrast_skin" value="1" />
+				<option type="checkbox" storage="basic" variable="swipe" label="settings|enable_swipe_gestures" value="1" />
+				<option type="checkbox" storage="basic" variable="shortcuts" label="settings|disable_shortcuts" value="1" />
+			</group>
+			<group id="section_mail" storage="mail_settings_default" label="settings|mail" description="settings|section_mail">
+				
+				<option type="checkbox" alabel="settings|move_deleted" storage="mail_settings_general" variable="move_to_trash"></option>
+				<option type="checkbox" alabel="settings|delete_messages_on_empty" storage="mail_settings_general" variable="delete_emptyfolder"></option>
+				<option type="checkbox" alabel="settings|add_recipients" storage="mail_settings_general" variable="auto_recipient_to_addressbook"></option>
+				<option type="checkbox" alabel="settings|group_pref" inverse="1" storage="mail_settings_general" variable="classic_prefix"></option>
+				<option type="checkbox" alabel="settings|show_attached_images" storage="basic" variable="show_attached_images"></option>
+				<option type="checkbox" alabel="settings|show_inline_images" storage="mail_settings_general" variable="show_images"></option>
+				<option type="checkbox" alabel="settings|use_reply_prefix" storage="mail_settings_general" variable="no_reply_prefix" inverse="1"></option>
+			</group>
+			<group id="section_pwd" storage="changepwd" label="settings|change_password" view="user" restriction="disable_changepass">
+				<!-- <option type="link" target="_top" value="?_n[w]=main&amp;_n[p][main]=win.login&amp;_c=auth&amp;_a[logout]=1&amp;changepwd=1" label="settings|open_change_password_dialog"></option> -->
+				<option type="password" css="inp_text rsa" function="changepwd" label="settings|oldpassword" variable="oldpassword"></option>
+				<option type="password" css="inp_text rsa" function="changepwd" label="settings|newpassword" variable="newpassword"></option>
+				<option type="password" css="inp_text rsa" function="changepwd" label="settings|confirmpassword" variable="confirmpassword"></option>
+				
+			</group>
+		</section>
+
+		<!-- COMPOSE -->
+
+
+		<section id="compose" label="settings|compose" description="settings|compose_desc" icon="skin/basic/images/settings_mail_compose.gif" css="settings_section">
+			<group id="section_compose" storage="mail_settings_default" label="settings|compose" description="settings|compose_desc">
+				<option type="checkbox" label="settings|request_read_confirmation" storage="mail_settings_default" variable="read_confirmation"></option>
+				<option type="checkbox" label="settings|save_sent_msg" storage="mail_settings_default" variable="save_sent_message"></option>
+				<option type="select" labels="settings|message_format_labels" label="settings|message_format" storage="basic" variable="html_message"/>
+				<option type="checkbox" label="settings|to_top" storage="signature" variable="to_top"></option>
+				<option type="select" labels_function="getFonts" label="settings|font_family" storage="mail_settings_default" variable="font_family"/>
+				<option type="select" labels="|1|2|3|4|5|6" values="|x-small|small|medium|large|x-large|xx-large" label="settings|font_size" storage="mail_settings_default" variable="font_size"/>
+				<option type="select" labels="settings|text_direction_values" values="LTR|RTL" label="settings|text_direction" storage="mail_settings_default" variable="text_direction"/>
+			</group>
+		</section>
+
+		<!-- PERSONALITIES -->
+<!--
+		<section id="personalities" view="user" label="settings|personalities" description="settings|personalities_desc" icon="skin/basic/images/settings_personalities.gif" restriction="disable_personalities" css="settings_section">
+			<group id="section_personalities" storage="mail_settings_default" label="settings|personalities" description="settings|personalities_desc">
+				<option type="grid" select="multiple" labels="settings|person_email" variables="person" storage="personalities" variable="#array">
+					<config>
+						<buttons>
+							<button type="add" name="personality_add" label="contact_main|add_new" css="inp_btn"/>
+							<button type="edit" name="personality_edit" label="contact_main|edit" css="inp_btn"/>
+							<button type="delete" name="personality_delete" label="mail_main|delete" css="inp_btn" confirm="confirmation|delete_personalities" />
+						</buttons>
+						<dialog>address</dialog>
+					</config>
+				</option>
+			</group>
+		</section>
+-->
+
+		<!-- AUTORESPONDER -->
+
+		<section id="autoresponder" view="user" label="settings|autoresponder" description="settings|autoresponder_desc" icon="skin/basic/images/settings_autoresponder.gif" restriction="disable_autoresponder" css="settings_section">
+			<group id="section_autoresponder" storage="autoresponder" label="settings|autoresponder" description="settings|section_autoresponder">
+				<option type="select" css="inp_text" labels="settings|ar_mode_labels" function="responder" values="0|1|2|3" label="settings|ar_mode" storage="basic" variable="u_respond"/>
+				<option type="edit" css="inp_text" function="responder" label="settings|ar_respond_again" variable="u_respondperiod"></option>
+				<option type="edit" css="inp_text" function="responder" label="settings|ar_subject" variable="u_respondersubject"></option>
+				<option type="textarea" function="responder" label="settings|ar_text" variable="u_respondertext"/>
+				<option type="checkbox" function="responder" label="settings|ar_respond_only" variable="u_respondonlyiftome"></option>
+				<option type="datepicker" function="responder" label="settings|ar_respond_only_between" variable="u_respondbetweenfrom"></option>
+				<option type="datepicker" function="responder" label=" " variable="u_respondbetweento"></option>
+			</group>
+			<group id="section_norespond" label="settings|responder" description="settings|section_norespond">
+				<option type="grid" select="multiple" labels="settings|email" variables="email" storage="autoresponder" variable="U_NoRespondFor" function="no_respond">
+					<config>
+						<buttons>
+							<button type="add" name="norespond_add" label="contact_main|add_new" css="inp_btn"/>
+							<button type="edit" name="norespond_edit" label="contact_main|edit" css="inp_btn"/>
+							<button type="delete" name="norespond_delete" label="mail_main|delete" css="inp_btn"/>
+						</buttons>
+						<dialog>address</dialog>
+					</config>
+				</option>
+			</group>
+		</section>
+
+		<!-- FORWARDER -->
+
+		<section id="forwarder" view="user" storage="forwarder" label="settings|forwarder" description="settings|forwarder_desc" icon="skin/basic/images/settings_forwarder.gif" restriction="disable_forwarder">
+			<group id="section_forwarder" label="settings|forwarder" css="settings_section" description="settings|forwarder_desc">
+				<option type="edit" id="s_forwarder_forward_to" css="inp_text" label="settings|forward_to" function="forwarder" variable="u_forwardto"></option>
+				<option type="checkbox" id="s_forwarder_keep_in_inbox" inverse="1" alabel="settings|keep_in_inbox" function="forwarder" variable="u_null"></option>
+				
+				<option type="checkbox" id="s_forwarder_forward_older" inline="1" alabel="settings|forward_older" function="forwarder" variable="u_forwardolder"></option>
+				<option type="edit" id="s_forwarder_days" css="inp_text input_small" alabel="settings|days" inline="1" function="forwarder" variable="u_forwardolderdays"></option>
+				
+				<option type="edit" id="s_forwarder_forward_older_to" css="inp_text" label="settings|forward_older_to" function="forwarder" variable="u_forwardolderto"></option>
+				
+			</group>
+		</section>
+		
+		<!-- WIDGET CONFIG -->
+		
+		<config>
+			<target>content</target>
+			<stylesheet>
+				<src>settings</src>
+				<src>datagrid</src>
+				<src>datagrid_detail</src>
+			</stylesheet>
+			<javascript>
+				<src>rsa</src>
+				<src>settings</src>
+			</javascript>
+			<template>
+				<edit>settings.edit</edit>
+				<password>settings.password</password>
+				<checkbox>settings.checkbox</checkbox>
+				<section>settings.section</section>
+				<select>settings.select</select>
+				<textarea>settings.textarea</textarea>
+				<datepicker>settings.datepicker</datepicker>
+				<link>settings.link</link>
+			</template>
+			<set widget="form">
+				<property set="setRSA"></property>
+				<property name="css">main rsa</property>
+			</set>
+		</config>
+	</settings>
+</form>

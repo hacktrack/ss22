@@ -1,0 +1,34 @@
+div.frm_devices .obj_datagrid2 .obj_datagrid-body div.ico.state div.wipe:before{
+	content: "\e036";
+	color: #990000;
+}
+	div.frm_devices .obj_datagrid-body div div.wipe,
+	div.frm_devices .obj_datagrid-body div div.wipe.active{
+		color: #990000!important;
+	}
+div.frm_devices .obj_datagrid2 .obj_datagrid-body div.ico.state div.no_wipe:before{
+	content: "\e011";
+}
+	div.frm_devices .obj_datagrid-body div div.no_wipe{
+		color: #888!important;
+	}
+	div.frm_devices .obj_datagrid-body div div.no_wipe.active{
+		color: #DDD!important;	
+	}
+
+
+div.frm_devices .obj_datagrid2 div.ico.model div:before{
+	content: "\e031";
+}
+div.frm_devices .obj_datagrid2 div.ico.model div.android:before{
+	content: "\e606";
+}
+div.frm_devices .obj_datagrid2 div.ico.model div.windows:before{
+	content: "\e603";
+}
+div.frm_devices .obj_datagrid2 div.ico.model div.berry:before{
+	content: "\e604";
+}
+div.frm_devices .obj_datagrid2 div.ico.model div.apple:before{
+	content: "\e605";
+}

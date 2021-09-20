@@ -1,0 +1,1 @@
+<{resourcename}>{dynamic sip_calls}<item><unixstamp>{*::date}</unixstamp><duration>{*::duration}</duration><from>{*::from}</from><to>{*::to}</to><inout>{*::inout}</inout><status>{*::status}</status></item>{/dynamic}</{resourcename}>

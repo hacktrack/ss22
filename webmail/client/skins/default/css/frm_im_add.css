@@ -1,0 +1,79 @@
+div.frm_im_add .obj_datagrid-body div.ico.check div{
+    cursor: pointer;
+}
+div.frm_im_add .obj_datagrid-body div.ico.check div:hover:before{
+    /*background-position: -607px -444px;
+    opacity: 0.5;*/
+	content: '\e01a';
+	color: #AAA;
+}
+
+div.frm_im_add .obj_datagrid-body div.ico.check div.check:before {
+    /*
+    background-position: -607px -444px;
+    opacity: 1; 
+    */
+    content: '\e01a';
+    color: #666;    
+}
+div.frm_im_add .obj_datagrid-body div.ico.check div.active.check:before{
+	color: #F0F0F0;
+}
+
+.obj_datagrid div.col.ico>div.active:before{
+	color: #F0F0F0;
+}
+
+div.frm_im_add div.grid_container{
+	height: 100%;
+	padding-bottom: 30px;
+}
+
+div.frm_im_add div.add_private{
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	padding: 0 13px;
+	width: 100%;
+}
+
+div.frm_im_add .obj_datagrid-body div.ico.gw div:before {
+	background: url('../images/im/service.png') no-repeat -1px -78px;
+}
+div.frm_im_add .obj_datagrid-body div.ico.gw div.ico_aim:before {
+	background-image: url('../images/im/aim.png');
+}
+div.frm_im_add .obj_datagrid-body div.ico.gw div.ico_facebook:before {
+	background-image: url('../images/im/facebook.png');
+}
+div.frm_im_add .obj_datagrid-body div.ico.gw div.ico_gadu-gadu:before {
+	background-image: url('../images/im/gadugadu.png');
+}
+div.frm_im_add .obj_datagrid-body div.ico.gw div.ico_icq:before {
+	background-image: url('../images/im/icq.png');
+}
+div.frm_im_add .obj_datagrid-body div.ico.gw div.ico_msn:before {
+	background-image: url('../images/im/msn.png');
+}
+div.frm_im_add .obj_datagrid-body div.ico.gw div.ico_qq:before {
+	background-image: url('../images/im/qq.png');
+}
+div.frm_im_add .obj_datagrid-body div.ico.gw div.ico_yahoo:before {
+	background-image: url('../images/im/yahoo.png');
+}
+div.frm_im_add .obj_datagrid-body div.ico.gw div.ico_twitter:before {
+	background-image: url('../images/im/twitter.png');
+}
+
+/* frm_im_addgtw - Fix for flickering text field in ie9 */
+
+div.frm_im_addgtw .obj_popupmainbody_main td div {
+	display: table-row;
+}
+div.frm_im_addgtw .obj_popupmainbody_main td div span,
+div.frm_im_addgtw .obj_popupmainbody_main td div form {
+	display: table-cell;
+}
+div.frm_im_addgtw .obj_popupmainbody_main td div span {
+	padding-right: 3px;
+}

@@ -1,0 +1,20 @@
+// Loader
+// Animation of content in datagrids.
+
+// Block
+.loader {
+	background: transparent center no-repeat;
+	background-image: url('../images/loading/loader.gif'); // Loader GIF image
+	height: 0;
+	visibility: hidden;
+	opacity: 0;
+	text-align: center;
+	transition: opacity $normal;
+
+	// States
+	&.is-visible { // Show loader only if this class is active
+		visibility: visible;
+		opacity: 1;
+		height: s(4);
+	}
+}

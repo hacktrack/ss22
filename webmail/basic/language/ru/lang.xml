@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>Б, кБ, МБ, ГБ, ТБ</sizes>
+  </generic>
+  <quarantine>
+    <add>Новый элемент</add>
+    <quarantine>Карантин</quarantine>
+    <whitelist>Белый список</whitelist>
+    <blacklist>Чёрный список</blacklist>
+    <save>Сохранить</save>
+    <cancel>Отменить</cancel>
+    <new_item>Добавить новый емейл</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Отключить ярлыки</disable_shortcuts>
+    <enable_swipe_gestures>Разрешить скольжение на устройствах с сенсорным экраном</enable_swipe_gestures>
+    <use_high_contrast_skin>Использовать более контрастное оформление</use_high_contrast_skin>
+    <menu_as_text>Показать текст вместо иконок в панели инструментов</menu_as_text>
+    <change_password>Изменитe пароль</change_password>
+    <open_change_password_dialog>Открыть окно смены пароля</open_change_password_dialog>
+    <oldpassword>Старый пароль</oldpassword>
+    <newpassword>Новый пароль</newpassword>
+    <confirmpassword>Подтвердите пароль</confirmpassword>
+    <remove>Удалить</remove>
+    <settings>Настройки</settings>
+    <navigate>Управлять</navigate>
+    <user>Мои настройки</user>
+    <domain>Администратор домена</domain>
+    <admin>Настройки администратора</admin>
+    <new_domain>Новый домен</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>Общий</general>
+    <layout>Pасположение</layout>
+    <mail>Почтовые настройки</mail>
+    <compose>Создать</compose>
+    <person>Емейл</person>
+    <person_header>Добавить новый псевдоним</person_header>
+    <person_description>Например, &quot;Vladimir Petrov&quot; &amp;lt;vladimir@domen.ru&amp;gt;</person_description>
+    <autoresponder>Автоответчик</autoresponder>
+    <forwarder>Переадресация</forwarder>
+    <layout_desc>Pасположение, Письмо</layout_desc>
+    <compose_desc>По умолчанию для нового сообщения (Подтверждение прочтения, HTML/Текст, Подпись).</compose_desc>
+    <general_desc>Настройка почтового ящика для просмотра, удаления и ответов на сообщения</general_desc>
+    <personalities_desc>Введите альтернативный емейл адрес для вашего аккаунта (отличный от: адреса)</personalities_desc>
+    <autoresponder_desc>Автоматически отвечать на входящие сообщения, когда вы находитесь в отпуске.</autoresponder_desc>
+    <forwarder_desc>Пересылать или копировать входящие сообщения на другой адрес.</forwarder_desc>
+    <date_format>Формат даты</date_format>
+    <time_format>Формат времени</time_format>
+    <list_count>Кол-во элементов на странице</list_count>
+    <font_family>Шрифт по умолчанию</font_family>
+    <font_size>Размер шрифта по умолчанию</font_size>
+    <text_direction>Направление текста</text_direction>
+    <text_direction_values>Слева направо|Справа налево</text_direction_values>
+    <empty_trash_every>Автоматически очищать корзину каждые (дней)</empty_trash_every>
+    <days>Дни</days>
+    <move_deleted>Перенести удаленные сообщения в корзину</move_deleted>
+    <delete_messages_on_empty>Безвозвратно удалять сообщения из папки нажатием &quot;Очистить папку&quot;</delete_messages_on_empty>
+    <add_recipients>Автоматически добавлять получателей сообщения в список контактов</add_recipients>
+    <group_pref>Соединить префиксы темы (напр. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>Запрocить подтверждение прочтения</request_read_confirmation>
+    <save_sent_msg>Сохранять отправленные сообщения в папке</save_sent_msg>
+    <message_format>Формат сообщения</message_format>
+    <message_format_labels>Текст|HTML</message_format_labels>
+    <signature>Подпись</signature>
+    <forward_to>Переслать на</forward_to>
+    <keep_in_inbox>Cохранять сообщения в папке &quot;Bходящие&quot;</keep_in_inbox>
+    <forward_older>Пересылать сообщения, которые старше, чем</forward_older>
+    <forward_older_to>Пересылать старые сообщения на</forward_older_to>
+    <ar_mode>Режим</ar_mode>
+    <ar_mode_labels>Выключен|Ответить всегда|Ответить один раз|Ответить снова после периода</ar_mode_labels>
+    <ar_respond_only>Отвечать только на сообщения, отправленные на мой адрес электронной почты</ar_respond_only>
+    <ar_respond_again>Отвечать снова через (дней)</ar_respond_again>
+    <ar_from>От</ar_from>
+    <ar_subject>Тема</ar_subject>
+    <ar_text>Текст</ar_text>
+    <ar_no_responder_for>Не отвечать на</ar_no_responder_for>
+    <ar_respond_only_between>Отвечать только в период</ar_respond_only_between>
+    <email>Емейл</email>
+    <responder>Не отвечать</responder>
+    <show_attached_images>Автоматически отображать вложенные изображения</show_attached_images>
+    <show_inline_images>Автоматически отображать внешние изображения</show_inline_images>
+    <use_reply_prefix>Использовать префикс ответа (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12-часовой|24-часовой</time_format_list_labels>
+    <force_admin>Применить эту опцию для настроек домена и пользователя</force_admin>
+    <force_domain>Применить эту опцию для  настроек пользователя</force_domain>
+    <to_top>Подпись в верхней части сообщения</to_top>
+    <quota>Пространство на диске:</quota>
+    <section_layout>Oбщие настройки расположения</section_layout>
+    <section_mail>Oбщие настройки почты</section_mail>
+    <section_autoresponder>Включить автоматический ответ для случая, если вы не будете рядом с компьютером.</section_autoresponder>
+    <section_norespond>Ответ не будет послан по адресам из списка</section_norespond>
+    <domains>Домены</domains>
+    <accounts>Аккаунты</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Вы действительно хотите удалить выбранные сообщения?</delete_mail>
+    <blacklist_mail>Вы действительно хотите добавить выбранные сообщения в &quot;Чёрный список&quot; ?</blacklist_mail>
+    <delete_contact>Bы действительно хотите удалить этот контакт?</delete_contact>
+    <delete_contact_distribution>Вы действительно хотите удалить этот список рассылки?</delete_contact_distribution>
+    <delete_event>Вы действительно хотите удалить выбранные события?</delete_event>
+    <delete_note>Вы действительно хотите удалить выбранные заметки?</delete_note>
+    <delete_task>Вы действительно хотите удалить выбранные задачи?</delete_task>
+    <delete_personalities>Вы действительно хотите удалить выбранный(-ые) элемент(ы)?</delete_personalities>
+    <delete_quarantine>Вы действительно хотите удалить выбранные элементы?</delete_quarantine>
+    <delete_this_mail>Вы действительно хотите удалить это сообщение?</delete_this_mail>
+    <delete_items>Вы действительно хотите удалить выбранный(-ые) элемент(ы)?</delete_items>
+    <delete_item>Вы действительно хотите удалить этот элемент?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>В этой папке нет элементов.</no_item>
+  </string>
+  <menu>
+    <files>Документы</files>
+    <notes>Заметки</notes>
+    <tasks>Задачи</tasks>
+    <journal>Журнал</journal>
+    <calendar>Календарь</calendar>
+    <search>Поиск</search>
+    <messages>Сообщения</messages>
+    <contacts>Контакты</contacts>
+    <searchBut>Найти</searchBut>
+    <address_book>Контакты</address_book>
+    <logout>Bыход из системы</logout>
+    <help>Помощь</help>
+    <settings>Настройки</settings>
+    <switch>Переключить на</switch>
+    <help_url>language/en/help.html</help_url>
+    <quarantine>Фильтры</quarantine>
+    <alert_restricted_access>Извините, доступ к этой вкладке запрещен</alert_restricted_access>
+    <basic>Интерфейс для планшетов</basic>
+    <advanced>Расширенный интерфейс</advanced>
+    <mobile>Мобильный интерфейс</mobile>
+  </menu>
+  <tree>
+    <add_folder>Добавить папку</add_folder>
+    <new_message>Новое сообщение</new_message>
+    <manage_folders>Управление папками</manage_folders>
+    <open_folder>Открыть папку</open_folder>
+    <open>Открыть</open>
+  </tree>
+  <mail_view>
+    <attachments>Вложения</attachments>
+    <from>Oт</from>
+    <cc>Копия</cc>
+    <bcc>Скрытая копия</bcc>
+    <subject>Тема</subject>
+    <all_headers>Показать все заголовки</all_headers>
+    <all_images>Показать изображения</all_images>
+    <next>Следующий</next>
+    <prev>Предыдущий</prev>
+    <first>Первый</first>
+    <last>Последний</last>
+    <show_external_images>Внешние ресурсы были заблокированы, нажмите здесь, чтобы отобразить их.</show_external_images>
+    <download_all>Скачать все</download_all>
+    <detail>Подробнее</detail>
+    <blue_box_start>Пуск</blue_box_start>
+    <blue_box_end>Завершить</blue_box_end>
+    <blue_box_description>Описание</blue_box_description>
+    <blue_box_accept>Принять</blue_box_accept>
+    <blue_box_decline>Отклонить</blue_box_decline>
+    <blue_box_subscribe_folder>Добавить папку</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Добавить аккаунт</blue_box_subscribe_account>
+    <item_accept_ok>Элемент принят</item_accept_ok>
+    <read>Чтение</read>
+    <write>Правка</write>
+    <modify>Измение</modify>
+    <delete>Удаление</delete>
+    <administer>Администрирование</administer>
+    <folder_rights>Права на папку</folder_rights>
+    <items_rights>Права на элементы</items_rights>
+  </mail_view>
+  <login>
+    <send>Отправить</send>
+    <ip_check>Выключить расширенную безопасность</ip_check>
+    <user>Пользователь</user>
+    <email>Емейл</email>
+    <password>Пароль</password>
+    <remember>Запомнить</remember>
+    <language>Язык</language>
+    <allways_ask>Всегда спрашивать</allways_ask>
+    <username>Имя пользователя</username>
+    <username_and_password>Имя пользователя и пароль</username_and_password>
+    <auto_login>Автоматический вход в систему</auto_login>
+    <login>Войти</login>
+    <copyright>На платформе IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Версия: $1</copyright>
+    <welcome>Добро пожаловать в интерфейс IceWarp Веб-клиента для планшетных компьютеров</welcome>
+    <public_welcome>Добро пожаловать в IceWarp общий календарь</public_welcome>
+    <title>Интерфейс Icewarp Веб-клиента для планшетных компьютеров</title>
+    <public_title>IceWarp общий календарь</public_title>
+    <reset_password>Сбросить пароль</reset_password>
+    <sign_up>Зарегистрироваться</sign_up>
+    <email>Емейл</email>
+    <domain>Домен</domain>
+    <new_password>Новый пароль</new_password>
+    <confirm_password>Подтверждение пароля</confirm_password>
+    <full_name>Полное имя</full_name>
+    <alternative_email>Дополнительный емейл</alternative_email>
+    <switch>Переключить на&lt;a href=&quot;../&quot;&gt;Расширенный &lt;/a&gt; или &lt;a href=&quot;../pda&quot;&gt;Мобильный&lt;/a&gt; интерфейс</switch>
+    <no_javascript>&lt;b&gt;JavaScript в настоящее время не доступен. &lt;/b&gt;&lt;/div&gt;В результате вы будете перенаправлены на интерфейс Вебклиента для планшетных компьютеров, который предлагает ограниченную функциональность. Если вы хотите использовать полноценный интерфейс Вебклиента, пожалуйста, посетите нашу &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;базу знаний&lt;/a&gt; с инструкциями как установить это в вашем браузере.&lt;br /&gt;Если ваш браузер не поддерживает JavaScript, пожалуйста, загрузите последнюю версию&lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; или &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>CAPTCHA</captcha>
+    <word>Введите код с изображения</word>
+  </login>
+  <files>
+    <add>Загрузить файл</add>
+    <download>Скачать</download>
+    <file>Файл</file>
+  </files>
+  <file_list>
+    <filename>Имя файла</filename>
+    <description>Oписание</description>
+    <modified>Измененный</modified>
+    <size>Размер</size>
+    <tags>Теги</tags>
+  </file_list>
+  <notes>
+    <category>Категория</category>
+    <add>Новая заметка</add>
+  </notes>
+  <notes_detail>
+    <note>3аметка</note>
+    <tags>Tеги</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Новая задача</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>3адача</task>
+    <status>Cтатус</status>
+    <complete>3aвершена</complete>
+    <priority>Приоритет</priority>
+    <not_started>Не началась</not_started>
+    <in_progress>Выполняется</in_progress>
+    <completed>3aвершена</completed>
+    <deferred>Отложенa</deferred>
+    <waiting_for_someone_else>Ожидает кого-то еще</waiting_for_someone_else>
+    <medium>Cредний</medium>
+    <high>Высокий</high>
+    <low>Низкий</low>
+    <tags>Tеги</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Начало</start_date>
+    <due_date>Срок исполнения</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>На полный экран</fullscreen>
+    <subject>Тема</subject>
+    <no_subject>Без темы</no_subject>
+    <no_address>Без адреса</no_address>
+    <from>От</from>
+    <date>Дата</date>
+    <size>Размер</size>
+    <delete>Удалить</delete>
+    <reply>Ответить</reply>
+    <reply_to_all>Ответить всем</reply_to_all>
+    <forward>Переслать</forward>
+    <print>Печать</print>
+    <whitelist>Переместить в Белый список</whitelist>
+    <blacklist>Переместить в Чёрный список</blacklist>
+    <dws>Действие</dws>
+    <copy>Копировать</copy>
+    <move>Переместить</move>
+    <copy_to_folder>Копировать в папку:</copy_to_folder>
+    <move_to_folder>Переместить в папку:</move_to_folder>
+    <mar>Пометить как прочитанное</mar>
+    <mau>Пометить как непрочитанное</mau>
+    <select>Выбрать</select>
+    <all>Все</all>
+    <none>Ничего</none>
+    <read>Прочитанное</read>
+    <unread>Непрочитанное</unread>
+    <invert>Выбрать остальные</invert>
+    <doit>Применить</doit>
+    <to>Кому</to>
+    <fast_reply>Быстрый ответ</fast_reply>
+    <send_message>Отправить сообщение</send_message>
+    <src>Отправитель запросил подтверждение о прочтении этого сообщения. Хотитe отправить его?</src>
+    <save>Сохранить</save>
+    <select_folder>Выбрать папку</select_folder>
+    <deliver>Доставить</deliver>
+    <text>Текст</text>
+    <received>Получено</received>
+    <saved>Сохранено</saved>
+    <sender>Oтправитель</sender>
+    <owner>Владелец</owner>
+    <domain>Домен</domain>
+    <show_all>Показать все</show_all>
+  </mail_main>
+  <event_list>
+    <title>Название</title>
+    <start>Начало</start>
+    <end>Срок исполнения</end>
+    <tags>Tеги</tags>
+  </event_list>
+  <event_detail>
+    <tags>Tеги</tags>
+    <show_as>Показать как</show_as>
+    <free>Свободен</free>
+    <tentative>Под вопросом</tentative>
+    <busy>Занят</busy>
+    <out_of_office>Не на работе</out_of_office>
+    <title>Название</title>
+    <location>Где</location>
+    <label>Метка</label>
+    <none>Никакой</none>
+    <important>Важнoe</important>
+    <business>Служебное</business>
+    <personal>Личное</personal>
+    <vacation>Отпуск</vacation>
+    <must_attend>Обязательное посещение</must_attend>
+    <travel_required>Требуется поездка</travel_required>
+    <needs_preparation>Требуется подготовка</needs_preparation>
+    <birthday>День рождения</birthday>
+    <anniversary>Годовщина</anniversary>
+    <phone_call>Телефонный звонок</phone_call>
+    <category>Категория</category>
+    <private>Частное</private>
+    <from>От</from>
+    <to>До</to>
+    <notes>Заметки</notes>
+    <allday>Целый день</allday>
+    <event>Событие</event>
+    <minutes>мин.</minutes>
+    <hours>ч.</hours>
+    <days>д.</days>
+    <remind_me>Напомнить</remind_me>
+    <before>перед</before>
+    <no_repeating>Не повторять</no_repeating>
+    <daily>Ежедневно</daily>
+    <weekly>Еженедельно</weekly>
+    <monthly>Ежемесячно</monthly>
+    <yearly>Ежегоднo</yearly>
+    <end_date>Дата окончания:</end_date>
+    <no_end_date>Без даты окончания</no_end_date>
+    <repeat>Повтoрять</repeat>
+    <every>Каждый</every>
+    <every_workday>Каждый будний день</every_workday>
+    <recur_every>Повторять каждую</recur_every>
+    <weeks>неделю</weeks>
+    <on>в</on>
+    <monday>Понедельник</monday>
+    <tuesday>Вторник</tuesday>
+    <wednesday>Среда</wednesday>
+    <thursday>Четверг</thursday>
+    <friday>Пятница</friday>
+    <saturday>Суббота</saturday>
+    <sunday>Воскресенье</sunday>
+    <day>день</day>
+    <months>мес.</months>
+    <first>первый</first>
+    <second>второй</second>
+    <third>третий</third>
+    <fourth>четвёртый</fourth>
+    <last>последний</last>
+    <week>Нед.</week>
+    <work_week>рабочая неделя</work_week>
+    <weekend>Выходные дни</weekend>
+    <of_every>каждого</of_every>
+    <of/>
+    <years>год(ы)</years>
+    <the/>
+    <times>раз(a)</times>
+    <count>повторять</count>
+    <until>до</until>
+    <tags>Tеги</tags>
+  </event_detail>
+  <event_main>
+    <mon>Пн</mon>
+    <tue>Вт</tue>
+    <wed>Ср</wed>
+    <thu>Чт</thu>
+    <fri>Пт</fri>
+    <sat>Сб</sat>
+    <sun>Вс</sun>
+    <jan>Январь</jan>
+    <feb>Февраль</feb>
+    <mar>Март</mar>
+    <apr>Апрель</apr>
+    <may>Май</may>
+    <jun>Июнь</jun>
+    <jul>Июль</jul>
+    <aug>Август</aug>
+    <sep>Сентябрь</sep>
+    <oct>Октябрь</oct>
+    <nov>Ноябрь</nov>
+    <dec>Декабрь</dec>
+    <week>неделя</week>
+    <week_view>Неделя</week_view>
+    <work_week_view>Рабочая неделя</work_week_view>
+    <month_view>Месяц</month_view>
+    <day_view>День</day_view>
+    <list>Список</list>
+    <add>Новое событие</add>
+    <save>Сохранить</save>
+    <no_title>Без названия</no_title>
+    <search>Поиск:</search>
+    <account>Аккаунт:</account>
+    <print>Печать</print>
+  </event_main>
+  <contact_main>
+    <contact>Контакт</contact>
+    <distribution_list>Список рассылки</distribution_list>
+    <title>Название списка</title>
+    <no_email>не имеет адреса</no_email>
+    <card_view>Карточки</card_view>
+    <list_view>Список</list_view>
+    <contact_name>Имя контакта</contact_name>
+    <email>Емейл</email>
+    <company>Компания</company>
+    <job>Профессия</job>
+    <department>Подразделение</department>
+    <profession>Специальность</profession>
+    <category>Категория</category>
+    <general>Общие</general>
+    <first_name>Имя</first_name>
+    <middle_name>Отчество</middle_name>
+    <last_name>Фамилия</last_name>
+    <nick>Псевдоним</nick>
+    <sort_string>Строка сортировки</sort_string>
+    <title>Название списка</title>
+    <suffix>Суффикс</suffix>
+    <category>Категория</category>
+    <web>Сайт</web>
+    <street>Улица</street>
+    <city>Город</city>
+    <zip>Индекс</zip>
+    <state>Штат</state>
+    <country>Страна</country>
+    <im>IM</im>
+    <phones>Телефоны</phones>
+    <work>Рабочий</work>
+    <home>Домашний</home>
+    <assistant>Помощник</assistant>
+    <fax_home>Домашний факс</fax_home>
+    <fax_work>Рабочий факс</fax_work>
+    <call_back>Обратный вызов</call_back>
+    <company>Компания</company>
+    <car>Машина</car>
+    <isdn>ISDN</isdn>
+    <mobile>Мобильный</mobile>
+    <other>Другой</other>
+    <other_fax>Другой факс</other_fax>
+    <pager>Пейджер</pager>
+    <primary>Основной</primary>
+    <radio>Радио</radio>
+    <telex>Телекс</telex>
+    <hearing>Hearing</hearing>
+    <add>Новый контакт</add>
+    <notes>Заметки</notes>
+    <no_name>Не имеет имени</no_name>
+    <select>Выберите тип</select>
+    <select_contacts>Выберите контакты, которые вы хотите добавить</select_contacts>
+    <add_distribution>Новый список рассылки</add_distribution>
+    <add_new>Добавить</add_new>
+    <add_item_distribution>Добавить контакт из списка</add_item_distribution>
+    <save>Сохранить</save>
+    <edit>Редактировать</edit>
+    <edit_selected>Редактировать выбранный</edit_selected>
+    <delete_selected>Удалить</delete_selected>
+    <cancel>Отменить</cancel>
+    <onleave_warning>Вы хотите выйти? Все несохраненные данные будут потеряны.</onleave_warning>
+    <tags>Теги</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>Добавить пациента</new_patient>
+    <new_staff>Новый сотрудник</new_staff>
+    <notify_email>Емейл уведомление</notify_email>
+    <notify_sms>Смс-уведомление</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>Новый</add>
+    <staff>Сотрудник</staff>
+    <patient>Пациент</patient>
+  </hippa_detail>
+  <grid>
+    <title>Название</title>
+    <note>Заметка</note>
+    <size>Размер</size>
+    <category>Категория</category>
+    <start>Начало</start>
+    <end>Срок исполнения</end>
+    <save>Сохранить</save>
+    <cancel>Отменить</cancel>
+    <number_of_items>Число выбранных элементов на других страницах:</number_of_items>
+    <clear>Очистить</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Пожалуйста, выберите текст, который вы хотите добавить в ссылку.</select_text>
+    <enter_url>Введите URL для этой ссылки:</enter_url>
+    <image_location>Введите месторасположение для этого изображения:</image_location>
+    <image_alt>Введите замещающий текст для этого изображения:</image_alt>
+    <image>Прикрепить изображение</image>
+    <htmlsource>HTML код</htmlsource>
+    <hyperlink>Ссылка</hyperlink>
+    <underline>Подчеркнутый текст</underline>
+    <italic>Курсив</italic>
+    <bold>Жирный</bold>
+    <fontsize>Размер шрифта</fontsize>
+    <fontformat>Формат шрифта</fontformat>
+    <outdent>Уменьшить отступ</outdent>
+    <indent>Увеличить отступ</indent>
+    <orderedlist>Упорядоченный список</orderedlist>
+    <unorderedlist>Маркированный список</unorderedlist>
+    <justify>По ширине страницы</justify>
+    <right>Выравнивать по правому краю</right>
+    <center>Выравнивать по центру</center>
+    <left>Выравнивать по левому краю</left>
+    <blockformat>Block format</blockformat>
+    <block_type>Block type</block_type>
+    <heading>Заголовок</heading>
+    <paragraph>Абзац</paragraph>
+    <size>Размер</size>
+    <font>Шрифт</font>
+    <cancel>Отменить</cancel>
+    <email>Емейл</email>
+    <options>Настройки</options>
+    <plain>Простой текст</plain>
+    <html>HTML</html>
+    <from>От</from>
+    <to>Кому</to>
+    <cc>Копия</cc>
+    <bcc>Скрытая копия</bcc>
+    <subject>Тема</subject>
+    <date>Дата</date>
+    <attachments>Вложения</attachments>
+    <text>Текст</text>
+    <send_message>Отправить сообщение</send_message>
+    <save_message>Сохранить</save_message>
+    <br/>
+    <spellchecker>Язык проверки орфографии</spellchecker>
+    <rrc>Подтверждение прочтения</rrc>
+    <ssm>Сохранять отправленные сообщения в папке</ssm>
+    <psa>Использовать SmartAttach</psa>
+    <priority>Приоритет</priority>
+    <lowest/>
+    <low>Низкий</low>
+    <normal>Обычный</normal>
+    <high>Высокий</high>
+    <highest/>
+    <rta>Адрес для ответа</rta>
+    <charset>Кодировка</charset>
+    <auto>Автоматически</auto>
+    <original_message>-----Исходное сообщение-----</original_message>
+    <read_confirmation_subject>Сообщение прочитано: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Ваше сообщение было прочитано.&#13;&#10;&#13;&#10;Детали сообщения :&#13;&#10;&#13;&#10;От: %FROM%&#13;&#10;Кому: %TO%&#13;&#10;Датa: %DATE%&#13;&#10;Тема: %SUBJECT%</read_confirmation_text>
+    <add_contacts>Добавить контакты</add_contacts>
+    <add_files>Добавить файлы</add_files>
+    <add_files_from_folder>Добавить файлы из папки</add_files_from_folder>
+    <add_files_from_dropbox>Добавить файлы из Dropbox</add_files_from_dropbox>
+    <leave_notice>Вы действительно хотите выйти? Сообщение будет потеряно.</leave_notice>
+    <alias>Псевдоним</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Новая папка</add>
+    <delete>Удалить</delete>
+    <link>Связать</link>
+    <unlink>Отменить связь</unlink>
+    <create_folder>Добавить новую папку</create_folder>
+    <create>Добавить</create>
+    <delete_confirmation_text>Вы действительно хотите безвозвратно удалить папку?</delete_confirmation_text>
+    <empty_confirmation_text>Вы действительно хотите безвозвратно удалить элементы в папке?</empty_confirmation_text>
+    <delete_yes>Да</delete_yes>
+    <delete_no>Нет</delete_no>
+    <link_as>Связать папку как</link_as>
+    <unlink_as>Удалить / Переименовать ссылку на папку</unlink_as>
+    <unlink_confirmation_text>Вы действительно хотите удалить ссылку?</unlink_confirmation_text>
+    <unlink_yes>Да</unlink_yes>
+    <unlink_no>Нет</unlink_no>
+    <virtual>Виртуальная папка</virtual>
+    <delete_empty_folder>Удалить или очистить папку</delete_empty_folder>
+    <edit>Pедактировать</edit>
+    <empty>Oчистить</empty>
+    <rename_folder>Переименовать папку</rename_folder>
+    <save>Сохранить</save>
+    <rename>Переименовать</rename>
+    <perform_action>Выполнять действие для</perform_action>
+    <select_folder>Выберите папку для управления</select_folder>
+    <open_folder>Открыть папку</open_folder>
+    <open_folder_des>Использовать для доступа к содержимому папки.</open_folder_des>
+    <link_folder>Создать ссылку на папку</link_folder>
+    <link_folder_des>Для создания ссылки для папки в списке папок.</link_folder_des>
+    <add_folder>Добавить папку</add_folder>
+    <add_folder_dis>Создать новую папку в выбранной папке.</add_folder_dis>
+    <rename_folder_des>Переименовать выбранную папку</rename_folder_des>
+    <remove_folder>Удалить папку</remove_folder>
+    <remove_folder_des>Использование удалит выбранную папку. Предупреждение: изменения не обратимы!</remove_folder_des>
+    <default_folder>Назначить как основную</default_folder>
+    <default_folder_des>Использовать, чтобы назначить папку как основную.</default_folder_des>
+    <set_default>Назначить папку как основную</set_default>
+    <set>Назначить</set>
+    <as_drafts>Черновики</as_drafts>
+    <as_sent>Отправленные</as_sent>
+    <as_trash>Корзинa</as_trash>
+    <set_as_default>Назначить</set_as_default>
+    <link_first>Папка должна быть привязана перед тем, как быть назначенной основной.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Bходящие</inbox>
+    <drafts>Черновики</drafts>
+    <sent>Отправленные</sent>
+    <trash>Корзина</trash>
+  </common_folders>
+  <common>
+    <yes>Да</yes>
+    <no>Нет</no>
+  </common>
+  <folder_types>
+    <mail>Папка почты</mail>
+    <contact>Контакты</contact>
+    <event>Календарь</event>
+    <journal>Журнал</journal>
+    <note>Заметки</note>
+    <task>Задачи</task>
+    <file>Документы</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA аутентификация не удалась. Попробуйте снова.</login_invalid_keypair>
+    <divtcha_confirmation>Неверный код CAPTCHA</divtcha_confirmation>
+    <missing_values_text>Отсутствует текст для отправки</missing_values_text>
+    <missing_values_email>Отсутствует емейл</missing_values_email>
+    <invalid_email>Неверный емейл адрес</invalid_email>
+    <password_not_changed>Новый пароль не может совпадать с одним из старых.</password_not_changed>
+    <reset_password_invalid_hashid>Неверный ID хэша</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID файла не существует</reset_password_uid_file>
+    <account_alternative_email>Аккаунт не имеет альтернативного емейла</account_alternative_email>
+    <migration_in_progress>Миграция аккаунта в процессе, пожалуйста, попробуйте снова позже.</migration_in_progress>
+    <login_ip_invalid>Запрещен вход в систему для следующих IP-адресов: %s</login_ip_invalid>
+    <unauthorized>Неавторизованный доступ</unauthorized>
+    <folder_type_restricted>Доступ к этому типу папок был ограничен администратором</folder_type_restricted>
+    <account_does_not_exists>Указанный аккаунт не существует</account_does_not_exists>
+    <account_invalid_id>Не удается получить аккаунт %s</account_invalid_id>
+    <account_unknown_protocol>Неизвестный протокол аккаунта</account_unknown_protocol>
+    <account_missing_tag>Отсутствует тег аккаунта %s</account_missing_tag>
+    <account_missing_id>Отсутствует ID аккаунта</account_missing_id>
+    <account_invalid_action>Действие над аккаунтом невозможно</account_invalid_action>
+    <account_already_exists>Аккаунт %s уже существует</account_already_exists>
+    <account_no_username>Имя пользователя аккаунта отсутствует</account_no_username>
+    <account_no_password>Пароль аккаунта отсутствует</account_no_password>
+    <account_bad_password>Старый пароль введен неверно</account_bad_password>
+    <account_password_policy>Пароль не соответствует требованиям политики паролей</account_password_policy>
+    <account_sync>Синхронизация аккаунта не удалась для %s</account_sync>
+    <account_primary_delete>Невозможно удалить основной аккаунт</account_primary_delete>
+    <account_test_failed>Тест аккаунта не удался для %s</account_test_failed>
+    <account_signup_disabled>Регистрация отключена</account_signup_disabled>
+    <account_signup_error>Ошибка регистрации аккаунта: %s</account_signup_error>
+    <account_signup_1>Неопределенная ошибка</account_signup_1>
+    <account_signup_2>Недостаточная лицензия</account_signup_2>
+    <account_signup_3>Size of parameters too short</account_signup_3>
+    <account_signup_4>Ошибка службы</account_signup_4>
+    <account_signup_5>Конфигурация не найдена</account_signup_5>
+    <account_signup_6>Политика паролей</account_signup_6>
+    <account_signup_7>Аккаунт уже существует</account_signup_7>
+    <account_signup_8>Недопустимые символы</account_signup_8>
+    <attachment_too_large>Вложение слишком большое :%s</attachment_too_large>
+    <password_confirmation>Пароль не совпадает</password_confirmation>
+    <missing_values>Пароль не совпадает</missing_values>
+    <addon_copy>Невозможно скопировать add-on</addon_copy>
+    <attachment_file_not_found>Не удалось прикрепить файл</attachment_file_not_found>
+    <attachment_add>Не удалось добавить вложение</attachment_add>
+    <attachment_get>Не удалось скачать вложение %s</attachment_get>
+    <attacment_class_unknown>Неизвестный тип вложения</attacment_class_unknown>
+    <auth_missing_tag>Отсутствует тег аутентификации %s</auth_missing_tag>
+    <auth_export_key_private>Не удается экспортировать частный ключ</auth_export_key_private>
+    <auth_invalid_char>Недопустимый символ в частном ключе</auth_invalid_char>
+    <confirmation_uid>Captcha сессия не обнаружена</confirmation_uid>
+    <confirmation_word_mismatch>Captcha введена некорректно</confirmation_word_mismatch>
+    <db_auto_create>Не удается автоматически создать базу данных</db_auto_create>
+    <db_create_sqlitefile>Не удается создать файл базы данных SQLite</db_create_sqlitefile>
+    <db_create_tables>Не удается создать таблицы</db_create_tables>
+    <db_statement_prepare>Не удается подготовить запрос</db_statement_prepare>
+    <db_invalid_statement>Неверный тип запроса</db_invalid_statement>
+    <flags_unknown_field>Неверное поле меток</flags_unknown_field>
+    <folder_autocreate_failed>Папка %s уже существует</folder_autocreate_failed>
+    <folder_already_exists>Папка %s уже существует</folder_already_exists>
+    <folder_does_not_exist>Папка %s не существует</folder_does_not_exist>
+    <folder_name_bad_char>Использование специальных символов в имени папки недопустимо</folder_name_bad_char>
+    <folder_name_length>Не удается получить длину имени папки</folder_name_length>
+    <folder_name_too_long>Новое имя папки слишком длинное</folder_name_too_long>
+    <folder_get_list>Не удается получить список папок</folder_get_list>
+    <folder_delete>Не удается удалить папку %s</folder_delete>
+    <folder_create>Не удается создать папку %s</folder_create>
+    <folder_rename_empty>Название папки не может быть пустым</folder_rename_empty>
+    <folder_move_to_self>Невозможно перенести папку в саму себя</folder_move_to_self>
+    <folder_move_to_subfolder>Невозможно перенести папку в подпапку, находящуюся в ней.</folder_move_to_subfolder>
+    <folder_rename>Не удается переименовать папку</folder_rename>
+    <folder_copy>Не удается скопировать папку</folder_copy>
+    <folder_empty>Не удается очистить папку</folder_empty>
+    <folder_missing_tag>Отсутствует тег папки %s</folder_missing_tag>
+    <folder_missing_account_id>Отсутствует ID аккаунта для этой папки</folder_missing_account_id>
+    <folder_invalid_account_id>Неверный ID аккаунта для этой папки %s</folder_invalid_account_id>
+    <folder_missing_id>ID папки отсутствует</folder_missing_id>
+    <folder_missing_name>Имя папки отсутствует</folder_missing_name>
+    <folder_invalid_action>Недопустимое действие для папки %s</folder_invalid_action>
+    <folder_invalid_type>Недопустимый тип папки %s</folder_invalid_type>
+    <folder_sync>Не удается синхронизировать папку %s</folder_sync>
+    <folder_empty_non_mail>Не удается очистить не почтовую папку</folder_empty_non_mail>
+    <folder_insufficient_rights>Недостаточно прав для проведения операции</folder_insufficient_rights>
+    <folder_mark_non_mail>Вы пытаетесь установить метку на непочтовую папку</folder_mark_non_mail>
+    <freebusy_missing_tag>Отсутствует тег Занят/Свободен %s</freebusy_missing_tag>
+    <group_open>Не удается открыть группу %s</group_open>
+    <group_subscribe>Не удается добавить группу %s</group_subscribe>
+    <group_add>Не удается создать группу</group_add>
+    <group_edit>Не удается изменить группу %s</group_edit>
+    <group_user_add>Не удается добавить пользователей в группу %s</group_user_add>
+    <group_user_edit>Не удается изменить пользователя группы %s</group_user_edit>
+    <group_user_delete>Не удается удалить пользователя из группы %s</group_user_delete>
+    <groupware_upgrade_task>Групповые данные в процессе обновления. Пожалуйста, попробуйте позже.</groupware_upgrade_task>
+    <folder_open>Не удается открыть группу %s</folder_open>
+    <call_open_folder_first>Папка групповых данных не открывается в связи с операцией, требующей ее.</call_open_folder_first>
+    <call_open_group_first>Группа не открывается в связи с операцией, требующей ее.</call_open_group_first>
+    <subscribe_account_gw>Ошибка добавления аккаунта</subscribe_account_gw>
+    <unsubscribe_account_gw>Ошибка удаления аккаунта</unsubscribe_account_gw>
+    <imap_clone>Не удается клонировать IMAP-объект</imap_clone>
+    <imap_open>Не удается открыть IMAP-поток</imap_open>
+    <imap_internal>Внутренняя ошибка IMAP: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP retrieve delimiter error</imap_delimiter_retrieval>
+    <imap_getmailboxes>Не удается получить список почтовых ящиков</imap_getmailboxes>
+    <imap_mailbox_create>Не удается создать папку IMAP %s</imap_mailbox_create>
+    <imap_mailbox_subscribe>Не удается добавить почтовый ящик %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>Не удается удалить почтовый ящик %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Не удается удалить почтовый ящик %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP: Попытка переименовать почтовый ящик %s не удалась</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP: не удается удалить элементы</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP: не удается удалить элементы</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP: копирование элементов не удалось</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP: перемещение элементов не удалось</imap_mailbox_moveitems>
+    <imap_mailbox_open>Не удается открыть почтовый ящик %s</imap_mailbox_open>
+    <imap_mailbox_message_list>Не удается получить список сообщений</imap_mailbox_message_list>
+    <imap_message_details>Не удается получить детали сообщения %s</imap_message_details>
+    <imap_no_headers>Не удается получить заголовки сообщения %s</imap_no_headers>
+    <imap_no_body>Не удается получить тело сообщения %s</imap_no_body>
+    <imap_message_create>Не удается сохранить сообщение</imap_message_create>
+    <imap_message_delete>Не удается удалить сообщение %s</imap_message_delete>
+    <imap_message_copy>Не удается скопировать сообщение %s</imap_message_copy>
+    <imap_message_move>Не удается переместить сообщение %s</imap_message_move>
+    <imap_flags_set>Не удается установить метки на сообщение: %s</imap_flags_set>
+    <imap_flags_clear>Не удается удалить с сообщения %s метки</imap_flags_clear>
+    <imap_message_not_found>Новое сообщение не обнаружено в целевом почтовом ящике.</imap_message_not_found>
+    <subscribe_account_imap>Ошибка при подключении к аккаунту</subscribe_account_imap>
+    <unsubscribe_account_imap>Ошибка при отключении аккаунта</unsubscribe_account_imap>
+    <import_vcalendar>Импорт vCalendar не удался</import_vcalendar>
+    <import_vcard>Импорт vCard не удался</import_vcard>
+    <import_missing_tag>Import tag missing %s</import_missing_tag>
+    <import_missing_action>Import missing action</import_missing_action>
+    <import_invalid_action>Invalid import action %s</import_invalid_action>
+    <import_missing_account_id>Import missing account ID</import_missing_account_id>
+    <import_invalid_account_id>Import invalid account ID</import_invalid_account_id>
+    <import_missing_folder_id>Import missing folder ID</import_missing_folder_id>
+    <import_invalid_folder_id>Import invalid folder ID</import_invalid_folder_id>
+    <import_invalid_item_id>Import invalid item ID</import_invalid_item_id>
+    <import_add_items>Не удается создать элементы (список)</import_add_items>
+    <import_invalid_data>Попытка импортировать неподдерживаемые данные</import_invalid_data>
+    <export_invalid_account>Попытка экспортировать несуществующий аккаунт</export_invalid_account>
+    <imip_versit_convert>Конверсия iMIP versit</imip_versit_convert>
+    <imip_versit_empty>Пустой iMIP versit</imip_versit_empty>
+    <imip_missing_folder>В iMIP отсутствует папка</imip_missing_folder>
+    <inputstream_no_xml_input>XML не введен</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Поврежденные XML входные данные</inputstream_corrupted_input>
+    <item_invalid_id>Отсутствует ID элемента</item_invalid_id>
+    <item_count>Не удается получить количество элементов</item_count>
+    <item_create>Не удается создать элемент</item_create>
+    <item_delete>Элемент %s не может быть удален</item_delete>
+    <item_move>Элемент не может быть перемещен</item_move>
+    <item_edit>Ошибка изменения элемента %s</item_edit>
+    <item_occurrance_delete>Не удается удалить событие %s</item_occurrance_delete>
+    <item_occurrance_create>Не удается создать событие</item_occurrance_create>
+    <item_exception_delete>Не удается удалить исключение %s</item_exception_delete>
+    <item_exception_create>Не удается создать исключение</item_exception_create>
+    <item_copy>Не удается копировать элемент</item_copy>
+    <item_copy_multiple>Не удалось скопировать несколько элементов</item_copy_multiple>
+    <item_copy_destination>Невозможно получить папку назначения</item_copy_destination>
+    <item_copy_destination_type>Не удается скопировать в папку другого типа, чем исходная папка</item_copy_destination_type>
+    <item_count_retrieve>Не удается подсчитать элементы папки</item_count_retrieve>
+    <item_missing_tag>Отсутствует тег элемента</item_missing_tag>
+    <item_missing_account_id>ID аккаунта отсутствует</item_missing_account_id>
+    <item_invalid_account_id>Неверный ID аккаунта %s</item_invalid_account_id>
+    <item_missing_folder_id>Отсутствует ID папки</item_missing_folder_id>
+    <item_invalid_folder_id>Неверный ID папки %s</item_invalid_folder_id>
+    <item_missing_item_id>Отсутствует ID элемента</item_missing_item_id>
+    <item_invalid_item_id>Неверный ID элемента %s</item_invalid_item_id>
+    <item_invalid_action>Неверное действие для элемента</item_invalid_action>
+    <login_invalid>Неверные имя или пароль пользователя %s</login_invalid>
+    <login_account_valid>Аккаунт не действителен %s</login_account_valid>
+    <phpmailer_>Ошибка отправки почты</phpmailer_>
+    <phpmailer_smtp_auth>Ошибка аутентификации, сообщение не было отправлено</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Ошибка соединения с SMTP-сервером, сообщение не было отправлено</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Отсутствуют получатели, сообщение не было отправлено</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Этот тип сообщения не поддерживается, сообщение не может быть отправлено</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Ошибка отправки</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Ошибка отправки емейла</phpmailer_mail_send>
+    <phpmailer_language>Не удается открыть языковой файл</phpmailer_language>
+    <phpmailer_add_attachment>Невозможно вложить файл</phpmailer_add_attachment>
+    <phpmailer_encode_file>Не удается декодировать файл вложения</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Неизвестный тип кодирования вложений</phpmailer_encode_unknown>
+    <mailparse_empty>Нет источников для анализа</mailparse_empty>
+    <mailparse_parser_init>Анализ электронной почты не удался</mailparse_parser_init>
+    <mailparse_get_part>Не удалось получить часть %s</mailparse_get_part>
+    <message_missing_tag>Отсутствует тег сообщения %s</message_missing_tag>
+    <message_missing_account_id>ID аккаунта отсутствует в этом сообщении</message_missing_account_id>
+    <message_invald_account>Неверный ID аккаунта в этом сообщении</message_invald_account>
+    <message_missing_folder_id>Отсутствует ID папки для этого сообщения</message_missing_folder_id>
+    <message_invald_folder>Неверный ID папки для этого сообщения</message_invald_folder>
+    <message_missing_item_id>Отсутствует ID элемента для этого сообщения</message_missing_item_id>
+    <message_invalid_action>Недопустимое действие для сообщения</message_invalid_action>
+    <message_get_not_allowed>Не удалось обновить список папок из-за недостаточных прав.</message_get_not_allowed>
+    <message_attachment_type>Не удается проанализировать вложение %s.</message_attachment_type>
+    <message_attachment_existence>Загружаемое вложение не найдено</message_attachment_existence>
+    <rss_channel_exist>Выбранный канал URL не может быть открыт %s</rss_channel_exist>
+    <rss_invalid_channel>Не удалось получить доступ к каналу</rss_invalid_channel>
+    <settings_access_denied>Доступ запрещен</settings_access_denied>
+    <settings_missing_tag>Setting missing tag %s</settings_missing_tag>
+    <settings_duplicity>Ошибка форматирования XML-файла</settings_duplicity>
+    <settings_get_domain_file>Не удается прочитать файл настроек домена %s</settings_get_domain_file>
+    <settings_domain_set>Сохранять настройки домена в файле %s</settings_domain_set>
+    <settings_user_set>Не удается получить доступ к пользовательским настройкам в файле %. Проверьте права доступа к папке.</settings_user_set>
+    <settings_public_set>Settings set public data to file %s</settings_public_set>
+    <settings_shared_set>Не удается сохранить общедоступные аккаунты</settings_shared_set>
+    <settings_owner_set>Не удается применить пользовательские настройки</settings_owner_set>
+    <session_expired>Сессия  %s истекла</session_expired>
+    <session_no_user>Сессия не может быть восстановлена</session_no_user>
+    <smime_no_recipient>SMIME: отсутствует получатель</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP: данные не приняты от сервера: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP: неверный адрес отправителя</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP: неверный адрес получателя</SMTP_recipients_failed>
+    <spellchecker_set_mode>Невозможно установить режим проверки орфографии</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Невозможно открыть словарь проверки орфографии</spellchecker_open_dictionary>
+    <spellchecker_add_word>Не удается добавить новое слово %s в словарь</spellchecker_add_word>
+    <spellchecker_missing_check_id>Отсутствует идентификатор слова</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Отсутствует тег %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Отсутствует идентификатор словаря</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Отсутствующее слово</spellchecker_missing_word>
+    <upload_tag_missing>Отсутствует тег загрузки</upload_tag_missing>
+    <upload_missing_attribute>Отсутствует атрибут загрузки</upload_missing_attribute>
+    <upload_attachment_missing>Отсутствует загружаемое вложение</upload_attachment_missing>
+    <xml_invalid_file_name>Имя XML файла не заполнено</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath вернул более чем один результат на ваш запрос</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML specified node не найден %s</xml_node_does_not_exist>
+    <xmlrequest_path>Неверный файл-шаблон (путь)</xmlrequest_path>
+    <xmlrequest_access_denied>Доступ запрещен</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Неправильный тип запроса</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Отсутствует атрибут пространства имен</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Отсутствует или неправильный SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>Тег XML запроса отсутствует %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Missing class constructor</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Неизвестный формат результата %s</xmlrequest_unkown_format>
+    <not_implemented>В разработке</not_implemented>
+    <logdir_create>Не удается создать папку для журналирования %s</logdir_create>
+    <api_property_get>Не удается восстановить свойства для %s</api_property_get>
+    <wm_disabled>Веб-клиент отключен</wm_disabled>
+    <gw_init_error>Ошибка инициализации Групповых данных</gw_init_error>
+    <default>Ошибка %s</default>
+    <other_accounts_disabled>Возможность создания других аккаунтов отключена.</other_accounts_disabled>
+    <link_compressed_variable_missing>Ошибка URL, вы были перенаправлены на главную страницу</link_compressed_variable_missing>
+    <login_expired>Сессия истекла, пожалуйста, авторизуйтесь заново</login_expired>
+    <account_disabled>Учетная запись отключена</account_disabled>
+    <folder_set_default>Папка &quot;%s&quot; не может быть назначена основной</folder_set_default>
+    <personality_confirmation_invalid_user>Адрес электронной почты не может быть подтвержден: Неверный пользователь</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>Адрес электронной почты не может быть подтвержден: Неверный  хэш</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Не удалось добавить элемент в Черный список</item_blacklist_error>
+    <item_whitelist_error>Не удалось добавить элемент в Белый список</item_whitelist_error>
+    <unverified_signature>Не удается подтвердить подпись сообщения</unverified_signature>
+    <account_is_guest>Гостевой доступ не разрешен</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Снято выделение с выбранных элементов</item_selection_cleared>
+    <logged_out>Вы вышли из системы</logged_out>
+    <message_send_ok>Сообщение отправлено</message_send_ok>
+    <item_move_ok>Элемент(ы) был(и) перемещен(ы)</item_move_ok>
+    <item_copy_ok>Элемент(ы) был(и) скопирован(ы)</item_copy_ok>
+    <item_delete_ok>Элемент(ы) был(и) удален(ы)</item_delete_ok>
+    <item_mark_ok>Элемент(ы) был(и) отмечен(ы)</item_mark_ok>
+    <settings_save_ok>Настройки сохранены</settings_save_ok>
+    <loading_next_message>Загрузка следующего сообщения</loading_next_message>
+    <loading_prev_message>Загрузка предыдущего сообщения</loading_prev_message>
+    <loading_next_page>Загрузка следующей страницы</loading_next_page>
+    <loading_prev_page>Загрузка предыдущей страницы</loading_prev_page>
+    <loading_next_month>Загрузка следующего месяца</loading_next_month>
+    <loading_prev_month>Загрузка предыдущего месяца</loading_prev_month>
+    <loading_next_week>Загрузка следующей недели</loading_next_week>
+    <loading_prev_week>Загрузка предыдущей недели</loading_prev_week>
+    <loading_next_day>Загрузка следующeгo дня</loading_next_day>
+    <loading_prev_day>Загрузка предыдущего дня</loading_prev_day>
+    <password_change_ok>Пароль изменен</password_change_ok>
+    <item_whitelist_ok>Элемент был добавлен в Белый список</item_whitelist_ok>
+    <item_blacklist_ok>Элемент был добавлен в Черный список</item_blacklist_ok>
+    <folder_set_default_ok>Папка назначена основной</folder_set_default_ok>
+    <subscribe_account_ok>Аккаунт добавлен</subscribe_account_ok>
+    <subscribe_folder_ok>Папка добавлена</subscribe_folder_ok>
+    <item_decline_ok>Элемент отклонен</item_decline_ok>
+    <access_granted>Вы получили доступ к &quot;%s&quot; от &quot;%s&quot;.</access_granted>
+    <message_save_ok>Сообщение сохранено</message_save_ok>
+    <item_accept_ok>Элемент принят</item_accept_ok>
+  </messages>
+</language>

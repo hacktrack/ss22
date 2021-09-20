@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Blue</blue>
+    <green>Green</green>
+    <brown>Brown</brown>
+    <purple>Purple</purple>
+    <yellow>Yellow</yellow>
+    <teal>Teal</teal>
+    <plum>Plum</plum>
+    <red>Red</red>
+    <aqua>Aqua</aqua>
+    <aquamarine>Aquamarine</aquamarine>
+    <orchid>Orchid</orchid>
+    <pink>Pink</pink>
+    <silver>Silver</silver>
+    <white>White</white>
+    <gray>Gray</gray>
+    <lemon>Lemon</lemon>
+  </colors>
+  <title>
+    <new_email>* Yeni eposta mesajı</new_email>
+    <new_im>* %s tarafından yeni mesaj</new_im>
+    <new_reminder>* Hatırlatıcı: %s</new_reminder>
+    <cerror>! Communication Error</cerror>
+  </title>
+  <audio>
+    <player>Player</player>
+  </audio>
+  <signature>
+    <none>İmza Yok</none>
+    <alias>Gönderen Adres</alias>
+    <newmsg>Yeni Mesajlar</newmsg>
+    <oldmsg>Cevaplar</oldmsg>
+    <signature>İmza</signature>
+    <variable>Değişken Gir</variable>
+  </signature>
+  <alias>
+    <add>Add new Alias</add>
+    <notify>Confirmation message has been sent.</notify>
+    <instructions>Confirmation request will be sent to email address above. Please check it for further instructions.</instructions>
+  </alias>
+  <notify>
+    <title>Bildirim Detayları</title>
+    <to_all>Bu klasöre erişim ile herkese bildirim gönder</to_all>
+    <copy>Ayrıca bildirim</copy>
+    <comment>Açıklama (isteğe bağlı), kullanıcılara değişiklik bildirimlerinin gönderilmesini istiyorsanız</comment>
+    <success>Bildirim gönderildi</success>
+  </notify>
+  <datagrid>
+    <nomessages>Mesaj Yok</nomessages>
+    <noitems>Öğe Yok</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Önizleme</preview>
+    <down>Alt Pano</down>
+    <right>Sağ Pano</right>
+    <none>Yok</none>
+    <noitem>Öğe Yok</noitem>
+    <message_to>Mesaj gönderilen: %s</message_to>
+    <doc_revisions>Doküman Düzenlemeleri</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Arama Sihirbazı</wizard>
+    <since>Başlangıç Tarihi</since>
+    <until>Bitiş Tarihi</until>
+    <contains>Her yer</contains>
+    <fulltext>Tüm metin</fulltext>
+    <makefolder>Arama Klasörü Oluştur</makefolder>
+    <contact_note>Not</contact_note>
+  </search>
+  <search_hints>
+    <folder>Belirtilen klasördeki öğeleri ara</folder>
+    <from>Göndereni belirtmek için kullanılır (gönderen:Amy)</from>
+    <to>Bir alıcı belirtmek için kullanılır (Gönderen: David)</to>
+    <subject>Konu satırındaki kelimeleri ara (konu: Akşam Yemeği)</subject>
+    <or>mantıksal operatör</or>
+    <not>mantıksal operatör</not>
+    <hasattachment>Bir eki olan mesajları ara</hasattachment>
+    <isflagged>Bayraklı mesajları ara</isflagged>
+    <isunread>Okunmamış mesajları ara</isunread>
+    <isread>Okunan mesajları ara</isread>
+    <isdone>Yapılan görevleri ara</isdone>
+    <cc>Cc: alanında alıcı olarak belirtilmişleri kullan</cc>
+    <bcc>BCc: alanında alıcı olarak belirtilmişleri kullan</bcc>
+    <sms>SMS: alanında alıcı olarak belirtilmişleri kullan</sms>
+    <after>Verilen zamandan sonra gönderilen mesajları ara (2004/04/16 sonrası gibi)</after>
+    <after_e>Verilen zamandan sonra başlatılan öğeleriı ara (2004/04/16 sonrası gibi)</after_e>
+    <after_f>Verilen zamandan sonra değiştirilen öğeleri ara (2004/04/16 sonrası gibi)</after_f>
+    <after_t>Verilen zamandan sonra bitirilen mesajları ara (2004/04/16 sonrası gibi)</after_t>
+    <after_j>Verilen zamandan sonra başlatılan mesajları ara (2004/04/16 sonrası gibi)</after_j>
+    <before>Verilen zamandan önce gönderilen mesajları ara (2004/04/16 öncesi gibi)</before>
+    <before_e>Verilen zamandan önce başlatılan öğeleri ara (2004/04/16 öncesi gibi)</before_e>
+    <before_f>Verilen zamandan önce değiştirilen öğeleri ara (2004/04/16 öncesi gibi)</before_f>
+    <before_t>Verilen zamandan önce bitirilen öğeleri ara (2004/04/16 öncesi gibi)</before_t>
+    <before_j>Verilen zamandan önce başlatılan öğeleri ara (2004/04/16 öncesi gibi)</before_j>
+    <title>Öğe başlığı belirterek kullan (başlık: Test)</title>
+    <description>Açıklama ya da not belirterek kullan (açıklama: Test)</description>
+    <name>Kişi adı belirterek kullan</name>
+    <email>Eposta belirterek kullan</email>
+    <keyword>Etiket belirterek öğeler için ara (etiket: İş)</keyword>
+    <tag>Etiket belirterek öğeler için ara (etiket: İş)</tag>
+    <tag2>&quot;%s&quot; etiketiyle öğeleri ara (%s öğeleri içinde kullanılır)</tag2>
+    <greater>kB olarak boyutuna göre ara (büyük: 1024)</greater>
+    <smaller>kB olarak boyutuna göre ara (küçük: 1024)</smaller>
+    <company>Şirkete dayalı kişileri ara (şirket: IceWarp)</company>
+    <department>Departmana dayalı kişileri ara (departman: IT)</department>
+    <note>Bazı nota göre bir kişiyi ara (not:VIP)</note>
+    <location>Konuma göre kişileri ara (konum: İstanbul)</location>
+    <fulltext>Tüm mesaj metnini ara (tam metin: test)</fulltext>
+    <priority>En yüksek, yüksek, normal, az, en az önceliklerine göre ara (öncelik: yüksek)</priority>
+    <isprivate>Özel olan görevlere göre ara</isprivate>
+    <ispublic>Yerel görevlere göre ara</ispublic>
+    <isfree>Müsait görevlere göre ara</isfree>
+    <isbusy>Meşgul olan görevlere göre ara</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Arama Klasörü</virtual>
+    <general>Genel</general>
+    <primary>Birincil Klasör</primary>
+    <filter>Süzgeç</filter>
+    <all>Tüm Klasörler</all>
+  </virtual>
+  <notifier>
+    <notifier>Notifier</notifier>
+    <permissions>Masaüstü bildirimleri; tarayıcınız görünür olmasa bile yeni bir eposta ya da sohbet mesajınızın olduğunu bilmenizi sağlar. &lt;br&gt;Önce nasıl bildirim alacağınızı seçin. Masaüstü bildirimlerini onaylamak için Tamam &apos;a tıkayın ve ileriki iletişim penceresini onaylayın.</permissions>
+    <denied>Masaüstü bildirimlerine erişiminiz engellendi.</denied>
+    <redirect>Mesaj yönlendirildi.</redirect>
+    <send>Mesaj gönderildi.</send>
+    <item_save>Öğe kaydedildi.</item_save>
+    <new_email>New email message for %s</new_email>
+    <new_revision>Yeni doküman düzenlemesi oluşturuldu.</new_revision>
+    <email_exist>Eposta adresi zaten var.</email_exist>
+    <email_added>Eposta adresi kişilere eklendi.</email_added>
+    <contact_email_list_full>Eposta adresi ekleme başarısız, boş yer yok.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google Haritalar</map>
+    <go>Adresi Göster</go>
+    <open>Google Aç</open>
+    <alert>Google Haritaları Hatası</alert>
+    <g_geo_missing_address>Adres Eksik: Adres eksik ya da değer yok.</g_geo_missing_address>
+    <g_geo_too_many_queries>Çok Sayıda Sorgu: Bu site için günlük coğrafi kodlama limiti aşıldı.</g_geo_too_many_queries>
+    <g_geo_server_error>Sunucu Hatası: Coğrafi kodlama isteği işlenemeyecek.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Giriş Bilgisi</login_info>
+    <licenses>Masaüstü Uygulamaları ve Lisanslar</licenses>
+    <licenses_text>IceWarp hesabınızın bütün özelliklerini kullanın. Takvimlerinize, kişilerinize ve Uygun/Meşgul bilgilerinize uyumlu masaüstü uygulamaları için ihtiyacınız olan ek yazılım indirmeleri, aktivasyon anahtarları, rehberleri ve sözdizimleri için buraya tıklayınız:&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Desktop Client&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Notifier&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Teslim edildi</delivered>
+    <delivered_info>successfully delivered to local recipient</delivered_info>
+    <sent>Gönderildi</sent>
+    <sent_info>successfully delivered to remote server</sent_info>
+    <queue>Kuyruk</queue>
+    <queue_info>mesaj geçici olarak ertelendi, sunucu tekrar göndermeyi deneyecek.</queue_info>
+    <error>Hata</error>
+    <error_info>ayrıntılı hata mesajı için gelen kutunuzu kontrol edin</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Tüm Dosyalar</all_files>
+    <images>Resimler</images>
+    <queue_limit_exceeded>Kuyruk Limiti Aşıldı</queue_limit_exceeded>
+    <zero_byte_file>Sıfır Byte Dosya</zero_byte_file>
+    <invalid_filetype>Geçersiz Dosya Tipi</invalid_filetype>
+    <item>Öğe</item>
+    <title>Yükleniyor: %s - %s%</title>
+    <error1>Dosya boyutu limiti aşıyor (%sMB)</error1>
+    <error3>Yüklenen dosya sadece kısmen yüklendi</error3>
+    <error4>Hiç dosya yüklenmedi</error4>
+    <error6>Geçici bir klasör eksik</error6>
+    <error7>Dosyayı diske yazma başarısız</error7>
+    <error8>Geçersiz dosya tipi</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Durum Metni...</status_msg>
+    <add_private>Özel</add_private>
+    <unsupported_img>Desteklenmeyen resim tipi</unsupported_img>
+    <add_gateway>Ağ Geçidi Ekle</add_gateway>
+    <error_im>WebChat error</error_im>
+    <registred>Zaten kayıtlı</registred>
+    <registr>Kayıt</registr>
+    <error_ticket>Bilet oluşturulamıyor.</error_ticket>
+    <error_socket>Soket açılmadı</error_socket>
+    <error_bytestream>Kullanıcı byte akışlarını desteklemez.</error_bytestream>
+    <error_cancel>Kullanıcı isteği iptal etti.</error_cancel>
+    <error_registr>Servis kaydınızı reddetti.</error_registr>
+    <add_service>Servis Ekle</add_service>
+    <service>Servis</service>
+    <call>Şimdi Ara</call>
+    <audio_call>Audio Call</audio_call>
+    <video_call>Video Call</video_call>
+    <meeting>Start WebMeeting</meeting>
+    <invite>Invite to WebMeeting</invite>
+    <closetab>Sekmeyi Kapat</closetab>
+    <show>Tüm Kişileri Göster</show>
+    <hide>Çevrimdışı Kişileri Gizle</hide>
+    <other>Diğer</other>
+    <selected>Seçilen</selected>
+    <chat>Sohbet Başlat</chat>
+    <groupmsg>Mesaj Gönder</groupmsg>
+    <group>Grup</group>
+    <new_group>Yeni Grup</new_group>
+    <subscription>Abonelik</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>User &lt;b&gt;%s&lt;/b&gt; has requested permission to add you to their WebChat contact list</sub_ask>
+    <send>Sohbet Kişisini Yetkilendir</send>
+    <request>Yetki İste</request>
+    <remove>Yetki Kaldır</remove>
+    <remove_account>%s hesabını listeden çıkartmak istediğinize emin misiniz?</remove_account>
+    <remove_accounts>Seçilen hesapları listeden çıkarmak istediğinize emin misiniz?</remove_accounts>
+    <rem_grp>Grubu Sil</rem_grp>
+    <rem_grpc>Grup ve Kişileri Kaldır</rem_grpc>
+    <rename>Yeniden Adlandır</rename>
+    <add>Kişi Ekle</add>
+    <jabber_id>Kullanıcı ID</jabber_id>
+    <nick>Görünen ad</nick>
+    <vcard>Kişi Bilgisini Göster</vcard>
+    <history>Sohbet Geçmişini Göster</history>
+    <sharedesktop>Ekran paylaş</sharedesktop>
+    <tab_general>Genel</tab_general>
+    <tab_work>İş</tab_work>
+    <tab_location>Konum</tab_location>
+    <tab_about>Hakkında</tab_about>
+    <send_mail>Eposta Gönder</send_mail>
+    <send_file>Dosya Gönder</send_file>
+    <receive_file>Dosya Al</receive_file>
+    <not_listed>Listelenmemiş</not_listed>
+    <composing>WebChat: %s is composing...</composing>
+    <file_message>Kullanıcı size şu açıklamayla bir dosya gönderdi:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s</file_message>
+    <file_cancel>Alıcı dosya aktarımını reddetti.</file_cancel>
+    <file_error>Dosya aktarma hatası.</file_error>
+    <file_ok>Dosya aktarma başarılı.</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/b&gt; size &lt;b&gt;%s&lt;/b&gt; dosyasını gönderdi.</receive_note>
+    <show_after>%s tarihinden itibaren sohbeti göster.</show_after>
+    <im_status>WebChat: %s</im_status>
+    <im>WebChat</im>
+    <sip_inprogress>Call in progress</sip_inprogress>
+    <sip_incomming>Incoming Call</sip_incomming>
+    <sip_calling>Calling</sip_calling>
+    <status_sec>%s for less than a minute</status_sec>
+    <status_min>%s for %s minute(s)</status_min>
+    <status_hour>%s for %s hour(s)</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Propose new time</propose>
+    <nosubject>Konu Yok</nosubject>
+    <when>Ne zaman</when>
+    <location>Konum</location>
+    <comment>Yorum</comment>
+    <description>Tanım</description>
+    <accept>Kabul Et</accept>
+    <tentative>Tentative</tentative>
+    <decline>Reddet</decline>
+    <skip_img>Dış kaynaklar engellendi. Görüntülemek için buraya tıklayın.</skip_img>
+    <show_img>Mesaj ekte resimler içeriyor. Göz atmak için buraya tıklayın.</show_img>
+    <smart>Attachments are delivered using IceWarp SmartAttach technology.</smart>
+    <show_raw>Open Raw Message</show_raw>
+    <certificate>Public Sertifika</certificate>
+    <serror>Şifre çözme hatası, eksik ve ya geçersiz sertifika.</serror>
+    <sverify>Mesaj imzası doğrulanamadı.</sverify>
+    <expired>Şifre çözma hatası, doğru ama süresi dolmuş sertifika.</expired>
+    <access>%s ile &quot;%s&quot; &apos;e erişime izniniz verildi.</access>
+    <account_access>%s &apos;e erişme izniniz verildi.</account_access>
+    <subscribe>Klasör Ekle</subscribe>
+    <subscribe_account>Hesap Ekle</subscribe_account>
+    <subscribed>%s hesabı eklendi.</subscribed>
+    <subscribed_folder>&quot;%s/%s&quot; klasörü eklendi.</subscribed_folder>
+    <unsubscribe>Çıkart</unsubscribe>
+    <unsubscribed>%s çıkartıldı.</unsubscribed>
+    <unsubscribed_folder>&quot;%s/%s&quot; çıkartıldı</unsubscribed_folder>
+    <error>İşlem yapılamaz.</error>
+    <recurrent>Yinelenen</recurrent>
+    <occurrence>Yinelenen olay istisnası</occurrence>
+    <attendee>İle</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Yeni Ne Var</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Yardım</help>
+    <about>Hakkında</about>
+  </help>
+  <print>
+    <preview>Baskı Önizleme</preview>
+    <opera>Tarayıcınız bu özelliği dsteklemiyor.</opera>
+  </print>
+  <status>
+    <online>Çevrimiçi</online>
+    <offline>Çevrimdışı</offline>
+    <chat>Sohbete Açık</chat>
+    <away>Dışarıda</away>
+    <xa>Yok</xa>
+    <dnd>DND</dnd>
+    <invisible>Görünmez</invisible>
+    <gone>Kullanıcı görüşmeden ayrıldı.</gone>
+    <error>Hata</error>
+    <sip>WebPhone&apos;da Çevrimiçi</sip>
+    <chat_with>%s ile sohbet</chat_with>
+  </status>
+  <policy>
+    <minlength>En az şifre uzunluğu:%s karakter</minlength>
+    <digits>Number of numeric characters [0-9]: %s</digits>
+    <alpha>Number of alpha characters [a-Z]: %s</alpha>
+    <nonalphanum>Number of non-alphanumeric characters [!@#$%...]: %s</nonalphanum>
+    <upperalpha>Number of uppercase alpha characters [A-Z]: %s</upperalpha>
+    <useralias>Şifre kullanıcı adı veya diğer ad ile aynı olamaz.</useralias>
+  </policy>
+  <alerts>
+    <alert>Uyarı</alert>
+    <suppress>Bu mesajı tekrar gösterme</suppress>
+    <create_revision>Düzeltme yapılamadı</create_revision>
+    <password_do_not_match>Şifreler eşleşmiyor</password_do_not_match>
+    <invalid_password>Geçersiz şifre</invalid_password>
+    <new_password_match>Yeni şifre eski olanla aynı</new_password_match>
+    <invalid_cpassword>Şifre onayı eşleşmiyor</invalid_cpassword>
+    <folder_exist>Klasör zaten var</folder_exist>
+    <create_folder>&quot;%s&quot; klasörü oluşturulamıyor</create_folder>
+    <rename_folder>Klasör adı &quot;%s&quot; &apos;den &quot;%s&quot; &apos;e değiştirilemiyor</rename_folder>
+    <attachment_size>Eklenti boyutu aşıldı</attachment_size>
+    <attachment_quota>Attachment quota exceeded.</attachment_quota>
+    <attachment_missing>Attachment file not found.</attachment_missing>
+    <attachment_virus>Attachment contains virus.</attachment_virus>
+    <could_not_create>Document could not be created.</could_not_create>
+    <could_not_edit>Document could not be edited.</could_not_edit>
+    <general_error>An unspecified error occured&lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>Şifre, şifre ilkesine aykırı</password_policy>
+    <password_requirements>Aşağıdaki şartları kontrol edin ve yeni bir şifre seçin:</password_requirements>
+    <password_incorrect>Yanlış şifre. Lütfen tekrar deneyin.</password_incorrect>
+    <message_not_sent>Mesaj gönderilmedi.</message_not_sent>
+    <message_not_saved>Mesaj kaydedilmedi.</message_not_saved>
+    <mailingfailed>Sunucu hatası nedeniyle mesaj gönderilemedi ya da kaydedilemedi. Lütfen daha sonra tekrar deneyin.</mailingfailed>
+    <distribution_list_invalid_id>Geçersiz dağıtım listesi:</distribution_list_invalid_id>
+    <smtp_from_failed>Şu gönderici kabul edilmedi:</smtp_from_failed>
+    <smtp_recipients_failed>Alıcı şu hataya neden oldu:</smtp_recipients_failed>
+    <smtp_data_not_accepted>İletiniz sunucu tarafından kabul edilmedi</smtp_data_not_accepted>
+    <default_folder_missing>Default folder &quot;%s&quot; is missing.</default_folder_missing>
+    <no_recipient_certificate>Alıcı sertifikası eksik</no_recipient_certificate>
+    <recipient_certificate_expired>Recipient certificate has expired.</recipient_certificate_expired>
+    <personal_certificate>Kişisel sertifika eşleşmedi</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>Mesaj alınamıyor</imap_null>
+    <delete_item>Seçilen öğe(ler) silinemez</delete_item>
+    <reserved_folder>Rezerve edilen klasör adı &quot;%s&quot;</reserved_folder>
+    <undefined>Tanımlanamayan hata</undefined>
+    <timezone_differ>Zaman diliminiz değişti. Aşağıdan takvim olaylarınızın zamanını ayarlamak için ilgili bir konum seçin.</timezone_differ>
+    <popup_blocker>Pop-up window has been blocked.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Unread</unread>
+    <contact_ok>Administrator contacted successfully</contact_ok>
+    <signup_ok>New account created successfully</signup_ok>
+    <logout>Kullanıcı çıkış yaptı.</logout>
+    <logged_out>Kullanıcı çıkış yaptı</logged_out>
+    <forgot_ok>Kimlik bilgileriniz eposta adresinize ve öteki eposta adresinize gönderildi.</forgot_ok>
+    <password_change_ok>Şifre başarı ile değiştirildi.</password_change_ok>
+    <close_window>Şimdi bu pencereyi kapatabilirsiniz.</close_window>
+    <personality_confirmation_ok>Eposta adresiniz onaylandı.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Yanlış kullanıcı adı veya şifre. Lütfen tekrar deneyin.</invalid_login>
+    <account_disabled>Hesap devredışı</account_disabled>
+    <expired>Süresi dolmuş oturum</expired>
+    <connection>Sunucuya erişilemiyor. Lütfen internet bağlantınızı kontrol edin ya da yönetici ile iletişime geçin.</connection>
+    <servererror>Servise ulaşılamıyor.Daha sonra tekrar deneyin ya da yönetici ile iletişime geçin.</servererror>
+    <overloaded>Sunucuya şu anda aşırı yüklenildi. Daha sonra tekrar deneyin ya da yönetici ile iletişime geçin.</overloaded>
+    <countdown>Will try again in %s seconds.</countdown>
+    <filenotfound>There are files missing on the server, some unexpected behaviour may occur.</filenotfound>
+    <subscribe_error>%s hesabı abone yapılamıyor.</subscribe_error>
+    <wc_disabled>WebClient devre dışı.</wc_disabled>
+    <invalid_rsa>RSA şifresi oluşturulamıyor.</invalid_rsa>
+    <no_db>Veritabanı Bağlantı Hatası</no_db>
+    <no_data>Mevcut Veri Yok</no_data>
+    <access_error>Gelen kutusu klasörüne ulaşılamıyor, yönetici ile iletişme geçin.</access_error>
+    <ip_mismatch>IP&apos;niz değişti, çıkış yaptırılacaksınız. İleride bu sorunu önlemek için, WebClient&apos;a HTTPS üzerinden bağlanın.</ip_mismatch>
+    <javatip1>Ekranın etrafına Java güvenlik iletisi ya da uyarısı için bakın. Evet ya da İzin Ver&apos;e tıklayın.</javatip1>
+    <javatip2>Bilgisayarınıza Java kurmanıza yardım etmesi için Yönetici ile iletişime geçin ya da</javatip2>
+    <javatip3>Aşağıdaki Sorun Çözme düğmesine basın ve sorunu şimdi çözün</javatip3>
+    <contactadmin>Yönetici ile iletişime geçin</contactadmin>
+    <troubleshoot>Sorun Çözme</troubleshoot>
+  </error>
+  <common>
+    <all>All</all>
+    <processing>Processing</processing>
+    <loading>Yükleniyor...</loading>
+    <sending>Gönderiliyor...</sending>
+    <comment>Açıklama (isteğe bağlı)</comment>
+    <email>Eposta</email>
+    <folder>Klasör</folder>
+    <items>Öğeler</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Tümünü Seç</select_all>
+    <clear>Temizle</clear>
+    <yes>Evet</yes>
+    <no>Hayır</no>
+    <auto>Otomatik</auto>
+    <disable>Disable</disable>
+    <enable>Etkinleştir</enable>
+    <enabled>Etkinleştirildi</enabled>
+    <show_all>Hepsini Göster</show_all>
+    <previous>Önceki</previous>
+    <next>Sonraki</next>
+    <more>Daha Fazla...</more>
+    <show>Show</show>
+    <hide>Hide</hide>
+    <appearance>Panel Appearance</appearance>
+    <expand>Expanded</expand>
+    <collapsed>Collapsed</collapsed>
+    <autocollapsed>Auto Collapse</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Sık Kullanılanlar</favorites>
+    <remove>Sık Kullanılanlardan Çıkar</remove>
+    <rename>Kısayolu Yeniden Adlandır</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>Sahibi</owner>
+    <address_book>Adres Defteri</address_book>
+    <add_recipient>Alıcı Ekle</add_recipient>
+    <selected_addresses>Seçildi</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Boş</empty>
+    <today>Bugün</today>
+    <this_week>Bu Hafta</this_week>
+    <this_month>Bu Ay</this_month>
+    <yesterday>Dün</yesterday>
+    <tomorrow>Yarın</tomorrow>
+    <typetoadd>Eklemek için Yazın</typetoadd>
+    <owner>Owner</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>Yerel Zaman</timezones>
+    <serverzone>Sunucu Zamanı</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Do you wish to clear the auto-complete list?</clear_autosuggest>
+    <suppress>Tekrar sorma</suppress>
+    <reset_password_subject>%email% hesabı için şifre sıfırlandı</reset_password_subject>
+    <reset_password>Merhaba %username%,&#13;&#10;&#13;&#10;WebClient üzerinden (%email%) hesabı için şifre sıfırlama talabinde bulundunuz mu?&#13;&#10;&#13;&#10;Aşağıdaki bağlantıya tıklayarak (ya da tarayıcınıza kopyala ve yapıştır yaparak) bu eposta adresinin size ait olduğunu onaylayın.&#13;&#10;&#13;&#10;Eğer bu talebi siz yapmadıysanız ya da bu mesajı hata ile aldığınızı düşünüyorsanız, lütfen görmezden geliniz.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>%username% için yeni bir gönderen adresi girin</alias_subject>
+    <alias_confirmation>Merhaba %username%,&#13;&#10;&#13;&#10;WebClient üzerinden (%email%) adresini yeni bir gönderen adresi olarak ekleme isteği mi yaptınız?&#13;&#10;&#13;&#10;Aşağıdaki bağlantıya tıklayarak (ya da tarayıcınıza kopyala ve yapıştır yaparak) bu eposta adresinin size ait olduğunu onaylayın.&#13;&#10;&#13;&#10;Eğer bu talebi siz yapmadıysanız ya da bu mesajı hata ile aldığınızı düşünüyorsanız, lütfen görmezden geliniz.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>Değiştirilmiş verilerin kaybolmasını önlemek için lütfen tüm açık öğelerin ve mesaj taslaklarının kaydedildiğini kontrol edin.</unload>
+    <expired>Oturumun süresi doldu</expired>
+    <no_mobile>Hiç bir mobil numara bulunamadı.</no_mobile>
+    <expired_msg>Tamamlanmamış mesajları gönderemezsiniz ya da kaydedemezsiniz. IP&apos;niz değişiti ya da oturumun süresi doldu.</expired_msg>
+    <delete_account_confirmation>Hesap onayını kaldır</delete_account_confirmation>
+    <delete_account>%s hesabını kaldırmak istediğinizden emin misiniz?</delete_account>
+    <recover_item>Seçilen öğe(leri)yi kurtarmak istediğinizden emin misiniz?</recover_item>
+    <delete_folder_confirmation>Klasör onayını sil</delete_folder_confirmation>
+    <delete_folder>&quot;%s&quot; klasörünü silmek istediğinizden emin misiniz?&lt;br/&gt;(Tüm alt klasörler kalıcı olarak silinecek)</delete_folder>
+    <delete_item_confirmation>Öğe onayını sil</delete_item_confirmation>
+    <delete_item>Seçili öğe(leri)yi silmek istediğinize emin misiniz?</delete_item>
+    <delete_avatar>Current contact picture will be deleted</delete_avatar>
+    <blacklist_sender_confirmation>Karaliste onayı</blacklist_sender_confirmation>
+    <blacklist_sender>Seçilen öğe(lerin)nin karaliste gönderici olarak işaretlemek istediğinize emin misiniz?</blacklist_sender>
+    <blacklist_domain>Are you sure to blacklist all items from this domain?</blacklist_domain>
+    <blacklisted>Gönderici karalisteye eklendi.</blacklisted>
+    <whitelist_sender_confirmation>Beyazliste onayı</whitelist_sender_confirmation>
+    <whitelist_sender>Seçilen öğe(lerin)nin beyazliste gönderici olarak işaretlemek istediğinize emin misiniz?</whitelist_sender>
+    <whitelist_domain>Are you sure to whitelist all items from this domain?</whitelist_domain>
+    <whitelisted>Gönderici beyazlisteye eklendi.</whitelisted>
+    <empty_folder_confirmation>Boş klasör onayı</empty_folder_confirmation>
+    <empty_folder>Bu klasörüdeki tüm öğeleri silmek istediğinize emin misiniz?</empty_folder>
+    <empty_to_trash>Bütün öğeleri çöp kutusuna göndermek istediğinize eminmisiniz?</empty_to_trash>
+    <save_title>Mesajı kaydet</save_title>
+    <save_confirmation>Mesaj kaydedilmedi. Mesajı taslak klasörüne kaydetmek istiyor musunuz?</save_confirmation>
+    <save_file>Dosya değiştirildi. Değişiklikleri kaydetmek ister misiniz?</save_file>
+    <save>Kaydet</save>
+    <discard>At</discard>
+    <create_reading_confirmation_title>Onayı Oku</create_reading_confirmation_title>
+    <create_reading_confirmation>Gönderici mesajı okuduğunuza dair bir cevap istiyor. Göndermek ister misiniz?</create_reading_confirmation>
+    <send_reading_confirmation>Alıcıdan okuma onayı istensin mi?</send_reading_confirmation>
+    <browser_warning_title>Tarayıcı Uyarısı</browser_warning_title>
+    <browser_warning_text_unsupported>Kullandığınız tarayıcı RESMİ OLARAK IceWarp WebClient tarafından desteklenmemektedir.&#13;&#10;&#13;&#10;Mevcut tarayıcınızla WebClient aşırı yavaş ve işletilemez durumda olabilir.&#13;&#10;&#13;&#10;WebClient Firefox 4.0 (ya da yukarısı) ve Internet Explorer 8.0 (ya da yukarısı) ile en iyi şekilde kullanılır. Internet Explorer&apos;ın son sürümüne yükseltme yapmanız ya da Mozilla Firefox&apos;un son sürümünü yüklemeniz önerilir (ikisi de bedavadır).&#13;&#10;&#13;&#10;Firefox&apos;un son sürümü için:&#13;&#10; http://www.firefox.com/&#13;&#10;Internet Explorer&apos;ın son sürümü için:&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;Tamam&apos;a basarak devam edebilir ya da İptal&apos;e basarak WebClient Tablet arayüzüne geçebilirsiniz.</browser_warning_text_unsupported>
+    <expired_password>Şifrenizin süresi doldu. Lütfen şimdi şifrenizi değiştiriniz.</expired_password>
+    <authentication>Authentication Failure</authentication>
+    <authenticate>Güvenlik nedeniyle, tekrar kimlik doğrulaması yapmalısınız.</authenticate>
+    <enterpass>Şifrenizi giriniz ve işinize devam etmek için oturum açın ya da çıkış için oturumu kapatın.</enterpass>
+    <secure>Gelecekte bu sorunu engellemek için, Lütfen WebClient&apos;e HTTPS bağlantısı ile erişin.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>WebClient&apos;in dili oturum kapatıp açtıktan sonra değiştirilecek.</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Open in separate window</open_in_separate_window>
+    <help_restriction>Özellik yönetici tarafından etkinleştirilmemiş.</help_restriction>
+    <switch_older>Switch to previous version of WebClient</switch_older>
+    <choose_interface>Tercih edilen arayüzü seçin</choose_interface>
+    <choose_lang>Dilinizi seçin</choose_lang>
+    <migration_in_progress>Taşıma işleniyor, lütfen daha sonra tekrar deneyin</migration_in_progress>
+    <message_sent>Mesajınız ulaştırıldı</message_sent>
+    <message_send_failed>Mesaj gönderme başarısız</message_send_failed>
+    <antispam_code_error>Güvenlik kodu yanlış</antispam_code_error>
+    <antispam>Güvenlik kodu</antispam>
+    <contact_support_subject>Giriş ekranından yeni kişi isteği</contact_support_subject>
+    <text>Metin</text>
+    <contact_administrator>Destek için bizimle iletişime geçin</contact_administrator>
+    <contact_question>Yardım mı gerekli?</contact_question>
+    <contact_answer>Yöneticiniz ile iletişime geçin</contact_answer>
+    <contact_1>İletişime geçin</contact_1>
+    <contact_2>yönetici</contact_2>
+    <contact_placeholder_1>Eposta ya da telefon</contact_placeholder_1>
+    <contact_placeholder_2>Sorunu açıklayın</contact_placeholder_2>
+    <help>Audio help</help>
+    <meeting_me>Benim</meeting_me>
+    <meeting_hang_up_confirmation>Toplantıdan çıkmak istediğinize emin misiniz?</meeting_hang_up_confirmation>
+    <online_meeting>WebMeeting</online_meeting>
+    <meeting_connected>Bağlı</meeting_connected>
+    <meeting_connecting>Bağlanıyor...</meeting_connecting>
+    <phone_access>Telefon Erişimi</phone_access>
+    <meeting_chat_ready>Welcome to the WebMeeting! Group chat is ready.</meeting_chat_ready>
+    <meeting_chat_send>Gönder</meeting_chat_send>
+    <meeting_user_left_meeting>&quot;%s&quot; kullanıcısı toplantıdan çıktı.</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>&quot;%s&quot; kullanıcısı toplantıya girdi.</meeting_user_joined_meeting>
+    <meeting_no_participants>Katılımcı yok</meeting_no_participants>
+    <meeting_server_not_responding>Sunucu yanıt vermiyor</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Bağlantı başarılı</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Ses uygulaması başlatılamadı. Eğer bir tarayıcı onay iletişim kutusu varsa, Java uygulamasının çalışmasına izin verin. Bazı durumlarda tarayıcıyı yeniden başlatmak yardımcı olabilir. Java&apos;nın son sürümünü uygun olarak &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt; adresinden kontrol edin.</java_warning_no_java>
+    <duration>Süre</duration>
+    <mute>Sessiz</mute>
+    <desktop_sharing_id>Erkan Paylaşımı Oturum ID&apos;si</desktop_sharing_id>
+    <conference_phone_number>WebMeetings phone number</conference_phone_number>
+    <desktop_sharing_app>Screen-sharing application</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>Üzgünüz, web üzerinden ekran paylaşımı taşınabilir aygıtlarda çalışmaz. Aşağıdaki bağlantıda bunun için bir uygulama bulabilirsiniz.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>Üzgünüz, web üzerinden ekran paylaşımı Mac üzerinden çalışmaz. Aşağıdaki bağlantıdan bir uygulama yüklemelisiniz.</desktop_sharing_mac_warning>
+    <continue_to_call>Aramaya devam et</continue_to_call>
+    <meeting_api_unexpected_response>Beklenmedik API cevabı</meeting_api_unexpected_response>
+    <applet_unreachable>Java uygulaması ulaşılamaz</applet_unreachable>
+    <sip_applet_load_failed>Ses uygulaması yüklenemedi</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Toplantı bilgisi alma başarısız</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>Screen-sharing session has ended, but audio is still active</meeting_mikogo_ended>
+    <meeting_ended>WebMeeting ended</meeting_ended>
+    <meeting_hang_up>Kapat</meeting_hang_up>
+    <meeting_id>Toplantı ID</meeting_id>
+    <meeting_mikogo_ready>Ekran paylaşımı hazır</meeting_mikogo_ready>
+    <meeting_sip_ready>Ses hazır</meeting_sip_ready>
+    <meeting_call_failed>Arama başarısız</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Davet süresi geçti. %s sn sonra tekrar deneyin.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>%s sn sonra tekrar deneyin.</meeting_trying_again_in>
+    <meeting_preparing_sip>Ses hazırlanıyor</meeting_preparing_sip>
+    <meeting_starting_sip>Ses başlatılıyor</meeting_starting_sip>
+    <meeting_waiting_for_reply>Ses uygulaması sunucu cevabını bekliyor</meeting_waiting_for_reply>
+    <meeting_in_progress>Toplantı sürüyor</meeting_in_progress>
+    <meeting_you_can_join>You can now join the WebMeeting</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Toplantı uygulaması hazır değil</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>Toplantı uygulaması kodu cevap vermiyor</meeting_no_applet_code>
+    <meeting_unexpected_response>Toplantı uygulamasından beklenmedik cevap</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Your browser doesn&apos;t support WebMeetings</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>Chrome browser will provide the best experience. You will be redirected to the setup guide.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>The WebMeeting hasn&apos;t started yet</meeting_meeting_wasnt_started>
+    <meeting_waiting>Waiting for %s to start the WebMeeting</meeting_waiting>
+    <meeting_created_by_ready>WebMeeting created by %s is ready</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Toplantı verisi yükleniyor</meeting_loading_meeting_info>
+    <unknown_error>Bilinmeyen hata</unknown_error>
+    <meeting_no_name>Adınızı ya da takma adınızı girin</meeting_no_name>
+    <meeting_api_error_104>Yanlış Toplantı ID</meeting_api_error_104>
+    <meeting_api_error_description_104>Toplantı adresi yok ya da eksik</meeting_api_error_description_104>
+    <meeting_api_error_111>Servis hizmet dışı</meeting_api_error_111>
+    <meeting_api_error_120>Uzak sunucuya bağlanılamıyor</meeting_api_error_120>
+    <meeting_api_error_125>Server doesn&apos;t have a valid license for WebMeetings</meeting_api_error_125>
+    <meeting_id_doesnt_exist>Toplantı ID yok</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Microphone not available</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Access to microphone is disabled or it is not connected. Do you wish to continue without microphone?</meeting__no_microphone_continue>
+    <fill_in_name>Adınızı girin</fill_in_name>
+    <fill_in_email>Eposta adresinizi girin</fill_in_email>
+    <join_meeting>Join WebMeeting</join_meeting>
+    <already_a_member>Zaten üye</already_a_member>
+    <name>İsim</name>
+    <enter_your_name>Enter your name</enter_your_name>
+    <enter_your_name_description>This name will be visible to other participants and used to identify you during the WebMeeting</enter_your_name_description>
+    <cancel>İptal</cancel>
+    <login_caption>IceWarp WebClient&apos;a Hoşgeldiniz</login_caption>
+    <copy>Üretici &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Sunucu&lt;/a&gt;</copy>
+    <copy_new>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>IceWarp WebClient</title>
+    <user>Kullanıcı Adı</user>
+    <email>Eposta Adresi</email>
+    <pass>Şifre</pass>
+    <old_pass>Eski şifre</old_pass>
+    <new_pass>Yeni şifre</new_pass>
+    <check_pass>Şifre onayla</check_pass>
+    <change_password>Şifre değiştir</change_password>
+    <remember>Hatırla</remember>
+    <save0>Otomatik giriş</save0>
+    <save1>Kullanıcı adı ve parola</save1>
+    <save2>Kullanıcı adı</save2>
+    <save3>Her zaman sor</save3>
+    <login>Giriş</login>
+    <send>Gönder</send>
+    <create_account>Hesap Oluştur</create_account>
+    <switch>&lt;a href=&quot;./basic&quot;&gt;Tablet&lt;/a&gt; ya da &lt;a href=&quot;./pda&quot;&gt;Mobil&lt;/a&gt; arayüze geç.</switch>
+    <downloads>İndirilenler</downloads>
+    <interface>Arayüz</interface>
+    <basic>Tablet</basic>
+    <pda>Mobil</pda>
+    <pro>Masaüstü</pro>
+    <osx>Mac OS X</osx>
+    <lang>Dil</lang>
+    <keep_me_signed>Beni hatırla</keep_me_signed>
+    <utilities>Araçlar</utilities>
+    <pw_policy_minlength>En az parola uzunluğu</pw_policy_minlength>
+    <pw_policy_digits>Paroladaki sayısal karakter sayısı [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Paroladaki alfa karakter sayısı [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>Paroladaki alfasayısal olmayan karakter sayısı [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>Kullanıcı adı ve diğer ada dayalı olarak parolayı kontrol et</pw_policy_useralias>
+    <pw_policy_uppercase>Büyük harf alfa karakter sayısı [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>Sanal klavyeyi göster</virtual_keyboard_01>
+    <virtual_keyboard_02>Klavye düzenini seçin</virtual_keyboard_02>
+    <virtual_keyboard_04>Açık</virtual_keyboard_04>
+    <virtual_keyboard_05>Kapalı</virtual_keyboard_05>
+    <virtual_keyboard_06>Klavyeyi kapat</virtual_keyboard_06>
+    <virtual_keyboard_07>Temizle</virtual_keyboard_07>
+    <virtual_keyboard_08>Bu girişi temizle</virtual_keyboard_08>
+    <virtual_keyboard_10>Klavye boyutunu azaltın</virtual_keyboard_10>
+    <virtual_keyboard_11>Klavye boyutunu arttırın</virtual_keyboard_11>
+    <js_problem>JavaScript çalıştırılamıyor</js_problem>
+    <public_calendar>Herkes için takvim</public_calendar>
+    <login_to_pro>Masaüstü arayüzüne giriş yapın</login_to_pro>
+    <login_to_basic>Tablet arayüzüne giriş yapın</login_to_basic>
+    <login_to_pda>Mobil arayüzüne giriş yapın</login_to_pda>
+    <js_turned_off_message_text>En iyi kullanıcı deneyimi ve gelişmiş özellikler için, masaüstü arayüzünü öneriyoruz. Bu JavaScript uyumluluğunu gerektirir. Tarayıcı ayarlarınızdan JavaScript&apos;in etkin olduğunu kontrol edin, ya da ya da devam edin</js_turned_off_message_text>
+    <js_turned_off_message_link>Tablet arayüzü</js_turned_off_message_link>
+    <learn_more>Tüm özellikler hakkında daha fazlasını öğrenin</learn_more>
+    <learn_more_short>Daha fazlasını öğren</learn_more_short>
+    <login_back>Girişe dön</login_back>
+    <changepwd>Değiştirin:&lt;br/&gt; parola</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Masaüstü</advanced>
+    <basic>Tablet</basic>
+  </login_client>
+  <login_style>
+    <gray>Gri</gray>
+    <white>Beyaz</white>
+    <black>Grafit</black>
+    <red>Kırmızı</red>
+    <yellow>Sarı</yellow>
+    <green>Yeşil</green>
+    <blue>Mavi</blue>
+    <purple>Mor</purple>
+    <orange>Turuncu</orange>
+    <brown>Kahverengi</brown>
+    <pink>Pempe</pink>
+  </login_style>
+  <skin_style>
+    <default>Blue</default>
+    <black>Black</black>
+    <brown>Brown</brown>
+    <graphite>Graphite</graphite>
+    <green>Green</green>
+    <orange>Orange</orange>
+    <pink>Pink</pink>
+    <purple>Purple</purple>
+    <red>Red</red>
+    <yellow>Yellow</yellow>
+  </skin_style>
+  <sign_up>
+    <question>Henüz bir hesabınız yok mu?</question>
+    <answer>Bir hesap oluştur</answer>
+    <sign_up>Kaydol</sign_up>
+    <create_account>Yeni hesap bilgilerinizi girin</create_account>
+    <fullname>Tam isim</fullname>
+    <domain>Domain</domain>
+    <username>Kullanıcı Adı</username>
+    <alternative>Diğer eposta</alternative>
+    <captcha_error>Geçersiz güvenlik kodu</captcha_error>
+    <pass_error>Belirlenen şifre kabul edilmedi</pass_error>
+    <incorrect_error>Yanlış kullanıcı adı ya da diğer ad</incorrect_error>
+    <exists_error>Böyle bir hesap zaten var</exists_error>
+    <error>Yeni hesap oluşturulamıyor</error>
+    <account_created>Yeni hesap başarıyla oluşturuldu</account_created>
+    <invalid_cpass>Geçersiz şifre onayı</invalid_cpass>
+    <confirm_pass>Onay</confirm_pass>
+    <password_change>Şifre değiştirme</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Şifremi unuttum</question>
+    <question_br>Şifremi&lt;br/&gt; unuttum?</question_br>
+    <title>Şifre&lt;br&gt; sıfırlama</title>
+    <answer>Sıfırla</answer>
+    <generate>Yeni güvenlik kodu için çift tıkla</generate>
+    <captcha>Görünen kodu girin</captcha>
+    <captcha_error>Geçersiz güvenlik kodu</captcha_error>
+    <security_code>Güvenlik kodu</security_code>
+    <reset_pass>Şifre Sıfırlama</reset_pass>
+    <enter_alt_pass>Giriş bilgileriniz eposta adresinize ve alternatif eposta adresinize (varsa) gönderilecek</enter_alt_pass>
+    <reset_send>Giriş bilgileriniz aşağıdaki eposta adres(ler)ine gönderilecek:</reset_send>
+    <reset_error>Belirtilen hesap bulunamıyor ya da şifresi alınamıyor</reset_error>
+    <subject>%EMAIL% hesabının şifresi sıfırlandı</subject>
+    <email>Merhaba %FULLNAME%,&#13;&#10;&#13;&#10;(%EMAIL%) hesabınız için WebClient&apos;tan bir şifre sıfırlama mı talep ettiniz?&#13;&#10;&#13;&#10;Aşağıdaki bağlantıya tıklayıp (ya da tarayıcınıza kopyala yapıştır yapabilirsiniz) eposta adresinin size ait olduğunu onaylayınız.&#13;&#10;%URL%&#13;&#10;&#13;&#10;Eğer talep yapmadıysanoz ya da bu mesajı size yanlışlıkla aldığınızı düşünüyorsanız, lütfen gözardı edin.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Name already exists</duplicity>
+    <label>Document with the same name &quot;%s&quot; already exists.</label>
+    <suggested_name>Suggested name</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>İşleniyor</processing>
+    <step1>1) Yedek dosyanızı yükleyin</step1>
+    <step2>2) Hedef klasörü seçin</step2>
+    <step3>3) İçe aktarım için sütun tipi seçin</step3>
+    <step1e>Select source contact folder</step1e>
+    <step2e>Select export type</step2e>
+    <step_date>Select Date format</step_date>
+    <default_date>Default</default_date>
+    <charset>Karakter takımı</charset>
+    <skipfirst>CSV&apos;deki ilk satırı geç</skipfirst>
+    <email1>Eposta 1</email1>
+    <email2>Eposta 2</email2>
+    <email3>Eposta 3</email3>
+    <phone1>Telefon 1</phone1>
+    <phone2>Telefon 2</phone2>
+    <phone3>Telefon 3</phone3>
+    <phone4>Telefon 4</phone4>
+    <phone_type1>Telefon Tipi 1</phone_type1>
+    <phone_type2>Telefon Tipi 2</phone_type2>
+    <phone_type3>Telefon Tipi 3</phone_type3>
+    <phone_type4>Telefon Tipi 4</phone_type4>
+    <import_successful>İçe aktarım başarılı</import_successful>
+    <import_unsuccessful>İçe aktarım başarısız</import_unsuccessful>
+    <import_finished>İçe aktarım başarılı. Bir hatadan dolayı %s öğe atlandı.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Otomatik</auto>
+    <load>Yükle</load>
+    <import>İçe Aktar</import>
+    <export>Dışa Aktar</export>
+    <unknown_ext>Bilinmeyen uzantı</unknown_ext>
+    <download_csv_file>Takvim öğeleri ile birlikte CSV dosyasını indir</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>İndir</download_file>
+    <select_col>İçe aktarılacak bazı kolon(ları)u seçiniz</select_col>
+    <select_email>En az bir eposta sütunu seçin</select_email>
+    <gw_xml_file>GroupWare ile XML yedekle</gw_xml_file>
+    <comma>CSV - Vİrgül (,)</comma>
+    <semicolon>CSV - noktalı virgül (;)</semicolon>
+    <colon>CSV - İki nokta (:)</colon>
+    <sharing>Paylaşım modunu zorla</sharing>
+    <import_info>Supported file formats for upload</import_info>
+    <import_info_itm>CSV (comma, colon, semicolon separated), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Lisanslar / Entegrasyon</license>
+    <licenses>Lisanslar</licenses>
+    <out>Outlook Sync</out>
+    <desk>Desktop Client</desk>
+    <download>İndir</download>
+    <key>Ürün Etkinleştirme Anahtarı (Kopyala - Yapıştır kullanın)</key>
+    <nokey>Bu uygulama için etkinleştirme anahtarı mevcut değil. Detaylar için yöneticinize başvurun.</nokey>
+  </license>
+  <devices>
+    <device>Cihaz</device>
+    <device_model>Cihaz Modeli</device_model>
+    <device_type>Cihaz Tipi</device_type>
+    <protocol>İletişim Kuralı</protocol>
+    <registered>Kayıtlı</registered>
+    <lastsync>Son Senkron</lastsync>
+    <factory>Fabrika Ayarlarına Sıfırla</factory>
+    <wipe>Uzaktan Silme</wipe>
+    <wiping>Uzaktan Silme Yapılıyor</wiping>
+    <nowipe>Uzaktan Silme Desteklenmiyor</nowipe>
+    <reset>Silmeyi Sıfırla</reset>
+    <delete_confirmation>Cihazı listeden silmek sonraki bağlantıda tekrar veri senkronizasyonuna neden olacaktır (eğer cihaz güncellemeyi durdurduysa kullanışlıdır). Eğer Tüm kullanıcı/hesap verisini cihazdan silmek isterseniz, cihaz Özelliklerine gidip Uzak Silmeye tıklayın. &lt;br/&gt;&lt;br/&gt; Cihaz(lar)ı listeden silmek istediğinize emin misiniz?</delete_confirmation>
+    <wipe_confirmation>Uzak Silme tüm kullanıcıları/hesapları cihazdan (ve depolama kartlarından) silecek ve cihazı fabrika ayarlarına döndürecek. Cihazın çalışan bir internet bağlantısı olması şarttır. &lt;br/&gt;&lt;br/&gt; Devam etmek istediğinize emin misiniz?</wipe_confirmation>
+    <options>Cihaz Seçenekleri</options>
+    <folders>Klasörler</folders>
+    <sync>Senkronizasyon</sync>
+    <private_folders>Kişisel Klasörler</private_folders>
+    <special_folders>Özel Folders</special_folders>
+    <gw_folders>GroupWare Klasörleri</gw_folders>
+    <mail_folders>Posta Klasörleri</mail_folders>
+    <archive>Arşiv</archive>
+    <public>Genel Klasörler</public>
+    <shared>Paylaşılan Klasörler</shared>
+    <past_mail>Geçmiş Posta öğeleri</past_mail>
+    <past_calendar>Geçmiş Takvim olayları</past_calendar>
+    <sync_tase>Görevleri Takvim olayları gibi senkronla</sync_tase>
+    <sync_note>Notları Senkronla</sync_note>
+    <all_folders>Tüm klasörler</all_folders>
+    <all_folders_mail>Tümü GroupWare&apos;i eposta ile</all_folders_mail>
+    <default_only>Sadece varsayılan klasörler</default_only>
+    <sync_all>Hepsi</sync_all>
+    <one_day>Bir gün</one_day>
+    <three_days>Üç gün</three_days>
+    <one_week>Bir hafta</one_week>
+    <two_weeks>İki hafta</two_weeks>
+    <one_month>Bir ay</one_month>
+    <three_months>Üç ay</three_months>
+    <six_months>Altı ay</six_months>
+    <inc_tasks>Sadece tamamlanmamış görevler</inc_tasks>
+    <new_cfolders>Yeni takvim klasörü</new_cfolders>
+    <merge_taks>Varsayılan takvim ile birleştir</merge_taks>
+    <events>Olaylar</events>
+    <tasks>Görevler</tasks>
+    <inotes>Görevler ve Notlar (Android uyg.)</inotes>
+    <new_folders>Yeni Klasör</new_folders>
+    <merge_default>Varsayılan klasör ile birleştir</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Folder Panel</leftpanel>
+    <rightpanel>WebChat Panel</rightpanel>
+    <share>Paylaş</share>
+    <new_document>Doküman Oluştur</new_document>
+    <new_message>New from Template</new_message>
+    <devices>Mobil Cihazlar</devices>
+    <vcard>Detaylarım</vcard>
+    <basic>Tablet Arayüzüne Geç</basic>
+    <old_client>Eski Arayüze Değiştir</old_client>
+    <search>Ara</search>
+    <filter>Süzgeç</filter>
+    <new>Yeni</new>
+    <print>Yazdır</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Ayarlar</settings>
+    <accounts>Hesaplar</accounts>
+    <logout>Çıkış</logout>
+    <logout_title>Ctrl+Tıklama ile Çık</logout_title>
+    <update>Yenile</update>
+    <compose>Yaz</compose>
+    <new_contact>Kişi</new_contact>
+    <new_template>Message Template</new_template>
+    <new_distrib_list>Dağıtım Listesi</new_distrib_list>
+    <new_event>Randevu</new_event>
+    <new_journal>Günlük</new_journal>
+    <new_note>Not</new_note>
+    <new_task>Görev</new_task>
+    <new_file>Document</new_file>
+    <new_upload>Dosya Yükle</new_upload>
+    <new_word>Word Dokümanı</new_word>
+    <new_excel>Excel Elektronik Tablo</new_excel>
+    <new_ppoint>PowerPoint Sunumu</new_ppoint>
+    <new_text>Metin Dokümanı</new_text>
+    <new_html>HTML Dokümanı</new_html>
+    <new_folder>Klasör</new_folder>
+    <reply_to_sender>Cevapla</reply_to_sender>
+    <reply_to_all>Tümünü Yanıtla</reply_to_all>
+    <reply_to_sender_t>Reply with Template</reply_to_sender_t>
+    <reply_to_all_t>Reply to All with Template</reply_to_all_t>
+    <forward>İlet</forward>
+    <delete>Sil</delete>
+    <empty_folder>Klasörü Boşalt</empty_folder>
+    <day_view>Gün</day_view>
+    <week_view>Hafta</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Ay</month_view>
+    <dial>Şimdi Ara</dial>
+    <sms>SMS Gönder</sms>
+    <calls>Ara</calls>
+    <conference>WebMeeting</conference>
+    <contacts_list>Liste</contacts_list>
+    <events_list>Liste</events_list>
+    <address_card>Adres Kartları</address_card>
+    <tasks_lists>Liste</tasks_lists>
+    <tasks_detailed>Detaylı Liste</tasks_detailed>
+    <active_tasks>Aktif Görevler</active_tasks>
+    <journal_day_view>Gün</journal_day_view>
+    <journal_week_view>Hafta</journal_week_view>
+    <journal_month_view>Ay</journal_month_view>
+    <journal_list>Liste</journal_list>
+    <notes_list>Liste</notes_list>
+    <options>Seçenekler</options>
+    <admin_options>Yönetici Seçenekleri</admin_options>
+    <domain_options>Domain Seçenekleri</domain_options>
+    <tools>Araçlar</tools>
+    <deliver>Teslim Et</deliver>
+    <quarantine>Karantina</quarantine>
+    <black_list>Karalisteye Taşı</black_list>
+    <white_list>Beyazlisteye Taşı</white_list>
+    <black_listed>Karalistele</black_listed>
+    <white_listed>Beyazlistele</white_listed>
+    <rules>Kurallar</rules>
+    <help>Yardım</help>
+  </main_menu>
+  <short_days>
+    <monday>Pzt</monday>
+    <tuesday>Salı</tuesday>
+    <wednesday>Çrş</wednesday>
+    <thursday>Prş</thursday>
+    <friday>Cma</friday>
+    <saturday>Crt</saturday>
+    <sunday>Paz</sunday>
+  </short_days>
+  <days>
+    <monday>Pazartesi</monday>
+    <tuesday>Salı</tuesday>
+    <wednesday>Çarşamba</wednesday>
+    <thursday>Perşembe</thursday>
+    <friday>Cuma</friday>
+    <saturday>Cumartesi</saturday>
+    <sunday>Pazar</sunday>
+  </days>
+  <months>
+    <january>Ocak</january>
+    <february>Şubat</february>
+    <march>Mart</march>
+    <april>Nisan</april>
+    <may>Mayıs</may>
+    <june>Haziran</june>
+    <july>Temmuz</july>
+    <august>Ağustos</august>
+    <september>Eylül</september>
+    <october>Ekim</october>
+    <november>Kasım</november>
+    <december>Aralık</december>
+  </months>
+  <short_months>
+    <january>Oca</january>
+    <february>Şub</february>
+    <march>Mrt</march>
+    <april>Nis</april>
+    <may>May</may>
+    <june>Haz</june>
+    <july>Tem</july>
+    <august>Ağu</august>
+    <september>Eyl</september>
+    <october>Eki</october>
+    <november>Kas</november>
+    <december>Ara</december>
+  </short_months>
+  <dates>
+    <every>Her</every>
+    <secondly>ikinci</secondly>
+    <minutely>dakika</minutely>
+    <hour>saat</hour>
+    <day>gün</day>
+    <weeks>weeks</weeks>
+    <month>ay</month>
+    <year>yıl</year>
+    <the/>
+    <first>ilk</first>
+    <last>son</last>
+    <second>ikinci</second>
+    <third>üçüncü</third>
+    <fourth>dördüncü</fourth>
+    <firth>beşinci</firth>
+    <postfix>si</postfix>
+    <except>haric</except>
+    <on/>
+    <mondays>Pazartesiler</mondays>
+    <tuesdays>Salılar</tuesdays>
+    <wednesdays>Çarşambalar</wednesdays>
+    <thursdays>Perşembeler</thursdays>
+    <fridays>Cumalar</fridays>
+    <saturdays>Cumartesiler</saturdays>
+    <sundays>Pazarlar</sundays>
+    <yearday>yılın günü</yearday>
+    <in/>
+    <week>hafta</week>
+    <week2>Hafta</week2>
+    <at/>
+    <and>ve</and>
+    <from>şu tarihten</from>
+    <until>şu tarihe kadar</until>
+    <times>%s defa tekrarlama</times>
+  </dates>
+  <form_buttons>
+    <revision>Değişiklik Yap</revision>
+    <skip>Vazgeç</skip>
+    <refresh>Yenile</refresh>
+    <retrieve>Al</retrieve>
+    <inherit>Devral</inherit>
+    <accept>Kabul Et</accept>
+    <decline>Reddet</decline>
+    <ok>OK</ok>
+    <close>Kapat</close>
+    <retry>Tekrar Dene</retry>
+    <test>Test</test>
+    <cancel>İptal Et</cancel>
+    <rename>Ad değiştir</rename>
+    <rewrite>Rewrite</rewrite>
+    <rewrite_all>Rewrite All</rewrite_all>
+    <save>Kaydet</save>
+    <dont>Yapma</dont>
+    <add>Ekle</add>
+    <edit>Düzenle</edit>
+    <find>Find</find>
+    <add_file>Dosya Ekle</add_file>
+    <add_item>Öğe ekle</add_item>
+    <remove>Kaldır</remove>
+    <address_book>Address Book</address_book>
+    <search>Ara</search>
+    <new_folder>Yeni Klasör</new_folder>
+    <map_it>Haritada Göster</map_it>
+    <sign_in>Giriş</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Ana Klasör</step1>
+    <create_new_folder>Yeni Klasör Oluştur</create_new_folder>
+    <create_error>Klasör zaten var ya da oluşturulamıyor.</create_error>
+    <name>Ad</name>
+    <type>Tip</type>
+    <channel>Kanal</channel>
+    <sharetype>Apply to</sharetype>
+    <all>All Folders</all>
+    <private>Private folders</private>
+    <selected>Selected folders</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Kullanıcı Adı</username>
+    <password>Şifre</password>
+    <protocol>İletişim Kuralı</protocol>
+    <server>Sunucu</server>
+    <server_proxy>Sunucu/Proxy</server_proxy>
+    <port>Port</port>
+    <extension>Extension</extension>
+    <description>Tanımlama</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>İçeriği Yönet</item_actions>
+    <recovery>Silinen Öğeleri Kurtar</recovery>
+    <add_virtual>Yeni Arama Klasörü Oluştur</add_virtual>
+    <edit_virtual>Arama Klasörünü Düzenle</edit_virtual>
+    <add_favorites>Favorilere Ekle</add_favorites>
+    <sharing>Paylaşım ve İzinler</sharing>
+    <change_channel>RSS Kanallarını Yönet</change_channel>
+    <subscribe>Senkronize et</subscribe>
+    <subscribed>Senkronize</subscribed>
+    <add_folder>Yeni Klasör Ekle</add_folder>
+    <add_shared_account>Paylaşılmış Hesap Ekle</add_shared_account>
+    <delete_folder>Klasörü Sil</delete_folder>
+    <unsubscribe_folder>Unsubscribe folder</unsubscribe_folder>
+    <move_folder>Klasörü Taşı</move_folder>
+    <move_folder_into>Klasörü Şuraya Taşı</move_folder_into>
+    <rename_folder>Klasörü Yeniden Adlandır</rename_folder>
+    <remove_account>Hesabı Kaldır</remove_account>
+    <sent_folder>Gönderilecek Klasörü Seç</sent_folder>
+    <select_folder>Klasör Seç</select_folder>
+    <mark_all_as_read>Okundu Olarak İşaretle</mark_all_as_read>
+    <default>Varsayılan Olarak Ayarla</default>
+    <export>Klasörü Dışa Aktar</export>
+    <color>Color</color>
+    <move_default>Are you sure you want to move default folder?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>Hepsi</all>
+    <pdf>PDF</pdf>
+    <play_sound>Play</play_sound>
+    <attachments>Eklentiler</attachments>
+    <upload>Yükle</upload>
+    <download>İndir</download>
+    <download_all>Hepsini İndir</download_all>
+    <open_window>Pencerede Aç</open_window>
+    <import>WebClient&apos;a Aktar</import>
+    <import_error>Desteklenmeyen Öğe Tipi</import_error>
+    <remove>Kaldır</remove>
+    <remove_all>Hepsini Kaldır</remove_all>
+    <add_item>Add Item</add_item>
+    <link_dropbox>Dropbox&apos;a Bağlantı</link_dropbox>
+    <view>Göz At</view>
+    <save>İndir</save>
+    <save_all>Hepsini indir</save_all>
+    <save_to_folder>Klasöre Kaydet</save_to_folder>
+    <show_images>Resimleri Önizle</show_images>
+    <show_image>Resmi Önizle</show_image>
+    <show_text>Düz Metin Mesajı</show_text>
+    <show_headers>Tüm Başlıklar</show_headers>
+    <show_cert>Sertifikayı Göster</show_cert>
+    <append_cert>Kişiye Ekle</append_cert>
+    <dropzone>&lt; Dosyayı Buraya Bırakın &gt;</dropzone>
+    <drop_holder>Sürükle ve Bırak dosyalar buraya...</drop_holder>
+    <quick_add>Hızlı yükle...</quick_add>
+    <quick_contact>Drop vCard file here...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Dropbox hatas</erroralert>
+    <missingkey>Dropbox yapılandırılmamış. Yönetici önce Dropbox entegrasyonunu kurmalı.</missingkey>
+    <unavailable>Dropbox geçici olarak müsait değil ve bir sonraki girişe kadar devre dışı bırakılacak.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Convert to HTML</convert_item>
+    <source>Source</source>
+    <send_notify>Değişikliklerin Bildirimi</send_notify>
+    <recover>Kurtar</recover>
+    <new>Yeni</new>
+    <delivery_report>Teslim Raporu</delivery_report>
+    <properties>Özellikler</properties>
+    <doc_management>Doküman Özellikleri</doc_management>
+    <open>Aç</open>
+    <open_pdf>Open as PDF</open_pdf>
+    <open_window>Pencerede Aç</open_window>
+    <edit>Düzenle</edit>
+    <reply_to_sender>Yanıtla</reply_to_sender>
+    <reply_to_all>Hepsini Yanıtla</reply_to_all>
+    <forward>İlet</forward>
+    <forward_as_message>Ek Olarak İlet</forward_as_message>
+    <redirect>Yönlendir</redirect>
+    <mark_as_read>Okundu Olarak İşaretle</mark_as_read>
+    <mark_as_unread>Okunmadı Olarak İşaretle</mark_as_unread>
+    <move_mail_to>Klasöre Taşı</move_mail_to>
+    <copy_mail_to>Klasöre Kopyala</copy_mail_to>
+    <delete>Sil</delete>
+    <delete_selected>Seçileni Sil</delete_selected>
+    <open_item>Aç</open_item>
+    <move_item_to>Klasöre Taşı</move_item_to>
+    <copy_item_to>Klasöre Kopyala</copy_item_to>
+    <new_distriblist>Yeni Dağıtım Listesi</new_distriblist>
+    <save_as>Farklı Kaydet...</save_as>
+    <html>HTML</html>
+    <text>Metin</text>
+    <eml>EML</eml>
+    <download_vcalendar>vCalendar Olarak Kaydet</download_vcalendar>
+    <download_vcard>vCard Olarak Kaydet</download_vcard>
+    <download_vnote>vNote Olarak Kaydet</download_vnote>
+    <download_file>İndir</download_file>
+    <open_office>Office&apos;te Açın</open_office>
+    <deliver>Teslim Et</deliver>
+    <black_list>Kara liste</black_list>
+    <white_list>Beyaz liste</white_list>
+    <blacklist_sender>Kara liste Gönderici</blacklist_sender>
+    <blacklist_domain>Blacklist whole Domain</blacklist_domain>
+    <whitelist_sender>Beyazliste Gönderici</whitelist_sender>
+    <whitelist_domain>Whitelist whole Domain</whitelist_domain>
+    <send_as_email>Eposta Olarak Gönder</send_as_email>
+    <send_email_to>Mesaj Gönder</send_email_to>
+    <add_to_contacts>Yeni Kişi Oluştur</add_to_contacts>
+    <add_to_exist_contacts>Varolan Kişiye Ekle</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Kişiler Klasörüne Ekle</add_contact>
+    <add_im>Add to WebChat Contact List</add_im>
+    <add_to_im>Add to WebChat</add_to_im>
+    <add>Ekle...</add>
+    <manage_sender>Göndericiyi Yönet...</manage_sender>
+    <invite_appointment>Randevuya Davet Et</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Kişiye Sertifika Ekle</cert_to_contact>
+    <contacts>Kişi</contacts>
+    <mandatorydetails>Please fill in your contact details</mandatorydetails>
+    <im>WebChat Roster</im>
+    <skip_delete>Tekrar sorma</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>Renksiz</none>
+    <color>Renk</color>
+    <white_flag>Beyaz bayrak</white_flag>
+    <red_flag>Kırmızı bayrak</red_flag>
+    <blue_flag>Mavi bayrak</blue_flag>
+    <yellow_flag>Sarı bayrak</yellow_flag>
+    <green_flag>Yeşil bayrak</green_flag>
+    <orange_flag>Turuncu bayrak</orange_flag>
+    <purple_flag>Mor bayrak</purple_flag>
+    <flag_complete>Bayrak tanımlandı</flag_complete>
+    <clear_flag>Bayrağı Temizle</clear_flag>
+    <important>Önemli</important>
+    <business>İş</business>
+    <personal>Kişisel</personal>
+    <vacation>Tatil</vacation>
+    <must_attend>Katılmalı</must_attend>
+    <travel_required>Yolculuk gerekli</travel_required>
+    <needs_preparation>Hazırlık gerekli</needs_preparation>
+    <birthday>Doğumgünü</birthday>
+    <anniversary>Yıldönümü</anniversary>
+    <phone_call>Telefonla arama</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Yeni Eposta Hesabı Ekle</add_account>
+    <delete_account>Hesabı Sil</delete_account>
+    <edit_account>Hesabı Düzenle</edit_account>
+    <validating>Hesap doğrulanıyor...</validating>
+    <invalid>Hesap geçersiz</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Gelen Kutusu</inbox>
+    <drafts>Taslaklar</drafts>
+    <sent>Gönderilen</sent>
+    <trash>Çöp</trash>
+    <spam>Spam</spam>
+    <templates>Templates</templates>
+    <quarantine>Karantina</quarantine>
+    <spam_queue>Süzgeçler</spam_queue>
+    <spam_queue-whitelist>Beyaz liste</spam_queue-whitelist>
+    <spam_queue-blacklist>Kara liste</spam_queue-blacklist>
+    <virtual-folders>Klasörleri Ara</virtual-folders>
+    <gw-trash>Kurtarma Öğeleri</gw-trash>
+    <calendars>Çoklu Takvimler</calendars>
+  </common_folders>
+  <folders>
+    <mails>Posta</mails>
+    <contacts>Kişiler</contacts>
+    <events>Takvim</events>
+    <tasks>Görevler</tasks>
+    <notes>Notlar</notes>
+    <journal>Günlük</journal>
+    <files>Dokümanlar</files>
+    <home>Ana sayfa</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>Posta</mail>
+    <contact>Kişiler</contact>
+    <event>Takvim</event>
+    <journal>Günlük</journal>
+    <note>Not</note>
+    <task>Görev</task>
+    <file>Document</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>Bu klasörü taşıyamazsınız</cantmove>
+    <cantrename>Bu klasörü yeniden adlandıramazsınız</cantrename>
+    <cantdelete>Bu klasörü silemezsiniz</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Ekler</attachments>
+    <to>Kime</to>
+    <subject>Konu</subject>
+    <nosubject>Konu Yok</nosubject>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <body>Metin</body>
+    <from>Gönderen</from>
+    <date>Tarih</date>
+    <size>Boyut</size>
+    <type>Tip</type>
+    <itmclassifyas>Kişi Adı</itmclassifyas>
+    <phone>Telefon</phone>
+    <itmcompany>Şirket</itmcompany>
+    <itmdepartment>Departman</itmdepartment>
+    <contact_email>Eposta</contact_email>
+    <expires>Son Geçerlilik Tarihi</expires>
+    <itmcategory>Etiketler</itmcategory>
+    <evntitle>Başlık</evntitle>
+    <itmtitle>Başlık</itmtitle>
+    <itmoriginalfolder>Orjinal Klasör</itmoriginalfolder>
+    <itm_deleted>Silindi</itm_deleted>
+    <item_moved>Silindi</item_moved>
+    <evnlocation>Yer</evnlocation>
+    <upcoming>Gelmekte olan</upcoming>
+    <event_startdate>Başlangıç</event_startdate>
+    <event_enddate>Bitiş</event_enddate>
+    <evntype>Etiketler</evntype>
+    <evncontact>Kişi</evncontact>
+    <evnstatus>Durum</evnstatus>
+    <task_startdate>Başlama tarihi</task_startdate>
+    <task_enddate>Bitiş tarihi</task_enddate>
+    <sndemail>Gönderici</sndemail>
+    <sndowner>Sahibi</sndowner>
+    <snddomain>Domain</snddomain>
+    <sndsubject>Konu</sndsubject>
+    <revised_by>Şu kişi tarafından incelendi</revised_by>
+    <comment>Açıklama</comment>
+    <qdate>Tarih</qdate>
+    <name>İsim</name>
+    <evnfilename>Dosya Adı</evnfilename>
+    <evnnote>Tanım</evnnote>
+    <evn_modified>Değişmiş</evn_modified>
+    <evnfilesize>Boyut</evnfilesize>
+    <lctphnwork1>İş Telefonu</lctphnwork1>
+    <lctphnfaxwork>İş Faksı</lctphnfaxwork>
+    <lctphnhome1>Ev Telefonu</lctphnhome1>
+    <lctphnmobile>Cep Telefonu</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Genel URL</public>
+    <share>Bağlantı Paylaş</share>
+    <ticket>Diğer</ticket>
+    <revisions>Düzenlemeler</revisions>
+    <revert>Döndür</revert>
+    <edit_comment>Yorum Düzenle</edit_comment>
+    <new_revision>New Revision</new_revision>
+  </item>
+  <event_view>
+    <week_label>Hafta</week_label>
+    <notitle>Başlık Yok</notitle>
+    <private>Gizli</private>
+    <newappointment>Yeni Randevu</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Oku: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Mesajınızı okundu.&#13;&#10;&#13;&#10;Mesaj detayları:&#13;&#10;&#13;&#10;Kimden: %FROM%&#13;&#10;Kime: %TO%&#13;&#10;Tarih: %DATE%&#13;&#10;Konu: %SUBJECT%</reading_confirmation>
+    <reply_message>-----Orjinal Mesaj-----</reply_message>
+    <reply_message_html>-----Orjinal Mesaj-----</reply_message_html>
+    <from>Kimden:</from>
+    <to>Kime:</to>
+    <cc>Cc:</cc>
+    <date>Tarih:</date>
+    <subject>Konu:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>Bay</mr>
+    <mrs>Byn</mrs>
+    <miss>Byn</miss>
+    <ms>Byn</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Jr.</jr>
+    <sr>Sr.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Görünen ad</displayname>
+    <avatar>Resim</avatar>
+    <contact>Kişi</contact>
+    <general>Genel</general>
+    <profile>Profil</profile>
+    <personal>Kişisel</personal>
+    <business>İş</business>
+    <other_l>Diğer</other_l>
+    <other>Not</other>
+    <contact_name>Göster</contact_name>
+    <sort_as>Sırala</sort_as>
+    <first_name>Ad</first_name>
+    <middle_name>İkinci Ad</middle_name>
+    <last_name>Soyad</last_name>
+    <nick_name>Takma ad</nick_name>
+    <full_name>Tam isim</full_name>
+    <title>Ünvan</title>
+    <suffix>Sonek</suffix>
+    <category>Etiketler</category>
+    <email_address>Eposta adresi</email_address>
+    <birthdate>Doğumgünü</birthdate>
+    <anniversary>Yıldönümü</anniversary>
+    <spouse>Eş</spouse>
+    <gender>Cinsiyet</gender>
+    <company>Şirket</company>
+    <job>İş</job>
+    <profession>Uzmanlık</profession>
+    <department>Departman</department>
+    <assistant>Asistan</assistant>
+    <manager>Yöneticis</manager>
+    <office_location>Ofis Konumu</office_location>
+    <email1>Eposta 1</email1>
+    <email2>Eposta 2</email2>
+    <email3>Eposta 3</email3>
+    <im>IM</im>
+    <phone>Telefon</phone>
+    <phones>Telefon(lar)</phones>
+    <male>Erkek</male>
+    <female>Kadın</female>
+    <street>Sokak</street>
+    <city>Şehir</city>
+    <zip>P.K.</zip>
+    <state>Eyalet</state>
+    <country>Ülke</country>
+    <home_address>Ev Adresi</home_address>
+    <business_address>İş adresi</business_address>
+    <other_address>Diğer Adres</other_address>
+    <homepage>Sitesi</homepage>
+    <calendar_url>Uygun/Mesgul URL</calendar_url>
+    <share_type>Paylaşım Tipi</share_type>
+    <address>Adres</address>
+    <web>Web</web>
+    <notes>Not</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Dağıtım Listesi</distrib_list>
+    <general>Genel</general>
+    <members>Üyeler</members>
+    <title>Başlık</title>
+    <category>Etiketler</category>
+    <add_title>Ekle</add_title>
+    <edit_title>Düzenle</edit_title>
+    <name>Ad</name>
+    <email>Eposta</email>
+  </distrib_list>
+  <time_interval>
+    <from>Gönderen</from>
+    <to>Kime</to>
+    <duration>Süre</duration>
+    <all_day_event>Tüm günlük olay</all_day_event>
+    <days>Gün</days>
+    <change_default>Varsayılan Zaman Dilimini Değiştir</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>Bu bir tekrarlanan öğedir</title_edit>
+    <text_edit>Sadece bu mu, hepsi mi yoksa bu ve bundan sonrakiler mi değiştirilecek?</text_edit>
+    <title_delete>Bu tekrarlanan bir öğedir</title_delete>
+    <text_edit_2>Sadece bu mu ya da tüm mü değişecek?</text_edit_2>
+    <text_delete>Sadece bu mu ya da tümü mü çıkartılacak?</text_delete>
+    <btn_this>Sadece bu</btn_this>
+    <btn_all>Tümü</btn_all>
+    <btn_allfromnow>Bundan sonrakiler</btn_allfromnow>
+    <btn_cancel>İptal</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Decline reason</reason>
+    <event>Randevu</event>
+    <general>Genel</general>
+    <repeating>Tekrarlanan</repeating>
+    <schedule>Planlama</schedule>
+    <reminders>Hatırlatıcılar</reminders>
+    <onlinemeeting>WebMeeting</onlinemeeting>
+    <startmeeting>Şimdi başla</startmeeting>
+    <joinmeeting>Şimdi gir</joinmeeting>
+    <title>Başlık</title>
+    <location>Konum</location>
+    <category>Etiketler</category>
+    <notes>Notlar</notes>
+    <timezone>Zaman dilimi</timezone>
+    <show_as>Olarak Göster</show_as>
+    <free>Uygun</free>
+    <busy>Meşgul</busy>
+    <tentative>Deneme</tentative>
+    <out_of_office>Ofis Dışında</out_of_office>
+    <unknown>Bilgi yok</unknown>
+    <label>Etiket</label>
+    <meeting_hint>Toplantı oluştur ya da gir, ekran paylaş</meeting_hint>
+    <high>Yüksek:</high>
+    <low>Düşük:</low>
+  </event>
+  <file>
+    <file>Document</file>
+    <expire>Bitiş %s</expire>
+    <name>Dosya Adı</name>
+    <lock>Kilitle</lock>
+    <unlock>Aç</unlock>
+    <locked>Kilitli</locked>
+    <unlocked>Açılmış</unlocked>
+    <locked_by>Document locked by %s</locked_by>
+    <blank_doc>Doküman</blank_doc>
+    <description>Açıklama</description>
+    <new_doc>Empty Document</new_doc>
+    <converting>Document conversion in progress.</converting>
+  </file>
+  <note>
+    <note>Not</note>
+    <category>Etiketler</category>
+    <title>Başlık</title>
+    <general>Genel</general>
+  </note>
+  <task>
+    <task>Görev</task>
+    <attendees>Katılımcılar</attendees>
+    <status>Durum</status>
+    <complete>Tamamlanmış</complete>
+    <repeating>Tekrar Eden</repeating>
+    <reminders>Hatırlatıcılar</reminders>
+    <general>Genel</general>
+    <title>Başlık</title>
+    <start_date>Başlangıç tarihi</start_date>
+    <due_date>Bitiş tarihi</due_date>
+    <category>Etiketler</category>
+    <not_started>Başlamadı</not_started>
+    <in_progress>Sürüyor</in_progress>
+    <completed>Tamamlanmış</completed>
+    <deferred>Ertelenmiş</deferred>
+    <waiting>Biri bekleniyor</waiting>
+    <done>Tamam</done>
+  </task>
+  <blackwhite>
+    <black>Kara liste</black>
+    <white>Beyaz liste</white>
+    <email>Eposta/Domain</email>
+  </blackwhite>
+  <compose>
+    <template>Template</template>
+    <newmail>Mesaj</newmail>
+    <send>Gönder</send>
+    <sendinfo>Mesaj gönder</sendinfo>
+    <save>Kaydet</save>
+    <saveinfo>Mesajı taslaklara kaydet</saveinfo>
+    <options>Seçenekler</options>
+    <advanced>Gelişmiş seçenekler</advanced>
+    <html>HTML</html>
+    <text>Metin</text>
+    <sms>SMS</sms>
+    <compose_sms>SMS Yaz</compose_sms>
+    <sms_preview>SMS Önizleme</sms_preview>
+    <sms_info>%s karakter %s mesajda</sms_info>
+    <smartattach>SmartAttach</smartattach>
+    <smartattachinfo>Attachments will be saved to your %s and replaced by download links in the email body.</smartattachinfo>
+    <readconfirmationinfo>Alıcı mesajı okuduğunda bilgi al</readconfirmationinfo>
+    <show_all>Tüm girişleri göster</show_all>
+    <signinfo>Mesaj dijital olarak imzalanmış</signinfo>
+    <encryptinfo>Mesajı çöz</encryptinfo>
+    <priorityinfo>Mesaj önceliği ayarla</priorityinfo>
+    <subject_empty>Mesajın başlığı yok. &lt;br&gt;Yine de gönderilsin mi?</subject_empty>
+    <rcp_empty>Add some recipient to send the mail to.</rcp_empty>
+    <optionstitle>Mesaj Seçenekleri</optionstitle>
+    <encrypt>Mesajı şifrele</encrypt>
+    <sign>Mesajı dijital olarak imzala</sign>
+    <nosign>No signing certificate found.&lt;br&gt;Send the message unsigned?</nosign>
+    <delivery_report>Teslim Raporu Göster</delivery_report>
+    <reply_to>Reply To</reply_to>
+    <upload_file>Yerel Sürücüden Ekle</upload_file>
+    <upload_item>WebClient&apos;ten Ekle</upload_item>
+  </compose>
+  <sharing>
+    <public>Herkes</public>
+    <private>Özel</private>
+    <anonymous>Anonim/Herkes</anonymous>
+    <custom>Özel</custom>
+    <inherited>Devralındı</inherited>
+    <none>Hiçbiri</none>
+    <enter_address>Adres Gir</enter_address>
+    <permissions>İzinler</permissions>
+    <user>Kullanıcı</user>
+    <items>Öğeler</items>
+    <folder>Klasör</folder>
+    <administration>Yönetici</administration>
+  </sharing>
+  <time>
+    <hours>Saat(ler)</hours>
+    <minutes>Dakika(lar)</minutes>
+    <days>Gün(ler)</days>
+    <oneday>gün</oneday>
+    <moredays>gün</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Kişileri Seç</select_emails>
+    <add>Ekle</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Ara</placeholder>
+    <tags>Etiketler</tags>
+    <used>Kullanıldı</used>
+    <hint>%s öğe(ler) kullanıldı</hint>
+    <selected>Seçildi</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Ev 1</lctphnhome1>
+    <lctphnhome2>Ev 2</lctphnhome2>
+    <lctphnassistant>Asistan</lctphnassistant>
+    <lctphnwork1>İş 1</lctphnwork1>
+    <lctphnwork2>İş 2</lctphnwork2>
+    <lctphnfaxhome>Ev Faksı</lctphnfaxhome>
+    <lctphnfaxwork>İş Faksı</lctphnfaxwork>
+    <lctphncallback>Geri Arama</lctphncallback>
+    <lctphncompany>Şirket</lctphncompany>
+    <lctphncar>Araba</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>Mobil</lctphnmobile>
+    <lctphnother>Diğer</lctphnother>
+    <lctphnotherfax>Diğer FAKS</lctphnotherfax>
+    <lctphnpager>Sayfa</lctphnpager>
+    <lctphnprimary>Öncelikli</lctphnprimary>
+    <lctphnradio>Radyo</lctphnradio>
+    <lctphntelex>Telex</lctphntelex>
+    <lctphnhearing>Açıklama</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>Gün</day>
+    <week>Bulunulan Hafta</week>
+    <week_of_month>Ayın Kaçıncı Haftası</week_of_month>
+    <month_of_year>Yılın Hangi Ayı</month_of_year>
+    <month>Ay</month>
+    <year>Yıl</year>
+    <year_s>Yıl(lar)</year_s>
+    <repeats>Tekrar - Her:</repeats>
+    <not_repeats>Tekrar Yok</not_repeats>
+    <end_date>Bİtiş Tarihi:</end_date>
+    <no_end>Bitiş Tarihi Yok</no_end>
+    <until>Bitiş</until>
+    <count>Sayı</count>
+    <daily>Günlük</daily>
+    <weekly>Haftalık</weekly>
+    <monthly>Aylık</monthly>
+    <yearly>Yıllık</yearly>
+    <every>Her</every>
+    <the/>
+    <of>nın</of>
+    <recur_every>Her</recur_every>
+    <weeks_on>hafta(lar):</weeks_on>
+    <of_every>hepsinin</of_every>
+    <months>ay(lar)</months>
+    <days>gün(ler)</days>
+    <day_list>hafta</day_list>
+    <every_weekday>Her çalışma günü</every_weekday>
+    <first>ilk</first>
+    <second>ikinci</second>
+    <third>üçüncü</third>
+    <fourth>dördüncü</fourth>
+    <last>son</last>
+    <weekday>iş haftası</weekday>
+    <weekend_day>haftasonu</weekend_day>
+  </repeating>
+  <reminder>
+    <none>Hiçbiri</none>
+    <email>Eposta</email>
+    <popup>Popup (Masaüstü)</popup>
+    <address>Adres</address>
+    <remind1>Bana Hatırlat</remind1>
+    <remind2>şundan önce</remind2>
+    <is_reminder>Hatırlatıcı gönder</is_reminder>
+    <no_reminder>Hatırlatıcı gönderme</no_reminder>
+    <type>Tip</type>
+    <snooze>Ertele</snooze>
+    <meeting>Şimdi Başlat</meeting>
+    <dismiss>İptal</dismiss>
+    <reminder>Hatırlatma</reminder>
+  </reminder>
+  <journal>
+    <journal>Günlük</journal>
+    <title>Başlık</title>
+    <type>Tip</type>
+    <company>Şirket</company>
+    <conversation>Konuşma</conversation>
+    <document>Doküman</document>
+    <e-mail_message>Eposta Mesajı</e-mail_message>
+    <fax>Faks</fax>
+    <letter>Mektup</letter>
+    <meeting>Toplantı</meeting>
+    <meeting_cancellation>Toplantı iptali</meeting_cancellation>
+    <meeting_request>Toplantı talebi</meeting_request>
+    <meeting_response>Toplantı cevabı</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Not</note>
+    <phone_call>Telefon görüşmesi</phone_call>
+    <remote_session>Uzak bağlantı</remote_session>
+    <task>Görev</task>
+    <task_request>Görev talebi</task_request>
+    <task_response>Görev dönüşü</task_response>
+  </journal>
+  <certificate>
+    <purposes>Bu sertifika aşağıdaki amaç(lar) için üretilmiştir:</purposes>
+    <ssl>Uzak bilgisayara kimliğinizi doğrular</ssl>
+    <smime>Eposta mesajlarını korur</smime>
+    <serial>Kod</serial>
+    <view>Göster</view>
+    <certificate>Sertifika</certificate>
+    <invalid>Gecersiz sertifika ya da parola</invalid>
+    <passphrase>Parola</passphrase>
+    <issuedto>Verilen</issuedto>
+    <issuedby>Veren</issuedby>
+    <email>Eposta</email>
+    <validity>Geçerlilik</validity>
+    <badtype>Özel kısım kayıp</badtype>
+    <missing>Sertifika Bulunamadı</missing>
+    <invaliditem>Sertifika Kabul Edilmedi</invaliditem>
+    <assigned>Sertifika başarı ile eklendi</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Klasör Yok: &quot;%s&quot;</folder_not_exist>
+    <accepted>Event was accepted</accepted>
+    <unsure>Event was replied tentatively</unsure>
+    <declined>Event was declined</declined>
+    <proposed>New time was proposed</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Force users to enter contact information</force_enter_user_info>
+    <disable_wipe>Disable Remote Wipe</disable_wipe>
+    <documents>Documents</documents>
+    <aliases>Aliases</aliases>
+    <disable_mailformat>Disable HTML/plain switch in compose window</disable_mailformat>
+    <disable_altmail>Hide Alternate Email</disable_altmail>
+    <rcpt_suggest>Auto-complete</rcpt_suggest>
+    <rcpt_cache>Clear List</rcpt_cache>
+    <keep_search>Keep search term when switching folders</keep_search>
+    <smartfolder>SmartAttach folder</smartfolder>
+    <always_show_rcp>Always show address lines</always_show_rcp>
+    <login_screen>Giriş Ekranı</login_screen>
+    <exclude_gal>Exclude GAL from auto-complete</exclude_gal>
+    <password_policy>Parola ilkesi</password_policy>
+    <notifications>Masaüstü Bildirimleri</notifications>
+    <nofocus>Otomatik (sadece arkaplan)</nofocus>
+    <autorevision_mode>Dokumanların otomatik değiştirilmesi açık</autorevision_mode>
+    <disable_support>Girişte destek bağlantısı devre dışı</disable_support>
+    <check_subject>Boş konuyu kontrol et</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Anonim hesap için paylaşımı gizle</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Favori klasörünü göster</show_favorites>
+    <layout>Genel Ayarlar</layout>
+    <signature>İmza</signature>
+    <signature_separator>Standart imza ayracı ekle &quot;-- &quot;</signature_separator>
+    <signature_to_top>İmza mesajın üstünde</signature_to_top>
+    <groups>Gruplar</groups>
+    <group>Group</group>
+    <trash_folder>Trash Folder</trash_folder>
+    <sent_folder>Sent Folder</sent_folder>
+    <groupsend>Bu grup için gönderilmiş mesajları genel klasöre ekle</groupsend>
+    <ftime>Geçen Zaman</ftime>
+    <sso_only>Sadece SSO girişine izin ver</sso_only>
+    <activity_monitor>İşlem yapılmazsa çık (Dakika)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 saat</time_12>
+    <time_24>24 saat</time_24>
+    <logout_url>Çıkış URL</logout_url>
+    <disable_attach_item>Disable Attach from WebClient</disable_attach_item>
+    <disable_virtual>Disable Search Folders</disable_virtual>
+    <disable_interfaces>Girişte arayüz seçimini devre dışı bırak</disable_interfaces>
+    <disable_languages>Girişte dil seçimini devre dışı bırak</disable_languages>
+    <confirm_exit>Çıkışta onaylama</confirm_exit>
+    <compose>Oluşturulmuş mesaj</compose>
+    <never>Asla</never>
+    <always>Daima</always>
+    <homepage>Ana Sayfa</homepage>
+    <banner_enable>Ana Başlığı Etkinleştir</banner_enable>
+    <application_enable>Uygulama İndirme Başlığını Etkinleştir</application_enable>
+    <banner_url>Ana Başlık URL</banner_url>
+    <banner_height>Na Başlık Yüksekliği</banner_height>
+    <count_subject>Konu öneklerini grupla (örn., Re [4], Fw [2])</count_subject>
+    <reply_prefix>Cevap ön eki kullanın (&gt;)</reply_prefix>
+    <collate>MySQL için ulusal sıralama epostalarını (karşılaştırma) destekle</collate>
+    <init_page>Baş Sayfa</init_page>
+    <remember_folder>Son klasörü hatırla</remember_folder>
+    <show_inbox>Gelen Kutusu</show_inbox>
+    <show_home>Ana Sayfa</show_home>
+    <clear_trash>Çöp epostaları şu zamandan sonra sil (Gün)</clear_trash>
+    <clear_gwtrash>Çöp epostaları şu tarihten sonra sil (Gün)</clear_gwtrash>
+    <alias>Takma Ad</alias>
+    <subscribed_holidays>Belirlenmiş Tatiller</subscribed_holidays>
+    <holidays>Tatiller</holidays>
+    <weather>Hava</weather>
+    <temperature>Sıcaklık</temperature>
+    <c>Santigrat (°C)</c>
+    <f>Fahrenhayt (°F)</f>
+    <city>Şehir</city>
+    <disable_folder_types>Seçilen klasör tiplerini devre dışı bırak</disable_folder_types>
+    <antispam>Anti-Spam</antispam>
+    <spam_mode>Spam klasör modu</spam_mode>
+    <reports_mode>Spam raporları modu</reports_mode>
+    <quarantine>Karantina</quarantine>
+    <last_time>Son Giriş Zamanı</last_time>
+    <last_ip>Son Giriş IP</last_ip>
+    <current_time>Geçerli Giriş Zamanı</current_time>
+    <current_ip>Geçerli Giriş IP&apos;si</current_ip>
+    <default>Varsayılan</default>
+    <use_spam>Spam klasörünü kullan</use_spam>
+    <not_spam>Spam klasörünü kullanma</not_spam>
+    <disabled>Devre Dışı</disabled>
+    <all>Hepsi</all>
+    <full>Tam</full>
+    <new_items>Yeni Öğeler</new_items>
+    <smtp_relay>İletilememiş iletilerin geri dönmesi</smtp_relay>
+    <restrictions>Kısıtlamalar</restrictions>
+    <hide_sortstring>Değişken Dizisini Gizle</hide_sortstring>
+    <disable_aliases>Diğer Adları Devre dışı bırak</disable_aliases>
+    <disable_redirect>Yönlendirmeyi devre dışı</disable_redirect>
+    <disable_other_accounts>Diğer Hesapları Devre Dışı Bırak</disable_other_accounts>
+    <disable_edit_vcard>Detaylarımı Düzenlemeyi Devre Dışı Bırak</disable_edit_vcard>
+    <disable_edit_account>Disable My Account editing</disable_edit_account>
+    <disable_change_password>Şifre Değiştirmeyi Devre Dışı Bırak</disable_change_password>
+    <disable_antispam_control>Anti-Spam Sekmesini Gizle</disable_antispam_control>
+    <disable_licenses>Lisanslar Sekmesini Devre Dışı Bırak</disable_licenses>
+    <disable_login_help>Giriş Yardımını Devre Dışı Bırak</disable_login_help>
+    <disable_login_banners>Giriş Başlıklarını Devre Dışı Bırak</disable_login_banners>
+    <disable_signup>Kaydol&apos;u Devre Dışı Bırak</disable_signup>
+    <disable_sip>WebPhone&apos;u (dahili VoIP istemcisi) Devre Dışı Bırak</disable_sip>
+    <disable_call_forwarding>Disable Call Forwarding</disable_call_forwarding>
+    <disable_external_sip>Harici VoIP&apos;i Devre Dışı Bırak</disable_external_sip>
+    <disable_export>GrupWare Dışa Aktarmayı Devre Dışı Bırak</disable_export>
+    <disable_smart>SmartAttach&apos;ı Devre Dışı Bırak</disable_smart>
+    <disable_dropbox>Dropbox&apos;u Devre Dışı Bırak</disable_dropbox>
+    <disable_im>Disable WebChat</disable_im>
+    <disable_sms>SMS&apos;i Devre Dışı Bırak</disable_sms>
+    <disable_remember_pulldown>&quot;Beni Hatırla&quot;yı Devre Dışı Bırak</disable_remember_pulldown>
+    <disable_autofill>Kullanıcı Adı/Parolayı Otomatik Doldurmayı Devre Dışı Bırak</disable_autofill>
+    <disable_rules>Kuralları Devre Dışı Bırak</disable_rules>
+    <disable_gmaps>Google Haritalarını Devre Dışı Bırak</disable_gmaps>
+    <disable_forwarder>İletici Sekmesini Devre Dışı Bırak</disable_forwarder>
+    <disable_keep_emails>Hide &quot;Keep emails in mailbox&quot; in Forwarder</disable_keep_emails>
+    <disable_autoresponder>Otomatik Cevaplayıcı Sekmesini Devre Dışı Bırak</disable_autoresponder>
+    <share_mode>Paylaşım modu</share_mode>
+    <share_p>Özel (Veri paylaşılmaz)</share_p>
+    <share_pf>Genel (Veri herkesle paylaşılır)</share_pf>
+    <share_f>Arkadaşlar (Veriyi sadece arkadaşlar ile paylaşılır)</share_f>
+    <daily_event_report>Günlük ajandayı eposta ile gönder</daily_event_report>
+    <reminder_notification>Eposta hatırlatıcıları gönder</reminder_notification>
+    <reminder_email>Hatırlatıcı ve ajanda eposta adresi</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Uygulama Anahtarı</dropbox_app_key>
+    <dropbox_instructions>Dropbox entegrasyonu için, www.dropbox.com&apos;a giriş yapın, geliştirici bölümüne gidin ve uygulama anahtarı oluşturun. Kısa bir açıklama ve host adı ya da WebClient erişimi için IP sorulacaktır.</dropbox_instructions>
+    <server>Sunucu</server>
+    <login_with_email>Eposta adresi ile giriş yap</login_with_email>
+    <server_logs>Günlük seviyeleri</server_logs>
+    <server_logs0>Yok</server_logs0>
+    <server_logs2>Özet</server_logs2>
+    <server_logs3>Ayıklama</server_logs3>
+    <server_logs4>Genişletilmiş</server_logs4>
+    <http_port>HTTP port</http_port>
+    <imapserver>IMAP Sunucu</imapserver>
+    <smtpserver>SMTP Sunucu</smtpserver>
+    <xmppserver>XMPP Sunucu</xmppserver>
+    <port>Port</port>
+    <pgtitle>Sayfa başlığı</pgtitle>
+    <logo>Giriş logosu</logo>
+    <login_style>Giriş biçimi</login_style>
+    <login_client>Tercih edilen arayüz</login_client>
+    <skin_style>Skin style</skin_style>
+    <interfaces>Mevcut arayüzler</interfaces>
+    <spell_language>Yazım denetimi</spell_language>
+    <delete_emptyfolder>Klasörü Boşalt eyleminde mesajları sil</delete_emptyfolder>
+    <show_images>Harici metin içi resimleri otomatik göster</show_images>
+    <show_images_spam>Apply also to Spam folder</show_images_spam>
+    <auto_show_images>Ekli resimleri otomatik olarak önizle</auto_show_images>
+    <sound_notify>Sesli bildirimi etkinleştir</sound_notify>
+    <domains_settings>Alan Adları</domains_settings>
+    <domain>Alan Adı</domain>
+    <edit_settings>Domain ayarlarını düzenle</edit_settings>
+    <resetpass>Parola Sıfırlama</resetpass>
+    <resetmail>Eposta</resetmail>
+    <resetenable>Parola Sıfırlamasını Etkinleştir</resetenable>
+    <accounts>Hesaplar</accounts>
+    <account>Account</account>
+    <tools>Araçlar</tools>
+    <autoresponder>Oto. cevaplayıcı</autoresponder>
+    <forwarder>İletici</forwarder>
+    <pcertificate>Özel Sertifikalar</pcertificate>
+    <certificate>Sertifikalar</certificate>
+    <mail_settings>Posta</mail_settings>
+    <im_settings>WebChat</im_settings>
+    <sip_settings>WebPhone</sip_settings>
+    <sip_webrtc>Use native web browser capabilities for media when possible</sip_webrtc>
+    <sip_start>WebPhone&apos;u otomatik başlat</sip_start>
+    <sip_internal>VoIP hesabınınızla (SIP) entegre edin</sip_internal>
+    <sip_external>Harici VoIP hesabınınızla (SIP) entegre edin</sip_external>
+    <sip_dial>Harici VoIP hesabıyla arayın (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>VoIP hesabınızla arayın (mevcut kaydedilmiş softphone/telefon)</sip_dial_internal>
+    <call_forwarding>Call Forwarding</call_forwarding>
+    <use_forwarding>Use call forwarding</use_forwarding>
+    <forward_to>Forward call to</forward_to>
+    <forward_after>Forward after (seconds)</forward_after>
+    <chat_window>Sohbet Penceresi</chat_window>
+    <auto_chat>Sohbet penceresini otomatik aç</auto_chat>
+    <auto_subscribe>Yeni kullanıcıları otomatik kaydet</auto_subscribe>
+    <remember_status>Durumu hatırla</remember_status>
+    <extended_status>Mevcut durumlar</extended_status>
+    <newline_chat>Yeni sohbet başlat</newline_chat>
+    <smiles_chat>İfadeleri kullan</smiles_chat>
+    <enter_send>Enter ile iletiyi gönder</enter_send>
+    <general_settings>Genel</general_settings>
+    <other_accounts>Diğer Hesaplar</other_accounts>
+    <primary_accounts>Hesabım</primary_accounts>
+    <account_settings>Hesaplar</account_settings>
+    <importexport_settings>İçe Aktar/Dışa Aktar</importexport_settings>
+    <default_reminder>Yeni randevular için varsayılan hatırlatıcıyı ata</default_reminder>
+    <use_sslswfatt>SSL oturumunda HTTP hızlı yüklemeyi kullan</use_sslswfatt>
+    <use_swfupload>Ekler için hızlı yüklemeyi kullan</use_swfupload>
+    <use_office>Mümkünse Office&apos;te Aç&apos;ı kullan</use_office>
+    <banner_enabled>Giriş sayfasında başlığa izin ver</banner_enabled>
+    <twitter_disabled>Twitter Bütünleştirmesini Devre Dışı Bırak</twitter_disabled>
+    <twitter_link>Twitter işleyici</twitter_link>
+    <facebook_disabled>Facebook bütünleştirmesini Devre Dışı Bırak</facebook_disabled>
+    <facebook_link>URL of page to like</facebook_link>
+    <skin>Görünüm</skin>
+    <items_ab_shown>Seçilen adreslerin öğelerini say</items_ab_shown>
+    <date_format>Tarih biçimiı</date_format>
+    <time_format>Zaman biçimi</time_format>
+    <language>Dil</language>
+    <timezone>Zaman dilimi</timezone>
+    <general>Genel</general>
+    <default_mail_settings>Posta Oluşturma</default_mail_settings>
+    <folders_mapping>Varsayılan Klasörler</folders_mapping>
+    <subject>Konu</subject>
+    <message_format>İleti biçimi</message_format>
+    <re_message_format>Cevap iletisi biçimi</re_message_format>
+    <html_message>HTML iletisi</html_message>
+    <read_confirmation>Okundu Onayı</read_confirmation>
+    <request_read_confirmation>Okundu onayı iste</request_read_confirmation>
+    <send_read_confirmation>Göndermeye izin ver</send_read_confirmation>
+    <ask_before>Göndermeden önce sor</ask_before>
+    <smart_attach>SmartAttach kullan</smart_attach>
+    <save_sent_message>Gönderilen iletileri Gönderilen klasörüne kaydet</save_sent_message>
+    <save_folder_message>Gönderilen iletileri kaydet</save_folder_message>
+    <encrypt>İletileri şifrele</encrypt>
+    <sign>Dijital imzalı iletiler</sign>
+    <appendvcard>Detaylarımı ekleyin (vCard)</appendvcard>
+    <charset>Karakter Kümesi</charset>
+    <priority>Önem</priority>
+    <reply_to>Yanıt adresi</reply_to>
+    <reply_myself>Auto Bcc myself</reply_myself>
+    <move_to_trash>Silinen iletileri Çöp klasörüne taşı</move_to_trash>
+    <auto_add_recipient_to_addressbook>Alıcıları otomatik olarak adres defterine ekle</auto_add_recipient_to_addressbook>
+    <edit_rules>Kurallar</edit_rules>
+    <rules>Kurallar</rules>
+    <forward_messages>İletileri İlet</forward_messages>
+    <inline>Satıriçi</inline>
+    <as_attachment>Ek olarak</as_attachment>
+    <autoupdate_message>Yeni epostaları kontrol et (Dakika)</autoupdate_message>
+    <autosave_message>Taslak iletileri kaydet (Dakika)</autosave_message>
+    <calendar_settings>Takvim</calendar_settings>
+    <main>Temel</main>
+    <day_begins_at>Gün Başlangıcı</day_begins_at>
+    <day_ends_at>Gün Bitimi</day_ends_at>
+    <week_begins_on>Hafta başı</week_begins_on>
+    <week_starts_today>Hafta mevcut günden başlar</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Paylaşım</sharing_settings>
+    <shared_email>Paylaşılmış eposta</shared_email>
+    <email>Eposta</email>
+    <rights>Haklar</rights>
+    <read>Oku</read>
+    <write>Yaz</write>
+    <modify>Düzenle</modify>
+    <delete>Sil</delete>
+    <owner>Yönetici</owner>
+    <acc_name>Ad</acc_name>
+    <quota>Disk Kotası</quota>
+    <sms_quota>SMS Kotası</sms_quota>
+    <quota_home>Disk Kotası (tüm posta klasörlerindeki öğeler, dosya klasörleri, kişilere ekler, olaylar,vb. içerir)</quota_home>
+    <description>Tanımlama</description>
+    <old_password>Eski Şifre</old_password>
+    <new_password>Yeni Şifre</new_password>
+    <new_password_conf>Şifreyi Onayla</new_password_conf>
+    <save_drafts_to>Taslakları kaydı</save_drafts_to>
+    <default_flag>Varsayılan bayrak</default_flag>
+    <alternative_email>Alternatif eposta</alternative_email>
+    <default_settings>Varsayılan Ayarlar</default_settings>
+    <event_view>Takvim görünümü</event_view>
+    <event_show_as>Randevuların gösterimi</event_show_as>
+    <event_sharing>Randevu paylaşımı</event_sharing>
+    <contact_sharing>Kişi paylaşımı</contact_sharing>
+    <journal_sharing>Günlük paylaşımı</journal_sharing>
+    <note_sharing>Not paylaşımı</note_sharing>
+    <task_sharing>Görev paylaşımı</task_sharing>
+    <file_sharing>Dosya paylaşımı</file_sharing>
+    <force_for_domainadmin>Bu seçeneği hem domain yöneticileri hem kullanıcılar için zorla</force_for_domainadmin>
+    <force_for_users>Bu seçeneği kullanıcılar için zorla</force_for_users>
+    <force>Seçeneği Zorla</force>
+  </settings>
+  <email_priority>
+    <highest>En yüksek</highest>
+    <high>Yüksek</high>
+    <normal>Normal</normal>
+    <medium>Orta</medium>
+    <low>Düşük</low>
+    <lowest>En düşük</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Klasör seç</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Öğe Seç</insert_item>
+    <untitled>başlıksız</untitled>
+    <embedded>Bütünleşik</embedded>
+    <link>Bağlantı</link>
+  </insert_item>
+  <attendees>
+    <shared>Önerilen Kişiler</shared>
+    <add_title>Ekle</add_title>
+    <edit_title>Düzenle</edit_title>
+    <resource>Kaynak</resource>
+    <remove>Kaldır</remove>
+    <edit>Düzenle</edit>
+    <name>Ad</name>
+    <email>Eposta</email>
+    <folder>Klasör Seç</folder>
+    <all_attendees>Bütün Katılımcılar</all_attendees>
+    <status>Durum</status>
+    <status_p>Beklemede</status_p>
+    <status_a>Kabul Edildi</status_a>
+    <status_d>Reddedildi</status_d>
+    <role>Rol</role>
+    <role_q>Gerekli</role_q>
+    <role_s>Kaynak</role_s>
+    <role_t>İsteğe bağlı</role_t>
+    <role_g>Düzenleyen</role_g>
+    <quick_add>Katılımcı ya da Kaynak Adı Girin</quick_add>
+  </attendees>
+  <dial>
+    <dial>Çevir</dial>
+    <keypad>Keypad</keypad>
+    <call>Ara</call>
+    <mute>Mute</mute>
+    <answer>Cevapla</answer>
+    <decline>Reddet</decline>
+    <filter>Sadece WebPhone kişilerini görüntüle</filter>
+    <hfilter>Display only Missed calls</hfilter>
+    <phone>WebPhone</phone>
+    <duration>Süre:</duration>
+    <video>Video</video>
+    <localcam>This Computer</localcam>
+    <remotecam>Remote Computer</remotecam>
+    <answer_video>Cevapla + Vidyo</answer_video>
+    <hang_up>Kapat</hang_up>
+    <busy>User is busy</busy>
+    <pbook>Telefon Defteri</pbook>
+    <refresh>Geçmişi Yenile</refresh>
+    <call_duration>Arama Süresi %s</call_duration>
+    <history>Geçmiş</history>
+    <missed>Cevapsız</missed>
+    <incoming>Gelen</incoming>
+    <outgoing>Giden</outgoing>
+    <select_contect>Choose preferred contact</select_contect>
+    <calling>Calling to</calling>
+    <incomingcall>Call from</incomingcall>
+    <callestablished>Call with</callestablished>
+    <notify_ext>Dialed over External Phone</notify_ext>
+  </dial>
+  <sip>
+    <sip>WebPhone</sip>
+    <external>Dial over external phone</external>
+    <screen>Call with screensharing</screen>
+    <sip_status>WebPhone: %s</sip_status>
+    <default_contact>Varsayılan WebPhone Kişileri</default_contact>
+    <unreachable>Sunucuya ulaşılamıyor</unreachable>
+    <device>Ses donanımı bulunamadı</device>
+    <videonotsupported>Your browser doesn&apos;t support video calls. For best results use the latest Chrome or Firefox.</videonotsupported>
+    <offline>WebPhone is Offline (calls will be dialed over external VoIP softphone/telephone)</offline>
+    <outgoingcall>You are calling %s</outgoingcall>
+    <incomingcall>%s is calling you</incomingcall>
+    <callongoing>You are in a call with %s</callongoing>
+    <callestablished>%s ile arama yapıldı</callestablished>
+    <userbusy>%s kullanıcısı meşgul</userbusy>
+    <callfinished>Arama tamamlandı</callfinished>
+    <callcanceled>The call has ended</callcanceled>
+    <notreachable>Cannot reach user on WebPhone</notreachable>
+    <calldeclined>The call was declined</calldeclined>
+    <info>WebPhone Bilgi: %s</info>
+    <notification>Kullanıcı %s %s</notification>
+    <error>WebPhone Alarmı</error>
+    <notice>WebPhone Alarm</notice>
+    <udp>WebPhone bağlantı hatası. güvenlik duvarınızı ya da internet bağlantınızı kontrol edin.</udp>
+    <slow>Başlatma çok yavaş. WebPhone düzgün çalışmayabilir.</slow>
+    <init>WebPhone bağlantı hatası. Seçenekler - Telefon &apos;dan ayarlarınızı kontrol edin.</init>
+    <mediarequest>Please allow access to your microphone or camera. Alternatively click on Troubleshoot button below to access an interactive guide.</mediarequest>
+    <invalidstate>Could not access required media devices. Another application could be already using them.</invalidstate>
+    <nopermission>Permission to media devices was denied or is blocked. You need to allow use of microphone or camera to interact.</nopermission>
+    <mediadenied>Could not access the requested media device(s). Possibly they are disconnected or misconfigured.</mediadenied>
+    <ffmedia>Media access not granted. Use the microphone or camera icon top left in the browser to Allow or Deny media access.</ffmedia>
+    <nowebrtc>Your browser doesn&apos;t support WebRTC for audio/video. Use another browser (we suggest Chrome) or install a WebRTC browser plugin.</nowebrtc>
+    <gettingmedia>There is a call or conference in progress. Please allow or deny access to devices to continue.</gettingmedia>
+    <occupied>WebPhone is already in use.</occupied>
+  </sip>
+  <conference>
+    <planner>WebMeeting planner</planner>
+    <aborted>Toplantıya son verildi.</aborted>
+    <access>Hesap bilgisi</access>
+    <allattendees>Tüm katılımcılar</allattendees>
+    <missinguserid>Bu toplantıda katılımcı değilsiniz. Toplantı sonlandırılyor.</missinguserid>
+    <appletrunning>Java started, waiting for connection to meeting...</appletrunning>
+    <callestablished>WebMeeting is in progress</callestablished>
+    <callfinished>WebMeeting has ended</callfinished>
+    <came>toplantıya girdi</came>
+    <cancelled>Toplantı beklenmedik bir şekilde bitirildi.</cancelled>
+    <privatechat>Start Private Chat</privatechat>
+    <chatalreadymeeting>Yeni bir toplantı daveti aldınız fakat şu anda bir toplantıda olduğunuz için katılamıyorsunuz.</chatalreadymeeting>
+    <chatinvite>I would like to invite you to a WebMeeting</chatinvite>
+    <closed>The WebMeeting session ended</closed>
+    <closing>Bu toplantıdan ayrılmak ya da tüm katılımcılar için toplantıyı bitirmek istiyor musunuz?</closing>
+    <confirminvite>sent you an invitation to WebMeeting</confirminvite>
+    <connectfailure>Toplantıya bağlanılamıyor</connectfailure>
+    <connecting>Toplantıya bağlanılmaya çalışılıyor</connecting>
+    <create>Create new WebMeeting</create>
+    <created>WebMeeting created, starting meeting...</created>
+    <createfirst>There is currently no WebMeeting in progress, would you like to start one?</createfirst>
+    <delegate>Moderatör Yap</delegate>
+    <screen>Remote screen</screen>
+    <desktop>Ekran paylaş</desktop>
+    <waitvideo>Waiting for remote screen</waitvideo>
+    <notchrome>For screen sharing you need to use Chrome</notchrome>
+    <nohttps>Secure connection (https) is required for screen sharing.</nohttps>
+    <noplugin>Screen-sharing plugin is not installed.</noplugin>
+    <desktopinfo>Share your screen with other attendees</desktopinfo>
+    <dialin>Arama yapmak istiyorsanız, şu numaralardan birini çevirin:</dialin>
+    <disablefirebug>Firebug uzantısı bu işlevsellik ile etkileşebilir. Firebug&apos;u devre dışı bırakıp tekrar deneyin.</disablefirebug>
+    <dismiss>Katılımcıyı Çıkart</dismiss>
+    <duration>Süre:</duration>
+    <end>End WebMeeting</end>
+    <endcall>Aramayı bitir</endcall>
+    <endforall>End WebMeeting for all</endforall>
+    <endinfo>Toplantı bitiriliyor...</endinfo>
+    <finished>Ses kaydınız işlenecek ve Dokümanlara kaydedilecek.</finished>
+    <generalerror>Unspecified meeting-related error occurred.</generalerror>
+    <id>Toplantı ID:</id>
+    <shortid>ID:</shortid>
+    <info>WebMeeting Info</info>
+    <instruct>Sesli konferansa bağlandınız, mikrofon ve hoparlörünüzü kullanın - kulaklık kullanmanız önerilir.</instruct>
+    <invalidmeetingid>Bu toplantıya giremezsiniz. Süresi dolmuş ya da yanlış Toplantı ID.</invalidmeetingid>
+    <invalidsessionid>Oturumun süresi dolmuş, toplantı sonlandırılıyor.</invalidsessionid>
+    <invitationedit>Davet iletisi:</invitationedit>
+    <invite>Davet Et</invite>
+    <inviteinfo>Katılımcı Davet Et</inviteinfo>
+    <invitation_sent>Davet gönderildi</invitation_sent>
+    <invited>WebMeeting invitation received</invited>
+    <invitesubject>WebMeeting Invitation</invitesubject>
+    <join>Join WebMeeting</join>
+    <joining>Toplantıya Giriliyor</joining>
+    <leave>Çık</leave>
+    <leaveinfo>Leave WebMeeting</leaveinfo>
+    <leaveorend>Toplantının devam etmesini istiyorsanız yeni bir modeatör seçin. Aksi halde toplantı tüm katılımcılar için bitecek.</leaveorend>
+    <leaving>Bu toplantıdan çıkmak istediğinize emin misiniz?</leaving>
+    <left>toplantıdan çıktı.</left>
+    <leftchat>Mesaj iletilemedi, katılımcı toplantıdan çıktı.</leftchat>
+    <mailinvite>You can join this meeting now</mailinvite>
+    <manager>moderatör</manager>
+    <meeting>WebMeeting</meeting>
+    <mikogoerror>Server reported an error with screen sharing.</mikogoerror>
+    <servererror>Genel toplantı ile ilgili hata oluştu. Daha fazla bilgi için yöneticinizle iletişime geçin.</servererror>
+    <connectionerror>Toplantı ağ bağlantı hatası nedeniyle bitirildi. Daha sonra tekrar deneyin.</connectionerror>
+    <mute>Sesi kapat</mute>
+    <muteall>Tüm Katılımcıların Sesini Kapat</muteall>
+    <muteinfo>Mikrofonu Kapat</muteinfo>
+    <muteone>Katılımcının Sesini Kapat</muteone>
+    <attendees>Attendees</attendees>
+    <chat>WebChat</chat>
+    <name>Ad:</name>
+    <needspecialpermissions>Bu işlemi yapmak için yetersiz izin</needspecialpermissions>
+    <networkrequesterror>Ağda bir hata oldu. Toplantıdan çıktınız.</networkrequesterror>
+    <nocallallowed>Calls are not allowed during a WebMeeting</nocallallowed>
+    <noparticipants>Katılımcı yok</noparticipants>
+    <notaccessmode>WebMeeting service is disabled for this account.</notaccessmode>
+    <notauthenticated>You are not authenticated to this service.</notauthenticated>
+    <notenabled>WebMeetings are disabled by server administrator</notenabled>
+    <notonline>Ağ bağlantısı yok</notonline>
+    <notsetupproperly>WebMeeting service is not configured properly.</notsetupproperly>
+    <notlicensed>Insufficient license for WebMeetings.</notlicensed>
+    <licenseerror>Insufficient license to start more WebMeetings.</licenseerror>
+    <offline>The meeting is offline.</offline>
+    <ongoing>WebMeeting in progress</ongoing>
+    <onlyorganizercandothis>This feature is accessible only to meeting organizer.</onlyorganizercandothis>
+    <onlysuperusercandothis>You are not authorized to perform this operation.</onlysuperusercandothis>
+    <organizer>düzenleyici</organizer>
+    <pending>Waiting for organizer to start the WebMeeting...</pending>
+    <phone>Telefon:</phone>
+    <phoning>You are on a call. Would you like to end it and start the WebMeeting?</phoning>
+    <preparing>Toplantı verisi alınıyor</preparing>
+    <promoted>şimdi moderatör</promoted>
+    <ready>Toplantı başlamak için hazır</ready>
+    <recap>Bilgiler her zaman aşağıdaki &quot;bilgi&quot; simgesine tıklayarak görülebilir.</recap>
+    <record>Ses kaydet</record>
+    <recordinfo>Kaydediliyor</recordinfo>
+    <recording>Ses kaydediliyor</recording>
+    <restart>Restart WebMeeting</restart>
+    <schedule>Schedule WebMeeting</schedule>
+    <scheduleorstart>Toplantıyı şimdi mi başlatmak istersiniz yoksa daha sonraki bir zamana plan mı yapmak istersiniz?</scheduleorstart>
+    <silenceinfo>Konuşmacıların Sesini Kapat</silenceinfo>
+    <sipnoparticipants>Katılımcı yok, toplantı sonlandırıldı.</sipnoparticipants>
+    <start>Start WebMeeting</start>
+    <started>Meeting started, waiting for Java to start...</started>
+    <startedconnect>Toplantı başladı, bağlanıyor...</startedconnect>
+    <startednojava>Meeting started, waiting for media access...</startednojava>
+    <starting>Toplantı başlıyor</starting>
+    <startnow>Start WebMeeting now</startnow>
+    <joinnow>Join existing WebMeeting</joinnow>
+    <terminate>Bu toplantıyı bitirmek istediğinize emin misiniz?</terminate>
+    <timeout>Toplantı bağlantısı devam ettirilemiyor</timeout>
+    <unknown>Gösterilmeyen katılımcı</unknown>
+    <unmuteone>Katılımcının Sesini Aç</unmuteone>
+    <details>WebMeeting details</details>
+    <callin>Arama ayrıntıları</callin>
+    <url>Toplantı URL:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>Arama ID:</callid>
+    <waitfailure>Unable to join the meeting.</waitfailure>
+    <waiting>Waiting for Java to start, this may take a while.</waiting>
+    <welcome>Welcome to IceWarp WebMeeting</welcome>
+    <me>Ben</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>Java, Office uygulamalarınızın doğrudan web tarayıcıdan başlatılmasını ve otomatik olarak doküman değişikliklerinin yüklenmesini gerektirir.</nolaunch>
+    <nooffice>Office Suite algılanamadı.</nooffice>
+    <openfailed>Could not open the document in Office. Would you like to download it instead?</openfailed>
+    <noappfound>Could not find an application to open this type of document.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Mod:</mode>
+    <disabled>Devre Dışı</disabled>
+    <respond_always>Herzaman yanıtla</respond_always>
+    <respond_once>Bir kez yanıtla</respond_once>
+    <respond_after_period>Bir süre sonra tekrar yanıtla</respond_after_period>
+    <respond_period>Bu süre sonunda yeniden cevapla (Gün):</respond_period>
+    <from>Gönderen</from>
+    <subject>Konu</subject>
+    <text>Metin</text>
+    <respond_only_if_to_me>Sadece kullanıcıların eposta adreslerine gönderilen iletileri yanıtla</respond_only_if_to_me>
+    <respond_between>Sadece bu aralıktakileri cevapla:</respond_between>
+    <noresponderfor>Bunun için cevaplama yok</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Buraya ilet:</forward_to>
+    <keep_copy>Epostaları gelen kutusunda tut</keep_copy>
+    <forward_older>Şu kadardan eski postaları ilet (Gün):</forward_older>
+    <forward_older_to>Eski postaları şuraya ilet:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Ekle / Düzenle</addedit>
+    <header>Başlık</header>
+    <filters>Süzgeçler</filters>
+    <edit_header>Başlığı düzenle</edit_header>
+    <empty_operator/>
+    <not>DEĞİL</not>
+    <and>VE</and>
+    <or>VEYA</or>
+    <and_not>VE DEĞİL</and_not>
+    <or_not>VEYA DEĞİL</or_not>
+    <from>Kimden:</from>
+    <to>Kime:</to>
+    <subject>Konu:</subject>
+    <cc>Cc:</cc>
+    <reply_to>Yanıtla:</reply_to>
+    <date>Tarih:</date>
+    <message>İleti</message>
+    <message_type>İleti tipi:</message_type>
+    <message_body>İleti içeriği</message_body>
+    <custom_message_header>Özel ileti başlığı</custom_message_header>
+    <any_message_header>Herhangi bir ileti başlığı</any_message_header>
+    <attachment_name>Ek adı</attachment_name>
+    <sender>Gönderici</sender>
+    <recipient>Alıcı</recipient>
+    <senders_ip>Gönderenin IP&apos;si</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Gönderen</ip>
+    <all_messages>Tüm Mesajlar</all_messages>
+    <no_messages>İleti yok</no_messages>
+    <priority_is>önem</priority_is>
+    <priority_isnt>önemsiz</priority_isnt>
+    <is_spam>spam</is_spam>
+    <isnt_spam>spam değil</isnt_spam>
+    <is_greater_than>den büyük olan</is_greater_than>
+    <is_lower_than>den aşağı olan</is_lower_than>
+    <match_case>Büyük küçük harf eşleştir</match_case>
+    <regexp>Regex</regexp>
+    <whole_word>Kelimenin tamamı</whole_word>
+    <matches>uyuşuyor</matches>
+    <doesnt_match>uyuşmuyor</doesnt_match>
+    <contains_string>içeriyor</contains_string>
+    <doesnt_contain_string>içermiyor</doesnt_contain_string>
+    <matches_regex>regex uyuşması</matches_regex>
+    <doesnt_match_regex>regex uyuşmazlığı</doesnt_match_regex>
+    <is_string>öyle</is_string>
+    <isnt_string>değil</isnt_string>
+    <spam_score>Spam puanı</spam_score>
+    <authorized>yetkili</authorized>
+    <unauthorized>yetkisiz</unauthorized>
+    <add>Ekle</add>
+    <delete>Sil</delete>
+    <up>Yukarı</up>
+    <down>Aşağı</down>
+    <action>Eylem</action>
+    <actions>Eylemler</actions>
+    <accept>Kabul et</accept>
+    <reject>Reddet</reject>
+    <quarantine>Karantina</quarantine>
+    <spam>Spam</spam>
+    <stop_processing>Daha fazla kural işleme</stop_processing>
+    <move_to>Buraya taşı</move_to>
+    <copy_to>Buraya kopyala</copy_to>
+    <encrypt_message>İletiyi şifrele</encrypt_message>
+    <set_message_priority>İletinin önemi</set_message_priority>
+    <set_message_flag>İleti bayrağı ayarla</set_message_flag>
+    <text>Metin:</text>
+    <title>Başlık</title>
+    <conditions>Şartlar</conditions>
+    <edit>Düzenle</edit>
+    <rule>Kural</rule>
+    <rules>Kurallar</rules>
+    <highest>en yüksek</highest>
+    <high>yüksek</high>
+    <normal>normal</normal>
+    <low>düşük</low>
+    <lowest>en Düşük</lowest>
+    <spam_is_greater_than>den daha yüksek</spam_is_greater_than>
+    <spam_is_lower_than>den daha düşük</spam_is_lower_than>
+    <forward_to>İletilecek kişi</forward_to>
+    <send_message>İleti gönder</send_message>
+    <three_dots>...</three_dots>
+    <email>Eposta</email>
+    <instant_messaging>WebChat</instant_messaging>
+    <active>Aktif</active>
+  </filters>
+  <rich>
+    <alt>Diğer metin</alt>
+    <code>Source</code>
+    <paragraph>Paragraf</paragraph>
+    <normal>Normal</normal>
+    <heading>Başlık</heading>
+    <clearformatting>Biçim temizleme</clearformatting>
+    <font>Yazı tipi</font>
+    <size>Boyut</size>
+    <rows>Satırlar</rows>
+    <columns>Sütunlar</columns>
+    <padding>Hücre doldurma</padding>
+    <spacing>Hücre aralığı</spacing>
+    <img_spacing>Aralığı</img_spacing>
+    <bordercolor>Kenarlık rengi</bordercolor>
+    <border>Kenarlık</border>
+    <bold>Kalın yap</bold>
+    <italic>Eğik yap</italic>
+    <underline>Altı çizili</underline>
+    <style>Biçimlendirme tipi</style>
+    <align>Text Align</align>
+    <left>Sola hizala</left>
+    <center>Ortaya hizala</center>
+    <right>Sağa hizala</right>
+    <justify>Yasla</justify>
+    <numberedlist>Numaralı liste</numberedlist>
+    <bulletedlist>İmli liste</bulletedlist>
+    <indent>Indent</indent>
+    <leftindent>Sol girinti</leftindent>
+    <rightindent>Sağ girinti</rightindent>
+    <bgcolor>Arkaplan rengi</bgcolor>
+    <color>Metin rengi</color>
+    <cut>Seçimi kes</cut>
+    <copy>Seçimi kopyala</copy>
+    <paste>Seçimi yapıştır</paste>
+    <pastew>Metin olarak yapıştır</pastew>
+    <insert>Insert</insert>
+    <addlink>Link</addlink>
+    <table>Table</table>
+    <image>Image</image>
+    <dropbox>Dropbox link</dropbox>
+    <spell>İmla kontrolü</spell>
+    <url>URL</url>
+    <uploaded>Yükleme</uploaded>
+    <internal>İç</internal>
+    <direction>Metin yönü (HTML)</direction>
+    <ltr>Soldan sağa</ltr>
+    <rtl>Sağdan sola</rtl>
+    <screenshot>Take screenshot</screenshot>
+    <paste_img>Paste image</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Loading</loading>
+    <framework>Çerçeve yükleniyor</framework>
+    <settings>Ayarlar Yükleniyor</settings>
+    <language>Kaynaklar yükleniyor</language>
+    <indexing>Dizinleniyor</indexing>
+    <startup>Başlıyor</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Desktop Client</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Desktop Client İndir</help_win_desktop1>
+    <help_win_desktop2>Yükleyiciyi başlatın. Desktop Client ana ekranında, &lt;b&gt;Araçlar - Hesaplar&lt;/b&gt;. &lt;b&gt;Hesaplar&lt;/b&gt; penceresi görünür. Bu pencerede, &lt;b&gt;&lt;i&gt;Yeni Hesap&lt;/i&gt;&lt;/b&gt; tıklayın. Yeni Hesap sihirbazı görünür. &lt;i&gt;Eposta&lt;/i&gt; ve &lt;i&gt;Şifre&lt;/i&gt; alanlarını doldurup &lt;b&gt;Şimdi Başlat.&lt;/b&gt; tıklayın.</help_win_desktop2>
+    <help_win_desktop3>Hesap ayrıntıları sayfasında, Hesap adınızı değiştirebilirsiniz. İleri&apos;ye tıklayın, İlerideki sayfada istemediğiniz özellikleri devredışı bırakabilirsiniz. Bitir&apos;e tıkayarak kurulumu bitirebilirsiniz.</help_win_desktop3>
+    <help_win_osync1>Outlook Sync İndir</help_win_osync1>
+    <help_win_osync2>Yükleyiciyi çalıştırın. SmartDiscover sayfasında &lt;i&gt;Eposta adresinizi&lt;/i&gt; ve &lt;i&gt;Şifrenizi&lt;/i&gt;  girin, &lt;i&gt; SmartDiscover&apos;ı geç ve el ile ayarla&lt;/i&gt; kutusunu &lt;b&gt;onaylamayınız&lt;/b&gt;. İleri&apos;ye Tıklayın.</help_win_osync2>
+    <help_win_osync3>İleriki adımda Lisans aktivasyonu penceresi gözükecek.</help_win_osync3>
+    <help_win_osync4>IceWarp Outlook Sync için bir lisansınız var ise, Evet&apos;e tıklayın. Eğer IceWarp Outlook Sync&apos;i 30 günlük deneme lisansı ile kullanmak istiyorsanız, Hayır&apos;a tıklayın.</help_win_osync4>
+    <help_win_osync5>Bitir&apos;e tıklayarak kurulumu tamamlayabilirsiniz.</help_win_osync5>
+    <help_win_20131>In the &lt;b&gt;File&lt;/b&gt; menu, on the &lt;b&gt;Account Information&lt;/b&gt; page, click &lt;b&gt;Add Account&lt;/b&gt;, the Add Account dialog opens. On the &lt;b&gt;Auto Account Setup&lt;/b&gt; page, select the &lt;i&gt;Manual setup or additional server types&lt;/i&gt; option and click Next.&#13;&#10;On the &lt;b&gt;Choose Service&lt;/b&gt; page, select the &lt;i&gt;Outlook.com or Exchange ActiveSync compatible service&lt;/i&gt; option and click Next.</help_win_20131>
+    <help_win_20132>&lt;b&gt;Sunucu Ayarları&lt;/b&gt; sayfasında kullanıcı, sunucu ve giriş bilgilerinizi doldurun. İleri&apos;ye tıklayın.</help_win_20132>
+    <help_win_20133>Hesap ayarları denemesinden sonra, Bitir&apos;e tıklayın.</help_win_20133>
+    <help_osx_all_applications_title>All applications</help_osx_all_applications_title>
+    <help_osx_messages_title>Mesajlar</help_osx_messages_title>
+    <help_osx_messages1>Mesajları açın ve ana menüden &lt;b&gt; Mesajlar - Hesap Ekle&lt;/b&gt; seçin. Ekle&apos;den hesap tiplerinden, &lt;b&gt;Diğer mesajlar hesabı...&lt;/b&gt; ve Devam&apos;a tıklayın.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Takvim</help_osx_calendar_title>
+    <help_osx_calendar1>Takvimi açın ve ana menüden&lt;b&gt;Takvim - Hesap Ekle&lt;/b&gt; seçin. Hesap tilerinden ekle, &lt;b&gt;Add CalDAV Hesabı&lt;/b&gt; seçin ve Devam&apos;a tıklayın.</help_osx_calendar1>
+    <help_osx_calendar2>&lt;b&gt;Bir CalDAV Hesabı Eklez&lt;/b&gt; penceresinden, &lt;i&gt;Hesap Tipi&lt;/i&gt; ayarlarından, &lt;b&gt;El ile&lt;/b&gt; seçin.&#13;&#10;Eposta adresinizi &lt;i&gt;Kullanıcı Adı&lt;/i&gt; ve şifrenizi &lt;i&gt;Şifre&lt;/i&gt; olarak giriniz.&#13;&#10;&lt;i&gt;Sunucu Adresi&lt;/i&gt; kısmına, sunucu adınızı girin. Oluştur&apos;a tıklayın.</help_osx_calendar2>
+    <help_osx_calendar3>&lt;b&gt;Hatırlatıcılar&lt;/b&gt; kurulumunda &lt;b&gt;Sistem Tercihleri - Internet Hesapları&lt;/b&gt;&apos;na gidin ve henüz ayarladığınız takvim hesabını yerleştirin. &lt;i&gt;Hatırlatıcılar İle Kullan&lt;/i&gt;&apos;ı işaretleyin.</help_osx_calendar3>
+    <help_osx_contacts_title>Kişiler</help_osx_contacts_title>
+    <help_osx_contacts1>Kişileri açın ve ana menüden &lt;b&gt;Kişiler - Hesap Ekle&lt;/b&gt; seçin. Hesap tipleri eklemeden &lt;b&gt;Diğer kişi hesabı&lt;/b&gt;&apos;nı seçin ve Devam&apos;a tıklayın.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>All applications</help_osx_all>
+    <help_osx_all1>Download configurator</help_osx_all1>
+    <help_osx_all2>Open the downloaded IceWarp Configurator image file. Run IceWarp Configurator. If prompted that the application was downloaded from the Internet, click Open. Fill in the Email Address and Password fields and click &lt;strong&gt;Continue&lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>Each application that can be auto-configured will have a green &lt;strong&gt;Connect&lt;/strong&gt; button next to it. Click one by one, or select &lt;strong&gt;Connect All&lt;/strong&gt; to setup all available applications.</help_osx_all3>
+    <help_tablet_and_title>Android Tabletler</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Windows Tabletler</help_tablet_win_title>
+    <help_tablet_win1>Sağ tarafta &lt;b&gt;Başlat&lt;/b&gt; ekranında, &lt;i&gt;Ayarlar - PC Ayarlarını Değiştir - Hesaplar&lt;/i&gt; seçin. Hesaplar sayfasında, &lt;i&gt;Diğer hesaplar&lt;/i&gt; seçeneğini seçin.&#13;&#10;Diğer hesaplar sayfasında, &lt;i&gt;Bir kullanıcı ekle&lt;/i&gt; basın. Bir sonraki sayfada, sunucu adını doldurup İleri&apos;ye basın.</help_tablet_win1>
+    <help_tablet_win2>Microsoft hesabı oluştur penceresinde, hesap bilgilerinizi doldurun ve İleri&apos;ye basın.</help_tablet_win2>
+    <help_tablet_win3>Güvenlik ekle bilgi sayfasında, güvenlik tercihlerinizi ayarlayın ve İleri&apos;ye basın. İletişim tercihleri sayfasında ileri basın. Son sayfada Bitir&apos;e basın.</help_tablet_win3>
+    <help_phone_and_title>Android Aygıtlar</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>&lt;b&gt;Uzak güvenlik yönetimi&lt;/b&gt; ekranında, &lt;b&gt;Tamam&lt;/b&gt; basın. Bu şirketinizin ilkelerini cihazınıza zorlamak için ya da kaybedilirse uzaktan sıfırlama için gereklidir.</help_phone_and2>
+    <help_phone_and3>&lt;b&gt;Hesap ayarları&lt;/b&gt; ekranından, &lt;i&gt;Gelen kutusu denetleme sıklığı&lt;/i&gt;&apos;nı seçin ve ne kadar eski epostaların senkronize edileceğini &lt;i&gt;Senkron günleri&lt;/i&gt;&apos;nden ayarlayın. İsteğe bağlı olarak &lt;i&gt;Varsayılan olarak bu hesaptan eposta gönder&lt;/i&gt; seçilebilir, diğer ayarlara göz gezdirin ve İleri&apos;ya basın.</help_phone_and3>
+    <help_phone_and4>Uygulamalarda bu hesabı tanımlamak için bir hesap etiketi sağlayın ve İleri&apos;ye basın.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>&lt;b&gt;Ayarlar&lt;/b&gt;&apos;a gidin, &lt;i&gt;Posta, Kişiler, Takvimler - Hesap Ekle - Exchange&lt;/i&gt; seçeneklerini seçin.</help_ios1>
+    <help_ios2>İlerideki sayfada, &lt;i&gt;Eposta, Şifre, Tanımlama&lt;/i&gt; alanlarını doldurun. İleri&apos;ye basın.</help_ios2>
+    <help_ios3>İleriki sayfada, isteğe bağlı olarak kaydırma kontrolleri ile kullanmak istemediğiniz özelliklerin devre dışı olmasını kapatabilirsniz. Kaydet&apos;e basın. Gelişmiş ayarlar &lt;b&gt;Posta, Kişiler, Takvimler - Hesaplar&lt;/b&gt;&apos;ın içinde hesapların açıklamaları altında bulunabilir.</help_ios3>
+    <help_phone_win_title>Windows Phone</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>&lt;i&gt;Eposta adresi&lt;/i&gt;&apos;ni ve &lt;i&gt;Şifre&lt;/i&gt;&apos;yi doldurun. Bittiğinde, &lt;b&gt;Giriş yap&lt;/b&gt;&apos;a tıklayın.</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X ; B.D. ve diğer ülkelerde kayıtlı Apple Inc. markalarıdır. Microsoft, Windows, Outlook ve Windows Phone Microsoft Corporation Birleşik Devletler ve diğer ülkelerde kayıtlı Microsoft Şirketinin marka ya da markalarıdır. Android Google Inc. markasıdır. IceWarp ABD ve diğer ülkelerde kayıtlı bir markadır.</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>Eposta, takvimler, kişiler, görevler</subtitle>
+    <descr>Adım adım hesap açma</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>IceWarp Desktop Client Kurulumu</subtitle>
+    <descr>Adım adım kurulum</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Takvimler ve Hatırlatıcılar</subtitle>
+    <descr>Mac&apos;ta adım adım kurulum</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>Posta, takvim, kişiler</subtitle>
+    <descr>Adım adım kurulum.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>Eposta, takvim ve kişiler</subtitle>
+    <descr>Adım adım hesap kurulumu</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>Eposta, takvimler, kişiler</subtitle>
+    <descr>Adım adım hesap kurulumu.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Previous page</previous_title>
+    <previous_label>Previous</previous_label>
+    <next_title>Next page</next_title>
+    <next_label>Next</next_label>
+    <page_label>Page:</page_label>
+    <page_of>of {{pageCount}}</page_of>
+    <zoom_out_title>Zoom out</zoom_out_title>
+    <zoom_out_label>Zoom out</zoom_out_label>
+    <zoom_in_title>Zoom in</zoom_in_title>
+    <zoom_in_label>Zoom in</zoom_in_label>
+    <zoom_title>Zoom</zoom_title>
+    <presentation_mode_title>Switch to fullscreen</presentation_mode_title>
+    <presentation_mode_label>Fullscreen</presentation_mode_label>
+    <print_title>Print</print_title>
+    <print_label>Print</print_label>
+    <download_title>Download</download_title>
+    <download_label>Download</download_label>
+    <bookmark_title>Bookmark</bookmark_title>
+    <bookmark_label>Bookmark</bookmark_label>
+    <tools_title>Tools</tools_title>
+    <tools_label>Tools</tools_label>
+    <first_page_title>Go to first page</first_page_title>
+    <first_page_label>Go to first page</first_page_label>
+    <last_page_title>Go to last page</last_page_title>
+    <last_page_label>Go to last page</last_page_label>
+    <page_rotate_cw_title>Rotate clockwise</page_rotate_cw_title>
+    <page_rotate_cw_label>Rotate clockwise</page_rotate_cw_label>
+    <page_rotate_ccw_title>Rotate counterclockwise</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Rotate counterclockwise</page_rotate_ccw_label>
+    <hand_tool_enable_title>Enable hand tool</hand_tool_enable_title>
+    <hand_tool_enable_label>Enable hand tool</hand_tool_enable_label>
+    <hand_tool_disable_title>Disable hand tool</hand_tool_disable_title>
+    <hand_tool_disable_label>Disable hand tool</hand_tool_disable_label>
+    <document_properties_label>Document properties</document_properties_label>
+    <document_properties_file_name>File name:</document_properties_file_name>
+    <document_properties_file_size>File size:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>Title:</document_properties_title>
+    <document_properties_author>Author:</document_properties_author>
+    <document_properties_subject>Subject:</document_properties_subject>
+    <document_properties_keywords>Keywords:</document_properties_keywords>
+    <document_properties_creation_date>Creation date:</document_properties_creation_date>
+    <document_properties_modification_date>Modification date:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Creator:</document_properties_creator>
+    <document_properties_producer>Producer:</document_properties_producer>
+    <document_properties_version>Version:</document_properties_version>
+    <document_properties_page_count>Page count:</document_properties_page_count>
+    <document_properties_close>Close</document_properties_close>
+    <toggle_sidebar_title>Toggle sidebar</toggle_sidebar_title>
+    <toggle_sidebar_label>Toggle sidebar</toggle_sidebar_label>
+    <outline_title>Show document outline</outline_title>
+    <outline_label>Show document outline</outline_label>
+    <thumbs_title>Show thumbnails</thumbs_title>
+    <thumbs_label>Show thumbnails</thumbs_label>
+    <findbar_title>Find in document</findbar_title>
+    <findbar_label>Find</findbar_label>
+    <thumb_page_title>Page {{page}}</thumb_page_title>
+    <thumb_page_canvas>Thumbnail of page {{page}}</thumb_page_canvas>
+    <find_label>Find:</find_label>
+    <find_previous_title>Find previous</find_previous_title>
+    <find_previous_label>Previous</find_previous_label>
+    <find_next_title>Find next</find_next_title>
+    <find_next_label>Next</find_next_label>
+    <find_highlight>Highlight all</find_highlight>
+    <find_match_case_label>Match case</find_match_case_label>
+    <find_reached_top>Reached the top of the document</find_reached_top>
+    <find_reached_bottom>Reached the bottom of the document</find_reached_bottom>
+    <find_not_found>Not found</find_not_found>
+    <error_more_info>More info</error_more_info>
+    <error_less_info>Less info</error_less_info>
+    <error_close>Close</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Message: {{message}}</error_message>
+    <error_stack>Stack: {{stack}}</error_stack>
+    <error_file>File: {{file}}</error_file>
+    <error_line>Line: {{line}}</error_line>
+    <rendering_error>Rendering error</rendering_error>
+    <page_scale_width>Full width</page_scale_width>
+    <page_scale_fit>Fit page</page_scale_fit>
+    <page_scale_auto>Automatic zoom</page_scale_auto>
+    <page_scale_actual>Actual size</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Error</loading_error_indicator>
+    <loading_error>Error while loading PDF</loading_error>
+    <invalid_file_error>Invalid or corrupted PDF file</invalid_file_error>
+    <missing_file_error>Missing PDF file</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>Enter password to open this protected PDF</password_label>
+    <password_invalid>Incorrect password, please try again.</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Cancel</password_cancel>
+    <printing_not_supported>Warning: Printing is not fully supported in this browser.</printing_not_supported>
+    <printing_not_ready>Warning: PDF is not completly loaded for printing</printing_not_ready>
+    <web_fonts_disabled>Web fonts are disabled: not possible to use PDF fonts</web_fonts_disabled>
+    <document_colors_disabled>PDF document is not allowed to use colors</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDocument</title>
+    <preview>Document preview</preview>
+    <error>WebDocument Error</error>
+    <error_msg>Document loading problem. You may need to close and reopen the document for full functionality.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

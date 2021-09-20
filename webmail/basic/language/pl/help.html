@@ -1,0 +1,594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta http-equiv="content-language" content="en" />
+
+
+
+<style>
+
+html,body {
+
+ margin: 0px;
+
+ padding: 0;
+
+}
+
+body,body * {
+
+ box-sizing: border-box;
+
+ -moz-box-sizing: border-box;
+
+ font-family: Tahoma, Helvetica, sans-serif;
+
+ font-size: 1em;
+
+}
+
+body{
+
+ font-size: 0.75em;
+
+ padding:20px;
+
+ background: url('../en/images/bck.jpg');
+
+}
+
+
+
+#main
+
+{
+
+	width: 700px;
+
+	margin:auto;
+
+	text-align:left;
+
+	padding:20px;
+
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+	-khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+	-moz-border-radius: 10px;
+
+	-khtml-border-radius: 10px;
+
+	-webkit-border-radius: 10px;
+
+	border-radius: 10px;
+
+	background-color: #fff;
+
+}
+
+
+
+p.note{
+
+ padding: 10px;
+
+ background-color: #FFECEC;
+
+ border: 1px solid #FFC0C0;
+
+}
+
+a{
+
+ color: #4B8BD6;
+
+}
+
+a:hover{
+
+ color: #23458B;
+
+}
+
+a.top{
+
+ font-size: 0.8em;
+
+}
+
+
+
+#links{
+
+ padding: 0;
+
+ border-width: 0!important;
+
+ margin: 1em 0;
+
+}
+
+ #links a{
+
+ display: block;
+
+ margin: 5px 0 0 1em;
+
+ }
+
+
+
+h2{
+
+ color: #23458B;
+
+ font-size: 1.2em;
+
+ margin: 2.5em 0 0.5em;
+
+ padding: 0;
+
+}
+
+table{
+
+ margin: 10px 0;
+
+}
+
+table caption{
+
+ color: #23458B;
+
+ text-align: left;
+
+ margin-top: 15px;
+
+}
+
+
+
+ul{
+
+ margin: 0.5em 0;
+
+ padding-bottom: 5px;
+
+ padding-left: 1em;
+
+ _padding-left: 1.5em;
+
+}
+
+li{
+
+ margin: 0 0 7px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<center>
+
+<div id="main">
+
+
+
+<h2>Interfejs tabletu WebClient</h2>
+
+Interfejs tabletu WebClient jest zoptymalizowany dla ekranów dotykowych i domyślnych przeglądarek dla tabletów takich jak Safari na iPad, Chrome natablety  Androida, lub Silk na Kindle Fire. Kiedy logujesz się z tych urządzeń, bedziesz automatycznie przekierowany na Interfejs tabletu<br />
+
+<br />
+
+Interfejs tabletu nie zależy od JavaScript i dlatego jest kompatybilny ze starymi lub mobilnymi wersjami przeglądarek które nie mogą w pełni obsługiwać Pełnego WebClient. Wszystkie operacje wymagają tylko obsługi lewego klawisza myszki i klikania na standardowe elementy web jak checkbox, przyciski i rozwijane menu. Nie występują menu kontekstowe ani wyskakujące okienka<br />
+
+
+
+
+
+<h2>Stuknięcie</h2>
+
+<img src="../en/images/toolbaricons.jpg"/><br />
+
+<br />
+
+Pasek narzędzi ikon daje Ci przyjazny dla ręki dostęp do wszystkich istotnych funkcji poczty i groupware - podzielonych na zakresy które odpowiadają kolorowym ikonom w górnym menu.<br />
+
+<ul>
+
+	<li>Email</li>
+
+	<li>Książka adresowa</li>
+
+	<li>Kalendarz</li>
+
+	<li>Zadania</li>
+
+	<li>Notatki</li>
+
+	<li>Pliki</li>
+
+</ul>
+
+<br />
+
+Aby odebrać nowe wiadomości kliknij na ikonę koperty na górze ekranu.<br />
+
+<br />
+
+<img src="../en/images/newitem.jpg"/><br />
+
+<br />
+
+Aby rozpocząć tworzenie nowej wiadomości, utwórzyć nowy kontakt lub listę dystrybucyjną, nowe zdarzenie lub zaproszenie do spotkania, nowe zadanie, nową notatkę lub aby załadować nowy plik, kliknij na odpowiedniej ikonie na pasku narzędzi i kliknij odpowiednio przycisk Nowy.<br />
+
+<br />
+
+Dla wiadomości z dnia dzisiejszego widoczny jest tylko czas. Dla starszych wiadomości  widoczna jest tylko data. Jeśli chcesz widzieć obie informację przesuń kursor myszki nad nią- wyświetlą się data i czas. Aby widzieć pełne nagłówki, kliknij przycisk Szczgóły.<br />
+
+
+
+
+
+<h2>Obracanie</h2>
+
+<img src="../en/images/rotate.jpg"/><br />
+
+<br />
+
+Widok poziomy pokazuje Ci wszystkie Twoje ulubione foldery na liście z lewej strony. Folder bieżący jest wyróżniony pogrubioną trzcionką z kropką. Aby dodać więcej folderów do listy, użyj opcji Zarządzanie Folderami.
+
+Widok pionowy zwija listę folderów w wybór rozwijalny po prawej. Stuknij w przycisk o tej samej nazwie co bieżący folder aby mieć dostęp do do innych opcji folderu.<br />
+
+<br />
+
+<img src="../en/images/rotatefolders.jpg"/><br />
+
+<br />
+
+Opcja Zarządzania folderem pozwala na dostęp lub tworzenie skrótu do folderu który jeszcze nie jest wylistowany i na posiadanie szybkiego dostępu do niego. Pozwala również na dodawanie, zmianę nazwy, przenoszenie folderów lub tworzenie folderu domyślnego.<br />
+
+
+
+<h2>Przewijanie</h2>
+
+<img src="../en/images/swipe.jpg"/><br />
+
+<br />
+
+Naturalny kierunek przewijania jest zastosowany na wszystkich widokach stron (lista email, kontakty, wszystkie widoki kalendarza itp) i pozwala na przechodzenie do przodu i powrót tak jak przerzucasz strony w książce:<br />
+
+<br />
+
+Następna strona: od prawej do lewej<br />
+
+Poprzednia strona: od lewej do prawej (jak na obrazku powyżej)<br />
+
+<br />
+
+<img src="../en/images/paging.jpg"/><br />
+
+<br />
+
+Jako alternatywę do przewijania palcem, możesz używać obsługi stronicowania po prawo (powtórzone na dole i górze dla łatwiejszego dostępu), co pokazuje też obecne położeniei całkowitą liczbę stron.<br />
+
+<br />
+
+<img src="../en/images/browsing.jpg"/><br />
+
+<br />
+
+Możesz przewijać między wiadomościami, kontaktami, notatkami itp. Jako alternatywy użyj strzałek aby przejść do następnej wiadomości lub poprzedniej po otworzeniu wiadomości.<br />
+
+
+
+
+
+<h2>Szybka odpowiedź</h2>
+
+<img src="../en/images/fastreply.jpg"/><br />
+
+<br />
+
+Jeśli nie potrzebujesz szczególnego formatu ani specyficznych ustawień dostarczania wiadomości, Szybka odpowiedź daje Ci dokładnie to- pole tekstowe aby odpowiedzieć nadawcy, którego wiadomość właśnie przeglądasz.<br />
+
+
+
+
+
+<h2>Wybór</h2>
+
+<img src="../en/images/selections.jpg"/><br />
+
+<br />
+
+Stosuje się tylko do elementów na stronie bieżącej
+
+<ul>
+
+	<li>aby wybrać wszystkie elementy na stronie, użyj Wszystko, lub ogranicz wybór do Przecztane lub Nie przeczytane</li>
+
+	<li>aby nie wybierać użyj Żaden</li>
+
+	<li>użyj Odwróć wybór aby wybrać wszystkie, ale te które obecnie mają checkbox obok nich</li>
+
+</ul>
+
+<br />
+
+Lub użyj indywidualnych checkbox obok każdego elementu na liście z której dokonujesz wyboru a poźniej dokonuj na nich działań.<br />
+
+<br />
+
+Aby wybrać wszystkie wiadomości w folderze, może być konieczne zwiększenie liczby elementów listowanych w Ustawienia - Ogólne.<br />
+
+
+
+
+<h2>Zarządzanie</h2>
+
+<img src="../en/images/actions.jpg"/><br />
+
+<br />
+
+Po wybraniu jednego lub wiecej elementów (zaznaczonych w checkbox), możesz podjąć na nich działania korzystając z przycisków działań (np Usuń, wtedy zostaniesz poproszony o potwierdzenie usunięcia).<br />
+
+<br />
+
+<img src="../en/images/actionslist.jpg"/><br />
+
+<br />
+
+Możesz również wybrać inne niezbyt często wykonywane działania z Działanie: rozwijalne menu (np Oznacz jako nieprzeczytane, Czarna Lista).<br />
+
+
+
+
+
+<h2>Szukanie</h2>
+
+<img src="../en/images/search.jpg"/><br />
+
+<br />
+
+Wpisz frazę aby jej poszukiwać i to we wszystkich aspektach danych na bieżąco wyświetlanych (w tematach poczty/nadawcach/odbiorcach, w nazwach kontaktów/adresach etc.) lub użyj słów kluczowych aby ograniczyć się do określonych kryteriów (np, temat:biuro). Lista słów kluczowych znajduje się na końcu tego helpa.<br />
+
+<br />
+
+Aby anulować szukanie, stuknij w dowolną ikonę paska narzędzi lub folder lub usuń wszystko w pasku poszukiwań i  kliknij Szukaj.<br />
+
+
+
+
+
+<h2>Zwalczaj spam</h2>
+
+<img src="../en/images/quarantine.jpg"/><br />
+
+<br />
+
+Używaj opcji Kwarantanny w liście folderów aby dostać się do Twojej Białej lub Czarnej Listy. Tutaj możesz widzieć adresy email które są zawsze dozwolone lub zawsze odrzucane. Możesz usunąćadresy lub przenieść je z Czarnej Listy do Białej i vice versa.<br />
+
+<br />
+
+Aby dodać do spamu lub niechcianych nadawców poczty handlowej do Czarnej Listy:
+
+<ul>
+
+	<li>w liścieKwarantanny wybierz folder Czarnej Listy i kliknij przycisk Nowy element</li>
+
+	<li>w widoku Poczty, umieść checkbox obok poczty i wybierz Czarna Lista z : menu Działanie [Actions]</li>
+
+	<li>w widoku Poczty , umieść checkbox obok poczty , kliknij Przenieś i wybierz </li>
+
+</ul>
+
+<br />
+
+Aby upewnić się,że możesz mieć dostęp do Folderu spam z menu Kopiuj/Przenieś, użyj opcji Zarządzanie Folderem i Linkuj folder spam, aby wpiąć go do listy ulubionych folderów.<br />
+
+
+
+
+
+<h2>Zarządzanie folderami</h2>
+
+<img src="../en/images/fm_link.jpg"/><br />
+
+<br />
+
+Linkowanie folderu oznacza utworzenie linku do tego folderu w liście ulubionych folderów. Link pozwala Ci na łatwiejszy dostęp do Twoich najważniejszych folderów z listy i w opcjach Kopiuj/Przenieś. Możesz też nazwać link nazwą opisową – nie musi ona odpowiadać aktualnej nazwie folderu. Nazwa spersonalizowana pokaże się wtedy  w nawiasie w drzewku Zarządzania Folderem.<br />
+
+<br />
+
+<img src="../en/images/fm_open.jpg"/><br />
+
+<br />
+
+Otwórz folder za pomocą kliknięcia na nazwie folderu jest użyteczne aby uzyskać dostęp do folderu który nie jest zlinkowany do lewego menu, ale jest to użyteczne jeśli nie żądasz dostępu do folderu zbyt często. Folder otworzy się jak dowolny zlinkowany.<br />
+
+<br />
+
+<img src="../en/images/fm_add.jpg"/><br />
+
+<br />
+
+Dodaj folder tworzy nowy folder.  Musisz podać typu folderu - czy będziesz chciał składować pocztę, kontakty lub inne elementy w nowym folderze.<br />
+
+<br />
+
+<img src="../en/images/fm_edit.jpg"/><br />
+
+<br />
+
+Zmień nazwę zmieni nazwę folderu. Jeśli istnieje link do tego folderu w lewym menu,  link nie będzie zmieniony.<br />
+
+<br />
+
+<img src="../en/images/fm_default.jpg"/><br />
+
+<br />
+
+Utwórz folder domyślny zmieni miejsce gdzie wiadomości są odbierane, wysyłane lub zapisywane. Foldery domyślne są zawsze dostępne z listy folderów ulubionych i nie mogą mieć zmienianych nazw ani usuwane.<br />
+
+<br />
+
+<img src="../en/images/fm_remove.jpg"/><br />
+
+<br />
+
+Usuń folder na stałe usunie całą zawartość folderu (kiedy klikniesz "Opróżnij") lub na stałe usunie całą zawartość folderu i sam folder (kiedy klikniesz "Usuń").<br />
+
+
+
+
+
+<h2>Personalizacja</h2>
+
+<img src="../en/images/toolbar.jpg"/><br />
+
+<br />
+
+
+Przyciski ustawień (pomiędzy ikonami Pomocy i Wylogowania w górnym prawym rogu) pozwalają Ci personalizować inferfejs tabletu. Ustawienia są pogrupowane w kategorie, które pokazują się jako foldery (po lewej strone w menu pionowym i po prawej na dole w menu poziomym).<br />
+
+<br />
+
+<img src="../en/images/rotatesettings.jpg"/><br />
+
+<br />
+
+<ul>
+
+	<li>Ogólne - zmieniać datę/format czasu, podawać liczbę elementów na stronie, dostępny Kosz, automatycznie dodawać odbiorców do kontaktów, zmieniać hasło i inne</li>
+
+	<li>Redaguj- ustawiaj zawsze żądanie przeczytania poczty, zawsze umieszczaj pocztę wysłaną w folderze Wysłane, edytuj podpis, zmień domyślny font i inne</li>
+
+	<li>Tożsamości - dodaj/edytuj/usuwaj wielokrotne osobowości (pełna nazwa i adres email jaki pokazuje się w email odbiorcy)</li>
+
+	<li>Autoresponder - funkcja auto-odpowiedzi z użytecznymi ustawieniami jak Odpowiedz raz jednemu odbiorcy, odpowiedz tylko w określonych godzinach dnia lub nigdy nie odpowiadaj wybranym adresom</li>
+
+	<li>Forwarder - przekazuj lub kopiuj przychodzące wiadomości na wskazane inne adresy email</li>
+
+</ul>
+
+
+
+
+
+<h2>Anulowanie</h2>
+
+<img src="../en/images/backbutton.jpg"/><br />
+
+<br />
+
+Korzystaj z przycisku Powrót w przeglądarce aby powrócić tam gdzie byłeś lub anulować edytowanie wiadomości, kontaktu, kalendarza. Każda edycja którą zrobiłeś  będzie stracona. Lub po prostu kliknij na dowolną ikonę w pasku narzędzi.<br />
+
+
+
+
+
+<h2>Przełączanie</h2>
+
+<img src="../en/images/interfaces.jpg"/><br />
+
+<br />
+
+Korzystając z linków do interfejsu zaawansowanego, mobilnego możesz szybko przełączać się pomiędzy interfejsami bez konieczności ponownego podawania loginu i hasła. Interfejs zaawansowany może nie pracować jeśli uzywasz starszej lub mobilnej przeglądarki.<br />
+
+
+
+
+
+<h2>Smart Attach</h2>
+
+<img src="../en/images/smartattach.jpg"/><br />
+
+<br />
+
+W tabletach na Androidzie i w przeglądarkach pulpitu możesz załadować załączniki do wiadomości. Zaznaczenie checkbox "Użyj SmartAttach" spowoduje, ze załączniki będą składowane na serwerze (i w Twoich Plikach) i dostarczane via ściągalne linki osadzane w poczcie. Powoduje to dostarczanie danych do użytkowników mobilnych szybciej i wydajniej.<br />
+
+
+
+
+
+<h2>Słowa kluczowe wyszukiwania</h2>
+
+<img src="../en/images/headers.jpg"/><br />
+
+<br />
+
+Nie wszystkie słowa kluczowe stosuje się do całego zakresu, np temat: stosuje się tylko do poczty, podczas gdy w kalendarzu musisz użyć słowa kluczowego tytuł: . Wieloznaczne słowa kluczowe są domyślnie zlinkowane z operatorem AND (nie ma potrzeby określania go) i wszystkie warunki muszą być spełnione, lub możesz użyć operatorów logicznych OR i NOT a wtedy następujace warunki mogą być opcjonalne lub  wykorzystane aby znaleźć elementy nie spełniające warunków.<br />
+
+<br />
+
+<strong>od</strong>: Używane do wyspecyfikowania nadawcy (od: Tomasz)<br />
+
+<strong>do</strong>: Używane do wyspecyfikowani odbiorcy (od:Dawid)<br />
+
+<strong>temat</strong>: Szukanie słów w temacie (temat: obiad)<br />
+
+<strong>dw</strong>: Używane do wyspecyfikowania odbiorcy w polu dw<br />
+
+<strong>udw</strong>: Używane do wyspecyfikowania odbiorcy w polu udw<br />
+
+<strong>cały tekst</strong>: Szukaj w całym tekście wiadomości<br />
+
+<strong>priorytet</strong>: Szukaj po priorytecie ( najwyższy, wysoki, normalny, niski, najniższy) <br />
+
+<strong>po</strong>: Szukaj wiadomości wysłanej po podanym czasie (po:2004/04/16)<br />
+
+<strong>przed</strong>:Szukaj wiadomości wysłanej przed podanymm czasem (przed:2004/04/16)<br />
+
+<strong>nagłówek</strong>: Używane do wyspecyfikowania elementu nagłówka (nagłówek:Test)<br />
+
+<strong>opis</strong>: Używane do wyspecyfikowania opisu lub uwagi (opis:Test)<br />
+
+<strong>nazwa</strong>: Używane do wyspecyfikowania nazwy kontaktu<br />
+
+<strong>poczta</strong>: Używane do wyspecykowania poczty<br />
+
+<strong>słowo kluczowe</strong>: Szuka elementów z podanym tagiem (tag:Biznes)<br />
+
+<strong>tag</strong>: Szuka elementów z podanym tagiem (tag:Biznes)<br />
+
+<strong>większy</strong>: Szuka zależnie od rozmiaru w kB (większy:1024)<br />
+
+<strong>mniejszy</strong>: Szuka zależnie od rozmiaru w kB (mniejszy:1024)<br />
+
+<strong>firma</strong>: Poszukuje firmy w kontaktach (firma:IceWarp)<br />
+
+<strong>departament</strong>: Poszukuje departamentu w kontaktach (departament:IT)<br />
+
+<strong>lokalizacja</strong>: Poszukuje lokalizacji w kontaktach (lokalizacja:London)<br />
+
+
+
+
+</div>
+
+</center>
+
+
+
+</body>
+
+</html>

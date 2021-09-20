@@ -1,0 +1,124 @@
+.obj_attach_mailview{
+	position: relative;
+	padding-left: 20px;
+	cursor: default;
+	overflow: hidden;
+}
+.rtl .obj_attach_mailview {
+	padding-left: 0;
+	padding-right: 20px;
+
+}
+	.obj_attach_mailview:before{
+		content: '\e03a';
+		font-family: 'ico16';
+		font-size: 16px;
+		line-height: 26px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		color: #666;
+	}
+	.rtl .obj_attach_mailview:before {
+		left: auto;
+		right: 0;
+	}
+
+	.obj_attach_mailview.noico{
+		padding-left: 0;
+	}
+	.obj_attach_mailview.noico:before{
+		display: none;
+	}
+
+.obj_attach_mailview table {
+	border-collapse: collapse;
+	empty-cells: show;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.obj_attach_mailview table td {
+	white-space: normal!important;
+	font-weight: normal;
+	text-align: left;
+}
+body.light .obj_attach_mailview table td{
+	font-weight: 200;
+}
+
+.obj_attach_mailview a {
+	position: relative;
+	display: block;
+	float: left;
+
+	cursor: pointer;
+	color: #444;
+
+	margin: 0 3px 1px 0;
+
+	padding: 0 20px 0 25px;
+	line-height: 25px;
+	height: 25px;
+
+	max-width: 500px;
+	overflow: hidden;
+	outline: 0;
+}
+.rtl .obj_attach_mailview a {
+	float: right;
+}
+	.obj_attach_mailview a:after {
+		content: '\e21';
+		font-size: 16px;
+		font-family: 'filetypes';
+		line-height: 23px;
+		left: 5px;
+		position: absolute;
+	}
+
+	.obj_attach_mailview a.ico_all{
+		margin-right: 15px;
+	}
+	.rtl .obj_attach_mailview a:after {
+		left: auto;
+		right: 0;
+	}
+
+	.obj_attach_mailview a:hover {
+		color: {txt_main '#0088CC'};
+	}
+
+	.obj_attach_mailview a i{
+		font-style: normal;
+		color: #888;
+	}
+
+	.obj_attach_mailview a b{
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+
+		height: 100%;
+		width: 18px;
+	}
+	.rtl .obj_attach_mailview a b {
+		left: 5px;
+		right: auto;
+	}
+
+	.obj_attach_mailview a b:after{
+
+		position: absolute;
+		left: 2px;
+		top: 5px;
+
+		content: '\e902';
+		font-family: 'ico16';
+		font-size: 12px;
+		line-height: 16px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		color: {bc_main '#0088CC'};
+	}

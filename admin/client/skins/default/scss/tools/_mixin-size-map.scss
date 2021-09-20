@@ -1,0 +1,12 @@
+@mixin size-map($properties, $object-size) {
+
+	@each $breakpoint, $percent in $size-map {
+
+		@media #{$breakpoint} {
+
+			@each $property in $properties {
+				#{$property}: round($object-size * percent($percent));
+			}
+		}
+	}
+}

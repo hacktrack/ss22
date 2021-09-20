@@ -1,0 +1,47 @@
+<view>
+	<!-- Contact select form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<helper>groupware</helper>
+		<form id="contact_select" name="contact_select" method="post">
+			<config>
+				<parameters>?_n[w]=main&amp;_n[p][content]=contact.select&amp;_s[data]=item.fdr&amp;_s[id]={id}&amp;_s[type]=C&amp;_dlg={_dlg}</parameters>
+			</config>
+			<grid id="items" helper="item" template="contact.select">
+				<config>
+					<controller>item</controller>
+					<target>main</target>
+					<data>item.fdr</data>
+					<view>contact.list.select</view>
+					<fields>
+						<field label="Name">itmClassifyAs</field>
+						<field label="Category">itmCategory</field>
+						<field label="FirstName">itmFirstName</field>
+						<field label="Job">itmMiddleName</field>
+						<field label="MiddleName">itmSurname</field>
+						<field label="Title">itmTitle</field>
+						<field label="Suffix">itmSuffix</field>
+						<field label="Company">itmCompany</field>
+						<field label="Job">itmJobTitle</field>
+						<field label="E-mail">lctemail1</field>
+						<field label="E-mail2">lctemail2</field>
+						<field label="E-mail3">lctemail3</field>
+						<field label="ITMCLASS">ITMCLASS</field>
+					</fields>
+					<!--TODO<filter>
+						<sql></sql>
+					</filter>-->
+					<select>
+						<type>multiple</type>
+						<variable>items</variable>
+					</select>
+					<stylesheet>
+						<src>contacts.main</src>
+					</stylesheet>
+				</config>
+			</grid>
+		</form>
+	</panel>
+</view>

@@ -1,0 +1,72 @@
+div.obj_connection {
+	display: none;
+	position: absolute;
+	z-index: 5000000000;
+	left: 0;
+	top: 0;
+
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+
+	padding: 0 0 0 58px;
+
+
+	background-color: #DDDDDD;
+	border-bottom: 1px solid #CACACA;
+}
+.rtl div.obj_connection {
+	direction: rtl;
+	padding: 0 58px 0 0;
+}
+div.obj_connection:after{
+	content: '\e016';
+	position: absolute;
+	left: 17px;
+	top: 8px;
+
+	font-family: 'ico24';
+	font-size: 24px;
+	line-height: 24px;	
+	color: #BE3F2E;
+}
+.rtl div.obj_connection:after {
+	left: auto;
+	right: 17px;
+}
+div.obj_connection table {
+	width: 100%;
+	font-size: 13px;
+}
+
+div.obj_connection table td.errormessages {
+	line-height: 40px;
+}
+div.obj_connection table td.buttons {
+	line-height: 40px;
+	white-space: nowrap;	
+	vertical-align: top;	
+}
+div.obj_connection div.countdown {
+	white-space: nowrap;
+	padding: 0 10px;
+}
+
+div#dimmer {
+	display: none;
+	position: absolute;
+	z-index: 1000000000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);	/* Long live Explorer! */
+}
+
+
+div.obj_connection form.obj_button.ico.retry:after{
+	/*background-position: -344px 7px;*/
+	content: '\e012';
+}

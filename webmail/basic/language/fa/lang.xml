@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>آیتم جدید</add>
+    <quarantine>قرنطینه</quarantine>
+    <whitelist>لیست سفید</whitelist>
+    <blacklist>لیست سیاه</blacklist>
+    <save>ذخیره</save>
+    <cancel>رد</cancel>
+    <new_item>اضافه کردن ایمیل جدید</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>غیرفعال کردن کلیدهای میانبر</disable_shortcuts>
+    <enable_swipe_gestures>فعال کردن حالت‌های حرکت دست برای ابزارهای لمسی</enable_swipe_gestures>
+    <use_high_contrast_skin>استفاده از پوسته با کنتراست بالا</use_high_contrast_skin>
+    <menu_as_text>نمایش متن بجای آیکون در نوار ابزار</menu_as_text>
+    <change_password>تغییر رمزعبور</change_password>
+    <open_change_password_dialog>باز کردن پنجره تغییر رمزعبور</open_change_password_dialog>
+    <oldpassword>رمزعبور  قدیمی</oldpassword>
+    <newpassword>رمزعبور جدید</newpassword>
+    <confirmpassword>تایید رمزعبور</confirmpassword>
+    <remove>حذف</remove>
+    <settings>گزینه‌ها</settings>
+    <navigate>مدیریت</navigate>
+    <user>تنظیمات من</user>
+    <domain>مدیر دامنه</domain>
+    <admin>تنظیمات مدیریتی</admin>
+    <new_domain>دامنه جدید</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>عمومی</general>
+    <layout>چیدمان</layout>
+    <mail>ایمیل</mail>
+    <compose>ایمیل جدید</compose>
+    <person>ایمیل</person>
+    <person_header>اضافه کردن آدرس فرستنده جدید</person_header>
+    <person_description>به عنوان مثال &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>پاسخ‌دهنده اتوماتیک</autoresponder>
+    <forwarder>فوروارد کننده</forwarder>
+    <layout_desc>چیدمان, ایمیل</layout_desc>
+    <compose_desc>تنظیمات پیش‌فرض برای پیام‌های جدید (تاییدیه خواندن، فرمت ایمیل، امضا)</compose_desc>
+    <general_desc>تنظیمات صندوق پستی شما جهت مرور، حذف و پاسخ به ایمیل‌ها</general_desc>
+    <personalities_desc>تنظیم شناسه جدید ایمیل (فرستنده متفاوت) برای حساب کاربریتان.</personalities_desc>
+    <autoresponder_desc>پاسخ اتوماتیک به ایمیل‌های دریافتی، زمانیکه در مسافرت هستید.</autoresponder_desc>
+    <forwarder_desc>فوروارد و یا کپی کردن ایمیل‌های دریافتی به هر ایمیل آدرس دیگر.</forwarder_desc>
+    <date_format>ساختار تاریخ</date_format>
+    <time_format>ساختار زمان</time_format>
+    <list_count>تعداد لیست آیتم‌ها</list_count>
+    <font_family>فونت پیش‌فرض</font_family>
+    <font_size>سایز قلم پیش‌فرض</font_size>
+    <text_direction>جهت نوشته</text_direction>
+    <text_direction_values>چپ به راست|راست به چپ</text_direction_values>
+    <empty_trash_every>خالی کردن پوشه بازیافت هر</empty_trash_every>
+    <days>روز</days>
+    <move_deleted>انتقال پیام‌های حذف شده به پوشه بازیافت</move_deleted>
+    <delete_messages_on_empty>حذف دائمی پیام‌ها هنگام انتخاب گزینه &quot;خالی کردن پوشه‌&quot;</delete_messages_on_empty>
+    <add_recipients>دریافت کننده‌ پیام‌ها را بطور اتوماتیک به لیست آدرس‌ها اضافه کن</add_recipients>
+    <group_pref>شمارنده پیام‌ها (به عنوان مثال Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>درخواست تاییدیه خوانده شدن</request_read_confirmation>
+    <save_sent_msg>ذخیره ایمیل‌های ارسال شده در پوشه</save_sent_msg>
+    <message_format>فرمت پیام‌ها</message_format>
+    <message_format_labels>متن‌ساده|HTML</message_format_labels>
+    <signature>امضا</signature>
+    <forward_to>فوروارد به</forward_to>
+    <keep_in_inbox>نگهداری پیام‌ها در صندوق ورودی</keep_in_inbox>
+    <forward_older>فوروارد ایمیل‌های قدیمی‌تر از</forward_older>
+    <forward_older_to>فوروارد ایمیل قدیمی‌تر به</forward_older_to>
+    <ar_mode>حالت</ar_mode>
+    <ar_mode_labels>غیرفعال|پاسخ‌دهی همیشگی|پاسخ فقط یکبار|پاسخ مجدد بعد از طی</ar_mode_labels>
+    <ar_respond_only>فقط به پیام‌های ارسالی به آدرس ایمیل کاربر پاسخ بده</ar_respond_only>
+    <ar_respond_again>پاسخ دهی مجدد بعد از (روز)</ar_respond_again>
+    <ar_from>از</ar_from>
+    <ar_subject>موضوع</ar_subject>
+    <ar_text>متن</ar_text>
+    <ar_no_responder_for>عدم پاسخ‌دهی برای</ar_no_responder_for>
+    <ar_respond_only_between>پاسخ فقط در صورتیکه بین</ar_respond_only_between>
+    <email>ایمیل</email>
+    <responder>عدم پاسخ برای</responder>
+    <show_attached_images>تصاویر الصاقی را بطور اتوماتیک نمایش بده</show_attached_images>
+    <show_inline_images>تصاویر خارجی را بطور اتوماتیک نمایش بده</show_inline_images>
+    <use_reply_prefix>استفاده از پیشوند (&gt;) هنگام پاسخ‌دهی</use_reply_prefix>
+    <time_format_list_labels>12 ساعته|24 ساعته</time_format_list_labels>
+    <force_admin>اجبار این گزینه برای دامنه و کاربر</force_admin>
+    <force_domain>اجبار این گزینه برای کاربران</force_domain>
+    <to_top>امضا در بالای پیام</to_top>
+    <quota>حجم دیسک:</quota>
+    <section_layout>تنظیمات چیدمان کلی</section_layout>
+    <section_mail>تنظیمات کلی ایمیل</section_mail>
+    <section_autoresponder>تنظیم پاسخ اتوماتیک، در صورتیکه شما پشت میزتان نباشید.</section_autoresponder>
+    <section_norespond>به ایمیل‌های لیست شده پاسخ داده نمی‌شود.</section_norespond>
+    <domains>دامنه‌ها</domains>
+    <accounts>حساب‌های کاربری</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>آیا می‌خواهید این پیام را پاک کنید؟</delete_mail>
+    <blacklist_mail>آیا می‌خواهید این ایمیل را به لیست سیاه اضافه کنید؟</blacklist_mail>
+    <delete_contact>آیا  می‌خواهید این شخص را حذف نمایید؟</delete_contact>
+    <delete_contact_distribution>آیا می‌خواهید این لیست ایمیل‌ها را پاک نمایید؟</delete_contact_distribution>
+    <delete_event>آیا می‌خواهید این رخدادهای انتخاب شده را پاک نمایید؟</delete_event>
+    <delete_note>آیا  می‌خواهید یادداشت‌های انتخاب شده را حذف نمایید؟</delete_note>
+    <delete_task>آیا می‌خواهید وظایف انتخاب شده را حذف نمایید؟</delete_task>
+    <delete_personalities>آیا می‌خواهید آیتم‌های انتخاب شده را حذف نمایید؟</delete_personalities>
+    <delete_quarantine>آیا می‌خواهید آیتم‌های انتخاب شده را حذف نمایید؟</delete_quarantine>
+    <delete_this_mail>آیا می‌خواهید این پیام را حذف نمایید؟</delete_this_mail>
+    <delete_items>آیا می‌خواهید آیتم‌های انتخاب شده را حذف نمایید؟</delete_items>
+    <delete_item>آیا می‌خواهید این آیتم را حذف نمایید؟</delete_item>
+  </confirmation>
+  <string>
+    <no_item>هیچ آیتمی در این پوشه نیست.</no_item>
+  </string>
+  <menu>
+    <files>فایل‌ها</files>
+    <notes>یادداشت‌ها</notes>
+    <tasks>وظایف</tasks>
+    <journal>ژورنال</journal>
+    <calendar>تقویم</calendar>
+    <search>جستجو</search>
+    <messages>پیام‌ها</messages>
+    <contacts>اشخاص</contacts>
+    <searchBut>یافتن</searchBut>
+    <address_book>لیست آدرس‌ها</address_book>
+    <logout>خروج</logout>
+    <help>راهنما</help>
+    <settings>تنظیمات</settings>
+    <switch>تبدیل به</switch>
+    <help_url>language/en/help.html</help_url>
+    <quarantine>فیلترها</quarantine>
+    <alert_restricted_access>متاسفیم. دسترسی به این بخش مجاز نمی‌باشد.</alert_restricted_access>
+    <basic>رابط تبلت</basic>
+    <advanced>رابط دسکتاپ</advanced>
+    <mobile>رابط موبایل</mobile>
+  </menu>
+  <tree>
+    <add_folder>اضافه کردن پوشه</add_folder>
+    <new_message>پیام جدید</new_message>
+    <manage_folders>مدیریت پوشه</manage_folders>
+    <open_folder>باز کردن پوشه</open_folder>
+    <open>باز</open>
+  </tree>
+  <mail_view>
+    <attachments>پیوست‌ها</attachments>
+    <from>از</from>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>موضوع</subject>
+    <all_headers>مشاهده تمامی هدرها</all_headers>
+    <all_images>نمایش تصاویر</all_images>
+    <next>بعدی</next>
+    <prev>قبلی</prev>
+    <first>اولین</first>
+    <last>آخرین</last>
+    <show_external_images>منابع خارجی بلوکه شده‌اند. جهت نمایش آن‌ها اینجا کلیک کنید.</show_external_images>
+    <download_all>دانلود همه</download_all>
+    <detail>جزئیات</detail>
+    <blue_box_start>شروع</blue_box_start>
+    <blue_box_end>پایان</blue_box_end>
+    <blue_box_description>توضیح</blue_box_description>
+    <blue_box_accept>قبول</blue_box_accept>
+    <blue_box_decline>رد</blue_box_decline>
+    <blue_box_subscribe_folder>عضویت در پوشه</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>عضویت در حساب</blue_box_subscribe_account>
+    <item_accept_ok>آیتم قبول شد</item_accept_ok>
+    <read>خواندن</read>
+    <write>نوشتن</write>
+    <modify>تغییر</modify>
+    <delete>حذف</delete>
+    <administer>مدیریت</administer>
+    <folder_rights>دسترسی به پوشه</folder_rights>
+    <items_rights>دسترسی به آیتم</items_rights>
+  </mail_view>
+  <login>
+    <send>ارسال</send>
+    <ip_check>غیرفعال کردن امنیت پیشرفته</ip_check>
+    <user>کاربر</user>
+    <email>ایمیل</email>
+    <password>رمزعبور</password>
+    <remember>به‌خاطر داشته باش</remember>
+    <language>زبان</language>
+    <allways_ask>همیشه بپرس</allways_ask>
+    <username>نام‌کاربری</username>
+    <username_and_password>نام‌کاربری و رمزعبور</username_and_password>
+    <auto_login>لاگین خودکار</auto_login>
+    <login>لاگین</login>
+    <copyright>توسط &lt;a href=&quot;http://www.icewarp.com&quot;&gt;سرور&lt;/a&gt; © 1999-2018&lt;br /&gt; آیس‌وارپ نسخه: $1</copyright>
+    <welcome>به وب‌میل تبلت آیس‌وارپ خوش آمدید</welcome>
+    <public_welcome>به تقویم عمومی آیس‌وارپ خوش آمدید</public_welcome>
+    <title>وب‌میل تبلت آیس‌وارپ</title>
+    <public_title>تقویم عمومی آیس‌وارپ</public_title>
+    <reset_password>بازیابی رمزعبور</reset_password>
+    <sign_up>عضویت</sign_up>
+    <email>ایمیل</email>
+    <domain>دامنه</domain>
+    <new_password>رمزعبور جدید</new_password>
+    <confirm_password>تایید رمزعبور</confirm_password>
+    <full_name>نام کامل</full_name>
+    <alternative_email>ایمیل ثانویه</alternative_email>
+    <switch>تبدیل به رابط &lt;a href=&quot;../&quot;&gt;دسکتاپ&lt;/a&gt; یا &lt;a href=&quot;../pda&quot;&gt;موبایل&lt;/a&gt;.</switch>
+    <no_javascript>&lt;b&gt;جاوااسکریپت در حال حاضر غیرفعال است.&lt;/b&gt;&lt;/div&gt;به همین دلیل شما مجبور به استفاده از رابط تبلت میباشید که قابلیتهای محدودتری دارد. در صورتیکه مایل به استفاده از رابط دسکتاپ ما میباشید لطفا به &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;بانک دانش&lt;/a&gt;جهت آگاهی از نحوه فعال‌سازی آن مراجعه نمایید.&lt;br /&gt;If your browser does not support JavaScript, please download the latest version of &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; or &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>کد موجود در تصویر را وارد نمایید.</word>
+  </login>
+  <files>
+    <add>آپلود فایل</add>
+    <download>دانلود</download>
+    <file>فایل</file>
+  </files>
+  <file_list>
+    <filename>نام فایل</filename>
+    <description>توضیح</description>
+    <modified>تغییر</modified>
+    <size>سایز</size>
+    <tags>برچسب‌ها</tags>
+  </file_list>
+  <notes>
+    <category>موضوع</category>
+    <add>یادداشت جدید</add>
+  </notes>
+  <notes_detail>
+    <note>یادداشت</note>
+    <tags>برچسب‌ها</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>وظیفه جدید</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>وظیفه</task>
+    <status>وضعیت</status>
+    <complete>پایان یافته</complete>
+    <priority>اولویت</priority>
+    <not_started>شروع نشده</not_started>
+    <in_progress>در‌حال انجام</in_progress>
+    <completed>پایان یافته</completed>
+    <deferred>به تعویق افتاده</deferred>
+    <waiting_for_someone_else>منتظر شخص دیگر</waiting_for_someone_else>
+    <medium>متوسط</medium>
+    <high>بالا</high>
+    <low>پایین</low>
+    <tags>برچسب‌ها</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>تاریخ شروع</start_date>
+    <due_date>تاریخ تحویل</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>تمام صفحه</fullscreen>
+    <subject>موضوع</subject>
+    <no_subject>بدون موضوع</no_subject>
+    <no_address>بدون آدرس</no_address>
+    <from>از</from>
+    <date>تاریخ</date>
+    <size>سایز</size>
+    <delete>حذف</delete>
+    <reply>پاسخ</reply>
+    <reply_to_all>پاسخ به همه</reply_to_all>
+    <forward>فوروارد</forward>
+    <print>چاپ</print>
+    <whitelist>لیست سفید</whitelist>
+    <blacklist>لیست سیاه</blacklist>
+    <dws>عملیات</dws>
+    <copy>کپی</copy>
+    <move>انتقال</move>
+    <copy_to_folder>کپی به پوشه:</copy_to_folder>
+    <move_to_folder>انتقال به پوشه:</move_to_folder>
+    <mar>علامت‌گذاری به عنوان خوانده‌شده</mar>
+    <mau>علامت‌گذاری به عنوان خوانده‌نشده</mau>
+    <select>انتخاب</select>
+    <all>همه</all>
+    <none>هیچکدام</none>
+    <read>خوانده شده</read>
+    <unread>نخوانده</unread>
+    <invert>برعکس کردن انتخاب</invert>
+    <doit>اعمال</doit>
+    <to>به</to>
+    <fast_reply>پاسخ سریع</fast_reply>
+    <send_message>ارسال پیام</send_message>
+    <src>فرستنده درخواست تاییدیه خوانده شدن از شما کرده است. آیا مایلید این تاییدیه ارسال شود؟</src>
+    <save>ذخیره</save>
+    <select_folder>انتخاب پوشه</select_folder>
+    <deliver>رساندن</deliver>
+    <text>متن</text>
+    <received>دریافت</received>
+    <saved>ذخیره شده</saved>
+    <sender>ارسال کننده</sender>
+    <owner>صاحب</owner>
+    <domain>دامنه</domain>
+    <show_all>نمایش همه</show_all>
+  </mail_main>
+  <event_list>
+    <title>عنوان</title>
+    <start>شروع</start>
+    <end>پایان</end>
+    <tags>برچسب‌ها</tags>
+  </event_list>
+  <event_detail>
+    <tags>برچسب‌ها</tags>
+    <show_as>نمایش به عنوان</show_as>
+    <free>آزاد</free>
+    <tentative>نامعلوم</tentative>
+    <busy>مشغول</busy>
+    <out_of_office>خارج از شرکت</out_of_office>
+    <title>عنوان</title>
+    <location>مکان</location>
+    <label>برچسب</label>
+    <none>هیچکدام</none>
+    <important>مهم</important>
+    <business>کاری</business>
+    <personal>شخصی</personal>
+    <vacation>مسافرت</vacation>
+    <must_attend>باید شرکت کنم</must_attend>
+    <travel_required>نیاز به مسافرت دارد</travel_required>
+    <needs_preparation>نیاز به آمادگی دارد</needs_preparation>
+    <birthday>تولد</birthday>
+    <anniversary>سالگرد</anniversary>
+    <phone_call>تماس تلفنی</phone_call>
+    <category>موضوع</category>
+    <private>خصوصی</private>
+    <from>از</from>
+    <to>به</to>
+    <notes>یادداشت‌ها</notes>
+    <allday>تمام روز</allday>
+    <event>رخداد</event>
+    <minutes>دقیقه</minutes>
+    <hours>ساعت</hours>
+    <days>روز</days>
+    <remind_me>یادآوری کن</remind_me>
+    <before>قبل</before>
+    <no_repeating>بدون تکرار</no_repeating>
+    <daily>روزانه</daily>
+    <weekly>هفتگی</weekly>
+    <monthly>ماهیانه</monthly>
+    <yearly>سالیانه</yearly>
+    <end_date>تاریخ پایان</end_date>
+    <no_end_date>بدون تاریخ پایان</no_end_date>
+    <repeat>تکرار</repeat>
+    <every>هر</every>
+    <every_workday>هر روز کاری</every_workday>
+    <recur_every>تکرار هر</recur_every>
+    <weeks>هفته</weeks>
+    <on>در</on>
+    <monday>دوشنبه</monday>
+    <tuesday>سه‌شنبه</tuesday>
+    <wednesday>چهارشنبه</wednesday>
+    <thursday>پنجشنبه</thursday>
+    <friday>جمعه</friday>
+    <saturday>شنبه</saturday>
+    <sunday>یکشنبه</sunday>
+    <day>روز</day>
+    <months>ماه</months>
+    <first>اولین</first>
+    <second>دومین</second>
+    <third>سومین</third>
+    <fourth>چهارمین</fourth>
+    <last>آخرین</last>
+    <week>هفته</week>
+    <work_week>هفته کاری</work_week>
+    <weekend>آخر هفته</weekend>
+    <of_every>هر</of_every>
+    <of>از</of>
+    <years>سال</years>
+    <the>The</the>
+    <times>دفعه</times>
+    <count>شمارش</count>
+    <until>تا</until>
+    <tags>برچسب‌ها</tags>
+  </event_detail>
+  <event_main>
+    <mon>Mon</mon>
+    <tue>Tue</tue>
+    <wed>Wed</wed>
+    <thu>Thu</thu>
+    <fri>Fri</fri>
+    <sat>Sat</sat>
+    <sun>Sun</sun>
+    <jan>January</jan>
+    <feb>February</feb>
+    <mar>March</mar>
+    <apr>April</apr>
+    <may>May</may>
+    <jun>June</jun>
+    <jul>July</jul>
+    <aug>August</aug>
+    <sep>September</sep>
+    <oct>October</oct>
+    <nov>November</nov>
+    <dec>December</dec>
+    <week>هفته</week>
+    <week_view>هفته</week_view>
+    <work_week_view>هفته کاری</work_week_view>
+    <month_view>ماه</month_view>
+    <day_view>روز</day_view>
+    <list>لیست</list>
+    <add>رخداد جدید</add>
+    <save>ذخیره</save>
+    <no_title>بدون عنوان</no_title>
+    <search>جستجو:</search>
+    <account>اکانت:</account>
+    <print>پرینت</print>
+  </event_main>
+  <contact_main>
+    <contact>شخص</contact>
+    <distribution_list>لیست ایمیل</distribution_list>
+    <title>عنوان</title>
+    <no_email>بدون ایمیل</no_email>
+    <card_view>بصورت کارت</card_view>
+    <list_view>بصورت لیست</list_view>
+    <contact_name>نام شخص</contact_name>
+    <email>ایمیل</email>
+    <company>شرکت</company>
+    <job>شغل</job>
+    <department>دپارتمان</department>
+    <profession>حرفه</profession>
+    <category>موضوع</category>
+    <general>عمومی</general>
+    <first_name>نام کوچک</first_name>
+    <middle_name>نام وسط</middle_name>
+    <last_name>نام فامیل</last_name>
+    <nick>شهرت</nick>
+    <sort_string>روش مرتب‌سازی</sort_string>
+    <title>عنوان</title>
+    <suffix>پسوند</suffix>
+    <category>موضوع</category>
+    <web>وب‌سایت</web>
+    <street>خیابان</street>
+    <city>شهر</city>
+    <zip>کد‌پستی</zip>
+    <state>استان</state>
+    <country>کشور</country>
+    <im>مسنجر</im>
+    <phones>تلفن‌ها</phones>
+    <work>کاری</work>
+    <home>منزل</home>
+    <assistant>دستیار</assistant>
+    <fax_home>فکس منزل</fax_home>
+    <fax_work>فکس کاری</fax_work>
+    <call_back>Call back</call_back>
+    <company>شرکت</company>
+    <car>Car</car>
+    <isdn>ISDN</isdn>
+    <mobile>موبایل</mobile>
+    <other>غیره</other>
+    <other_fax>سایر فکس‌ها</other_fax>
+    <pager>پیجر</pager>
+    <primary>اولیه</primary>
+    <radio>Radio</radio>
+    <telex>Telex</telex>
+    <hearing>Hearing</hearing>
+    <add>شخص جدید</add>
+    <notes>یادداشت‌ها</notes>
+    <no_name>بدون نام شخص</no_name>
+    <select>انتخاب نوع</select>
+    <select_contacts>اشخاصی را که مایل به اضافه کردن هستید انتخاب نمایید</select_contacts>
+    <add_distribution>لیست ایمیل جدید</add_distribution>
+    <add_new>اضافه</add_new>
+    <add_item_distribution>اضافه کردن از لیست آدرس‌ها</add_item_distribution>
+    <save>ذخیره</save>
+    <edit>ویرایش</edit>
+    <edit_selected>ویرایش انتخاب شده‌ها</edit_selected>
+    <delete_selected>حذف</delete_selected>
+    <cancel>رد</cancel>
+    <onleave_warning>آیا می‌خواهید خارج بشوید؟ تمام اطلاعات ذخیره نشده از بین می‌روند.</onleave_warning>
+    <tags>برچسب‌ها</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>بیمار جدید</new_patient>
+    <new_staff>کارمند جدید</new_staff>
+    <notify_email>ایمیل اطلاع‌رسانی</notify_email>
+    <notify_sms>اس‌ام‌اس اطلاع‌رسانی</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>جدید</add>
+    <staff>کارمند</staff>
+    <patient>مریض</patient>
+  </hippa_detail>
+  <grid>
+    <title>عنوان</title>
+    <note>یادداشت</note>
+    <size>سایز</size>
+    <category>موضوع</category>
+    <start>شروع</start>
+    <end>پایان</end>
+    <save>ذخیره</save>
+    <cancel>رد</cancel>
+    <number_of_items>تعداد آیتم‌های انتخاب شده در صفحات دیگر:</number_of_items>
+    <clear>پاک کردن</clear>
+  </grid>
+  <mail_compose>
+    <select_text>لطفا متنی را که می‌خواهید هایپرلینک کنید انتخاب نمایید.</select_text>
+    <enter_url>آدرس این لینک را وارد نمایید:</enter_url>
+    <image_location>آدرس این عکس را وارد نمایید:</image_location>
+    <image_alt>متن جایگزین عکس را وارد نمایید:</image_alt>
+    <image>اضافه کردن عکس</image>
+    <htmlsource>سورس HTML</htmlsource>
+    <hyperlink>هایپرلینک</hyperlink>
+    <underline>خط زیر</underline>
+    <italic>کج</italic>
+    <bold>ضخیم</bold>
+    <fontsize>سایز فونت</fontsize>
+    <fontformat>حالت فونت</fontformat>
+    <outdent>کم کردن فاصله</outdent>
+    <indent>اضافه کردن فاصله</indent>
+    <orderedlist>لیست شماره دار</orderedlist>
+    <unorderedlist>لیست بولت دار</unorderedlist>
+    <justify>تنظیم از دو طرف</justify>
+    <right>ترازبندی راست</right>
+    <center>ترازبندی وسط</center>
+    <left>ترازبندی چپ</left>
+    <blockformat>حالت بلوک</blockformat>
+    <block_type>نوع بلوک</block_type>
+    <heading>عنوان</heading>
+    <paragraph>پاراگراف</paragraph>
+    <size>سایز</size>
+    <font>فونت</font>
+    <cancel>رد</cancel>
+    <email>ایمیل</email>
+    <options>گزینه‌ها</options>
+    <plain>ساده</plain>
+    <html>HTML</html>
+    <from>از</from>
+    <to>به</to>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>موضوع</subject>
+    <date>تاریخ</date>
+    <attachments>پیوست‌ها</attachments>
+    <text>متن</text>
+    <send_message>ارسال پیام</send_message>
+    <save_message>ذخیره</save_message>
+    <br/>
+    <spellchecker>زبان چک کردن املا</spellchecker>
+    <rrc>درخواست گواهی خواندن</rrc>
+    <ssm>ذخیره پیام‌های ارسال شده در پوشه</ssm>
+    <psa>استفاده از SmartAttach</psa>
+    <priority>اولویت</priority>
+    <lowest>پایین‌ترین</lowest>
+    <low>پایین</low>
+    <normal>عادی</normal>
+    <high>بالا</high>
+    <highest>بالاترین</highest>
+    <rta>آدرس جهت پاسخ‌دهی</rta>
+    <charset>نوع کاراکتر</charset>
+    <auto>اتوماتیک</auto>
+    <original_message>-----پیام اصلی-----</original_message>
+    <read_confirmation_subject>خواندن: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>پیام شما خوانده شده است.&#13;&#10;&#13;&#10;توضیحات پیام به شرح زیر است:&#13;&#10;&#13;&#10;از: %FROM%&#13;&#10;به: %TO%&#13;&#10;تاریخ: %DATE%&#13;&#10;موضوع: %SUBJECT%</read_confirmation_text>
+    <add_contacts>اضافه کردن شخص</add_contacts>
+    <add_files>اضافه کردن فایل</add_files>
+    <add_files_from_folder>اضافه کردن فایل از پوشه</add_files_from_folder>
+    <add_files_from_dropbox>اضافه کردن فایل از Dropbox</add_files_from_dropbox>
+    <leave_notice>آیا می‌خواهید خارج شوید؟ پیام از بین خواهد رفت.</leave_notice>
+    <alias>نام مستعار</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>پوشه جدید</add>
+    <delete>حذف</delete>
+    <link>لینک</link>
+    <unlink>حذف لینک</unlink>
+    <create_folder>ایجاد پوشه جدید</create_folder>
+    <create>ایجاد</create>
+    <delete_confirmation_text>آیا این پوشه بصورت دائمی حذف شود؟</delete_confirmation_text>
+    <empty_confirmation_text>آیا آیتم‌ّای داخل این پوشه بصورت دائمی پاک شوند؟</empty_confirmation_text>
+    <delete_yes>بله</delete_yes>
+    <delete_no>خیر</delete_no>
+    <link_as>لینک پوشه بعنوان</link_as>
+    <unlink_as>حذف / تغییر لینک پوشه</unlink_as>
+    <unlink_confirmation_text>آیا لینک پوشه حذف شود؟</unlink_confirmation_text>
+    <unlink_yes>بله</unlink_yes>
+    <unlink_no>خیر</unlink_no>
+    <virtual>پوشه مجازی</virtual>
+    <delete_empty_folder>حذف یا خالی کردن پوشه</delete_empty_folder>
+    <edit>ویرایش</edit>
+    <empty>خالی</empty>
+    <rename_folder>تغییر نام پوشه</rename_folder>
+    <save>ذخیره</save>
+    <rename>تغییر نام</rename>
+    <perform_action>اعمال این دستور برای</perform_action>
+    <select_folder>پوشه مورد نیاز جهت مدیریت را انتخاب نمایید.</select_folder>
+    <open_folder>باز کردن پوشه</open_folder>
+    <open_folder_des>جهت دسترسی به محتویات پوشه استفاده نمایید.</open_folder_des>
+    <link_folder>لینک پوشه</link_folder>
+    <link_folder_des>حهت ایجاد یک میانبر به پوشه‌های موجود در نمودار درختی در منوی سمت چپ استفاده نمایید.</link_folder_des>
+    <add_folder>اضافه کردن پوشه</add_folder>
+    <add_folder_dis>برای ایجاد پوشه در پوشه فعلی استفاده نمایید.</add_folder_dis>
+    <rename_folder_des>برای تغییر نام پوشه انتخاب شده استفاده نمایید.</rename_folder_des>
+    <remove_folder>حذف پوشه</remove_folder>
+    <remove_folder_des>برای خالی و حذف نمودن پوشه انتخاب شده استفاده نمایید. دقت کنید، این عمل برگشت پذیر نمی‌باشد!</remove_folder_des>
+    <default_folder>بعنوان پوشه پیش‌فرض انتخاب شود</default_folder>
+    <default_folder_des>جهت تعیین پوشه فعلی بعنوان پوشه پیش‌فرض استفاده نمایید.</default_folder_des>
+    <set_default>انتخاب این پوشه بعنوان پیش‌فرض</set_default>
+    <set>قرار دادن</set>
+    <as_drafts>پیش‌نویش</as_drafts>
+    <as_sent>فرستاده شده</as_sent>
+    <as_trash>بازیافت</as_trash>
+    <set_as_default>قراردادن</set_as_default>
+    <link_first>پوشه قبل از اینکه بعنوان پیش‌فرض انتخاب شود باید لینک شود.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>ورودی</inbox>
+    <drafts>پیش‌نویس</drafts>
+    <sent>فرستاده شده</sent>
+    <trash>بازیافت</trash>
+  </common_folders>
+  <common>
+    <yes>بله</yes>
+    <no>خیر</no>
+  </common>
+  <folder_types>
+    <mail>ایمیل</mail>
+    <contact>شخص</contact>
+    <event>تقویم</event>
+    <journal>ژورنال</journal>
+    <note>یادداشت</note>
+    <task>وظیفه</task>
+    <file>فایل</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA validation failed. Try again.</login_invalid_keypair>
+    <divtcha_confirmation>کد اشتباه</divtcha_confirmation>
+    <missing_values_text>متن خالی می‌باشد</missing_values_text>
+    <missing_values_email>ایمیل خالی می‌باشد</missing_values_email>
+    <invalid_email>آدرس ایمیل اشتباه است</invalid_email>
+    <password_not_changed>رمزعبور جدید نمی‌تواند مانند رمزعبور قدیم باشد</password_not_changed>
+    <reset_password_invalid_hashid>Invalid hash ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID file doesn&apos;t exist</reset_password_uid_file>
+    <account_alternative_email>این اکانت، ایمیل ثانویه ندارد</account_alternative_email>
+    <migration_in_progress>این اکانت در حال انتقال می‌باشد. لطفا بعدا امتحان نمایید.</migration_in_progress>
+    <login_ip_invalid>دسترسی بر اساس IP محدود شده است: %s</login_ip_invalid>
+    <unauthorized>دسترسی غیرمجاز</unauthorized>
+    <folder_type_restricted>این نوع پوشه توسط مدیر سرور محدود شده است</folder_type_restricted>
+    <account_does_not_exists>اکانت موزد نظر موجود نمی‌باشد</account_does_not_exists>
+    <account_invalid_id>اکانت %s قابل دسترس نمی‌باشد</account_invalid_id>
+    <account_unknown_protocol>پروتوکل اکانت ناشناخته است</account_unknown_protocol>
+    <account_missing_tag>برچسب %s اکانت موجود نمی‌باشد</account_missing_tag>
+    <account_missing_id>ID اکانت موجود نیست</account_missing_id>
+    <account_invalid_action>Account action is invalid</account_invalid_action>
+    <account_already_exists>اکانت %s موجود است</account_already_exists>
+    <account_no_username>نام‌کاربری اکانت خالی و یا نامشخص است</account_no_username>
+    <account_no_password>رمزعبور اکانت خالی و یا نامشخص است</account_no_password>
+    <account_bad_password>رمزعبور قدیمی اشتباه است</account_bad_password>
+    <account_password_policy>رمزعبور وارد شده با سیاست رمزگذاری تعیین شده مطابقت ندارد</account_password_policy>
+    <account_sync>Account synchronization failed for account %s</account_sync>
+    <account_primary_delete>اکانت اصلی قابل حذف نمی‌باشد</account_primary_delete>
+    <account_test_failed>Account test failed for account %s</account_test_failed>
+    <account_signup_disabled>امکان عضویت غیرفعال شده است</account_signup_disabled>
+    <account_signup_error>Account sign-up error: %s</account_signup_error>
+    <account_signup_1>Undefined error</account_signup_1>
+    <account_signup_2>Insufficient license</account_signup_2>
+    <account_signup_3>Size of parameters too short</account_signup_3>
+    <account_signup_4>Function failure</account_signup_4>
+    <account_signup_5>Configuration not found</account_signup_5>
+    <account_signup_6>سیاست رمزگذاری</account_signup_6>
+    <account_signup_7>اکانت از قبل موجود است</account_signup_7>
+    <account_signup_8>کاراکترهای غیرمجاز</account_signup_8>
+    <attachment_too_large>سایز پیوست زیاد است: %s</attachment_too_large>
+    <password_confirmation>Password mismatch</password_confirmation>
+    <missing_values>Password mismatch</missing_values>
+    <addon_copy>Cannot copy add-on</addon_copy>
+    <attachment_file_not_found>Cannot attach file</attachment_file_not_found>
+    <attachment_add>Failed to add an attachment</attachment_add>
+    <attachment_get>Cannot get the attachment %s</attachment_get>
+    <attacment_class_unknown>Unknown attachment class</attacment_class_unknown>
+    <auth_missing_tag>Authentication missing tag %s</auth_missing_tag>
+    <auth_export_key_private>Cannot export private key</auth_export_key_private>
+    <auth_invalid_char>Invalid character in private key</auth_invalid_char>
+    <confirmation_uid>Captcha session not found</confirmation_uid>
+    <confirmation_word_mismatch>Captcha entered incorrectly</confirmation_word_mismatch>
+    <db_auto_create>Cannot auto create the database</db_auto_create>
+    <db_create_sqlitefile>Cannot create SQLite DB file</db_create_sqlitefile>
+    <db_create_tables>Cannot create tables</db_create_tables>
+    <db_statement_prepare>Cannot prepare the statement</db_statement_prepare>
+    <db_invalid_statement>Invalid statement type</db_invalid_statement>
+    <flags_unknown_field>Incorrect flags field</flags_unknown_field>
+    <folder_autocreate_failed>پوشه %s از قبل موجود است</folder_autocreate_failed>
+    <folder_already_exists>پوشه %s از قبل موجود است</folder_already_exists>
+    <folder_does_not_exist>پوشه %s موجود نمی‌باشد</folder_does_not_exist>
+    <folder_name_bad_char>کاراکترهای ویژه در نام پوشه قابل استفاده نمی‌باشد</folder_name_bad_char>
+    <folder_name_length>Cannot get folder name length</folder_name_length>
+    <folder_name_too_long>نام پوشه طولانی می‌باشد</folder_name_too_long>
+    <folder_get_list>Cannot get the list of folders</folder_get_list>
+    <folder_delete>Cannot delete folder %s</folder_delete>
+    <folder_create>Cannot create folder %s</folder_create>
+    <folder_rename_empty>Cannot rename folder to a blank name</folder_rename_empty>
+    <folder_move_to_self>Cannot move folder to itself</folder_move_to_self>
+    <folder_move_to_subfolder>Cannot move folder to a subfolder of itself</folder_move_to_subfolder>
+    <folder_rename>امکان تغییر اسم پوشه نیست</folder_rename>
+    <folder_copy>امکان کپی پوشه نیست</folder_copy>
+    <folder_empty>امکان خالی کردن پوشه نیست</folder_empty>
+    <folder_missing_tag>Folder tag missing %s</folder_missing_tag>
+    <folder_missing_account_id>Folder missing account ID</folder_missing_account_id>
+    <folder_invalid_account_id>Folder has an invalid account ID %s</folder_invalid_account_id>
+    <folder_missing_id>Missing folder ID</folder_missing_id>
+    <folder_missing_name>Missing folder name</folder_missing_name>
+    <folder_invalid_action>Invalid folder action %s</folder_invalid_action>
+    <folder_invalid_type>Invalid type of folder %s</folder_invalid_type>
+    <folder_sync>Cannot synchronize folder %s</folder_sync>
+    <folder_empty_non_mail>Cannot empty non-email folder</folder_empty_non_mail>
+    <folder_insufficient_rights>Insufficient rights to perform the operation</folder_insufficient_rights>
+    <folder_mark_non_mail>Trying to set flags of a non-email folder</folder_mark_non_mail>
+    <freebusy_missing_tag>FreeBusy tag missing %s</freebusy_missing_tag>
+    <group_open>Cannot open group %s</group_open>
+    <group_subscribe>Cannot subscribe to group %s</group_subscribe>
+    <group_add>Cannot create group</group_add>
+    <group_edit>Cannot edit group %s</group_edit>
+    <group_user_add>Cannot add users to group %s</group_user_add>
+    <group_user_edit>Cannot edit group user %s</group_user_edit>
+    <group_user_delete>Cannot delete group user %s</group_user_delete>
+    <groupware_upgrade_task>GroupWare service update procedure is running. Please try again later.</groupware_upgrade_task>
+    <folder_open>Cannot open group %s</folder_open>
+    <call_open_folder_first>GroupWare folder not open in operation where required</call_open_folder_first>
+    <call_open_group_first>GroupWare group not open in operation where required</call_open_group_first>
+    <subscribe_account_gw>Error subscribing account</subscribe_account_gw>
+    <unsubscribe_account_gw>Error unsubscribing account</unsubscribe_account_gw>
+    <imap_clone>Cannot clone IMAP object</imap_clone>
+    <imap_open>Cannot open IMAP stream</imap_open>
+    <imap_internal>IMAP internal error: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP retrieve delimiter error</imap_delimiter_retrieval>
+    <imap_getmailboxes>Cannot get the list of mailboxes</imap_getmailboxes>
+    <imap_mailbox_create>IMAP create mailbox %s create</imap_mailbox_create>
+    <imap_mailbox_subscribe>Cannot subscribe mailbox %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>Cannot delete mailbox %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Cannot unsubscribe mailbox %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP mailbox rename %s failed</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP mailbox delete items</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP mailbox empty items</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP copy items failed</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP move items failed</imap_mailbox_moveitems>
+    <imap_mailbox_open>Cannot reopen mailbox %s</imap_mailbox_open>
+    <imap_mailbox_message_list>Cannot get the list of messages</imap_mailbox_message_list>
+    <imap_message_details>Cannot get the details for message %s</imap_message_details>
+    <imap_no_headers>Cannot get the headers of message %s</imap_no_headers>
+    <imap_no_body>Cannot get the body of message %s</imap_no_body>
+    <imap_message_create>Cannot append message</imap_message_create>
+    <imap_message_delete>Cannot delete message %s</imap_message_delete>
+    <imap_message_copy>Cannot copy message %s</imap_message_copy>
+    <imap_message_move>Cannot move message %s</imap_message_move>
+    <imap_flags_set>Cannot set the message %s flags</imap_flags_set>
+    <imap_flags_clear>Cannot clear the message %s flags</imap_flags_clear>
+    <imap_message_not_found>New message not found in destination mailbox</imap_message_not_found>
+    <subscribe_account_imap>Error while subscribing account</subscribe_account_imap>
+    <unsubscribe_account_imap>Error while unsubscribing account</unsubscribe_account_imap>
+    <import_vcalendar>Import vCalendar failed</import_vcalendar>
+    <import_vcard>Import vCard failed</import_vcard>
+    <import_missing_tag>Import tag missing %s</import_missing_tag>
+    <import_missing_action>Import missing action</import_missing_action>
+    <import_invalid_action>Invalid import action %s</import_invalid_action>
+    <import_missing_account_id>Import missing account ID</import_missing_account_id>
+    <import_invalid_account_id>Import invalid account ID</import_invalid_account_id>
+    <import_missing_folder_id>Import missing folder ID</import_missing_folder_id>
+    <import_invalid_folder_id>Import invalid folder ID</import_invalid_folder_id>
+    <import_invalid_item_id>Import invalid item ID</import_invalid_item_id>
+    <import_add_items>Cannot create items (list)</import_add_items>
+    <import_invalid_data>Trying to import unsupported data</import_invalid_data>
+    <export_invalid_account>Trying to export non-existing account</export_invalid_account>
+    <imip_versit_convert>iMIP versit conversion</imip_versit_convert>
+    <imip_versit_empty>iMIP versit empty</imip_versit_empty>
+    <imip_missing_folder>iMIP missing folder</imip_missing_folder>
+    <inputstream_no_xml_input>No XML passed to input</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Corrupted XML input</inputstream_corrupted_input>
+    <item_invalid_id>No item ID</item_invalid_id>
+    <item_count>Cannot get the item count</item_count>
+    <item_create>امکان ایجاد آیتم نیست</item_create>
+    <item_delete>امکان حذف آیتم %s نیست</item_delete>
+    <item_move>امکان انتقال آیتم نیست</item_move>
+    <item_edit>Item %s edit error</item_edit>
+    <item_occurrance_delete>Cannot delete occurrence %s</item_occurrance_delete>
+    <item_occurrance_create>Cannot create occurrence</item_occurrance_create>
+    <item_exception_delete>Cannot delete exception %s</item_exception_delete>
+    <item_exception_create>Cannot create exception</item_exception_create>
+    <item_copy>امکان کپی آیتم نیست</item_copy>
+    <item_copy_multiple>Cannot copy multiple items</item_copy_multiple>
+    <item_copy_destination>Cannot get the destination folder</item_copy_destination>
+    <item_copy_destination_type>Cannot copy to folder of different type than source folder</item_copy_destination_type>
+    <item_count_retrieve>Cannot count folder items</item_count_retrieve>
+    <item_missing_tag>Item tag missing</item_missing_tag>
+    <item_missing_account_id>Missing account ID</item_missing_account_id>
+    <item_invalid_account_id>Invalid account ID %s</item_invalid_account_id>
+    <item_missing_folder_id>Missing folder ID</item_missing_folder_id>
+    <item_invalid_folder_id>Invalid folder ID %s</item_invalid_folder_id>
+    <item_missing_item_id>Missing item ID</item_missing_item_id>
+    <item_invalid_item_id>Invalid item ID %s</item_invalid_item_id>
+    <item_invalid_action>Item action invalid</item_invalid_action>
+    <login_invalid>Invalid login for user %s</login_invalid>
+    <login_account_valid>Invalid account %s</login_account_valid>
+    <phpmailer_>Generic mailer error, message not sent</phpmailer_>
+    <phpmailer_smtp_auth>Mailer could not authenticate, message not sent</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer could not connect to SMTP, message not sent</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer is missing recipients, message not sent</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer doesn&apos;t support this message type, message not sent</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail sending error</phpmailer_sendmail_send>
+    <phpmailer_mail_send>خطا در ارسال ایمیل</phpmailer_mail_send>
+    <phpmailer_language>امکان باز کردن فایل زبان نیست</phpmailer_language>
+    <phpmailer_add_attachment>امکان پیوست فایل نیست</phpmailer_add_attachment>
+    <phpmailer_encode_file>Cannot encode attachment file</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Unknown attachment encoding type</phpmailer_encode_unknown>
+    <mailparse_empty>No source to parse</mailparse_empty>
+    <mailparse_parser_init>Parsing of the email failed</mailparse_parser_init>
+    <mailparse_get_part>Cannot get the part %s</mailparse_get_part>
+    <message_missing_tag>Message missing tag %s</message_missing_tag>
+    <message_missing_account_id>Message missing account ID</message_missing_account_id>
+    <message_invald_account>Message invalid account ID</message_invald_account>
+    <message_missing_folder_id>Message missing folder ID</message_missing_folder_id>
+    <message_invald_folder>Message invalid folder ID</message_invald_folder>
+    <message_missing_item_id>Message missing item ID</message_missing_item_id>
+    <message_invalid_action>Message invalid action</message_invalid_action>
+    <message_get_not_allowed>Cannot update folder list due to insufficient rights</message_get_not_allowed>
+    <message_attachment_type>Cannot parse attachment %s</message_attachment_type>
+    <message_attachment_existence>Recently uploaded attachment not found</message_attachment_existence>
+    <rss_channel_exist>Specified channel URL cannot be opened %s</rss_channel_exist>
+    <rss_invalid_channel>Cannot access the channel</rss_invalid_channel>
+    <settings_access_denied>مجوز دسترسی ندارید</settings_access_denied>
+    <settings_missing_tag>Setting missing tag %s</settings_missing_tag>
+    <settings_duplicity>XML settings file formatting error</settings_duplicity>
+    <settings_get_domain_file>Cannot read domain settings file %s</settings_get_domain_file>
+    <settings_domain_set>Settings set domain settings to file %s</settings_domain_set>
+    <settings_user_set>Cannot access users settings in file %. Check permissions and mail folder.</settings_user_set>
+    <settings_public_set>Settings set public data to file %s</settings_public_set>
+    <settings_shared_set>Cannot save the shared accounts</settings_shared_set>
+    <settings_owner_set>Cannot set the owner settings</settings_owner_set>
+    <session_expired>Session %s expired</session_expired>
+    <session_no_user>Session user object cannot be retrieved</session_no_user>
+    <smime_no_recipient>SMIME no recipient</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP data not accepted from server: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP From: failed (from)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP Recipients failed (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Cannot set spell checker mode</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Cannot open spell checker dictionary (dic)</spellchecker_open_dictionary>
+    <spellchecker_add_word>امکان اضافه کردن کلمه جدید %s به دیکشنری وجود ندارد</spellchecker_add_word>
+    <spellchecker_missing_check_id>Missing word identifier</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Missing tag %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Missing dictionary identifier</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Missing word</spellchecker_missing_word>
+    <upload_tag_missing>Upload tag missing</upload_tag_missing>
+    <upload_missing_attribute>Upload missing attribute</upload_missing_attribute>
+    <upload_attachment_missing>Upload attachment missing</upload_attachment_missing>
+    <xml_invalid_file_name>XML file name empty</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath returned more than one result in your query</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML specified node not found %s</xml_node_does_not_exist>
+    <xmlrequest_path>Invalid template file (path)</xmlrequest_path>
+    <xmlrequest_access_denied>اجازه دسترسی ندارید</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Invalid request type (type)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Missing namespace attribute</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Missing or invalid SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XMLRequest tag missing %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Missing class constructor</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Unknown result format %s</xmlrequest_unkown_format>
+    <not_implemented>Not implemented yet</not_implemented>
+    <logdir_create>Cannot create logging directory %s</logdir_create>
+    <api_property_get>Cannot retrieve properties for %s</api_property_get>
+    <wm_disabled>وب‌کلاینت غیرفعال است</wm_disabled>
+    <gw_init_error>GroupWare initialization error</gw_init_error>
+    <default>Default exception %s</default>
+    <other_accounts_disabled>Creating other accounts is disabled</other_accounts_disabled>
+    <link_compressed_variable_missing>ایراد در آدرس. شما به صفحه اصلی منتقل شدید</link_compressed_variable_missing>
+    <login_expired>لاگین شما منقضی شده است. لطفا مجددا لاگین کنید</login_expired>
+    <account_disabled>اکانت غیرفعال شد</account_disabled>
+    <folder_set_default>پوشه &quot;%s&quot; را نمیتوان بعنوان پیش‌فرض انتخاب کرد</folder_set_default>
+    <personality_confirmation_invalid_user>Email address cannot be confirmed: Invalid User</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>Email address cannot be confirmed: Invalid Hash</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Blacklist item failed</item_blacklist_error>
+    <item_whitelist_error>Whitelist item failed</item_whitelist_error>
+    <unverified_signature>Unable to verify message signature</unverified_signature>
+    <account_is_guest>اجازه دسترسی برای مهمان وجود ندارد</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>آیتم‌های انتخاب شده پاک شدند</item_selection_cleared>
+    <logged_out>شما خارج شدید</logged_out>
+    <message_send_ok>پیام ارسال شد</message_send_ok>
+    <item_move_ok>آیتم‌ها انتقال یافتند</item_move_ok>
+    <item_copy_ok>آیتم‌ها کپی شدند</item_copy_ok>
+    <item_delete_ok>آیتم‌ها حذف شدند</item_delete_ok>
+    <item_mark_ok>آیتم‌ها علامت‌گذاری شد</item_mark_ok>
+    <settings_save_ok>تنظیمات ذخیره شد</settings_save_ok>
+    <loading_next_message>در حال بارگذاری پیام بعدی</loading_next_message>
+    <loading_prev_message>در حال بارگذاری پیام قبل</loading_prev_message>
+    <loading_next_page>در حال بارگذاری صفحه بعد</loading_next_page>
+    <loading_prev_page>در حال بارگذاری صفحه قبل</loading_prev_page>
+    <loading_next_month>در حال بارگذاری ماه بعد</loading_next_month>
+    <loading_prev_month>در حال بارگذاری ماه قبل</loading_prev_month>
+    <loading_next_week>در حال بارگذاری روز بعد</loading_next_week>
+    <loading_prev_week>در حال بارگذاری هفته قبل</loading_prev_week>
+    <loading_next_day>درحال بارگذاری روز بعد</loading_next_day>
+    <loading_prev_day>در حال بارگذاری روز قبل</loading_prev_day>
+    <password_change_ok>رمزعبور تغییر کرد</password_change_ok>
+    <item_whitelist_ok>آیتم به لیست سفید اضافه شد</item_whitelist_ok>
+    <item_blacklist_ok>آیتم به لیست سیاه اضافه شد</item_blacklist_ok>
+    <folder_set_default_ok>پوشه به عنوان پیش‌فرض انتخاب شد</folder_set_default_ok>
+    <subscribe_account_ok>به عضویت اکانت درآمدید</subscribe_account_ok>
+    <subscribe_folder_ok>به عضویت پوشه درآمدید</subscribe_folder_ok>
+    <item_decline_ok>آیتم رد شده است</item_decline_ok>
+    <access_granted>به شما دسترسی به &quot;%s&quot; توسط &quot;%s&quot; داده شده است.</access_granted>
+    <message_save_ok>پیام ذخیره شد</message_save_ok>
+    <item_accept_ok>آیتم پذیرفته شد</item_accept_ok>
+  </messages>
+</language>

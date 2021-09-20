@@ -1,0 +1,1 @@
+{lang::menu::switch}: <a href="../?sid={sid}&ref={logout_referer_encoded}">{lang::menu::advanced}</a>, <a href="../pda/?sid={sid}">{lang::menu::mobile}</a>

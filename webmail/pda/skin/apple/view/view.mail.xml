@@ -1,0 +1,24 @@
+<view>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<mailview helper="item" template="mail.view">
+			<menu anchor="mail.view.menu" template="menu/mail.view" />
+			<menu anchor="mail.view.menu.reply" template="menu/mail.view.reply" />
+		</mailview>
+		<config>
+			<stylesheet>
+				<src>apple</src>
+			</stylesheet>
+			<javascript>
+				<src>lib</src>
+				<src>apple</src>
+			</javascript>
+		</config>
+	</panel>
+	<config>
+		<base>
+			<target>_blank</target>
+		</base>
+	</config>
+</view>

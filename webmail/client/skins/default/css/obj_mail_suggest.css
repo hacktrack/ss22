@@ -1,0 +1,33 @@
+div.obj_mail_suggest>div{
+	max-height: 255px;
+	overflow: hidden;
+	padding-right: 22px;
+}
+
+.rtl div.obj_mail_suggest>div {
+	padding-left: 22px;
+	padding-right: 0px;
+}
+
+div.obj_tag.obj_mail_suggest>div>div>span{
+	background-color: #e4f4ff;
+}
+div.obj_tag.obj_mail_suggest>div>div>span.error{
+	background-color: #E7A1A2;
+}
+
+div.obj_mail_suggest.dragover{
+	border-color: {bc_main '#0088CC'};
+}
+div.obj_mail_suggest>div>div>span.dragged{
+	display: none;
+}
+
+div.obj_mail_suggest>div>div>span.expand{
+	background-color: #d7f1dc!important;
+}
+
+div.obj_mail_suggest.obj_tag.border form.obj_input input,
+div.obj_mail_suggest.obj_tag.noborder form.obj_input input {
+	min-width: 200px!important;
+}

@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>Nuevo elemento</add>
+    <quarantine>Cuarentena</quarantine>
+    <whitelist>Lista blanca</whitelist>
+    <blacklist>Lista negra</blacklist>
+    <save>Guardar</save>
+    <cancel>Cancelar</cancel>
+    <new_item>Agregar nuevo e-mail</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Deshabilitar accesos directos</disable_shortcuts>
+    <enable_swipe_gestures>Habilitar gestos (deslizar) en dispositivos touch</enable_swipe_gestures>
+    <use_high_contrast_skin>Usar alto contraste</use_high_contrast_skin>
+    <menu_as_text>Mostrar texto en lugar de iconos en la barra de tareas</menu_as_text>
+    <change_password>Cambiar contraseña</change_password>
+    <open_change_password_dialog>Abrir diálogo para cambiar la contraseña</open_change_password_dialog>
+    <oldpassword>Contraseña antigua</oldpassword>
+    <newpassword>Nueva contraseña</newpassword>
+    <confirmpassword>confirmar contraseña</confirmpassword>
+    <remove>Quitar</remove>
+    <settings>Configuración</settings>
+    <navigate>Administrar</navigate>
+    <user>Mi configuracion</user>
+    <domain>Administrador de dominio</domain>
+    <admin>Configuracion del Administrador</admin>
+    <new_domain>Nuevo Dominio</new_domain>
+    <test_dropdown>a | b | c | d</test_dropdown>
+    <general>General</general>
+    <layout>Diseño</layout>
+    <mail>Correo</mail>
+    <compose>Redactar</compose>
+    <person>Correo</person>
+    <person_header>Agregar nueva dirección</person_header>
+    <person_description>for example &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>Autorrespuesta</autoresponder>
+    <forwarder>Reenviador</forwarder>
+    <layout_desc>Diseño, Correo</layout_desc>
+    <compose_desc>Configuración predeterminada para un nuevo mensaje (Confirmación de lectura, Formato HTML / Texto Puro, Firma).</compose_desc>
+    <general_desc>Configuración de su buzón para navegar, eliminar y responder mensajes.</general_desc>
+    <personalities_desc>Configurar las identidades de correo electrónico alternativas (diferentes direcciones De: ) a su cuenta de usuario.</personalities_desc>
+    <autoresponder_desc>Responder automáticamente a los correos electrónicos recibidos cuando usted está de vacaciones.</autoresponder_desc>
+    <forwarder_desc>Reenviar o copiar mensajes de correo electrónico recibidos a cualquier otra dirección de correo electrónico.</forwarder_desc>
+    <date_format>Formato de fecha</date_format>
+    <time_format>Formato de hora</time_format>
+    <list_count>Numero de elementos en lista</list_count>
+    <font_family>Fuente predeterminada</font_family>
+    <font_size>Tamaño de fuente predeterminado</font_size>
+    <text_direction>Dirección del texto</text_direction>
+    <text_direction_values>Izquierda hacia la derecha | Derecha a la izquierda</text_direction_values>
+    <empty_trash_every>Vaciar la carpeta de la papelera de reciclaje</empty_trash_every>
+    <days>día (s)</days>
+    <move_deleted>Mover mensajes eliminados a la carpeta de la papelera</move_deleted>
+    <delete_messages_on_empty>Eliminar mensajes permanentemente en la acción de &amp; quot; Vaciar la carpeta &amp; quot;</delete_messages_on_empty>
+    <add_recipients>Agregue automáticamente destinatarios a la libreta de direcciones</add_recipients>
+    <group_pref>Agrupar prefijos en los asuntos (ej: Re [4], Fw [2])</group_pref>
+    <request_read_confirmation>Solicitar confirmación de lectura</request_read_confirmation>
+    <save_sent_msg>Guardar mensaje enviado en la carpeta</save_sent_msg>
+    <message_format>Formato del mensaje</message_format>
+    <message_format_labels>Texto Puro | HTML</message_format_labels>
+    <signature>Suscripción</signature>
+    <forward_to>Encaminamiento para</forward_to>
+    <keep_in_inbox>Mantener mensajes en la Bandeja de entrada</keep_in_inbox>
+    <forward_older>Reenvío de correos electrónicos más antiguos que</forward_older>
+    <forward_older_to>Reenviar mensajes de correo electrónico más antiguos</forward_older_to>
+    <ar_mode>Modo</ar_mode>
+    <ar_mode_labels>No hay nuevos mensajes [Popular] No hay nuevos mensajes [Popular]</ar_mode_labels>
+    <ar_respond_only>Responder sólo mensajes con destinatarios en Para:</ar_respond_only>
+    <ar_respond_again>Responder de nuevo después de (Días)</ar_respond_again>
+    <ar_from>De</ar_from>
+    <ar_subject>Asunto</ar_subject>
+    <ar_text>Texto</ar_text>
+    <ar_no_responder_for>No hay respuestas</ar_no_responder_for>
+    <ar_respond_only_between>Responder sólo si entre</ar_respond_only_between>
+    <email>Email</email>
+    <responder>No hay respuesta para:</responder>
+    <show_attached_images>Visualización automática de imágenes adjuntas</show_attached_images>
+    <show_inline_images>Visualización automática de imágenes externas</show_inline_images>
+    <use_reply_prefix>Utilizar Prefijo en las Respuestas (&amp; gt;)</use_reply_prefix>
+    <time_format_list_labels>12 horas | 24 horas</time_format_list_labels>
+    <force_admin>Forzar esta opción tanto para la configuración de dominio y de los usuarios</force_admin>
+    <force_domain>Forzar esta opción para la configuración de los usuarios</force_domain>
+    <to_top>Firma en la parte superior del mensaje</to_top>
+    <quota>Cuota de disco:</quota>
+    <section_layout>Configuración general de visualización</section_layout>
+    <section_mail>Configuración general de correo</section_mail>
+    <section_autoresponder>Establecer una respuesta automática para este caso cuando no está en su escritorio.</section_autoresponder>
+    <section_norespond>Las direcciones de correo electrónico enumeradas no se responderán.</section_norespond>
+    <domains>Dominios</domains>
+    <accounts>Cuentas</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Usted realmente desea eliminar el (los) mensaje (s) seleccionado (s)?</delete_mail>
+    <blacklist_mail>Usted realmente desea poner los remitentes de los mensajes seleccionados en su lista negra?</blacklist_mail>
+    <delete_contact>¿Realmente desea eliminar este contacto?</delete_contact>
+    <delete_contact_distribution>¿Realmente desea eliminar este grupo de contactos?</delete_contact_distribution>
+    <delete_event>¿Realmente desea eliminar los eventos seleccionados?</delete_event>
+    <delete_note>¿Realmente desea eliminar la (s) nota (s) seleccionada (s)?</delete_note>
+    <delete_task>¿Realmente desea eliminar las tareas seleccionadas?</delete_task>
+    <delete_personalities>¿Realmente desea eliminar los elementos seleccionados (s)?</delete_personalities>
+    <delete_quarantine>¿Realmente desea eliminar el (los) elemento (s) seleccionado (s)?</delete_quarantine>
+    <delete_this_mail>¿Realmente desea eliminar este mensaje?</delete_this_mail>
+    <delete_items>¿Realmente desea eliminar el (los) elemento (s) seleccionado (s)?</delete_items>
+    <delete_item>¿Realmente desea eliminar este elemento?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>No hay elementos en esta carpeta.</no_item>
+  </string>
+  <menu>
+    <files>Archivos</files>
+    <notes>Notas</notes>
+    <tasks>Tareas</tasks>
+    <journal>Noticias</journal>
+    <calendar>Calendario</calendar>
+    <search>Buscar</search>
+    <messages>Mensajes</messages>
+    <contacts>Contactos</contacts>
+    <searchBut>Buscar</searchBut>
+    <address_book>Libro de direcciones</address_book>
+    <logout>Salir</logout>
+    <help>Ayuda</help>
+    <settings>Configuración</settings>
+    <switch>Cambiar a:</switch>
+    <help_url>language/es/help.html</help_url>
+    <quarantine>Filtros</quarantine>
+    <alert_restricted_access>Lo sentimos, el acceso a esta pestaña está prohibido</alert_restricted_access>
+    <basic>Interfaz de Tablet</basic>
+    <advanced>Interfaz de escritorio</advanced>
+    <mobile>Interfaz Móvil</mobile>
+  </menu>
+  <tree>
+    <add_folder>Agregar carpeta</add_folder>
+    <new_message>Redactar</new_message>
+    <manage_folders>Administracion de carpetas</manage_folders>
+    <open_folder>Abrir carpeta</open_folder>
+    <open>Abrir</open>
+  </tree>
+  <mail_view>
+    <attachments>Adjuntos</attachments>
+    <from>De</from>
+    <cc>Cc</cc>
+    <bcc>Cco</bcc>
+    <subject>Asunto</subject>
+    <all_headers>Mostrar todos los encabezados</all_headers>
+    <all_images>Ver imágenes</all_images>
+    <next>Siguiente</next>
+    <prev>Anterior</prev>
+    <first>Primero</first>
+    <last>Último mensaje</last>
+    <show_external_images>Se han bloqueado los rechazos externos. Haga clic aquí para verlos.</show_external_images>
+    <download_all>Descargar todos</download_all>
+    <detail>Detalles</detail>
+    <blue_box_start>Inicio</blue_box_start>
+    <blue_box_end>Fin</blue_box_end>
+    <blue_box_description>Descripción</blue_box_description>
+    <blue_box_accept>Aceptar</blue_box_accept>
+    <blue_box_decline>Declinar</blue_box_decline>
+    <blue_box_subscribe_folder>Suscribir carpeta</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Suscribir cuenta</blue_box_subscribe_account>
+    <item_accept_ok>Artículo aceptado</item_accept_ok>
+    <read>lectura</read>
+    <write>escritura</write>
+    <modify>cambio</modify>
+    <delete>eliminar</delete>
+    <administer>administración</administer>
+    <folder_rights>Permisos de carpeta</folder_rights>
+    <items_rights>Permisos del elemento</items_rights>
+  </mail_view>
+  <login>
+    <send>Enviar</send>
+    <ip_check>Deshabilitar la seguridad extendido</ip_check>
+    <user>Usuario</user>
+    <email>E-mail</email>
+    <password>Contraseña:</password>
+    <remember>Recordar</remember>
+    <language>Idioma</language>
+    <allways_ask>Preguntar siempre</allways_ask>
+    <username>Nombre de usuario</username>
+    <username_and_password>Nombre de usuario y Contraseña</username_and_password>
+    <auto_login>Ingreso automatico</auto_login>
+    <login>Iniciar session</login>
+    <copyright>Desarollado por IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2019&lt;br /&gt; Version: $1</copyright>
+    <welcome>Bienvenido al cliente Web IceWarp Tablet</welcome>
+    <public_welcome>Bienvenido al Calendario Público de IceWarp</public_welcome>
+    <title>Cliente Web IceWarp Tablet</title>
+    <public_title>Calendario Público de IceWarp</public_title>
+    <reset_password>Reiniciar contraseña</reset_password>
+    <sign_up>Registro</sign_up>
+    <email>E-mail</email>
+    <domain>Dominio</domain>
+    <new_password>Contraseña Nueva</new_password>
+    <confirm_password>Confirmar seña</confirm_password>
+    <full_name>Nombre completo</full_name>
+    <alternative_email>Email alternativo</alternative_email>
+    <switch>#Cambiar para Interfaz</switch>
+    <no_javascript>#JavaScript no está actualmente activado en su navegador. &amp; lt; / b &amp; gt; &amp; lt; /.</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>Escriba aquí el texto de la imagen</word>
+  </login>
+  <files>
+    <add>Enviar Archivo</add>
+    <download>Descargar</download>
+    <file>Archivo</file>
+  </files>
+  <file_list>
+    <filename>Nombre de archivo</filename>
+    <description>Descripción</description>
+    <modified>Modificado</modified>
+    <size>Tamaño</size>
+    <tags>Marcadores</tags>
+  </file_list>
+  <notes>
+    <category>Categoría</category>
+    <add>Nueva Nota</add>
+  </notes>
+  <notes_detail>
+    <note>Nota</note>
+    <tags>Marcadores</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Nueva Tarea</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Tarea</task>
+    <status>Estado</status>
+    <complete>Completo</complete>
+    <priority>Prioridad</priority>
+    <not_started>No iniciada</not_started>
+    <in_progress>En curso</in_progress>
+    <completed>Completado</completed>
+    <deferred>Deferida</deferred>
+    <waiting_for_someone_else>Esperando por otra persona</waiting_for_someone_else>
+    <medium>Medio Ambiente</medium>
+    <high>Alto</high>
+    <low>Bajo</low>
+    <tags>Marcadores</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Fecha de inicio</start_date>
+    <due_date>Fecha de entrega</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Pantalla completa</fullscreen>
+    <subject>Asunto</subject>
+    <no_subject>Ningún asunto</no_subject>
+    <no_address>Ninguna dirección</no_address>
+    <from>De</from>
+    <date>Fecha</date>
+    <size>Tamaño</size>
+    <delete>Eliminar</delete>
+    <reply>Responder</reply>
+    <reply_to_all>Responder a Todos</reply_to_all>
+    <forward>Encaminamiento</forward>
+    <print>Imprimir</print>
+    <whitelist>Lista blanca</whitelist>
+    <blacklist>Lista negra</blacklist>
+    <dws>Acción</dws>
+    <copy>Copiar</copy>
+    <move>Mover</move>
+    <copy_to_folder>Copiar a carpeta:</copy_to_folder>
+    <move_to_folder>Mover a carpeta:</move_to_folder>
+    <mar>Marcar como leído</mar>
+    <mau>Marcar como no leído</mau>
+    <select>Seleccionar</select>
+    <all>Todos</all>
+    <none>Ninguna</none>
+    <read>Lectura</read>
+    <unread>No Leído</unread>
+    <invert>Invertir selección</invert>
+    <doit>Aplicar</doit>
+    <to>A</to>
+    <fast_reply>Respuesta rápida</fast_reply>
+    <send_message>Enviar mensaje</send_message>
+    <src>El remitente solicita una respuesta que indica que ha leído este mensaje. ¿Quieres enviarla?</src>
+    <save>Guardar</save>
+    <select_folder>Seleccionar carpeta</select_folder>
+    <deliver>Entregar</deliver>
+    <text>Texto</text>
+    <received>Recibido</received>
+    <saved>Guardado</saved>
+    <sender>Remitente</sender>
+    <owner>Propetario</owner>
+    <domain>Dominio</domain>
+    <show_all>Ver todos</show_all>
+  </mail_main>
+  <event_list>
+    <title>Título</title>
+    <start>Inicio</start>
+    <end>Fin de semana</end>
+    <tags>Marcadores</tags>
+  </event_list>
+  <event_detail>
+    <tags>Marcadores</tags>
+    <show_as>Mostrar como</show_as>
+    <free>Libre</free>
+    <tentative>Provisional</tentative>
+    <busy>Ocupado</busy>
+    <out_of_office>Ausente de la oficina</out_of_office>
+    <title>Título</title>
+    <location>Ubicación</location>
+    <label>Rótulo</label>
+    <none>Ninguna</none>
+    <important>Importante</important>
+    <business>Negocios</business>
+    <personal>Personal</personal>
+    <vacation>Vacaciones</vacation>
+    <must_attend>No puedo faltar</must_attend>
+    <travel_required>Requiere viaje</travel_required>
+    <needs_preparation>Requiere Preparación</needs_preparation>
+    <birthday>Cumpleaños</birthday>
+    <anniversary>Cumpleaños / Boda</anniversary>
+    <phone_call>Teléfono</phone_call>
+    <category>Categoría</category>
+    <private>Privado</private>
+    <from>De</from>
+    <to>A</to>
+    <notes>Notas</notes>
+    <allday>Todo el día</allday>
+    <event>Evento</event>
+    <minutes>Minuto (s)</minutes>
+    <hours>Hora (s)</hours>
+    <days>Día (s)</days>
+    <remind_me>Recordarme</remind_me>
+    <before>antes</before>
+    <no_repeating>Sin Repetición</no_repeating>
+    <daily>Diariamente</daily>
+    <weekly>Semanalmente</weekly>
+    <monthly>Mensualmente</monthly>
+    <yearly>Anualmente</yearly>
+    <end_date>Fecha final</end_date>
+    <no_end_date>Sin fecha final</no_end_date>
+    <repeat>Repetir</repeat>
+    <every>Cada</every>
+    <every_workday>Todos los días de trabajo</every_workday>
+    <recur_every>Repetir cada uno</recur_every>
+    <weeks>semana (s)</weeks>
+    <on>en</on>
+    <monday>Lunes</monday>
+    <tuesday>Martes</tuesday>
+    <wednesday>Miércoles</wednesday>
+    <thursday>Jueves</thursday>
+    <friday>Viernes</friday>
+    <saturday>Sábado</saturday>
+    <sunday>Domingo</sunday>
+    <day>Día</day>
+    <months>mes (es)</months>
+    <first>Primero</first>
+    <second>Segundo</second>
+    <third>Tercero</third>
+    <fourth>Habitación</fourth>
+    <last>Último mensaje</last>
+    <week>Semana</week>
+    <work_week>Semana de trabajo</work_week>
+    <weekend>Fin de semana</weekend>
+    <of_every>de cada uno</of_every>
+    <of>de</of>
+    <years>año (s)</years>
+    <the>El</the>
+    <times>Tiempos</times>
+    <count>Cantidad</count>
+    <until>hasta</until>
+    <tags>Marcadores</tags>
+  </event_detail>
+  <event_main>
+    <mon>Lun</mon>
+    <tue>Mar</tue>
+    <wed>Mier</wed>
+    <thu>Juev</thu>
+    <fri>Vie</fri>
+    <sat>Sáb</sat>
+    <sun>Dom</sun>
+    <jan>Enero</jan>
+    <feb>Febrero</feb>
+    <mar>Marzo</mar>
+    <apr>Abril</apr>
+    <may>Mayo</may>
+    <jun>Junio</jun>
+    <jul>Julio</jul>
+    <aug>Agosto</aug>
+    <sep>Septiembre</sep>
+    <oct>Octubre</oct>
+    <nov>Noviembre</nov>
+    <dec>Diciembre</dec>
+    <week>Semana</week>
+    <week_view>Semana</week_view>
+    <work_week_view>Semana de trabajo</work_week_view>
+    <month_view>Mes</month_view>
+    <day_view>Día</day_view>
+    <list>Lista</list>
+    <add>Nuevo Evento</add>
+    <save>Guardar</save>
+    <no_title>Ningún título</no_title>
+    <search>Búsqueda:</search>
+    <account>Cuenta:</account>
+    <print>Imprimir</print>
+  </event_main>
+  <contact_main>
+    <contact>Contacto</contact>
+    <distribution_list>Lista de distribución</distribution_list>
+    <title>Título</title>
+    <no_email>No hay mensajes nuevos</no_email>
+    <card_view>Tarjetas de negocio</card_view>
+    <list_view>Modo de lista</list_view>
+    <contact_name>Nombre de contacto</contact_name>
+    <email>E-mail</email>
+    <company>Empresa</company>
+    <job>Puesto</job>
+    <department>Departamento</department>
+    <profession>Profesión</profession>
+    <category>Categoría</category>
+    <general>General</general>
+    <first_name>Primer nombre</first_name>
+    <middle_name>Segundo Nombre </middle_name>
+    <last_name>Apellidos</last_name>
+    <nick>Apodo</nick>
+    <sort_string>Ordenar texto</sort_string>
+    <title>Título</title>
+    <suffix>Sufijo</suffix>
+    <category>Categoría</category>
+    <web>Sitio Web</web>
+    <street>Calle</street>
+    <city>Ciudad</city>
+    <zip>Código postal</zip>
+    <state>Estado</state>
+    <country>País</country>
+    <im>IM</im>
+    <phones>Teléfonos</phones>
+    <work>Trabajo</work>
+    <home>Residencia</home>
+    <assistant>Asistente</assistant>
+    <fax_home>Fax residencial</fax_home>
+    <fax_work>Fax del trabajo</fax_work>
+    <call_back>Retorno de llamada</call_back>
+    <company>Empresa</company>
+    <car>Coche</car>
+    <isdn>RDSI</isdn>
+    <mobile>Móviles</mobile>
+    <other>Otros</other>
+    <other_fax>Otros faxes</other_fax>
+    <pager>Pager</pager>
+    <primary>Primario</primary>
+    <radio>Radio</radio>
+    <telex>Telex</telex>
+    <hearing>Para Sordos</hearing>
+    <add>Nuevo contacto</add>
+    <notes>Notas</notes>
+    <no_name>Ningún nombre de contacto</no_name>
+    <select>Seleccione el tipo</select>
+    <select_contacts>Seleccione los contactos que desea agregar</select_contacts>
+    <add_distribution>Nueva lista de distribución</add_distribution>
+    <add_new>Agregar</add_new>
+    <add_item_distribution>Agregar de la libreta de direcciones</add_item_distribution>
+    <save>Guardar</save>
+    <edit>Editar</edit>
+    <edit_selected>Editar seleccionado</edit_selected>
+    <delete_selected>Eliminar</delete_selected>
+    <cancel>Cancelar</cancel>
+    <onleave_warning>Usted realmente desea salir? Todos los datos no guardados se perderán.</onleave_warning>
+    <tags>Marcadores</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>Nuevo Paciente</new_patient>
+    <new_staff>Nuevo Staff</new_staff>
+    <notify_email>E-mail para notificaciones</notify_email>
+    <notify_sms>Notificar por SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>Nuevo</add>
+    <staff>Personal</staff>
+    <patient>Pacientes</patient>
+  </hippa_detail>
+  <grid>
+    <title>Título</title>
+    <note>Nota</note>
+    <size>Tamaño</size>
+    <category>Categoría</category>
+    <start>Inicio</start>
+    <end>Fin</end>
+    <save>Guardar</save>
+    <cancel>Cancelar</cancel>
+    <number_of_items>Número de elementos seleccionados en otras páginas:</number_of_items>
+    <clear>limpiar</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Por favor seleccione el texto en el que desea crear un enlace.</select_text>
+    <enter_url>Introduzca la URL para este enlace:</enter_url>
+    <image_location>Entre la ubicación de esta imagen:</image_location>
+    <image_alt>Entre el texto alternativo a esta imagen:</image_alt>
+    <image>Insertar imagen</image>
+    <htmlsource>Código fuente HTML</htmlsource>
+    <hyperlink>Enlace</hyperlink>
+    <underline>Subrayado</underline>
+    <italic>Itálicos</italic>
+    <bold>Negrita</bold>
+    <fontsize>Tamaño de letra</fontsize>
+    <fontformat>Formato fuente</fontformat>
+    <outdent>Reducir la identación</outdent>
+    <indent>Aumentar la identación</indent>
+    <orderedlist>Lista numerada</orderedlist>
+    <unorderedlist>Lista con marcadores</unorderedlist>
+    <justify>Justificar</justify>
+    <right>Alineación hacia la derecha</right>
+    <center>Alineación centralizada</center>
+    <left>Alineación hacia la izquierda</left>
+    <blockformat>Formato en bloque</blockformat>
+    <block_type>Tipo del bloque</block_type>
+    <heading>Encabezado</heading>
+    <paragraph>Párrafo</paragraph>
+    <size>Tamaño</size>
+    <font>Fuente</font>
+    <cancel>Cancelar</cancel>
+    <email>E-mail</email>
+    <options>Opciones</options>
+    <plain>Texto simple</plain>
+    <html>HTML</html>
+    <from>De</from>
+    <to>Para</to>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Asunto</subject>
+    <date>Fecha</date>
+    <attachments>Adjuntos</attachments>
+    <text>Texto</text>
+    <send_message>Enviar mensaje</send_message>
+    <save_message>Guardar</save_message>
+    <br/>
+    <spellchecker>Idioma del corrector ortográfico</spellchecker>
+    <rrc>Solicitar confirmación de lectura</rrc>
+    <ssm>Guardar mensajes enviados en la carpeta</ssm>
+    <psa>Utilizar SmartAttach</psa>
+    <priority>Prioridad</priority>
+    <lowest>Más baja</lowest>
+    <low>Bajo</low>
+    <normal>Normal</normal>
+    <high>Alto</high>
+    <highest>Mas alta</highest>
+    <rta>Dirección de Responder</rta>
+    <charset>Conjunto de caracteres</charset>
+    <auto>Auto</auto>
+    <original_message>------ Mensaje Original ------</original_message>
+    <read_confirmation_subject>Leido: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Su mensaje fue leído. Los siguientes son detalles de %SUBJECT%</read_confirmation_text>
+    <add_contacts>Agregar contactos</add_contacts>
+    <add_files>Agregar archivos</add_files>
+    <add_files_from_folder>Agregar archivos de carpeta</add_files_from_folder>
+    <add_files_from_dropbox>Agregar archivos de Dropbox</add_files_from_dropbox>
+    <leave_notice>¿Quieres salir? El mensaje se perderá.</leave_notice>
+    <alias>Alias</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Nueva carpeta</add>
+    <delete>Eliminar</delete>
+    <link>Enlaces</link>
+    <unlink>Eliminar enlace</unlink>
+    <create_folder>Crear nueva carpeta</create_folder>
+    <create>Crear</create>
+    <delete_confirmation_text>¿Está seguro de que desea eliminar esta carpeta?</delete_confirmation_text>
+    <empty_confirmation_text>¿Está seguro de que desea eliminar elementos de esta carpeta?</empty_confirmation_text>
+    <delete_yes>Sí</delete_yes>
+    <delete_no>No</delete_no>
+    <link_as>Enlace carpeta como</link_as>
+    <unlink_as>Eliminar enlace</unlink_as>
+    <unlink_confirmation_text>¿Está seguro de que desea quitar el enlace de la carpeta?</unlink_confirmation_text>
+    <unlink_yes>Sí</unlink_yes>
+    <unlink_no>No</unlink_no>
+    <virtual>Carpeta virtual</virtual>
+    <delete_empty_folder>Eliminar o vaciar carpeta</delete_empty_folder>
+    <edit>Editar</edit>
+    <empty>Vaciar</empty>
+    <rename_folder>Cambiar nombre de carpeta</rename_folder>
+    <save>Guardar</save>
+    <rename>Cambiar nombre</rename>
+    <perform_action>Realizar acción para</perform_action>
+    <select_folder>Seleccionar carpeta para administrar</select_folder>
+    <open_folder>Abrir carpeta</open_folder>
+    <open_folder_des>Utilice para acceder al contenido de una carpeta.</open_folder_des>
+    <link_folder>Enlace a carpeta</link_folder>
+    <link_folder_des>Utilice para crear un acceso directo a una carpeta en el menú de la izquierda (árbol de carpetas).</link_folder_des>
+    <add_folder>Agregar carpeta</add_folder>
+    <add_folder_dis>Utilice para crear una nueva carpeta debajo de la carpeta seleccionada.</add_folder_dis>
+    <rename_folder_des>Utilice para cambiar el nombre de la carpeta seleccionada.</rename_folder_des>
+    <remove_folder>Quitar carpeta</remove_folder>
+    <remove_folder_des>Utilice para vaciar / borrar la carpeta seleccionada de forma permanente. Atención: usted no puede deshacer esa acción!</remove_folder_des>
+    <default_folder>Establecer como carpeta predeterminada</default_folder>
+    <default_folder_des>Utilice para establecer esta carpeta de forma predeterminada.</default_folder_des>
+    <set_default>Establecer esta carpeta de forma predeterminada</set_default>
+    <set>Definir</set>
+    <as_drafts>Borradores</as_drafts>
+    <as_sent>Enviados</as_sent>
+    <as_trash>Papelera</as_trash>
+    <set_as_default>Definir</set_as_default>
+    <link_first>Una carpeta debe estar enlacada primero para poder establecerla de forma predeterminada.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Bandeja de entrada</inbox>
+    <drafts>Borradores</drafts>
+    <sent>Enviados</sent>
+    <trash>Papelera</trash>
+  </common_folders>
+  <common>
+    <yes>Sí</yes>
+    <no>No</no>
+  </common>
+  <folder_types>
+    <mail>Correo</mail>
+    <contact>Contacto</contact>
+    <event>Calendario</event>
+    <journal>Noticias</journal>
+    <note>Nota</note>
+    <task>Tarea</task>
+    <file>Archivo</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>Error de validación RSA. Por favor inténtalo de nuevo.</login_invalid_keypair>
+    <divtcha_confirmation>Código de verificación (captcha) incorrecto</divtcha_confirmation>
+    <missing_values_text>Entrada de texto en blanco</missing_values_text>
+    <missing_values_email>Entrada de correo electrónico en blanco</missing_values_email>
+    <invalid_email>Dirección de correo no válido</invalid_email>
+    <password_not_changed>La nueva contraseña no puede ser igual a la contraseña antigua</password_not_changed>
+    <reset_password_invalid_hashid>ID de hash no válido</reset_password_invalid_hashid>
+    <reset_password_uid_file>Archivo de UID no existe</reset_password_uid_file>
+    <account_alternative_email>La cuenta no tiene dirección de correo electrónico alternativa</account_alternative_email>
+    <migration_in_progress>La migración de la cuenta está en progreso, por favor inténtalo de nuevo más tarde.</migration_in_progress>
+    <login_ip_invalid>Restricción de inicio de sesión al IP: %s</login_ip_invalid>
+    <unauthorized>Acceso no autorizado</unauthorized>
+    <folder_type_restricted>Este tipo de carpeta ha sido restringido por el administrador</folder_type_restricted>
+    <account_does_not_exists>La cuenta especificada no existe</account_does_not_exists>
+    <account_invalid_id>No se pudo obtener la cuenta %s</account_invalid_id>
+    <account_unknown_protocol>Protocolo de cuenta desconocido</account_unknown_protocol>
+    <account_missing_tag>Faltando marcador de cuenta %s</account_missing_tag>
+    <account_missing_id>Faltando id de la cuenta</account_missing_id>
+    <account_invalid_action>Acción de cuenta no válida</account_invalid_action>
+    <account_already_exists>La cuenta %s ya existe</account_already_exists>
+    <account_no_username>El nombre de usuario de la cuenta falta o está vacío</account_no_username>
+    <account_no_password>La contraseña de cuenta falta o en blanco</account_no_password>
+    <account_bad_password>Contraseña antigua informada incorrectamente</account_bad_password>
+    <account_password_policy>La contraseña no se combina con la directiva de contraseña</account_password_policy>
+    <account_sync>La sincronización de cuenta falló a la cuenta %s</account_sync>
+    <account_primary_delete>No se pudo eliminar la cuenta principal</account_primary_delete>
+    <account_test_failed>La prueba de cuenta falló para la cuenta %s</account_test_failed>
+    <account_signup_disabled>Recurso de autocadastro deshabilitado</account_signup_disabled>
+    <account_signup_error>Error en el autocadastro de cuenta: %s</account_signup_error>
+    <account_signup_1>Error indefinido</account_signup_1>
+    <account_signup_2>Licencia insuficiente</account_signup_2>
+    <account_signup_3>Tamaño de los parámetros muy pequeños</account_signup_3>
+    <account_signup_4>Fallo de función</account_signup_4>
+    <account_signup_5>No se encontró la configuración</account_signup_5>
+    <account_signup_6>Política de contraseña</account_signup_6>
+    <account_signup_7>La cuenta ya existe</account_signup_7>
+    <account_signup_8>Caracteres no válidos</account_signup_8>
+    <attachment_too_large>El Anexo es demasiado grande: %s</attachment_too_large>
+    <password_confirmation>No coincidencia de contraseña</password_confirmation>
+    <missing_values>Contraseñas no coinciden</missing_values>
+    <addon_copy>No se pudo copiar complemento</addon_copy>
+    <attachment_file_not_found>No se pudo adjuntar archivo</attachment_file_not_found>
+    <attachment_add>Error al agregar un archivo adjunto</attachment_add>
+    <attachment_get>No se pudo obtener el archivo adjunto %s</attachment_get>
+    <attacment_class_unknown>Clase de datos adjuntos desconocidos</attacment_class_unknown>
+    <auth_missing_tag>Autenticación que falta etiqueta %s</auth_missing_tag>
+    <auth_export_key_private>No se pudo exportar clave privada</auth_export_key_private>
+    <auth_invalid_char>Caracteres no válidos en clave privada</auth_invalid_char>
+    <confirmation_uid>Sesión de captcha no encontrada</confirmation_uid>
+    <confirmation_word_mismatch>La palabra no coincide con la imagen (captcha)</confirmation_word_mismatch>
+    <db_auto_create>No se pudo crear la base de datos automáticamente</db_auto_create>
+    <db_create_sqlitefile>No se pudo crear archivo BD SQLite</db_create_sqlitefile>
+    <db_create_tables>No se pudo crear tablas</db_create_tables>
+    <db_statement_prepare>No se pudo preparar la instrucción</db_statement_prepare>
+    <db_invalid_statement>Tipo de instrucción no válida</db_invalid_statement>
+    <flags_unknown_field>Campo con marcadores no válidos</flags_unknown_field>
+    <folder_autocreate_failed>La carpeta %s ya existe</folder_autocreate_failed>
+    <folder_already_exists>La carpeta %s ya existe</folder_already_exists>
+    <folder_does_not_exist>Carpeta %s no existe</folder_does_not_exist>
+    <folder_name_bad_char>Los caracteres especiales no están permitidos para nombres de carpeta</folder_name_bad_char>
+    <folder_name_length>No se pudo obtener la longitud del nombre de carpeta</folder_name_length>
+    <folder_name_too_long>Nuevo nombre de carpeta es demasiado largo</folder_name_too_long>
+    <folder_get_list>No se pudo obtener la lista de carpetas</folder_get_list>
+    <folder_delete>No se pudo eliminar la carpeta %s</folder_delete>
+    <folder_create>No se pudo crear la carpeta %s</folder_create>
+    <folder_rename_empty>No puede cambiar el nombre de la carpeta a un nombre en blanco</folder_rename_empty>
+    <folder_move_to_self>No se puede mover una carpeta a ella misma</folder_move_to_self>
+    <folder_move_to_subfolder>No se puede mover una carpeta a una subcarpeta</folder_move_to_subfolder>
+    <folder_rename>No se puede cambiar el nombre de carpeta</folder_rename>
+    <folder_copy>No se puede copiar carpeta</folder_copy>
+    <folder_empty>No se pudo vaciar carpeta</folder_empty>
+    <folder_missing_tag>Etiquetas de carpeta que faltan %s</folder_missing_tag>
+    <folder_missing_account_id>Faltando identificador de cuenta de carpeta</folder_missing_account_id>
+    <folder_invalid_account_id>Carpeta tiene un ID id de cuenta %s no válido</folder_invalid_account_id>
+    <folder_missing_id>Faltar identificador de carpeta</folder_missing_id>
+    <folder_missing_name>Faltando nombre de carpeta</folder_missing_name>
+    <folder_invalid_action>Acción de carpeta no válida %s</folder_invalid_action>
+    <folder_invalid_type>Tipo de carpeta no válida %s</folder_invalid_type>
+    <folder_sync>No se pudo sincronizar la carpeta %s</folder_sync>
+    <folder_empty_non_mail>No se puede vaciar el directorio que no sea de correo electrónico</folder_empty_non_mail>
+    <folder_insufficient_rights>Permiso insuficiente para realizar la operación</folder_insufficient_rights>
+    <folder_mark_non_mail>Intentar establecer banderas en una carpeta que no es de correo</folder_mark_non_mail>
+    <freebusy_missing_tag>Tag Freebusy sin %s</freebusy_missing_tag>
+    <group_open>No se pudo abrir grupo %s</group_open>
+    <group_subscribe>No se pudo suscribir al grupo %s</group_subscribe>
+    <group_add>No se pudo crear grupo</group_add>
+    <group_edit>No se pudo editar el grupo %s</group_edit>
+    <group_user_add>No se pueden agregar usuarios al grupo %s</group_user_add>
+    <group_user_edit>No se pudo editar usuario %s del grupo</group_user_edit>
+    <group_user_delete>No se puede eliminar el usuario %s del grupo</group_user_delete>
+    <groupware_upgrade_task>Proceso de actualización del servicio de GroupWare en ejecución. Por favor, inténtelo de nuevo más tarde.</groupware_upgrade_task>
+    <folder_open>No se pudo abrir grupo %s</folder_open>
+    <call_open_folder_first>La carpeta de GroupWare no se abre en la operación en la que se requiere</call_open_folder_first>
+    <call_open_group_first>Grupo de GroupWare no abierto en operación en el que se requiere.</call_open_group_first>
+    <subscribe_account_gw>Error al suscribirse a cuenta</subscribe_account_gw>
+    <unsubscribe_account_gw>Error al quitar la suscripción de cuenta</unsubscribe_account_gw>
+    <imap_clone>No se pudo clonar objeto IMAP</imap_clone>
+    <imap_open>No se pudo abrir flujo IMAP</imap_open>
+    <imap_internal>Error interno IMAP: %s</imap_internal>
+    <imap_delimiter_retrieval>Error al obtener el delimitador IMAP</imap_delimiter_retrieval>
+    <imap_getmailboxes>No se pudo obtener la lista de buzones</imap_getmailboxes>
+    <imap_mailbox_create>IMAP crear buzón %s creado</imap_mailbox_create>
+    <imap_mailbox_subscribe>No se pudo suscribir el buzón %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>No se pudo eliminar el buzón %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>No se pudo eliminar el buzón %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>No se puede cambiar el nombre de buzón IMAP %s</imap_mailbox_rename>
+    <imap_mailbox_delete_items>Eliminar elementos de buzón IMAP</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>Vaciar elementos de buzón IMAP</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>Error al copiar elementos IMAP</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>Error al mover elementos IMAP</imap_mailbox_moveitems>
+    <imap_mailbox_open>No se pudo abrir nuevo buzón %s</imap_mailbox_open>
+    <imap_mailbox_message_list>No se pudo obtener la lista de mensajes</imap_mailbox_message_list>
+    <imap_message_details>No se pudo obtener detalles para el mensaje %s</imap_message_details>
+    <imap_no_headers>No se pudo obtener encabezados de mensaje %s</imap_no_headers>
+    <imap_no_body>No se pudo obtener el cuerpo del mensaje %s</imap_no_body>
+    <imap_message_create>No se pudo adjuntar mensaje</imap_message_create>
+    <imap_message_delete>No se pudo eliminar el mensaje %s</imap_message_delete>
+    <imap_message_copy>No se pudo copiar el mensaje %s</imap_message_copy>
+    <imap_message_move>No se pudo mover mensaje %s</imap_message_move>
+    <imap_flags_set>No se pudo marcar el mensaje</imap_flags_set>
+    <imap_flags_clear>No se pudo quitar marcadores de mensaje %s</imap_flags_clear>
+    <imap_message_not_found>Nuevo mensaje no encontrado en el buzón de destino</imap_message_not_found>
+    <subscribe_account_imap>Error al suscribirse a cuenta</subscribe_account_imap>
+    <unsubscribe_account_imap>Error al descartar cuenta</unsubscribe_account_imap>
+    <import_vcalendar>Error al importar vCalendar</import_vcalendar>
+    <import_vcard>Error al importar vCard</import_vcard>
+    <import_missing_tag>Etiquetas de importación que faltan %s</import_missing_tag>
+    <import_missing_action>Importar acción que falta</import_missing_action>
+    <import_invalid_action>Acción de importación no válida %s</import_invalid_action>
+    <import_missing_account_id>Importar identificador de cuenta que falta</import_missing_account_id>
+    <import_invalid_account_id>Importar identificador de cuenta no válida</import_invalid_account_id>
+    <import_missing_folder_id>Importar identificador de carpeta que falta</import_missing_folder_id>
+    <import_invalid_folder_id>Importar identificador de carpeta no válida</import_invalid_folder_id>
+    <import_invalid_item_id>Importar identificador de elemento no válido</import_invalid_item_id>
+    <import_add_items>No se pudo crear elementos (lista)</import_add_items>
+    <import_invalid_data>Intento de importar datos no admitidos</import_invalid_data>
+    <export_invalid_account>Intento de exportar cuenta inexistente</export_invalid_account>
+    <imip_versit_convert>Conversión iMIP versit</imip_versit_convert>
+    <imip_versit_empty>iMIP versit vacío</imip_versit_empty>
+    <imip_missing_folder>Falta la carpeta iMIP</imip_missing_folder>
+    <inputstream_no_xml_input>Ningún XML pasado como entrada</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Entrada de XML dañada</inputstream_corrupted_input>
+    <item_invalid_id>Elemento sin ID</item_invalid_id>
+    <item_count>No se pudo obtener la cantidad de elementos</item_count>
+    <item_create>No se pudo crear elemento</item_create>
+    <item_delete>El elemento% s no se puede eliminar</item_delete>
+    <item_move>El elemento no se puede mover</item_move>
+    <item_edit>Error de edición del elemento %s</item_edit>
+    <item_occurrance_delete>No se pudo eliminar la instancia %s</item_occurrance_delete>
+    <item_occurrance_create>No se pudo crear la instancia</item_occurrance_create>
+    <item_exception_delete>No se pudo eliminar la excepción %s</item_exception_delete>
+    <item_exception_create>No se pudo crear excepción</item_exception_create>
+    <item_copy>No se pudo copiar elemento</item_copy>
+    <item_copy_multiple>No puede copiar varios elementos</item_copy_multiple>
+    <item_copy_destination>No se pudo obtener la carpeta de destino</item_copy_destination>
+    <item_copy_destination_type>No se puede copiar a otro tipo de carpeta diferente de la carpeta de origen</item_copy_destination_type>
+    <item_count_retrieve>No se pudo contener elementos de carpeta</item_count_retrieve>
+    <item_missing_tag>Etiqueta de elemento que falta</item_missing_tag>
+    <item_missing_account_id>Faltan identificadores de cuenta</item_missing_account_id>
+    <item_invalid_account_id>ID de cuenta no válida %s</item_invalid_account_id>
+    <item_missing_folder_id>Faltar identificador de carpeta</item_missing_folder_id>
+    <item_invalid_folder_id>ID de carpeta no válida %s</item_invalid_folder_id>
+    <item_missing_item_id>Falta el identificador de carpeta</item_missing_item_id>
+    <item_invalid_item_id>ID de elemento no válido %s</item_invalid_item_id>
+    <item_invalid_action>Acción del elemento no válido</item_invalid_action>
+    <login_invalid>Login no válido para el usuario %s</login_invalid>
+    <login_account_valid>Cuenta no válida: %s</login_account_valid>
+    <phpmailer_>Error genérico del mailer, luego el mensaje no fue enviado.</phpmailer_>
+    <phpmailer_smtp_auth>Mailer no pudo autenticar, luego el mensaje no fue enviado</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer no pudo conectarse al SMTP, luego el mensaje no fue enviado</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer no tiene destinatarios para el envío, luego el mensaje no fue enviado</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer no soporta este tipo de mensaje, luego el mensaje no fue enviado</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Error en el envío de correo electrónico (Sendmail)</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Error en el envío de correo electrónico</phpmailer_mail_send>
+    <phpmailer_language>No se pudo abrir archivo de idioma</phpmailer_language>
+    <phpmailer_add_attachment>No se pudo adjuntar archivo</phpmailer_add_attachment>
+    <phpmailer_encode_file>No se pudo codificar archivo adjunto</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Tipo desconocido de codificación de datos adjuntos</phpmailer_encode_unknown>
+    <mailparse_empty>Ninguna fuente para realizar exploración</mailparse_empty>
+    <mailparse_parser_init>Error en la exploración del correo electrónico</mailparse_parser_init>
+    <mailparse_get_part>No se pudo obtener la parte %s</mailparse_get_part>
+    <message_missing_tag>Mensaje le falta etiqueta %s</message_missing_tag>
+    <message_missing_account_id>Mensaje sin signo de cuenta</message_missing_account_id>
+    <message_invald_account>Mensaje con id de cuenta no válida</message_invald_account>
+    <message_missing_folder_id>Mensaje sin identificador de carpeta</message_missing_folder_id>
+    <message_invald_folder>ID de carpeta no válida para el mensaje</message_invald_folder>
+    <message_missing_item_id>Falta el identificador de elemento del mensaje</message_missing_item_id>
+    <message_invalid_action>Acción no válida para el mensaje</message_invalid_action>
+    <message_get_not_allowed>No se puede actualizar la lista de carpetas debido a permisos insuficientes</message_get_not_allowed>
+    <message_attachment_type>No se pudo procesar el archivo adjunto %s</message_attachment_type>
+    <message_attachment_existence>Adjunto enviado recientemente no encontrado</message_attachment_existence>
+    <rss_channel_exist>URL de canal especificado no se puede abrir %s</rss_channel_exist>
+    <rss_invalid_channel>No se puede acceder al canal</rss_invalid_channel>
+    <settings_access_denied>Acceso denegado</settings_access_denied>
+    <settings_missing_tag>Configuración que falta etiqueta %s</settings_missing_tag>
+    <settings_duplicity>Configuraciones de archivo XML mal formateadas</settings_duplicity>
+    <settings_get_domain_file>No se pudo leer el archivo de configuración de dominio %s</settings_get_domain_file>
+    <settings_domain_set>Configuración de dominio para el archivo %s</settings_domain_set>
+    <settings_user_set>No se pudo acceder a la configuración del usuario en el archivo% s. Compruebe los permisos y la carpeta de correo.</settings_user_set>
+    <settings_public_set>Ajustes de datos públicos efectuados para archivo %s</settings_public_set>
+    <settings_shared_set>No se pudo guardar las cuentas compartidas</settings_shared_set>
+    <settings_owner_set>No se pudo definir el propietario de la configuración</settings_owner_set>
+    <session_expired>La sesión %s ha caducado</session_expired>
+    <session_no_user>La sesión de objeto de usuario no se pudo recuperar</session_no_user>
+    <smime_no_recipient>SMIME sin destinatario</smime_no_recipient>
+    <SMTP_data_not_accepted>Datos SMTP no aceptados por el servidor: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>Error de SMTP de:</SMTP_from_failed>
+    <SMTP_recipients_failed>Falla en los destinatarios SMTP (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>No se pudo establecer modo corrector ortográfico</spellchecker_set_mode>
+    <spellchecker_open_dictionary>No se pudo abrir el diccionario del corrector ortográfico</spellchecker_open_dictionary>
+    <spellchecker_add_word>No se puede agregar nueva palabra %s al diccionario</spellchecker_add_word>
+    <spellchecker_missing_check_id>Faltan identificador de palabra</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Falta etiqueta %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Faltan identificadores de diccionario</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Faltan palabras</spellchecker_missing_word>
+    <upload_tag_missing>Etiquetas de subida que faltan</upload_tag_missing>
+    <upload_missing_attribute>Cargar el atributo que falta</upload_missing_attribute>
+    <upload_attachment_missing>Anexo del upload que falta</upload_attachment_missing>
+    <xml_invalid_file_name>XML con nombre de archivo en blanco</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath ha devuelto más de un resultado a su consulta.</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>Nodo especificado de XML no encontrado %s</xml_node_does_not_exist>
+    <xmlrequest_path>Archivo de plantilla no válida (ruta)</xmlrequest_path>
+    <xmlrequest_access_denied>Acceso denegado</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Tipo de solicitud no válida</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Faltando atributo de espacio de nombres</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>SID que falta o no válido</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>Etiqueta XMLRequest que falta %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Faltan constructor de clase</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Formato de resultado desconocido %s</xmlrequest_unkown_format>
+    <not_implemented>Todavía no implementado</not_implemented>
+    <logdir_create>No se pudo crear directorio de registros %s</logdir_create>
+    <api_property_get>No se pudo obtener propiedades para %s</api_property_get>
+    <wm_disabled>Cliente Web está deshabilitado</wm_disabled>
+    <gw_init_error>Error de inicio de GroupWare</gw_init_error>
+    <default>Excepción predeterminada %s</default>
+    <other_accounts_disabled>La creación de otras cuentas está deshabilitada</other_accounts_disabled>
+    <link_compressed_variable_missing>Error de URL, se ha redirigido a la pantalla principal</link_compressed_variable_missing>
+    <login_expired>Inicio de sesión caducado, por favor introduzca un nuevo inicio de sesión</login_expired>
+    <account_disabled>Cuenta deshabilitada</account_disabled>
+    <folder_set_default>La carpeta &amp; quot; %s &amp; quot; no se puede establecer de forma predeterminada</folder_set_default>
+    <personality_confirmation_invalid_user>Dirección de correo electrónico no confirmada: Usuario no válido</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>No se pudo confirmar la dirección de correo electrónico. Hash Inválido</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Error al asignar elemento en lista negra</item_blacklist_error>
+    <item_whitelist_error>Error al asignar elemento en lista blanca</item_whitelist_error>
+    <unverified_signature>No se pudo comprobar la firma del mensaje</unverified_signature>
+    <account_is_guest>Acceso no permitido a los visitantes</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Selección de elementos se ha limpiado</item_selection_cleared>
+    <logged_out>Usted salió con éxito</logged_out>
+    <message_send_ok>Mensage enviado</message_send_ok>
+    <item_move_ok>Artículo (s) movido (s)</item_move_ok>
+    <item_copy_ok>Artículo (s) copiado (s)</item_copy_ok>
+    <item_delete_ok>Artículo (s) excluido (s)</item_delete_ok>
+    <item_mark_ok>Artículo (s) marcado (s)</item_mark_ok>
+    <settings_save_ok>Ajustes grabados</settings_save_ok>
+    <loading_next_message>Cargando mensaje siguiente</loading_next_message>
+    <loading_prev_message>Cargando mensaje anterior</loading_prev_message>
+    <loading_next_page>Cargando página siguiente</loading_next_page>
+    <loading_prev_page>Cargando página anterior</loading_prev_page>
+    <loading_next_month>Cargando mes siguiente</loading_next_month>
+    <loading_prev_month>Cargando mes anterior</loading_prev_month>
+    <loading_next_week>Cargando la semana siguiente</loading_next_week>
+    <loading_prev_week>Cargando semana anterior</loading_prev_week>
+    <loading_next_day>Cargando día siguiente</loading_next_day>
+    <loading_prev_day>Cargando día anterior</loading_prev_day>
+    <password_change_ok>Contraseña cambiada</password_change_ok>
+    <item_whitelist_ok>El elemento se ha agregado a la lista blanca.</item_whitelist_ok>
+    <item_blacklist_ok>El elemento se ha agregado a la lista negra.</item_blacklist_ok>
+    <folder_set_default_ok>Carpeta predeterminada</folder_set_default_ok>
+    <subscribe_account_ok>Cuenta suscrita</subscribe_account_ok>
+    <subscribe_folder_ok>Carpeta suscrita</subscribe_folder_ok>
+    <item_decline_ok>Elemento declinado</item_decline_ok>
+    <access_granted>Se ha proporcionado acceso a &amp; quot; %s &amp; quot; por &amp; quot; %s &amp; quot ;.</access_granted>
+    <message_save_ok>Mensaje guardado</message_save_ok>
+    <item_accept_ok>Artículo aceptado</item_accept_ok>
+  </messages>
+</language>

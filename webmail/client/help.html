@@ -1,0 +1,43 @@
+<?php
+define( 'SHAREDLIB_PATH' , get_cfg_var('icewarp_sharedlib_path') );
+require_once("whatsnew.safe");
+require_once( SHAREDLIB_PATH. 'api/api.php' );
+$api=new IceWarpAPI();
+
+$install=$api->GetProperty('C_Install_URL').'doc/';
+?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" content="en" />
+	<link rel="stylesheet" href="skins/help.css" media="all" type="text/css" />
+</head>
+<body>
+<?php
+if (isset($_GET['lang']))
+{
+	$help='languages/'.$_GET['lang'].'/help/index.html';
+	$help_en='languages/en/help/index.html';
+	$help=str_replace(array('../'),array(''),$help);
+
+	if(file_exists($help))
+	{
+		echo str_replace(array('{%I%}'),array($install),file_get_contents($help));
+	}
+	elseif(file_exists($help_en))
+	{
+		echo str_replace(array('{%I%}'),array($install),file_get_contents($help_en));
+	}
+	else
+	{
+		echo "File not found [".slToolsPHP::htmlspecialchars($help)."]";
+	}
+
+	WhatsNew::printScripts();
+}
+else
+{
+	echo "Language not set";
+}
+?></body>
+</html>

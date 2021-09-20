@@ -1,0 +1,1 @@
+<query xmlns="{xmlNameSpace}"><tools>{response}</tools></query>

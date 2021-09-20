@@ -1,0 +1,36 @@
+/* label */
+div.frm_confirm form.obj_label {
+	padding: 15px 10px!important;
+	font-size: 13px!important;
+	height: auto;
+}
+div.frm_confirm form.obj_label>label{
+	display: block;
+	text-align: center;	
+}
+
+div.frm_confirm.keepleft form.obj_label>label,
+div.frm_confirm form.obj_label>label ul{
+	text-align: left;
+}
+
+/* confirm with select dropdown */
+
+div.frm_confirm_select form.obj_label {
+	padding: 5px !important;
+}
+
+div.frm_confirm_select form.obj_select {
+	margin-left: 90px;
+}
+
+/* In case of 3 buttons, flip ok and cancel to left and right */
+div.frm_confirm .obj_popupfoot.threechoise form.obj_button:first-child {
+	float: left!important;
+}
+div.frm_confirm .obj_popupfoot.threechoise form.obj_button:first-child+form.obj_button {
+	float: right!important;
+}
+div.frm_confirm .obj_popupfoot.threechoise {
+	text-align: left;
+}

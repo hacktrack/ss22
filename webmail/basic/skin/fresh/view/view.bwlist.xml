@@ -1,0 +1,20 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<form id="items" helper="item" template="view.bwlist">
+			<config>
+				<stylesheet>
+					<src>mail.view</src>
+					<src>datagrid_detail</src>
+				</stylesheet>
+				<javascript>
+					<src>jquery</src>
+					<src>mail.view</src>
+					<src>general</src>
+				</javascript>
+				<data>item.fdr</data>
+			</config>
+		</form>
+	</panel>
+</form>

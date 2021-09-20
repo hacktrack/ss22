@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="To" />
+  <ITEM id="attachments" value="Attachments" />
+  <ITEM id="bytes" value="Bytes" />
+  <ITEM id="view_mail" value="View mail" />
+  <ITEM id="show_source" value="Show source" />
+  <ITEM id="title" value="Challenge Response"/>
+  <ITEM id="request" value="To prove your message was sent by a human and not a computer, type in the alphanumeric text you see in the image below and click OK. You will only be asked to do this once for this email address."/>
+  <ITEM id="result_ok" value="The word you specified is correct. Your email address has been authorized."/>
+  <ITEM id="result_error" value="The word you specified is incorrect. Please try again."/>
+  <ITEM id="result_already" value="Your email address has been already authorized."/>
+  <ITEM id="result_black" value="Your email address has been blacklisted."/>
+  <ITEM id="result_notfound" value="Your email address was not found. It must have been deleted. Please resend your email message."/>
+  <ITEM id="thanks" value="Thank you for your cooperation."/>
+  <ITEM id="reason" value="Why am I doing this?"/>
+  <ITEM id="explanation" value="Unsolicited commercial email is computer-generated and cannot respond to the command above. By using this permission-based email system, I am restricting my inbound email to senders who authenticate, providing they are real humans who wish to communicate with me via email."/>
+  <ITEM id="thanks2" value="Thank you for helping me banish spam!"/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="IceWarp Software"/>
+  <ITEM id="gateway_link_label" value="Manage your quarantine/spam online"/>
+  <ITEM id="copyright2" value="All rights reserved."/>
+  <LIST>
+    <ITEM id="title" value="IceWarp Spam Report"/>
+    <ITEM id="intro" value="This automatically generated report informs you of messages in Spam folder (or Quarantine) of your e-mail account. It lets you take administrative actions by clicking one of the buttons next to each email header.&lt;br/&gt;NOTE: Reports only show the first message sent by each sender. When you accept it, other messages from the same sender will be delivered too."/>
+    <ITEM id="outro" value="You can click one of the links above to take the selected action on ALL messages remaining in your Spam folder or Quarantine."/>
+    <ITEM id="admin_action" value="Choose an action for all items in all accounts"/>
+    <ITEM id="account_action" value="Choose an action for all items in account"/>
+    <ITEM id="you_are_admin" value="Spam Administrator options"/>
+    <ITEM id="sender" value="From"/>
+    <ITEM id="subject" value="Subject"/>
+    <ITEM id="recipient" value="To"/>
+    <ITEM id="date" value="Date"/>
+    <ITEM id="time" value="Time"/>
+    <ITEM id="actions" value="Actions"/>
+    <ITEM id="delete" value="Delete"/>
+    <ITEM id="authorize" value="Whitelist"/>
+    <ITEM id="accept" value="Deliver"/>
+    <ITEM id="blacklist" value="Black list"/>
+    <ITEM id="deleteall" value="Delete"/>
+    <ITEM id="authorizeall" value="Whitelist"/>
+    <ITEM id="acceptall" value="Deliver"/>
+    <ITEM id="blacklistall" value="Black list"/>
+    <ITEM id="submit" value="Submit"/>
+    <ITEM id="view" value="Show message"/>
+    <ITEM id="msgsubject" value="Spam report from %%Current_Date%%"/>
+    <ITEM id="domain" value="Domain"/>
+    <ITEM id="account" value="Account"/>
+    <ITEM id="location" value="Location"/>
+    <ITEM id="type_quarantine" value="Quarantine"/>
+    <ITEM id="type_spam" value="Spam folder"/>
+    <ITEM id="delivery_problem" value="Unable to deliver message to account"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Sender authorization"/>
+      <ITEM id="success" value="The sender was authorized."/>
+      <ITEM id="failure" value="Sender could not be authorized."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Message delivery"/>
+      <ITEM id="success" value="The message was delivered."/>
+      <ITEM id="failure" value="Message could not be delivered."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Message deletion"/>
+      <ITEM id="success" value="The message was deleted and removed from queue."/>
+      <ITEM id="failure" value="Message could not be deleted."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Sender rejection"/>
+      <ITEM id="success" value="The sender was added to a black list."/>
+      <ITEM id="failure" value="Sender could not be added to a black list."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Message view"/>
+      <ITEM id="failure" value="Message could not be displayed. This can happen in case the message was already removed from Quarantine (or Spam folder)."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Failure"/>
+      <ITEM id="failure" value="The requested operation could not be performed."/>
+      <ITEM id="wrongid" value="Invalid message ID. The specified message has been already removed from Quarantine (or Spam folder)."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Sender authorization"/>
+      <ITEM id="success" value="The sender was authorized and the message delivered."/>
+      <ITEM id="failure" value="Sender could not be authorized or message delivered."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Message delivery"/>
+      <ITEM id="success" value="The message was delivered."/>
+      <ITEM id="failure" value="Message could not be delivered."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Message deletion"/>
+      <ITEM id="success" value="The message was deleted from spam folder."/>
+      <ITEM id="failure" value="Message could not be deleted."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Sender rejection"/>
+      <ITEM id="success" value="The sender was added to the black list and the message removed from spam folder."/>
+      <ITEM id="failure" value="Sender could not be added to the black list or message could not be deleted."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Message view"/>
+      <ITEM id="failure" value="Message could not be displayed. This can happen in case the message has already been deleted."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Failure"/>
+      <ITEM id="failure" value="The requested operation could not be performed."/>
+      <ITEM id="wrongid" value="Invalid message ID. The specified message has been already removed from Quarantine (or Spam folder)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Failure"/>
+      <ITEM id="failure" value="The requested operation could not be performed."/>
+      <ITEM id="wrongid" value="Invalid administrator ID. The specified administrator account no longer exists."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+  	<ITEM id="reports_are_disabled" value="Spam reports are disabled %s"/>
+  	<ITEM id="challenge_already_running" value="Spam reports are already running"/>
+  	<ITEM id="challenge_invalid_path_variable" value="Spam reports path not loaded properly: %s"/>
+  	<ITEM id="api_findinitquery" value="Spam reports API: IceWarp account object retrieval. Domain: %s, Filter: %s"/>
+  	<ITEM id="challenge_language_file_missing" value="Spam reports language file is missing: %s"/>
+  	<ITEM id="challenge_language_file_corrupted" value="Spam reports language file corrupted: %s"/>
+  	<ITEM id="challenge_invalid_hash" value="Spam reports invalid hash (possible URL attack): %s"/>
+   </EXCEPTIONS>
+</CHALLENGE>

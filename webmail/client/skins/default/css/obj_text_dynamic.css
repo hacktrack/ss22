@@ -1,0 +1,38 @@
+form.obj_text.obj_text_dynamic {
+	height: 28px;
+	position: relative;
+	overflow: hidden;
+}
+form.obj_text.obj_text_dynamic.big {
+	height: 42px;
+}
+
+form.obj_text.obj_text_dynamic>textarea{
+	position: absolute;
+	z-index: 10;
+	white-space: pre-wrap;
+}
+
+form.obj_text.obj_text_dynamic>div.size{
+	position: fixed;
+	z-index: 0;
+	left: 0;
+	bottom: 100%;
+
+	height: auto;
+	padding: 1px 5px;
+	line-height: 22px;
+
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	visibility: hidden;
+	-webkit-font-smoothing: none;
+}
+form.obj_text.obj_text_dynamic.big>div.size{
+	padding: 10px 8px 10px;
+	font-size: 15px;
+	min-height: 42px;
+}
+.rtl form.obj_text.obj_text_dynamic>div.size{
+	direction: rtl;
+}

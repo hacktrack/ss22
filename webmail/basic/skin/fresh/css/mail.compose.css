@@ -1,0 +1,141 @@
+#email{
+	overflow:hidden;
+}
+
+#gui #infoTable th{
+	width: 0;
+
+}
+#gui #infoTable th.rcp{
+	padding-right: 5px;
+}
+#infoTable td{
+	width: 100%;
+}
+
+#infoTable td.desc div
+{
+	white-space: nowrap;
+}
+
+#taBox{
+	height: 400px;
+	.height: 440px;
+}
+
+.fieldBox
+{
+	margin-top:0px;
+	padding-top:7px;
+	.padding-top:7px;
+	width:100%;
+}
+
+.fieldHolder
+{
+	width:90%;
+}
+
+.hidden
+{
+	display:none;
+}
+
+/**/
+.wysiwygEditor
+{
+	width:100%;
+	height:380px;
+	resize: none;
+}
+
+#c_wysiwyg_0_editor
+{
+	border:#333 1px solid;
+	clear:both;
+}
+
+#switch,
+#c_wysiwyg_0_menu,
+#c_wysiwyg_0_menu div,
+#c_wysiwyg_0_menu select
+{
+	float:left;
+}
+
+#c_wysiwyg_0_frm
+{
+	overflow:hidden;
+}
+
+/*********************/
+.sizeHolder
+{
+	height:1px;
+	color:transparent;
+	overflow:hidden;
+	display:block;
+	visibility:hidden;
+}
+
+
+/**********************/
+#attachments{
+    white-space: nowrap;
+}
+#attachments input.inp_btn{
+	margin-left: 10px;
+	width: 40px;
+}
+#attachmentsBox{
+	line-height: 30px;
+}
+#attachmentsBox span{
+	white-space: nowrap;
+	padding-right: 15px;
+	
+}
+#attachmentsBox span a{
+	margin-left: 5px;
+}
+.attachmentLink
+{
+	white-space: nowrap;
+	background-position: left;
+	padding: 2px 0 2px 20px;
+	line-height:20px;
+	background-image: url('../../basic/skin/fresh/images/silk/page_white.png');
+	background-position: left;
+	background-repeat: no-repeat;
+}
+/* suggest */
+#suggest
+{
+	position:absolute;
+	top:300px;
+	left:300px;
+	border:#666 1px solid;
+	background-color: rgba(255,255,255,0.8);
+	color:#333;
+	font-size: 13px;
+	display:none;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+#suggest a
+{
+	display: block;
+	line-height: 30px;
+	overflow: hidden;
+	padding:5px 8px;
+	text-decoration: none;
+	font-size: 17px;
+}
+	#suggest a.active
+	{
+		text-decoration: none;
+		background-color: #ccc;
+		color:#000;
+	}
+/**/

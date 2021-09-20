@@ -1,0 +1,26 @@
+<?php
+
+// PHP script called by Clickatell (http://www.clickatell.com/) via HTTP POST to deliver SMSs to IceWarp as e-mails. 
+
+// Shared libraries
+define('SHAREDLIB_PATH', get_cfg_var('icewarp_sharedlib_path'));
+include(SHAREDLIB_PATH . 'api/api.php');
+
+//	    Build $url with gateway's parameters to pass to IceWarp API
+//		id=1   	==> id of Clickatell gateway in Icewarp SMS/General admin
+//		pass=1 	==> password defined in Icewarp SMS/General admin
+
+$url = 
+    'number=' . urlencode($_REQUEST['from']) . 
+    '&id=1' .  
+    '&pass=1' .  
+    '&data=' . urlencode($_REQUEST['text']);
+
+  // Deliver SMS to IceWarp
+  $api = new IceWarpAPI();
+  $result = $api->SMSIncoming($url);
+
+  // Result
+  if (!$result) { header('HTTP/1.1 503 Service Unavailable'); }
+
+?>

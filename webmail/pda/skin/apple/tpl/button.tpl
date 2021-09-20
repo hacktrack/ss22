@@ -1,0 +1,1 @@
+<tr><th>{optional property::description}{property::description}{/optional}</th><td><input type="{property::type}" {optional property::name} name="{property::name}"{/optional} value="{property::label}"{optional property::events}{dynamic property::events} {*::name}="{*::value}"{/dynamic}{/optional}/></td></tr>

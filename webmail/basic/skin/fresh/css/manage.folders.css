@@ -1,0 +1,153 @@
+#manage_manager_tree .main_tree
+{
+	overflow:auto;
+
+	width:auto;
+	float:none;
+}
+
+.spacer
+{
+	padding:5px;
+}
+
+#cover_b .commandLine
+{
+	padding-top:10px;
+}
+
+.fmBox
+{
+	height:100px;
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	margin: 20px;
+}
+
+.fmBox form,.fmBox div
+{
+	margin-left:110px;
+	padding:10px;
+	font-size:15px;
+
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+}
+.fmBox.disabled form,.fmBox.disabled div
+{
+	color:#aaa;
+}
+
+.fmBox form h5,.fmBox div h5
+{
+	font-size:17px;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	margin:0;
+	padding:0;
+}
+
+.fmBox form h5 a,.fmBox div h5 a
+{
+	color:#407DD8;
+	text-decoration: underline;
+}
+
+.fmBox#fm_new
+{
+	background-image: url('../skin/basic/images/fm_add.jpg');
+}
+.fmBox.disabled#fm_new
+{
+	background-image: url('../skin/basic/images/fm_add_off.jpg');
+}
+
+.fmBox#fm_remove
+{
+	background-image: url('../skin/basic/images/fm_remove.jpg');
+}
+.fmBox.disabled#fm_remove
+{
+	background-image: url('../skin/basic/images/fm_remove_off.jpg');
+}
+
+.fmBox#fm_edit
+{
+	background-image: url('../skin/basic/images/fm_edit.jpg');
+}
+.fmBox.disabled#fm_edit
+{
+	background-image: url('../skin/basic/images/fm_edit_off.jpg');
+}
+
+
+.fmBox#fm_open
+{
+	background-image: url('../skin/basic/images/fm_open.jpg');
+}
+.fmBox.disabled#fm_open
+{
+	background-image: url('../skin/basic/images/fm_open_off.jpg');
+}
+
+.fmBox#fm_link
+{
+	background-image: url('../skin/basic/images/fm_link.jpg');
+}
+.fmBox.disabled#fm_link
+{
+	background-image: url('../skin/basic/images/fm_link_off.jpg');
+}
+
+.fmBox#fm_default
+{
+	background-image: url('../skin/basic/images/fm_default.jpg');
+}
+.fmBox.disabled#fm_default
+{
+	background-image: url('../skin/basic/images/fm_default_off.jpg');
+}
+
+.fmBox .fm_actionBox
+{
+	margin-left:0;
+	background-color: #F2F2F2;
+	border:#e2e2e2 1px solid;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+.fmBox.disabled .fm_actionBox
+{
+	background-color:#f3f3f3;
+	border:#e8e8e8 1px solid;
+}
+.fmBox.disabled .fm_actionBox input,.fmBox.disabled .fm_actionBox select
+{
+	opacity:.50;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+}
+
+.infoLine
+{
+	background-color:#eee; color:#aaa; font-family:Arial,sans-serif; text-shadow: #ffffff -1px -1px 1px; line-height:40px; text-align:center; font-size:20px;
+	border-bottom: #ccc 1px solid;
+}
+
+.fmBox p
+{
+	margin:8px 0;
+	color:#333;
+	font-size: 13px;
+}
+
+em.tree_open_folder
+{
+	color:#666;
+	font-size:12px;
+	padding:0;
+	background: none;
+}
+	em.tree_open_folder a
+	{
+		color:#407DD8!important;
+		text-decoration:underline!important;
+	}

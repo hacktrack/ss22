@@ -1,0 +1,265 @@
+.frm_wizard.rtl {
+    direction: rtl;
+}
+
+/* HEADER */
+.frm_wizard .obj_popupmainheader{
+    border-bottom:  1px solid #ECECEC;
+}
+.frm_wizard .obj_popupmainheader form.obj_label{
+    margin: 18px;
+    font-size: 17px;
+    padding: 0;
+}
+
+.frm_wizard .obj_popupmainheader form.obj_label.ico{
+	margin-left: 50px;
+}
+
+
+.rtl .frm_wizard .obj_popupmainheader form.obj_label {
+    margin: 18px 50px 18px 18px;
+}
+
+/* FOOTER */
+.frm_wizard .obj_popupfoot form.obj_button input{
+    min-width: 80px;
+}
+
+/* BODY */
+.frm_wizard .obj_popupmainbody_main{
+    background-color: #f7f7f7;
+}
+.frm_wizard .popupmaindialog>p{
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    margin: 18px 0;
+}
+.frm_wizard .popupmaindialog>p.input_info{
+	margin-top: -10px;
+	color: #888888;
+}
+
+.frm_wizard .popupmaindialog>p>form{
+    float: none;
+}
+
+.frm_wizard .popupmaindialog p.center{
+    text-align: center;
+}
+
+.frm_wizard .popupmaindialog>h3{
+    font-size: 15px;
+    font-weight: normal;
+    margin: 28px 0 18px;
+    padding: 0;
+}
+
+.frm_wizard .popupmaindialog>h3:first-child{
+    margin-top: 18px;
+}
+
+.frm_wizard .popupmaindialog>.block{
+    position: relative;
+    padding: 18px;
+    margin: 18px 0;
+
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px 0 rgba(149, 149, 149, 0.5);
+
+    font-size: 14px;
+    /* font-weight: 500; */
+    transition: border 300ms;
+}
+	.frm_wizard .popupmaindialog>.block>b{
+		font-weight: 500;
+	}
+.frm_wizard .popupmaindialog>.block.ico{
+        padding-left: 50px;
+    }
+.rtl .frm_wizard .popupmaindialog>.block.ico {
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+    .frm_wizard .popupmaindialog>.block.disabled{
+        color: #a4a4a4;
+    }
+    .frm_wizard .popupmaindialog>.block.next{
+        padding-right: 30px;
+    }
+        .frm_wizard .popupmaindialog>.block.next:not(.disabled):after{
+            content: "\e03e";
+            display: block;
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            margin-top: -8px;
+            height: 16px;
+
+            font-family: "ico16";
+            font-size: 16px;
+            line-height: 16px;
+			-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+
+            color: {ico_main '#0088CC'};
+        }
+        .rtl .frm_wizard .popupmaindialog>.block.next:not(.disabled):after {
+            content: "\e047";
+            left: 8px;
+            right: auto;
+        }
+
+    .frm_wizard .popupmaindialog>.block.btn:not(.disabled){
+        cursor: pointer;
+    }
+    .frm_wizard .popupmaindialog>.block.btn:not(.disabled):hover,
+    .frm_wizard .popupmaindialog>.block.btn.active:not(.disabled){
+        border-color: {bg_main '#0088CC'};
+    }
+
+        .frm_wizard .popupmaindialog>.block span{
+            font-size: 13px;
+            display: block;
+            clear: both;
+            margin-top: 8px;
+        }
+        .frm_wizard .popupmaindialog>.block span.center{
+            text-align: center;
+        }
+        .frm_wizard .popupmaindialog>.block span.info{
+			position: absolute;
+            width: 16px;
+            height: 16px;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+            text-align: center;
+            display: inline-block;
+            margin: 0 0 0 5px;
+            cursor: help;
+            background-color: {bg_main '#0088CC'};
+        }
+
+.frm_wizard .popupmaindialog>ol{
+    padding: 0 0 0 15px;
+    margin: 18px 0 28px;
+}
+.rtl .frm_wizard .popupmaindialog>ol {
+    padding: 0 15px 0 0;
+}
+.frm_wizard .popupmaindialog>ol>li{
+    margin: 10px 0;
+    line-height: 1.15;
+}
+.frm_wizard .popupmaindialog .bold,
+.frm_wizard .popupmaindialog>ol>li b{
+    font-weight: 500;
+}
+.frm_wizard .popupmaindialog .link{
+    text-decoration: underline;
+    cursor: pointer;
+    color: {txt_main '#0088CC'};
+}
+.frm_wizard .popupmaindialog>.block .link{
+    text-decoration: none;
+    font-weight: normal;
+}
+.frm_wizard .popupmaindialog .account{
+    display: block;
+}
+
+.frm_wizard .popupmaindialog>.block.radio:before{
+    content: '';
+    position: absolute;
+    display: block;
+    border-radius: 10px;
+    width: 16px;
+    height: 16px;
+    top: calc(50% - 10px);
+    left: 15px;
+    border: 2px solid {bg_main '#0088CC'};
+}
+.rtl .frm_wizard .popupmaindialog>.block.radio:before {
+    left: auto;
+    right: 15px;
+}
+
+.frm_wizard .popupmaindialog>.block.radio:after{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+
+    top: calc(50% - 5px);
+    left: 20px;
+    transition: background-color 150ms ease;
+}
+.rtl .frm_wizard .popupmaindialog>.block.radio:after {
+    left: auto;
+    right: 20px;
+}
+.frm_wizard .popupmaindialog>.block.radio.active:after{
+    background-color: {bg_main '#0088CC'};
+}
+
+
+.frm_wizard .popupmaindialog form.obj_input,
+.frm_wizard .popupmaindialog .obj_mail_suggest{
+    margin: 10px 0 18px;
+}
+
+.frm_wizard .popupmaindialog .block>form.obj_input:last-child{
+    margin-bottom: 0;
+}
+
+
+/* ICONS */
+.frm_wizard .obj_popupmainheader:before,
+.frm_wizard .block.ico:before{
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    font-family: "ico24";
+
+    font-size: 24px;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+.frm_wizard .block.disabled.ico:before{
+	opacity: 0.5;
+}
+
+.rtl .frm_wizard .obj_popupmainheader:before,
+.rtl .frm_wizard .block.ico:before {
+    left: auto;
+    right: 15px;
+}
+
+/* ANIMATIONS */
+@keyframes wizard_fly {
+    0%{
+        opacity: 0;
+        visibility: visible;
+    }
+    30%{
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+        visibility: visible;
+    }
+}

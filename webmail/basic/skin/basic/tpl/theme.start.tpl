@@ -1,0 +1,3 @@
+<div id="coverBox" class="{theme}{optional request::all::p2 'mail.view'} mview{/optional}{optional request::all::_n::p::content 'mail.compose'} compose{/optional}{optional request::all::view 'event.list'} eventList{/optional}{optional request::all::p2 'contact.main'} contactList{/optional}{optional request::get::_n::p::content 'contact.distribution'} contactEdit{/optional}{optional request::get::_n::p::content 'notes.detail'} yellowAdd{/optional}{optional request::get::_n::p::content 'settings'} settings{/optional}">
+<div id="coverBoxIn">
+<div id="topLeftCorner"></div>

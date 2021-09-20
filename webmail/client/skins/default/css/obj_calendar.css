@@ -1,0 +1,197 @@
+.obj_calendar>div.header{
+	padding: 5px 0 18px;
+	font-size: 13px;
+}
+
+.obj_calendar:after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 47px;
+
+	border-top: 1px solid #ECECEC;
+}
+
+.rtl .obj_calendar>table.frmtbl {
+	direction: ltr;
+}
+
+.obj_calendar .header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.obj_calendar .week {
+	width: 50px;
+	margin-left: 3px;
+}
+
+.obj_calendar .month {
+	width: 100px;
+	margin-left: 3px;
+}
+
+.obj_calendar .month input {
+	text-overflow: ellipsis;
+	text-align: center;
+	text-indent: 0;
+}
+
+.obj_calendar .year {
+	width: 70px;
+	margin-left: 3px;
+}
+
+.obj_calendar .year input {
+	text-indent: 0;
+	width: 100%;
+    text-align: center;
+}
+
+.obj_calendar form.obj_button.prev:after {
+	content: '\e047';
+}
+.rtl .obj_calendar form.obj_button.prev:after {
+	content: '\e03e';
+}
+
+.obj_calendar form.obj_button.next:after {
+	content: '\e03e';
+}
+.rtl .obj_calendar form.obj_button.next:after {
+	content: '\e047';
+}
+
+.obj_calendar form.obj_button.today:after {
+	content: '\e981';
+}
+.obj_calendar form.obj_button.empty {
+	display: none;
+}
+.obj_calendar form.obj_button.empty.show {
+	display: block;
+}
+.obj_calendar form.obj_button.empty:after {
+	content: '\e002';
+}
+.obj_calendar form.obj_button.close:after {
+	content: '\e901';
+	color: #000;
+}
+
+.obj_calendar form.obj_button.right {
+	float: right;
+}
+.rtl .obj_calendar form.obj_button.right {
+	float: left;
+}
+
+.obj_calendar .maintable {
+	width: 280px;
+	margin: 1px auto 12px auto;
+
+	-moz-user-select: none;
+
+	line-height: 20px;
+}
+
+.obj_calendar .maintable thead th {
+	font-weight: normal;
+
+	width: 12.5%;
+	text-align: center;
+	cursor: default;
+
+	color: #999;
+}
+
+.obj_calendar .maintable tbody td {
+	padding: 0;
+	border-top: 0;
+	width: 28px;
+	height: 28px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.obj_calendar .maintable tbody td:first-of-type span:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -10px;
+	bottom: -6px;
+	border-right: 1px solid #F0F0F0;
+}
+	.obj_calendar .maintable tbody tr:first-of-type td:first-of-type span:after{
+		top: 4px;
+	}
+	.obj_calendar .maintable tbody tr:last-of-type td:first-of-type span:after{
+		bottom: 6px;
+	}
+
+
+.obj_calendar .maintable tbody a,
+.obj_calendar .maintable tbody span{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: normal;
+	height: 24px;
+	color: #000;
+	cursor: pointer;
+    width: 24px;
+    margin: 0 auto;
+	border-radius: 50%;
+}
+
+body.light .obj_calendar .maintable thead th,
+body.light .obj_calendar .maintable tbody a,
+body.light .obj_calendar .maintable tbody span{
+	font-weight: 200;
+}
+
+.obj_calendar .maintable tbody tr.week td:nth-child(2):before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 232px;
+    background: #F0F0F0;
+    height: 20px;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+.obj_calendar .maintable tbody span{
+	color: #999;
+	cursor: default;
+	text-align: left;
+	margin-right: 16px;
+}
+	.obj_calendar.week .maintable tbody span{
+		cursor: pointer;
+	}
+
+.obj_calendar .maintable tbody a.last,
+.obj_calendar .maintable tbody a.next{
+	color: #999;
+}
+
+.obj_calendar .maintable tbody a.active{
+	background-color: #CCC;
+	color: #fff;
+}
+.obj_calendar .maintable tbody a:hover{
+	background-color: #999;
+	color: #FFF;
+}
+.obj_calendar .maintable tbody a.today{
+	color: #FFF;
+	background-color: {bg_main '#0088CC'};
+}
+	.obj_calendar .maintable tbody a.today:hover{
+		background-color: {bg_main_darker '#006DA3'};
+	}

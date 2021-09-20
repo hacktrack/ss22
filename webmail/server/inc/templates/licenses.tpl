@@ -1,0 +1,1 @@
+<licenses><item>{optional desk}<desktop>{desk}</desktop>{/optional}{optional out}<outlook>{out}</outlook>{/optional}</item></licenses>

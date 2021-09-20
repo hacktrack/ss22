@@ -1,0 +1,103 @@
+<?php
+
+class WhatsNew
+{
+	public function __construct($language, $section, $language_file){
+		$this->language_file = isset($language_file) ? $language_file : 'whatsnew';
+		$this->language = isset($language) ? $language : 'en';
+		$this->section = $section;
+		$this->language_data = array();
+		$this->loadLanguageFile();
+    }
+
+    public function tt($key, $replace=[]){
+        return $this->translationExists($key) ? $this->format($this->language_data[$key], $replace) : '{'.$key.'}';
+    }
+
+	private function translationExists($key){
+		return isset($this->language_data[$key]);
+	}
+	private function wrapKeys($key){
+		return "/\%{".$key."}\%/";
+	}
+
+    private function format($string, $replace){
+		if(count($replace)){
+			$string = preg_replace(array_map([$this, 'wrapKeys'], array_keys($replace)),array_values($replace),$string);
+		}
+        $string = preg_replace("/\*(.+?)\*/","<strong>$1</strong>",$string);
+        $string = preg_replace("/\_(.+?)\_/","<em>$1</em>",$string);
+        $string = nl2br($string);
+
+        return $string;
+    }
+
+    private function loadLanguageFile(){
+		$section = $this->section;
+        file_exists('languages/'.$this->language.'/'.$this->language_file.'.xml') || die( $this->language_file.".xml for ".$lang.' not found.');
+        if(!$lang_data=simplexml_load_string(file_get_contents('languages/'.$this->language.'/'.$this->language_file.'.xml'))){
+            die('Unable to load language file for what\'s new page.');
+        }
+        $this->language_data=(array)$lang_data->$section;
+        return $this;
+    }
+
+    public function printHead(){
+        $html = "";
+        $html .= '<!DOCTYPE html>';
+        $html .= '<html xmlns="http://www.w3.org/1999/xhtml">';
+        $html .= '<head>';
+        $html .= '<meta http-equiv="X-UA-Compatible" content="IE=edge" />';
+        $html .= '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />';
+        $html .= '<link rel="stylesheet" type="text/css" href="../client/skins/default/css/font.css" />';
+        $html .= '<link rel="stylesheet" type="text/css" href="../client/skins/default/whatsnew/whatsnew.css" />';
+        $html .= '<title>'.$this->tt('title').'</title>';
+        $html .= '</head>';
+        echo $html;
+		return $this;
+    }
+
+	public function printDelimiter(){
+		echo '<div class="delimiter"></div>';
+		return $this;
+	}
+
+	public function printButton($text, $event_name, $classes=''){
+		echo '<button data-event="'.$event_name.'"  class="'.$classes.'">' . $this->tt($text) . '</button>';
+		return $this;
+	}
+
+    private function filterNotes($val){
+        preg_match('/note/', $val, $matches);
+        return count($matches)>0;
+    }
+
+    public function printNotes(){
+        $html = "";
+        $notes = array_filter (array_keys($this->language_data), [$this, 'filterNotes']);
+        foreach($notes as $key){
+            $html .= "<p class=\"i note\">".$this->tt($key)."</p>";
+        }
+        echo $html;
+		return $this;
+    }
+
+    public function printList($count, $skip = []){
+        $html = "<ul>";
+		for($i=1;$i<$count;$i++){
+			if(in_array($i, $skip) || $this->tt("li_1_" . $i . "h") === ("{li_1_" . $i . "h}")) {
+				continue;
+			}
+			$html .= '<li class="circle item-' . $i . '" style="background-image:url(\'../client/skins/default/whatsnew/'.$this->section.'/'.$i.'.png\')"><h2>' . $this->tt("li_1_" . $i . "h") . '</h2><p>' .  $this->tt("li_1_" . $i) . '</p></li>';
+		}
+        $html .= "</ul>";
+        echo $html;
+		return $this;
+    }
+
+	public static function printScripts (){
+		echo '<script>[].forEach.call(document.querySelectorAll("[data-event]"), function(node){node.addEventListener("click", function(e){window.parent.postMessage(node.getAttribute("data-event"),window.location.origin);})});</script>';
+	}
+}
+
+?>

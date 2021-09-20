@@ -1,0 +1,86 @@
+// Slider
+// Slides fixed content on screen when user scrolls. Currently only in Whitelabeling Preview.
+
+// Block
+.slider {
+	@include flex(1, 1, 0);
+	position: relative;
+
+	// States
+	@media #{$large-up} {
+
+		&.is-fixed .slider__content {
+			position: fixed;
+		}
+
+		&.is-pinned .slider__content {
+			position: absolute;
+			top: auto !important;
+			bottom: 0;
+		}
+	}
+}
+
+
+// Elements
+.slider__track {
+
+	@media #{$large-up} {
+		@include full-absolute;
+	}
+}
+
+.slider__content {
+	pointer-events: none; // Fixes scrolling while hovering over fixed element
+	max-width: $image-max-width !important;
+
+	@media #{$medium-down} {
+		margin: auto;
+	}
+}
+
+.slider--mobile .slider__content {
+	max-width: $mobile-image-max-width !important;
+}
+
+.slider__background {
+	position: relative;
+	top: 2rem;
+
+	margin-bottom: 2rem;
+
+	&::after {
+		content: '';
+
+		z-index: -1;
+		position: absolute;
+		top: -2rem;
+		bottom: -2rem;
+		left: -1rem;
+		right: -1rem;
+
+		background: transparent no-repeat center;
+		background-size: contain;
+	}
+}
+
+.slider__background--mobile {
+	top: 3rem;
+
+	margin-bottom: 3rem;
+
+	&::after {
+		top: -3rem;
+		bottom: -3rem;
+		left: -1rem;
+		right: -1rem;
+	}
+}
+
+.slider__background--desktop::after {
+	background-image: url('../images/preview/desktop.svg');
+}
+
+.slider__background--mobile::after {
+	background-image: url('../images/preview/mobile.svg');
+}

@@ -1,0 +1,67 @@
+.c-loader {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  transform: translateZ(0);
+  top: 50%;
+  right: 50%;
+  margin-right: -18px;
+  margin-top: -18px;
+  border: 4px solid #ded9e5;
+  border-right-color: #4e2782;
+  border-radius: 50%;
+  -webkit-animation: loader 1.1s infinite linear;
+  animation: loader 1.1s infinite linear;
+  z-index: 2; }
+
+@-webkit-keyframes loader {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-360deg); } }
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-360deg); } }
+
+.c-loader--large {
+  height: 72px;
+  width: 72px;
+  border-width: 8px;
+  margin-top: -36px;
+  margin-right: -36px; }
+
+body, html {
+  font-size: 15px;
+  padding: 0;
+  margin: 0; }
+
+.l-loading {
+  height: 100vh; }
+
+body {
+  height: 100vh;
+  overflow: hidden; }
+
+meta#theme-colors {
+  /*default: tone(#0b86d2, default)*/
+  /*default-grey: tone(#0b86d2, grey)*/
+  /*default-light-grey: tone(#0b86d2, light-grey)*/
+  /*green-day: tone(#39a59c, default)*/
+  /*green-day-grey: tone(#39a59c, grey)*/
+  /*green-day-light-grey: tone(#39a59c, light-grey)*/
+  /*code-orange: tone(#ee5a29, default)*/
+  /*code-orange-grey: tone(#ee5a29, grey)*/
+  /*code-orange-light-grey: tone(#ee5a29, light-grey)*/
+  /*peaches: tone(#f69b72, default)*/
+  /*peaches-grey: tone(#f69b72, grey)*/
+  /*peaches-light-grey: tone(#f69b72, light-grey)*/
+  /*deep-purple: tone(#9f79bf, default)*/
+  /*deep-purple-grey: tone(#9f79bf, grey)*/
+  /*deep-purple-light-grey: tone(#9f79bf, light-grey)*/
+  /*yellow-submarine: tone(#e7b23f, default)*/
+  /*yellow-submarine-grey: tone(#e7b23f, grey)*/
+  /*yellow-submarine-light-grey: tone(#e7b23f, light-grey)*/
+  font-family: "default:tone(#0b86d2, default),default-grey:tone(#0b86d2, grey),default-light-grey:tone(#0b86d2, light-grey),green-day:tone(#39a59c, default),green-day-grey:tone(#39a59c, grey),green-day-light-grey:tone(#39a59c, light-grey),code-orange:tone(#ee5a29, default),code-orange-grey:tone(#ee5a29, grey),code-orange-light-grey:tone(#ee5a29, light-grey),peaches:tone(#f69b72, default),peaches-grey:tone(#f69b72, grey),peaches-light-grey:tone(#f69b72, light-grey),deep-purple:tone(#9f79bf, default),deep-purple-grey:tone(#9f79bf, grey),deep-purple-light-grey:tone(#9f79bf, light-grey),yellow-submarine:tone(#e7b23f, default),yellow-submarine-grey:tone(#e7b23f, grey),yellow-submarine-light-grey:tone(#e7b23f, light-grey),"; }

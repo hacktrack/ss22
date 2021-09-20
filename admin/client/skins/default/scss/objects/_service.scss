@@ -1,0 +1,158 @@
+// Service
+// Services on dashboard view
+
+// Elements
+.service-group {
+	transition: background-color $normal;
+
+	&:not(:last-child) {
+		@include border('bottom');
+	}
+
+	// States
+	&:not(.is-active) {
+		@include user-select;
+		cursor: pointer;
+		height: $service-group-height;
+		overflow: hidden;
+
+		&:hover {
+			background-color: $lighter-grey;
+			transition: none;
+		}
+	}
+
+	&.is-active {
+		background-color: $lighter-grey;
+		height: auto;
+		overflow: visible;
+	}
+
+	// Elements
+	.dot {
+		margin-right: g(1);
+
+		@media #{$medium-up} {
+			margin-right: g(1.5);
+		}
+	}
+}
+
+.service-group-header {
+	padding-left: p(1);
+
+	@media #{$medium-up} {
+		padding-left: p(2);
+	}
+}
+
+// Assign colors to .service-group-status according to its status
+.service-group-status {
+
+	.service-group.status-off 		& { color: $error; }
+	.service-group.status-both 		& { color: $warning; }
+
+	.dot {
+
+		.service-group.status-on 	& { color: $success; }
+	}
+}
+
+.service-item {
+	padding: 0 p(1);
+
+	@media #{$medium-up} {
+		padding: 0 p(2);
+	}
+}
+
+.service-item-header {
+	@include border('bottom');
+}
+
+// Assign colors to .service-item-status according to its status
+.service-item-status {
+
+	// State
+	&.status {
+
+		&-on 	{ color: $success; }
+		&-off 	{ color: $error; }
+	}
+}
+
+.service-table {
+	margin: g(1.5) 0;
+
+	// Reset margin when directly in box-content
+	.box-content > & {
+		margin-top: 0;
+	}
+
+	td:first-child {
+
+		&::after {
+			content: ':';
+		}
+	}
+
+	td:last-child {
+		text-align: right;
+		font-weight: 600;
+	}
+}
+
+.service-selector {
+
+	~ .menu[iw-type="selector"] {
+		margin-top: g(1/2);
+		right: -$bubble-offset-horizontal;
+	}
+
+	// State
+	&:hover {
+
+		&::before { // Targeting the icon with ::before
+			@include theme {
+				color: $theme-primary;
+			}
+		}
+	}
+}
+
+.service-expand {
+
+	&::before { // Targeting the icon with ::before
+		@include rotate(0deg);
+		@include theme {
+			color: $theme-primary;
+		}
+	}
+
+	// States
+	.service-group:not(.is-active) & {
+		pointer-events: none; // Clicking on arrow button clicks directly on .service-group (prevents default action of input)
+	}
+
+	.service-group.is-active & {
+
+		&::before { // Targeting the icon with ::before
+			@include rotate(180deg);
+			color: $grey;
+		}
+
+		&:hover {
+
+			&::before {
+				@include theme {
+					color: $theme-primary;
+				}
+			}
+		}
+	}
+}
+
+.service-title {
+	line-height: $service-group-height;
+	@include text-ellipsis;
+}

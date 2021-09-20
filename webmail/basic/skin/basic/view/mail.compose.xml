@@ -1,0 +1,22 @@
+<form>
+	<!-- Users form -->
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<compose id="mail" helper="item" template="mail.compose"></compose>
+		<config>
+			<stylesheet>
+				<src>grid</src>
+				<src>mail.compose</src>
+				<src>wysiwyg</src>
+			</stylesheet>
+			<javascript>
+				<src>jquery</src>
+				<src>general</src>
+				<src>mail.compose</src>
+				<src>wysiwyg</src>
+			</javascript>
+		</config>
+	</panel>
+</form>

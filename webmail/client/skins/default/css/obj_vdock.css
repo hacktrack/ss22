@@ -1,0 +1,401 @@
+div.obj_vdock{
+	height: 100%;
+
+	padding: 9px 50px 0 9px;
+
+	color: #F0F0F0;
+	/*text-shadow: 0 0 2px #111111;*/
+
+	-moz-user-select: none;
+	-webkit-user-select: none;
+
+	position: relative;
+
+	line-height: 31px;
+}
+.rtl div.obj_vdock {
+	padding: 9px 9px 0 50px;
+	direction: rtl;
+}
+div.obj_vdock>div{
+
+	display: inline-block;
+
+	position: relative;
+
+	padding: 0 20px 0 35px;
+	margin-right: 5px;
+
+	cursor: pointer;
+	background-color: #3F3F3F;
+	white-space: nowrap;
+
+	border-radius: 2px 2px 0 0;
+}
+.rtl div.obj_vdock>div {
+	padding: 0 35px 0 20px;
+}
+	/*
+	div.obj_vdock>div.event{
+
+		background-color: {bg_main '#0088CC'};
+
+		animation-duration: 0.7s;
+		animation-name: vdock_event;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		animation-timing-function:linear;
+
+		-webkit-animation-duration: 0.7s;
+		-webkit-animation-name: vdock_event;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+		-webkit-animation-timing-function:linear;
+		-webkit-animation-play-state: running;
+
+	}
+
+		@keyframes vdock_event{
+			from { background-color: #3F3F3F; }
+			to { background-color: {bg_main '#0088CC'}; }
+		}
+		@-webkit-keyframes vdock_event {
+			from { background-color: #3F3F3F; }
+			to { background-color: {bg_main '#0088CC'}; }
+		}
+	*/
+
+	div.obj_vdock>div.event{
+		background-color: {bg_main '#0088CC'};
+	}
+	div.obj_vdock>div.event:before{
+		content: '\e058'!important;
+	}
+	div.obj_context.vdock li.ico2.event.ico_frm_chat > a > span:after{
+		content: '\e058'!important;
+		color: {ico_main '#0088CC'}!important;
+	}
+
+	div.obj_vdock>div.event.closable>span{
+		color: #ffffff;
+	}
+
+	/* Default Dock Icon */
+	div.obj_vdock>div:before{
+		content: '\e045';
+		position: absolute;
+		top: 7px;
+		left: 11px;
+
+		height: 18px;
+		width: 18px;
+
+		line-height: 18px;
+
+		font-family: 'ico16';
+		font-size: 16px;
+		font-style: normal;
+
+		/* default ico */
+		/*background: url(../images/set2.png) no-repeat 4px -3070px;*/
+	}
+	.rtl div.obj_vdock>div:before {
+		left: auto;
+		right: 11px;
+	}
+
+
+	/* Close */
+	div.obj_vdock>div.closable{
+		padding-right: 40px;
+	}
+	.rtl div.obj_vdock>div.closable {
+		padding-left: 40px;
+		padding-right: 35px;
+	}
+
+
+	div.obj_vdock>div.closable>span{
+		position: absolute;
+		top: 7px;
+		right: 9px;
+
+		width: 18px;
+		height: 18px;
+		line-height: 18px;
+
+		font-family: 'ico16';
+		font-size: 16px;
+		font-style: normal;
+
+		color: #AAA;
+	}
+	.rtl div.obj_vdock>div.closable>span {
+		left: 9px;
+		right: auto;
+	}
+	div.obj_vdock>div.closable>span:hover{
+		color: #F0F0F0;
+	}
+	div.obj_vdock>div.closable>span:after{
+		content: '\e036';
+	}
+
+	/* Collapse Button -173px -3221px */
+	div.obj_vdock>div.vdock_collapse{
+		position: absolute;
+		z-index: 100;
+		top: 9px;
+		margin-left: 4px;
+		font-style: normal;
+	}
+	div.obj_vdock>div.vdock_collapse:before{
+		/*background-position: -173px -3221px;*/
+		content: '\e007';
+	}
+
+	/* Custom Context Icons */
+	/*
+	div.obj_context.vdock li.ico > a > span:before{
+	    height: 20px;
+	    left: 5px;
+	    top: 6px;
+    	width: 30px;
+		background: url(../images/set2.png) no-repeat 4px -3070px;
+	}
+	*/
+
+	/* Custom Dock Icons */
+	div.obj_context.vdock li.ico2.ico_frm_sharing > a > span:after,
+	div.obj_vdock>div.ico_frm_sharing:before{
+		content: '\e07e';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_virtual > a > span:after,
+	div.obj_vdock>div.ico_frm_virtual:before{
+		content: '\e00d';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_compose > a > span:after,
+	div.obj_vdock>div.ico_frm_compose:before{
+		content: '\e041';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_delivery > a > span:after,
+	div.obj_vdock>div.ico_frm_delivery:before {
+		content: '\e075';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_blackwhite > a > span:after,
+	div.obj_vdock>div.ico_frm_blackwhite:before {
+		/*background-position: 4px -1197px;*/
+		content: '\e05d';
+	}
+
+	div.obj_context.vdock li.ico2.sms > a > span:after,
+	div.obj_vdock>div.ico_frm_compose.sms:before {
+		/*background-position: -170px -146px;*/
+		content: '\e035';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_chat > a > span:after,
+	div.obj_vdock>div.ico_frm_chat:before {
+		/*background-position: 5px 5px;*/
+		content: '\e035';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_im_vcard > a > span:after,
+	div.obj_vdock>div.ico_frm_im_vcard:before {
+		content: '\e032';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_mail > a > span:after,
+	div.obj_vdock>div.ico_frm_mail:before {
+		/*background-position: -84px -146px;*/
+		content: '\e021';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_gmap > a > span:after,
+	div.obj_vdock div.ico_frm_gmap:before {
+		/*background-position: -172px -3146px;*/
+		content: '\e029';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_dial > a > span:after,
+	div.obj_vdock>div.ico_frm_dial:before {
+		/*background-position: 5px -72px;*/
+		content: '\e038';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_conference > a > span:after,
+	div.obj_vdock>div.ico_frm_conference:before {
+		/*background-position: 4px -2845px;*/
+		content: '\e987';
+		font-family: 'ico16';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_contact > a > span:after,
+	div.obj_vdock>div.ico_frm_contact:before,
+	div.obj_context.vdock li.ico2.ico_frm_edit_attendee > a > span:after,
+	div.obj_vdock>div.ico_frm_edit_attendee:before {
+		/*background-position: 6px -223px;*/
+		content: '\e017';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_edit_account > a > span:after,
+	div.obj_vdock>div.ico_frm_edit_account:before {
+		/*background-position: -87px -223px;*/
+		content: '\e03d';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_event > a > span:after,
+	div.obj_vdock>div.ico_frm_event:before {
+		/*background-position: 4px -1046px;*/
+		content: '\e05';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_journal > a > span:after,
+	div.obj_vdock>div.ico_frm_journal:before {
+		/*background-position: 4px -1272px;*/
+		content: '\e024';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_note > a > span:after,
+	div.obj_vdock>div.ico_frm_note:before {
+		/*background-position: 4px -1347px;*/
+		content: '\e01d';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_print > a > span:after,
+	div.obj_vdock>div.ico_frm_print:before {
+		/*background-position: -435px -3070px;*/
+		content: '\e013';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_change_channel > a > span:after,
+	div.obj_vdock>div.ico_frm_change_channel:before {
+		/*background-position: -259px -2997px;*/
+		content: '\e00e';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_reminder > a > span:after,
+	div.obj_vdock>div.ico_frm_reminder:before{
+		content: '\e02f';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_task > a > span:after,
+	div.obj_vdock>div.ico_frm_task:before {
+		/*background-position: 4px -1197px;*/
+		content: '\e003';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_settings > a > span:after,
+	div.obj_vdock>div.ico_frm_settings:before,
+	div.obj_context.vdock li.ico2.ico_frm_settings_admin > a > span:after,
+	div.obj_vdock>div.ico_frm_settings_admin:before {
+		/*background-position: 3px -3145px;*/
+		content: '\e00a';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_rules > a > span:after,
+	div.obj_vdock>div.ico_frm_rules:before,
+	div.obj_context.vdock li.ico2.ico_frm_rule > a > span:after,
+	div.obj_vdock>div.ico_frm_rule:before {
+		/*background-position: -86px -3145px;*/
+		content: '\e014';
+	}
+	div.obj_context.vdock li.ico2.ico_frm_select_folder > a > span:after,
+	div.obj_vdock>div.ico_frm_select_folder:before,
+	div.obj_context.vdock li.ico2.ico_frm_add_folder > a > span:after,
+	div.obj_vdock>div.ico_frm_add_folder:before {
+		/*background-position: 4px -895px;*/
+		content: '\e01c';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_document > a > span:after,
+	div.obj_vdock>div.ico_frm_document:before,
+	div.obj_context.vdock li.ico2.ico_frm_file > a > span:after,
+	div.obj_vdock>div.ico_frm_file:before,
+	div.obj_context.vdock li.ico2.ico_frm_pdf > a > span:after,
+	div.obj_vdock>div.ico_frm_pdf:before{
+		content: '\e02c';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_editor > a > span:after,
+	div.obj_vdock>div.ico_frm_editor:before {
+		/*background-position: -345px -3071px;*/
+		content: '\e049';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_insert_item > a > span:after,
+	div.obj_vdock>div.ico_frm_insert_item:before {
+		/*background-position: 4px -2919px;*/
+		content: '\e033';
+	}
+
+	/*
+	div.frm_document_onlyoffice .obj_popupico:after{
+		font-family: 'filetypes';
+		content: '\e12';
+	}
+	div.frm_document_onlyoffice.ico_spreadsheet .obj_popupico:after{
+		content: '\e16';
+	}
+	div.frm_document_onlyoffice.ico_presentation .obj_popupico:after{
+		content: '\e19';
+	}
+	*/
+
+	div.obj_context.vdock li.ico2.ico_frm_document_onlyoffice > a > span:after,
+	div.obj_vdock>div.ico_frm_document_onlyoffice:before{
+		font-family: 'filetypes';
+		content: '\e12';
+	}
+		div.obj_context.vdock li.ico2.ico_frm_document_onlyoffice.ico_spreadsheet > a > span:after,
+		div.obj_vdock>div.ico_frm_document_onlyoffice.ico_spreadsheet:before{
+			content: '\e16';
+		}
+		div.obj_context.vdock li.ico2.ico_frm_document_onlyoffice.ico_presentation > a > span:after,
+		div.obj_vdock>div.ico_frm_document_onlyoffice.ico_presentation:before{
+			content: '\e19';
+		}
+
+	div.obj_context.vdock li.ico2.ico_frm_whatsnew > a > span:after,
+	div.obj_vdock>div.ico_frm_whatsnew:before{
+		content: '\e018';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_source > a > span:after,
+	div.obj_vdock>div.ico_frm_source:before{
+		content: '\e025';
+	}
+
+	div.obj_context.vdock li.ico2.ico_frm_video > a > span:after,
+	div.obj_vdock>div.ico_frm_video:before{
+		content: '\e60d';
+	}
+
+	div.obj_vdock>div.ico_obj_audio{
+		padding-left: 77px;
+	}
+
+	div.obj_vdock>div.ico_obj_audio>time{
+		top: 0;
+		left: 35px;
+		position: absolute;
+		text-align: right;
+		width: 30px;
+	}
+
+	div.obj_vdock>div.ico_obj_audio>em{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 2px;
+		width: 0;
+		display: block;
+		background-color: #FF9725;
+	}
+
+	div.obj_context.vdock li.ico2.ico_obj_audio > a > span:after,
+	div.obj_vdock>div.ico_obj_audio:before{
+		content: '\e027';
+	}
+		div.obj_context.vdock li.ico2.ico_obj_audio.play > a > span:after,
+		div.obj_vdock>div.ico_obj_audio.play:before{
+			content: '\e015';
+		}
+		div.obj_context.vdock li.ico2.ico_obj_audio.pause > a > span:after,
+		div.obj_vdock>div.ico_obj_audio.pause:before{
+			content: '\e016';
+		}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="Para"/>
+  <ITEM id="attachments" value="Anexos"/>
+  <ITEM id="bytes" value="Bytes"/>
+  <ITEM id="view_mail" value="Visualizar e-mail"/>
+  <ITEM id="show_source" value="Exibir código fonte"/>
+  <ITEM id="title" value="Resposta a Desafio"/>
+  <ITEM id="request" value="Para provar que sua mensagem foi enviada por um ser humano e não um computador, digite o texto alfanumérico exibido na imagem abaixo e clique em OK. Voce precisará fazer isso uma única vez. --- To prove your message was sent by a human and not a computer, type in the alphanumeric text you see in the image below and click OK. You will only be asked to do this once for this email address."/>
+  <ITEM id="result_ok" value="A palavra que você especificou está correta. Seu endereco de email foi autorizado. --- The word you specified is correct. Your email address has been authorized."/>
+  <ITEM id="result_error" value="A palavra especificada está incorreta. Favor tentar novamente. --- The word you specified is incorrect. Please, try again."/>
+  <ITEM id="result_already" value=" endereço de email já foi autorizado. --- Your email address has been already authorized."/>
+  <ITEM id="result_black" value="Seu endereço de email foi inserido na lista negra. --- Your email address has been black listed."/>
+  <ITEM id="result_notfound" value="Seu endereço de e-mail não foi localizado, podendo ter sido excluído. Favor tentar enviar sua mensagem novamente. --- Your email address was not found. It must have been deleted. Please, resend your email message."/>
+  <ITEM id="thanks" value="Obrigado pela sua cooperação. --- Thank you for your cooperation."/>
+  <ITEM id="reason" value="Porque estou fazendo isso? --- Why am I doing this?"/>
+  <ITEM id="explanation" value="Mensagens de propaganda não solicitadas (spam) são um problema sério e conhecido por todos. Utilizando este sistema baseado em permissões, é possivel restringir os remetentes que enviam email, tendo em vista que as mensagens de spam não serao, em regra, confirmadas. --- Unsolicited commercial email is computer-generated and cannot respond to the command above. By using this permission-based email system, I am restricting my inbound email to senders who authenticate, providing they are real humans who wish to communicate with me via email."/>
+  <ITEM id="thanks2" value="Obrigado por me ajudar a eliminar mensagens de spam! --- Thanks for helping me banish spam menssages!"/>
+  <ITEM id="copyright" value="Direitos autorais"/>
+  <ITEM id="link" value="IceWarp Software"/>
+  <ITEM id="gateway_link_label" value="Manage your quarantine/spam online"/>
+  <ITEM id="copyright2" value="Todos os direitos reservados."/>
+  <LIST>
+    <ITEM id="title" value="Relatório de spam"/>
+    <ITEM id="intro" value="Este relatório gerado automaticamente informa sobre mensagens na pasta Spam (ou Quarentena) de sua conta de e-mail. Ele permite que você tome medidas administrativas, clicando em um dos botões ao lado de cada cabeçalho de e-mail. Ao clicar em Lista Branca, além de entregar a mensagem em sua caixa de entrada, o sistema aloca o remetente na sua lista branca, enquanto Entregar apenas entrega a mensagem em sua caixa de entrada.&lt;br/&gt;&lt;br/&gt; NOTA: Os relatórios só mostram a primeira mensagem enviada por cada remetente e quando você aceita uma, as demais mensagens do mesmo remetente são entregues."/>
+    <ITEM id="outro" value="Você pode clicar em um dos links acima para tomar a ação selecionada para todas as demais mensagens em sua pasta de Spam ou Quarentena."/>
+    <ITEM id="admin_action" value="Escolha uma ação para todos os itens em todas as contas"/>
+    <ITEM id="account_action" value="Escolha uma ação para todos os itens em uma conta"/>
+    <ITEM id="you_are_admin" value="Opções do Administrador de Spam"/>
+    <ITEM id="sender" value="De"/>
+    <ITEM id="subject" value="Assunto"/>
+    <ITEM id="recipient" value="Para"/>
+    <ITEM id="date" value="Data"/>
+    <ITEM id="time" value="Horário"/>
+    <ITEM id="actions" value="Ações"/>
+    <ITEM id="delete" value="Excluir"/>
+    <ITEM id="authorize" value="Lista Branca"/>
+    <ITEM id="accept" value="Entregar"/>
+    <ITEM id="blacklist" value="Lista Negra"/>
+    <ITEM id="deleteall" value="Excluir"/>
+    <ITEM id="authorizeall" value="Lista Branca"/>
+    <ITEM id="acceptall" value="Entregar"/>
+    <ITEM id="blacklistall" value="Lista Negra"/>
+    <ITEM id="submit" value="Submeter"/>
+    <ITEM id="view" value="Ver msg"/>
+    <ITEM id="msgsubject" value="Relatório de Spam"/>
+    <ITEM id="domain" value="Domínio"/>
+    <ITEM id="account" value="Conta"/>
+    <ITEM id="location" value="Localização"/>
+    <ITEM id="type_quarantine" value="Quarentena"/>
+    <ITEM id="type_spam" value="Pasta de Spam"/>
+    <ITEM id="delivery_problem" value="Não foi possível entregar a mensagem para a conta"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autorização do remetente"/>
+      <ITEM id="success" value="O remetente foi autorizado."/>
+      <ITEM id="failure" value="Não foi possível autorizar o remetente."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Entrega da mensagem"/>
+      <ITEM id="success" value="A mensagem foi entregue."/>
+      <ITEM id="failure" value="Não foi possível entregar a mensagem."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Exclusão da mensagem"/>
+      <ITEM id="success" value="A mensagem foi excluída e removida da fila."/>
+      <ITEM id="failure" value="Não foi possível excluir a mensagem."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Rejeição do remetente"/>
+      <ITEM id="success" value="O remetente foi adicionado à lista negra."/>
+      <ITEM id="failure" value="Não foi possível adicionar o remetente à lista negra."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Visualização da mensagem"/>
+      <ITEM id="failure" value="Não foi possível exibir a mensagem. Isso pode ocorrer caso a mensagem já tinha sido apagada ou movida da quarentena."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Falha"/>
+      <ITEM id="failure" value="Não foi possível realizar a operação solicitada."/>
+      <ITEM id="wrongid" value="ID de Mensagem inválido. A mensagem especificada provavelmente foi apagada da quarentena (ou da pasta Spam)."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autorização do remetente"/>
+      <ITEM id="success" value="O remetente foi autorizado e e mensagem entregue."/>
+      <ITEM id="failure" value="Não foi possível autorizar o remetente."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Entrega da mensagem"/>
+      <ITEM id="success" value="A mensagem foi entregue."/>
+      <ITEM id="failure" value="Não foi possível entregar a mensagem."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Exclusão da mensagem"/>
+      <ITEM id="success" value="A mensagem foi excluída da pasta de spam."/>
+      <ITEM id="failure" value="Não foi possível excluir a mensagem."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Rejeição do remetente"/>
+      <ITEM id="success" value="O remetente foi adicionado à lista negra e a mensagem removida da pasta de spam."/>
+      <ITEM id="failure" value="Não foi possível adicionar o remetente à lista negra."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Visualização da mensagem"/>
+      <ITEM id="failure" value="Não foi possível exibir a mensagem. Isso pode ocorrer caso a mensagem já tinha sido apagada ou movida da pasta de spam."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Falha"/>
+      <ITEM id="failure" value="Não foi possível realizar a operação solicitada."/>
+      <ITEM id="wrongid" value="ID de Mensagem inválido. A mensagem especificada provavelmente foi apagada da quarentena (ou da pasta Spam)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Falha"/>
+      <ITEM id="failure" value="Não foi possível realizar a operação requisitada."/>
+      <ITEM id="wrongid" value="ID de administrador inválido. A conta de administrador especificada não existe mais."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Relatórios de spam estão desabilitados %s"/>
+    <ITEM id="challenge_already_running" value="Relatórios de spam já estão em execução"/>
+    <ITEM id="challenge_invalid_path_variable" value="Caminho dos relatórios de spam não carregado adequadamente: %s"/>
+    <ITEM id="api_findinitquery" value="API dos relatórios de spam: IceWarp account object retrieval. Domínio: %s, Filtro: %s"/>
+    <ITEM id="challenge_language_file_missing" value="Arquivo de idioma dos relatórios de spam está faltando: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Arquivo de idioma dos relatórios de spam está corrompido: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Hash inválido para relatórios de spam (possível ataque de URL): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

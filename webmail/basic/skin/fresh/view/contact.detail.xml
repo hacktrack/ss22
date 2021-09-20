@@ -1,0 +1,25 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<helper>groupware</helper>
+		<form id="contact" helper="item" template="contact.detail">
+			<config>
+				<controller>item</controller>
+				<data>item.fdr</data>
+				<stylesheet>
+					<src>datagrid_detail</src>
+				</stylesheet>
+			</config>
+			<wysiwyg anchor="contactNote" anchoronly="1">
+				<config>
+					<name>item[values][0][ITMDESCRIPTION]</name>
+					<dataindex>item::ITMDESCRIPTION</dataindex>
+					<formatindex>item::ITMDESCFORMAT</formatindex>
+					<id>contactNote</id>
+				</config>
+			</wysiwyg>
+		</form>
+	</panel>
+</form>

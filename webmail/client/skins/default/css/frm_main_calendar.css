@@ -1,0 +1,63 @@
+div.frm_main_calendar {
+	height: 100%;
+	position: relative;
+	padding: 40px 0 0 0;
+}
+
+div.frm_main_calendar>.btn{
+	position: absolute;
+	height: 40px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.rtl div.frm_main_calendar>div.btn {
+	direction: rtl;
+}
+
+div.frm_main_calendar>.btn>table{
+	position: relative;
+	top: 4px;
+	left: 4px;
+	empty-cells: hide;
+}
+	div.frm_main_calendar>.btn .obj_select.bold,
+	div.frm_main_calendar>.btn .obj_input.bold>input{
+		font-size: 16px;
+		font-weight: 500;
+	}
+	div.frm_main_calendar>.btn .obj_select.month{
+		width: 120px;
+	}
+	div.frm_main_calendar>.btn .obj_button.today{
+		margin-top: 1px;
+		color: {txt_main '#0088cc'};
+	}
+	div.frm_main_calendar>.btn .obj_button.today input{
+		min-width: 0;
+	}
+	div.frm_main_calendar>.btn .obj_button.today:hover input{
+		text-decoration: none;
+	}
+
+.rtl div.frm_main_calendar>.btn>table {
+	left: -4px;
+}
+
+div.frm_main_calendar>.btn td{
+	vertical-align: top;
+	empty-cells: hide;
+}
+div.frm_main_calendar>.btn td.spacer:after{
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 17px;
+	background-color: #E8E8E8;
+	margin: 5px;
+}
+
+div.frm_main_calendar>.view {
+	height: 100%;
+}

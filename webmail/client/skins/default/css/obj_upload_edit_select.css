@@ -1,0 +1,50 @@
+.obj_upload_edit_select{
+	height: 100%;
+	position: relative;
+
+}
+	.obj_upload_edit_select .obj_upload_editcontainer{
+		height: 100%;
+		padding-bottom: 33px;
+	}
+
+	.obj_upload_edit_select .obj_upload_edittable{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.rtl .obj_upload_edit_select .obj_upload_edittable {
+		left: auto;
+		right: 0;
+	}
+.obj_upload_edit_select .obj_upload{
+	padding: 0 10px 0 0;
+}
+.rtl .obj_upload_edit_select .obj_upload {
+	padding: 0 0 0 10px;
+}
+
+.obj_upload_edit_select .attach form {
+	position: relative
+}
+
+.obj_upload_edit_select .attach form.obj_button {
+	padding: 0 0 0 20px;
+}
+
+.rtl .obj_upload_edit_select .attach form.obj_button {
+	padding: 0 20px 0 0;
+}
+
+.obj_upload_edit_select .attach form.obj_button:before {
+    content: "\e03a";
+    font-family: "ico16";
+    font-size: 16px;
+    position: absolute;
+    top: 14px;
+    left: 7px;
+}
+.rtl .obj_upload_edit_select .attach form.obj_button:before {
+    left: auto;
+    right: 7px;
+}

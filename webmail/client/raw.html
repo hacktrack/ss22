@@ -1,0 +1,15 @@
+<?php	
+	$query = http_build_query (array ('_l'=>'item',
+	  'p0'=>'html',
+	  'p1'=>'html',
+	  'p2'=>'mail.view.html',
+	  'p3'=>$_GET['aid'],
+	  'p4'=>$_GET['fid'],
+	  'p5'=>'M',
+	  'p6'=>$_GET['iid'],
+	  'PHPSESSID_BASIC'=>$_GET['sid'],
+	  'raw'=>'1'));	
+
+	header('Location: ../basic/index.html?'.$query);
+	exit;
+?>

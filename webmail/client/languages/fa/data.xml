@@ -1,0 +1,3484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <language>
+    <week_date>ddd D MMMM</week_date>
+  </language>
+  <smiles>
+    <people>افراد</people>
+    <nature>طبیعت</nature>
+    <objects>اشیا</objects>
+    <places>مکان‌ها</places>
+    <symbols>علامت‌ها</symbols>
+    <flags>پرچم‌ها</flags>
+    <activity>فعالیت</activity>
+    <food>خوردنی و آشامیدنی</food>
+    <smiles>شکلک‌ها</smiles>
+  </smiles>
+  <smiles_name>
+    <thumbsup>لایک</thumbsup>
+    <laughing>خندیدن</laughing>
+    <disappointed>مایوس</disappointed>
+    <angry>عصبانی</angry>
+    <heart>قلب</heart>
+    <hankey>هانکی</hankey>
+    <dizzy_face>گیج</dizzy_face>
+  </smiles_name>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>آبی</blue>
+    <green>سبز</green>
+    <brown>قهوه‌ای</brown>
+    <purple>ارغوانی</purple>
+    <yellow>زرد</yellow>
+    <teal>آبی فیروزه‌ای</teal>
+    <plum>آلویی</plum>
+    <red>قرمز</red>
+    <aqua>فیروزه‌ای</aqua>
+    <aquamarine>زمردی</aquamarine>
+    <orchid>ارغوانی روشن</orchid>
+    <pink>صورتی</pink>
+    <silver>نقره‌ای</silver>
+    <white>سفید</white>
+    <gray>خاکستری</gray>
+    <lemon>لیمویی</lemon>
+    <orange>پرتقالی</orange>
+    <peach>هلویی</peach>
+  </colors>
+  <title>
+    <new_email>* پیام ایمیل جدید</new_email>
+    <new_im>%s* پیام جدید از</new_im>
+    <new_reminder>%s :* یادآوری</new_reminder>
+    <cerror>! خطای اتصال</cerror>
+  </title>
+  <audio>
+    <player>پخش‌کننده</player>
+  </audio>
+  <signature>
+    <none>بدون امضا</none>
+    <alias>از آدرس</alias>
+    <newmsg>پیام‌های جدید</newmsg>
+    <oldmsg>پاسخ‌ها</oldmsg>
+    <signature>امضا</signature>
+    <variable>متغیر را وارد کنید</variable>
+    <preview>پیش‌نمایش امضا</preview>
+  </signature>
+  <alias>
+    <add>اضافه کردن نام مستعار جدید</add>
+    <add_delegated>اضافه کردن آدرس ایمیل مستعار</add_delegated>
+    <notify>پیام تایید ارسال شده است</notify>
+    <instructions>درخواست تایید به آدرس ایمیل فوق فرستاده خواهد شد. لطفا برای دریافت راهنمایی‌های بیشتر درخواست را بررسی کنید.</instructions>
+    <delegated_error>اضافه کردن ایمیل مستعار امکان‌پذیر نیست</delegated_error>
+  </alias>
+  <notify>
+    <title>اعلان جزئیات</title>
+    <to_all>دسترسی به این پوشه به همه اطلاع داده شود</to_all>
+    <copy>همچنین اطلاع‌رسانی کن به</copy>
+    <comment>توضیح(دلخواه)، برای کاربرانی که باید از تغییرات مطلع شوند ارسال می‌شود.</comment>
+    <success>اطلاع‌رسانی شد</success>
+  </notify>
+  <datagrid>
+    <nomessages>پیامی وجود ندارد</nomessages>
+    <noitems>موردی وجود ندارد</noitems>
+    <newitems>آیتم‌های جدید</newitems>
+  </datagrid>
+  <sort>
+    <date_asc>قدیمی‌ترین در بالا</date_asc>
+    <date_desc>جدیدترین در بالا</date_desc>
+    <from_asc>A تا Z</from_asc>
+    <from_desc>Z تا A</from_desc>
+    <subject_asc>A تا Z</subject_asc>
+    <subject_desc>Z تا A</subject_desc>
+    <size_asc>بزرگ‌ترین در بالا</size_asc>
+    <size_desc>کوچک‌ترین در بالا</size_desc>
+    <evntitle_asc>A تا Z</evntitle_asc>
+    <evntitle_desc>Z تا A</evntitle_desc>
+    <evnlocation_asc>A تا Z</evnlocation_asc>
+    <evnlocation_desc>Z تا A</evnlocation_desc>
+    <event_startdate_asc>قدیمی‌ترین در بالا</event_startdate_asc>
+    <event_startdate_desc>جدیدترین در بالا</event_startdate_desc>
+    <event_enddate_asc>قدیمی‌ترین در بالا</event_enddate_asc>
+    <event_enddate_desc>جدید‌ترین در بالا</event_enddate_desc>
+    <itmclassifyas_asc>A تا Z</itmclassifyas_asc>
+    <itmclassifyas_desc>Z تا A</itmclassifyas_desc>
+    <itmcompany_asc>A تا Z</itmcompany_asc>
+    <itmcompany_desc>Z تا A</itmcompany_desc>
+    <contact_email_asc>A تا Z</contact_email_asc>
+    <contact_email_desc>Z تا A</contact_email_desc>
+    <itmsurname_asc>A تا Z</itmsurname_asc>
+    <itmsurname_desc>Z تا A</itmsurname_desc>
+    <phone_asc>صعودی</phone_asc>
+    <phone_desc>نزولی</phone_desc>
+    <evnfilename_asc>A تا Z</evnfilename_asc>
+    <evnfilename_desc>Z تا A</evnfilename_desc>
+    <evn_modified_asc>قدیمی‌ترین در بالا</evn_modified_asc>
+    <evn_modified_desc>جدیدترین در بالا</evn_modified_desc>
+    <evnfilesize_asc>بزرگ‌ترین در بالا</evnfilesize_asc>
+    <evnfilesize_desc>کوچک‌ترین در بالا</evnfilesize_desc>
+    <task_enddate_asc>قدیمی‌ترین در بالا</task_enddate_asc>
+    <task_enddate_desc>جدیدترین در بالا</task_enddate_desc>
+    <task_startdate_asc>قدیمی‌ترین در بالا</task_startdate_asc>
+    <task_startdate_desc>جدیدترین در بالا</task_startdate_desc>
+    <priority_asc>Highest priority on Top</priority_asc>
+    <priority_desc>Lowest priority on Top</priority_desc>
+    <asc>صعودی</asc>
+    <desc>نزولی</desc>
+    <sort_by>مرتب‌سازی بر اساس</sort_by>
+  </sort>
+  <itemview>
+    <preview>پیش‌نمایش</preview>
+    <down>پایین صفحه</down>
+    <right>سمت چپ صفحه</right>
+    <none>هیچ کدام</none>
+    <noitem>موردی وجود ندارد</noitem>
+    <message_to>%sپیام به :</message_to>
+    <doc_revisions>تاریخچه داکیومنت</doc_revisions>
+    <edit>کلیک کرده و ویرایش را آغاز کنید</edit>
+    <view>برای باز کردن کلیک کنید</view>
+    <actions>عملیات</actions>
+    <details>جزئیات</details>
+    <revisions>تاریخچه</revisions>
+    <version>نسخه</version>
+    <security>امنیت</security>
+    <mime_img>تصویر</mime_img>
+    <mime_doc>داکیومنت</mime_doc>
+    <mime_ss>صفحه گسترده</mime_ss>
+    <mime_tpl>قالب</mime_tpl>
+    <mime_pdf>فایل PDF</mime_pdf>
+    <mime_txt>فایل متنی</mime_txt>
+    <mime_presentation>ارائه</mime_presentation>
+    <mime_sound>صدا</mime_sound>
+    <mime_video>تصویر</mime_video>
+    <mime_archive>آرشیو</mime_archive>
+    <mime_app>نرم‌افزار</mime_app>
+    <new_revision>ایجاد نسخه جدید</new_revision>
+    <status>وضعیت</status>
+    <conversion>در حال ایجاد پیش‌نمایش</conversion>
+    <print_pdf>چاپ بصورت PDF</print_pdf>
+    <file>فایل</file>
+    <sharing>اشتراک‌گذاری به</sharing>
+    <editing>درحال ویرایش</editing>
+    <password_protected>محافظت شده با رمزعبور</password_protected>
+  </itemview>
+  <freebusy>
+    <free_time>زمان‌های آزاد</free_time>
+    <find_time>پیدا کردن بهترین زمان برای ویدئو کنفرانس</find_time>
+    <notfound>زمان آزاد وجود ندارد</notfound>
+    <day>روز%s</day>
+    <days>روز%s</days>
+  </freebusy>
+  <verification>
+    <twostep>احراز هویت دو‌عاملی</twostep>
+    <inactive>%sاحراز هویت دو عاملی بصورت</inactive>
+    <home_lbl>نحوه حفاظت از اکانت خود را تعیین نمایید:</home_lbl>
+    <home_btn_app>نرم‌افزار احراز هویت آیس‌وارپ</home_btn_app>
+    <home_btn_app2>شما می‌توانید از نرم‌افزار موبایلی احراز هویت آیس‌وارپ استفاده نمایید تا کد اعتبارسنجی سریعا ایحاد شود.</home_btn_app2>
+    <home_btn_sms>پیام متنی</home_btn_sms>
+    <home_btn_sms2>کد تایید توسط پیامک به شماره تلفن شما ارسال خواهد شد.</home_btn_sms2>
+    <app>نرم‌افزار احراز هویت آیس‌وارپ</app>
+    <app_lbl>شما می‌توانید کد تایید را ظرف چند ثانیه و بصورت رایگان از نرم‌افزار احراز هویت آیس‌وارپ دریافت نمایید.این نرم‌افزار احتیاجی به آنتن‌دهی/اینترنت ندارد.</app_lbl>
+    <app_h>مدل گوشی هوشمند شما چیست؟</app_h>
+    <app_btn_ios>آیفون</app_btn_ios>
+    <app_btn_android>اندروید</app_btn_android>
+    <app_auth_hios>نصب احراز هویت آیس‌وارپ برای آیفون</app_auth_hios>
+    <app_auth_handroid>نصب احراز هویت آیس‌وارپ برای اندروید</app_auth_handroid>
+    <app_auth_1>%sدانلود نرم‌افزار احراز هویت آیس‌وارپ از</app_auth_1>
+    <app_auth_1ios>App Store</app_auth_1ios>
+    <app_auth_1android>Play Store</app_auth_1android>
+    <app_auth_2>%sنرم‌افزار را باز کرده و گزینه تنظیمات را انتخاب کنید</app_auth_2>
+    <app_auth_2ext>شروع تنظیمات</app_auth_2ext>
+    <app_auth_3>بر روی آیکون کلیک کنید. %s برای</app_auth_3>
+    <app_auth_3ext>QRاسکن کد</app_auth_3ext>
+    <app_auth_note>دوربین گوشی خود رابصورتی که کد داخل کادر قرار گیرد قرار دهید.</app_auth_note>
+    <app_auth_help>تنظیم دستی</app_auth_help>
+    <app_auth_code>کد شش رقمی که در نرم‌افزار به شما نمایش داده می‌شود را وارد نمایید.</app_auth_code>
+    <app_auth_code_ph>کد را وارد نمایید</app_auth_code_ph>
+    <app_auth_pass>%s:رمزعبور این اکانت را وارد نمایید</app_auth_pass>
+    <app_auth_lbl>به صورت دستی تنظیم کنید  %sنرم‌افزار احراز هویت آیس‌وارپ را برای</app_auth_lbl>
+    <app_auth_info>نرم‌افزار احراز هویت آیس‌وارپ را باز نمایید. گزینه تنظیم دستی را انتخاب کنید. سپس این مقادیر را همانطور که مشاهده می‌کنید داخل نرم‌افزار وارد نمایید.</app_auth_info>
+    <app_auth_service>نام سرویس</app_auth_service>
+    <app_auth_key>کلید</app_auth_key>
+    <app_auth_account>نام اکانت</app_auth_account>
+    <verify>بازبینی</verify>
+    <verifying>در حال بازبینی</verifying>
+    <success>استفاده خواهید کرد %s شما با موفقیت احراز هویت دو مرحله‌ای را تنظیم نموده‌اید. از این به بعد از نرم‌افزار احراز هویت دو مرحله‌ای برای ورود به وب‌کلاینت برای .</success>
+    <activated>فعال شد</activated>
+    <sms>تنظیمات پیام متنی</sms>
+    <sms_lbl>تنظیم ورود به سیستم احراز هویت دوعاملی با استفاده از پیامک</sms_lbl>
+    <phone>شماره تلفن</phone>
+    <phone_ph>برای مثال 394 940 203</phone_ph>
+    <sms_code_lbl>ارسال شد%sپیامک حاوی کد فعالسازی به</sms_code_lbl>
+    <sms_code>کد فعالسازی دریافت شده را وارد نمایید</sms_code>
+    <sms_code_ph>برای مثال 123456</sms_code_ph>
+    <country_ph>کشور خود را انتخاب کنید</country_ph>
+    <sms_disabled>خطا در ارسال پیامک. این گزینه فعلا غیرفعال است. لطفا با مدیر سرور یا بخش پشتیبانی تماس بگیرید</sms_disabled>
+    <code>کد فعال‌سازی</code>
+    <reset>ریست</reset>
+    <error>خطا در بازبینی</error>
+  </verification>
+  <search>
+    <in_files>جستجو در داکیومنت‌ها</in_files>
+    <in_contacts>جستجو در اشخاص</in_contacts>
+    <in_tasks>جستجو در فعالیت‌ها</in_tasks>
+    <in_calendars>جستجو در تقویم</in_calendars>
+    <in_emails>جستجو در ایمیل‌ها</in_emails>
+    <in_notes>جستجو در یادداشت‌ها</in_notes>
+    <wizard>جستجو در ویزارد</wizard>
+    <since>از تاریخ</since>
+    <until>تا تاریخ</until>
+    <contains>همه‌جا</contains>
+    <fulltext>متن کامل</fulltext>
+    <makefolder>ایجاد پوشه جستجو</makefolder>
+    <contact_note>یادداشت</contact_note>
+  </search>
+  <search_hints>
+    <folder>جستجو برای موارد از پوشه های مشخص شده</folder>
+    <from>استفاده جهت تعیین فرستنده(از:علیرضا)</from>
+    <to>استفاده جهت تعیین گیرنده(به:بابک)</to>
+    <subject>جستجوی کلمات در موضوع ایمیل (موضوع:شام)</subject>
+    <or>عملگرهای منطقی</or>
+    <not>عملگرهای منطقی</not>
+    <hasattachment>جستجوی پیام‌های حاوی پیوست</hasattachment>
+    <hastag>جستجوی پیام‌های حاوی برچسب</hastag>
+    <isflagged>جستجوی پیام‌های پرچم‌دار</isflagged>
+    <isunread>جستجوی پیام‌های خوانده نشده</isunread>
+    <isread>جستجوی پیام‌های خوانده شده</isread>
+    <isdone>جستجوی فعالیت‌های انجام شده</isdone>
+    <cc>ذکر شده‌اندCcجهت تعیین گیرنده‌هایی که در بخش</cc>
+    <bcc>ذکر شده‌اندBccجهت تعیین گیرنده‌هایی که در بخش</bcc>
+    <sms>جهت تعیین گیرنده‌هایی که در پیامک ذکر شده‌اند</sms>
+    <after>جستجوی پیام‌های ارسال شده بعد از یک تاریخ مشخص (بعد از:2004/04/16)</after>
+    <creationdate>جستجوی پیام‌های ایجاد شده در تاریخ مشخص (بعد از: 2004/04/16)</creationdate>
+    <aftertime>جستجوی پیام‌های ارسال شده بعد از یک تاریخ مشخص (بعد از:2004/04/16)</aftertime>
+    <after_e>جستجوی موارد شروع شده بعد از تاریخ مشخص  ( بعد از:2004/04/16)</after_e>
+    <after_f>جستجوی موارد ویرایش شده بعد از تاریخ مشخص (بعد از: 2004/04/16)</after_f>
+    <after_t>جستجوی موارد خاتمه داده شده بعد از تاریخ مشخص  (2004/04/16بعد از: )</after_t>
+    <after_j>جستجوی موارد شروع شده بعد از تاریخ مشخص  (بعد از: 2004/04/16)</after_j>
+    <before>جستجوی پیام‌های ارسال شده قبل از تاریخ مشخص  (قبل از: 2004/04/16)</before>
+    <beforetime>جستجوی پیام‌های ارسال شده قبل از تاریخ مشخص (قبل از: 2004/04/16)</beforetime>
+    <before_e>جستجوی موارد شروع شده قبل از تاریخ مشخص (قبل از: 2004/04/16)</before_e>
+    <before_f>جستجوی موارد ویرایش شده قبل از تاریخ مشخص (قبل از:2004/04/16)</before_f>
+    <before_t>جستجوی موارد خاتمه داده شده قبل از تاریخ مشخص  (قبل از: 2004/04/16)</before_t>
+    <before_j>جستجوی موارد شروع شده قبل از تاریخ مشخص  (قبل از: 2004/04/16)</before_j>
+    <title>استفاده جهت تعیین عنوان آیتم موردنظر (عنوان:تست)</title>
+    <description>استفاده جهت تعیین توضیح و یا یادداشت (توضیح:تست)</description>
+    <name>استفاده جهت تعیین نام مخاطب</name>
+    <email>استفاده جهت تعیین ایمیل</email>
+    <keyword>جستجوی مواردی با برچسب خاص (برچسب:بیزنس)</keyword>
+    <tag>جستجوی مواردی با برچسب خاص (برچسب:بیزنس)</tag>
+    <tag2>(  %sاستفاده شده در آیتم‌های)&quot;%s&quot;جستجوی مواردی با برچسب</tag2>
+    <greater>(بیشتراز:1024)KB جستجو بر اساس  سایز در اندازه</greater>
+    <smaller>(کمتر از:1024)KB جستجو بر اساس  سایز در اندازه</smaller>
+    <company>( شرکت:آیس‌وارپ)جستجوی مخاطبان در شرکت</company>
+    <department>(دپارتمان : IT)جستجوی مخاطبان در دپارتمان</department>
+    <note>جستجوی یک شخص با یادداشت خاص (یادداشت:مدیر)</note>
+    <location>(جستجوی مخاطبان از لحاظ موقعیت(موقعیت : لندن</location>
+    <fulltext>جستجو در متن کامل پیام (متن کامل:تست)</fulltext>
+    <priority>جستجو بر اساس اولویت‌‌های بالاترین، بالا، عادی، پایین، پایین‌ترین (اولویت:بالا)</priority>
+    <isprivate>جستجو برای یادداشت‌های شخصی</isprivate>
+    <ispublic>جستجو برای یادداشت‌های عمومی</ispublic>
+    <isfree>جستجو برای وظایف آزاد</isfree>
+    <isbusy>جستجو برای وظایف مشغول</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>پوشه‌های جستجو</virtual>
+    <general>عمومی</general>
+    <primary>پوشه اولیه</primary>
+    <filter>فیلتر</filter>
+    <all>همه پوشه‌ها</all>
+  </virtual>
+  <notifier>
+    <notifier>اطلاع‌رسانی</notifier>
+    <permissions>اعلانات صفحه نمایش، اطلاع‌رسانی‌های لازم درخصوص دریافت ایمیل جدید یا پیام جدید در گفت‌وگو را انجام می‌دهد.این امر حتی در زمانی که مرورگر شما باز نباشد نیز اجرا می‌شود.&lt;br&gt;ابتدا انتخاب کنید که این اطلاع‌رسانی چگونه انجام شود سپس بر روی اکی کلیک کرده و در پنجره‌ی بعدی گزینه اعلانات صفحه نمایش را فعال کنید</permissions>
+    <denied>شما اجازه دسترسی به ویژگی اعلانات صفحه نمایش را ندادید.</denied>
+    <redirect>ایمیل هدایت شد</redirect>
+    <send>ایمیل ارسال شد</send>
+    <item_save>آیتم ذخیره شد</item_save>
+    <new_email>%sایمیل جدید برای</new_email>
+    <new_revision>نسخه جدید داکیومنت ایجاد شده‌است.</new_revision>
+    <email_exist>آدرس ایمیل از قبل وجود دارد</email_exist>
+    <email_added>آدرس ایمیل برای مخاطب ایجاد شد</email_added>
+    <contact_email_list_full>آدرس ایمیل اضافه نشد، همه‌ی فیلدها پر شده‌اند.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google Maps</map>
+    <use_address>از آدرس استفاده کنید.</use_address>
+    <go>آدرس را نمایش دهید</go>
+    <open>Googleبازکردن</open>
+    <alert>Google Maps خطای</alert>
+    <g_geo_missing_address>خطای آدرس: آدرس خالی و بدون مقدار می‌باشد.</g_geo_missing_address>
+    <g_geo_too_many_queries>درخواست بیش از حد : تعداد درخواست‌های روزانه برای این سایت بیش از حد است.</g_geo_too_many_queries>
+    <g_geo_server_error>خطای سرور: درخواست پردازش نشد.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>اطلاعات ورود به سیستم</login_info>
+    <licenses>برنامه‌های دسکتاپ و مجوزها</licenses>
+    <licenses_text>. از حساب آیس‌وارپ خود بیشترین بهره را ببرید. برای دانلود نرم افزارهای بیشتر ، کلیدهای فعال سازی ، راهنماها و روش  دسترسی به تقویم ها ، مخاطبین و اطلاعات و برنامه‌های سازگار بر  روی دسکتاپ خود  ، اینجا کلیک کنید:&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Desktop Client&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Notifier&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>تحویل داده شده</delivered>
+    <delivered_info>با موفقیت به گیرنده محلی تحویل داده شد.</delivered_info>
+    <sent>ارسال شد</sent>
+    <sent_info>با موفقیت به سرور خارجی تحویل داده شد.</sent_info>
+    <deferred>تغییر یافته است</deferred>
+    <deferred_info>ارسال به تاخیر افتاد، پیام بعدا ارسال خواهد شد</deferred_info>
+    <recalled>فراخوانده شده</recalled>
+    <recalled_info>پیامی که در کارتابل قرار داشت کنسل شد</recalled_info>
+    <queue>صف</queue>
+    <queue_info>تحویل پیام بطور موقت به تاخیر افتاده است، سرور برای ارسال آن در زمان دیگری تلاش خواهد کرد.</queue_info>
+    <error>خطا</error>
+    <error_info>بررسی صندوق پستی خود برای جزئیات پیام خطا</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>تمام فایل‌ها</all_files>
+    <images>تصاویر</images>
+    <queue_limit_exceeded>صف بیشتر از حد مجاز</queue_limit_exceeded>
+    <zero_byte_file>فایل با حجم صفر</zero_byte_file>
+    <invalid_filetype>نوع فایل نامعتبر</invalid_filetype>
+    <item>مورد</item>
+    <title>%s - %s%در حال بارگذاری:</title>
+    <uploading>درحال بارگذاری</uploading>
+    <size_info>%0% (%2از %1)</size_info>
+    <error1>(%sMB)سایز فایل بیشتر از حد مجاز است</error1>
+    <error3>بارگذاری فایل به صورت ناقص انجام شد.</error3>
+    <error4>هیچ فایلی آپلود نشده است</error4>
+    <error6>یک پوشه موقت از دست رفته‌است</error6>
+    <error7>فایل روی دیسک نوشته نشد</error7>
+    <error8>نوع فایل نامعتبر</error8>
+  </upload>
+  <im>
+    <chat_title>چت</chat_title>
+    <new_chat>یک چت جدید</new_chat>
+    <new_chats>%sچت جدید</new_chats>
+    <uploaded>آپلود شد &quot;%s”فایل .</uploaded>
+    <shared_image>تصویری را به اشتراک گذاشت</shared_image>
+    <shared_location>مکانی را به اشتراک گذاشت</shared_location>
+    <attach_file>الصاق فایل</attach_file>
+    <load_history>تاریخچه بارگیری</load_history>
+    <status_msg>وضعیت متن ...</status_msg>
+    <add_private>خصوصی</add_private>
+    <unsupported_img>نوع تصویر پشتیبانی نشده است</unsupported_img>
+    <add_gateway>اضافه کردن دروازه ورودی</add_gateway>
+    <error_im>WebChatخطای</error_im>
+    <registred>قبلا ثبت نام شده‌است</registred>
+    <registr>ثبت کردن</registr>
+    <error_ticket>تیکت ایجاد نشد</error_ticket>
+    <error_socket>خطا در بازکردن سوکت</error_socket>
+    <error_bytestream>کاربر نمی تواند جریان بایت‌ها را پشتیبانی کند</error_bytestream>
+    <error_cancel>کاربر درخواست را کنسل کرده‌است</error_cancel>
+    <error_registr>سرویس، عضویت شما را رد کرد</error_registr>
+    <add_service>اشتراک سرویس</add_service>
+    <service>سرویس</service>
+    <call>تماس بگیرید</call>
+    <audio_call>تماس صوتی</audio_call>
+    <video_call>تماس تصویری</video_call>
+    <conference>شروع ویدئو کنفرانس</conference>
+    <invite>Invite to Conference</invite>
+    <closetab>بستن تب</closetab>
+    <show>نمایش همه مخاطبین</show>
+    <hide>مخفی کردن مخاطبان آفلاین</hide>
+    <other>سایر</other>
+    <selected>انتخاب شده</selected>
+    <chat>باز کردن چت</chat>
+    <groupmsg>ارسال پیام</groupmsg>
+    <group>گروه</group>
+    <new_group>گروه جدید</new_group>
+    <subscription>اشتراک</subscription>
+    <unsubscribed>شما را از لیست مسنجر خود حذف کرده است. &lt;b&gt;%s&lt;/b&gt;کاربر</unsubscribed>
+    <sub_ask>‌می‌خواهد شما را به لیست مسنجر خود اضافه کند.&lt;b&gt;%s&lt;/b&gt;کاربر  .</sub_ask>
+    <send>تایید مجوز کاربر چت</send>
+    <request>درخواست احرازهویت</request>
+    <remove>حذف مجوز</remove>
+    <remove_account>از مسنجر خود اطمینان دارید؟%sآیا نسبت به حذف اکانت</remove_account>
+    <remove_accounts>آیا نسبت به حذف اکانت‌های انتخاب شده از روستر اطمینان دارید؟</remove_accounts>
+    <rem_grp>حذف گروه</rem_grp>
+    <rem_grpc>حذف گروه و اشخاص</rem_grpc>
+    <rename>تغییر نام</rename>
+    <add>اضافه کردن مخاطب</add>
+    <jabber_id>نام کاربری</jabber_id>
+    <nick>نمایش نام</nick>
+    <vcard>نمایش اطلاعات مخاطبان</vcard>
+    <history>نمایش تاریخچه گفتگو</history>
+    <sharedesktop>به‌اشتراک‌گذاری صفحه نمایش</sharedesktop>
+    <tab_general>عمومی</tab_general>
+    <tab_work>کاری</tab_work>
+    <tab_location>موقعیت</tab_location>
+    <tab_about>درباره</tab_about>
+    <send_mail>ارسال ایمیل</send_mail>
+    <send_mail_to_all>ارسال ایمیل به همه اعضا</send_mail_to_all>
+    <send_file>ارسال فایل</send_file>
+    <upload_file>انتخاب فایل</upload_file>
+    <upload_file_helper>آپلود فایل از کامپیوترتان</upload_file_helper>
+    <upload_file_subhelper>فایل‌ها را اینجا رها کرده و یا دکمه را جهت انتخاب فایل فشار دهید</upload_file_subhelper>
+    <upload_file_subhelper_tip>راهنمایی: جهت اضافه کردن فایل از فضای وب خود، سربرگ‌های دیگر را انتخاب نمایید.</upload_file_subhelper_tip>
+    <share_link>به اشتراک‌گذاری لینک</share_link>
+    <new_event>ایجاد رویداد جدید</new_event>
+    <receive_file>دریافت فایل</receive_file>
+    <not_listed>لسیت نشده</not_listed>
+    <composing>در حال تایپ..%sوب‌چت:</composing>
+    <file_message>کاربر فایلی رابا مشخصات:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s &#13;&#10;برای شما ارسال کرده است</file_message>
+    <file_cancel>جابجایی فایل توسط دریافت‌کننده رد شد</file_cancel>
+    <file_error>خطا در جابجایی فایل</file_error>
+    <file_ok>جابجایی فایل موفقیت‌آمیز بود</file_ok>
+    <receive_note>را ارسال کرده است &lt;b&gt;%s&lt;/b&gt;برای شما فایل&lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>%sنمایش گفتگو بعد از:</show_after>
+    <im_status>%sوب‌چت:</im_status>
+    <im>وب‌چت</im>
+    <sip_inprogress>تماس در حال انجام</sip_inprogress>
+    <sip_incomming>تماس دریافتی</sip_incomming>
+    <sip_calling>در حال برقراری تماس</sip_calling>
+    <status_sec>برای کمتر از یک دقیقه%s</status_sec>
+    <status_min>دقیقه%sبرای%s</status_min>
+    <status_hour>ساعت%sبرای%s</status_hour>
+    <active>چت‌های فعال</active>
+    <recent>اخیر</recent>
+    <url_link_ph>آدرس وب را وارد نمایید</url_link_ph>
+    <url_link_title>می‌خواهد  لینکی را به اشتراک بگذارد%s</url_link_title>
+    <url_link_title_private>به‌اشتراک‌ بگذارد. %sمی‌خواهد لینکی را با %s</url_link_title_private>
+    <comment_ph>توضیح خود را وارد نمایید.</comment_ph>
+    <message_ph>پیامی را تایپ کنید</message_ph>
+    <file_added>فایل اضافه شد</file_added>
+    <quote>نقل قول پیام</quote>
+    <more_info>توضیح بیشتر</more_info>
+    <participants>نفر شرکت کرده‌اند%s</participants>
+    <search_ph>جستجو در این مبحث</search_ph>
+    <add_ph>اضافه کردن گفتگوی جدید با...</add_ph>
+    <geo>مکان خود را ارسال کنید</geo>
+    <geo_key_missing>گوگل یافت نشد. با مدیر سیستم تماس بگیرید. APIکلید</geo_key_missing>
+    <open_in_google_maps>Google Mapsبازکردن در</open_in_google_maps>
+    <rec_geo>مکان دریافت شد</rec_geo>
+    <rec_file>%sفایل</rec_file>
+  </im>
+  <chat>
+    <document_chat_caption>Hello from IceWarp.&#13;&#10;This is TeamChat Stream, a new&#13;&#10;feature for collaboration on documents.</document_chat_caption>
+    <document_chat_body>داکیومنت شما اکنون در اطاق چت قرار دارد. می توانید برای اعضای تیم، نظر خود را ارسال کرده و &#13;&#10;به دیگران اجازه نظردهی دهید.این موارد از یک مکان امکان‌پذیر هستند..</document_chat_body>
+    <filter_rooms>فیلتر کردن اطاق‌ها</filter_rooms>
+    <add_room>اضافه کردن اطاق</add_room>
+    <add_room_title>ایجاد اطاق جدید</add_room_title>
+    <add_room_caption>نوع اطاق را انتخاب کنید</add_room_caption>
+    <add_room_private>اطاق خصوصی خود را ایجاد کرده و افراد مورد نظر را از بیرون دعوت کنید</add_room_private>
+    <add_room_private_caption>اطاق خصوصی جدید</add_room_private_caption>
+    <add_room_private_note>این اطاق فقط توسط شما قابل مشاهده است ولی می‌توانید افراد دیگر را جهت مشارکت به این اطاق دعوت نمایید</add_room_private_note>
+    <add_room_public>همه افراد تیم شما به اطاق دسترسی دارند و محتویات آن برای همه اعضا قابل مشاهده است</add_room_public>
+    <add_room_public_caption>اطاق عمومی جدید</add_room_public_caption>
+    <add_room_public_group>گروه عمومی مورد نظر را انتخاب کنید</add_room_public_group>
+    <add_room_public_note>می‌توانید اطاق خود را به گروه کاری خود متصل نمایید.این ویژگی به شما کمک می‌کند تا به صورت سازمان‌یافته کار کنید.</add_room_public_note>
+    <invite_members>دعوت از اعضا</invite_members>
+    <and>و</and>
+    <draft>پیش‌نویس</draft>
+    <other_rcp>یک عدد دیگر</other_rcp>
+    <others_rcp>عدد دیگر%s</others_rcp>
+    <read_full>کامل خواندن...</read_full>
+    <recipients>دریافت‌کنندگان</recipients>
+    <bcc>به تیم‌چتBcc</bcc>
+    <select>اطاق را انتخاب کنید</select>
+    <clone>- کپی</clone>
+    <type_i>پست</type_i>
+    <type_r>داکیومنت</type_r>
+    <type_q>رویداد</type_q>
+    <type_s>ویدئو کنفرانس</type_s>
+    <type_w>دعوتنامه</type_w>
+    <type_y>ایمیل</type_y>
+    <loading>بارگیری تاریخچه...</loading>
+    <all_reactions>نمایش تمامی واکنش‌ها</all_reactions>
+    <new_msg>یک پیام جدید</new_msg>
+    <new_msgs>%0پیام جدید</new_msgs>
+    <new_separator>پیام‌های جدید</new_separator>
+    <commented>%1&apos;s %2  بر روی %0&#13;&#10;نظر داد</commented>
+    <commented_you>%1&apos;s %2  بر روی %0&#13;&#10;نظر داد</commented_you>
+    <comments>%sنظرات</comments>
+    <add_comment>اضافه کردن نظر</add_comment>
+    <unsubscribed_room>به آرشیو انتقال یافته است%sاطاق</unsubscribed_room>
+    <mentions_suggest>%s:افراد شامل</mentions_suggest>
+    <reactions>واکنش‌ها</reactions>
+    <reactions_bubble>%s و سایر</reactions_bubble>
+    <nocomments>بدون نظر</nocomments>
+    <nomentions>بدون منشن</nomentions>
+    <nopins>بدون پین</nopins>
+    <edited>ویرایش شده</edited>
+    <edited_by>%sدر%sویرایش شده توسط</edited_by>
+    <modified_by>%sداکیومنت ویرایش شده از</modified_by>
+    <notify_msg>%sتیم‌چت از طرف</notify_msg>
+    <notify_none>تیم‌چت</notify_none>
+    <notify_sw>اعلانات</notify_sw>
+    <room>اطاق گفتگو</room>
+    <members>اعضا</members>
+    <guests>مهمانان</guests>
+    <admins>مدیران</admins>
+    <files>داکیومنت‌ها</files>
+    <events>رویدادها</events>
+    <events_title>رویدادهای نزدیک</events_title>
+    <private_message>ارسال پیام خصوصی</private_message>
+    <file_modify>%1  آخرین تغییرتوسط%0:</file_modify>
+    <conference_title>دعوتنامه به ویدئو کنفرانس</conference_title>
+    <conference_message>شما به یک تماس تلفنی دعوت شده‌اید</conference_message>
+    <conference_decline>غیرقابل دسترس</conference_decline>
+    <conference_decline_mssg>در حال حاضر برقراری تماس امکان‌پذیر نمی‌باشد</conference_decline_mssg>
+    <invite>دعوت</invite>
+    <invite_reason>دلیل دعوت</invite_reason>
+    <invite_to>ارسال دعوتنامه به</invite_to>
+    <invited_user>کاربر دعوت شد</invited_user>
+    <unknown_user>کاربر ناشناس</unknown_user>
+    <invit_verified>کاربر به اطاق گفتگو پیوست</invit_verified>
+    <people>نفر%s</people>
+    <remove_account>از این اطاق حذف شود؟ %sآیا کاربر</remove_account>
+    <room_created>یک اطاق گفتگوی عمومی ایجاد کرده است&quot;%s&quot;کاربر .</room_created>
+    <room_private_created>یک اطاق گفتگوی خصوصی ایجاد کرده است &quot;%s&quot;کاربر .</room_private_created>
+    <noevents>رویداد نزدیکی وجود ندارد</noevents>
+    <nofiles>داکیومنتی در گروه به اشتراک گذاشته نشده است</nofiles>
+    <searchnofiles>داکیومنتی یافت نشد</searchnofiles>
+    <drop_title>بیاندازید %sفایل‌های خود را در</drop_title>
+    <drop_body>آپلود داکیومنت‌ها، فایل‌ها، تصاویر و ویدئوها</drop_body>
+    <thumbnail_count>نشانگرها%0از  %1</thumbnail_count>
+    <enter_to_send>را بزنیدenterبرای ارسال</enter_to_send>
+    <comment>نظر</comment>
+    <pin>پین</pin>
+    <pins>پین‌ها</pins>
+    <comment_you>شما واکنش نشان دادید</comment_you>
+    <comment_youhim>شما و ۱ نفر دیگر واکنش نشان دادید</comment_youhim>
+    <comment_youthem>نفر دیگر واکنش نشان دادید %sشما و .</comment_youthem>
+    <comment_him>یک نفر دیگر واکنش نشان داد</comment_him>
+    <comment_them>نفر دیگر واکنش نشان دادند%s</comment_them>
+    <all>همه</all>
+    <all_members>همه‌ی اعضا</all_members>
+    <recent>اخیر</recent>
+    <unsubscribed>آرشیو</unsubscribed>
+    <my_mentions>منشن‌های من</my_mentions>
+    <pinned>پین‌شده</pinned>
+    <mentioned>شما را منشن کرده در</mentioned>
+    <pin_event>رویداد</pin_event>
+    <pin_file>فایل</pin_file>
+    <pin_post>پست</pin_post>
+    <pin_mail>ایمیل</pin_mail>
+    <pin_copytomy>کپی به خصوصی</pin_copytomy>
+    <pin_copytoglobal>کپی به عمومی</pin_copytoglobal>
+    <pin_remove>برداشتن پین</pin_remove>
+    <add_pin>به پین‌های خصوصی اضافه شد</add_pin>
+    <add_global_pin>به پین‌های عمومی اضافه شد</add_global_pin>
+    <pin_caption>را پین کرده است %sپست عمومی</pin_caption>
+    <pin_show>مشاهده پین تمام اطاق‌ها</pin_show>
+    <sort_name>نام</sort_name>
+    <sort_date>ویرایش شده</sort_date>
+    <sort_size>سایز</sort_size>
+    <empty_inactive>اطاقی آرشیو نشده است.</empty_inactive>
+    <empty_recent>اخیرا فعالیتی انجام نشده است.</empty_recent>
+    <invitation_sent>دعوتنامه ارسال شده است</invitation_sent>
+    <add_new_document>اضافه کردن داکیومنت جدید</add_new_document>
+    <create_new_document>ایجاد داکیومنت جدید</create_new_document>
+    <share_file_or_document>اشتراک گذاری فایل یا داکیومنت</share_file_or_document>
+    <new_conference>ایجاد ویدئو کنفرانس جدید</new_conference>
+    <new_email>ایجاد ایمیل جدید</new_email>
+  </chat>
+  <mail_view>
+    <freebusy_free>به نظر می‌رسد شما زمان کافی برای شرکت در رویداد را دارید.</freebusy_free>
+    <freebusy_busy>به نظر می رسد شما مشغول هستید.</freebusy_busy>
+    <freebusy_busy_propose>به نظر می رسد شما مشغول هستید. من به شما٪ 0 را پیشنهاد می کنم.</freebusy_busy_propose>
+    <propose>پیشنهاد زمان جدید</propose>
+    <nosubject>بدون موضوع</nosubject>
+    <when>چه زمانی</when>
+    <location>موقعیت</location>
+    <comment>نظر</comment>
+    <description>توضیحات</description>
+    <accept>پذیرفتن</accept>
+    <tentative>شاید</tentative>
+    <decline>نپذیرفتن</decline>
+    <import>وارد کردن به تقویم من</import>
+    <skip_img>منابع خارج از سازمان بلاک شده‌اند. برای مشاهده آن‌ها اینجا کلیک کنید.</skip_img>
+    <show_img>ایمیل دارای تصاویر پیوست شده می‌باشد. برای دیدن آن‌ها اینجا کلیک کنید.</show_img>
+    <smart>پیوست‌ها توسط تکنولوژی پیوست هوشمند آیس‌وارپ انتقال پیدا خواهند کرد.</smart>
+    <show_raw>باز کردن پیام خام</show_raw>
+    <certificate>گواهی عمومی</certificate>
+    <serror>خطا در دکود کردن پیام، گواهی نامعتبر است یا وجود ندارد</serror>
+    <sverify>امکان بررسی امضای ایمیل وجود ندارد</sverify>
+    <expired>خطا در دکود کردن ایمیل، گواهینامه وجود دارد ولی منقضی شده است.</expired>
+    <access>داده شده است%sتوسط&quot;%s&quot;دسترسی به</access>
+    <account_access>دسترسی داده شده است%sبه شما توسط .</account_access>
+    <subscribe>اشتراک پوشه</subscribe>
+    <subscribe_account>اشتراک اکانت</subscribe_account>
+    <subscribed>%sاشتراک به اکانت</subscribed>
+    <subscribed_folder>&quot;%s/%s&quot; اشتراک به پوشه .</subscribed_folder>
+    <unsubscribe>لغو اشتراک</unsubscribe>
+    <unsubscribed>%sلغو اشتراک برای.</unsubscribed>
+    <unsubscribed_folder>حذف شد&quot;%s/%s&quot;اشتراک برای .</unsubscribed_folder>
+    <error>عمل قابل اجرا نمی باشد</error>
+    <recurrent>بازگشت</recurrent>
+    <occurrence>به جز رویداد بازگشتی</occurrence>
+    <attendee>همراه</attendee>
+    <deferred>به تاخیر افتاد%sارسال تا.</deferred>
+    <sender>از طرف</sender>
+    <canceled>این جلسه لغو شده است</canceled>
+    <time>Time</time>
+    <proposed_time>Proposed time</proposed_time>
+    <current_time>Current time</current_time>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Deep Castleدر نسخه&#13;&#10;چه چیزهایی جدید است</whatsnew>
+    <apps>برنامه‌ها</apps>
+    <new>جدید</new>
+    <start>متوجه شدم</start>
+    <watch_tutorial>مشاهده اموزش‌ها</watch_tutorial>
+    <ios>iOS</ios>
+    <android>اندروید</android>
+    <replay>بازپخش</replay>
+    <play>پخش</play>
+  </whatsnew>
+  <help>
+    <help>راهنما</help>
+    <about>درباره</about>
+  </help>
+  <print>
+    <preview>چاپ پیش‌نمایش</preview>
+    <opera>مرورگر شما از این قابلیت پشتیبانی نمی‌کند.</opera>
+    <options>گزینه‌های پرینت</options>
+    <option_info>مشخص نمایید چه بخش‌هایی از پیام پرینت گرفته شود</option_info>
+    <mail_body>متن ایمیل</mail_body>
+    <images>تصاویر پیوست شده</images>
+    <cert_info>مشخصات سرتیفیکیت‌</cert_info>
+  </print>
+  <status>
+    <online>آنلاین</online>
+    <offline>آفلاین</offline>
+    <chat>آزاد برای گفتگو</chat>
+    <away>پشت سیستم نیستم</away>
+    <xa>N/A</xa>
+    <dnd>لطفا مزاحم نشوید</dnd>
+    <invisible>غیرقابل مشاهده</invisible>
+    <gone>کاربر مکالمه را ترک کرده است</gone>
+    <error>اخطار</error>
+    <sip>آنلاین در وب فون</sip>
+    <chat_with>%sگفتگو با</chat_with>
+  </status>
+  <policy>
+    <minlength>کاراکتر %sحداقل طول رمز:</minlength>
+    <digits>%sتعداد اعداد: [0-9]</digits>
+    <alpha>%s:تعداد حروف [a-Z]</alpha>
+    <nonalphanum>%sتعداد کاراکترهای غیر الفبایی: [!@#$%...]</nonalphanum>
+    <upperalpha>%sتعداد حروف بزرگ: [A-Z]</upperalpha>
+    <useralias>رمز نمیتواند مانند نام‌کاربری و یا ایمیل شما باشد.</useralias>
+    <latin>فقط حروف الفبای لاتین استفاده شوند (بدون φ, λ, д)</latin>
+    <diacritics>حروف علامت‌دار استفاده نشوند (ü, ñ, ç)</diacritics>
+  </policy>
+  <alerts>
+    <alert>هشدار</alert>
+    <attendee_invalid>&lt;br&gt;&quot;%s&quot;آدرس ایمیل شرکت کننده معتبر نیست</attendee_invalid>
+    <cannot_kick_member>امکان بیرون انداختن عضو وجود ندارد</cannot_kick_member>
+    <suppress>این پیام را مجددا نمایش نده</suppress>
+    <create_revision>امکان ایجاد نسخه وجود ندارد.</create_revision>
+    <password_do_not_match>رمزهای ورود مطابقت ندارد</password_do_not_match>
+    <invalid_password>رمزعبور نامعتبر</invalid_password>
+    <new_password_match>رمزعبور جدید مشابه رمزعبور قبلی است</new_password_match>
+    <invalid_cpassword>تایید رمزعبور مطابقت ندارد</invalid_cpassword>
+    <folder_exist>درحال حاضر وجود دارد&quot;%s&quot; پوشه</folder_exist>
+    <room_exist>از قبل وجود دارد&quot;%s&quot;اطاق .</room_exist>
+    <create_folder>&quot;%s&quot;خطا در ایجاد پوشه</create_folder>
+    <rename_folder>وجود ندارد&quot;%s&quot;به  &quot;%s&quot;امکان تغییر نام</rename_folder>
+    <attachment_name>نام پیوست حاوی کاراکترهای غیرمجاز است (*|?\:&lt;&gt;/$&quot;=).</attachment_name>
+    <attachment_size>اندازه پیوست بیش از اندازه است</attachment_size>
+    <attachment_quota>ظرفیت مجاز پیوست فراتر رفته است</attachment_quota>
+    <mailbox_quota_limit>امکان آپلود فایل بدلیل پر شدن حجم کاربر وجود ندارد</mailbox_quota_limit>
+    <attachment_missing>فایل پیوست یافت نشد.</attachment_missing>
+    <attachment_virus>فایل پیوست ویروسی است.</attachment_virus>
+    <attachment_filter>پیوست توسط فیلتر بلاک شده است.</attachment_filter>
+    <could_not_create>امکان ایجاد داکیومنت وجود ندارد.</could_not_create>
+    <could_not_edit>امکان ویرایش داکیومنت وجود ندارد.</could_not_edit>
+    <item_could_not_delete>امکان حذف آیتم وجود ندارد.</item_could_not_delete>
+    <item_could_not_edit>امکان ویرایش آیتم وجود ندارد</item_could_not_edit>
+    <item_edit_groupchat_attendee>شما نمی‌توانید این آیتم را ویرایش نمایید.</item_edit_groupchat_attendee>
+    <general_error>%sیک خطای نامشخص رخ داد:</general_error>
+    <account_pass_failure>تغییررمز عبور انجام نشد.لطفا با رمزعبور دیکری امتحان کنید.</account_pass_failure>
+    <password_policy>رمز با سیاست تعیین شده همخوانی ندارد.</password_policy>
+    <password_requirements>لطفا شرایط زیر را بررسی کنید و رمز عبور جدید انتخاب کنید</password_requirements>
+    <password_incorrect>کلمه عبور نادرست است .لطفا دوباره سعی کنید.</password_incorrect>
+    <message_not_sent>پیام ارسال نشده است</message_not_sent>
+    <message_not_saved>پیام ذخیره نشده است</message_not_saved>
+    <mailingfailed>امکان ذخیره کردن پیام به دلیل خطای سرور وجود ندارد. لطفا بعدا امتحان کنید.</mailingfailed>
+    <distribution_list_invalid_id>لیست توزیع نامعتبر:</distribution_list_invalid_id>
+    <smtp_from_failed>این ارسال کننده مورد قبول نیست:</smtp_from_failed>
+    <smtp_recipients_failed>گیرنده باعث خطای زیر شده است:</smtp_recipients_failed>
+    <smtp_data_not_accepted>پیام شما توسط سرور پذیرفته نشد.</smtp_data_not_accepted>
+    <default_folder_missing>وجود ندارد&quot;%s&quot; پوشه پیش‌فرض .</default_folder_missing>
+    <folder_insufficient_rights>دسترسی کافی به پوشه وجود ندارد.</folder_insufficient_rights>
+    <no_recipient_certificate>گواهی گیرنده مفقود شده است.</no_recipient_certificate>
+    <recipient_certificate_expired>گواهی گیرنده منقضی شده است.</recipient_certificate_expired>
+    <personal_certificate>عدم تطابق گواهی خصوصی</personal_certificate>
+    <save_certificate_missing>ایمیل ارسال شد ولی امکان ذخیره آن وجود ندارد. لطفا گواهینامه محرمانه خود را معرفی نمایید و یا گزینه ذخیره کردن ایمیل‌های ارسالی در پوشه ارسالی را غیر فعال نمایید.</save_certificate_missing>
+    <imap_null>قادر به بازیابی پیام نیست</imap_null>
+    <imap_open>در هنگام بروزرسانی پوشه‌ها به مشکل برخورده استIMAP</imap_open>
+    <imap_fileid_sync_failed>امکان دسترسی به پیام وجود ندارد. احتمالا بر روی یک ابزار دیگری حذف شده است.</imap_fileid_sync_failed>
+    <delete_item>موارد انتخاب شده را نمی توان حذف کرد</delete_item>
+    <reserved_folder>رزرو شده &quot;%s&quot;نام پوشه</reserved_folder>
+    <undefined>خطای تعریف نشده</undefined>
+    <timezone_differ>منطقه زمانی شما تغییر کرده است. مکان معادل این منطقه را انتخاب نمایید تا زمان رویدادهای تقویم شما بر اساس آن تنظیم شود.</timezone_differ>
+    <popup_blocker>پنجره پاپ‌آپ بلوکه شده است.</popup_blocker>
+    <not_found>یافت نشد</not_found>
+    <unlock>امکان قفل کردن فایل وجود ندارد.</unlock>
+    <imap_authenticate>اشتباه استIMAPاحراز هویت</imap_authenticate>
+    <smtp_authenticate>اشتباه استSMTPاحراز هویت</smtp_authenticate>
+    <groupware_authenticate>اشتباه استGroupWareاحراز هویت</groupware_authenticate>
+    <groupware_upgrade_task>سرور در حال تعمیرات است. ممکن است همه اطلاعات در دسترس نباشد</groupware_upgrade_task>
+    <session_ip_mismatch>IP تناقض درسشن</session_ip_mismatch>
+    <update_login_information>بروز نمایید%sلطفا اطلاعات لاگین خود را برای اکانت.</update_login_information>
+    <account_does_not_exist>اکانت وجود ندارد</account_does_not_exist>
+    <session_no_user>کاربری به سشن فعلی ارتباط داده نشده است</session_no_user>
+    <session_expired>سشن منقضی شده است</session_expired>
+    <file_locked_edit>ویرایش مشخصات داکیومنت بدلیل قفل بودن آن امکان پذیر نمی‌باشد.</file_locked_edit>
+    <file_not_found>داکیومنت یافت نشد</file_not_found>
+    <too_large_to_edit>پرونده برای ویرایش بسیار بزرگ است</too_large_to_edit>
+    <item_attachment_uid_locked>داکیومنت قفل شده است</item_attachment_uid_locked>
+    <alfresco_no_data>Cannot connect to alfresco. Server returned no data.</alfresco_no_data>
+  </alerts>
+  <message>
+    <desc>▼</desc>
+    <asc>▲</asc>
+    <unread>خوانده نشده</unread>
+    <contact_ok>پیام با موفقیت برای مدیر ارسال شد.</contact_ok>
+    <signup_ok>اکانت جدید با موفقیت ایجاد شد</signup_ok>
+    <logout>کاربر خارج شد.</logout>
+    <logged_out>کاربر خارج شد.</logged_out>
+    <forgot_ok>رمز شما برای ایمیل و ایمیل ثانوی شما ارسال شد.</forgot_ok>
+    <password_change_ok>رمزعبور با موفقیت تغییر داده شد.</password_change_ok>
+    <close_window>اکنون می‌توانید این پنجره را ببندید.</close_window>
+    <personality_confirmation_ok>آدرس ایمیل شما تایید شد.</personality_confirmation_ok>
+    <guest_confirmation_ok>تایید موفقیت آمیز بود</guest_confirmation_ok>
+    <guest_verification_ok>اکانت خارجی تایید شد. شما می‌توانید با ایمیل خود لاگین نمایید</guest_verification_ok>
+  </message>
+  <error>
+    <invalid_login>نام کاربری یا رمزعبور اشتباه است. لطفا مجددا امتحان کنید.</invalid_login>
+    <account_disabled>اکانت شما غیرفعال است</account_disabled>
+    <expired>سشن منقضی شد.</expired>
+    <connection>سرور در دسترس نمی‌باشد. لطفا اینترنت خود را چک کنید و یا با مدیر شبکه تماس بگیرید.</connection>
+    <servererror>امکان ارتباط با این سرویس وجود ندارد. لطفا بعدا امتحان نمایید و یا با مدیر شبکه تماس بگیرید.</servererror>
+    <overloaded>بار فعلی سرور بسیار بالاست. لطفا بعدا امتحان کنید و یا با مدیر شبکه تماس بگیرید.</overloaded>
+    <countdown>ثانیه امتحان خواهد شد%sمجددا در .</countdown>
+    <filenotfound>تعدادی از فایل‌های مورد نظر بر روی سرور یافت نشد. ممکن است مشکلاتی در حین فعالیت بوجود آید.</filenotfound>
+    <subscribe_error>وجود ندارد%sامکان به اشتراک‌گذاری اکانت.</subscribe_error>
+    <wc_disabled>وب‌کلاینت غیرفعال است.</wc_disabled>
+    <invalid_rsa>امکان پذیر نیستRSAایجاد رمز عبور  .</invalid_rsa>
+    <no_db>خطا در ارتباط با بانک‌اطلاعاتی</no_db>
+    <no_data>هیچ اطلاعاتی موجود نیست</no_data>
+    <access_error>دسترسی به پوشه صندوق‌پستی امکان‌پذیر نمی‌باشد. لطفا با مدیر سرور تماس بگیرید.</access_error>
+    <ip_mismatch>به سرور وصل شوید httpsآی‌پی شما تغییر کرده است. شما از سیستم خارج شدید. برای جلوگیری از این موضوع، حتما با .</ip_mismatch>
+    <javatip1>لطفا بر روی مانیتور، پیام مرتبط با جاوا را یافته و دکمه قبول را بزنید.</javatip1>
+    <javatip2>با مدیر شبکه در ارتباط با نصب جاوا بر روی سیستم خود تماس بگیرید و یا</javatip2>
+    <javatip3>بر روی دکمه رفع اشکال در پایین کلیک کنید تا در حل مشکل به شما کمک شود</javatip3>
+    <contactadmin>ارتباط با مدیر</contactadmin>
+    <troubleshoot>بررسی خطا</troubleshoot>
+    <sso_login_not_allowed>مجاز نیست SSOورود به سیستم</sso_login_not_allowed>
+    <sso_unable_to_use>امکان پذیر نیستSSOاستفاده از</sso_unable_to_use>
+    <sso_error>SSOخطا در استفاده از لاگین</sso_error>
+    <clipboard>بر روی کیبورد برای کپی کردن استفاده نمایید.Ctrl+C یا Cmd+Cعدم پشتیبانی از کلیپ‌بورد. لطفا از</clipboard>
+    <item_create>بدلیل نداشتن دسترسی کافی، امکان ایجاد آیتم در این پوشه وجود ندارد. آیا مایلید این آیتم در پوشه پیش‌فرضتان ایجاد شود؟</item_create>
+    <e_glicense>مجوز کافی نیست</e_glicense>
+    <e_rights>کاربر دسترسی لازم برای انجام این کار را ندارد</e_rights>
+    <e_access>کاربر دسترسی لازم برای انجام این کار را ندارد</e_access>
+    <e_db>مشکل در دیتابیس یا پاسخی دریافت نشد</e_db>
+    <e_parameters>رکوردی در دیتابیس یافت نشد</e_parameters>
+    <e_group>گروه یافت نشد</e_group>
+    <e_notfound>پیدا نشد</e_notfound>
+    <e_toobig>اندازه برای پردازش خیلی بزرگ است</e_toobig>
+    <e_virus>ویروس</e_virus>
+    <e_transaction>خطا در پردازش</e_transaction>
+    <e_duplicate>دیتای تکراری در بارگزاری</e_duplicate>
+    <e_locked>داکیومنت قفل شده است</e_locked>
+    <e_file_already_exists>داکیومنتی با همین نام در پوشه مربوطه وجود دارد</e_file_already_exists>
+    <e_no_vevent>VEVENTتلاش برای اضافه کردن رویداد بدون</e_no_vevent>
+    <e_uid_already_exists>یکسان در پوشه مربوطه وجود داردUIDرویدادی با</e_uid_already_exists>
+    <e_grpid_mismatch>جدید قابل بارگزاری نمی‌باشدgroupId قدیمی با groupIdاطلاعات کاربر بدلیل عدم تطابق</e_grpid_mismatch>
+    <e_itip_obsolete>ITIPدرخواست و پاسخ منسوخ</e_itip_obsolete>
+    <e_fileaccess_locked>فایل موجود در فایل‌سیستم در زمان داده شده قابل قفل شدن نبود</e_fileaccess_locked>
+    <e_fileaccess_another_locked>در این سشن سعی شد یک پرونده قفل شود در حالی که پرونده قفل شده دیگری در آن وجود دارد</e_fileaccess_another_locked>
+    <e_guest_assure_failure>اکانت مهمان ایجاد نشد</e_guest_assure_failure>
+    <e_guest_ownerid_failure>مالک حساب دعوت شده مشخص نشد</e_guest_ownerid_failure>
+    <e_guest_getexpandedmembers_failure>لیست اعضای اطاق تیم چت مشخص نشد</e_guest_getexpandedmembers_failure>
+    <e_guest_setrights_failure>حقوق حساب مهمان برای اطاق داده شده قابل تنظیم نیست</e_guest_setrights_failure>
+    <e_guest_sendinvitation_failure>دعوتنامه برای مهمان ارسال نمی‌شود</e_guest_sendinvitation_failure>
+    <e_teamchat_accessmode>اکانت فعال، دسترسی به تیم‌چت ندارد</e_teamchat_accessmode>
+    <e_imip_failure>IMIP مشکل</e_imip_failure>
+    <e_directory_already_exists>پوشه با نام فایل فعلی وجود دارد</e_directory_already_exists>
+    <e_guest_email_invalid>تلاش برای ارسال دعوتنامه به ایمیل غیرمعتبر</e_guest_email_invalid>
+    <e_guest_email_doesnot_exist>تلاش برای دعوت از اکانت داخلی ناموجود</e_guest_email_doesnot_exist>
+    <e_reaction_error>خطای نامشخص در تنظیم واکنش رویداد</e_reaction_error>
+    <e_filecopy_error>فایل موقت را نمی‌توان در محل پیوست کپی کرد</e_filecopy_error>
+    <e_tempfile_notgiven>Attempt to call GetAttachmentPath &quot;UNLOCK&quot; without calling GetAttachmentPath &quot;Lock&quot; first</e_tempfile_notgiven>
+    <e_tempfile_notexists>Attempt to call GetAttachmentPath &quot;UNLOCK&quot; without calling GetAttachmentPath &quot;Lock&quot; first</e_tempfile_notexists>
+    <e_account_size>محدودیت حجم اکانت</e_account_size>
+    <e_webdocuments_disabled>سرویس وب‌داکیومنت فعال نمی‌باشد</e_webdocuments_disabled>
+    <e_attachment_blocked_by_filter>فیلتر پسوند فایل فعال می‌باشد</e_attachment_blocked_by_filter>
+    <e_filename_invalid>کاراکتر غیرمجاز در نام فایل</e_filename_invalid>
+    <invalid_token>درخواست مجاز نیست</invalid_token>
+    <missing_teamchat>به دلیل از دست رفتن پوشه تیم‌چت از سیستم خارج شدید</missing_teamchat>
+    <oauth_not_found>پیدا نشدOAuthشناسه احرازهویت</oauth_not_found>
+    <e_document_invite>فایل به اشتراک گذاشته نمی‌شود</e_document_invite>
+    <e_noutfound>فایل دردسترس نیست</e_noutfound>
+    <groupware_setacl>امکان‌پذیر نیست  %sبا %sبه اشتراک‌گذاری اکانت</groupware_setacl>
+    <groupware_setacl_folder>امکان‌پذیر نیست  %sبا %sبه اشتراک‌گذاری پوشه</groupware_setacl_folder>
+    <oauth_error>OAuthخطای</oauth_error>
+  </error>
+  <common>
+    <try_button>امتحان کنید</try_button>
+    <share>اشتراک‌گذاری</share>
+    <other>سایر</other>
+    <more_options>گزینه‌های بیشتر...</more_options>
+    <activated>فعال شده</activated>
+    <deactivated>غیرفعال شده</deactivated>
+    <show_more>نمایش بیشتر</show_more>
+    <show_less>نمایش کمتر</show_less>
+    <all>همه</all>
+    <or>یا</or>
+    <done>انجام شد</done>
+    <processing>درحال پردازش</processing>
+    <loading>در حال بارگذاری...</loading>
+    <sending>درحال ارسال...</sending>
+    <comment>(نظر(اختیاری</comment>
+    <email>ایمیل</email>
+    <folder>پوشه</folder>
+    <items>موارد</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>انتخاب همه</select_all>
+    <clear>پاک کردن</clear>
+    <yes>بله</yes>
+    <no>خیر</no>
+    <auto>خودکار</auto>
+    <disable>غیرفعال</disable>
+    <enable>فعال</enable>
+    <enabled>فعال ساختن</enabled>
+    <disabled>غیرفعال</disabled>
+    <show_all>نمایش همه</show_all>
+    <previous>قبلی</previous>
+    <next>بعدی</next>
+    <continue>ادامه</continue>
+    <more>بیشتر</more>
+    <show>نمایش</show>
+    <hide>پنهان کردن</hide>
+    <appearance>ظاهر پنل</appearance>
+    <expand>باز شده</expand>
+    <collapse>جمع‌کردن</collapse>
+    <collapsed>جمع شده</collapsed>
+    <autocollapsed>جمع‌شدن خودکار</autocollapsed>
+    <esc_message>را بزنیدEscبرای کنسل کردن</esc_message>
+    <you>شما</you>
+    <scroll_dn>رفتن به پایین</scroll_dn>
+    <guest>مهمان</guest>
+  </common>
+  <favorites>
+    <favorites>منتخب‌ها</favorites>
+    <remove>حذف از منتخب‌ها</remove>
+    <rename>نامگذاری مجدد میانبر</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>مالک</owner>
+    <address_book>دفترچه آدرس</address_book>
+    <add_recipient>افزودن گیرنده</add_recipient>
+    <selected_addresses>انتخاب شده</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>خالی</empty>
+    <today>امروز</today>
+    <this_week>این هفته</this_week>
+    <this_month>این ماه</this_month>
+    <next_week>هفته آینده</next_week>
+    <next_month>ماه آینده</next_month>
+    <previous_month>ماه قبل</previous_month>
+    <yesterday>دیروز</yesterday>
+    <tomorrow>فردا</tomorrow>
+    <typetoadd>برای اضافه کردن تایپ کنید</typetoadd>
+    <owner>مالک</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>وقت محلی</timezones>
+    <serverzone>زمان سرور</serverzone>
+  </default_select>
+  <confirmation>
+    <unsubscribe_list>خارج شوید؟ %sآیا مایلید از عضویت در لیست ایمیل</unsubscribe_list>
+    <are_you_sure>آیا می‌خواهید این پنجره بسته شود؟</are_you_sure>
+    <all_changes_will_be_lost>تمامی تغییرات از بین خواهد رفت</all_changes_will_be_lost>
+    <clear_autosuggest>آیا لیست کمکی برای پر کردن اطلاعات شما پاک شود؟</clear_autosuggest>
+    <suppress>مجددا سوال نکن</suppress>
+    <reset_password_subject>%email%تغییر رمز برای اکانت</reset_password_subject>
+    <reset_password>%username%,سلام&#13;&#10;&#13;&#10; را در آیس‌وارپ داده‌اید؟(%email%)آیا شما درخوایت تغییر رمز برای حساب &#13;&#10;&#13;&#10;جهت تایید اینکه این حساب متعلق به شما می‌باشد بر روی لینک زیر کلیک نموده و یا آن را درون مرورگر خود کپی نمایید.&#13;&#10;&#13;&#10;در صورتیکه این حساب متعلق به شما نمی‌باشد و یا این ایمیل به درخواست شما نبوده است، توجهی به آن نکنید.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>%username%تایید آدرس مبدا جدید برای:</alias_subject>
+    <alias_confirmation>%username%سلام,&#13;&#10;&#13;&#10;را بعنوان آدرس مبدا جدید خود در آیس‌وارپ نموده‌اید؟ (%email%)آیا شما درخواست اضافه کردن ایمیل &#13;&#10;&#13;&#10;برای تایید اینکه این ایمیل متعلق به شما می‌باشد، بر روی لینک زیر کلیک نمایید.&#13;&#10;&#13;&#10;اگر درخواست از طرف شما نبوده است و یا این ایمیل به اشتباه به شما رسیده است، لطفا آن را در نظر نگیرید.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>جهت جلوگیری از  از دست دادن اطلاعات، لطفا تمام پنجره‌های باز را در ارتباط با ذخیره شدن، کنترل نمایید.</unload>
+    <expired>ارتباط شما منقضی شده است.</expired>
+    <no_mobile>شماره موبایل یافت نشد.</no_mobile>
+    <expired_msg>. شما تغییر کرده و یا ارتباط شما منقضی شده استIP.امکان ارسال و یا ذخیره پیام شما وجود ندارد</expired_msg>
+    <delete_account_confirmation>تاییدیه حذف حساب کاربری</delete_account_confirmation>
+    <delete_account>اطمینان دارید؟ %sآیا از حذف حساب کاربری</delete_account>
+    <recover_item>آیا از برگرداندن آیتم‌های انتخاب شده اطمینان دارید؟</recover_item>
+    <delete_folder_confirmation>تاییدیه حذف پوشه</delete_folder_confirmation>
+    <delete_folder>اطمینان دارید؟کلیه زیرشاخه‌های این پوشه حذف خواهند شد! &quot;%s&quot;آیا از حذف پوشه &lt;br/&gt;</delete_folder>
+    <delete_item_confirmation>تاییدیه حذف آیتم</delete_item_confirmation>
+    <delete_item>آیا از حذف آیتم‌های انتخاب شده اطمینان دارید؟</delete_item>
+    <delete_item_trash>آیتم(ها) به پوشه بازیافت شما منتقل خواهند شد.</delete_item_trash>
+    <delete_locked_item>قفل شده است .مایل به ارسال درخواست جهت برداشتن قفل هستید؟ %sآیتم انتخاب شده توسط .</delete_locked_item>
+    <delete_avatar>عکس فعلی مخاطب حذف خواهد شد.</delete_avatar>
+    <blacklist_sender_confirmation>تاییدیه اضافه شدن به لیست سیاه</blacklist_sender_confirmation>
+    <blacklist_sender>آیا از اضافه کردن فرستنده‌های ایمیل‌های انتخاب شده به لیست سیاه اطمینان دارید؟</blacklist_sender>
+    <blacklist_domain>کلیه ایمیل‌های این دامنه به لیست سیاه اضافه شوند؟</blacklist_domain>
+    <blacklisted>فرستنده به لیست سیاه اضافه شد.</blacklisted>
+    <whitelist_sender_confirmation>تاییدیه اضافه شدن به لیست مجاز</whitelist_sender_confirmation>
+    <whitelist_sender>فرستنده‌های ایمیل‌های انتخاب شده به لیست مجاز اضافه شوند؟</whitelist_sender>
+    <whitelist_domain>تمام ایمیل‌های این دامنه به لیست مجاز اضافه شوند؟</whitelist_domain>
+    <whitelisted>فرستنده به لیست مجاز اضافه شد.</whitelisted>
+    <empty_folder_confirmation>تاییدیه خالی کردن پوشه</empty_folder_confirmation>
+    <empty_folder>آیا همه اطلاعات داخل این پوشه حذف شوند؟</empty_folder>
+    <empty_to_trash>آیا مطمئن هستید می‌خواهید کلیه محتویات این پوشه به سطل بازیافت منتقل شود؟</empty_to_trash>
+    <save_title>ذخیره پیام</save_title>
+    <save_confirmation>پیام ذخیره نشده است. آیا می‌خواهید ایمیل را در پوشه پیش‌نویس‌ها ذخیره نمایید؟</save_confirmation>
+    <save_file>فایل تغییر کرده است. تغییرات ذخیره شوند؟</save_file>
+    <save>ذخیره</save>
+    <discard>مهم نیست</discard>
+    <create_reading_confirmation_title>تاییدیه خوانده شدن</create_reading_confirmation_title>
+    <create_reading_confirmation>فرستنده این ایمیل، درخواست تایید خوانده شدن آن را از طرف شما دارد. آیا می‌خواهید این تاییدیه ارسال شود؟</create_reading_confirmation>
+    <send_reading_confirmation>از دریافت کنندگان درخواست تاییدیه خواندن شود؟</send_reading_confirmation>
+    <browser_warning_title>هشدار مرورگر</browser_warning_title>
+    <browser_warning_text_unsupported>مرورگر فعلی شما بطور رسمی توسط آیس‌وارپ پشتیبانی نمی‌شود.&#13;&#10;&#13;&#10;لطفا دقت نمایید که سرعت آیس‌وارپ در این مرورگر ممکن بسیار کند باشد و یا بعضی از امکانات آن غیرفعال شود.&#13;&#10;&#13;&#10;آیس‌وارپ برای فایرفاکس ۴ به بالا و اینترنت اکسپلورر ۸ به بالا تنظیم شده است. ما پیشنهاد می‌کنیم که مرورگر خود را بروز کرده و یا فایرفاکس را نصب نمایید.&#13;&#10;&#13;&#10;برای آخرین نسخه فایرفاکس به این سایت مراجعه نمایید:&#13;&#10; http://www.firefox.com/&#13;&#10;برای آخرین نسخه اینترنت اکسپلورر به این سایت مراجعه کنید:&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;را بزنیدCancelو یا برای استفاده از رابط تبلت دکمه را بزنیدOKبرای ادامه دکمه    .</browser_warning_text_unsupported>
+    <expired_password>رمز شما منقضی شده است. لطفا رمز خود را عوض نمایید.</expired_password>
+    <authentication>خطا در احراز هویت</authentication>
+    <authenticate>جهت رعایت مسایل امنیتی، مجددا لاگین نمایید..</authenticate>
+    <enterpass>برای ادامه کار، رمز خود را وارد نموده و لاگین کنید. در غیر اینصورت از سیستم خارج شوید.</enterpass>
+    <secure>به آیس‌وارپ متصل شوید httpsبرای جلوگیری از بروز این خطا در آینده، بصورت .</secure>
+    <contact_not_found>ایمیل یافت نشد. مخاطب جدید ایجاد شود؟</contact_not_found>
+    <dl_not_found>وجود ندارد&quot;%s&quot;لیست ایمیل .</dl_not_found>
+    <expand>در صورتیکه لیست را باز کنید، با ایمیل‌های موجود در آن جایگزین خواهد شد. امکان برگرداندن آن وجود نخواهد داشت.</expand>
+    <inform_attendees>اطلاع‌رسانی به شرکت‌کنندگان</inform_attendees>
+    <send_event_update>تغییرات به اطلاع سایر شرکت‌کنندگان خواهد رسید مگر اینکه شما اجازه ارسال این تغییرات را ندهید..</send_event_update>
+    <suppress_event_update>اطلاع‌نده</suppress_event_update>
+    <notify_or_discard>شرکت کنندگان در جریان این تغییرات قرار خواهد گرفت.</notify_or_discard>
+    <stopupload>رفتن از این بخش، بارگذاری شما را متوقف خواهد کرد.</stopupload>
+  </confirmation>
+  <languages>
+    <onchange_info>زبان وب‌میل بعد از خروج و ورود مجدد شما تغییر می‌کند.</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>باز کردن در یک پنجره جدا</open_in_separate_window>
+    <help_restriction>این امکان توسط مدیر سیستم فعال نشده است.</help_restriction>
+    <switch_older>رفتن به نسخه قبلی وب‌میل</switch_older>
+    <choose_interface>رابط مورد نظر خود را انتخاب کنید</choose_interface>
+    <choose_lang>زبان خود را انتخاب کنید</choose_lang>
+    <migration_in_progress>جا‌به‌جایی در حال انجام است.لطفا بعدا امتحان کنید</migration_in_progress>
+    <message_sent>پیام شما ارسال شد</message_sent>
+    <message_send_failed>خطا در ارسال پیام</message_send_failed>
+    <antispam_code_error>کد امنیتی صحیح نمی‌باشد</antispam_code_error>
+    <antispam>کد امنیتی</antispam>
+    <contact_support_subject>درخواست کمک جدید از صفحه لاگین</contact_support_subject>
+    <text>متن</text>
+    <contact_administrator>برای دریافت راهنمایی با ما تماس بگیرید</contact_administrator>
+    <contact_question>نیاز به کمک دارید؟</contact_question>
+    <contact_answer>با مدیر تماس بگیرید</contact_answer>
+    <contact_1>با مدیر</contact_1>
+    <contact_2>تماس بگیرید</contact_2>
+    <contact_placeholder_1>ایمیل یا تلفن شما</contact_placeholder_1>
+    <contact_placeholder_2>مشکل خود را توضیح دهید</contact_placeholder_2>
+    <help>کمک صوتی</help>
+    <conference_me>من</conference_me>
+    <conference_hang_up_confirmation>آیا می‌خواهید ویدئو کنفرانس را ترک کنید؟</conference_hang_up_confirmation>
+    <online_conference>ویدئو کنفرانس</online_conference>
+    <conference_connected>متصل</conference_connected>
+    <conference_connecting>در حال اتصال...</conference_connecting>
+    <phone_access>دسترسی تلفن</phone_access>
+    <conference_chat_ready>به ویدئو کنفرانس خوش آمدید! گپ گروهی آماده است</conference_chat_ready>
+    <conference_chat_send>ارسال</conference_chat_send>
+    <conference_user_left_conference>ویدئو کنفرانس را ترک کرده است &quot;%s&quot;کاربر</conference_user_left_conference>
+    <conference_user_joined_conference>به ویدئو کنفرانس وارد شد &quot;%s&quot;کاربر</conference_user_joined_conference>
+    <conference_no_participants>هیچ شرکت کننده‌ای وجود ندارد</conference_no_participants>
+    <conference_server_not_responding>سرور پاسخگو نیست</conference_server_not_responding>
+    <conference_conference_connected_successfully>اتصال موفق</conference_conference_connected_successfully>
+    <java_warning_no_java>برنامه صوتی را نمی توان شروع کرد. اگر گفتگوی تأیید مرورگر وجود دارد ، تأیید کنید تا به برنامه Java اجازه دهید اجرا شود. در برخی موارد ، راه اندازی مجدد مرورگر می تواند کمک کند. با مراجعه به &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt; http://java.com می توانید جدیدترین نسخه جاوا و اینکه آیا آن به درستی نصب شده است را بررسی کنید. / &lt;/a&gt;</java_warning_no_java>
+    <duration>مدت زمان</duration>
+    <mute>بی‌صدا</mute>
+    <desktop_sharing_id>صفحه اشتراک شناسه سشن</desktop_sharing_id>
+    <conference_phone_number>شماره تلفن ویدئو کنفرانس</conference_phone_number>
+    <desktop_sharing_app>نرم‌افزار به اشتراک‌گذاری صفحه‌نمایش</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>متأسفیم ، اشتراک‌گذاری مستقیم صفحه از طریق وب برای دستگاه‌های تلفن همراه کار نمی‌کند. در پیوند زیر می‌توانید برنامه‌ای برای آن پیدا کنید.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>کار نمی‌کند. شما باید از لینک زیر برنامه‌ای را نصب کنید Macمتأسفیم ، به اشتراک گذاری مستقیم صفحه از وب بر روی  .</desktop_sharing_mac_warning>
+    <continue_to_call>به تماس ادامه دهید</continue_to_call>
+    <conference_api_unexpected_response>API پاسخ غیرمنتظره</conference_api_unexpected_response>
+    <applet_unreachable>برنامه جاوا غیرقابل دسترس است</applet_unreachable>
+    <sip_applet_load_failed>اپلت صوتی بارگیری نشد</sip_applet_load_failed>
+    <conference_get_conference_info_error>دریافت اطلاعات ویدئو کنفرانس ناموفق بود</conference_get_conference_info_error>
+    <conference_mikogo_ended>سشن به اشتراک‌گذاری صفحه به پایان رسیده است ، اما صدا همچنان فعال است</conference_mikogo_ended>
+    <conference_ended>ویدئو کنفرانس پایان یافت</conference_ended>
+    <conference_hang_up>قطع تلفن</conference_hang_up>
+    <conference_id>شناسه ویدئو کنفرانس</conference_id>
+    <conference_mikogo_ready>به اشتراک‌گذاری صفحه آماده است</conference_mikogo_ready>
+    <conference_sip_ready>صدا آماده است</conference_sip_ready>
+    <conference_call_failed>تماس ناموفق بود</conference_call_failed>
+    <conference_timeout_trying_again_in>ثانیه امتحان کنید. %sمهلت دعوت کردن دوباره به اتمام رسیده است در</conference_timeout_trying_again_in>
+    <conference_trying_again_in>ثانیه مجددا امتحان کنید  %sدر .</conference_trying_again_in>
+    <conference_preparing_sip>درحال آماده‌سازی صدا</conference_preparing_sip>
+    <conference_starting_sip>شروع صدا</conference_starting_sip>
+    <conference_waiting_for_reply>برنامه صوتی منتظر پاسخ سرور است</conference_waiting_for_reply>
+    <conference_in_progress>ویدئو کنفرانس در حال انجام است</conference_in_progress>
+    <conference_you_can_join>اکنون می‌توانید به ویدئو کنفرانس بپیوندید</conference_you_can_join>
+    <conference_applet_is_not_ready>اپلت ویدئو کنفرانس آماده نیست</conference_applet_is_not_ready>
+    <conference_no_applet_code>No conference applet code in response</conference_no_applet_code>
+    <conference_unexpected_response>پاسخ غیر منتظره از اپلت ویدئو کنفرانس</conference_unexpected_response>
+    <conference_no_webrtc_support>مرورگر شما از ویدئو کنفرانس پشتیبانی نمی‌کند</conference_no_webrtc_support>
+    <conference_redirecting_to_help_page>بهترین تجربه را ارائه می‌دهد. به راهنمای تنظیمات هدایت خواهید شدChromeمرورگر .</conference_redirecting_to_help_page>
+    <conference_conference_wasnt_started>ویدئو کنفرانس آغاز نشده‌است.</conference_conference_wasnt_started>
+    <conference_waiting>ثانیه منتظر بمانید تا ویدئو کنفرانس آغاز شود. %s</conference_waiting>
+    <conference_created_by_ready>آماده است%sویدئو کنفرانس ایجاد شده توسط</conference_created_by_ready>
+    <conference_loading_conference_info>بارگیری داده‌های ویدئو کنفرانس</conference_loading_conference_info>
+    <unknown_error>خطای ناشناخته</unknown_error>
+    <conference_no_name>لطفا نام یا نام مستعار خود را وارد کنید</conference_no_name>
+    <conference_api_error_104>شناسه ویدئو کنفرانس نامعتبر است</conference_api_error_104>
+    <conference_api_error_description_104>آدرس ویدئو کنفرانس وجود ندارد یا ناقص است</conference_api_error_description_104>
+    <conference_api_error_111>این سرویس غیرفعال است</conference_api_error_111>
+    <conference_api_error_120>اتصال به سرور از راه دور امکان‌پذیر نیست</conference_api_error_120>
+    <conference_api_error_125>سرور مجوز معتبری برای ویدئو کنفرانس ندارد</conference_api_error_125>
+    <conference_id_doesnt_exist>شناسه ویدئو کنفرانس وجود ندارد</conference_id_doesnt_exist>
+    <conference_webrtc_not_allowed>میکروفون موجود نیست</conference_webrtc_not_allowed>
+    <conference__no_microphone_continue>دسترسی به میکروفون غیرفعال است یا متصل نیست. آیا می خواهید بدون میکروفون ادامه دهید؟</conference__no_microphone_continue>
+    <fill_in_name>نام خود را وارد کنید</fill_in_name>
+    <fill_in_email>آدرس ایمیل خود را وارد کنید</fill_in_email>
+    <join_conference>به ویدئو کنفرانس بپیوندید</join_conference>
+    <already_a_member>شما قبلا عضو شده‌اید</already_a_member>
+    <name>نام</name>
+    <enter_your_name>نام خود را وارد کنید</enter_your_name>
+    <enter_your_name_description>این نام برای سایر شرکت کنندگان قابل رویت خواهد بود و شما در ویدئو کنفرانس با آن شناخته خواهید شد.</enter_your_name_description>
+    <cancel>انصراف</cancel>
+    <login_caption>به وب‌میل آیس‌وارپ خوش آمدید</login_caption>
+    <copy>توسط &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy>
+    <copy_new>توسط &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>رابط وب آیس‌وارپ</title>
+    <user>نام کاربری</user>
+    <email>آدرس ایمیل</email>
+    <pass>رمزعبور</pass>
+    <old_pass>رمزعبور قدیمی</old_pass>
+    <new_pass>رمزعبور جدید</new_pass>
+    <check_pass>تایید رمزعبور</check_pass>
+    <change_password>تغییر رمزعبور</change_password>
+    <remember>به یاد داشته باشید</remember>
+    <save0>لاگین اتوماتیک</save0>
+    <save1>نام کاربری و رمزعبور</save1>
+    <save2>نام کاربری</save2>
+    <save3>همیشه بپرسید</save3>
+    <login>لاگین</login>
+    <send>ارسال</send>
+    <create_account>ایجاد حساب کاربری</create_account>
+    <switch>تغییر به &lt;a href=&quot;./basic&quot;&gt;تبلت&lt;/a&gt; یا&lt;a href=&quot;./pda&quot;&gt;موبایل&lt;/a&gt; رابط.</switch>
+    <downloads>دانلودها</downloads>
+    <interface>رابط</interface>
+    <basic>تبلت</basic>
+    <pda>تلفن همراه</pda>
+    <pro>پی‌سی</pro>
+    <osx>Mac OS X</osx>
+    <lang>زبان</lang>
+    <keep_me_signed>مرا به خاطر بسپار</keep_me_signed>
+    <utilities>ابزار</utilities>
+    <pw_policy_minlength>حداقل تعداد کاراکتر رمز</pw_policy_minlength>
+    <pw_policy_digits>تعداد رقم عدد در رمز [0-9]</pw_policy_digits>
+    <pw_policy_alpha>تعداد حروف در رمز [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>تعداد کاراکتر غیرالفبایی در رمز [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>بررسی رمزعبور در مقابل نام کاربری و نام مستعار را فعال کنید</pw_policy_useralias>
+    <pw_policy_uppercase>تعداد حروف بزرگ در رمز [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>نمایش صفحه کلید مجازی</virtual_keyboard_01>
+    <virtual_keyboard_02>انتخاب طرح‌بندی صفحه کلید</virtual_keyboard_02>
+    <virtual_keyboard_04>روشن</virtual_keyboard_04>
+    <virtual_keyboard_05>خاموش</virtual_keyboard_05>
+    <virtual_keyboard_06>بستن صفحه کلید</virtual_keyboard_06>
+    <virtual_keyboard_07>پاک کردن</virtual_keyboard_07>
+    <virtual_keyboard_08>این ورودی را پاک کن</virtual_keyboard_08>
+    <virtual_keyboard_10>کاهش اندازه صفحه کلید</virtual_keyboard_10>
+    <virtual_keyboard_11>افزایش اندازه صفحه کلید</virtual_keyboard_11>
+    <js_problem>قادر به اجرای جاوااسکریپ</js_problem>
+    <public_calendar>تقویم عمومی</public_calendar>
+    <login_to_pro>ورود به رابط دسکتاپ</login_to_pro>
+    <login_to_basic>ورود به رابط تبلت</login_to_basic>
+    <login_to_pda>ورود به رابط تلفن همراه</login_to_pda>
+    <js_turned_off_message_text>در تنظیمات مرورگر فعال است یا ادامه دهید به قسمت JavaScriptبرای داشتن بهترین تجربه کاربر و ویژگی های پیشرفته ، رابط کاربری دسک تاپ را پیشنهاد می کنیم. این نیاز به قابلیت جاوا اسکریپت دارد. تأیید کنید که</js_turned_off_message_text>
+    <js_turned_off_message_link>رابط تبلت</js_turned_off_message_link>
+    <learn_more>درباره امکانات سرویس ایمیل بیشتر بدانیم</learn_more>
+    <learn_more_short>بیشتر بدانید</learn_more_short>
+    <login_back>بازگشت به صفحه لاگین</login_back>
+    <changepwd>&lt;br/&gt; تغییررمز شما</changepwd>
+    <your_name>نام را وارد کنید</your_name>
+    <your_name_placeholder>مثلا علیرضا رحمتی‌زاده</your_name_placeholder>
+    <password>رمز را وارد نمایید</password>
+    <confirm_password>رمز را مجددا وارد نمایید</confirm_password>
+    <verify_my_email>تایید ایمیل من</verify_my_email>
+    <guest_invited_title>از شما برای عضویت در اطاق گفتگو دعوت نموده است{sender_name}</guest_invited_title>
+    <guest_email_title>ما برای شما یک ایمیل ارسال کرده‌ایم</guest_email_title>
+    <guest_email_text>اکانت تیم‌چت شما باید تایید شود تا ما مطمئن شویم که خودتان هستید. لطفا بر روی دکمه تاییدیه در ایمیلی که برایتان ارسال کرده‌ایم کلیک نمایید. مثال زیر را مشاهده نمایید.</guest_email_text>
+    <guest_text_name>نام خود را به همان صورتی که می‌خواهید در تیم‌چت نمایش داده شود وارد نمایید. اعضا با استفاده از این نام شما را خواهند شناخت.</guest_text_name>
+    <guest_text_password>: &lt;b&gt;{room}&lt;/b&gt;رمز خود را وارد نمایید و از ترکیب ایمیل و رمز خود جهت پیوستن به اطاق گفتگو و صحبت با سایر اعضا استفاده نمایید. اطاق گفتگوی شما</guest_text_password>
+    <guest_text_email>جهت استفاده از اطاق گفتگوی آیس‌وارپ باید احراز هویت شوید. لطفا بر روی دکمه احراز هویت در ایمیلی که برایتان ارسال شده است کلیک نمایید. مثال زیر را مشاهده کنید.</guest_text_email>
+    <guest_error>خطا</guest_error>
+    <guest_powered_by>پشتیبانی شده توسط سرور آیس‌وارپ &amp;copy; 2020</guest_powered_by>
+    <close_window>بستن پنجره</close_window>
+  </login_screen>
+  <login_client>
+    <advanced>دسکتاپ</advanced>
+    <basic>تبلت</basic>
+  </login_client>
+  <login_style>
+    <gray>خاکستری</gray>
+    <white>سفید</white>
+    <black>گرافیت</black>
+    <red>قرمز</red>
+    <yellow>زرد</yellow>
+    <green>سبز</green>
+    <blue>آبی</blue>
+    <purple>ارغوانی</purple>
+    <orange>نارنجی</orange>
+    <brown>قهوه‌ای</brown>
+    <pink>صورتی</pink>
+  </login_style>
+  <skin_style>
+    <default>بنفش</default>
+    <black>مشکی</black>
+    <brown>قهوه‌ای</brown>
+    <graphite>گرافیت</graphite>
+    <green>سبز</green>
+    <orange>نارنجی</orange>
+    <pink>صورتی</pink>
+    <blue>آبی</blue>
+    <red>قرمز</red>
+    <yellow>زرد</yellow>
+  </skin_style>
+  <sign_up>
+    <question>هنوز اکانت ندارید؟</question>
+    <answer>یک اکانت جدید ایجاد کنید</answer>
+    <sign_up>ثبت‌نام کنید</sign_up>
+    <create_account>اطلاعات حساب خود را وارد نمایید</create_account>
+    <fullname>نام کامل</fullname>
+    <domain>دامنه</domain>
+    <username>نام‌کاربری</username>
+    <alternative>ایمیل ثانویه</alternative>
+    <captcha_error>کد امنیتی اشتباه است</captcha_error>
+    <pass_error>رمز وارد شده تایید نمی‌شود</pass_error>
+    <incorrect_error>نام کاربری یا ایمیل اشتباه است</incorrect_error>
+    <exists_error>این اکانت موجود است</exists_error>
+    <error>اکانت جدید قابل ایجاد نیست</error>
+    <account_created>اکانت جدید با موفقیت ایجاد شد</account_created>
+    <invalid_cpass>رمزها با هم همخوانی ندارند</invalid_cpass>
+    <confirm_pass>تایپ مجدد رمز</confirm_pass>
+    <password_change>تغییر رمز</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>رمز خود را فراموش کرده‌اید؟</question>
+    <question_br>خود را فراموش کرده‌اید؟ &lt;br/&gt;رمز</question_br>
+    <title>ریست کنید خود را&lt;br&gt;رمز</title>
+    <answer>ریست کنید</answer>
+    <generate>جهت ایجاد کد جدید، دوبار کلیک کنید</generate>
+    <captcha>کد نمایش داده شده را نمایش دهید</captcha>
+    <captcha_error>کد امنیتی معتبر نیست</captcha_error>
+    <security_code>کد امنیتی</security_code>
+    <reset_pass>ریست کردن رمز</reset_pass>
+    <enter_alt_pass>اطلاعات ایمیل به ایمیل ثانویه شما (در صورت وجود) فرستاده شد.</enter_alt_pass>
+    <reset_send>اطلاعات ایمیل شما به ایمیل‌های زیر ارسال شد:</reset_send>
+    <reset_error>حساب کاربری وجود ندارد و یا رمز آن قابل دسترس نمی‌باشد.</reset_error>
+    <subject>%EMAIL%تغییر رمز برای حساب</subject>
+    <email>%FULLNAME%,سلام&#13;&#10;&#13;&#10; را در آیس‌وارپ داده‌اید؟(%EMAIL%)شما درخواست تغییر رمز برای حساب &#13;&#10;&#13;&#10;بر روی لینک زیر کلیک نموده و یا آن را در مرورگر خود کپی نمایید.&#13;&#10;%URL%&#13;&#10;&#13;&#10;اگر درخواست از سمت شما نبوده و یا ایمیل متعلق به شما نمی‌باشد، به این ایمیل توجه نکنید.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>نام از قبل وجود دارد</duplicity>
+    <label>از قبل موجود است &quot;%s&quot;فایل با نام .</label>
+    <suggested_name>نام‌های پیشنهادی</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>پردازش</processing>
+    <step1>ارسال فایل‌های پشتیبان(1</step1>
+    <step2>2) انتخاب پوشه مقصد</step2>
+    <step3>3) ستون مورد نظر را برای وارد کردن اطلاعات انتخاب کنید</step3>
+    <step1e>پوشه مخاطب را انتخاب نمایید</step1e>
+    <step2e>انتخاب نوع خروجی</step2e>
+    <step_date>انتخاب فرمت تاریخ</step_date>
+    <default_date>پیش فرض</default_date>
+    <charset>مجموعه کاراکتر</charset>
+    <skipfirst>در نظر گرفته نشود csvردیف اول در فایل</skipfirst>
+    <email1>ایمیل 1</email1>
+    <email2>ایمیل 2</email2>
+    <email3>ایمیل 3</email3>
+    <phone1>تلفن 1</phone1>
+    <phone2>تلفن 2</phone2>
+    <phone3>تلفن 3</phone3>
+    <phone4>تلفن 4</phone4>
+    <phone5>تلفن ۵</phone5>
+    <phone_type1>نوع تلفن 1</phone_type1>
+    <phone_type2>نوع تلفن 2</phone_type2>
+    <phone_type3>نوع تلفن 3</phone_type3>
+    <phone_type4>نوع تلفن 4</phone_type4>
+    <import_successful>ورودی موفق</import_successful>
+    <import_unsuccessful>ورودی انجام نشد</import_unsuccessful>
+    <import_finished>. آیتم بدلیل خطا بارگذاری نشدند%s .بارگذاری پایان یافت</import_finished>
+    <vcalendar>vتقویم</vcalendar>
+    <vcard>vکارت</vcard>
+    <ldif>LDIF</ldif>
+    <auto>اتوماتیک</auto>
+    <load>بار</load>
+    <import>ورودی</import>
+    <export>خروجی</export>
+    <unknown_ext>فرمت ناشناخته</unknown_ext>
+    <download_csv_file>با موارد تقویمCSV دانلود فایل</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>دانلود</download_file>
+    <select_col>برخی از ستون‌ها را برای ورود اطلاعات انتخاب کنید</select_col>
+    <select_email>حداقل یک ستون ایمیل را انتخاب کنید</select_email>
+    <gw_xml_file>GroupWare بک آپ باXML</gw_xml_file>
+    <comma>CSV - Comma (,)</comma>
+    <semicolon>CSV - Semicolon (;)</semicolon>
+    <colon>CSV - Colon (:)</colon>
+    <sharing>حالت اشتراک‌گذاری سریع</sharing>
+    <import_info>فایل‌های پشتیبانی شده</import_info>
+    <import_info_itm>CSV (comma, colon, semicolon separated), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vتقویم)</import_info_evn>
+    <import_in_progress>وارد کردن در حال انجام است</import_in_progress>
+    <import_in_progress_helper>آیا می‌خواهید تنظیمات را ببندید؟</import_in_progress_helper>
+  </backup>
+  <license>
+    <license>مجوزها /ادغام</license>
+    <licenses>لایسنس‌ها</licenses>
+    <out>سینک با اوتلوک</out>
+    <desk>نرم‌افزار دسکتاپ</desk>
+    <download>دانلود</download>
+    <key>کد فعال‌سازی نرم‌افزار (از کپی و پیست استفاده کنید)</key>
+    <nokey>کلیدفعال سازی برای این برنامه کاربردی در دسترس نمی‌باشد.برای اطلاعات بیشتر با مدیر تماس بگیرید</nokey>
+  </license>
+  <devices>
+    <device>دستگاه</device>
+    <device_model>مدل دستگاه</device_model>
+    <device_type>نوع دستگاه</device_type>
+    <protocol>پروتکل</protocol>
+    <registered>ثبت شده</registered>
+    <lastsync>آخرین همگام‌سازی</lastsync>
+    <factory>بازگردانی به تنظیمات کارخانه</factory>
+    <wipe>پاک کردن از راه دور</wipe>
+    <wiping>درحال پاک کردن از راه دور</wiping>
+    <nowipe>پاک کردن از راه دور پشتیبانی نمی‌شود</nowipe>
+    <reset>تنظیم مجدد پاک کردن</reset>
+    <delete_confirmation>. &lt;br/&gt; &lt;br/&gt; آیا از حذف دستگاه (های)از لیست اطمینان دارید؟. کلیک کنیدRemote Wipeدستگاه بروید و روی Propertiesحذف دستگاه از لیست باعث همگام سازی مجدد داده ها با اتصال بعدی می شود (اگر دستگاه به روزرسانی را متوقف کند مفید است). اگر می خواهید همه داده های کاربر / حساب را از دستگاه پاک کنید ، به</delete_confirmation>
+    <wipe_confirmation>&lt;br/&gt; &lt;br/&gt;آیا مطمئن هستید که ادامه می دهید؟ پاک کردن از راه دور تمام داده های کاربر / حساب را از دستگاه (و کارت های ذخیره سازی) پاک می کند و دستگاه را به تنظیمات کارخانه بازنشانی می کند. دستگاه باید اتصال اینترنتی فعال داشته باشد.</wipe_confirmation>
+    <options>گزینه‌های دستگاه</options>
+    <folders>پوشه‌ها</folders>
+    <sync>همگام‌سازی</sync>
+    <private_folders>پوشه‌های خصوصی</private_folders>
+    <special_folders>پوشه‌های ویژه</special_folders>
+    <gw_folders>groupware پوشه‌های</gw_folders>
+    <mail_folders>پوشه‌های ایمیل</mail_folders>
+    <archive>بایگانی</archive>
+    <public>پوشه‌های عمومی</public>
+    <shared>پوشه‌های به اشتراک گذاشته شده</shared>
+    <past_mail>موارد ایمیل قدیمی</past_mail>
+    <past_calendar>تقویم رویدادهای قدیمی</past_calendar>
+    <sync_tase>همگام‌سازی تسک‌ها و رویداد‌ها</sync_tase>
+    <sync_note>همگام‌سازی یادداشت‌ها به عنوان</sync_note>
+    <all_folders>همه پوشه‌ها</all_folders>
+    <all_folders_mail>به عنوان ایمیل groupwareهمه با</all_folders_mail>
+    <default_only>فقط پوشه‌های پیشفرض</default_only>
+    <sync_all>همه</sync_all>
+    <one_day>یک روز</one_day>
+    <three_days>سه روز</three_days>
+    <one_week>یک هفته</one_week>
+    <two_weeks>دو هفته</two_weeks>
+    <one_month>یک ماه</one_month>
+    <three_months>سه ماه</three_months>
+    <six_months>شش ماه</six_months>
+    <inc_tasks>فقط تسک‌های ناقص</inc_tasks>
+    <new_cfolders>پوشه تقویم جدید</new_cfolders>
+    <merge_taks>ادغام با تقویم پیشفرض</merge_taks>
+    <events>رویدادها</events>
+    <tasks>تسک‌ها</tasks>
+    <inotes>وظایف و یادداشت‌ها (نرم‌افزار اندروید)</inotes>
+    <new_folders>پوشه جدید</new_folders>
+    <merge_default>ادغام با پوشه پیش‌فرض</merge_default>
+  </devices>
+  <main_menu>
+    <item_density>تراکم آیتم‌ها</item_density>
+    <add_folder>اضافه کردن پوشه</add_folder>
+    <add_calendar>اضافه کردن تقویم</add_calendar>
+    <webadmin>مدیریت سرور</webadmin>
+    <leftpanel>پنل پوشه‌ها</leftpanel>
+    <rightpanel>پنل مسنجر</rightpanel>
+    <share>اشتراک‌گذاری</share>
+    <chat_voice_and_video>چت، تماس صوتی و تصویری</chat_voice_and_video>
+    <documents>داکیومنت‌ها</documents>
+    <new_document>ایجاد داکیومنت</new_document>
+    <email_and_planning>ایمیل و برنامه‌ریزی</email_and_planning>
+    <new_email_message>پیام</new_email_message>
+    <new_message>قالب</new_message>
+    <devices>دستگاه‌های تلفن همراه</devices>
+    <vcard>مشخصات من</vcard>
+    <basic>سوئیچ به رابط تبلت</basic>
+    <old_client>سوئیچ به رابط قدیمی</old_client>
+    <search>جستجو</search>
+    <filter>فیلتر</filter>
+    <new>جدید</new>
+    <new_from_template>جدید بر اساس قالب</new_from_template>
+    <print>پرینت</print>
+    <print_calendar>تقویم</print_calendar>
+    <settings>تنظیمات</settings>
+    <accounts>حساب کاربری</accounts>
+    <logout>خروج</logout>
+    <logout_title>Ctrl+Click برای خروج</logout_title>
+    <update>دریافت جدید</update>
+    <compose>ایمیل جدید</compose>
+    <new_contact>مخاطب</new_contact>
+    <new_template>قالب پیام</new_template>
+    <new_distrib_list>لیست توزیع</new_distrib_list>
+    <new_event>قرارملاقات</new_event>
+    <new_journal>ژورنال</new_journal>
+    <new_note>یادداشت</new_note>
+    <new_task>فعالیت</new_task>
+    <new_file>داکیومنت</new_file>
+    <new_upload>آپلود</new_upload>
+    <new_word>فایل ورد</new_word>
+    <new_excel>صفحه گسترده اکسل</new_excel>
+    <new_ppoint>ارائه پاورپوینت</new_ppoint>
+    <new_text>فایل متنی</new_text>
+    <new_html>HTMLفایل</new_html>
+    <new_folder>پوشه</new_folder>
+    <create_appointment>ایجاد قرار ملاقات</create_appointment>
+    <create_contact>ایجاد مخاطب</create_contact>
+    <create_task>ایجاد وظیفه</create_task>
+    <create_note>ایجاد یادداشت</create_note>
+    <reply_to_sender>پاسخ</reply_to_sender>
+    <reply_to_all>پاسخ برای همه</reply_to_all>
+    <reply_to_all_att>پاسخ به همه با پیوست</reply_to_all_att>
+    <reply_to_sender_t>پاسخ با استفاده از قالب</reply_to_sender_t>
+    <reply_to_all_t>پاسخ به همه با استفاده از قالب</reply_to_all_t>
+    <forward>فوروارد</forward>
+    <delete>حذف</delete>
+    <delete_file>حذف فایل</delete_file>
+    <empty_folder>خالی کردن پوشه</empty_folder>
+    <day_view>روز</day_view>
+    <week_view>هفته</week_view>
+    <fullweek_view>تمام هفته</fullweek_view>
+    <workweek_view>هفته کاری</workweek_view>
+    <month_view>ماه</month_view>
+    <list>لیست</list>
+    <list_view>لیست</list_view>
+    <list_wide>لیست</list_wide>
+    <new_call>تماس</new_call>
+    <dial>شماره‌گیری</dial>
+    <sms>ارسال پیامک</sms>
+    <calls>تماس</calls>
+    <conference>ویدئو کنفرانس</conference>
+    <contacts_list>لیست</contacts_list>
+    <events_list>لیست</events_list>
+    <address_card>کارت‌های آدرس</address_card>
+    <tasks_lists>لیست</tasks_lists>
+    <tasks_detailed>لیست با جزئیات</tasks_detailed>
+    <active_tasks>وظایف فعال</active_tasks>
+    <journal_day_view>روز</journal_day_view>
+    <journal_week_view>هفته</journal_week_view>
+    <journal_month_view>ماه</journal_month_view>
+    <journal_list>لیست</journal_list>
+    <notes_list>لیست</notes_list>
+    <options>تنظیمات</options>
+    <admin_options>تنظیمات مدیریتی</admin_options>
+    <domain_options>تنظیمات دامنه</domain_options>
+    <tools>ابزار</tools>
+    <deliver>ارسال</deliver>
+    <quarantine>قرنطینه</quarantine>
+    <black_list>انتقال به لیست سیاه</black_list>
+    <white_list>انتقال به لیست سفید</white_list>
+    <black_listed>لیست سیاه</black_listed>
+    <white_listed>لیست سفید</white_listed>
+    <rules>قوانین</rules>
+    <help>راهنما و میانبرها</help>
+    <notifications>اعلانات</notifications>
+    <no_notifications>بدون اعلان</no_notifications>
+    <clear_all>حذف همه</clear_all>
+  </main_menu>
+  <short_days>
+    <monday>2ش</monday>
+    <tuesday>3ش</tuesday>
+    <wednesday>4ش</wednesday>
+    <thursday>5ش</thursday>
+    <friday>جمعه</friday>
+    <saturday>شنبه</saturday>
+    <sunday>1ش</sunday>
+  </short_days>
+  <days>
+    <monday>دوشنبه</monday>
+    <tuesday>سه‌شنبه</tuesday>
+    <wednesday>چهارشنبه</wednesday>
+    <thursday>پنج‌شنبه</thursday>
+    <friday>جمعه</friday>
+    <saturday>شنبه</saturday>
+    <sunday>یک‌شنبه</sunday>
+    <last_monday>دوشنبه گذشته</last_monday>
+    <last_tuesday>سه‌شنبه گذشته</last_tuesday>
+    <last_wednesday>چهارشنبه گذشته</last_wednesday>
+    <last_thursday>پنج‌شنبه گذشته</last_thursday>
+    <last_friday>جمعه گذشته</last_friday>
+    <last_saturday>شنبه گذشته</last_saturday>
+    <last_sunday>یک‌شنبه گذشته</last_sunday>
+  </days>
+  <months>
+    <january>ژانویه</january>
+    <february>فوریه</february>
+    <march>مارس</march>
+    <april>آوریل</april>
+    <may>می</may>
+    <june>ژوئن</june>
+    <july>جولای</july>
+    <august>آگوست</august>
+    <september>سپتامبر</september>
+    <october>اکتبر</october>
+    <november>نوامبر</november>
+    <december>دسامبر</december>
+  </months>
+  <short_months>
+    <january>ژانویه</january>
+    <february>فوریه</february>
+    <march>مارس</march>
+    <april>آوریل</april>
+    <may>می</may>
+    <june>ژوئن</june>
+    <july>جولای</july>
+    <august>آگوست</august>
+    <september>سپتامبر</september>
+    <october>اکتبر</october>
+    <november>نوامبر</november>
+    <december>دسامبر</december>
+  </short_months>
+  <dates>
+    <every>هر</every>
+    <secondly>دومین</secondly>
+    <minutely>دقیقه</minutely>
+    <hour>ساعت</hour>
+    <day>روز</day>
+    <weeks>هفته‌ها</weeks>
+    <month>ماه</month>
+    <year>سال</year>
+    <the>the</the>
+    <first>اولین</first>
+    <last>آخرین</last>
+    <second>دومین</second>
+    <third>سومین</third>
+    <fourth>چهارمین</fourth>
+    <fifth>پنجمین</fifth>
+    <postfix>th</postfix>
+    <except>بجز</except>
+    <on>در</on>
+    <mondays>دوشنبه‌ها</mondays>
+    <tuesdays>سه‌شنبه‌ها</tuesdays>
+    <wednesdays>چهارشنبه‌ها</wednesdays>
+    <thursdays>پنج‌شنبه‌ها</thursdays>
+    <fridays>جمعه‌ها</fridays>
+    <saturdays>شنبه‌ها</saturdays>
+    <sundays>یک‌شنبه‌ها</sundays>
+    <yearday>روز از سال</yearday>
+    <in>در</in>
+    <week>هفته</week>
+    <week2>هفته</week2>
+    <at>در</at>
+    <and>و</and>
+    <from>از</from>
+    <until>تا</until>
+    <times>تکرار دفعه%s</times>
+  </dates>
+  <recurrence>
+    <time>%0 %1 - %2 %3</time>
+    <time_samedate>%0 %1 - %3</time_samedate>
+    <secondly>تکرار هرثانیه</secondly>
+    <secondly_n>ثانیه%sتکرار هر</secondly_n>
+    <minutely>تکرار هر دقیقه</minutely>
+    <minutely_n>دقیقه %s تکرار هر</minutely_n>
+    <hourly>تکرار هر ساعت</hourly>
+    <hourly_n>ساعت%sتکرار هر</hourly_n>
+    <daily>تکرار هر روز</daily>
+    <daily_n>روز%sتکرار هر</daily_n>
+    <daily_workdays>تکرار هر روز کاری</daily_workdays>
+    <daily_weekends>تکرار پایان هر هفته</daily_weekends>
+    <weekly>تکرار هر هفته %1</weekly>
+    <weekly_n>تکرار هر %0 هفته %1</weekly_n>
+    <monthly>تکرار هر ماه %1 %2</monthly>
+    <monthly_n>تکرار هر %0 ماه %1 %2</monthly_n>
+    <yearly>تکرار هر سال %1 %2 %3 %4</yearly>
+    <yearly_n>تکرار هر %0 سال %1 %2 %3 %4</yearly_n>
+    <day_1>در هر روز اول هفته</day_1>
+    <day_2>در هر روز دوم هفته</day_2>
+    <day_3>در هر روز سوم هفته</day_3>
+    <day_4>در هر چهارمین روز هفته</day_4>
+    <day_-1>در آخرین روز هفته</day_-1>
+    <day_n>روز هفته%sthدر هر</day_n>
+    <day_-n>روز از هفته %sthدر هر آخرین</day_-n>
+    <sunday>در روز یک‌شنبه</sunday>
+    <sunday_1>در اولین یک‌شنبه</sunday_1>
+    <sunday_2>در دومین یک‌شنبه</sunday_2>
+    <sunday_3>در سومین یک‌شنبه</sunday_3>
+    <sunday_4>در چهارمین یک‌شنبه</sunday_4>
+    <sunday_-1>در آخرین یک‌شنبه</sunday_-1>
+    <sunday_n>یکشنبه %sthدر</sunday_n>
+    <sunday_-n>آخرین یکشنبه %sth در</sunday_-n>
+    <monday>در روز دوشنبه</monday>
+    <monday_1>در اولین دوشنبه</monday_1>
+    <monday_2>در دومین دوشنبه</monday_2>
+    <monday_3>در سومین دوشنبه</monday_3>
+    <monday_4>در چهارمین دوشنبه</monday_4>
+    <monday_-1>در آخرین دوشنبه</monday_-1>
+    <monday_n>دوشنبه%sthدر</monday_n>
+    <monday_-n>آخرین دوشنبه %sthدر</monday_-n>
+    <tuesday>در روز سه‌شنبه</tuesday>
+    <tuesday_1>در اولین سه‌شنبه</tuesday_1>
+    <tuesday_2>در دومین سه‌شنبه</tuesday_2>
+    <tuesday_3>در سومین سه‌شنبه</tuesday_3>
+    <tuesday_4>در چهارمین سه‌شنبه</tuesday_4>
+    <tuesday_-1>در آخرین سه‌شنبه</tuesday_-1>
+    <tuesday_n>در %sth سه‌شنبه</tuesday_n>
+    <tuesday_-n>در %sth آخرین سه‌شنبه</tuesday_-n>
+    <wednesday>در روز چهارشنبه</wednesday>
+    <wednesday_1>در اولین چهارشنبه</wednesday_1>
+    <wednesday_2>در دومین چهارشنبه</wednesday_2>
+    <wednesday_3>در سومین چهارشنبه</wednesday_3>
+    <wednesday_4>در چهارمین چهارشنبه</wednesday_4>
+    <wednesday_-1>در آخرین چهارشنبه</wednesday_-1>
+    <wednesday_n>چهارشنبه%sthدر</wednesday_n>
+    <wednesday_-n>آخرین چهارشنبه%sthدر</wednesday_-n>
+    <thursday>در روز پنج‌شنبه</thursday>
+    <thursday_1>در اولین پنج‌شنبه</thursday_1>
+    <thursday_2>در دومین پنج‌شنبه</thursday_2>
+    <thursday_3>در سومین پنج‌شنبه</thursday_3>
+    <thursday_4>در چهارمین پنج‌شنبه</thursday_4>
+    <thursday_-1>در آخرین پنج‌شنبه</thursday_-1>
+    <thursday_n>پنجشنبه%sthدر</thursday_n>
+    <thursday_-n>آخرین پنجشنبه%sthدر</thursday_-n>
+    <friday>در روز جمعه</friday>
+    <friday_1>در اولین جمعه</friday_1>
+    <friday_2>در دومین جمعه</friday_2>
+    <friday_3>در سومین جمعه</friday_3>
+    <friday_4>در چهارمین جمعه</friday_4>
+    <friday_-1>در آخرین جمعه</friday_-1>
+    <friday_n>جمعه %sthدر</friday_n>
+    <friday_-n>آخرین جمعه%sthدر</friday_-n>
+    <saturday>در روز شنبه</saturday>
+    <saturday_1>در اولین شنبه</saturday_1>
+    <saturday_2>در دومین شنبه</saturday_2>
+    <saturday_3>در سومین شنبه</saturday_3>
+    <saturday_4>در جهارمین شنبه</saturday_4>
+    <saturday_-1>در آخرین شنبه</saturday_-1>
+    <saturday_n>شنبه%sدر</saturday_n>
+    <saturday_-n>آخرین شنبه%sدر</saturday_-n>
+    <workweek>در هفته کاری</workweek>
+    <workweek_1>در اولین هفته کاری</workweek_1>
+    <workweek_2>در دومین هفته‌کاری</workweek_2>
+    <workweek_3>در سومین هفته کاری</workweek_3>
+    <workweek_4>در جهارمین هفته کاری</workweek_4>
+    <workweek_-1>در آخرین هفته کاری</workweek_-1>
+    <workweek_n>هفته کاری%sthدر</workweek_n>
+    <workweek_-n>آخرین هفته کاری %sthدر</workweek_-n>
+    <weekend>در آخر هفته</weekend>
+    <weekend_1>در اولین آخر هفته</weekend_1>
+    <weekend_2>در دومین آخر هفته</weekend_2>
+    <weekend_3>در سومین آخر هفته</weekend_3>
+    <weekend_4>در چهارمین آخر هفته</weekend_4>
+    <weekend_-1>در آخرین آخر هفته</weekend_-1>
+    <weekend_n>آخر هفته%sthدر</weekend_n>
+    <weekend_-n>آخرین آخر هفته %sthدر</weekend_-n>
+    <onmonthday>ماه %sدر روز</onmonthday>
+    <onyearday>سال%sدر روز</onyearday>
+    <until>%sتا</until>
+    <times>با یکبار تکرار</times>
+    <times_n>بار %sتکرار</times_n>
+    <january>در ژانویه</january>
+    <february>در فوریه</february>
+    <march>در مارچ</march>
+    <april>در آوریل</april>
+    <may>در می</may>
+    <june>در ژوئن</june>
+    <july>در جولای</july>
+    <august>در آگوست</august>
+    <september>در سپتامبر</september>
+    <october>در اکتبر</october>
+    <november>در نوامبر</november>
+    <december>در دسامبر</december>
+  </recurrence>
+  <form_buttons>
+    <revision>ایجاد نسخه</revision>
+    <skip>پرش</skip>
+    <refresh>تازه کردن</refresh>
+    <retrieve>بازیابی</retrieve>
+    <inherit>ارث بری</inherit>
+    <accept>پذیرفتن</accept>
+    <decline>نپذیرفتن</decline>
+    <accepted>قبول شد</accepted>
+    <declined>پذیرفته نشد</declined>
+    <revoke>ابطال</revoke>
+    <ok>قبول</ok>
+    <create>ایجاد</create>
+    <close>بسته</close>
+    <retry>تلاش مجدد</retry>
+    <test>تست</test>
+    <cancel>لغو کردن</cancel>
+    <unsubscribe>انتقال به آرشیو</unsubscribe>
+    <subscribe>فعال کردن</subscribe>
+    <rename>تغییر نام</rename>
+    <rewrite>بازنویسی</rewrite>
+    <rewrite_all>بازنویسی همه</rewrite_all>
+    <save>ذخیره کردن</save>
+    <saved>ذخیره شد</saved>
+    <dont>انجام نشد</dont>
+    <add>اضافه کردن</add>
+    <edit>ویرایش</edit>
+    <find>پیدا کردن</find>
+    <add_file>اضافه کردن فایل</add_file>
+    <add_item>اضافه کردن موارد</add_item>
+    <remove>حذف کردن</remove>
+    <address_book>دفتر تلفن</address_book>
+    <search>جستجو</search>
+    <new_folder>پوشه جدید</new_folder>
+    <map_it>نمایش در نقشه</map_it>
+    <sign_in>ورود</sign_in>
+    <open_link>باز کردن لینک</open_link>
+    <preview>پیش‌نمایش</preview>
+    <undo>برگرداندن</undo>
+    <back>بازگشت</back>
+  </form_buttons>
+  <form_folders>
+    <step1>پوشه مادر</step1>
+    <create_new_folder>ایجاد پوشه جدید</create_new_folder>
+    <create_error>پوشه از قبل موجود است یا قابل ایجاد نمی‌باشد</create_error>
+    <invite_error>امکان دعوت از کاربران وجود ندارد</invite_error>
+    <name>نام</name>
+    <room_name>نام اطاق</room_name>
+    <type>نوع</type>
+    <visibility>قابل رویت</visibility>
+    <channel>کانال</channel>
+    <sharetype>اعمال بر</sharetype>
+    <all>همه پوشه‌ها</all>
+    <private>پوشه‌های شخصی</private>
+    <selected>پوشه‌های انتخاب شده</selected>
+    <room_placeholder>مثلا کارگاه</room_placeholder>
+    <chat_room>اطاق‌های گفتگوی عمومی توسط همه کاربران دیده می‌شوند. تنظیم دسترسی بصورت خصوصی باعث می‌شود فقط اعضای دعوت شده به گروه قابلیت دیدن آن‌ها را داشته باشند.</chat_room>
+  </form_folders>
+  <form_accounts>
+    <username>نام کاربری</username>
+    <password>رمزعبور</password>
+    <protocol>پروتکل</protocol>
+    <server>سرور</server>
+    <server_proxy>سرور /پروکسی</server_proxy>
+    <port>پورت</port>
+    <extension>گسترش</extension>
+    <description>توضیحات</description>
+  </form_accounts>
+  <popup_folders>
+    <clone_room>شبیه‌سازی اطاق</clone_room>
+    <item_actions>مدیریت همه آیتم‌ها</item_actions>
+    <item_actions_filtered>مدیریت آیتم‌های فیلتر شده</item_actions_filtered>
+    <recovery>بازیابی موارد حذف شده</recovery>
+    <add_virtual>ایجاد پوشه‌ی جدید جستجو</add_virtual>
+    <edit_virtual>ویرایش پوشه جستجو</edit_virtual>
+    <add_favorites>اضافه کردن به منتخبین</add_favorites>
+    <sharing>به اشتراک‌گذاری پوشه</sharing>
+    <sharing_account>به اشتراک‌گذاری اکانت</sharing_account>
+    <sharing_calendar>به اشتراک گذاری تقویم</sharing_calendar>
+    <change_channel>rssمدیریت کانال‌های</change_channel>
+    <subscribe>همگام سازی</subscribe>
+    <subscribed>همگام سازی</subscribed>
+    <add_folder>اضافه کردن پوشه</add_folder>
+    <add_room>ایجاد اطاق جدید</add_room>
+    <members>مدیریت اعضا</members>
+    <add_shared_account>اضافه کردن حساب‌های مشترک</add_shared_account>
+    <delete_folder>حذف پوشه</delete_folder>
+    <delete_room>حذف اطاق</delete_room>
+    <unsubscribe_folder>لغو اشتراک پوشه</unsubscribe_folder>
+    <move_folder>انتقال پوشه</move_folder>
+    <move_folder_into>انتقال پوشه به</move_folder_into>
+    <rename_folder>تغییر نام پوشه</rename_folder>
+    <rename_room>تغییر نام اطاق</rename_room>
+    <rename_calendar>تغییر نام  تقویم</rename_calendar>
+    <remove_account>حذف حساب کاربری</remove_account>
+    <sent_folder>انتخاب پوشه ارسال</sent_folder>
+    <select_folder>انتخاب پوشه</select_folder>
+    <mark_all_as_read>علامت‌گذاری بعنوان خوانده شده</mark_all_as_read>
+    <default>تنظیم به عنوان پیشفرض</default>
+    <export>خروجی گرفتن از پوشه</export>
+    <color>رنگ</color>
+    <move_default>آیا می‌خواهید پوشه‌های پیشفرض منتقل شوند؟</move_default>
+    <move_folder_confirmation>Are you sure you want to move folder?</move_folder_confirmation>
+    <filter_folders>پوشه‌های فیلتر‌دار</filter_folders>
+  </popup_folders>
+  <attachment>
+    <all>همه</all>
+    <pdf>PDF</pdf>
+    <play_sound>پخش</play_sound>
+    <attachments>پیوست‌ها</attachments>
+    <n_attachments>پیوست%s</n_attachments>
+    <upload>آپلود</upload>
+    <download>دانلود</download>
+    <download_all>دانلود همه</download_all>
+    <open_window>باز کردن در پنجره</open_window>
+    <import>اضافه کردن به وب‌کلاینت</import>
+    <import_error>این آیتم پشتیبانی نمی‌شود</import_error>
+    <remove>حذف کردن</remove>
+    <remove_all>حذف همه</remove_all>
+    <add_item>اضافه کردن آیتم</add_item>
+    <add_attachment>اضافه کردن پیوست</add_attachment>
+    <link_dropbox>Dropboxلینک به</link_dropbox>
+    <view>نمایش</view>
+    <save>دانلود</save>
+    <save_all>دانلود همه</save_all>
+    <save_to_folder>ذخیره در پوشه</save_to_folder>
+    <save_to_teamchat>ذخیره در تیم‌چت</save_to_teamchat>
+    <save_to_alfresco>Alfrescoذخیره در</save_to_alfresco>
+    <show_images>نمایش عکس‌ها</show_images>
+    <show_image>نمایش عکس</show_image>
+    <show_text>نمایش ایمیل بصورت متنی</show_text>
+    <show_headers>همه هدرها</show_headers>
+    <show_cert>نمایش سرتیفیکیت</show_cert>
+    <append_cert>اضافه کردن به مخاطبین</append_cert>
+    <dropzone>&lt; فایل را اینجا رها کنید &gt;</dropzone>
+    <drop_holder>فایل‌ها را برداشته و اینجا رها کنید...</drop_holder>
+    <quick_add>بارگذاری سریع...</quick_add>
+    <quick_contact>را اینجا رها کنید vفایل کارت ...</quick_contact>
+    <drop_title>فایل‌های خود را اینجا رها کنید</drop_title>
+    <drop_body>فایل‌ها، تصاویر یا ویدئوهای خود را آپلود کنید</drop_body>
+    <from_computer>از کامپیوتر</from_computer>
+    <from_dropbox>از دراپ‌باکس</from_dropbox>
+    <from_documents>از فایل‌ها و داکیومنت‌ها</from_documents>
+    <from_alfresco>Alfrescoاز</from_alfresco>
+  </attachment>
+  <dropbox>
+    <erroralert>خطای دراپ‌باکس</erroralert>
+    <missingkey>. دراپ‌باکس پیکربندی نشده است. سرپرست ابتدا باید یکپارچه سازی دراپ‌باکس را تنظیم کند</missingkey>
+    <unavailable>دراپ‌باکس به طور موقت در دسترس نیست و تا زمان ورود بعدی غیرفعال می‌شود.</unavailable>
+  </dropbox>
+  <popup_items>
+    <enter_email_address>آدرس ایمیل را وارد نمایید</enter_email_address>
+    <convert_item>HTMLتبدیل به</convert_item>
+    <source>منبع</source>
+    <send_notify>اطلاع از تغییرات</send_notify>
+    <recover>بازیابی</recover>
+    <new>جدید</new>
+    <delivery_report>گزارش تحویل</delivery_report>
+    <properties>مشخصات</properties>
+    <open>باز کردن</open>
+    <open_pdf>PDFباز کردن به عنوان</open_pdf>
+    <open_window>باز کردن در پنجره</open_window>
+    <edit>ویرایش</edit>
+    <reply_to_sender>پاسخ</reply_to_sender>
+    <reply_to_all>پاسخ برای همه</reply_to_all>
+    <forward>فوروارد</forward>
+    <forward_resend>فوروارد - ارسال مجدد</forward_resend>
+    <forward_as_message>فوروارد بصورت ضمیمه</forward_as_message>
+    <redirect>تغییر گیرنده</redirect>
+    <mark_as_read>علامت‌گذاری بعنوان خوانده‌شده</mark_as_read>
+    <mark_as_unread>علامت‌گذاری بعنوان خوانده‌نشده</mark_as_unread>
+    <move_mail_to>انتقال به پوشه</move_mail_to>
+    <copy>کپی</copy>
+    <copy_mail_to>کپی به پوشه</copy_mail_to>
+    <copy_mail_to_alfresco>Alfrescoکپی به</copy_mail_to_alfresco>
+    <delete>حذف</delete>
+    <delete_selected>حذف موارد انتخاب شده</delete_selected>
+    <open_item>باز کردن</open_item>
+    <clone_item_to>شبیه‌سازی</clone_item_to>
+    <move_item_to>انتقال به پوشه</move_item_to>
+    <copy_item_to>کپی به پوشه</copy_item_to>
+    <copy_item_to_teamchat>کپی به تیم‌چت</copy_item_to_teamchat>
+    <copy_item_to_alfresco>Alfrescoکپی به</copy_item_to_alfresco>
+    <share_item_to_teamchat>به اشتراک‌گذاری در تیم‌چت</share_item_to_teamchat>
+    <share>به اشتراک‌گذاری...</share>
+    <new_distriblist>گروه ایمیلی جدید</new_distriblist>
+    <save_as>ذخیره به نام...</save_as>
+    <html>HTML</html>
+    <text>متن</text>
+    <eml>EML</eml>
+    <download_vcalendar>vذخیره بصورت تقویم</download_vcalendar>
+    <download_vcard>vذخیره بصورت کارت</download_vcard>
+    <download_vnote>vیادداشت ذخیره بصورت</download_vnote>
+    <download_file>دانلود</download_file>
+    <open_office>باز کردن</open_office>
+    <deliver>ارسال</deliver>
+    <black_list>انتقال به لیست سیاه</black_list>
+    <white_list>انتقال به لیست مجاز</white_list>
+    <blacklist_sender>اضافه کردن فرستنده به لیست سیاه</blacklist_sender>
+    <blacklist_domain>اضافه کردن دامنه به لیست سیاه</blacklist_domain>
+    <whitelist_sender>اضافه کردن فرستنده به لیست مجاز</whitelist_sender>
+    <whitelist_domain>اضافه کردن دامنه به لیست مجاز</whitelist_domain>
+    <attach_to_email>فوروارد با ایمیل</attach_to_email>
+    <send_as_email>ارسال با ایمیل</send_as_email>
+    <send_email_to>ارسال ایمیل</send_email_to>
+    <add_to_contacts>ایجاد مخاطب جدید</add_to_contacts>
+    <add_to_exist_contacts>اضافه کردن به مخاطب موجود</add_to_exist_contacts>
+    <lookup_contacts>نمایش مشخصات مخاطب</lookup_contacts>
+    <add_contact>اضافه کردن فرستنده به لیست مخاطبین</add_contact>
+    <add_im>اضافه کردن فرستنده به مسنجر</add_im>
+    <add_to_im>اضافه کردن به مسنجر</add_to_im>
+    <add>اضافه کردن...</add>
+    <manage_sender>مدیریت فرستنده...</manage_sender>
+    <invite_appointment>دعوت به رویداد جدید</invite_appointment>
+    <invite_all_appointment>دعوت همه به رویداد جدید</invite_all_appointment>
+    <invite_teamchat>دعوت به تیم‌چت</invite_teamchat>
+    <cert_to_contact>اضافه کردن سرتیفیکیت به لیست مخاطبین</cert_to_contact>
+    <contacts>مخاطب</contacts>
+    <mandatorydetails>لطفا مشخصات خود را کامل نمایید</mandatorydetails>
+    <im>فهرست وب‌چت</im>
+    <skip_delete>مجددا سوال نکن</skip_delete>
+    <copy_email>کپی آدرس ایمیل</copy_email>
+    <email_copied>به حافظه کپی شد</email_copied>
+    <teamchat_invite>دعوت به تیم‌چت</teamchat_invite>
+    <upload_new_version>آپلود نسخه جدید</upload_new_version>
+    <enter_phone_number>شماره تلفن را وارد نمایید</enter_phone_number>
+    <clone>تکراری</clone>
+    <contact_admin>ارتباط با مدیر</contact_admin>
+  </popup_items>
+  <recovery>
+    <cannot_be_recovered_text>وجود ندارد %s آیتم‌ها قابل بازیافت نمی‌باشند. پوشه اصلی .&#13;&#10;  انتخاب نمایید؟%sآیا می‌خواهید پوشه دیگری را برای برگرداندن آیتم‌ها از</cannot_be_recovered_text>
+    <some_items_skipped>آیتم‌های بدون پوشه مادر در نظر گرفته نشدند.</some_items_skipped>
+    <cannot_be_recovered_title>آیتم(ها) قابل برگرداندن نمی‌باشند</cannot_be_recovered_title>
+    <folder_not_selected_text>لطفا یک پوشه را برای بازگرداندن آیتم‌های بازیافتی انتخاب نموده و یا بازیافت را کنسل نمایید.</folder_not_selected_text>
+    <folder_not_selected_title>لطفا پوشه را انتخاب نمایید</folder_not_selected_title>
+  </recovery>
+  <color_labels>
+    <none>بدون رنگ</none>
+    <color>رنگ</color>
+    <white_flag>پرچم سفید</white_flag>
+    <red_flag>پرچم قرمز</red_flag>
+    <blue_flag>پرچم آبی</blue_flag>
+    <yellow_flag>پرچم زرد</yellow_flag>
+    <green_flag>پرچم سبز</green_flag>
+    <orange_flag>پرچم نارنجی</orange_flag>
+    <purple_flag>پرچم بنفش</purple_flag>
+    <flag_complete>پرچم کامل‌شده</flag_complete>
+    <clear_flag>حذف پرچم</clear_flag>
+    <important>مهم</important>
+    <business>کاری</business>
+    <personal>شخصی</personal>
+    <vacation>مسافرت</vacation>
+    <must_attend>باید شرکت کنم</must_attend>
+    <travel_required>نیاز به مسافرت دارد</travel_required>
+    <needs_preparation>نیاز به آمادگی دارد</needs_preparation>
+    <birthday>تولد</birthday>
+    <anniversary>سالگرد</anniversary>
+    <phone_call>تماس تلفنی</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>اضافه کردن حساب کاربری</add_account>
+    <delete_account>حذف اکانت</delete_account>
+    <edit_account>ویرایش حساب‌کاربری</edit_account>
+    <validating>احراز اعتبار حساب کاربری...</validating>
+    <invalid>حساب کاربری معتبر نمی‌باشد</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>صندوق ورودی</inbox>
+    <drafts>پیش‌نویس‌ها</drafts>
+    <sent>ارسال‌شده</sent>
+    <trash>سطل‌بازیافت</trash>
+    <spam>هرزنامه</spam>
+    <templates>قالب‌ها</templates>
+    <quarantine>قرنطینه</quarantine>
+    <spam_queue>فیلترها</spam_queue>
+    <spam_queue-whitelist>لیست مجاز</spam_queue-whitelist>
+    <spam_queue-blacklist>لیست سیاه</spam_queue-blacklist>
+    <virtual-folders>جستجو در پوشه‌ها</virtual-folders>
+    <gw-trash>بازیابی موارد</gw-trash>
+    <calendars>تقویم‌های چندگانه</calendars>
+    <private_root>خصوصی</private_root>
+    <private_root_ext>(%s)خصوصی</private_root_ext>
+    <public_root>عمومی</public_root>
+    <shared_root>اشتراک گذاشته شده با من</shared_root>
+    <resources>منابع</resources>
+  </common_folders>
+  <folders>
+    <mails>ایمیل</mails>
+    <contacts>اشخاص</contacts>
+    <events>تقویم</events>
+    <chats>چت‌ها</chats>
+    <tasks>فعالیت‌ها</tasks>
+    <notes>یاداشت‌ها</notes>
+    <journal>ژورنال</journal>
+    <files_documents>فایل و داکیومنت‌ها</files_documents>
+    <files>فایل‌ها</files>
+    <home>صفحه‌اصلی</home>
+    <smart>الصاق هوشمند</smart>
+  </folders>
+  <usage>
+    <current>فضای ذخیره‌سازی فعلی</current>
+    <manage>مدیریت...</manage>
+    <label>استفاده شده%s از %s</label>
+    <label2>استفاده شده%s</label2>
+    <almost_full>فضای تخصیص داده شده به گروه تقریبا پر شده است</almost_full>
+    <contact_admin_helper>برای خالی کردن فضای ذخیره‌سازی اطاق، با مدیر تماس بگیرید</contact_admin_helper>
+    <contact_admin_placeholder>پیام خود را وارد نمایید</contact_admin_placeholder>
+  </usage>
+  <folder_types>
+    <mail>ایمیل</mail>
+    <contact>اشخاص</contact>
+    <event>تقویم</event>
+    <journal>ژورنال</journal>
+    <note>یادداشت</note>
+    <task>فعالیت</task>
+    <file>داکیومنت</file>
+    <rss>RSS</rss>
+    <groupchat>تیم‌چت</groupchat>
+    <conferences>ویدئو کنفرانس</conferences>
+  </folder_types>
+  <context_folder>
+    <cantmove>امکان جابه‌جایی این پوشه وجود ندارد</cantmove>
+    <cantrename>امکان تغییر نام این پوشه وجود ندارد</cantrename>
+    <cantdelete>امکان حذف این پوشه وجود ندارد</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>ضمائم</attachments>
+    <to>گیرنده</to>
+    <subject>موضوع</subject>
+    <nosubject>بدون موضوع</nosubject>
+    <cc>رونوشت</cc>
+    <bcc>Bcc</bcc>
+    <body>متن</body>
+    <from>فرستنده</from>
+    <date>تاریخ</date>
+    <size>سایز</size>
+    <type>نوع</type>
+    <itmclassifyas>نام شخص</itmclassifyas>
+    <phone>تلفن</phone>
+    <itmcompany>شرکت</itmcompany>
+    <itmdepartment>دپارتمان</itmdepartment>
+    <contact_email>ایمیل</contact_email>
+    <expires>اعتبار تا</expires>
+    <itmcategory>برچسب‌ها</itmcategory>
+    <evntitle>عنوان</evntitle>
+    <itmtitle>عنوان</itmtitle>
+    <itmoriginalfolder>پوشه اصلی</itmoriginalfolder>
+    <itm_deleted>حذف شده</itm_deleted>
+    <item_moved>حذف شده</item_moved>
+    <evnlocation>موقعیت</evnlocation>
+    <upcoming>کارتابل</upcoming>
+    <event_startdate>شروع</event_startdate>
+    <event_enddate>پایان</event_enddate>
+    <evntype>برچسب‌ها</evntype>
+    <evncontact>مخاطب</evncontact>
+    <evnstatus>وضعیت</evnstatus>
+    <task_startdate>تاریخ شروع</task_startdate>
+    <task_enddate>مهلت</task_enddate>
+    <sndemail>فرستنده</sndemail>
+    <sndowner>مالک</sndowner>
+    <snddomain>دامنه</snddomain>
+    <sndsubject>موضوع</sndsubject>
+    <revised_by>اصلاح شده توسط</revised_by>
+    <comment>نظر</comment>
+    <qdate>تاریخ</qdate>
+    <name>نام کامل</name>
+    <evnfilename>نام ‌فایل</evnfilename>
+    <evnnote>توضیح</evnnote>
+    <evn_modified>تغییر</evn_modified>
+    <evn_modified_by>تغییر یافته توسط</evn_modified_by>
+    <evn_created_by>ایجاد شده توسط</evn_created_by>
+    <evnfilesize>سایز</evnfilesize>
+    <lctphnwork1>تلفن کاری</lctphnwork1>
+    <lctphnfaxwork>فکس کاری</lctphnfaxwork>
+    <lctphnhome1>تلفن منزل</lctphnhome1>
+    <lctphnmobile>موبایل</lctphnmobile>
+    <itmsurname>نام فامیل</itmsurname>
+  </datagrid_items_view>
+  <item>
+    <public>آدرس عمومی</public>
+    <share>به اشتراک‌گذاری فایل</share>
+    <ticket>سایر</ticket>
+    <revisions>تاریخچه</revisions>
+    <revert>برگرداندن</revert>
+    <edit_comment>ویرایش توضیح</edit_comment>
+    <new_revision>ایجاد نسخه جدید</new_revision>
+    <upload_new_version>آپلود ورژن جدید</upload_new_version>
+  </item>
+  <event_view>
+    <week_label>هفته</week_label>
+    <notitle>بدون عنوان</notitle>
+    <private>نامعلوم</private>
+    <no_title>بدون عنوان</no_title>
+    <newappointment>قرار ملاقات جدید</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>%SUBJECT%خواندن  :</reading_confirmation_subject>
+    <reading_confirmation>پیام شما خوانده شد.&#13;&#10;&#13;&#10;جزییات پیام به صورت زیر است:&#13;&#10;&#13;&#10; %FROM%از:&#13;&#10;%TO%به: &#13;&#10; %DATE%تاریخ:&#13;&#10; %SUBJECT%موضوع:</reading_confirmation>
+    <reply_message_html>پیام اصلی</reply_message_html>
+    <forward_message_html>فوروارد پیام</forward_message_html>
+    <from>فرستنده:</from>
+    <to>گیرنده:</to>
+    <cc>رونوشت:</cc>
+    <date>تاریخ:</date>
+    <subject>موضوع:</subject>
+  </email>
+  <name_prefix>
+    <dr>دکتر</dr>
+    <mr>جناب آقای</mr>
+    <mrs>سرکار خانم</mrs>
+    <miss>جناب آقای مهندس</miss>
+    <ms>سرکار خانم مهندس</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>پروفسور.</prof>
+    <jr>جوان</jr>
+    <sr>آقای</sr>
+  </name_suffix>
+  <contact>
+    <displayname>نام نمایشی</displayname>
+    <avatar>عکس</avatar>
+    <contact>مخاطب</contact>
+    <general>عمومی</general>
+    <profile>پروفایل</profile>
+    <personal>شخصی</personal>
+    <business>کاری</business>
+    <other_l>سایر</other_l>
+    <other>یادداشت</other>
+    <contact_name>نحوه نمایش</contact_name>
+    <sort_as>مرتب‌سازی بر اساس</sort_as>
+    <first_name>نام کوچک</first_name>
+    <middle_name>نام وسط</middle_name>
+    <last_name>فامیل</last_name>
+    <nick_name>شهرت</nick_name>
+    <full_name>نام کامل</full_name>
+    <title>عنوان</title>
+    <suffix>پسوند</suffix>
+    <category>برچسب‌ها</category>
+    <email_address>آدرس ایمیل</email_address>
+    <birthdate>تولد</birthdate>
+    <anniversary>سالگرد</anniversary>
+    <spouse>همسر</spouse>
+    <gender>جنسیت</gender>
+    <company>شرکت</company>
+    <job>شغل</job>
+    <profession>حرفه</profession>
+    <department>دپارتمان</department>
+    <assistant>دستیار</assistant>
+    <manager>مدیر</manager>
+    <office_location>محل دفتر</office_location>
+    <email1>ایمیل ۱</email1>
+    <email2>ایمیل ۲</email2>
+    <email3>ایمیل ۳</email3>
+    <im>مسنجر</im>
+    <phone>تلفن</phone>
+    <phones>تلفن</phones>
+    <male>مرد</male>
+    <female>زن</female>
+    <street>خیابان</street>
+    <city>شهر</city>
+    <zip>کدپستی</zip>
+    <state>استان</state>
+    <country>کشور</country>
+    <home_address>آدرس منزل</home_address>
+    <business_address>آدرس محل کار</business_address>
+    <other_address>سایر آدرس‌ها</other_address>
+    <homepage>وب‌سایت</homepage>
+    <calendar_url>آدرس اینترنتی آزاد / مشغول</calendar_url>
+    <share_type>نحوه اشتراک</share_type>
+    <address>آدرس</address>
+    <web>وب</web>
+    <notes>یادداشت</notes>
+    <mail>ایمیل</mail>
+    <chat>چت</chat>
+    <call>تماس</call>
+    <drop_title>فایل‌های خود را اینجا رها کنید</drop_title>
+    <drop_body>خود را وارد کنیدvکارت</drop_body>
+    <new>مخاطب جدید</new>
+  </contact>
+  <distrib_list>
+    <distrib_list>گروه ایمیلی</distrib_list>
+    <general>عمومی</general>
+    <members>اعضا</members>
+    <title>عنوان</title>
+    <category>برچسب‌ها</category>
+    <add_title>اضافه</add_title>
+    <edit_title>ویرایش</edit_title>
+    <name>نام</name>
+    <email>ایمیل</email>
+  </distrib_list>
+  <time_interval>
+    <from>از</from>
+    <to>تا</to>
+    <duration>مدت</duration>
+    <all_day_event>تمام روز</all_day_event>
+    <days>روز</days>
+    <change_default>تغییر منطقه زمانی پیش‌فرض</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>این یک آیتم تکرار شونده است</title_edit>
+    <text_edit>آیا تغییرات فقط بر روی این آیتم، تمام آیتم‌ها و یا آز این آیتم به بعد اعمال شوند؟</text_edit>
+    <title_delete>این یک آیتم تکرار شونده است</title_delete>
+    <text_edit_2>تغییرات فقط بر روی این آیتم یا تمام آیتم‌ها اعمال شود؟</text_edit_2>
+    <text_delete>فقط این آیتم حذف شود یا تمام آیتم‌ها؟</text_delete>
+    <btn_this>فقط این مورد</btn_this>
+    <btn_all>کل آیتم‌ها</btn_all>
+    <btn_allfromnow>از این مورد به بعد</btn_allfromnow>
+    <btn_cancel>رد</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <starts>شروع می‌شود</starts>
+    <ends>پایان می‌یابد</ends>
+    <reason>دلیل نپذیرفتن</reason>
+    <specify_reason>دلیل شرکت نکردن خود را بیان کنید</specify_reason>
+    <event>قرار ملاقات</event>
+    <general>عمومی</general>
+    <repeat>تکرار</repeat>
+    <repeating>تکرار</repeating>
+    <schedule>زمانبندی</schedule>
+    <reminders>یادآوری</reminders>
+    <onlineconference>ویدئو کنفرانس</onlineconference>
+    <onlineconference_password>رمزعبور</onlineconference_password>
+    <onlineconference_password_placeholder>وارد کردن رمزعبور</onlineconference_password_placeholder>
+    <startconference>شروع کنید</startconference>
+    <joinconference>پیوستن به ویدئو کنفرانس</joinconference>
+    <enter_title>عنوان رویداد را اینجا وارد نمایید</enter_title>
+    <title>عنوان</title>
+    <location>مکان</location>
+    <category>برچسب‌ها</category>
+    <notes>یادداشت‌ها</notes>
+    <timezone>ناحیه زمانی</timezone>
+    <show_as>نمایش بعنوان</show_as>
+    <free>آزاد</free>
+    <busy>مشغول</busy>
+    <tentative>هنوز مشخص نیست</tentative>
+    <out_of_office>بیرون از دفتر</out_of_office>
+    <unknown>بدون اطلاعات</unknown>
+    <label>برچسب</label>
+    <conference_hint>ویدئو کنفرانس را ایجاد کرده و به آن بپیوندید و صفحه خود را به اشتراک بگذارید</conference_hint>
+    <high>بالا:</high>
+    <low>پایین:</low>
+    <add_note>اضافه کردن یادداشت</add_note>
+    <include_in_my_calendar>اضافه کردن به تقویم من</include_in_my_calendar>
+    <weekdays>روزهای کاری:</weekdays>
+    <between_times>(HH:mm)بین ساعت‌های:</between_times>
+    <between_dates>(YYYY/MM/DD)بین تاریخ‌های:</between_dates>
+    <unprotect>محافظت نشده</unprotect>
+    <email_attendees>Email attendees</email_attendees>
+  </event>
+  <file>
+    <file>داکیومنت</file>
+    <expire>%sانقضا در</expire>
+    <name>نام فایل</name>
+    <lock>قفل کردن</lock>
+    <unlock>باز کردن قفل</unlock>
+    <locked>قفل شده</locked>
+    <locked_by_me>قفل شده توسط من</locked_by_me>
+    <unlocked>قفل نشده</unlocked>
+    <locked_by>قفل شده است %sفایل توسط</locked_by>
+    <blank_doc>داکیومنت</blank_doc>
+    <description>توضیح</description>
+    <description_placeholder>اضافه کردن توضیح (دلخواه)</description_placeholder>
+    <new_doc>فایل خالی</new_doc>
+    <converting>در حال تبدیل فایل</converting>
+  </file>
+  <note>
+    <note>یادداشت</note>
+    <category>برچسب‌ها</category>
+    <title>عنوان</title>
+    <general>عمومی</general>
+    <new>یادداشت جدید</new>
+  </note>
+  <task>
+    <task>فعالیت</task>
+    <attendees>شرکت‌کنندگان</attendees>
+    <status>وضعیت</status>
+    <complete>تکمیل</complete>
+    <repeating>تکرار</repeating>
+    <reminders>یادآوری</reminders>
+    <general>عمومی</general>
+    <title>عنوان</title>
+    <start_date>تاریخ شروع</start_date>
+    <due_date>سررسید</due_date>
+    <category>برچسب‌ها</category>
+    <not_started>شروع نشده</not_started>
+    <in_progress>درحال انجام</in_progress>
+    <completed>تمام شده</completed>
+    <deferred>معوق شده</deferred>
+    <waiting>در انتظار شخص دیگر</waiting>
+    <done>تمام</done>
+    <new>فعالیت جدید</new>
+  </task>
+  <blackwhite>
+    <black>لیست ‌سیاه</black>
+    <white>لیست مجاز</white>
+    <email>ایمیل/دامنه</email>
+  </blackwhite>
+  <compose>
+    <attach_files>الصاق فایل</attach_files>
+    <edit_mode>حالت ویرایشگر</edit_mode>
+    <select_c>انتخاب پوشه اشخاص</select_c>
+    <select_i>انتخاب اطاق تیم‌چت</select_i>
+    <teamchat_room>نام اطاق تیم‌چت را وارد کنید</teamchat_room>
+    <teamchat_comment>توضیح خود را وارد نمایید</teamchat_comment>
+    <template>قالب</template>
+    <newmail>پیام جدید</newmail>
+    <send>ارسال</send>
+    <send_now>ارسال فوری</send_now>
+    <send_with_delay>ارسال با تاخیر</send_with_delay>
+    <sendinfo>ارسال ایمیل</sendinfo>
+    <save>ذخیره</save>
+    <saveinfo>ذخیره در پوشه پیش‌نویس</saveinfo>
+    <sendtchat>ارسال به تیم‌چت</sendtchat>
+    <options>گزینه‌ها</options>
+    <advanced>گزینه‌های پیشرفته</advanced>
+    <html>HTML</html>
+    <text>متن</text>
+    <sms>پیامک</sms>
+    <compose_sms>ارسال پیامک</compose_sms>
+    <sms_preview>پیش‌نمایش پیامک</sms_preview>
+    <sms_info>پیام%s کاراکتر در %s</sms_info>
+    <smartattach>الصاق هوشمند</smartattach>
+    <readconfirmationinfo>دریافت تاییدیه خوانده شدن از گیرنده ایمیل</readconfirmationinfo>
+    <show_all>نمایش تمام موارد</show_all>
+    <signinfo>امضای دیجیتال ایمیل</signinfo>
+    <encryptinfo>کدگذاری ایمیل</encryptinfo>
+    <delay_sending>تاخیر در ارسال تا</delay_sending>
+    <priorityinfo>تعیین اولویت ایمیل</priorityinfo>
+    <subject_empty>.&lt;br&gt;ایمیل بدون عنوان است با این حال ارسال شود؟</subject_empty>
+    <rcp_empty>برای ارسال گیرنده ایمیل را مشخص نمایید.</rcp_empty>
+    <optionstitle>گزینه‌های ایمیل</optionstitle>
+    <encrypt>کدگذاری ایمیل</encrypt>
+    <sign>امضای دیجیتال ایمیل</sign>
+    <nosign>.&lt;br&gt;گواهینامه دیجیتال جهت امضای ایمیل یافت نشد .ایمیل بدون امضا ارسال شود؟</nosign>
+    <delivery_report>نمایش گزارش ارسال ایمیل</delivery_report>
+    <reply_to>آدرس پاسخ‌دهی</reply_to>
+    <upload_file>الصاق از سیستم شما</upload_file>
+    <upload_item>الصاق از وب‌میل</upload_item>
+    <drop_title>فایل‌های خود را اینجا رها کنید</drop_title>
+    <drop_body>فایل، عکس یا ویدئوی خود را الصاق کنید</drop_body>
+    <set_date>تعیین تاریخ</set_date>
+    <time>زمان</time>
+    <modified_file_title>فایل ویرایش شده است</modified_file_title>
+    <modified_file_helper>آیا مایلید فایل تغییر یافته خود را برگردانید؟</modified_file_helper>
+    <send_undo>ارسال با امکان برگشت</send_undo>
+    <dotted_border>مرزهای نقطه‌ای</dotted_border>
+    <dashed_border>مرزهای خط دار</dashed_border>
+    <solid_border>مرزهای خطوط پیوسته</solid_border>
+    <collapsed_border>مرزهای فروریخته</collapsed_border>
+  </compose>
+  <sharing>
+    <public>عمومی</public>
+    <private>خصوصی</private>
+    <anonymous>بدون نام/همه</anonymous>
+    <custom>دلخواه</custom>
+    <inherited>ارث‌برده</inherited>
+    <none>هیچکدام</none>
+    <enter_address>آدرس را وارد کنید</enter_address>
+    <permissions>دسترسی‌ها</permissions>
+    <user>کاربر</user>
+    <items>آیتم‌ها</items>
+    <folder>پوشه</folder>
+    <administration>مدیریت</administration>
+    <people_you_invited>افرادی که شما دعوت کرده‌اید</people_you_invited>
+    <invite_people>دعوت از افراد</invite_people>
+    <invite_people_helper>.این افراد به این فایل دسترسی داشته و امکان اشتراک‌گذاری عمومی آن را خواهند داشت&lt;br&gt;نام و یا ایمیل افرادی را که می‌خواهید دعوت نمایید اضافه کنید.</invite_people_helper>
+  </sharing>
+  <time>
+    <hours>ساعت</hours>
+    <minutes>دقیقه</minutes>
+    <days>روز</days>
+    <oneday>روز</oneday>
+    <moredays>روز</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>مخاطبین را انتخاب کنید</select_emails>
+    <add>اضافه</add>
+  </select_recipients>
+  <tags>
+    <placeholder>جستجو</placeholder>
+    <tags>برچسب‌ها</tags>
+    <used>استفاده</used>
+    <hint>آیتم %s استفاده شده توسط</hint>
+    <selected>انتخاب شده</selected>
+    <add_tags>اضافه کردن برچسب</add_tags>
+  </tags>
+  <phone>
+    <lctphnhome1>منزل ۱</lctphnhome1>
+    <lctphnhome2>منزل ۲</lctphnhome2>
+    <lctphnassistant>دستیار</lctphnassistant>
+    <lctphnwork1>کاری ۱</lctphnwork1>
+    <lctphnwork2>کاری ۲</lctphnwork2>
+    <lctphnfaxhome>فکس منزل</lctphnfaxhome>
+    <lctphnfaxwork>فکس کاری</lctphnfaxwork>
+    <lctphncallback>پاسخ به تماس</lctphncallback>
+    <lctphncompany>شرکت</lctphncompany>
+    <lctphncar>ماشین</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>موبایل</lctphnmobile>
+    <lctphnother>سایر</lctphnother>
+    <lctphnotherfax>فکس سایر</lctphnotherfax>
+    <lctphnpager>پیجر</lctphnpager>
+    <lctphnprimary>اولیه</lctphnprimary>
+    <lctphnradio>داخلی</lctphnradio>
+    <lctphntelex>تلکس</lctphntelex>
+    <lctphnhearing>شنیدن</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>روز</day>
+    <week>هفته در</week>
+    <week_of_month>هفته‌ي ماه</week_of_month>
+    <month_of_year>ماه سال</month_of_year>
+    <month>ماه</month>
+    <year>سال</year>
+    <year_s>سال</year_s>
+    <repeats>تکرار هر:</repeats>
+    <not_repeats>تکرار نشود</not_repeats>
+    <fortnightly>دوهفتگی</fortnightly>
+    <end_date>تاریخ پایان:</end_date>
+    <no_end>بدون زمان پایان</no_end>
+    <until>تا</until>
+    <count>شمارش</count>
+    <daily>روزانه</daily>
+    <weekly>هفتگی</weekly>
+    <monthly>ماهانه</monthly>
+    <yearly>سالیانه</yearly>
+    <every>هر</every>
+    <the/>
+    <of>از</of>
+    <recur_every>تکرار هر</recur_every>
+    <weeks_on>هفته در:</weeks_on>
+    <of_every>از هر</of_every>
+    <months>ماه</months>
+    <days>روز</days>
+    <day_list>روز</day_list>
+    <every_weekday>هر روز کاری هفته</every_weekday>
+    <first>اولین</first>
+    <second>دومین</second>
+    <third>سومین</third>
+    <fourth>چهارمین</fourth>
+    <last>آخرین</last>
+    <weekday>روز کاری</weekday>
+    <weekend_day>پایان هفته</weekend_day>
+  </repeating>
+  <reminder>
+    <none>هیچکدام</none>
+    <email>ایمیل</email>
+    <popup>اعلان (دسکتاپ)</popup>
+    <address>آدرس</address>
+    <remind1>یادآوری</remind1>
+    <remind2>قبل از موعد</remind2>
+    <is_reminder>ارسال یادآوری</is_reminder>
+    <no_reminder>عدم ارسال یادآوری</no_reminder>
+    <type>نوع</type>
+    <snooze>یادآوری مجدد</snooze>
+    <conference>اجرا الان</conference>
+    <dismiss>تمام</dismiss>
+    <reminder>یادآوری</reminder>
+    <minutesbefore>دقیقه قبل%s</minutesbefore>
+    <hoursbefore>ساعت قبل%s</hoursbefore>
+    <daysbefore>روز قبل%s</daysbefore>
+    <weekbefore>هفته قبل از</weekbefore>
+  </reminder>
+  <journal>
+    <journal>ژورنال</journal>
+    <title>عنوان</title>
+    <type>نوع</type>
+    <company>شرکت</company>
+    <conversation>گفتگو</conversation>
+    <document>داکیومنت</document>
+    <e-mail_message>ارسال ایمیل</e-mail_message>
+    <fax>فکس</fax>
+    <letter>نامه</letter>
+    <conference>ویدئو کنفرانس</conference>
+    <conference_cancellation>لغو ویدئو کنفرانس</conference_cancellation>
+    <conference_request>درخواست ویدئو کنفرانس</conference_request>
+    <conference_response>پاسخ ویدئو کنفرانس</conference_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>یادداشت</note>
+    <phone_call>تماس تلفنی</phone_call>
+    <remote_session>ارتباط ریموت</remote_session>
+    <task>وظیفه</task>
+    <task_request>درخواست انجام کار</task_request>
+    <task_response>پاسخ به درخواست انجام کار</task_response>
+  </journal>
+  <certificate>
+    <purposes>این گواهینامه در ارتباط با موارد زیر صادر شده است</purposes>
+    <ssl>هویت شما را برای سیستم ریموت احراز می‌نماید</ssl>
+    <smime>محافظت از ایمیل‌ها</smime>
+    <serial>سریال</serial>
+    <view>مشاهده</view>
+    <certificate>گواهینامه</certificate>
+    <invalid>گواهی یا عبارت عبور نامعتبر است</invalid>
+    <passphrase>رمزعبور</passphrase>
+    <issuedto>صادر شده برای</issuedto>
+    <issuedby>صادر شده توسط</issuedby>
+    <email>ایمیل</email>
+    <validity>اعتبار</validity>
+    <badtype>کلید خصوصی پیدا نشد</badtype>
+    <missing>گواهینامه‌ای پیدا نشد</missing>
+    <invaliditem>امکان اضافه کردن گواهینامه وجود ندارد</invaliditem>
+    <assigned>گواهینامه با موفقیت اضافه شد</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>&quot;%s&quot;پوشه وجود ندارد:</folder_not_exist>
+    <accepted>رویداد پذیرفته شد</accepted>
+    <unsure>رویداد بصورت مشخص نیست پاسخ داده شد</unsure>
+    <declined>رویداد پذیرفته نشد</declined>
+    <proposed>زمان جدیدی پیشنهاد شد</proposed>
+    <obsolete>این رویداد لغو شده است ولی ممکن است توسط دعوتنامه‌های جدیدتر جایگزین شده باشد</obsolete>
+    <malformed>هنگام پردازش دعوتنامه خطایی رخ داد</malformed>
+    <imip_no_access_permissions>شما دسترسی پردازش دعوتنامه را ندارید</imip_no_access_permissions>
+    <imip_no_gw_service>دسترسی به سرویس تقویم مقدور نمی‌باشد. لطفا بعدا امتحان نموده و یا با مدیر سرور تماس بگیرید.</imip_no_gw_service>
+    <unknown_attendee>شما عضو این رویداد نمی‌باشید</unknown_attendee>
+  </imip>
+  <settings>
+    <setup_now>تنظیم کردن</setup_now>
+    <send_button>دکمه ارسال</send_button>
+    <ctrl_enter>Ctrl+Enterعملکرد</ctrl_enter>
+    <font_weight>حالت متن</font_weight>
+    <font_light>رتینا</font_light>
+    <font_normal>عادی</font_normal>
+    <disable_private_certificates>غیرفعال کردن سرتفیکیت‌های شخصی</disable_private_certificates>
+    <disable_weather_setting>غیرفعال کردن تنظیمات آب و هوا</disable_weather_setting>
+    <disable_im_contact_management>غیرفعال کردن امکان مدیریت کانتکت‌های مسنجر</disable_im_contact_management>
+    <esc_chat>در چت باعث Escفشاردادن</esc_chat>
+    <esc_nothing>کاری انجام نده</esc_nothing>
+    <esc_minimize>مینیمم کردن پنجره چت</esc_minimize>
+    <esc_close>بستن گفتگوی فعلی</esc_close>
+    <http_secure_cookie>HTTP Secure Cookie</http_secure_cookie>
+    <alternative_calendar>تقویم جایگزین</alternative_calendar>
+    <additional_calendar>تقویم ثانویه</additional_calendar>
+    <jalaali>جلالی</jalaali>
+    <hijri>هجری</hijri>
+    <buddha>بودایی</buddha>
+    <gregorian>میلادی</gregorian>
+    <teamchat>تیم‌چت</teamchat>
+    <night_mode>حالت شب</night_mode>
+    <webchat>چت‌وبی</webchat>
+    <search_primary>فقط ایمیل اصلی اتوماتیک پر شود</search_primary>
+    <force_enter_user_info>کاربران مجبور به وارد کردن اطلاعات خود شوند</force_enter_user_info>
+    <disable_new_aliases>غیرفعال کردن امکان اضافه کردن ایمیل مستعار</disable_new_aliases>
+    <disable_wipe>پاک کردن از راه دور را غیرفعال کنید</disable_wipe>
+    <documents>فایل‌ها</documents>
+    <aliases>آدرس‌ایمیل‌ها</aliases>
+    <disable_mailformat>گزینه متن در پنجره ارسال ایمیل غیرفعال شود/HTML</disable_mailformat>
+    <disable_altmail>مخفی کردن ایمیل ثانویه</disable_altmail>
+    <rcpt_suggest>پرکردن اتوماتیک</rcpt_suggest>
+    <rcpt_cache>پاک‌کردن لیست</rcpt_cache>
+    <send_delay>تاخیر در ارسال (دقیقه)</send_delay>
+    <keep_search>هنگام تغییر پوشه، عبارت جستجو باقی بماند</keep_search>
+    <smartfolder>پوشه الصاق هوشمند</smartfolder>
+    <always_show_rcp>همیشه موارد زیر را نمایش بده</always_show_rcp>
+    <login_screen>صفحه لاگین</login_screen>
+    <exclude_gal>Exclude GAL from auto-complete</exclude_gal>
+    <password_policy>سیاست رمز</password_policy>
+    <notifications>نمایش اعلانات</notifications>
+    <nofocus>اتوماتیک (فقط در پیش‌زمینه)</nofocus>
+    <autorevision_mode>برای فایل‌ها به صورت اتوماتیک نسخه زده شود</autorevision_mode>
+    <disable_support>غیرفعال کردن لینک پشتیبانی در صفحه لاگین</disable_support>
+    <check_subject>بررسی خالی نبودن عنوان ایمیل</check_subject>
+    <text_direction_switch>فعال‌سازی تغییر جهت پاراگراف</text_direction_switch>
+    <disable_anyone>مخفی کردن اشتراک‌گذاری برای افراد بی‌نام</disable_anyone>
+    <disable_group_sharing>مخفی کردن اشتراک‌گذاری برای گروه‌ها و دامنه‌ها</disable_group_sharing>
+    <compact_layout>نمایش فشرده</compact_layout>
+    <small_layout>نمایش کوچک</small_layout>
+    <default_layout>نمایش عادی</default_layout>
+    <show_favorites>نمایش پوشه‌های مورد علاقه</show_favorites>
+    <layout>تنظیمات کلی</layout>
+    <signature>امضا</signature>
+    <signature_separator>استفاده از جدا کننده استاندارد امضا از متن &quot;-- &quot;</signature_separator>
+    <signature_to_top>امضا در بالای ایمیل</signature_to_top>
+    <groups>گروه‌ها</groups>
+    <group>گروه</group>
+    <trash_folder>سطل بازیافت</trash_folder>
+    <sent_folder>پوشه ارسال</sent_folder>
+    <groupsend>ایمیل‌های فرستاده شده برای این گروه در پوشه عمومی قرار گیرند</groupsend>
+    <ftime>زمان شناور</ftime>
+    <sso_only>مجاز استSSOفقط ورود به سیستم</sso_only>
+    <activity_monitor>خروج بعد از عدم فعالیت به میزان (دقیقه)</activity_monitor>
+    <upload_limit>(MB)حد آپلود</upload_limit>
+    <time_2>دوساعت</time_2>
+    <time_12>12ساعت</time_12>
+    <time_24>ساعته۲۴</time_24>
+    <day_1>روز۱</day_1>
+    <day_2>۲ روز</day_2>
+    <week_1>۱ هفته</week_1>
+    <logout_url>خروج URL</logout_url>
+    <disable_attach_item>غیرفعال کردن الصاق در وب‌کلاینت</disable_attach_item>
+    <disable_virtual>غیرفعال کردن پوشه‌های جستجو</disable_virtual>
+    <disable_languages>غیرفعال کردن انتخاب زبان در صفحه لاگین</disable_languages>
+    <confirm_exit>تایید هنگام خروج</confirm_exit>
+    <compose>تحریر ایمیل</compose>
+    <never>هرگز</never>
+    <always>همیشه</always>
+    <homepage>صفحه اصلی</homepage>
+    <banner_enable>فعال کردن فریم تبلیغاتی</banner_enable>
+    <application_enable>فعال کردن بنر دانلود نرم‌افزار</application_enable>
+    <banner_url>آدرس بنر</banner_url>
+    <banner_height>ارتفاع بنر</banner_height>
+    <count_subject>تعداد دفعات پاسخ به ایمیل نمایش داده شود (مثلا Re[4], Fw[2])</count_subject>
+    <reply_prefix>نشان‌گذاری ایمیل هنگام پاسخ (&gt;)</reply_prefix>
+    <collate>MySQLپشتیبانی از مرتب سازی نامه های الکترونیکی (جمع بندی) برای</collate>
+    <init_page>صفحه نخست</init_page>
+    <remember_folder>یادآوری آخرین پوشه</remember_folder>
+    <show_inbox>صندوق ورودی</show_inbox>
+    <show_home>صفحه اصلی</show_home>
+    <clear_trash>پاک‌کردن ایمیل‌های موجود در سطل بازیافت هر (روز)</clear_trash>
+    <clear_spam>حذف ایمیل‌های اسپم با عمر بیش از (روز)</clear_spam>
+    <clear_gwtrash>حذف آیتم‌های سطل بازیافت (روز)</clear_gwtrash>
+    <alias>ایمیل پیش‌فرض</alias>
+    <subscribed_holidays>مناسبت‌های انتخاب شده</subscribed_holidays>
+    <holidays>مناسبت‌ها</holidays>
+    <weather>آب‌وهوا</weather>
+    <temperature>دما</temperature>
+    <c>سلسیوس (°C)</c>
+    <f>فارنهایت (°F)</f>
+    <city>شهر</city>
+    <disable_folder_types>پوشه‌هایی از این نوع غیرفعال شوند</disable_folder_types>
+    <antispam>آنتی‌-اسپم</antispam>
+    <spam_mode>حالت پوشه اسپم</spam_mode>
+    <reports_mode>حالت گزارش اسپم</reports_mode>
+    <quarantine>قرنطینه</quarantine>
+    <last_time>آخرین تاریخ ورود</last_time>
+    <last_ip>لاگین IPآخرین</last_ip>
+    <current_time>تاریخ ورود فعلی</current_time>
+    <current_ip>فعلی ورودIP</current_ip>
+    <default>پیش‌فرض</default>
+    <use_spam>از پوشه اسپم استفاده شود</use_spam>
+    <not_spam>از پوشه اسپم استفاده نشود</not_spam>
+    <disabled>غیرفعال</disabled>
+    <all>همه</all>
+    <none>هیچکدام</none>
+    <full>کامل</full>
+    <new_items>آیتم‌های جدید</new_items>
+    <smtp_relay>برای گیرندگان ناموفق پیام ها را پس بگیرید</smtp_relay>
+    <restrictions>محدودیت‌ها</restrictions>
+    <hide_sortstring>رشته مرتب‌سازی را پنهان کنید</hide_sortstring>
+    <disable_aliases>نام مستعار را غیرفعال کنید</disable_aliases>
+    <disable_redirect>تغییر مسیر را غیرفعال کنید</disable_redirect>
+    <disable_other_accounts>بقیه کاربران را غیرفعال کنید</disable_other_accounts>
+    <disable_edit_vcard>ویرایش جزئیات من را غیرفعال کنید</disable_edit_vcard>
+    <disable_edit_account>ویرایش جزئیات من را غیرفعال کنید</disable_edit_account>
+    <disable_change_password>تغییرات رمزعبور را غیرفعال کنید</disable_change_password>
+    <disable_antispam_control>پنهان کردن برگه ضد هرزنامه</disable_antispam_control>
+    <disable_licenses>برگه مجوزها را غیرفعال کنید</disable_licenses>
+    <disable_signup>ثبت نام را غیرفعال کنید</disable_signup>
+    <disable_sip>WebPhone (سرویس گیرنده داخلی VoIP) را غیرفعال کنید</disable_sip>
+    <disable_call_forwarding>حمل و نقل تماس را غیرفعال کنید</disable_call_forwarding>
+    <disable_external_sip>VoIP خارجی را غیرفعال کنید</disable_external_sip>
+    <disable_export>صادرات GroupWare را غیرفعال کنید</disable_export>
+    <disable_smart>SmartAttach را غیرفعال کنید</disable_smart>
+    <disable_autorevision>اجازه ندهید که چرخش خودکار را فعال کنید</disable_autorevision>
+    <disable_dropbox>Dropbox را غیرفعال کنید</disable_dropbox>
+    <disable_im>وب چت را غیرفعال کنید</disable_im>
+    <disable_sms>غیرفعال کردن پیامک</disable_sms>
+    <disable_remember_pulldown>غیرفعال کردن &quot;مرا به خاطر بسپار&quot;</disable_remember_pulldown>
+    <disable_autofill>غیرفعال کردن امکان انتخاب اکانت</disable_autofill>
+    <disable_rules>غیرفعال کردن قوانین</disable_rules>
+    <disable_gmaps>غیرفعال کردن Google Maps</disable_gmaps>
+    <disable_forwarder>پنهان کردن برگه Forwarder</disable_forwarder>
+    <disable_keep_emails>&quot;نگه داشتن ایمیل ها در صندوق پستی&quot; را در بازارسال پنهان کنید</disable_keep_emails>
+    <disable_autoresponder>پنهان کردن  پاسخ خودکار</disable_autoresponder>
+    <share_mode>حالت اشتراک‌گذاری</share_mode>
+    <share_p>خصوصی (اطلاعات به اشتراک گذاشته نمی‌شود)</share_p>
+    <share_pf>عمومی (اطلاعات با همه به اشتراک گذاشته می‌شود)</share_pf>
+    <share_f>دوستان (اطلاعات فقط با دوستان به اشتراک گذاشته می‌شود)</share_f>
+    <daily_event_report>دستور کار روزانه توسط ایمیل ارسال شود</daily_event_report>
+    <reminder_notification>قرارها از طریق ایمیل یادآوری شوند</reminder_notification>
+    <reminder_email>آدرس ایمیل جهت یادآوری و ارسال دستورکار</reminder_email>
+    <integrations>ارتباطات</integrations>
+    <dropbox_app_key>Dropbox App Key</dropbox_app_key>
+    <dropbox_instructions>برای یکپارچه سازی Dropbox ، به سایت www.dropbox.com وارد شوید ، به بخش توسعه دهنده بروید و یک کلید برنامه ایجاد کنید. برای دسترسی به WebClient از شما خواسته می شود یک توضیح کوتاه و نام میزبان یا IP وارد کنید.</dropbox_instructions>
+    <google_maps_api_key>کلید API گوگل مپس</google_maps_api_key>
+    <google_maps_instructions>برای استفاده از گوگل‌مپس به این آدرس https://developers.google.com/maps/documentation/javascript/get-api-key لاگین کرده و یک کلید ایجاد نمایید.</google_maps_instructions>
+    <server>سرور</server>
+    <login_with_email>لاگین با آدرس ایمیل</login_with_email>
+    <server_logs>Logging level</server_logs>
+    <server_logs0>هیج</server_logs0>
+    <server_logs2>خلاصه</server_logs2>
+    <server_logs3>اشکال زدایی</server_logs3>
+    <server_logs4>تعمیم داده شده</server_logs4>
+    <http_port>HTTP port</http_port>
+    <imapserver>IMAP server</imapserver>
+    <smtpserver>SMTP server</smtpserver>
+    <xmppserver>XMPP server</xmppserver>
+    <port>پورت</port>
+    <pgtitle>عنوان صفحه</pgtitle>
+    <logo>لوگوی صفحه لاگین</logo>
+    <background>پیش‌زمینه صفحه لاگین</background>
+    <use_uploaded>استفاده از فایل آپلود شده</use_uploaded>
+    <login_style>رنگ لاگین</login_style>
+    <skin_style>تم قالب</skin_style>
+    <spell_language>غلط‌یاب</spell_language>
+    <delete_emptyfolder>ایمیل‌ها هنگام خالی‌کردن پوشه بطور دائم حذف شوند</delete_emptyfolder>
+    <show_images>تصاویر خارجی ایمیل، بصورت خودکار نمایش داده شوند</show_images>
+    <show_images_spam>تصاویر پوشه اسپم هم خودکار نمایش داده شوند</show_images_spam>
+    <auto_show_images>تصاویر پیوست شده خودکار نمایش داده شوند</auto_show_images>
+    <sound_notify>فعال کردن اعلان صوتی</sound_notify>
+    <system_notify>استفاده از اعلان سیستمی</system_notify>
+    <domains_settings>دامنه‌ها</domains_settings>
+    <domain>دامنه</domain>
+    <edit_settings>ویرایش تنظیمات دامنه</edit_settings>
+    <resetpass>ریست کردن رمز</resetpass>
+    <resetmail>ایمیل</resetmail>
+    <resetenable>فعال کردن امکان تغییر رمز</resetenable>
+    <accounts>حساب‌های کاربری</accounts>
+    <account>اکانت</account>
+    <tools>ابزارها</tools>
+    <autoresponder>پاسخ‌دهی اتوماتیک</autoresponder>
+    <forwarder>فورواردر</forwarder>
+    <pcertificate>سرتفیکیت‌های شخصی</pcertificate>
+    <certificate>گواهینامه‌ها</certificate>
+    <mail_settings>ایمیل</mail_settings>
+    <chat_settings>IM</chat_settings>
+    <teamchat_digest>ایمیل‌های اطلاع‌رسانی</teamchat_digest>
+    <teamchat_digest_helper>به کاربران اجازه تنظیم ایمیل‌های اطلاع‌رسانی را بده</teamchat_digest_helper>
+    <teamchat_digest_daily>دریافت ایمیل خلاصه کار روزانه</teamchat_digest_daily>
+    <teamchat_digest_pin>بلافاصله در ارتباط با پین جدید خبررسانی کن</teamchat_digest_pin>
+    <teamchat_digest_file>بلافاصله در ارتباط با فایل جدید اطلاع‌رسانی کن</teamchat_digest_file>
+    <teamchat_digest_mention>بلافاصله در ارتباط با منشن جدید اطلاع‌رسانی کن</teamchat_digest_mention>
+    <sip_settings>تلفن وبی</sip_settings>
+    <sip_webrtc>در صورت امکان از امکانات آماده براوزر استفاده شود</sip_webrtc>
+    <sip_start>تلفن وبی اتوماتیک فعال شود</sip_start>
+    <sip_internal>با اکانت VoIP شما ادغام شود (SIP)</sip_internal>
+    <sip_external>با اکانت VoIP خارجی شما ادغام شود (SIP)</sip_external>
+    <sip_dial>با اکانت خارجی VoIP شماره‌گیری شود (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>شماره‌گیری توسط اکانت Voip شما (تلفن یا نرم‌افزار وصل شده یه آیس‌وارپ)</sip_dial_internal>
+    <call_forwarding>انتقال مکالمه</call_forwarding>
+    <use_forwarding>استفاده از امکان انتقال مکالمه</use_forwarding>
+    <forward_to>انتقال مکالمه به</forward_to>
+    <forward_after>انتقال بعد از (ثانیه)</forward_after>
+    <chat_window>پنجره چت</chat_window>
+    <auto_chat>پنجره چت به هنگام دریافت پیام، بصورت اتوماتیک باز شود</auto_chat>
+    <auto_subscribe>کاربران جدید اتوماتیک به لیست چت اضافه شوند</auto_subscribe>
+    <remember_status>وضعیت مسنجر را هنگام خروج به خاطر بسپار</remember_status>
+    <extended_status>وضعیت‌های قابل انتخاب</extended_status>
+    <newline_chat>شروع چت در خط جدید</newline_chat>
+    <smiles_chat>استفاده از شکلک‌ها</smiles_chat>
+    <enter_send>ارسال پیام با زدن کلید Enter</enter_send>
+    <general_settings>عمومی</general_settings>
+    <other_accounts>سایر حساب‌ها</other_accounts>
+    <primary_accounts>حساب من</primary_accounts>
+    <account_settings>حساب‌های کاربری</account_settings>
+    <importexport_settings>ورودی/خروجی</importexport_settings>
+    <default_reminder>تنظیمات پیش‌فرض یادآوری بر روی قرارها جدید اعمال شود</default_reminder>
+    <use_sslswfatt>در ارتباطات SSL از بارگذاری با استفاده از HTTP Flash استفاده شود</use_sslswfatt>
+    <use_office>باز کردن فایل‌ها در صورت امکان توسط</use_office>
+    <use_pdf>باز کردن فایل‌های PDF بصورت داخلی</use_pdf>
+    <preview_delay>تأخیر در پیش نمایش مورد (میلی ثانیه)</preview_delay>
+    <banner_enabled>بنر در صفحه لاگین نمایش داده شود</banner_enabled>
+    <twitter_disabled>ارتباط با توییتر را غیرفعال کن</twitter_disabled>
+    <twitter_link>هندل توییتر</twitter_link>
+    <linkedin_disabled>ارتباط با LinkedIn را غیرفعال کن</linkedin_disabled>
+    <linkedin_link>لینک LinkedIn</linkedin_link>
+    <facebook_disabled>ارتباط با فیسبوک را غیرفعال کن</facebook_disabled>
+    <facebook_link>URL صفحه برای پسندیدن</facebook_link>
+    <skin>قالب</skin>
+    <items_ab_shown>تعداد موارد آدرس انتخاب شده را انتخاب کنید</items_ab_shown>
+    <date_format>فرمت تاریخ</date_format>
+    <time_format>فرمت زمان</time_format>
+    <language>زبان</language>
+    <timezone>منطقه زمانی</timezone>
+    <general>عمومی</general>
+    <default_mail_settings>ارسال ایمیل</default_mail_settings>
+    <folders_mapping>پوشه‌های پیش‌فرض</folders_mapping>
+    <subject>موضوع</subject>
+    <message_format>قالب پیام</message_format>
+    <re_message_format>قالب پاسخ به ایمیل</re_message_format>
+    <html_message>پیام HTML</html_message>
+    <read_confirmation>تاییدیه ایمیل</read_confirmation>
+    <request_read_confirmation>درخواست تاییدیه خوانده شدن</request_read_confirmation>
+    <send_read_confirmation>اجازه ارسال</send_read_confirmation>
+    <ask_before>قبل از ارسال پرسیده شود</ask_before>
+    <smart_attach>استفاده از الصاق هوشمند</smart_attach>
+    <save_sent_message>ایمیل‌های ارسالی در پوشه ارسالی ذخیره شوند</save_sent_message>
+    <save_folder_message>ذخیره ایمیل ارسال شده</save_folder_message>
+    <encrypt>ایمیل‌ها رمز‌گذاری شوند</encrypt>
+    <sign>ایمیل‌ها دیجیتالی امضا شوند</sign>
+    <appendvcard>مشخصات من ضمیمه شوند (vCard)</appendvcard>
+    <charset>نوع کاراکترها</charset>
+    <priority>اولویت</priority>
+    <reply_to>آدرس جهت ارسال پاسخ</reply_to>
+    <reply_myself>ارسال رونوشت مخفی برای خودم</reply_myself>
+    <move_to_trash>ایمیل‌های حذف شده به سطل‌بازیافت منتقل شوند</move_to_trash>
+    <auto_add_recipient_to_addressbook>گیرنده ایمیل بطور اتوماتیک به دفترتلفن اضافه شود</auto_add_recipient_to_addressbook>
+    <edit_rules>قوانین</edit_rules>
+    <rules>قوانین</rules>
+    <forward_messages>فوروارد کردن پیام‌ها</forward_messages>
+    <inline>در دنباله ایمیل</inline>
+    <as_attachment>بعنوان ضمیمه</as_attachment>
+    <autoupdate_message>چک کردن برای ایمیل جدید هر (دقیقه)</autoupdate_message>
+    <autosave_message>ذخیره کردن پیش‌نویس ایمیل‌ها هر (دقیقه)</autosave_message>
+    <calendar_settings>تقویم</calendar_settings>
+    <main>اصلی</main>
+    <day_begins_at>شروع روز از</day_begins_at>
+    <day_ends_at>پایان روز در</day_ends_at>
+    <week_begins_on>شروع هفته از</week_begins_on>
+    <week_starts_today>اولین ستون هفته روز جاری باشد</week_starts_today>
+    <workweek_begins_on>شروع هفته کاری از</workweek_begins_on>
+    <workweek_ends_on>پایان هفته کاری در</workweek_ends_on>
+    <autosave_documents>ذخیره اتوماتیک یادداشت‌ها و فایل‌های ویرایش شده هر (دقیقه)</autosave_documents>
+    <sharing_settings>اشتراک‌گذاری</sharing_settings>
+    <shared_email>ایمیل مشترک</shared_email>
+    <email>ایمیل</email>
+    <rights>دسترسی‌ها</rights>
+    <read>خواندن</read>
+    <write>نوشتن</write>
+    <modify>ویرایش</modify>
+    <delete>حذف</delete>
+    <owner>مالک</owner>
+    <author>نویسنده</author>
+    <administer>مدیریت</administer>
+    <acc_name>نام</acc_name>
+    <quota>سهمیه دیسک</quota>
+    <sms_quota>سهمیه پیامک</sms_quota>
+    <quota_home>سهمیه دیسک (شامل موارد موجود در همه پوشه های نامه ، پوشه های پرونده ، پیوست های مخاطبین ، رویدادها ، ...)</quota_home>
+    <description>توضیح</description>
+    <old_password>رمز قدیم</old_password>
+    <new_password>رمز جدید</new_password>
+    <new_password_conf>تایید رمز</new_password_conf>
+    <save_drafts_to>ذخیره پیش نویس‌ها در</save_drafts_to>
+    <default_flag>پرچم پیش‌فرض</default_flag>
+    <alternative_email>ایمیل ثانویه</alternative_email>
+    <default_settings>تنظیمات پیش‌فرض</default_settings>
+    <event_view>نمای تقویم</event_view>
+    <event_show_as>نمایش قرارها بصورت</event_show_as>
+    <event_sharing>اشتراک‌گذاری قرارها</event_sharing>
+    <contact_sharing>اشتراک‌گذاری مخاطبین</contact_sharing>
+    <journal_sharing>اشتراک‌گذاری ژورنال</journal_sharing>
+    <note_sharing>اشتراک‌گذاری یادداشت‌ها</note_sharing>
+    <task_sharing>اشتراک‌گذاری فعالیت‌ها</task_sharing>
+    <file_sharing>اشتراک‌گذاری فایل‌ها</file_sharing>
+    <force_for_domainadmin>این گزینه برای کاربران و مدیران دامنه اجبار شود</force_for_domainadmin>
+    <force_for_users>این گزینه برای کاربران اجبار شود</force_for_users>
+    <force>اجبار کردن گزینه</force>
+    <edit_document>ویرایش فایل‌ها</edit_document>
+    <rename>تغییر نام</rename>
+    <invite>دعوت</invite>
+    <kick>Kick</kick>
+    <policy_messages_roster>فقط از کاربران داخل لیست کانتکت پیام قبول کن</policy_messages_roster>
+    <disable_gone_message>پیام &quot;کاربر مکالمه را ترک کرده است&quot; را غیرفعال کن</disable_gone_message>
+    <hide_offline_contacts>کانتکت‌های آفلاین را نمایش نده</hide_offline_contacts>
+    <used_for_password_recovery>استفاده برای برگرداندن رمز</used_for_password_recovery>
+    <custom>دستی</custom>
+    <troubleshooting>خطایابی</troubleshooting>
+    <disable_document_integration>غیرفعال کردن امکانات فایلی</disable_document_integration>
+    <group_contacts_by_email>گروه‌بندی کاربران بر اساس ایمیل</group_contacts_by_email>
+    <oauth>OAuth احرازهویت</oauth>
+  </settings>
+  <email_priority>
+    <highest>بالاترین</highest>
+    <high>بالا</high>
+    <normal>عادی</normal>
+    <medium>متوسط</medium>
+    <low>پایین</low>
+    <lowest>پایین‌ترین</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>انتخاب پوشه</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>انتخاب آیتم</insert_item>
+    <untitled>بدون عنوان</untitled>
+    <embedded>جاسازی شده</embedded>
+    <link>لینک</link>
+  </insert_item>
+  <attendees>
+    <shared>مخاطبین پیشنهادی</shared>
+    <add_title>اضافه</add_title>
+    <edit_title>ویرایش</edit_title>
+    <resource>ابزار</resource>
+    <remove>حذف</remove>
+    <edit>ویرایش</edit>
+    <name>نام</name>
+    <email>ایمیل</email>
+    <folder>انتخاب پوشه</folder>
+    <attendees>%s شرکت کننده</attendees>
+    <attendees_myself>شما و %s شرکت کننده</attendees_myself>
+    <all_attendees>همه شرکت‌کنندگان</all_attendees>
+    <status>وضعیت</status>
+    <status_p>منتظر</status_p>
+    <status_a>قبول</status_a>
+    <status_d>رد شده</status_d>
+    <role>نقش</role>
+    <role_q>الزامی</role_q>
+    <role_s>منبع</role_s>
+    <role_t>دلخواه</role_t>
+    <role_g>برگذار کننده</role_g>
+    <quick_add>نام مخاطب یا ابزار را وارد کنید</quick_add>
+  </attendees>
+  <dial>
+    <dial>شماره‌گیری</dial>
+    <keypad>کلیدها</keypad>
+    <call>تماس</call>
+    <mute>قطع میکروفون</mute>
+    <hold>پشت خط گذاشتن</hold>
+    <unhold>شروع</unhold>
+    <add_video>اضافه کردن ویدیو</add_video>
+    <answer>پاسخ</answer>
+    <decline>رد تماس</decline>
+    <filter>نمایش مخاطب تماس</filter>
+    <hfilter>فقط نمایش تماس‌های از دست رفته</hfilter>
+    <phone>تلفن وبی</phone>
+    <duration>زمان:</duration>
+    <video>تصویری</video>
+    <localcam>این سیستم</localcam>
+    <remotecam>سیستم ریموت</remotecam>
+    <answer_video>تماس + تصویر</answer_video>
+    <hang_up>قطع تماس</hang_up>
+    <busy>خط کاربر مشغول است</busy>
+    <pbook>دفتر تلفن</pbook>
+    <refresh>بروز رسانی تاریخچه</refresh>
+    <call_duration>مدت تماس %s</call_duration>
+    <history>تاریخچه</history>
+    <missed>از دست رفته</missed>
+    <incoming>ورودی</incoming>
+    <outgoing>خروجی</outgoing>
+    <select_contect>مخاطب مورد نظر را انتخاب کنید</select_contect>
+    <calling>تماس با</calling>
+    <incomingcall>تماس از طرف</incomingcall>
+    <callestablished>تماس با</callestablished>
+    <notify_ext>شماره‌گیری با گوشی خارجی</notify_ext>
+  </dial>
+  <sip>
+    <sip>تلفن وبی</sip>
+    <external>تماس از طریق گوشی</external>
+    <screen>تماس به همراه اشتراک صفحه</screen>
+    <sip_status>تلفن وبی: %s</sip_status>
+    <default_contact>تماس پیش فرض WebPhone</default_contact>
+    <unreachable>سرور در دسترس نمی‌باشد</unreachable>
+    <device>امکانات صوتی در سیستم شما یافت نشد</device>
+    <videonotsupported>مرورگر شما از تماس تصویری پشتیبانی نمی‌کند، برای بهترین نتیجه از آخرین نسخه فایرفاکس یا کروم استفاده نمایید.</videonotsupported>
+    <offline>تلفن وبی خاموش است. تماس از طریق گوشی و یا سیستم VoIP متصل به کامپیوتر شما گرفته خواهد شد.</offline>
+    <outgoingcall>شما در حال تماس با %s هستید</outgoingcall>
+    <incomingcall>%s در حال گرفتن شماره شما است.</incomingcall>
+    <callongoing>شماره در حال مکالمه با %s هستید</callongoing>
+    <callestablished>تماس با %s برقرار شد</callestablished>
+    <userbusy>کاربر %s مشغول است</userbusy>
+    <callfinished>تماس پایان یافت</callfinished>
+    <callcanceled>تماس پایان یافت</callcanceled>
+    <notreachable>ارتباط با کاربر از طریق تلفن وبی میسر نشد.</notreachable>
+    <notavailable>کاربر در حال حاضر در دسترس نمی‌باشد</notavailable>
+    <calldeclined>تماس شما رد شد.</calldeclined>
+    <info>اطلاعات تلفن وبی: %s</info>
+    <notification>کاربر %s %s می‌باشد</notification>
+    <error>هشدار تلفن وبی</error>
+    <notice>هشدار تلفن وبی</notice>
+    <playblocked>صدا قابل پخش نیست لطفاً تنظیمات پخش خودکار را در تنظیمات برگزیده تغییر دهید تا همه پخش خودکار برای این دامنه مجاز باشد</playblocked>
+    <udp>خطای اتصال WebPhone. فایروال یا اتصال به اینترنت خود را بررسی کنید.</udp>
+    <went_offline>تلفن وبی هم‌اکنون خاموش است</went_offline>
+    <online_failed>خطا در فعال کردن تلفن وبی</online_failed>
+    <registration_failed>امکان فعال شدن تلفن وبی وجود ندارد. تنظیمات تلفن را چک کرده و یا بعدا امتحان کنید.</registration_failed>
+    <slow>مقداردهی اولیه خیلی کند است. WebPhone ممکن است به درستی کار نکند.</slow>
+    <init>خطای اتصال WebPhone. تنظیمات خود را در تنظیمات - تلفن بررسی کنید.</init>
+    <begin_test>شروع تست</begin_test>
+    <webphone_setup>تنظیم وب‌فون</webphone_setup>
+    <access_camera>دسترسی به دوربین</access_camera>
+    <access_microphone>دسترسی به میکروفون</access_microphone>
+    <mediarequest>جهت ارتباط با دیگران، لطفا اجازه دسترسی به میکروفون را بدهید. اگر مشکل حل نشد، تست مربوطه را انجام داده تا از فعالیت درست سیستم مطمئن شوید.</mediarequest>
+    <mediarequest_video>لطفا جهت ارتباط با کاربران، اجازه دسترسی به دوربین را بدهید. اگر مشکل پابرجا بود، تست ما را انجام داده و مطمئن شوید که همه چی بصورت عادی کار می‌نماید.</mediarequest_video>
+    <invalidstate>دسترسی به دستگاههای رسانه مورد نیاز امکان پذیر نیست. برنامه دیگری می تواند از قبل استفاده از آنها باشد.</invalidstate>
+    <nopermission>اجازه استفاده از دستگاههای رسانه ای رد شده یا مسدود شده است. برای تعامل باید از میکروفون یا دوربین استفاده کنید.</nopermission>
+    <mediadenied>دسترسی به دستگاه (های) رسانه درخواستی امکان پذیر نیست. احتمالاً آنها قطع یا پیکربندی غلط شده اند.</mediadenied>
+    <ffmedia>دسترسی به رسانه مجاز نیست. برای مجاز یا رد دسترسی به رسانه ، از میکروفون یا نماد دوربین در سمت چپ بالای مرورگر استفاده کنید.</ffmedia>
+    <notsecure>از آنجا که شما از طریق اتصال ایمن متصل نیستید ، WebPhone غیرفعال شده است</notsecure>
+    <nowebrtc>مرورگر شما از WebRTC برای صدا / تصویر پشتیبانی نمی کند. از مرورگر دیگری استفاده کنید (ما Chrome را پیشنهاد می کنیم) یا یک افزونه مرورگر WebRTC نصب کنید.</nowebrtc>
+    <gettingmedia>یک ویدئو کنفرانس / تماس در حال انجام است. لطفاً اجازه دسترسی به دستگاه ها را بدهید یا آن را ادامه دهید.</gettingmedia>
+    <occupied>WebPhone از قبل استفاده شده است.</occupied>
+  </sip>
+  <conference>
+    <chatinvite>من میخواهم شمارا به ویدئو کنفرانس دعوت کنم%s</chatinvite>
+    <chatalreadyconference>شما یک دعوت نامه به ویدئو کنفرانس جدید دریافت کرده اید اما اکنون نمی توانید به آن بپیوندید ، زیرا از قبل در یک ویدئو کنفرانس مشغول هستید.</chatalreadyconference>
+    <confirminvite>برای شما دعوت نامه ای به ویدئو کنفرانس ارسال کرد</confirminvite>
+    <createfirst>در حال حاضر هیچ ویدئو کنفرانسی در حال انجام نیست ، آیا می خواهید یک ویدئو کنفرانس آغاز کنید؟</createfirst>
+    <history>تاریخچه</history>
+    <id>شناسه ویدئو کنفرانس:</id>
+    <invite>دعوت کردن</invite>
+    <join>پیوستن به ویدئو کنفرانس</join>
+    <joinnow>به ویدئو کنفرانس موجود بپیوندید</joinnow>
+    <mailinvite>اکنون می توانید به این ویدئو کنفرانس بپیوندید</mailinvite>
+    <nocallallowed>برقراری تماس در طول یک ویدئو کنفرانس مجاز نیست</nocallallowed>
+    <notauthenticated>شما به این سرویس احراز هویت نشده اید.</notauthenticated>
+    <planner>برنامه ریز ویدئو کنفرانس</planner>
+    <meet_now>ویدئو کنفرانس را آغاز کنید</meet_now>
+    <schedule>برنامه ریزی برای یک ویدئو کنفرانس</schedule>
+    <scheduleorstart>آیا می خواهید ویدئو کنفرانسی را شروع کنید یاویدئو کنفرانسی را در کارتابل خود برنامه ریزی کنید؟</scheduleorstart>
+    <startnow>شروع ویدئو کنفرانس</startnow>
+    <title>ویدئو کنفرانس</title>
+    <upcoming>کارتابل</upcoming>
+    <meet_now_info1>ویدئو کنفرانس شما آماده است.</meet_now_info1>
+    <meet_now_info2>برای شروع روی دکمه Meet now کلیک کنید.</meet_now_info2>
+    <min_to_go>%s دقیقه تا شروع</min_to_go>
+    <conference_info>%0 توسط%1</conference_info>
+    <type_name>نام ویدئو کنفرانس خود را وارد کنید</type_name>
+    <is_organiser>%s برنامه ریز است</is_organiser>
+    <you_organiser>شما برنامه ریز هستید</you_organiser>
+    <show_attendees>تمام شرکت کننده ها را نشان دهید</show_attendees>
+    <attendees>شرکت کننده ها</attendees>
+    <in_progress>در حال پیش رفت</in_progress>
+    <conference_in_progress>%s در حال پیشرفت</conference_in_progress>
+    <leave>ترک کردن</leave>
+    <unscheduled>ویدئو کنفرانس برنامه ریزی نشده</unscheduled>
+    <cannot_start_new>نمی توان ویدئو کنفرانس جدیدی را شروع کرد</cannot_start_new>
+    <already_running>ویدئو کنفرانس در حال اجرا است</already_running>
+    <back_to_main>بازگشت</back_to_main>
+    <set_password>تنظیم رمزعبور</set_password>
+    <remove_password>حذف رمزعبور</remove_password>
+    <conference_password>رمزعبور ویدئو کنفرانس : %s</conference_password>
+    <set_password_placeholder>وارد کردن رمزعبور</set_password_placeholder>
+    <include_password>رمز عبور را وارد کنید</include_password>
+    <start>شروع</start>
+    <link>لینک ویدئو کنفرانس</link>
+    <upcoming_no_items>هیچ ویدئو کنفرانسی در کارتابل شما وجود ندارد.</upcoming_no_items>
+    <upcoming_no_items_helper>برای شروع یا برنامه ریزی برای یک ویدئو کنفرانس از دکمه های سمت راست استفاده کنید.</upcoming_no_items_helper>
+    <history_no_items>درتاریخچه شما، اخیرا هیچ ویدئو کنفرانسی برگزار نشده است.</history_no_items>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>.جاوا برای راه اندازی مستقیم برنامه های آفیس شما از طریق مرورگر وب و بارگذاری خودکار تغییرات داکیومنت مورد نیاز است</nolaunch>
+    <nooffice>هیچ مجموعه آفیسی شناسایی نشده است.</nooffice>
+    <openfailed>داکیومنت در آفیس باز نمی‌شود. آیا می‌خواهید آن را بارگیری کنید؟</openfailed>
+    <noappfound>برنامه‌ای برای باز کردن این نوع داکیومنت یافت نشد.</noappfound>
+    <officesuite>ویرایش در آفیس</officesuite>
+    <suite>نرم‌افزار آفیس</suite>
+    <webdoc>وب‌داکیومنت</webdoc>
+    <webdoc_read>وب‌داکیومنت (خواندن)</webdoc_read>
+  </officelauncher>
+  <autoresponder>
+    <mode>حالت:</mode>
+    <disabled>غیرفعال</disabled>
+    <respond_always>همیشه پاسخ بده</respond_always>
+    <respond_once>یک‌بار پاسخ بده</respond_once>
+    <respond_after_period>پاسخ مجدد بعد از طی زمان</respond_after_period>
+    <respond_period>پاسخ مجدد بعد از (روز):</respond_period>
+    <from>فرستنده</from>
+    <subject>موضوع</subject>
+    <text>متن</text>
+    <respond_only_if_to_me>فقط به ایمیل‌هایی که مستقیما برای کاربر ارسال شده‌اند پاسخ داده شود</respond_only_if_to_me>
+    <respond_between>پاسخ به شرطی که بین:</respond_between>
+    <noresponderfor>برای ایمیل‌های زیر پاسخ ارسال نشود</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>فوروارد به:</forward_to>
+    <keep_copy>کپی ایمیل نگه داشته شود</keep_copy>
+    <forward_older>فوروارد ایمیل‌های قدیمی‌تر از (روز):</forward_older>
+    <forward_older_to>فوروارد ایمیل‌های قدیمی به آدرس:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>اضافه / ویرایش</addedit>
+    <header>هدر</header>
+    <filters>فیلترها</filters>
+    <edit_header>ویرایش هدر</edit_header>
+    <empty_operator/>
+    <not>نه</not>
+    <and>و</and>
+    <or>یا</or>
+    <and_not>و نه</and_not>
+    <or_not>یا نه</or_not>
+    <from>فرستنده:</from>
+    <to>گیرنده:</to>
+    <subject>موضوع:</subject>
+    <cc>رونوشت:</cc>
+    <reply_to>پاسخ به:</reply_to>
+    <date>تاریخ:</date>
+    <message>ایمیل</message>
+    <message_type>نوع پیام:</message_type>
+    <message_body>متن پیام</message_body>
+    <message_to_me>پیام برای من ارسال شد</message_to_me>
+    <message_to_me_only>من تنها دریافت کننده هستم.</message_to_me_only>
+    <message_to_me_to>من در سربرگ to هستم</message_to_me_to>
+    <message_to_me_cc>من در سربرگ Cc هستم</message_to_me_cc>
+    <message_to_me_bcc>من در سربرگ Bcc هستم</message_to_me_bcc>
+    <custom_message_header>سربرگ پیام سفارشی</custom_message_header>
+    <any_message_header>هر هدر ایمیل</any_message_header>
+    <starts_with>شروع با</starts_with>
+    <ends_with>پایان با</ends_with>
+    <local_time_meets_criteria>زمان محلی با معیارها مطابقت دارد</local_time_meets_criteria>
+    <time_criteria>ضوابط زمانی</time_criteria>
+    <attachment_name>نام ضمیمه</attachment_name>
+    <sender>فرستنده</sender>
+    <recipient>گیرنده</recipient>
+    <senders_ip>آی‌پی فرستنده</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>احراز هویت SMTP</smtp_auth>
+    <ip>آی‌پی / فرستنده</ip>
+    <all_messages>همه پیام‌ها</all_messages>
+    <priority_is>اولویت برابر با</priority_is>
+    <priority_isnt>اولویت برابر نباشد با</priority_isnt>
+    <is_spam>اسپم باشد</is_spam>
+    <isnt_spam>اسپم نباشد</isnt_spam>
+    <is_greater_than>بزرگتر باشد از</is_greater_than>
+    <is_lower_than>کوچکتر باشد از</is_lower_than>
+    <match_case>انطباق بزرگی حروف</match_case>
+    <regexp>Regex</regexp>
+    <whole_word>انطباق کل کلمه</whole_word>
+    <matches>منطبق با</matches>
+    <doesnt_match>منطبق نباشد با</doesnt_match>
+    <string_starts_with>شروع می‌شود با</string_starts_with>
+    <doesnt_start_with>شروع نمی‌شود با</doesnt_start_with>
+    <string_ends_with>پایان می‌یابد با</string_ends_with>
+    <doesnt_end_with>پایان نمی‌یابد با</doesnt_end_with>
+    <contains_string>شامل (لیست جداشده با نقطه ویرگول)</contains_string>
+    <doesnt_contain_string>شامل نباشد</doesnt_contain_string>
+    <matches_regex>منطبق با regex</matches_regex>
+    <doesnt_match_regex>عدم انطباق regex</doesnt_match_regex>
+    <is_string>برابر با</is_string>
+    <isnt_string>مخالف</isnt_string>
+    <spam_score>امتیاز اسپم</spam_score>
+    <authorized>مجاز</authorized>
+    <unauthorized>غیرمجاز</unauthorized>
+    <add>اضافه</add>
+    <delete>حذف</delete>
+    <up>بالا</up>
+    <down>پایین</down>
+    <action>عملیات</action>
+    <actions>عملیات</actions>
+    <accept>قبول</accept>
+    <reject>رد</reject>
+    <quarantine>قرنطینه</quarantine>
+    <spam>اسپم</spam>
+    <stop_processing>بقیه قوانین را اعمال نکن</stop_processing>
+    <move_to>انتقال به</move_to>
+    <copy_to>کپی به</copy_to>
+    <encrypt_message>کدگذاری پیام</encrypt_message>
+    <set_message_priority>تغییر اولویت پیام به</set_message_priority>
+    <set_message_flag>تغییر پرچم پیام به</set_message_flag>
+    <text>متن:</text>
+    <title>عنوان</title>
+    <conditions>شرایط</conditions>
+    <edit>ویرایش</edit>
+    <rule>قانون</rule>
+    <rules>قوانین</rules>
+    <highest>بالاترین</highest>
+    <high>بالا</high>
+    <normal>عادی</normal>
+    <low>پایین</low>
+    <lowest>پایین‌ترین</lowest>
+    <spam_is_greater_than>بزرگتر از</spam_is_greater_than>
+    <spam_is_lower_than>کوچکتر از</spam_is_lower_than>
+    <forward_to>فوروارد به</forward_to>
+    <send_message>ارسال پیام</send_message>
+    <three_dots>...</three_dots>
+    <email>ایمیل</email>
+    <instant_messaging>وب‌چت</instant_messaging>
+    <active>فعال</active>
+    <contains_attachment>دارای پیوست</contains_attachment>
+    <doesnt_contain_attachment>پیوست نداشته باشد</doesnt_contain_attachment>
+    <forward_as_attachment>فوروارد به عنوان ضمیمه</forward_as_attachment>
+    <custom_flags>پرچم های سفارشی</custom_flags>
+  </filters>
+  <insert_code>
+    <title>اضافه کردن بلوک کد</title>
+    <insert>قراردادن</insert>
+    <autodetect>تشخیص اتوماتیک زبان</autodetect>
+    <placeholder>کد خود را اینجا وارد کنید</placeholder>
+  </insert_code>
+  <rich>
+    <alt>متن جایگزین</alt>
+    <code>سورس</code>
+    <paragraph>پاراگراف</paragraph>
+    <normal>عادی</normal>
+    <heading>تیتر</heading>
+    <clearformatting>پاک کردن فرمت</clearformatting>
+    <text>متن</text>
+    <font>قلم</font>
+    <size>سایز</size>
+    <rows>ردیف</rows>
+    <create_table>ایجاد جدول %s x %s</create_table>
+    <custom_table>ایجاد جدول دستی</custom_table>
+    <columns>ستون</columns>
+    <padding>فاصله بین سلول‌ها</padding>
+    <spacing>عرض سلول‌ها</spacing>
+    <img_spacing>فضا</img_spacing>
+    <bordercolor>رنگ کادر</bordercolor>
+    <border>کادر</border>
+    <bold>ضخیم</bold>
+    <italic>مایل</italic>
+    <underline>خط زیر</underline>
+    <strikethrough>خط‌ خورده</strikethrough>
+    <subscript>اندیس</subscript>
+    <superscript>توان</superscript>
+    <horizontal_line>خط افقی</horizontal_line>
+    <style>نوع فرمت</style>
+    <align>ترازبندی متن</align>
+    <left>ترازبندی چپ</left>
+    <center>ترازبندی وسط</center>
+    <right>ترازبندی راست</right>
+    <justify>ترازبندی کامل</justify>
+    <numberedlist>لیست عددی</numberedlist>
+    <bulletedlist>لیست بولت‌دار</bulletedlist>
+    <indent>فاصله</indent>
+    <leftindent>فاصله از چپ</leftindent>
+    <rightindent>فاصله از راست</rightindent>
+    <bgcolor>رنگ زمینه</bgcolor>
+    <color>رنگ متن</color>
+    <cut>برش بخش انتخاب شده</cut>
+    <copy>کپی بخش انتخاب شده</copy>
+    <paste>پیست</paste>
+    <pastew>پیست بعنوان متن</pastew>
+    <insert>اضافه کردن</insert>
+    <addlink>لینک</addlink>
+    <table>جدول</table>
+    <image>تصویر</image>
+    <dropbox>Dropbox لینک</dropbox>
+    <spell>غلط‌یاب</spell>
+    <url>آدرس اینترنتی</url>
+    <uploaded>آپلود شده</uploaded>
+    <internal>داخلی</internal>
+    <direction>جهت پاراگراف (در HTML)</direction>
+    <ltr>چپ به راست</ltr>
+    <rtl>راست به چپ</rtl>
+    <screenshot>تصویر از مانیتور</screenshot>
+    <paste_img>پیست تصویر</paste_img>
+    <img_small>کوچک</img_small>
+    <img_adapt>جا دادن</img_adapt>
+    <img_original>اصلی</img_original>
+    <remove_format>برداشتن فرمت</remove_format>
+    <undo>برگرداندن</undo>
+    <redo>تکرار</redo>
+    <link>لینک</link>
+    <width>عرض</width>
+    <height>ارتفاع</height>
+  </rich>
+  <preloader>
+    <loading>بارگذاری</loading>
+    <framework>بارگذاری فریموورک</framework>
+    <settings>بارگذاری تنظیمات</settings>
+    <language>بارگذاری منابع</language>
+    <indexing>ایندکس‌گذاری</indexing>
+    <startup>شروع</startup>
+    <docedit>ویرایش فایل</docedit>
+  </preloader>
+  <utilities>
+    <desktop_client>نرم‌افزار برای دسکتاپ</desktop_client>
+    <outlook_sync>سینک با اوتلوک</outlook_sync>
+    <outlook_2013>اوتلوک ۲۰۱۳</outlook_2013>
+    <help_win_desktop1>دانلود نرم‌افزار دسکتاپ</help_win_desktop1>
+    <help_win_desktop2>فایل دانلود شده را اجرا کنید. در منوی main در نرم‌افزار، گزینه‌ &lt;b&gt;Tools - Accounts&lt;/b&gt; را انتخاب نمایید. پنجره &lt;b&gt;Accounts&lt;/b&gt; ظاهر می‌شود. در این پنجره بر روی &lt;b&gt;New Account&lt;/i&gt;&lt;/b&gt; کلیک نمایید. پنجره تعریف گام‌به‌گام حساب جدید نمایش داده می‌شود. بخش‌های &lt;i&gt;Email&lt;/i&gt; and &lt;i&gt;Password&lt;/i&gt; را پر کنید و دکمه &lt;b&gt;Start Now&lt;/b&gt; را بزنید.</help_win_desktop2>
+    <help_win_desktop3>در صفحه Account details می‌توانید نام اکانت خود را تغییر دهید. دکمه Next را بزنید. در صفحه بعدی می‌توانید سرویس‌هایی را که مایل به استفاده از آن‌ها نیستید، غیرفعال نمایید. در پایان جهت پایان نصب، دکمه finish را بزنید.</help_win_desktop3>
+    <help_win_osync1>دانلود نرم‌افزار سینک برای اوتلوک</help_win_osync1>
+    <help_win_osync2>فایل دانلود شده را اجرا کنید. در پنجره SmartDiscover، &lt;i&gt;آدرس ایمیل&lt;/i&gt; و &lt;i&gt;رمز&lt;/i&gt; خود را وارد نمایید. توجه کنید گزینه &lt;i&gt;Skip SmartDiscover and configure manually&lt;/i&gt; در این صفحه حتما &lt;b&gt;غیرفعال&lt;/b&gt; باشد. دکمه Next را بزنید.</help_win_osync2>
+    <help_win_osync3>در مرحله بعدی، پنجره فعال سازی لایسنس نرم‌افزار نمایش داده می‌شود.</help_win_osync3>
+    <help_win_osync4>در صورتیکه لایسنس استفاده از نرم‌افزار توسط مدیر سرور به شما تخصیص داده شده است، دکمه Yes را بزنید. در غیر اینصورت در صورتیکه مایل به استفاده از این محصول در بازه آزمایشی ۳۰ روزه هستید، دکمه No را بزنید.</help_win_osync4>
+    <help_win_osync5>جهت پایان نصب نرم‌افزار، دکمه Yes را بزنید.</help_win_osync5>
+    <help_win_20131>در منوی &lt;b&gt;File&lt;/b&gt; در صفحه &lt;b&gt;Account Information&lt;/b&gt; بر روی دکمه &lt;b&gt;Add Account&lt;/b&gt; کلیک کنید. پنجره اضافه کردن اکانت جدید باز می‌شود. در صفحه &lt;b&gt;Auto Account Setup&lt;/b&gt; گزینه &lt;i&gt;Manual setup or additional server types&lt;/i&gt; را انتخاب کنید و دکمه Next را بزنید.&#13;&#10;در صفحه &lt;b&gt;Choose Service&lt;/b&gt; گزینه &lt;i&gt;Outlook.com or Exchange ActiveSync compatible service&lt;/i&gt; را انتخاب نموده و دکمه Next را بزنید.</help_win_20131>
+    <help_win_20132>در صفحه &lt;b&gt;Server Settings&lt;/b&gt; مشخصات خود، سرور و لاگین را کامل نموده و دکمه Next را بزنید.</help_win_20132>
+    <help_win_20133>بعد از تست اکانت دکمه Finish را بزنید.</help_win_20133>
+    <help_osx_all_applications_title>همه نرم‌افزارها</help_osx_all_applications_title>
+    <help_osx_messages_title>پیام‌ها</help_osx_messages_title>
+    <help_osx_messages1>برنامه Messages را از منوی اصلی باز کنید و گزینه &lt;b&gt;Messages - Add Account&lt;/b&gt; را انتخاب نمایید. در قسمت نوع اکانت برای اضافه شدن، گزینه &lt;b&gt;Other messages account...&lt;/b&gt; را انتخاب کرده و دکمه Continue را بزنید.</help_osx_messages1>
+    <help_osx_messages2>در پنجره &lt;b&gt;Add a Messages Account&lt;/b&gt; از گزینه &lt;i&gt;Account Type&lt;/i&gt; آیتم &lt;b&gt;Jabber&lt;/b&gt; را انتخاب نمایید.&#13;&#10;در قسمت &lt;i&gt;Account Name&lt;/i&gt; آدرس ایمیل خود را وارد نموده و رمز خود را در قسمت &lt;i&gt;Password&lt;/i&gt; بزنید. &#13;&#10;در بخش &lt;b&gt;Server Options&lt;/b&gt; گزینه &lt;i&gt;Use SSL&lt;/i&gt; را علامت بزنید. سایر قسمت‌ها در حالت Auto باقی بمانند. دکمه Create را بزنید.</help_osx_messages2>
+    <help_osx_calendar_title>تقویم</help_osx_calendar_title>
+    <help_osx_calendar1>نرم‌افزار calendar را اجرا کنید و از منوی main گزینه &lt;b&gt;Calendar - Add Account&lt;/b&gt; را انتخاب نمایید. از قسمت types of account to add گزینه &lt;b&gt;Add CalDAV Account&lt;/b&gt; را انتخاب نمایید. دکمه Continue را بزنید.</help_osx_calendar1>
+    <help_osx_calendar2>در پنجره &lt;b&gt;Add a CalDAV Account&lt;/b&gt; از گزینه &lt;i&gt;Account Type&lt;/i&gt; آیتم &lt;b&gt;Manual&lt;/b&gt; را انتخاب کنید.&#13;&#10;آدرس ایمیل خود را در قسمت &lt;i&gt;User Name&lt;/i&gt; و در قسمت &lt;i&gt;Password&lt;/i&gt; رمز خود را وارد نمایید.&#13;&#10;نام سرور ایمیل خود را در قسمت &lt;i&gt;Server Address&lt;/i&gt; وارد نمایید و دکمه Create را بزنید.</help_osx_calendar2>
+    <help_osx_calendar3>برای نصب &lt;b&gt;Reminders&lt;/b&gt;، نخست به &lt;b&gt;System Preferences - Internet Accounts&lt;/b&gt; بروید و تقویم جدیدی را که تنظیم کرده‌اید بیابید. سپس گزینه &lt;i&gt;Use With: Reminders&lt;/i&gt; را فعال نمایید.</help_osx_calendar3>
+    <help_osx_contacts_title>مخاطبین</help_osx_contacts_title>
+    <help_osx_contacts1>نرم‌افزار Contacts را از منوی main باز نمایید و گزینه &lt;b&gt;Contacts - Add Account&lt;/b&gt; را انتخاب نمایید. از قسمت  types of account to add، گزینه &lt;b&gt;Other contacts account&lt;/b&gt; را انتخاب نموده و سپس دکمه Continue را بزنید.</help_osx_contacts1>
+    <help_osx_contacts2>در پنجره بعدی، گزینه &lt;b&gt;CardDAV&lt;/b&gt; را در بالای پنجره انتخاب نمایید.&#13;&#10;در قسمت &lt;i&gt;User Name&lt;/i&gt; آدرس ایمیل خود، و در قسمت &lt;i&gt;Password&lt;/i&gt; رمز خود را وارد نمایید. &#13;&#10;آدرس سرور سازمان خود را در قسمت &lt;i&gt;Server Address&lt;/i&gt; وارد نمایید. دکمه Create را بزنید.</help_osx_contacts2>
+    <help_osx_all>همه نرم‌افزارها</help_osx_all>
+    <help_osx_all1>دانلود نرم‌افزار OS X</help_osx_all1>
+    <help_osx_all2>فایل دانلود شده IceWarp Configurator را باز کنید. در صورتیکه به شما پیام داده شده که این فایل از اینترنت دانلود شده است، دکمه Open را بزنید. آدرس ایمیل و رمز خود را وارد نمایید. دکمه &lt;strong&gt;Continue&lt;/strong&gt; را بزنید.</help_osx_all2>
+    <help_osx_all3>در کنارهر نرم‌افزار قابل تنظیم، یک دکمه سبز رنگ &lt;strong&gt;Connect&lt;/strong&gt; قرار دارد. تک تک نرم‌افزارهای مورد نیاز خود را انتخاب نموده و یا برای تنظیم کلیه نرم‌افزارها، دکمه &lt;strong&gt;Connect All&lt;/strong&gt; را بزنید.</help_osx_all3>
+    <help_tablet_and_title>تبلت‌های اندرویدی</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>تبلت‌های ویندوزی</help_tablet_win_title>
+    <help_tablet_win1>در قسمت سمت راست صفحه &lt;b&gt;Start&lt;/b&gt;، گزینه &lt;i&gt;Settings - Change PC Settings - Accounts&lt;/i&gt; را انتخاب نمایید. در صفحه Accounts، گزینه &lt;i&gt;Other accounts&lt;/i&gt; را انتخاب کنید.&#13;&#10;در صفحه Other accounts، دکمه &lt;i&gt;Add a user&lt;/i&gt; را بزنید. در صفحه بعدی نام سرور سازمان خود را وارد نموده و دکمه Next را بزنید.</help_tablet_win1>
+    <help_tablet_win2>را بزنیدNext . رمز خود را وارد نموده و کلیدCreate a Microsoft accountدر صفحه</help_tablet_win2>
+    <help_tablet_win3>را بزنیدFinishکلیک کنید.در صفحه پایانی دکمه nextبرروی .Communication preferencesرا بزنید.در صفحه  Nextتنظیمات مورد نیاز خود را انجام دهید و دکمه Add security infoدر صفحه، .</help_tablet_win3>
+    <help_phone_and_title>ابزارهای اندرویدی</help_phone_and_title>
+    <help_phone_and1>به &lt;b&gt;System settings&lt;/b&gt; رفته و در قسمت &lt;b&gt;Accounts&lt;/b&gt; گزینه &lt;b&gt;Add account&lt;/b&gt; را بزنید. سپس &lt;i&gt;Corporate&lt;/i&gt; را انتخاب نمایید. &#13;&#10;در پنجره &lt;b&gt;Account setup screen&lt;/b&gt;، آدرس ایمیل و رمز خود را وارد نمایید. نام سرور سازمان خود را که از مدیر سرور دریافت کرده‌اید را وارد نمایید. پیشنهاد می‌شود که گزینه &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; را فعال نمایید.&#13;&#10; فعال کردن گزینه &lt;i&gt;Accept all SSL certificates&lt;/i&gt; باعث می‌شود که اگر سازمان شما از گواهینامه‌های معتبر بین‌اللمللی استفاده نمی‌نماید، خللی در اضافه کردن اکانت شما بوجود نیاید.&#13;&#10; دکمه Next را بزنید.</help_phone_and1>
+    <help_phone_and2>در صفحه &lt;b&gt;Remote security administration&lt;/b&gt;، دکمه &lt;b&gt;OK&lt;/b&gt; را بزنید. این گزینه جهت اعمال سیاست‌های سازمان شما و حفاظت از اطلاعات سازمان در صورت مفقود شدن سیستم شما لازم می‌باشد.</help_phone_and2>
+    <help_phone_and3>در صفحه &lt;b&gt;Account settings&lt;/b&gt;، گزینه &lt;i&gt;Inbox checking frequency&lt;/i&gt; را انتخاب کنید و در قسمت &lt;i&gt;Days to sync&lt;/i&gt; تعداد روزی که ایمیل‌های قدیمی شما سینک شوند را انتخاب نمایید. در صورت تمایل گزینه &lt;i&gt;Send email from this account by default&lt;/i&gt; را فعال نمایید&#13;&#10;&#9;تا ایمیل‌های ارسالی بطور پیش‌فرض از این اکانت شما ارسال شوند. دکمه Next را بزنید.</help_phone_and3>
+    <help_phone_and4>نامی را برای این اکانت وارد نمایید تا در نرم‌افزارهای مختلف قابل شناخت باشد و دکمه Next را بزنید.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>را انتخاب نمایید&lt;i&gt;Mail, Contacts, Calendars - Add Account - Exchange&lt;/i&gt; رفته و&lt;b&gt;Settings&lt;/b&gt;به قسمت .</help_ios1>
+    <help_ios2>را بزنید.Nextرا پر نموده و دکمه&lt;i&gt;Email, Password, Description&lt;/i&gt;در صفحه بعدی، قسمت‌های</help_ios2>
+    <help_ios3>.تغییرات مورد نیاز را اعمال نمایید&lt;b&gt;Mail, Contacts, Calendars - Accounts &lt;/b&gt;برای تنظیمات بیشتر می‌توانید در پایین توضیحات این اکانت درقسمت. را بزنیدSave  در صفحه بعدی، در صورت تمایل می‌توانید قابلیت‌هایی را که مایل به استفاده از آن‌ها نیستید را خاموش نمایید. دکمه   .</help_ios3>
+    <help_phone_win_title>ویندوز موبایل</help_phone_win_title>
+    <help_phone_win1>را انتخاب نمایید&lt;b&gt;Settings&lt;/b&gt;با کشیدن انگشت به سمت چپ بر روی صفحه اصلی، به لیست نرم‌افزارها بروید. به سمت پایین صفحه رفته و  .&#13;&#10;  را بزنید&lt;b&gt;add an account&lt;/b&gt; را انتخاب نموده و سپس&lt;b&gt;email+accounts&lt;/b&gt;گزینه . &#13;&#10;.  نمایش داده می‌شودOUTLOOKپنجره .را برای نوع اکانت انتخاب نمایید &lt;b&gt;Outlook&lt;/b&gt;گزینه .</help_phone_win1>
+    <help_phone_win2>را بزنید&lt;b&gt;sign in&lt;/b&gt; وارد نمایید. سپس دکمه &lt;i&gt;Password&lt;/i&gt;و &lt;i&gt;Email address&lt;/i&gt;مشخصات خود را در قسمت‌های .</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X are trademarks of Apple Inc., registered in the U.S. and other countries. Microsoft, Windows, Outlook and Windows Phone are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries. Android is a trademark of Google Inc. IceWarp is a registered trademark in the USA and other countries.</help_trademark>
+    <windows>ویندوز</windows>
+    <ios>iOS</ios>
+    <android>اندروید</android>
+  </utilities>
+  <banner_1>
+    <title>آیفون</title>
+    <subtitle>ایمیل، تقویم، اشخاص، فعالیت‌ها</subtitle>
+    <descr>راهنمای گام به گام تنظیم اکانت</descr>
+  </banner_1>
+  <banner_2>
+    <title>ویندوز</title>
+    <subtitle>نصب نرم‌افزار دسکتاپ آیس‌وارپ</subtitle>
+    <descr>راهنمای گام به گام</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>تقویم‌ها و آلارم‌ها</subtitle>
+    <descr>نصب گام به کام در مکنتاش</descr>
+  </banner_4>
+  <banner_5>
+    <title>سینک با اوتلوک</title>
+    <subtitle>ایمیل، تقویم، اشخاص</subtitle>
+    <descr>راهنمای نصب مرحله به مرحله</descr>
+  </banner_5>
+  <banner_6>
+    <title>ویندوز موبایل</title>
+    <subtitle>ایمیل، تقویم و اشخاص</subtitle>
+    <descr>راهنمای گام به کام تنظیم اکانت</descr>
+  </banner_6>
+  <banner_7>
+    <title>اندروید</title>
+    <subtitle>ایمیل، تقویم و اشخاص</subtitle>
+    <descr>راهنمای گام به گام تنظیم اکانت</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>صفحه قبل</previous_title>
+    <previous_label>قبل</previous_label>
+    <next_title>صفحه بعد</next_title>
+    <next_label>بعد</next_label>
+    <page_label>صفحه:</page_label>
+    <page_of>{{pageCount}}از</page_of>
+    <zoom_out_title>بزرگنمایی کمتر</zoom_out_title>
+    <zoom_out_label>بزرگنمایی کمتر</zoom_out_label>
+    <zoom_in_title>بزرگنمایی بیشتر</zoom_in_title>
+    <zoom_in_label>بزرگنمایی بیشتر</zoom_in_label>
+    <zoom_title>بزرگنمایی</zoom_title>
+    <presentation_mode_title>نمایش تمام صفحه</presentation_mode_title>
+    <presentation_mode_label>تمام صفحه</presentation_mode_label>
+    <print_title>چاپ</print_title>
+    <print_label>چاپ</print_label>
+    <download_title>دانلود</download_title>
+    <download_label>دانلود</download_label>
+    <bookmark_title>علامت‌گذاری</bookmark_title>
+    <bookmark_label>علامت‌گذاری</bookmark_label>
+    <tools_title>ابزارها</tools_title>
+    <tools_label>ابزارها</tools_label>
+    <first_page_title>رفتن به صفحه اول</first_page_title>
+    <first_page_label>رفتن به صفحه اول</first_page_label>
+    <last_page_title>رفتن به صفحه آخر</last_page_title>
+    <last_page_label>رفتن به صفحه آخر</last_page_label>
+    <page_rotate_cw_title>چرخش در جهت عقربه ساعت</page_rotate_cw_title>
+    <page_rotate_cw_label>چرخش در جهت عقربه ساعت</page_rotate_cw_label>
+    <page_rotate_ccw_title>چرخش در خلاف جهت عقربه ساعت</page_rotate_ccw_title>
+    <page_rotate_ccw_label>چرخش در خلاف جهت عقربه ساعت</page_rotate_ccw_label>
+    <hand_tool_enable_title>ابزار دستی را فعال کنید</hand_tool_enable_title>
+    <hand_tool_enable_label>ابزار دستی را فعال کنید</hand_tool_enable_label>
+    <hand_tool_disable_title>ابزار دستی را غیرفعال کنید</hand_tool_disable_title>
+    <hand_tool_disable_label>ابزار دستی را غیرفعال کنید</hand_tool_disable_label>
+    <document_properties_label>خصوصیات داکیومنت</document_properties_label>
+    <document_properties_file_name>نام فایل:</document_properties_file_name>
+    <document_properties_file_size>سایز فایل:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>عنوان:</document_properties_title>
+    <document_properties_author>نویسنده:</document_properties_author>
+    <document_properties_subject>موضوع:</document_properties_subject>
+    <document_properties_keywords>کلمات کلیدی:</document_properties_keywords>
+    <document_properties_creation_date>تاریخ ایجاد:</document_properties_creation_date>
+    <document_properties_modification_date>تاریخ ویرایش:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>ایجاد کننده:</document_properties_creator>
+    <document_properties_producer>تولید کننده</document_properties_producer>
+    <document_properties_version>نسخه:</document_properties_version>
+    <document_properties_page_count>تعداد صفحه:</document_properties_page_count>
+    <document_properties_close>بستن</document_properties_close>
+    <toggle_sidebar_title>نوار کناری را تغییر دهید</toggle_sidebar_title>
+    <toggle_sidebar_label>نوار کناری را تغییر دهید</toggle_sidebar_label>
+    <outline_title>رئوس مطالب داکیومنت را نشان دهید</outline_title>
+    <outline_label>رئوس مطالب داکیومنت را نشان دهید</outline_label>
+    <thumbs_title>نمایش عکسهای کوچک</thumbs_title>
+    <thumbs_label>نمایش عکسهای کوچک</thumbs_label>
+    <findbar_title>یافتن در داکیومنت</findbar_title>
+    <findbar_label>جستجو</findbar_label>
+    <thumb_page_title>{{page}}صفحه</thumb_page_title>
+    <thumb_page_canvas>{{page}}تصویر کوچک صفحه</thumb_page_canvas>
+    <find_label>یافتن:</find_label>
+    <find_previous_title>قبلی را پیدا کنید</find_previous_title>
+    <find_previous_label>قبلی</find_previous_label>
+    <find_next_title>بعدی را پیدا کنید</find_next_title>
+    <find_next_label>بعدی</find_next_label>
+    <find_highlight>همه را برجسته کنید</find_highlight>
+    <find_match_case_label>مورد تطبیق</find_match_case_label>
+    <find_reached_top>به بالای داکیومنت رسید</find_reached_top>
+    <find_reached_bottom>به پایین داکیومنت رسید</find_reached_bottom>
+    <find_not_found>یافت نشد</find_not_found>
+    <error_more_info>اطلاعات بیشتر</error_more_info>
+    <error_less_info>اطلاعات کمتر</error_less_info>
+    <error_close>بستن</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>{{message}}پیام:</error_message>
+    <error_stack>Stack: {{stack}}</error_stack>
+    <error_file>{{file}}فایل:</error_file>
+    <error_line>{{line}}خط :</error_line>
+    <rendering_error>خطای ارائه</rendering_error>
+    <page_scale_width>تمام عرض</page_scale_width>
+    <page_scale_fit>تمام صفحه</page_scale_fit>
+    <page_scale_auto>بزرگنمایی خودکار</page_scale_auto>
+    <page_scale_actual>اندازه واقعی</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>خطا</loading_error_indicator>
+    <loading_error>خطایی رخ دادPDFهنگام بارگیری</loading_error>
+    <invalid_file_error>نامعتبر یا خراب است PDFفایل</invalid_file_error>
+    <missing_file_error>موجود نیست PDFفایل</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>محافظت شده رمز عبور را وارد کنید PDFبرای باز کردن این</password_label>
+    <password_invalid>رمزعبور اشتباه است. لطفا مجددا امتحان کنید.</password_invalid>
+    <password_ok>اکی</password_ok>
+    <password_cancel>لغو</password_cancel>
+    <printing_not_supported>هشدار: چاپ به طور کامل در این مرورگر پشتیبانی نمی شود.</printing_not_supported>
+    <printing_not_ready>برای چاپ به طور کامل بارگیری نمی شود PDFهشدار:</printing_not_ready>
+    <web_fonts_disabled>امکان پذیر نیست PDFقلم های وب غیرفعال هستند: استفاده از قلم های</web_fonts_disabled>
+    <document_colors_disabled>مجاز نیست که از رنگ استفاده کند. pdfداکیومنت</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDocument</title>
+    <preview>پیش نمایش داکیومنت</preview>
+    <error>WebDocumentخطای</error>
+    <error_msg>مشکل بارگیری داکیومنت. برای عملکرد کامل ممکن است لازم باشد داکیومنت را بسته و دوباره باز کنید.</error_msg>
+    <zoom_in>بزرگنمایی</zoom_in>
+    <zoom_out>کوچک نمایی</zoom_out>
+    <zoom_fit>برای واضح دیدن صفحه بزرگنمایی کنید.</zoom_fit>
+    <fullscreen>تغییر وضعیت تمام صفحه</fullscreen>
+    <undo>واگرد</undo>
+    <redo>دوباره انجام دهید</redo>
+    <bold>ضخیم</bold>
+    <italic>کج</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>خط‌کشی زیر نوشته</underline>
+    <strikeout>خط‌دار</strikeout>
+    <lineheight>ارتفاع خط</lineheight>
+    <numbering>لیست عددی</numbering>
+    <bullet>لیست بولت‌دار</bullet>
+    <textcolor>رنگ متن</textcolor>
+    <bgcolor>رنگ تصویر زمینه</bgcolor>
+    <subscript>زیرنویس</subscript>
+    <superscript>نسخه خطی</superscript>
+    <standard>استاندارد</standard>
+    <default>پیش‌فرض</default>
+    <clearformatting>حذف قالب‌بندی</clearformatting>
+    <save_error>خطا در ذخیره‌سازی</save_error>
+    <close_error>امکان ذخیره کردن فایل وچود ندارد. فایل بسته شود؟</close_error>
+    <save>ذخیره فایل</save>
+    <save_text>تغییرات ذخیره شوند؟</save_text>
+    <table>اضافه کردن جدول</table>
+    <upload_image>بارگذاری عکس</upload_image>
+    <paragraph>پاراگراف</paragraph>
+    <leftpara>چپ</leftpara>
+    <centerpara>وسط</centerpara>
+    <rightpara>راست</rightpara>
+    <justifypara>ترازبندی دوطرف</justifypara>
+    <indent>حاشیه متن</indent>
+    <incrementindent>زیاد کردن حاشیه</incrementindent>
+    <decrementindent>کم کردن حاشیه</decrementindent>
+    <locked>جهت ویرایش فایل کلیک نمایید</locked>
+    <opendocument>ویرایش آنلاین</opendocument>
+    <opendocumentview>مشاهده بصورت آنلاین</opendocumentview>
+    <switch_to_edit_mode>بازگشت به حالت ویرایش</switch_to_edit_mode>
+    <read_only_mode>حالت فقط خواندنی</read_only_mode>
+    <name_is_editing_this_document>در حال ویرایش این فایل است%s</name_is_editing_this_document>
+    <request_unlock>درخواست برداشتن قفل</request_unlock>
+    <request_unlock_remove>را ببندید, می‌خواهم این فایل را حذف کنم.&quot;%s&quot; در &quot;%s&quot;لطفا فایل .</request_unlock_remove>
+    <request_unlock_text>راپس از اتمام کار ببندید. می‌خواهم این فایل را ویرایش کنم &quot;%s&quot;   در &quot;%s&quot;لطفا فایل</request_unlock_text>
+    <request_unlock_text_greetings>سلام %s,</request_unlock_text_greetings>
+    <request_unlock_text_subject>قفل می‌باشد %sفایل</request_unlock_text_subject>
+    <document_unlocked>فایل آزاد</document_unlocked>
+    <reload>بارگذاری مجدد</reload>
+    <show_more_options>نمایش گزینه‌های بیشتر</show_more_options>
+    <show_less_options>نمایش گزینه‌های کمتر</show_less_options>
+    <change_folder>تغییر پوشه</change_folder>
+    <name_helper>نام را وارد نموده و فایل را ایجاد کنید</name_helper>
+  </document>
+  <notification>
+    <reminder>یادآوری: %0 %1</reminder>
+    <empty_file>امکان آپلود پوشه یا فایل‌های خالی وجود ندارد</empty_file>
+    <new_email>%sایمیل جدید برای</new_email>
+    <message_redirected>پیام تغییر مسیر داده شد</message_redirected>
+    <conference_invite>دعوتنامه به ویدئو کنفرانس دریافت شد</conference_invite>
+    <conference_closed>ویدئوکنفرانس به پایان رسید</conference_closed>
+    <conference_servererror>خطای مربوط به وبدئو کنفرانس عمومی رخ داد.</conference_servererror>
+    <invitation_sent>ارسال شد%sدعوتنامه برای</invitation_sent>
+    <password_changed>رمزعبور با موفقیت تغییر یافت</password_changed>
+    <sender_blacklisted>فرستنده در لیست سیاه قرار گرفت</sender_blacklisted>
+    <sender_whitelisted>فرستنده در لیست مجاز قرار گرفت</sender_whitelisted>
+    <account_subscribed>عضویت اکانت موفقیت آمیز بود</account_subscribed>
+    <teamchat_helper>#%sتیم‌چت در</teamchat_helper>
+    <im_helper>پیام در چت خصوصی</im_helper>
+    <folder_subscribed>در عضویت قرار داده شد %s/%sپوشه</folder_subscribed>
+    <account_unsubscribed>لغو شد %sعضویت برای</account_unsubscribed>
+    <folder_unsubscribed>لغو شد %s/%s عضویت برای</folder_unsubscribed>
+    <event_accepted>با رویداد موافقت شد</event_accepted>
+    <event_unsure>رویداد به طور موقت پاسخ داده شده است</event_unsure>
+    <event_declined>رویداد رد شد</event_declined>
+    <event_proposed>زمان جدید پیشنهاد شد</event_proposed>
+    <confirmation_sent>پیام تایید ارسال شد</confirmation_sent>
+    <new_revision>نسخه جدید داکیومنت ایجاد شده است</new_revision>
+    <email_added>آدرس ایمیل به کانتکت اضافه شد</email_added>
+    <email_exists>آدرس ایمیل از قبل موجود است</email_exists>
+    <message_sent>پیام ارسال شد</message_sent>
+    <message_sent_tch>ارسال شد%sپیام به اطاق تیم‌چت.</message_sent_tch>
+    <message_saved>ذخیره شد %sپیام در</message_saved>
+    <document_sent_tch>ارسال شده است%sداکیومنت به اطاق تیم چت</document_sent_tch>
+    <item_saved>آیتم ذخیره شد</item_saved>
+    <item_saved_to>ذخیره شد%sآیتم در</item_saved_to>
+    <item_saved_e>ذخیره شد %sرویداد در</item_saved_e>
+    <item_saved_f>ذخیره شد%sفایل در</item_saved_f>
+    <item_saved_c>ذخیره شد%sکانتکت در</item_saved_c>
+    <conference>%s</conference>
+    <clipboard>در حافظه ذخیره شد</clipboard>
+    <clipboard_link>لینک در حافظه ذخیره شد</clipboard_link>
+    <clipboard_email>آدرس ایمیل در حافظه ذخیره شد</clipboard_email>
+    <clipboard_password>رمز عبور ویدئو کنفرانس در کلیپ بورد ذخیره شده است</clipboard_password>
+    <teamchat_not_exists>وجود ندارد %sاطاق تیم‌چت</teamchat_not_exists>
+    <pin_already_exists>پین از قبل موجود است</pin_already_exists>
+    <send_message>ثانیه دیگر ارسال خواهد شد%sپیام</send_message>
+    <send_message_deferred>ارسال خواهد شد %sدر ساعت %sپیام در تاریخ</send_message_deferred>
+    <message_deleted>پیام حذف شد</message_deleted>
+    <now>اکنون</now>
+    <second_ago>یک ثانیه قبل</second_ago>
+    <seconds_ago>ثانیه قبل%s</seconds_ago>
+    <minute_ago>یک دقیقه قبل</minute_ago>
+    <minutes_ago>دقیقه قبل%s</minutes_ago>
+    <hour_ago>یک ساعت قبل</hour_ago>
+    <hours_ago>ساعت قبل%s</hours_ago>
+    <today_at>%sامروز در</today_at>
+    <yesterday_at>%sدیروز در</yesterday_at>
+    <missed_call>تماس بی پاسخ</missed_call>
+    <edited_document>را ویرایش کرد%1 %0فایل</edited_document>
+    <document_edited>%0ویرایش شده است</document_edited>
+    <added_document>را اضافه کرد%1فایل%0</added_document>
+    <document_added>اضافه شده است%0</document_added>
+    <items_copied>Items have been copied</items_copied>
+    <items_moved>Items have been moved</items_moved>
+  </notification>
+  <troubleshooting>
+    <helper>بطور موقت دسترسی به وب‌کلاینت جهت رفع مشکل داده شود</helper>
+    <validity>اعتبار دسترسی موقت</validity>
+    <generate>ایجاد لینک موقت</generate>
+    <remove>حذف لینک موقت</remove>
+  </troubleshooting>
+  <collaboration>
+    <realtime_collaboration>همکاری آنلاین</realtime_collaboration>
+    <sharing_actions>فعالیت‌های اشتراک گذاشته شده</sharing_actions>
+    <share_with_others>اشتراک با سایرین</share_with_others>
+    <share_with_others2>به شما و همکارانتان اجازه می‌دهد تا به صورت آنلاین و گروهی برروی یک فایل تغییرات ایجاد کنید.</share_with_others2>
+    <allow_editting>به سایر افراد اجازه ویرایش این فایل داده شود</allow_editting>
+    <allow_editting2>همکاران شما اجازه ویرایش این فایل را خواهند داشت.</allow_editting2>
+    <password_protected>محافظت شده با رمزعبور</password_protected>
+    <password_protection>محافظت با رمزعبور</password_protection>
+    <password_protection2>برای باز کردن فایل رمزعبور  لازم است..</password_protection2>
+    <shareable_link>دریافت لینک قابل اشتراک‌گذاری</shareable_link>
+    <send_by_email>ارسال با ایمیل</send_by_email>
+    <share_to_teamchat>اشتراک گذاری در تیم‌چت</share_to_teamchat>
+    <password>فایل توسط رمزعبور محافظت می‌شود</password>
+    <password_placeholder>رمزعبور را وارد نمایید</password_placeholder>
+    <success_message>لینک به%0 ارسال شد</success_message>
+    <success_message_multiple>لینک به  %0 و %1ارسال شد</success_message_multiple>
+    <success_message_other>%0 سایر</success_message_other>
+    <success_message_others>%0 سایرین</success_message_others>
+    <reset_link>ریست کردن لینک</reset_link>
+    <reset_link_helper>تمام پیوندهای این فایل  لغو خواهد شد.</reset_link_helper>
+  </collaboration>
+  <oauth>
+    <description>توضیحات</description>
+    <created>ایجاد شد</created>
+    <client_name>برنامه شخص ثالث</client_name>
+    <client_description>توضیحات برنامه شخص ثالث</client_description>
+    <scopes>محدوده‌ها</scopes>
+    <remove>لغو دسترسی</remove>
+  </oauth>
+</language>

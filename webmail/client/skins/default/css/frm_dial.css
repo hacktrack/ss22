@@ -1,0 +1,224 @@
+div.frm_dial .popupmaindialog>.maxbox{
+	padding-right:  265px;
+}
+.rtl div.frm_dial .popupmaindialog>.maxbox {
+	padding-right: 0px;
+	padding-left: 265px;
+}
+
+div.frm_dial .popupmaindialog>.maxbox>.lbox{
+	height: 100%;
+	position: relative;
+}
+
+div.frm_dial .popupmaindialog>.maxbox>.rbox{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 250px;
+}
+.rtl div.frm_dial .popupmaindialog>.maxbox>.rbox {
+	left: 0;
+	right: auto;
+}
+
+div.frm_dial .popupmaindialog .box1{
+	padding-right: 35px;
+	margin-bottom: 20px;
+}
+.rtl div.frm_dial .popupmaindialog .box1 {
+	padding-left: 35px;
+	padding-right: 0;
+}
+
+	div.frm_dial .popupmaindialog .box1>.obj_button{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.rtl div.frm_dial .popupmaindialog .box1>.obj_button {
+		left: 0;
+		right: auto;
+	}
+
+	div.frm_dial .popupmaindialog .box1>.obj_input input,
+	div.frm_dial .popupmaindialog .box1>.obj_button input.obj_button{
+		height: 39px;
+		font-size: 15px;
+	}
+
+	div.frm_dial .popupmaindialog .box1>.obj_button.ico:after{
+		top: 12px;
+		left: 7px;
+	}
+
+
+div.frm_dial .popupmaindialog .box2{
+	padding-right: 47px;
+	margin-top: 20px;
+}
+.rtl div.frm_dial .popupmaindialog .box2 {
+	padding-left: 47px;
+	padding-right: 0;
+}
+
+
+div.frm_dial .popupmaindialog .box2>.obj_button.video{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.rtl div.frm_dial .popupmaindialog .box2>.obj_button.video {
+	left: 0;
+	right: auto;
+}
+
+div.frm_dial .obj_button.ico.video:after{
+	content: '\e600';
+}
+div.frm_dial .obj_button.ico.call:after{
+	content: '\e032';
+}
+div.frm_dial .obj_button.ico.call.external:after{
+	content: '\e601';
+}
+div.frm_dial .obj_button.ico.call.screen:after{
+	content: '\e00c';
+}
+
+	div.frm_dial .obj_button.call div.arrow{
+		display: none;
+	}
+	div.frm_dial.online .obj_button.call div.arrow{
+		display: block;
+		position: absolute;
+		z-index: 10;
+		right: 0;
+		top: 0;
+		height: 100%;
+		width: 32px;
+		background-color: #43A508;
+	}
+
+	.rtl div.frm_dial.online .obj_button.call div.arrow {
+		left: 0;
+		right: auto;
+	}
+
+		div.frm_dial .obj_button.call div.arrow:hover{
+			background-color: #339500;
+		}
+
+	div.frm_dial .obj_button.call div.arrow:after{
+			position: absolute;
+			top: 19px;
+			left: 8px;
+
+			width: 16px;
+			height: 16px;
+
+			content: '\e043';
+			font-family: 'ico16';
+			font-size: 16px;
+			color: #FFF;
+
+			-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+		}
+
+			.obj_context.frm_dial_external .intphone span:before{
+				content: '\e032'!important;
+			}
+			.obj_context.frm_dial_external .extphone span:before{
+				content: '\e601'!important;
+			}
+			.obj_context.frm_dial_external .screen span:before{
+				content: '\e00c'!important;
+			}
+
+/* dg */
+div.frm_dial .obj_datagrid .col_AVATAR{
+	top: 10px;
+	left: 10px;
+	width: 50px!important;
+	height: 50px!important;
+}
+body.compact div.frm_dial .obj_datagrid .col_AVATAR{
+	width: 30px!important;
+}
+	div.frm_dial .obj_datagrid .col_AVATAR>span{
+		display: block;
+		height: 100%;
+		width: 100%;
+		background: url("../images/face-placeholder.gif") no-repeat scroll center center / cover border-box #FFFFFF;
+	}
+	body.compact div.frm_dial .obj_datagrid .col_AVATAR>span{
+		border-radius: 50%;
+		width: 24px;
+		height: 24px;
+	}
+
+
+
+div.frm_dial .obj_datagrid .col_CALL{
+	top: 0;
+	left: 0;
+	padding: 12px 0 0 75px;
+}
+	div.frm_dial .obj_datagrid .FAILED .col_CALL,
+	div.frm_dial .obj_datagrid .FAILED>.ico.col_TYPE:before,
+	div.frm_dial .obj_datagrid .CANCELLED .col_CALL,
+	div.frm_dial .obj_datagrid .CANCELLED>.ico.col_TYPE:before{
+		color: #C35555;
+	}
+
+div.frm_dial .obj_datagrid .col_DATE{
+	right: 0!important;
+	top: auto!important;
+	bottom: 0!important;
+	padding: 0 12px 12px 0!important;
+}
+body.compact div.frm_dial .obj_datagrid .col_DATE{
+	right: auto!important;
+	bottom: auto!important;
+	padding: 0 2px!important;
+}
+div.frm_dial .obj_datagrid .col_DURATION{
+	bottom: 12px!important;
+	left: 95px!important;
+	width: auto!important;
+}
+body.compact div.frm_dial .obj_datagrid .col_DURATION {
+	bottom: auto!important;
+	left: auto!important;
+	width: 60px!important;
+	padding-right: 10px!important;
+	text-align: right;
+}
+div.frm_dial .obj_datagrid .col_TYPE{
+	bottom: 15px!important;
+	left: 73px!important;
+	padding: 0!important;
+	width: 16px!important;
+}
+body.compact div.frm_dial .obj_datagrid .col_TYPE{
+	bottom: auto!important;
+	left: auto!important;
+	padding: 0!important;
+	width: 20px!important;
+}
+	div.frm_dial .obj_datagrid .IN>.col_TYPE:before{
+		top: 5px!important;
+		content: '\e04c'!important;
+		position: absolute!important;
+	}
+	div.frm_dial .obj_datagrid .OUT>.col_TYPE:before{
+		content: '\e052'!important;
+		top: 5px!important;
+		position: absolute!important;
+	}
+	body.compact div.frm_dial .obj_datagrid .IN>.col_TYPE:before,
+	body.compact div.frm_dial .obj_datagrid .OUT>.col_TYPE:before{
+		top: 3px!important;
+		left: 1px!important;
+	}

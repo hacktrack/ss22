@@ -1,0 +1,1 @@
+<tags>{dynamic tags}<item uid="{*::wuid}"><tag>{*::TAGNAME}</tag></item>{/dynamic}</tags>

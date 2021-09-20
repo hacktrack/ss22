@@ -1,0 +1,1337 @@
+/*ee*/
+#ee
+{
+	width:40px;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: transparent;
+}
+#eer
+{
+	width:40px;
+	height:100%;
+	position:absolute;
+	top:0;
+	right:0;
+	background-color: transparent;
+}
+.eexbtn {
+	color:#333;
+	color: rgba(0,0,0,0.3);
+	cursor: pointer;
+	display: none;
+	font: 23px/23px Arial,sans-serif;
+	font-weight: bold;
+	height: 20px;
+	margin: 4px 0 0 4px;
+	text-decoration: none;
+	width: 20px;
+	z-index: 4;
+	-moz-text-shadow:0 1px 0 rgba(255, 255, 255, 0.3);
+	-webkit-text-shadow:0 1px 0 rgba(255, 255, 255, 0.3);
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.3);
+}
+	.eexbtn:hover
+	{
+		color:#000;
+		color: rgba(0,0,0,0.6);
+	}
+#eer .eexbtn
+{
+	float:right;
+	margin:4px 4px 0 0;
+}
+/**/
+
+/* popup */
+.bubbleInfo {
+	position: relative;
+	cursor: pointer;
+	/*
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	*/
+	display: block;
+}
+
+.popup {
+	z-index:1000;
+	
+	display:none;
+	
+	position: absolute;
+	top:-10000px;
+	left:0px;
+	background-color: #fff;
+	
+	border:#ccc 1px solid\9;
+	
+	-webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2),0 10px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2),0 10px 10px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2),0 10px 10px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2),0 10px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2),0 10px 10px rgba(0, 0, 0, 0.2);
+	
+	/*
+	-moz-border-radius: 4px;
+	-webkit-border-radius:4px;
+	-ie-border-radius:4px;
+	border-radius:4px;
+	*/
+	/*overflow:hidden;*/
+	overflow:visible;
+	
+}
+	.popup:after
+	{
+		content:"";
+		position:absolute;
+		bottom:-10px;
+		left:150px; /* controls horizontal position */
+		border-width:10px 10px 0; /* vary these values to change the angle of the vertex */
+		border-style:solid;
+		border-color:#fff transparent;
+		/* reduce the damage in FF3.0 */
+		display:block; 
+		width:0;
+	}
+	.left_align.popup:after
+	{
+		left:250px!important;
+	}
+
+.popup ul
+{
+	margin:0;
+	padding: 0;
+}
+
+.popup li
+{
+	white-space: nowrap;
+	padding:7px 12px;
+	margin:0;
+	list-style: none;
+	color:#333;
+	text-align:left;
+	background: transparent;
+	display:block;
+	float:left;
+	
+	border:transparent 1px solid;
+	
+	height:32px;
+}
+	.popup li:hover
+	{
+		background-color: #f7f7f7;
+		color:#000;
+		
+		-moz-text-shadow: none;
+		-ms-text-shadow: none;
+		-webkit-text-shadow: none;
+		text-shadow: none;
+		
+		border:#ccc 1px solid;
+		/*
+		-moz-border-radius: 3px;
+		-webkit-border-radius:3px;
+		-ie-border-radius:3px;
+		border-radius: 3px;
+		*/
+		background:#fff url(../images/popup-li-bg.png) repeat-x 0 100%;
+	}
+
+.popup_box
+{
+	padding:0px;
+	background-color: transparent;
+}
+
+.popup li.image_option
+{
+	line-height:50px;
+	height:65px;
+	background-position: 20px 50%;
+	background-repeat: no-repeat;
+	text-indent: 60px;
+	text-align: center;
+	color:#333;
+	
+	border:#fff 1px solid;
+	/*
+	-moz-border-radius: 3px;
+	-webkit-border-radius:3px;
+	-ie-border-radius:3px;
+	border-radius: 3px;
+	*/
+}
+	.popup li.image_option:hover
+	{
+		border:#d2d2d2 1px solid;
+		color:#484848;
+		background:#f6f6f6 url(../images/popup-li-bg.png) no-repeat 20px 50%;
+	}
+/**/
+
+/**/
+.buttons_table td
+{
+	padding:5px;
+}
+/**/
+/* buttons */
+.btn.full,.btn.full span,.btn.full b,.btn.full i
+{
+	width:100%;
+	display:block;
+}
+.btn
+{
+	display: inline-block;
+	text-decoration:none;
+	overflow:visible;
+	
+	-overflow:hidden;
+	
+	border:rgba(0,0,0,0.25) 1px solid;
+	border:#939393 1px solid\9;
+	border-color:rgba(0,0,0,0.25)\9;
+	.border:#939393 1px solid;
+	
+	/*
+	-moz-border-radius: 3px;
+	-webkit-border-radius:3px;
+	-ie-border-radius:3px;
+	border-radius:3px;
+	*/
+	
+	text-align: left;
+}
+	.btn label,.btn em,.btn i
+	{
+		white-space: nowrap;
+	}
+	.btn span
+	{
+		line-height: 22px;
+		overflow:visible;
+		
+		/*
+		-moz-border-radius: 3px;
+		-webkit-border-radius:3px;
+		-ms-border-radius:3px;
+		border-radius:3px;
+		*/
+	}
+	.btn b
+	{
+		font-weight: normal;
+		overflow:visible;
+		
+		/*
+		-moz-border-radius: 3px;
+		-webkit-border-radius:3px;
+		-ie-border-radius:3px;
+		border-radius:3px;
+		*/
+	}
+	.btn i,.btn a
+	{
+		text-decoration:none;
+		font-style: normal;
+		overflow:visible;
+		
+		/*
+		-moz-border-radius: 3px;
+		-webkit-border-radius:3px;
+		-ie-border-radius:3px;
+		border-radius:3px;
+		*/
+		background:transparent url(../images/button_bg.png) repeat-x 0 0;
+		font-weight: normal;
+		padding:4px 22px;
+	}
+	.btn em
+	{
+		font-style: normal;
+		background-color: transparent;
+		border:transparent;
+		overflow:visible;
+		
+		color:#333;
+		font-weight: bold;
+		padding:4px 22px;
+		
+		-moz-text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+		-webkit-text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+		text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+		text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+	}
+	.btn label,.btn em,.btn a,.btn i
+	{
+		color:#eee;
+		color:rgba(255,255,255,0.8);
+		.color:#eee;
+		-color:#000;
+		cursor:pointer;
+	}
+	/**/
+	.btn_custom div
+	{
+		display:none;
+	}
+	/**/
+.btn:hover span
+{
+	
+}
+
+.btn:hover i,.btn:hover a,.btn:hover label
+{
+	color:#fff;
+	-color:#333;
+}
+/**/
+.btn_select
+{
+	position:relative;
+}
+.btn_select b
+{
+	overflow: hidden;
+}
+.btn_select i,.btn_custom i
+{
+	padding-right:30px;
+	background:transparent url(../images/buttonbg_select.png) repeat-x 100% 0;
+}
+	.btn_select:hover i
+	{
+		/*background:transparent url(../images/bg-select_hover.gif) no-repeat 100% 50%;*/
+	}
+	.btn_select select
+	{
+		-moz-opacity:0;
+		-khtml-opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		filter: alpha(opacity=0);
+		opacity: 0;
+
+		/*z-index: 10;*/ /*problems if select is overlayed with other element. Do not turn on, solve problem elsewhere*/
+		
+		position: absolute;
+		top: 4px;
+		left:0;
+		height: 25px;
+		-moz-appearance: none;
+		-webkit-appearance:none;
+		-ie-appearance:none;
+		-o-appearance:none;
+		appearance:none;
+		width: 100%;
+		
+		/* MSIE 6-8 hack*/
+		.width: 150px;
+		*width: 150px;
+		_width: 100%;
+		
+		cursor: pointer;
+	}
+/**/
+/* Keyboard */
+.kb_for_inputPassword
+{
+	position:absolute;
+	left:227px;
+	top:50px;
+}
+
+#utilities
+{
+	width:370px;
+	padding:10px 15px;
+	overflow: hidden;
+}
+	#u_sizer
+	{
+		width:1000px;
+	}
+	#u_list
+	{
+		float:left;
+		width:340px;
+		margin-right:15px;
+	}
+	#u_description
+	{
+		float:left;
+		height: 312px;
+		width: 270px;
+		background-color: #fbfbfb;
+		border:#ddd 1px solid;
+		/*
+		-moz-border-radius: 3px;
+		-webkit-border-radius:3px;
+		-ie-border-radius:3px;
+		border-radius:3px;
+		*/
+		padding:10px;
+		cursor: auto;
+		overflow: auto;
+	}
+		.u_description_item
+		{
+			display:none;
+			color:#7c7c7c;
+		}
+		.u_description_item strong
+		{
+			color:#2e2e2e;
+			font-weight: bold;
+			font-family: Arial,sans-serif;
+			font-size: 12px;
+		}
+		.u_description_item small
+		{
+			font-size: 12px;
+		}
+		.u_description_item a
+		{
+			line-height:23px;
+			color:#017CBE;
+		}
+			.u_description_item a:hover
+			{
+				color:#0194E2;
+			}
+	#utilities .u_item
+	{
+		height:50px;
+		border:#fff 1px solid;
+		/*
+		-moz-border-radius: 3px;
+		-webkit-border-radius:3px;
+		-ie-border-radius:3px;
+		border-radius:3px;
+		*/
+		color:#7c7c7c;
+		font-family: Arial,sans-serif;
+		font-size: 12px;
+		line-height: 15px;
+		text-align: left;
+		overflow:hidden;
+		margin-bottom:2px;
+	}
+		#utilities .u_item.active,#utilities .u_item:hover
+		{
+			background-image:url('../images/utilities-hover.gif');
+			background-repeat:repeat-x;
+			background-position: 0 0;
+			background-color:#fbfbfb;
+			border:#ddd 1px solid;
+		}
+		#utilities .u_item_inner
+		{
+			height:50px;
+			padding:10px 10px 10px 60px;
+			background-image:url('../images/utilities.gif');
+			background-repeat:no-repeat;
+			width:370px;
+		}
+		#utilities .u_item_inner strong
+		{
+			color:#2e2e2e;
+			font-weight: bold;
+			font-family: Arial,sans-serif;
+			font-size: 12px;
+		}
+		#u_desktopClient .u_item_inner
+		{
+			background-position: 15px 16px;
+		}
+		#u_outlookSync .u_item_inner
+		{
+			background-position: 15px -34px;
+		}
+		#u_notifier .u_item_inner
+		{
+			background-position: 15px -84px;
+		}
+		#u_calendar .u_item_inner
+		{
+			background-position: 15px -137px;
+		}
+		#u_freeBusy .u_item_inner
+		{
+			background-position: 15px -187px;
+		}#u_webDAV .u_item_inner
+		{
+			background-position: 15px -239px;
+		}
+/*********************************************************************************/
+/***********************************************/
+body,html
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	text-align: center;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	font-family:Tahoma,Helvetica,sans-serif;
+	font-size: 13px;
+	padding:0;
+	
+	background-color: #ccc;
+}
+
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family:Tahoma,Helvetica,sans-serif;
+}
+
+.almostHidden
+{
+	position:absolute;
+	top:-500px;
+	display:none;
+}
+
+a{
+	color:#000;
+	text-decoration:underline;
+	outline:none;
+}
+a:hover{
+	color:#555;
+}
+
+#shim {
+    visibility: hidden;
+    width: 100%;
+    height: 50%;
+    margin-top: -210px;
+    float: left;
+}
+	.bigger #shim
+	{
+		margin-top:-255px;
+	}
+
+#wrapper {
+
+	width: 550px;
+	height: 250px;
+	clear: both;
+	background:transparent;
+	
+	position: relative;
+	top: -240px;
+	/* IE4ever Hack: Hide from IE4 **/
+		position: static;
+	/** end hack */
+	margin:auto;
+	/*
+	box-shadow:0 0 400px 150px rgba(255,255,255,0.40);
+	-webkit-box-shadow:0 0 900px 50px rgba(255,255,255,0.1);
+	*/
+}
+	.bigger #wrapper
+	{
+		height:370px;
+	}
+	/* opera hack
+	@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0)
+	{
+		#wrapper
+		{
+			box-shadow:0 0 500px 50px rgba(255,255,255,0.50);
+		}
+	}
+	*/
+
+/* Hide from IE5mac \*//*/
+	div#shim {
+		display: none;
+	}
+	html, body {
+		height: auto;
+	}
+/* end hack */
+
+/* ]]> */
+
+#error_message table
+{
+	width:100%
+}
+	#error_message table td
+	{
+		text-align: center;
+		height:35px;
+	}
+		#error_message table td .error
+		{
+			color:#A20101;
+		}
+		#error_message table td .message
+		{
+			color:#02A20C;
+		}
+
+.xbtn_box
+{
+	position:absolute;
+}
+
+.xbtn
+{
+	float:right;
+	color:#969696;
+	cursor:pointer;
+	display:inline;
+	font:23px/23px Arial,sans-serif;
+	height:20px;
+	left:231px;
+	margin:4px -8px 4px 0;
+	padding:0 5px;
+	position:relative;
+	text-decoration:none;
+	top:-40px;
+	.top:40px;
+	width:14px;
+	display: none;
+}
+
+#loginInputs .xbtn
+{
+	.display:none;
+}
+
+.show
+{
+	display: block;
+}
+
+form
+{
+	height: 100%;
+}
+
+.right
+{
+	float:right;
+}
+.left
+{
+	float:left;
+}
+
+.aright
+{
+	text-align: right;
+}
+.aleft
+{
+	text-align: left;
+}
+.acenter
+{
+	text-align: center;
+}
+.ajustify
+{
+	text-align: justify;
+}
+
+#passwordPolicyBox
+{
+	background-color: #FFFFFF;
+	display: block;
+	height: 290px;
+	left: 9px;
+	margin: 0;
+	padding: 0 0 0 15px;
+	position: absolute;
+	text-align: left;
+	top: 40px;
+	width: 225px;
+	color:#BB0101;
+}
+	#passwordPolicyBox li
+	{
+		list-style-position: outside;
+	}
+
+#forgot_password_td a
+{
+	text-decoration: none;
+}
+	#forgot_password_td a:hover
+	{
+		text-decoration: underline;
+	}
+
+#footer
+{
+	/*z-index:4;*/
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:135px;
+	background-color:#888;
+}
+	.footerHeightHolder
+	{
+		height:30px;
+	}
+	#footerInfo
+	{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		padding-top:10px;
+		
+		background-image:url('../images/footer-logo.png');
+		background-position: 50% 64px;
+		background-repeat: no-repeat;
+	}
+		#footerInfo table
+		{
+			margin:auto;
+		}
+			#footerInfo table table
+			{
+				width:650px;
+			}
+		#footerActions
+		{
+			padding-bottom:54px;
+		}
+
+		#copyright td
+		{
+			color:#ccc;
+			color:rgba(255,255,255,0.5);
+			.color:#ccc;
+			font-weight: normal;
+			text-align: center;
+			
+			-moz-text-shadow:0 1px 0 rgba(0,0,0,0.2);
+			-webkit-text-shadow:0 1px 0 rgba(0,0,0,0.2);
+			text-shadow:0 1px 0 rgba(0,0,0,0.2);
+			text-shadow:0 1px 0 rgba(0,0,0,0.2);
+			
+			overflow: hidden;
+		}
+			#copyright td a
+			{
+				color:#eee;
+				color:rgba(255,255,255,0.7);
+				.color:#eee;
+				text-decoration: none;
+			}
+				#copyright td a:hover
+				{
+					color:#fff;
+				}
+	#footerInner
+	{
+		border-top:#333 1px solid;
+		border-top:rgba(0,0,0,0.3) 1px solid;
+		height:106px;
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+	}
+	#footerBottom
+	{
+		height:58px;
+	}
+/***********************************************/
+#loginBox
+{
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	position:relative;
+	background-color: #fff;
+	
+	/*
+	-moz-border-radius: 3px;
+	-webkit-border-radius:3px;
+	-ie-border-radius:3px;
+	border-radius:3px;
+	*/
+	
+	-webkit-box-shadow:0 1px 7px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:   0 1px 7px rgba(0, 0, 0, 0.5);
+	-ms-box-shadow:    0 1px 7px rgba(0, 0, 0, 0.5);
+	box-shadow:        0 1px 7px rgba(0, 0, 0, 0.5);
+	
+	z-index:100;
+	
+	width: 550px;
+	height:250px;
+}
+	.bigger #loginBox
+	{
+		height: 370px;
+	}
+	#logo
+	{
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		position:absolute;
+		left:50px;
+		top:37px;
+		width:180px;
+		height:180px;
+	}
+	#loginInputs
+	{
+		width:260px;
+		position:absolute;
+		right:50px;
+		top:40px;
+	}
+		#loginInputs .spacer
+		{
+			height:26px;
+		}
+		input,.input
+		{
+			/*
+			-moz-border-radius: 3px;
+			-webkit-border-radius:3px;
+			-ie-border-radius:3px;
+			border-radius:3px;
+			*/
+			-moz-border-radius:1px;
+			-webkit-border-radius:1px;
+			-ie-border-radius:1px;
+			border-radius:1px;
+		}
+			input.text,select.text,textarea.text,span.text
+			{
+				padding:0 10px;
+				height:35px;
+				width:100%;
+				line-height: 35px;
+				margin-bottom:8px;
+				border:#cacaca 1px solid;
+			
+				font-size:13px;
+				/*padding: 0 0 0 9px!important;*/
+				padding-left:9px!important;
+				text-indent: 0!important;
+				/*line-height: normal!important;*/
+				line-height:35px;
+				
+				background-color: #fff;
+			}
+				input.text.error ,select.text.error
+				{
+					border:#D35252 1px solid;
+					box-shadow:0px 0px 5px 1px rgba(255, 0, 0, 0.3) inset;
+				}
+			textarea.input
+			{
+				height:85px;
+				resize: none;
+			}
+		#loginInputs .other
+		{
+			line-height: 40px;
+			color:#464646;
+		}
+			#loginInputs .other a
+			{
+				color:#464646;
+			}
+			#loginInputs .other label,#loginInputs .other a
+			{
+				font-size: 12px;
+				color:#555;
+			}
+			#loginInputs .other table
+			{
+				font-size: 11px;
+				vertical-align: middle;
+				width:260px;
+				padding:0;
+				margin:0;
+			}
+			#loginInputs .other div
+			{
+				height:15px;
+				line-height:16px;
+				font-size: 11px;
+			}
+				#loginInputs .other input
+				{
+					width: auto;
+					height: auto;
+					margin:0;
+					border:none;
+					
+					-webkit-box-shadow:0 0 0 0;
+					-moz-box-shadow:   0 0 0 0;
+					-ie-box-shadow:    0 0 0 0;
+					box-shadow:        0 0 0 0;
+				}
+
+::-webkit-input-placeholder {
+	color: #666;
+}
+
+input:-moz-placeholder {
+	color: #666;
+}
+
+/***/
+#auto_login_td,#forgot_password_td
+{
+	padding-bottom:4px;
+	white-space: nowrap;
+}
+#signTd,.paddingLeftBox
+{
+	width:50%;
+	padding-left:10px;
+}
+#submitTd,,.paddingRightBox
+{
+	width:50%;
+	padding-right:10px;
+}
+#submitTd.submitFull,#signTd.submitFull
+{
+	width:100%;
+	padding:0px;
+}
+/**/
+
+
+/* fallback placeholder */
+.placeholder {
+	color: #bbb;
+}
+/* webkit placeholder */
+::-webkit-input-placeholder {
+	color: #bbb;
+}
+/* moz placeholder */
+:-moz-placeholder {
+	color: #bbb;
+}
+
+/******/
+body.transparentfooterexample
+{
+	background: #BBDCEC
+}
+	body.transparentfooterexample #footer
+	{
+		background: transparent;
+		background-image:url('../images/footer-bg-dark.png');
+	}
+	body.transparentfooterexample #footerInner
+	{
+		background: none;
+	}
+/**/
+
+/* remove webkit search input decoration and cancel button */
+input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-cancel-button {
+	display: none;
+}
+
+.light label
+{
+	color:#333!important;
+}
+.light i
+{
+	padding-left:10px!important;
+	background-image: url('../images/buttonbg_select_dark.png');
+}
+
+/* SUBMIT */
+#loginInputs #submitSign,#loginInputs #submitLogin,.submit
+{
+	/*
+	background:#E8E8E8 url(../images/button_bg.png) repeat-x 0 0;
+	-background:#E8E8E8;
+	*/
+	border:#666 1px solid;
+	border-color:rgba(0,0,0,0.2);
+	color:#444;
+	
+	-moz-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	cursor:pointer;
+	
+	font-weight:bold;
+	font-size:13px;
+	color:#444;
+	
+	-webkit-box-shadow:0 0 0 0;
+	-moz-box-shadow:   0 0 0 0;
+	-ie-box-shadow:    0 0 0 0;
+	box-shadow:        0 0 0 0;
+	
+	padding:0 0 3px 0;
+	height:35px;
+	line-height: 33px;
+	display: inline-block;
+	width:100%;
+	
+	text-decoration: none;
+}
+	#loginInputs #submitSign:hover,#loginInputs #submitLogin:hover,.submit:hover
+	{
+		background-color:#eee;
+	}
+#signTd label
+{
+	white-space: nowrap;
+}
+/**/
+
+/*Default colors settings*/
+#loginInputs #submitLogin,.submit
+{
+	color:#eee;
+	background-color: #666;
+	cursor: pointer;
+	
+	-moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	/*
+	border-color:#666;
+	border-color:rgba(0,0,0,0.3);
+	*/
+	border:none;
+}
+#loginInputs #submitLogin:hover,.submit:hover
+{
+	background-color:#777;
+}
+/**/
+/***********************************************************************/
+/***************************** COLOR SETTINGS **************************/
+/***********************************************************************/
+
+/* blue */
+body.blue,body.blue #footer
+{
+	background-color: #3886cb; /*default*/
+}
+body.blue #footer
+{
+	background-color: #1b61a1; /*default*/
+}
+
+body.blue #loginInputs #submitLogin,.submit
+{
+	background-color: #3399cc;
+}
+	body.blue #loginInputs #submitLogin:hover,.submit:hover
+	{
+		background-color: #34A5DD;
+	}
+/**/
+
+/* white */
+body.white,body.white #footer
+{
+	background-color: #fff;
+}
+body.white #footer
+{
+	background-color: #e0e0e0;
+}
+	body.white #footer .btn label,body.white #footer .btn i
+	{
+		color:#666;
+	}
+	body.white #copyright td
+	{
+		color:#888;
+		-moz-text-shadow: none;
+		-webkit-text-shadow: none;
+		-ms-text-shadow: none;
+		text-shadow: none;
+	}
+	body.white #copyright td a
+	{
+		color:#666;
+		-moz-text-shadow: none;
+		-webkit-text-shadow: none;
+		-ms-text-shadow: none;
+		text-shadow: none;
+	}
+
+body.white #loginInputs #submitSign
+{
+	background-color: #fafafa;
+	color:#666;
+	text-shadow: none;
+	-moz-text-shadow: none;
+	-webkit-text-shadow: none;
+	-ms-text-shadow: none;
+}
+	body.white #loginInputs #submitSign:hover
+	{
+		background-color: #fefefe;
+	}
+body.white #loginInputs #submitLogin
+{
+	background-color: #eaeaea;
+	color:#666;
+	text-shadow: none;
+	-moz-text-shadow: none;
+	-webkit-text-shadow: none;
+	-ms-text-shadow: none;
+}
+	body.white #loginInputs #submitLogin:hover
+	{
+		background-color: #f0f0f0;
+	}
+/**/
+
+
+/* red */
+body.red,body.red #footer
+{
+	background-color: #E86C59;
+}
+body.red #footer
+{
+	background-color: #CF503D;
+}
+
+body.red #loginInputs #submitLogin
+{
+	background-color: #CF503D;
+}
+	body.red #loginInputs #submitLogin:hover
+	{
+		background-color: #E86C59;
+	}
+/**/
+
+/* yellow */
+body.yellow,body.yellow #footer
+{
+	background-color: #FDF2C1;
+}
+body.yellow #footer
+{
+	background-color: #DCCA78;
+}
+
+body.yellow #loginInputs #submitLogin
+{
+	background-color: #DCCA78;
+}
+	body.yellow #loginInputs #submitLogin:hover
+	{
+		background-color: #FDF2C1;
+	}
+/**/
+
+	body.yellow #footer .btn label,body.yellow #footer .btn i
+	{
+		color:#666;
+	}
+	body.yellow #copyright td
+	{
+		color:#888;
+		text-shadow: none;
+		-moz-text-shadow: none;
+		-webkit-text-shadow: none;
+		-ms-text-shadow: none;
+	}
+	body.yellow #copyright td a
+	{
+		color:#666;
+		text-shadow: none;
+		-moz-text-shadow: none;
+		-webkit-text-shadow: none;
+		-ms-text-shadow: none;
+	}
+
+body.yellow #loginInputs #submitSign
+{
+	color:#555;
+	text-shadow: none;
+	-moz-text-shadow: none;
+	-webkit-text-shadow: none;
+	-ms-text-shadow: none;
+}
+body.yellow #loginInputs #submitLogin
+{
+	color:#555;
+	text-shadow: none;
+	-moz-text-shadow: none;
+	-webkit-text-shadow: none;
+	-ms-text-shadow: none;
+}
+/**/
+
+/* green */
+body.green,body.green #footer
+{
+	background-color: #90CB38;
+}
+body.green #footer
+{
+	background-color: #6BA11B;
+}
+
+body.green #loginInputs #submitLogin
+{
+	background-color: #6BA11B;
+}
+	body.green #loginInputs #submitLogin:hover
+	{
+		background-color: #90CB38;
+	}
+/**/
+
+/* purple */
+body.purple,body.purple #footer
+{
+	background-color: #A767D4;
+}
+body.purple #footer
+{
+	background-color: #8242AF;
+}
+
+body.purple #loginInputs #submitLogin
+{
+	background-color: #8242AF;
+}
+	body.purple #loginInputs #submitLogin:hover
+	{
+		background-color: #A767D4;
+	}
+/**/
+
+/* orange */
+body.orange,body.orange #footer
+{
+	background-color: #FF9B29;
+}
+body.orange #footer
+{
+	background-color: #CB710A;
+}
+
+body.orange #loginInputs #submitLogin
+{
+	background-color: #CB710A;
+}
+	body.orange #loginInputs #submitLogin:hover
+	{
+		background-color: #FF9B29;
+	}
+/**/
+
+/* brown */
+body.brown,body.brown #footer
+{
+	background-color: #A8845D;
+}
+body.brown #footer
+{
+	background-color: #855F39;
+}
+
+body.brown #loginInputs #submitLogin
+{
+	background-color: #855F39;
+}
+	body.brown #loginInputs #submitLogin:hover
+	{
+		background-color: #A8845D;
+	}
+/**/
+
+/* pink */
+body.pink,body.pink #footer
+{
+	background-color: #E367A6;
+}
+body.pink #footer
+{
+	background-color: #b8407c;
+}
+
+body.pink #loginInputs #submitLogin
+{
+	background-color: #b8407c;
+}
+	body.pink #loginInputs #submitLogin:hover
+	{
+		background-color: #E367A6;
+	}
+/**/
+
+/* black */
+body.black,body.black #footer
+{
+	background-color: #656565;
+}
+body.black #footer
+{
+	background-color: #444444;
+}
+
+body.black #loginInputs #submitLogin
+{
+	background-color: #444444;
+}
+	body.black #loginInputs #submitLogin:hover
+	{
+		background-color: #656565;
+	}
+/**/
+
+/***********************************************************************/
+/************************** END OF COLOR SETTINGS **********************/
+/***********************************************************************/
+
+/* final settings */
+body.stripe
+{
+	background-color: #ccc;
+}
+
+body.contact_support #loginBox
+{
+	height:300px;
+}
+/**/

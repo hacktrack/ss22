@@ -1,0 +1,41 @@
+.rtl .frm_groupchat_invite {
+	direction: rtl;
+}
+
+.frm_groupchat_invite .obj_popupico::after{
+	content: '\e03d'!important;
+}
+.frm_groupchat_invite .obj_popupmainheader{
+	border-bottom: 1px solid #cacaca;
+	height: 50px;
+}
+.frm_groupchat_invite .obj_popupmainheader form.obj_label{
+	margin: 13px 15px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.rtl .frm_groupchat_invite table.frmtbl .th {
+	text-align: right;
+}
+
+.frm_groupchat_invite  .obj_button.address{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.rtl .frm_groupchat_invite  .obj_button.address {
+	left: 0;
+	right: auto;
+}
+
+.frm_groupchat_invite .obj_mail_suggest {
+	padding-right: 30px!important;
+}
+.rtl .frm_groupchat_invite .obj_mail_suggest {
+	padding-left: 30px!important;
+	padding-right: 0!important;
+}
+/*.frm_groupchat_invite form.obj_button.ico.invite:after{
+	content: '\e071';
+}*/

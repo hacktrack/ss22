@@ -1,0 +1,250 @@
+// Utility classes
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.scroll-vertical {
+	@include scroll-vertical;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.circle {
+	border-radius: $circle;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.weight-600 {
+	font-weight: 600;
+}
+
+.ellipsis {
+	@include text-ellipsis;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.u-pre {
+	white-space: pre;
+}
+
+.u-bold {
+	font-weight: bold;
+}
+
+.u-normal-wrap {
+	white-space: normal;
+}
+
+.u-normal-line-height {
+	line-height: $normal-line-height;
+}
+
+.u-break-word {
+	word-wrap: break-word;
+}
+
+.u-float-left {
+	float: left;
+}
+
+.u-float-right {
+	float: right;
+}
+
+.u-width-auto {
+	width: auto !important;
+}
+
+.u-justify-end {
+	@include justify-content(flex-end);
+}
+
+.u-align-self-center {
+	@include align-self(center);
+}
+
+.u-block {
+	display: block !important;
+}
+
+.u-inline-block {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.u-inline {
+	display: inline;
+	vertical-align: middle;
+}
+
+.u-rotate-180 {
+	-webkit-transform: rotate(180deg);
+	        transform: rotate(180deg);
+}
+
+.u-reset-margin {
+	margin: 0 !important;
+}
+
+.u-margin-half {
+	margin: g(0.5);
+}
+
+.u-margin-left-half {
+	margin-left: g(0.5);
+}
+
+.u-margin-vertical {
+	margin-top: g(1);
+	margin-bottom: g(1);
+}
+
+.u-margin-vertical-double {
+	margin-top: g(2);
+	margin-bottom: g(2);
+}
+
+.u-margin-right {
+	margin-right: g(1);
+}
+
+.u-margin-top {
+	margin-top: g(1);
+}
+
+.u-margin-bottom {
+	margin-bottom: g(1);
+}
+
+.u-margin-bottom-neg {
+	margin-bottom: g(-1);
+}
+
+// TODO: Hotfix, find selector in templates and solve the problem globally
+.u-margin-bottom-medium-up {
+	@media #{$medium-up} {
+		margin-bottom: g(1)
+	};
+}
+
+// TODO: Hotfix, find selector in templates and solve the problem globally
+.u-margin-top-small-only {
+	@media #{$small-only} {
+		margin-top: g(1)
+	};
+}
+
+.u-margin-bottom-double {
+	margin-bottom: g(2);
+}
+
+.u-flex-1		{ @include flex(1, 1, 0); }
+.u-flexit 		{ @include flexit; }
+.u-flexbox 		{ @include flexbox; }
+.u-flex-none 	{ @include flex(none); }
+.u-flex-center 	{ @include flex-center; }
+
+.u-clearfix {
+
+	&::before,
+	&::after {
+		content: '';
+		display: table;
+	}
+
+	&::after {
+		clear: both;
+	}
+}
+
+.u-disabled {
+	color: $blue-grey;
+}
+
+
+// Font classes
+.alpha, %alpha {
+	font-size: rem(36);
+	line-height: $normal-line-height;
+}
+
+.delta {
+	font-size: s(1);
+}
+
+
+// State classes
+[is-hidden], .is-hidden {
+	display: none !important;
+}
+
+.is-selectable {
+	cursor: default; // Fallback
+	cursor: copy;
+
+	&.is-selected {
+		@include theme {
+			background-color: $theme-primary;
+		}
+		color: $white;
+	}
+}
+
+
+// Overrides
+.hide {
+	@include hide;
+
+	@each $res, $query in $query-map {
+
+		@media #{$query} {
+
+	  		&-for-#{$res} { @include hide; }
+		}
+	}
+}
+
+.visually-hidden {
+	@include visually-hidden;
+}
+
+
+// Chart theme colors
+// HACK: But probably the best way to do it
+
+
+.ct-series-a {
+
+	@include theme {
+
+		.ct-slice-pie, .ct-area {
+			fill: $theme-primary;
+		}
+
+		.ct-point, .ct-line, .ct-bar, .ct-slice-donut {
+			stroke: $theme-primary;
+		}
+	}
+}
+
+
+// Colors
+@include color-classes;
+
+
+// Extend
+%hide {
+	display: none !important;
+}

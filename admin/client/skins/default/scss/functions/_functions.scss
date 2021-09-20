@@ -1,0 +1,114 @@
+// Ranges
+@function lower-bound($range) {
+	@if length($range) <= 0 {
+		@return 0;
+	}
+	@return nth($range,1);
+}
+
+@function upper-bound($range) {
+	@if length($range) < 2 {
+		@return 999999999999;
+	}
+	@return nth($range, 2);
+}
+
+// More meaningful syntax for sizings
+@function gutter($gutter-size: 1) {
+	@return $gutter * $gutter-size;
+}
+
+@function padding($padding-size: 1) {
+	@return $padding * $padding-size;
+}
+
+@function size($size-size: 1) {
+	@return $size * $size-size;
+}
+
+// Shortcuts for sizing functions
+@function g($g) { @return gutter($g); }
+@function p($p) { @return padding($p); }
+@function s($s) { @return size($s); }
+
+
+// Strip the unit of measure and returns it
+@function strip-unit($num) {
+	@return $num / ($num * 0 + 1);
+}
+
+// Convert px-size to rem-size
+@function rem($px, $base: $base-font-size) {
+	@return ($px / $base) * 1rem;
+}
+
+// Convert px-size to em-size
+@function em($px, $base: $base-font-size) {
+	@return ($px / $base) * 1em;
+}
+
+// Convert rem-size to px-size
+@function px($size: $base-unit-size) {
+	@return (strip-unit($size) * $base-font-size) * 1px;
+}
+
+// Convert percent to number
+@function percent($percent){
+	@return strip-unit($percent) / 100;
+}
+
+// Grab the last part of a selector
+@function x-tail($selector) {
+	@return nth(nth($selector, -1), -1);
+}
+
+// Sum of number values
+@function sum($list, $force: false) {
+	$result: 0;
+
+	@each $item in $list {
+		@if type-of($item) == number {
+			@if $force and unit($item) {
+				$item: $item / ($item * 0 + 1);
+			}
+			@if unitless($item) {
+				$result: $result + $item;
+			}
+		}
+	}
+
+	@return $result;
+}
+
+// Z-index map
+@function z($layer) {
+	@if not map-has-key($z-index-map, $layer) {
+		@warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
+	}
+
+	@return map-get($z-index-map, $layer);
+}
+
+// Fetch nested keys
+@function map-deep-get($map, $keys...) {
+	@each $key in $keys {
+		$map: map-get($map, $key);
+	}
+
+	@return $map;
+}
+
+// Correct the calculated padding % to result in whole height numbers
+@function correct-ratio($width, $ratio) {
+	@return round($width / $ratio) / $width * 100%;
+}
+
+// Create one long string from key: value maps
+@function map-to-string($key, $value) {
+	@return $key + '=' + $value + '&';
+}
+
+// Constructs catch-all attribute selector
+@function attr($attr, $val) {
+	@return '[#{$attr}^="#{$val}"], [#{$attr}*=" #{$val}"]';
+}

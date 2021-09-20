@@ -1,0 +1,210 @@
+.obj_tree_list {
+	outline: 0;
+}
+
+.rtl .obj_tree_list {
+	direction: rtl;
+}
+
+.obj_tree_list>div.container{
+	position: absolute;
+	top: 0;
+	bottom: 40px;
+	height: auto;
+	width: 100%;
+}
+.obj_tree_list>div.container>div{
+	position: absolute;
+}
+
+/* Search */
+.obj_tree_list>div.search{
+	position: absolute;
+	width: 100%;
+	padding: 5px;
+	bottom: 0;
+	left: 0;
+}
+	.obj_tree_list>.search form.obj_input_search{
+		border-color: transparent;
+		background-color: transparent;
+	}
+
+	.obj_tree_list>.search:hover form.obj_input_search,
+	.obj_tree_list>.search form.obj_input_search.focus,
+	.obj_tree_list>.search form.obj_input_search.value {
+		border-color: #ABABAB;
+	}
+
+/* Empty */
+.obj_tree_list .empty {
+	display: none;
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	min-height: 50px;
+	margin-top: -30px;
+}
+.obj_tree_list.empty .empty{
+	display: block;
+}
+	.obj_tree_list .empty:before {
+		content: '\e074';
+		font-family: "ico24";
+		font-size: 48px;
+		color: {bg_main '#0088CC'};
+		display: block;
+		margin-bottom: 15px;
+	}
+
+/* ROWs */
+.obj_tree_list .recent-row{
+    padding: 10px;
+    padding-left: 20px;
+    overflow: hidden;
+    height: 48px;
+    position: absolute;
+    background: #fff;
+    left: 0;
+	right: 0;
+
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.rtl .obj_tree_list .recent-row {
+	padding: 10px;
+	padding-right: 20px;
+	margin-right: 10px;
+	margin-left: 0;
+}
+.obj_tree_list .recent-row.shrink{
+	opacity: 0;
+}
+.obj_tree_list .recent-row.active{
+	background: #E8E8E8;
+}
+.obj_tree_list .recent-row .status{
+	display: inline-block;
+}
+.obj_tree_list .recent-row .body{
+	display: inline-block;
+	width: 100%;
+	cursor: default;
+}
+.obj_tree_list .recent-row .body:before{
+	opacity: 0;
+	height: 9px;
+	width: 9px;
+	position: absolute;
+	left: 5px;
+	top: 13px;
+	z-index: 10;
+	background-color: #fff;
+	border-radius: 9px;
+	content: '\e058';
+	font-size: 9px;
+	font-family: 'ico16';
+	font-style: normal;
+	text-align: center;
+	color: {bg_main '#0088CC'};
+	line-height: 9px;
+	transition: opacity 0.20s;
+}
+.rtl .obj_tree_list .recent-row .body:before {
+	left: auto;
+	right: 0;
+}
+.obj_tree_list .recent-row.unread .body:before{
+	opacity: 1;
+}
+.obj_tree_list .recent-row .body.edit .room-name,
+.obj_tree_list .recent-row .body.edit .group-name {
+	display: none;
+}
+.obj_tree_list .recent-row .body .room-name{
+	font-size: 13px;
+	height: 18px;
+	overflow: hidden;
+}
+.obj_tree_list .recent-row.unread .body .room-name{
+	font-weight: 500;
+}
+.obj_tree_list .recent-row .body .group-name{
+	color: #999999;
+	font-size: 11px;
+}
+.obj_tree_list .recent-row .control{
+	display: inline-block;
+	height: 15px;
+	margin-top: 7px;
+	position: absolute;
+	right: 10px;
+	box-shadow: -3px -7px 20px 14px #FFF;
+	background: #fff;
+}
+.rtl .obj_tree_list .recent-row .control {
+	left: 10px;
+	right: auto;
+}
+.obj_tree_list .recent-row.active .control:before{
+	opacity: 1;
+}
+.obj_tree_list .recent-row.active .control{
+	box-shadow: -3px -7px 20px 14px #e8e8e8;
+	background: #e8e8e8;
+}
+.obj_tree_list .recent-row .control .bubble{
+	display: inline-block;
+	border: 1px solid #ECECEC;
+	height: 16px;
+	padding: 0 3px 0 3px;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 16px;
+	font-size: 11px;
+	font-weight: 500;
+	color: {bg_main '#0088CC'};
+	transition: opacity 0.3s;
+}
+.obj_tree_list .recent-row:hover .control .bubble{
+	opacity: 0;
+	transition-duration: 0.1s;
+}
+.obj_tree_list .recent-row .control .close{
+	display: inline-block;
+	position: absolute;
+	z-index: 5;
+	right: -15px;
+	opacity: 0;
+	transition: transform 0.3s, opacity 0.3s;
+	cursor: pointer;
+}
+	.obj_tree_list .recent-row:hover .control .close{
+		transform: translateX(-100%);
+		opacity: 1;
+		transition-duration: 0.1s;
+	}
+.rtl .obj_tree_list .recent-row .control .close {
+	left: -15px;
+	right: auto;
+}
+	.rtl .obj_tree_list .recent-row:hover .control .close {
+		transform: translateX(100%);
+	}
+
+.obj_tree_list .recent-row .control .close:before{
+	width: 18px;
+	height: 18px;
+	font-size: 14px;
+	font-family: 'ico16';
+	text-indent: 0;
+	text-align: center;
+	top: 2px;
+	position: relative;
+	content: '\e036';
+	color: #000;
+}
+.obj_tree_list .recent-row .control .close:hover:before{
+	color: #FF7777;
+}

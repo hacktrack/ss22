@@ -1,0 +1,88 @@
+div.obj_popup.frm_public_url .obj_popupico:after{
+	content: '\e97d';
+}
+
+.frm_public_url .obj_popupmainbody_main {
+	padding: 25px 20px;
+}
+
+.frm_public_url .table {
+	display: table;
+    width: 100%;
+	padding-bottom: 15px;
+}
+
+.frm_public_url .cell {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+
+.frm_public_url .stretch {
+	width: 100%;
+}
+
+.frm_public_url .stretch_half {
+	width: 50%;
+}
+
+.frm_public_url .label {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.frm_public_url .or {
+	font-weight: bold;
+	padding: 0px 15px;
+	position: relative;
+	background-color: #ffffff;
+	white-space: nowrap;
+	top: 6px;
+	color: #606060;
+}
+
+.frm_public_url .separator:before {
+	content: '';
+	position: absolute;
+	border-left: 1px solid #ccc;
+	left: 50%;
+	top: 12px;
+    height: 55px;
+}
+
+.frm_public_url form {
+	border: 0!important;
+	border-top-right-radius: 0!important;
+	border-bottom-right-radius: 0!important;
+}
+
+.frm_public_url input,
+.frm_public_url textarea {
+	border: 1px solid rgb(171,171,171)!important;
+	border-right: 0!important;
+	border-top-left-radius: 3px!important;
+	border-bottom-left-radius: 3px!important;
+	height: 30px!important;
+	padding-left: 5px!important;
+	text-indent: 0!important;
+	white-space: nowrap;
+}
+
+.frm_public_url textarea {
+	white-space: nowrap;
+    overflow: hidden;
+    padding: 6px!important;
+}
+
+.frm_public_url button {
+	border: 1px solid {bg_main #0088CC};
+	border-left: 0;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-color: {bg_main #0088CC};
+	color: #fff;
+	height: 30px;
+	padding: 0 10px;
+	outline: none;
+	cursor: pointer;
+}

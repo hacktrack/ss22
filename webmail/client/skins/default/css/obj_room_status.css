@@ -1,0 +1,74 @@
+.obj_room_status{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	height: 28px;
+	width: 0; /* this is important!! */
+}
+.obj_room_status .user{
+	display: inline-block;
+	margin-left: 5px;
+	position: absolute;
+	top: -28px;
+	left: 0;
+	opacity: 0;
+	transition : opacity 0.5s ease, top 0.5s ease;
+}
+.rtl .obj_room_status .user {
+	left: auto;
+	right: 0;
+	margin-left: 0;
+	margin-right: 5px;
+}
+.obj_room_status .user.more{
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	font-size: 11px;
+	line-height: 18px;
+	z-index: 1;
+
+	border: 2px solid {bg_main '#0088CC'};
+	background-color: {group_chat_my '#0088CC'};
+}
+
+.obj_room_status .user .img{
+	display: block;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	background-origin: border-box;
+    background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	border-radius: 11px;
+}
+
+.obj_room_status .spinner {
+	line-height: 1px;
+	visibility: hidden;
+	text-align: center;
+}
+.obj_room_status .user.typing .spinner {
+	visibility: visible;
+}
+	.obj_room_status .user.typing .spinner > div {
+		width: 4px;
+		height: 4px;
+		background-color: #D3D3D3;
+
+		border-radius: 100%;
+		display: inline-block;
+		-webkit-animation: typing 1.4s infinite ease-in-out both;
+		animation: typing 1.4s infinite ease-in-out both;
+	}
+	.obj_room_status .user.typing .spinner .bounce1 {
+		-webkit-animation-delay: -0.32s;
+		animation-delay: -0.32s;
+	}
+	.obj_room_status .user.typing .spinner .bounce2 {
+		-webkit-animation-delay: -0.16s;
+		animation-delay: -0.16s;
+	}

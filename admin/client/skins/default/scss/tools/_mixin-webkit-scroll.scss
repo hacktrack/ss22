@@ -1,0 +1,19 @@
+@mixin webkit-scroll {
+
+	@media #{$medium-up} { // Don't show scrollbar on mobile
+
+		// Make scrollbar on webkit visible by default
+		&::-webkit-scrollbar {
+			-webkit-appearance: none;
+			width: 11px;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: rgba($darker, 0.5);
+			box-shadow: 0 0 1px rgba($white, 0.5);
+			background-clip: padding-box;
+			border: 2px solid rgba(0, 0, 0, 0);
+			border-radius: 7px / 8px;
+		}
+	}
+}

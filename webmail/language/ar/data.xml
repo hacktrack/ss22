@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>كيلو بايت</kb>
+    <mb>ميغا بايت</mb>
+    <gb>غيغا بايت</gb>
+  </units>
+  <colors>
+    <blue>أزرق</blue>
+    <green>أخضر</green>
+    <brown>بني</brown>
+    <purple>بنفسجي</purple>
+    <yellow>أصفر</yellow>
+    <teal>فيروزي</teal>
+    <plum>برقوقي</plum>
+    <red>أحمر</red>
+    <aqua>سمائي</aqua>
+    <aquamarine>زمردي</aquamarine>
+    <orchid>أوركيدي</orchid>
+    <pink>زهري</pink>
+    <silver>فضي</silver>
+    <white>أبيض</white>
+    <gray>رمادي</gray>
+    <lemon>ليموني</lemon>
+  </colors>
+  <title>
+    <new_email>* رسالة بريد إلكتروني جديدة</new_email>
+    <new_im>* رسالة جديدة من  %s</new_im>
+    <new_reminder>‫* رسالة تذكير: %s</new_reminder>
+    <cerror>خطأ في الاتصال!</cerror>
+  </title>
+  <audio>
+    <player>مشغّل الصوت</player>
+  </audio>
+  <signature>
+    <none>بدون توقيع</none>
+    <alias>من العنوان</alias>
+    <newmsg>رسالة جديدة</newmsg>
+    <oldmsg>الردود</oldmsg>
+    <signature>التوقيع</signature>
+    <variable>قم بإدخال المتحول</variable>
+  </signature>
+  <alias>
+    <add>إضافة اسم مستعار جديد</add>
+    <notify>تم إرسال رسالة التأكيد.</notify>
+    <instructions>سيتم إرسال تأكيد الطلب على عنوان البريد الإلكتروني اعلاه. يرجى التحقق منه للمزيد من التعليمات.</instructions>
+  </alias>
+  <notify>
+    <title>تفاصيل الإشعار</title>
+    <to_all>إرسال إشعار إلى كل من يملك صلاحية الوصول إلى هذا المجلد</to_all>
+    <copy>قم أيضاً بإبلاغ</copy>
+    <comment>التعليق (اختياري)، الذي سيتم إرساله إلى المستخدمين الذين أردت إشعارهم بالتغييرات</comment>
+    <success>تم إرسال الإشعار</success>
+  </notify>
+  <datagrid>
+    <nomessages>لا يوجد رسائل</nomessages>
+    <noitems>لا يوجد عناصر</noitems>
+  </datagrid>
+  <itemview>
+    <preview>المعاينة</preview>
+    <down>الجزء السفلي</down>
+    <right>الجزء الأيمن</right>
+    <none>لا يوجد</none>
+    <noitem>بلا عناصر</noitem>
+    <message_to>رسالة إلى : %s</message_to>
+    <doc_revisions>تنقيحات المستند</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>معالج البحث</wizard>
+    <since>من تاريخ</since>
+    <until>لغاية</until>
+    <contains>في كل مكان</contains>
+    <fulltext>النصوص</fulltext>
+    <makefolder>إنشاء مجلد بحث</makefolder>
+    <contact_note>ملاحظة</contact_note>
+  </search>
+  <search_hints>
+    <folder>البحث عن عناصر من مجلد محدد</folder>
+    <from>يُستخدَم لتحديد المرسل (from:Amany)</from>
+    <to>يُستخدَم لتحديد المستلم (to:Tamer)</to>
+    <subject>البحث عن الكلمات في سطر الموضوع (subject:Dinner)</subject>
+    <or>العامل المنطقي</or>
+    <not>العامل المنطقي</not>
+    <hasattachment>البحث عن الرسائل مع مرفقات</hasattachment>
+    <isflagged>البحث عن الرسائل التي وضعت لها علامات</isflagged>
+    <isunread>البحث عن الرسائل غير المقروءة</isunread>
+    <isread>البحث عن الرسائل المقروءة</isread>
+    <isdone>البحث عن المهام المنجزة</isdone>
+    <cc>‫يُستخدَم لتحديد المُرسل إليهم في حقل &quot;نسخة إلى:&quot;</cc>
+    <bcc>يُستخدَم لتحديد المُرسل إليهم في حقل &quot;نسخة خفية إلى:&quot;</bcc>
+    <sms>يُستخدَم لتحديد المستلمين في الحقل &quot;sms:&quot;</sms>
+    <after>البحث عن الرسائل المرسلة بعد وقت محدد (بعد:16/04/2004)</after>
+    <after_e>البحث عن العناصر التي تبدأ بعد وقت محدد (بعد:16/04/2004)</after_e>
+    <after_f>البحث عن العناصر المُعدّلة بعد وقت محدد (بعد:16/04/2004)</after_f>
+    <after_t>البحث عن العناصر التي تنتهي بعد وقت محدد (after:16/04/2004)</after_t>
+    <after_j>البحث عن العناصر التي تبدأ بعد وقت محدد (بعد:16/04/2004)</after_j>
+    <before>البحث عن الرسائل المرسلة قبل وقت محدد (قبل:16/04/2004)</before>
+    <before_e>البحث عن العناصر التي تبدأ قبل وقت محدد (قبل:16/04/2004)</before_e>
+    <before_f>البحث عن العناصر المُعدّلة قبل وقت محدد (قبل:16/04/2004)</before_f>
+    <before_t>البحث عن العناصر التي تنتهي قبل وقت محدد (قبل:16/04/2004)</before_t>
+    <before_j>البحث عن العناصر التي تبدأ قبل وقت محدد (قبل:16/04/2004)</before_j>
+    <title>يُستخدَم لتحديد عنوان العنصر (العنوان:Test)</title>
+    <description>يُستخدَم لتحديد وصف أو ملاحظة (الوصف:Test)</description>
+    <name>يُستخدَم لتحديد اسم جهة الاتصال</name>
+    <email>يُستخدَم لتحديد البريد الإلكتروني</email>
+    <keyword>البحث عن عناصر وضعت عليها علامة محددة (tag:Business)</keyword>
+    <tag>البحث عن عناصر وضعت عليها علامة محددة (tag:Business)</tag>
+    <tag2>‫البحث عن عناصر وضعت عليها العلامة &quot;%s&quot; (تُستخدَم مع عناصر %s)</tag2>
+    <greater>البحث تبعًا للحجم بالكيلوبايت (أكبر من:1024)</greater>
+    <smaller>البحث تبعًا للحجم بالكيلوبايت (أقل من:1024)</smaller>
+    <company>البحث عن جهات الاتصال حسب الشركة (الشركة:IceWarp)</company>
+    <department>البحث عن جهات الاتصال حسب القسم (القسم:IT)</department>
+    <note>البحث عن جهة الاتصال التي تحوي على ملاحظة (الملاحظة:VIP)</note>
+    <location>البحث عن جهات الاتصال حسب الموقع (الموقع:London)</location>
+    <fulltext>البحث عن نصوص الرسائل (نص الرسالة:test)</fulltext>
+    <priority>البحث حسب الأولوية: القصوى، العالية، العادية، المنخفضة، الدنيا (الأولوية:مرتفعة)</priority>
+    <isprivate>البحث عن المهام الخاصة</isprivate>
+    <ispublic>البحث عن المهام العامة</ispublic>
+    <isfree>البحث عن المهام المتاحة</isfree>
+    <isbusy>البحث عن المهام المشغولة</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>البحث في المجلد</virtual>
+    <general>عام</general>
+    <primary>مجلد أساسي</primary>
+    <filter>تصفية</filter>
+    <all>كافة المجلدات</all>
+  </virtual>
+  <notifier>
+    <notifier>الإشعار</notifier>
+    <permissions>تمكنك إشعارات سطح المكتب من معرفة وصول بريد إلكتروني جديد أو رسالة محادثة، وذلك حتى في حال عدم فتح المتصفح.&lt;br&gt; من أج اختر طريقة إشعارك ثم اضغط على زر موافق وقم بعدها بتأكيد نافذة الحوار من أجل تمكين إشعارات سطح المكتب.</permissions>
+    <denied>لقد رفضت الحصول على إشعارات سطح المكتب.</denied>
+    <redirect>تم إعادة توجيه الرسالة.</redirect>
+    <send>تم إرسال الرسالة</send>
+    <item_save>تم حفظ العنصر..</item_save>
+    <new_email>رسالة بريد إلكتروني جديدة لـ   %s</new_email>
+    <new_revision>تم إنشاء مراجعة جديدة للمستند.</new_revision>
+    <email_exist>عنوان البريد الالكتروني موجود مسبقاً.</email_exist>
+    <email_added>تم إضافة عنوان البريد الالكتروني إلى جهة الاتصال.</email_added>
+    <contact_email_list_full>تعذر إضافة عنوان البريد الالكتروني، لعدم توفر حقول شاغرة.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>خرائط غوغل</map>
+    <go>إظهار العنوان</go>
+    <open>‫فتح غوغل</open>
+    <alert>‫خطأ في خرائط غوغل</alert>
+    <g_geo_missing_address>‫العنوان مفقود: إما أن يكون العنوان مفقود أو لا يحوي أية قيمة.</g_geo_missing_address>
+    <g_geo_too_many_queries>‫العديد من الاستعلامات : تم تجاوز حصة التشفير الجغرافية اليومية لهذا الموقع.</g_geo_too_many_queries>
+    <g_geo_server_error>خطأ في الخادم: تعذر معالجة طلب التشفير الجغرافي.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>معلومات تسجيل الدخول</login_info>
+    <licenses>التراخيص وتطبيقات سطح المكتب</licenses>
+    <licenses_text>قم بالاستفادة القصوى من حساب IceWarp. اضغط هنا لتحميل برامج إضافية و مفاتيح التنشيط و الإرشادات و الصيغ التي تحتاجها للوصول إلى التقاويم و جهات الاتصال وعرض الحالة متوفر/ مشغول ، من التطبيقات المتوافقة والمتوفرة لسطح المكتب: &#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;برنامج سطح المكتب للعميل (IceWarp Desktop Client)&lt;/li&gt;&#13;&#10;&lt;li&gt;برنامج مزامنة أوتلوك (IceWarp Outlook Sync)&lt;/li&gt;&#13;&#10;&lt;li&gt;برنامج المنبه (IceWarp Notifier)&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>العناصر المستلمة</delivered>
+    <delivered_info>تم التسليم إلى المستلم المحلي بنجاح</delivered_info>
+    <sent>العناصر المرسلة</sent>
+    <sent_info>تم التسليم إلى المخدّم البعيد بنجاح</sent_info>
+    <queue>قائمة انتظار</queue>
+    <queue_info>تم تأجيل الرسالة مؤقتًا، سيحاول الخادم إرسالها لاحقًا</queue_info>
+    <error>خطأ</error>
+    <error_info>تحقق من علبة الوارد للحصول على رسالة الخطأ المفصّلة</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>كافة الملفات</all_files>
+    <images>الصور</images>
+    <queue_limit_exceeded>تم تجاوز الحد المسموح في قائمة الانتظار</queue_limit_exceeded>
+    <zero_byte_file>ملف فارغ</zero_byte_file>
+    <invalid_filetype>نوع الملف غير صالح</invalid_filetype>
+    <item>العنصر</item>
+    <title>‫تحميل: %s - %s%</title>
+    <error1>تجاوز حجم الملف الحد المسموح به (%sMB)</error1>
+    <error3>تم تحميل الملف جزئياً فقط</error3>
+    <error4>لم يتم تحميل أية ملفات</error4>
+    <error6>المجلد المؤقت مفقود</error6>
+    <error7>تعذر إرسال الملف إلى القرص</error7>
+    <error8>نوع الملف غير صالح</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>‫نص الحالة ...</status_msg>
+    <add_private>خاص</add_private>
+    <unsupported_img>نوع الصورة غير مدعوم</unsupported_img>
+    <add_gateway>إضافة بوابة</add_gateway>
+    <error_im>خطأ في التراسل الفوري</error_im>
+    <registred>مسجل مسبقاً</registred>
+    <registr>تسجيل</registr>
+    <error_ticket>تعذر إنشاء بطاقة!</error_ticket>
+    <error_socket>تعذر فتح مأخذ التوصيل !</error_socket>
+    <error_bytestream>إن المستخدم لا يدعم وحدات البايت المتدفقة.</error_bytestream>
+    <error_cancel>تم إلغاء الطلب من قبل المستخدم.</error_cancel>
+    <error_registr>تم رفض طلب التسجيل الخاص بك من قبل الخدمة.</error_registr>
+    <add_service>الاشتراك في الخدمة</add_service>
+    <service>الخدمة</service>
+    <call>اتصل الآن</call>
+    <audio_call>مكالمة صوتية</audio_call>
+    <video_call>مكالمة مرئية (فيديو)</video_call>
+    <meeting>بدء اجتماع الويب</meeting>
+    <invite>الدعوة إلى اجتماع الويب</invite>
+    <closetab>إغلاق علامة التبويب</closetab>
+    <show>إظهار كافة جهات الاتصال</show>
+    <hide>إخفاء جهات الاتصال غير المتصلة</hide>
+    <other>غير ذلك</other>
+    <selected>محدد</selected>
+    <chat>فتح نافذة المحادثة</chat>
+    <groupmsg>إرسال رسالة</groupmsg>
+    <group>مجموعة</group>
+    <new_group>مجموعة جديدة</new_group>
+    <subscription>اشتراك</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>طلب المستخدم &lt;b&gt;%s&lt;/b&gt; الموافقة على إضافتك إلى قائمة جهات الاتصال الخاصة بالتراسل الفوري (WebChat)</sub_ask>
+    <send>تخويل الاتصال للمحادثة</send>
+    <request>طلب التخويل</request>
+    <remove>إزالة التخويل</remove>
+    <remove_account>هل تريد بالتأكيد إزالة الحساب %s من الكشف؟</remove_account>
+    <remove_accounts>هل تريد بالتأكيد إزالة الحسابات المحددة من الكشف ؟</remove_accounts>
+    <rem_grp>إزالة مجموعة</rem_grp>
+    <rem_grpc>إزالة المجموعة و جهات الاتصال</rem_grpc>
+    <rename>إعادة تسمية</rename>
+    <add>إضافة جهة اتصال</add>
+    <jabber_id>معرّف المستخدم</jabber_id>
+    <nick>الاسم المعروض</nick>
+    <vcard>إظهار تفاصيل جهة الاتصال</vcard>
+    <history>عرض محفوظات المحادثة</history>
+    <sharedesktop>مشاركة الشاشة</sharedesktop>
+    <tab_general>عام</tab_general>
+    <tab_work>العمل</tab_work>
+    <tab_location>الموقع</tab_location>
+    <tab_about>حول</tab_about>
+    <send_mail>إرسال بريد الكتروني</send_mail>
+    <send_file>إرسال ملف</send_file>
+    <receive_file>استلام ملف</receive_file>
+    <not_listed>غير مُدرج</not_listed>
+    <composing>التراسل الفوري: %s يقوم الآن بالكتابة...</composing>
+    <file_message>لقد أرسل لك المستخدم ملفاً له الوصف التالي :&#13;&#10;%s&#13;&#10;&#13;&#10;الرابط: %s</file_message>
+    <file_cancel>رفض المستقبل استلام الملف.</file_cancel>
+    <file_error>‫خطأ في نقل الملف.</file_error>
+    <file_ok>‫تم نقل الملف بنجاح.</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/b&gt; أرسل لك الملف التالي &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>‫إظهار المحادثة بعد: %s</show_after>
+    <im_status>التراسل الفوري: %s</im_status>
+    <im>التراسل الفوري</im>
+    <sip_inprogress>جاري الاتصال</sip_inprogress>
+    <sip_incomming>مكالمة واردة</sip_incomming>
+    <sip_calling>الاتصال</sip_calling>
+    <status_sec>%s خلال أقل من دقيقة</status_sec>
+    <status_min>%s  منذ  %s دقيقة (دقائق)</status_min>
+    <status_hour>%s  منذ  %s ساعة (ساعات)</status_hour>
+    <active>المحادثات النشطة</active>
+    <recent>الأخيرة</recent>
+  </im>
+  <mail_view>
+    <propose>اقترح وقتاً مغايراً</propose>
+    <nosubject>بلا موضوع</nosubject>
+    <when>الوقت</when>
+    <location>موقع</location>
+    <comment>تعليق</comment>
+    <description>وصف</description>
+    <accept>قبول</accept>
+    <tentative>مبدئي</tentative>
+    <decline>رفض</decline>
+    <skip_img>تم حظر الموارد الخارجية. انقر هنا لعرضها.</skip_img>
+    <show_img>تحوي الرسالة على صور مرفقة. انقر هنا لمعاينتها.</show_img>
+    <smart>يتم إرسال المرفقات باستخدام تقنية المرفق الذكي من IceWarp.</smart>
+    <show_raw>فتح الرسالة كمصدر</show_raw>
+    <certificate>شهادة عامة</certificate>
+    <serror>‫خطأ في فك التشفير، شهادة تشفير مفقودة أو غير صالحة.</serror>
+    <sverify>عدم إمكانية التحقق من مصدر الرسالة.</sverify>
+    <expired>‫خطأ في فك التشفير، شهادة التشفير صالحة ولكنها منتهية الصلاحية.</expired>
+    <access>لقد تم منحك حق الوصول إلى  &quot;%s&quot; من قبل %s.</access>
+    <account_access>لقد تم منحك حق الوصول من قبل %s.</account_access>
+    <subscribe>مجلد الاشتراك</subscribe>
+    <subscribe_account>حساب الاشتراك</subscribe_account>
+    <subscribed>الحساب %s  مشترك.</subscribed>
+    <subscribed_folder>المجلد  &quot;%s/%s&quot; مشترك.</subscribed_folder>
+    <unsubscribe>إلغاء الاشتراك</unsubscribe>
+    <unsubscribed>تم إزالة اشتراك  %s.</unsubscribed>
+    <unsubscribed_folder>تم إزالة اشتراك  &quot;%s/%s&quot;.</unsubscribed_folder>
+    <error>‫تعذر تنفيذ الإجراء.</error>
+    <recurrent>متكرر</recurrent>
+    <occurrence>استثناء من الحدث المتكرر</occurrence>
+    <attendee>مع</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>ما الجديد</whatsnew>
+  </whatsnew>
+  <help>
+    <help>تعليمات</help>
+    <about>حول</about>
+  </help>
+  <print>
+    <preview>معاينة الطباعة</preview>
+    <opera>‫لا يدعم المستعرض هذه الميزة.</opera>
+  </print>
+  <status>
+    <online>متصل</online>
+    <offline>غير متصل</offline>
+    <chat>متوفر للمحادثة</chat>
+    <away>خارج المكتب</away>
+    <xa>غير موجود</xa>
+    <dnd>ممنوع الإزعاج</dnd>
+    <invisible>متخفي</invisible>
+    <gone>أغلق المستخدم نافذة المحادثة</gone>
+    <error>خطأ</error>
+    <sip>متصل بواسطة WebPhone</sip>
+    <chat_with>قم بمحادثة %s</chat_with>
+  </status>
+  <policy>
+    <minlength>الحد الأدنى لطول كلمة المرور: %s محرف</minlength>
+    <digits>عدد محارف الأرقام [0-9] : %s</digits>
+    <alpha>عدد المحارف الأبجدية (الحروف) [a-Z]: %s</alpha>
+    <nonalphanum>عدد المحارف غير الأبجدية [!@#$%...] : %s</nonalphanum>
+    <upperalpha>عدد محارف الأبجدية ذات الحروف الكبيرة  [A-Z]: %s</upperalpha>
+    <useralias>لا يمكن أن تكون كلمة المرور هي نفس اسم المستخدم أو الاسم المستعار</useralias>
+  </policy>
+  <alerts>
+    <alert>تنبيه</alert>
+    <suppress>عدم إظهار هذه الرسالة مجدداً</suppress>
+    <create_revision>لا يمكن إنشاء مراجعة</create_revision>
+    <password_do_not_match>كلمتا المرور غير متطابقتين!</password_do_not_match>
+    <invalid_password>كلمة مرور غير صالحة!</invalid_password>
+    <new_password_match>كلمة المرور الجديدة وكلمة المرور القديمة متطابقتان!</new_password_match>
+    <invalid_cpassword>تأكيد كلمة المرور لا يطابق كلمة المرور!</invalid_cpassword>
+    <folder_exist>المجلد موجود مسبقاً!</folder_exist>
+    <create_folder>غير قادر على إنشاء المجلد &quot;%s&quot;</create_folder>
+    <rename_folder>تعذر إعادة تسمية المجلد  &quot;%s&quot; إلى الاسم &quot;%s&quot;</rename_folder>
+    <attachment_size>تجاوز حجم الملف المرفق الحد المسموح!</attachment_size>
+    <attachment_quota>تجاوز المرفق الحجم المسموح المحدد.</attachment_quota>
+    <attachment_missing>لم يتم العثور على الملف المرفق.</attachment_missing>
+    <attachment_virus>الملف المرفق مصاب بفيروس.</attachment_virus>
+    <could_not_create>لا يمكن إنشاء المستند.</could_not_create>
+    <could_not_edit>لا يمكن إجراء تعديلات على المستند.</could_not_edit>
+    <general_error>حدث خطأ غير محدد &lt;br&gt;%s</general_error>
+    <account_pass_failure>حدث خطأ أثناء محاولة تغيير كلمة المرور. الرجاء إعادة المحاولة باستخدام كلمة مرور أخرى.</account_pass_failure>
+    <password_policy>كلمة المرور تنتهك سياسة كلمات المرور!</password_policy>
+    <password_requirements>‫يُرجى التحقق من المتطلبات التالية واختيار كلمة مرور جديدة:</password_requirements>
+    <password_incorrect>كلمة المرور غير صحيحة. يُرجى إعادة المحاولة.</password_incorrect>
+    <message_not_sent>لم يتم إرسال الرسالة!</message_not_sent>
+    <message_not_saved>لم يتم حفظ الرسالة!</message_not_saved>
+    <mailingfailed>لم يتم حفظ أو إرسال الرسالة بسبب خطأ في الخادم. يرجى إعادة المحاولة لاحقاً.</mailingfailed>
+    <distribution_list_invalid_id>لائحة توزيع غير صالحة</distribution_list_invalid_id>
+    <smtp_from_failed>‫لم  يتم قبول المُرسل التالي:</smtp_from_failed>
+    <smtp_recipients_failed>‫تسبب المستلمون في الخطأ التالي:</smtp_recipients_failed>
+    <smtp_data_not_accepted>‫لم يقبل الخادم الرسالة التي أرسلتها.</smtp_data_not_accepted>
+    <default_folder_missing>المجلد الافتراضي &quot;%s&quot;  مفقود.</default_folder_missing>
+    <no_recipient_certificate>‫شهادة المستلم مفقودة.</no_recipient_certificate>
+    <recipient_certificate_expired>انتهت مدة صلاحية شهادة المستلم.</recipient_certificate_expired>
+    <personal_certificate>عدم تطابق شهادة التشفير الشخصية</personal_certificate>
+    <save_certificate_missing>لقد تم إرسال الرسالة ولكن لم يتم حفظها. قم بإدخال شهادة التشفير الخاصة أو قم بتعطيل الحفظ في مجلد الرسائل المرسلة كي تتفادى ظهور هذه الرسالة مجدداً.</save_certificate_missing>
+    <imap_null>‫تعذر استرداد الرسالة.</imap_null>
+    <delete_item>‫تعذر حذف العنصر (العناصر) المحددة</delete_item>
+    <reserved_folder>اسم المجلد &quot;%s&quot; محجوز</reserved_folder>
+    <undefined>خطأ غير محدد</undefined>
+    <timezone_differ>تغيرت المنطقة الزمنية الخاصة بك. قم باختيار المنطقة الزمنية الموافقة أدناه لضبط مواعيد المهام الموجودة في التقويم.</timezone_differ>
+    <popup_blocker>تم حظر النافذة المنبثقة.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>غير مقروء</unread>
+    <contact_ok>تم الاتصال بمسؤول النظام بنجاح</contact_ok>
+    <signup_ok>تم إنشاء الحساب الجديد بنجاح</signup_ok>
+    <logout>تم تسجيل خروج المستخدم</logout>
+    <logged_out>تم تسجيل خروج المستخدم</logged_out>
+    <forgot_ok>تم إرسال بيانات الاعتماد إلى عنوان بريدك الإلكتروني وعنوان البريد الإلكتروني البديل</forgot_ok>
+    <password_change_ok>تم تغيير كلمة المرور بنجاح</password_change_ok>
+    <close_window>يمكنك الآن إغلاق النافذة الحالية</close_window>
+    <personality_confirmation_ok>تم تأكيد عنوان بريدك الإلكتروني.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>‫اسم المستخدم أو كلمة المرور غير صحيحة. يُرجى إعادة المحاولة.</invalid_login>
+    <account_disabled>تم تعطيل الحساب</account_disabled>
+    <expired>انتهت صلاحية جلسة العمل</expired>
+    <connection>‫تعذر الوصول إلى الخادم. يُرجى التحقق من الاتصال بالإنترنت أو اتصل بمسؤول النظام.</connection>
+    <servererror>تعذر الوصول إلى هذه الخدمة. يُرجى إعادة المحاولة لاحقاً أو الاتصال بمسؤول النظام.</servererror>
+    <overloaded>يعاني الخادم من زيادة التحميل. يُرجى إعادة المحاولة لاحقا أو الاتصال بالمسؤول.</overloaded>
+    <countdown>ستتم إعادة المحاولة خلال %s  ثانية (ثوان).</countdown>
+    <filenotfound>بعض  الملفات مفقودة من الخادم. حصل خطأ غير متوقع.</filenotfound>
+    <subscribe_error>تعذر الاشتراك في حساب %s.</subscribe_error>
+    <wc_disabled>‫تم تعطيل WebClient.</wc_disabled>
+    <invalid_rsa>‫تعذر إنشاء كلمة مرور RSA.</invalid_rsa>
+    <no_db>‫خطأ في الاتصال بقاعدة البيانات.</no_db>
+    <no_data>‫لا توجد بيانات متوفرة.</no_data>
+    <access_error>‫تعذر الوصول إلى مجلد صندوق البريد، يُرجى الاتصال بمسؤول النظام..&#13;&#10;.</access_error>
+    <ip_mismatch>لقد تغير عنوان الـ IP الخاص بك، سيتم تسجيل خروجك. لمنع حدوث هذه المشكلة في المستقبل، يُرجى الوصول إلى WebClient عبر اتصال HTTPS</ip_mismatch>
+    <javatip1>ابحث عن المطالبات أو التنبيهات حول الأمان في جافا . انقر فوق نعم أو السماح.</javatip1>
+    <javatip2>اتصل بالمسؤول لمساعدتك على تثبيت جافا على جهاز الكمبيوتر الخاص بك، أو</javatip2>
+    <javatip3>انقر على زر استكشاف الأخطاء الموجود أدناه لحل المشكلة الآن</javatip3>
+    <contactadmin>الاتصال بمسؤول النظام</contactadmin>
+    <troubleshoot>استكشاف الأخطاء</troubleshoot>
+  </error>
+  <common>
+    <all>الكل</all>
+    <processing>المعالجة</processing>
+    <loading>‫يتم الآن التحميل...</loading>
+    <sending>يتم الإرسال ...</sending>
+    <comment>التعليق (اختياري)</comment>
+    <email>البريد الإلكتروني</email>
+    <folder>مجلد</folder>
+    <items>العناصر</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>تحديد الكل</select_all>
+    <clear>مسح</clear>
+    <yes>نعم</yes>
+    <no>لا</no>
+    <auto>تلقائي</auto>
+    <disable>تعطيل</disable>
+    <enable>تمكين</enable>
+    <enabled>مفعّل</enabled>
+    <show_all>إظهار الكل</show_all>
+    <previous>السابق</previous>
+    <next>التالي</next>
+    <more>المزيد ...</more>
+    <show>إظهار</show>
+    <hide>إخفاء</hide>
+    <appearance>مظهر اللوحة</appearance>
+    <expand>توسيع</expand>
+    <collapsed>طي</collapsed>
+    <autocollapsed>طي تلقائي</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>المفضلة</favorites>
+    <remove>إزالة من المفضلة</remove>
+    <rename>إعادة تسمية الاختصار</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>المالك</owner>
+    <address_book>دفتر العناوين</address_book>
+    <add_recipient>إضافة مستلم</add_recipient>
+    <selected_addresses>محدد</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>فارغ</empty>
+    <today>اليوم</today>
+    <this_week>الأسبوع الحالي</this_week>
+    <this_month>الشهر الحالي</this_month>
+    <yesterday>الأمس</yesterday>
+    <tomorrow>الغد</tomorrow>
+    <typetoadd>اكتب هنا لإضافة موعد</typetoadd>
+    <owner>المالك</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>التوقيت المحلي</timezones>
+    <serverzone>وقت الخادم</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>هل ترغب في مسح قائمة الإكمال التلقائي؟</clear_autosuggest>
+    <suppress>لا تسألني مجدداً</suppress>
+    <reset_password_subject>تمت إعادة تعيين كلمة المرور للحساب %email%</reset_password_subject>
+    <reset_password>مرحباً  %username%،&#13;&#10;هل قمت بطلب إعادة تعيين كلمة المرور للحساب التالي (%email%) في WebClient ؟&#13;&#10;اضغط على الرابط أدناه (أو قم  نسخه ولصقه على متصفحك) للتأكد من أن هذا البريد الإلكتروني ملك لك.&#13;&#10;في حال عدم طلبك إعادة تعيين كلمة المرور أو تلقيت هذه الرسالة عن طريق الخطأ، يُرجى تجاهلها.  &#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>تأكيد الجديد من العنوان %username%</alias_subject>
+    <alias_confirmation>مرحباً  %username%،&#13;&#10;هل قمت بطلب إعادة تعيين كلمة المرور للحساب التالي (%email%) في WebClient ؟&#13;&#10;اضغط على الرابط أدناه (أو قم  نسخه ولصقه على متصفحك) للتأكد من أن هذا البريد الإلكتروني ملك لك.&#13;&#10;في حال عدم طلبك إعادة تعيين كلمة المرور أو تلقيت هذه الرسالة عن طريق الخطأ، يُرجى تجاهلها.  &#13;&#10;&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>‫لمنع فقد البيانات المعدّلة، يُرجى التأكد من حفظ كافة العناصر المفتوحة وتخزين كافة مسودات رسائل البريد الإلكتروني.</unload>
+    <expired>انتهت صلاحية جلسة العمل</expired>
+    <no_mobile>‫لم يتم العثور على رقم جوال.</no_mobile>
+    <expired_msg>يتعذر عليك إرسال رسائل غير منتهية أو حفظها. لقد تغير عنوان IP الخاص بك أو انتهت الجلسة.</expired_msg>
+    <delete_account_confirmation>إزالة تأكيد الحساب</delete_account_confirmation>
+    <delete_account>هل تريد بالتأكيد حذف الحساب   %s؟</delete_account>
+    <recover_item>هل تريد بالتأكيد استرداد العنصر أو العناصر المحددة؟</recover_item>
+    <delete_folder_confirmation>تأكيد حذف المجلد</delete_folder_confirmation>
+    <delete_folder>هل ترغب في حذف المجلد %s ؟&lt;br/&gt; (سيتم حذف كافة المجلدات الفرعية بشكلٍ دائم)</delete_folder>
+    <delete_item_confirmation>تأكيد حذف العنصر</delete_item_confirmation>
+    <delete_item>هل تريد بالتأكيد حذف العنصر أو العناصر؟</delete_item>
+    <delete_avatar>سيتم حذف صورة جهة الاتصال الحالية</delete_avatar>
+    <blacklist_sender_confirmation>تأكيد القائمة السوداء</blacklist_sender_confirmation>
+    <blacklist_sender>هل تريد بالتأكيد إدراج مرسل العنصر أو العناصر المحددة في القائمة السوداء؟</blacklist_sender>
+    <blacklist_domain>هل أنت متأكد من رغبتك في إدراج كافة عناصر هذا النطاق في القائمة السوداء؟</blacklist_domain>
+    <blacklisted>تمت إضافة المرسل إلى القائمة السوداء</blacklisted>
+    <whitelist_sender_confirmation>تأكيد القائمة البيضاء</whitelist_sender_confirmation>
+    <whitelist_sender>هل ترغب في إدراج مرسل العنصر أو العناصر المحددة في القائمة البيضاء؟</whitelist_sender>
+    <whitelist_domain>هل أنت متأكد من رغبتك في إدراج كافة عناصر هذا النطاق في القائمة البيضاء؟</whitelist_domain>
+    <whitelisted>تمت إضافة المرسل إلى القائمة البيضاء</whitelisted>
+    <empty_folder_confirmation>تأكيد إفراغ المجلد</empty_folder_confirmation>
+    <empty_folder>هل تريد بالتأكيد حذف كافة العناصر الموجودة في هذا المجلد؟</empty_folder>
+    <empty_to_trash>هل تريد بالتأكيد نقل كافة العناصر من المجلد إلى سلة المحذوفات؟</empty_to_trash>
+    <save_title>حفظ الرسالة</save_title>
+    <save_confirmation>‫لم يتم حفظ الرسالة. هل تريد حفظ الرسالة في مجلد &quot;المسودات&quot;؟</save_confirmation>
+    <save_file>تم تعديل الملف. هل تريد حفظ التغييرات؟</save_file>
+    <save>حفظ</save>
+    <discard>تجاهل التغييرات</discard>
+    <create_reading_confirmation_title>تأكيد القراءة</create_reading_confirmation_title>
+    <create_reading_confirmation>‫طلب المرسل إرسال تأكيد أنه قد تمت قراءة هذه الرسالة . هل ترغب في إرساله؟</create_reading_confirmation>
+    <send_reading_confirmation>هل ترغب بطلب رسالة تأكيد قراءة من المستلم؟</send_reading_confirmation>
+    <browser_warning_title>تحذير خاص بالمستعرض</browser_warning_title>
+    <browser_warning_text_unsupported>مستعرضك الحالي &quot;غير معتمد رسميًا&quot; من قِبل IceWarp WebClient.&#13;&#10;&#13;&#10;يُرجى ملاحظة أن أداء WebClient مع مستعرضك الحالي قد يكون بطيئًا للغاية أو معطلاً.&#13;&#10;&#13;&#10;تم تحسين WebClient للاستخدام مع Firefox 4.0 (أو الإصدار الأعلى) و Internet Explorer 8.0(أو الإصدار الأعلى). نوصي بشدة بأن تقوم بالترقية إلى الإصدار الأحدث من Internet Explorer  أو تثبيت Firefox (كلاهما مجاني)&#13;&#10;&#13;&#10;للحصول على الإصدار الأحدث من Firefox، تفضل بزيارة:&#13;&#10; http://www.firefox.com/&#13;&#10;وللحصول على الإصدار الأحدث من Internet Explorer، تفضل بزيارة:&#13;&#10; &lt;http://www.microsoft.com/ie/&gt;&#13;&#10;&#13;&#10;اضغط على &quot;موافق&quot; لمتابعة عملية تسجيل الدخول أو اضغط على &quot;إلغاء الأمر&quot; للتبديل إلى واجهةWebClient  للأجهزة اللوحية.</browser_warning_text_unsupported>
+    <expired_password>‫انتهت مدة صلاحية كلمة المرور. يُرجى تغيير كلمة المرور الآن.</expired_password>
+    <authentication>فشلت عملية المصادقة</authentication>
+    <authenticate>لأسباب تتعلق بالأمان يٌرجى إعادة المصادقة مجدداً.</authenticate>
+    <enterpass>قم بإدخال كلمة المرور لتسجيل الدخول ومتابعة العمل أو إضغط على تسجيل الخروج للإنهاء والخروج.</enterpass>
+    <secure>لتجنب تكرار هذه المشكلة مجدداً، قم بالاتصال بـ WebClient عبر  HTTPS</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>‫سيتم تغيير لغة WebClient بعد تسجيل الخروج وتسجيل الدخول مرة أخرى.</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>فتح في نافذة جديدة</open_in_separate_window>
+    <help_restriction>قام المسؤول بإلغاء تفعيل هذه الميزة حالياً.</help_restriction>
+    <switch_older>التبديل إلى الإصدار السابق من زبون الويب WebClient</switch_older>
+    <choose_interface>قم باختيار واجهة المستخدم المفضلة لديك</choose_interface>
+    <choose_lang>قم باختيار لغتك المفضلة</choose_lang>
+    <migration_in_progress>جاري التهجير الآن، يُرجى إعادة المحاولة لاحقاً</migration_in_progress>
+    <message_sent>تم إيصال الرسالة</message_sent>
+    <message_send_failed>تعذر إرسال الرسالة</message_send_failed>
+    <antispam_code_error>رمز الحماية غير صحيح</antispam_code_error>
+    <antispam>رمز الحماية</antispam>
+    <contact_support_subject>طلب جهة اتصال جديدة من شاشة تسجيل الدخول</contact_support_subject>
+    <text>النص</text>
+    <contact_administrator>اتصل بنا للحصول على الدعم</contact_administrator>
+    <contact_question>هل أنت بحاجة للمساعدة؟</contact_question>
+    <contact_answer>الاتصال بالمسؤول</contact_answer>
+    <contact_1>اتصل بـ</contact_1>
+    <contact_2>مسؤول النظام</contact_2>
+    <contact_placeholder_1>بريدك الإلكتروني أو رقم هاتفك</contact_placeholder_1>
+    <contact_placeholder_2>وصف المشكلة</contact_placeholder_2>
+    <help>تعليمات حول الصوت</help>
+    <meeting_me>أنا</meeting_me>
+    <meeting_hang_up_confirmation>هل أنت متأكد من رغبتك بمغادرة الاجتماع؟</meeting_hang_up_confirmation>
+    <online_meeting>اجتماع الويب</online_meeting>
+    <meeting_connected>متصل</meeting_connected>
+    <meeting_connecting>جاري الاتصال ...</meeting_connecting>
+    <phone_access>الوصول عبر الهاتف</phone_access>
+    <meeting_chat_ready>مرحبا بكم في اجتماع الويب! المحادثة الجماعية جاهزة.</meeting_chat_ready>
+    <meeting_chat_send>إرسال</meeting_chat_send>
+    <meeting_user_left_meeting>لقد غادر المستخدم&quot;%s&quot;  الاجتماع</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>لقد انضم المستخدم&quot;%s&quot;  إلى الاجتماع</meeting_user_joined_meeting>
+    <meeting_no_participants>لا يوجد مشاركين</meeting_no_participants>
+    <meeting_server_not_responding>عدم استجابة الخادم</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>تم الاتصال بنجاح</meeting_meeting_connected_successfully>
+    <java_warning_no_java>لا يمكن بدء بريمج الصوت. إذا وجدت مربع حوار للتأكيد، يُرجى تأكيد السماح لتشغيل بريمج Java. في بعض الحالات، فإن إعادة تشغيل المتصفح يمكن أن تساعد. يمكنك البحث عن أحدث نسخة من جافا ومعرفة إذا كانت مثبتة بشكل صحيح من خلال زيارة  &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>المدة</duration>
+    <mute>الوضع الصامت</mute>
+    <desktop_sharing_id>معرّف جلسة مشاركة الشاشة</desktop_sharing_id>
+    <conference_phone_number>رقم هاتف اجتماعات الويب</conference_phone_number>
+    <desktop_sharing_app>تطبيق مشاركة الشاشة</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>نعتذر، ولكن لا يمكن مشاركة الشاشة من شبكة الإنترنت على الأجهزة المحمولة مباشرة. في الرابط أدناه تجد التطبيق اللازم لذلك.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>نعتذر، ولكن لا يمكن مشاركة الشاشة من شبكة الإنترنت على أجهزة Mac. للقيام بذلك يجب تثبيت التطبيق من الرابط أدناه.</desktop_sharing_mac_warning>
+    <continue_to_call>الانضمام إلى المكالمة</continue_to_call>
+    <meeting_api_unexpected_response>استجابة API غير متوقعة</meeting_api_unexpected_response>
+    <applet_unreachable>لا يمكن الوصول إلى بريمج جافا Java applet</applet_unreachable>
+    <sip_applet_load_failed>فشل تحميل بريمجات الصوت</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>فشل في الحصول على معلومات الاجتماع</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>تم إنهاء مشاركة الشاشة ولكن الصوت مازال مفعّلاً</meeting_mikogo_ended>
+    <meeting_ended>انتهى اجتماع الويب</meeting_ended>
+    <meeting_hang_up>إنهاء المكالمة</meeting_hang_up>
+    <meeting_id>معرّف الاجتماع</meeting_id>
+    <meeting_mikogo_ready>مشاركة الشاشة في وضع الجاهزية</meeting_mikogo_ready>
+    <meeting_sip_ready>الصوت في وضع الجاهزية</meeting_sip_ready>
+    <meeting_call_failed>فشل في الاتصال</meeting_call_failed>
+    <meeting_timeout_trying_again_in>انتهت مهلة المدة المخصصة لإجراء الدعوة. المحاولة مجدداُ بعد  %s ثانية.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>إعادة المحاولة بعد %s ثانية.</meeting_trying_again_in>
+    <meeting_preparing_sip>جاري تحضير الصوت</meeting_preparing_sip>
+    <meeting_starting_sip>بدء تشغيل الصوت</meeting_starting_sip>
+    <meeting_waiting_for_reply>بريمج الصوت ينتظر استجابة الخادم</meeting_waiting_for_reply>
+    <meeting_in_progress>جاري الاجتماع</meeting_in_progress>
+    <meeting_you_can_join>يمكنك الانضمام إلى اجتماع الويب الآن</meeting_you_can_join>
+    <meeting_applet_is_not_ready>بريمج الاجتماع غير جاهز بعد</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>لا يستجيب أي من رموز بريمج الاجتماع</meeting_no_applet_code>
+    <meeting_unexpected_response>استجابة غير متوقعة لبريمج الاجتماع</meeting_unexpected_response>
+    <meeting_no_webrtc_support>إن متصفحك لا يدعم اجتماعات الويب</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>يمكنك الحصول على أفضل النتائج عند استخدام متصفح كروم Chrome. سيتم الآن توجيهك إلى دليل الإعداد.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>لم يبدأ اجتماع الويب بعد</meeting_meeting_wasnt_started>
+    <meeting_waiting>بانتظار %s للبدء باجتماع الويب</meeting_waiting>
+    <meeting_created_by_ready>اجتماع الويب الذي تم إنشاؤه من قبل %s أصبح جاهزاً</meeting_created_by_ready>
+    <meeting_loading_meeting_info>تحميل بيانات الاجتماع</meeting_loading_meeting_info>
+    <unknown_error>خطأ غير معروف</unknown_error>
+    <meeting_no_name>الرجاء إدخال اسم المستخدم أو الاسم المستعار</meeting_no_name>
+    <meeting_api_error_104>معرّف اجتماع غير صالح</meeting_api_error_104>
+    <meeting_api_error_description_104>عنوان الاجتماع غير موجود أو غير كامل</meeting_api_error_description_104>
+    <meeting_api_error_111>تم تعطيل هذه الخدمة</meeting_api_error_111>
+    <meeting_api_error_120>تعذر الاتصال بالملقم البعيد</meeting_api_error_120>
+    <meeting_api_error_125>لا يملك المخدّم ترخيصاً صالحاً لاجتماعات الويب</meeting_api_error_125>
+    <meeting_id_doesnt_exist>معرّف اجتماع غير موجود</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>الميكروفون غير متوفر</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>لا يمكن الوصول إلى الميكروفون  إما أن يكون الاتصال بالميكروفون غير مفعّلاً أو أن الميكرفون غير موصول.  هل ترغب في الاستمرار من دون ميكروفون؟</meeting__no_microphone_continue>
+    <fill_in_name>أدخل اسم المستخدم</fill_in_name>
+    <fill_in_email>أدخل عنوان بريدك الإلكتروني</fill_in_email>
+    <join_meeting>الانضمام إلى اجتماع الويب</join_meeting>
+    <already_a_member>عضو مسجل</already_a_member>
+    <name>الاسم</name>
+    <enter_your_name>قم بإدخال الاسم</enter_your_name>
+    <enter_your_name_description>هذا الاسم هو الذي سيظهر لبقية المشاركين للتعريف عنك خلال اجتماع الويب</enter_your_name_description>
+    <cancel>إلغاء الأمر</cancel>
+    <login_caption>مرحبًا بك في IceWarp WebClient</login_caption>
+    <copy>بدعم من  &lt;a href=&quot;http://www.icewarp.com&quot;&gt; خادم&lt;/a&gt; IceWarp</copy>
+    <copy_new>مدعوم من  &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarpمخدّم &lt;/a&gt;</copy_new>
+    <title>IceWarp WebClient</title>
+    <user>اسم المستخدم</user>
+    <email>عنوان البريد الإلكتروني</email>
+    <pass>كلمة المرور</pass>
+    <old_pass>كلمة المرور القديمة</old_pass>
+    <new_pass>كلمة المرور الجديدة</new_pass>
+    <check_pass>تأكيد كلمة المرور</check_pass>
+    <change_password>تغيير كلمة المرور</change_password>
+    <remember>تذكر</remember>
+    <save0>تسجيل دخول تلقائي</save0>
+    <save1>اسم المستخدم وكلمة المرور</save1>
+    <save2>اسم المستخدم</save2>
+    <save3>السؤال دومًا</save3>
+    <login>تسجيل الدخول</login>
+    <send>إرسال</send>
+    <create_account>إنشاء حساب</create_account>
+    <switch>التبديل إلى واجهة &lt;a href=&quot;./basic&quot;&gt;الأجهزة اللوحية &lt;/a&gt; أو واجهة  &lt;a href=&quot;./pda&quot;&gt;الأجهزة المحمولة &lt;/a&gt;</switch>
+    <downloads>الملفات المحمّلة</downloads>
+    <interface>الواجهة</interface>
+    <basic>الأجهزة اللوحية</basic>
+    <pda>الأجهزة المحمولة</pda>
+    <pro>سطح المكتب</pro>
+    <osx>نظام تشغيل ماك Mac X</osx>
+    <lang>اللغة</lang>
+    <keep_me_signed>تذكرني</keep_me_signed>
+    <utilities>أدوات</utilities>
+    <pw_policy_minlength>الحد الأدنى لطول كلمة المرور</pw_policy_minlength>
+    <pw_policy_digits>‫  عدد المحارف الرقمية في كلمة المرور (0-9)</pw_policy_digits>
+    <pw_policy_alpha>‫عدد المحارف الأبجدية في كلمة المرور (a-Z(</pw_policy_alpha>
+    <pw_policy_nonalphanum>‫عدد المحارف غير الأبجدية وغير الرقمية [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>تمكين التحقق من كلمة المرور بناءً على اسم المستخدم والاسم المستعار</pw_policy_useralias>
+    <pw_policy_uppercase>‫عدد المحارف الأبجدية ذات الأحرف الكبيرة [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>عرض واجهة لوحة المفاتيح الافتراضية</virtual_keyboard_01>
+    <virtual_keyboard_02>تحديد تخطيط لوحة المفاتيح</virtual_keyboard_02>
+    <virtual_keyboard_04>تشغيل</virtual_keyboard_04>
+    <virtual_keyboard_05>إيقاف تشغيل</virtual_keyboard_05>
+    <virtual_keyboard_06>إغلاق لوحة المفاتيح</virtual_keyboard_06>
+    <virtual_keyboard_07>مسح</virtual_keyboard_07>
+    <virtual_keyboard_08>مسح الإدخال الحالي</virtual_keyboard_08>
+    <virtual_keyboard_10>تصغير لوحة المفاتيح</virtual_keyboard_10>
+    <virtual_keyboard_11>تكبير لوحة المفاتيح</virtual_keyboard_11>
+    <js_problem>‫يتعذر تشغيل Java Script</js_problem>
+    <public_calendar>التقويم العام</public_calendar>
+    <login_to_pro>تسجيل الدخول إلى واجهة سطح المكتب</login_to_pro>
+    <login_to_basic>تسجيل الدخول إلى واجهة الجهاز اللوحي</login_to_basic>
+    <login_to_pda>تسجيل الدخول إلى واجهة الجهاز المحمول</login_to_pda>
+    <js_turned_off_message_text>للحصول على أفضل استخدام  والاستفادة من الميزات الإضافية، يُوصى باستخدام واجهة سطح المكتب. إن هذا يتطلب إمكانيات Java Script لذا يُرجى التأكد من تفعيل Java Script  في إعدادات المستعرض أو المتابعة إلى</js_turned_off_message_text>
+    <js_turned_off_message_link>واجهة الجهاز اللوحي</js_turned_off_message_link>
+    <learn_more>معرفة المزيد حول كافة الميزات</learn_more>
+    <learn_more_short>معرفة المزيد</learn_more_short>
+    <login_back>العودة إلى تسجيل الدخول</login_back>
+    <changepwd>قم بتغيير&lt;br/&gt; كلمة المرور</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>سطح المكتب</advanced>
+    <basic>الجهاز اللوحي</basic>
+  </login_client>
+  <login_style>
+    <gray>رمادي</gray>
+    <white>أبيض</white>
+    <black>رصاصي</black>
+    <red>أحمر</red>
+    <yellow>أصفر</yellow>
+    <green>أخضر</green>
+    <blue>أزرق</blue>
+    <purple>أرجواني</purple>
+    <orange>برتقالي</orange>
+    <brown>بني</brown>
+    <pink>وردي</pink>
+  </login_style>
+  <skin_style>
+    <default>أزرق</default>
+    <black>أسود</black>
+    <brown>بني</brown>
+    <graphite>رصاصي</graphite>
+    <green>أخضر</green>
+    <orange>برتقالي</orange>
+    <pink>زهري</pink>
+    <purple>أرجواني</purple>
+    <red>أحمر</red>
+    <yellow>أصفر</yellow>
+  </skin_style>
+  <sign_up>
+    <question>ألا تملك حساباً بعد؟</question>
+    <answer>إنشاء حساب</answer>
+    <sign_up>اشتراك</sign_up>
+    <create_account>‫أدخل معلومات الحساب الجديدة.</create_account>
+    <fullname>الاسم الكامل</fullname>
+    <domain>النطاق</domain>
+    <username>اسم المستخدم</username>
+    <alternative>البريد الإلكتروني البديل</alternative>
+    <captcha_error>رمز الأمان غير صالح</captcha_error>
+    <pass_error>كلمة المرور المحددة غير مقبولة</pass_error>
+    <incorrect_error>اسم المستخدم أو الاسم المستعار غير صحيح</incorrect_error>
+    <exists_error>هذا الحساب موجود مسبقاً</exists_error>
+    <error>يتعذر إنشاء الحساب الجديد</error>
+    <account_created>تم إنشاء الحساب الجديد بنجاح</account_created>
+    <invalid_cpass>تأكيد كلمة المرور غير صالحة</invalid_cpass>
+    <confirm_pass>تأكيد</confirm_pass>
+    <password_change>تغيير كلمة المرور</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>هل نسيت كلمة المرور?</question>
+    <question_br>هل نسيت &lt;br/&gt; كلمة المرور?</question_br>
+    <title>إعادة تعيين &lt;br&gt; كلمة المرور</title>
+    <answer>إعادة التعيين</answer>
+    <generate>انقر نقرة مزدوجة للحصول على رمز أمان جديد</generate>
+    <captcha>قم بكتابة الرمز التالي</captcha>
+    <captcha_error>رمز الأمان غير صالح</captcha_error>
+    <security_code>رمز الأمان</security_code>
+    <reset_pass>إعادة تعيين كلمة المرور</reset_pass>
+    <enter_alt_pass>سوف يتم إرسال معلومات تسجيل الدخول الخاصة بك إلى عنوان بريدك الإلكتروني وعنوان بريدك الإلكتروني البديل في حال توفره</enter_alt_pass>
+    <reset_send>تم إرسال معلومات تسجيل الدخول إلى البريد الإلكتروني أدناه:</reset_send>
+    <reset_error>الحساب المحدد غير موجود أو لا يمكن استرجاع كلمة المرور الخاصة به</reset_error>
+    <subject>تمت إعادة تعيين كلمة المرور لـ  %EMAIL%</subject>
+    <email>مرحباً  %FULLNAME%،&#13;&#10;هل قمت بطلب إعادة تعيين كلمة المرور للحساب التالي (%EMAIL%) في WebClient ؟&#13;&#10;اضغط على الرابط أدناه (أو قم  نسخه ولصقه على متصفحك) للتأكد من أن هذا البريد الإلكتروني ملك لك.&#13;&#10;%URL%&#13;&#10;في حال عدم طلبك إعادة تعيين كلمة المرور أو تلقيت هذه الرسالة عن طريق الخطأ، يُرجى تجاهلها.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>الاسم موجود مسبقاً</duplicity>
+    <label>يوجد مستند له نفس الاسم &quot;%s&quot;.</label>
+    <suggested_name>الاسم المقترح</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>جاري المعالجة</processing>
+    <step1>‫1) قم بتحميل ملف النسخة الاحتياطية</step1>
+    <step2>‫2) حدد مجلد الوجهة</step2>
+    <step3>‫3) حدد أنواع الأعمدة المراد استيرادها</step3>
+    <step1e>تحديد مجلد المصدر لجهات الاتصال</step1e>
+    <step2e>تحديد نوع التصدير</step2e>
+    <step_date>اختيار تنسيق التاريخ</step_date>
+    <default_date>افتراضي</default_date>
+    <charset>مجموعة المحارف</charset>
+    <skipfirst>تخطي السطر الأول في ملف csv</skipfirst>
+    <email1>‫البريد الإلكتروني 1</email1>
+    <email2>‫البريد الإلكتروني 2</email2>
+    <email3>‫البريد الإلكتروني 3</email3>
+    <phone1>الهاتف 1</phone1>
+    <phone2>الهاتف 2</phone2>
+    <phone3>الهاتف 3</phone3>
+    <phone4>الهاتف 4</phone4>
+    <phone_type1>نوع الهاتف 1</phone_type1>
+    <phone_type2>نوع الهاتف 2</phone_type2>
+    <phone_type3>نوع الهاتف 3</phone_type3>
+    <phone_type4>نوع الهاتف 4</phone_type4>
+    <import_successful>استيراد ناجح</import_successful>
+    <import_unsuccessful>استيراد غير ناجح</import_unsuccessful>
+    <import_finished>تم الانتهاء من الاستيراد . تم تخطي العناصر%s  بسبب حدوث خطأ.</import_finished>
+    <vcalendar>التقويم vCalendar</vcalendar>
+    <vcard>البطاقة vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>تلقائي</auto>
+    <load>تحميل</load>
+    <import>استيراد</import>
+    <export>تصدير</export>
+    <unknown_ext>امتداد غير معروف</unknown_ext>
+    <download_csv_file>‫تنزيل ملف CSV مع عناصر التقويم</download_csv_file>
+    <csv>CSV</csv>
+    <gw>مجموعة برمجية</gw>
+    <download_file>تحميل</download_file>
+    <select_col>حدد عمودًا أو بعض الأعمدة لاستيرادها</select_col>
+    <select_email>حدد عمودًا واحدًا على الأقل في البريد الإلكتروني</select_email>
+    <gw_xml_file>‫ملف XML مع نسخة احتياطية من GroupWare</gw_xml_file>
+    <comma>-  CSV فاصلة (،)</comma>
+    <semicolon>-  CSV فاصلة منقوطة (؛)</semicolon>
+    <colon>-  CSV علامة النقطتين (:)</colon>
+    <sharing>فرض وضع المشاركة</sharing>
+    <import_info>تنسيقات الملفات المعتمدة للتحميل</import_info>
+    <import_info_itm>CSV (مفصولة بنقطتين أو فاصلة منقوطة أو فاصلة) . VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>التراخيص/التكامل</license>
+    <licenses>التراخيص</licenses>
+    <out>المزامنة مع Outlook</out>
+    <desk>سطح المكتب للزبون</desk>
+    <download>تحميل</download>
+    <key>مفتاح تنشيط المنتج (عن طريق النسخ واللصق)</key>
+    <nokey>مفتاح تنشيط المنتج غيرمتوفر. اتصل بمسؤول النظام للمزيد من التفاصيل.</nokey>
+  </license>
+  <devices>
+    <device>الجهاز</device>
+    <device_model>طراز الجهاز</device_model>
+    <device_type>نوع الجهاز</device_type>
+    <protocol>البروتوكول</protocol>
+    <registered>مُسجّل</registered>
+    <lastsync>المزامنة الأخيرة</lastsync>
+    <factory>إعادة التعيين إلى إعدادات المصنع</factory>
+    <wipe>الحذف عن بُعد</wipe>
+    <wiping>جاري الحذف عن بُعد</wiping>
+    <nowipe>الحذف عن بُعد غير مدعوم</nowipe>
+    <reset>إعادة تعيين الحذف</reset>
+    <delete_confirmation>إن حذف الجهاز من القائمة سيسبب إعادة مزامنة البيانات عند الاتصال التالي (مفيدة إذا توقف الجهاز عن القيام بالتحديث). أما إذا أردت بدلا من ذلك محو جميع بيانات المستخدم / حساب من الجهاز، اذهب إلى خصائص الجهاز ثم انقر فوق المسح عن بعد.  &lt;br/&gt;&lt;br/&gt; هل أنت متأكد من حذف الجهاز (الأجهزة) من القائمة؟</delete_confirmation>
+    <wipe_confirmation>إن المسح عن بعد سيقوم بحذف كافة بيانات المستخدم / حساب من الجهاز (وبطاقات التخزين) وإعادة تعيين الجهاز إلى إعدادات المصنع. يجب أن يكون الجهاز متصلاُ بشبكة الانترنت. &lt;br/&gt;&lt;br/&gt; هل أنت متأكد من رغبتك بالمتابعة؟</wipe_confirmation>
+    <options>خيارات الجهاز</options>
+    <folders>المجلدات</folders>
+    <sync>مزامنة</sync>
+    <private_folders>المجلدات الخاصة</private_folders>
+    <special_folders>المجلدات المميزة</special_folders>
+    <gw_folders>مجلد GroupWare</gw_folders>
+    <mail_folders>مجلد البريد الإلكتروني</mail_folders>
+    <archive>الأرشيف</archive>
+    <public>المجلدات العامة</public>
+    <shared>المجلدات المشتركة</shared>
+    <past_mail>عناصر البريد الإلكتروني السابقة</past_mail>
+    <past_calendar>مهام التقويم السابقة</past_calendar>
+    <sync_tase>مزامنة المهام كأحداث في التقويم</sync_tase>
+    <sync_note>مزامنة الملاحظات كـ</sync_note>
+    <all_folders>كافة المجلدات</all_folders>
+    <all_folders_mail>جميع مجلدات البريد الإلكتروني بما فيها GroupWare</all_folders_mail>
+    <default_only>المجلدات الافتراضية فقط</default_only>
+    <sync_all>الكل</sync_all>
+    <one_day>يوم واحد</one_day>
+    <three_days>ثلاثة أيام</three_days>
+    <one_week>أسبوع واحد</one_week>
+    <two_weeks>أسبوعان</two_weeks>
+    <one_month>شهر واحد</one_month>
+    <three_months>ثلاثة أشهر</three_months>
+    <six_months>ستة أشهر</six_months>
+    <inc_tasks>المهام غير المنجزة فقط</inc_tasks>
+    <new_cfolders>مجلد تقويم جديد</new_cfolders>
+    <merge_taks>الدمج مع التقويم الافتراضي</merge_taks>
+    <events>الأحداث</events>
+    <tasks>المهام</tasks>
+    <inotes>المهام والملاحظات (تطبيقات أندرويد)</inotes>
+    <new_folders>مجلد جديد</new_folders>
+    <merge_default>الدمج مع المجلد الافتراضي</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>لوحة المجلد</leftpanel>
+    <rightpanel>لوحة التراسل الفوري</rightpanel>
+    <share>مشاركة</share>
+    <new_document>إنشاء مستند</new_document>
+    <new_message>جديد باستخدام القوالب</new_message>
+    <devices>الأجهزة المحمولة</devices>
+    <vcard>بياناتي الخاصة</vcard>
+    <basic>الانتقال إلى واجهة الجهاز اللوحي</basic>
+    <old_client>الانتقال إلى واجهة المستخدم القديمة</old_client>
+    <search>بحث</search>
+    <filter>تصفية</filter>
+    <new>إنشاء</new>
+    <print>طباعة</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>الإعدادات</settings>
+    <accounts>الحسابات</accounts>
+    <logout>تسجيل خروج</logout>
+    <logout_title>اضغط على مفتاح Ctrl مع النقر لتسجيل الخروج</logout_title>
+    <update>الحصول على الجديد</update>
+    <compose>رسالة جديدة</compose>
+    <new_contact>جهة اتصال</new_contact>
+    <new_template>قوالب الرسائل</new_template>
+    <new_distrib_list>قائمة التوزيع</new_distrib_list>
+    <new_event>موعد</new_event>
+    <new_journal>دفتر اليومية</new_journal>
+    <new_note>ملاحظة</new_note>
+    <new_task>مهمة</new_task>
+    <new_file>مستند</new_file>
+    <new_upload>تحميل الملف</new_upload>
+    <new_word>مستند Word</new_word>
+    <new_excel>مستند Excel</new_excel>
+    <new_ppoint>عرض PowerPoint</new_ppoint>
+    <new_text>مستند نصي</new_text>
+    <new_html>مستند HTML</new_html>
+    <new_folder>مجلد</new_folder>
+    <reply_to_sender>رد</reply_to_sender>
+    <reply_to_all>رد على الكل</reply_to_all>
+    <reply_to_sender_t>الرد باستخدام القوالب</reply_to_sender_t>
+    <reply_to_all_t>الرد على الكل باستخدام القوالب</reply_to_all_t>
+    <forward>إعادة توجيه</forward>
+    <delete>حذف</delete>
+    <empty_folder>إفراغ المجلد</empty_folder>
+    <day_view>يوم</day_view>
+    <week_view>أسبوع</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>شهر</month_view>
+    <dial>الاتصال الآن</dial>
+    <sms>‫إرسال رسالة قصيرة SMS</sms>
+    <calls>اتصال</calls>
+    <conference>اجتماع الويب</conference>
+    <contacts_list>قائمة</contacts_list>
+    <events_list>قائمة</events_list>
+    <address_card>بطاقات العناوين</address_card>
+    <tasks_lists>قائمة</tasks_lists>
+    <tasks_detailed>قائمة مفصّلة</tasks_detailed>
+    <active_tasks>مهام نشطة</active_tasks>
+    <journal_day_view>يوم</journal_day_view>
+    <journal_week_view>أسبوع</journal_week_view>
+    <journal_month_view>شهر</journal_month_view>
+    <journal_list>قائمة</journal_list>
+    <notes_list>قائمة</notes_list>
+    <options>خيارات</options>
+    <admin_options>خيارات المسؤول</admin_options>
+    <domain_options>خيارات النطاق</domain_options>
+    <tools>أدوات</tools>
+    <deliver>تسليم</deliver>
+    <quarantine>عزل</quarantine>
+    <black_list>النقل إلى القائمة السوداء</black_list>
+    <white_list>النقل إلى القائمة البيضاء</white_list>
+    <black_listed>مُدرج بالقائمة السوداء</black_listed>
+    <white_listed>مُدرج بالقائمة البيضاء</white_listed>
+    <rules>القواعد</rules>
+    <help>تعليمات</help>
+  </main_menu>
+  <short_days>
+    <monday>الإثنين</monday>
+    <tuesday>الثلاثاء</tuesday>
+    <wednesday>الأربعاء</wednesday>
+    <thursday>الخميس</thursday>
+    <friday>الجمعة</friday>
+    <saturday>السبت</saturday>
+    <sunday>الأحد</sunday>
+  </short_days>
+  <days>
+    <monday>الإثنين</monday>
+    <tuesday>الثلاثاء</tuesday>
+    <wednesday>الأربعاء</wednesday>
+    <thursday>الخميس</thursday>
+    <friday>الجمعة</friday>
+    <saturday>السبت</saturday>
+    <sunday>الأحد</sunday>
+  </days>
+  <months>
+    <january>يناير</january>
+    <february>فبراير</february>
+    <march>مارس</march>
+    <april>إبريل</april>
+    <may>مايو</may>
+    <june>يونيو</june>
+    <july>يوليو</july>
+    <august>أغسطس</august>
+    <september>سبتمبر</september>
+    <october>أكتوبر</october>
+    <november>نوفمبر</november>
+    <december>ديسمبر</december>
+  </months>
+  <short_months>
+    <january>يناير</january>
+    <february>فبراير</february>
+    <march>مارس</march>
+    <april>إبريل</april>
+    <may>مايو</may>
+    <june>يونيو</june>
+    <july>يوليو</july>
+    <august>أغسطس</august>
+    <september>سبتمبر</september>
+    <october>أكتوبر</october>
+    <november>نوفمبر</november>
+    <december>ديسمبر</december>
+  </short_months>
+  <dates>
+    <every>الكل</every>
+    <secondly>ثانية</secondly>
+    <minutely>دقيقة</minutely>
+    <hour>ساعة</hour>
+    <day>يوم</day>
+    <weeks>أسابيع</weeks>
+    <month>شهر</month>
+    <year>عام</year>
+    <the/>
+    <first>أول</first>
+    <last>أخير</last>
+    <second>ثانية</second>
+    <third>الثالث</third>
+    <fourth>الرابع</fourth>
+    <firth>الخامس</firth>
+    <postfix/>
+    <except>ما عدا</except>
+    <on>في</on>
+    <mondays>أيام الاثنين</mondays>
+    <tuesdays>أيام الثلاثاء</tuesdays>
+    <wednesdays>أيام الأربعاء</wednesdays>
+    <thursdays>أيام الخميس</thursdays>
+    <fridays>أيام الجمعة</fridays>
+    <saturdays>أيام السبت</saturdays>
+    <sundays>أيام الآحاد</sundays>
+    <yearday>يوم من العام</yearday>
+    <in>في</in>
+    <week>أسبوع</week>
+    <week2>أسبوع</week2>
+    <at>عند</at>
+    <and>و</and>
+    <from>من</from>
+    <until>لغاية</until>
+    <times>التكرار لـ %s مرات</times>
+  </dates>
+  <form_buttons>
+    <revision>إجراء مراجعة</revision>
+    <skip>تجاوز</skip>
+    <refresh>تحديث</refresh>
+    <retrieve>استرداد</retrieve>
+    <inherit>وراثة</inherit>
+    <accept>قبول</accept>
+    <decline>رفض</decline>
+    <ok>موافق</ok>
+    <close>إغلاق</close>
+    <retry>إعادة المحاولة</retry>
+    <test>اختبار</test>
+    <cancel>إلغاء الأمر</cancel>
+    <rename>إعادة تسمية</rename>
+    <rewrite>تطبيق التعديلات</rewrite>
+    <rewrite_all>تطبيق التعديلات على الكل</rewrite_all>
+    <save>حفظ</save>
+    <dont>ممنوع</dont>
+    <add>إضافة</add>
+    <edit>تحرير</edit>
+    <find>بحث</find>
+    <add_file>إضافة ملف</add_file>
+    <add_item>إضافة عنصر</add_item>
+    <remove>إزالة</remove>
+    <address_book>دفتر العناوين</address_book>
+    <search>بحث</search>
+    <new_folder>مجلد جديد</new_folder>
+    <map_it>إظهار على الخريطة</map_it>
+    <sign_in>تسجيل دخول</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>المجلد الأصل</step1>
+    <create_new_folder>إنشاء مجلد جديد</create_new_folder>
+    <create_error>المجلد موجود مسبقاً أو يتعذر إنشاؤه!</create_error>
+    <name>الاسم</name>
+    <type>النوع</type>
+    <channel>القناة</channel>
+    <sharetype>تطبيق على</sharetype>
+    <all>كافة المجلدات</all>
+    <private>مجلدات خاصة</private>
+    <selected>المجلدات المحددة</selected>
+  </form_folders>
+  <form_accounts>
+    <username>اسم المستخدم</username>
+    <password>كلمة المرور</password>
+    <protocol>البروتوكول</protocol>
+    <server>الخادم</server>
+    <server_proxy>الخادم/البروكسي</server_proxy>
+    <port>المنفذ</port>
+    <extension>الرقم الداخلي (Extension)</extension>
+    <description>الوصف</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>إدارة المحتوى</item_actions>
+    <recovery>استعادة العناصر المحذوفة</recovery>
+    <add_virtual>إنشاء مجلد بحث جديد</add_virtual>
+    <edit_virtual>تعديل مجلد البحث</edit_virtual>
+    <add_favorites>إضافة إلى المفضلة</add_favorites>
+    <sharing>المشاركة والسماحيات</sharing>
+    <change_channel>‫إدارة قنوات RSS</change_channel>
+    <subscribe>مزامنة</subscribe>
+    <subscribed>متزامن</subscribed>
+    <add_folder>إنشاء مجلد جديد</add_folder>
+    <add_shared_account>إضافة حساب مشترك</add_shared_account>
+    <delete_folder>حذف مجلد</delete_folder>
+    <unsubscribe_folder>مجلد إلغاء الاشتراك</unsubscribe_folder>
+    <move_folder>نقل مجلد</move_folder>
+    <move_folder_into>نقل مجلد إلى</move_folder_into>
+    <rename_folder>إعادة تسمية مجلد</rename_folder>
+    <remove_account>إزالة حساب</remove_account>
+    <sent_folder>اختر مجلد العناصر المرسلة</sent_folder>
+    <select_folder>تحديد مجلد</select_folder>
+    <mark_all_as_read>وضع علامة مقروء</mark_all_as_read>
+    <default>تعيين كإفتراضي</default>
+    <export>تصدير مجلد</export>
+    <color>اللون</color>
+    <move_default>هل أنت متأكد من أنك تريد نقل المجلد الافتراضي؟</move_default>
+  </popup_folders>
+  <attachment>
+    <all>الكل</all>
+    <pdf>PDF</pdf>
+    <play_sound>تشغيل</play_sound>
+    <attachments>المرفقات</attachments>
+    <upload>تحميل</upload>
+    <download>تحميل</download>
+    <download_all>تحميل الكل</download_all>
+    <open_window>فتح في إطار</open_window>
+    <import>الاستيراد إلى WebClient</import>
+    <import_error>نوع العنصر غير مدعوم</import_error>
+    <remove>إزالة</remove>
+    <remove_all>إزالة الكل</remove_all>
+    <add_item>إضافة عنصر</add_item>
+    <link_dropbox>الربط مع Dropbox</link_dropbox>
+    <view>عرض</view>
+    <save>تحميل</save>
+    <save_all>تحميل الكل</save_all>
+    <save_to_folder>حفظ في مجلد</save_to_folder>
+    <show_images>معاينة الصور</show_images>
+    <show_image>معاينة الصورة</show_image>
+    <show_text>رسالة ذات نص بدون تنسيق</show_text>
+    <show_headers>إظهار كافة رؤوس الرسالة</show_headers>
+    <show_cert>إظهار الشهادة</show_cert>
+    <append_cert>إلحاق بجهة اتصال</append_cert>
+    <dropzone>&lt; قم بسحب الملف وإفلاته هنا&gt;</dropzone>
+    <drop_holder>قم بسحب الملفات وإفلاتها هنا...</drop_holder>
+    <quick_add>تحميل سريع ...</quick_add>
+    <quick_contact>قم بإفلات ملف vCard هنا ...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>خطأ في Dropbox</erroralert>
+    <missingkey>لم يتم إعداد Dropbox. يحتاج المسؤول إلى إعداد التكامل مع Dropbox  أولا.</missingkey>
+    <unavailable>Dropbox  خارج الخدمة مؤقتا وسيتم تعطيله حتى تسجيل الدخول التالي.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>تحويل إلى HTML</convert_item>
+    <source>المصدر</source>
+    <send_notify>إشعار بالتغييرات</send_notify>
+    <recover>استرداد</recover>
+    <new>جديد</new>
+    <delivery_report>تقرير تسليم</delivery_report>
+    <properties>الخصائص</properties>
+    <doc_management>خصائص المستند</doc_management>
+    <open>فتح</open>
+    <open_pdf>فتح كملف PDF</open_pdf>
+    <open_window>فتح في إطار</open_window>
+    <edit>تحرير</edit>
+    <reply_to_sender>رد</reply_to_sender>
+    <reply_to_all>الرد على الكل</reply_to_all>
+    <forward>إعادة توجيه</forward>
+    <forward_as_message>إعادة التوجيه كمرفق</forward_as_message>
+    <redirect>إعادة توجيه</redirect>
+    <mark_as_read>وضع علامة مقروء</mark_as_read>
+    <mark_as_unread>وضع علامة غيرمقروء</mark_as_unread>
+    <move_mail_to>نقل إلى مجلد</move_mail_to>
+    <copy_mail_to>نسخ إلى مجلد</copy_mail_to>
+    <delete>حذف</delete>
+    <delete_selected>حذف العناصر المحددة</delete_selected>
+    <open_item>فتح</open_item>
+    <move_item_to>نقل إلى مجلد</move_item_to>
+    <copy_item_to>نسخ إلى مجلد</copy_item_to>
+    <new_distriblist>قائمة التوزيع الجديدة</new_distriblist>
+    <save_as>‫حفظ باسم...</save_as>
+    <html>HTML</html>
+    <text>نص</text>
+    <eml>EML</eml>
+    <download_vcalendar>حفظ كـ vCalendar</download_vcalendar>
+    <download_vcard>حفظ كـ vCard</download_vcard>
+    <download_vnote>حفظ كـ vNote</download_vnote>
+    <download_file>تحميل</download_file>
+    <open_office>فتح في Office</open_office>
+    <deliver>تسليم</deliver>
+    <black_list>القائمة السوداء</black_list>
+    <white_list>القائمة البيضاء</white_list>
+    <blacklist_sender>مرسل من القائمة السوداء</blacklist_sender>
+    <blacklist_domain>إدراج كامل النطاق في القائمة السوداء</blacklist_domain>
+    <whitelist_sender>مرسل من القائمة البيضاء</whitelist_sender>
+    <whitelist_domain>إدراج كامل النطاق في القائمة البيضاء</whitelist_domain>
+    <send_as_email>إرسال كبريد إلكتروني</send_as_email>
+    <send_email_to>إرسال بريد إلكتروني</send_email_to>
+    <add_to_contacts>إنشاء جهة اتصال جديدة</add_to_contacts>
+    <add_to_exist_contacts>إضافة إلى جهة اتصال موجودة</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>إضافة إلى مجلد جهات الاتصال</add_contact>
+    <add_im>إضافة إلى لائحة اتصال التراسل الفوري</add_im>
+    <add_to_im>الإضافة إلى التراسل الفوري</add_to_im>
+    <add>‫إضافة...</add>
+    <manage_sender>إدراة المرسل ...</manage_sender>
+    <invite_appointment>الدعوة إلى الموعد</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>إضافة شهادة إلى جهة الاتصال</cert_to_contact>
+    <contacts>جهة اتصال</contacts>
+    <mandatorydetails>الرجاء ملء كافة تفاصيل الاتصال الخاصة بك</mandatorydetails>
+    <im>سجل التراسل الفوري</im>
+    <skip_delete>لا تسألني مجددا</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>بلا لون</none>
+    <color>اللون</color>
+    <white_flag>علامة بيضاء</white_flag>
+    <red_flag>علامة حمراء</red_flag>
+    <blue_flag>علامة زرقاء</blue_flag>
+    <yellow_flag>علامة صفراء</yellow_flag>
+    <green_flag>علامة خضراء</green_flag>
+    <orange_flag>علامة برتقالية</orange_flag>
+    <purple_flag>علامة أرجوانية</purple_flag>
+    <flag_complete>وضع علامة اكتمال</flag_complete>
+    <clear_flag>مسح العلامة</clear_flag>
+    <important>هام</important>
+    <business>عمل</business>
+    <personal>شخصي</personal>
+    <vacation>عطلة</vacation>
+    <must_attend>يجب الحضور</must_attend>
+    <travel_required>يتطلب السفر</travel_required>
+    <needs_preparation>يتطلب التحضير</needs_preparation>
+    <birthday>تاريخ الميلاد</birthday>
+    <anniversary>ذكرى سنوية</anniversary>
+    <phone_call>مكالمة هاتفية</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>إضافة حساب بريد إلكتروني جديد</add_account>
+    <delete_account>حذف حساب</delete_account>
+    <edit_account>تحرير حساب</edit_account>
+    <validating>يتم الآن التحقق من الحساب...</validating>
+    <invalid>الحساب غير صالح</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>علبة الوارد</inbox>
+    <drafts>المسودات</drafts>
+    <sent>العناصر المرسلة</sent>
+    <trash>سلة المحذوفات</trash>
+    <spam>البريد المزعج</spam>
+    <templates>القوالب</templates>
+    <quarantine>عزل</quarantine>
+    <spam_queue>عوامل التصفية</spam_queue>
+    <spam_queue-whitelist>القائمة البيضاء</spam_queue-whitelist>
+    <spam_queue-blacklist>القائمة السوداء</spam_queue-blacklist>
+    <virtual-folders>مجلدات البحث</virtual-folders>
+    <gw-trash>عناصر الاسترداد</gw-trash>
+    <calendars>التقاويم المتعددة</calendars>
+  </common_folders>
+  <folders>
+    <mails>بريد إلكتروني</mails>
+    <contacts>جهات الاتصال</contacts>
+    <events>التقويم</events>
+    <tasks>المهام</tasks>
+    <notes>الملاحظات</notes>
+    <journal>دفتر اليومية</journal>
+    <files>المستندات</files>
+    <home>الصفحة الرئيسية</home>
+    <smart>المرفق الذكي</smart>
+  </folders>
+  <folder_types>
+    <mail>البريد</mail>
+    <contact>جهة اتصال</contact>
+    <event>التقويم</event>
+    <journal>دفتر اليومية</journal>
+    <note>ملاحظة</note>
+    <task>مهمة</task>
+    <file>مستند</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>يتعذر عليك نقل هذا المجلد!</cantmove>
+    <cantrename>يتعذر عليك إعادة تسمية هذا المجلد!</cantrename>
+    <cantdelete>يتعذر عليك حذف هذا المجلد!</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>المرفقات</attachments>
+    <to>إلى</to>
+    <subject>الموضوع</subject>
+    <nosubject>بلا موضوع</nosubject>
+    <cc>نسخة مماثلة</cc>
+    <bcc>نسخة مماثلة خفية</bcc>
+    <body>نص الرسالة</body>
+    <from>من</from>
+    <date>التاريخ</date>
+    <size>الحجم</size>
+    <type>النوع</type>
+    <itmclassifyas>اسم جهة الاتصال</itmclassifyas>
+    <phone>الهاتف</phone>
+    <itmcompany>الشركة</itmcompany>
+    <itmdepartment>القسم</itmdepartment>
+    <contact_email>البريد الإلكتروني</contact_email>
+    <expires>انتهاء الصلاحية في</expires>
+    <itmcategory>العلامات</itmcategory>
+    <evntitle>العنوان</evntitle>
+    <itmtitle>العنوان</itmtitle>
+    <itmoriginalfolder>المجلد الأصلي</itmoriginalfolder>
+    <itm_deleted>تم الحذف</itm_deleted>
+    <item_moved>تم الحذف</item_moved>
+    <evnlocation>الموقع</evnlocation>
+    <upcoming>القادم</upcoming>
+    <event_startdate>بدء</event_startdate>
+    <event_enddate>انتهاء</event_enddate>
+    <evntype>العلامات</evntype>
+    <evncontact>جهة اتصال</evncontact>
+    <evnstatus>الحالة</evnstatus>
+    <task_startdate>تاريخ البدء</task_startdate>
+    <task_enddate>تاريخ الاستحقاق</task_enddate>
+    <sndemail>المرسل</sndemail>
+    <sndowner>المالك</sndowner>
+    <snddomain>النطاق</snddomain>
+    <sndsubject>الموضوع</sndsubject>
+    <revised_by>قام بتنقيحها</revised_by>
+    <comment>تعليق</comment>
+    <qdate>التاريخ</qdate>
+    <name>الاسم</name>
+    <evnfilename>اسم الملف</evnfilename>
+    <evnnote>الوصف</evnnote>
+    <evn_modified>معدّلة</evn_modified>
+    <evnfilesize>الحجم</evnfilesize>
+    <lctphnwork1>هاتف العمل</lctphnwork1>
+    <lctphnfaxwork>فاكس العمل</lctphnfaxwork>
+    <lctphnhome1>هاتف المنزل</lctphnhome1>
+    <lctphnmobile>الهاتف المحمول</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>عنوان URL العام</public>
+    <share>مشاركة الرابط</share>
+    <ticket>غير ذلك</ticket>
+    <revisions>التنقيحات</revisions>
+    <revert>التراجع</revert>
+    <edit_comment>تحرير التعليق</edit_comment>
+    <new_revision>تنقيح جديد</new_revision>
+  </item>
+  <event_view>
+    <week_label>أسبوع</week_label>
+    <notitle>بلا عنوان</notitle>
+    <private>غير معلنة</private>
+    <newappointment>موعد جديد</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>‫قراءة: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>‫تمت قراءة رسالتك.&#13;&#10;&#13;&#10;متابعة تفاصيل الرسالة:&#13;&#10;&#13;&#10;من: %FROM%&#13;&#10;إلى: %TO%&#13;&#10;التاريخ: %DATE%&#13;&#10;الموضوع: %SUBJECT%</reading_confirmation>
+    <reply_message>-----الرسالة الأصلية-----</reply_message>
+    <reply_message_html>-----الرسالة الأصلية-----</reply_message_html>
+    <from>من:</from>
+    <to>إلى:</to>
+    <cc>نسخة مماثلة:</cc>
+    <date>التاريخ:</date>
+    <subject>الموضوع:</subject>
+  </email>
+  <name_prefix>
+    <dr>د.</dr>
+    <mr>السيد</mr>
+    <mrs>السيدة</mrs>
+    <miss>الآنسة</miss>
+    <ms>السيدة</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>أ.</prof>
+    <jr>الابن</jr>
+    <sr>الأب</sr>
+  </name_suffix>
+  <contact>
+    <displayname>اسم العرض</displayname>
+    <avatar>صورة</avatar>
+    <contact>جهة اتصال</contact>
+    <general>عام</general>
+    <profile>الملف الشخصي</profile>
+    <personal>شخصي</personal>
+    <business>عمل</business>
+    <other_l>غير ذلك</other_l>
+    <other>ملاحظة</other>
+    <contact_name>إظهار كـ</contact_name>
+    <sort_as>الفرز حسب</sort_as>
+    <first_name>الاسم الأول</first_name>
+    <middle_name>الاسم الأوسط</middle_name>
+    <last_name>اسم العائلة</last_name>
+    <nick_name>الكنية</nick_name>
+    <full_name>الاسم الكامل</full_name>
+    <title>عنوان</title>
+    <suffix>اللاحقة</suffix>
+    <category>العلامات</category>
+    <email_address>عنوان البريد الإلكتروني</email_address>
+    <birthdate>تاريخ الميلاد</birthdate>
+    <anniversary>ذكرى سنوية</anniversary>
+    <spouse>الزوج/الزوجة</spouse>
+    <gender>الجنس</gender>
+    <company>الشركة</company>
+    <job>الوظيفة</job>
+    <profession>المهنة</profession>
+    <department>القسم</department>
+    <assistant>المساعد</assistant>
+    <manager>المدير</manager>
+    <office_location>موقع العمل</office_location>
+    <email1>البريد الإلكتروني 1</email1>
+    <email2>البريد الإلكتروني 2</email2>
+    <email3>البريد الإلكتروني 3</email3>
+    <im>التراسل الفوري</im>
+    <phone>الهاتف</phone>
+    <phones>الهاتف أو الهواتف</phones>
+    <male>ذكر</male>
+    <female>أنثى</female>
+    <street>الشارع</street>
+    <city>المدينة</city>
+    <zip>الرمز البريدي</zip>
+    <state>الولاية</state>
+    <country>البلد</country>
+    <home_address>عنوان المنزل</home_address>
+    <business_address>عنوان العمل</business_address>
+    <other_address>عنوان آخر</other_address>
+    <homepage>الصفحة الرئيسية</homepage>
+    <calendar_url>‫عنوان URL متوفر/مشغول</calendar_url>
+    <share_type>نوع المشاركة</share_type>
+    <address>العنوان</address>
+    <web>الويب</web>
+    <notes>ملاحظة</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>قائمة التوزيع</distrib_list>
+    <general>عام</general>
+    <members>الأعضاء</members>
+    <title>العنوان</title>
+    <category>العلامات</category>
+    <add_title>إضافة</add_title>
+    <edit_title>تحرير</edit_title>
+    <name>الاسم</name>
+    <email>البريد الإلكتروني</email>
+  </distrib_list>
+  <time_interval>
+    <from>من</from>
+    <to>إلى</to>
+    <duration>المدة</duration>
+    <all_day_event>حدث  لليوم كله</all_day_event>
+    <days>الأيام</days>
+    <change_default>تغيير المنطقة الزمنية الافتراضية</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>هذا العنصر متكرر</title_edit>
+    <text_edit>هل ترغب في تغيير هذا الحدث فقط، أم كافة الأحداث في السلسلة، أم هذا الحدث وكافة الأحداث المستقبلية في السلسلة؟</text_edit>
+    <title_delete>هذا العنصر متكرر</title_delete>
+    <text_edit_2>هل ترغب في تغيير هذا الحدث فقط، أم كافة الأحداث في السلسلة؟</text_edit_2>
+    <text_delete>هل ترغب في إزالة هذا الحدث فقط، أم كافة الأحداث في السلسلة؟</text_delete>
+    <btn_this>هذا العنصر فقط</btn_this>
+    <btn_all>الكل في السلسلة</btn_all>
+    <btn_allfromnow>كل ما يلي</btn_allfromnow>
+    <btn_cancel>إلغاء الأمر</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>رفض السبب</reason>
+    <event>موعد</event>
+    <general>عام</general>
+    <repeating>تكرار</repeating>
+    <schedule>جدول زمني</schedule>
+    <reminders>رسائل تذكير</reminders>
+    <onlinemeeting>اجتماع الويب</onlinemeeting>
+    <startmeeting>ابدء الآن</startmeeting>
+    <joinmeeting>انضم الآن</joinmeeting>
+    <title>عنوان</title>
+    <location>موقع</location>
+    <category>العلامات</category>
+    <notes>الملاحظات</notes>
+    <timezone>المنطقة الزمنية</timezone>
+    <show_as>إظهار كـ</show_as>
+    <free>متوفر</free>
+    <busy>مشغول</busy>
+    <tentative>مبدئي</tentative>
+    <out_of_office>خارج المكتب</out_of_office>
+    <unknown>لا توجد معلومات</unknown>
+    <label>تسمية</label>
+    <meeting_hint>إنشاء الاجتماعات والانضمام إليها ومشاركة الشاشة</meeting_hint>
+    <high>مرتفع:</high>
+    <low>منخفض:</low>
+  </event>
+  <file>
+    <file>مستند</file>
+    <expire>ينتهي في %s</expire>
+    <name>اسم الملف</name>
+    <lock>قفل</lock>
+    <unlock>إلغاء القفل</unlock>
+    <locked>مُقفل</locked>
+    <unlocked>غير مُقفل</unlocked>
+    <locked_by>تم تأمين وحماية المستند من قبل %s</locked_by>
+    <blank_doc>مستند</blank_doc>
+    <description>الوصف</description>
+    <new_doc>مستند فارغ</new_doc>
+    <converting>جاري تحويل المستند.</converting>
+  </file>
+  <note>
+    <note>ملاحظة</note>
+    <category>العلامات</category>
+    <title>عنوان</title>
+    <general>عام</general>
+  </note>
+  <task>
+    <task>مهمة</task>
+    <attendees>المشاركون</attendees>
+    <status>الحالة</status>
+    <complete>اكتمال</complete>
+    <repeating>تكرار</repeating>
+    <reminders>رسائل تذكير</reminders>
+    <general>عام</general>
+    <title>عنوان</title>
+    <start_date>تاريخ البدء</start_date>
+    <due_date>تاريخ الاستحقاق</due_date>
+    <category>العلامات</category>
+    <not_started>لم يتم البدء</not_started>
+    <in_progress>قيد المعالجة</in_progress>
+    <completed>مكتمل</completed>
+    <deferred>مؤجل</deferred>
+    <waiting>بانتظار شخص آخر</waiting>
+    <done>مُنجز</done>
+  </task>
+  <blackwhite>
+    <black>القائمة السوداء</black>
+    <white>القائمة البيضاء</white>
+    <email>البريد الإلكتروني/النطاق</email>
+  </blackwhite>
+  <compose>
+    <template>القالب</template>
+    <newmail>رسالة</newmail>
+    <send>إرسال</send>
+    <sendinfo>إرسال الرسالة</sendinfo>
+    <save>حفظ</save>
+    <saveinfo>حفظ الرسالة في المسودات</saveinfo>
+    <options>خيارات</options>
+    <advanced>خيارات متقدمة</advanced>
+    <html>HTML</html>
+    <text>نص</text>
+    <sms>رسالة نصية قصيرة SMS</sms>
+    <compose_sms>إنشاء SMS</compose_sms>
+    <sms_preview>‫معاينة SMS</sms_preview>
+    <sms_info>‫%s حرفًا/أحرف في %s رسالة/رسائل</sms_info>
+    <smartattach>المرفق الذكي</smartattach>
+    <smartattachinfo>سيتم حفظ المرفقات في %s خاصتك والاستعاضة عنها بروابط للتحميل في نص البريد الإلكتروني.</smartattachinfo>
+    <readconfirmationinfo>الحصول على رسالة تأكيد تفيد بأن المستلم قد قرأ هذه الرسالة</readconfirmationinfo>
+    <show_all>إظهار كافة الإدخالات</show_all>
+    <signinfo>توقيع الرسالة الكترونياً</signinfo>
+    <encryptinfo>تشفير الرسالة</encryptinfo>
+    <priorityinfo>تحديد أولوية الرسالة</priorityinfo>
+    <subject_empty>الرسالة بلا موضوع&lt;br&gt;هل ترغب بإرسالها على الرغم من ذلك؟</subject_empty>
+    <rcp_empty>أضف عنوان المستلم لتتمكن من إرسال البريد الإلكتروني إليه.</rcp_empty>
+    <optionstitle>خيارات الرسالة</optionstitle>
+    <encrypt>تشفير الرسالة</encrypt>
+    <sign>توقيع الرسالة الكترونياً</sign>
+    <nosign>شهادة غير صالحة للتوقيع. &lt;br&gt; هل ترغب بإرسال الرسالة بدون توقيع؟</nosign>
+    <delivery_report>عرض تقرير التسليم</delivery_report>
+    <reply_to>الرد على</reply_to>
+    <upload_file>الإرفاق من القرص الحالي</upload_file>
+    <upload_item>الإرفاق من WebClient</upload_item>
+  </compose>
+  <sharing>
+    <public>عام</public>
+    <private>خاص</private>
+    <anonymous>المجهول / الجميع</anonymous>
+    <custom>تخصيص</custom>
+    <inherited>مُورّث</inherited>
+    <none>بلا</none>
+    <enter_address>قم بإدخال عنوان</enter_address>
+    <permissions>أذونات</permissions>
+    <user>مستخدم</user>
+    <items>عناصر</items>
+    <folder>مجلد</folder>
+    <administration>المسؤول</administration>
+  </sharing>
+  <time>
+    <hours>‫ساعة (ساعات)</hours>
+    <minutes>‫دقيقة (دقائق)</minutes>
+    <days>‫يوم (أيام)</days>
+    <oneday>يوم</oneday>
+    <moredays>أيام</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>تحديد جهات الاتصال</select_emails>
+    <add>إضافة</add>
+  </select_recipients>
+  <tags>
+    <placeholder>البحث</placeholder>
+    <tags>العلامات</tags>
+    <used>مستَخدَم</used>
+    <hint>‫مستَخدَم بواسطة %s عنصر (عناصر)</hint>
+    <selected>محدد</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>‫المنزل 1</lctphnhome1>
+    <lctphnhome2>‫المنزل 2</lctphnhome2>
+    <lctphnassistant>المساعد</lctphnassistant>
+    <lctphnwork1>‫العمل 1</lctphnwork1>
+    <lctphnwork2>‫العمل 2</lctphnwork2>
+    <lctphnfaxhome>فاكس المنزل</lctphnfaxhome>
+    <lctphnfaxwork>فاكس العمل</lctphnfaxwork>
+    <lctphncallback>رد الاتصال</lctphncallback>
+    <lctphncompany>الشركة</lctphncompany>
+    <lctphncar>السيارة</lctphncar>
+    <lctphnisdn>شبكة رقمية لخدمات متكاملة</lctphnisdn>
+    <lctphnmobile>الجوال</lctphnmobile>
+    <lctphnother>غير ذلك</lctphnother>
+    <lctphnotherfax>فاكس آخر</lctphnotherfax>
+    <lctphnpager>النداء</lctphnpager>
+    <lctphnprimary>أساسي</lctphnprimary>
+    <lctphnradio>الراديو</lctphnradio>
+    <lctphntelex>تلكس</lctphntelex>
+    <lctphnhearing>السمع</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>يوم</day>
+    <week>أسبوع في</week>
+    <week_of_month>أسبوع من شهر</week_of_month>
+    <month_of_year>شهر من سنة</month_of_year>
+    <month>شهر</month>
+    <year>سنة</year>
+    <year_s>سنة أو سنوات</year_s>
+    <repeats>يتكرر كل:</repeats>
+    <not_repeats>بلا تكرار</not_repeats>
+    <end_date>تاريخ الانتهاء:</end_date>
+    <no_end>لا يوجد تاريخ انتهاء</no_end>
+    <until>حتى</until>
+    <count>عدد</count>
+    <daily>يوميًا</daily>
+    <weekly>أسبوعيًا</weekly>
+    <monthly>شهريًا</monthly>
+    <yearly>سنويًا</yearly>
+    <every>كل</every>
+    <the>الـ</the>
+    <of>من</of>
+    <recur_every>تكرار كل</recur_every>
+    <weeks_on>أسبوع (أسابيع) في:</weeks_on>
+    <of_every>من كل</of_every>
+    <months>‫شهر (أشهر)</months>
+    <days>‫يوم (أيام)</days>
+    <day_list>أسبوع</day_list>
+    <every_weekday>كل يوم عمل</every_weekday>
+    <first>أولاً</first>
+    <second>ثانيًا</second>
+    <third>ثالثًا</third>
+    <fourth>رابعًا</fourth>
+    <last>الأخير</last>
+    <weekday>أسبوع عمل</weekday>
+    <weekend_day>عطلة نهاية الأسبوع</weekend_day>
+  </repeating>
+  <reminder>
+    <none>بلا</none>
+    <email>البريد الإلكتروني</email>
+    <popup>‫إطار منبثق (سطح المكتب)</popup>
+    <address>العنوان</address>
+    <remind1>الرجاء تذكيري</remind1>
+    <remind2>قبل</remind2>
+    <is_reminder>إرسال رسالة تذكير</is_reminder>
+    <no_reminder>عدم إرسال رسالة التذكير</no_reminder>
+    <type>النوع</type>
+    <snooze>تأجيل</snooze>
+    <meeting>التشغيل الآن</meeting>
+    <dismiss>استبعاد</dismiss>
+    <reminder>رسالة تذكير</reminder>
+  </reminder>
+  <journal>
+    <journal>دفتر اليومية</journal>
+    <title>عنوان</title>
+    <type>النوع</type>
+    <company>الشركة</company>
+    <conversation>محادثة</conversation>
+    <document>مستند</document>
+    <e-mail_message>رسالة بريد إلكتروني</e-mail_message>
+    <fax>فاكس</fax>
+    <letter>خطاب</letter>
+    <meeting>اجتماع</meeting>
+    <meeting_cancellation>إلغاء اجتماع</meeting_cancellation>
+    <meeting_request>طلب اجتماع</meeting_request>
+    <meeting_response>استجابة إلى اجتماع</meeting_response>
+    <microsoft_office_access>مايكروسوفت أكسس</microsoft_office_access>
+    <microsoft_office_excel>مايكروسوفت أكسل</microsoft_office_excel>
+    <microsoft_powerpoint>مايكروسوفت باور بوينت</microsoft_powerpoint>
+    <microsoft_visio>مايكروسوفت فيسيو Visio</microsoft_visio>
+    <microsoft_word>مايكروسوفت وورد</microsoft_word>
+    <note>ملاحظة</note>
+    <phone_call>مكالمة هاتفية</phone_call>
+    <remote_session>جلسة عمل عن بعد</remote_session>
+    <task>مهمة</task>
+    <task_request>طلب مهمة</task_request>
+    <task_response>استجابة إلى مهمة</task_response>
+  </journal>
+  <certificate>
+    <purposes>هذه الشهادة مخصصة للغرض أو الأغراض التالية</purposes>
+    <ssl>إثبات هويتك لجهاز كمبيوتر عن بعد</ssl>
+    <smime>حماية رسائل البريد الإلكتروني</smime>
+    <serial>تسلسلي</serial>
+    <view>عرض</view>
+    <certificate>شهادة</certificate>
+    <invalid>شهادة أو عبارة مرور غير صالحة</invalid>
+    <passphrase>عبارة المرور</passphrase>
+    <issuedto>تم الإصدار إلى</issuedto>
+    <issuedby>تم الإصدار من قِبل</issuedby>
+    <email>البريد الإلكتروني</email>
+    <validity>الصحة</validity>
+    <badtype>جزء خاص مفقود</badtype>
+    <missing>لم يتم العثور على شهادة</missing>
+    <invaliditem>يتعذر إلحاق شهادة</invaliditem>
+    <assigned>تمت إضافة الشهادة بنجاح</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>المجلد &quot;%s&quot;  غير موجود</folder_not_exist>
+    <accepted>تم قبول الحدث</accepted>
+    <unsure>تم الرد على الحدث بشكل مبدئي</unsure>
+    <declined>تم رفض الحدث</declined>
+    <proposed>تم اقتراح وقت جديد</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>إلزام المستخدمين بإدخال معلومات الاتصال الخاصة بهم</force_enter_user_info>
+    <disable_wipe>تعطيل الحذف عن بُعد</disable_wipe>
+    <documents>المستندات</documents>
+    <aliases>الأسماء المستعارة</aliases>
+    <disable_mailformat>تعطيل الانتقال بين وضعي HTML / النص الصرف في نافذة &quot;رسالة جديدة&quot;</disable_mailformat>
+    <disable_altmail>إخفاء البريد الإلكتروني البديل</disable_altmail>
+    <rcpt_suggest>الإكمال التلقائي</rcpt_suggest>
+    <rcpt_cache>مسح القائمة</rcpt_cache>
+    <keep_search>إبقاء عبارة البحث أثناء التنقل بين المجلدات</keep_search>
+    <smartfolder>مجلد المرفقات الذكية</smartfolder>
+    <always_show_rcp>إظهار أسطر العناوين دائماً</always_show_rcp>
+    <login_screen>شاشة الدخول</login_screen>
+    <exclude_gal>استبعاد عناصر GAL من خاصية الإكمال التلقائي</exclude_gal>
+    <password_policy>نهج كلمة المرور</password_policy>
+    <notifications>إشعارات سطح المكتب</notifications>
+    <nofocus>تلقائي (الخلفية فقط)</nofocus>
+    <autorevision_mode>تمكين المراجعة التلقائية للمستندات</autorevision_mode>
+    <disable_support>تعطيل رابط الدعم عند تسجيل الدخول</disable_support>
+    <check_subject>التحقق من وجود موضوع فارغ</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>إخفاء المشاركة للحسابات المجهولة</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>إظهار المجلدات المفضلة</show_favorites>
+    <layout>الإعدادات العامة</layout>
+    <signature>التوقيع</signature>
+    <signature_separator>إضافة فاصل توقيع قياسي  &quot;-- &quot;</signature_separator>
+    <signature_to_top>التوقيع أعلى الرسالة</signature_to_top>
+    <groups>المجموعات</groups>
+    <group>مجموعة</group>
+    <trash_folder>مجلد المحذوفات</trash_folder>
+    <sent_folder>مجلد العناصر المرسلة</sent_folder>
+    <groupsend>قم بحفظ الرسائل المرسلة في المجلد العام لهذه المجموعة</groupsend>
+    <ftime>الوقت الفائض</ftime>
+    <sso_only>‫السماح لتسجيل دخول SSO فقط</sso_only>
+    <activity_monitor>تسجيل الخروج بعد عدم النشاط (دقيقة)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>‫12 ساعة</time_12>
+    <time_24>‫24 ساعة</time_24>
+    <logout_url>‫عنوان URL لتسجيل الخروج</logout_url>
+    <disable_attach_item>تعطيل الإرفاق من WebClient</disable_attach_item>
+    <disable_virtual>تعطيل مجلدات البحث</disable_virtual>
+    <disable_interfaces>تعطيل محدد الواجهة عند تسجيل الدخول</disable_interfaces>
+    <disable_languages>تعطيل اللغة عند تسجيل الدخول</disable_languages>
+    <confirm_exit>التأكيد على الخروج</confirm_exit>
+    <compose>تم إنشاء الرسالة</compose>
+    <never>مطلقًا</never>
+    <always>دائمًا</always>
+    <homepage>الصفحة الرئيسية</homepage>
+    <banner_enable>تمكين إطار الشعار</banner_enable>
+    <application_enable>تمكين شعار تنزيل التطبيقات</application_enable>
+    <banner_url>عنوان URL للشعار</banner_url>
+    <banner_height>ارتفاع الشعار</banner_height>
+    <count_subject>‫بادئات موضوع المجموعة مثل Re[4], Fw[2]</count_subject>
+    <reply_prefix>‫استخدام بادئة الرد (&lt;)</reply_prefix>
+    <collate>‫دعم الفرز القومي لرسائل البريد الإلكتروني (الترتيبات) لـ MySQL</collate>
+    <init_page>الصفحة الأولية</init_page>
+    <remember_folder>تذكر المجلد الأخير</remember_folder>
+    <show_inbox>علبة الوارد</show_inbox>
+    <show_home>الصفحة الرئيسية</show_home>
+    <clear_trash>حذف رسائل البريد الإلكتروني غير المهمة والأقدم من (عدد الأيام(</clear_trash>
+    <clear_gwtrash>حذف العناصر غير المهمة والأقدم من (عدد الأيام(</clear_gwtrash>
+    <alias>الاسم المستعار</alias>
+    <subscribed_holidays>العطلات المشتركة</subscribed_holidays>
+    <holidays>العطلات</holidays>
+    <weather>الطقس</weather>
+    <temperature>درجة الحرارة</temperature>
+    <c>مئوية</c>
+    <f>فهرنهايت</f>
+    <city>المدينة</city>
+    <disable_folder_types>تعطيل أنواع المجلد المحددة</disable_folder_types>
+    <antispam>مكافحة البريد العشوائي</antispam>
+    <spam_mode>وضع مجلد البريد العشوائي</spam_mode>
+    <reports_mode>وضع تقارير البريد العشوائي</reports_mode>
+    <quarantine>عزل</quarantine>
+    <last_time>وقت آخر تسجيل دخول</last_time>
+    <last_ip>‫بروتوكول الإنترنت (IP) لآخر تسجيل دخول</last_ip>
+    <current_time>وقت تسجيل الدخول الحالي</current_time>
+    <current_ip>‫بروتوكول الإنترنت (IP) لتسجيل الدخول الحالي</current_ip>
+    <default>افتراضي</default>
+    <use_spam>استخدام مجلد البريد المزعج</use_spam>
+    <not_spam>عدم استخدام مجلد البريد المزعج</not_spam>
+    <disabled>معطل</disabled>
+    <all>الكل</all>
+    <full>كامل</full>
+    <new_items>عناصر جديدة</new_items>
+    <smtp_relay>استرداد الرسائل للمستلمين الذين أخفقوا في استلام الرسائل</smtp_relay>
+    <restrictions>القيود</restrictions>
+    <hide_sortstring>قم بإخفاء سلسلة الترتيب</hide_sortstring>
+    <disable_aliases>تعطيل الأسماء المستعارة</disable_aliases>
+    <disable_redirect>تعطيل إعادة التوجيه</disable_redirect>
+    <disable_other_accounts>تعطيل الحسابات الأخرى</disable_other_accounts>
+    <disable_edit_vcard>تعطيل تحرير بياناتي الخاصة</disable_edit_vcard>
+    <disable_edit_account>تعطيل إمكانية تحرير حسابي</disable_edit_account>
+    <disable_change_password>تعطيل تغيير كلمة المرور</disable_change_password>
+    <disable_antispam_control>‫إخفاء التبويب &quot;مكافحة البريد المزعج&quot;</disable_antispam_control>
+    <disable_licenses>تعطيل تبويب التراخيص</disable_licenses>
+    <disable_login_help>تعطيل تعليمات الدخول</disable_login_help>
+    <disable_login_banners>تعطيل إعلانات تسجيل الدخول</disable_login_banners>
+    <disable_signup>تعطيل الاشتراك الذاتي</disable_signup>
+    <disable_sip>‫تعطيل WebPhone ‫(العميل الداخلي لبروتوكول VOIP)</disable_sip>
+    <disable_call_forwarding>تعطيل إعادة توجيه المكالمات</disable_call_forwarding>
+    <disable_external_sip>‫تعطيل بروتوكول VoIP الخارجي</disable_external_sip>
+    <disable_export>تعطيل التصدير</disable_export>
+    <disable_smart>‫تعطيل الإرفاق الذكي</disable_smart>
+    <disable_dropbox>تعطيل Dropbox</disable_dropbox>
+    <disable_im>‫تعطيل التراسل الفوري</disable_im>
+    <disable_sms>‫تعطيل SMS</disable_sms>
+    <disable_remember_pulldown>تعطيل خانة &quot;تذكرني&quot;</disable_remember_pulldown>
+    <disable_autofill>تعطيل الملء التلقائي لاسم المستخدم وكلمة المرور</disable_autofill>
+    <disable_rules>تعطيل القواعد</disable_rules>
+    <disable_gmaps>تعطيل خرائط غوغل</disable_gmaps>
+    <disable_forwarder>‫إخفاء التبويب &quot;إعادة التوجيه&quot;</disable_forwarder>
+    <disable_keep_emails>إخفاء &quot;إبقاء رسائل البريد الإلكتروني في صندوق البريد&quot; أثناء إعادة التوجيه التلقائي</disable_keep_emails>
+    <disable_autoresponder>‫إخفاء التبويب &quot;المجيب التلقائي&quot;</disable_autoresponder>
+    <share_mode>وضع المشاركة</share_mode>
+    <share_p>‫خاص (لا تتم مشاركة البيانات)</share_p>
+    <share_pf>‫عام (تتم مشاركة البيانات مع كافة الأشخاص)</share_pf>
+    <share_f>‫الأصدقاء (تتم مشاركة البيانات مع الأصدقاء فقط)</share_f>
+    <daily_event_report>إرسال جدول الأعمال اليومي بالبريد الإلكتروني</daily_event_report>
+    <reminder_notification>إرسال رسائل التذكير عبر البريد الإلكتروني</reminder_notification>
+    <reminder_email>عنوان البريد الإلكتروني لرسائل التذكير وجداول الأعمال</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>مفتاح التطبيق</dropbox_app_key>
+    <dropbox_instructions>للتكامل مع Dropbox، قم بزيارة الموقع www.dropbox.com، انتقل إلى قسم المطورين وقم بإنشاء مفتاح التطبيق. سيطلب منك إدخال وصف موجز واسم النطاق أو IP للوصول إلى WebClient.</dropbox_instructions>
+    <server>الخادم</server>
+    <login_with_email>تسجيل الدخول باستخدام عنوان البريد الإلكتروني</login_with_email>
+    <server_logs>مستوى تسجيل الدخول</server_logs>
+    <server_logs0>بلا</server_logs0>
+    <server_logs2>ملخص</server_logs2>
+    <server_logs3>تصحيح</server_logs3>
+    <server_logs4>ممتد</server_logs4>
+    <http_port>‫منفذ HTTP</http_port>
+    <imapserver>‫خادم IMAP</imapserver>
+    <smtpserver>‫خادم SMTP</smtpserver>
+    <xmppserver>‫خادم XMPP</xmppserver>
+    <port>منفذ</port>
+    <pgtitle>عنوان الصفحة</pgtitle>
+    <logo>شعار تسجيل الدخول</logo>
+    <login_style>نمط تسجيل الدخول</login_style>
+    <login_client>واجهة الاستخدام المفضلة</login_client>
+    <skin_style>نمط التصميم</skin_style>
+    <interfaces>واجهات الاستخدام المتوفرة</interfaces>
+    <spell_language>المدقق الإملائي</spell_language>
+    <delete_emptyfolder>حذف الرسائل عند إجراء &quot;إفراغ المجلد&quot;</delete_emptyfolder>
+    <show_images>عرض الصور المُضمّنة الخارجية تلقائيًا</show_images>
+    <show_images_spam>التطبيق على مجلد الرسائل المزعجة أيضاً</show_images_spam>
+    <auto_show_images>عرض الصور المرفقة تلقائيًا</auto_show_images>
+    <sound_notify>تمكين الإعلام الصوتي</sound_notify>
+    <domains_settings>المجالات</domains_settings>
+    <domain>المجال</domain>
+    <edit_settings>تحرير إعدادات المجال</edit_settings>
+    <resetpass>إعادة تعيين كلمة المرور</resetpass>
+    <resetmail>البريد الإلكتروني</resetmail>
+    <resetenable>تفعيل إعادة تعيين كلمة المرور</resetenable>
+    <accounts>الحسابات</accounts>
+    <account>حساب</account>
+    <tools>أدوات</tools>
+    <autoresponder>المستجيب التلقائي</autoresponder>
+    <forwarder>معيد التوجيه</forwarder>
+    <pcertificate>الشهادات الخاصة</pcertificate>
+    <certificate>الشهادات</certificate>
+    <mail_settings>البريد</mail_settings>
+    <im_settings>التراسل الفوري</im_settings>
+    <sip_settings>هاتف الويب</sip_settings>
+    <sip_webrtc>استخدام إمكانيات متصفح الويب الأساسية للوسائط المتعددة عندما يكون ذلك ممكناً</sip_webrtc>
+    <sip_start>‫بدء تشغيل WebPhone تلقائيًا</sip_start>
+    <sip_internal>التكامل مع حساب VoIP الخاص بك  (SIP)</sip_internal>
+    <sip_external>التكامل مع حساب بروتوكول VoIP (SIP) الخارجي</sip_external>
+    <sip_dial>الاتصال عبر حساب بروتوكول VoIP (SIP/HTTP) الخارجي</sip_dial>
+    <sip_dial_internal>الاتصال الهاتفي عبر حساب VoIP الخاص بك (الهاتف الرقمي / الهاتف  مسجل مسبقاً)</sip_dial_internal>
+    <call_forwarding>إعادة توجيه المكالمات</call_forwarding>
+    <use_forwarding>استخدم إعادة توجيه المكالمات</use_forwarding>
+    <forward_to>توجيه المكالمة إلى</forward_to>
+    <forward_after>إعادة التوجيه بعد (ثوان)</forward_after>
+    <chat_window>إطار المحادثة</chat_window>
+    <auto_chat>فتح تلقائي لإطار المحادثة</auto_chat>
+    <auto_subscribe>اشتراك تلقائي للمستخدمين الجدد</auto_subscribe>
+    <remember_status>تذكر الحالة</remember_status>
+    <extended_status>الأوضاع المتاحة</extended_status>
+    <newline_chat>المحادثة على سطر جديد</newline_chat>
+    <smiles_chat>استخدام أيقونات التعبيرات</smiles_chat>
+    <enter_send>إرسال الرسالة عند الضغط على مفتاح الإدخال</enter_send>
+    <general_settings>عام</general_settings>
+    <other_accounts>الحسابات الأخرى</other_accounts>
+    <primary_accounts>حسابي</primary_accounts>
+    <account_settings>الحسابات</account_settings>
+    <importexport_settings>الاستيراد والتصدير</importexport_settings>
+    <default_reminder>تطبيق رسالة التذكير الافتراضية على المواعيد الجديدة</default_reminder>
+    <use_sslswfatt>‫استخدام تحميل HTTP Flash في جلسة عمل SSL</use_sslswfatt>
+    <use_swfupload>‫استخدام تحميل Flash للمرفقات</use_swfupload>
+    <use_office>الفتح في برامج Office عندما يكون ذلك ممكناً</use_office>
+    <banner_enabled>السماح للإعلانات على صفحة تسجيل الدخول</banner_enabled>
+    <twitter_disabled>تعطيل التكامل مع تويتر</twitter_disabled>
+    <twitter_link>مقبض تويتر</twitter_link>
+    <facebook_disabled>تعطيل التكامل مع فيس بوك</facebook_disabled>
+    <facebook_link>الارتباط التشعبي لصفحة &quot;أعجبني&quot;</facebook_link>
+    <skin>تصميم</skin>
+    <items_ab_shown>عدد عناصر العناوين المحددة</items_ab_shown>
+    <date_format>تنسيق التاريخ</date_format>
+    <time_format>تنسيق الوقت</time_format>
+    <language>اللغة</language>
+    <timezone>المنطقة الزمنية</timezone>
+    <general>عام</general>
+    <default_mail_settings>إنشاء رسالة</default_mail_settings>
+    <folders_mapping>المجلدات الافتراضية</folders_mapping>
+    <subject>الموضوع</subject>
+    <message_format>تنسيق الرسالة</message_format>
+    <re_message_format>تنسيق رسالة الرد</re_message_format>
+    <html_message>‫رسالة HTML</html_message>
+    <read_confirmation>تأكيد القراءة</read_confirmation>
+    <request_read_confirmation>طلب رسالة تأكيد القراءة</request_read_confirmation>
+    <send_read_confirmation>السماح بالإرسال</send_read_confirmation>
+    <ask_before>قم بالسؤال قبل الإرسال</ask_before>
+    <smart_attach>‫استخدام  المرفقات الذكية</smart_attach>
+    <save_sent_message>حفظ الرسالة المرسلة في مجلد العناصر المرسلة</save_sent_message>
+    <save_folder_message>حفظ الرسالة المرسلة</save_folder_message>
+    <encrypt>تشفير الرسالة</encrypt>
+    <sign>تعطيل توقيع الرسائل</sign>
+    <appendvcard>أضف بياناتي الشخصية  (vCard)</appendvcard>
+    <charset>مجموعة الأحرف</charset>
+    <priority>الأولوية</priority>
+    <reply_to>الرد على العنوان</reply_to>
+    <reply_myself>قم بإضافتي إلى Bcc  بشكل تلقائي</reply_myself>
+    <move_to_trash>‫نقل الرسائل المحذوفة إلى مجلد &quot;سلة المحذوفات&quot;</move_to_trash>
+    <auto_add_recipient_to_addressbook>‫إضافة مستلمي الرسائل تلقائيًا إلى &quot;دفتر العناوين&quot;</auto_add_recipient_to_addressbook>
+    <edit_rules>القواعد</edit_rules>
+    <rules>القواعد</rules>
+    <forward_messages>إعادة توجيه الرسائل</forward_messages>
+    <inline>مُضمّن</inline>
+    <as_attachment>كمرفق</as_attachment>
+    <autoupdate_message>‫التحقق من رسائل البريد الإلكتروني الجديدة كل (عدد الدقائق)</autoupdate_message>
+    <autosave_message>‫حفظ رسائل المسودة كل (عدد الدقائق)</autosave_message>
+    <calendar_settings>التقويم</calendar_settings>
+    <main>أساسي</main>
+    <day_begins_at>يبدأ اليوم الساعة</day_begins_at>
+    <day_ends_at>ينتهي اليوم الساعة</day_ends_at>
+    <week_begins_on>يبدأ الأسبوع يوم</week_begins_on>
+    <week_starts_today>يبدأ الأسبوع  في اليوم الحالي</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>قم بالحفظ التلقائي للملاحظات والمستندات المحررة كل (دقيقة/دقائق)</autosave_documents>
+    <sharing_settings>المشاركة</sharing_settings>
+    <shared_email>البريد الإلكتروني المشترك</shared_email>
+    <email>البريد الإلكتروني</email>
+    <rights>الحقوق</rights>
+    <read>قراءة</read>
+    <write>كتابة</write>
+    <modify>تعديل</modify>
+    <delete>حذف</delete>
+    <owner>مسؤولية كاملة</owner>
+    <acc_name>الاسم</acc_name>
+    <quota>الحصة النسبية للقرص</quota>
+    <sms_quota>الحصة المخصصة للرسائل القصيرة SMS</sms_quota>
+    <quota_home>الحصة المخصصة للقرص (ملاحظة: تشمل العناصر في كافة مجلدات البريد الإلكتروني، ومجلدات الملفات، ومرفقات جهات الاتصال، والمواعيد، إلخ)</quota_home>
+    <description>وصف</description>
+    <old_password>كلمة المرور القديمة</old_password>
+    <new_password>كلمة المرور الجديدة</new_password>
+    <new_password_conf>تأكيد كلمة المرور</new_password_conf>
+    <save_drafts_to>حفظ المسودات في</save_drafts_to>
+    <default_flag>العلامة الافتراضية</default_flag>
+    <alternative_email>البريد الإلكتروني البديل</alternative_email>
+    <default_settings>الإعدادات الافتراضية</default_settings>
+    <event_view>طريقة عرض التقويم</event_view>
+    <event_show_as>عرض المواعيد كـ</event_show_as>
+    <event_sharing>مشاركة المواعيد</event_sharing>
+    <contact_sharing>مشاركة جهات الاتصال</contact_sharing>
+    <journal_sharing>مشاركة دفتر اليومية</journal_sharing>
+    <note_sharing>مشاركة الملاحظات</note_sharing>
+    <task_sharing>مشاركة المهام</task_sharing>
+    <file_sharing>مشاركة الملفات</file_sharing>
+    <force_for_domainadmin>فرض هذا الخيار على كلٍّ من إعدادات المجال وإعدادات المستخدم</force_for_domainadmin>
+    <force_for_users>فرض هذا الخيار على إعدادات المستخدم</force_for_users>
+    <force>خيار مفروض</force>
+  </settings>
+  <email_priority>
+    <highest>مرتفعة جداً</highest>
+    <high>مرتفعة</high>
+    <normal>عادية</normal>
+    <medium>متوسطة</medium>
+    <low>منخفضة</low>
+    <lowest>منخفضة جداً</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>تحديد مجلد</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>تحديد عنصر</insert_item>
+    <untitled>بدون عنوان</untitled>
+    <embedded>مُضمّن</embedded>
+    <link>ارتباط</link>
+  </insert_item>
+  <attendees>
+    <shared>جهات الاتصال المقترحة</shared>
+    <add_title>إضافة</add_title>
+    <edit_title>تحرير</edit_title>
+    <resource>الموارد</resource>
+    <remove>إزالة</remove>
+    <edit>تحرير</edit>
+    <name>الاسم</name>
+    <email>البريد الإلكتروني</email>
+    <folder>تحديد مجلد</folder>
+    <all_attendees>كافة الحاضرين</all_attendees>
+    <status>الحالة</status>
+    <status_p>معلق</status_p>
+    <status_a>مقبول</status_a>
+    <status_d>مرفوض</status_d>
+    <role>دور</role>
+    <role_q>مطلوب</role_q>
+    <role_s>مورد</role_s>
+    <role_t>اختياري</role_t>
+    <role_g>منظم</role_g>
+    <quick_add>قم بإدخال اسم الحضور أو اسم الموارد</quick_add>
+  </attendees>
+  <dial>
+    <dial>الطلب الهاتفي</dial>
+    <keypad>لوحة المفاتيح</keypad>
+    <call>اتصال</call>
+    <mute>كتم الصوت</mute>
+    <answer>إجابة</answer>
+    <decline>رفض</decline>
+    <filter>قم بعرض جهات اتصال WebPhone فقط</filter>
+    <hfilter>عرض المكالمات التي لم يتم الرد عليها فقط</hfilter>
+    <phone>هاتف الويب</phone>
+    <duration>المدة:</duration>
+    <video>فيديو</video>
+    <localcam>الكمبيوتر الحالي</localcam>
+    <remotecam>الحاسوب البعيد</remotecam>
+    <answer_video>إجابة + فيديو</answer_video>
+    <hang_up>قطع المكالمة</hang_up>
+    <busy>المستخدم مشغول</busy>
+    <pbook>دفتر الهاتف</pbook>
+    <refresh>تحديث المحفوظات</refresh>
+    <call_duration>مدة المكالمة %s</call_duration>
+    <history>محفوظات</history>
+    <missed>فائتة</missed>
+    <incoming>واردة</incoming>
+    <outgoing>صادرة</outgoing>
+    <select_contect>اختر جهة الاتصال المفضلة</select_contect>
+    <calling>الاتصال بـ</calling>
+    <incomingcall>اتصال من</incomingcall>
+    <callestablished>اتصال مع</callestablished>
+    <notify_ext>الاتصال باستخدام هاتف خارجي</notify_ext>
+  </dial>
+  <sip>
+    <sip>هاتف الإنترنت WebPhone</sip>
+    <external>الاتصال عبر هاتف خارجي</external>
+    <screen>الاتصال ومشاركة الشاشة</screen>
+    <sip_status>WebPhone: %s</sip_status>
+    <default_contact>جهة اتصال WebPhone الافتراضية</default_contact>
+    <unreachable>يتعذر الوصول إلى الخادم</unreachable>
+    <device>لم يتم العثور على جهاز صوتي</device>
+    <videonotsupported>إن متصفحك لا يدعم المكالمات المرئية (الفيديو). للحصول على أفضل النتائج يرجى تحميل أحدث نسخة من فايرفوكس (Firefox ) أو كروم (Chrome).</videonotsupported>
+    <offline>WebPhone غير متصل (سيتم إجراء الاتصال عن طريق هاتف رقمي أو تطبيق داعم لنقل الصوت عبر الإنترنت)</offline>
+    <outgoingcall>إنك تقوم بالاتصال بـ  %s</outgoingcall>
+    <incomingcall>إن %s يتصل بك</incomingcall>
+    <callongoing>إنك تجري اتصالاً مع  %s</callongoing>
+    <callestablished>اتصال قائم مع %s</callestablished>
+    <userbusy>المستخدم %s مشغول</userbusy>
+    <callfinished>انتهى الاتصال</callfinished>
+    <callcanceled>تم إنهاء الاتصال</callcanceled>
+    <notreachable>لا يمكن الوصول إلى المستخدم على هاتف الشبكة WebPhone</notreachable>
+    <calldeclined>تم رفض تلقي المكالمة</calldeclined>
+    <info>معلومات WebPhone :  %s</info>
+    <notification>‫المستخدم %s هو %s</notification>
+    <error>منبه  WebPhone</error>
+    <notice>منبه  WebPhone</notice>
+    <udp>حدث خطأ في الاتصال في WebPhone. يُرجى التأكد من جدار الحماية أو من اتصال الإنترنت.</udp>
+    <slow>التهيئة بطيئة جداً. إن WebPhone قد لا يعمل بشكل صحيح.</slow>
+    <init>خطأ اتصال في WebPhone . يُرجى التحقق من الإعدادات في خيارات - الهاتف.</init>
+    <mediarequest>يرجى السماح بالوصول إلى الميكروفون أو الكاميرا، أو انقر على زر استكشاف الأخطاء وإصلاحها أدناه للوصول إلى الدليل التفاعلي.</mediarequest>
+    <invalidstate>لا يمكن الوصول إلى أجهزة الوسائط المتعددة المطلوبة. قد تكون مستخدمة من قبل تطبيق آخر.</invalidstate>
+    <nopermission>تعذر الوصول إلى أجهزة الوسائط المتعددة أو أنها محظورة. يرجى السماح باستخدام الميكروفون أوالكاميرا لتتمكن من التواصل.</nopermission>
+    <mediadenied>لا يمكن الوصول إلى جهاز (أجهزة) الوسائط المتعددة. إما أن تكون غير موصولة أو أن هناك خطأ في تعريفها أو إعداداتها.</mediadenied>
+    <ffmedia>لم يتم السماح بالوصول إلى أجهزة الوسائط المتعددة. قم بالنقر على أيقونة الميكرفون أو الكاميرا الموجودة أعلى يسار المستعرض وذلك للسماح أو عدم السماح للوصول إلى أجهزة الوسائط المتعددة.</ffmedia>
+    <nowebrtc>إن متصفحك الحالي لا يدعم WebRTC للصوت والفيديو. قم باستخدام متصفح آخر (نقترح كروم Chrome) أو قم بتثبيت البرنامج المساعد الخاص بمتصفحك الحالي لدعم  WebRTC.</nowebrtc>
+    <gettingmedia>هناك مكالمة أو مؤتمر جارٍ حالياً. يرجى السماح أو رفض الوصول إلى الأجهزة للمتابعة.</gettingmedia>
+    <occupied>هذا الهاتف WebPhone قيد الاستخدام حالياً.</occupied>
+  </sip>
+  <conference>
+    <planner>مُنسق اجتماعات الويب</planner>
+    <aborted>تم إنهاء الاجتماع.</aborted>
+    <access>معلومات الوصول</access>
+    <allattendees>جميع الحاضرين</allattendees>
+    <missinguserid>لست أحد المشاركين في هذا الاجتماع. إنهاء الاجتماع.</missinguserid>
+    <appletrunning>بدأ تشغيل جافا ، في انتظار الاتصال بالاجتماع...</appletrunning>
+    <callestablished>جاري اجتماع الويب</callestablished>
+    <callfinished>انتهى اجتماع الويب</callfinished>
+    <came>انضم إلى الاجتماع</came>
+    <cancelled>لقد انتهى الاجتماع بطريقة غير متوقعة</cancelled>
+    <privatechat>بدء محادثة خاصة</privatechat>
+    <chatalreadymeeting>لقد تلقيت دعوة اجتماع جديدة ولكن لا يمكن الانضمام إليه الآن لأنك مشغول في اجتماع آخر.</chatalreadymeeting>
+    <chatinvite>أود دعوتك لحضور اجتماع الويب</chatinvite>
+    <closed>انتهت جلسة اجتماع الويب</closed>
+    <closing>هل ترغب أن تغادر هذا الاجتماع أو أن تنهي الاجتماع لجميع الحضور؟</closing>
+    <confirminvite>أرسل لك دعوة لاجتماع الويب</confirminvite>
+    <connectfailure>غير قادر على الاتصال بالاجتماع</connectfailure>
+    <connecting>محاولة الاتصال بالاجتماع ...</connecting>
+    <create>نشاء اجتماع ويب جديد</create>
+    <created>تم إنشاء اجتماع الويب، جاري بدء الاجتماع...</created>
+    <createfirst>لا يوجد حاليا أي اجتماع ويب جارٍ، هل ترغب ببدء اجتماع ويب جديد؟</createfirst>
+    <delegate>جعله مشرفاً</delegate>
+    <screen>الشاشة عن بُعد</screen>
+    <desktop>مشاركة الشاشة</desktop>
+    <waitvideo>بانتظار مشاركة الشاشة عن بُعد</waitvideo>
+    <notchrome>لمشاركة الشاشة تحتاج إلى استخدام متصفح كروم Chrome</notchrome>
+    <nohttps>تتطلب مشاركة الشاشة اتصالاً آمناً (https).</nohttps>
+    <noplugin>لم يتم تثبيت البرنامج المساعد اللازم لمشاركة الشاشة.</noplugin>
+    <desktopinfo>قم بمشاركة شاشتك مع بقية الحضور</desktopinfo>
+    <dialin>إذا كنت ترغب في الاتصال، قم بالاتصال على أحد الأرقام التالية:</dialin>
+    <disablefirebug>قد يتعارض Firebug مع هذه الوظيفة، لذا يفضّل تعطيل Firebug  وتسجيل الدخول مرة أخرى.</disablefirebug>
+    <dismiss>قم بصرف المشارك</dismiss>
+    <duration>المدة:</duration>
+    <end>إنهاء اجتماع الويب</end>
+    <endcall>إنهاء المكالمة</endcall>
+    <endforall>إنهاء اجتماع الويب لدى جميع المشاركين</endforall>
+    <endinfo>جاري إنهاء الاجتماع</endinfo>
+    <finished>سيتم معالجة تسجيل الصوت وحفظه في المستندات.</finished>
+    <generalerror>حدث خطأ غير محدد متعلق بالاجتماع</generalerror>
+    <id>معرّف الاجتماع:</id>
+    <shortid>المعرّف:</shortid>
+    <info>معلومات اجتماع الويب</info>
+    <instruct>أنت متصل الآن بالمؤتمر الصوتي، قم باستخدام الميكروفون ومكبرات الصوت - كما يوصى باستخدام سماعة الرأس.</instruct>
+    <invalidmeetingid>لا يمكنك الانضمام إلى هذا الاجتماع، لأن معرّف هذا الاجتماع منتهي الصلاحية أو غير صالح.</invalidmeetingid>
+    <invalidsessionid>انتهت الجلسة، إنهاء الاجتماع</invalidsessionid>
+    <invitationedit>رسالة الدعوة:</invitationedit>
+    <invite>قم بدعوة</invite>
+    <inviteinfo>دعوة المشاركين</inviteinfo>
+    <invitation_sent>تم إرسال الدعوة إلى</invitation_sent>
+    <invited>تم استلام دعوة اجتماع الويب</invited>
+    <invitesubject>دعوة لاجتماع الويب</invitesubject>
+    <join>الانضمام إلى اجتماع الويب</join>
+    <joining>الانضمام إلى الاجتماع</joining>
+    <leave>المغادرة</leave>
+    <leaveinfo>مغادرة اجتماع الويب</leaveinfo>
+    <leaveorend>إذا كنت تريد متابعة الاجتماع يجب اختيار مشرف جديد، وإلا فإن هذا الاجتماع سينتهي لجميع الحضور.</leaveorend>
+    <leaving>هل أنت متأكد أنك تريد مغادرة هذا الاجتماع؟</leaving>
+    <left>غادر الاجتماع</left>
+    <leftchat>لا يمكن تسليم الرسالة، لقد غادر هذا المشارك الاجتماع.</leftchat>
+    <mailinvite>يمكنك الانضمام إلى الاجتماع الآن</mailinvite>
+    <manager>المشرف</manager>
+    <meeting>اجتماع الويب</meeting>
+    <mikogoerror>أفاد الخادم بحدوث خطأ في مشاركة الشاشة.</mikogoerror>
+    <servererror>حدث خطأ عام متعلق بالاجتماع. اتصل بالمسؤول للحصول على مزيد من التفاصيل.</servererror>
+    <connectionerror>تم إنهاء الاجتماع بسبب خطأ في اتصال الشبكة. يرجى المحاولة مرة أخرى لاحقاً.</connectionerror>
+    <mute>كتم الصوت</mute>
+    <muteall>كتم الصوت لدى جميع الحاضرين</muteall>
+    <muteinfo>كتم صوت الميكروفون</muteinfo>
+    <muteone>كتم الصوت لدى المشارك</muteone>
+    <attendees>الحضور</attendees>
+    <chat>التراسل الفوري</chat>
+    <name>الاسم:</name>
+    <needspecialpermissions>لا تملك الصلاحيات اللازمة لتنفيذ هذه العملية</needspecialpermissions>
+    <networkrequesterror>يبدو أن هناك مشكلة في الشبكة. لقد تم قطع اتصالك بالاجتماع.</networkrequesterror>
+    <nocallallowed>لا يمكن إجراء مكالمات هاتفية خلال اجتماع الويب</nocallallowed>
+    <noparticipants>لا يوجد مشاركين</noparticipants>
+    <notaccessmode>خدمة اجتماع الويب غير مفعّلة في هذا الحساب.</notaccessmode>
+    <notauthenticated>لم تتم المصادقة على استخدامك هذه الخدمة.</notauthenticated>
+    <notenabled>تم تعطيل اجتماعات الويب من قبل مسؤول المخدّم</notenabled>
+    <notonline>لا توجد شبكة اتصال</notonline>
+    <notsetupproperly>لم يتم إعداد خدمة مؤتمرات الويب بشكل صحيح.</notsetupproperly>
+    <notlicensed>الرخصة الحالية لا تتيح عقد اجتماعات الويب.</notlicensed>
+    <licenseerror>الرخصة الحالية لا تسمح بتشغيل المزيد من اجتماعات الويب.</licenseerror>
+    <offline>الاجتماع غير متصل بالإنترنت.</offline>
+    <ongoing>جاري اجتماع الويب</ongoing>
+    <onlyorganizercandothis>هذه الميزة متاحة فقط لمنظم الاجتماع.</onlyorganizercandothis>
+    <onlysuperusercandothis>لست مخولاً لتنفيذ هذه العملية.</onlysuperusercandothis>
+    <organizer>المنظّم</organizer>
+    <pending>بانتظار منظم اجتماع الويب للبدء...</pending>
+    <phone>الهاتف:</phone>
+    <phoning>تقوم الآن بإجراء مكالمة هاتفية. هل ترغب بإنهائها والبدء باجتماع الويب؟</phoning>
+    <preparing>الحصول على بيانات الاجتماع</preparing>
+    <promoted>هو الآن المشرف</promoted>
+    <ready>الاجتماع جاهز للبدء</ready>
+    <recap>يمكن الاطلاع على هذه المعلومات في أي وقت عن طريق النقر على أيقونة &quot;معلومات&quot; أعلاه.</recap>
+    <record>التسجيل الصوتي</record>
+    <recordinfo>جاري التسجيل</recordinfo>
+    <recording>جاري التسجيل الصوتي</recording>
+    <restart>إعادة تشغيل اجتماع الويب</restart>
+    <schedule>جدولة اجتماع الويب</schedule>
+    <scheduleorstart>هل ترغب ببدء الاجتماع الآن أو جدولة الاجتماع لوقت لاحق؟</scheduleorstart>
+    <silenceinfo>كتم مكبر الصوت</silenceinfo>
+    <sipnoparticipants>لا يوجد مشاركين، تم إنهاء الاجتماع.</sipnoparticipants>
+    <start>بدء اجتماع الويب</start>
+    <started>بدأ الاجتماع، في انتظار برنامج جافا للبدء ...</started>
+    <startedconnect>بدأ الاجتماع، جاري الاتصال ...</startedconnect>
+    <startednojava>بدأ الاجتماع، في انتظار الوصول إلى الوسائط المتعددة ...</startednojava>
+    <starting>بدء الاجتماع</starting>
+    <startnow>بدء اجتماع الويب الآن</startnow>
+    <joinnow>الانضمام إلى اجتماع الويب الحالي</joinnow>
+    <terminate>هل أنت متأكد من رغبتك في إنهاء الاجتماع؟</terminate>
+    <timeout>لا يمكن المحافظة على الاتصال بالاجتماع</timeout>
+    <unknown>لائحة المشاركين غير مُعلنة</unknown>
+    <unmuteone>إلغاء كتم المشارك</unmuteone>
+    <details>تفاصيل اجتماع الويب</details>
+    <callin>معلومات هذا الاتصال</callin>
+    <url>رابط الاجتماع URL:</url>
+    <shorturl>الرابط URL:</shorturl>
+    <voip>الصوت عبر الإنترنت VoIP:</voip>
+    <callid>معرّف الاتصال:</callid>
+    <waitfailure>غير قادر على الانضمام إلى الاجتماع.</waitfailure>
+    <waiting>بانتظار بدء عمل جافا، قد يستغرق ذلك بعض الوقت.</waiting>
+    <welcome>مرحبا بكم في اجتماعات الويب لـ IceWarp</welcome>
+    <me>أنا</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>إن استخدام تطبيقات Office مباشرة من متصفح الويب الخاصو بك تحميل تغييرات الوثيقة تلقائيا، يتطلب تثبيت جافا.</nolaunch>
+    <nooffice>لم يتم الكشف عن أية مجموعة لبرامج  Office</nooffice>
+    <openfailed>تعذر فتح المستند في Office. هل ترغب في تحميل المستند بدلا من ذلك؟</openfailed>
+    <noappfound>لم يتم العثور على أي تطبيق لفتح هذا النوع من المستندات.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>‫الوضع:</mode>
+    <disabled>معطل</disabled>
+    <respond_always>الرد دائمًا</respond_always>
+    <respond_once>الرد مرة واحدة</respond_once>
+    <respond_after_period>الرد مرة أخرى بعد فترة من الوقت</respond_after_period>
+    <respond_period>‫الرد مرة أخرى بعد (عدد الأيام):</respond_period>
+    <from>من</from>
+    <subject>الموضوع</subject>
+    <text>نص</text>
+    <respond_only_if_to_me>الرد على الرسائل المرسلة إلى عنوان البريد الإلكتروني للمستخدم فقط</respond_only_if_to_me>
+    <respond_between>‫الرد فقط فيما بين:</respond_between>
+    <noresponderfor>لا يوجد مستجيب لـ</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>‫إعادة توجيه إلى:</forward_to>
+    <keep_copy>إبقاء رسائل البريد الإلكتروني في صندوق البريد</keep_copy>
+    <forward_older>‫إعادة توجيه البريد الأقدم من (عدد الأيام):</forward_older>
+    <forward_older_to>‫إعادة توجيه البريد الأقدم إلى:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>إضافة/تحرير</addedit>
+    <header>عنوان</header>
+    <filters>عوامل التصفية</filters>
+    <edit_header>تحرير عنوان</edit_header>
+    <empty_operator/>
+    <not>لا</not>
+    <and>و</and>
+    <or>أو</or>
+    <and_not>ولا</and_not>
+    <or_not>أو لا</or_not>
+    <from>من:</from>
+    <to>إلى:</to>
+    <subject>الموضوع:</subject>
+    <cc>نسخة مماثلة:</cc>
+    <reply_to>رد على:</reply_to>
+    <date>التاريخ:</date>
+    <message>رسالة</message>
+    <message_type>نوع الرسالة:</message_type>
+    <message_body>نص الرسالة</message_body>
+    <custom_message_header>عنوان مخصص للرسالة</custom_message_header>
+    <any_message_header>أي عنوان للرسالة</any_message_header>
+    <attachment_name>اسم المرفق</attachment_name>
+    <sender>المرسل</sender>
+    <recipient>المستلم</recipient>
+    <senders_ip>‫IP للمرسل</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>‫IP/المرسل</ip>
+    <all_messages>كافة الرسائل</all_messages>
+    <no_messages>لا توجد رسائل</no_messages>
+    <priority_is>الأولوية هي</priority_is>
+    <priority_isnt>الأولوية ليست هي</priority_isnt>
+    <is_spam>هي البريد المزعج</is_spam>
+    <isnt_spam>ليس بريداً مزعجاً</isnt_spam>
+    <is_greater_than>أكبر من</is_greater_than>
+    <is_lower_than>أقل من</is_lower_than>
+    <match_case>مطابقة الحالة</match_case>
+    <regexp>Regexp</regexp>
+    <whole_word>الكلمة بالكامل</whole_word>
+    <matches>تتطابق</matches>
+    <doesnt_match>لا تتطابق</doesnt_match>
+    <contains_string>يحتوي</contains_string>
+    <doesnt_contain_string>لا يحتوي</doesnt_contain_string>
+    <matches_regex>‫يتطابق مع regex</matches_regex>
+    <doesnt_match_regex>‫لا يتطابق مع regex</doesnt_match_regex>
+    <is_string>هو</is_string>
+    <isnt_string>ليس</isnt_string>
+    <spam_score>نتيجة البريد المزعج</spam_score>
+    <authorized>معتمد</authorized>
+    <unauthorized>غير معتمد</unauthorized>
+    <add>إضافة</add>
+    <delete>حذف</delete>
+    <up>لأعلى</up>
+    <down>لأسفل</down>
+    <action>إجراء</action>
+    <actions>إجراءات</actions>
+    <accept>قبول</accept>
+    <reject>رفض</reject>
+    <quarantine>عزل</quarantine>
+    <spam>بريد مزعج</spam>
+    <stop_processing>التوقف عن معالجة المزيد من القواعد</stop_processing>
+    <move_to>نقل إلى</move_to>
+    <copy_to>نسخ إلى</copy_to>
+    <encrypt_message>تشفير رسالة</encrypt_message>
+    <set_message_priority>إرسال أولوية الرسالة إلى</set_message_priority>
+    <set_message_flag>إرسال علامة الرسالة إلى</set_message_flag>
+    <text>النص:</text>
+    <title>عنوان</title>
+    <conditions>الشروط</conditions>
+    <edit>تحرير</edit>
+    <rule>قاعدة</rule>
+    <rules>القواعد</rules>
+    <highest>القصوى</highest>
+    <high>العالية</high>
+    <normal>العادية</normal>
+    <low>المنخفضة</low>
+    <lowest>الدنيا</lowest>
+    <spam_is_greater_than>أكبر من</spam_is_greater_than>
+    <spam_is_lower_than>أقل من</spam_is_lower_than>
+    <forward_to>إعادة توجيه إلى</forward_to>
+    <send_message>إرسال رسالة</send_message>
+    <three_dots>...</three_dots>
+    <email>البريد الإلكتروني</email>
+    <instant_messaging>التراسل الفوري</instant_messaging>
+    <active>نشط</active>
+  </filters>
+  <rich>
+    <alt>النص البديل</alt>
+    <code>المصدر</code>
+    <paragraph>فقرة</paragraph>
+    <normal>عادية</normal>
+    <heading>رأس الصفحة</heading>
+    <clearformatting>مسح التنسيق</clearformatting>
+    <font>الخط</font>
+    <size>الحجم</size>
+    <rows>الصفوف</rows>
+    <columns>الأعمدة</columns>
+    <padding>نطاق الخلية</padding>
+    <spacing>تباعد الخلايا</spacing>
+    <img_spacing>التباعد</img_spacing>
+    <bordercolor>لون الحد</bordercolor>
+    <border>حد</border>
+    <bold>اجعله غامقاً</bold>
+    <italic>اجعله مائلاً</italic>
+    <underline>تسطير النص</underline>
+    <style>نوع التنسيق</style>
+    <align>محاذاة النص</align>
+    <left>المحاذاة إلى اليسار</left>
+    <center>التوسيط</center>
+    <right>المحاذاة إلى اليمين</right>
+    <justify>ضبط</justify>
+    <numberedlist>قائمة رقمية</numberedlist>
+    <bulletedlist>قائمة نقطية</bulletedlist>
+    <indent>مسافة بادئة</indent>
+    <leftindent>المسافة البادئة اليسرى</leftindent>
+    <rightindent>المسافة البادئة اليمنى</rightindent>
+    <bgcolor>لون الخلفية</bgcolor>
+    <color>لون النص</color>
+    <cut>قص التحديد</cut>
+    <copy>نسخ التحديد</copy>
+    <paste>لصق التحديد</paste>
+    <pastew>لصق كنص</pastew>
+    <insert>إدراج</insert>
+    <addlink>ارتباط</addlink>
+    <table>جدول</table>
+    <image>صورة</image>
+    <dropbox>رابط Dropbox</dropbox>
+    <spell>التدقيق الإملائي</spell>
+    <url>‫عنوان URL</url>
+    <uploaded>تم التحميل</uploaded>
+    <internal>داخلي</internal>
+    <direction>‫اتجاه النص HTML</direction>
+    <ltr>من اليسار إلى اليمين</ltr>
+    <rtl>من اليمين إلى اليسار</rtl>
+    <screenshot>لقطة شاشة</screenshot>
+    <paste_img>لصق الصورة</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>جاري التحميل</loading>
+    <framework>تحميل إطار العمل</framework>
+    <settings>تحميل الإعدادت</settings>
+    <language>تحميل الموارد</language>
+    <indexing>الفهرسة</indexing>
+    <startup>بدء التشغيل</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>سطح المكتب للزبون Desktop Client</desktop_client>
+    <outlook_sync>المزامنة مع أوتلوك</outlook_sync>
+    <outlook_2013>أوتلوك 2013</outlook_2013>
+    <help_win_desktop1>قم بتحميل Desktop Client</help_win_desktop1>
+    <help_win_desktop2>قم بتشغيل مثبت البرنامج. من القائمة الرئيسية لـ Desktop Client ، حدد &lt;b&gt; أدوات - حسابات &lt;/ b&gt;. يظهر مربع حوار &lt;b&gt; الحسابات &lt;/ b&gt;. في مربع الحوار هذا، انقر فوق &lt;b&gt; حساب جديد &lt;/ I&gt; &lt;/ b&gt;. يظهر معالج  إنشاء حساب جديد. قم بملء حقل&lt;i&gt; البريد الإلكتروني &lt;/ i&gt; وحقل &lt;i&gt; كلمة  المرور&lt;/ i&gt; ، وانقر على زر &lt;b&gt; ابدأ الآن. &lt;/ b&gt;</help_win_desktop2>
+    <help_win_desktop3>على صفحة تفاصيل الحساب، يمكنك تعديل اسم الحساب الخاص بك. انقر فوق التالي. في الصفحة التالية، يمكنك تعطيل الميزات التي لا تريد استخدامها. انقر فوق إنهاء لإكمال الإعداد.</help_win_desktop3>
+    <help_win_osync1>قم بتحميل المزامن مع أوتلوك</help_win_osync1>
+    <help_win_osync2>قم بتشغيل مثبت البرنامج. على  صفحة  SmartDiscover، أدخل &lt;i&gt;عنوان البريد الإلكتروني &lt;/i&gt;  و &lt;i&gt;كلمة المرور &lt;/i&gt; ، &lt;b&gt; لا &lt;/b&gt; تضع علامة في مربع &lt;i&gt; تخطي SmartDiscover والإعداد يدويا .&lt;/i&gt; انقر فوق التالي.</help_win_osync2>
+    <help_win_osync3>في الخطوة التالية، يظهر مربع الحوار تنشيط الترخيص.</help_win_osync3>
+    <help_win_osync4>إذا تم منحك ترخيص لمزامنة أوتلوك مع IceWarp ، انقر فوق نعم. إذا كنت ترغب أولاً في استخدام مزامنة أوتلوك مع IceWarp في الفترة تجريبية لمدة 30 يوما ، انقر فوق لا.</help_win_osync4>
+    <help_win_osync5>انقر فوق إنهاء لإكمال التثبيت.</help_win_osync5>
+    <help_win_20131>من قائمة &lt;b&gt;ملف&lt;/ b&gt; وفي صفحة &lt;b&gt; معلومات الحساب &lt;/ b&gt; ، انقر فوق &lt;b&gt; إضافة حساب &lt;/ b&gt;، يفتح مربع الحوار إضافة حساب. في صفحة &lt;b&gt; إعداد حساب تلقائي &lt;/ b&gt; ، اختر الخيار &lt;i&gt; إعداد يدوي أو أنواع مخدمات إضافية &lt;/ i&gt; ثم انقر فوق التالي. &#13;&#10;في صفحة &lt;b&gt; اختيار الخدمة &lt;/ b&gt; ، اختر الخيار&lt;i&gt; Outlook.com أو الخدمة المتوافقة مع Exchange ActiveSync &lt;/ i&gt; ثم انقر فوق التالي.</help_win_20131>
+    <help_win_20132>في صفحة &lt;b&gt; إعدادات الخادم &lt;/ b&gt; ، قم بملء اسم المستخدم الخاص بك و اسم الخادم ومعلومات تسجيل الدخول. انقر فوق التالي.</help_win_20132>
+    <help_win_20133>بعد اختبار إعدادات الحساب، انقر فوق إنهاء.</help_win_20133>
+    <help_osx_all_applications_title>كافة التطبيقات</help_osx_all_applications_title>
+    <help_osx_messages_title>الرسائل</help_osx_messages_title>
+    <help_osx_messages1>قم بفتح الرسائل ومن القائمة الرئيسية اختر &lt;b&gt; الرسائل - إضافة حساب &lt;/ b&gt;. من أنواع الحساب المتاحة، اختر &lt;b&gt; حسابات أخرى للرسائل... &lt;/ b&gt; و انقر فوق متابعة.</help_osx_messages1>
+    <help_osx_messages2>في مربع الحوار&lt;b&gt; إضافة حساب للرسائل &lt;/ b&gt; ، ومن &lt;i&gt; نوع الحساب &lt;/ i&gt; خيارات، اختر &lt;b&gt; Jabber &lt;/ b&gt;. &#13;&#10;ادخل عنوان البريد الإلكتروني الخاص بك و&lt;i&gt; اسم الحساب &lt;/ i&gt; و &lt;i&gt; كلمة المرور&lt;/ i&gt;. &#13;&#10;في قسم &lt;b&gt; خيارات الخادم &lt;/ b&gt;، ضع علامة في مربع &lt;i&gt; استخدام SSL &lt;/ i&gt;. اترك الخيارات الأخرى كـ تلقائي. انقر فوق إنشاء.</help_osx_messages2>
+    <help_osx_calendar_title>التقويم</help_osx_calendar_title>
+    <help_osx_calendar1>قم بفتح التقويم ومن القائمة الرئيسية اختر &lt;b&gt; التقويم - إضافة حساب &lt;/ b&gt;. من أنواع الحساب ، اختر &lt;b&gt; إضافة حساب CalDAV &lt;/ b&gt; و انقر فوق متابعة.</help_osx_calendar1>
+    <help_osx_calendar2>في مربع حوار &lt;b&gt; إضافة حساب CalDAV &lt;/ b&gt; ، من &lt;i&gt; نوع الحساب &lt;/ i&gt; خيارات، حدد &lt;b&gt; بشكل يدوي &lt;/ b&gt;. &#13;&#10;ادخل عنوان البريد الإلكتروني الخاص بك و&lt;i&gt; اسم المستخدم &lt;/ i&gt; و &lt;i&gt; كلمة المرور&lt;/ i&gt;. &#13;&#10;في &lt;i&gt; عنوان الخادم &lt;/ i&gt; ، قم بإضافة اسم نطاق الخادم ثم انقر على إنشاء.</help_osx_calendar2>
+    <help_osx_calendar3>لإعداد &lt;b&gt; تذكير &lt;/ b&gt; اذهب إلى &lt;b&gt; تفضيلات النظام - حسابات إنترنت &lt;/ b&gt; و تحديد حساب التقويم الذي قمت بإعداده للتو. ضع علامة في مربع الاختيار &lt;i&gt; استخدم مع: التذكير &lt;/ i&gt;</help_osx_calendar3>
+    <help_osx_contacts_title>جهات الاتصال</help_osx_contacts_title>
+    <help_osx_contacts1>قم بفتح جهات الاتصال ومن القائمة الرئيسية اختر &lt;b&gt; اتصالات - إضافة حساب &lt;/ B&gt;. من أنواع الحساب ، اختر &lt;b&gt; حسابات أخرى لجهة اتصال و &lt;/ B&gt; انقر على زر متابعة.</help_osx_contacts1>
+    <help_osx_contacts2>في مربع الحوار التالي، حدد &lt;b&gt; CardDAV &lt;/ B&gt; الخيار الذي في الأعلى. &#13;&#10;ادخل عنوان البريد الإلكتروني الخاص بك و&lt;i&gt; اسم المستخدم &lt;/ i&gt; و &lt;i&gt; كلمة المرور &lt;/ i&gt;. &#13;&#10;في &lt;i&gt; عنوان الخادم &lt;/ i&gt; ،أدخل اسم نطاق الخادم. انقر فوق زر إنشاء.</help_osx_contacts2>
+    <help_osx_all>كافة التطبيقات</help_osx_all>
+    <help_osx_all1>تحميل برنامج الإعدادات configurator</help_osx_all1>
+    <help_osx_all2>قم بفتح ملف إعدادات IceWarp الذي قمت بتحميله، قم بتشغيل ملف الإعداد. في حال ظهور رسالة تنبيه بأنه تم تحميل الملف من الإنترنت اضغط على &quot;فتح&quot;. قم بملء عنوان بريدك الإلكتروني وكلمة المرور واضغط على &lt;strong&gt; متابعة &lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>في كل تطبيق يملك خاصية الإعداد (التكوين) التلقائي، يوجد زر  &lt;strong&gt;اتصال&lt;/strong&gt;، يمكنك اختيار التطبيق بشكل إفرادي أو اختيار &lt;strong&gt;اتصال بالكل &lt;/strong&gt; لتطبيق الإعداد (التكوين) التلقائي عليها جميعاً.</help_osx_all3>
+    <help_tablet_and_title>الأجهزة اللوحية بنظام أندرويد</help_tablet_and_title>
+    <help_tablet_ios_title>آي باد</help_tablet_ios_title>
+    <help_tablet_win_title>الأجهزة اللوحية بنظام ويندوز</help_tablet_win_title>
+    <help_tablet_win1>على الجانب الأيمن من &lt;b&gt; شاشة البداية &lt;/ b&gt; ، حدد &lt;i&gt; إعدادات - تغيير إعدادات الكمبيوتر - الحسابات &lt;/ i&gt;. في صفحة الحسابات، حدد خيار&lt;i&gt; الحسابات الأخرى &lt;/ i&gt;. &#13;&#10;على صفحة الحسابات الأخرى، اضغط &lt;i&gt; إضافة مستخدم &lt;/ i&gt;. في الصفحة التالية، قم بإدراج اسم نطاق الخادم واضغط زر التالي.</help_tablet_win1>
+    <help_tablet_win2>في صفحة إنشاء حساب Microsoft ، قم بملء أوراق اعتماد الحساب الخاص بك وانقر فوق التالي.</help_tablet_win2>
+    <help_tablet_win3>على صفحة معلومات الأمان إضافة، تعيين تفضيلات الأمان واضغط التالي. على الصفحة تفضيلات الاتصال، انقر فوق التالي. في الصفحة الأخيرة، انقر فوق إنهاء.</help_tablet_win3>
+    <help_phone_and_title>الأجهوة بنظام أندرويد</help_phone_and_title>
+    <help_phone_and1>في &lt;b&gt; إعدادات النظام &lt;/ b&gt; في &lt;b&gt; الحسابات &lt;/ b&gt; علامة التبويب القسم &lt;b&gt; إضافة حساب &lt;/ b&gt; واختيار الخيار &lt;i&gt; الشركة &lt;/ i&gt;. &#13;&#10;على &lt;b&gt; شاشة إعداد حساب &lt;/ b&gt;، أدخل عنوان البريد الإلكتروني وكلمة المرور. اكتب اسم نطاق الخادم الواردة من المسؤول. ضع علامة على مربع &lt;i&gt; ينصح بشدة استخدام اتصال آمن (SSL) &lt;/ i&gt;. ضع علامة على مربع &lt;i&gt; قبول كافة شهادات SSL &lt;/ i&gt; يمكن لهذا الخيار حل المشاكل مع شهادات الخادم غير معروفة. انقر فوق التالي.</help_phone_and1>
+    <help_phone_and2>على  شاشة&lt;b&gt; إدارة الأمان عن بعد &lt;/ b&gt; ، اضغط على &lt;b&gt; موافق &lt;/ b&gt;. وهذا أمر ضروري لفرض السياسات الأمنية الخاصة بالشركة على الجهاز، أو إعادة تعيينها إذا فقدت.</help_phone_and2>
+    <help_phone_and3>على شاشة&lt;b&gt; إعدادات الحساب &lt;/ b&gt; ، اختر &lt;i&gt; تواترالتحقق  من البريد الوارد &lt;/ i&gt; و تحديد كيف ستتم مزامنة رسائل البريد الإلكتروني القديم تحت بند&lt;i&gt; أيام المزامنة &lt;/ i&gt;. اختياريا يمكنك وضع علامة في المربع &lt;i&gt; إرسال البريد الإلكتروني من هذا الحساب افتراضيا &lt;/ i&gt;، قم بمراجعة الإعدادات الأخرى وانقر فوق التالي.</help_phone_and3>
+    <help_phone_and4>قم بتسمية هذا الحساب ليتم تحديده بهذا الاسم في التطبيقات وبعدها انقر فوق التالي.</help_phone_and4>
+    <help_phone_ios_title>آي فون</help_phone_ios_title>
+    <help_ios1>في &lt;b&gt; الإعدادات &lt;/ b&gt;، حدد الخيارات &lt;i&gt; البريد، جهات الاتصال، التقاويم - إضافة حساب - التبادل &lt;/ i&gt;.</help_ios1>
+    <help_ios2>في الصفحة التالية، قم بملء حقول &lt;i&gt; البريد الإلكتروني وكلمة المرور والوصف &lt;/ i&gt;. انقر فوق التالي.</help_ios2>
+    <help_ios3>في الصفحة التالية، يمكنك اختياريا تعطيل الميزات التي لا تريد استخدامها عن طريق زلق وحدات التحكم إلى وضع إيقاف التشغيل. انقر على حفظ. يمكن العثور على الإعدادات المتقدمة تحت بند وصف الحساب في كل قسم سواء في &lt;b&gt; البريد الإلكتروني أو جهات الاتصال أو حسابات أو التقاويم - الحسابات &lt;/ b&gt;.</help_ios3>
+    <help_phone_win_title>هاتف ويندوز</help_phone_win_title>
+    <help_phone_win1>اذهب إلى قائمة التطبيقات طريق السحب إلى اليسار على الشاشة الرئيسية. قم بالتمرير إلى الأسفل وحدد &lt;b&gt; إعدادات &lt;/ b&gt;.&#13;&#10;حدد الخيار &lt;b&gt; البريد الإلكتروني والحسابات &lt;/ b&gt; وفي عنصر القائمة &lt;b&gt; إضافة حساب &lt;/ b&gt;.&#13;&#10;حدد نوع الحساب &lt;b&gt; برنامج Outlook &lt;/ b&gt;. يظهر بعدها مربع حوار OUTLOOK.</help_phone_win1>
+    <help_phone_win2>قم بملء &lt;i&gt; عنوان البريد الإلكتروني &lt;/ i&gt; و &lt;i&gt; كلمة المرور&lt;/ i&gt;. عندما تنتهي من ذلك، انقر على زر&lt;b&gt; تسجيل الدخول &lt;/ b&gt;.</help_phone_win2>
+    <help_trademark>آي فون وآي باد وماك Mac ونظام التشغيل X هي علامات تجارية لشركة Apple Inc، مسجلة في الولايات المتحدة وبلدان أخرى. مايكروسوفت و ويندوز وأوتلوك وهاتف ويندوز إما علامات تجارية مسجلة أو علامات تجارية لشركة Microsoft Corporation في الولايات المتحدة و / أو بلدان أخرى. أندرويد هي علامة تجارية لشركة غوغل. IceWarp هي علامة تجارية مسجلة في الولايات المتحدة وبلدان أخرى.</help_trademark>
+    <windows>ويندوز</windows>
+    <ios>iOS</ios>
+    <android>أندرويد</android>
+  </utilities>
+  <banner_1>
+    <title>آي فون</title>
+    <subtitle>البريد الإلكتروني والتقويم وجهات الاتصال والمهام</subtitle>
+    <descr>تثبيت الحساب خطوة بخطوة</descr>
+  </banner_1>
+  <banner_2>
+    <title>ويندوز</title>
+    <subtitle>قم بتنصيب Icewarp Desktop Client</subtitle>
+    <descr>التثبيت خطوة بخطوة.</descr>
+  </banner_2>
+  <banner_4>
+    <title>نظام التشغيل X</title>
+    <subtitle>التقاويم والتذكير</subtitle>
+    <descr>خطوة بخطوة على نظام الماك Mac.</descr>
+  </banner_4>
+  <banner_5>
+    <title>المزامنة مع أوتلوك</title>
+    <subtitle>البريد الإلكتروني والتقويم والأشخاص</subtitle>
+    <descr>التثبيت خطوة بخطوة.</descr>
+  </banner_5>
+  <banner_6>
+    <title>هاتف بنظام ويندوز</title>
+    <subtitle>البريد الإلكتروني والتقاويم وجهات الاتصال</subtitle>
+    <descr>إعداد الحساب خطوة بخطوة.</descr>
+  </banner_6>
+  <banner_7>
+    <title>أندرويد</title>
+    <subtitle>البريد الإلكتروني والتقاويم وجهات الاتصال</subtitle>
+    <descr>إعداد الحساب خطوة بخطوة.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>الصفحة السابقة</previous_title>
+    <previous_label>السابق</previous_label>
+    <next_title>الصفحة التالية</next_title>
+    <next_label>التالي</next_label>
+    <page_label>الصفحة:</page_label>
+    <page_of>من  {{pageCount}}</page_of>
+    <zoom_out_title>تصغير</zoom_out_title>
+    <zoom_out_label>تصغير</zoom_out_label>
+    <zoom_in_title>تكبير</zoom_in_title>
+    <zoom_in_label>تكبير</zoom_in_label>
+    <zoom_title>تكبير/تصغير</zoom_title>
+    <presentation_mode_title>الانتقال إلى وضع ملء الشاشة</presentation_mode_title>
+    <presentation_mode_label>ملء كامل الشاشة</presentation_mode_label>
+    <print_title>طباعة</print_title>
+    <print_label>طباعة</print_label>
+    <download_title>تحميل</download_title>
+    <download_label>تحميل</download_label>
+    <bookmark_title>الإشارة المرجعية</bookmark_title>
+    <bookmark_label>الإشارة المرجعية</bookmark_label>
+    <tools_title>أدوات</tools_title>
+    <tools_label>أدوات</tools_label>
+    <first_page_title>الانتقال إلى الصفحة الأولى</first_page_title>
+    <first_page_label>الانتقال إلى الصفحة الأولى</first_page_label>
+    <last_page_title>الانتقال إلى الصفحة الأخيرة</last_page_title>
+    <last_page_label>الانتقال إلى الصفحة الأخيرة</last_page_label>
+    <page_rotate_cw_title>تدوير باتجاه عقارب الساعة</page_rotate_cw_title>
+    <page_rotate_cw_label>تدوير باتجاه عقارب الساعة</page_rotate_cw_label>
+    <page_rotate_ccw_title>تدوير بعكس عقارب الساعة</page_rotate_ccw_title>
+    <page_rotate_ccw_label>تدوير بعكس عقارب الساعة</page_rotate_ccw_label>
+    <hand_tool_enable_title>تمكين أداة اليد</hand_tool_enable_title>
+    <hand_tool_enable_label>تمكين أداة اليد</hand_tool_enable_label>
+    <hand_tool_disable_title>تعطيل أداة اليد</hand_tool_disable_title>
+    <hand_tool_disable_label>تعطيل أداة اليد</hand_tool_disable_label>
+    <document_properties_label>خصائص المستند</document_properties_label>
+    <document_properties_file_name>اسم الملف:</document_properties_file_name>
+    <document_properties_file_size>حجم الملف:</document_properties_file_size>
+    <document_properties_kb>({{size_kb}} كيلو بايت  {{size_b}} بايت )</document_properties_kb>
+    <document_properties_mb>({{size_mb}} ميغا بايت {{size_b}} بايت )</document_properties_mb>
+    <document_properties_title>العنوان:</document_properties_title>
+    <document_properties_author>المؤلف:</document_properties_author>
+    <document_properties_subject>الموضوع:</document_properties_subject>
+    <document_properties_keywords>الكلمات المفتاحية:</document_properties_keywords>
+    <document_properties_creation_date>تاريخ الإنشاء:</document_properties_creation_date>
+    <document_properties_modification_date>تاريخ التعديل:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>أُنشئ من قبل:</document_properties_creator>
+    <document_properties_producer>المنتج:</document_properties_producer>
+    <document_properties_version>الإصدار:</document_properties_version>
+    <document_properties_page_count>عدد الصفحات:</document_properties_page_count>
+    <document_properties_close>إغلاق</document_properties_close>
+    <toggle_sidebar_title>تبديل وضع الشريط الجانبي</toggle_sidebar_title>
+    <toggle_sidebar_label>تبديل وضع الشريط الجانبي</toggle_sidebar_label>
+    <outline_title>عرض المخطط التفصيلي للمستند</outline_title>
+    <outline_label>عرض المخطط التفصيلي للمستند</outline_label>
+    <thumbs_title>عرض المصغرات</thumbs_title>
+    <thumbs_label>عرض المصغرات</thumbs_label>
+    <findbar_title>البحث في المستند</findbar_title>
+    <findbar_label>البحث</findbar_label>
+    <thumb_page_title>الصفحة  {{page}}</thumb_page_title>
+    <thumb_page_canvas>مصغَّر الصفحة {{page}}</thumb_page_canvas>
+    <find_label>البحث عن:</find_label>
+    <find_previous_title>البحث عن السابق</find_previous_title>
+    <find_previous_label>السابق</find_previous_label>
+    <find_next_title>البحث عن التالي</find_next_title>
+    <find_next_label>التالي</find_next_label>
+    <find_highlight>تمييز الكل</find_highlight>
+    <find_match_case_label>مطابقة حالة الأحرف</find_match_case_label>
+    <find_reached_top>تم الوصول إلى أعلى المستند</find_reached_top>
+    <find_reached_bottom>تم الوصول إلى نهاية المستند</find_reached_bottom>
+    <find_not_found>لم يتم العثور على أي نتائج</find_not_found>
+    <error_more_info>مزيد من المعلومات</error_more_info>
+    <error_less_info>عرض معلومات أقل</error_less_info>
+    <error_close>إغلاق</error_close>
+    <error_version_info>PDF.js v{{version}} (b: {{build}})</error_version_info>
+    <error_message>الرسالة :  {{message}}</error_message>
+    <error_stack>مكدّس:  {{stack}}</error_stack>
+    <error_file>الملف : {{file}}</error_file>
+    <error_line>السطر : {{line}}</error_line>
+    <rendering_error>خطأ أثناء المعالجة والاستخراج</rendering_error>
+    <page_scale_width>عرض الصفحة</page_scale_width>
+    <page_scale_fit>ملائمة للصفحة</page_scale_fit>
+    <page_scale_auto>تكبير/تصغير تلقائي</page_scale_auto>
+    <page_scale_actual>الحجم الحقيقي</page_scale_actual>
+    <page_scale_percent>{{مقياس التغيير}}%</page_scale_percent>
+    <loading_error_indicator>خطأ</loading_error_indicator>
+    <loading_error>حدث خطأ أثناء تحميل ملف PDF</loading_error>
+    <invalid_file_error>ملف PDF تالف أو غير صالح</invalid_file_error>
+    <missing_file_error>ملف PDF مفقود</missing_file_error>
+    <text_annotation_type_alt>[{{type}}  الشرح التوضيحي]</text_annotation_type_alt>
+    <password_label>قم بإدخال كلمة المرور لفتح ملف PDF المحمي</password_label>
+    <password_invalid>كلمة مرور غير صحيحة، يرجى إعادة المحاولة.</password_invalid>
+    <password_ok>موافق</password_ok>
+    <password_cancel>إلغاء الأمر</password_cancel>
+    <printing_not_supported>تنبيه: لا يدعم المتصفح الحالي الطباعة بشكل كامل.</printing_not_supported>
+    <printing_not_ready>تنبيه: لم يتم تحميل ملف PDF  بشكل كامل للطباعة</printing_not_ready>
+    <web_fonts_disabled>لا يمكن عرض الخطوط المستخدمة في ملف PDF.</web_fonts_disabled>
+    <document_colors_disabled>مستند PDF لا يمكّن استخدام الألوان</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>مستندات الويب</title>
+    <preview>معاينة المستند</preview>
+    <error>حدث خطأ في مستند الويب</error>
+    <error_msg>خطأ في تحميل المستند. قد تضطر إلى إغلاق وإعادة فتح المستند لضمان العمل بالشكل الأمثل.</error_msg>
+    <zoom_in>تكبير</zoom_in>
+    <zoom_out>تصغير</zoom_out>
+    <fullscreen>التبديل بين وضع ملء الشاشة</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

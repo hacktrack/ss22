@@ -1,0 +1,18 @@
+@mixin enable-scroll($scroll-direction: 'vertical') {
+
+	@if $scroll-direction == 'vertical' {
+		overflow-y: auto;
+		overflow-x: hidden;
+	} @else if $scroll-direction == 'horizontal' {
+		overflow-y: hidden;
+		overflow-x: auto;
+	}
+
+	-webkit-overflow-scrolling: touch;
+
+	// Fixes buggy iPad scrolling when fixed elements (modals) are on top
+	// Disable overflow scrolling in all elements below .frm_main when a modal is open
+	body.has-modal .frm_main & {
+		-webkit-overflow-scrolling: auto !important;
+	}
+}

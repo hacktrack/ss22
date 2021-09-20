@@ -1,0 +1,1 @@
+<distrib>{dynamic items}<item><name>{*::name}</name><contacts>{dynamic *::contacts}<item><email>{*::address}</email><name>{*::name}</name></item>{/dynamic}</contacts></item>{/dynamic}</distrib>

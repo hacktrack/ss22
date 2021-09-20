@@ -1,0 +1,240 @@
+#listBox
+{
+	float:right;
+}
+
+.firstCol
+{
+	width:25px;
+}
+
+
+/* events */
+.tGrid th.calendar_days
+{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	width:14.285714%;
+}
+
+.tGrid th.calendar_day
+{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	width:100%;
+	text-align:center;
+}
+
+.tGrid th.calendar_days div
+{
+	height:37px;
+	overflow:hidden;
+	line-height:35px;
+	font-size:11px;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+
+.tGrid th.calendar_days div div
+{
+	padding:0px;
+	margin:0px;
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+
+.tGrid th.crossroad
+{
+	background-color:#ddd;
+	text-align:center; line-height:20px;
+}
+
+.tGrid td.actual
+{
+	background-color:#e5f3fe;
+	width:14.285714%;
+}
+
+.tGrid td.other
+{
+	padding:0px;
+	width:14.285714%;
+}
+.tGrid th.actual
+{
+	background-color:#a6d8ff;
+	width:14.285714%;
+}
+
+.tGrid th.actual a
+{
+	display:block;
+}
+
+.tGrid th.actual
+{
+	padding:0;
+}
+
+.tGrid th.actual a
+{
+	padding:0 0 0 5px;
+}
+
+.tGrid th.actual a:hover
+{
+	background-color:#b8e7ff;
+}
+
+.tGrid th.other
+{
+	width:14.285714%;
+	background: transparent;
+	border:none;
+}
+
+.monthItemBoxAllr
+{
+	position:relative;
+}
+
+.monthItemBoxAlla
+{
+	width: 100%;
+	position:absolute;
+}
+
+.monthItemBox
+{
+	padding:2px;
+}
+
+.monthItem
+{
+	border:#333 1px solid;
+	padding:2px;
+	overflow:hidden;
+}
+
+.tGrid td
+{
+	vertical-align:top;
+}
+
+.eventtime
+{
+	white-space: nowrap;
+}
+
+.tGrid
+{
+	border-collapse: collapse;
+	width:100%;
+	text-align:left;
+}
+.tGrid th
+{
+	border-top:#aaa 1px solid;
+	border-bottom:#aaa 1px solid;
+	border-collapse: collapse;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:2px;
+	background-color:#eee;
+}
+
+.tGrid  td
+{
+	padding:3px 0px 3px 5px;
+}
+
+.tGrid a,.tGrid .oFlowA
+{
+	display:block;
+	text-decoration:none;
+	color:#000;
+	/*line-height: 18px;*/
+	line-height: 30px;
+}
+
+
+.contactGrid
+{
+	float:left;
+}
+
+.tGrid .contactGridTD a
+{
+	display:inline;
+}
+
+.tGrid th.nrb
+{
+	border-right: none;
+}
+
+.tGrid td.underlineLinks a
+{
+	text-decoration: underline;
+}
+/**/
+
+.tGrid td.checkboxFirst
+{
+	padding-top:8px;
+}
+
+/********************************/
+.tGrid td{
+	border-bottom:#eee 1px solid;
+}
+
+.tGrid td td{
+	border-bottom: none;
+}
+
+/********************************/
+
+.tGrid th.sortDESC
+{
+	background-image:url('../skin/basic/images/upArrow.gif');
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+}
+.tGrid th.sortASC
+{
+	background-image:url('../skin/basic/images/downArrow.gif');
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+}
+
+td.senderBox
+{
+	overflow:hidden;
+}
+
+.noPadding
+{
+	padding:0!important;
+}
+
+.weatherBox
+{
+	line-height:19px;
+}
+	.weatherBox img
+	{
+		float:left;
+	}

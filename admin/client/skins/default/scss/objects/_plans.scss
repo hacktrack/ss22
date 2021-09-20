@@ -1,0 +1,175 @@
+.plans {
+	overflow: hidden;
+}
+
+.plans--billing {
+	@include flexbox;
+	@include flex-wrap(wrap);
+
+	.plans__item {
+		@include flex(1, 1, 0);
+		margin: -1px 0 0 0;
+		padding: 0 2rem;
+
+		@include theme {
+			border-top: 1px solid $theme-border-grey;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: -1px;
+			width: 1px;
+			height: 100%;
+			transform: scaleY(0.5);
+
+			@include theme {
+				background-color: $theme-border-grey;
+			}
+		}
+	}
+
+	.plans__item--total {
+		@include flex-basis(100%);
+
+		.plans__price {
+			font-weight: bold;
+		}
+	}
+
+	.plans__label-wrap {
+		@include flex-direction(column);
+	}
+
+	.plans__users {
+		padding: 0;
+		margin: 0;
+		margin-left: -6px;
+		font-size: rem(18);
+		@include theme {
+			color: $theme-primary;
+		}
+	}
+
+	.plans__price-wrap {
+		margin-left: auto;
+	}
+}
+
+.plans:not(.plans--billing) {
+	.plans__colon,
+	.plans__item:not(.plans__item--total) .plans__users .icon {
+		display: none;
+	}
+}
+
+.plans__item {
+	@include flexbox;
+	@include align-items(center);
+	position: relative;
+	min-width: rem(250) !important;
+	height: rem(88);
+	margin: 0 2rem;
+	font-size: rem(24);
+	line-height: $normal-line-height;
+
+	& + & {
+		@include border('top');
+	}
+
+	> * + * {
+		margin-left: 2rem;
+	}
+
+	&:nth-child(1) .plans__icon {
+		background-image: url('../icons/lite-plan.svg');
+	}
+
+	&:nth-child(2) .plans__icon {
+		background-image: url('../icons/standard-plan.svg');
+	}
+
+	&:nth-child(3) .plans__icon {
+		background-image: url('../icons/professional-plan.svg');
+	}
+
+	&:nth-child(4) .plans__icon {
+		background-image: url('../icons/enterprise-plan.svg');
+	}
+
+	&:nth-child(5) .plans__icon {
+		background-image: url('../icons/first-class-plan.svg');
+	}
+
+	&.disabled {
+		opacity: 0.5;
+	}
+}
+
+.plans__item--total {
+	height: rem(68);
+	margin: 0;
+	padding: 0 2rem;
+
+	.plans__users {
+		margin-left: auto;
+		font-weight: bold;
+	}
+}
+
+.plans__icon {
+	@include square-size(rem(40));
+	@include flex(none);
+	background: no-repeat center / contain;
+}
+
+.plans__label {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.plans__label-wrap {
+	@include flexbox;
+	@include flex(1, 1, 0);
+}
+
+.plans__users {
+	margin-left: auto;
+	padding-left: 2rem;
+
+	.icon {
+		font-size: inherit;
+
+		@include theme {
+			color: $theme-border-grey;
+		}
+	}
+}
+
+.plans__price-wrap {
+	text-align: right;
+
+	> * {
+		display: block;
+	}
+}
+
+.plans__price {
+	@include theme {
+		color: $theme-primary;
+	}
+}
+
+.plans__description {
+	padding: 0.25rem 0;
+	font-size: rem(12);
+
+	@include theme {
+		color: $theme-border-grey;
+	}
+}
+
+.plans__description .plans__price {
+	color: $dark;
+}

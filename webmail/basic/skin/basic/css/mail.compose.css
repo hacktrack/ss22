@@ -1,0 +1,325 @@
+a:active,a:focus,input:active,input:focus
+{
+	outline: none;
+	-moz-outline-style: none;
+	-khtml-outline-style: none;
+}
+
+form
+{
+	margin:0px;
+	padding:0px;
+}
+
+#c_wysiwyg_0_editor
+{
+	border:#333 1px solid;
+}
+
+.gw_buttons_mc
+{
+	/*width:96%;*/
+	float:right;
+
+}
+
+.spacer
+{
+	padding: 10px;
+	background-color: #E1F0FF;
+}
+
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+.cleaner
+{
+	clear:both;
+}
+
+.fieldDesc
+{
+	font-family:Arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding: 0px 3px;
+}
+
+.fieldBox
+{
+	margin-top:0px;
+	padding-top:7px;
+	.padding-top:7px;
+	width:100%;
+}
+
+.fileField
+{
+	border:#ccc 1px solid;
+}
+
+.field
+{
+	width:100%;
+	.width:99%;
+	border:#aaa 1px solid;
+}
+
+.bfield
+{
+	border:#ccc 1px solid;
+}
+
+.field:focus,.bfield:focus
+{
+	/*background-color:#f8fbff;*/
+	border:#666 1px solid;
+}
+
+.field:hover,.bfield:focus
+{
+	/*border:#4e9fff 1px solid;*/
+}
+
+.fieldHolder
+{
+	width:90%;
+}
+
+.textField
+{
+	width:100%;
+	height:380px;
+}
+
+.tab
+{
+	padding:3px 5px;
+	border:#a0a0a0 1px solid;
+	border-bottom:none;
+	background-color:#ebedfa;
+	margin-right:5px;
+	float:left;
+	cursor:pointer;
+	position:relative;
+	top:1px;
+	height:24px;
+	.height:19px;
+	background-image: url(../../basic/skin/basic/images/tabbg.gif);
+	background-repeat: repeat-x;
+	color:#333;
+	text-decoration:none;
+}
+
+.tab:hover
+{
+	background-image: url(../../basic/skin/basic/images/tabbgh.gif);
+}
+
+.activeTab:hover
+{
+	background-image: url(../../basic/skin/basic/images/tabbga.gif);
+}
+
+.activeTab
+{
+	background-image: url(../../basic/skin/basic/images/tabbga.gif);
+	height:26px;
+	.height:21px;
+	background-color: #efefef;
+	font-weight:bold;
+	color:#000;
+	overflow:hidden;
+}
+
+.cleaner
+{
+	clear:both;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.fulltab
+{
+	background-color:#fff;
+}
+
+
+.nomr
+{
+	margin-right:0px;
+}
+
+.right
+{
+	float:right;
+}
+
+/**/
+.WorkSpace
+{
+	width:100%;
+	background-color:#fff;
+}
+
+#c_wysiwyg_0_menu,#switch
+{
+	float:left;
+}
+
+#switch
+{
+	display:none;
+}
+
+#c_wysiwyg_0_menu div,#c_wysiwyg_0_menu select
+{
+	float:left;
+}
+
+#addFileField2,.rem
+{
+	width:25px;
+	margin-left:15px;
+}
+
+#infoTable
+{
+	width:100%;
+}
+
+#infoTable th{
+	padding-right: 5px;
+	width: 0;
+	white-space: nowrap;
+    text-align: left;
+}
+#infoTable td.desc
+{
+	/*width:0px;*/
+}
+
+#infoTable td.desc div
+{
+	white-space: nowrap;
+}
+
+
+.attachmentDel
+{
+	float:left;
+	width:15px;
+	height:15px;
+	margin-right:10px;
+}
+
+.attachmentDel input
+{
+	margin-top:2px;
+}
+
+.attachmentDel a
+{
+	width:15px;
+	height:15px;
+	background-image: url(../../basic/skin/basic/css/images/ico_logout.gif);
+	background-position: 0px 0px;
+	display:block;
+}
+
+.attachmentDel a:hover
+{
+	background-position: 0px -45px;
+}
+
+input.gw_buttons_mc
+{
+	margin:0px;
+	margin-right:5px;
+	/*.width:90%;*/
+	padding-left:3px;
+	padding-right:3px;
+}
+
+input.mb2
+{
+	margin-bottom: 2px;
+}
+
+#c_wysiwyg_0_frm
+{
+	overflow:hidden;
+}
+
+#c_wysiwyg_0_editor
+{
+	clear:both;
+}
+textarea.wysiwygEditor{
+	width: 100%;
+	height: 100%;
+}
+
+/*********************/
+#email{
+	overflow:hidden;
+}
+
+#mcSpacerInner
+{
+	padding: 10px; background-color: #E1F0FF;
+}
+
+#taBox
+{
+	height: 400px;
+}
+
+#attachmentsBox
+{
+	margin-bottom:10px;
+}
+
+.into-bottom-line
+{
+	bottom:-37px;
+	_bottom:0;
+	background-color: transparent;
+}
+
+.into-bottom-line-right
+{
+	bottom:-36px;
+	_bottom: 0;
+}
+
+#infoTable th#attachments_th,#infoTable th#subject_th
+{
+	padding-right:20px;
+}
+
+#email textarea
+{
+	font-family: Courier New,Monospace;
+	font-size: 15px;
+}
+
+.sizeHolder
+{
+	height:1px;
+	color:transparent;
+	overflow:hidden;
+	display:block;
+	visibility:hidden;
+}

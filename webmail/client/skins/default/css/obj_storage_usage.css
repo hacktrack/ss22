@@ -1,0 +1,64 @@
+.obj_storage_usage .heading {
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.obj_storage_usage .progress {
+	padding: 10px 0 10px 35px;
+	position: relative;
+}
+
+.obj_storage_usage .progress:before {
+	content: '\e902';
+	font-family: 'ico24';
+	position: absolute;
+	font-size: 24px;
+	left: 0px;
+	top: 12px;
+}
+
+.obj_storage_usage .progress.no-progress:before {
+	top: 5px;
+}
+
+.obj_storage_usage .obj_progress {
+	width: 120px;
+	border: 1px solid #CCC;
+	border-radius: 0;
+	background: none;
+	height: 7px;
+}
+
+.obj_storage_usage .no-progress .obj_progress {
+	display: none;
+}
+
+.obj_storage_usage .obj_progress .bar {
+	border: 0;
+	border-radius: 0;
+	background: {bg_main "#08C"};
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	height: 7px;
+}
+
+.obj_storage_usage .obj_progress .bar.c90 {
+	background: #D0021B;
+}
+
+.obj_storage_usage .progress .label {
+	color: #999;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+.obj_storage_usage .progress.no-progress .label {
+	padding-bottom: 0;
+}
+
+.obj_storage_usage .manage {
+	padding-top: 5px;
+	cursor: pointer;
+	color: {bg_main "#08C"};
+}

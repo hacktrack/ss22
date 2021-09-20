@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="至"/>
+  <ITEM id="attachments" value="附件"/>
+  <ITEM id="bytes" value="字节"/>
+  <ITEM id="view_mail" value="查看邮件"/>
+  <ITEM id="show_source" value="显示源"/>
+  <ITEM id="title" value="挑战响应"/>
+  <ITEM id="request" value="为了证明您的信息是由人发送的，而不是计算机，输入您在下图中看到的字母数字文本，然后单击确定。对于这个电子邮件地址您只会被要求操作一次。"/>
+  <ITEM id="result_ok" value="您所指定的单词是正确的。您的电子邮件地址已被确认。"/>
+  <ITEM id="result_error" value="您所指定的单词是错误的。请重试 。"/>
+  <ITEM id="result_already" value="您的电子邮件地址已被确认。"/>
+  <ITEM id="result_black" value="您的电子邮件地址已被列入黑名单。"/>
+  <ITEM id="result_notfound" value="您的电子邮件地址未找到。已被删除。请重新发送您的邮件消息。"/>
+  <ITEM id="thanks" value="谢谢您的合作。"/>
+  <ITEM id="reason" value="我为什么要这么做?"/>
+  <ITEM id="explanation" value="未经请求的商业电子邮件是计算机生成的，不会对上面的命令作出回应。通过使用这个基于许可下的电子邮件系统，我将我的入站电子邮件限制为已通过认证的发送者，提供的名单是真正希望通过电子邮件与我通信的人。"/>
+  <ITEM id="thanks2" value="谢谢您帮我处理垃圾邮件!"/>
+  <ITEM id="copyright" value="版权"/>
+  <ITEM id="link" value="IceWarp软件"/>
+  <ITEM id="gateway_link_label" value="在线管理您的隔离/垃圾邮件"/>
+  <ITEM id="copyright2" value="版权所有。"/>
+  <LIST>
+    <ITEM id="title" value="IceWarp垃圾邮件报告"/>
+    <ITEM id="intro" value="这个自动生成的报告通知您的电子邮件帐户的垃圾邮件文件夹(或隔离)。它允许您通过单击每个电子邮件头旁边的一个按钮来执行管理操作。&lt;br/&gt;注解: 报告只显示每个发送方发送的第一个消息。当您接受它时，来自相同发送方的其他消息也将被发送。"/>
+    <ITEM id="outro" value="您可以单击上面的一个链接，对垃圾邮件文件夹或隔离中的所有消息进行选择操作。"/>
+    <ITEM id="admin_action" value="在所有账户的所有项目选择一个操作"/>
+    <ITEM id="account_action" value="在账户的所有项目选择一个操作"/>
+    <ITEM id="you_are_admin" value="垃圾邮件管理员选项"/>
+    <ITEM id="sender" value="发件人"/>
+    <ITEM id="subject" value="主题"/>
+    <ITEM id="recipient" value="收件人"/>
+    <ITEM id="date" value="日期"/>
+    <ITEM id="time" value="时间"/>
+    <ITEM id="actions" value="操作"/>
+    <ITEM id="delete" value="删除"/>
+    <ITEM id="authorize" value="白名单"/>
+    <ITEM id="accept" value="传送"/>
+    <ITEM id="blacklist" value="黑名单"/>
+    <ITEM id="deleteall" value="删除"/>
+    <ITEM id="authorizeall" value="白名单"/>
+    <ITEM id="acceptall" value="传送"/>
+    <ITEM id="blacklistall" value="黑名单"/>
+    <ITEM id="submit" value="提交"/>
+    <ITEM id="view" value="显示信息"/>
+    <ITEM id="msgsubject" value="垃圾邮件报告% %当前_日期% %"/>
+    <ITEM id="domain" value="域"/>
+    <ITEM id="account" value="帐户"/>
+    <ITEM id="location" value="位置"/>
+    <ITEM id="type_quarantine" value="隔离"/>
+    <ITEM id="type_spam" value="垃圾文件夹"/>
+    <ITEM id="delivery_problem" value="无法传送信息"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="发送方授权"/>
+      <ITEM id="success" value="发送方被授权。"/>
+      <ITEM id="failure" value="发送方未被授权。"/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="消息传送"/>
+      <ITEM id="success" value="消息交付。"/>
+      <ITEM id="failure" value="消息未被交付。"/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="删除消息"/>
+      <ITEM id="success" value="消息被删除并从队列中移除。"/>
+      <ITEM id="failure" value="消息不能被删除。"/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="发送方拒绝"/>
+      <ITEM id="success" value="发送者被添加到黑名单。"/>
+      <ITEM id="failure" value="发送者不能被添加到黑名单。"/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="消息视图"/>
+      <ITEM id="failure" value="无法显示消息。如果消息已经从隔离(或垃圾邮件文件夹)中删除，则可能发生这种情况。"/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="失败"/>
+      <ITEM id="failure" value="请求的操作无法执行"/>
+      <ITEM id="wrongid" value="无效的消息ID。指定的消息已经从隔离(或垃圾邮件文件夹)删除。"/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="发送方授权"/>
+      <ITEM id="success" value="发送者已被授权，消息已交付。"/>
+      <ITEM id="failure" value="发送方未被授权，发送者不能被授权或发送消息。"/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="消息传送"/>
+      <ITEM id="success" value="消息交付。"/>
+      <ITEM id="failure" value="消息未被交付。"/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="删除消息"/>
+      <ITEM id="success" value="消息从垃圾邮件文件夹中删除。"/>
+      <ITEM id="failure" value="消息不能被删除。"/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="发送方拒绝"/>
+      <ITEM id="success" value="发送方被添加到黑名单，消息从垃圾文件夹中移除。"/>
+      <ITEM id="failure" value="发送者不能被添加到黑名单或消息不能被删除。"/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="消息视图"/>
+      <ITEM id="failure" value="无法显示消息。如果消息已经被删除，就会发生这种情况。"/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="失败"/>
+      <ITEM id="failure" value="请求的操作无法执行"/>
+      <ITEM id="wrongid" value="无效的消息ID。指定的消息已经从隔离(或垃圾邮件文件夹)删除。"/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="失败"/>
+      <ITEM id="failure" value="请求的操作无法执行"/>
+      <ITEM id="wrongid" value="无效的消息ID。指定的管理员帐户不再存在。"/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="垃圾邮件报告是禁用的 % s"/>
+    <ITEM id="challenge_already_running" value="垃圾邮件报告已经在运行"/>
+    <ITEM id="challenge_invalid_path_variable" value="垃圾邮件报告路径加载不正确: %s"/>
+    <ITEM id="api_findinitquery" value="垃圾邮件报告 API: IceWarp帐户对象检索。域%s，过滤器: %s"/>
+    <ITEM id="challenge_language_file_missing" value="垃圾邮件报告语言文件丢失: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="垃圾邮件报告语言文件损坏: %s"/>
+    <ITEM id="challenge_invalid_hash" value="垃圾邮件报告无效的hash(可能的URL攻击): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

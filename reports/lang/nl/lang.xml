@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="Ontvanger"/>
+  <ITEM id="attachments" value="Bijlagen"/>
+  <ITEM id="bytes" value="Bytes"/>
+  <ITEM id="view_mail" value="Bekijk E-mail"/>
+  <ITEM id="show_source" value="Toon bron"/>
+  <ITEM id="title" value="Challenge Response"/>
+  <ITEM id="request" value="Om te bewijzen dat uw bericht is verzonden door een mens en niet door een computer, typt u de alfanumerieke tekst die u in de onderstaande afbeelding ziet en klikt u op OK. U wordt slechts één keer gevraagd dit voor dit e-mailadres te doen."/>
+  <ITEM id="result_ok" value="Het door u opgegeven woord is correct. Uw e-mailadres is geautoriseerd."/>
+  <ITEM id="result_error" value="Het opgegeven woord is onjuist. Probeer het nog eens."/>
+  <ITEM id="result_already" value="Uw e-mailadres is al geautoriseerd."/>
+  <ITEM id="result_black" value="Uw e-mailadres staat op de zwarte lijst."/>
+  <ITEM id="result_notfound" value="Je e-mailadres is niet gevonden. Het moet zijn verwijderd. Verzend uw e-mailbericht opnieuw."/>
+  <ITEM id="thanks" value="Bedankt voor je medewerking."/>
+  <ITEM id="reason" value="Waarom doe ik dit?"/>
+  <ITEM id="explanation" value="Ongevraagde commerciële e-mail wordt door de computer gegenereerd en kan niet reageren op de bovenstaande opdracht. Door dit op toestemming gebaseerde e-mailsysteem te gebruiken, beperk ik mijn inkomende e-mail tot afzenders die zich authenticeren, op voorwaarde dat het echte mensen zijn die via e-mail met mij willen communiceren."/>
+  <ITEM id="thanks2" value="Bedankt voor het helpen verbannen van spam!"/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="IceWarp Software"/>
+  <ITEM id="gateway_link_label" value="Beheer uw quarantaine / spam online"/>
+  <ITEM id="copyright2" value="Alle rechten voorbehouden."/>
+  <LIST>
+    <ITEM id="title" value="IceWarp Spamreportage"/>
+    <ITEM id="intro" value="Dit automatisch gegenereerde rapport informeert u over berichten in de map Spam (of Quarantaine) van uw e-mailaccount. Hiermee kunt u administratieve handelingen uitvoeren door op een van de knoppen naast elke e-mailkop te klikken. &lt;br/&gt; OPMERKING: Rapporten tonen alleen het eerste bericht dat door elke afzender is verzonden. Als u het accepteert, worden ook andere berichten van dezelfde afzender bezorgd."/>
+    <ITEM id="outro" value="U kunt op een van de bovenstaande links klikken om de geselecteerde actie uit te voeren op ALLE berichten die in uw map Spam of Quarantaine staan."/>
+    <ITEM id="admin_action" value="Kies een actie voor alle items in alle accounts"/>
+    <ITEM id="account_action" value="Kies een actie voor alle items in account"/>
+    <ITEM id="you_are_admin" value="Spam Administrator instellingen"/>
+    <ITEM id="sender" value="Verzender"/>
+    <ITEM id="subject" value="Onderwerp"/>
+    <ITEM id="recipient" value="Ontvanger"/>
+    <ITEM id="date" value="Datum"/>
+    <ITEM id="time" value="Tijd"/>
+    <ITEM id="actions" value="Acties"/>
+    <ITEM id="delete" value="Verwijder"/>
+    <ITEM id="authorize" value="Altijd toestaan"/>
+    <ITEM id="accept" value="Afleveren"/>
+    <ITEM id="blacklist" value="Blokkeerlijst"/>
+    <ITEM id="deleteall" value="Verwijder"/>
+    <ITEM id="authorizeall" value="Altijd toestaan"/>
+    <ITEM id="acceptall" value="Afleveren"/>
+    <ITEM id="blacklistall" value="Blokkerlijst"/>
+    <ITEM id="submit" value="Toepassen"/>
+    <ITEM id="view" value="Toon bericht"/>
+    <ITEM id="msgsubject" value="Spam reportage van %%Current_Date%%"/>
+    <ITEM id="domain" value="Domein"/>
+    <ITEM id="account" value="Gebruiker"/>
+    <ITEM id="location" value="Locatie"/>
+    <ITEM id="type_quarantine" value="Quarantaine"/>
+    <ITEM id="type_spam" value="Spam-map"/>
+    <ITEM id="delivery_problem" value="Kan bericht niet bezorgen aan gebruiker"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Verzender authorisatie"/>
+      <ITEM id="success" value="De afzender is geautoriseerd."/>
+      <ITEM id="failure" value="Afzender kan niet worden geautoriseerd."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Aflevering berichten"/>
+      <ITEM id="success" value="Het bericht is afgeleverd"/>
+      <ITEM id="failure" value="Het bericht kon niet afgeleverd worden"/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Bericht verwijdering"/>
+      <ITEM id="success" value="Het bericht is verwijderd en uit de wachtrij gehaald"/>
+      <ITEM id="failure" value="Bericht kon niet verwijderd worden."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Afzender weigering"/>
+      <ITEM id="success" value="De verzender is aan de blokkerlijst toegevoegd"/>
+      <ITEM id="failure" value="De verzender kon niet aan de blokkeerlijst toegevoegd worden"/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Berichtweergave"/>
+      <ITEM id="failure" value="Bericht kon niet worden weergegeven. Dit kan gebeuren als het bericht al uit Quarantaine (of de map Spam) is verwijderd."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Fout"/>
+      <ITEM id="failure" value="De gevraagde bewerking kan niet worden uitgevoerd."/>
+      <ITEM id="wrongid" value="Ongeldig bericht id. Het opgegeven bericht is al verwijderd uit Quarantaine (of map Spam)."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Autorisatie van afzender"/>
+      <ITEM id="success" value="De afzender is geautoriseerd en het bericht is afgeleverd."/>
+      <ITEM id="failure" value="Afzender kon niet worden geautoriseerd of bericht afgeleverd."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Levering van berichten"/>
+      <ITEM id="success" value="Het bericht is afgeleverd."/>
+      <ITEM id="failure" value="Bericht kon niet worden bezorgd."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Bericht verwijdering"/>
+      <ITEM id="success" value="Het bericht is verwijderd uit de spammap."/>
+      <ITEM id="failure" value="Bericht kan niet worden verwijderd."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Afzender afwijzing"/>
+      <ITEM id="success" value="De afzender is toegevoegd aan de blokkerlijst en het bericht is verwijderd uit de spammap."/>
+      <ITEM id="failure" value="De afzender kon niet worden toegevoegd aan de blokkerlijst of het bericht kon niet worden verwijderd."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Berichtweergave"/>
+      <ITEM id="failure" value="Bericht kon niet worden weergegeven. Dit kan gebeuren als het bericht al is verwijderd."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Fout"/>
+      <ITEM id="failure" value="De gevraagde bewerking kan niet worden uitgevoerd."/>
+      <ITEM id="wrongid" value="Ongeldig bericht id. Het opgegeven bericht is al verwijderd uit Quarantaine (of map Spam)."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Fout"/>
+      <ITEM id="failure" value="De gevraagde bewerking kan niet worden uitgevoerd."/>
+      <ITEM id="wrongid" value="Ongeldige beheerders-ID. Het opgegeven beheerdersaccount bestaat niet meer."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Spamrapportage is uitgeschakeld %s"/>
+    <ITEM id="challenge_already_running" value="Spamrapportage draait al"/>
+    <ITEM id="challenge_invalid_path_variable" value="Het pad voor spamrapportage is niet correct geladen %s"/>
+    <ITEM id="api_findinitquery" value="API voor spamrapporten: ophalen van IceWarp-accountobjecten. Domein:%s, Filter:%s"/>
+    <ITEM id="challenge_language_file_missing" value="Taalbestand mist voor spamrapportage: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Taalbestand is niet goed leesbaar of heeft een verkeerde opmaak: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Spam meldt ongeldige hash (mogelijke URL-aanval):%s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

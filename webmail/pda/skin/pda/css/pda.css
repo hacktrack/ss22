@@ -1,0 +1,294 @@
+/**
+* {
+	background-color:black;
+}
+/**/
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+}
+.hidden{
+	display:none;
+}
+
+input{
+	line-height: 20px;
+	font-size: 13px;
+	font-family: verdana, sans-serif;
+    vertical-align: baseline;
+	padding: 1px 5px;
+	margin: 0;
+}
+	input.small {
+		width: 20px;
+	}
+
+.button{
+	display: inline;
+	line-height: 20px;
+	
+	text-decoration: none;
+	background-color: ButtonFace;
+	color: ButtonText;
+	border: 1px solid ButtonText;
+	padding: 0 5px;
+	margin: 0;
+	font-weight: bold;
+	font-family: verdana, sans-serif;
+	font-size: 13px;
+}
+	a.button{
+        vertical-align: middle;
+		padding: 1px 5px;
+	}
+
+
+/* datagrid sorting and listing */
+.sort,
+.listing{
+	background-color: rgb(153,204,255);
+	padding: 5px 0;
+	
+	border: solid #00000;
+	border-width: 2px 0 1px;
+}
+.listing{
+	text-align: center;
+ 	border-width: 1px 0 2px 0;
+}
+.listing fieldset{
+	border:0px;
+}
+
+.buttons,
+.bottom_buttons{
+	text-align: center;
+	padding: 10px 0;
+}
+.bottom_buttons{
+	padding-bottom: 0;
+}
+.buttons table,
+.buttons th{
+	width: 100%;
+}
+.buttons td{
+	width: 0%;
+}
+
+
+/* mail datagrid */
+	.contact div,
+	.mail_item div{
+		padding: 5px 3px 5px 0;
+		border-bottom: 1px solid rgb(153,204,255);
+	}
+	.mail_item a{
+		display: block;		
+		text-decoration: none;
+		color: #000000;
+	}
+	.mail_item table{
+		width: 100%;
+	}
+	.mail_item th{
+		padding: 0 5px 0 0;
+	}
+	.mail_item div.unread{
+		background-color: rgb(204,255,255);
+	}
+	.mail_item small{
+		color: #808080;
+	}
+/* folders */
+.folder_list{
+	padding: 0 10px 10px;
+}
+    .folder_list a{
+		display: block;
+		padding: 2px 0;
+	}
+	
+	.folder_list br{
+		display: none;
+	}
+	
+/* mail view*/
+.headers th{
+	text-align: left;
+	padding: 0 5px 0 0;
+    vertical-align: top;
+}
+
+/* compose */
+.compose textarea{
+	width: 100%;
+}
+
+/** HWN */
+body
+{
+	background-color: #ccc;
+}
+.folder_list
+{
+	padding:0;
+	border-bottom:#888 1px solid;
+}
+
+.folder_list a
+{
+	color:#0193CC;
+	display: block;
+	line-height:32px;
+	border-top:#888 1px solid;
+	padding-left:10px;
+	text-decoration: none;
+	font-size: 15px;
+	background-color: #fff;
+}
+
+.folder_list a span
+{
+	float:right;
+	font-size: 20px;
+	font-weight: bold;
+	color:#888;
+	font-family: Arial;
+	padding-right:10px;
+}
+.folder_list a span.bull
+{
+	padding-right: 12px;
+	font-size: 25px;
+	color:#014EB9;
+}
+.folder_list a:hover
+{
+	color:#014EB9;
+}
+.folder_list b a
+{
+	color:#333;
+	background-color: #CCEEFF;
+}
+
+.switchFooter
+{
+	background-color: #ccc;
+	padding:5px;
+}
+.switchFooter a
+{
+	color:#0193CC;
+}
+
+.bottom_buttons
+{
+	background-color: #ccc;
+	padding:12px 10px 10px 10px;
+}
+
+#main_menu
+{
+	background-color: #ccc;
+}
+
+.listing
+{
+	border-top:#888 1px solid;
+}
+.sort
+{
+	border-bottom:#888 1px solid;
+	border-top:#888 1px solid;
+}
+
+.sort
+{
+	padding-left:5px;
+}
+
+.mail_item th
+{
+	padding-left:3px;
+}
+
+.mail_item div.unread
+{
+	background-color: #CCEEFF;
+}
+
+.mail_item div
+{
+	background-color: #fff;
+}
+.bottom_buttons
+{
+	border-top:#888 1px solid;
+}
+/*MAIL VIEW*/
+#headers
+{
+	background-color: #eee;
+	border-top:#888 1px solid;
+	border-bottom:#888 1px solid;
+}
+#headers th
+{
+	text-align: left;
+}
+#headers .subject
+{
+	font-size: 16px;
+}
+#body
+{
+	background-color: #fff;
+	border-bottom:#888 1px solid;
+	padding:10px 5px;
+	font-family: Lucida Console,Courier New,Courier,Monospace;
+}
+/*COMPOSE*/
+.compose
+{
+	border-top:#888 1px solid;
+	border-bottom:#888 1px solid;
+	background-color: #eee;
+	padding:5px;
+}
+.compose th
+{
+	text-align: left;
+}
+.compose .input
+{
+	border:#888 1px solid;
+}
+
+.compose textarea
+{
+	height:200px;
+}
+/*CONTACTS*/
+.contact
+{
+	background-color: #fff;
+}
+.contact a
+{
+	color:#0193CC;
+	font-size: 12px;
+}
+.contact a:hover
+{
+	color:#014EB9;
+}
+/** */
+
+#checkall
+{
+	display:none;
+}

@@ -1,0 +1,27 @@
+.badge {
+	@include text-ellipsis;
+
+	padding: 0 2rem;
+
+	line-height: 1.625;
+	font-weight: bold;
+	text-transform: uppercase;
+	white-space: nowrap;
+
+	border-radius: 3px;
+
+	@include theme {
+		border: 1px solid $light-grey;
+	}
+}
+
+.badge--dashboard {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	max-width: 25%;
+
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}

@@ -1,0 +1,26 @@
+<?php
+  /*
+    Script used for SMS delivery. See documentation for more details.
+  */
+
+  // Shared libraries
+  define('SHAREDLIB_PATH', get_cfg_var('icewarp_sharedlib_path'));
+  include(SHAREDLIB_PATH . 'api/api.php');
+
+  // Create data
+  $url =      
+    'number=' . urlencode($_REQUEST['number']) . 
+    '&id=' . urlencode($_REQUEST['id']) . 
+    '&binary=' . urlencode($_REQUEST['binary']) . 
+    '&pass=' . urlencode($_REQUEST['pass']) . 
+    '&ip=' . urlencode($_SERVER[REMOTE_ADDR]) . 
+    '&date=' . urlencode($_REQUEST['date']) . 
+    '&data=' . urlencode($_REQUEST['data']);
+
+  // Deliver SMS
+  $api = new IceWarpAPI();
+  $result = $api->SMSIncoming($url);
+
+  // Result
+  if (!$result) { header('HTTP/1.1 503 Service Unavailable'); }
+?>

@@ -1,0 +1,26 @@
+.obj_groupchat_invite .message .addon>.body .mailto{
+	color: {txt_main '#0088CC'};
+	cursor: pointer;
+	word-break: break-all;
+}
+
+.obj_groupchat_invite .message .addon>.body>.preview{
+	width: 100px;
+	min-width: 100px;
+	cursor: default;
+}
+.obj_groupchat_invite .message .addon>.body .preview:before{
+	display: inline-block;
+	content: '\e069';
+	font-family: 'ico24';
+	font-size: 48px;
+	line-height: 48px;
+	width: 48px;
+	height: 48px;
+	vertical-align: middle;
+	color: {txt_main '#0088CC'};
+}
+.rtl .obj_groupchat_invite .message .addon>.body .preview:before {
+	left: auto;
+	right: 32px;
+}

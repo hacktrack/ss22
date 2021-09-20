@@ -1,0 +1,29 @@
+.obj_input_email{
+	position: relative;
+	padding-right: 28px;
+}
+.rtl .obj_input_email {
+	padding-left: 28px;
+	padding-right: 0;
+}
+	.obj_input_email form.obj_button{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.rtl .obj_input_email form.obj_button {
+		left: 0;
+		right: auto;
+	}
+		.obj_input_email form.obj_button:after{
+			/*background-position: -604px -144px;*/
+			content: '\e00b';
+		}
+
+/* Error */
+.obj_input_email.error form.obj_input {
+	border-color: #E08F93;
+}
+.obj_input_email.error form.obj_button {
+	border-color: #E08F93;
+}

@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>Új elem</add>
+    <quarantine>Karantén</quarantine>
+    <whitelist>Fehérlista</whitelist>
+    <blacklist>Feketelista</blacklist>
+    <save>Mentés</save>
+    <cancel>Mégse</cancel>
+    <new_item>Új e-mail</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Gyorsbillentyűk tiltása</disable_shortcuts>
+    <enable_swipe_gestures>A pöccintő kézmozdulatok engedélyezése érintőeszközökön</enable_swipe_gestures>
+    <use_high_contrast_skin>Kontrasztos megjelenítés használata</use_high_contrast_skin>
+    <menu_as_text>Szöveg mutatása ikonok helyett az eszköztáron</menu_as_text>
+    <change_password>Jelszó módosítása</change_password>
+    <open_change_password_dialog>Jelszó módosító párbeszédpanel megnyitása</open_change_password_dialog>
+    <oldpassword>Régi jelszó</oldpassword>
+    <newpassword>Új jelszó</newpassword>
+    <confirmpassword>Jelszó újra</confirmpassword>
+    <remove>Eltávolít</remove>
+    <settings>Beállítások</settings>
+    <navigate>Adminisztráció</navigate>
+    <user>Beállításaim</user>
+    <domain>Domén Adminisztrátor</domain>
+    <admin>Adminisztrátori beállítások</admin>
+    <new_domain>Új domén</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>Általános</general>
+    <layout>Elrendezés</layout>
+    <mail>E-Mail</mail>
+    <compose>Új e-mail</compose>
+    <person>E-mail</person>
+    <person_header>Új feladó létrehozása</person_header>
+    <person_description>pl. &quot;Nagy Péter&quot; &amp;lt;nagy.peter@encegem.hu&amp;gt;</person_description>
+    <autoresponder>Automatikus válasz</autoresponder>
+    <forwarder>Továbbítás</forwarder>
+    <layout_desc>megjelenítés, levelezés</layout_desc>
+    <compose_desc>Alapértelmezett beállítások új üzenetekhez (olvasási visszaigazolás, HTML/szöveges formátum, aláírás).</compose_desc>
+    <general_desc>Általános megjelenítési beállítások.</general_desc>
+    <personalities_desc>Másodlagos e-mail cím létrehozása.</personalities_desc>
+    <autoresponder_desc>Automatikus válasz létrehozása pl. szabadság idejére.</autoresponder_desc>
+    <forwarder_desc>Továbbításhoz kapcsolódó beállítások.</forwarder_desc>
+    <date_format>Dátum formátum</date_format>
+    <time_format>Idő formátum</time_format>
+    <list_count>Előre betöltött elemek száma</list_count>
+    <font_family>Alapértelmezett betűtípus</font_family>
+    <font_size>Alapértelmezett betűméret</font_size>
+    <text_direction>Szövegirány</text_direction>
+    <text_direction_values>Balról jobbra|Jobbról balra</text_direction_values>
+    <empty_trash_every>Törölt e-mailek automatikus törlése</empty_trash_every>
+    <days>naponta</days>
+    <move_deleted>Törölt e-mailek áthelyezése a [Törölt e-mailek] mappába</move_deleted>
+    <delete_messages_on_empty>[Mappa ürítése] esetén üzenetek végleges törlése</delete_messages_on_empty>
+    <add_recipients>Címzettek automatikus felvétele a névjegyalbumba</add_recipients>
+    <group_pref>A tárgyban szereplő előtagok csoportosítása (pl. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>Az e-mail olvasásának visszaigazolása</request_read_confirmation>
+    <save_sent_msg>Elküldött elemek mentése az [Elküldött elemek] mappába</save_sent_msg>
+    <message_format>Formátum</message_format>
+    <message_format_labels>Szöveg|HTML</message_format_labels>
+    <signature>Aláírás</signature>
+    <forward_to>Továbbítás</forward_to>
+    <keep_in_inbox>E-mailek megtartása</keep_in_inbox>
+    <forward_older>Régi e-mailek továbbítása [nap]</forward_older>
+    <forward_older_to>Régebbi üzenetek továbbítási címe</forward_older_to>
+    <ar_mode>Mód</ar_mode>
+    <ar_mode_labels>Kikapcsolva|Válasz mindig|Válasz egyszer|Válasz időközönként újra</ar_mode_labels>
+    <ar_respond_only>Ha csak nekem szól</ar_respond_only>
+    <ar_respond_again>Válasz időköze [nap]</ar_respond_again>
+    <ar_from>Feladó</ar_from>
+    <ar_subject>Tárgy</ar_subject>
+    <ar_text>Szöveg</ar_text>
+    <ar_no_responder_for>Nincs válasz</ar_no_responder_for>
+    <ar_respond_only_between>Válasz intervallumban</ar_respond_only_between>
+    <email>E-mail</email>
+    <responder>Nincs válasz</responder>
+    <show_attached_images>Képmellékletek automatikus mutatása</show_attached_images>
+    <show_inline_images>Beágyazott külső képek automatikus mutatása</show_inline_images>
+    <use_reply_prefix>Válaszban az eredeti üzenet minden sora elé előtag (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 órás|24 órás</time_format_list_labels>
+    <force_admin>Ezen beállítások alapértelmezetté tétele domén és felhasználói szinten</force_admin>
+    <force_domain>Ezen beállítások alapértelmezetté tétele a felhasználóknak</force_domain>
+    <to_top>Aláírás az üzenet tetején</to_top>
+    <quota>Lemez terület:</quota>
+    <section_layout>Általános megjelenítési beállítások</section_layout>
+    <section_mail>Általános levelezési beállítások</section_mail>
+    <section_autoresponder>Automatikus válasz létrehozása</section_autoresponder>
+    <section_norespond>Ezen címekre NE küldjön automatikus választ.</section_norespond>
+    <domains>Domének</domains>
+    <accounts>Fiókok</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Valóban törli az elemeket?</delete_mail>
+    <blacklist_mail>Valóban fekete listára veszi?</blacklist_mail>
+    <delete_contact>Valóban törli a kapcsolatot?</delete_contact>
+    <delete_contact_distribution>Valóban törli a partnercsoportot?</delete_contact_distribution>
+    <delete_event>Valóban törli az eseményeket?</delete_event>
+    <delete_note>Valóban törli a jegyzeteket?</delete_note>
+    <delete_task>Valóban törli a feladatokat?</delete_task>
+    <delete_personalities>Valóban törli az elemeket?</delete_personalities>
+    <delete_quarantine>Valóban törli az elemeket?</delete_quarantine>
+    <delete_this_mail>Valóban törli ezt az üzenetet?</delete_this_mail>
+    <delete_items>Valóban törli az elemeket?</delete_items>
+    <delete_item>Valóban törli az elemet?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>Ez a mappa üres</no_item>
+  </string>
+  <menu>
+    <files>Fájlok</files>
+    <notes>Jegyzetek</notes>
+    <tasks>Feladatok</tasks>
+    <journal>Napló</journal>
+    <calendar>Naptár</calendar>
+    <search>Keresés</search>
+    <messages>Üzenetek</messages>
+    <contacts>Névjegyek</contacts>
+    <searchBut>Keresés</searchBut>
+    <address_book>Névjegyek</address_book>
+    <logout>Kilépés</logout>
+    <help>Súgó</help>
+    <settings>Beállítások</settings>
+    <switch>Felület</switch>
+    <help_url>language/hu/help.html</help_url>
+    <quarantine>Szűrők</quarantine>
+    <alert_restricted_access>Ezen beállítások módosítása nem engedélyezett</alert_restricted_access>
+    <basic>Tábla</basic>
+    <advanced>Profi</advanced>
+    <mobile>Mobil</mobile>
+  </menu>
+  <tree>
+    <add_folder>Új mappa</add_folder>
+    <new_message>Új e-mail</new_message>
+    <manage_folders>Mappa kezelő</manage_folders>
+    <open_folder>Mappa megnyitása</open_folder>
+    <open>Megnyitás</open>
+  </tree>
+  <mail_view>
+    <attachments>Mellékletek</attachments>
+    <from>Feladó</from>
+    <cc>Másolat</cc>
+    <bcc>Bcc</bcc>
+    <subject>Tárgy</subject>
+    <all_headers>Összes fejlécelem mutatása</all_headers>
+    <all_images>Képek megjelenítése</all_images>
+    <next>Következő</next>
+    <prev>Előző</prev>
+    <first>Első</first>
+    <last>Utolsó</last>
+    <show_external_images>Külső képek biztonsági okokból blokkolva! Engedélyezésükhöz kattintson ide.</show_external_images>
+    <download_all>Mind letöltése</download_all>
+    <detail>Részletek</detail>
+    <blue_box_start>Kezdés</blue_box_start>
+    <blue_box_end>Befejezés</blue_box_end>
+    <blue_box_description>Leírás</blue_box_description>
+    <blue_box_accept>Elfogadás</blue_box_accept>
+    <blue_box_decline>Elutasítás</blue_box_decline>
+    <blue_box_subscribe_folder>Feliratkozás mappára</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Feladótól aut. elfogad</blue_box_subscribe_account>
+    <item_accept_ok>Elfogadva</item_accept_ok>
+    <read>olvasás</read>
+    <write>írás</write>
+    <modify>módosítás</modify>
+    <delete>törlés</delete>
+    <administer>adminisztrálás</administer>
+    <folder_rights>Mappa jogok</folder_rights>
+    <items_rights>Elem jogok</items_rights>
+  </mail_view>
+  <login>
+    <send>Küldés</send>
+    <ip_check>Emeltszintű biztonság nélkül</ip_check>
+    <user>Felhaszáló</user>
+    <email>E-mail</email>
+    <password>Jelszó</password>
+    <remember>Megjegyzi</remember>
+    <language>Nyelv</language>
+    <allways_ask>Semmi</allways_ask>
+    <username>Felhasználó</username>
+    <username_and_password>Felhasználó és jelszó</username_and_password>
+    <auto_login>Automatikus bejelentkezés</auto_login>
+    <login>Bejelentkezés</login>
+    <copyright>Erőforrás: &lt;a title=&quot;www.IceWarp.hu&quot; href=&quot;https://www.icewarp.hu&quot; target=&quot;_blank&quot; &gt;IceWarp Levelező és Kommunikációs Szerver&lt;/a&gt; © 1999-2019&lt;br /&gt; WebMail: $1</copyright>
+    <welcome>IceWarp WebMail Tábla</welcome>
+    <public_welcome>Üdvözöljük az IceWarp megosztott naptáron!</public_welcome>
+    <title>IceWarp WebMail Tábla</title>
+    <public_title>IceWarp megosztott naptár</public_title>
+    <reset_password>Jelszó módosítás</reset_password>
+    <sign_up>Új felhasználó</sign_up>
+    <email>E-mail</email>
+    <domain>Domén</domain>
+    <new_password>Új jelszó</new_password>
+    <confirm_password>Jelszó újra</confirm_password>
+    <full_name>Teljes név</full_name>
+    <alternative_email>Másodlagos e-mail cím</alternative_email>
+    <switch>Váltás &lt;a href=&quot;../&quot;&gt;Asztali&lt;/a&gt; vagy &lt;a href=&quot;../pda&quot;&gt;Mobil&lt;/a&gt; felületre.</switch>
+    <no_javascript>&lt;b&gt;A JavaScriptek futtatása nem engedélyezett. &lt;/b&gt;&lt;/div&gt;Emiatt csak a WebMail Tábla felületét használhatja, amivel nem minden funkció érhető el. Ha a WebMail Profi felületét szeretné használni, keresse fel &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;tudásbázisunkat&lt;/a&gt;, ahol részletes leírást talál a Java engedélyezéséhez.&lt;br /&gt;Ha a böngészője nem támogatja a JavaScript használatát, akkor töltse le az &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; vagy a &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox&lt;/a&gt; legújabb verzióját.</no_javascript>
+    <captcha>Karakterfelismerés</captcha>
+    <word>Gépelje be a képen látható karaktereket</word>
+  </login>
+  <files>
+    <add>Fájl feltöltése</add>
+    <download>Letöltés</download>
+    <file>Fájl</file>
+  </files>
+  <file_list>
+    <filename>Fájl név</filename>
+    <description>Leírás</description>
+    <modified>Módosítva</modified>
+    <size>Méret</size>
+    <tags>Jelölők</tags>
+  </file_list>
+  <notes>
+    <category>Kategória</category>
+    <add>Új jegyzet</add>
+  </notes>
+  <notes_detail>
+    <note>Megjegyzés</note>
+    <tags>Jelölők</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Új feladat</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Feladatok</task>
+    <status>Állapot</status>
+    <complete>Kész</complete>
+    <priority>Fontosság</priority>
+    <not_started>Nen kezdődött el</not_started>
+    <in_progress>Folyamatban</in_progress>
+    <completed>Kész</completed>
+    <deferred>Elhalasztott</deferred>
+    <waiting_for_someone_else>Várakozás valakire</waiting_for_someone_else>
+    <medium>Normál</medium>
+    <high>Fontos</high>
+    <low>Mellékes</low>
+    <tags>Jelölők</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Kezdés</start_date>
+    <due_date>Befejezés</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Teljes képernyő</fullscreen>
+    <subject>Tárgy</subject>
+    <no_subject>Nincs tárgy</no_subject>
+    <no_address>Nincs cím</no_address>
+    <from>Feladó</from>
+    <date>Dátum</date>
+    <size>Méret</size>
+    <delete>Törlés</delete>
+    <reply>Válasz</reply>
+    <reply_to_all>Válasz mindenkinek</reply_to_all>
+    <forward>Továbbítás</forward>
+    <print>Nyomtatás</print>
+    <whitelist>Fehérlista</whitelist>
+    <blacklist>Feketelista</blacklist>
+    <dws>Esemény</dws>
+    <copy>Másolás</copy>
+    <move>Áthelyezés</move>
+    <copy_to_folder>Mappába másolás:</copy_to_folder>
+    <move_to_folder>Áthelyezés mappába:</move_to_folder>
+    <mar>Megjelölés olvasottként</mar>
+    <mau>Megjelölés olvasatlanként</mau>
+    <select>Kijelölés</select>
+    <all>Mind</all>
+    <none>Egyik sem</none>
+    <read>Olvasott</read>
+    <unread>Olvasatlan</unread>
+    <invert>Kijelölés megfordítása</invert>
+    <doit>Alkalmaz</doit>
+    <to>Címzett</to>
+    <fast_reply>Villám válasz</fast_reply>
+    <send_message>Válasz küldése</send_message>
+    <src>Olvasás visszajelzésének küldése?</src>
+    <save>Mentés</save>
+    <select_folder>Mappa kijelölése</select_folder>
+    <deliver>Kézbesít</deliver>
+    <text>Szöveg</text>
+    <received>Fogadva</received>
+    <saved>Mentve</saved>
+    <sender>Feladó</sender>
+    <owner>Tulajdonos</owner>
+    <domain>Domén</domain>
+    <show_all>Mindent mutat</show_all>
+  </mail_main>
+  <event_list>
+    <title>Megnevezés</title>
+    <start>Kezdés</start>
+    <end>Befejezés</end>
+    <tags>Jelölők</tags>
+  </event_list>
+  <event_detail>
+    <tags>Jelölők</tags>
+    <show_as>Foglaltság</show_as>
+    <free>Szabad</free>
+    <tentative>Feltételes</tentative>
+    <busy>Foglalt</busy>
+    <out_of_office>Házon kívül</out_of_office>
+    <title>Megnevezés</title>
+    <location>Hely</location>
+    <label>Címke</label>
+    <none>Nincs</none>
+    <important>Fontos</important>
+    <business>Hivatali</business>
+    <personal>Személyes</personal>
+    <vacation>Szabadság</vacation>
+    <must_attend>Kötelező részvétel</must_attend>
+    <travel_required>Utazással jár</travel_required>
+    <needs_preparation>Felkészülés szükséges</needs_preparation>
+    <birthday>Születésnap</birthday>
+    <anniversary>Évforduló</anniversary>
+    <phone_call>WebTelefon</phone_call>
+    <category>Kategória</category>
+    <private>Magánjellegű</private>
+    <from>Meghívó</from>
+    <to>Címzett</to>
+    <notes>Megjegyzés</notes>
+    <allday>Egész napos esemény</allday>
+    <event>Esemény</event>
+    <minutes>Perc</minutes>
+    <hours>Óra</hours>
+    <days>Nap</days>
+    <remind_me>Emlékeztet</remind_me>
+    <before>előtt</before>
+    <no_repeating>Nincs ismétlés</no_repeating>
+    <daily>Napi</daily>
+    <weekly>Heti</weekly>
+    <monthly>Havi</monthly>
+    <yearly>Éves</yearly>
+    <end_date>Befejezés</end_date>
+    <no_end_date>Nincs befejezés</no_end_date>
+    <repeat>Ismétlés</repeat>
+    <every>Minden</every>
+    <every_workday>Minden munkanap</every_workday>
+    <recur_every>Ismétlődés</recur_every>
+    <weeks>hetente</weeks>
+    <on>ekkor</on>
+    <monday>hétfő</monday>
+    <tuesday>kedd</tuesday>
+    <wednesday>szerda</wednesday>
+    <thursday>csütörtök</thursday>
+    <friday>péntek</friday>
+    <saturday>szombat</saturday>
+    <sunday>vasárnap</sunday>
+    <day>nap</day>
+    <months>hónap</months>
+    <first>első</first>
+    <second>második</second>
+    <third>harmadik</third>
+    <fourth>negyedik</fourth>
+    <last>utolsó</last>
+    <week>hét</week>
+    <work_week>munkahét</work_week>
+    <weekend>hétvége</weekend>
+    <of_every>minden</of_every>
+    <of>x</of>
+    <years>év</years>
+    <the>Az</the>
+    <times>alkalommal</times>
+    <count>x</count>
+    <until>amíg</until>
+    <tags>Jelölők</tags>
+  </event_detail>
+  <event_main>
+    <mon>Hé</mon>
+    <tue>Ke</tue>
+    <wed>Sze</wed>
+    <thu>Csü</thu>
+    <fri>Pé</fri>
+    <sat>Szo</sat>
+    <sun>Va</sun>
+    <jan>Január</jan>
+    <feb>Február</feb>
+    <mar>Március</mar>
+    <apr>Aprilis</apr>
+    <may>Május</may>
+    <jun>Június</jun>
+    <jul>Július</jul>
+    <aug>Augusztus</aug>
+    <sep>Szeptember</sep>
+    <oct>Október</oct>
+    <nov>November</nov>
+    <dec>December</dec>
+    <week>Hét</week>
+    <week_view>Hét</week_view>
+    <work_week_view>Munkahét</work_week_view>
+    <month_view>Hónap</month_view>
+    <day_view>Nap</day_view>
+    <list>Lista</list>
+    <add>Új esemény</add>
+    <save>Mentés</save>
+    <no_title>Nincs cím</no_title>
+    <search>Keresés :</search>
+    <account>Fiók:</account>
+    <print>Nyomtatás</print>
+  </event_main>
+  <contact_main>
+    <contact>Partner</contact>
+    <distribution_list>Partnercsoport</distribution_list>
+    <title>Cím</title>
+    <no_email>Nincs e-mail</no_email>
+    <card_view>Névjegykártyaként</card_view>
+    <list_view>Lista nézet</list_view>
+    <contact_name>Teljes név</contact_name>
+    <email>E-mail</email>
+    <company>Cég</company>
+    <job>Beosztás</job>
+    <department>Részleg</department>
+    <profession>Szakma</profession>
+    <category>Kategória</category>
+    <general>Általános</general>
+    <first_name>Keresztnév</first_name>
+    <middle_name>Középső</middle_name>
+    <last_name>Családnév</last_name>
+    <nick>Becenév</nick>
+    <sort_string>Rendezés</sort_string>
+    <title>Cím</title>
+    <suffix>Utótag</suffix>
+    <category>Kategória</category>
+    <web>Honlap</web>
+    <street>Utca</street>
+    <city>Város</city>
+    <zip>Irányítószám</zip>
+    <state>Állam</state>
+    <country>Ország</country>
+    <im>WebChat</im>
+    <phones>Telefonszám</phones>
+    <work>Hivatali</work>
+    <home>Otthoni</home>
+    <assistant>Titkár</assistant>
+    <fax_home>Otthoni fax</fax_home>
+    <fax_work>Munkai fax</fax_work>
+    <call_back>Visszahívás</call_back>
+    <company>Cég</company>
+    <car>Autó</car>
+    <isdn>ISDN</isdn>
+    <mobile>Mobil</mobile>
+    <other>Egyéb</other>
+    <other_fax>Másik fax</other_fax>
+    <pager>WebChat</pager>
+    <primary>Elsődleges</primary>
+    <radio>Rádió</radio>
+    <telex>Telex</telex>
+    <hearing>Hallás</hearing>
+    <add>Új</add>
+    <notes>Megjegyzés</notes>
+    <no_name>Nincs név</no_name>
+    <select>Típus választás</select>
+    <select_contacts>Válassza ki a kapcsolatokat</select_contacts>
+    <add_distribution>Új Partnercsoport</add_distribution>
+    <add_new>Új elem</add_new>
+    <add_item_distribution>Névjegyekből</add_item_distribution>
+    <save>Mentés</save>
+    <edit>Szerkesztés</edit>
+    <edit_selected>Kijelöltek szerkesztése</edit_selected>
+    <delete_selected>Törlés</delete_selected>
+    <cancel>Mégse</cancel>
+    <onleave_warning>Valóban kilép? A nem mentett módosítások elvesznek.</onleave_warning>
+    <tags>Jelölő</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>Új elem</new_patient>
+    <new_staff>Új tag</new_staff>
+    <notify_email>Email figyelmeztetés</notify_email>
+    <notify_sms>SMS figyelmeztetés</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>Új</add>
+    <staff>Személyzet</staff>
+    <patient>Beteg</patient>
+  </hippa_detail>
+  <grid>
+    <title>Cím</title>
+    <note>Megjegyzés</note>
+    <size>Méret</size>
+    <category>Kategória</category>
+    <start>Kezdés</start>
+    <end>Befejezés</end>
+    <save>Mentés</save>
+    <cancel>Mégse</cancel>
+    <number_of_items>A többi oldalon kijelölt elemek száma:</number_of_items>
+    <clear>Törlés</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Jelölje ki a linkhez rendelt szöveget</select_text>
+    <enter_url>Adja meg a linket:</enter_url>
+    <image_location>Kép helye:</image_location>
+    <image_alt>Kép fölött megjelenő felirat:</image_alt>
+    <image>Kép beillesztése</image>
+    <htmlsource>HTML forrás</htmlsource>
+    <hyperlink>Link</hyperlink>
+    <underline>Aláhúzott</underline>
+    <italic>Dőlt</italic>
+    <bold>Vastag</bold>
+    <fontsize>Betűméret</fontsize>
+    <fontformat>Betűtípus</fontformat>
+    <outdent>Kifelé</outdent>
+    <indent>Beljebb</indent>
+    <orderedlist>Számozott lista</orderedlist>
+    <unorderedlist>Felsorolás</unorderedlist>
+    <justify>Széthúzott</justify>
+    <right>Jobbra</right>
+    <center>Középre</center>
+    <left>Balra</left>
+    <blockformat>Formátum véglegesítése</blockformat>
+    <block_type>Normál</block_type>
+    <heading>Fejléc</heading>
+    <paragraph>Bekezdés</paragraph>
+    <size>Méret</size>
+    <font>Betűtípus</font>
+    <cancel>Mégse</cancel>
+    <email>E-mail</email>
+    <options>Beállítások</options>
+    <plain>Szöveg</plain>
+    <html>HTML</html>
+    <from>Feladó</from>
+    <to>Címzett</to>
+    <cc>Másolat</cc>
+    <bcc>Titkos másolat</bcc>
+    <subject>Tárgy</subject>
+    <date>Dátum</date>
+    <attachments>Melléklet</attachments>
+    <text>Üzenet</text>
+    <send_message>Küldés</send_message>
+    <save_message>Mentés</save_message>
+    <br/>
+    <spellchecker>Helyesírásellenőrző nyelve</spellchecker>
+    <rrc>Az e-mail olvasásának visszaigazolása</rrc>
+    <ssm>Elküldött e-mailek mentése</ssm>
+    <psa>Melléklet óriásmellékletként</psa>
+    <priority>Fontosság</priority>
+    <lowest>Teljesen mellékes</lowest>
+    <low>Mellékes</low>
+    <normal>Normál</normal>
+    <high>Fontos</high>
+    <highest>Nagyon fontos</highest>
+    <rta>Válasz cím</rta>
+    <charset>Karakterkódolás</charset>
+    <auto>Automatikus</auto>
+    <original_message>-----Eredeti üzenet-----</original_message>
+    <read_confirmation_subject>Elolvasva: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Üzenetét a címzett elolvasta.&#13;&#10;&#13;&#10;Az eredeti üzenet részletei&#13;&#10;&#13;&#10;Feladó : %FROM%&#13;&#10;Címzett: %TO%&#13;&#10;Dátum  : %DATE%&#13;&#10;Tárgy  : %SUBJECT%</read_confirmation_text>
+    <add_contacts>Kapcsolat hozzáadása</add_contacts>
+    <add_files>Fájlok hozzáadása</add_files>
+    <add_files_from_folder>Fájlok hozzáadása mappából</add_files_from_folder>
+    <add_files_from_dropbox>Fájlok hozzáadása a Dropboxról</add_files_from_dropbox>
+    <leave_notice>Valóban kilép? A levél így elvész.</leave_notice>
+    <alias>Feladó</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Új mappa</add>
+    <delete>Törlés</delete>
+    <link>Link</link>
+    <unlink>Link megszüntetése</unlink>
+    <create_folder>Új mappa létrehozása</create_folder>
+    <create>Létrehoz</create>
+    <delete_confirmation_text>Valóban törli ezt a mappát?</delete_confirmation_text>
+    <empty_confirmation_text>Valóban törli a mappa összes elemét?</empty_confirmation_text>
+    <delete_yes>Igen</delete_yes>
+    <delete_no>Nem</delete_no>
+    <link_as>Parancsikon</link_as>
+    <unlink_as>Mappa linkjének törlése</unlink_as>
+    <unlink_confirmation_text>Valóban törli a linket?</unlink_confirmation_text>
+    <unlink_yes>Igen</unlink_yes>
+    <unlink_no>Nem</unlink_no>
+    <virtual>Virtuális mappa</virtual>
+    <delete_empty_folder>Mappa törlése, ürítése</delete_empty_folder>
+    <edit>Szerkesztés</edit>
+    <empty>Ürítés</empty>
+    <rename_folder>Mappa átnevezése</rename_folder>
+    <save>Mentés</save>
+    <rename>Átnevezés</rename>
+    <perform_action>Esemény futtatása</perform_action>
+    <select_folder>Mappák kiválasztása</select_folder>
+    <open_folder>Mappa megnyitása</open_folder>
+    <open_folder_des>Mappa tartalmának olvasása.</open_folder_des>
+    <link_folder>Mappa csatolása</link_folder>
+    <link_folder_des>Mappára mutató hivatkozás létrehozása a bal oldali menübe.</link_folder_des>
+    <add_folder>Mappa hozzáadása</add_folder>
+    <add_folder_dis>A kijelölt mappán belül új mappa létrehozása.</add_folder_dis>
+    <rename_folder_des>A kijelölt mappa átnevezése.</rename_folder_des>
+    <remove_folder>Mappa eltávolítása</remove_folder>
+    <remove_folder_des>Használja a kijelölt mappa végleges kiürítéséhez és törléséhez. Figyelem: ez a művelet nem vonható vissza!</remove_folder_des>
+    <default_folder>Beállítás alapértelmezett mappaként</default_folder>
+    <default_folder_des>Használatával ezen mappát alapértelmezetté teheti</default_folder_des>
+    <set_default>Ez a mappa alapértelmezett</set_default>
+    <set>Beállít</set>
+    <as_drafts>Piszkozatok</as_drafts>
+    <as_sent>Elküldött</as_sent>
+    <as_trash>Törölt e-mailek</as_trash>
+    <set_as_default>OK</set_as_default>
+    <link_first>A mappát először létre kell hozni</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Beérkezett üzenetek</inbox>
+    <drafts>Piszkozatok</drafts>
+    <sent>Elküldött elemek</sent>
+    <trash>Törölt elemek</trash>
+  </common_folders>
+  <common>
+    <yes>Igen</yes>
+    <no>Nem</no>
+  </common>
+  <folder_types>
+    <mail>Levelek</mail>
+    <contact>Névjegyek</contact>
+    <event>Naptár</event>
+    <journal>Napló</journal>
+    <note>Jegyzet</note>
+    <task>Feladatok</task>
+    <file>Fájlok</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>Az RSA-érvényesítés sikertelen. Próbálja újra.</login_invalid_keypair>
+    <divtcha_confirmation>Rosszul adta meg a képen látható karaktereket</divtcha_confirmation>
+    <missing_values_text>Üres szövegbevitel</missing_values_text>
+    <missing_values_email>Üres e-mail mező</missing_values_email>
+    <invalid_email>Érvénytelen e-mail cím</invalid_email>
+    <password_not_changed>Az új jelszó nem egyezthet meg a régivel</password_not_changed>
+    <reset_password_invalid_hashid>Érvénytelen azonosító</reset_password_invalid_hashid>
+    <reset_password_uid_file>Nem létezik az UID-fájl</reset_password_uid_file>
+    <account_alternative_email>A fióknak nincs másodlagos e-mail címe</account_alternative_email>
+    <migration_in_progress>A fiók áthelyezése folyamatban van, próbálkozzon később</migration_in_progress>
+    <login_ip_invalid>Bejelentkezéshez használt IP címek korlátozása: %s</login_ip_invalid>
+    <unauthorized>Jogosulatlan hozzáférés</unauthorized>
+    <folder_type_restricted>Az adminisztrátor korlátozta ezt a mappatípust</folder_type_restricted>
+    <account_does_not_exists>A megadott fiók nem létezik</account_does_not_exists>
+    <account_invalid_id>%s fiók nem érhető el</account_invalid_id>
+    <account_unknown_protocol>Ismeretlen fiókprotokoll</account_unknown_protocol>
+    <account_missing_tag>Fiók hiányzó %s címke</account_missing_tag>
+    <account_missing_id>Fiók hiányzó azonosító</account_missing_id>
+    <account_invalid_action>Fiók a művelet érvénytelen</account_invalid_action>
+    <account_already_exists>Már létezik %s nevű fiók</account_already_exists>
+    <account_no_username>A fiók felhasználóneve hiányzik vagy üres</account_no_username>
+    <account_no_password>Jelszót is adjon meg!</account_no_password>
+    <account_bad_password>A megadott régi jelszó hibás</account_bad_password>
+    <account_password_policy>A jelszó nem felel meg a jelszó szabályoknak</account_password_policy>
+    <account_sync>Nem sikerült szinkronizálni a fiókot: %s</account_sync>
+    <account_primary_delete>Az elsődleges fiók nem törölhető</account_primary_delete>
+    <account_test_failed>Fiók tesztelése sikertelen. Fiók: %s</account_test_failed>
+    <account_signup_disabled>Önregisztrálás kikapcsolva</account_signup_disabled>
+    <account_signup_error>Fiókbejegyzési hiba: %s</account_signup_error>
+    <account_signup_1>Ismeretlen hiba</account_signup_1>
+    <account_signup_2>Nem megfelelő licenc</account_signup_2>
+    <account_signup_3>Túl kevés paraméter</account_signup_3>
+    <account_signup_4>Funkció hiba</account_signup_4>
+    <account_signup_5>Konfigurációs hiba</account_signup_5>
+    <account_signup_6>Jelszó szabály</account_signup_6>
+    <account_signup_7>A fiók már létezik</account_signup_7>
+    <account_signup_8>Érvénytelen karakterek</account_signup_8>
+    <attachment_too_large>Túl nagy a melléklet: %s</attachment_too_large>
+    <password_confirmation>Hibás jelszó</password_confirmation>
+    <missing_values>Hibás jelszó</missing_values>
+    <addon_copy>a kiegészítő nem másolható</addon_copy>
+    <attachment_file_not_found>Nem csatolható fájl</attachment_file_not_found>
+    <attachment_add>Nem sikerült hozzáadni egy mellékletet</attachment_add>
+    <attachment_get>Nem érhető el a melléklet: %s</attachment_get>
+    <attacment_class_unknown>Ismeretlen mellékletosztály</attacment_class_unknown>
+    <auth_missing_tag>Hitelesítés hiányzó címke %s</auth_missing_tag>
+    <auth_export_key_private>Privát kulcs nem exportálható</auth_export_key_private>
+    <auth_invalid_char>Érvénytelen karakter van a privát kulcsban</auth_invalid_char>
+    <confirmation_uid>Nem található a CAPTCHA-munkamenet</confirmation_uid>
+    <confirmation_word_mismatch>CAPTCHA rossz egyező szó</confirmation_word_mismatch>
+    <db_auto_create>Nem hozható létre automatikusan az adatbázis</db_auto_create>
+    <db_create_sqlitefile>Nem hozható létre az SQLITE adatbázisfájl</db_create_sqlitefile>
+    <db_create_tables>Nem hozhatók létre a táblák</db_create_tables>
+    <db_statement_prepare>Nem készíthető elő az utasítás</db_statement_prepare>
+    <db_invalid_statement>Érvénytelen utasítástípus</db_invalid_statement>
+    <flags_unknown_field>rossz zászlók mező</flags_unknown_field>
+    <folder_autocreate_failed>már létezik %s nevű mappa</folder_autocreate_failed>
+    <folder_already_exists>már létezik %s nevű mappa</folder_already_exists>
+    <folder_does_not_exist>nem létezik %s nevű mappa</folder_does_not_exist>
+    <folder_name_bad_char>Mappanevek nem tartalmazhatnak különleges karaktereket</folder_name_bad_char>
+    <folder_name_length>nem kérhető le a mappanév hossza</folder_name_length>
+    <folder_name_too_long>az új mappanév túl hosszú</folder_name_too_long>
+    <folder_get_list>nem kérhető le a mappalista</folder_get_list>
+    <folder_delete>%s mappa nem törölhető</folder_delete>
+    <folder_create>%s mappa nem hozható létre</folder_create>
+    <folder_rename_empty>nem nevezhető át üres névre a mappa</folder_rename_empty>
+    <folder_move_to_self>nem helyezhető át önmagába a mappa</folder_move_to_self>
+    <folder_move_to_subfolder>nem helyezhető át saját almappájába a mappa</folder_move_to_subfolder>
+    <folder_rename>nem nevezhető át a mappa</folder_rename>
+    <folder_copy>nem másolható a mappa</folder_copy>
+    <folder_empty>nem üríthető ki a mappa</folder_empty>
+    <folder_missing_tag>Mappa hiányzó %s címke</folder_missing_tag>
+    <folder_missing_account_id>Mappa hiányzó fiókazonosító</folder_missing_account_id>
+    <folder_invalid_account_id>A mappának érvénytelen fiókazonosítója van %s</folder_invalid_account_id>
+    <folder_missing_id>Hiányzó mappaazonosító</folder_missing_id>
+    <folder_missing_name>Hiányzó mappanév</folder_missing_name>
+    <folder_invalid_action>Érvénytelen %s mappaművelet</folder_invalid_action>
+    <folder_invalid_type>Érvénytelen %s mappatípus</folder_invalid_type>
+    <folder_sync>%s mappa nem szinkronizálható</folder_sync>
+    <folder_empty_non_mail>Nem üríthető ki a nem levélmappa</folder_empty_non_mail>
+    <folder_insufficient_rights>Ehhez a művelethez nem rendelkezik elég jogosultsággal</folder_insufficient_rights>
+    <folder_mark_non_mail>Nem levélmappában nem jelölhetők meg az elemek</folder_mark_non_mail>
+    <freebusy_missing_tag>Szabadfoglalt címke hiányzó %s</freebusy_missing_tag>
+    <group_open>%s csoport nem nyitható meg</group_open>
+    <group_subscribe>%s csoportra nem lehet előfizetni</group_subscribe>
+    <group_add>Nem hozható létre a csoport</group_add>
+    <group_edit>%s csoport nem módosítható</group_edit>
+    <group_user_add>Nem adhatók hozzá felhasználók a csoporthoz: %s</group_user_add>
+    <group_user_edit> %s csoportfelhasználó nem módosítható</group_user_edit>
+    <group_user_delete>%s csoportfelhasználó nem törölhető</group_user_delete>
+    <groupware_upgrade_task>A csoportmunka szolgáltatás frissítése zajlik. Próbálkozzon később.</groupware_upgrade_task>
+    <folder_open>%s csoport nem nyitható meg.</folder_open>
+    <call_open_folder_first>A csoportszoftver mappája nem ott nyílt meg műveletben, ahol kell.</call_open_folder_first>
+    <call_open_group_first>A csoportszoftver csoportja nem ott nyílt meg műveletben, ahol kell.</call_open_group_first>
+    <subscribe_account_gw>Hiba történt a fiókra való előfizetéskor</subscribe_account_gw>
+    <unsubscribe_account_gw>Hiba történt a fiókra való előfizetés lemondásakor</unsubscribe_account_gw>
+    <imap_clone>IMAP-objektum nem klónozható</imap_clone>
+    <imap_open>IMAP-adatfolyam nem nyitható meg</imap_open>
+    <imap_internal>IMAP belső hiba : %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP határolójel-lehívási hiba</imap_delimiter_retrieval>
+    <imap_getmailboxes>Nem kérhető le a postaládalista</imap_getmailboxes>
+    <imap_mailbox_create>IMAP %s postaláda létrehozása létrehozás</imap_mailbox_create>
+    <imap_mailbox_subscribe>Nem lehet előfizetni a postaládára: %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>%s postaláda nem törölhető</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>%s postaláda előfizetését nem lehet lemondani</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP postafiók %s átnevezése sikertelen</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP postafiók elemek törlése</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP postafiók elemek kiürítése</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP az elemek másolása sikertelen</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP az elemek áthelyezése sikertelen</imap_mailbox_moveitems>
+    <imap_mailbox_open>%s postafiók nem nyitható meg újra</imap_mailbox_open>
+    <imap_mailbox_message_list>Nem kérhető le az üzenetlista</imap_mailbox_message_list>
+    <imap_message_details>%s üzenet adatai nem kérhetők</imap_message_details>
+    <imap_no_headers>%s üzenet fejlécei nem kérhetők le</imap_no_headers>
+    <imap_no_body>%s üzenet szövegtörzse nem kérhető le</imap_no_body>
+    <imap_message_create>Nem fűzhető hozzá üzenet</imap_message_create>
+    <imap_message_delete>%s üzenet nem törölhető</imap_message_delete>
+    <imap_message_copy>%s üzenet nem másolható</imap_message_copy>
+    <imap_message_move>%s üzenet nem helyezhető át</imap_message_move>
+    <imap_flags_set>%s üzenet jelzői nem állíthatók be</imap_flags_set>
+    <imap_flags_clear>%s üzenet jelzői nem törölhetők</imap_flags_clear>
+    <imap_message_not_found>Nem található új üzenet a cél postaládában - LEGUTÓBBI</imap_message_not_found>
+    <subscribe_account_imap>Hiba történt a fiókra való előfizetéskor</subscribe_account_imap>
+    <unsubscribe_account_imap>Hiba történt a fiókra való előfizetés lemondásakor</unsubscribe_account_imap>
+    <import_vcalendar>Nem sikerült importálni a vCalendart</import_vcalendar>
+    <import_vcard>Nem sikerült importálni a vCardot</import_vcard>
+    <import_missing_tag>Importálás címke hiányzó %s</import_missing_tag>
+    <import_missing_action>Importálás hiányzó művelet</import_missing_action>
+    <import_invalid_action>Érvénytelen %s importálási művelet</import_invalid_action>
+    <import_missing_account_id>Importálás hiányzó fiókazonosító</import_missing_account_id>
+    <import_invalid_account_id>Importálás érvénytelen fiókazonosító</import_invalid_account_id>
+    <import_missing_folder_id>Importálás hiányzó mappaazonosító</import_missing_folder_id>
+    <import_invalid_folder_id>Importálás érvénytelen mappaazonosító</import_invalid_folder_id>
+    <import_invalid_item_id>Importálás érvénytelen elemazonosító</import_invalid_item_id>
+    <import_add_items>Nem hozhatók létre elemek (lista)</import_add_items>
+    <import_invalid_data>Érvénytelen adatok támogatottak importáláshoz</import_invalid_data>
+    <export_invalid_account>Nem létező fiók exportálása</export_invalid_account>
+    <imip_versit_convert>iMIP versit konvertálás</imip_versit_convert>
+    <imip_versit_empty>iMIP versit ürítése</imip_versit_empty>
+    <imip_missing_folder>iMIP hiányzó mappa</imip_missing_folder>
+    <inputstream_no_xml_input>Nincs a kimenetnek átadott XML</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Sérült XML-bevitel</inputstream_corrupted_input>
+    <item_invalid_id>nincs elemazonosító</item_invalid_id>
+    <item_count>nem kérhető le az elemszám</item_count>
+    <item_create>nem hozható létre elem</item_create>
+    <item_delete>%s elem nem törölhető</item_delete>
+    <item_move>Az elem nem helyezhető át</item_move>
+    <item_edit>%s elem módosítási hiba</item_edit>
+    <item_occurrance_delete>%s nem törölhető</item_occurrance_delete>
+    <item_occurrance_create>Nem hozható létre az előfordulás</item_occurrance_create>
+    <item_exception_delete>%s kivétel nem törölhető</item_exception_delete>
+    <item_exception_create>a kivétel nem törölhető</item_exception_create>
+    <item_copy>az elem nem másolható</item_copy>
+    <item_copy_multiple>több elem nem másolható</item_copy_multiple>
+    <item_copy_destination>A célmappa nem érhető el</item_copy_destination>
+    <item_copy_destination_type>Nem másolható másik típusú mappába, mely a forrásmappa</item_copy_destination_type>
+    <item_count_retrieve>Nem számolhatók meg a mappaelemek</item_count_retrieve>
+    <item_missing_tag>Elemek címke hiányzik</item_missing_tag>
+    <item_missing_account_id>Hiányzó fiókazonosító</item_missing_account_id>
+    <item_invalid_account_id>Érvénytelen %s fiókazonosító</item_invalid_account_id>
+    <item_missing_folder_id>Hiányzó mappaazonosító</item_missing_folder_id>
+    <item_invalid_folder_id>Érvénytelen %s mappaazonosító</item_invalid_folder_id>
+    <item_missing_item_id>Hiányzó elemazonosító</item_missing_item_id>
+    <item_invalid_item_id>Érvénytelen %s elemazonosító</item_invalid_item_id>
+    <item_invalid_action>Elemművelet érvénytelen</item_invalid_action>
+    <login_invalid>%s jelszava hibás!</login_invalid>
+    <login_account_valid>Érvénytelen fiók %s</login_account_valid>
+    <phpmailer_>Általános postázóhiba, az üzenet nem került elküldésre</phpmailer_>
+    <phpmailer_smtp_auth>A postázó nem tudott hitelesíteni, az üzenet nem került elküldésre</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>A postázó nem tudott csatlakozni az SMTP-kiszolgálóhoz, az üzenet nem került elküldésre</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>A postázó címzetteket hiányol, az üzenet nem került elküldésre</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>A postázó nem támogatja ezt az üzenettípust, az üzenet nem került elküldésre</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail megnyitási hiba</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Levélküldési hiba</phpmailer_mail_send>
+    <phpmailer_language>Nem nyitható meg a nyelvi fájl</phpmailer_language>
+    <phpmailer_add_attachment>Nem csatolható fájl</phpmailer_add_attachment>
+    <phpmailer_encode_file>A mellékletfájl nem kódolható</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Ismeretlen mellékletkódolási típus</phpmailer_encode_unknown>
+    <mailparse_empty>nincs elemzendő forrás</mailparse_empty>
+    <mailparse_parser_init>nem sikerült kielemezni a levelet</mailparse_parser_init>
+    <mailparse_get_part>%s rész nem érhető el</mailparse_get_part>
+    <message_missing_tag>Üzenet hiányzó %s címke</message_missing_tag>
+    <message_missing_account_id>Üzenet hiányzó fiókazonosító</message_missing_account_id>
+    <message_invald_account>Üzenet érvénytelen fiókazonosító</message_invald_account>
+    <message_missing_folder_id>Üzenet hiányzó mappaazonosító</message_missing_folder_id>
+    <message_invald_folder>Üzenet érvénytelen mappaazonosító</message_invald_folder>
+    <message_missing_item_id>Üzenet hiányzó elemazonosító</message_missing_item_id>
+    <message_invalid_action>Üzenet érvénytelen művelet</message_invalid_action>
+    <message_get_not_allowed>Nem megfelelő engedélyek miatt a mappalista nem frissíthető</message_get_not_allowed>
+    <message_attachment_type>A melléklet nem dolgozható fel %s</message_attachment_type>
+    <message_attachment_existence>Üzenet a legutoljára feltöltött melléklet nem található</message_attachment_existence>
+    <rss_channel_exist>A megadott csatorna URL-címe nem nyitható meg %s</rss_channel_exist>
+    <rss_invalid_channel>Nem érhető el a csatorna</rss_invalid_channel>
+    <settings_access_denied>A hozzáférés elutasítva</settings_access_denied>
+    <settings_missing_tag>Hiányzó %s címke beállítása</settings_missing_tag>
+    <settings_duplicity>XML-beállításfájl formázási hiba</settings_duplicity>
+    <settings_get_domain_file>%s domén beállításfájl nem olvasható be</settings_get_domain_file>
+    <settings_domain_set>A domén beállításainak átállítása erre: %s</settings_domain_set>
+    <settings_user_set>Nem lehet hozzáférni a felhasználói beállításokhoz %. Ellenőrizze az engedélyeket és a levelezőmappát.</settings_user_set>
+    <settings_public_set>Megosztási beállítások: %s</settings_public_set>
+    <settings_shared_set>A megosztott fiókok nem menthetők</settings_shared_set>
+    <settings_owner_set>Nem állíthatók be a tulajdonos beállításai</settings_owner_set>
+    <session_expired>%s munkamenet lejárt</session_expired>
+    <session_no_user>Munkamenet nem kereshető vissza a felhasználó objektum</session_no_user>
+    <smime_no_recipient>SMIME nincs címzett</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP Az adatok nem kerültek fogadásra a szerverről : %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP A feladó hibás(from)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP A címzettek hibásak(rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Nem állítható be a helyesírás-ellenőrző mód</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Nem nyitható meg a helyesírás-ellenőrző szótár (dic)</spellchecker_open_dictionary>
+    <spellchecker_add_word>%s új szó nem adható hozzá a szótárhoz</spellchecker_add_word>
+    <spellchecker_missing_check_id>Hiányzó szóazonosító</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Hiányzó %s címke</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Hiányzó szótárazonosító</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Hiányzó szó</spellchecker_missing_word>
+    <upload_tag_missing>Feltöltés címke hiányzik</upload_tag_missing>
+    <upload_missing_attribute>Feltöltés hiányzó attribútum</upload_missing_attribute>
+    <upload_attachment_missing>Feltöltés csatolmány hiányzik</upload_attachment_missing>
+    <xml_invalid_file_name>XML Üres fájlnév</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Az Xpath több találatot adott vissza a lekérdezésben.</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML a megadott csomópont nem található %s</xml_node_does_not_exist>
+    <xmlrequest_path>Érvénytelen sablonfájl(path)</xmlrequest_path>
+    <xmlrequest_access_denied>A hozzáférés elutasítva</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Érvénytelen kéréstípus(type)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Hiányzó névtér attribútum</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Hiányzó vagy érvénytelen SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XMLKérés címke hiányzó %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Hiányzó osztálykonstruktor </xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Ismeretlen eredményformátum %s</xmlrequest_unkown_format>
+    <not_implemented>Megvalósításra vár</not_implemented>
+    <logdir_create>%s naplózási könyvtár nem hozható létre</logdir_create>
+    <api_property_get>%s tulajdonságai nem kereshetők vissza</api_property_get>
+    <wm_disabled>A WebMail jelenleg NEM üzemel!</wm_disabled>
+    <gw_init_error>Csoportszoftver-inicializálási hiba</gw_init_error>
+    <default>Alapértelmezett kivétel %s</default>
+    <other_accounts_disabled>Egyéb fiókok létrehozása kikapcsolva</other_accounts_disabled>
+    <link_compressed_variable_missing>Hibás link, átirányítás a bejelentkezési oldalra</link_compressed_variable_missing>
+    <login_expired>A bejelentkezése lejárt, jelentkezzen be újra.</login_expired>
+    <account_disabled>Fiók kikapcsolva</account_disabled>
+    <folder_set_default>&quot;%s&quot; mappa nem lehet alapértelmezett</folder_set_default>
+    <personality_confirmation_invalid_user>Nem erősíthető meg az e-mail cím: Érvénytelen felhasználó</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>Nem erősíthető meg az e-mail cím: Érvénytelen kivonat</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Nem sikerült felvenni a feketelistára az elemet</item_blacklist_error>
+    <item_whitelist_error>Nem sikerült felvenni a fehérlistára az elemet</item_whitelist_error>
+    <unverified_signature>Az üzenet aláírása nem ellenőrizbető</unverified_signature>
+    <account_is_guest>Belépés vendégek részére nem engedélyezett</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Az elemkijelölés törölve lett</item_selection_cleared>
+    <logged_out>Kijelentkezett</logged_out>
+    <message_send_ok>Az üzenet elküldve</message_send_ok>
+    <item_move_ok>Elemek áthelyezve</item_move_ok>
+    <item_copy_ok>Elemek átmásolva</item_copy_ok>
+    <item_delete_ok>Elemek törölve</item_delete_ok>
+    <item_mark_ok>Az elemek megjelölve</item_mark_ok>
+    <settings_save_ok>A beállítások elmentve</settings_save_ok>
+    <loading_next_message>Következő üzenet betöltése</loading_next_message>
+    <loading_prev_message>Előző üzenet betöltése</loading_prev_message>
+    <loading_next_page>Következő oldal betöltése</loading_next_page>
+    <loading_prev_page>Előző oldal betöltése</loading_prev_page>
+    <loading_next_month>Következő hónap betöltése</loading_next_month>
+    <loading_prev_month>Előző hónap betöltése</loading_prev_month>
+    <loading_next_week>Következő hét betöltése</loading_next_week>
+    <loading_prev_week>Előző hét betöltése</loading_prev_week>
+    <loading_next_day>Következő nap betöltése</loading_next_day>
+    <loading_prev_day>Előző nap betöltése</loading_prev_day>
+    <password_change_ok>A jelszó módosítása megtörtént</password_change_ok>
+    <item_whitelist_ok>Elem fehérlistázva</item_whitelist_ok>
+    <item_blacklist_ok>Elem feketelistázva</item_blacklist_ok>
+    <folder_set_default_ok>Mappa beállítva alapértelmezettként</folder_set_default_ok>
+    <subscribe_account_ok>A feliratkozás a fiókra megtörtént</subscribe_account_ok>
+    <subscribe_folder_ok>A feliratkozás a mappára megtörtént</subscribe_folder_ok>
+    <item_decline_ok>Elutasítva</item_decline_ok>
+    <access_granted>Hozzáférést kapott: &quot;%s&quot;, adta: &quot;%s&quot;.</access_granted>
+    <message_save_ok>Az üzenet elmentve</message_save_ok>
+    <item_accept_ok>Elfogadva</item_accept_ok>
+  </messages>
+</language>

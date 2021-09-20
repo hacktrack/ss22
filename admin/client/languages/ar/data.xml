@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <other>
+    <primary>الأساسية</primary>
+    <secondary>الثانوية</secondary>
+    <success>نجاح</success>
+    <warning>تحذير</warning>
+    <error>خطأ</error>
+    <grey>رمادي</grey>
+    <borderless>بلا حدود</borderless>
+    <demo>النسخة التجريبية</demo>
+    <other>غير ذلك</other>
+    <search_placeholder>عمَ تبحث؟</search_placeholder>
+    <imagepath_en>client/languages/en/images/</imagepath_en>
+    <session_expired>لقد انتهت صلاحية جلستك</session_expired>
+  </other>
+  <main>
+    <logout>تسجيل الخروج</logout>
+    <dashboard>لوحة التحكم والقيادة</dashboard>
+    <console>وحدة تحكم واجهة برمجة التطبيقات API</console>
+    <search>البحث</search>
+    <support_url>http://www.icewarp.com/support/</support_url>
+    <spam_queues>صفوف انتظار البريد المزعج</spam_queues>
+    <white_labeling>العلامة البيضاء</white_labeling>
+    <content_rules>قواعد المحتوى</content_rules>
+    <certificates>الشهادات</certificates>
+    <server_settings>إعدادات المخدّم</server_settings>
+    <policies>السياسات</policies>
+    <smartdiscover>الكاشف الذكي (SmartDiscover)</smartdiscover>
+    <webclient>زبون الويب (WebClient)</webclient>
+    <support>الدعم</support>
+    <subscription>الاشتراك</subscription>
+    <account_settings>إعدادات الحساب</account_settings>
+    <management>المستخدمون والنطاقات</management>
+    <oauth>مزودو OAuth</oauth>
+    <night_mode>نمط العرض الليلي</night_mode>
+  </main>
+  <form_buttons>
+    <ok>موافق</ok>
+    <cancel>إلغاء الأمر</cancel>
+    <retry>إعادة المحاولة</retry>
+    <close>إغلاق</close>
+  </form_buttons>
+  <datetime>
+    <php_date>d/m/Y</php_date>
+    <php_time>H:i:s</php_time>
+    <php_time_minutes>H:i</php_time_minutes>
+    <mon>الاثنين</mon>
+    <tue>الثلاثاء</tue>
+    <wed>الأربعاء</wed>
+    <thu>الخميس</thu>
+    <fri>الجمعة</fri>
+    <sat>السبت</sat>
+    <sun>الأحد</sun>
+    <monday>الاثنين</monday>
+    <tuesday>الثلاثاء</tuesday>
+    <wednesday>الأربعاء</wednesday>
+    <thursday>الخميس</thursday>
+    <friday>الجمعة</friday>
+    <saturday>السبت</saturday>
+    <sunday>الأحد</sunday>
+    <january>كانون الثاني / يناير</january>
+    <february>شباط / فبراير</february>
+    <march>آذار / مارس</march>
+    <april>نيسان / أبريل</april>
+    <may>أيار / مايو</may>
+    <june>حزيران / يونيو</june>
+    <july>تموز / يوليو</july>
+    <august>آب / أغسطس</august>
+    <september>أيلول / سبتمبر</september>
+    <october>تشرين الأول / أكتوبر</october>
+    <november>تشرين الثاني / نوفمبر</november>
+    <december>كانون الأول / ديسمبر</december>
+    <days>يوم ؛ أيام</days>
+    <year>عام</year>
+    <years>أعوام</years>
+  </datetime>
+  <service_statistics>
+    <uptime>Uptime</uptime>
+    <memorysize>Working Set Size</memorysize>
+    <memorypeak>Working Set Size (Peak)</memorypeak>
+    <msgreceived>الوارد</msgreceived>
+    <msgsent>المرسل</msgsent>
+    <msgfailed>فشل</msgfailed>
+    <msgvirus>الفيروس</msgvirus>
+    <msgcontentfilter>مرشح المحتوى</msgcontentfilter>
+    <msgrules>القواعد</msgrules>
+    <msgexternal>المرشح الخارجي</msgexternal>
+    <msgintrusionprevention>منع التطفل</msgintrusionprevention>
+    <msgdns>القائمة السوداء لنظام أسماء النطاقات (DNSBL)</msgdns>
+    <quarantine>الحجر</quarantine>
+    <spamassasin>نظام SpamAssassin</spamassasin>
+    <spammarked>المحدد على أنه بريد مزعج</spammarked>
+    <spamlivebulk>مضاد البريد المزعج المباشر (Bulk)</spamlivebulk>
+    <spamlive>مضاد البريد المزعج المباشر (Spam)</spamlive>
+    <refused>البريد المزعج المرفوض</refused>
+    <greylisting>اللوائح الرمادية (Greylisting)</greylisting>
+    <conntotal>إجمالي الاتصالات</conntotal>
+    <serverconn>اتصالات المخدّم (التعداد)</serverconn>
+    <serverconnpeak>اتصالات المخدّم (في الذروة)</serverconnpeak>
+    <serverdatatotal>إجمالي بيانات المخدّم</serverdatatotal>
+    <serverdatain>البيانات الواردة إلى المخدّم</serverdatain>
+    <serverdataout>البيانات الصادرة من المخدّم</serverdataout>
+    <clientconn>اتصالات الزبون (التعداد)</clientconn>
+    <clientconnpeak>اتصالات الزبون (في الذروة)</clientconnpeak>
+    <clientdatatotal>إجمالي بيانات الزبون المتبادلة</clientdatatotal>
+    <clientdatain>البيانات الواردة إلى الزبون</clientdatain>
+    <clientdataout>البيانات الصادرة من الزبون</clientdataout>
+    <packetsreceived>الحزم المستلمة</packetsreceived>
+    <packetssent>الحزم المرسلة</packetssent>
+    <rtppacketsreceived>حزم RTP المستلمة</rtppacketsreceived>
+    <rtppacketssent>حزم RTP المرسلة</rtppacketssent>
+    <callcount>عدد الاتصالات</callcount>
+    <callpeak>ذروة الاتصالات</callpeak>
+    <calltotal>إجمالي الاتصالات</calltotal>
+  </service_statistics>
+  <management>
+    <domainlist>لائحة النطاقات</domainlist>
+    <guest_accounts>حسابات الضيوف</guest_accounts>
+  </management>
+  <dashboard>
+    <server_data>بيانات المخدّم (ميغا بايت)</server_data>
+    <client_data>بيانات الزبون (ميغا بايت)</client_data>
+    <received>المُستَلم</received>
+    <sent>المرسل</sent>
+    <active_users>المستخدمون النشطاء</active_users>
+    <storage>إجمالي السعة التخزينية المستخدمة</storage>
+    <mail_sent>رسائل البريد المرسلة</mail_sent>
+    <mail_received>رسائل البريد المستلمة</mail_received>
+    <realtime>الزمن الحقيقي</realtime>
+    <hour>الساعة الماضية</hour>
+    <day>اليوم الماضي</day>
+    <week>الأسبوع الماضي</week>
+    <month>الشهر الماضي</month>
+    <year>السنة الماضية</year>
+    <current_traffic>حركة المرور الحالية</current_traffic>
+    <services_statuses>وضع الخدمة</services_statuses>
+    <services>الخدمات</services>
+    <uptime>Uptime</uptime>
+    <connections>الاتصالات</connections>
+    <data>البيانات</data>
+    <service>الخدمة</service>
+    <category>الفئة</category>
+    <time_period>المدة الزمنية</time_period>
+    <cancel>إلغاء الأمر</cancel>
+    <smtp_connections>اتصالات SMTP</smtp_connections>
+    <imappop3_connections>اتصالات IMAP/POP3</imappop3_connections>
+    <web_connections>اتصالات الويب</web_connections>
+    <statistics>الإحصائيات</statistics>
+    <settings>الإعدادات</settings>
+    <restart>إعادة تشغيل</restart>
+    <stop>إيقاف</stop>
+    <start>بدء</start>
+    <mail_services>خدمات البريد الإلكتروني</mail_services>
+    <web_services>خدمات الويب</web_services>
+    <smtp>بروتوكول SMTP</smtp>
+    <imap>بروتوكول IMAP</imap>
+    <pop3>بروتوكول POP3</pop3>
+    <control>الويب</control>
+    <ftp>بروتوكول FTP</ftp>
+    <socks>بروتوكول SOCKS</socks>
+    <supportive_services>خدمات الخلفية</supportive_services>
+    <minger>Minger</minger>
+    <ldap>بروتوكول LDAP</ldap>
+    <snmp>بروتوكول SNMP</snmp>
+    <communication>Communication</communication>
+    <im>التراسل الفوري</im>
+    <voip>نقل الصوت عبر بروتوكول الإنترنت (VoIP)</voip>
+    <sms>الرسائل النصية القصيرة (SMS)</sms>
+    <meeting>اجتماعات الويب (WebMeetings)</meeting>
+    <collaboration>التعاون والتشارك</collaboration>
+    <calendar>برمجيات العمل الجماعي (Groupware)</calendar>
+    <groupware_notification>إشعارات برمجيات العمل الجماعي</groupware_notification>
+    <webclient>زبون الويب (WebClient)</webclient>
+    <webdav>بروتوكول WebDAV</webdav>
+    <security>الحماية والأمان</security>
+    <antivirus>مكافحة الفيروسات</antivirus>
+    <antispam>مكافحة الفيروسات</antispam>
+    <mobility>Mobility</mobility>
+    <activesync>المزامنة النشطة (ActiveSync)</activesync>
+    <syncml>ألمزامنة SyncML</syncml>
+    <sip>نقل الصوت عبر بروتوكول الإنترنت (VoIP)</sip>
+    <teamchat>التراسل الفوري لفريق العمل (TeamChat)</teamchat>
+    <sqlite>يستخدم المخدّم قاعدة بيانات SQLite والتي تعتبر غير كافية لتشغيل هذه الخدمة بشكل صحيح. يرجى تكوين وإعداد برمجيات العمل الجماعي (Groupware) لتستخدم قاعدة بيانات مخدّم مستقلة على سبيل المثال أوراكل أو  MySQL أو MS SQLوذلك قبل تفعيل هذه الخدمة.</sqlite>
+    <plan>الخطة</plan>
+    <cluster_id>Cluster</cluster_id>
+    <price_user_month>إجمالي التكلفة الشهرية</price_user_month>
+    <next_billing>الفاتورة القادمة</next_billing>
+    <upgrade>قم بترقية خطتك</upgrade>
+    <hypervisor>برنامج Hypervisor</hypervisor>
+    <manage>الإدارة</manage>
+  </dashboard>
+  <generic>
+    <hh_mm>hh:mm</hh_mm>
+    <and>And</and>
+    <or>Or</or>
+    <not>Not</not>
+    <add uses="server certificates">إضافة</add>
+    <alias>اسم مستعار</alias>
+    <cancel>إلغاء الأمر</cancel>
+    <continue>Continue</continue>
+    <reset>إعادة تعيين</reset>
+    <back>عودة</back>
+    <create_new_account_0>إنشاء مستخدم جديد</create_new_account_0>
+    <create_new_account_1>إنشاء قائمة بريدية جديدة</create_new_account_1>
+    <create_new_account_7>إنشاء مجموعة جديدة</create_new_account_7>
+    <create_new_account_8>إنشاء موارد جديدة</create_new_account_8>
+    <create_new_account_d>إنشاء نطاق جديد</create_new_account_d>
+    <days>أيام</days>
+    <delete uses="server certificates">حذف</delete>
+    <domain>النطاق</domain>
+    <domain_name>اسم النطاق</domain_name>
+    <enter_additional_alias>قم بإدخال اسم مستعار إضافي</enter_additional_alias>
+    <enter_password>قم بإدخال كلمة المرور</enter_password>
+    <enter_time_in_minutes>Enter time in minutes</enter_time_in_minutes>
+    <enter_value>قم بإدخال قيمة</enter_value>
+    <from>من</from>
+    <generate>توليد</generate>
+    <size_b>بايت</size_b>
+    <size_kb>كيلو بايت</size_kb>
+    <size_mb>ميجا بايت</size_mb>
+    <size_gb>جيجا بايت</size_gb>
+    <size_tb>تيرا بايت</size_tb>
+    <size_pb>بيتا بايت</size_pb>
+    <messages>رسائل</messages>
+    <message_error_heading>خطأ</message_error_heading>
+    <message_success_heading>نجاح</message_success_heading>
+    <message_warning_heading>تحذير</message_warning_heading>
+    <minutes>دقيقة / دقائق</minutes>
+    <seconds>ثانية / ثوان</seconds>
+    <name>الاسم</name>
+    <new_group>مجموعة جديدة</new_group>
+    <new_mailing_list>قائمة بريدية جديدة</new_mailing_list>
+    <new_user>مستخدم جديد</new_user>
+    <new_domain>نطاق جديد</new_domain>
+    <new_resource>موارد جديدة</new_resource>
+    <password>كلمة المرور</password>
+    <plus_symbol>+</plus_symbol>
+    <reset_to_default>إعادة التعيين إلى الحالة الافتراضية</reset_to_default>
+    <results>نتائج</results>
+    <retry>إعادة المحاولة</retry>
+    <save>حفظ</save>
+    <do_not_save>عدم الحفظ</do_not_save>
+    <save_and_add_another>حفظ وإضافة آخر</save_and_add_another>
+    <save_as>حفظ بإسم</save_as>
+    <select>اختيار</select>
+    <select_action>اختيار إجراء</select_action>
+    <share>مشاركة</share>
+    <subject>الموضوع</subject>
+    <first_name>الاسم</first_name>
+    <surname>اسم العائلة</surname>
+    <text>النص</text>
+    <try_again>إعادة المحاولة</try_again>
+    <icewarp_webadmin>مدير الويب (IceWarp WebAdmin)</icewarp_webadmin>
+    <group_name>اسم المجموعة</group_name>
+    <resource_name>اسم الموارد</resource_name>
+    <upload>تحميل / رفع</upload>
+    <upload_photo>تحميل صورة</upload_photo>
+    <type uses="new resource">النوع</type>
+    <done uses="permissions">تم</done>
+    <set_to_default>إعادة التعيين إلى القيم الافتراضية</set_to_default>
+    <export>تصدير</export>
+    <all>الكل</all>
+    <ok>موافق</ok>
+    <close>إغلاق</close>
+    <download>تحميل</download>
+    <port>منفذ</port>
+    <on>تشغيل</on>
+    <off>إيقاف تشغيل</off>
+    <copy_to_clipboard>النسخ إلى الحافظة</copy_to_clipboard>
+    <plan_selection>Plan selection</plan_selection>
+  </generic>
+  <api_console>
+    <webserver>مخدّم الويب</webserver>
+    <webdav>بروتوكول WebDAV</webdav>
+    <voip>نقل الصوت عبر بروتوكول الإنترنت (VoIP)</voip>
+    <system_tools>أدوات النظام</system_tools>
+    <storage>التخزين</storage>
+    <smtp_pop3_imap>بروتوكول SMTP/POP3/IMAP</smtp_pop3_imap>
+    <sms>الرسائل النصية القصيرة (SMS)</sms>
+    <smart_discover>الكاشف الذكي (SmartDiscover)</smart_discover>
+    <proxy>البروكسي</proxy>
+    <protocols>البروتوكولات</protocols>
+    <mobile_sync>المزامنة على الأجهزة النقالة (Mobile Sync)</mobile_sync>
+    <mail>البريد الإلكتروني</mail>
+    <logging>تسجيل الدخول</logging>
+    <ldap>بروتوكول LDAP</ldap>
+    <instant_messaging>التراسل الفوري</instant_messaging>
+    <gui>واجهة المستخدم الرسومية</gui>
+    <groupware>برمجيات العمل الجماعي (Groupware)</groupware>
+    <general>عام</general>
+    <ftp>بروتوكول FTP</ftp>
+    <domains>النطاقات</domains>
+    <connection>الاتصال</connection>
+    <conferencing>اجتماعات الويب</conferencing>
+    <antivirus>مكافحة الفيروسات</antivirus>
+    <antispam>مضاد البريد المزعج</antispam>
+    <advanced>متقدم</advanced>
+    <accounts_policies>سياسات الحساب</accounts_policies>
+    <accounts>الحسابات</accounts>
+    <save>حفظ</save>
+    <type_string>سلسة نصية</type_string>
+    <type_longstring>سلسة نصية طويلة</type_longstring>
+    <type_integer>عدد صحيح</type_integer>
+    <type_boolean>بولياني</type_boolean>
+    <type_enum>تعداد</type_enum>
+    <true>صح</true>
+    <false>خطأ</false>
+    <mailinglist>قائمة بريدية</mailinglist>
+    <domain>النطاق</domain>
+    <user>المستخدم</user>
+    <edit>تحرير</edit>
+    <group>المجموعة</group>
+    <resource>المورد</resource>
+    <name>الاسم</name>
+    <type>النوع</type>
+    <val>القيمة</val>
+    <description>الوصف</description>
+    <view>عرض</view>
+  </api_console>
+  <client_applications>
+    <client_applications>تطبيقات الزبون</client_applications>
+    <icewarp_desktop>زبون الأجهزة المكتبية</icewarp_desktop>
+    <icewarp_outlook_sync>مُزامن أوتلوك</icewarp_outlook_sync>
+    <mobile_devices>الأجهزة النقالة</mobile_devices>
+  </client_applications>
+  <client_applications_help>
+    <client_applications>إدارة أجهزة المستخدم النقالة و تطبيقات زبون الأجهزة المكتبية ومُزامن أوتلوك.</client_applications>
+    <icewarp_desktop>تحميل مُثبّت الزبون للأجهزة المكتبية وإدارة التراخيص.</icewarp_desktop>
+    <icewarp_outlook_sync>تحميل مُثبّت مُزامن أوتلوك وإدارة الإعدادات والتراخيص عن بُعد.</icewarp_outlook_sync>
+    <mobile_devices>إدارة إعدادات الأجهزة النقالة المتصلة.</mobile_devices>
+  </client_applications_help>
+  <permissions>
+    <inbox>صندوق الوارد</inbox>
+    <calendar>التقويم</calendar>
+    <contacts>جهات الاتصال</contacts>
+    <files>الملفات</files>
+    <permissions>الأذونات</permissions>
+    <anyone>الجميع / مجهول الهوية</anyone>
+    <custom>مخصص</custom>
+    <all>الكل</all>
+    <none>بلا</none>
+    <read>قراءة</read>
+    <write>كتابة</write>
+    <full>كاملة</full>
+    <owner>مالك</owner>
+    <add_new_user_or_domain>إضافة مستخدم جديد أو نطاق جديد</add_new_user_or_domain>
+    <inherit>يرث</inherit>
+    <show_all_folders>عرض كافة المجلدات</show_all_folders>
+    <show_less>إظهار القليل</show_less>
+    <domains>النطاقات</domains>
+  </permissions>
+  <permissions_help>
+    <inbox>السماح لباقي المستخدمين في شركتك بقراءة البريد الإلكتروني أو إجراء التعديلات على مجلد البريد الإلكتروني الافتراضي.</inbox>
+    <calendar>السماح لباقي المستخدمين في شركتك برؤية وإنشاء الأحداث في مجلد التقويم الافتراضي.</calendar>
+    <contacts>السماح لباقي المستخدمين في شركتك بتصفح المدخلات في مجلد جهات الاتصال الافتراضي و إجراء التعديلات عليها.</contacts>
+    <files>السماح لباقي المستخدمين في شركتك بإضافة المستندات وقراءتها في مجلد الملفات الافتراضي</files>
+  </permissions_help>
+  <mobile_devices>
+    <allowed>مسموح</allowed>
+    <blocked>محظور</blocked>
+    <quarantine>محجور</quarantine>
+    <all_mail_items>الكل</all_mail_items>
+    <all_calendar_events>الكل</all_calendar_events>
+    <all_status>الكل</all_status>
+    <all_sync>الكل</all_sync>
+    <last_24_hours>آخر 24 ساعة</last_24_hours>
+    <last_7_days>آخر 7 أيام</last_7_days>
+    <last_4_weeks>آخر 4 أسابيع</last_4_weeks>
+    <one_day>يوم واحد</one_day>
+    <three_days>ثلاثة أيام</three_days>
+    <one_week>أسبوع واحد</one_week>
+    <two_weeks>Two weeks</two_weeks>
+    <one_month>شهر واحد</one_month>
+    <three_months>ثلاثة أشهر</three_months>
+    <six_months>ستة أشهر</six_months>
+    <incomplete_tasks_only>المهام غير المكتملة فقط</incomplete_tasks_only>
+    <new_calendar_folders>مجلد تقويم جديد</new_calendar_folders>
+    <merge_to_default_calendar_folder>دمج مع مجلد التقويم الافتراضي</merge_to_default_calendar_folder>
+    <events>الأحداث</events>
+    <tasks>المهام</tasks>
+    <tasks_and_notes>المهام والملاحظات (تطبيقات أندرويد)</tasks_and_notes>
+    <new_folders>مجلدات جديدة</new_folders>
+    <merge_to_default_folder>دمج مع المجلد الافتراضي</merge_to_default_folder>
+    <allow>سماح</allow>
+    <block>حظر</block>
+    <delete>حذف</delete>
+    <wipe>مسح</wipe>
+  </mobile_devices>
+  <vcard>
+    <male>ذكر</male>
+    <female>أنثى</female>
+    <unknown>غير معروف</unknown>
+    <home1>المنزل 1</home1>
+    <home2>المنزل 2</home2>
+    <assistant>المساعد</assistant>
+    <work1>العمل 1</work1>
+    <work2>العمل 2</work2>
+    <fax_home>رقم فاكس المنزل</fax_home>
+    <fax_work>رقم فاكس العمل</fax_work>
+    <callback>معاودة الاتصال</callback>
+    <company>الشركة</company>
+    <car>السيارة</car>
+    <isdn>الشبكة الرقمية للخدمات المتكاملة (ISDN)</isdn>
+    <mobile>الجهاز النقال</mobile>
+    <other>آخر</other>
+    <other_fax>فاكس آخر</other_fax>
+    <pager>جهاز المناداة (Pager)</pager>
+    <primary>الأساسي</primary>
+    <radio>الراديو</radio>
+    <telex>تلكس</telex>
+    <hearing>Hearing</hearing>
+    <sip>SIP</sip>
+    <email1>البريد الإلكتروني 1</email1>
+    <email2>البريد الإلكتروني 2</email2>
+    <email3>البريد الإلكتروني 3</email3>
+    <imaddress>عنوان التراسل الفوري</imaddress>
+  </vcard>
+  <devicedetail>
+    <allow_block_device>تم تمكين الجهاز</allow_block_device>
+    <allow_device>السماح للجهاز</allow_device>
+    <block_device>حظر الجهاز</block_device>
+    <device_in_quarantine>الجهاز موجود في الحجر</device_in_quarantine>
+    <account>الحساب</account>
+    <device_info>تفاصيل الجهاز</device_info>
+    <device_name>اسم الجهاز</device_name>
+    <groupware_synchronization>مزامنة العنصر</groupware_synchronization>
+    <hard_wipe>المسح القسري</hard_wipe>
+    <info>معلومات</info>
+    <last_sync>المزامنة الأخيرة</last_sync>
+    <model>الطراز</model>
+    <notes_synchronization_type>نوع مزامنة الملاحظات</notes_synchronization_type>
+    <os>نظام التشغيل</os>
+    <past_calendar_events>أحداث التقويم الماضية</past_calendar_events>
+    <past_mail_items>عناصر البريد الإلكتروني الماضية</past_mail_items>
+    <private_special_folders>مزامنة المجلدات</private_special_folders>
+    <registered>مُسجّل</registered>
+    <soft_hard_wipe>مسح الجهاز عن بُعد</soft_hard_wipe>
+    <soft_wipe>المسح الخفيف</soft_wipe>
+    <status>الحالة</status>
+    <sync_notes_as>مزامنة الملاحظات كـ</sync_notes_as>
+    <sync_tasks_as_calendar_events>مزامنة المهام كأحداث في التقويم</sync_tasks_as_calendar_events>
+    <synchronization>مزامنة</synchronization>
+    <tasks_synchronization_type>نوع مزامنة المهام</tasks_synchronization_type>
+    <type>النوع</type>
+    <groupware_folders>مجلدات برمجيات العمل الجماعي (الخاصة)</groupware_folders>
+    <mail_folders>مجلدات البريد الإلكتروني (الخاصة)</mail_folders>
+    <shared_folders>المجلدات المشتركة</shared_folders>
+    <archive>أرشيف البريد الإلكتروني</archive>
+    <public_folders>المجلدات العامة</public_folders>
+    <all_folders>كافة المجلدات</all_folders>
+    <default_folders_only>المجلدات الافتراضية فقط</default_folders_only>
+    <all_with_groupware_as_email>All with GroupWare as email</all_with_groupware_as_email>
+  </devicedetail>
+  <devicedetail_help>
+    <device_info>مراجعة و/أو تحرير خصائص الجهاز، أو منع الأجهزة من الوصول إلى المخدّم.</device_info>
+    <groupware_synchronization>إدارة مزامنة برمجيات العمل الجماعي وعناصر البريد الإلكتروني. حيثما أمكن، قم بتشغيل مفتاح التبديل وقم بتحديد القيمة المناسبة من القائمة. تفوق هذه الإعدادات إعدادات الجهاز.</groupware_synchronization>
+    <private_special_folders>إدارة مزامنة المجلدات الافتراضية والمميزة. قم بالاختيار من القائمة المناسبة أو تشغيل زر التبديل.</private_special_folders>
+    <soft_hard_wipe>يقوم المسح الخفيف بحذف البيانات التي تم تنزيلها من المخدم فقط. بينما تعمل ميزة المسح القسري على إعادة ضبط الجهاز إلى إعدادات المصنع وحذف البيانات من الجهاز ومن بطاقات الذاكرة SD.</soft_hard_wipe>
+  </devicedetail_help>
+  <domainlist>
+    <domain_list>لائحة النطاقات</domain_list>
+    <all_types>كافة الأنواع</all_types>
+    <standard>القياسي</standard>
+    <domain_alias>اسم النطاق المستعار</domain_alias>
+    <backup_domain>نطاق النسخ الاحتياطي</backup_domain>
+    <distributed_domain>النطاق الموزّع</distributed_domain>
+    <etrn_atrn_queue>صف انتظار ETRN/ATRN</etrn_atrn_queue>
+    <verification_default>افتراضي</verification_default>
+    <verification_use_minger_with_password>استخدام Minger مع كلمة المرور</verification_use_minger_with_password>
+    <verification_usevrfy_command>استخدام تعليمة VRFY</verification_usevrfy_command>
+    <verification_use_rcpt_to_command>استخدام تعليمة RCPT TO</verification_use_rcpt_to_command>
+  </domainlist>
+  <domainlist_header>
+    <users>المستخدمون</users>
+    <name>الاسم</name>
+    <type>النوع</type>
+    <description>الوصف</description>
+  </domainlist_header>
+  <domaindetail>
+    <users>الحسابات</users>
+    <settings>الخصائص</settings>
+    <limits>الحدود</limits>
+    <rules>القواعد</rules>
+    <active_directory>الدليل النشط</active_directory>
+    <mobile_devices>الأجهزة النقالة</mobile_devices>
+    <general>عام</general>
+    <name>الاسم</name>
+    <description>الوصف</description>
+    <type>النوع</type>
+    <val>القيمة</val>
+    <verification>التحقق</verification>
+    <password>كلمة المرور</password>
+    <administrator_email>البريد الإلكتروني للمشرف</administrator_email>
+    <aliases>الأسماء المستعارة</aliases>
+    <add_alias>إضافة إسم مستعار</add_alias>
+    <quotas>الحصص</quotas>
+    <storage_usage>السعة التخزينية المستخدمة</storage_usage>
+    <numbers_of_emails_sent>عدد رسائل البريد الإلكتروني المرسلة</numbers_of_emails_sent>
+    <change_quotas>حدود النطاق</change_quotas>
+    <permissions_and_rights>الأذونات والحقوق</permissions_and_rights>
+    <unknown_accounts>حسابات غير معروفة</unknown_accounts>
+    <reject>رفض</reject>
+    <delete>حذف</delete>
+    <forward_to>إعادة التوجيه إلى</forward_to>
+    <target_email>البريد الإلكتروني المستهدف</target_email>
+    <two_factor_authentication>التحقق الثنائي</two_factor_authentication>
+    <instant_messaging_shared_roster>التراسل الفوري واللائحة المشتركة</instant_messaging_shared_roster>
+    <domain_features>ميزات النطاق</domain_features>
+    <features>الميزات</features>
+    <outlook_sync>التزامن مع أوتلوك</outlook_sync>
+    <desktop_client>زبون الأجهزة المكتبية</desktop_client>
+    <manage>الإدارة</manage>
+    <download>تحميل</download>
+    <domain_limits>حدود النطاق</domain_limits>
+    <maximum_number_of_accounts>حدود حساب المشرف على النطاق</maximum_number_of_accounts>
+    <disk_quota>الحصة من القرص</disk_quota>
+    <daily_send_out_limit_for_domain>حدود الإرسال اليومي للنطاق</daily_send_out_limit_for_domain>
+    <disable_login_to_this_domain>تعطيل تسجيل الدخول إلى هذا النطاق</disable_login_to_this_domain>
+    <daily_data_limit>حدود البيانات المرسلة</daily_data_limit>
+    <daily_message_count_limit>حدود الرسائل المرسلة</daily_message_count_limit>
+    <number_per_day># في اليوم الواحد</number_per_day>
+    <domain_expiration>انتهاء صلاحية النطاق</domain_expiration>
+    <expires_on>تنتهي صلاحيته في</expires_on>
+    <notify_before_expiration>إرسال إشعار قبل انتهاء الصلاحية</notify_before_expiration>
+    <days>أيام</days>
+    <delete_domain_when_expired>حذف النطاق عند انتهاء صلاحيته</delete_domain_when_expired>
+    <user_limits>حدود المستخدم</user_limits>
+    <account_size>حجم الحساب</account_size>
+    <default_max_message_size>الحد الأقصى لحجم الرسالة</default_max_message_size>
+    <default_daily_send_out_limit_for_users>الحدود الافتراضية للإرسال اليومي للمستخدمين</default_daily_send_out_limit_for_users>
+    <forward_to_address>إعادة التوجيه إلى العنوان</forward_to_address>
+    <dns_validation>التحقق من DNS</dns_validation>
+    <validation>التحقق</validation>
+    <rename>إعادة التسمية</rename>
+    <rename_and_logout>إعادة التسمية وتسجيل الخروج</rename_and_logout>
+    <change_domain_name>تغيير اسم النطاق</change_domain_name>
+    <same_domain_helper>إنك تقوم بإعادة تسمية نطاقك. عند انتهاء هذه العملية سيتم تسجيل خروجك بشكل تلقائي من مدير الويب وستحتاج إلى إعادة تسجيل دخولك.</same_domain_helper>
+    <dkim>طريقة التحقق DKIM</dkim>
+    <delete_spam_older_than>حذف رسائل البريد المزعج الأقدم من</delete_spam_older_than>
+    <max_allowed_subscription_plan>الحد الأقصى لخطة الاشتراك المسموح بها</max_allowed_subscription_plan>
+  </domaindetail>
+  <domaindetail_help>
+    <domain_limits>حدود النطاق التالية لها الأفضلية على حدود مستوى المستخدم. على سبيل المثال ، إذا كان لديك حد لحصة القرص على نطاق معين بمقدار 100 ميجابايت وقمت بتعيين حجم حساب المستخدم بمقدار 500 ميجابايت ، فستتم تغطيتها عندما يصل حجم النطاق المستخدم  إلى 100 ميجابايت.</domain_limits>
+    <domain_expiration>قم بتحديد تاريخ انتهاء صلاحية النطاق. عند انتهاء صلاحية النطاق، سيتم تعطيل تسجيل الدخول إلى النطاق فقط. إذا اخترت حذف النطاق ، فسيتم حذف جميع الحسابات وبياناتها!</domain_expiration>
+    <user_limits>الحدود التالية لها أولوية أقل من الحدود على مستوى المستخدم. فعلى سبيل المثال، إذا كان لديك 100 حساباً ضمن النطاق، ولدى 98 منها الحدود ذاتها، و2 الباقية لديها حدود مختلفة، عندها قم بتحديد حدود الـ 98 مستخدم هنا وقم بتحديد حدود الحسابين الباقيين على مستوى المستخدم.</user_limits>
+    <quotas>انقر فوق حدود النطاق لتقييد حجم النطاق، أو عدد الرسائل المرسلة، أو الحد الأقصى لحجم الرسائل على مستوى النطاق، أو لتطبيق حدود أخرى لجميع الحسابات ضمن النطاق دفعة واحدة.</quotas>
+    <permissions_and_rights>قم بتحديد طريقة التعامل مع الرسائل المرسلة إلى الحسابات غير المعرّفة على المخدّم. انقر على الميزات لتمكين أو تعطيل الخدمات لكافة مستخدمي النطاق. إن الميزات المحددة على مستوى المستخدم لها أولوية أعلى.</permissions_and_rights>
+    <client_applications>يمكنك إدارة الأجهزة النقالة ضمن النطاق ومُزامن أوتلوك وتطبيقات الأجهزة المكتبية للزبون.</client_applications>
+    <aliases>قم بإدخال أسماء مستعارة لهذا النطاق. سيتم إيصال كافة الرسائل المرسلة إلى هذه العناوين إلى الصناديق البريدية لهذا النطاق. بالنسبة لهذه الأسماء المستعارة فإنه لا يمكنك تطبيق قواعد مختلفة عن القواعد الأساسية المطبقة على النطاق الأصلي.</aliases>
+  </domaindetail_help>
+  <subscription_plans>
+    <any_plan>أية خطة</any_plan>
+    <standard>قياسية</standard>
+    <professional>احترافية</professional>
+    <user_per_month>مقابل كل مستخدم شهرياً</user_per_month>
+  </subscription_plans>
+  <rules>
+    <lower>أقل</lower>
+    <greater>أكبر</greater>
+    <priority_highest>أعلى</priority_highest>
+    <priority_high>مرتفعة</priority_high>
+    <priority_normal>عادية</priority_normal>
+    <priority_low>منخفضة</priority_low>
+    <priority_lowest>أدنى</priority_lowest>
+    <function_contains_value_from_list>يحتوي على قيمة من القائمة (مفصولة بفاصلة منقوطة)</function_contains_value_from_list>
+    <function_matches_regex>مطابقات (RegEx)</function_matches_regex>
+    <function_starts_with>يبدأ بـ</function_starts_with>
+    <function_ends_with>ينتهي بـ</function_ends_with>
+    <function_equals>يساوي</function_equals>
+    <function_contains_value_from_file>يحتوي على قيمة من ضمن ملف أو نموذج</function_contains_value_from_file>
+    <condition_all_messages>كافة الرسائل</condition_all_messages>
+    <condition_where_from>حيث أن الجهة المرسلة</condition_where_from>
+    <condition_message_header_matches>تطابق ترويسة الرسالة</condition_message_header_matches>
+    <condition_where_subject>حيث الموضوع</condition_where_subject>
+    <condition_where_message_body_matches>حيث أن نص الرسالة يطابق</condition_where_message_body_matches>
+    <condition_where_message_contains_attachment>حيث تتضمن الرسالة مرفقاً</condition_where_message_contains_attachment>
+    <condition_where_attachment_name_matches>حيث أن اسم المرفق يطابق</condition_where_attachment_name_matches>
+    <condition_where_message_priority_is>حيث أن أولوية الرسالة هي</condition_where_message_priority_is>
+    <condition_where_message_size_is>حيث أن حجم الرسالة هو</condition_where_message_size_is>
+    <condition_where_message_is_spam>حيث الرسالة هي رسالة بريد مزعج</condition_where_message_is_spam>
+    <condition_where_to>حيث الجهة المستقبلة</condition_where_to>
+    <condition_where_cc>حيث الجهة المستقبلة في حقل النسخة Cc</condition_where_cc>
+    <condition_where_replyto>حيث الرد على</condition_where_replyto>
+    <condition_where_date>حيث التاريخ</condition_where_date>
+    <condition_where_custom_message_header_matches>حيث أن ترويسة الرسالة المخصصة تطابق</condition_where_custom_message_header_matches>
+    <condition_where_any_message_header_matches>حيث أن ترويسة أية رسالة تطابق</condition_where_any_message_header_matches>
+    <condition_where_sender_matches>حيث أن المرسل يطابق</condition_where_sender_matches>
+    <condition_where_recipient_matches>حيث أن المستقبل يطابق</condition_where_recipient_matches>
+    <condition_where_sender_recipient_is_local_remote>حيث المرسل /إن  المستقبل محلي / عن بُعد</condition_where_sender_recipient_is_local_remote>
+    <condition_where_spam_score_is>حيث أن علامة البريد المزعج هي</condition_where_spam_score_is>
+    <condition_where_local_time_meets>Where local time meets</condition_where_local_time_meets>
+    <condition_where_rdns_matches>حيث أن RDNS يطابق</condition_where_rdns_matches>
+    <condition_where_senders_ip_address_matches>حيث أن عنوان الـ IP الخاص بالمرسل يطابق</condition_where_senders_ip_address_matches>
+    <condition_where_senders_ip_address_is_listed_on_dnsbl>حيث أن عنوان الـ IP الخاص بالمرسل مدرج ضمن DNSBL</condition_where_senders_ip_address_is_listed_on_dnsbl>
+    <condition_where_session_is_trusted>حيث تكون الجلسة موثوقة</condition_where_session_is_trusted>
+    <condition_where_smtp_auth>حيث SMTP AUTH</condition_where_smtp_auth>
+    <condition_where_message_direct_to_user>الرسالة مرسلة إلى المستخدم مباشرة</condition_where_message_direct_to_user>
+    <action_accept_reject_delete_spam_quarantine>قبول / رفض / حذف / بريد مزعج / حجر</action_accept_reject_delete_spam_quarantine>
+    <action_forward_to_email>إعادة التوجيه إلى البريد الإلكتروني</action_forward_to_email>
+    <action_copy_to_folder>النسخ إلى مجلد</action_copy_to_folder>
+    <action_move_to_folder>النقل إلى مجلد</action_move_to_folder>
+    <action_encrypt_message>تشفير الرسالة</action_encrypt_message>
+    <action_send_new_message>إرسال رسالة جديدة</action_send_new_message>
+    <action_edit_message_header>تحرير ترويسة الرسالة</action_edit_message_header>
+    <action_set_message_priority_to>تعيين أولوية الرسالة إلى</action_set_message_priority_to>
+    <action_set_message_flags_to>تعيين أعلام الرسالة إلى</action_set_message_flags_to>
+    <action_stop_processing_more_rules>توقف عن معالجة المزيد من القواعد</action_stop_processing_more_rules>
+    <and>And</and>
+    <or>Or</or>
+    <and_not>And not</and_not>
+    <or_not>Or not</or_not>
+    <rules>القواعد</rules>
+    <result_title>كيفية إنشاء قاعدة:</result_title>
+    <result_step_1>1. أولاً اختر شرطاً واحداً أو أكثر</result_step_1>
+    <result_step_2>2. قم بإضافة بعض الأحداث إلى شروطك</result_step_2>
+    <result_step_3>3. قم بإضافة عنوان لتمييز القاعدة</result_step_3>
+    <result>النتيجة</result>
+    <basic>أساسية</basic>
+    <headers>الترويسات</headers>
+    <advanced>متقدمة</advanced>
+    <standard>قياسية</standard>
+    <extra>إضافية</extra>
+    <title>العنوان</title>
+    <actions>الأحداث</actions>
+    <conditions>الشروط</conditions>
+    <rule_number>رقم القاعدة</rule_number>
+    <new_rule>إضافة قاعدة</new_rule>
+    <delete>حذف</delete>
+    <activate>تفعيل</activate>
+    <deactivate>تعطيل</deactivate>
+  </rules>
+  <rulepopup>
+    <action>الحدث</action>
+    <add_new_header_condition>إضافة شرط جديد للترويسة</add_new_header_condition>
+    <from>من</from>
+    <header>الترويسة</header>
+    <match_regex>مطابقة التعابير النمطية (RegEx) في الترويسة الأصلية</match_regex>
+    <regex>التعابير النمطية (RegEx)</regex>
+    <subject>الموضوع</subject>
+    <text>النص</text>
+    <to>إلى</to>
+    <val>القيمة</val>
+    <add_edit>إضافة / تحرير</add_edit>
+    <delete>حذف</delete>
+  </rulepopup>
+  <rulecard>
+    <monday>الاثنين</monday>
+    <tuesday>الثلاثاء</tuesday>
+    <wednesday>الأربعاء</wednesday>
+    <thursday>الخميس</thursday>
+    <friday>الجمعة</friday>
+    <saturday>السبت</saturday>
+    <sunday>الأحد</sunday>
+    <action>حدث</action>
+    <all_items_match>كل العناصر مطابقة</all_items_match>
+    <antivirus>مكافح الفيروسات</antivirus>
+    <bare_lfs>Bare LFs</bare_lfs>
+    <between_dates>Between dates (yyyy:mm:dd)</between_dates>
+    <between_times>Between times (hh:mm)</between_times>
+    <change_mime>تغيير MIME-Version إلى 1.0</change_mime>
+    <copy_to_folder>نسخ إلى مجلد</copy_to_folder>
+    <crlf>CRLF.CRLF داخل الرسالة</crlf>
+    <db_connection>اتصال بقاعدة البيانات</db_connection>
+    <delete>حذف</delete>
+    <dnsbl_server>مخدّم DNSBL</dnsbl_server>
+    <email_address>عنوان البريد الإلكتروني</email_address>
+    <eof>EOF داخل الرسالة</eof>
+    <executable>قابل للتنفيذ</executable>
+    <flagged>تم إضافة علم عليه</flagged>
+    <flags>أعلام</flags>
+    <function>تابع</function>
+    <ignore>تجاهل</ignore>
+    <junk>غير هام</junk>
+    <label_1>تسمية 1</label_1>
+    <label_2>تسمية 2</label_2>
+    <label_3>تسمية 3</label_3>
+    <label_4>تسمية 4</label_4>
+    <label_5>تسمية 5</label_5>
+    <label_6>تسمية 6</label_6>
+    <local>محلي</local>
+    <match_case>مطابقة حالة الأحرف</match_case>
+    <member_of>عضو في</member_of>
+    <message_not_virus>الرسالة خالية من الفيروسات</message_not_virus>
+    <message_password>تتضمن الرسالة ملفات محمية بكلمة مرور</message_password>
+    <message_priority>أولوية الرسالة</message_priority>
+    <message_size>حجم الرسالة</message_size>
+    <message_virus>الرسالة تحوي فيروساً</message_virus>
+    <move_to_folder>نقل إلى مجلد</move_to_folder>
+    <non_junk>ليس بريداً غير هام</non_junk>
+    <not>ليس</not>
+    <one_item_matches>تطابق عنصراً واحداً على الأقل</one_item_matches>
+    <parse_xml>تحليل XML</parse_xml>
+    <quarantine>الحجر</quarantine>
+    <recipient>المستلم</recipient>
+    <regex>التعابير النمطية (RegEx)</regex>
+    <reject>رفض</reject>
+    <remote>عن بُعد</remote>
+    <remove_mime>Remove MIME-Version double char</remove_mime>
+    <rfc2822>تصحيح الاختراق RFC2822</rfc2822>
+    <score>العلامة</score>
+    <seen>تمت مشاهدته</seen>
+    <sender>المرسل</sender>
+    <sender_recipient>المرسل / المستقبل</sender_recipient>
+    <single_string>التحويل إلى سلسلة محرفية واحدة</single_string>
+    <spam>بريد مزعج</spam>
+    <sql_statement>تعليمة SQL</sql_statement>
+    <string>سلسلة محرفية</string>
+    <string_condition>شرط السلسة المحرفية</string_condition>
+    <than>من</than>
+    <time_criteria>معايير الوقت</time_criteria>
+    <type>النوع</type>
+    <user_doesnt_exists>المستخدم غير موجود</user_doesnt_exists>
+    <user_exists>المستخدم موجود</user_exists>
+    <weekdays>أيام الأسبوع</weekdays>
+    <whole_word>الكلمة بالكامل</whole_word>
+    <zerobyte>0x00 داخل الرسالة</zerobyte>
+    <accept>قبول</accept>
+    <add_edit>إضافة / تحرير</add_edit>
+    <add>إضافة</add>
+    <edit>تحرير</edit>
+    <forward_as_attachment>إعادة التوجيه كمرفق</forward_as_attachment>
+    <custom_flags>الأعلام المخصصة</custom_flags>
+    <userisonlyrecipient>المستخدم هو المستلم الوحيد</userisonlyrecipient>
+    <checkuserinto>التحقق من المستخدم في ترويسة إلى</checkuserinto>
+    <checkuserincc>التحقق من المستخدم في ترويسة نسخة إلى</checkuserincc>
+    <checkuserinbcc>التحقق من المستخدم في ترويسة نسخة  مخفية إلى</checkuserinbcc>
+  </rulecard>
+  <userlist>
+    <admin>مديرالنظام</admin>
+    <webadmin>مدير الويب</webadmin>
+    <catalog>كتالوج</catalog>
+    <domain_admin>مدير النطاق</domain_admin>
+    <executable>قابل للتنفيذ</executable>
+    <group>مجموعة</group>
+    <list_of_all_accounts>قائمة بجميع الحسابات</list_of_all_accounts>
+    <list_server>قائمة المخدّم</list_server>
+    <mailing_list>قائمة بريدية</mailing_list>
+    <notification>إشعار</notification>
+    <resource>مصدر</resource>
+    <static_route>المسار الثابت</static_route>
+    <user>مستخدم</user>
+    <external>خارجي</external>
+    <room>غرفة</room>
+    <equipment>تجهيزات</equipment>
+    <car>سيارة</car>
+  </userlist>
+  <userlist_header>
+    <account>حساب</account>
+    <name_and_account>الاسم والحساب</name_and_account>
+    <name>الاسم</name>
+    <quota>الاستخدام</quota>
+    <type>النوع</type>
+  </userlist_header>
+  <userlist_help>
+    <list_of_all_accounts>عرض وإدارة جميع حسابات النطاق. قم بالنقر على الحساب المناسب لفتحه من أجل تحريره.</list_of_all_accounts>
+  </userlist_help>
+  <mailinglist>
+    <account_member_itself>لا يمكن أن يكون الحساب عضواً في نفسه.</account_member_itself>
+    <mailinglist_members>قائمة بكافة أعضاء القائمة البريدية</mailinglist_members>
+    <members>الأعضاء</members>
+    <general_details>التفاصيل العامة</general_details>
+    <security>الأمان والحماية</security>
+    <members_source>Members source</members_source>
+    <settings>Settings</settings>
+    <owner>المالك</owner>
+    <description>الوصف</description>
+    <alias>الاسم المستعار</alias>
+    <add_alias>إضافة اسم مستعار</add_alias>
+    <source>المصدر</source>
+    <password_protection>الحماية بكلمة مرور</password_protection>
+    <password>كلمة المرور</password>
+    <default_rights>الحقوق الافتراضية</default_rights>
+    <max_number_of_messages>الحد الأقصى لعدد الرسائل الممكن إرسالها في دقيقة واحدة</max_number_of_messages>
+    <send_to_sender>الإرسال إلى المرسل</send_to_sender>
+    <forward_copy_to_owner>إعادة توجيه نسخة إلى المالك</forward_copy_to_owner>
+    <process_mailing_list>معالجة متحولات القائمة البريدية</process_mailing_list>
+    <personalized_mailing_list>Personalized mailing list - variable fields</personalized_mailing_list>
+    <remove_failed_email_addresses>إزالة عناوين البريد الإلكتروني الفاشلة</remove_failed_email_addresses>
+    <not_password_protected>غير محمي بكلمة مرور</not_password_protected>
+    <server_moderated>تحت إشراف المخدّم</server_moderated>
+    <client_moderated>تحت إشراف الزبون</client_moderated>
+    <recieve_and_post>الاستلام والنشر</recieve_and_post>
+    <digest_recieve_and_post>ملخص الاستلام والنشر</digest_recieve_and_post>
+    <recieve_only>الاستلام فقط</recieve_only>
+    <digest_recieve_only>ملخص الاستلام فقط</digest_recieve_only>
+    <post_only>النشر فقط</post_only>
+    <members_defined_manually>الأعضاء المحددون بشكل يدوي</members_defined_manually>
+    <members_from_text_file>الأعضاء من نص الملف</members_from_text_file>
+    <members_from_database>الأعضاء من قاعدة البيانات</members_from_database>
+    <all_current_domain_users>كافة مستخدمي النطاق الحالي</all_current_domain_users>
+    <all_system_users>كافة مستخدمي النظام</all_system_users>
+    <all_system_domain_administrators>All system domain administrators</all_system_domain_administrators>
+    <all_system_administrators>كافة مدراء النظام</all_system_administrators>
+    <only_members_can_post>يحق للأعضاء فقط نشر رسالة جديدة</only_members_can_post>
+    <do_not_deliver>لا تقم بالتسليم إلى الأعضاء الذين تجاوزا حصصهم</do_not_deliver>
+    <rights>الحقوق</rights>
+    <default>افتراضي</default>
+    <post>النشر</post>
+    <receive>الاستلام</receive>
+    <digest>ملخص</digest>
+  </mailinglist>
+  <mailinglist_help>
+    <mailinglist_members>مراجعة أعضاء القائمة البريدية، إضافة أعضاء جدد أو حذف أعضاء حاليين.  من أجل حذف عضو ما قم بوضع علامة في المربع المناسب واضغط على زر &quot;اختيار إجراء&quot;.</mailinglist_members>
+    <general_details>إدارة خصائص القائمة البريدية العامة. قم باستخدام زر &quot;إضافة&quot; عندما يتاح ذلك.</general_details>
+    <security>إدارة حقوق الأعضاء الافتراضية في القائمة البريدية وكلمة المرور وخصائص أخرى.</security>
+    <members_source>قم باختيار كيفية /مكان تعريف أعضاء القائمة البريدية.</members_source>
+    <settings>تحديد قواعد تسليم الرسائل ومعالجة المشكلات.</settings>
+  </mailinglist_help>
+  <group>
+    <account_member_itself>لا يمكن أن يكون الحساب عضواً في نفسه.</account_member_itself>
+    <group_members>قائمة أعضاء القائمة البريدية</group_members>
+    <members>الأعضاء</members>
+    <general_details>التفاصيل العامة</general_details>
+    <group_sharing>Group sharing</group_sharing>
+    <group_email_delivery>تسليم البريد الإلكتروني للمجموعة</group_email_delivery>
+    <security>الأمان والحماية</security>
+    <advanced_settings>الإعدادات المتقدمة</advanced_settings>
+    <name>الاسم</name>
+    <description>الوصف</description>
+    <alias>الاسم المستعار</alias>
+    <add_alias>إضافة اسم مستعار</add_alias>
+    <create_public_folder>إنشاء مجلد عام</create_public_folder>
+    <setup_permissions>إعداد الأذونات والحقوق</setup_permissions>
+    <permissions>الأذونات</permissions>
+    <only_members_can_post>يحق للأعضاء فقط نشر رسالة جديدة</only_members_can_post>
+    <do_not_deliver>لا تقم بالتسليم إلى الأعضاء الذين تجاوزا حصههم</do_not_deliver>
+    <password_protection>الحماية بكلمة مرور</password_protection>
+    <max_number_of_messages>الحد الأقصى لعدد الرسائل الممكن إرسالها في دقيقة واحدة</max_number_of_messages>
+    <populate_gal>ملء قائمة العناوين العمومية (GAL) بجميع الأعضاء</populate_gal>
+    <allow_gal_export>السماح بتصدير GAL إلى المخدمات الأخرى ضمن النطاق الموزع</allow_gal_export>
+    <organize_gal>تنظيم GAL في دفتر العناوين الهرمي (HAB)</organize_gal>
+    <deliver_to_all_members_individually>التسليم لكافة الأعضاء بشكل فردي</deliver_to_all_members_individually>
+    <deliver_mail_to_shared_folder>تسليم رسالة البريد الإلكتروني إلى المجلد المشترك</deliver_mail_to_shared_folder>
+    <teamchat>التراسل الفوري لفريق العمل (TeamChat)</teamchat>
+    <enable_teamchat>تفعيل التراسل الفوري لفريق العمل (TeamChat)</enable_teamchat>
+  </group>
+  <group_help>
+    <group_members>مراجعة أعضاء المجموعة، إضافة أعضاء جدد أو حذف أعضاء حاليين. من أجل حذف عضو ما قم بوضع علامة في المربع المناسب واضغط على زر &quot;اختيار إجراء&quot;.</group_members>
+    <general_details>إدارة الخصائص العامة للمجموعة. قم باستخدام زر &quot;إضافة&quot; من أجل إضافة اسم مستعار.</general_details>
+    <group_sharing>قم بتشغيل مفتاح التبديل إذا كنت ترغب بإنشاء مجلد عام لهذه المجموعة. أدخل اسم المجلد وانقر فوق زر &quot;الأذونات&quot; لتعيين حقوق الوصول لأعضاء المجموعة.</group_sharing>
+    <group_email_delivery>قم باختيار طريقة تسليم الرسائل لأعضاء المجموعة. قم بتحديد إن كان سيتم تسليم الرسائل إلى أعضاء المجموعة الذين تجاوزوا حدود حساباتهم.</group_email_delivery>
+    <security>حدد إن كان من الممكن لغير الأعضاء أن يقوموا بنشر الرسائل، وفيما إذا كان يتوجب أن يكون إرسال الرسائل إلى هذه المجموعة محمياً بكلمة مرور، إضافة إلى تعيين التحكم في تدفق الرسائل الصادرة.</security>
+    <advanced_settings>إدارة خصائص قائمة العناوين العمومية.</advanced_settings>
+    <populate_gal>قم بتشغيل مفتاح التبديل إذا كنت ترغب بإنشاء جهات اتصال لبرمجيات العمل الجماعي لكافة أعضاء المجموعة.</populate_gal>
+    <allow_gal_export>قم بتشغيل مفتاح التبديل إذا أمكن ذلك، من أجل استخدام قائمة العناوين العمومية البعيدة (GAL) للنطاق الموزع.</allow_gal_export>
+    <organize_gal>قم بتشغيل مفتاح التبديل إذا كنت ترغب بإنشاء بنية مجلد هرمية حيث يتم استخدام اسم مجموعة فرعية كاسم للمجلد.</organize_gal>
+    <teamchat>يسمح بإنشاء غرف محادثة عامة أو خاصة ضمن المجموعة.</teamchat>
+  </group_help>
+  <group_placeholder>
+    <create_public_folder>قم بإدخال مجلد عام</create_public_folder>
+  </group_placeholder>
+  <accountdetail>
+    <device>جهاز</device>
+    <account_is_disabled>إن الحساب معطل.</account_is_disabled>
+    <active>تفعيل</active>
+    <last_sync>المزامنة الأخيرة</last_sync>
+    <add_members>إضافة أعضاء</add_members>
+    <members>الأعضاء</members>
+    <message>الرسالة</message>
+    <mailinglistinfo>القائمة البريدية</mailinglistinfo>
+    <groupinfo>المجموعة</groupinfo>
+    <select_domain>اختر النطاق</select_domain>
+    <all_types>كافة الأنواع</all_types>
+    <custom>مخصص (لغاية حجم العتبة)</custom>
+    <headers>الترويسات فقط</headers>
+    <full>كافة البيانات</full>
+    <numbered_structure>هيكل مرقم</numbered_structure>
+    <folder_name_only>اسم المجلد فقط</folder_name_only>
+    <full_folder_path>مسار المجلد الكامل</full_folder_path>
+    <outlook_native>أوتلوك الأصلي</outlook_native>
+    <force_settings>فرض الإعدادات</force_settings>
+    <set_as_default>تعيين كافتراضي</set_as_default>
+    <account_features>ميزات الحساب</account_features>
+    <account_quote_enabled>حصة الحساب من القرص</account_quote_enabled>
+    <account_state>حالة الحساب</account_state>
+    <account_type>نوع الحساب</account_type>
+    <accountpicker>اختر الحساب</accountpicker>
+    <folderpicker>اختر المجلد</folderpicker>
+    <activation_key>مفتاح التفعيل</activation_key>
+    <add_alias>إضافة اسم مستعار</add_alias>
+    <add_email>إضافة بريد إلكتروني</add_email>
+    <add_phone>إضافة هاتف</add_phone>
+    <address>العنوان</address>
+    <advanced>متقدم</advanced>
+    <alias>اسم مستعار</alias>
+    <aliases>الأسماء المستعارة</aliases>
+    <all_items>كافة العناصر</all_items>
+    <allowed_activation_count>عدد التفعيلات المسموحة</allowed_activation_count>
+    <alternate_email>البريد الإلكتروني البديل</alternate_email>
+    <amount_per_day># يومياً</amount_per_day>
+    <anniversary>الذكرى السنوية</anniversary>
+    <antispam>مضاد البريد المزعج</antispam>
+    <antivirus>مكافحة الفيروسات</antivirus>
+    <appearance>المظهر</appearance>
+    <archive>الأرشيف</archive>
+    <assistant>المساعد</assistant>
+    <at>في</at>
+    <birthday>تاريخ الميلاد</birthday>
+    <card>البطاقة</card>
+    <certificates>الشهادات</certificates>
+    <change_password>تغيير كلمة المرور</change_password>
+    <change_quotas>حدود المستخدم</change_quotas>
+    <check_password_policy>كلمة المرور لا تتناسب مع سياسة كلمة المرور.</check_password_policy>
+    <city>المدينة</city>
+    <client_applications>تطبيقات الزبون</client_applications>
+    <company>الشركة</company>
+    <content_of_folders>قم بمزامنة محتوى المجلدات المحددة فور اكتشاف أي تغيير محلي</content_of_folders>
+    <copy_incoming_mail>نسخ البريد الإلكتروني الوارد</copy_incoming_mail>
+    <copy_outgoing_mail>نسخ البريد الإلكتروني الصادر</copy_outgoing_mail>
+    <country>البلد</country>
+    <days>أيام</days>
+    <default>افتراضي</default>
+    <delete_account_when_expired>حذف الحساب عند انتهاء صلاحيته</delete_account_when_expired>
+    <delete_mail_older_than>حذف رسائل البريد الإلكتروني الأقدم من</delete_mail_older_than>
+    <delete_spam_older_than>حذف رسائل البريد المزعج الأقدم من</delete_spam_older_than>
+    <delete_older>حذف رسائل البريد الإلكتروني الأقدم من (أيام)</delete_older>
+    <department>القسم</department>
+    <description>الوصف</description>
+    <digital_certificates>الشهادة الرقمية</digital_certificates>
+    <disabled>معطّل</disabled>
+    <disabled_login>معطّل (تسجيل الدخول)</disabled_login>
+    <disabled_login_receive>تعطيل (تسجيل الدخول، الاستلام)</disabled_login_receive>
+    <display_address_book_names>عرض الأسماء في دفتر العناوين كـ</display_address_book_names>
+    <do_not_forward>لا تقم بإعادة توجيه رسائل البريد المزعج</do_not_forward>
+    <do_not_use_spam>لا تستخدم مجلد البريد المزعج</do_not_use_spam>
+    <download>تحميل</download>
+    <download_files>تحميل الملفات</download_files>
+    <email>البريد الإلكتروني</email>
+    <enabled>مفعّل</enabled>
+    <exchange_activesync>برنامج Exchange ActiveSync</exchange_activesync>
+    <expiration>انتهاء الصلاحية</expiration>
+    <expires_if_inactive_for>انتهاء الصلاحية في حال عدم النشاط لمدة</expires_if_inactive_for>
+    <expires_on>انتهاء الصلاحية في</expires_on>
+    <reset_authentication>هل أنت متأكد من رغبتك في إعادة تعيين المصادقة الثنائية؟</reset_authentication>
+    <authentication_reset_succeeded>تم إعادة تعيين المصادقة الثنائية</authentication_reset_succeeded>
+    <features>الميزات</features>
+    <file_storage>تخزين الملفات</file_storage>
+    <web_documents>مستندات الويب (WebDocuments)</web_documents>
+    <file_transfer>نقل الملفات (FTP)</file_transfer>
+    <folder_structure_after>مزامنة بنية المجلد بعد</folder_structure_after>
+    <folder_synchronization_threshold>عتبة مزامنة المجلد (الرسائل الموجودة في المجلد)</folder_synchronization_threshold>
+    <forward_to>إعادة التوجيه إلى</forward_to>
+    <forwarder>مُعيد التوجيه</forwarder>
+    <from>من</from>
+    <gal_automatically>المزامنة  التلقائية لـ GAL</gal_automatically>
+    <gender>الجنس</gender>
+    <general>عام</general>
+    <generate>توليد</generate>
+    <generate_key>توليد مفتاح</generate_key>
+    <groupware>برمجيات العمل الجماعي (Groupware)</groupware>
+    <home_address>عنوان المنزل</home_address>
+    <home_email>Home email</home_email>
+    <home_phone>هاتف المنزل</home_phone>
+    <info>معلومات</info>
+    <instant_messaging>التراسل الفوري</instant_messaging>
+    <job>المهنة</job>
+    <last_time_logged>تسجيل الدخول الأخير</last_time_logged>
+    <lastname>اسم العائلة</lastname>
+    <licence>الترخيص</licence>
+    <licenses>التراخيص</licenses>
+    <limits>الحدود</limits>
+    <manage>إدارة</manage>
+    <manager>مدير</manager>
+    <max_message_size>الحد الأقصى لحجم الرسالة</max_message_size>
+    <messaging>المراسلات</messaging>
+    <mobile_devices>الأجهزة النقالة</mobile_devices>
+    <mode>نمط</mode>
+    <must_change_password>فرض تغيير كلمة المرور بعد تسجيل الدخول لأول مرة</must_change_password>
+    <name>الاسم</name>
+    <new_items>العناصر الجديدة</new_items>
+    <note>ملاحظة</note>
+    <notify_before_expiration>إرسال إشعار قبل انتهاء الصلاحية</notify_before_expiration>
+    <numbers_of_emails_sent>عدد رسائل البريد الإلكتروني المرسلة</numbers_of_emails_sent>
+    <of>من</of>
+    <online_conferencing>اجتماعات الويب (WebMeetings)</online_conferencing>
+    <password>كلمة المرور</password>
+    <old_password>كلمة المرور القديمة</old_password>
+    <new_password>كلمة المرور الجديدة</new_password>
+    <password_again>تأكيد كلمة المرور</password_again>
+    <password_not_saved>لم يتم حفظ كلمة المرور. قم بالتحقق من سياسة كلمة المرور.</password_not_saved>
+    <password_policy_alpha>عدد الحروف في كلمة المرور[a-z][A-Z]</password_policy_alpha>
+    <password_policy_digits>عدد الأرقام في كلمة المرور [0-9] :</password_policy_digits>
+    <password_policy_minlength>الحد الأدنى لطول كلمة المرور:</password_policy_minlength>
+    <password_policy_nonalphanum>عدد المحارف الخاصة في كلمة المرور [!@#$%...] :</password_policy_nonalphanum>
+    <password_policy_upperalpha>عدد الأحرف الكبيرة في كلمة المرور [A-Z]</password_policy_upperalpha>
+    <password_policy_useralias>لا يمكن لكلمة المرور أن تتضمن اسم المستخدم أو الاسم المستعار</password_policy_useralias>
+    <permissions>الأذونات</permissions>
+    <permissions_and_rights>الأذونات والحقوق</permissions_and_rights>
+    <phone>الهاتف</phone>
+    <pop_imap>بروتوكول POP3/IMAP</pop_imap>
+    <quarantine>الحجر</quarantine>
+    <quotas>الحصص</quotas>
+    <respond_again_after>الرد مرة أخرى بعد (أيام)</respond_again_after>
+    <respond_again_after_period>الرد مرة أخرى بعد فترة</respond_again_after_period>
+    <respond_always>الرد دائماً</respond_always>
+    <respond_once>الرد لمرة واحدة</respond_once>
+    <respond_only_if_between>الرد فقط إذا كان بين</respond_only_if_between>
+    <respond_to_messages>الرد على الرسائل المرسلة إلى عنوان البريد الإلكتروني للمستخدم فقط</respond_to_messages>
+    <responder>المستجيب</responder>
+    <responder_message>الرسالة</responder_message>
+    <rules>القواعد</rules>
+    <security>الحماية والأمان</security>
+    <selected_priority_folders>مزامنة المجلدات ذات الأولوية المحددة بعد</selected_priority_folders>
+    <selected_standard_folders>مزامنة المجلدات القياسية المحددة بعد</selected_standard_folders>
+    <send_key_to_user_by_email>إرسال المفتاح إلى المستخدم عن طريق البريد الإلكتروني</send_key_to_user_by_email>
+    <send_out_data_limit>حد البيانات المرسلة</send_out_data_limit>
+    <send_out_limit>حدود الإرسال اليومي</send_out_limit>
+    <send_out_message_limit>حد الرسائل المرسلة</send_out_message_limit>
+    <shared_folders>المجلدات المشتركة</shared_folders>
+    <sms>التراسل النصي</sms>
+    <smtp>بروتوكول SMTP</smtp>
+    <spam_folder_mode>نمط مجلد البريد المزعج</spam_folder_mode>
+    <spam_reports_mode>نمط تقارير البريد المزعج</spam_reports_mode>
+    <spam_trap>مصيدة البريد المزعج</spam_trap>
+    <state_county>الولاية / البلد</state_county>
+    <status>الحالة</status>
+    <storage_usage>المساحة التخزينية المستخدمة</storage_usage>
+    <street>الشارع</street>
+    <surname>اسم العائلة</surname>
+    <synchronization>المزامنة</synchronization>
+    <syncml>المزامنة SyncML</syncml>
+    <threshold_for_full_download>عتبة التحميل الكامل</threshold_for_full_download>
+    <unknown_ip>عنوان IP غير معروف</unknown_ip>
+    <upload_photo>تحميل صورة</upload_photo>
+    <use_spam>استخدم مجلد البريد المزعج</use_spam>
+    <user_can_send_to_local_domains_only>يمكن للمستخدم الإرسال إلى النطاقات المحلية فقط</user_can_send_to_local_domains_only>
+    <username>اسم المستخدم</username>
+    <voip>نقل الصوت عبر بروتوكول الإنترنت (VoIP)</voip>
+    <web_folders>مجلدات الويب (WebDAV)</web_folders>
+    <webclient>زبون الويب (WebClient)</webclient>
+    <website>موقع الويب</website>
+    <work_address>عنوان العمل</work_address>
+    <zip>الرمز البريدي</zip>
+    <add_to_group>الإضافة إلى مجموعة</add_to_group>
+    <change_rights>تغيير الحقوق</change_rights>
+    <move>نقل</move>
+    <delete>حذف</delete>
+    <remove>إزالة</remove>
+    <not_yet>ليس بعد</not_yet>
+    <teamchat>التراسل الفوري لفريق العمل (TeamChat)</teamchat>
+    <enable_client_licence>تفعيل ترخيص الزبون</enable_client_licence>
+    <disable_access_to_pop3>تعطيل الوصول إلى بروتوكول POP3 (حسابات IMAP فقط)</disable_access_to_pop3>
+    <two_factor_authentication>المصادقة الثنائية</two_factor_authentication>
+    <max_file_size>الحد الأقصى لحجم الملف</max_file_size>
+    <subscription_plan>خطة الاشتراك</subscription_plan>
+    <change_user_plan>تغيير خطة المستخدم</change_user_plan>
+  </accountdetail>
+  <accountdetail_help>
+    <account_state>قم بتحديد فيما إذا كان هذا الحساب سيعمل بشكل كامل ، أو سيكون معطلاً بشكل جزئي (بحيث لا يستطيع المستخدم تسجيل الدخول، ولكن يتم قبول الرسائل) ، أو معطلاً كلياً (لا يستطيع المستخدم تسجيل الدخول، ويتم رفض الرسائل)، أو سيعمل كمصيدة للرسائل غير المرغوب فيها.</account_state>
+    <activation_key>إن مفتاح التفعيل يتيح للمستخدم ترخيص تطبيقات زبون الويب المحددة بشكل مناسب. حالما يتم توليده فإنه سيكون متاحاً للمستخدم عبر واجهة زبون الويب أو عبر طلب المزامنة الذكية (SmartSync) من تطبيق الزبون.</activation_key>
+    <address>قم بإدخال عنوان الشارع أو مكان العمل.</address>
+    <advanced>قم بتشغيل مفاتيح التبديل لميزات المزامنة المتقدمة التي ترغب بتعيينها لهذا المستخدم. قم بإدخال القيم المناسبة.</advanced>
+    <aliases>قم بإدخال الأسماء المستعارة لهذا الحساب. سيتم إيصال الرسائل المرسلة إلى كافة  هذه العناوين إلى هذا الصندوق البريدي.</aliases>
+    <antispam>Select whether this user will receive spam reports, will receive reports as set in Anti-Spam - Action - Reports, reports with new spam items listed or reports with all spam items listed. Also select whether a spam folder is to be used.</antispam>
+    <antispam_features>إن التصفية الشاملة للبريد المزعج توفر للمستخدمين عناصر التحكم بالنظام من خلال القوائم السوداء والقوائم البيضاء ومجلدات البريد المزعج وتقارير الحجر.</antispam_features>
+    <antivirus>يقوم برنامج Enterprise Anti-Virus بمسح والتحقق من صحة كل ملف داخل إلى أو خارج من الحساب، سواء كان ذلك عن طريق البريد الإلكتروني أو مرفقات التقويم أو المستندات أو عمليات نقل الملفات.</antivirus>
+    <appearance>قم بتشغيل مفتاح التبديل وتحديد طريقة عرض الأسماء في دفتر العناوين.</appearance>
+    <archive>يقوم الأرشيف بحفظ جميع رسائل البريد الإلكتروني الواردة والصادرة والرسائل النصية، ويتيح  للمستخدمين الوصول  مع حق &quot;القراءة فقط&quot; إلى مجلد الأرشيف لاستعادة الرسائل المفقودة.</archive>
+    <client_applications>إدارة الأجهزة النقالة للمستخدمين، ومزامنة أوتلوك وتطبيقات الزبون للأجهزة المكتبية.</client_applications>
+    <email>قم بإدخال عنوان / عناوين البريد الإلكتروني للمستخدم.</email>
+    <exchange_activesync>مزامنة آمنة للبريد الإلكتروني والتقاويم وجهات الاتصال والمهام والملاحظات لجميع الأجهزة النقالة بما في ذلك Windows Phone و iPhone و iPad و Android.</exchange_activesync>
+    <expiration>تحديد تاريخ انتهاء صلاحية حساب المستخدم.</expiration>
+    <file_transfer>إن بروتوكول FTP يتيح للمستخدمين نقل ملفات كبيرة الحجم إلى وحدة تخزين مخصصة على المخدّم. إن استخدام الزبون القياسي للFTP يتيح للمستخدمين تصفح وإدارة وتحميل ورفع الملفات.</file_transfer>
+    <forwarder>تعيين مكان إعادة توجيه الرسائل أو نسخها، في حال استخدام أكثر من جهة يجب فصل العناوين بفاصلة منقوطة. يتم استخدام البريد الإلكتروني البديل أثناء استرداد كلمة المرور. لا يمكن للمستخدم  تعديل النسخة الواردة / الصادرة.</forwarder>
+    <general>قم بإدخال معلومات الحساب. سيتم عرض جميع البيانات المدخلة هنا ضمن جهة اتصال GAL الخاصة بالمستخدم. يمكن للمستخدمين تحرير الحقول ضمن مربع حوار &quot;التفاصيل الخاصة بي&quot; في زبون الويب (WebClient). إن جميع الحقول اختيارية.</general>
+    <groupware>يجب تفعيل برمجيات العمل الجماعي (GroupWare) للمستخدمين ليتمكنوا من الوصول إلى معلوماتهم العامة بما في ذلك قائمة العناوين العمومية وتقويمات الشركة والملفات والمجلدات العامة.</groupware>
+    <instant_messaging>إن التراسل في الزمن الحقيقي أو الدردشة تتيح التواصل المباشر والفوري بين المستخدمين، والسماح لهم بمشاركة الملفات ورؤية بعضهم البعض ضمن لائحة جهات الاتصال.</instant_messaging>
+    <licence_description>أدخل نصاً وصفياً.</licence_description>
+    <limits>قم بتشغيل مفاتيح التبديل وإدخال القيم المناسبة لحدود الحساب التي ترغب بتعيينها.</limits>
+    <note>ملاحظة لجهة الاتصال (يتم تحرير هذا الحقل من قبل المستخدم عادة).</note>
+    <online_conferencing>إن خدمة اجتماعات الويب تحفز التعاون وتزيد إنتاجية فريق عملك من خلال الاتصال الصوتي بين  المستخدمين والدردشة الجماعية ومشاركة الشاشة.</online_conferencing>
+    <permissions_and_rights>حدد نوعية المستخدم فيما إذا كان هذا حساب بريد إلكتروني عادي أو لمدير المخدّم أو لمدير النطاق. بالنقر على الميزات يمكنك تفعيل أو تعطيل الخدمات لهذا المستخدم تحديداً.</permissions_and_rights>
+    <phone>قم بإدخال رقم / أرقام هاتف المستخدم.</phone>
+    <pop_imap>يجب تفعيل خدمة النظام لاستلام رسائل البريد الإلكتروني من أجل فعالية الوظائف ضمن زبون الويب (WebClient) وزبائن البريد الإلكتروني الآخرين مثل أوتلوك، وThunderbird و Mail.</pop_imap>
+    <quarantine>يتيح لك الحجر وضع الرسائل الواردة المشبوهة في قائمة انتظار معلقة تنتظر التفويض اليدوي من قبل المدراء أو المستخدمين أنفسهم.</quarantine>
+    <quotas>لمحة عامة حول حدود عدد الرسائل المرسلة يومياً ومساحة القرص التي يشغلها هذا الحساب.</quotas>
+    <responder>قم بتحديد نمط المستجيب لهذا الحساب. يتم تفعيل الحقول الأخرى بناءً على النمط الذي تم اختياره.</responder>
+    <sms>إن الرسائل النصية المضمنة (SMS) تسمح للمستخدمين بإرسال رسائل نصية من زبون الويب (WebClient) والرد على الرسائل المستلمة وإدارتها وكأنها رسائل بريد إلكتروني في صندوق الوارد.</sms>
+    <smtp>يجب تفعيل خدمة النظام لاستلام رسائل البريد الإلكتروني من أجل فعالية الوظائف ضمن زبون الويب (WebClient) وزبائن البريد الإلكتروني الآخرين مثل أوتلوك، وThunderbird و Mail.</smtp>
+    <synchronization>قم بتشغيل مفاتيح التبديل لميزات المزامنة التي ترغب بتعيينها لهذا المستخدم. قم بإدخال القيم المناسبة.</synchronization>
+    <syncml>المزامنة اللاسلكية للتقاويم وجهات الاتصال والمهام والملاحظات إلى الأجهزة النقالة القديمة والمعتمدة على  Palm OS و Symbian وغيرها من أنظمة التشغيل التي لا تدعم ActiveSync.</syncml>
+    <voip>إن المهاتفة عبر الإنترنت تتيح للمستخدمين إجراء مكالمات صوتية / مرئية والانضمام إلى مكالمات جماعية وذلك مباشرة من تطبيق زبون الويب (WebClient) أو باستخدام هاتف أو تطبيق متوافق مع SIP.</voip>
+    <web_folders>إن الدخول الخارجي إلى السحابة الخاصة بالمستخدم يسمح بتعيينها كمحرك شبكة لأنظمة التشغيل ويندوز / لينكس / ماك ، إضافة إلى تخزين المستندات والصور وغيرها من الملفات.</web_folders>
+    <webclient>إتاحة الوصول إلى البريد الإلكتروني والتقاويم وجهات الاتصال والمهام والملاحظات والمستندات عن طريق الويب. كما يمكن أن تتم مشاركة كافة المعلومات بين المستخدمين عبر المجلدات العامة والمشتركة.</webclient>
+    <website>قم بإدخال عنوان موقع الويب الخاص بالمستخدم.</website>
+    <teamchat>إن التراسل الفوري لفريق العمل هو أداة عصرية للتعاون والتشارك بين أفراد فريق العمل والمشاريع. فهو يتيح لك الاتصال مع أعضاء الفريق وتنظيم المحادثات حول أحد المواضيع، ومشاركة الملفات وعقد الاجتماعات المخصصة.</teamchat>
+    <web_documents>إن المحررات على الشبكة تتيح العمل على مختلف ملفات مايكروسوفت أوفيس و OpenOffice. إضافة إلى إنشاء مستندات بتنسيقات رائعة، وعروض تقديمية مذهلة، وجداول بيانات باستخدام الصيغ، كل ذلك دون أن تحتاج إلى مغادرة زبون الويب (WebClient).</web_documents>
+  </accountdetail_help>
+  <accountdetail_placeholder>
+    <folder_synchronization_threshold>قم بإدخال الحد الأقصى لعدد الرسائل في المجلد</folder_synchronization_threshold>
+  </accountdetail_placeholder>
+  <accountinfo>
+    <name>الاسم</name>
+    <ignore_password_policy>تجاهل سياسة كلمة المرور</ignore_password_policy>
+  </accountinfo>
+  <synchronization>
+    <address_books>دفاتر العناوين</address_books>
+    <advanced>متقدمة</advanced>
+    <appearance>مظهر</appearance>
+    <authentication_method>طريقة المصادقة</authentication_method>
+    <automatically_revert_changes>التراجع تلقائياً عن التغييرات في المجلدات التي تتمتع بحقوق وصول &quot;القراءة فقط&quot;</automatically_revert_changes>
+    <check_for_updates>التحقق من وجود تحديثات</check_for_updates>
+    <delete_after_specified_days>الحذف بعد عدد محدد من الأيام</delete_after_specified_days>
+    <delete_logs>حذف السجلات</delete_logs>
+    <disable_tnef>تعطيل TNEF</disable_tnef>
+    <do_not_show_connection_errors>لا تقم بإظهار أخطاء الاتصال</do_not_show_connection_errors>
+    <do_not_show_login_errors>لا تقم بإظهار أخطاء تسجيل الدخول</do_not_show_login_errors>
+    <do_not_show_progress>لا تقم بإظهار التقدم</do_not_show_progress>
+    <hide_notification_after>قم بإخفاء التنبيه بعد (ثوان)</hide_notification_after>
+    <licence_and_updates>الترخيص والتحديثات</licence_and_updates>
+    <line_security>خط الأمان</line_security>
+    <logging_level>مستوى تسجيل الدخول</logging_level>
+    <login>تسجيل الدخول</login>
+    <login_credentials>بيانات اعتماد تسجيل الدخول</login_credentials>
+    <login_port>منفذ تسجيل الدخول</login_port>
+    <logs>السجلات</logs>
+    <log_debug>تنقيح</log_debug>
+    <log_errors>الأخطاء فقط</log_errors>
+    <new_mail_options>خيارات البريد الإلكتروني الجديد</new_mail_options>
+    <play_default_sound>إصدار الصوت الافتراضي</play_default_sound>
+    <show_desktop_notification>إظهار التنبيهات على سطح المكتب</show_desktop_notification>
+    <skip_trash_folder>تخطي فحص مجلد سلة المحذوفات عند بدء التشغيل</skip_trash_folder>
+    <synchronization_exceptions>استثناءات المزامنة</synchronization_exceptions>
+    <synchronization_frequency>تكرار المزامنة</synchronization_frequency>
+    <plain>بسيطة</plain>
+    <cram_md5>المصادقة Cram MD5</cram_md5>
+    <starttsl>بروتوكول STARTTSL</starttsl>
+    <ssl>بروتوكول SSL</ssl>
+    <updates>التحديثات</updates>
+  </synchronization>
+  <dns>
+    <no_dns_records uses="DNS validation">لا توجد سجلات DNS</no_dns_records>
+    <all_available>كل ما هو متاح</all_available>
+    <service_mx>البريد الإلكتروني</service_mx>
+    <service_autodiscover>الكاشف الذكي (SmartDiscover)</service_autodiscover>
+    <service_autodiscover_srv>الكاشف الذكي (SmartDiscover)</service_autodiscover_srv>
+    <service_webdav>بروتوكول WebDAV</service_webdav>
+    <service_sip>بروتوكول SIP</service_sip>
+    <service_xmpp>بروتوكول XMPP</service_xmpp>
+    <service_ischedule>الجدولة iSchedule</service_ischedule>
+    <service_rdns>RDNS</service_rdns>
+    <service_spf>طريقة التحقق SPF</service_spf>
+    <service_dkim>طريقة التحقق DKIM</service_dkim>
+    <default_alias>الاسم المستعار الافتراضي</default_alias>
+    <domain_type>نوع النطاق</domain_type>
+    <email>البريد الإلكتروني</email>
+    <expires_on>أنتهاء الصلاحية في</expires_on>
+    <hostname>اسم المُضيف</hostname>
+    <ip_address>عنوان الـ IP</ip_address>
+    <name>الاسم</name>
+    <type>النوع</type>
+    <user_count>تعداد المستخدم</user_count>
+    <user_limit>حدود المستخدم</user_limit>
+    <dns>سجلات DNS الحالية</dns>
+    <academy_text>يرجى الرجوع إلى أكاديمية IceWarp وعرض ملف الفيديو حول كيفية إعداد سجلات DNS بشكل صحيح. على سبيل المثال فإنه يمكن تحميل ملف المنطقة الخاص بنطاقك في الأسفل.</academy_text>
+    <academy_caption>تحديث ملف المنطقة (zone file)</academy_caption>
+    <academy_warning>يرجى التحقق من صحة سجلات DNS الخاصة بك.</academy_warning>
+    <general>عام</general>
+    <loading>تحميل معلومات النطاق</loading>
+    <learn_more>تعرف على المزيد حول التحقق من الصحة</learn_more>
+  </dns>
+  <dns_help>
+    <dns>إن إعدادات DNS الحالية لنطاقك مدرجة في الأسفل.لقد تم تمييز الإدخالات غير الصحيحة أو الفارغة باللون الأحمر.</dns>
+  </dns_help>
+  <dkim>
+    <domain_key_selector>مُحدِد مفتاح النطاق</domain_key_selector>
+    <selector>المحدد (Selector)</selector>
+    <selector_placeholder>سلسلة محرفية عشوائية فريدة</selector_placeholder>
+    <no_selector>يرجى تحديد محدد فريد لهذا المخدّم</no_selector>
+    <generate_key>توليد مفتاح جديد</generate_key>
+    <selector_host>اسم المضيف</selector_host>
+    <selector_record>سجل المحدد</selector_record>
+    <sign_outgoing_mails>توقيع رسائل البريد الصادر باستخدام DKIM</sign_outgoing_mails>
+    <reset>إعادة تعيين إعدادات DKIM</reset>
+    <reset_succeeded>تم إعادة تعيين إعدادات DKIM</reset_succeeded>
+    <wizard>معالج DKIM</wizard>
+    <academy_title>برنامج تعليمي لإعداد DKIM في أكاديمية IceWarp</academy_title>
+    <academy_caption>تحديث ملف المنطقة (zone file)</academy_caption>
+    <academy_text>يرجى الرجوع إلى ملف الفيديو في أكاديمية IceWarp حول كيفية إعداد سجلات DKIM  في DNS بشكل صحيح.</academy_text>
+    <setup>إعداد DKIM</setup>
+    <setup_failed>لقد فشلت عملية إعداد  DKIM</setup_failed>
+    <loading>يتم توليد مفتاح جديد</loading>
+  </dkim>
+  <dkim_help>
+    <domain_key_selector>Any text, if you set DKIM for this domain on multiple servers, each server has to have unique selector.</domain_key_selector>
+    <selector_record>قم بإعداد وتكوين مخدم DNS  باستخدام مفتاح عام. يجب عليك إضافة الإدخال التالي إلى مخدم DNS الخاص بك على سبيل المثال icecream._domainkey.www.icewarp.com.</selector_record>
+    <wizard>يتم استخدام DKIM من قبل المخدمات البعيدة من أجل التحقق من كون رسائل البريد الإلكتروني المرسلة من هذا النطاق حقيقية وليست مخادعة. من أجل استخدام DKIM، يجب أن يتم إنشاء سجل DNS TXT على النحو التالي &amp;lt;Selector&amp;gt;._domainkey.&amp;lt;domainname&amp;gt;</wizard>
+  </dkim_help>
+  <accountpicker>
+    <users>المستخدمون</users>
+    <domains>النطاقات</domains>
+    <items_selected>العناصر المختارة</items_selected>
+    <show_them>عرض ما تم اختياره</show_them>
+    <hide_them>عرض الكل</hide_them>
+    <account_picker>قم باختيار حساب</account_picker>
+    <account_type>نوع الحساب</account_type>
+    <add_account>إضافة حسابات</add_account>
+    <add_domain>إضافة نطاق</add_domain>
+    <add_user>إضافة مستخدم</add_user>
+    <domain>النطاق</domain>
+    <filter>المرشح</filter>
+    <add_external>إضافة خارجي</add_external>
+    <add_external_members>إضافة أعضاء خارجيين</add_external_members>
+  </accountpicker>
+  <spam_queues>
+    <quarantine>حجر</quarantine>
+    <whitelist>القائمة البيضاء</whitelist>
+    <blacklist>القائمة السوداء</blacklist>
+    <action_delete>حذف</action_delete>
+    <action_deliver>تسليم</action_deliver>
+    <action_whitelist>القائمة البيضاء</action_whitelist>
+    <action_blacklist>القائمة السوداء</action_blacklist>
+    <add_item>إضافة</add_item>
+    <detail>تفصيل</detail>
+  </spam_queues>
+  <spamqueues_header>
+    <sender>المرسل</sender>
+    <subject>الموضوع</subject>
+    <date>التاريخ</date>
+    <owner>المالك</owner>
+    <domain>النطاق</domain>
+    <filter_sender>ترشيح المرسل</filter_sender>
+    <filter_owner>ترشيح المالك</filter_owner>
+    <filter_domain>ترشيح النطاق</filter_domain>
+    <filter>ترشيح النتائج</filter>
+  </spamqueues_header>
+  <certificates>
+    <server_certificates>شهادات المخدّم</server_certificates>
+    <ca_certificates>شهادات CA</ca_certificates>
+    <secure_destinations>الوجهات الآمنة</secure_destinations>
+    <create_certificate>إنشاء شهادات  CSR / المخدّم</create_certificate>
+    <wizard>خيارات الشهادة</wizard>
+    <reissue>إعادة إصدار</reissue>
+    <finalize>إتمام</finalize>
+    <properties>خصائص</properties>
+    <edit>تحرير</edit>
+    <add_hostname>إضافة اسم مضيف آخر</add_hostname>
+    <bits>Bits</bits>
+    <validity>صلاحية</validity>
+    <country>البلد</country>
+    <state>الولاية</state>
+    <city>المدينة</city>
+    <organization>المنظمة</organization>
+    <organization_unit>وحدة المنظمة</organization_unit>
+    <email>البريد الإلكتروني</email>
+    <common_name>الاسم الشائع (FQDN)</common_name>
+    <signature_request>إنشاء طلب توقيع الشهادة (CSR)</signature_request>
+    <ip_address>عنوان الـ IP</ip_address>
+    <no_ip_limit>الكل</no_ip_limit>
+    <certificate>الشهادة</certificate>
+    <ip>عنوان الـ IP</ip>
+    <cn>الاسم الشائع (CN)</cn>
+    <issuer>الجهة المُصّدرة</issuer>
+    <expiration>انتهاء الصلاحية</expiration>
+    <subject>الموضوع</subject>
+    <cert_bits>وحدات البت</cert_bits>
+    <fingerprint>بصمة الإصبع</fingerprint>
+    <type>النوع</type>
+    <type_normal>قياسية</type_normal>
+    <type_csr/>
+    <type_letsencrypt>شهادة &quot;Let&apos;s Encrypt&quot;</type_letsencrypt>
+    <hostname>اسم المضيف</hostname>
+    <default>الافتراضي</default>
+    <set_as_default>تعيين كافتراضي</set_as_default>
+    <csr>طلب توقيع الشهادة (CSR)</csr>
+    <add_existing>إضافة الموجود</add_existing>
+    <new_icewarp_cert>طلب شهادة IceWarp</new_icewarp_cert>
+    <new_ca_cert>طلب شهادة تفويض</new_ca_cert>
+    <new_lets_encrypt_cert>شهادة Let&apos;s Encrypt  مجانية</new_lets_encrypt_cert>
+    <new_self_signed_cert>شهادة مجانية موقعة ذاتياً</new_self_signed_cert>
+    <reissue_cert>إعادة إصدار الشهادة</reissue_cert>
+    <reissue_icewarp_cert>إعادة الإصدار كشهادة IceWarp</reissue_icewarp_cert>
+    <reissue_ca_cert>إعادة الإصدار كشهادة تفويض</reissue_ca_cert>
+    <reissue_lets_encrypt_cert>إعادة الإصدار كشهادة Let&apos;s Encrypt</reissue_lets_encrypt_cert>
+    <reissue_self_signed_cert>إعادة الإصدار كشهادة موقعة ذاتياً</reissue_self_signed_cert>
+    <unit>وحدة</unit>
+    <company_details>تفاصيل الشركة</company_details>
+    <add_certificate>إضافة شهادة</add_certificate>
+    <certificate_settings>إعدادات الشهادة</certificate_settings>
+    <icewarp_details>شهادة IceWarp</icewarp_details>
+    <authority_details>تفاصيل الشهادة</authority_details>
+    <letsencrypt_details>شهادة Let&apos;s Encrypt</letsencrypt_details>
+    <selfsigned_details>شهادة موقعة ذاتياً</selfsigned_details>
+    <email_details>شهادة البريد الإلكتروني</email_details>
+    <details>التفاصيل</details>
+    <ip_binding>ربط الـ IP</ip_binding>
+    <domains>النطاقات</domains>
+    <errors>الأخطاء</errors>
+    <export_csr>تصدير CSR</export_csr>
+    <bind_certificate>شهادة الربط</bind_certificate>
+    <all_ips>عناوين الـ IP</all_ips>
+    <selected_ips>عناوين الـ IP المحددة</selected_ips>
+    <cert_domains>تصديق النطاقات</cert_domains>
+    <cert_failure>فشل التصديق</cert_failure>
+    <last_cert_attempt>آخر محاولة تصديق</last_cert_attempt>
+    <error>خطأ</error>
+    <ver_failed_for>فشل التحقق لـ</ver_failed_for>
+    <reuse>إعادة استخدام زوج المفاتيح الخاص / العام</reuse>
+    <generate>إصدار زوج المفاتيح الخاص / العام</generate>
+    <domain_unknown>غير معروف</domain_unknown>
+    <domain_error>خطأ</domain_error>
+    <domain_valid>صالح</domain_valid>
+    <domain_invalid>غير صالح</domain_invalid>
+    <domain_timeout>نفاذ المهلة</domain_timeout>
+    <key_pair>زوج المفاتيح</key_pair>
+    <hostnames>أسماء المضيف</hostnames>
+  </certificates>
+  <certificates_help>
+    <add_existing>قم باختيار هذا الخيار في حال كنت تملك شهادة مخدّم SSL جاهزة.</add_existing>
+    <new_icewarp_cert>يمكنك القيام بشراء شهادة مخدّم SSL موثوقة من IceWarp ببضع خطوات بسيطة. كما يمكنك إعادة إصدارها  في حال انتهاء صلاحيتها أو في حال أردت إضافة المزيد من النطاقات.</new_icewarp_cert>
+    <new_ca_cert>يمكنك توليد طلب شهادة من أجل استخدامه مع مزود الشهادات المفضل لديك. كما يمكنك إعادة إصدارها  في حال انتهاء صلاحيتها أو في حال أردت إضافة المزيد من النطاقات.</new_ca_cert>
+    <new_lets_encrypt_cert>يمكنك توليد شهادة مجانية من المنظمة المصدقة لتوليد الشهادات &quot;Let&apos;s Encrypt&quot;. يتم إعادة إصدار الشهادة بشكل تلقائي قبل انتهاء صلاحيتها، كما يتم إعادة إصدارها بشكل يدوي في حال الحاجة إلى إضافة النطاقات أو إزالتها.</new_lets_encrypt_cert>
+    <new_self_signed_cert>يمكنك توليد شهادة مجانية غير مصدقة من قبل أية منظمة لتوليد الشهادات. يمكنك إستخدام هذا النوع من الشهادات في حال لم يكن لعامل الأمان دور مهم. يمكنك إعادة الإصدار كلما دعت الحاجة لذلك.</new_self_signed_cert>
+    <csr>هذا طلب توقيع الشهادة (CSR). يجب تقديم CSR إلى الجهة المصدقة. بمجرد الانتهاء من عملية التحقق من الصحة ، يجب أن تقوم بربط الشهادة المستلمة من الجهة المصدقة مع طلب توقيع الشهادة (CSR) الأصلي.</csr>
+  </certificates_help>
+  <policies>
+    <login>سياسة تسجيل الدخول</login>
+    <password>سياسة كلمة المرور</password>
+    <outlook>سياسة أوتلوك</outlook>
+    <block_user_login_accounts>حظر تسجيل دخول المستخدم للحسابات التي تجاوزت العدد المسموح به لمحاولات تسجيل الدخول الفاشلة</block_user_login_accounts>
+    <block_user_login_time>حظر تسجيل دخول المستخدم لـ</block_user_login_time>
+    <login_policy_mode>نمط سياسة تسجيل الدخول</login_policy_mode>
+    <require_administrator>طلب مصادقة المدير من أجل الوصول إلى إعدادات النظام</require_administrator>
+    <usernames>أسماء المستخدم</usernames>
+    <email_addresses>عناوين البريد الإلكتروني</email_addresses>
+    <convert_usernames>تحويل % و / إلى @ في أسماء المستخدم</convert_usernames>
+    <account_ip_restriction>استخدام تقييد عنوان الـ IP لتسجيل الدخول إلى الحساب</account_ip_restriction>
+    <login_restriction>القيود على تسجيل الدخول</login_restriction>
+    <users_login>يقوم المستخدمون بتسجيل الدخول باستخدامهم</users_login>
+    <login_policy>سياسة تسجيل الدخول</login_policy>
+    <password_policy>سياسة كلمة المرور</password_policy>
+    <active>نشيط</active>
+    <password_cannot_contain>لا يمكن كلمة المرور أن تتضمن اسم المستخدم أو الاسم المستعار</password_cannot_contain>
+    <enable_password>تفعيل تشفير كلمة المرور</enable_password>
+    <minimal_password_length>الحد الأدنى لطول كلمة المرور</minimal_password_length>
+    <numeric>عدد الأرقام في كلمة المرور [0-9]</numeric>
+    <non_alpha_numeric>عدد المحارف الخاصة في كلمة المرور [!@#$%...]</non_alpha_numeric>
+    <alpha>عدد الحروف في كلمة المرور [a-z][A-Z]</alpha>
+    <uppercase_alpha>عدد الأحرف الكبيرة في كلمة المرور [A-Z]</uppercase_alpha>
+    <password_expires_after>تنتهي صلاحية كلمة المرور بعد</password_expires_after>
+    <notify_before_expiration>إرسال إشعار قبل انتهاء الصلاحية</notify_before_expiration>
+    <custom_notification>تنسيق ملف رسائل الإشعارات</custom_notification>
+    <passwords_read_exported>تعذر قراءة أو تصدير كلمة المرور</passwords_read_exported>
+    <admin_passwords_read_exported>تعذر قراءة أو تصدير كلمة المرور الخاصة بالمدير</admin_passwords_read_exported>
+    <do_not_block_but_delay>لا تقم بحظر عملية المصادقة وإنما قم بتأخيرها</do_not_block_but_delay>
+    <block_account>حظر الحساب لفترة محددة من الوقت</block_account>
+    <manage>الإدارة</manage>
+    <general>عام</general>
+    <password_format>تنسيق كلمة المرور</password_format>
+    <password_expiration>انتهاء صلاحية كلمة المرور</password_expiration>
+    <password_retrieval>استعادة كلمة المرور</password_retrieval>
+  </policies>
+  <whitelabeling>
+    <use_default>إعادة التعيين إلى القيم الافتراضية</use_default>
+    <available_interfaces>الواجهات المتاحة</available_interfaces>
+    <disable_autofill>الاستكمال التلقائي لـ اسم المستخدم / كلمة المرور</disable_autofill>
+    <disable_facebook_integration>التكامل مع فيسبوك</disable_facebook_integration>
+    <disable_interface>اختيار الواجهة</disable_interface>
+    <disable_language>اختيار اللغة</disable_language>
+    <disable_login_banners>الإعلانات</disable_login_banners>
+    <disable_login_help>المساعدة عند تسجيل الدخول</disable_login_help>
+    <disable_remember_me>تذكرني</disable_remember_me>
+    <disable_sign_up>التسجيل</disable_sign_up>
+    <disable_support_link>رابط الدعم</disable_support_link>
+    <disable_twitter_integration>التكامل مع تويتر</disable_twitter_integration>
+    <disable_linkedin_integration>التكامل مع LinkedIn</disable_linkedin_integration>
+    <login_logo>شعار تسجيل الدخول</login_logo>
+    <login_style>نمط تسجيل الدخول</login_style>
+    <page_title>عنوان الصفحة</page_title>
+    <preferred_interface>الواجهة المفضلة</preferred_interface>
+    <skin>المظهر</skin>
+    <skin_style>نمط المظهر</skin_style>
+    <background_img>صورة الخلفية</background_img>
+    <twitter_handle>مقبض تويتر (Twitter handle)</twitter_handle>
+    <upload>تحميل/رفع</upload>
+    <url_to_like>الرابط التشعبي للصفحة من أجل إظهار الإعجاب</url_to_like>
+    <wa_skin>مظهر مدير الويب</wa_skin>
+    <wc_skin>مظهر زبون الويب</wc_skin>
+    <blue uses="Login style,Skin style">أزرق</blue>
+    <black uses="Login style,Skin style">أسود</black>
+    <brown uses="Login style,Skin style">بني</brown>
+    <graphite uses="Login style,Skin style">جرافيت</graphite>
+    <green uses="Login style,Skin style">أخضر</green>
+    <orange uses="Login style,Skin style">برتقالي</orange>
+    <pink uses="Login style,Skin style">وردي</pink>
+    <purple uses="Login style,Skin style">أرجواني</purple>
+    <red uses="Login style,Skin style">أحمر</red>
+    <yellow uses="Login style,Skin style">أصفر</yellow>
+    <desktop uses="Preferred interface,Available interfaces">الجهاز المكتبي</desktop>
+    <tablet uses="Preferred interface,Available interfaces">الجهاز اللوحي</tablet>
+    <mobile uses="Preferred interface,Available interfaces">الجهاز النقال</mobile>
+    <facebook_page_url>الرابط التشعبي لصفحة فيسبوك</facebook_page_url>
+    <twitter_page_url>الرابط التشعبي لصفحة فيسبوك</twitter_page_url>
+    <linkedin_page_url>الرابط التشعبي لصفحة LinkedIn</linkedin_page_url>
+    <language>اللغة</language>
+    <server_language>لغة المخدّم</server_language>
+    <login_page_options>خيارات صفحة تسجيل الدخول</login_page_options>
+    <social_integration>Social integrations</social_integration>
+    <interfaces>الواجهات</interfaces>
+    <background_image>صورة الخلفية</background_image>
+    <choose_image>اختر الصورة</choose_image>
+    <choose_color>اختر اللون</choose_color>
+    <login_heading>ترويسة تسجيل الدخول</login_heading>
+    <login_title>عنوان تسجيل الدخول</login_title>
+    <login_text>نص تسجيل الدخول</login_text>
+    <login_skin>مظهر شاشة تسجيل الدخول</login_skin>
+    <email>البريد الإلكتروني</email>
+    <sms>نص الرسالة</sms>
+    <upload_custom_background>تحميل/رفع خلفية مخصصة</upload_custom_background>
+    <search>البحث</search>
+    <search_query>استعلام البحث</search_query>
+    <banners>إعلانات البانر</banners>
+    <banner_none>تعطيل</banner_none>
+    <banner_url>صورة ثابتة</banner_url>
+    <banner_code>خدمة AdSense</banner_code>
+    <top_banner_type>Leaderboard at login</top_banner_type>
+    <bottom_banner_type>مستطيل في لائحة التراسل الفوري</bottom_banner_type>
+    <desktop_banner_type>الدقة الكاملة (728x90 بكسل)</desktop_banner_type>
+    <mobile_banner_type>دقة الأجهزة النقالة (300x100 بكسل)</mobile_banner_type>
+    <login_banners>صفحة تسجيل الدخول</login_banners>
+    <webclient_banners>زبون الويب (WebClient)</webclient_banners>
+    <adsense_settings>إعدادات AdSense</adsense_settings>
+    <adsense_customer_id>رقم زبون AdSense</adsense_customer_id>
+    <adsense_slot_id>رقم فتحة AdSense</adsense_slot_id>
+    <required>مطلوب</required>
+    <custom_sign_up_fields>حقول التسجيل المخصصة</custom_sign_up_fields>
+    <nickname>الاسم الرمزي</nickname>
+    <company>الشركة</company>
+    <job>المهنة</job>
+    <profession>الاختصاص</profession>
+    <mobile_phone>الهاتف النقال</mobile_phone>
+    <work_phone>هاتف العمل</work_phone>
+    <home_phone>هاتف المنزل</home_phone>
+    <im>التراسل الفوري</im>
+    <gender>الجنس</gender>
+    <birthday>تاريخ الميلاد</birthday>
+    <homepage>الصفحة الرئيسة</homepage>
+    <two_step_verification>التحقق من التسجيل</two_step_verification>
+    <verification_method>طريقة التحقق</verification_method>
+    <ic_skin>مظهر IceChat في الأجهزة النقالة</ic_skin>
+    <require_contact_number>إن رقم جهة الاتصال مطلوب</require_contact_number>
+    <conferencing>عقد المؤتمرات</conferencing>
+    <conferencing_logo>شعار عقد المؤتمرات</conferencing_logo>
+  </whitelabeling>
+  <whitelabeling_help>
+    <login_logo>يمكنك تغيير الشعار الذي يظهر على صفحة تسجيل دخولك. التنسيقات المدعومة للصور هي:  JPG, PNG, GIF, SVG. الحد الأقصى لحجم الصورة: 20 ميغا بايت.</login_logo>
+    <login_page_options>قم باختيار العناصر التي تريد إظهارها أو إخفاءها من صفحة تسجيل الدخول.</login_page_options>
+    <login_skin>قم بإعداد مظهر صفحة تسجيل الدخول.</login_skin>
+    <login_skin_style>قم باختيار اللون الأساسي لصفحة تسجيل الدخول.</login_skin_style>
+    <login_background>قم باختيار صورة الخلفية الملائمة لصفحة تسجيل الدخول الخاصة بك.</login_background>
+    <page_title>قم بتغيير النص الذي يراه المستخدمون على عنوان النافذة.</page_title>
+    <server_language>قم بتحديد تفضيلات اللغة للمستخدمين.</server_language>
+    <social_integration>قم بإعداد الروابط إلى وسائل التواصل الاجتماعي.</social_integration>
+    <wa_skin>قم بإعداد المظهر الداخلي لمدير الويب.</wa_skin>
+    <wa_skin_style>قم باختيار اللون الأساسي لمدير الويب.</wa_skin_style>
+    <wc_skin>قم بإعداد المظهر الداخلي لزبون الويب.</wc_skin>
+    <wc_skin_style>قم باختيار اللون الأساسي لزبون الويب.</wc_skin_style>
+    <search_query>قم بتزويد ارتباط تشعبي لمحرك البحث الذي تختاره حيث سيتم استبدال %%query%% بعبارة البحث التي تم إدخالها بواسطة المستخدمين. على سبيل المثال: https://www.google.com/#q=%%query%%+site:icewarp.com.</search_query>
+    <banners>قم بوضع إعلانات بانر ضمن شاشة تسجيل الدخول وضمن زبون الويب.</banners>
+    <banner_url>قم بإدخال رابط تشعبي لصورة ثابتة ليتم استخدامها كإعلان بانر.</banner_url>
+    <banner_code>قم بإدخال رقم فتحة AdSense المخصص الذي تم تقديمه لك من قبل مزود  AdSense.</banner_code>
+    <login_banners>قم باستخدام صور بديلة للجوّال وذات دقة كاملة كلافتات إعلانية أو اتصل بالشبكة الإعلانية.</login_banners>
+    <webclient_banners>قم بوضع إعلانات لمختلف درجات دقة الشاشة ضمن صفحة تسجيل الدخول أو في الجزء السفلي من قائمة جهات اتصال التراسل الفوري.</webclient_banners>
+    <adsense_settings>أدخل رقم زبون AdSense الخاص بك.</adsense_settings>
+    <custom_sign_up_fields>قم باختيار حقول vCard التي ستكون مطلوبة أثناء التسجيل.</custom_sign_up_fields>
+    <two_step_verification>قم باختيار طريقة التحقق المستخدمة أثناء تسجيل المستخدمين.</two_step_verification>
+    <conferencing>قم بتغيير شكل تطبيق المؤتمرات.</conferencing>
+    <conferencing_logo>يمكنك تغيير الشعار الذي يظهر على صفحة المؤتمرات. إن التنسيقات المدعومة للصور هي:  JPG, PNG, GIF, SVG. الحد الأقصى لحجم الصورة: 20 ميغا بايت.</conferencing_logo>
+  </whitelabeling_help>
+  <preview>
+    <language>EN</language>
+    <sign_in_webclient>تسجيل الدخول إلى زبون الويب</sign_in_webclient>
+    <password>كلمة المرور</password>
+    <sign_in>تسجيل الدخول</sign_in>
+    <remember_me>احتفظ بتسجيل دخولي</remember_me>
+    <contact_admin>اتصل بنا</contact_admin>
+    <not_you>إنه لست أنت؟</not_you>
+    <choose_account>قم باختيار حساب آخر</choose_account>
+    <powered>مدعوم من قبل IceWarp © 2020</powered>
+    <find_out_more>لمعرفة المزيد حول IceWarp قم بزيارة</find_out_more>
+    <search>بحث</search>
+  </preview>
+  <preview_icechat>
+    <sign_in_with>تسجيل الدخول باستخدام حساب زبون الويب من IceWarp</sign_in_with>
+    <email>البريد الإلكتروني</email>
+    <password>كلمة المرور</password>
+    <sign_in>تسجيل الدخول</sign_in>
+  </preview_icechat>
+  <resource>
+    <alias>الاسم المستعار</alias>
+    <name>الاسم</name>
+    <type>النوع</type>
+    <general>عام</general>
+    <temporarily_unavailable>غير متاح مؤقتاً</temporarily_unavailable>
+    <allow_conflicts>Allow conflicts</allow_conflicts>
+    <send_notification>إرسال رسائل إشعار للمستخدم</send_notification>
+    <permissions>الأذونات</permissions>
+    <resource_members>List of resource members</resource_members>
+    <members>الأعضاء</members>
+  </resource>
+  <resource_help>
+    <resource_members>قم بمراجعة أعضاء الموارد، حيث يمكنك إضافة عضو جديد أو حذف أي عضو من الأعضاء الحاليين.  قم بوضع علامة في المربع المناسب واضغط على زر &quot;اختيار حدث&quot; من أجل حذف عضو ما.</resource_members>
+  </resource_help>
+  <smartdiscover>
+    <smartdiscover>الكاشف الذكي (SmartDiscover)</smartdiscover>
+    <public_hostname>اسم المضيف العام</public_hostname>
+    <smtp>بروتوكول SMTP</smtp>
+    <pop3>بروتوكول POP3</pop3>
+    <imap>بروتوكول IMAP</imap>
+    <xmpp>بروتوكول XMPP</xmpp>
+    <sip>بروتوكول SIP</sip>
+    <mobilesync>مزامنة الهاتف النقال  (ActiveSync)</mobilesync>
+    <syncml>المزامنة SyncML (OMA DS)</syncml>
+    <webdav_smartattach>بروتوكول WebDAV والمرفقات الذكية</webdav_smartattach>
+    <webclient>زبون الويب (WebClient)</webclient>
+    <webadmin>مدير الويب (WebAdmin)</webadmin>
+    <free_busy>الحالة متوفر / مشغول</free_busy>
+    <internet_calendar>تقويم الإنترنت</internet_calendar>
+    <sms>الرسائل النصية القصيرة</sms>
+    <anti_spam_reports>تقارير مضاد البريد المزعج</anti_spam_reports>
+    <install>تنصيب</install>
+    <teamchat>التراسل الفوري لفريق العمل</teamchat>
+    <standard>قياسي</standard>
+    <tls_ssl>TLS / SSL</tls_ssl>
+    <no_ssl>المنفذ الأساسي الثاني (ليس SSL)</no_ssl>
+    <set_all_to_new_domain_name>ضبط الجميع على اسم مضيف جديد</set_all_to_new_domain_name>
+    <collaboration>الرابط التشعبي لـ API التعاون والتشارك</collaboration>
+    <conference>الرابط التشعبي للمؤتمر</conference>
+  </smartdiscover>
+  <subscription>
+    <active_users>لمحة عن المستخدمين النشطاء</active_users>
+    <any_questions>هل لديك أية استفسارات؟</any_questions>
+    <billing_address>عنوان وصول الفواتير</billing_address>
+    <cancel_subscription>إلغاء الأمر</cancel_subscription>
+    <order_information>معلومات الطلبية</order_information>
+    <order_id>معرف الطلبية</order_id>
+    <card_details>تفاصيل البطاقة</card_details>
+    <card_number>رقم البطاقة</card_number>
+    <change_details>Change details</change_details>
+    <change_plan>Change</change_plan>
+    <company_name>اسم الشركة</company_name>
+    <current_plan>الخطة الحالية</current_plan>
+    <customer_details>تفاصيل المستخدم</customer_details>
+    <expiration_date>تاريخ انتهاء الصلاحية</expiration_date>
+    <invoices>الفواتير</invoices>
+    <last_invoices>الفواتير الأخيرة</last_invoices>
+    <no_invoices>ليس لديك حالياً &lt;strong&gt; أي فواتير &lt;/strong&gt;</no_invoices>
+    <payment_details>تفاصيل الدفع</payment_details>
+    <payments>معلومات الدفع</payments>
+    <per_user_month>مقابل كل مستخدم/شهرياً</per_user_month>
+    <plan_details>تفاصيل الخطة</plan_details>
+    <price_all_users_month>إجمالي التكاليف الشهرية</price_all_users_month>
+    <price_user_month>السعر مقابل كل مستخدم/شهرياً</price_user_month>
+    <trial>النسخة التجريبية</trial>
+    <show_invoice_list>عرض كافة الفواتير</show_invoice_list>
+    <storage>السعة التخزينية للمستخدم</storage>
+    <subscription_details>تفاصيل الاشتراك</subscription_details>
+    <your_trial_ends>إن نسختك التجريبية تنتهي في:</your_trial_ends>
+    <number_of_users>عدد المستخدمين</number_of_users>
+    <manage_subscription>إدارة الاشتراك</manage_subscription>
+    <subscription_settings>إعدادات الاشتراك</subscription_settings>
+    <datacenter_storage_support>مركز البيانات والسعة التخزينية والدعم</datacenter_storage_support>
+    <support>الدعم</support>
+    <next_billing>الفاتورة القادمة</next_billing>
+    <total_price>إجمالي السعر</total_price>
+    <billing_period>فترة الفاتورة:</billing_period>
+    <technical_support>الدعم الفني</technical_support>
+    <business_support>الدعم التجاري</business_support>
+    <contact_our_support>يمكنك الاتصال بقسم الدعم لدينا يومياً وعلى مدار الساعة (24/7)</contact_our_support>
+    <free>مجاني</free>
+    <page_reload>يجب إعادة تحميل الصفحة من أجل تحميل ترخيص جديد</page_reload>
+  </subscription>
+  <loginpage>
+    <no_cookie>إن متصفحك لا يسمح لجافا سكريبت بإنشاء ملفات تعريف الارتباط</no_cookie>
+    <title_admin>مدير الويب (IceWarp WebAdmin)</title_admin>
+    <new_interface>الواجهة الجديدة</new_interface>
+    <old_interface>الواجهة القديمة</old_interface>
+    <sign_in_text>قم بتسجيل الدخول إلى حساب &lt;strong&gt;المدير&lt;/strong&gt; من أجل إدارة النطاقات والمستخدمين</sign_in_text>
+    <sign_in>تسجيل الدخول</sign_in>
+    <email>البريد الإلكتروني</email>
+    <username>اسم المستخدم</username>
+    <password>كلمة المرور</password>
+    <remember_me>تذكرني</remember_me>
+    <forgotten_password>لقد نسيت كلمة المرور</forgotten_password>
+    <visit_text>لمعرفة المزيد حول مخدّم IceWarp قم بزيارة</visit_text>
+    <visit_url>http://www.icewarp.com/</visit_url>
+    <visit_link>www.icewarp.com</visit_link>
+    <powered_by>مدعوم من قبل IceWarp Server &amp;copy; 2020</powered_by>
+    <oops_headline>مستعرض غير مدعوم</oops_headline>
+    <oops_text>إن مدير الويب&lt;strong&gt; غير متوافق &lt;/strong&gt; مع المستعرض أو مع الجهاز المستخدم. من أجل الحصول على أفضل أداء ممكن قم باستخدام أحد المتصفحات الحديثة التالية:</oops_text>
+    <recommended>موصى به</recommended>
+    <supported>مدعوم</supported>
+    <supported_version>مدعوم</supported_version>
+    <chrome>كروم (Chrome)</chrome>
+    <explorer>أكسبلورر (Explorer)</explorer>
+    <firefox>فاير فوكس (Firefox)</firefox>
+    <safari>سفاري (Safari)</safari>
+    <opera>أوبرا (Opera)</opera>
+    <divtcha>أعد كتابة الرمز</divtcha>
+    <wrong_captcha>هذا الرمز غير صحيح.</wrong_captcha>
+    <auth_sent>لقد قمنا بإرسال رسالة بريد إلكتروني تحتوي على رابط آمن. إن النقر على ذلك الرابط سيتيح لك الوصول إلى إدارة البريد المزعج وذلك لمدة زمنية محدودة.</auth_sent>
+  </loginpage>
+  <error>
+    <failed>فشل</failed>
+    <fill_in_non_negative_value>إن القيم السالبة غير مسموح بها.</fill_in_non_negative_value>
+    <account_password_policy>إن كلمة المرور تنتهك سياسة كلمة المرور</account_password_policy>
+    <auth_email_missing>إن البريد الإلكتروني غير موجود.</auth_email_missing>
+    <identical_email>لا يمكنك تعيين اسم المستخدم الخاص بك إلى مستخدم آخر موجود ضمن نفس النطاق.</identical_email>
+    <insufficient_rights>لا تتمتع بالحقوق الكافية لتنفيذ هذا الإجراء.</insufficient_rights>
+    <connection>تعذر الوصول إلى المخدم. يرجى التأكد من اتصالك بالإنترنت أو قم بالاتصال مع المدير.</connection>
+    <invalid_command>لقد تعذّر تنفيذ الإجراء</invalid_command>
+    <invalid_data>بيانات غير صالحة</invalid_data>
+    <no_key_defined>لم يتم تحديد مفتاح</no_key_defined>
+    <save_unsuccessful>لم يتم حفظ الإعدادات</save_unsuccessful>
+    <action_failed>لقد تعذّر تنفيذ الإجراء المطلوب</action_failed>
+    <license_key_send_failed>لقد تعذّر إرسال مفتاح الترخيص</license_key_send_failed>
+    <unknown_error>خطأ غير معروف</unknown_error>
+    <auth_login_invalid>تسجيل دخول غير صالح</auth_login_invalid>
+    <wrong_password>كلمة مرور خاطئة</wrong_password>
+    <password_too_short>إن كلمة المرور قصيرة جداً</password_too_short>
+    <password_does_not_match>إن كلمتا المرور غير متطابقتين</password_does_not_match>
+    <password_contains_alias>لا يمكن لكلمة المرور أن تتضمن الاسم المستعار</password_contains_alias>
+    <password_numeric_chars>إن عدد الأرقام المستخدمة في كلمة المرور غير كافية</password_numeric_chars>
+    <password_non_alpha_num_chars>إن عدد المحارف الخاصة المستخدمة في كلمة المرور غير كافية</password_non_alpha_num_chars>
+    <password_alpha_chars>إن عدد الأحرف المستخدمة في كلمة المرور غير كافية</password_alpha_chars>
+    <password_upper_alpha_chars>إن عدد الأحرف الكبيرة المستخدمة في كلمة المرور غير كافية</password_upper_alpha_chars>
+    <uploader_file_type_not_allowed>إن نوع الملف غير مسموح به</uploader_file_type_not_allowed>
+    <specify_account_name_with_domain_name>قم بتحديد اسم الحساب واسم النطاق</specify_account_name_with_domain_name>
+    <specify_domain_name>قم بتحديد اسم النطاق</specify_domain_name>
+    <fatal_communication_error>حدث خطأ فادح في الاتصال</fatal_communication_error>
+    <account_disabled>الحساب معطّل</account_disabled>
+    <account_domain_limit_exceeded>لقد تم تجاوز حد الحساب</account_domain_limit_exceeded>
+    <connection_error>خطأ في الاتصال</connection_error>
+    <server_failure>لقد فشل المخدّم في تسليم البيانات اللازمة:</server_failure>
+    <password_missing>إن كلمة المرور غير موجودة</password_missing>
+    <auth_digest_expired>لقد انتهت صلاحية تجزئة تسجيل الدخول</auth_digest_expired>
+    <unexpected_response>حدثت استجابة غير متوقعة</unexpected_response>
+    <service_stop_unsuccessful>لقد تعذّر إيقاف الخدمة</service_stop_unsuccessful>
+    <service_start_unsuccessful>لقد تعذّر تشغيل الخدمة</service_start_unsuccessful>
+    <service_restart_unsuccessful>لقد تعذّر إعادة تشغيل الخدمة</service_restart_unsuccessful>
+    <rule_delete_unsuccessful>لقد تعذّر حذف القاعدة</rule_delete_unsuccessful>
+    <rule_save_unsuccessful>لقد تعذّر حفظ القاعدة</rule_save_unsuccessful>
+    <cannot_add_member_to_itself>لا يمكن إضافة العضو إلى نفسه.</cannot_add_member_to_itself>
+    <rule_at_least_one_condition_required>من المطلوب أن يتحقق شرط واحد على الأقل</rule_at_least_one_condition_required>
+    <account_not_created>لقد تعذر إنشاء الحساب. قد يكون السبب في ذلك هو  وجود حساب يحمل نفس الاسم المستعار أو بسبب قيود الترخيص</account_not_created>
+    <auth_password_missing>إن كلمة المرور غير موجودة</auth_password_missing>
+    <login_unsuccessful>تسجيل دخول غير ناجح</login_unsuccessful>
+    <sender_must_be_filled>لا يمكن أن يكون حقل المرسل فارغاً</sender_must_be_filled>
+    <items_delete_failed>لقد فشل الحذف</items_delete_failed>
+    <spam_queue_item_does_not_exist>إن العنصر غير موجود</spam_queue_item_does_not_exist>
+    <items_deliver_failed>لقد فشل التوصيل</items_deliver_failed>
+    <save_failed>لقد تعذّر الحفظ</save_failed>
+    <reset_failed>لقد فشلت إعادة التعيين</reset_failed>
+    <default_reset_failed>لقد تعذرت إعادة التعيين إلى القيم الافتراضية</default_reset_failed>
+    <fetch_failed>لقد تعذّر استرجاع البيانات</fetch_failed>
+    <certificate_not_saved uses="server certificates">لم يتم حفظ الترخيص</certificate_not_saved>
+    <delete_unsuccessfull>حذف غير ناجح</delete_unsuccessfull>
+    <account_permission>حقوق غير كافية</account_permission>
+    <license_evaluation>رخصة التقييم</license_evaluation>
+    <license_reference_mismatch>خطأ بسبب عدم تطابق معرف المرجع</license_reference_mismatch>
+    <license_revalidation>فشل في إعادة التحقق من الترخيص</license_revalidation>
+    <license_expired>لقد انتهت صلاحية الترخيص</license_expired>
+    <license_none>لا يوجد ترخيص</license_none>
+    <license_build>نسخة الترخيص غير متطابقة</license_build>
+    <license_version>نسخة الترخيص غير متطابقة</license_version>
+    <cert_some_domains_were_not_verified>لم يتم التحقق من بعض النطاقات</cert_some_domains_were_not_verified>
+    <cert_requesting_challenges_for_domain_verification>خطأ عند طلب الاختبارات من أجل التحقق من النطاق</cert_requesting_challenges_for_domain_verification>
+    <cert_parsing_challenges_for_domain_verification>خطأ عند تحليل الاختبارات من أجل التحقق من النطاق</cert_parsing_challenges_for_domain_verification>
+    <cert_triggering_challenges_challenges_for_domain_verification>خطأ عند بدء الاختبارات من أجل التحقق من النطاق</cert_triggering_challenges_challenges_for_domain_verification>
+    <cert_registering_acme_account>خطأ عند تسجيل حساب ACME .</cert_registering_acme_account>
+    <cert_invalid_csr_detected>تم اكتشاف CSR غير صالح</cert_invalid_csr_detected>
+    <cert_signing_certificate>خطأ أثناء توقيع الشهادة</cert_signing_certificate>
+    <cert_letsEncrypt_rate_limits_applied>تم تطبيق حدود التقييم لـ Let&apos;s Encrypt</cert_letsEncrypt_rate_limits_applied>
+    <domain_delete_failed>لقد تعذّر حذف النطاق</domain_delete_failed>
+    <incorrect_filetype>إن نوع الملف المزود غير صالح</incorrect_filetype>
+    <password_expired>لقد انتهت صلاحية كلمة المرور</password_expired>
+    <rule_activate_unsuccessful>لقد تعذّر تفعيل القاعدة</rule_activate_unsuccessful>
+    <rule_deactivate_unsuccessful>لقد تعذّر تعطيل القاعدة</rule_deactivate_unsuccessful>
+    <unsupported_image_format>تنسيق الصورة غير مدعوم</unsupported_image_format>
+    <rule_at_least_one_action_required>من المطلوب أن يتم إجراء واحد على الأقل</rule_at_least_one_action_required>
+  </error>
+  <warning>
+    <operation_may_take_long_time>يمكن لهذه لعملية أن تستغرق وقتاً طويلاً.</operation_may_take_long_time>
+    <delete_selected_members>هل أنت متأكد من رغبتك في حذف الأعضاء المحددين؟ (%s)</delete_selected_members>
+    <delete_selected_items>هل أنت متأكد من رغبتك في حذف الحسابات المحددة؟ (%s)</delete_selected_items>
+    <delete_selected_devices>هل أنت متأكد من رغبتك في حذف الأجهزة المحددة؟ (%s)</delete_selected_devices>
+    <move_selected_accounts>هل أنت متأكد من رغبتك في نقل الحسابات المحددة (%s) إلى النطاق %s ؟</move_selected_accounts>
+    <changes_found>هل ترغب بحفظ التغييرات؟</changes_found>
+    <identical_username>إن اسم المستخدم يطابق اسم المستخدم الخاص بك. هل أنت متأكد من رغبتك في حفظ اسم المستخدم هذا؟</identical_username>
+    <default_certificate_will_be_overwritten uses="server certificates">سيتم استبدال الشهادة الافتراضية</default_certificate_will_be_overwritten>
+    <delete_selected_certificates uses="server certificates">هل أنت متأكد من رغبتك في حذف الشهادات المحددة؟</delete_selected_certificates>
+    <delete_selected_oauths>هل أنت متأكد من رغبتك في حذف زبائن OAuth المحددين؟</delete_selected_oauths>
+    <set_to_default>هل أنت متأكد من رغبتك في إعادة التعيين إلى القيم الافتراضية؟ سوف تفقد كافة إعداداتك الحالية.</set_to_default>
+    <delete_domain>سيتم حذف النطاق %s</delete_domain>
+  </warning>
+  <message>
+    <device_soft_wipe_set>لقد تم تعيين المسح الخفيف بنجاح</device_soft_wipe_set>
+    <device_hard_wipe_set>لقد تم تعيين المسح القسري بنجاح</device_hard_wipe_set>
+    <device_set_wipe_failed>لقد فشل أمر المسح</device_set_wipe_failed>
+    <save_successfull>تم حفظ الإعدادات</save_successfull>
+    <reset_to_default>تم إعادة تعيين القيم إلى حالتها الافتراضية</reset_to_default>
+    <license_key_sent_successfuly>تم إرسال مفتاح الترخيص بنجاح</license_key_sent_successfuly>
+    <device_blocked>الجهاز محظور</device_blocked>
+    <device_allowed>الجهاز مسموح</device_allowed>
+    <rule_delete_successfull>لقد تم حذف القاعدة</rule_delete_successfull>
+    <rule_save_successfull>لقد تم حفظ القاعدة</rule_save_successfull>
+    <item_saved_successfully>لقد تم حفظ العنصر بنجاح</item_saved_successfully>
+    <items_deleted_successfully>لقد تم الحذف بنجاح</items_deleted_successfully>
+    <items_delivered_successfully>لقد تم تسليم العناصر بنجاح</items_delivered_successfully>
+    <certificate_saved uses="server certificates">لقد تم حفظ الشهادة</certificate_saved>
+    <delete_successfull>لقد تم حذف العنصر</delete_successfull>
+    <domain_renamed>لقد تم تغيير اسم النطاق</domain_renamed>
+    <items_blacklisted_successfully>لقد تمت إضافة العناصر إلى القائمة السوداء</items_blacklisted_successfully>
+    <items_whitelisted_successfully>لقد تمت إضافة العناصر إلى القائمة البيضاء</items_whitelisted_successfully>
+    <rule_activate_successful>لقد تم تفعيل القاعدة</rule_activate_successful>
+    <rule_deactivate_successful>لقد تم تعطيل القاعدة</rule_deactivate_successful>
+  </message>
+  <description>
+    <device_soft_wipe>هل أنت متأكد من إجراء المسح الخفيف للجهاز المحدد؟</device_soft_wipe>
+    <device_hard_wipe>هل أنت متأكد من إجراء المسح القسري للجهاز المحدد؟</device_hard_wipe>
+  </description>
+  <iframe>
+    <something_went_wrong>حدث خطأ ما.</something_went_wrong>
+    <loading>جاري التحميل</loading>
+    <reload>إعادة التحميل</reload>
+    <reload_helper>يرجى إعادة تحميل المحتوى</reload_helper>
+  </iframe>
+  <change_plan>
+    <title>تغيير الخطة</title>
+  </change_plan>
+  <oauth>
+    <wizard>معالج مزود OAuth</wizard>
+    <wizard_edit>تحرير مزود OAuth</wizard_edit>
+    <client_id>معرف الزبون</client_id>
+    <name>مزود OAuth</name>
+    <description>الوصف</description>
+    <redirect_uri>إعادة توجيه URI</redirect_uri>
+    <auth_type>نوع التحقق</auth_type>
+    <auth_type_standard>قياسي</auth_type_standard>
+    <auth_type_mobile>الجهاز النقال</auth_type_mobile>
+    <auth_type_single_page>صفحة واحدة</auth_type_single_page>
+    <secret>سر OAuth</secret>
+  </oauth>
+  <fulltext_search>
+    <title>البحث في كامل النص</title>
+    <configured>&lt;b&gt;تم  إعداد وتكوين &lt;/b&gt; محرك البحث في كامل النص</configured>
+    <not_configured>&lt;b&gt;لم يتم  إعداد وتكوين &lt;/b&gt; محرك البحث في كامل النص</not_configured>
+    <indexer>ماسح البحث في كامل النص</indexer>
+    <server>قاعدة بيانات البحث في كامل النص</server>
+    <docconv>خدمة تحويل المستندات</docconv>
+    <indexpath>مجلد تخزين الفهرس</indexpath>
+    <configure>تكوين وإعداد البحث في كامل النص</configure>
+  </fulltext_search>
+  <fulltext_search_wizard>
+    <heading>معالج البحث في كامل النص</heading>
+    <search>البحث في كامل النص</search>
+    <search_enable>تفعيل البحث في كامل النص في IceWarp</search_enable>
+    <search_helper1>يدعم IceWarp البحث في كامل النص وهو متاح للمستخدمين ضمن واجهة زبون الويب (WebClient)، وعلى الأجهزة النقالة عن طريق ActiveSync، وعلى زبون البريد الإلكتروني للأجهزة المكتبية، والذي يقوم بالبحث ضمن رسائل البريد الإلكتروني باستخدام بروتوكول IMAP .</search_helper1>
+    <search_helper2>يتكون محرك البحث في كامل النص من ثلاثة مكونات، يمكن لكل منها أن تعمل بشكل محلي على نظام IceWarp ذاته، أو أن تعمل عن بعد، لتخفيف الحمل عن وحدة المعالجة المركزية والاستفادة من التخزين. يجب أن تفكر جيداً  في اختيار الإعداد الذي سيكون الأفضل لعملك. إن المكونات الثلاثة هي:</search_helper2>
+    <search_helper_component1>ماسح البحث في كامل النص (yoda-scan)</search_helper_component1>
+    <search_helper_component2>قاعدة بيانات البحث في كامل النص (yoda)</search_helper_component2>
+    <search_helper_component3>خدمة تحويل المستندات (mundi)</search_helper_component3>
+    <scanner>تكوين وإعداد ماسح البحث في كامل النص</scanner>
+    <scanner_helper>تقوم خدمة الماسح بقراءة البيانات من منطقة تخزين رسائل البريد الإلكتروني، وتحليل نصوص رسائل البريد الإلكتروني وإرسال النصوص إلى قاعدة بيانات البحث في كامل النص. إن خدمة الماسح تحتاج إلى الوصول إلى منطقة تخزين رسائل البريد الإلكتروني لـ IceWarp (بحيث تتمتع بأذن القراءة على الأقل). إذا تم نشر الماسح على مخدّم بعيد، قم بتركيب منطقة تخزين  رسائل البريد الإلكتروني في نفس الموقع كما هو في مخدّم IceWarp (%s).</scanner_helper>
+    <scanner_local>قم بتشغيل خدمة الماسح محلياً</scanner_local>
+    <scanner_local_helper>منفذ خدمة الماسح المحلي</scanner_local_helper>
+    <scanner_remote>الاتصال بخدمة الماسح البعيد</scanner_remote>
+    <scanner_remote_helper>الرابط التشعبي لخدمة الماسح البعيد</scanner_remote_helper>
+    <database>تكوين وإعداد قاعدة بيانات البحث في كامل النص</database>
+    <database_helper1>تقوم خدمة قاعدة البيانات بصيانة قاعدة بياناتها لواصفات (metadata) البحث في كامل النص (الفهرس). يتم حفظ الفهرس مباشرة ضم ملف النظام والذي سيشغل حوالي 10-20% من الحجم الأصلي لمنطقة تخزين البريد الإلكتروني لـ IceWarp (يختلف الحجم الفعلي بحسب نوع البيانات). إن خدمة قاعدة البيانات تعمل بشكل مستقل ولا تحتاج إلى الوصول إلى منطقة تخزين البريد الإلكتروني.</database_helper1>
+    <database_helper2>ملاحظة: في حال أردت تغيير &lt;i&gt; مجلد تخزين الفهرس &lt;/i&gt; المحلي، فيتوجب عليك أن تقوم بشكل يدوي بنقل بيانات الفهرس الموجودة إلى الموقع الجديد (لا يمكن إجراء هذه العملية بشكل تلقائي).</database_helper2>
+    <database_local>تشغيل خدمة قاعدة البيانات بشكل محلي</database_local>
+    <database_local_helper>منفذ خدمة قاعدة البيانات المحلي</database_local_helper>
+    <database_remote>الاتصال بخدمة قاعدة البيانات البعيدة</database_remote>
+    <database_remote_helper>الرابط التشعبي لخدمة قاعدة البيانات البعيدة</database_remote_helper>
+    <index_storage_path>مجلد تخزين الفهرس</index_storage_path>
+    <docconv>تكوين وإعداد خدمة تحويل المستندات</docconv>
+    <docconv_helper>إن خدمة تحويل المستندات مسؤولة عن استخراج النصوص من ملحقات البريد الإلكتروني والمستندات المخزنة في مواقع مزامن الملفات (FileSync) أو زبون الويب (WebClient). يتيح IceWarp مخدماً افتراضياً مسبق التكوين مع خدمة تحويل المستندات والذي يمكن نشره خارجياً من المخدم الذي يقوم بتشغيل IceWarp [من المستحسن ذلك]. كما يمكن لخدمة تحويل المستندات أن تعمل بشكل محلي على نفس نظام IceWarp، ولكن في هذه الحالة قد لا يتاح تحويل بعض أنواع المستندات. إن خدمة تحويل المستندات تعمل بشكل مستقل ولا تحتاج إلى الوصول إلى منطقة تخزين البريد الإلكتروني.</docconv_helper>
+    <docconv_local>تشغيل خدمة تحويل المستندات بشكل محلي</docconv_local>
+    <docconv_local_helper>منفذ خدمة تحويل المستندات المحلي</docconv_local_helper>
+    <docconv_remote>الاتصال بخدمة تحويل المستندات البعيدة</docconv_remote>
+    <docconv_remote_helper>الرابط التشعبي لخدمة تحويل المستندات البعيدة</docconv_remote_helper>
+    <docconv_disable>تعطيل خدمة تحويل المستندات</docconv_disable>
+    <summary>ملخص تكوين وإعداد البحث في كامل النص</summary>
+    <summary_helper>لقد انتهيت الآن من تكوين مكونات محرك البحث في كامل النص. في الأسفل تجد ملخصاً التكوين والإعداد الحالي الخاص بك.</summary_helper>
+    <runs_locally>%s يتم تشغيله محلياً</runs_locally>
+    <runs_remotely>%s يتم تشغيله عن بُعد</runs_remotely>
+    <is_disabled>%s معطل</is_disabled>
+  </fulltext_search_wizard>
+</language>

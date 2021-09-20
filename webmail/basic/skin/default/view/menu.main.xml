@@ -1,0 +1,16 @@
+<panel css="main_top">
+		<menu id="main">
+			<menuitem id="logout" label="main_menu|logout" namespace="auth" action="logout" />
+		</menu>		
+		<form id="logout" method="post">
+			<fieldset id="logout">
+				<button type="submit" label="login_screen|logout" />
+			</fieldset>
+			<config>				
+				<controller>auth</controller>
+				<action>logout</action>
+				<window>main</window>
+				<view>win.login</view>
+			</config>
+		</form>
+	</panel>

@@ -1,0 +1,302 @@
+$size-map: (
+	$small-up		: $percent-small,
+	$medium-up		: $percent-medium,
+	$large-up		: $percent-large,
+);
+
+$query-map: (
+	small			: $small-only,
+	small-up		: $small-up,
+	small-down		: $small-down,
+	medium			: $medium-only,
+	medium-up		: $medium-up,
+	medium-down		: $medium-down,
+	large			: $large-only,
+	large-up		: $large-up,
+	large-down		: $large-down,
+	xlarge			: $xlarge-only,
+	xlarge-up		: $xlarge-up,
+	xlarge-down		: $xlarge-down,
+);
+
+$color-map: (
+	'primary'		: $primary,
+	'secondary'		: $dark,
+	'success'		: $success,
+	'warning'		: $warning,
+	'error'			: $error,
+	'grey'			: $blue-grey,
+	'disabled'		: $blue-grey,
+	'is-disabled'	: $blue-grey,
+);
+
+$message-color-map: (
+	'primary'		: $primary,
+	'success'		: $success,
+	'warning'		: $warning,
+	'error'			: $error,
+);
+
+$dot-color-map: (
+	'primary'		: $primary,
+	'success'		: $success,
+	'warning'		: $warning,
+	'error'			: $error,
+);
+
+$z-index-map: (
+	'main'			: 0,
+	'base'			: 1,
+	'box'			: 1,
+	'box__body'		: 2,
+	'box__head'		: 3,
+	'box__foot'		: 3,
+	'box__menu'		: 3,
+	'main-menu'		: 101,
+	'modal'			: 201,
+	'toast'			: 301,
+	'overlay'		: 401,
+);
+
+$placeholder-selectors: (
+	"::-webkit-input-placeholder",
+	"::-moz-placeholder",
+	":-ms-input-placeholder",
+);
+
+// List of datagrid view objects
+$datagrid-list: "rules", "userlist", "domainlist", "accountpicker", "permissions", "accountmobiledevices", "mailinglistmembers", "groupmembers", "resourcemembers", "spamqueues_quarantine", "spamqueues_whitelist", "spamqueues_blacklist", "consoledialog", "certificates_server";
+
+// List of login backgrounds
+$login-backgrounds: ('default', 'krivan', 'prague2', 'adrspach1', 'czechcity', 'prague1', 'slovakia', 'adrspach2', 'czech', 'czech1', 'pleso', 'tatras', 'vine', 'pragueboats');
+
+// Preview elements and skins
+$map-webclient-skins: 'default', 'bigger', 'biggerrtl', 'banner';
+$map-login-elements: 'sign_up', 'language', 'remember', 'autofill', 'support', 'facebook', 'linkedin', 'twitter', 'search';
+
+// Theme maps
+$wa-themes: (
+	default: (
+		colors: (
+			primary: $primary,
+		),
+		name: 'deep-purple',
+	),
+	shocking-blue: (
+		colors: (
+			primary: #0b86d2,
+		),
+		name: 'shocking-blue',
+	),
+	green-day: (
+		colors: (
+			primary: #39a59c,
+		),
+		name: 'green-day',
+	),
+	code-orange: (
+		colors: (
+			primary: #ee5a29,
+		),
+		name: 'code-orange',
+	),
+	peaches: (
+		colors: (
+			primary: #f69b72,
+		),
+		name: 'peaches',
+	),
+	deep-purple: (
+		colors: (
+			primary: #4e2782,
+		),
+		name: 'deep-purple',
+	),
+	yellow-submarine: (
+		colors: (
+			primary: #e7b23f,
+		),
+		name: 'yellow-submarine',
+	),
+) !default;
+
+
+$wc-themes: (
+	default: (
+		colors: (
+			primary: $primary,
+		),
+	),
+	blue: (
+		colors: (
+			primary: #0b86d2,
+			error: $dark,
+		),
+	),
+	red: (
+		colors: (
+			primary: #e60000,
+			error: $dark,
+		),
+	),
+	green: (
+		colors: (
+			primary: #4e941a,
+			success: $dark,
+		),
+	),
+	orange: (
+		colors: (
+			primary: #f78320,
+			warning: $dark,
+		),
+	),
+	graphite: (
+		colors: (
+			primary: #666666,
+			secondary: $primary,
+		),
+	),
+	black: (
+		colors: (
+			primary: #2a2a2a,
+			secondary: $primary,
+		),
+	),
+	brown: (
+		colors: (
+			primary: #754f2e,
+		),
+	),
+	yellow: (
+		colors: (
+			primary: #f6a901,
+		),
+	),
+	purple: (
+		colors: (
+			primary: #5e2d86,
+		),
+	),
+	pink: (
+		colors: (
+			primary: #e30074,
+		),
+	),
+) !default;
+
+$settings: (
+	base-path				: './client/skins/default/',
+	login-background-path	: 'login/images/',
+);
+
+
+// Icon map
+$icon-map: (
+	null					: $icon-null,
+	'none' 					: $icon-none,
+	'false' 				: $icon-false,
+	add						: $icon-add,
+	administrator 			: $icon-administrator,
+	administrator_system	: $icon-administrator_system,
+	arrow-back 				: $icon-arrow-back,
+	arrow-forward 			: $icon-arrow-forward,
+	arrow-up 				: $icon-arrow-up,
+	arrow-down 				: $icon-arrow-down,
+	card 					: $icon-card,
+	close 					: $icon-close,
+	collaboration			: $icon-collaboration,
+	dashboard				: $icon-dashboard,
+	delete-circle			: $icon-delete-circle,
+	dropup-arrow 			: $icon-dropup-arrow,
+	email 					: $icon-email,
+	expiration 				: $icon-expiration,
+	folder 					: $icon-folder,
+	icewarp-logo 			: $icon-icewarp-logo,
+	licenses 				: $icon-licenses,
+	limits 					: $icon-limits,
+	mailing-list 			: $icon-mailing-list,
+	menu 					: $icon-menu,
+	mobile 					: $icon-mobile,
+	pause-circle 			: $icon-pause-circle,
+	plus-circle 			: $icon-plus-circle,
+	resources 				: $icon-resources,
+	rules 					: $icon-rules,
+	search-circle 			: $icon-search-circle,
+	security 				: $icon-security,
+	sent 					: $icon-sent,
+	server 					: $icon-server,
+	services 				: $icon-services,
+	settings 				: $icon-settings,
+	storage 				: $icon-storage,
+	support-circle 			: $icon-support-circle,
+	terminal-circle 		: $icon-terminal-circle,
+	user 					: $icon-user,
+	administrator_domain 	: $icon-administrator_domain,
+	outlook_sync 			: $icon-outlook_sync,
+	icewarp_desktop 		: $icon-icewarp_desktop,
+	devices 				: $icon-devices,
+	checkmark 				: $icon-checkmark,
+	xmark 					: $icon-xmark,
+	hyphen 					: $icon-hyphen,
+	user_default 			: $icon-user_default,
+	home 					: $icon-home,
+	facebook				: $icon-facebook,
+	twitter 				: $icon-twitter,
+	linkedin 				: $icon-linkedin,
+	apple 					: $icon-apple,
+	android 				: $icon-android,
+	blackberry 				: $icon-blackberry,
+	windows 				: $icon-windows,
+	info 					: $icon-info,
+	warning 				: $icon-warning,
+	to-all-users 			: $icon-to-all-users,
+	to-folder 				: $icon-to-folder,
+	logout 					: $icon-logout,
+	spam-folder 			: $icon-spam-folder,
+	journal 				: $icon-journal,
+	documents 				: $icon-documents,
+	notes 					: $icon-notes,
+	webmail-circle 			: $icon-webmail-circle,
+	delete 					: $icon-delete,
+	spam 					: $icon-spam,
+	edit-circle 			: $icon-edit-circle,
+	terminal 				: $icon-terminal,
+	webclient 				: $icon-webclient,
+	support					: $icon-support,
+	dropdown-arrow 			: $icon-dropdown-arrow,
+	star 					: $icon-star,
+	cert-authority			: $icon-cert-authority,
+	cert-icewarp			: $icon-cert-icewarp,
+	cert-letsencrypt		: $icon-cert-letsencrypt,
+	cert-signed				: $icon-cert-signed,
+	cert-email				: $icon-cert-email,
+	cert-ssl				: $icon-cert-ssl,
+	lock					: $icon-lock,
+	plan					: $icon-plan,
+	subscription			: $icon-subscription,
+	price-1					: $icon-price-1,
+	price-2					: $icon-price-2,
+	price-3					: $icon-price-3,
+	hat						: $icon-hat,
+	hypervisor				: $icon-hypervisor,
+	billing-ico: $icon-billing-ico,
+	card-ico: $icon-card-ico,
+	cluster-ico: $icon-cluster-ico,
+	edit-ico: $icon-edit-ico,
+	expiration-ico: $icon-expiration-ico,
+	hypervisor-ico: $icon-hypervisor-ico,
+	info-ico: $icon-info-ico,
+	order-ico: $icon-order-ico,
+	plan-ico: $icon-plan-ico,
+	storage-ico: $icon-storage-ico,
+	user-ico: $icon-user-ico,
+);
+
+// Preview icons
+$data-preview-icons: (
+	w: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAaRJREFUeNrcVD1Lw1AU7YehhULaSG1RaBTEgmCy2ak6dbPd3Mw/qLNDf4CIuw7OOjinguAkOjq1DhKntiBU0Jig2BptPPbZ5yNtfEun3iEcTrgn99x7SNB13cA4KhQYU02w0BRFxzWzaTsAW4o0HxdYEgwwJRuWc1I3AWRR0FRpSKhuXjffAPJyjPTsXDwc3jyJkVAln1o+uDvXFgmvG9buVRtgrzDLt/bS+YIKQDEb1w27ZTsN64OOSYCmSHyhqmETsL2a1AeY+Lp97ABsLImJaJgvRJozoqCmo1XDYlb5/DuOKvGvBl9n9z9CpawIRbvbY29CPoBXfCHqS1OnWV+1dqfVv6xHZbRQIhJmfTUHO2Z9lXMzHCE0y3GB+qI8QrAux8gHaD7+EyrnkqwvytMQeK7uK1TqNwCspKLwxfAi4TFacWhBXiE040l8sddFM4RICDAaG5/RQmjWB5HBaH+8ItEQeOLjI6RIJCYYjV0nlkXjg5VzhPYLc1a3h/jDyFExQ/nKWprcEfzp5oLvf8Rlynz/vGy8ukPlx7MVnNyf/7cAAwDpQPeRs8x1jgAAAABJRU5ErkJggg==',
+	f: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAX9JREFUeNq0VF1Pg0AQtAdIW1Js0Rq/EvXJ1Df//4/wzcQXTROJTYsFIdQWWnBwCSIshIheSHO9u5mb3b2dThzHe38xZHZ1F0W26y9dfxOGq3WAlX53X1UUQ9dGuiYJUYZ0CopAMXt7f7UcTNg7wHJ6NDw5PCjQ/SAC+OHZJAn1AwJvr8/zXN9EYLl/nFYJYaXd3VxmXCKvpTlLGZImG0lhI8KFF8cGAsEcB6YzK7+LFQBxIFVECWavRVLx6VoPnyQxxQKQRCWKUOaqoIDH78Lxnsw5W3UAAR8PB8kenkx9OjZBSBh2l+CJIrw69sTk6kzrqZiMRzqkQZfleMw1X3BBOWOJvNV6u4tIEeZBuGWPEVyuiehlvhz0u6oiu/6HubDrwxf0TNu0K8ETInRjGyKCJ0Ro6DZEBE+IjApnaNhxRkaEP3i+VRWpqRc9fRKRdn9zA6kyE5EpLPhLk6DykH8wtowLzpD1NCsEeYHb1lltoaftkvmj0kZD8//1+BRgAMlI9Xl9uMjuAAAAAElFTkSuQmCC',
+	t: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAcpJREFUeNq0VMFOwkAQtYVSoFKhAkHBoOFgNPHg/3+EBxMTD8Q0QkBAiq3FIhR8zZDtsltIY3TDYXfY9+Z1Zucpm83m6C9WNjEarteO609df7FczoNvRIr5nK5plmlUTCOjqjJEERSBYvj+MZjMsEnMAZazarlxeiLQ7RAB/PTSJwmHFwTeXjV5rpgILA/P9j4hidLur9uMS+W1pGeRIVsiFCXNFwkLEADjrlGBec2ytGatYpnHqzCkm6ybOKL2gEREaDOP7LTqrv/FU4OlVbdobxoFUPRGUyICEPBauRR9Gp6MkL/dqN5cnqM1DLxT5ow6DxbsSPAs6eTvQUulZAB817lAWvyr5zT+ghM91BU7EjxLNePvgQWCqa8QxXSxhUoJJY+7tpPQ8xOHgL8gB7dp+RAq3e2PePH8Qlz4AoJHRJhG8bGFa11Lnudu702IEDwiwkDL4h+7r5AmxO3hxJsHQpDgUVqYgz2IH2GpmEfL6McPhD2YjGeePHEWI8IBttAfO6wLRkFXFAUbNAibqfs5drzESWR+sp3+9Aayz0xUplDwlzQ2wkP+wdgYF5wBU3LAalEXmvhDns3oMNOOZP7otJXS/H+9fgQYAHROOw8d8CGSAAAAAElFTkSuQmCC',
+	l: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZdJREFUeNq0VNtOwkAUtEsLIgFrrQQiaAzGBxP+/xtMTPRFjSRKMDYYqhRLipRbnXKaZSmFFi/n6bS7M3uuI3met/MXJkf+nc5mlu10bccdjwfDEf6kGCvkslohd1DIwV+FSKGIQPH28dl+78GJfAMsZV0tHe6H6JaIAL5vGhTCZtvbTV+clDOKHEEElpvH1rpAIkOrn1c5FxNjSc5CkMZLm38GRCgKzwhPoQRpRY7lAuS1010QUYH5ca1SPC3pl2fHSeICkPLwidBmManJdLsEAQ/myJp73EzLdkfB+KA71Ob+YLiOC/AjNe8TYerEg0oRc5eFc3X3hBzJt50vcsxe/9noiPcJzqhmsSkQCwyP62o+VPJF1zabO55cPzRvG60QqWiMChGzkCmGooKOPjPLk0FwNj9QYod4wynB/RtY6N8ICMF9Im2NMiTcOG1OJPOdMEyLd0GSpFWfT5PYZa4nwfYnF5BQmeu16tLSghXLtVWCuAxJ+k9h41yQFL7TkYGgLlijGM0Wd9paEX90Wkso/j+2bwEGACHn8lnv6CSlAAAAAElFTkSuQmCC',
+);

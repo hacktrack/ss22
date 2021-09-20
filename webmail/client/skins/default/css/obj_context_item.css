@@ -1,0 +1,45 @@
+div.obj_context_itemflags ul.obj_context{
+	width: 140px;
+}
+
+div.obj_context_itemflags ul.obj_context a{
+	padding-left: 25px!important;
+	background-repeat: no-repeat;
+	background-position: 5px 50%;
+}
+
+/* COLOR Flags */
+div.obj_context li.ico2.bg_red > a > span:after{
+	/*background-position: -425px -366px;	*/
+	content: '\e02a';
+	color: #E5546A;	
+}
+div.obj_context li.ico2.bg_blue > a > span:after{
+	/*background-position: -77px -366px;	*/
+	content: '\e02a';
+	color: #648BC8;	
+}
+div.obj_context li.ico2.bg_green > a > span:after{
+	/*background-position: -164px -366px;	*/
+	content: '\e02a';
+	color: #719F3A;	
+}
+div.obj_context li.ico2.bg_orange > a > span:after{
+	/*background-position: -251px -366px;	*/
+	content: '\e02a';
+	color: #D3733F;	
+}
+div.obj_context li.ico2.bg_yellow > a > span:after{
+	/*background-position: -512px -366px;	*/
+	content: '\e02a';
+	color: #C8AD17;	
+}
+div.obj_context li.ico2.bg_purple > a > span:after{
+	/*background-position: -338px -366px;	*/
+	content: '\e02a';
+	color: #8A64DC;	
+}
+div.obj_context li.ico2.bg_complete > a > span:after{
+	/*background-position: 11px -441px;	*/
+	content: '\e01a';
+}

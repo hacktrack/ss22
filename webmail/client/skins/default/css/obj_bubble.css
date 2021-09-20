@@ -1,0 +1,50 @@
+.obj_bubble{
+	position: absolute!important;
+
+	/*z-index: 1000!important;*/
+
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 3px;
+/*	height: 28px;*/
+
+	background-color: #FFF!important;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2)!important;
+	white-space: nowrap!important;
+	overflow: visible!important;
+
+	margin: 0!important;
+	left: -1000px;
+	opacity: 0;
+
+	cursor: default;
+	transition: opacity 300ms ease-in-out, left 1ms linear 300ms!important;
+}
+
+.obj_bubble.show{
+	opacity: 1;
+}
+
+	.obj_bubble:after{
+		content: "";
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		background-color: #FFF;
+		transform: rotate(45deg);
+		bottom: -5px;
+
+		left: 50%;
+		margin-left: -5px;
+		z-index: 0;
+	}
+
+
+/* modal */
+.obj_bubble_modaldiv{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+}

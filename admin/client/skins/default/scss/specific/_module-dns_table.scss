@@ -1,0 +1,70 @@
+// DNS table
+// Simple 2 row table.
+
+// Block
+.dns-table {
+	table-layout: fixed;
+	margin-bottom: g(1.5);
+}
+
+
+// Elements
+.dns-table__cell {
+	padding-bottom: p(1.5);
+	vertical-align: top;
+}
+
+.dns-table__text {
+	position: relative;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.dns-table__type {
+	font-weight: 600;
+}
+
+.dns-table__value {
+
+	// Modifiers
+	.dns-table--success 	& { color: $success; }
+	.dns-table--error 		& { color: $error; }
+}
+
+.dns-table__variable {
+
+	&::before {
+		content: "'";
+	}
+
+	&::after {
+		content: "':";
+		position: absolute;
+	}
+}
+
+
+// Modifiers
+.dns-table--right {
+	font-weight: 600;
+	text-align: right;
+}
+
+
+// Queries
+@media #{$small-only} {
+
+	.dns-table__row, .dns-table__cell {
+		display: block;
+	}
+
+	.dns-table__cell {
+		padding: 0;
+		text-align: left;
+	}
+
+	.dns-table__row:not(:last-of-type) {
+		margin-bottom: g(1);
+	}
+}

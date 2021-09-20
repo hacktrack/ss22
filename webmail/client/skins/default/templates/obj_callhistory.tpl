@@ -1,0 +1,1 @@
+<div class="maxbox relative" id="{anchor body}"></div>

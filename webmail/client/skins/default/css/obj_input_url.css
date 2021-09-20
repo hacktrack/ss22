@@ -1,0 +1,26 @@
+.obj_input_url{
+	position: relative;
+	padding-right: 28px;
+}
+.rtl .obj_input_url {
+	padding-left: 28px;
+	padding-right: 0;
+}
+	.obj_input_url form.obj_button{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.rtl .obj_input_url form.obj_button {
+		left: 0;
+		right: auto;
+	}
+		.obj_input_url form.obj_button:after{
+			/*background-position: -696px -2023px;*/
+			content: '\e029';
+		}
+
+/* Error */
+div.obj_input_url.error form {
+	border-color: #E08F93!important;
+}

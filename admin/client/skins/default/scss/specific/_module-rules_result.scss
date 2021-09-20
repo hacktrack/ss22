@@ -1,0 +1,53 @@
+// Block
+.rules_result {
+	@include enable-scroll;
+
+	// Makes the &-text is always centered and span over full height
+	@media #{$large-up} {
+		@include flexit;
+	}
+}
+
+
+// Elements
+.rules_result-content {
+	@include flex(none); // Flex properties of parent can't apply here
+
+	&:not(:empty) {
+		margin-bottom: g(1);
+	}
+}
+
+.rules_result-text {
+	text-align: center;
+	margin: auto;
+}
+
+.rules_result-title {
+	@extend %alpha;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: g(1);
+}
+
+.rules_result-step {
+	margin-bottom: g(1/2);
+}
+
+// Actions and Conditions separator arrow
+.rules_result-separator {
+	@include flex(none); // Flex properties of parent can't apply here
+	border: solid #ccc;
+	border-width: 0 2px 2px 0;
+	margin: g(1) auto;
+	width: s(7/4);
+	height: s(7/4);
+	transform:
+		translateY(#{s(-1/4)})
+		rotate(45deg)
+		skew(-20deg, -20deg);
+	-webkit-transform:
+		translateY(#{s(-1/4)})
+		rotate(45deg)
+		skew(-20deg, -20deg);
+}

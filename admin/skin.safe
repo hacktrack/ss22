@@ -1,0 +1,35 @@
+<?php
+
+@include_once(CLIENT."/tools/jsmin.safe");
+@include_once(CLIENT."/tools/clean.safe");
+
+function readFolder ($folder,$ext,$fskip = array()){
+
+	$files = array();
+	$ftime = 0;
+
+	if ($handle = opendir($folder)) {
+		while (false !== ($file = readdir($handle))){
+			if ($file != "." && $file != ".." && $file!=".svn" && is_file($folder.$file) && strpos($file, $ext) && !in_array($file,$fskip)) {
+				$files[] = str_replace('\\','/',$folder.$file);
+				$tmp = filemtime($folder.$file);
+				$ftime = $ftime<$tmp?$tmp:$ftime;
+			}
+		}
+
+		@closedir($handle);
+	}
+
+	return array($files,$ftime);
+};
+
+if (!$_REQUEST['frm']){
+
+	include_once(CLIENT."/tools/build_sass.safe");
+	include_once(CLIENT."/tools/build_css.safe");
+	include_once(CLIENT."/tools/build_tpl.safe");
+
+	if (__FILE__ == $_SERVER['SCRIPT_FILENAME'])
+		echo "Done!";
+}
+?>

@@ -1,0 +1,42 @@
+div.obj_barmenu{
+	position: relative;
+	height: 100%;
+
+	/* MSIE Hack - but seems working now */
+	/*overflow: hidden;*/
+}
+
+div.obj_barmenu>div{
+	display: none;
+	width: 100%;
+}
+
+div.obj_barmenu>div.bar_middle{
+	height: 100%;
+	position: relative;
+}
+
+div.obj_barmenu>div.bar_top{
+	position: absolute;
+	top: 0;
+}
+.rtl div.obj_barmenu>div.bar_top {
+	direction: rtl;
+}
+div.obj_barmenu>div.bar_bottom{
+	position: absolute;
+	bottom: 0;
+	display:block;
+}
+
+
+.obj_barmenu_block.recent,
+.obj_barmenu_block.all{
+	transition: all 0.2s;
+}
+.obj_barmenu_block.active-recent{
+	transform: translateX(-100%);
+}
+.obj_barmenu_block.all.active-recent{
+	opacity: 0;
+}

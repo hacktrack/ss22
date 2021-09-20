@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>Uusi nimike</add>
+    <quarantine>Karanteeni</quarantine>
+    <whitelist>Luotetut lähettäjät</whitelist>
+    <blacklist>Estolista</blacklist>
+    <save>Tallenna</save>
+    <cancel>Peruuta</cancel>
+    <new_item>Lisää uusi sähköposti</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Disable shortcuts</disable_shortcuts>
+    <enable_swipe_gestures>Ota pyykäisyeleet käyttöön kosketusnäytöllä</enable_swipe_gestures>
+    <use_high_contrast_skin>Käytä korkean kontrastin ulkoasua</use_high_contrast_skin>
+    <menu_as_text>Näytä työkalupalkissa teksti kuvakkeiden sijaan</menu_as_text>
+    <change_password>Vaihda salasana</change_password>
+    <open_change_password_dialog>Avaa salasananvaihtoikkuna</open_change_password_dialog>
+    <oldpassword>Vanha salasana</oldpassword>
+    <newpassword>Uusi salasana</newpassword>
+    <confirmpassword>Vahvista salasana</confirmpassword>
+    <remove>Poista</remove>
+    <settings>Asetukset</settings>
+    <navigate>Hallinnoi</navigate>
+    <user>Omat asetukset</user>
+    <domain>Domainin ylläpitäjä</domain>
+    <admin>Ylläpitäjän asetukset</admin>
+    <new_domain>Uusi domain</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>Yleiset</general>
+    <layout>Ulkoasu</layout>
+    <mail>Posti</mail>
+    <compose>Luo uusi</compose>
+    <person>Email</person>
+    <person_header>Lisää uusi lähettäjän osoite</person_header>
+    <person_description>esim. &quot;Matti Meikäläinen&quot; &amp;lt;matti.meikalainen@yritys.fi&amp;gt;</person_description>
+    <autoresponder>Automaattivastaaja</autoresponder>
+    <forwarder>Edelleenohjaaja</forwarder>
+    <layout_desc>Ulkoasu, Posti</layout_desc>
+    <compose_desc>Uuden viestin oletusasetukset (lukukuittaus, HTML/Teksti, allekirjoitus).</compose_desc>
+    <general_desc>Asetukset postilaatikon selailuun ja viestien poistamiseen ja vastaamiseen.</general_desc>
+    <personalities_desc>Aseta vaihtoehtoisia sähköposti-identiteettejä (eri from: -osoite) käyttäjätilillesi.</personalities_desc>
+    <autoresponder_desc>Vastaa saapuviin viesteihin automaattisesti lomasi aikana.</autoresponder_desc>
+    <forwarder_desc>Ohjaa tai kopioi saapuvat viestit toiseen sähköpostiosoitteeseen.</forwarder_desc>
+    <date_format>Päiväyksen muoto</date_format>
+    <time_format>Kellonajan muoto</time_format>
+    <list_count>Nimikkeiden lukumäärä listalla</list_count>
+    <font_family>Oletuskirjaisin</font_family>
+    <font_size>Oletuskirjaisimen koko</font_size>
+    <text_direction>Tekstin suunta</text_direction>
+    <text_direction_values>Vasemmalta oikealle|Oikealta vasemmalle</text_direction_values>
+    <empty_trash_every>Tyhjennä roskakori joka</empty_trash_every>
+    <days>päivä</days>
+    <move_deleted>Siirrä poistetut viestit roskakoriin</move_deleted>
+    <delete_messages_on_empty>Tuhoa viestit &quot;Tyjennä kansio&quot;-toiminnolla lopullisesti</delete_messages_on_empty>
+    <add_recipients>Lisää viestien vastaanottajat automaattisesti osoitekirjaan</add_recipients>
+    <group_pref>Ryhmittele otsikon etuliitteet (esim. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>Pyydä lukukuittaus</request_read_confirmation>
+    <save_sent_msg>Tallenna lähetetyt viestit kansioon</save_sent_msg>
+    <message_format>Viestin muoto</message_format>
+    <message_format_labels>Teksti|HTML</message_format_labels>
+    <signature>Allekirjoitus</signature>
+    <forward_to>Ohjaa edelleen osoitteeseen</forward_to>
+    <keep_in_inbox>Pidä viestit saapuneissa</keep_in_inbox>
+    <forward_older>Edelleenlähetä viestit, jotka ovat vanhempia kuin</forward_older>
+    <forward_older_to>Edelleenlähetä vanhat viestit osoitteeseen</forward_older_to>
+    <ar_mode>Tila</ar_mode>
+    <ar_mode_labels>Ei käytössä|Vastaa aina|Vastaa kerran|Vastaa uudelleen ajan kuluttua</ar_mode_labels>
+    <ar_respond_only>Vastaa vain käyttäjälle lähetettyihin viesteihin</ar_respond_only>
+    <ar_respond_again>Vastaa uudelleen ajan kuluttua (päiviä)</ar_respond_again>
+    <ar_from>Lähettäjä</ar_from>
+    <ar_subject>Otsikko</ar_subject>
+    <ar_text>Viesti</ar_text>
+    <ar_no_responder_for>Älä vastaa</ar_no_responder_for>
+    <ar_respond_only_between>Vastaa vain aikavälillä</ar_respond_only_between>
+    <email>Email</email>
+    <responder>Ei vastausta</responder>
+    <show_attached_images>Näytä liitetyt kuvat automaattisesti</show_attached_images>
+    <show_inline_images>Näytä ulkoiset kuvat automaattisesti</show_inline_images>
+    <use_reply_prefix>Käytä vastauksissa etuliitettä (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 tuntia|24 tuntia</time_format_list_labels>
+    <force_admin>Pakota asetus sekä domainin että käyttäjän asetuksissa</force_admin>
+    <force_domain>Pakota asetus käyttäjän asetuksissa</force_domain>
+    <to_top>Allekirjoitus viestin alkuun</to_top>
+    <quota>Levytila:</quota>
+    <section_layout>Yleiset ulkoasun asetukset</section_layout>
+    <section_mail>Yleiset postin asetukset</section_mail>
+    <section_autoresponder>Aseta automaattivastaus, kun et ole työpisteesi ääressä.</section_autoresponder>
+    <section_norespond>Listattuihin sähköpostiosoitteisiin ei vastata.</section_norespond>
+    <domains>Domainit</domains>
+    <accounts>Tilit</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Haluatko varmasti poistaa valitut viesti?</delete_mail>
+    <blacklist_mail>Halutako varmasti asettaa valitut viestit estolistalle?</blacklist_mail>
+    <delete_contact>Haluatko varmasti poistaa tämän yhteystiedon?</delete_contact>
+    <delete_contact_distribution>Haluatko varmasti pistaa tämän hakelulistan?</delete_contact_distribution>
+    <delete_event>Haluatko varmasti poistaa valitut tapahtumat?</delete_event>
+    <delete_note>Haluatko varmasti poistaa valitut muistiinpanot?</delete_note>
+    <delete_task>Haluat varmasti poistaa valitut tehtävät?</delete_task>
+    <delete_personalities>Haluatko varmasti poistaa valitut nimikkeet?</delete_personalities>
+    <delete_quarantine>Haluatko varmasti poistaa valitut nimikkeet?</delete_quarantine>
+    <delete_this_mail>Haluatko varmasti poistaa tämän viestin?</delete_this_mail>
+    <delete_items>Haluatko varmasti poistaa valitut kohteet?</delete_items>
+    <delete_item>Haluatko varmasti poistaa tämän kohteen?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>Tässä kansiossa ei ole kohteita.</no_item>
+  </string>
+  <menu>
+    <files>Tiedostot</files>
+    <notes>Muistiinpanot</notes>
+    <tasks>Tehtävät</tasks>
+    <journal>Päivyri</journal>
+    <calendar>Kalenteri</calendar>
+    <search>Haku</search>
+    <messages>Viestit</messages>
+    <contacts>Yhteystiedot</contacts>
+    <searchBut>Hae</searchBut>
+    <address_book>Osoitekirja</address_book>
+    <logout>Kirjaudu ulos</logout>
+    <help>Ohje</help>
+    <settings>Asetukset</settings>
+    <switch>Vaihda</switch>
+    <help_url>language/fi/help.html</help_url>
+    <quarantine>Suodattimet</quarantine>
+    <alert_restricted_access>Valitettavasti pääsy tälle välilehdelle on estetty.</alert_restricted_access>
+    <basic>Tablet-käyttöliittymä</basic>
+    <advanced>Työpöytä-käyttöliittymä</advanced>
+    <mobile>Mobiilikäyttöliittymä</mobile>
+  </menu>
+  <tree>
+    <add_folder>Uusi kansio</add_folder>
+    <new_message>Uusi viesti</new_message>
+    <manage_folders>Kansioiden hallinta</manage_folders>
+    <open_folder>Avaa kansio</open_folder>
+    <open>Avaa</open>
+  </tree>
+  <mail_view>
+    <attachments>Liitetiedostot</attachments>
+    <from>Lähettäjä</from>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Otsikko</subject>
+    <all_headers>Näytä otsakkeet</all_headers>
+    <all_images>Näytä kuvat</all_images>
+    <next>Seuraava</next>
+    <prev>Edellinen</prev>
+    <first>Ensimmäinen</first>
+    <last>Viimeinen</last>
+    <show_external_images>Ulkoisten lähteiden näyttäminen on estetty. Klikkaa tässä nähdäksesi ne.</show_external_images>
+    <download_all>Lataa kaikki</download_all>
+    <detail>Tiedot</detail>
+    <blue_box_start>Aloita</blue_box_start>
+    <blue_box_end>Loppu</blue_box_end>
+    <blue_box_description>Kuvaus</blue_box_description>
+    <blue_box_accept>Hyväksy</blue_box_accept>
+    <blue_box_decline>Hylkää</blue_box_decline>
+    <blue_box_subscribe_folder>Tilaa kansio</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Tilaa tili</blue_box_subscribe_account>
+    <item_accept_ok>Kohde hyväksytty</item_accept_ok>
+    <read>lue</read>
+    <write>kirjoita</write>
+    <modify>muokkaa</modify>
+    <delete>poista</delete>
+    <administer>hallinnoi</administer>
+    <folder_rights>Kansion oikeudet</folder_rights>
+    <items_rights>Kohteen oikeudet</items_rights>
+  </mail_view>
+  <login>
+    <send>Lähetä</send>
+    <ip_check>Poista lisäturvallisuus käytöstä</ip_check>
+    <user>Käyttäjä</user>
+    <email>Sähköpostiosoite</email>
+    <password>Salasana</password>
+    <remember>Muista</remember>
+    <language>Kieli</language>
+    <allways_ask>Kysy aina</allways_ask>
+    <username>Käyttäjä</username>
+    <username_and_password>Käyttäjä ja salasana</username_and_password>
+    <auto_login>Automaattinen kirjautuminen</auto_login>
+    <login>Kirjaudu</login>
+    <copyright>Powered by IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Version: $1</copyright>
+    <welcome>Tervetuloa IceWarp:n Tablet-käyttöliittymään</welcome>
+    <public_welcome>Tervetuloa IceWarp:n Julkiseen Kalenteriin</public_welcome>
+    <title>IceWarp WebClient Tablet</title>
+    <public_title>IceWarp Julkinen Kalenteri</public_title>
+    <reset_password>Palauta salasana</reset_password>
+    <sign_up>Rekisteröidy</sign_up>
+    <email>Sähköpostiosoite</email>
+    <domain>Domain</domain>
+    <new_password>Uusi salasana</new_password>
+    <confirm_password>Vahvista salasana</confirm_password>
+    <full_name>Koko nimi</full_name>
+    <alternative_email>Vaihtoehtoinen email</alternative_email>
+    <switch>Siirry &lt;a href=&quot;../&quot;&gt;Työpöytä-&lt;/a&gt; tai &lt;a href=&quot;../pda&quot;&gt;Mobiili&lt;/a&gt;-käyttöliittymään.</switch>
+    <no_javascript>&lt;b&gt;JavaScript ei ole käytössä. &lt;/b&gt;&lt;/div&gt;Tämän takia ohjaamme sinut Tablet-käyttöliittymään, joka tarjoaa rajoittuneemman toiminnallisuuden.  Jos haluat käyttää Työpöytä-käyttöliittymää, vieraile osoitteessa &lt;a href=&quot;http://esupport.icewarp.com/index.php?_m=knowledgebase&amp;_a=viewarticle&amp;kbarticleid=521&quot;&gt;tietopalvelussa (englanniksi)&lt;/a&gt; kuinka saat JavaScriptin käyttöön.&lt;br /&gt;Jos selaimesi ei tue JavaScriptiä, asenna uusin versio &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorerista&lt;/a&gt; tai &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFoxista.&lt;/a&gt;</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>Syötä kuvan koodi</word>
+  </login>
+  <files>
+    <add>Lähetä tiedosto</add>
+    <download>Lataa</download>
+    <file>Tiedosto</file>
+  </files>
+  <file_list>
+    <filename>Tiedoston nimi</filename>
+    <description>Kuvaus</description>
+    <modified>Muokattu</modified>
+    <size>Koko</size>
+    <tags>Avainsanat</tags>
+  </file_list>
+  <notes>
+    <category>Kategoria</category>
+    <add>Uusi muistiinpano</add>
+  </notes>
+  <notes_detail>
+    <note>Muistiinpano</note>
+    <tags>Avainsanat</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Uusi tehtävä</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Tehtävä</task>
+    <status>Tila</status>
+    <complete>Valmis</complete>
+    <priority>Prioritetti</priority>
+    <not_started>Ei aloitettu</not_started>
+    <in_progress>Kesken</in_progress>
+    <completed>Valmis</completed>
+    <deferred>Laskennallinen</deferred>
+    <waiting_for_someone_else>Odottaa jotakuta muuta</waiting_for_someone_else>
+    <medium>Keskitaso</medium>
+    <high>Korkea</high>
+    <low>Matala</low>
+    <tags>Avainsanat</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Alkupäivä</start_date>
+    <due_date>Eräpäivä</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Koko ruutu</fullscreen>
+    <subject>Otsikko</subject>
+    <no_subject>Ei otsikko</no_subject>
+    <no_address>Ei osoitetta</no_address>
+    <from>Lähettäjä</from>
+    <date>Päiväys</date>
+    <size>Koko</size>
+    <delete>Poista</delete>
+    <reply>Vastaa</reply>
+    <reply_to_all>Vastaa kaikille</reply_to_all>
+    <forward>Ohjaa eteenpäin</forward>
+    <print>Tulosta</print>
+    <whitelist>Lisää luotetuksi lähettäjäksi</whitelist>
+    <blacklist>Estolistalle</blacklist>
+    <dws>Toiminto</dws>
+    <copy>Kopioi</copy>
+    <move>Siirrä</move>
+    <copy_to_folder>Kopioi kansioon:</copy_to_folder>
+    <move_to_folder>Siirrä kansioon:</move_to_folder>
+    <mar>Merkitse luetuksi</mar>
+    <mau>Merkitse lukemattomaksi</mau>
+    <select>Valitse</select>
+    <all>Kaikki</all>
+    <none>Ei mitään</none>
+    <read>Luettu</read>
+    <unread>Lukematon</unread>
+    <invert>Päinvastainen valinta</invert>
+    <doit>Suorita</doit>
+    <to>Vastaanottaja</to>
+    <fast_reply>Nopea vastaus</fast_reply>
+    <send_message>Lähetä viesti</send_message>
+    <src>Lähettäjä on pyytänyt ilmoitusta viestin lukemisesta. Lähetetäänkö ilmoitus?</src>
+    <save>Tallenna</save>
+    <select_folder>Tallenna kansio</select_folder>
+    <deliver>Toimita</deliver>
+    <text>Teksti</text>
+    <received>Vastaanotettu</received>
+    <saved>Tallennettu</saved>
+    <sender>Lähettäjä</sender>
+    <owner>Omistaja</owner>
+    <domain>Domain</domain>
+    <show_all>Näytä kaikki</show_all>
+  </mail_main>
+  <event_list>
+    <title>Otsikko</title>
+    <start>Alkaa</start>
+    <end>Päättyy</end>
+    <tags>Avainsanat</tags>
+  </event_list>
+  <event_detail>
+    <tags>Avainsanat</tags>
+    <show_as>Näytä</show_as>
+    <free>Vapaa</free>
+    <tentative>Alustava</tentative>
+    <busy>Varattu</busy>
+    <out_of_office>Poissa toimistolta</out_of_office>
+    <title>Otsikko</title>
+    <location>Sijainti</location>
+    <label>Merkki</label>
+    <none>Ei mitään</none>
+    <important>Tärkeä</important>
+    <business>Työ</business>
+    <personal>Henkilökohtainen</personal>
+    <vacation>Loma</vacation>
+    <must_attend>Osalistuttava</must_attend>
+    <travel_required>Vaatii matkustamista</travel_required>
+    <needs_preparation>Vaatii valmisteluja</needs_preparation>
+    <birthday>Syntymäpäivä</birthday>
+    <anniversary>Vuosipäivä</anniversary>
+    <phone_call>Puhelu</phone_call>
+    <category>Kategoria</category>
+    <private>Yksityinen</private>
+    <from>Alkaa</from>
+    <to>Päättyy</to>
+    <notes>Muistiinpanot</notes>
+    <allday>Koko päivän tapahtuma</allday>
+    <event>Tapahtuma</event>
+    <minutes>Minuutti(a)</minutes>
+    <hours>Tunti(a)</hours>
+    <days>Päivä(ä)</days>
+    <remind_me>Muistuta</remind_me>
+    <before>ennen</before>
+    <no_repeating>Ei toistu</no_repeating>
+    <daily>Päivittäin</daily>
+    <weekly>Viikottain</weekly>
+    <monthly>Kuukausittain</monthly>
+    <yearly>Vuosittain</yearly>
+    <end_date>Päättyy</end_date>
+    <no_end_date>Ei päättymispäivää</no_end_date>
+    <repeat>Toista</repeat>
+    <every>Joka</every>
+    <every_workday>Joka työpäivä</every_workday>
+    <recur_every>Toista joka</recur_every>
+    <weeks>viikot</weeks>
+    <on/>
+    <monday>Maanantai</monday>
+    <tuesday>Tiistai</tuesday>
+    <wednesday>Keskiviikko</wednesday>
+    <thursday>Torstai</thursday>
+    <friday>Perjantai</friday>
+    <saturday>Lauantai</saturday>
+    <sunday>Sunnuntai</sunday>
+    <day>Päivä</day>
+    <months>kuukaudet</months>
+    <first>Ensimmäinen</first>
+    <second>Toinen</second>
+    <third>Kolmas</third>
+    <fourth>Neljäs</fourth>
+    <last>Viimeinen</last>
+    <week>Viikko</week>
+    <work_week>Työviikko</work_week>
+    <weekend>Viikonloppu</weekend>
+    <of_every>joka</of_every>
+    <of/>
+    <years>vuosia</years>
+    <the/>
+    <times>ajat</times>
+    <count>laske</count>
+    <until>kunnes</until>
+    <tags>Avainsanat</tags>
+  </event_detail>
+  <event_main>
+    <mon>Ma</mon>
+    <tue>Ti</tue>
+    <wed>Ke</wed>
+    <thu>To</thu>
+    <fri>Pe</fri>
+    <sat>La</sat>
+    <sun>Su</sun>
+    <jan>Tammikuu</jan>
+    <feb>Helmikuu</feb>
+    <mar>Maaliskuu</mar>
+    <apr>Huhtikuu</apr>
+    <may>Toukokuu</may>
+    <jun>Kesäkuu</jun>
+    <jul>Heinäkuu</jul>
+    <aug>Elokuu</aug>
+    <sep>Syyskuu</sep>
+    <oct>Lokakuu</oct>
+    <nov>Marraskuu</nov>
+    <dec>Joulukuu</dec>
+    <week>Viikko</week>
+    <week_view>Viikko</week_view>
+    <work_week_view>Työviikko</work_week_view>
+    <month_view>Kuukausi</month_view>
+    <day_view>Päivä</day_view>
+    <list>Lista</list>
+    <add>Uusi tapahtuma</add>
+    <save>Tallenna</save>
+    <no_title>Ei otsikkoa</no_title>
+    <search>Etsi:</search>
+    <account>Tili:</account>
+    <print>Tulosta</print>
+  </event_main>
+  <contact_main>
+    <contact>Yhteystieto</contact>
+    <distribution_list>Jakelulista</distribution_list>
+    <title>Titteli</title>
+    <no_email>Ei sähköpostia</no_email>
+    <card_view>Korttinäkymä</card_view>
+    <list_view>Listanäkymä</list_view>
+    <contact_name>Nimi</contact_name>
+    <email>Sähköposti</email>
+    <company>Yritys</company>
+    <job>Tehtävä</job>
+    <department>Osasto</department>
+    <profession>Ammatti</profession>
+    <category>Kategoria</category>
+    <general>Yleinen</general>
+    <first_name>Etunimi</first_name>
+    <middle_name>Toinen nimi</middle_name>
+    <last_name>Sukunimi</last_name>
+    <nick>Lempinimi</nick>
+    <sort_string>Sort string</sort_string>
+    <title>Titteli</title>
+    <suffix>Pääte</suffix>
+    <category>Kategoria</category>
+    <web>Verkkosivusto</web>
+    <street>Katuosoite</street>
+    <city>Kaupunki</city>
+    <zip>Postinumero</zip>
+    <state>Osavaltio</state>
+    <country>Maa</country>
+    <im>IM</im>
+    <phones>Puhelin</phones>
+    <work>Työ</work>
+    <home>Koti</home>
+    <assistant>Assistentti</assistant>
+    <fax_home>Fax koti</fax_home>
+    <fax_work>Fax työ</fax_work>
+    <call_back>Soita takaisin</call_back>
+    <company>Yritys</company>
+    <car>Auto</car>
+    <isdn>ISDN</isdn>
+    <mobile>GSM</mobile>
+    <other>Muu</other>
+    <other_fax>Muu fax</other_fax>
+    <pager>Hakulaite</pager>
+    <primary>Ensisijainen</primary>
+    <radio>Radio</radio>
+    <telex>Telex</telex>
+    <hearing>Kuuleminen</hearing>
+    <add>Uusi yhteystieto</add>
+    <notes>Muistiinpanot</notes>
+    <no_name>Ei yhteystiedon nimeä</no_name>
+    <select>Valitse tyyppi</select>
+    <select_contacts>Valitse lisättävät yhteystiedot</select_contacts>
+    <add_distribution>Uusi jakelulista</add_distribution>
+    <add_new>Lisää</add_new>
+    <add_item_distribution>Lisää osoitekirjasta</add_item_distribution>
+    <save>Tallenna</save>
+    <edit>Muokkaa</edit>
+    <edit_selected>Muokkaa valittua</edit_selected>
+    <delete_selected>Poista</delete_selected>
+    <cancel>Peruuta</cancel>
+    <onleave_warning>Haluatko kirjautua ulos? Kaikki tallentamaton tieto menetetään.</onleave_warning>
+    <tags>Avainsanat</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>Uusi potilas</new_patient>
+    <new_staff>Uusi työntekijä</new_staff>
+    <notify_email>Notify email</notify_email>
+    <notify_sms>Notify SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>Uusi</add>
+    <staff>Henkilökunta</staff>
+    <patient>Potilas</patient>
+  </hippa_detail>
+  <grid>
+    <title>Otsikko</title>
+    <note>Muistiinpano</note>
+    <size>Koko</size>
+    <category>Kategoria</category>
+    <start>Alkaa</start>
+    <end>Päättyy</end>
+    <save>Tallenna</save>
+    <cancel>Peruuta</cancel>
+    <number_of_items>Muilla sivuilla valittujen kohteiden lukumäärä:</number_of_items>
+    <clear>Tyhjennä</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Valitse teksti, jonka haluat linkittää.</select_text>
+    <enter_url>Anna linkin osoite:</enter_url>
+    <image_location>Anna tämän kuvan sijainti:</image_location>
+    <image_alt>Anna kuvalle vaihtoehtoinen teksti:</image_alt>
+    <image>Lisää kuva</image>
+    <htmlsource>HTML lähdekoodi</htmlsource>
+    <hyperlink>Hyperlinkki</hyperlink>
+    <underline>Alleviivaus</underline>
+    <italic>Kursivointi</italic>
+    <bold>Lihavointi</bold>
+    <fontsize>Fontin koko</fontsize>
+    <fontformat>Fontin muotoilu</fontformat>
+    <outdent>Pienennä sisennystä</outdent>
+    <indent>Kasvata sisennystä</indent>
+    <orderedlist>Numeroitu listaus</orderedlist>
+    <unorderedlist>Listaus</unorderedlist>
+    <justify>Tasaa</justify>
+    <right>Kohdista oikealle</right>
+    <center>Kohdista keskelle</center>
+    <left>Kohdista vasemmalle</left>
+    <blockformat>Kappaleen muotoilu</blockformat>
+    <block_type>Kappaleen tyyppi</block_type>
+    <heading>Otsake</heading>
+    <paragraph>Kappale</paragraph>
+    <size>Koko</size>
+    <font>Fontti</font>
+    <cancel>Peruuta</cancel>
+    <email>Sähköposti</email>
+    <options>Asetukset</options>
+    <plain>Teksti</plain>
+    <html>HTML</html>
+    <from>Lähettäjä</from>
+    <to>Vastaanottaja</to>
+    <cc>Kopio</cc>
+    <bcc>Piilokopio</bcc>
+    <subject>Otsikko</subject>
+    <date>Päiväys</date>
+    <attachments>Liitetiedostot</attachments>
+    <text>Teksti</text>
+    <send_message>Lähetä viesti</send_message>
+    <save_message>Tallenna</save_message>
+    <br/>
+    <spellchecker>Oikeinkirjoituksen kieli</spellchecker>
+    <rrc>Pyydä lukuvahvistus</rrc>
+    <ssm>Tallenna lähetetyt viestit kansioon</ssm>
+    <psa>Käytä SmartAttach:a</psa>
+    <priority>Prioritetti</priority>
+    <lowest>Matalin</lowest>
+    <low>Matala</low>
+    <normal>Normaali</normal>
+    <high>Korkea</high>
+    <highest>Korkein</highest>
+    <rta>Reply-To -osoite</rta>
+    <charset>Merkistö</charset>
+    <auto>Auto</auto>
+    <original_message>-----Alkuperäinen viesti-----</original_message>
+    <read_confirmation_subject>Luettu: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Viestisi on luettu.&#13;&#10;&#13;&#10;Viestin tiedot:&#13;&#10;&#13;&#10;Lähettäjä: %FROM%&#13;&#10;Vastaanottaja: %TO%&#13;&#10;Päiväys: %DATE%&#13;&#10;Otsikko: %SUBJECT%</read_confirmation_text>
+    <add_contacts>Lisää yhteystiedot</add_contacts>
+    <add_files>Lisää tiedostoja</add_files>
+    <add_files_from_folder>Lisää tiedostoja kansiosta</add_files_from_folder>
+    <add_files_from_dropbox>Lisää tiedostoja Dropboxista</add_files_from_dropbox>
+    <leave_notice>Haluatko poistua? Viestin luonnos menetetään.</leave_notice>
+    <alias>Alias</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Uusi kansio</add>
+    <delete>Poista</delete>
+    <link>Linkitä</link>
+    <unlink>Poista linkitys</unlink>
+    <create_folder>Luo uusi kansio</create_folder>
+    <create>Luo</create>
+    <delete_confirmation_text>Haluatko varmasti poistaa kansion lopullisesti?</delete_confirmation_text>
+    <empty_confirmation_text>Haluatko varmasti poistaa kansion kohteet pysyvästi?</empty_confirmation_text>
+    <delete_yes>Kyllä</delete_yes>
+    <delete_no>En</delete_no>
+    <link_as>Linkitä kansio</link_as>
+    <unlink_as>Poista / muokkaa kansion linkitystä</unlink_as>
+    <unlink_confirmation_text>Haluatko varmasti poistaa kansion linkin?</unlink_confirmation_text>
+    <unlink_yes>Kyllä</unlink_yes>
+    <unlink_no>En</unlink_no>
+    <virtual>Virtuaalinen hakemisto</virtual>
+    <delete_empty_folder>Tyhjennä tai poista kansio</delete_empty_folder>
+    <edit>Muokkaa</edit>
+    <empty>Tyhjennä</empty>
+    <rename_folder>Nimeä kansio uudelleen</rename_folder>
+    <save>Tallenna</save>
+    <rename>Nimeä uudelleen</rename>
+    <perform_action>Suorita toiminto</perform_action>
+    <select_folder>Valitse hallittava kansio</select_folder>
+    <open_folder>Avaa kansio</open_folder>
+    <open_folder_des>Siirry valittuun kansioon.</open_folder_des>
+    <link_folder>Linkitä kansio</link_folder>
+    <link_folder_des>Käytä tätä lisätäksesi linkki tähän kansioon vasempaan palkkiin.</link_folder_des>
+    <add_folder>Lisää kansio</add_folder>
+    <add_folder_dis>Luo uusi kansio tämän kansion sisään.</add_folder_dis>
+    <rename_folder_des>Anna tälle kansiolle uusi nimi.</rename_folder_des>
+    <remove_folder>Poista kansio</remove_folder>
+    <remove_folder_des>Tyhjennä ja poista valittu kansio. Varoitus: tätä ei voi peruuttaa!</remove_folder_des>
+    <default_folder>Aseta oletuskansioksi</default_folder>
+    <default_folder_des>Aseta tämä kansio oletuskansioksi.</default_folder_des>
+    <set_default>Aseta tämä kansio oletukseksi</set_default>
+    <set>Aseta</set>
+    <as_drafts>Luonnokset</as_drafts>
+    <as_sent>Lähetetyt</as_sent>
+    <as_trash>Roskakori</as_trash>
+    <set_as_default>Aseta</set_as_default>
+    <link_first>Kansion pitää olla linkitetty ennen kuin sen voi asettaa oletuskansioksi.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Saapuneet</inbox>
+    <drafts>Luonnokset</drafts>
+    <sent>Lähetetyt</sent>
+    <trash>Roskakori</trash>
+  </common_folders>
+  <common>
+    <yes>Kyllä</yes>
+    <no>Ei</no>
+  </common>
+  <folder_types>
+    <mail>Sähköposti</mail>
+    <contact>Yhteystieto</contact>
+    <event>Kalenteri</event>
+    <journal>Päivyri</journal>
+    <note>Muistiinpano</note>
+    <task>Tehtävä</task>
+    <file>Tiedosto</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA validointi epäonnistui. Yritä uudelleen.</login_invalid_keypair>
+    <divtcha_confirmation>Väärä captcha-koodi</divtcha_confirmation>
+    <missing_values_text>Tyhjä tekstikenttä</missing_values_text>
+    <missing_values_email>Tyhjä sähköpostikenttä</missing_values_email>
+    <invalid_email>Virheellinen sähköpostiosoite</invalid_email>
+    <password_not_changed>Uusi salasana ei voi olla sama kuin vanha</password_not_changed>
+    <reset_password_invalid_hashid>Virheellinen hash ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID-tiedostoa ei ole</reset_password_uid_file>
+    <account_alternative_email>Tilille ei ole määritetty vaihtoehtoista sähköpostiosoitetta</account_alternative_email>
+    <migration_in_progress>Tilien siirto on käynnissä. Yritä myöhemmin uudelleen</migration_in_progress>
+    <login_ip_invalid>Kirjautumisen IP-rajoitus: %s</login_ip_invalid>
+    <unauthorized>Käyttöoikeutesi ei riitä</unauthorized>
+    <folder_type_restricted>Ylläpitäjä on estänyt tämän kansiotyypin käytön</folder_type_restricted>
+    <account_does_not_exists>Määritettyä tiliä ei ole.</account_does_not_exists>
+    <account_invalid_id>Tiliä %s ei voitu hakea</account_invalid_id>
+    <account_unknown_protocol>Tuntematon tilin protokolla</account_unknown_protocol>
+    <account_missing_tag>Tilistä puuttuu tagi %s</account_missing_tag>
+    <account_missing_id>Tilin ID puuttuu</account_missing_id>
+    <account_invalid_action>Tilin toiminto on virheellinen</account_invalid_action>
+    <account_already_exists>Tili %s on jo olemassa</account_already_exists>
+    <account_no_username>Tilin käyttäjä puuttuu tai on tyhjä</account_no_username>
+    <account_no_password>Tilin salasana puuttuu tai on tyhjä</account_no_password>
+    <account_bad_password>Vanha salasana on väärin</account_bad_password>
+    <account_password_policy>Salasanan ei täytä salasanan vaatimuksia</account_password_policy>
+    <account_sync>Tilin synkrointi epäonnistui tilille %s</account_sync>
+    <account_primary_delete>Ensisijaista tiliä ei voi poistaa</account_primary_delete>
+    <account_test_failed>Tilin testaaminen epäonnistui tilille %s</account_test_failed>
+    <account_signup_disabled>Omatoiminen rekisteröityminen on estetty</account_signup_disabled>
+    <account_signup_error>Kirjautumisvirhe: %s</account_signup_error>
+    <account_signup_1>Tuntematon virhe</account_signup_1>
+    <account_signup_2>Lisenssi ei riitä</account_signup_2>
+    <account_signup_3>Parametrien koko on liian pieni</account_signup_3>
+    <account_signup_4>Funktion virhe</account_signup_4>
+    <account_signup_5>Configuration not found</account_signup_5>
+    <account_signup_6>Salasanojen politiikka</account_signup_6>
+    <account_signup_7>Tili on jo olemassa</account_signup_7>
+    <account_signup_8>Virheellisiä merkkejä</account_signup_8>
+    <attachment_too_large>Liitetiedosto on liian suuri :%s</attachment_too_large>
+    <password_confirmation>Salasanat eivät täsmää</password_confirmation>
+    <missing_values>Salasanat eivät täsmää</missing_values>
+    <addon_copy>Lisääosaa ei voitu kopioida</addon_copy>
+    <attachment_file_not_found>Tiedostoa ei voida liittää</attachment_file_not_found>
+    <attachment_add>Liitetiedoston lisääminen epäonnistui</attachment_add>
+    <attachment_get>Liitetiedoston %s hakeminen epäonnistui</attachment_get>
+    <attacment_class_unknown>Tuntematon liitetiedoston tyyppi</attacment_class_unknown>
+    <auth_missing_tag>Tunnistautumisesta puuttuu tagi %s</auth_missing_tag>
+    <auth_export_key_private>Yksityisen avaimen vieminen epäonnistui</auth_export_key_private>
+    <auth_invalid_char>Yksityisessä avaimessa on virheellinen merkki</auth_invalid_char>
+    <confirmation_uid>Captcha sessiota ei löytynyt</confirmation_uid>
+    <confirmation_word_mismatch>Captcha syötetty väärin</confirmation_word_mismatch>
+    <db_auto_create>Tietokannan automaatiinen luominen epäonnistui</db_auto_create>
+    <db_create_sqlitefile>SQLite DB -tiedoston luonti epäonnistui</db_create_sqlitefile>
+    <db_create_tables>Näkymien luominen epäonnistui</db_create_tables>
+    <db_statement_prepare>Kyselyn valmistelu epäonnistui</db_statement_prepare>
+    <db_invalid_statement>Invalid statement type</db_invalid_statement>
+    <flags_unknown_field>Virheellinen lippu-kenttä</flags_unknown_field>
+    <folder_autocreate_failed>Kansio %s on jo olemassa</folder_autocreate_failed>
+    <folder_already_exists>Kansio %s on jo olemassa</folder_already_exists>
+    <folder_does_not_exist>Kansiota %s ei ole olemassa</folder_does_not_exist>
+    <folder_name_bad_char>Et voi käyttää erikoismerkkejä kansion nimessä</folder_name_bad_char>
+    <folder_name_length>Kansion nimen pituuden selvittäminen ei onnistu</folder_name_length>
+    <folder_name_too_long>Kansion uusi nimi on liian pitkä</folder_name_too_long>
+    <folder_get_list>Kansioiden listaaminen ei onnistu</folder_get_list>
+    <folder_delete>Ei voitu poistaa kansiota %s</folder_delete>
+    <folder_create>Ei voitu luoda kansiota %s</folder_create>
+    <folder_rename_empty>Kansion nimi ei voi olla tyhjä</folder_rename_empty>
+    <folder_move_to_self>Et voi siirtää kansiota itsensä sisään</folder_move_to_self>
+    <folder_move_to_subfolder>Et voi siirtää kansiota sen omaan alikansioon</folder_move_to_subfolder>
+    <folder_rename>Kansion uudelleennimeäminen epäonnistui</folder_rename>
+    <folder_copy>Ei voitu kopioida kansiota</folder_copy>
+    <folder_empty>Ei voitu tyhjentää kansiota</folder_empty>
+    <folder_missing_tag>Kansiosta puuttuu tagi %s</folder_missing_tag>
+    <folder_missing_account_id>Kansiosta puuttuu tilin ID</folder_missing_account_id>
+    <folder_invalid_account_id>Kansiossa on virheellinen tilin ID %s</folder_invalid_account_id>
+    <folder_missing_id>Kansion ID puuttuu</folder_missing_id>
+    <folder_missing_name>Kansion nimi puuttuu</folder_missing_name>
+    <folder_invalid_action>Virheellinen toiminto kansiolle %s</folder_invalid_action>
+    <folder_invalid_type>Virheellinen kansion tyyppi %s</folder_invalid_type>
+    <folder_sync>Kansiota ei voitu synkronoida %s</folder_sync>
+    <folder_empty_non_mail>Ei voitu tyhjentää ei-sähköposti-kansiota</folder_empty_non_mail>
+    <folder_insufficient_rights>Käyttöoikeutesi eivät riitä</folder_insufficient_rights>
+    <folder_mark_non_mail>Yritettiin asettaa lippuja ei-sähköpostikansioon</folder_mark_non_mail>
+    <freebusy_missing_tag>FreeBusy-merkintä puuttuu %s</freebusy_missing_tag>
+    <group_open>Ei voida avata ryhmää %s</group_open>
+    <group_subscribe>Ei voida tilata ryhmää %s</group_subscribe>
+    <group_add>Ryhmää ei voitu luoda</group_add>
+    <group_edit>Ryhmää ei voitu muokata %s</group_edit>
+    <group_user_add>Ryhmään ei voitu lisätä käyttäjiä %s</group_user_add>
+    <group_user_edit>Ryhmän käyttäjää ei voitu muokata %s</group_user_edit>
+    <group_user_delete>Ryhmän käyttäjää ei voitu poistaa %s</group_user_delete>
+    <groupware_upgrade_task>GroupWare-palvelun päivitys on käynnissä. Yritä myöhemmin uudelleen.</groupware_upgrade_task>
+    <folder_open>Ryhmää ei voitu avata %s</folder_open>
+    <call_open_folder_first>GroupWare-kansiota ei avattu toiminnossa, jossa sitä vaaditaan.</call_open_folder_first>
+    <call_open_group_first>GroupWare-ryhmää ei avattu toiminnossa, jossa sitä vaaditaan.</call_open_group_first>
+    <subscribe_account_gw>Virhe tilin tilaamisessa</subscribe_account_gw>
+    <unsubscribe_account_gw>Virhe tilin tilauksen poistamisessa</unsubscribe_account_gw>
+    <imap_clone>IMAP-objektin kloonaaminen epäonnistui</imap_clone>
+    <imap_open>IMAP-streamin avaaminen epäonnistui</imap_open>
+    <imap_internal>IMAP sisäinen virhe: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP erottelijavirhe</imap_delimiter_retrieval>
+    <imap_getmailboxes>Postilaatikoiden hakeminen epäonnistui</imap_getmailboxes>
+    <imap_mailbox_create>IMAP luo laatikko %s luo</imap_mailbox_create>
+    <imap_mailbox_subscribe>Laatikkoa %s ei voitu tilata</imap_mailbox_subscribe>
+    <imap_mailbox_delete>Laatikkoa %s ei voitu poistaa</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Tilausta laatikkoon %s ei voitu perua</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP laatikon %s uudelleennimeäminen epäonnistui</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP laatikko poista kohteita</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP laatikko tyhjennä</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP kohteiden kopiointi epäonnistui</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP kohteiden siirto epäonnistui</imap_mailbox_moveitems>
+    <imap_mailbox_open>Laatikkoa %s ei voitu avata uudelleen</imap_mailbox_open>
+    <imap_mailbox_message_list>Viestilistan hakeminen epäonnistui</imap_mailbox_message_list>
+    <imap_message_details>Viestin tietojen hakeminen epäonnistui %s</imap_message_details>
+    <imap_no_headers>Viestin otsakkeiden hakeminen epäonnistui %s</imap_no_headers>
+    <imap_no_body>Viestin rungon hakeminen epäonnistui %s</imap_no_body>
+    <imap_message_create>Viestiä ei voida liittää</imap_message_create>
+    <imap_message_delete>Viestiä ei voida poistaa %s</imap_message_delete>
+    <imap_message_copy>Viestiä ei voida kopioda %s</imap_message_copy>
+    <imap_message_move>Viestiä ei voida siirtää %s</imap_message_move>
+    <imap_flags_set>Viestiin ei voida asettaa %s lippuja</imap_flags_set>
+    <imap_flags_clear>Viestin lippuja %s ei voida poistaa</imap_flags_clear>
+    <imap_message_not_found>Kohdepostilaatikossa ei ole uusia viestejä</imap_message_not_found>
+    <subscribe_account_imap>Virhe tilin tilaamisessa</subscribe_account_imap>
+    <unsubscribe_account_imap>Virhe tilin tilauksen päättämisessä</unsubscribe_account_imap>
+    <import_vcalendar>vCalendar tuonti epäonnistui</import_vcalendar>
+    <import_vcard>vCard tuonti epäonnistui</import_vcard>
+    <import_missing_tag>Tuonnin tagi puuttuu %s</import_missing_tag>
+    <import_missing_action>Tuonnin tehtävä puuttuu</import_missing_action>
+    <import_invalid_action>Virheellinenn tuonnin tehtävä %s</import_invalid_action>
+    <import_missing_account_id>Tuonnista puuttuu tilin ID</import_missing_account_id>
+    <import_invalid_account_id>Tuonnissa virheellinen tilin ID</import_invalid_account_id>
+    <import_missing_folder_id>Tuonnista puuttuu kansion ID</import_missing_folder_id>
+    <import_invalid_folder_id>Tuonnissa virheellinen kansion ID</import_invalid_folder_id>
+    <import_invalid_item_id>Tuonnissa virheellinen kohde-ID</import_invalid_item_id>
+    <import_add_items>Kohteita (list) ei voitu luoda</import_add_items>
+    <import_invalid_data>Yritettiin tuoda tietoa, jota ei tueta</import_invalid_data>
+    <export_invalid_account>Yritettiin viedä tiliä, jota ei ole</export_invalid_account>
+    <imip_versit_convert>iMIP versit conversion</imip_versit_convert>
+    <imip_versit_empty>iMIP versit empty</imip_versit_empty>
+    <imip_missing_folder>iMIP missing folder</imip_missing_folder>
+    <inputstream_no_xml_input>No XML passed to input</inputstream_no_xml_input>
+    <inputstream_corrupted_input>XML on korruptoitunut</inputstream_corrupted_input>
+    <item_invalid_id>Kohde-ID puuttuu</item_invalid_id>
+    <item_count>Kohteiden määrän selvittäminen epäonnistui</item_count>
+    <item_create>Kohdetta ei voitu luoda</item_create>
+    <item_delete>Kohdetta %s ei voitu poistaa</item_delete>
+    <item_move>Kohdetta ei voitu siirtää</item_move>
+    <item_edit>Kohteen %s muokkaaminen epäonnistui</item_edit>
+    <item_occurrance_delete>Ei voitu poistaa toistuvuutta %s</item_occurrance_delete>
+    <item_occurrance_create>Ei voitu luoda toistuvuutta</item_occurrance_create>
+    <item_exception_delete>Ei voitu poistaa poikkeusta %s</item_exception_delete>
+    <item_exception_create>Ei voitu luoda poikkeusta</item_exception_create>
+    <item_copy>Ei voitu kopioida kohdetta</item_copy>
+    <item_copy_multiple>Ei voitu kopioida montaa kohdetta</item_copy_multiple>
+    <item_copy_destination>Kohdekansiota ei saatu</item_copy_destination>
+    <item_copy_destination_type>Ei voitu kopioida kansiota erityyppiseen kansioon</item_copy_destination_type>
+    <item_count_retrieve>Ei voitu laskea kansion kohteita</item_count_retrieve>
+    <item_missing_tag>Kohteen merkki puuttuu</item_missing_tag>
+    <item_missing_account_id>Tilin ID puuttuu</item_missing_account_id>
+    <item_invalid_account_id>Tilin ID on virheellinen %s</item_invalid_account_id>
+    <item_missing_folder_id>Kansion ID puuttuu</item_missing_folder_id>
+    <item_invalid_folder_id>Kansion ID on virheellinen %s</item_invalid_folder_id>
+    <item_missing_item_id>Kohteen ID puuttuu</item_missing_item_id>
+    <item_invalid_item_id>Kohteen ID on virheellinen %s</item_invalid_item_id>
+    <item_invalid_action>Kohteen toiminto on virheellinen</item_invalid_action>
+    <login_invalid>Kirjautuminen tilille %s epäonnistui</login_invalid>
+    <login_account_valid>Virheellinen tili %s</login_account_valid>
+    <phpmailer_>Yleinen postitus virhe, viestiä ei lähetetty</phpmailer_>
+    <phpmailer_smtp_auth>Postittaja ei voinut tunnistautua, viestiä ei lähetetty</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Postittaja ei saanut SMTP-yhteyttä, viestiä ei lähetetty</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Postittajasta puuttuu vastaanottajat, viestiä ei lähetetty</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Postittaja ei tue tätä viestityyppiä, viestiä ei lähetetty</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail lähetyksen virhe</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Viestin lähettäminen epäonnistui</phpmailer_mail_send>
+    <phpmailer_language>Kielitiedostoa ei voitu avata</phpmailer_language>
+    <phpmailer_add_attachment>Tiedostoa ei voitu liittää</phpmailer_add_attachment>
+    <phpmailer_encode_file>Liitetiedoston enkoodaus epäonnistui</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Liitetiedoston enkoodausta ei tunneta</phpmailer_encode_unknown>
+    <mailparse_empty>Ei parsittavaa lähdettä</mailparse_empty>
+    <mailparse_parser_init>Viestin parsiminen epäonnistui</mailparse_parser_init>
+    <mailparse_get_part>Ei voitu hakea osaa %s</mailparse_get_part>
+    <message_missing_tag>Viestistä puuttuu tagi %s</message_missing_tag>
+    <message_missing_account_id>Viestistä puuttuu tilin ID</message_missing_account_id>
+    <message_invald_account>Viestin tilin ID on virheellinen</message_invald_account>
+    <message_missing_folder_id>Viestistä puuttuu kansion ID</message_missing_folder_id>
+    <message_invald_folder>Viestin kansion ID on virheellinen</message_invald_folder>
+    <message_missing_item_id>Viestin kohteen ID puuttuu</message_missing_item_id>
+    <message_invalid_action>Viestin toiminto on virheellinen</message_invalid_action>
+    <message_get_not_allowed>Ei voitu päivittää kansiolistaa puuttuvien käyttöoikeuksien takia.</message_get_not_allowed>
+    <message_attachment_type>Liitetiedoston %s parsiminen epäonnistui.</message_attachment_type>
+    <message_attachment_existence>Äskettäin lähetettyä liitettä ei löydy</message_attachment_existence>
+    <rss_channel_exist>Määritettyä kanavan URLia ei voitu avata %s</rss_channel_exist>
+    <rss_invalid_channel>Kanavaan ei saatu yhteyttä</rss_invalid_channel>
+    <settings_access_denied>Pääsy evätty</settings_access_denied>
+    <settings_missing_tag>Asetetaan puuttuva tagi %s</settings_missing_tag>
+    <settings_duplicity>XML-asetustiedoston muotovirhe.</settings_duplicity>
+    <settings_get_domain_file>Domainin asetustiedosto on virheellinen %s</settings_get_domain_file>
+    <settings_domain_set>Asetettu domainin asetukset tiedostoon %s</settings_domain_set>
+    <settings_user_set>Ei pääsyä käyttäjän asetuksiin tiedostossa %s. Tarkista käyttöoikeudet ja postikansio.</settings_user_set>
+    <settings_public_set>Asetettu yleiset tiedot tiedostoon %s</settings_public_set>
+    <settings_shared_set>Jaettuja tilejä ei voitu tallentaa</settings_shared_set>
+    <settings_owner_set>Omistajan asetuksia ei voitu asettaa</settings_owner_set>
+    <session_expired>Sessio %s vanheni</session_expired>
+    <session_no_user>Session käyttäjätietoja ei voitu hakea</session_no_user>
+    <smime_no_recipient>SMIME ei vastaanottajaa</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP-dataa ei hyväksytty palvelimelta: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP From: epäonnistui (from)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP Vastaanottajat epäonnistui (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Ei voitu asettaa oikeinkirjoituksen tilaa</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Ei voitu avata oikeinkirjoituksen sanakirjaa (dic)</spellchecker_open_dictionary>
+    <spellchecker_add_word>Ei voitu lisätä uutta sanaa %s sanakirjaan</spellchecker_add_word>
+    <spellchecker_missing_check_id>Sanan ID puuttuu</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Tagi puuttuu %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Sanakirjan ID puuttuu</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Sana puuttuu</spellchecker_missing_word>
+    <upload_tag_missing>Lähetyksen merkki puuttuu</upload_tag_missing>
+    <upload_missing_attribute>Lähetyksen atribuutti puuttuu</upload_missing_attribute>
+    <upload_attachment_missing>Lähetyksen liite puuttuu</upload_attachment_missing>
+    <xml_invalid_file_name>XML-tiedoston nimi on tyhjä</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath palautti enemmän kuin yhden tuloksen kyselyllesi.</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML:n node puuttuu %s</xml_node_does_not_exist>
+    <xmlrequest_path>Virheellinen mallitiedosto (hakemisto)</xmlrequest_path>
+    <xmlrequest_access_denied>Pääsy evätty</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Virheellinen pyynnön tyyppi (type)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Namespace-atribuutti puuttuu</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>SID puuttuu tai on virheellinen</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XMLRequest tagi puuttuu %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Luokan luoja puuttuu</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Tuntematon tuloksen muoto %s</xmlrequest_unkown_format>
+    <not_implemented>Ei vielä implementoitu</not_implemented>
+    <logdir_create>Ei voitu luoda logihakemistoa  %s</logdir_create>
+    <api_property_get>Ei voitu hakea ominaisuuksia: %s</api_property_get>
+    <wm_disabled>WebClient on poissa käytöstä</wm_disabled>
+    <gw_init_error>GroupWare alustamisessa tapahtui virhe</gw_init_error>
+    <default>Oletuspoikkeus %s</default>
+    <other_accounts_disabled>Muun tilin luonti on estetty.</other_accounts_disabled>
+    <link_compressed_variable_missing>Virhe URL:ssa. Sinut ohjattiin etusivulle.</link_compressed_variable_missing>
+    <login_expired>Kirjautuminen on vanhentunut. Kirjaudu uudestaan.</login_expired>
+    <account_disabled>Tili on poistettu käytöstä tai sen käyttö on estetty</account_disabled>
+    <folder_set_default>Kansiota &quot;%s&quot; ei voida asettaa oletukseksi</folder_set_default>
+    <personality_confirmation_invalid_user>Sähköpostiosoitetta ei voitu varmistaa: Virheellinen käyttäjä</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>Sähköpostiosoitetta ei voitu varmistaa: Virheellinen hash</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Estolistan kohde epäonnistui</item_blacklist_error>
+    <item_whitelist_error>Luotetut lähettäjät -kohde epäonnistui</item_whitelist_error>
+    <unverified_signature>Viestin allekirjoitusta ei voitu varmistaa</unverified_signature>
+    <account_is_guest>Access not allowed for guests</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Kohteen valinta poistettu</item_selection_cleared>
+    <logged_out>Olet kirjautunut ulos</logged_out>
+    <message_send_ok>Viesti lähetetty</message_send_ok>
+    <item_move_ok>Kohteet siirretty</item_move_ok>
+    <item_copy_ok>Kohteet kopioitu</item_copy_ok>
+    <item_delete_ok>Kohteet poistettu</item_delete_ok>
+    <item_mark_ok>Kohteet merkitty</item_mark_ok>
+    <settings_save_ok>Asetukset tallennettu</settings_save_ok>
+    <loading_next_message>Ladataan seuraavaa viestiä</loading_next_message>
+    <loading_prev_message>Ladataan edellistä viestiä</loading_prev_message>
+    <loading_next_page>Ladataa seuraavaa sivua</loading_next_page>
+    <loading_prev_page>Ladataan edellistä sivua</loading_prev_page>
+    <loading_next_month>Ladataan seuraavaa kuukautta</loading_next_month>
+    <loading_prev_month>Ladataan edellistä kuukautta</loading_prev_month>
+    <loading_next_week>Ladataan seuraavaa viikkoa</loading_next_week>
+    <loading_prev_week>Ladataan edellistä viikkoa</loading_prev_week>
+    <loading_next_day>Ladataan seuraavaa päivää</loading_next_day>
+    <loading_prev_day>Ladattaan edellistä päivää</loading_prev_day>
+    <password_change_ok>Salasana vaihdettu</password_change_ok>
+    <item_whitelist_ok>Kohde lisättiin luotettuihin lähettäjiin</item_whitelist_ok>
+    <item_blacklist_ok>Kohde lisättiin estolistalle</item_blacklist_ok>
+    <folder_set_default_ok>Kansio asetettu oletukseksi</folder_set_default_ok>
+    <subscribe_account_ok>Tili tilattu</subscribe_account_ok>
+    <subscribe_folder_ok>Kansio tilattu</subscribe_folder_ok>
+    <item_decline_ok>Kohde hylätty</item_decline_ok>
+    <access_granted>Sinulle on myönnetty pääsy kohteeseen &quot;%s&quot;. Myöntäjä: &quot;%s&quot;</access_granted>
+    <message_save_ok>Message saved</message_save_ok>
+    <item_accept_ok>Item accepted</item_accept_ok>
+  </messages>
+</language>

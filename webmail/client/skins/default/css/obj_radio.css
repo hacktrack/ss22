@@ -1,0 +1,19 @@
+form.obj_radio>div{
+	display: block;
+	line-height: 28px;
+	white-space: nowrap;
+}
+
+form.obj_radio.inline>div{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+form.obj_radio>div>input{
+	margin:0 5px;
+}
+form.obj_radio>div>label,
+form.obj_radio>div>input{
+	display: inline;
+	vertical-align: middle;
+}

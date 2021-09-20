@@ -1,0 +1,720 @@
+.obj_datagrid{
+	position: relative;
+    height: 100%;
+	padding-top: 30px;
+
+	user-select: none;
+    -khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+
+	overflow: hidden;
+
+	direction: ltr;
+	outline: none;
+}
+
+.obj_datagrid>iframe{
+	position: absolute;
+	top: -50px;
+	border: none;
+	left: 0;
+	width: 100%;
+	height: 0;
+}
+
+.obj_datagrid.small {
+	padding-top: 41px;
+}
+.rtl .obj_datagrid {
+	direction: rtl;
+}
+
+	.obj_datagrid *{
+		cursor: Default;
+	}
+
+	.obj_datagrid.border{
+		border: 1px solid #CACACA;
+		border-radius: 2px;
+	}
+	.obj_datagrid.border.focused{
+		border-color: #ABC3DB;
+	}
+
+	.obj_datagrid>input{
+		position: absolute;
+		left: -200%;
+	}
+	.rtl .obj_datagrid>input {
+		left: auto;
+		right: -200%;
+	}
+	.obj_datagrid.disabled{
+		opacity: 0.6;
+	}
+	.obj_datagrid.disabled:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: transparent;
+	}
+
+.obj_datagrid h3.noitems{
+	display: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 50%;
+	width: 100%;
+
+	color: #BABABA;
+	font-size: 16px;
+	text-align: center;
+}
+
+.obj_datagrid.small>.container1{
+	height: 41px;
+}
+
+.obj_datagrid>.container1{
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	height: 30px;
+	width: 100%;
+
+	border-bottom: 1px solid #ECECEC;
+}
+	.obj_datagrid>.container1>.head{
+		position: relative;
+		height: 100%;
+	}
+	.obj_datagrid>.container1>.head .col{
+		border-right: 1px solid #ECECEC;
+	}
+	.obj_datagrid>.container1>.head .col:last-of-type{
+		border-right-color: transparent;
+	}
+
+	.obj_datagrid.border.dynamic>.container1>.head .col:last-of-type{
+		border-right-color: transparent;
+	}
+	.obj_datagrid.border.dynamic>.container1>.head .col:last-of-type>p{
+		display: none;
+	}
+
+	.rtl .obj_datagrid>.container1>.head .col div {
+		text-align: right;
+		padding-right: 4px;
+	}
+
+	.obj_datagrid>.container1>.head>.col,
+	.obj_datagrid .obj_datagrid-body>.col{
+		position: absolute;
+		width: 250px;
+		height: 100%;
+		text-indent: 5px;
+	}
+
+	.obj_datagrid>.container1>.head .desc,
+	.obj_datagrid>.container1>.head .asc{
+		background-color: #EAEAEA;
+	}
+
+	.obj_datagrid>.container1>.head .desc:before,
+	.obj_datagrid>.container1>.head .asc:before{
+
+		content: '';
+		position: absolute;
+		right: 5px;
+		top: 12px;
+		width: 0;
+		height: 0;
+
+		border: solid transparent;
+		border-width: 7px 4px;
+		border-top-color: #646669;
+	}
+	.rtl .obj_datagrid>.container1>.head .desc:before,
+	.rtl .obj_datagrid>.container1>.head .asc:before {
+		left: 5px;
+		right: auto;
+	}
+	.obj_datagrid>.container1>.head .asc:before{
+		top: 5px;
+		border-top-color: transparent;
+		border-bottom-color: #646669;
+	}
+
+	.obj_datagrid>.container1>.head .coldrag{
+
+		z-index: 1000;
+		background: #8B9CAF;
+
+		filter:alpha(opacity=40);
+		-moz-opacity:0.4;
+		opacity:0.4;
+	}
+		.obj_datagrid>.container1>.head .coldrag *{
+			cursor: move;
+		}
+
+    .obj_datagrid>.container1>.head div.arrow_div{
+        position: absolute;
+        z-index: 1100;
+
+		margin-left: -2px;
+		width: 3px;
+		height: 100%;
+
+		left: -4px;
+
+		background-color: {bg_main '#0088CC'};
+	}
+	.rtl .obj_datagrid>.container1>.head div.arrow_div {
+		left: auto;
+		right: -4px;
+	}
+
+	.obj_datagrid>.container1>.head p{
+		position: absolute;
+
+		right: 0;
+		margin: 0 -3px 0 0;
+		padding: 0;
+
+		z-index: 20;
+		cursor: w-resize;
+
+		width: 5px;
+		height: 100%;
+	}
+	.rtl .obj_datagrid>.container1>.head p {
+		left: 0;
+		right: auto;
+		margin: 0 0 0 -3px;
+	}
+	.obj_datagrid>.container1>.head .col div{
+		width: 100%;
+		height: 100%;
+
+		line-height: 30px;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.obj_datagrid>.container1>.head .col.center div{
+		text-indent: 0;
+		text-align: center;
+	}
+
+.obj_datagrid>.scroll{
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.obj_datagrid>.scroll>.container2{
+	overflow: auto;
+	height: 100%;
+    /*background: #F1F3F5 50% 50% no-repeat;*/
+
+    background: #FFF 50% 50% no-repeat;
+}
+
+.obj_datagrid>.scroll>.container2.noitems {
+    background-image: url(../images/no_mail_messages_in_folder.png);
+}
+
+.obj_datagrid .obj_datagrid-body{
+	position: relative;
+}
+.rtl .obj_datagrid .obj_datagrid-body {
+	direction: rtl;
+}
+
+	.obj_datagrid .obj_datagrid-body .coldrag a{
+		color: #FFF;
+	}
+
+	.compact .obj_datagrid .obj_datagrid-body .col div {
+		height: 25px;
+		line-height: 25px;
+	}
+	.obj_datagrid .obj_datagrid-body .col div{
+		position: absolute;
+		overflow: hidden;
+		width: 100%;
+
+		height: 33px;
+		line-height: 32px;
+
+		white-space: nowrap;
+		user-select: none;
+		border-bottom: 1px solid #FFF;
+	}
+	/*body.small .obj_datagrid.small .obj_datagrid-body .col div{
+		line-height: 26px;
+	}*/
+	.obj_datagrid .obj_datagrid-body .col.right div{
+		text-align: right;
+		padding-right: 5px;
+	}
+	.obj_datagrid .obj_datagrid-body .col.light div{
+		font-weight: normal!important;
+	}
+	body.light .obj_datagrid .obj_datagrid-body .col.light div{
+		font-weight: 200!important;
+	}
+
+	.obj_datagrid .obj_datagrid-body .col div.active{
+		background-color: {bg_main #08C}!important;
+		color: #FFF!important;
+	}
+
+/* EDIT COLUMN */
+.obj_datagrid .obj_datagrid-body form.edit_column{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	user-select: auto;
+}
+	.obj_datagrid .obj_datagrid-body form.edit_column .obj_input{
+		height: 100%;
+		width: 100%;
+		text-indent: 3px;
+
+		font-weight: inherit;
+	}
+
+/*** ICONS ***/
+.obj_datagrid div.col.ico>div{
+	text-indent: 24px;
+}
+
+.compact .obj_datagrid div.col.ico>div:before {
+	top: 3px;
+}
+
+.obj_datagrid div.col.ico>div:before,
+.obj_datagrid.small div.col>div>div.ico:before{
+	content: '';
+	position: relative;
+	top: 7px;
+	left: 0;
+	width: 18px;
+	height: 18px;
+
+	font-size: 16px;
+	font-family: 'ico16';
+	line-height: 18px;
+	text-indent: 0;
+	text-align: center;
+	color: #606060;
+	display: block;
+}
+.obj_datagrid div.col.ico>div:before {
+	position: absolute;
+}
+
+.rtl .obj_datagrid div.col.ico>div:before,
+.rtl .obj_datagrid.small div.col>div>div.ico:before {
+	left: auto;
+	right: 0;
+}
+
+body.small .obj_datagrid.small .obj_datagrid-body div.col.ico>div:before {
+	top: 2px;
+}
+
+.obj_datagrid div.col.ico>div.active:before,
+.obj_datagrid.small div.col>div.active>div.ico:before{
+	color: #F0F0F0;
+}
+
+.obj_datagrid.small div.col>div>div.ico:before{
+	top: 0px;
+	font-size: 15px;
+}
+.obj_datagrid>.container1 div.col.ico>div:before{
+	top: 6px;
+}
+
+/*			COMPACT VIEW			*/
+
+body.compact .obj_datagrid.small .col > div  {
+	display: table;
+	table-layout: fixed;
+}
+
+body.compact .obj_datagrid.small .col > div > div  {
+	display: table-cell;
+	position: relative;
+	top: auto;
+	bottom: auto;
+	left: auto;
+	right: auto;
+	margin: 0;
+	padding: 0 2px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 24px;
+	/* width: initial; broke chrome layout */
+	height: 24px!important;
+	vertical-align: top;
+	font-weight: 300;
+}
+
+body.compact .obj_datagrid.small .col > div.unread > div {
+	font-weight: 500;
+}
+body.compact .obj_datagrid.small .obj_datagrid-body .unicolumn>div.unread:before {
+	content: none;
+}
+
+body.compact .obj_datagrid.small .obj_datagrid-body .col_FLAGS {
+	width: 20px;
+}
+
+body.compact .obj_datagrid.small .obj_datagrid-body .attachment>.col_FLAGS {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 24px!important;
+}
+
+/* .obj_datagrid.small .col > div > div.col_FLAGS:before,
+.obj_datagrid.small .col > div.attachment > div.col_FLAGS:before,
+body.compact .obj_datagrid.small .col > div > div.col_FLAGS:before,
+body.compact .obj_datagrid.small .col > div.attachment > div.col_FLAGS:before,
+body.small .obj_datagrid.small .col > div > div.col_FLAGS:before,
+body.small .obj_datagrid.small .col > div.attachment > div.col_FLAGS:before {
+	content: none;
+} */
+
+/* body.compact .obj_datagrid.small .obj_datagrid-body div.col > div.unread > div.col_FLAGS:before {
+	content: none;
+} */
+
+body.compact .obj_datagrid.small .obj_datagrid-body div.col > div.unread > div.col_FLAGS:after {
+	content: '\e01f';
+	color: {bg_main #08C};
+	font-size: 8px;
+	top: 0px;
+	left: 7px;
+	background-image: none;
+}
+
+body.small .obj_datagrid.small .col > div.unread > div.col_FLAGS:after {
+	content: '\e01f';
+	color: {bg_main #08C};
+	font-size: 8px;
+	top: -20px;
+    left: 3px;
+}
+
+.obj_datagrid.small .col > div.unread > div.col_FLAGS:after {
+	content: '\e01f';
+	color: {bg_main #08C};
+	font-size: 8px;
+	top: -20px;
+    left: 6px;
+    display: block;
+    position: absolute;
+    font-family: ico16;
+}
+
+body.rtl .obj_datagrid.small .col > div.unread > div.col_FLAGS:after,
+body.rtl.small .obj_datagrid.small .col > div.unread > div.col_FLAGS:after {
+	left: 13px;
+}
+
+.obj_datagrid.small .obj_datagrid-body div.col > div.unread.active > div.col_FLAGS:after,
+body.small .obj_datagrid.small .obj_datagrid-body div.col > div.unread.active > div.col_FLAGS:after,
+body.compact .obj_datagrid.small .obj_datagrid-body div.col > div.unread.active > div.col_FLAGS:after {
+	color: #fff;
+}
+
+body.compact .obj_datagrid.small .col > div > div.col_SUBJECT {
+	padding: 0 2px;
+}
+
+body.compact .obj_datagrid.small .col > div.attachment > div.col_SUBJECT {
+	padding: 0 2px;
+}
+
+body.compact .obj_datagrid.small .col > div > div.col_HAS_ATTACHMENT {
+	display: none;
+}
+
+body.compact .obj_datagrid.small .col > div > div.col_COLOR {
+	width: 20px;
+	overflow: visible;
+}
+
+body.compact .obj_datagrid.small .col > div > div.col_COLOR:before {
+	left: 2px;
+}
+
+body.compact .obj_datagrid.small .col > div > div.col_EVNFOLDER {
+	width: 2px;
+}
+
+body.compact .obj_datagrid.small div.col_EVNTITLE.indent {
+	text-indent: 10px;
+}
+
+body.compact .obj_datagrid.small .col > div > div.col_EVNLOCATION {
+	display: none;
+}
+
+body.compact .obj_datagrid.small .col > div > div.col_REMINDER {
+	display: none;
+}
+
+body.compact .obj_datagrid.small .obj_datagrid-body .col_TASK_STARTDATE:before,
+body.compact .obj_datagrid.small .obj_datagrid-body .col_EVENT_STARTDATE:before {
+	content: none!important;
+}
+body.compact .obj_datagrid.small .obj_datagrid-body .col_DATE,
+body.compact .obj_datagrid.small .obj_datagrid-body .col_QDATE,
+body.compact .obj_datagrid.small .obj_datagrid-body .col_EVN_MODIFIED,
+body.compact .obj_datagrid.small .obj_datagrid-body .col_EVENT_ENDDATE,
+body.compact .obj_datagrid.small .obj_datagrid-body .col_EVENT_STARTDATE,
+body.compact .obj_datagrid.small .obj_datagrid-body .col_TASK_STARTDATE,
+body.compact .obj_datagrid.small .obj_datagrid-body .col_TASK_ENDDATE {
+	text-align: right;
+	width: 100px;
+	font-size: 12px;
+}
+.obj_datagrid.small .obj_datagrid-body .unread .col_DATE,
+.obj_datagrid.small .obj_datagrid-body .unread .col_QDATE,
+.obj_datagrid.small .obj_datagrid-body .unread .col_EVN_MODIFIED,
+.obj_datagrid.small .obj_datagrid-body .unread .col_EVENT_ENDDATE,
+.obj_datagrid.small .obj_datagrid-body .unread .col_EVENT_STARTDATE,
+.obj_datagrid.small .obj_datagrid-body .unread .col_TASK_STARTDATE,
+.obj_datagrid.small .obj_datagrid-body .unread .col_TASK_ENDDATE {
+	color: {bg_main #08C};
+}
+.obj_datagrid.small .obj_datagrid-body .active .col_DATE,
+.obj_datagrid.small .obj_datagrid-body .active .col_QDATE,
+.obj_datagrid.small .obj_datagrid-body .active .col_EVN_MODIFIED,
+.obj_datagrid.small .obj_datagrid-body .active .col_EVENT_ENDDATE,
+.obj_datagrid.small .obj_datagrid-body .active .col_EVENT_STARTDATE,
+.obj_datagrid.small .obj_datagrid-body .active .col_TASK_STARTDATE,
+.obj_datagrid.small .obj_datagrid-body .active .col_TASK_ENDDATE {
+	color: #fff;
+}
+body.compact .obj_datagrid.small .obj_datagrid-body .col_TASK_STARTDATE,
+body.compact .obj_datagrid.small .obj_datagrid-body .col_TASK_ENDDATE {
+	width: 60px;
+}
+body.compact .obj_datagrid.small .col > div > div.col_EVNTITLE:before {
+	font-size: 16px;
+    font-family: 'ico16';
+    line-height: 24px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #666;
+}
+
+body.compact .obj_datagrid.small .col > div.active > div.col_EVNTITLE:before {
+	color: #fff;
+}
+
+body.compact .obj_datagrid.small .col > div.recurrence > div.col_EVNTITLE {
+	padding-right: 16px;
+}
+body.compact .obj_datagrid.small .col > div.recurrence > div.col_EVNTITLE:before {
+	content: '\e02d';
+}
+body.compact .obj_datagrid.small .col > div.reminder > div.col_EVNTITLE {
+	padding-right: 16px;
+}
+body.compact .obj_datagrid.small .col > div.reminder .col_EVNTITLE:before {
+	content: '\e02f';
+}
+body.compact .obj_datagrid.small .col > div.recurrence.reminder > div.col_EVNTITLE {
+	padding-right: 32px;
+}
+body.compact .obj_datagrid.small .col > div.recurrence.reminder .col_EVNTITLE:before {
+	content: '\e02d\e02f';
+}
+
+body.compact .obj_datagrid.small .col > div > div.col_AVATAR {
+	width: 30px;
+}
+
+body.compact .obj_datagrid.small .obj_datagrid-body .col_AVATAR > div {
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 2px 5px;
+}
+
+body.compact .obj_datagrid.small .obj_datagrid-body div.ico:before {
+	top: 3px;
+    font-size: 15px;
+}
+
+body.compact .obj_datagrid.small .col > div > div.file_type {
+	width: 30px;
+    padding-right: 4px;
+}
+body.compact .obj_datagrid.small .obj_datagrid-body .file_type:after {
+	position: absolute;
+    right: 4px;
+    top: 3px;
+}
+body.compact .obj_datagrid.small .col > div > div.col_LOCK {
+	width: 25px;
+}
+
+body.compact .obj_datagrid.small .col > div > div.col_EVNTYPE {
+	width: 40px;
+    text-align: center;
+}
+
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags div.col_SUBJECT,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags div.col_EVNTITLE,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags div.col_EVNFILENAME,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags div.col_ITMCLASSIFYAS {
+	padding-right: 30px;
+}
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder div.col_SUBJECT,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder div.col_EVNTITLE,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder div.col_EVNFILENAME,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder div.col_ITMCLASSIFYAS,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.recurrence div.col_SUBJECT,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.recurrence div.col_EVNTITLE,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.recurrence div.col_EVNFILENAME,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.recurrence div.col_ITMCLASSIFYAS {
+	padding-right: 46px;
+}
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder.recurrence div.col_SUBJECT,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder.recurrence div.col_EVNTITLE,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder.recurrence div.col_EVNFILENAME,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder.recurrence div.col_ITMCLASSIFYAS {
+	padding-right: 62px;
+}
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder div.col_SUBJECT p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder div.col_EVNTITLE p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder div.col_EVNFILENAME p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder div.col_ITMCLASSIFYAS p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.recurrence div.col_SUBJECT p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.recurrence div.col_EVNTITLE p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.recurrence div.col_EVNFILENAME p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.recurrence div.col_ITMCLASSIFYAS p.tag {
+	right: 16px;
+}
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder.recurrence div.col_SUBJECT p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder.recurrence div.col_EVNTITLE p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder.recurrence div.col_EVNFILENAME p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.tags.reminder.recurrence div.col_ITMCLASSIFYAS p.tag {
+	right: 32px;
+}
+
+.obj_datagrid.small .obj_datagrid-body div.col_EVNTITLE p.tag,
+.obj_datagrid .obj_datagrid-body div.title p.tag,
+.obj_datagrid.small .obj_datagrid-body div.col_EVNFILENAME p.tag,
+.obj_datagrid.small .obj_datagrid-body .CLASS_F div.col_EVN_MODIFIED p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.col_EVN_MODIFIED p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.col_EVNFILESIZE p.tag{
+	display: none;
+}
+
+body.compact .obj_datagrid.small .obj_datagrid-body div.col_SUBJECT p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.col_EVNTITLE p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.col_EVNFILENAME p.tag,
+body.compact .obj_datagrid.small .obj_datagrid-body div.col_ITMCLASSIFYAS p.tag {
+	display: inline-block;
+	padding: 0;
+	position: absolute;
+    right: 0;
+}
+body.compact .obj_datagrid.small .col > div > div.col_EVNFILESIZE {
+	width: 60px;
+	text-align: right;
+	font-size: 12px;
+}
+body.compact .obj_datagrid.small .col > div > div.col_CHECK {
+	width: 20px;
+}
+body.compact .obj_datagrid.small .col > div > div.col_EVNSTATUS {
+	width: 20px;
+}
+body.compact .obj_datagrid.small .col > div > div.col_EVNSTATUS:before {
+	left: 1px;
+}
+body.compact .obj_datagrid.small .col > div > div.col_EVNCOMPLETE {
+	display: none;
+}
+body.compact .obj_datagrid.small .col > div > div.col_EVNPRIORITY {
+	width: 6px;
+}
+body.compact .obj_datagrid.small .col > div.priority_low > div.col_EVNPRIORITY:before,
+body.compact .obj_datagrid.small .col > div.priority_high > div.col_EVNPRIORITY:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 24px;
+	width: 4px;
+	background-color: #B1CDBE;
+}
+body.compact .obj_datagrid.small .col > div.priority_high > div.col_EVNPRIORITY:before {
+	background-color: #E8BCBC;
+}
+
+body.compact .obj_datagrid.small .obj_datagrid-body div.attachment > div.delete,
+body.compact .obj_datagrid.small .obj_datagrid-body div>div.delete {
+	display: table-cell;
+	width: 25px;
+}
+body.compact .obj_datagrid.small .obj_datagrid-body div>div.delete:before {
+	display: none;
+	top: 4px;
+	font-size: 13px
+}
+body.compact .obj_datagrid.small .obj_datagrid-body div:hover>div.delete:before {
+	display: block;
+}
+
+
+.obj_datagrid.small .obj_datagrid-body div.attachment > div.delete:before,
+body.compact .obj_datagrid.small .obj_datagrid-body div.attachment > div.delete:after {
+	position: relative;
+	display: block;
+    width: 18px;
+    height: 18px;
+    font-family: 'ico16';
+    line-height: 18px;
+    color: #666;
+    top: 1px;
+    left: 1px;
+    content: '\e03a';
+}
+body.compact .obj_datagrid.small .obj_datagrid-body div.attachment > div.delete:after {
+	top: 4px;
+	font-size: 13px;
+	text-align: center;
+}
+.obj_datagrid.small .obj_datagrid-body div:hover > div.delete:after {
+	display: none!important;
+}
+
+.obj_datagrid.small .obj_datagrid-body div.attachment.active > div.delete:before,
+.obj_datagrid.small .obj_datagrid-body div.attachment.active > div.delete:after{
+	color: #fff!important;
+}

@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>Nytt objekt</add>
+    <quarantine>Karantän</quarantine>
+    <whitelist>Vitlista</whitelist>
+    <blacklist>Svartlista</blacklist>
+    <save>Spara</save>
+    <cancel>Avbryt</cancel>
+    <new_item>Lägg till ny e-post</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Inaktivera genvägar</disable_shortcuts>
+    <enable_swipe_gestures>Aktivera svepgester på pekenheter</enable_swipe_gestures>
+    <use_high_contrast_skin>Använd högkontrastskal</use_high_contrast_skin>
+    <menu_as_text>Visa text istället för ikoner i verktygsfält</menu_as_text>
+    <change_password>Ändra lösenord</change_password>
+    <open_change_password_dialog>Öppna dialogrutan för att ändra lösenord</open_change_password_dialog>
+    <oldpassword>Gammalt lösenord</oldpassword>
+    <newpassword>Nytt lösenord</newpassword>
+    <confirmpassword>Bekräfta lösenord</confirmpassword>
+    <remove>Ta bort</remove>
+    <settings>Inställningar</settings>
+    <navigate>Administrera</navigate>
+    <user>Mina inställningar</user>
+    <domain>Domänadministrator</domain>
+    <admin>Administratörsinställningar</admin>
+    <new_domain>Skapa domän</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>Allmänt</general>
+    <layout>Layout</layout>
+    <mail>Mail</mail>
+    <compose>Skriv</compose>
+    <person>E-post</person>
+    <person_header>Lägg till ny frånadress</person_header>
+    <person_description>t.ex. &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>Autosvar</autoresponder>
+    <forwarder>Vidarebefordra</forwarder>
+    <layout_desc>Layout, E-post</layout_desc>
+    <compose_desc>Ursprungsinställningar för nytt meddelande (Läsbekräftelse, HTML/textformat, signatur).</compose_desc>
+    <general_desc>Konfiguration av din brevlåda för bläddring, borttagning och hantering av mail.</general_desc>
+    <personalities_desc>Alternativa avsändarprofiler (olika Från: e-postadress) för ditt e-postkonto.</personalities_desc>
+    <autoresponder_desc>Automatiskt svar på inkommande e-postmeddelanden när du är på semester.</autoresponder_desc>
+    <forwarder_desc>Vidarebefordra eller kopiera inkommande e-postmeddelanden till en annan e-postadress.</forwarder_desc>
+    <date_format>Datumformat</date_format>
+    <time_format>Tidsformat</time_format>
+    <list_count>Antalet utvalda objekt</list_count>
+    <font_family>Standard font</font_family>
+    <font_size>Standard text storlek</font_size>
+    <text_direction>Textorientering</text_direction>
+    <text_direction_values>Vänster till höger|höger till vänster</text_direction_values>
+    <empty_trash_every>Töm papperskorgen varje</empty_trash_every>
+    <days>dagar</days>
+    <move_deleted>Flytta borttagna meddelanden till papperskorgen</move_deleted>
+    <delete_messages_on_empty>Radera meddelanden permanent vid &quot;tom mapp&quot; funktionen</delete_messages_on_empty>
+    <add_recipients>Lägg automatiskt till mottagarna till adressboken</add_recipients>
+    <group_pref>Gruppera efter prefix (ex. SV[4], VB[2])</group_pref>
+    <request_read_confirmation>Begär läskvitto</request_read_confirmation>
+    <save_sent_msg>Spara skickade meddelande</save_sent_msg>
+    <message_format>Meddelandeformat</message_format>
+    <message_format_labels>Text|HTML</message_format_labels>
+    <signature>Signatur</signature>
+    <forward_to>Vidarebefordra till</forward_to>
+    <keep_in_inbox>Behåll meddelanden i inkorgen</keep_in_inbox>
+    <forward_older>Vidarebefordra e-post äldre än</forward_older>
+    <forward_older_to>Vidarebefordra äldre e-post till</forward_older_to>
+    <ar_mode>Läge</ar_mode>
+    <ar_mode_labels>Inaktivera|Svara alltid|Svara en gång|Svara igen efter period</ar_mode_labels>
+    <ar_respond_only>Svara på meddelanden som skickas till användarens e-postadress bara</ar_respond_only>
+    <ar_respond_again>Svara igen efter (dagar)</ar_respond_again>
+    <ar_from>Från</ar_from>
+    <ar_subject>Subjekt</ar_subject>
+    <ar_text>Text</ar_text>
+    <ar_no_responder_for>Inga svar för</ar_no_responder_for>
+    <ar_respond_only_between>Svara bara mellan</ar_respond_only_between>
+    <email>E-post</email>
+    <responder>Inga svar för</responder>
+    <show_attached_images>Visa bifogade bilder</show_attached_images>
+    <show_inline_images>Visa externa bilder</show_inline_images>
+    <use_reply_prefix>Använd svar prefix (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 timmar|24 timmar</time_format_list_labels>
+    <force_admin>Tvinga detta alternativ för både domän och användarinställningar</force_admin>
+    <force_domain>Tvinga detta alternativ för användarinställningar</force_domain>
+    <to_top>Signatur i början av meddelandet</to_top>
+    <quota>Diskkvot:</quota>
+    <section_layout>Allmänna layoutinställningar</section_layout>
+    <section_mail>Allmänna mailinställningar</section_mail>
+    <section_autoresponder>Ställ in ett automatiskt svar om du är inte vid skrivbordet.</section_autoresponder>
+    <section_norespond>Följande e-postadresser kommer inte att besvaras.</section_norespond>
+    <domains>Domän</domains>
+    <accounts>Konton</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Är du säker på att du vill ta bort markerad E-post?</delete_mail>
+    <blacklist_mail>Är du säker på att du svartlista markerad avsändare?</blacklist_mail>
+    <delete_contact>Vill du verkligen ta bort denna kontakt?</delete_contact>
+    <delete_contact_distribution>Vill du verkligen ta bort denna distributionslista?</delete_contact_distribution>
+    <delete_event>Är du säker på att du vill ta bort markerad händelse?</delete_event>
+    <delete_note>Vill du verkligen ta bort markerade anteckningar?</delete_note>
+    <delete_task>Vill du verkligen ta bort markerade uppgifter?</delete_task>
+    <delete_personalities>Vill du verkligen ta bort markerade objekter?</delete_personalities>
+    <delete_quarantine>Vill du verkligen ta bort markerade objekter?</delete_quarantine>
+    <delete_this_mail>Vill du verkligen radera detta meddelande?</delete_this_mail>
+    <delete_items>Vill du verkligen ta bort markerad objekt?</delete_items>
+    <delete_item>Vill du verkligen ta bort detta objekt?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>Det finns inga post i denna mapp</no_item>
+  </string>
+  <menu>
+    <files>Filer</files>
+    <notes>Anteckningar</notes>
+    <tasks>Uppgifter</tasks>
+    <journal>Journal</journal>
+    <calendar>Kalender</calendar>
+    <search>Sök</search>
+    <messages>E-postmeddelande</messages>
+    <contacts>Kontakter</contacts>
+    <searchBut>Hitta</searchBut>
+    <address_book>Adressbok</address_book>
+    <logout>Logga ut</logout>
+    <help>Hjälp</help>
+    <settings>Inställningar</settings>
+    <switch>Byt till</switch>
+    <help_url>language/sv/help.html</help_url>
+    <quarantine>Filter</quarantine>
+    <alert_restricted_access>Tyvärr är tillgången till denna flik förbjuden</alert_restricted_access>
+    <basic>Tablet gränssnitt</basic>
+    <advanced>Standard gränssnitt</advanced>
+    <mobile>Mobilt gränssnitt</mobile>
+  </menu>
+  <tree>
+    <add_folder>Lägg till Mapp</add_folder>
+    <new_message>Nytt E-postmeddelande</new_message>
+    <manage_folders>Mapp hantering</manage_folders>
+    <open_folder>Öppna mapp</open_folder>
+    <open>Öppna</open>
+  </tree>
+  <mail_view>
+    <attachments>Bilagor</attachments>
+    <from>Från</from>
+    <cc>CC</cc>
+    <bcc>Hemlig kopia</bcc>
+    <subject>Ämne</subject>
+    <all_headers>Visa meddelandehuvud</all_headers>
+    <all_images>Visa  bilder</all_images>
+    <next>Framåt</next>
+    <prev>Bakåt</prev>
+    <first>Först</first>
+    <last>Sist</last>
+    <show_external_images>Externa resurser har blockerats. Klicka här för att visa dem.</show_external_images>
+    <download_all>Ladda ner allt</download_all>
+    <detail>Detalj</detail>
+    <blue_box_start>Start</blue_box_start>
+    <blue_box_end>Slut</blue_box_end>
+    <blue_box_description>Beskrivning</blue_box_description>
+    <blue_box_accept>Acceptera</blue_box_accept>
+    <blue_box_decline>Avböj</blue_box_decline>
+    <blue_box_subscribe_folder>Abonnera mapp</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Abonnera konto</blue_box_subscribe_account>
+    <item_accept_ok>Objekt accepterad</item_accept_ok>
+    <read>läs</read>
+    <write>skriv</write>
+    <modify>ändra</modify>
+    <delete>radera</delete>
+    <administer>administrera</administer>
+    <folder_rights>mapprättigheter</folder_rights>
+    <items_rights>posträttigheter</items_rights>
+  </mail_view>
+  <login>
+    <send>Skicka</send>
+    <ip_check>Stäng av utökad säkerhet</ip_check>
+    <user>Användare</user>
+    <email>E-post</email>
+    <password>Lösenord</password>
+    <remember>Kom ihåg</remember>
+    <language>Språk</language>
+    <allways_ask>Fråga alltid</allways_ask>
+    <username>Användarnamn</username>
+    <username_and_password>Användarnamn och lösenord</username_and_password>
+    <auto_login>Fortsätt vara inloggad</auto_login>
+    <login>Logga in</login>
+    <copyright>Powered by IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Version: $1</copyright>
+    <welcome>Välkommen till IceWarp Webklient Tablet</welcome>
+    <public_welcome>Välkommen till IceWarp publika kalender</public_welcome>
+    <title>IceWarp Webklient Tablet</title>
+    <public_title>IceWarp publika kalender</public_title>
+    <reset_password>Återställ lösenord</reset_password>
+    <sign_up>Registrera</sign_up>
+    <email>E-post</email>
+    <domain>Domän</domain>
+    <new_password>Nytt lösenord</new_password>
+    <confirm_password>Bekräfta lösenord</confirm_password>
+    <full_name>Fullständigt namn</full_name>
+    <alternative_email>Alternativ E-post</alternative_email>
+    <switch>Ändra till &lt;a href=&quot;../&quot;&gt;Standard&lt;/a&gt; eller &lt;a href=&quot;../pda&quot;&gt;Mobil&lt;/a&gt; gränssnitt.</switch>
+    <no_javascript>&lt;b&gt;JavaScript är för närvarande inte aktivt. &lt;/b&gt;&lt;/div&gt;Därför har du vidarebefordrats till surfplattegränssnitt, som ger en begränsad funktionalitet. Om du vill använda datorgränssnitt, var god gå till vår &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;kunskapsb&lt;/div&gt; som innehåller instruktioner om hur du ska aktivera det i din webbläsare.&lt;br /&gt;Om din webbläsare inte stödjer JavaScript, var god ladda ner den senaste versionen av &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; eller &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>Ange koden från bilden</word>
+  </login>
+  <files>
+    <add>Ladda upp fil</add>
+    <download>Ladda ner</download>
+    <file>Fil</file>
+  </files>
+  <file_list>
+    <filename>Filnamn</filename>
+    <description>Beskrivning</description>
+    <modified>Ändrad</modified>
+    <size>Storlek</size>
+    <tags>Taggar</tags>
+  </file_list>
+  <notes>
+    <category>Kategori</category>
+    <add>Ny anteckning</add>
+  </notes>
+  <notes_detail>
+    <note>Anteckning</note>
+    <tags>Taggar</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Ny uppgift</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Uppgift</task>
+    <status>Status</status>
+    <complete>Komplett</complete>
+    <priority>Prioritet</priority>
+    <not_started>Inte startad</not_started>
+    <in_progress>Pågång</in_progress>
+    <completed>Komplett</completed>
+    <deferred>Uppskjuten</deferred>
+    <waiting_for_someone_else>Väntar på någon annan</waiting_for_someone_else>
+    <medium>Medium</medium>
+    <high>Högt</high>
+    <low>Lågt</low>
+    <tags>Taggar</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Startdatum</start_date>
+    <due_date>Förfallodatum</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Helskärm</fullscreen>
+    <subject>Ämne</subject>
+    <no_subject>Inget ämne</no_subject>
+    <no_address>Ingen E-postadress</no_address>
+    <from>Från</from>
+    <date>Datum</date>
+    <size>Storlek</size>
+    <delete>Ta bort</delete>
+    <reply>Svara</reply>
+    <reply_to_all>Svara alla</reply_to_all>
+    <forward>Vidarebefordra</forward>
+    <print>Skriv ut</print>
+    <whitelist>Vitlista</whitelist>
+    <blacklist>Svartlista</blacklist>
+    <dws>Åtgärder</dws>
+    <copy>Kopiera</copy>
+    <move>Flytta</move>
+    <copy_to_folder>Kopiera till mapp:</copy_to_folder>
+    <move_to_folder>Flytta till mapp:</move_to_folder>
+    <mar>Markera som läst</mar>
+    <mau>Markera som oläst</mau>
+    <select>Markera</select>
+    <all>Alla</all>
+    <none>Inga</none>
+    <read>Lästa</read>
+    <unread>Olästa</unread>
+    <invert>Invertera urval</invert>
+    <doit>Verkställ</doit>
+    <to>Till</to>
+    <fast_reply>Snabbt svar</fast_reply>
+    <send_message>Skicka meddelande</send_message>
+    <src>Avsändaren har begärt ett svar som visar att du har läst detta meddelande. Vill du skicka det?</src>
+    <save>Spara</save>
+    <select_folder>Markera mapp</select_folder>
+    <deliver>Leverera</deliver>
+    <text>Text</text>
+    <received>Mottagna</received>
+    <saved>Sparad</saved>
+    <sender>Avsändaren</sender>
+    <owner>Ägaren</owner>
+    <domain>Domän</domain>
+    <show_all>Visa alla</show_all>
+  </mail_main>
+  <event_list>
+    <title>Titel</title>
+    <start>Start</start>
+    <end>Slut</end>
+    <tags>Taggar</tags>
+  </event_list>
+  <event_detail>
+    <tags>Taggar</tags>
+    <show_as>Visa som</show_as>
+    <free>Ledig</free>
+    <tentative>Preliminärt</tentative>
+    <busy>Upptagen</busy>
+    <out_of_office>Ej på plats</out_of_office>
+    <title>Titel</title>
+    <location>Plats</location>
+    <label>Titel:</label>
+    <none>Ingen</none>
+    <important>Viktigt</important>
+    <business>Arbete</business>
+    <personal>Personligt</personal>
+    <vacation>Ledighet</vacation>
+    <must_attend>Måste närvara</must_attend>
+    <travel_required>Resa krävs</travel_required>
+    <needs_preparation>Förberedelse krävs</needs_preparation>
+    <birthday>Födelsedag</birthday>
+    <anniversary>Jubeleum/årsdag</anniversary>
+    <phone_call>Ring</phone_call>
+    <category>Kategori</category>
+    <private>Privat</private>
+    <from>Från</from>
+    <to>Till</to>
+    <notes>Anteckningar</notes>
+    <allday>Heldag</allday>
+    <event>Händelse</event>
+    <minutes>Minuter</minutes>
+    <hours>Timmar</hours>
+    <days>Dagar</days>
+    <remind_me>Påminn mig</remind_me>
+    <before>före</before>
+    <no_repeating>Ej upprepande</no_repeating>
+    <daily>Dagligen</daily>
+    <weekly>Veckovis</weekly>
+    <monthly>Månadsvis</monthly>
+    <yearly>Årligen</yearly>
+    <end_date>Slutdatum</end_date>
+    <no_end_date>Inget slutdatum</no_end_date>
+    <repeat>Upprepa</repeat>
+    <every>Varje</every>
+    <every_workday>Varje vardag</every_workday>
+    <recur_every>Återkommer varje</recur_every>
+    <weeks>veckor</weeks>
+    <on>på</on>
+    <monday>Måndag</monday>
+    <tuesday>Tisdag</tuesday>
+    <wednesday>Onsdag</wednesday>
+    <thursday>Torsdag</thursday>
+    <friday>Fredag</friday>
+    <saturday>Lördag</saturday>
+    <sunday>Söndag</sunday>
+    <day>Dag</day>
+    <months>månader</months>
+    <first>Första</first>
+    <second>Andra</second>
+    <third>Tredje</third>
+    <fourth>Fjärde</fourth>
+    <last>Sista</last>
+    <week>Vecka</week>
+    <work_week>Vardagar</work_week>
+    <weekend>Helg</weekend>
+    <of_every>utav varje</of_every>
+    <of>av</of>
+    <years>år</years>
+    <the>Den</the>
+    <times>gånger</times>
+    <count>Antal</count>
+    <until>Till</until>
+    <tags>Taggar</tags>
+  </event_detail>
+  <event_main>
+    <mon>Mån</mon>
+    <tue>Tis</tue>
+    <wed>Ons</wed>
+    <thu>Tor</thu>
+    <fri>Fre</fri>
+    <sat>Lör</sat>
+    <sun>Sön</sun>
+    <jan>Januari</jan>
+    <feb>Februari</feb>
+    <mar>Mars</mar>
+    <apr>April</apr>
+    <may>Maj</may>
+    <jun>Juni</jun>
+    <jul>Juli</jul>
+    <aug>Augusti</aug>
+    <sep>September</sep>
+    <oct>Oktober</oct>
+    <nov>November</nov>
+    <dec>December</dec>
+    <week>Vecka</week>
+    <week_view>Vecka</week_view>
+    <work_week_view>Arbetsvecka</work_week_view>
+    <month_view>Månad</month_view>
+    <day_view>Dag</day_view>
+    <list>Lista</list>
+    <add>Ny händelse</add>
+    <save>Spara</save>
+    <no_title>Ingen titel</no_title>
+    <search>Sök:</search>
+    <account>Konto:</account>
+    <print>Skriv ut</print>
+  </event_main>
+  <contact_main>
+    <contact>Kontakt</contact>
+    <distribution_list>Distributionslista</distribution_list>
+    <title>Titel</title>
+    <no_email>Ingen E-post</no_email>
+    <card_view>Kortvy</card_view>
+    <list_view>Listvy</list_view>
+    <contact_name>Kontaktnamn</contact_name>
+    <email>E-post</email>
+    <company>Företag</company>
+    <job>Arbete</job>
+    <department>Avdelning</department>
+    <profession>Befattning</profession>
+    <category>Kategori</category>
+    <general>Allmänt</general>
+    <first_name>Förnamn</first_name>
+    <middle_name>Mellannamn</middle_name>
+    <last_name>Efternamn</last_name>
+    <nick>Smeknamn</nick>
+    <sort_string>Sortera sträng</sort_string>
+    <title>Titel</title>
+    <suffix>Suffix</suffix>
+    <category>Kategori</category>
+    <web>Hemsida</web>
+    <street>Gata</street>
+    <city>Stad</city>
+    <zip>Postnummer</zip>
+    <state>Län</state>
+    <country>Land</country>
+    <im>IM</im>
+    <phones>Telefon</phones>
+    <work>Arbete</work>
+    <home>Hemma</home>
+    <assistant>Assistant</assistant>
+    <fax_home>Fax hemma</fax_home>
+    <fax_work>Fax arbete</fax_work>
+    <call_back>Ring tillbaka</call_back>
+    <company>Företag</company>
+    <car>Bil</car>
+    <isdn>ISDN</isdn>
+    <mobile>Mobil</mobile>
+    <other>Annat</other>
+    <other_fax>Annan fax</other_fax>
+    <pager>Personsökare</pager>
+    <primary>Primär</primary>
+    <radio>Radio</radio>
+    <telex>Telex</telex>
+    <hearing>Hearing</hearing>
+    <add>Skapa kontakt</add>
+    <notes>Anteckningar</notes>
+    <no_name>Ingen kontaktperson</no_name>
+    <select>Välj typ</select>
+    <select_contacts>Markera kontakter som du vill lägga till</select_contacts>
+    <add_distribution>Ny distributionslista</add_distribution>
+    <add_new>Lägg till</add_new>
+    <add_item_distribution>Lägg till från adressbok</add_item_distribution>
+    <save>Spara</save>
+    <edit>Ändra</edit>
+    <edit_selected>Ändra markerad</edit_selected>
+    <delete_selected>Ta bort</delete_selected>
+    <cancel>Avbryt</cancel>
+    <onleave_warning>Vill du logga ut? All osparad data kommer att förloras.</onleave_warning>
+    <tags>Taggar</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>Ny patient</new_patient>
+    <new_staff>Ny personal</new_staff>
+    <notify_email>Avisera e-post</notify_email>
+    <notify_sms>Avisera SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>Ny</add>
+    <staff>Personal</staff>
+    <patient>Patient</patient>
+  </hippa_detail>
+  <grid>
+    <title>Titel</title>
+    <note>Anteckning</note>
+    <size>Storlek</size>
+    <category>Kategori</category>
+    <start>Start</start>
+    <end>Slut</end>
+    <save>Spara</save>
+    <cancel>Avbryt</cancel>
+    <number_of_items>Antal objekt som är valda på andra sidor:</number_of_items>
+    <clear>Rensa</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Välj den text du vill hyperlänka.</select_text>
+    <enter_url>Ange URL-adressen för den här länken:</enter_url>
+    <image_location>Ange platsen för denna bild:</image_location>
+    <image_alt>Skriv in alternativ text till denna bild:</image_alt>
+    <image>Insert image</image>
+    <htmlsource>HTML källa</htmlsource>
+    <hyperlink>Hyperlänk</hyperlink>
+    <underline>Understruken</underline>
+    <italic>Kursiv</italic>
+    <bold>Fet</bold>
+    <fontsize>Fontstorlek</fontsize>
+    <fontformat>Fontformat</fontformat>
+    <outdent>Minska indrag</outdent>
+    <indent>Öka indrag</indent>
+    <orderedlist>Numrerad lista</orderedlist>
+    <unorderedlist>Punktlista</unorderedlist>
+    <justify>Justera</justify>
+    <right>Högerjustera</right>
+    <center>Högerjustera</center>
+    <left>Vänsterjustera</left>
+    <blockformat>Blockera format</blockformat>
+    <block_type>Blockera typ</block_type>
+    <heading>Heading</heading>
+    <paragraph>Paragraf</paragraph>
+    <size>Storlek</size>
+    <font>Font</font>
+    <cancel>Avbryt</cancel>
+    <email>E-post</email>
+    <options>Inställningar</options>
+    <plain>Text</plain>
+    <html>HTML</html>
+    <from>Från</from>
+    <to>Till</to>
+    <cc>Kopia</cc>
+    <bcc>Hemlig kopia</bcc>
+    <subject>Ämne</subject>
+    <date>Datum</date>
+    <attachments>Bilagor</attachments>
+    <text>Text</text>
+    <send_message>Skicka meddelande</send_message>
+    <save_message>Spara</save_message>
+    <br/>
+    <spellchecker>Stavningskontroll</spellchecker>
+    <rrc>Begär läsakvitto</rrc>
+    <ssm>Spara skickade meddelanden i mapp</ssm>
+    <psa>Använd SmartAttach</psa>
+    <priority>Prioritet</priority>
+    <lowest>Lägst</lowest>
+    <low>Låg</low>
+    <normal>Normal</normal>
+    <high>Hög</high>
+    <highest>Högst</highest>
+    <rta>Svarsadress</rta>
+    <charset>Teckenformat</charset>
+    <auto>Auto</auto>
+    <original_message>-----Ursprungligt meddelande-----</original_message>
+    <read_confirmation_subject>Läs: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>Ditt meddelande har blivit läst.&#13;&#10;&#13;&#10;Meddelande detaljer följer:&#13;&#10;&#13;&#10;Från: %FROM%&#13;&#10;Till: %TO%&#13;&#10;Datum: %DATE%&#13;&#10;Ämne: %SUBJECT%</read_confirmation_text>
+    <add_contacts>Lägg till kontakter</add_contacts>
+    <add_files>Lägg till filer</add_files>
+    <add_files_from_folder>Lägg till filer från mapp</add_files_from_folder>
+    <add_files_from_dropbox>Lägg till filer från Dropbox</add_files_from_dropbox>
+    <leave_notice>Vill du lämna? Meddelandet kommer att försvinna.</leave_notice>
+    <alias>Alias</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Ny mapp</add>
+    <delete>Ta bort</delete>
+    <link>Länka</link>
+    <unlink>Ta bort länk</unlink>
+    <create_folder>Skapa ny mapp</create_folder>
+    <create>Skapa</create>
+    <delete_confirmation_text>Är du säker på att du vill permanent radera den här mappen?</delete_confirmation_text>
+    <empty_confirmation_text>Är du säker på att du permanent vill ta bort objekt i denna mapp?</empty_confirmation_text>
+    <delete_yes>Ja</delete_yes>
+    <delete_no>Nej</delete_no>
+    <link_as>Länka mapp som</link_as>
+    <unlink_as>Ta bort länk</unlink_as>
+    <unlink_confirmation_text>Är du säker på att du vill ta bort länken?</unlink_confirmation_text>
+    <unlink_yes>Ja</unlink_yes>
+    <unlink_no>Nej</unlink_no>
+    <virtual>Virtuell mapp</virtual>
+    <delete_empty_folder>Ta bort eller töm mappen</delete_empty_folder>
+    <edit>Ändra</edit>
+    <empty>Töm</empty>
+    <rename_folder>Byt namn på mapp</rename_folder>
+    <save>Spara</save>
+    <rename>Byt namn</rename>
+    <perform_action>Utför åtgärd för</perform_action>
+    <select_folder>Välj mapp att hantera</select_folder>
+    <open_folder>Öppna mapp</open_folder>
+    <open_folder_des>Använd detta för att komma åt innehållet i en mapp.</open_folder_des>
+    <link_folder>Länka mapp</link_folder>
+    <link_folder_des>Använd detta för att skapa en genväg i den vänstra menyn för en mapp i trädet.</link_folder_des>
+    <add_folder>Lägg till mapp</add_folder>
+    <add_folder_dis>Använd detta för att skapa en ny mapp under vald mapp.</add_folder_dis>
+    <rename_folder_des>Använd detta för att byta namn på den markerade mappen.</rename_folder_des>
+    <remove_folder>Ta bort mapp</remove_folder>
+    <remove_folder_des>Använd den för att permanent tömma och ta bort vald mapp. Varning: du kan inte ångra denna åtgärd!</remove_folder_des>
+    <default_folder>Ange som standardmapp</default_folder>
+    <default_folder_des>Använd detta för att ställa en mapp som standardmapp.</default_folder_des>
+    <set_default>Ställ in denna mappen som standard</set_default>
+    <set>Sätt</set>
+    <as_drafts>Utkast</as_drafts>
+    <as_sent>Skickat</as_sent>
+    <as_trash>Papperskorg</as_trash>
+    <set_as_default>Verkställ</set_as_default>
+    <link_first>En mapp  måste vara kopplad först innan det kan ställas in som standard.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Inkorg</inbox>
+    <drafts>Utkast</drafts>
+    <sent>Skickat</sent>
+    <trash>Papperskorg</trash>
+  </common_folders>
+  <common>
+    <yes>Ja</yes>
+    <no>Nej</no>
+  </common>
+  <folder_types>
+    <mail>Mail</mail>
+    <contact>Kontakt</contact>
+    <event>Kalender</event>
+    <journal>Journal</journal>
+    <note>Anteckning</note>
+    <task>Uppgift</task>
+    <file>Fil</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA-valideringen misslyckades. Försök igen.</login_invalid_keypair>
+    <divtcha_confirmation>Fel captcha kod</divtcha_confirmation>
+    <missing_values_text>Töm textinmatning</missing_values_text>
+    <missing_values_email>Töm e-post</missing_values_email>
+    <invalid_email>Ogiltig e-postadress</invalid_email>
+    <password_not_changed>Nytt lösenord kan inte vara samma som gamla lösenord</password_not_changed>
+    <reset_password_invalid_hashid>Ogiltigt hash-ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID-fil finns inte</reset_password_uid_file>
+    <account_alternative_email>Kontot har ingen alternativ e-postadress</account_alternative_email>
+    <migration_in_progress>Migration av kontot pågår, var god försök igen senare</migration_in_progress>
+    <login_ip_invalid>IP begränsning: %s</login_ip_invalid>
+    <unauthorized>Obehörig åtkomst</unauthorized>
+    <folder_type_restricted>Denna mapptyp begränsades av administratorn</folder_type_restricted>
+    <account_does_not_exists>Angivna kontot finns inte</account_does_not_exists>
+    <account_invalid_id>Kan inte få kontot %s</account_invalid_id>
+    <account_unknown_protocol>Okänt konto protokoll</account_unknown_protocol>
+    <account_missing_tag>Konto saknar tagg %s</account_missing_tag>
+    <account_missing_id>KontoID saknas</account_missing_id>
+    <account_invalid_action>Konto åtgärd är ogiltig</account_invalid_action>
+    <account_already_exists>Konto %s finns redan</account_already_exists>
+    <account_no_username>Användarnamn saknas eller är tom</account_no_username>
+    <account_no_password>Lösenord saknas eller är tom</account_no_password>
+    <account_bad_password>Det gamla lösenordet angavs felaktigt</account_bad_password>
+    <account_password_policy>Lösenord matchar inte lösenordspolicyn</account_password_policy>
+    <account_sync>Synkronisering misslyckades för kontot %s</account_sync>
+    <account_primary_delete>Kan inte radera primära konto</account_primary_delete>
+    <account_test_failed>Test misslyckades för %s</account_test_failed>
+    <account_signup_disabled>Funktionen till registrering är inaktiverad</account_signup_disabled>
+    <account_signup_error>Fel vid kontoregistrering: %s</account_signup_error>
+    <account_signup_1>Odefinierat fel</account_signup_1>
+    <account_signup_2>Licensfel</account_signup_2>
+    <account_signup_3>Storlek av parametrar för kort</account_signup_3>
+    <account_signup_4>Funktionsfel</account_signup_4>
+    <account_signup_5>Konfiguration hittades inte</account_signup_5>
+    <account_signup_6>Lösenordspolicy</account_signup_6>
+    <account_signup_7>Kontot finns redan</account_signup_7>
+    <account_signup_8>Ogiltiga tecken</account_signup_8>
+    <attachment_too_large>Bilagan är för stor: %s</attachment_too_large>
+    <password_confirmation>Lösenordet matchar inte</password_confirmation>
+    <missing_values>Lösenordet matchar inte</missing_values>
+    <addon_copy>Kan inte kopiera tillägg</addon_copy>
+    <attachment_file_not_found>Kan inte bifoga filer</attachment_file_not_found>
+    <attachment_add>Det gick inte att lägga till några bilagor</attachment_add>
+    <attachment_get>Kan inte hämta den bifogade filen %s</attachment_get>
+    <attacment_class_unknown>Okänd bilaga klass</attacment_class_unknown>
+    <auth_missing_tag>Verifieringsteckensträng saknas %s</auth_missing_tag>
+    <auth_export_key_private>Kan inte exportera den privata nyckeln</auth_export_key_private>
+    <auth_invalid_char>Ogiltigt tecken i privata nyckel</auth_invalid_char>
+    <confirmation_uid>Captcha session hittades inte</confirmation_uid>
+    <confirmation_word_mismatch>Captcha är  felaktigt</confirmation_word_mismatch>
+    <db_auto_create>Kan inte skapa databasen</db_auto_create>
+    <db_create_sqlitefile>Kan inte skapa SQLite DB filen</db_create_sqlitefile>
+    <db_create_tables>Kan inte skapa tabeller</db_create_tables>
+    <db_statement_prepare>Kan inte förbereda uttalandet</db_statement_prepare>
+    <db_invalid_statement>Ogiltig deklarationstyp</db_invalid_statement>
+    <flags_unknown_field>Felaktig flagga</flags_unknown_field>
+    <folder_autocreate_failed>Mappen %s finns redan</folder_autocreate_failed>
+    <folder_already_exists>Mappen %s finns redan</folder_already_exists>
+    <folder_does_not_exist>Mappen %s finns inte</folder_does_not_exist>
+    <folder_name_bad_char>Specialtecken är inte tillåtna i mappnamnet</folder_name_bad_char>
+    <folder_name_length>Kan inte få längd på mappnamn</folder_name_length>
+    <folder_name_too_long>Namnet på mappen är för långt</folder_name_too_long>
+    <folder_get_list>Kan inte få en lista över mappar</folder_get_list>
+    <folder_delete>Kan inte ta bort mappen %s</folder_delete>
+    <folder_create>Kan inte skapa mappen %s</folder_create>
+    <folder_rename_empty>Kan inte byta namn på mappen till &quot;tom/blank&quot;</folder_rename_empty>
+    <folder_move_to_self>Kan inte flytta mappen till sig själv</folder_move_to_self>
+    <folder_move_to_subfolder>Kan inte flytta mappar till en undermapp under sig själv</folder_move_to_subfolder>
+    <folder_rename>Kan inte byta namn på mapp</folder_rename>
+    <folder_copy>Kan inte kopiera mappen</folder_copy>
+    <folder_empty>Kan inte tömma mappen</folder_empty>
+    <folder_missing_tag>Mappen saknar tagg %s</folder_missing_tag>
+    <folder_missing_account_id>Konto-ID saknas för mapp</folder_missing_account_id>
+    <folder_invalid_account_id>Mappen har ett ogiltigt konto-ID %s</folder_invalid_account_id>
+    <folder_missing_id>Mapp-ID saknas</folder_missing_id>
+    <folder_missing_name>Mappnamn saknas</folder_missing_name>
+    <folder_invalid_action>Ogiltig mapp åtgärder %s</folder_invalid_action>
+    <folder_invalid_type>Ogiltig typ av mapp %s</folder_invalid_type>
+    <folder_sync>Kan inte synkronisera mappar %s</folder_sync>
+    <folder_empty_non_mail>Kan inte tömma mapp</folder_empty_non_mail>
+    <folder_insufficient_rights>Du har inga rättigheter att utföra operationen</folder_insufficient_rights>
+    <folder_mark_non_mail>Det går inte att flagga objekten</folder_mark_non_mail>
+    <freebusy_missing_tag>FreeBusy tagg saknas %s</freebusy_missing_tag>
+    <group_open>Kan inte öppna gruppen %s</group_open>
+    <group_subscribe>Kan inte prenumerera på gruppen %s</group_subscribe>
+    <group_add>Kan inte skapa grupp</group_add>
+    <group_edit>Kan inte redigera gruppen %s</group_edit>
+    <group_user_add>Kan inte lägga till användare till gruppen %s</group_user_add>
+    <group_user_edit>Kan inte redigera användaren %s</group_user_edit>
+    <group_user_delete>Kan inte radera användaren %s</group_user_delete>
+    <groupware_upgrade_task>GroupWare-tjänstens uppdateringsprocedur körs. Var god försök igen senare.</groupware_upgrade_task>
+    <folder_open>Kan inte öppna gruppen %s</folder_open>
+    <call_open_folder_first>Du har inte öppnat mappen i GroupWare där den behövs</call_open_folder_first>
+    <call_open_group_first>Du har inte öppnat gruppen i GroupWare där den behövs</call_open_group_first>
+    <subscribe_account_gw>Fel vid prenumeration av konto</subscribe_account_gw>
+    <unsubscribe_account_gw>Kan inte avbryta prenumerationen</unsubscribe_account_gw>
+    <imap_clone>Kan inte kopiera IMAP-objekt</imap_clone>
+    <imap_open>Kan inte öppna IMAP-ström</imap_open>
+    <imap_internal>IMAP internt fel: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP hämtnings fel</imap_delimiter_retrieval>
+    <imap_getmailboxes>Kan inte få en lista över brevlådor</imap_getmailboxes>
+    <imap_mailbox_create>IMAP skapa mailbox %s</imap_mailbox_create>
+    <imap_mailbox_subscribe>Kan inte prenumerera brevlåda %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>Kan inte radera brevlåda %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Kan inte avsluta prenumerationen %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP: byta namn %s misslyckades</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP mailbox ta bort objekt</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP mailbox tömma objekt</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP kopiera objekt misslyckades</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP flytta objekt misslyckades</imap_mailbox_moveitems>
+    <imap_mailbox_open>Kan inte öppna brevlåda %s</imap_mailbox_open>
+    <imap_mailbox_message_list>Kan inte få listan över meddelanden</imap_mailbox_message_list>
+    <imap_message_details>Kan inte få detaljer för meddelandet %s</imap_message_details>
+    <imap_no_headers>Kan inte hämta rubriker från meddelande %s</imap_no_headers>
+    <imap_no_body>Kan inte hämta innehållet i meddelandet %s</imap_no_body>
+    <imap_message_create>Kan inte bifoga meddelandet</imap_message_create>
+    <imap_message_delete>Kan inte radera meddelandet %s</imap_message_delete>
+    <imap_message_copy>Kan inte kopiera meddelandet %s</imap_message_copy>
+    <imap_message_move>Kan inte flytta meddelandet %s</imap_message_move>
+    <imap_flags_set>Kan inte sätta flagga på meddelande %s</imap_flags_set>
+    <imap_flags_clear>Kan inte ta bort flagga %s</imap_flags_clear>
+    <imap_message_not_found>Nytt meddelande hittades inte i brevlådan</imap_message_not_found>
+    <subscribe_account_imap>Fel vid prenumeration av konto</subscribe_account_imap>
+    <unsubscribe_account_imap>Det gick inte att avbryta prenumerationen</unsubscribe_account_imap>
+    <import_vcalendar>Fel vid import av vCalendar</import_vcalendar>
+    <import_vcard>Fel vid import av vCard</import_vcard>
+    <import_missing_tag>taggar saknas %s</import_missing_tag>
+    <import_missing_action>Saknar åtgärder</import_missing_action>
+    <import_invalid_action>Ogiltig import %s</import_invalid_action>
+    <import_missing_account_id>Saknar Konto-ID</import_missing_account_id>
+    <import_invalid_account_id>Ogiltigt Konto-ID</import_invalid_account_id>
+    <import_missing_folder_id>Saknar Mapp-ID</import_missing_folder_id>
+    <import_invalid_folder_id>Ogiltig Mapp-ID</import_invalid_folder_id>
+    <import_invalid_item_id>Ogiltig Objekt-ID</import_invalid_item_id>
+    <import_add_items>Kan inte skapa objekt (lista)</import_add_items>
+    <import_invalid_data>Försöker importera data som inte stöds</import_invalid_data>
+    <export_invalid_account>Försöker att exportera ett konto som inte finns</export_invalid_account>
+    <imip_versit_convert>iMIP versit-konvertering</imip_versit_convert>
+    <imip_versit_empty>iMIP versit är tomt</imip_versit_empty>
+    <imip_missing_folder>iMIP saknar mapp</imip_missing_folder>
+    <inputstream_no_xml_input>Ingen XML passerade till indata</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Skadad XML-data</inputstream_corrupted_input>
+    <item_invalid_id>Objekt-ID fel</item_invalid_id>
+    <item_count>Kan inte räkna alla objekt</item_count>
+    <item_create>Kan inte skapa objekt</item_create>
+    <item_delete>Objektet %s går inte att raddera</item_delete>
+    <item_move>Posten kan inte flyttas</item_move>
+    <item_edit>Objekt %s fel</item_edit>
+    <item_occurrance_delete>Kan inte radera händelsen %s</item_occurrance_delete>
+    <item_occurrance_create>Kan inte skapa händelse</item_occurrance_create>
+    <item_exception_delete>Kan inte ta bort %s</item_exception_delete>
+    <item_exception_create>Kan inte skapa undantag</item_exception_create>
+    <item_copy>Kan inte kopiera objektet</item_copy>
+    <item_copy_multiple>Kan inte kopiera flera objekt</item_copy_multiple>
+    <item_copy_destination>Kan inte hämta målmappen</item_copy_destination>
+    <item_copy_destination_type>Kan inte kopiera till mappen då källmappen är av en annan typ</item_copy_destination_type>
+    <item_count_retrieve>Kan inte räkna alla mappar</item_count_retrieve>
+    <item_missing_tag>Objektet saknar tagg</item_missing_tag>
+    <item_missing_account_id>Missing account id</item_missing_account_id>
+    <item_invalid_account_id>Invalid account id %s</item_invalid_account_id>
+    <item_missing_folder_id>Missing folder id</item_missing_folder_id>
+    <item_invalid_folder_id>Invalid folder id %s</item_invalid_folder_id>
+    <item_missing_item_id>Missing item id</item_missing_item_id>
+    <item_invalid_item_id>Invalid item id %s</item_invalid_item_id>
+    <item_invalid_action>Ogiltig åtgärde av objekt</item_invalid_action>
+    <login_invalid>Ogiltig inloggning för användare %s</login_invalid>
+    <login_account_valid>Ogiltigt konto %s</login_account_valid>
+    <phpmailer_>Mailer generiskt fel, meddelandet inte skickats</phpmailer_>
+    <phpmailer_smtp_auth>Mailer kunde inte autentisera, meddelandet inte skickats</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer kunde inte ansluta till SMTP, meddelandet inte skickats</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer saknas mottagare, meddelandet inte skickats</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer stöder inte den meddelandetyp, meddelandet inte skickats</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail: Fel vid leverans</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Fel vid leverans</phpmailer_mail_send>
+    <phpmailer_language>Kan inte öppna språkfil</phpmailer_language>
+    <phpmailer_add_attachment>Kan inte bofiga fil</phpmailer_add_attachment>
+    <phpmailer_encode_file>Kan inte koda bifogade filer</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Okänd bilaga kodningstyp</phpmailer_encode_unknown>
+    <mailparse_empty>Ingen källa att tolka</mailparse_empty>
+    <mailparse_parser_init>Tolkning av e-postmeddelande misslyckades</mailparse_parser_init>
+    <mailparse_get_part>Kan inte få del %s</mailparse_get_part>
+    <message_missing_tag>Meddelande saknar taggen %s</message_missing_tag>
+    <message_missing_account_id>Meddelande saknar konto-id</message_missing_account_id>
+    <message_invald_account>Meddelande har ogiltigt konto-id</message_invald_account>
+    <message_missing_folder_id>Meddelande saknar mapp-id</message_missing_folder_id>
+    <message_invald_folder>Meddelande har ogiltig mapp-id</message_invald_folder>
+    <message_missing_item_id>Meddelande saknar objekt-id</message_missing_item_id>
+    <message_invalid_action>Ogiltig åtgärd</message_invalid_action>
+    <message_get_not_allowed>Kan inte uppdatera mapplista på grund av otillräckliga rättigheter</message_get_not_allowed>
+    <message_attachment_type>Kan inte analysera bilaga %s</message_attachment_type>
+    <message_attachment_existence>Den nyligen uppladdade bifogade filen kan inte hittas</message_attachment_existence>
+    <rss_channel_exist>Specificerad kanalens URL kan inte öppnas %s</rss_channel_exist>
+    <rss_invalid_channel>Kan inte komma åt kanalen</rss_invalid_channel>
+    <settings_access_denied>Nekat tillträde</settings_access_denied>
+    <settings_missing_tag>Inställnings-taggen saknas %s</settings_missing_tag>
+    <settings_duplicity>Fel på XML-inställningar för filformatering</settings_duplicity>
+    <settings_get_domain_file>Kan inte läsa konfigurationsfilen för domänen %s</settings_get_domain_file>
+    <settings_domain_set>Inställningar ange domäninställningar till fil %s</settings_domain_set>
+    <settings_user_set>Får inte tillgång till användarinställningar i fil %. Kontrollera rättigheter och mailmapp.</settings_user_set>
+    <settings_public_set>Inställningar ange publik data till fil %s</settings_public_set>
+    <settings_shared_set>Kan inte spara de delade konton</settings_shared_set>
+    <settings_owner_set>Kan inte ställa in inställningar för ägaren</settings_owner_set>
+    <session_expired>Session %s har passerat</session_expired>
+    <session_no_user>Användarobjekt kan inte hämtas</session_no_user>
+    <smime_no_recipient>SMIME ingen mottagare</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP-data accepteras inte från servern: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP From: misslyckades (från)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP mottagare är felaktig (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Det går inte att ställa in stavningskontroll</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Kan inte öppna ordboken för stavningskontrollen (dic)</spellchecker_open_dictionary>
+    <spellchecker_add_word>Det går inte att lägga till %s i ordboken</spellchecker_add_word>
+    <spellchecker_missing_check_id>Ordindentifiering saknas</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Saknar tagg %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Lexikonindentifierare saknas</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Saknar ord</spellchecker_missing_word>
+    <upload_tag_missing>Uppladdad textfil saknas</upload_tag_missing>
+    <upload_missing_attribute>Uppladdat attribut saknas</upload_missing_attribute>
+    <upload_attachment_missing>Uppladdad bilaga saknas</upload_attachment_missing>
+    <xml_invalid_file_name>XML-filnamn tom</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML-Xpath returnerar mer än ett resultat</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML specificerade nod hittades inte %s</xml_node_does_not_exist>
+    <xmlrequest_path>Ogiltig mallfil (sökväg)</xmlrequest_path>
+    <xmlrequest_access_denied>Åtkomst nekad</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Ogiltig typ av begäran</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Attribut för namnavstånd saknas</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Ogiltigt eller saknat SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XML teckenförfrågan saknas %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Statuskonstruktör saknas</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Okänt resultatformat %s</xmlrequest_unkown_format>
+    <not_implemented>Ej implementerat</not_implemented>
+    <logdir_create>Kan inte skapa loggning katalog %s</logdir_create>
+    <api_property_get>Kan inte hämta egenskaper för %s</api_property_get>
+    <wm_disabled>WebClient är inaktiverad</wm_disabled>
+    <gw_init_error>GroupWare initieringsfel</gw_init_error>
+    <default>Undantag förvalt värde %s</default>
+    <other_accounts_disabled>Skapa andra konton är avaktiverat</other_accounts_disabled>
+    <link_compressed_variable_missing>Fel i URL, du omdirigeras till huvudmenyn</link_compressed_variable_missing>
+    <login_expired>Sessionen har löpt ut, vänligen logga in igen.</login_expired>
+    <account_disabled>Konto är inaktiverat</account_disabled>
+    <folder_set_default>Mappen &quot;%s&quot; kan inte ställas in som standard</folder_set_default>
+    <personality_confirmation_invalid_user>E-postadress kan inte bekräftas. Ogiltig användare</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>E.postadaress kunde inte bekräftas. Ogiltig hash</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Svartlistning misslyckades</item_blacklist_error>
+    <item_whitelist_error>Vitlistning misslyckades</item_whitelist_error>
+    <unverified_signature>Det gick inte att verifiera meddelandesignaturen</unverified_signature>
+    <account_is_guest>Tillgång inte tillåten för gäster</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Objektsval rensat</item_selection_cleared>
+    <logged_out>Du har loggat ut</logged_out>
+    <message_send_ok>Meddelandet är skickat</message_send_ok>
+    <item_move_ok>post(er) flyttade</item_move_ok>
+    <item_copy_ok>post(er) kopierade</item_copy_ok>
+    <item_delete_ok>post(er) raderade</item_delete_ok>
+    <item_mark_ok>post(er) markerade</item_mark_ok>
+    <settings_save_ok>Inställningar har sparats</settings_save_ok>
+    <loading_next_message>Laddar nästa meddelande</loading_next_message>
+    <loading_prev_message>Laddar föregående meddelande</loading_prev_message>
+    <loading_next_page>Laddar nästa sida</loading_next_page>
+    <loading_prev_page>Laddar föregående sida</loading_prev_page>
+    <loading_next_month>Laddar nästa månad</loading_next_month>
+    <loading_prev_month>Laddar föregående månad</loading_prev_month>
+    <loading_next_week>Laddar nästa vecka</loading_next_week>
+    <loading_prev_week>Laddar föregående vecka</loading_prev_week>
+    <loading_next_day>Laddar nästa dag</loading_next_day>
+    <loading_prev_day>Laddar föregående dag</loading_prev_day>
+    <password_change_ok>Lösenordet är ändrat</password_change_ok>
+    <item_whitelist_ok>Objekt har lagts till på vitlistan</item_whitelist_ok>
+    <item_blacklist_ok>Objekt har lagts till på svartlistan</item_blacklist_ok>
+    <folder_set_default_ok>Mappen inställd som ursprungsmapp</folder_set_default_ok>
+    <subscribe_account_ok>Abonnerat konto</subscribe_account_ok>
+    <subscribe_folder_ok>Abonnerad mapp</subscribe_folder_ok>
+    <item_decline_ok>post avböjd</item_decline_ok>
+    <access_granted>Du har fått tillgång till &quot;%s&quot; av &quot;%s&quot;.</access_granted>
+    <message_save_ok>Meddelandet är sparat</message_save_ok>
+    <item_accept_ok>Objekt accepterat</item_accept_ok>
+  </messages>
+</language>

@@ -1,0 +1,232 @@
+// Config shortcuts
+$bbw								: $bubble-border-width;
+$bov								: $bubble-offset-vertical;
+$boh								: $bubble-offset-horizontal;
+$ts									: $triangle-size;
+$tgv								: $triangle-gutter-vertical;
+$tgh								: $triangle-gutter-horizontal;
+
+
+// *** Orientation *** //
+// Vertical
+// BOTTOM - the default vertical position
+@mixin content-bubble--bottom {
+
+	&.bottom, & {
+		top: 100%;
+		margin-top: $bov;
+
+		// Default reset
+		bottom: auto;
+		margin-bottom: auto;
+
+		&::after, &::before {
+			bottom: 100%;
+			border-top-color: transparent;
+
+			// Default reset
+			top: auto;
+			border-bottom-color: currentColor;
+		}
+	}
+}
+
+// TOP
+@mixin content-bubble--top {
+
+	&.top, & {
+		bottom: 100%;
+		margin-bottom: $bov;
+
+		// Default reset
+		top: auto;
+		margin-top: auto;
+
+		&::after, &::before {
+			top: 100%;
+			border-bottom-color: transparent;
+
+			// Default reset
+			bottom: auto;
+			border-top-color: currentColor;
+		}
+	}
+}
+
+// Horizontal
+// LEFT - the default horizontal position
+@mixin content-bubble--left {
+
+	&.left, & {
+		left: 0; // Make the bubble aligned by default
+
+		@media #{$medium-up} {
+			left: -$boh;
+		}
+
+		// Default reset
+		right: auto;
+
+		&::after {
+			margin-right: -$tgh;
+			left: $tgh;
+
+			// Default reset
+			margin-left: auto;
+			right: auto;
+		}
+
+		&::before {
+			margin-right: calc(#{ -$tgh} - #{$bbw});
+			left: calc(#{$tgh} - #{$bbw}); // Alignment fix
+
+			// Default reset
+			margin-left: auto;
+			right: auto;
+		}
+	}
+}
+
+// RIGHT
+@mixin content-bubble--right {
+
+	&.right, & {
+		right: 0; // Make the bubble aligned by default
+
+		@media #{$medium-up} {
+			right: -$boh;
+		}
+
+		// Default reset
+		left: auto;
+
+		&::after {
+			margin-left: -$tgh;
+			right: $tgh;
+
+			// Default reset
+			margin-right: auto;
+			left: auto;
+		}
+
+		&::before {
+			margin-left: calc(#{ -$tgh} - #{$bbw});
+			right: calc(#{$tgh} - #{$bbw}); // Alignment fix
+
+			// Default reset
+			margin-right: auto;
+			left: auto;
+		}
+	}
+}
+
+
+@mixin content-bubble($position: null, $colors: null, $object: null) {
+
+
+	// *** Main object *** //
+	& {
+		z-index: z('base');
+		position: absolute;
+		text-align: left;
+		max-width: calc(100vw - #{p(2)}); // Safe zone, don't overflow the menu outside of the viewport
+		@include border;
+		border-width: $bbw;
+		border-radius: $radius;
+		background: $white;
+	}
+
+	&::after, &::before {
+		content: '';
+		height: 0;
+		width: 0;
+		border: solid transparent;
+		border-color: currentColor;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		position: absolute;
+		pointer-events: none;
+	}
+
+	&::after {
+		color: $white;
+		border-width: $ts;
+	}
+
+	&::before {
+		@include theme {
+			color: $theme-border-grey;
+		}
+		border-width: calc(#{$ts} + #{$bbw});
+	}
+
+
+	// *** Logic *** //
+	// POSITION
+	       @if $position == 'top-left' {
+		@include content-bubble--top;
+		@include content-bubble--left;
+	} @else if $position == 'top-right' {
+		@include content-bubble--top;
+		@include content-bubble--right;
+	} @else if $position == 'bottom-left' {
+		@include content-bubble--bottom;
+		@include content-bubble--left;
+	} @else if $position == 'bottom-right' {
+		@include content-bubble--bottom;
+		@include content-bubble--right;
+	} @else { // DEFAULT
+		@include content-bubble--top;
+		@include content-bubble--bottom;
+		@include content-bubble--left;
+		@include content-bubble--right;
+	}
+
+	// SELECTOR
+	@if $object == 'selector' {
+
+		& {
+			margin-top: g(1);
+			right: 0;
+
+			&::after {
+				margin-left: -$tgh / 2;
+				right: $tgh / 2;
+			}
+
+			&::before {
+				margin-left: calc(#{ -$tgh / 2} - #{$bbw});
+				right: calc(#{$tgh / 2} - #{$bbw}); // Alignment fix
+			}
+
+			.box-action & {
+				@include content-bubble--top;
+			}
+		}
+	}
+
+	// COLORS
+	@if $colors == 'true' {
+
+		// *** Colors *** //
+		@each $selector, $color in $message-color-map {
+
+			&.#{$selector} {
+
+				@include theme($selector, $color) {
+					color: $theme-color;
+					border-color: currentColor;
+					background-color: mix($theme-color, $white, 10%);
+
+					&::after {
+						color: mix($theme-color, $white, 10%);
+					}
+
+					&::before {
+						color: $theme-color;
+					}
+				}
+			}
+		}
+	}
+}

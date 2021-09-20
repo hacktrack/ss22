@@ -1,0 +1,55 @@
+div.frm_virtual div.obj_tree.border{
+	background-color: #FFF;
+}
+div.frm_virtual div.general_container{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	
+	padding-top: 153px;
+}
+
+div.frm_virtual table.top_table{
+	position: absolute;
+	top: 0;
+}
+
+div.frm_virtual div.folder_container{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding-right: 292px;
+}
+	div.frm_virtual div.folder_container form.obj_button.play{
+		position: absolute;
+		top: 43%;
+		right: 256px;
+	}
+
+	div.frm_virtual div.folder_container div.list_container{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 250px;
+		height: 100%;
+		padding-bottom: 33px;
+	}
+		div.frm_virtual .obj_datagrid .obj_datagrid-body div.ico.main div.main:before{
+			content: '\e01a';
+		}
+
+	div.frm_virtual div.folder_container table.tbl_buttons{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: 10;
+		width: 250px;
+	}
+
+		div.frm_virtual div.folder_container table.tbl_buttons td{
+			width: 50%;
+		}
+		div.frm_virtual div.folder_container table.tbl_buttons input.obj_button{
+			width: 100%;
+			margin: 0;
+		}

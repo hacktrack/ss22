@@ -1,0 +1,260 @@
+Framework
+=========
+System  :: 	Server
+		Client
+		Session
+		Log
+		XML
+
+Mail	::	Mailer
+		Parser
+		SMTP
+		IMAP
+		POP3
+		LocalPOP
+
+Request	::	Request
+		XML
+		HTTP
+		Stream
+		Upload
+	
+Response::	Respone
+		Plain
+		XHTML
+		XML
+		Download
+		
+		
+RSS	::	Reader
+		Agregator
+
+Storage	::	Database
+		Filesystem
+		Settings
+		Cache
+			
+Tools   ::	Charset
+		String
+		Date
+		Spellchecker
+		Math
+		Crypt
+		XML
+
+Error		Exception
+		ErrorHandler
+
+
+IceWarp	::	API
+		Account
+		Domain
+		FreeBusy
+		GroupWare
+		Remote
+		Schedule
+		Statistics
+		Quarantine
+		
+Application ::	Application
+		Library
+		Action	::	GUI	//Set
+					::	Navigation
+					::	SortList
+					::	PageList
+					::	SearchList
+					//Get
+					::	getData
+					::	getList
+					::	getTree
+				Post	
+		GUI :: 		Widget ::       Document::	Window
+								View
+								Panel
+
+						Form	::	Button
+								Checkbox
+								Edit
+								Password
+								Radio
+							
+						Grid
+						Menu	:: 	MenuGroup
+								MenuItem
+						Tree
+								
+Model ::	Webmail	::	Auth
+				Accounts
+				Folders
+		Freebusy
+		Items
+		Import
+		Message
+		Private
+		Public
+		Spellchecker
+		Upload
+		XMLRequest
+		XMLResponse
+
+Webadmin	::
+
+Challenge	
+
+
+
+1.Overview
+----------
+Framework will help you create any web-application or script
+that will access your bussiness data using defined libraries
+and serves them to client decorated by user interface.
+
+
+2. Application
+--------------
+This is the most important class it controls whole 
+application, accepting user request, route library
+actions and presents its result to the client.
+
+Application follows principles of MVC pattern.
+
+2.1.Model(Bussines data)
+2.2.Controller(Libraries + Actions)
+2.3.View(Graphic User Interface)
+
+Methods
+
+
+create( $model, $controller, $view );
+import( $namespace/*'folder1.folder2.class(request.http)'*/); - request.http class is available
+getModel();
+getView();
+getController();
+run();
+
+
+2.1 Model
+
+
+2.2 Controller
+	Action
+	Helper
+
+2.3 View ( $page )
+
+3.Request
+ All requests are handled by this singleton object.
+ Request process all actions by routing them
+ to proper controller and its method.
+ Also reads all data sent in request.
+
+	Properties
+		->client Client object 
+
+	Methods:
+  		->get( $type, $var );
+			$type 	- form	variables send through form
+				- get	get variables
+				- files	files from input type="file"
+				- nav	navigation
+	
+
+4.Session
+ Once the page is initialized,this singleton object takes care about creating
+ client session , where all client informations and data will be stored
+ until client leaves the page and the session object is destroyed.
+ Here are done checks against ip, browser, cookie and others.
+ 
+ 	Properties
+		
+	
+	Methods:
+		->checkIP()
+		->checkBrowser()
+		
+		->setPermanent
+		->setMain
+		->setwindow
+ 		->setTemp
+		
+		->getPermanent
+		->getMain
+		->getWindow
+		->getTemp
+		
+5.Settings
+
+6.Client
+
+7.ACL
+
+8.GUI
+ 
+ GUI toolkit helps you to easily create skin-able , multi-language graphical user interface
+for your bussines model , through which client is able to manage whatever you want him to allow.
+
+GUI Widgets
+	Widget  Each widged supports following operations and properties
+		Properties
+			Note: No -> properties allowed, use setProperty or getProperty
+			$property['css']
+			$property['
+		Methods
+		
+		->getFile( $type, $name )
+			
+			Retrieves
+		
+		->create( $param )
+			
+			Create object, this method is called each time object is 
+			being build from xml
+		
+		->setProperty( $variable, $value );
+		
+			Set the widget property, available throught getProperty
+			and also in template {property::$variable} variable
+
+		->getProperty( $variable, $value );
+
+			Gets the initialized property
+		
+		->buid( &$oXML = false );		//Read data, etc
+		
+		->draw( &$globalTemplateData = false );
+	Window	
+		Each window is defined by interface descriptor (XML)
+		or by URL definition( any html,php,... code can be here )
+		
+		Properties
+			-name :name of window, it is used in target parameters of other gui objects
+			-type :main,dialog,frame
+		
+		
+	Panel 	
+		Default block container.
+		Can contain any other widgets
+
+	Form	
+		Form component , used to perform actions
+
+	Fieldset
+		Groups form data together
+		->label
+	
+	FormWidget
+		
+		Edit
+		Password
+		Checkbox
+		Radio
+		Textarea
+		
+				
+	
+			
+	 
+	
+
+
+										

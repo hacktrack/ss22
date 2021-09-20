@@ -1,0 +1,284 @@
+/** compatibility **/
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+
+	overflow: hidden;
+
+	/* MSIE getBoundingClientRect 2px offset hack*/
+	border: 0;
+
+	/*safari test*/
+	-webkit-font-smoothing: antialiased;
+	/*
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	*/
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	color: #333;
+}
+pre, textarea, input{
+	font-family: inherit;
+	font-size: 13px;
+	color: #333;
+	font-weight: inherit;
+}
+body.light{
+	font-weight: 200;
+}
+body.light textarea,
+body.light input{
+	font-family: inherit;
+}
+
+body:lang(fa), pre:lang(fa), textarea:lang(fa), input:lang(fa) {
+	font-family: "Samim", sans-serif;
+}
+form{
+	padding: 0;
+	margin: 0;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	/* disable history back swipe in IE10 Tablet */
+	-ms-scroll-chaining: none;
+	-ms-touch-action: none;
+}
+
+/* removes yellow outline for Chrome browser */
+textarea, input{
+	outline: none;
+}
+
+/* tables */
+table{
+	border-collapse: collapse;
+}
+th,td{
+	padding: 0;
+	line-height: 28px;
+}
+
+/* form tables */
+table.frmtbl{
+	border-collapse: separate;
+	border-spacing: 2px 2px;
+}
+.rtl table.frmtbl {
+	direction: rtl;
+}
+
+table.frmtbl th{
+	text-align: left;
+	font-weight: normal;
+	white-space: nowrap;
+}
+body.light table.frmtbl th{
+	font-weight: 200;
+}
+
+	table.frmtbl .th{
+		padding: 1px 15px 1px 0;
+	}
+	.rtl table.frmtbl .th {
+		padding: 1px 0 1px 5px;
+	}
+	table.frmtbl th.vat,
+	table.frmtbl td.vat{
+		vertical-align: top;
+	}
+	table.frmtbl .td{
+		width: 100%;
+	}
+	table.frmtbl .td50{
+		width: 50%;
+	}
+	table.frmtbl.nospace{
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	table.frmtbl th.caption{
+		padding-bottom: 5px;
+		font-size: 13px;
+		color: #888;
+	}
+	.rtl table.frmtbl th {
+		text-align: right;
+	}
+
+table.frmtbl100 {
+	width: 100%;
+}
+
+.maxbox,
+table.frmtblmax{
+	width: 100%;
+	height: 100%;
+}
+table.frmtbl .valign{
+	vertical-align: top;
+}
+table.frmtbl td.space{
+	height: 10px;
+	line-height: 10px;
+}
+.relative{
+	position: relative;
+}
+
+th.msiebox,
+td.msiebox{
+	position: relative;
+	min-height: 28px; /* MSIE 8 overflow fix */
+	height: inherit;
+}
+div.msiebox{
+	position: relative;
+	position: absolute\9; /* MSIE7+ */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+x:-o-prefocus, div.msiebox{
+	position: absolute;
+}
+
+/* pre doesnt work inside <table> element in IE */
+pre {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.rtl h2 {
+	direction: rtl;
+}
+
+noscript{
+	padding: 0 20px;
+}
+noscript h2{
+	font-size: 1.2em;
+}
+noscript p{
+	font-size: 0.8em;
+}
+
+.unselectable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+/** global **/
+#wm_copyright *{
+	color: #FFFFFF!important;
+}
+.hidden{
+	visibility: hidden;
+}
+.absolute{
+	position: absolute!important;
+}
+.overflow{
+	overflow: hidden;
+}
+.pad5{
+	padding: 5px;
+}
+.pad7{
+	padding: 7px;
+}
+.pad10{
+	padding: 10px;
+}
+.pad15{
+	padding: 15px;
+}
+.toright{
+	float: right;
+}
+.rtl .toright {
+	float: left;
+}
+.toleft{
+	float: left;
+}
+
+.bubble1,
+.bubble2{
+	background-color: #FFF;
+	border-radius: 4px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+.bubble2{
+	box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+
+/* global animations */
+@-webkit-keyframes reveal {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes reveal2 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes reveal {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes reveal2 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes rotate{
+	from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(360deg);}
+}
+@keyframes rotate{
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
+
+@-webkit-keyframes typing {
+	0%, 80%, 100% { -webkit-transform: scale(0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes typing {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	} 40% {
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+
+/* print */
+@media print{
+	html,body{
+		overflow: visible;
+	}
+}

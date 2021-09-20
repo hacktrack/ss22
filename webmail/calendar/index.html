@@ -1,0 +1,233 @@
+<?php
+
+if(isset($_GET['email']))
+{
+	$_POST['_c']='auth';
+	$_POST['username']=$_GET['email'];
+	$_POST['_a']['login']=1;
+	
+}
+
+$t = time();
+$m = microtime();
+$cnt = 0;//print_r($_REQUEST);die();
+//Output buffering init
+header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+header("Content-Type:text/html; charset=UTF-8;");
+ob_start('ob_gzhandler');
+define('SESSION_COOKIE_NAME','PHPSESSID_CALENDAR');
+ini_set('session.name',SESSION_COOKIE_NAME);
+define('EMAIL_LINK_FORMAT',"#__w_o#a target=#__w_q#_top#__w_q# href=#__w_q#index.html?_n[p][main]=win.main.tree&_n[p][content]=mail.compose&to=$0#__w_q##__w_c#$0#__w_o#/a#__w_c#");
+
+define('LANGUAGE_PATH','../basic/language/');
+
+/**
+ * APPLICATION CONFIGURATION
+ * Some models require to work in specific directory ,so this allows to place your model anywhere
+ * you need(due to relative paths etc..)
+ * Paths can be relative to the path changed in optional chdir(MODEL_PATH)
+ */
+//Framework path
+define( 'SHAREDLIB_PATH' , get_cfg_var('icewarp_sharedlib_path') );
+if(!SHAREDLIB_PATH){
+	define( 'SHAREDLIB_PATH' , dirname(realpath(__FILE__)).'/sharedlib/' );
+}
+//Application path
+define( 'APP_PATH' , '../calendar/' );
+define( 'APP_DENTITY','PublicCalendar');
+
+define( 'APP_INCLUDE_PATH' , '../basic/' );
+define( 'MODEL_PATH' , '../server/' );
+chdir( MODEL_PATH );
+//Now the path is relative to MODEL_ROOT...
+define(	'APP_SKIN' , 'basic' );
+define( 'APP' , 'calendar' );
+define( 'LOG_LEVEL' , 0 );
+define( 'PUBLIC_CALENDAR', true );
+
+define( 'APP_SCREEN_LOGGED','win.main.tree');
+define( 'APP_SCREEN_UNAUTHORIZED','win.login');
+define('APP_IDENTITY','WebClient/Public calendar');
+
+/*>*$fdt = time()-$t+microtime()-$m; echo "<!-- Framework Define time: ". ( $fdt )." -->\r\n";/*<*/
+/**
+ * APPLICATION INCLUDES
+ **/
+/*>*$t1 = time();$m1 = microtime();/*<*/
+//Import application files
+require_once( SHAREDLIB_PATH. 'system.php' );
+slSystem::import( 'application' );
+slSystem::import( 'io/router' );
+slSystem::import( 'system/session' );
+//AppSystem::import( 'storage/database' );
+slSystem::import( 'storage/settings' );
+slSystem::import( 'tools/debug' );
+/*>*$frt = time()-$t1+microtime()-$m1;echo "<!-- Framework Require time: ". ( $frt )." -->\r\n";/*<*/
+//Model - init required classes and objects / create some requirements on model...
+/*>*$t1 = time();$m1 = microtime();/*<*/
+//Change download path
+define('WEBMAIL_PHP','basic/index.html');
+define('DOWNLOAD_PHP','server/download.php');
+slSystem::import( 'model/webmail', APP_INCLUDE_PATH );
+slSystem::import( 'model/settings', APP_INCLUDE_PATH );
+/**$wrt = time()-$t1+microtime()-$m1;echo "<!-- Webmail Require time: ". ( $wrt )." -->\r\n";/**/
+/**
+ * APPLICATION - INPUT - create request(sent data) and session(client data)
+ **/
+$t1 = time();
+$m1 = microtime();
+//Object to handle all form / get / files data
+$request = slRequest::instance();
+//Object to store user session
+$session = slSession::instance( $request );
+//print_r($request);die();
+
+//echo serialize($_POST);die();
+
+//echo "<pre>".print_r($_POST,true)."</pre>";die();
+
+/**
+ * APPLICATION MODEL INITIALIZATION (usually require model libraries,basic initialization etc...)
+ **/
+
+//Model configuration
+$sTime = time();
+$sMicroTime = microtime();
+$settings = WebmailSettings::instance($session);
+$model = WebmailModel::instance($settings);
+
+/**
+ * APPLICATION - EXECUTIVE PART
+ **/
+//TODO:remove session and model from constructor create getter,setter
+
+try{
+$application = slApplication::instance( APP, $model, $session );
+/*>*$fmvct = time()-$t1+microtime()-$m1;echo "<!-- Framework MVC classes initialization time: ". ( $fmvct )." -->\r\n";/*<*/
+/*<*$t1 = time();$m1 = microtime();/*<*/
+
+$response = $application->dispatch( $request );
+
+
+
+/***********************************************************************************/
+/***********************************************************************************/
+
+$api=new IceWarpAPI();
+$url['install']=$api->GetProperty('C_Install_URL');
+$version=$api->GetProperty('C_Niceversion');
+$sett['layout']=array();
+$sets = WebmailSettings::instance($session);
+$languagesData = $sets->getPublic('languages');
+$layoutData = $sets->getPublic('layout_settings');
+
+$language='en';
+/*language*/
+$defaultLanguage=$layoutData['@childnodes']['item'][0]['@childnodes']['language'][0]['@value'];
+/** default language **/
+if (!isset($_COOKIE['lastLogin']))
+{
+	$language=$defaultLanguage;
+}
+/*****/
+$language=slToolsPHP::htmlspecialchars(str_replace("\0",'',$language));
+if ($language=='') {$language='en';}
+
+if (isset($_GET['language'])) {$language=$_GET['language'];}
+foreach ($languagesData as $key=>$val)
+{
+	if ($language==$val['lang']) {$languagesData[$key]['selected']=true;}
+}
+
+/**********/
+	$file='../client/languages/'.$language.'/data.xml';
+	if (!file_exists($file) || substr_count($file,'//')>0) {$language=$defaultLanguage;}
+	$language_data =(array) slToolsXML::loadFile($file);
+	foreach($language_data as $key=>$val)
+	{
+		$language_data[$key]=(array)$val;
+		if (is_array($language_data[$key]))
+		{
+			foreach($language_data[$key] as $key2=>$val2)
+			{
+				$language_data[$key][$key2]=(string)$val2;
+			}
+		}
+	}
+
+/**********/
+
+if (!empty($layoutData))
+{
+	foreach($layoutData['@childnodes']['item'][0]['@childnodes'] as $key=>$val)
+	{
+		$sett['layout'][$key]=$val[0]['@value'];
+	}
+}
+/*** logo ***/
+$settings=$sett;
+if (trim($settings['layout']['logo'])=='') {$settings['layout']['logo']='logo.png';}
+
+if (substr_count($settings['layout']['logo'],'/')==0)
+{
+	if (file_exists('../client/skins/'.$settings['layout']['skin'].'/images/'.$settings['layout']['logo']))
+	{
+		$settings['layout']['logo']='client/skins/'.$settings['layout']['skin'].'/images/'.$settings['layout']['logo'];
+	}
+	elseif (file_exists('../client/skins/'.$settings['layout']['skin'].'/images/'.str_replace('.png','.gif',$settings['layout']['logo'])))
+	{
+		$settings['layout']['logo']='client/skins/'.$settings['layout']['skin'].'/images/'.str_replace('.png','.gif',$settings['layout']['logo']);
+	}
+	elseif(file_exists('../client/skins/default/images/'.$settings['layout']['logo']))
+	{
+		$settings['layout']['logo']='client/skins/default/images/'.$settings['layout']['logo'];
+	}
+	else
+	{
+		$settings['layout']['logo']='client/skins/default/images/'.str_replace('.png','.gif',$settings['layout']['logo']);
+	}
+	
+}
+/************/
+/**/
+$defaultSkin=$layoutData['@childnodes']['item'][0]['@childnodes']['skin'][0]['@value'];
+
+$language_data['login_screen']['copy']="<span title=\"".$version."\">".$language_data['login_screen']['copy'].' © 1999-'.date('Y')."</span>"; // add version info into copyright
+
+$templateData=array(
+	'self'=>'',
+	'base'=>'../',
+	'prepath'=>'../',
+	'lang'=>$language_data,
+	'settings'=>$settings,
+	'languages'=>$languagesData,
+	'calendar'=>true
+);
+
+if (!isset($_POST['_a']['login']) && !isset($_SESSION['PUBLIC_EMAIL']))
+{
+	/*if (file_exists('../templates/'.$defaultSkin.'/desktop.tpl'))
+	{
+		echo template('../templates/'.$defaultSkin.'/desktop.tpl',$templateData);
+	}
+	else
+	{*/
+		echo template('../templates/desktop.tpl',$templateData);
+	/*}*/
+}
+else
+{
+	$application->respond( $response );
+}
+}catch(Exception $e){
+    if(explode(':',$e->getMessage())[0]=='file_does_not_exist'){
+		header("HTTP/1.1 403 Forbidden");
+	}else{
+		throw $e;
+	}
+}
+
+
+
+?>

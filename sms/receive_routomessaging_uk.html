@@ -1,0 +1,39 @@
+<?php
+
+// PHP script called by Routomessaging (http://www.routomessaging.com/) via HTTP POST to deliver SMSs to IceWarp as e-mails. 
+// A special thanks to Marko Dukanac from Routomessaging
+
+// Notice in this case that the gateway ID and password of the gateway in IceWarp both have a value of "1". 
+// More details in F1 help (HTTP Request � Delivery Script section)
+
+// variables accepted by routo
+//
+// user
+// pass
+// org (body of message)
+// dest (recipient number)
+// dcs (default enconding)
+// message (body of message)
+
+// Shared libraries
+define('SHAREDLIB_PATH', get_cfg_var('icewarp_sharedlib_path'));
+include(SHAREDLIB_PATH . 'api/api.php');
+  
+//      Build $url with gateway's parameters to pass to IceWarp API
+//		id=1   	==> id of Routomessaging gateway in Icewarp SMS/General admin
+//		pass=1 	==> password defined in Icewarp SMS/General admin
+
+$url = 
+    'number=' . urlencode($_REQUEST['org']) . 
+    '&id=1' .  
+    '&pass=1' . 
+    '&data=' . urlencode($_REQUEST['message']);
+
+  // Deliver SMS to IceWarp
+  $api = new IceWarpAPI();
+  $result = $api->SMSIncoming($url);
+
+  // Result
+  if (!$result) { header('HTTP/1.1 503 Service Unavailable'); }
+
+?>

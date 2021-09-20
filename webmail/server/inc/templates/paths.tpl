@@ -1,0 +1,1 @@
+<paths><item>{dynamic paths}<{*::id}>{*::value}</{*::id}>{/dynamic}</item></paths>

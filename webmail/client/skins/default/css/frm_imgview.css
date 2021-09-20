@@ -1,0 +1,164 @@
+.frm_imgview{
+	position: absolute;
+	background-color: #444;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.frm_imgview>input{
+	position: absolute;
+	top: 0;
+	left: -300px;
+}
+.frm_imgview .btn,
+.frm_imgview label{
+	width: 40px;
+	height: 40px;
+
+	position: absolute;
+	z-index: 50;
+	top: 20px;
+
+	background-color: #222;
+	cursor: pointer;
+	border-radius: 3px;
+
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+}
+
+	.frm_imgview label{
+		width: auto;
+		font-size: 14px;
+		color: #FFF;
+		line-height: 38px;
+		right: 120px;
+		padding: 0 15px;
+		cursor: default;
+	}
+
+.frm_imgview .btn:after{
+	content: '\e04c';
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	font-family: 'ico24';
+	font-size: 24px;
+	line-height: 24px;
+	color: #FFF;
+}
+
+.frm_imgview .btn:hover{
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+
+	.frm_imgview .btn.close{
+		right: 20px;
+	}
+		.frm_imgview .btn.close:after{
+			content: '\e030';
+		}
+	.frm_imgview .btn.full{
+		right: 70px;
+	}
+
+.frm_imgview .container{
+	position: relative;
+	height: 100%;
+}
+	.frm_imgview .go{
+		position: absolute;
+		z-index: 10;
+
+		top: 50%;
+		right: 24px;
+		height: 48px;
+		width: 48px;
+		margin-top: -24px;
+
+		background-color: #222;
+
+		border-radius: 24px;
+		border: 2px solid #FFF;
+		cursor: pointer;
+
+		opacity: 0.3;
+		filter:alpha(opacity=30);
+	}
+	.frm_imgview .go:hover{
+		opacity: 0.8;
+		filter:alpha(opacity=80);
+	}
+	.frm_imgview.single .go{
+		display: none;
+	}
+
+	.frm_imgview .go.prev{
+		left: 24px;
+		right: auto;
+	}
+
+	.frm_imgview .go:after{
+		position: absolute;
+		top: 0;
+		left: 4px;
+
+		content: '\e047';
+		font-family: 'ico16';
+		font-size: 32px;
+		line-height: 44px;
+		color: #FFF;
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}
+		.frm_imgview .go.next:after{
+			content: '\e03e';
+			left: 6px;
+		}
+
+
+
+
+	.frm_imgview .container .image{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		z-index: 0;
+	}
+	
+	.frm_imgview .container .image img {
+		position: relative;
+	}
+
+	.frm_imgview .image>canvas{
+		position: relative;
+		box-shadow: 0 0 20px #000000;
+		z-index: 0;
+
+		opacity: 0;
+		background-color: #FFF;
+
+		/* webkit shake bug */
+		transform: translateZ(0);
+	}
+	.frm_imgview .image>canvas.show{
+		opacity: 1;
+		-moz-transition: opacity 0.5s;
+		-webkit-transition: opacity 0.5s;
+		-o-transition: opacity 0.5s;
+		transition: opacity 0.5s;
+	}
+
+
+	.frm_imgview .container svg{
+		position: absolute;
+		top: calc(50% - 30px);
+		left: calc(50% - 30px);
+		width: 60px;
+		height: 60px;
+
+		z-index: 100;
+	}
+
+	.frm_imgview.loading .container svg>g{
+		display: block!important;
+	}

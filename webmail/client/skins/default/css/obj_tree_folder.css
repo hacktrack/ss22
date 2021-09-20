@@ -1,0 +1,267 @@
+div.obj_tree_folder li.root>div{
+	padding-left: 35px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+
+	div.obj_tree_folder li.root.active:before{
+		height: 40px;
+	}
+
+	div.obj_tree_folder li.root>ul>li{
+		padding-left: 15px;
+	}
+	.rtl div.obj_tree_folder li.root>ul>li {
+		padding-left: 0;
+		padding-right: 7px;
+	}
+
+	div.obj_tree_folder li.root>div>b{
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+div.obj_tree_folder li.root>div>span.plussign{
+	/* display:none; */
+	left: 5px;
+}
+div.obj_tree_folder li.root>div>span.plussign:after{
+	border: none;
+}
+
+div.obj_tree_folder.noroot li.root>div{
+	display:none;
+}
+div.obj_tree_folder.noroot li.root>ul{
+	height: auto;
+	opacity: 1;
+	margin-top: 10px;
+}
+div.obj_tree_folder.noroot li.root>ul>li{
+	padding-left: 5px;
+}
+
+/*** Group Chat ***/
+div.obj_tree_folder_context li.menu>div.ico_y:after{
+	content: '\e040'!important;
+	background-color: #FFF;
+}
+	/*hide all menu icons*/
+	div.obj_tree_folder.guest li>div.ico:after{
+		display: none;
+	}
+
+
+/*** Calendar ***/
+div.obj_tree_folder li>div.color i{
+	background: none!important;
+	position:absolute;
+
+	height:13px;
+	width:13px;
+	padding:0!important;
+	left:23px;
+	top:10px;
+
+	display:block!important;
+}
+.compact div.obj_tree_folder li>div.color i{
+	top: 6px;
+}
+
+.rtl div.obj_tree_folder li>div.color i{
+	left: auto;
+	right: 23px;
+}
+div.obj_tree_folder li>div.color.primary i,
+div.obj_tree_folder li>div.color.checked i{
+	background-repeat: no-repeat!important;
+	background-image: url("../images/checkbox_dot.png")!important;
+	background-position: 50% 50%!important;
+}
+
+div.obj_tree_folder li>div.color b{
+	padding-left: 25px;
+}
+.rtl div.obj_tree_folder li>div.color b {
+	padding-left: 0;
+	padding-right: 25px;
+}
+div.obj_tree_folder li>div.color u{
+	display:none;
+}
+
+div.obj_tree li>div.color i{
+	border: 1px solid #969696;
+	border-color:rgba(0,0,0,0.2);
+}
+div.obj_tree li>div.color i:after{
+	display: none;
+}
+
+div.obj_tree_folder li>div.color.blue i{
+	background-color: #BCDDF1 !important;
+}
+div.obj_tree_folder li>div.color.green i{
+	background-color: #CFE5AD !important;
+}
+div.obj_tree_folder li>div.color.brown i{
+	background-color: #DBBDA0 !important;
+}
+div.obj_tree_folder li>div.color.purple i{
+	background-color: #DBCEF2 !important;
+}
+div.obj_tree_folder li>div.color.yellow i{
+	background-color: #FEE0A4 !important;
+}
+div.obj_tree_folder li>div.color.teal i{
+	background-color: #D7F1DC !important;
+}
+div.obj_tree_folder li>div.color.plum i{
+	background-color: #FBC0CC !important;
+}
+div.obj_tree_folder li>div.color.red i{
+	background-color: #FAC1B0 !important;
+}
+
+div.obj_tree_folder li>div.color.aqua i{
+	background-color: #9CE6ED !important;
+}
+div.obj_tree_folder li>div.color.aquamarine i{
+	background-color: #9CEDC6 !important;
+}
+div.obj_tree_folder li>div.color.orchid i{
+	background-color: #EFB4DE !important;
+}
+div.obj_tree_folder li>div.color.pink i{
+	background-color: #F9DEDF !important;
+}
+div.obj_tree_folder li>div.color.silver i{
+	background-color: #E7E7E7 !important;
+}
+div.obj_tree_folder li>div.color.white i{
+	background-color: #FFFFFF !important;
+}
+div.obj_tree_folder li>div.color.gray i{
+	background-color: #B5B9BC !important;
+}
+div.obj_tree_folder li>div.color.lemon i{
+	background-color: #FFF5BD !important;
+}
+
+/*** Folders ***/
+div.obj_tree.folder_icons li>div.ico i:after{
+	content: '\e01c';
+}
+	div.obj_tree.folder_icons.filter li>div.ico i{
+		display: none;
+	}
+
+	div.obj_tree.folder_icons.filter li>div.ico.ico_home i{
+		display: inline-block;
+	}
+	div.obj_tree.folder_icons li>div.ico_home i:after{
+		content: '\e04e';
+	}
+/*drafts*/
+div.obj_tree.folder_icons li>div.ico_drafts i:after{
+	content: '\e048';
+}
+/*inbox*/
+div.obj_tree.folder_icons li>div.ico_inbox i:after{
+	content: '\e050';
+}
+/*spam*/ /*NOT THE RIGHT ICON*/
+div.obj_tree.folder_icons li>div.ico_spam i:after{
+	content: '\e012';
+}
+/*sent*/
+div.obj_tree.folder_icons li>div.ico_sent i:after{
+	content: '\e00b';
+}
+/*account*/
+/*div.obj_tree.folder_icons li>div.ico_a i:after{
+	content: '\e017';
+}*/
+
+div.obj_tree.folder_icons li>div.ico_va i:after{
+	/* content: '\e029'; */
+	content: '\e017';
+}
+
+/*archive*/
+div.obj_tree.folder_icons li>div.ico_archive i:after{
+	content: '\e03b';
+}
+/*contacts*/
+div.obj_tree.folder_icons li>div.ico_c i:after{
+	content: '\e017';
+}
+/*events*/
+div.obj_tree.folder_icons li>div.ico_e i:after{
+	content: '\e05';
+}
+/*tasks*/
+div.obj_tree.folder_icons li>div.ico_t i:after{
+	content: '\e003';
+}
+/*files*/
+div.obj_tree.folder_icons li>div.ico_f i:after{
+	content: '\e02c';
+}
+/*notes*/
+div.obj_tree.folder_icons li>div.ico_n i:after{
+	content: '\e01d';
+}
+/*journal*/
+div.obj_tree.folder_icons li>div.ico_j i:after{
+	content: '\e024';
+}
+/*trash*/
+div.obj_tree.folder_icons li>div.ico_trash i:after{
+	content: '\e002';
+}
+/*gwtrash*/ /*NOT THE RIGHT ICON*/
+div.obj_tree.folder_icons li>div.ico_gwtrash i:after{
+	content: '\e002';
+}
+/*shared*/
+div.obj_tree.folder_icons li>div.ico_shared i:after{
+	content: '\e033';
+}
+div.obj_tree.folder_icons li>div.ico_x i:after{
+	color: #999;
+}
+/*virtual*/
+div.obj_tree.folder_icons li>div.ico_virtual i:after{
+	content: '\e00d';
+}
+/*rss*/
+div.obj_tree.folder_icons li>div.ico_r i:after{
+	content: '\e00e';
+}
+/*spam queues*/
+div.obj_tree.folder_icons li>div.ico_spamqueue i:after{
+	content: '\e05d';
+}
+/*blacklist*/
+div.obj_tree.folder_icons li>div.ico_black i:after{
+	content: '\e034';
+}
+/*whitelist*/
+div.obj_tree.folder_icons li>div.ico_white i:after{
+	content: '\e01b';
+}
+/*quarantine*/
+div.obj_tree.folder_icons li>div.ico_quarantine i:after{
+	content: '\e018';
+}
+
+/*Group chat*/
+div.obj_tree.folder_icons li>div.ico_i{
+	padding-left: 0;
+}
+div.obj_tree.folder_icons li>div.ico_i i:after{
+	content: '\e035';
+}

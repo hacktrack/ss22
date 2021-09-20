@@ -1,0 +1,53 @@
+/* main */
+
+.frm_addroom[slide="main"] .obj_popupmainheader form.obj_label.ico{
+	margin-left: 18px;
+}
+
+.frm_addroom .frm_addroom_main .block.private:before,
+.frm_addroom[slide="private"] .obj_popupmainheader:before{
+	content: '\e906';
+	color: #f69000;
+}
+
+.frm_addroom .frm_addroom_main .block.public:before,
+.frm_addroom[slide="public"] .obj_popupmainheader:before{
+	content: '\e907';
+	color: #00a7f2;
+}
+
+.frm_addroom[slide="private"] .obj_mail_suggest>.obj_button{
+	position: absolute;
+	right: -1px;
+	top: -1px;
+}
+
+/*
+.frm_addroom[slide="public"] .obj_selectfolder{
+	margin-bottom: 15px;
+}
+	.frm_addroom[slide="public"] .obj_selectfolder form.obj_button{
+		float: none;
+		margin-right: 0;
+		background: transparent;
+		border: 1px solid #ABABAB;
+		cursor: pointer;
+	}
+	.frm_addroom[slide="public"] .obj_selectfolder form.obj_button input{
+		width: 100%;
+	}
+*/
+
+/* ANIMATIONS */
+.frm_addroom .frm_addroom_main .popupmaindialog>p{
+    opacity: 0;
+    animation: 300ms 100ms reveal ease forwards;
+}
+.frm_addroom .frm_addroom_main .block{
+    visibility: hidden;
+    transform: translate(0px, 60px);
+    animation: 300ms 200ms wizard_fly ease forwards;
+}
+.frm_addroom .frm_addroom_main .block:nth-child(3){
+    animation-delay: 350ms;
+}

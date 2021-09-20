@@ -1,0 +1,97 @@
+/* div.obj_item_search{
+	padding: 3px 2px 0 0;
+} */
+
+/* search ico */
+.obj_item_search form.obj_input_search{
+	padding-left: 45px;
+}
+.rtl .obj_item_search form.obj_input_search {
+	padding-left: 10px;
+	padding-right: 45px;
+}
+.obj_item_search form.obj_suggest_search a.input_ico{
+	width: 33px;
+}
+
+.obj_item_search form.obj_input_search a.input_ico.type_m:before,
+.obj_item_search form.obj_input_search a.input_ico.type_r:before,
+.obj_item_search form.obj_input_search a.input_ico.type_e:before,
+.obj_item_search form.obj_input_search a.input_ico.type_w:before,
+.obj_item_search form.obj_input_search a.input_ico.type_c:before,
+.obj_item_search form.obj_input_search a.input_ico.type_f:before,
+.obj_item_search form.obj_input_search a.input_ico.type_t:before,
+.obj_item_search form.obj_input_search a.input_ico.type_n:before{
+    content: '\e043';
+
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	color: #9b9b9b;
+
+    width: 16px;
+    height: 16px;
+    font-family: "ico16";
+    font-size: 16px;
+    line-height: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* wizard */
+div.search_wizard{
+	padding: 0 10px 10px;
+	background-color: #FFF;
+	border-radius: 2px;
+	margin-top: 7px;
+
+	box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+@media \0screen {
+	div.search_wizard{
+		border: 1px solid #EDEDED;
+	}
+}
+
+	div.search_wizard:before{
+		content: '';
+		position: absolute;
+		display: block;
+		width: 0;
+		height: 0;
+		left: 50%;
+		top: -14px;
+		margin-left: -3px;
+		border: 7px solid transparent;
+		border-bottom-color: #FFF;
+	}
+
+	div.search_wizard h2{
+		font-size: 13px;
+		font-weight: normal;
+		margin: 12px 0 3px;
+	}
+	body.light div.search_wizard h2{
+		font-weight: 200;
+	}
+
+	div.search_wizard table.frmtbl {
+		width: 100%;
+	}
+
+	div.search_wizard table.frmtbl,
+	div.search_wizard form.obj_button{
+		margin-top: 10px;
+	}
+
+	.rtl div.search_wizard a {
+		float: left;
+	}
+	div.search_wizard a {
+		/*float: right;*/
+		display: inline-block;
+		padding-top: 15px;
+		color: {txt_main '#0088CC'};
+		text-decoration: underline;
+		cursor: pointer;
+	}

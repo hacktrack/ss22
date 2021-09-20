@@ -1,0 +1,332 @@
+/**********/
+
+.contrast .fTree em,.contrast .fTree i
+{
+	font-style: normal;
+}
+
+ul.fTree{
+	font-size: 1.2em;
+	width: 100%;
+}
+	.contrast ul.fTree{
+		font-size: 1.5em;
+	}
+
+ul.fTree span, ul.fTree a,ul.fTree div{
+   line-height: 2.2em;
+   white-space:nowrap;
+}
+ ul.fTree a{
+    _margin-top:2px;
+    white-space: nowrap;
+    cursor: pointer;
+ }
+
+
+ul.fTree span.nobg,ul.fTree li.nobg,ul.fTree li.nopm span{
+	background:none;
+}
+
+ul.fTree,ul.fTree ul{
+   display: block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+ul.fTree li{
+   display: block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+ul.fTree li a{
+   text-decoration: none;
+   color: #000000;
+   display: inline;
+    cursor: pointer;
+   _line-height: 1.6em;
+   _height: 1.5em;
+   
+   vertical-align: center;
+}
+	.contrast ul.fTree li em a{
+		font-size: 1.5em;
+		text-decoration: none!important;
+		margin:0 3px 0 3px;
+	}
+
+ul.fTree li ul{
+  margin: 0px 0px 0px 28px;
+}
+ul.fTree li.plus ul,ul.fTree li.minus li.plus ul{
+  display: none;
+}
+ul.fTree li.minus ul{
+  display: block;
+}
+  ul.fTree li ul li ul{
+    margin-left: 29px;
+  }
+
+
+ul.fTree ul li{
+  background: url("../../basic/skin/basic/images/tree/dotted.gif") 4px 0px repeat-y;
+}
+
+ul.fTree li span{
+   padding: 0 7px;
+   width: 1px;
+   margin: 0 3px 0 0;
+   height: 1.6em;
+   background: url("../skin/fresh/images/tree/plus.gif") -22px 50% no-repeat;
+}
+	ul.fTree span.nobg{
+		padding: 0;
+	}
+	
+ul.fTree li ul li span{
+   margin: 0 5px 0 0;
+}
+
+ul.fTree li.plus span,ul.fTree li.minus li.plus span{
+   background-position:  0px 45%;
+   cursor: pointer;
+}
+ul.fTree li.minus span{
+   background-position: -21px 45%;
+   cursor: pointer;
+}
+ul.fTree li.minus li.none span{
+   background: none;
+   cursor: default;
+}
+
+
+ul.fTree li div span.ico,ul.fTree li div a.ico{
+
+   margin:0 3px 0 0;
+   padding-left: 10px;
+   padding-top:0px;
+
+   font-size: 14px;
+   height: 14px;
+
+
+   background-position: 0 50%;
+   background-repeat: no-repeat !important;
+
+}
+  ul.fTree li.minus div span.ico,ul.fTree li.active div span.ico{
+    padding: 0 0 0 10px;
+
+	background-position: 0px 50% !important;
+    _background-position: 0px 5px 50% !important;
+  }
+  ul.fTree li.plus div span.ico,ul.fTree li.none div span.ico{
+    background-position: 0px 50% !important;
+    _background-position: 0px 5px 50% !important;
+  }
+
+ul.fTree ul div,ul.fTree li.end ul div{
+ background:  url("../../basic/skin/basic/images/tree/dotted_x.gif") 4px 50% no-repeat;
+}
+
+ul.fTree ul li.end{
+ background: none;
+}
+
+ul.fTree li.end div,ul.fTree li.end li.end div{
+ background: url("../../basic/skin/basic/images/tree/dotted_L.gif") 4px 50% no-repeat;
+
+}
+
+.f
+{
+	-moz-background-clip:
+	-moz-initial;
+	-moz-background-origin:
+	-moz-initial;
+	-moz-background-inline-policy: -moz-initial;
+	background: transparent repeat scroll 0% 0%;
+}
+
+ul.fTree li span.folder_trash
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_trash.gif);
+}
+ul.fTree li span.folder_inbox
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_inbox.gif);
+}
+ul.fTree li span.folder_inbox.linked
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_inbox_linked.gif);
+}
+
+ul.fTree li span.ico_accounts
+{
+	background-image:url(../../basic/skin/basic/images/tree/ico_accounts.gif);
+}
+
+ul.fTree li span.archive
+{
+	padding-left:0px !important;
+}
+
+ul.fTree li span.archive
+{
+	background-image:url(../../basic/skin/basic/images/tree/archive.gif)!important;
+	background-position: 3px 7px;
+	background-repeat: no-repeat;
+	padding-left:10px;
+	.padding-left:25px;
+}
+
+ul.fTree li span.folder_normal
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_normal.gif);
+}
+
+ul.fTree li span.folder_normal.linked
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_normal_linked.gif);
+}
+ul.fTree li span.folder_public
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_shared.gif);
+}
+
+ul.fTree li span.folder_contacts
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_contacts.gif);
+}
+ul.fTree li span.folder_drafts
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_drafts.gif);
+}
+ul.fTree li span.folder_events
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_events.gif);
+}
+ul.fTree li span.folder_files
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_files.gif);
+}
+ul.fTree li span.folder_notes
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_notes.gif);
+}
+ul.fTree li span.folder_journal
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_journal.gif);
+}
+ul.fTree li span.folder_spam
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_spam.gif);
+}
+ul.fTree li span.folder_spam_queues
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_spam_queues.gif);
+}
+ul.fTree li span.folder_spam_black
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_spam_black.gif);
+}
+ul.fTree li span.folder_spam_white
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_spam_white.gif);
+}
+ul.fTree li span.folder_sent
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_sent.gif);
+}
+ul.fTree li span.folder_tasks
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_tasks.gif);
+}
+
+ul.fTree li a.folder_new,div.folder_new
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_new.gif);
+}
+ul.fTree li a.folder_new:hover
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_new_hover.gif);
+}
+
+ul.fTree li span.folder_new_dis
+{
+	background-image:url(../../basic/skin/basic/images/tree/folder_new_dis.gif);
+}
+
+ul.fTree li a.folder_del,div.folder_del
+{
+	background-image:url(../../basic/skin/basic/images/tree/delete.gif);
+}
+ul.fTree li span.folder_del_dis
+{
+	background-image:url(../../basic/skin/basic/images/tree/delete_dis.gif);
+}
+ul.fTree li a.folder_del:hover
+{
+	background-image:url(../../basic/skin/basic/images/tree/delete_hover.gif);
+}
+
+ul.fTree li a.folder_link,div.folder_link
+{
+	background-image:url(../../basic/skin/basic/images/tree/link.gif);
+}
+ul.fTree li a.folder_link:hover
+{
+	background-image:url(../../basic/skin/basic/images/tree/link_hover.gif);
+}
+
+ul.fTree li a.folder_link.linked,div.folder_unlink
+{
+	background-image:url(../../basic/skin/basic/images/tree/unlink.gif);
+}
+ul.fTree li a.folder_link.linked:hover
+{
+	background-image:url(../../basic/skin/basic/images/tree/unlink_hover.gif);
+}
+
+ul.fTree li a.folder_edit,div.folder_edit
+{
+	background-image:url(../../basic/skin/basic/images/tree/edit.gif);
+}
+ul.fTree li a.folder_edit
+{
+	padding-right:10px;
+}
+
+ul.fTree li span.folder_edit_dis
+{
+	background-image:url(../../basic/skin/basic/images/tree/edit_dis.gif);
+	padding-right:10px;
+	padding-top:4px;
+	padding-bottom:4px;
+	.padding:0 10px;
+}
+ul.fTree li a.folder_edit:hover
+{
+	background-image:url(../../basic/skin/basic/images/tree/edit_hover.gif);
+}
+
+ul.fTree li span.folder_link_dis
+{
+	background-image:url(../../basic/skin/basic/images/tree/link_disabled.gif);
+	cursor:auto;
+}
+
+ul.fTree li span.folder_link_empty
+{
+	background-image:url(../../basic/skin/basic/images/tree/link_empty.gif);
+	cursor:auto;
+}
+
+ul.fTree li span.deactived
+{
+	margin-left:6px;
+}

@@ -1,0 +1,206 @@
+form.obj_input{
+	text-indent: 0;
+	position: relative;
+	z-index: 1;
+
+	/* somehow fixes top padding*/
+	line-height: 0;
+
+	border: 1px solid #CACACA;
+	background: #FFF;
+
+	overflow: hidden;
+	border-radius: 2px;
+
+	float: left;
+}
+form.obj_input.transparent{
+	background: transparent;
+}
+.rtl form.obj_input {
+	float: right;
+}
+form.obj_input.noborder{
+	border-color: transparent;
+	background-color: transparent;
+}
+form.obj_input:not(.noborder){
+	transition: border 250ms;
+}
+/* Size for _resize method */
+form.obj_input_dynamic div.size{
+	display: block;
+	position: absolute;
+	width: auto;
+	z-index: 0;
+	line-height: 24px;
+	padding: 0 6px;
+	text-align: left;
+
+	top: 0;
+	left: 0;
+
+	visibility: hidden;
+	white-space: nowrap;
+}
+
+/* shadow
+form.obj_input:before{
+	content: '';
+	position: absolute;
+	width: auto;
+	left: 2px;
+	right: 2px;
+	top: -1px;
+	box-shadow: 0 0 3px #333;
+	height: 1px;
+}
+*/
+/* Sizes */
+form.obj_input_100{
+	display: block;
+	width: 100%;
+	float: none;
+}
+	form.obj_input_100>input.obj_input{
+		width: 100%;
+	}
+form.obj_input_small>input.obj_input{
+	width: 50px;
+}
+form.obj_input_number.obj_input_small>input.obj_input{
+	width: 80px;
+}
+
+/* Input object CSS */
+form.obj_input input {
+	width: 178px;
+	margin: 0;
+
+	text-indent: 8px;
+
+	height: 26px;
+	line-height: 26px;
+
+	border: none;
+	background-color: transparent;
+
+	outline: 0;
+	cursor: text!important;
+
+	padding-bottom: 0;
+
+	/*IE8*/
+	background-color: inherit\9;
+}
+.rtl form.obj_input input {
+	direction: rtl;
+}
+
+/* remove [X] placeholder in MSIE10 */
+form.obj_input input::-ms-clear { display: none; }
+
+/* placeholder */
+form.obj_input input::-webkit-input-placeholder  { color:#888; }
+form.obj_input input::-moz-placeholder { color:#888; }
+form.obj_input input:-ms-input-placeholder  { color:#888!important; }
+form.obj_input input.placeholder{ color: #888; }
+
+/* masks */
+form.obj_input div.mask_container{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	z-index: 10;
+}
+
+.rtl form.obj_input div.mask_container {
+	left: 0;
+	right: auto;
+}
+
+	form.obj_input div.mask_container a.always,
+	form.obj_input div.mask_container.show a,
+	form.obj_input div.mask_container a.hide{
+		display:block;
+	}
+
+	form.obj_input div.mask_container a,
+	form.obj_input div.mask_container.show a.hide{
+		display: none;
+	}
+
+	form.obj_input div.mask_container a{
+		float: left;
+		height: 100%;
+
+        background-repeat: no-repeat;
+        outline: 0;
+
+		line-height: 26px;
+		font-size: 16px;
+		font-family: 'ico16';
+	 	color: #AAA;
+	}
+    form.obj_input:not(.disabled) div.mask_container a:hover{
+		color: #333;
+		cursor: pointer;
+	}
+
+/* password */
+form.obj_password input.caps{
+	color: #4040FF;
+}
+
+/* Error */
+form.obj_input.error:not(.noborder){
+	border-color: #E08F93;
+}
+
+/* readonly & disabled */
+form.obj_input.readonly>input{
+	color: #666;
+}
+form.obj_input:not(.noborder).disabled {
+	border-color: #DFDDDB;
+	background-color: #f7f7f7;
+}
+	form.obj_input.disabled>input{
+		color: #888!important;
+	}
+	/* remove text cursor */
+	form.obj_input.disabled:after{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 0;
+	}
+
+/* Icon */
+form.obj_input.ico:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 5px;
+
+	content: '\e03c';
+	font-size: 16px;
+	font-family: 'ico16';
+	line-height: 26px;
+}
+form.obj_input.ico{
+	padding-left: 20px;
+}
+.rtl form.obj_input.ico:after {
+	left: auto;
+	right: 0;
+}
+.rtl form.obj_input.ico {
+	padding-left: 0;
+	padding-right: 20px;
+}

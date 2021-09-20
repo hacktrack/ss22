@@ -1,0 +1,1 @@
+<div class="search" id="{anchor search}"><obj name="search" type="obj_input" css="obj_input_100 noborder"></obj><div class="ico" id="{anchor search_ico}"></div><div class="close" id="{anchor search_close}"></div></div>

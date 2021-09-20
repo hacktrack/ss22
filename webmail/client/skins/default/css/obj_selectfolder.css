@@ -1,0 +1,41 @@
+.obj_selectfolder form.obj_button input.obj_button{
+	text-align: left;
+	margin: 0;
+	width: 178px;
+}
+.rtl .obj_selectfolder form.obj_button input.obj_button{
+	text-align: right;
+}
+.obj_selectfolder.max form.obj_button input.obj_button{
+	width: 100%;
+}
+
+.obj_selectfolder form.obj_button:after{
+	/*background-position: -611px -898px;*/
+	content: '\e01c';
+}
+
+.obj_selectfolder form.obj_button.type_C:after{
+	/*background-position: -609px -974px;	*/
+	content: '\e032';
+}
+.obj_selectfolder form.obj_button.type_E:after{
+	/*background-position: -609px -1049px;	*/
+	content: '\e05';
+}
+.obj_selectfolder form.obj_button.type_T:after{
+	/*background-position: -609px -1199px;	*/
+	content: '\e003';
+}
+.obj_selectfolder form.obj_button.type_N:after{
+	/*background-position: -609px -1349px;	*/
+	content: '\e01d';
+}
+.obj_selectfolder form.obj_button.type_J:after{
+	/*background-position: -609px -1274px;	*/
+	content: '\e024';
+}
+.obj_selectfolder form.obj_button.type_F:after{
+	/*background-position: -609px -1123px;	*/
+	content: '\e02c';
+}

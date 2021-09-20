@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>פריט חדש</add>
+    <quarantine>הסגר</quarantine>
+    <whitelist>רשימה לבנה</whitelist>
+    <blacklist>רשימה שחורה</blacklist>
+    <save>שמור</save>
+    <cancel>בטל</cancel>
+    <new_item>הוסף דוא&quot;ל חדש</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>השבת קיצורי דרך</disable_shortcuts>
+    <enable_swipe_gestures>אפשר תנועות החלקות על מכשירי מגע</enable_swipe_gestures>
+    <use_high_contrast_skin>השתמש בעור ניגודיות גבוה</use_high_contrast_skin>
+    <menu_as_text>הצג טקסט במקום הסמלים בסרגל הכלים</menu_as_text>
+    <change_password>שנה סיסמא</change_password>
+    <open_change_password_dialog>פתח חלון הדו-שיח לשינוי הסיסמה</open_change_password_dialog>
+    <oldpassword>סיסמה ישנה</oldpassword>
+    <newpassword>סיסמה חדשה</newpassword>
+    <confirmpassword>אשר סיסמה</confirmpassword>
+    <remove>הסר</remove>
+    <settings>הגדרות</settings>
+    <navigate>נהל</navigate>
+    <user>ההגדרות שלי</user>
+    <domain>מנהל התחום</domain>
+    <admin>הגדרות מנהל</admin>
+    <new_domain>תחום חדש</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>כללי</general>
+    <layout>פריסה</layout>
+    <mail>דואר</mail>
+    <compose>כתוב</compose>
+    <person>דוא&quot;ל</person>
+    <person_header>הוספה כתובת &quot;מ&quot; חדשה</person_header>
+    <person_description>לדוגמה &quot;John Doe&quot; &amp;lt;john.doe@icewarp.com&amp;gt;</person_description>
+    <autoresponder>מענה אוטומטי</autoresponder>
+    <forwarder>רכיב העברה</forwarder>
+    <layout_desc>פריסה, דואר</layout_desc>
+    <compose_desc>הגדרות ברירת מחדל עבור הודעה חדשה (אישור קריא, HTML/פורמט רגיל, חתימה).</compose_desc>
+    <general_desc>קביעת תצורת תיבת הדואר שלך לדיפדוף, מחיקה, והשבה להודעות.</general_desc>
+    <personalities_desc>Setup alternate email identities (different From: address) for your user account.</personalities_desc>
+    <autoresponder_desc>Automatically answer to incoming email messages when you are on vacation.</autoresponder_desc>
+    <forwarder_desc>Forward or copy incoming email messages to any other email address.</forwarder_desc>
+    <date_format>תבנית התאריך</date_format>
+    <time_format>תבנית השעה</time_format>
+    <list_count>ספירת רשימת הפריטים</list_count>
+    <font_family>Default font</font_family>
+    <font_size>Default font size</font_size>
+    <text_direction>Text direction</text_direction>
+    <text_direction_values>Left to right|Right to left</text_direction_values>
+    <empty_trash_every>רוקן את תיקיית האשפה כל</empty_trash_every>
+    <days>ימים</days>
+    <move_deleted>העבר הודעות מחוקות לתיקיית האשפה</move_deleted>
+    <delete_messages_on_empty>Delete messages on &quot;Empty Folder&quot; action permanently</delete_messages_on_empty>
+    <add_recipients>הוסף את נמעני ההודעה לפנקס הכתובות באופו אוטומטי</add_recipients>
+    <group_pref>קבץ קידומות נושא (לדוגמא&quot; Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>בקש אימות-קריאה</request_read_confirmation>
+    <save_sent_msg>שמור הודעה שלוחה בתיקייה</save_sent_msg>
+    <message_format>תבנית הודעה</message_format>
+    <message_format_labels>פשוט|HTML</message_format_labels>
+    <signature>חתימה</signature>
+    <forward_to>העבר הלאה ל-</forward_to>
+    <keep_in_inbox>השאר הודעות בתיבת דואר-נכנס</keep_in_inbox>
+    <forward_older>Forward email older than</forward_older>
+    <forward_older_to>Forward older email to</forward_older_to>
+    <ar_mode>מצב</ar_mode>
+    <ar_mode_labels>לא זמין|תשיב תמיד|תשיב פעם אחת|תשיב שוב לאחר פרק זמן</ar_mode_labels>
+    <ar_respond_only>Respond to messages sent to user&apos;s email address only</ar_respond_only>
+    <ar_respond_again>תשיב שוב לאחר (ימים)</ar_respond_again>
+    <ar_from>מ</ar_from>
+    <ar_subject>נושא</ar_subject>
+    <ar_text>טקסט</ar_text>
+    <ar_no_responder_for>אין משיב עבור</ar_no_responder_for>
+    <ar_respond_only_between>תשיב רק אם בין</ar_respond_only_between>
+    <email>Email</email>
+    <responder>No response for</responder>
+    <show_attached_images>הצג תמונות מצורפות באופן אוטומטי</show_attached_images>
+    <show_inline_images>הצג תמונות חיצוניות באופן אוטומטי</show_inline_images>
+    <use_reply_prefix>השתמש בקידומת &apos;השב&apos; (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 שעות|24 שעות</time_format_list_labels>
+    <force_admin>Force this option for both domain and user settings</force_admin>
+    <force_domain>Force this option for user settings</force_domain>
+    <to_top>חתימה בראש ההודעה</to_top>
+    <quota>Disk Quota:</quota>
+    <section_layout>General layout settings</section_layout>
+    <section_mail>General mail settings</section_mail>
+    <section_autoresponder>Set an automatic response for the case, you are not at your desk.</section_autoresponder>
+    <section_norespond>Listed email addresses will not be responded.</section_norespond>
+    <domains>Domains</domains>
+    <accounts>Accounts</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>האכן ברצונך למחוק את ההודעות שנבחרו?</delete_mail>
+    <blacklist_mail>האכן ברצונך לכלול את ההודעות שנבחרו ברשימה השחורה?</blacklist_mail>
+    <delete_contact>Do you really want to delete this contact?</delete_contact>
+    <delete_contact_distribution>האכן ברצונך למחוק את רשימת-התפוצה הזו?</delete_contact_distribution>
+    <delete_event>האכן ברצונך למחוק את האירועים שנבחרו?</delete_event>
+    <delete_note>האכן ברצונך למחוק את ההערות שנבחרו?</delete_note>
+    <delete_task>האכן ברצונך למחוק את המשימות שנבחרו?</delete_task>
+    <delete_personalities>האכן ברצונך למחוק את הפריט/ים שנבחרו?</delete_personalities>
+    <delete_quarantine>האכן ברצונך למחוק את הפריטים שנבחרו?</delete_quarantine>
+    <delete_this_mail>האכן ברצונך למחוק את ההודעה הזו?</delete_this_mail>
+    <delete_items>Do you really want to delete selected item(s)?</delete_items>
+    <delete_item>Do you really want to delete this item?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>אין פריטים בתיקייה הזו.</no_item>
+  </string>
+  <menu>
+    <files>קבצים</files>
+    <notes>הערות</notes>
+    <tasks>משימות</tasks>
+    <journal>יומן</journal>
+    <calendar>לוח-שנה</calendar>
+    <search>חיפוש</search>
+    <messages>הודעות</messages>
+    <contacts>Contacts</contacts>
+    <searchBut>מצא</searchBut>
+    <address_book>פנקס כתובות</address_book>
+    <logout>התנתק</logout>
+    <help>עזרה</help>
+    <settings>הגדרות</settings>
+    <switch>Switch to</switch>
+    <help_url>language/en/help.html</help_url>
+    <quarantine>Filters</quarantine>
+    <alert_restricted_access>אנו מתנצלים, אך הגישה לכרטיסיה זו אסורה</alert_restricted_access>
+    <basic>Tablet Interface</basic>
+    <advanced>Desktop Interface</advanced>
+    <mobile>Mobile Interface</mobile>
+  </menu>
+  <tree>
+    <add_folder>הוסף תיקייה</add_folder>
+    <new_message>הודעה חדשה</new_message>
+    <manage_folders>ניהול תיקייה</manage_folders>
+    <open_folder>Open Folder</open_folder>
+    <open>Open</open>
+  </tree>
+  <mail_view>
+    <attachments>תצריפים</attachments>
+    <from>מ</from>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>נושא</subject>
+    <all_headers>הראה את כל הכותרות</all_headers>
+    <all_images>הצג תמונות</all_images>
+    <next>הבא</next>
+    <prev>קודם</prev>
+    <first>ראשון</first>
+    <last>אחרון</last>
+    <show_external_images>External resources have been blocked. Click here to display them.</show_external_images>
+    <download_all>Download all</download_all>
+    <detail>Detail</detail>
+    <blue_box_start>Start</blue_box_start>
+    <blue_box_end>End</blue_box_end>
+    <blue_box_description>Description</blue_box_description>
+    <blue_box_accept>Accept</blue_box_accept>
+    <blue_box_decline>Decline</blue_box_decline>
+    <blue_box_subscribe_folder>Subscribe folder</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Subscribe account</blue_box_subscribe_account>
+    <item_accept_ok>Item accepted</item_accept_ok>
+    <read>read</read>
+    <write>write</write>
+    <modify>modify</modify>
+    <delete>delete</delete>
+    <administer>administer</administer>
+    <folder_rights>Folder rights</folder_rights>
+    <items_rights>Items rights</items_rights>
+  </mail_view>
+  <login>
+    <send>שלח</send>
+    <ip_check>בטל אבטחה מורחבת</ip_check>
+    <user>משתמש</user>
+    <email>Email</email>
+    <password>סיסמה</password>
+    <remember>זכור</remember>
+    <language>שפה</language>
+    <allways_ask>שאל תמיד</allways_ask>
+    <username>שם-משתמש</username>
+    <username_and_password>שם-משתמש וסיסמה</username_and_password>
+    <auto_login>Auto login</auto_login>
+    <login>התחברות</login>
+    <copyright>Powered by IceWarp &lt;a href=&quot;http://www.icewarp.com&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Version: $1</copyright>
+    <welcome>Welcome to IceWarp WebClient Tablet</welcome>
+    <public_welcome>ברוך הבא ל- IceWarp לוח-שנה ציבורי</public_welcome>
+    <title>IceWarp WebClient Tablet</title>
+    <public_title>IceWarp לוח-שנה ציבורי</public_title>
+    <reset_password>Reset Password</reset_password>
+    <sign_up>הירשם</sign_up>
+    <email>Email</email>
+    <domain>תחום</domain>
+    <new_password>סיסמה חדשה</new_password>
+    <confirm_password>אמת סיסמה</confirm_password>
+    <full_name>שם מלא</full_name>
+    <alternative_email>Alternate Email</alternative_email>
+    <switch>Switch to &lt;a href=&quot;../&quot;&gt;Desktop&lt;/a&gt; or &lt;a href=&quot;../pda&quot;&gt;Mobile&lt;/a&gt; Interface.</switch>
+    <no_javascript>&lt;b&gt;JavaScript is currently disabled. &lt;/b&gt;&lt;/div&gt;As a result, you are being redirected to WebClient Tablet Interface, which offers limited functionality. If you would like to use WebClient Desktop Interface, please visit our &lt;a href=&quot;http://esupport.icewarp.com/index.php?/default_import/Knowledgebase/Article/View/194/0/how-to-enable-java-scripting-in-your-browser&quot;&gt;knowledge base&lt;/a&gt; for instructions on how to enable it in your browser.&lt;br /&gt;If your browser does not support JavaScript, please download the latest version of &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; or &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>Type the code from image</word>
+  </login>
+  <files>
+    <add>Upload File</add>
+    <download>Download</download>
+    <file>File</file>
+  </files>
+  <file_list>
+    <filename>File name</filename>
+    <description>Description</description>
+    <modified>Modified</modified>
+    <size>Size</size>
+    <tags>Tags</tags>
+  </file_list>
+  <notes>
+    <category>קטגוריה</category>
+    <add>הערה חדשה</add>
+  </notes>
+  <notes_detail>
+    <note>Note</note>
+    <tags>Tags</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>משימה חדשה</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Task</task>
+    <status>מצב</status>
+    <complete>גמור</complete>
+    <priority>עדיפות</priority>
+    <not_started>לא הותחל</not_started>
+    <in_progress>בעיצומו</in_progress>
+    <completed>גמור</completed>
+    <deferred>נדחה</deferred>
+    <waiting_for_someone_else>מחכה למישהו אחר</waiting_for_someone_else>
+    <medium>בינוני</medium>
+    <high>גבוה</high>
+    <low>נמוך</low>
+    <tags>Tags</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>תאריך התחלה</start_date>
+    <due_date>תאריך יעד</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Fullscreen</fullscreen>
+    <subject>נושא</subject>
+    <no_subject>ללא נושא</no_subject>
+    <no_address>ללא כתובת</no_address>
+    <from>מ</from>
+    <date>תאריך</date>
+    <size>גודל</size>
+    <delete>מחק</delete>
+    <reply>השב</reply>
+    <reply_to_all>Reply to All</reply_to_all>
+    <forward>העבר הלאה</forward>
+    <print>הדפס</print>
+    <whitelist>כלול ברשימה הלבנה</whitelist>
+    <blacklist>כלול ברשימה השחורה</blacklist>
+    <dws>פעולה</dws>
+    <copy>העתק</copy>
+    <move>העבר</move>
+    <copy_to_folder>Copy to folder:</copy_to_folder>
+    <move_to_folder>Move to folder:</move_to_folder>
+    <mar>סמן כ-&apos;נקרא&apos;</mar>
+    <mau>סמן כ-&apos;לא נקרא&apos;</mau>
+    <select>בחר</select>
+    <all>כל</all>
+    <none>אף אחד</none>
+    <read>נקרא</read>
+    <unread>לא נקרא</unread>
+    <invert>Invert selection</invert>
+    <doit>יישם</doit>
+    <to>ל</to>
+    <fast_reply>תשובה מהירה</fast_reply>
+    <send_message>שלח הודעה</send_message>
+    <src>The sender has requested a response to indicate that you have read this message. Would you like to send it?</src>
+    <save>שמור</save>
+    <select_folder>בחר תיקייה</select_folder>
+    <deliver>מסור</deliver>
+    <text>Text</text>
+    <received>Received</received>
+    <saved>Saved</saved>
+    <sender>Sender</sender>
+    <owner>Owner</owner>
+    <domain>Domain</domain>
+    <show_all>Show all</show_all>
+  </mail_main>
+  <event_list>
+    <title>כותרת</title>
+    <start>מתחיל</start>
+    <end>מסתיים</end>
+    <tags>Tags</tags>
+  </event_list>
+  <event_detail>
+    <tags>Tags</tags>
+    <show_as>הצג כ-</show_as>
+    <free>פנוי</free>
+    <tentative>לא סופי</tentative>
+    <busy>לא פנוי</busy>
+    <out_of_office>מחוץ למשרד</out_of_office>
+    <title>כותרת</title>
+    <location>מיקום</location>
+    <label>תווית</label>
+    <none>ללא</none>
+    <important>חשוב</important>
+    <business>עסקי</business>
+    <personal>פרטי</personal>
+    <vacation>חופשה</vacation>
+    <must_attend>חייב להיות נוכח</must_attend>
+    <travel_required>דורש נסיעה</travel_required>
+    <needs_preparation>דורש הכנות</needs_preparation>
+    <birthday>יום הולדת</birthday>
+    <anniversary>יום-שנה</anniversary>
+    <phone_call>שיחת טלפון</phone_call>
+    <category>קטגוריה</category>
+    <private>פרטי</private>
+    <from>מ</from>
+    <to>ל</to>
+    <notes>הערות</notes>
+    <allday>אירוע נמשך כל היום</allday>
+    <event>Event</event>
+    <minutes>Minute(s)</minutes>
+    <hours>Hour(s)</hours>
+    <days>Day(s)</days>
+    <remind_me>Remind me</remind_me>
+    <before>before</before>
+    <no_repeating>No Repeating</no_repeating>
+    <daily>Daily</daily>
+    <weekly>Weekly</weekly>
+    <monthly>Monthly</monthly>
+    <yearly>Yearly</yearly>
+    <end_date>End date</end_date>
+    <no_end_date>No end date</no_end_date>
+    <repeat>Repeat</repeat>
+    <every>Every</every>
+    <every_workday>Every workday</every_workday>
+    <recur_every>Recur every</recur_every>
+    <weeks>week(s)</weeks>
+    <on>on</on>
+    <monday>Monday</monday>
+    <tuesday>Tuesday</tuesday>
+    <wednesday>Wednesday</wednesday>
+    <thursday>Thursday</thursday>
+    <friday>Friday</friday>
+    <saturday>Saturday</saturday>
+    <sunday>Sunday</sunday>
+    <day>Day</day>
+    <months>month(s)</months>
+    <first>First</first>
+    <second>Second</second>
+    <third>Third</third>
+    <fourth>Fourth</fourth>
+    <last>Last</last>
+    <week>Week</week>
+    <work_week>Work week</work_week>
+    <weekend>Weekend</weekend>
+    <of_every>of every</of_every>
+    <of>of</of>
+    <years>year(s)</years>
+    <the>The</the>
+    <times>times</times>
+    <count>count</count>
+    <until>until</until>
+    <tags>Tags</tags>
+  </event_detail>
+  <event_main>
+    <mon>יום שני</mon>
+    <tue>יום שלישי</tue>
+    <wed>יום רביעי</wed>
+    <thu>יום חמישי</thu>
+    <fri>יום שישי</fri>
+    <sat>יום שבת</sat>
+    <sun>יום ראשון</sun>
+    <jan>ינואר</jan>
+    <feb>פברואר</feb>
+    <mar>מרץ</mar>
+    <apr>אפריל</apr>
+    <may>מאי</may>
+    <jun>יוני</jun>
+    <jul>יולי</jul>
+    <aug>אוגוסט</aug>
+    <sep>ספטמבר</sep>
+    <oct>אוקטובר</oct>
+    <nov>נובמבר</nov>
+    <dec>דצמבר</dec>
+    <week>שבוע</week>
+    <week_view>שבוע</week_view>
+    <work_week_view>שבוע עבודה</work_week_view>
+    <month_view>חודש</month_view>
+    <day_view>יום</day_view>
+    <list>רשימה</list>
+    <add>אירוע חדש</add>
+    <save>שמור</save>
+    <no_title>ללא כותרת</no_title>
+    <search>Search:</search>
+    <account>Account:</account>
+    <print>Print</print>
+  </event_main>
+  <contact_main>
+    <contact>Contact</contact>
+    <distribution_list>Distribution List</distribution_list>
+    <title>כותרת</title>
+    <no_email>No email</no_email>
+    <card_view>תצוגת כרטיס</card_view>
+    <list_view>תצוגת רשימה</list_view>
+    <contact_name>שם איש-הקשר</contact_name>
+    <email>Email</email>
+    <company>חברה</company>
+    <job>משרה</job>
+    <department>מחלקה</department>
+    <profession>מקצוע</profession>
+    <category>קטגוריה</category>
+    <general>כללי</general>
+    <first_name>שם פרטי</first_name>
+    <middle_name>שם שני</middle_name>
+    <last_name>שם משפחה</last_name>
+    <nick>כינוי</nick>
+    <sort_string>Sort string</sort_string>
+    <title>כותרת</title>
+    <suffix>סיומת</suffix>
+    <category>קטגוריה</category>
+    <web>אתר אינטרנט</web>
+    <street>רחוב</street>
+    <city>עיר</city>
+    <zip>מיקוד</zip>
+    <state>מחוז</state>
+    <country>ארץ</country>
+    <im>IM</im>
+    <phones>טלפונים</phones>
+    <work>עבודה</work>
+    <home>בית</home>
+    <assistant>עוזר</assistant>
+    <fax_home>פקס בית</fax_home>
+    <fax_work>פקס עבודה</fax_work>
+    <call_back>התקשר בחזרה</call_back>
+    <company>חברה</company>
+    <car>מכונית</car>
+    <isdn>ISDN</isdn>
+    <mobile>נייד</mobile>
+    <other>אחר</other>
+    <other_fax>פקס אחר</other_fax>
+    <pager>ביפר</pager>
+    <primary>ראשי</primary>
+    <radio>רדיו</radio>
+    <telex>טלקס</telex>
+    <hearing>שמיעה</hearing>
+    <add>איש-קשר חדש</add>
+    <notes>הערות</notes>
+    <no_name>אין שם לאיש-הקשר</no_name>
+    <select>בחר סוג</select>
+    <select_contacts>Select contacts you wish to add</select_contacts>
+    <add_distribution>New Distribution List</add_distribution>
+    <add_new>הוסף</add_new>
+    <add_item_distribution>הוסף מפנקס הכתובות</add_item_distribution>
+    <save>שמור</save>
+    <edit>ערוך</edit>
+    <edit_selected>ערוך את הנבחרים</edit_selected>
+    <delete_selected>מחק</delete_selected>
+    <cancel>בטל</cancel>
+    <onleave_warning>Do you want to logout? All unsaved data will be lost.</onleave_warning>
+    <tags>Tags</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>New Patient</new_patient>
+    <new_staff>New Staff</new_staff>
+    <notify_email>Notify email</notify_email>
+    <notify_sms>Notify SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>New</add>
+    <staff>Staff</staff>
+    <patient>Patient</patient>
+  </hippa_detail>
+  <grid>
+    <title>כותרת</title>
+    <note>הערה</note>
+    <size>גודל</size>
+    <category>קטגוריה</category>
+    <start>התחל</start>
+    <end>סיים</end>
+    <save>שמור</save>
+    <cancel>בטל</cancel>
+    <number_of_items>Number of items selected on other pages:</number_of_items>
+    <clear>Clear</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Please select the text you wish to hyperlink.</select_text>
+    <enter_url>Enter the URL for this link:</enter_url>
+    <image_location>הזן את המיקום לתמונה הזו:</image_location>
+    <image_alt>הזן את הטקסט החלופי לתמונה הזו:</image_alt>
+    <image>הכנס תמונה</image>
+    <htmlsource>מקור HTML</htmlsource>
+    <hyperlink>קישור היפרטקסט</hyperlink>
+    <underline>קו-תחתי</underline>
+    <italic>נטוי</italic>
+    <bold>מובהק</bold>
+    <fontsize>גודל גופן</fontsize>
+    <fontformat>תבנית גופן</fontformat>
+    <outdent>הקטן זיח</outdent>
+    <indent>הרחב זיח</indent>
+    <orderedlist>Numbered list</orderedlist>
+    <unorderedlist>Bulleted list</unorderedlist>
+    <justify>Justify</justify>
+    <right>יישר ימינה</right>
+    <center>יישר במרכז</center>
+    <left>יישר שמאלה</left>
+    <blockformat>חסום תבנית</blockformat>
+    <block_type>Block type</block_type>
+    <heading>כותרת</heading>
+    <paragraph>פיסקה</paragraph>
+    <size>גודל</size>
+    <font>גופן</font>
+    <cancel>בטל</cancel>
+    <email>Email</email>
+    <options>אפשריות</options>
+    <plain>פשוט</plain>
+    <html>HTML</html>
+    <from>מ</from>
+    <to>ל</to>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>נושא</subject>
+    <date>תאריך</date>
+    <attachments>תצריפים</attachments>
+    <text>טקסט</text>
+    <send_message>שלח הודעה</send_message>
+    <save_message>שמור</save_message>
+    <br/>
+    <spellchecker>Spell checker language</spellchecker>
+    <rrc>בקש אימות-קריאה</rrc>
+    <ssm>Save sent messages to folder</ssm>
+    <psa>Use SmartAttach</psa>
+    <priority>עדיפות</priority>
+    <lowest>הכי נמוכה</lowest>
+    <low>נמוכה</low>
+    <normal>רגילה</normal>
+    <high>גבוהה</high>
+    <highest>הכי גבוהה</highest>
+    <rta>Reply-To address</rta>
+    <charset>קידוד תווים</charset>
+    <auto>אוטומטי</auto>
+    <original_message>-----הודעה מקורית-----</original_message>
+    <read_confirmation_subject>קרא: %SUBJECT%</read_confirmation_subject>
+    <read_confirmation_text>הודעתך נקראה.&#13;&#10;&#13;&#10;פרטי ההודעה להלן:&#13;&#10;&#13;&#10;מ: %FROM%&#13;&#10;ל: %TO%&#13;&#10;תאריך: %DATE%&#13;&#10;נושא: %SUBJECT%</read_confirmation_text>
+    <add_contacts>הוסף אנשי-קשר</add_contacts>
+    <add_files>Add files</add_files>
+    <add_files_from_folder>Add files from folder</add_files_from_folder>
+    <add_files_from_dropbox>Add files from Dropbox</add_files_from_dropbox>
+    <leave_notice>Do you want to leave? The message will be lost.</leave_notice>
+    <alias>כינוי</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>תיקייה חדשה</add>
+    <delete>מחק</delete>
+    <link>צור קישור</link>
+    <unlink>בטל את הקישור</unlink>
+    <create_folder>צור תיקייה חדשה</create_folder>
+    <create>צור</create>
+    <delete_confirmation_text>Are you sure to permanently delete this folder?</delete_confirmation_text>
+    <empty_confirmation_text>Are you sure to permanently delete items in this folder?</empty_confirmation_text>
+    <delete_yes>כן</delete_yes>
+    <delete_no>לא</delete_no>
+    <link_as>קשר את התיקייה כ-</link_as>
+    <unlink_as>מחק / שנה שם קישור התיקייה</unlink_as>
+    <unlink_confirmation_text>Are you sure to delete the folder link?</unlink_confirmation_text>
+    <unlink_yes>כן</unlink_yes>
+    <unlink_no>לא</unlink_no>
+    <virtual>תיקייה וירטואלית</virtual>
+    <delete_empty_folder>מחק או רוקן תיקייה</delete_empty_folder>
+    <edit>ערוך</edit>
+    <empty>רוקן</empty>
+    <rename_folder>שמה את שם התיקייה</rename_folder>
+    <save>שמור</save>
+    <rename>שנה שם</rename>
+    <perform_action>בצע פעולה עבור</perform_action>
+    <select_folder>בחר תיקייה לנהל</select_folder>
+    <open_folder>פתח תיקייה</open_folder>
+    <open_folder_des>Use it to access contents of a folder.</open_folder_des>
+    <link_folder>קשר תיקייה</link_folder>
+    <link_folder_des>Use it to create a shortcut in the left menu for a folder in the tree.</link_folder_des>
+    <add_folder>הוסף תיקייה</add_folder>
+    <add_folder_dis>Use it to create a new folder under selected folder.</add_folder_dis>
+    <rename_folder_des>Use it to rename the selected folder.</rename_folder_des>
+    <remove_folder>הסר תיקייה</remove_folder>
+    <remove_folder_des>Use it to permanently empty and delete selected folder. Warning: you cannot undo this action!</remove_folder_des>
+    <default_folder>הגדר כתיקיית ברירת-מחדל</default_folder>
+    <default_folder_des>Use it to set this folder as the default one.</default_folder_des>
+    <set_default>הגדר תיקייה זו כברירת-מחדל</set_default>
+    <set>Set</set>
+    <as_drafts>טיוטות</as_drafts>
+    <as_sent>נשלח</as_sent>
+    <as_trash>אשפה</as_trash>
+    <set_as_default>הגדר</set_as_default>
+    <link_first>A folder has to be linked first before it can be set as default.</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>דואר-נכנס</inbox>
+    <drafts>טיוטות</drafts>
+    <sent>נשלח</sent>
+    <trash>אשפה</trash>
+  </common_folders>
+  <common>
+    <yes>כן</yes>
+    <no>לא</no>
+  </common>
+  <folder_types>
+    <mail>דואר</mail>
+    <contact>איש-קשר</contact>
+    <event>לוח-שנה</event>
+    <journal>יומן</journal>
+    <note>הערה</note>
+    <task>מטלה</task>
+    <file>קובץ</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA validation failed. Try again.</login_invalid_keypair>
+    <divtcha_confirmation>Wrong captcha code</divtcha_confirmation>
+    <missing_values_text>Empty text input</missing_values_text>
+    <missing_values_email>Empty email input</missing_values_email>
+    <invalid_email>Invalid email address</invalid_email>
+    <password_not_changed>New password cannot be the same as old password</password_not_changed>
+    <reset_password_invalid_hashid>Invalid hash ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID file doesn&apos;t exist</reset_password_uid_file>
+    <account_alternative_email>Account has no alternate email address</account_alternative_email>
+    <migration_in_progress>Migration of account is in progress, please try again later</migration_in_progress>
+    <login_ip_invalid>Login IP restriction: %s</login_ip_invalid>
+    <unauthorized>גישה לא מאושרת</unauthorized>
+    <folder_type_restricted>סוג תיקייה זה הוגבל ע&quot;י המנהל</folder_type_restricted>
+    <account_does_not_exists>Specified account doesn&apos;t exist</account_does_not_exists>
+    <account_invalid_id>לא ניתן להשיג את %s החשבון</account_invalid_id>
+    <account_unknown_protocol>פרוטוקול חשבון לא ידוע</account_unknown_protocol>
+    <account_missing_tag>התגית %s חסרה מהחשבון</account_missing_tag>
+    <account_missing_id>זהות החשבון חסרה</account_missing_id>
+    <account_invalid_action>פעולת החשבון אינה תקפה</account_invalid_action>
+    <account_already_exists>חשבון %s כבר קיים</account_already_exists>
+    <account_no_username>שם-משתמש החשבון חסר או ריק</account_no_username>
+    <account_no_password>סיסמת החשבון הסרה או ריקה</account_no_password>
+    <account_bad_password>Old password entered incorrectly</account_bad_password>
+    <account_password_policy>Password does not match the password policy</account_password_policy>
+    <account_sync>סינכרון החשבון נכשל לחשבון %s</account_sync>
+    <account_primary_delete>לא ניתן למחוק חשבון ראשי</account_primary_delete>
+    <account_test_failed>בדיקת החשבון נכשלה לחשבון %s</account_test_failed>
+    <account_signup_disabled>Self sign-up disabled</account_signup_disabled>
+    <account_signup_error>Account sign-up error: %s</account_signup_error>
+    <account_signup_1>שגיאה לא מוגדרת</account_signup_1>
+    <account_signup_2>רשיון לא מספיק</account_signup_2>
+    <account_signup_3>גודל הפרמטרים קטן מדי</account_signup_3>
+    <account_signup_4>כישלון פונקציה</account_signup_4>
+    <account_signup_5>תצורה לא נמצאה</account_signup_5>
+    <account_signup_6>מדיניות סיסמה</account_signup_6>
+    <account_signup_7>חשבון כבר קיים</account_signup_7>
+    <account_signup_8>Invalid characters</account_signup_8>
+    <attachment_too_large>Attachment is too large: %s</attachment_too_large>
+    <password_confirmation>סיסמה לא תואמת</password_confirmation>
+    <missing_values>Password mismatch</missing_values>
+    <addon_copy>Cannot copy add-on</addon_copy>
+    <attachment_file_not_found>לא ניתן לצרף קובץ</attachment_file_not_found>
+    <attachment_add>הוספת התצריף נכשלה</attachment_add>
+    <attachment_get>לא ניתן להשיג את התצריף %s</attachment_get>
+    <attacment_class_unknown>סווג תצריף לא ידוע</attacment_class_unknown>
+    <auth_missing_tag>Authentication missing tag %s</auth_missing_tag>
+    <auth_export_key_private>לא ניתן לייצא מפתח פרטי</auth_export_key_private>
+    <auth_invalid_char>Invalid character in private key</auth_invalid_char>
+    <confirmation_uid>Captcha  - הפעלה לא נמצאה</confirmation_uid>
+    <confirmation_word_mismatch>Captcha entered incorrectly</confirmation_word_mismatch>
+    <db_auto_create>לא ניתן ליצור את מסד הנתונים באופן אוטומטי</db_auto_create>
+    <db_create_sqlitefile>Cannot create SQLite DB file</db_create_sqlitefile>
+    <db_create_tables>לא ניתן ליצור טבלאות</db_create_tables>
+    <db_statement_prepare>לא ניתן להכין את ההצהרה</db_statement_prepare>
+    <db_invalid_statement>Invalid statement type</db_invalid_statement>
+    <flags_unknown_field>Incorrect flags field</flags_unknown_field>
+    <folder_autocreate_failed>Folder %s already exists</folder_autocreate_failed>
+    <folder_already_exists>Folder %s already exists</folder_already_exists>
+    <folder_does_not_exist>Folder %s does not exist</folder_does_not_exist>
+    <folder_name_bad_char>Special characters not allowed in folder name</folder_name_bad_char>
+    <folder_name_length>Cannot get folder name length</folder_name_length>
+    <folder_name_too_long>New folder name is too long</folder_name_too_long>
+    <folder_get_list>Cannot get the list of folders</folder_get_list>
+    <folder_delete>Cannot delete folder %s</folder_delete>
+    <folder_create>Cannot create folder %s</folder_create>
+    <folder_rename_empty>Cannot rename folder to a blank name</folder_rename_empty>
+    <folder_move_to_self>Cannot move folder to itself</folder_move_to_self>
+    <folder_move_to_subfolder>Cannot move folder to a subfolder of itself</folder_move_to_subfolder>
+    <folder_rename>Cannot rename folder</folder_rename>
+    <folder_copy>Cannot copy folder</folder_copy>
+    <folder_empty>Cannot empty folder</folder_empty>
+    <folder_missing_tag>תגית התיקייה חסרה %s</folder_missing_tag>
+    <folder_missing_account_id>Folder missing account ID</folder_missing_account_id>
+    <folder_invalid_account_id>Folder has an invalid account ID %s</folder_invalid_account_id>
+    <folder_missing_id>זהות התיקייה חסרה</folder_missing_id>
+    <folder_missing_name>שם התיקייה חסר</folder_missing_name>
+    <folder_invalid_action>פעולת תיקייה לא חוקית%s</folder_invalid_action>
+    <folder_invalid_type>סוג התיקייה %s לא חוקי</folder_invalid_type>
+    <folder_sync>לא ניתן לסנכרן את התיקייה %s</folder_sync>
+    <folder_empty_non_mail>Cannot empty non-email folder</folder_empty_non_mail>
+    <folder_insufficient_rights>Insufficient rights to perform the operation</folder_insufficient_rights>
+    <folder_mark_non_mail>Trying to set flags of a non-email folder</folder_mark_non_mail>
+    <freebusy_missing_tag>FreeBusy tag missing %s</freebusy_missing_tag>
+    <group_open>לא ניתן לפתוח את הקבוצה %s</group_open>
+    <group_subscribe>לא ניתן להרשם כמנוי לקכוצה %s</group_subscribe>
+    <group_add>לא ניתן ליצור קבוצה</group_add>
+    <group_edit>לא ניתן לערוך קבוצה %s</group_edit>
+    <group_user_add>לא ניתן להוסיף משתתפים לקבוצה %s</group_user_add>
+    <group_user_edit>לא ניתן לערוך את משתמש הקבוצה %s</group_user_edit>
+    <group_user_delete>לא ניתן למחוק את משתמש הקבוצה %s</group_user_delete>
+    <groupware_upgrade_task>GroupWare service update procedure is running. Please try again later.</groupware_upgrade_task>
+    <folder_open>לא ניתן לפתוח את הקבוצה %s</folder_open>
+    <call_open_folder_first>GroupWare folder not open in operation where required</call_open_folder_first>
+    <call_open_group_first>GroupWare group not open in operation where required</call_open_group_first>
+    <subscribe_account_gw>Error subscribing account</subscribe_account_gw>
+    <unsubscribe_account_gw>Error unsubscribing account</unsubscribe_account_gw>
+    <imap_clone>Cannot clone IMAP object</imap_clone>
+    <imap_open>Cannot open IMAP stream</imap_open>
+    <imap_internal>IMAP internal error: %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP - שגיאת מפריד אחזור</imap_delimiter_retrieval>
+    <imap_getmailboxes>לא ניתן להשיג את רשימת תיבות הדואר</imap_getmailboxes>
+    <imap_mailbox_create>IMAP צור תיבת דואר %s צור</imap_mailbox_create>
+    <imap_mailbox_subscribe>לא ניתן לרשום כמנוי את תיבת הדואר %s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>לא ניתן למחוק את תיבת הדואר %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>לא ניתן לבטל את מנוי תיבת הדואר %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP נכשל שינוי שם תיבת הדואר %s</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP מחק את פריטי תיבת הדואר</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP רוקן את פריטי תיבת הדואר</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP העתקת הפריטים נכשלה</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP העברת הפריטים נכשלה</imap_mailbox_moveitems>
+    <imap_mailbox_open>לא ניתן לפתוח מחדש את תיבת הדואר %s</imap_mailbox_open>
+    <imap_mailbox_message_list>Cannot get the list of messages</imap_mailbox_message_list>
+    <imap_message_details>לא ניתן להשיג את פרטי ההודעה %s</imap_message_details>
+    <imap_no_headers>לא ניתן להשיג את כותרות ההודעה %s</imap_no_headers>
+    <imap_no_body>לא ניתן להשיג את גוף ההודעה %s</imap_no_body>
+    <imap_message_create>לא ניתן לצרף את ההודעה</imap_message_create>
+    <imap_message_delete>לא ניתן למחוק את ההודעה %s</imap_message_delete>
+    <imap_message_copy>לא ניתן להעתיק את ההודעה %s</imap_message_copy>
+    <imap_message_move>לא ניתן להעביר את ההודעה %s</imap_message_move>
+    <imap_flags_set>לא ניתן לקבוע את דגלי ההודעה %s</imap_flags_set>
+    <imap_flags_clear>לא ניתן להסיר את דגלי ההודעה %s</imap_flags_clear>
+    <imap_message_not_found>New message not found in destination mailbox</imap_message_not_found>
+    <subscribe_account_imap>שגיאה במהלך הרשמת החשבון כמנוי</subscribe_account_imap>
+    <unsubscribe_account_imap>שגיאה במהלך ביטול מנוי החשבון</unsubscribe_account_imap>
+    <import_vcalendar>ייבוא ה - vCalendar נכשל</import_vcalendar>
+    <import_vcard>ייבוא ה - vCard נכשל</import_vcard>
+    <import_missing_tag>ייבוא - התגית חסרה %s</import_missing_tag>
+    <import_missing_action>ייבוא - פעולה חסרה</import_missing_action>
+    <import_invalid_action>פעולת ייבוא לא חוקית%s</import_invalid_action>
+    <import_missing_account_id>Import missing account ID</import_missing_account_id>
+    <import_invalid_account_id>Import invalid account ID</import_invalid_account_id>
+    <import_missing_folder_id>Import missing folder ID</import_missing_folder_id>
+    <import_invalid_folder_id>Import invalid folder ID</import_invalid_folder_id>
+    <import_invalid_item_id>Import invalid item ID</import_invalid_item_id>
+    <import_add_items>לא ניתן ליצור את רשימת הפריטים</import_add_items>
+    <import_invalid_data>Trying to import unsupported data</import_invalid_data>
+    <export_invalid_account>Trying to export non-existing account</export_invalid_account>
+    <imip_versit_convert>iMIP versit conversion</imip_versit_convert>
+    <imip_versit_empty>iMIP versit empty</imip_versit_empty>
+    <imip_missing_folder>iMIP missing folder</imip_missing_folder>
+    <inputstream_no_xml_input>No XML passed to input</inputstream_no_xml_input>
+    <inputstream_corrupted_input>קלט XML פגום</inputstream_corrupted_input>
+    <item_invalid_id>No item ID</item_invalid_id>
+    <item_count>Cannot get the item count</item_count>
+    <item_create>Cannot create item</item_create>
+    <item_delete>Item %s cannot be deleted</item_delete>
+    <item_move>Item cannot be moved</item_move>
+    <item_edit>Item %s edit error</item_edit>
+    <item_occurrance_delete>Cannot delete occurrence %s</item_occurrance_delete>
+    <item_occurrance_create>Cannot create occurrence</item_occurrance_create>
+    <item_exception_delete>Cannot delete exception %s</item_exception_delete>
+    <item_exception_create>Cannot create exception</item_exception_create>
+    <item_copy>Cannot copy the item</item_copy>
+    <item_copy_multiple>Cannot copy multiple items</item_copy_multiple>
+    <item_copy_destination>לא ניתן להשיג את תיקיית היעד</item_copy_destination>
+    <item_copy_destination_type>Cannot copy to folder of different type than source folder</item_copy_destination_type>
+    <item_count_retrieve>לא ניתן לספור את פריטי התיקייה</item_count_retrieve>
+    <item_missing_tag>Item tag missing</item_missing_tag>
+    <item_missing_account_id>זהות החשבון חסרה</item_missing_account_id>
+    <item_invalid_account_id>זהות החשבון %s אינה חוקית</item_invalid_account_id>
+    <item_missing_folder_id>זהות התיקייה חסרה</item_missing_folder_id>
+    <item_invalid_folder_id>זהות התיקייה %s אינה חוקית</item_invalid_folder_id>
+    <item_missing_item_id>זהות הפריט חסרה</item_missing_item_id>
+    <item_invalid_item_id>זהות הפריט %s אינה חוקית</item_invalid_item_id>
+    <item_invalid_action>פעולת הפריט אינה חוקית</item_invalid_action>
+    <login_invalid>שם-התחברות לא חוקי למשתמש %s</login_invalid>
+    <login_account_valid>Invalid account %s</login_account_valid>
+    <phpmailer_>Generic mailer error, message not sent</phpmailer_>
+    <phpmailer_smtp_auth>Mailer could not authenticate, message not sent</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer could not connect to SMTP, message not sent</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Mailer is missing recipients, message not sent</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer doesn&apos;t support this message type, message not sent</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Sendmail sending error</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Email sending error</phpmailer_mail_send>
+    <phpmailer_language>לא ניתן לפתוח את קובץ השפה</phpmailer_language>
+    <phpmailer_add_attachment>לא ניתן לצרף את הקובץ</phpmailer_add_attachment>
+    <phpmailer_encode_file>לא ניתן לקודד את קובץ התצריף</phpmailer_encode_file>
+    <phpmailer_encode_unknown>סוג קידוד התצריף אינו ידוע</phpmailer_encode_unknown>
+    <mailparse_empty>No source to parse</mailparse_empty>
+    <mailparse_parser_init>Parsing of the email failed</mailparse_parser_init>
+    <mailparse_get_part>Cannot get the part %s</mailparse_get_part>
+    <message_missing_tag>התגית %s חסרה מההודעה</message_missing_tag>
+    <message_missing_account_id>זהות החשבון חסרה מההודעה</message_missing_account_id>
+    <message_invald_account>הודעה - זהות החשבון אינה חוקית</message_invald_account>
+    <message_missing_folder_id>הודעה - זהות התיקייה הסרה</message_missing_folder_id>
+    <message_invald_folder>הודעה - זהות התיקייה אינה חוקית</message_invald_folder>
+    <message_missing_item_id>הודעה - זהות הפריט חסרה</message_missing_item_id>
+    <message_invalid_action>הודעה - פעולה לא חוקית</message_invalid_action>
+    <message_get_not_allowed>Cannot update folder list due to insufficient rights</message_get_not_allowed>
+    <message_attachment_type>Cannot parse attachment %s</message_attachment_type>
+    <message_attachment_existence>Recently uploaded attachment not found</message_attachment_existence>
+    <rss_channel_exist>נתיב ה- URL שציינת לא יכול להפתח %s</rss_channel_exist>
+    <rss_invalid_channel>לא ניתן לגשת לערוץ</rss_invalid_channel>
+    <settings_access_denied>הגישה נדחתה</settings_access_denied>
+    <settings_missing_tag>הגדרה  -התגית %s חסרה</settings_missing_tag>
+    <settings_duplicity>XML settings file formatting error</settings_duplicity>
+    <settings_get_domain_file>לא ניתן לקרוא את קובץ הגדרות התחום %s</settings_get_domain_file>
+    <settings_domain_set>הגדרות - קבע את הגדרות התחום לקובץ %s</settings_domain_set>
+    <settings_user_set>Cannot access users settings in file %. Check permissions and mail folder.</settings_user_set>
+    <settings_public_set>הגדרות - קבע נתונים ציבוריים לקובץ %s</settings_public_set>
+    <settings_shared_set>לא ניתן לשמור את החשבונות המשותפים</settings_shared_set>
+    <settings_owner_set>לא ניתן לקבוע את הגדרות הבעלים</settings_owner_set>
+    <session_expired>ההפעלה  %s נסתיימה</session_expired>
+    <session_no_user>לא ניתן לאחזר את אובייקט משתמש ההפעלה</session_no_user>
+    <smime_no_recipient>SMIME ללא נמען</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP data not accepted from server: %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP From: failed (from)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP Recipients failed (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Cannot set spell checker mode</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Cannot open spell checker dictionary (dic)</spellchecker_open_dictionary>
+    <spellchecker_add_word>לא ניתן להוסיף את המילה החדשה %s למילון</spellchecker_add_word>
+    <spellchecker_missing_check_id>מזהה המילה חסר</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>התווית %s חסרה</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>מזהה המילון חסר</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>מילה חסרה</spellchecker_missing_word>
+    <upload_tag_missing>Upload tag missing</upload_tag_missing>
+    <upload_missing_attribute>Upload missing attribute</upload_missing_attribute>
+    <upload_attachment_missing>Upload attachment missing</upload_attachment_missing>
+    <xml_invalid_file_name>XML file name empty</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath returned more than one result in your query</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>XML - הצומת שצויינה לא נמצאה %s</xml_node_does_not_exist>
+    <xmlrequest_path>Invalid template file (path)</xmlrequest_path>
+    <xmlrequest_access_denied>הגישה נדחתה</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Invalid request type (type)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>תכונת מרחב שמות חסרה</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>SID חסר או אינו חוקי</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>בקשת XML - התגית חסרה %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>בנאי מחלקה חסר</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>תבנית התוצאות %s אינה ידועה</xmlrequest_unkown_format>
+    <not_implemented>עדיין לא יושם</not_implemented>
+    <logdir_create>לא ניתן ליצור את ספריית ההרשמה %s</logdir_create>
+    <api_property_get>לא ניתן לאחזר מאפיינים עבור %s</api_property_get>
+    <wm_disabled>WebClient is disabled</wm_disabled>
+    <gw_init_error>שגיאת אתחול תכנה-קבוצתית</gw_init_error>
+    <default>Default exception %s</default>
+    <other_accounts_disabled>Creating other accounts is disabled</other_accounts_disabled>
+    <link_compressed_variable_missing>שגיאה ב- URL, הופנת למסך הראשי.</link_compressed_variable_missing>
+    <login_expired>Login expired, please login again</login_expired>
+    <account_disabled>Account disabled</account_disabled>
+    <folder_set_default>Folder &quot;%s&quot; cannot be set as default</folder_set_default>
+    <personality_confirmation_invalid_user>Email address cannot be confirmed: Invalid User</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>Email address cannot be confirmed: Invalid Hash</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Blacklist item failed</item_blacklist_error>
+    <item_whitelist_error>Whitelist item failed</item_whitelist_error>
+    <unverified_signature>Unable to verify message signature</unverified_signature>
+    <account_is_guest>Access not allowed for guests</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Item selection cleared</item_selection_cleared>
+    <logged_out>You have logged out</logged_out>
+    <message_send_ok>Message sent</message_send_ok>
+    <item_move_ok>Item(s) moved</item_move_ok>
+    <item_copy_ok>Item(s) copied</item_copy_ok>
+    <item_delete_ok>Item(s) deleted</item_delete_ok>
+    <item_mark_ok>Item(s) marked</item_mark_ok>
+    <settings_save_ok>Settings saved</settings_save_ok>
+    <loading_next_message>Loading next message</loading_next_message>
+    <loading_prev_message>Loading previous message</loading_prev_message>
+    <loading_next_page>Loading next page</loading_next_page>
+    <loading_prev_page>Loading previous page</loading_prev_page>
+    <loading_next_month>Loading next month</loading_next_month>
+    <loading_prev_month>Loading previous month</loading_prev_month>
+    <loading_next_week>Loading next week</loading_next_week>
+    <loading_prev_week>Loading previous week</loading_prev_week>
+    <loading_next_day>Loading next day</loading_next_day>
+    <loading_prev_day>Loading previous day</loading_prev_day>
+    <password_change_ok>Password changed</password_change_ok>
+    <item_whitelist_ok>Item was added to whitelist</item_whitelist_ok>
+    <item_blacklist_ok>Item was added to blacklist</item_blacklist_ok>
+    <folder_set_default_ok>Folder set as default</folder_set_default_ok>
+    <subscribe_account_ok>Account subscribed</subscribe_account_ok>
+    <subscribe_folder_ok>Folder subscribed</subscribe_folder_ok>
+    <item_decline_ok>Item declined</item_decline_ok>
+    <access_granted>You have been granted access to &quot;%s&quot; by &quot;%s&quot;.</access_granted>
+    <message_save_ok>Message saved</message_save_ok>
+    <item_accept_ok>Item accepted</item_accept_ok>
+  </messages>
+</language>

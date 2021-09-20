@@ -1,0 +1,96 @@
+.obj_attendees{
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+.obj_attendees .obj_attendeesgrid{
+	height: 100%;
+	padding-bottom: 30px;
+}
+
+.obj_attendees .obj_attendeescontainer {
+	overflow: hidden;
+	width: 100%;
+}
+
+.obj_attendees .obj_attendeesbtn {
+	position: absolute;
+	bottom: 0;
+	width: 1024px;
+}
+
+
+/* datagrid icons */
+.obj_attendees .obj_datagrid .obj_datagrid-body div.status div,
+.obj_attendees .obj_datagrid .obj_datagrid-body div.role div{
+    text-indent: 20px;
+}
+
+.obj_attendees .obj_datagrid .obj_datagrid-body div.status div.status_A:after{
+	content: '';
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/ico_attendee_status.gif) no-repeat 3px -29px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.obj_attendees .obj_datagrid .obj_datagrid-body div.status div.status_B:after{
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    /* margin-top: 5px; */
+    background: url(../images/ico_attendee_status.gif) no-repeat 3px 0px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.obj_attendees .obj_datagrid .obj_datagrid-body div.status div.status_D:after{
+	content: '';
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/ico_attendee_status.gif) no-repeat 3px -12px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.obj_attendees .obj_datagrid .obj_datagrid-body div.role div.role_Q {
+	background: url(../images/ico_attendee_role.gif) no-repeat 3px -12px;
+}
+.obj_attendees .obj_datagrid .obj_datagrid-body div.role div.role_S {
+	background: url(../images/ico_attendee_role.gif) no-repeat 3px -56px;
+}
+.obj_attendees .obj_datagrid .obj_datagrid-body div.role div.role_T {
+	background: url(../images/ico_attendee_role.gif) no-repeat 3px -34px;
+}
+.obj_attendees .obj_datagrid .obj_datagrid-body div.role div.role_G {
+	background: url(../images/ico_attendee_role.gif) no-repeat 3px 10px;
+}
+
+
+/** Context menu **/
+.obj_attendees_context ul.obj_context a{
+	padding-left: 19px!important;
+}
+
+.obj_attendees_context a.bg_status_A{
+	background: url('../images/ico_attendee_status.gif') 3px -29px no-repeat transparent;
+}
+.obj_attendees_context a.bg_status_D{
+	background: url('../images/ico_attendee_status.gif') 3px -11px no-repeat transparent;
+}
+
+
+.obj_attendees_context a.bg_role_Q{
+	background: url('../images/ico_attendee_role.gif') 3px -16px no-repeat transparent;
+}
+.obj_attendees_context a.bg_role_S{
+	background: url('../images/ico_attendee_role.gif') 3px -60px no-repeat transparent;
+}
+.obj_attendees_context a.bg_role_T{
+	background: url('../images/ico_attendee_role.gif') 3px -38px no-repeat transparent;
+}

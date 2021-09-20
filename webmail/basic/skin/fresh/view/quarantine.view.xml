@@ -1,0 +1,21 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<mailview id="items" helper="item" template="view.quarantine">
+			<config>
+				<stylesheet>
+					<src>grid</src>
+					<src>mail.view</src>
+					<src>error</src>
+				</stylesheet>
+				<javascript>
+					<src>jquery</src>
+					<src>mail.view</src>
+					<src>general</src>
+				</javascript>
+				<data>item.fdr</data>
+			</config>
+		</mailview>
+	</panel>
+</form>

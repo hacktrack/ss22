@@ -1,0 +1,78 @@
+// Account
+// The account icon, state and type in account detail under permissions & rights.
+
+// Block
+.account {
+	position: relative;
+	margin-top: g(4);
+}
+
+
+// Elements
+.account-icon {
+	margin-right: 0;
+	font-size: $account-icon-size;
+	line-height: 1;
+	width: 100%; // Fixes default icon width
+}
+
+.account-state { // Status
+	position: absolute;
+	left: 50%;
+	bottom: s(1/2); // Fixes issues with 'icons' font
+	margin-right: 0;
+	-webkit-transform: translate(-50%, 50%);
+	        transform: translate(-50%, 50%);
+	width: auto; // Fixes default icon width
+
+	&:before { // Default state fallback
+
+		border-color: currentColor;
+		border-radius: 50%;
+		border: 3px solid;
+
+		@media #{$small-only} {
+			border-width: 2px;
+		}
+
+		background: $white;
+		box-shadow: 0 0 0 5px $white;
+
+		@include flexbox;
+		@include align-items(center);
+		@include justify-content(center);
+
+		@include size-map(
+			('width', 'height', 'font-size'),
+			$account-state-size
+		);
+
+		// Icon position fix
+		box-sizing: content-box;
+		padding: 2px 1px 0 1px;
+
+		content: $icon-hyphen;
+		@include theme {
+			color: $theme-border-grey;
+		}
+	}
+
+	// Modifiers
+	&.state_0:before { // Enabled
+		content: $icon-checkmark;
+		color: $success;
+	}
+
+	&.state_1:before, // Disabled (login)
+	&.state_2:before { // Disabled (login, receive)
+		content: $icon-xmark;
+		color: $error;
+	}
+
+	&.state_3:before { // Spam trap
+		content: $icon-hyphen;
+		@include theme {
+			color: $theme-border-grey;
+		}
+	}
+}

@@ -1,0 +1,895 @@
+<language>
+  <generic>
+    <sizes>B, kB, MB, GB, TB</sizes>
+  </generic>
+  <quarantine>
+    <add>Nová položka</add>
+    <quarantine>Karanténa</quarantine>
+    <whitelist>Vyžiadaný</whitelist>
+    <blacklist>Nevyžiadaný</blacklist>
+    <save>Uložiť</save>
+    <cancel>Zrušiť</cancel>
+    <new_item>Pridať nový email</new_item>
+  </quarantine>
+  <settings>
+    <disable_shortcuts>Vypnúť skratky</disable_shortcuts>
+    <enable_swipe_gestures>Povoliť gestá potiahnutim prstu na dotykových zariadeniach</enable_swipe_gestures>
+    <use_high_contrast_skin>Použiť skin s vysokým kontrastom.</use_high_contrast_skin>
+    <menu_as_text>Zobraziť text namiesto ikon v ponuke</menu_as_text>
+    <change_password>Zmeniť heslo</change_password>
+    <open_change_password_dialog>Otvoriť dialóg pre zmenu hesla</open_change_password_dialog>
+    <oldpassword>Pôvodné heslo</oldpassword>
+    <newpassword>Nové heslo</newpassword>
+    <confirmpassword>Potvrdiť heslo</confirmpassword>
+    <remove>Odstrániť</remove>
+    <settings>Nastavenia</settings>
+    <navigate>Spravovať</navigate>
+    <user>Moje nastavenia</user>
+    <domain>Správa domény</domain>
+    <admin>Nastavenia administrácie</admin>
+    <new_domain>Nová doména</new_domain>
+    <test_dropdown>a|b|c|d</test_dropdown>
+    <general>Všeobecné</general>
+    <layout>Rozmiestnenie</layout>
+    <mail>Mail</mail>
+    <compose>Nový</compose>
+    <person>Email</person>
+    <person_header>Pridať novú adresu odosielateľa</person_header>
+    <person_description>Napríklad &quot;Ján Novák&quot; &amp;t:jan@novak.sk&amp;gt:</person_description>
+    <autoresponder>Automatický odpovedač</autoresponder>
+    <forwarder>Preposielanie</forwarder>
+    <layout_desc>Rozmiestnenie, Mail</layout_desc>
+    <compose_desc>Predvolené nastavenia pre novú správu (Potvrdenie o prečítaní, Html/Plain Text, Podpis).</compose_desc>
+    <general_desc>Konfigurácia mailovej schránky na prechádzanie, mazanie a odpovedanie správ</general_desc>
+    <personalities_desc>Nastaviť alternatívne emailové identity  (odlišné Od: addresa) pre užívateľský účet</personalities_desc>
+    <autoresponder_desc>Automatická odpoveď pre prichádzajúce správy keď ste na dovolenke</autoresponder_desc>
+    <forwarder_desc>Preposlať alebo kopírovať prichádzajúce emailové správy na inú emailovú adresu</forwarder_desc>
+    <date_format>Formát dátumu</date_format>
+    <time_format>Formát času</time_format>
+    <list_count>Počet položiek zoznamu</list_count>
+    <font_family>Predvolený typ písma</font_family>
+    <font_size>Predvolená veľkosť písma</font_size>
+    <text_direction>Smer textu</text_direction>
+    <text_direction_values>Zľava dopravat|Sprava doľava</text_direction_values>
+    <empty_trash_every>Vyprázdniť kôš každých</empty_trash_every>
+    <days>dní</days>
+    <move_deleted>Presunúť vymazané správy do zložky kôš</move_deleted>
+    <delete_messages_on_empty>Trvalo vymazať akciu &quot;Prázdna zložka&quot;</delete_messages_on_empty>
+    <add_recipients>Automaticky pridať príjemcov správy do adresára</add_recipients>
+    <group_pref>Skupinové predpony predmetu (e.g. Re[4], Fw[2])</group_pref>
+    <request_read_confirmation>Vyžiadať potvrdenie o prečítaní</request_read_confirmation>
+    <save_sent_msg>Uložiť odoslané správy do zložky</save_sent_msg>
+    <message_format>Formát správy</message_format>
+    <message_format_labels>Prázdne|HTML</message_format_labels>
+    <signature>Podpis</signature>
+    <forward_to>Preposlať komu</forward_to>
+    <keep_in_inbox>Ponechať správy v zložke doručená pošta</keep_in_inbox>
+    <forward_older>Preposlať email starší než</forward_older>
+    <forward_older_to>Preposlať email komu</forward_older_to>
+    <ar_mode>Mode</ar_mode>
+    <ar_mode_labels>Nepovolené|Odpovedať vždy|Odpovedať raz|Odpovedať opäť po dobe</ar_mode_labels>
+    <ar_respond_only>Odpovedať na správy zaslané na používateľovu emailovú adresu iba</ar_respond_only>
+    <ar_respond_again>Odpovedať opäť po (Dňoch)</ar_respond_again>
+    <ar_from>Od</ar_from>
+    <ar_subject>Predmet</ar_subject>
+    <ar_text>Text</ar_text>
+    <ar_no_responder_for>Nie je odpovedač pre</ar_no_responder_for>
+    <ar_respond_only_between>Odpovedať iba ak medzi</ar_respond_only_between>
+    <email>Email</email>
+    <responder>Neodpovedať</responder>
+    <show_attached_images>Automaticky zobraziť pripojené obrázky</show_attached_images>
+    <show_inline_images>Automaticky zobraziť externé obrázky</show_inline_images>
+    <use_reply_prefix>Použiť predponu odpovede (&gt;)</use_reply_prefix>
+    <time_format_list_labels>12 hodín|24 hodín</time_format_list_labels>
+    <force_admin>Vynútiť nastavenia pre používateľov i správcov</force_admin>
+    <force_domain>Vynútiť nastavenia pre užívateľov</force_domain>
+    <to_top>Podpis na začiatku správy</to_top>
+    <quota>Disková kvóta:</quota>
+    <section_layout>Všeobecné nastavenia rozloženia</section_layout>
+    <section_mail>Všeobecné nastavenia e-mailu</section_mail>
+    <section_autoresponder>Nastaviť automatickú odpoveď v prípade, že nie ste pri počítači</section_autoresponder>
+    <section_norespond>Na uvedený zoznam e-mailových adries nebude odoslaná odpoveď.</section_norespond>
+    <domains>Domény</domains>
+    <accounts>Účty</accounts>
+  </settings>
+  <confirmation>
+    <delete_mail>Naozaj si prajete vymazať označené správy?</delete_mail>
+    <blacklist_mail>Naozaj si prajete označiť vybrané správy ako nevyžiadané?</blacklist_mail>
+    <delete_contact>Naozaj si prajete zmazať tieto kontakty?</delete_contact>
+    <delete_contact_distribution>Naozaj si prajete vymazať tento distribučný list?</delete_contact_distribution>
+    <delete_event>Naozaj si prajete vymazať označené udalosti?</delete_event>
+    <delete_note>Naozaj si prajete vymazať označené poznámky?</delete_note>
+    <delete_task>Naozaj si prajete vymazať označené úlohy?</delete_task>
+    <delete_personalities>Naozaj si prajete vymazať označené položky?</delete_personalities>
+    <delete_quarantine>Naozaj si prajete vymazať označené položky?</delete_quarantine>
+    <delete_this_mail>Naozaj si prajete vymazať túto správu?</delete_this_mail>
+    <delete_items>Naozaj si prajete zmazať označené položky?</delete_items>
+    <delete_item>Naozaj si prajete zmazať túto položku?</delete_item>
+  </confirmation>
+  <string>
+    <no_item>V tejto zložke nie sú žiadne položky</no_item>
+  </string>
+  <menu>
+    <files>Súbory</files>
+    <notes>Poznámky</notes>
+    <tasks>Úlohy</tasks>
+    <journal>Žurnál</journal>
+    <calendar>Kalendár</calendar>
+    <search>Hľadať</search>
+    <messages>Správy</messages>
+    <contacts>Kontakty</contacts>
+    <searchBut>Nájsť</searchBut>
+    <address_book>Adresár</address_book>
+    <logout>Odhlásiť</logout>
+    <help>Nápoveda</help>
+    <settings>Nastavenia</settings>
+    <switch>Prepnúť na</switch>
+    <help_url>jazyk/ak/napoveda.html</help_url>
+    <quarantine>Filtre</quarantine>
+    <alert_restricted_access>Je nám ľúto, prístup k tejto karte je zakázaný</alert_restricted_access>
+    <basic>Tablet rozhranie</basic>
+    <advanced>Desktop rozhranie</advanced>
+    <mobile>Mobilné rozhranie</mobile>
+  </menu>
+  <tree>
+    <add_folder>Pridať zložku</add_folder>
+    <new_message>Nová správa</new_message>
+    <manage_folders>Správa zložiek</manage_folders>
+    <open_folder>Otvoriť zložku</open_folder>
+    <open>Otvoriť</open>
+  </tree>
+  <mail_view>
+    <attachments>Prílohy</attachments>
+    <from>Od</from>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Predmet</subject>
+    <all_headers>Zobraziť všetky hlavičky správ</all_headers>
+    <all_images>Zobraziť obrázky</all_images>
+    <next>Ďalší</next>
+    <prev>Predchádzajúci</prev>
+    <first>Prvý</first>
+    <last>Posledný</last>
+    <show_external_images>Externé obrázky boli zablokované, pre ich zobrazenie kliknite sem</show_external_images>
+    <download_all>Stiahnuť všetky</download_all>
+    <detail>Detail</detail>
+    <blue_box_start>štart</blue_box_start>
+    <blue_box_end>Koniec</blue_box_end>
+    <blue_box_description>Popis</blue_box_description>
+    <blue_box_accept>Prijať</blue_box_accept>
+    <blue_box_decline>Odmietnúť</blue_box_decline>
+    <blue_box_subscribe_folder>Vybrať zložku</blue_box_subscribe_folder>
+    <blue_box_subscribe_account>Vybrať účet</blue_box_subscribe_account>
+    <item_accept_ok>Položka prijatá</item_accept_ok>
+    <read>čítanie</read>
+    <write>písanie</write>
+    <modify>zmena</modify>
+    <delete>vymazanie</delete>
+    <administer>správa</administer>
+    <folder_rights>Práva u zložky</folder_rights>
+    <items_rights>Práva u položiek</items_rights>
+  </mail_view>
+  <login>
+    <send>Odoslať</send>
+    <ip_check>Vypnúť rozšírené zabezpečenie</ip_check>
+    <user>Používateľ</user>
+    <email>Email</email>
+    <password>Heslo</password>
+    <remember>Zapamätať</remember>
+    <language>Jazyk</language>
+    <allways_ask>Pýtať sa vždy</allways_ask>
+    <username>Užívateľské meno</username>
+    <username_and_password>Užívateľské meno a heslo</username_and_password>
+    <auto_login>Automatické prihlásenie</auto_login>
+    <login>Prihlásiť</login>
+    <copyright>Provozováno na technológií IceWarp &lt;a href=&quot;http://www.icewarp.cz&quot;&gt;Server&lt;/a&gt; © 1999-2018&lt;br /&gt; Verze: $1</copyright>
+    <welcome>Vitajte v IceWarp WebClient Tablet</welcome>
+    <public_welcome>Vitajte v IceWarp Verejnom kalendári</public_welcome>
+    <title>IceWarp WebClient Tablet</title>
+    <public_title>IceWarp Verejný kalendár</public_title>
+    <reset_password>Reset hesla</reset_password>
+    <sign_up>Zaregistrovať sa</sign_up>
+    <email>Email</email>
+    <domain>Doména</domain>
+    <new_password>Nové heslo</new_password>
+    <confirm_password>Potvrdiť heslo</confirm_password>
+    <full_name>Celé meno</full_name>
+    <alternative_email>Alternatívny email</alternative_email>
+    <switch>Prepnúť do &lt;a href=&quot;../&quot;&gt;Pokročilého&lt;/a&gt; alebo &lt;a href=&quot;../pda&quot;&gt;Mobilného&lt;/a&gt; rozhrania</switch>
+    <no_javascript>&lt;b&gt;JavaScript nie je akutálne povolený. &lt;/b&gt;&lt;/div&gt;Preto ste boli presnerovaní do WebClient Tablet rozhrania, ktoré ponúka limitovanú funkcionalitu.  Ak si prajete používať WebClient Pokročilé rozhranie, navštívte prosím &lt;a href=&quot;http://esupport.icewarp.com/index.php?_m=knowledgebase&amp;_a=viewarticle&amp;kbarticleid=521&quot;&gt;knowledge base&lt;/a&gt; pre inštrukcie na jeho povolenie vo vašom prehliadači.&lt;br /&gt;Ak váš prehliadač nepodporuje JavaScript, staihnite si prosím najnovšiu verziu &lt;a href=&quot;http://www.microsoft.com/windows/downloads/ie/getitnow.mspx&quot;&gt;Internet Explorer&lt;/a&gt; or &lt;a href=&quot;http://www.getfirefox.com&quot;&gt;Mozilla FireFox.&lt;/a&gt;</no_javascript>
+    <captcha>Captcha</captcha>
+    <word>Napíšte kód z obrázku</word>
+  </login>
+  <files>
+    <add>Nahrať súbor</add>
+    <download>Stiahnuť</download>
+    <file>Súbor</file>
+  </files>
+  <file_list>
+    <filename>Meno súboru</filename>
+    <description>Popis</description>
+    <modified>Zmenené</modified>
+    <size>Veľkosť</size>
+    <tags>Príznaky</tags>
+  </file_list>
+  <notes>
+    <category>kategória</category>
+    <add>Nová poznámka</add>
+  </notes>
+  <notes_detail>
+    <note>Poznámka</note>
+    <tags>Štítky</tags>
+  </notes_detail>
+  <tasks_main>
+    <add>Nová úloha</add>
+  </tasks_main>
+  <tasks_detail>
+    <task>Úloha</task>
+    <status>Status</status>
+    <complete>Kompletná</complete>
+    <priority>Priorita</priority>
+    <not_started>Nezahájená</not_started>
+    <in_progress>V procese</in_progress>
+    <completed>Hotová</completed>
+    <deferred>Odložená</deferred>
+    <waiting_for_someone_else>Čaká sa na niekoho iného</waiting_for_someone_else>
+    <medium>Stredná</medium>
+    <high>Vysoká</high>
+    <low>Nízka</low>
+    <tags>Štítky</tags>
+  </tasks_detail>
+  <grid_task>
+    <start_date>Dátum začiatku</start_date>
+    <due_date>Dátum dokončenia</due_date>
+  </grid_task>
+  <mail_main>
+    <fullscreen>Plná obrazovka</fullscreen>
+    <subject>Predmet</subject>
+    <no_subject>Bez predmetu</no_subject>
+    <no_address>Bez adressy</no_address>
+    <from>Od</from>
+    <date>Dátum</date>
+    <size>Veľkosť</size>
+    <delete>Vymazať</delete>
+    <reply>Odpovedať</reply>
+    <reply_to_all>Odpovedať všetkým</reply_to_all>
+    <forward>Preposlať</forward>
+    <print>Tlač</print>
+    <whitelist>Vyžiadané</whitelist>
+    <blacklist>Nevyžiadané</blacklist>
+    <dws>Akcia</dws>
+    <copy>Kopírovať</copy>
+    <move>Presunúť</move>
+    <copy_to_folder>Kopírovať do zložky:</copy_to_folder>
+    <move_to_folder>Presunúť do zložky:</move_to_folder>
+    <mar>Označiť ako prečítané</mar>
+    <mau>Označiť ako neprečítané</mau>
+    <select>Zvoliť</select>
+    <all>Všetky</all>
+    <none>Žiadne</none>
+    <read>Prečítané</read>
+    <unread>Neprečítané</unread>
+    <invert>Obrátiť výber</invert>
+    <doit>Použiť</doit>
+    <to>Komu</to>
+    <fast_reply>Rýchla odpoveď</fast_reply>
+    <send_message>Odoslať správu</send_message>
+    <src>Odosielateľ vyžiadal potvrdenie o prečítaní správy. Prajete si zaslať toto potvrdenie?</src>
+    <save>Uložiť</save>
+    <select_folder>Zvoliť zložku</select_folder>
+    <deliver>Doručiť</deliver>
+    <text>Text</text>
+    <received>Prijaté</received>
+    <saved>Uložené</saved>
+    <sender>Odosielateľ</sender>
+    <owner>Vlastník</owner>
+    <domain>Doména</domain>
+    <show_all>Ukázať všetko</show_all>
+  </mail_main>
+  <event_list>
+    <title>Popis</title>
+    <start>Štart</start>
+    <end>Koniec</end>
+    <tags>Štítky</tags>
+  </event_list>
+  <event_detail>
+    <tags>Štítky</tags>
+    <show_as>Zobraziť ako</show_as>
+    <free>Voľný</free>
+    <tentative>Predbežný</tentative>
+    <busy>Zaneprázdnený</busy>
+    <out_of_office>Mimo kanceláriu</out_of_office>
+    <title>Popis</title>
+    <location>Miesto</location>
+    <label>Označenie</label>
+    <none>Žiadne</none>
+    <important>Dôležité</important>
+    <business>Business</business>
+    <personal>Osobné</personal>
+    <vacation>Dovolenka</vacation>
+    <must_attend>Nutná účasť</must_attend>
+    <travel_required>Nutné cestovať</travel_required>
+    <needs_preparation>Nutná príprava</needs_preparation>
+    <birthday>Narodeniny</birthday>
+    <anniversary>Výročie</anniversary>
+    <phone_call>Telefonát</phone_call>
+    <category>Kategória</category>
+    <private>Súkromné</private>
+    <from>Od</from>
+    <to>Komu</to>
+    <notes>Poznámky</notes>
+    <allday>Celodenná udalosť</allday>
+    <event>Udalosť</event>
+    <minutes>Minúty</minutes>
+    <hours>Hodiny</hours>
+    <days>Dni</days>
+    <remind_me>Pripomenúť</remind_me>
+    <before>predtým</before>
+    <no_repeating>Bez opakovania</no_repeating>
+    <daily>Denne</daily>
+    <weekly>Týždenne</weekly>
+    <monthly>Mesačne</monthly>
+    <yearly>Ročne</yearly>
+    <end_date>Dátum ukončenia</end_date>
+    <no_end_date>Žiadny dátum ukončenia</no_end_date>
+    <repeat>Opakovať</repeat>
+    <every>Každý</every>
+    <every_workday>Každý pracovný deň</every_workday>
+    <recur_every>Opakuj každý</recur_every>
+    <weeks>týždeň (týždne)</weeks>
+    <on>v</on>
+    <monday>Pondelok</monday>
+    <tuesday>Utorok</tuesday>
+    <wednesday>Streda</wednesday>
+    <thursday>Štvrtok</thursday>
+    <friday>Piatok</friday>
+    <saturday>Sobota</saturday>
+    <sunday>Nedeľa</sunday>
+    <day>Deň</day>
+    <months>Mesiac/(-e)</months>
+    <first>Prvý</first>
+    <second>Druhý</second>
+    <third>Tretí</third>
+    <fourth>Štvrtý</fourth>
+    <last>Posledný</last>
+    <week>Týždeň</week>
+    <work_week>Pracovný týždeň</work_week>
+    <weekend>Víkend</weekend>
+    <of_every>z každého</of_every>
+    <of>z</of>
+    <years>rok/(-y)</years>
+    <the/>
+    <times>časy</times>
+    <count>počet</count>
+    <until>do</until>
+    <tags>Štítky</tags>
+  </event_detail>
+  <event_main>
+    <mon>Po</mon>
+    <tue>Ut</tue>
+    <wed>St</wed>
+    <thu>Št</thu>
+    <fri>Pia</fri>
+    <sat>So</sat>
+    <sun>Ne</sun>
+    <jan>Január</jan>
+    <feb>Február</feb>
+    <mar>Marec</mar>
+    <apr>Apríl</apr>
+    <may>Máj</may>
+    <jun>Jún</jun>
+    <jul>Júl</jul>
+    <aug>August</aug>
+    <sep>September</sep>
+    <oct>Október</oct>
+    <nov>November</nov>
+    <dec>December</dec>
+    <week>Týždeň</week>
+    <week_view>Týždeň</week_view>
+    <work_week_view>Pracovný týždeň</work_week_view>
+    <month_view>Mesiac</month_view>
+    <day_view>Deň</day_view>
+    <list>Zoznam</list>
+    <add>Nová udalosť</add>
+    <save>Uložiť</save>
+    <no_title>Bez predmetu</no_title>
+    <search>Hľadať:</search>
+    <account>Účet:</account>
+    <print>Tlačiť</print>
+  </event_main>
+  <contact_main>
+    <contact>Kontakt</contact>
+    <distribution_list>Distribučný zoznam</distribution_list>
+    <title>Popis</title>
+    <no_email>Bez emailu</no_email>
+    <card_view>Náhľad vizitky</card_view>
+    <list_view>Náhľad zoznamu</list_view>
+    <contact_name>Kontaktné meno</contact_name>
+    <email>Email</email>
+    <company>Spoločnosť</company>
+    <job>Zamestnanie</job>
+    <department>Oddelenie</department>
+    <profession>Profesia</profession>
+    <category>Kategória</category>
+    <general>Všeobecné</general>
+    <first_name>Prvé meno</first_name>
+    <middle_name>Prostredné meno</middle_name>
+    <last_name>Priezvisko</last_name>
+    <nick>Prezývka</nick>
+    <sort_string>Triediť reťazec</sort_string>
+    <title>Popis</title>
+    <suffix>Prípona</suffix>
+    <category>Kategória</category>
+    <web>Web stránka</web>
+    <street>Ulica</street>
+    <city>Mesto</city>
+    <zip>PSČ</zip>
+    <state>Štát</state>
+    <country>Krajina</country>
+    <im>IM</im>
+    <phones>Telefón</phones>
+    <work>Práca</work>
+    <home>Domov</home>
+    <assistant>Asistent</assistant>
+    <fax_home>Fax domov</fax_home>
+    <fax_work>Pracovný fax</fax_work>
+    <call_back>Zavolať späť</call_back>
+    <company>Spoločnosť</company>
+    <car>Auto</car>
+    <isdn>ISDN</isdn>
+    <mobile>Mobil</mobile>
+    <other>Iné</other>
+    <other_fax>Iný telefón</other_fax>
+    <pager>Pager</pager>
+    <primary>Primárny</primary>
+    <radio>Rádio</radio>
+    <telex>Telex</telex>
+    <hearing>Slúchadlo</hearing>
+    <add>Nový kontakt</add>
+    <notes>Poznámky</notes>
+    <no_name>Nie je kontaktné meno</no_name>
+    <select>Vybrať typ</select>
+    <select_contacts>Zvoľte kontakty, ktoré si prajete pridať</select_contacts>
+    <add_distribution>Nový distribučný zoznam</add_distribution>
+    <add_new>Pridať</add_new>
+    <add_item_distribution>Pridať z adresáru</add_item_distribution>
+    <save>Uložiť</save>
+    <edit>Upraviť</edit>
+    <edit_selected>Upraviť vybrané</edit_selected>
+    <delete_selected>Vymazať</delete_selected>
+    <cancel>Zrušiť</cancel>
+    <onleave_warning>Prajete si odhlásiť sa? Všetky neuložené dáta budú stratené</onleave_warning>
+    <tags>Štítky</tags>
+  </contact_main>
+  <hipaa>
+    <new_patient>Nový pacient</new_patient>
+    <new_staff>Nový zamestnanec</new_staff>
+    <notify_email>Upozorniť na e-mail</notify_email>
+    <notify_sms>Upozorniť na SMS</notify_sms>
+  </hipaa>
+  <hippa_detail>
+    <add>Nový</add>
+    <staff>Zamestnanec</staff>
+    <patient>Pacient</patient>
+  </hippa_detail>
+  <grid>
+    <title>Popis</title>
+    <note>Poznámka</note>
+    <size>Veľkosť</size>
+    <category>Kategória</category>
+    <start>Štart</start>
+    <end>Koniec</end>
+    <save>Uložiť</save>
+    <cancel>Zrušiť</cancel>
+    <number_of_items>Počet položiek vybratých na iných stránkach:</number_of_items>
+    <clear>Vyčisti</clear>
+  </grid>
+  <mail_compose>
+    <select_text>Označte text, ktorý si želáte prepojiť hyperlinkom.</select_text>
+    <enter_url>Zadajte URL pre tento link:</enter_url>
+    <image_location>Zadajte umiestnenie tohto obrázku</image_location>
+    <image_alt>Zadajte alternatívny text pre tento obrázok</image_alt>
+    <image>Vložiť obrázok</image>
+    <htmlsource>HTML zdroj</htmlsource>
+    <hyperlink>Hyperlink</hyperlink>
+    <underline>Podčiarknúť</underline>
+    <italic>Kurzíva</italic>
+    <bold>Tučné</bold>
+    <fontsize>Veľkosť písma</fontsize>
+    <fontformat>Formát písma</fontformat>
+    <outdent>Zmenšiť odsadenie</outdent>
+    <indent>Zväčšiť odsadenie</indent>
+    <orderedlist>Číslovanie</orderedlist>
+    <unorderedlist>Zoznam s odrážkami</unorderedlist>
+    <justify>Zarovnať</justify>
+    <right>Zarovnať vpravo</right>
+    <center>Zarovnať na stred</center>
+    <left>Zarovnať vľavo</left>
+    <blockformat>Blok formátu</blockformat>
+    <block_type>Typ bloku</block_type>
+    <heading>Hlavička</heading>
+    <paragraph>Odstavec</paragraph>
+    <size>Veľkosť</size>
+    <font>Písmo</font>
+    <cancel>Zrušiť</cancel>
+    <email>Email</email>
+    <options>Možnosti</options>
+    <plain>Jednoduchý</plain>
+    <html>HTML</html>
+    <from>Od</from>
+    <to>Komu</to>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <subject>Predmet</subject>
+    <date>Dátum</date>
+    <attachments>Prílohy</attachments>
+    <text>Text</text>
+    <send_message>Odoslať správu</send_message>
+    <save_message>Uložiť</save_message>
+    <br/>
+    <spellchecker>Kontrola pravopisu</spellchecker>
+    <rrc>Vyžiadať potvrdenie o prečítaní</rrc>
+    <ssm>Uložiť odoslané správy do zložky</ssm>
+    <psa>Použiť SmartAttach</psa>
+    <priority>Priorita</priority>
+    <lowest>Najnižšia</lowest>
+    <low>Nízka</low>
+    <normal>Normálna</normal>
+    <high>Vysoká</high>
+    <highest>Najvyššia</highest>
+    <rta>Odpovedať na adresu</rta>
+    <charset>Znaková sada</charset>
+    <auto>Auto</auto>
+    <original_message>-----Pôvodná správa-----</original_message>
+    <read_confirmation_subject>Prečítať: %PREDMET%</read_confirmation_subject>
+    <read_confirmation_text>Vaša správa bola prečítaná&#13;&#10;&#13;&#10;Detaily správy:&#13;&#10;&#13;&#10;Od: %OD%&#13;&#10;Komu:%KOMU%&#13;&#10;Dátum: %DÁTUM%&#13;&#10;Predmett: %PREDMET%</read_confirmation_text>
+    <add_contacts>Pridať kontakty</add_contacts>
+    <add_files>Pridať súbory</add_files>
+    <add_files_from_folder>Pridaj dokumenty zo zložky</add_files_from_folder>
+    <add_files_from_dropbox>Pridaj dokumenty z Dropboxu</add_files_from_dropbox>
+    <leave_notice>Naozaj si prajete ukončiť túto akciu? Správa bude zahodená.</leave_notice>
+    <alias>Alias</alias>
+  </mail_compose>
+  <manage_folders>
+    <add>Nová zložka</add>
+    <delete>Vymazať</delete>
+    <link>Odkaz</link>
+    <unlink>Vymazať odkaz</unlink>
+    <create_folder>Vytvoriť novú zložku</create_folder>
+    <create>Vytvoriť</create>
+    <delete_confirmation_text>Naozaj si prajete trvalo odstrániť túto zložku?</delete_confirmation_text>
+    <empty_confirmation_text>Naozaj si prajete trvalo odstrániť položky v tejto zložke?</empty_confirmation_text>
+    <delete_yes>Áno</delete_yes>
+    <delete_no>Nie</delete_no>
+    <link_as>Odkázať na zložku ako</link_as>
+    <unlink_as>Vymazať / Premenovať odkaz zložky</unlink_as>
+    <unlink_confirmation_text>Naozaj si prajete vymazať odkaz zložky?</unlink_confirmation_text>
+    <unlink_yes>Áno</unlink_yes>
+    <unlink_no>Nie</unlink_no>
+    <virtual>Virtuálna zložka</virtual>
+    <delete_empty_folder>Vymazať alebo vyprázdniť zložku</delete_empty_folder>
+    <edit>Upraviť</edit>
+    <empty>Vyprázdniť</empty>
+    <rename_folder>Premenovať zložku</rename_folder>
+    <save>Uložiť</save>
+    <rename>Premenovať</rename>
+    <perform_action>Vykonať akciu pre</perform_action>
+    <select_folder>Vybrať zložku pre správu</select_folder>
+    <open_folder>Otvoriť zložku</open_folder>
+    <open_folder_des>Použiť na prístup k obsahu zložky</open_folder_des>
+    <link_folder>Odkaz na zložku</link_folder>
+    <link_folder_des>Použiť na vytvorenie odkazu v ľavom menu pre zložku v strome</link_folder_des>
+    <add_folder>Pridať zložku</add_folder>
+    <add_folder_dis>Použiť na vytvorenie zložky pod vybranou zložkou</add_folder_dis>
+    <rename_folder_des>Použiť na premenovanie vybranej zložky</rename_folder_des>
+    <remove_folder>Odstrániť zložku</remove_folder>
+    <remove_folder_des>Použiť na trvalé vyprázdnenie a vymazanie vybranej zložky. Varovanie, zmeny sú trvalé!</remove_folder_des>
+    <default_folder>Nastaviť ako predvolenú zložku</default_folder>
+    <default_folder_des>Použiť na nastavenie tejto zložky na predvolenú</default_folder_des>
+    <set_default>Nastaviť túto zložku ako predvolenú</set_default>
+    <set>Nastavené</set>
+    <as_drafts>Koncepty</as_drafts>
+    <as_sent>Odoslané</as_sent>
+    <as_trash>Kôš</as_trash>
+    <set_as_default>Nastaviť</set_as_default>
+    <link_first>Zložka musí byť prepojená skôr než bude nastavená ako predvolená</link_first>
+  </manage_folders>
+  <common_folders>
+    <inbox>Doručená pošta</inbox>
+    <drafts>Koncepty</drafts>
+    <sent>Odoslané</sent>
+    <trash>Kôš</trash>
+  </common_folders>
+  <common>
+    <yes>Áno</yes>
+    <no>Nie</no>
+  </common>
+  <folder_types>
+    <mail>Mail</mail>
+    <contact>Kontakt</contact>
+    <event>Kalendár</event>
+    <journal>Žurnál</journal>
+    <note>Poznámka</note>
+    <task>Úloha</task>
+    <file>Súbory</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <exceptions>
+    <login_invalid_keypair>RSA overenie zlyhalo. Skúste znova.</login_invalid_keypair>
+    <divtcha_confirmation>Nesprávne opísaný kód z obrázku</divtcha_confirmation>
+    <missing_values_text>Prázdný text</missing_values_text>
+    <missing_values_email>Prázdny text</missing_values_email>
+    <invalid_email>Špatná emailová adresa</invalid_email>
+    <password_not_changed>Nové heslo nemôže byť rovnaké ako staré.</password_not_changed>
+    <reset_password_invalid_hashid>Neplatný hash ID</reset_password_invalid_hashid>
+    <reset_password_uid_file>UID súbor neexistuje</reset_password_uid_file>
+    <account_alternative_email>Účet nemá nastavenú alternatívnu e-mailovú adresu.</account_alternative_email>
+    <migration_in_progress>Prebieha migrácia účtu. Prosím skúste to neskôr.</migration_in_progress>
+    <login_ip_invalid>Obmedzie IP prihlásenia : %s</login_ip_invalid>
+    <unauthorized>Neoprávnený prístup</unauthorized>
+    <folder_type_restricted>Tento typ zložky bol zakázaný administrátorom</folder_type_restricted>
+    <account_does_not_exists>Vybraný účet neexistuje</account_does_not_exists>
+    <account_invalid_id>Nie je možné získať účet %s</account_invalid_id>
+    <account_unknown_protocol>Neznámy protokol účtu</account_unknown_protocol>
+    <account_missing_tag>Account missing tag %s</account_missing_tag>
+    <account_missing_id>Chýbajúce ID účtu</account_missing_id>
+    <account_invalid_action>Nedovolená akcia účtu</account_invalid_action>
+    <account_already_exists>Účet %s už existuje</account_already_exists>
+    <account_no_username>Užívateľské meno chýba alebo je prázdne</account_no_username>
+    <account_no_password>Heslo chýba alebo je prázdne</account_no_password>
+    <account_bad_password>Pôvodné heslo nebolo zadané správne</account_bad_password>
+    <account_password_policy>Heslo odporuje nastavenej politike hesiel</account_password_policy>
+    <account_sync>Sychronizácia účtu sa nepodarila pre účet %s</account_sync>
+    <account_primary_delete>Nie je možné zmazať primárny účet</account_primary_delete>
+    <account_test_failed>Neposaril sa test účtu pre účet %s</account_test_failed>
+    <account_signup_disabled>Vlastne prihlásenie je zakázané</account_signup_disabled>
+    <account_signup_error>Chyba prihlásenia %s</account_signup_error>
+    <account_signup_1>Nedefinovaná chyba</account_signup_1>
+    <account_signup_2>Neodstatočná licencia</account_signup_2>
+    <account_signup_3>Príliš krátka veľkosť parametru</account_signup_3>
+    <account_signup_4>Zlyhanie funkcie</account_signup_4>
+    <account_signup_5>Konfigurácia nebola nájdená</account_signup_5>
+    <account_signup_6>Správa hesiel</account_signup_6>
+    <account_signup_7>Účet už existuje</account_signup_7>
+    <account_signup_8>Neplatné znaky</account_signup_8>
+    <attachment_too_large>Príliš veľká príloha:%s</attachment_too_large>
+    <password_confirmation>Nesprávne heslo</password_confirmation>
+    <missing_values>Nesprávne heslo</missing_values>
+    <addon_copy>Nie je možné kopírovať doplnok</addon_copy>
+    <attachment_file_not_found>Nie je možné priložiť súbor</attachment_file_not_found>
+    <attachment_add>Pripojenie prílohy zlyhalo</attachment_add>
+    <attachment_get>Nie je možné získať prílohu %s</attachment_get>
+    <attacment_class_unknown>Neznáma trieda prílohy</attacment_class_unknown>
+    <auth_missing_tag>Chýbajúci  tag %s v overovaní</auth_missing_tag>
+    <auth_export_key_private>Nie je možné exportovať privátný kľúč</auth_export_key_private>
+    <auth_invalid_char>Nesprávny znak v primárnom kľúči</auth_invalid_char>
+    <confirmation_uid>Captcha relácia nebola nájdená</confirmation_uid>
+    <confirmation_word_mismatch>nesprávne vložená captcha</confirmation_word_mismatch>
+    <db_auto_create>Nie je možné automaticky vytvoriť databázu</db_auto_create>
+    <db_create_sqlitefile>Nie je možné vytvoriť SQLite DB súbor</db_create_sqlitefile>
+    <db_create_tables>Nie je možné vytvoriť tabuľky</db_create_tables>
+    <db_statement_prepare>Nie je možné pripraviť výrok</db_statement_prepare>
+    <db_invalid_statement>Neplatný typ DB dotazu</db_invalid_statement>
+    <flags_unknown_field>Nesprávne pole príznaku</flags_unknown_field>
+    <folder_autocreate_failed>Zložkar %s už existuje</folder_autocreate_failed>
+    <folder_already_exists>Zložka  %s už existuje</folder_already_exists>
+    <folder_does_not_exist>Zložka %s neexistuje</folder_does_not_exist>
+    <folder_name_bad_char>V názve zložky nie sú povolené špeciálne znaky</folder_name_bad_char>
+    <folder_name_length>Nie je možné získať dĺžku názvu zložky</folder_name_length>
+    <folder_name_too_long>Nové meno zložky je príliš dlhé</folder_name_too_long>
+    <folder_get_list>Nie je možné získať zoznam zložiek</folder_get_list>
+    <folder_delete>Nie je možné vymazať zložku %s</folder_delete>
+    <folder_create>Nie je možné vytvoriť zložku %s</folder_create>
+    <folder_rename_empty>Nie je možné premenovať zložku prázdnym menom</folder_rename_empty>
+    <folder_move_to_self>Nie je možné premiestniť zložku samú do seba</folder_move_to_self>
+    <folder_move_to_subfolder>Nie je možné premiestniť zložku do svojej podzložky</folder_move_to_subfolder>
+    <folder_rename>Nie je možné premenovať zložku</folder_rename>
+    <folder_copy>Nie je možné kopírovať zložku</folder_copy>
+    <folder_empty>Nie je možné vyprázdniť zložku</folder_empty>
+    <folder_missing_tag>Chýba príznak zložky %s</folder_missing_tag>
+    <folder_missing_account_id>Chýbajúce ID zložky</folder_missing_account_id>
+    <folder_invalid_account_id>Zložka má nesprávne ID účtu %s</folder_invalid_account_id>
+    <folder_missing_id>Chýba ID zložky</folder_missing_id>
+    <folder_missing_name>Chýba meno zložky</folder_missing_name>
+    <folder_invalid_action>Nedovolená akcia zložky %s</folder_invalid_action>
+    <folder_invalid_type>Nesprávny typ zložky %s</folder_invalid_type>
+    <folder_sync>Nie je možné sychronizovať zložku %s</folder_sync>
+    <folder_empty_non_mail>Nie je možné vyprázdniť ne-emailovú zložku</folder_empty_non_mail>
+    <folder_insufficient_rights>Nedostatočné práva na vykonaie operácie</folder_insufficient_rights>
+    <folder_mark_non_mail>Pokus nastaviť príznak na ne-emailovú zložku</folder_mark_non_mail>
+    <freebusy_missing_tag>Voľný zaneprázdnený príznak chýba %s</freebusy_missing_tag>
+    <group_open>Nie je možné otvoriť skupinu %s</group_open>
+    <group_subscribe>Nie je možné prihlásiť sa k odberu skupiny %s</group_subscribe>
+    <group_add>Nie je možné vytvoriť skupinu</group_add>
+    <group_edit>Nie je možné editovať skupinu %s</group_edit>
+    <group_user_add>Nie je monžé pridať používateľov do skupiny %s</group_user_add>
+    <group_user_edit>Nie je možné upraviť používateľa skupiny %s</group_user_edit>
+    <group_user_delete>Nie je možné vymazať používateľa skupiny %s</group_user_delete>
+    <groupware_upgrade_task>Prebieha aktualizácia služby GroupWare. Prosím opakujte akciu neskôr.</groupware_upgrade_task>
+    <folder_open>Nie je možné otvoriť skupinu %s</folder_open>
+    <call_open_folder_first>GroupWare zložka nebola otvorené počas požadovanej operácie</call_open_folder_first>
+    <call_open_group_first>GroupWare group nebola otvorená počas požadovanej operácie</call_open_group_first>
+    <subscribe_account_gw>Chyba pri prihlasovaní na účet</subscribe_account_gw>
+    <unsubscribe_account_gw>Chyba pri odhlasovaní na odber z účtu</unsubscribe_account_gw>
+    <imap_clone>Nie je možné klonovať IMAP Objekt</imap_clone>
+    <imap_open>Nie je možné otvoriť IMAP stream</imap_open>
+    <imap_internal>IMAP interná chyba %s</imap_internal>
+    <imap_delimiter_retrieval>IMAP získať oddeľovač chýb</imap_delimiter_retrieval>
+    <imap_getmailboxes>Nie je možné získať zoznam schránok</imap_getmailboxes>
+    <imap_mailbox_create>IMAP Vytvoriť schránku %s vytvoriť</imap_mailbox_create>
+    <imap_mailbox_subscribe>Nie je možné prihlásiť sa na odber schránkyˇ%s</imap_mailbox_subscribe>
+    <imap_mailbox_delete>Nie je možné vymazať schránku %s</imap_mailbox_delete>
+    <imap_mailbox_unsubscribe>Nie je možné odhlásiť sa z odberu schránky %s</imap_mailbox_unsubscribe>
+    <imap_mailbox_rename>IMAP premenovanie schránky %s zlyhalo</imap_mailbox_rename>
+    <imap_mailbox_delete_items>IMAP schránka zmazať položky</imap_mailbox_delete_items>
+    <imap_mailbox_empty_folder>IMAP schránka vyprázdniť položky</imap_mailbox_empty_folder>
+    <imap_mailbox_copyitems>IMAP kopírovanie položiek zlyhalo</imap_mailbox_copyitems>
+    <imap_mailbox_moveitems>IMAP presun položiek zlyhal</imap_mailbox_moveitems>
+    <imap_mailbox_open>Nie je možné znovuotvoriť schránku %s</imap_mailbox_open>
+    <imap_mailbox_message_list>Nie je možné získať zoznam správ</imap_mailbox_message_list>
+    <imap_message_details>Nie je možné získať detaily pre správyˇ%s</imap_message_details>
+    <imap_no_headers>Nie je možné získať hlavičky správ %s</imap_no_headers>
+    <imap_no_body>Nie je možné získať telo správy %s</imap_no_body>
+    <imap_message_create>Nie je možné pridať správu</imap_message_create>
+    <imap_message_delete>Nie je možné zmazať správu %s</imap_message_delete>
+    <imap_message_copy>Nie je možné kopírovať správu %</imap_message_copy>
+    <imap_message_move>Nie je možné presunúť správu %s</imap_message_move>
+    <imap_flags_set>Nie je možné nastaviť správe %s príznaky</imap_flags_set>
+    <imap_flags_clear>Nie je možné vyčistiťspráve %s príznaky</imap_flags_clear>
+    <imap_message_not_found>Nová správa nebola v cieľovej schránke nájdená</imap_message_not_found>
+    <subscribe_account_imap>Chyba počas prihlasovania na odber účtu</subscribe_account_imap>
+    <unsubscribe_account_imap>Chyba počas odhlasovania na odber účtu</unsubscribe_account_imap>
+    <import_vcalendar>Import vCalendar zlyhal</import_vcalendar>
+    <import_vcard>Import vCard zlyhal</import_vcard>
+    <import_missing_tag>Importovať chýbajúci príznak %s</import_missing_tag>
+    <import_missing_action>Importovať chýbajúcu akciu</import_missing_action>
+    <import_invalid_action>Nesprávna akcia importu %s</import_invalid_action>
+    <import_missing_account_id>Importovať chýbajúce ID účtu</import_missing_account_id>
+    <import_invalid_account_id>Importovať nesprávne ID účtu</import_invalid_account_id>
+    <import_missing_folder_id>Importovať chýbajúce ID zložky</import_missing_folder_id>
+    <import_invalid_folder_id>Importovať nesprávne ID zložky</import_invalid_folder_id>
+    <import_invalid_item_id>Importovať nesprávne ID položky</import_invalid_item_id>
+    <import_add_items>Nie je možné vytvoriť položky (zoznam)</import_add_items>
+    <import_invalid_data>Pokúšam sa importovať nepodporované dáta</import_invalid_data>
+    <export_invalid_account>Pokúšam sa exportovať neexistujúce účty</export_invalid_account>
+    <imip_versit_convert>Imip versit konvertovať</imip_versit_convert>
+    <imip_versit_empty>Imip versit prázdny</imip_versit_empty>
+    <imip_missing_folder>Chýbajúca imip zložka</imip_missing_folder>
+    <inputstream_no_xml_input>Nedošlo k predaniu XML vstupu</inputstream_no_xml_input>
+    <inputstream_corrupted_input>Poškodený XML vstup</inputstream_corrupted_input>
+    <item_invalid_id>Nie je ID položky</item_invalid_id>
+    <item_count>Nie je možné získať súhrn položiek</item_count>
+    <item_create>Nie je možné vytvoriť položku</item_create>
+    <item_delete>Položka %s nemôže byť vymazaná</item_delete>
+    <item_move>Položka nemôže byť premiestnená.</item_move>
+    <item_edit>Chyba editácie položky %s</item_edit>
+    <item_occurrance_delete>Nie je možné vymazať výskyt %s</item_occurrance_delete>
+    <item_occurrance_create>Nie je možné nastaviť opakovanie</item_occurrance_create>
+    <item_exception_delete>Nie je možné vymazať výnimky %s</item_exception_delete>
+    <item_exception_create>Nie je možné vytvoriť výnimku</item_exception_create>
+    <item_copy>Nie je možné kopírovať položku</item_copy>
+    <item_copy_multiple>Nie je možné kopírovať viacero položiek</item_copy_multiple>
+    <item_copy_destination>Nie je možné získať cieľovú zložku</item_copy_destination>
+    <item_copy_destination_type>Nie je možné kopírovať do zložký iného typu než je zdrojová zložka</item_copy_destination_type>
+    <item_count_retrieve>Nie je možné spočítať položky v zložke</item_count_retrieve>
+    <item_missing_tag>Chýba príznak položky</item_missing_tag>
+    <item_missing_account_id>Chyba ID účtu</item_missing_account_id>
+    <item_invalid_account_id>Nesprávne ID účtu %s</item_invalid_account_id>
+    <item_missing_folder_id>Chyba ID zložky</item_missing_folder_id>
+    <item_invalid_folder_id>Nesprávne ID zložky %s</item_invalid_folder_id>
+    <item_missing_item_id>Chyba ID položky</item_missing_item_id>
+    <item_invalid_item_id>Nesprávne ID položky %s</item_invalid_item_id>
+    <item_invalid_action>Nesprávna akcia položky</item_invalid_action>
+    <login_invalid>Nesprávne prihlásenie používateľa %s</login_invalid>
+    <login_account_valid>Účet nie je platný %s</login_account_valid>
+    <phpmailer_>Obecná mailer chyba, zpráva nebola odoslaná</phpmailer_>
+    <phpmailer_smtp_auth>Mailer nebol overený, zpráva nebola odoslaná.</phpmailer_smtp_auth>
+    <phpmailer_smtp_connect>Mailer sa nemohol pripojit k SMTP, zpráva nebola odoslaná.</phpmailer_smtp_connect>
+    <phpmailer_no_rcpt>Maileru chýbaju príjemci, zpráva nebola odoslaná.</phpmailer_no_rcpt>
+    <phpmailer_mailer_support>Mailer nepodporuje tento typ zprávy, zpráva nebola odoslaná.</phpmailer_mailer_support>
+    <phpmailer_sendmail_send>Chyba odosielania v Sendmail</phpmailer_sendmail_send>
+    <phpmailer_mail_send>Chyba odoslania emailu</phpmailer_mail_send>
+    <phpmailer_language>Nie je možné otvoriť zložku s jazykom</phpmailer_language>
+    <phpmailer_add_attachment>Nie je možné pripojiť súbor</phpmailer_add_attachment>
+    <phpmailer_encode_file>Nie je možné dekódovať priložený súbor</phpmailer_encode_file>
+    <phpmailer_encode_unknown>Neznámý typ dekódovania prílohy</phpmailer_encode_unknown>
+    <mailparse_empty>Žiadny zdroj na analýzu</mailparse_empty>
+    <mailparse_parser_init>Analýza emailu zlyhala</mailparse_parser_init>
+    <mailparse_get_part>Nie je možné získať časť %s</mailparse_get_part>
+    <message_missing_tag>Správe chýba príznak %s</message_missing_tag>
+    <message_missing_account_id>Odoslať chýbajúce ID účtu</message_missing_account_id>
+    <message_invald_account>Odoslať nesprávne ID účtu</message_invald_account>
+    <message_missing_folder_id>Odoslať chýbajúce ID zložky</message_missing_folder_id>
+    <message_invald_folder>Odoslať chýbajúce ID zložky</message_invald_folder>
+    <message_missing_item_id>Odoslať chýbajúce ID položky</message_missing_item_id>
+    <message_invalid_action>Odoslať nesprávnu akciu</message_invalid_action>
+    <message_get_not_allowed>Nie je možné aktualizovať zložku z dôvodu nedostatočných práv</message_get_not_allowed>
+    <message_attachment_type>Neplatný typ prílohy%s</message_attachment_type>
+    <message_attachment_existence>Nedávno nahraná príloha nebola nájdená</message_attachment_existence>
+    <rss_channel_exist>Nie je možné otvoriť špecifický kanál URL %s.</rss_channel_exist>
+    <rss_invalid_channel>Nie je možné získať prístup na kanál</rss_invalid_channel>
+    <settings_access_denied>Prístup zamietnutý</settings_access_denied>
+    <settings_missing_tag>Nastavujem chýbajúci príznak %s</settings_missing_tag>
+    <settings_duplicity>Chyba formátovania XML nastavenia</settings_duplicity>
+    <settings_get_domain_file>Nie je možné prečítať zložku nastavenia domény %s</settings_get_domain_file>
+    <settings_domain_set>Nastavenia nastavia doménové nastavenia do zložky %s</settings_domain_set>
+    <settings_user_set>Nie je možné získať prístup k užívateľským nastaveniam, skontrolujte povolenia a mailovú zložku. Užívateľské nastavenia nastavené do zložky %s</settings_user_set>
+    <settings_public_set>Nastavenia nastavili verejné dáta do zložky %s</settings_public_set>
+    <settings_shared_set>Nie je možné uložiť zdieľané účty</settings_shared_set>
+    <settings_owner_set>Nie je možné nastaviť nastavenia vlastníka</settings_owner_set>
+    <session_expired>Relácia %s vyexpirovala</session_expired>
+    <session_no_user>Relácia objektu používateľa nemôže byť načítaná</session_no_user>
+    <smime_no_recipient>SMIME bez príjemcu</smime_no_recipient>
+    <SMTP_data_not_accepted>SMTP dáta odmietnuté serverom %s</SMTP_data_not_accepted>
+    <SMTP_from_failed>SMTP Od: zlyhalo (od)</SMTP_from_failed>
+    <SMTP_recipients_failed>SMTP Príjemcovia zlyhali (rcpt)</SMTP_recipients_failed>
+    <spellchecker_set_mode>Nie je možné nastaviť kontrolu pravopisu</spellchecker_set_mode>
+    <spellchecker_open_dictionary>Nie je možné otvoriť slovník kontroly pravopisu (dic)</spellchecker_open_dictionary>
+    <spellchecker_add_word>Nie je možné pridať nové slovo %s do slovníka</spellchecker_add_word>
+    <spellchecker_missing_check_id>Chýba indetifikátor slova</spellchecker_missing_check_id>
+    <spellchecker_missing_tag>Chýba príznak %s</spellchecker_missing_tag>
+    <spellchecker_missing_dictionary_id>Chýba identifikátor slovníka</spellchecker_missing_dictionary_id>
+    <spellchecker_missing_word>Chýba slovo</spellchecker_missing_word>
+    <upload_tag_missing>Chýba príznak nahrávania</upload_tag_missing>
+    <upload_missing_attribute>Nahrať chýbajúci atribút</upload_missing_attribute>
+    <upload_attachment_missing>Nahrať chýbajúcu prílohu</upload_attachment_missing>
+    <xml_invalid_file_name>Prázdne meno XML zložky</xml_invalid_file_name>
+    <xml_xpath_more_nodes_found>XML Xpath vrátil viec ako jeden výsledok vo vašom dotaze</xml_xpath_more_nodes_found>
+    <xml_node_does_not_exist>Špecifikovaný XML uzol nenájdený %s</xml_node_does_not_exist>
+    <xmlrequest_path>Neplatný súbor šablóny (cesta)</xmlrequest_path>
+    <xmlrequest_access_denied>Prístup zamietnutý</xmlrequest_access_denied>
+    <xmlrequest_invalid_type>Nesprávny typ dotazu (typ)</xmlrequest_invalid_type>
+    <xmlrequest_missing_xmlns>Chýba atribút menného zoznamu</xmlrequest_missing_xmlns>
+    <xmlrequest_invalid_sid>Chýbajúce alebo nesprávne SID</xmlrequest_invalid_sid>
+    <xmlrequest_missing_tag>XML Požiadavku chýba príznak %s</xmlrequest_missing_tag>
+    <xmlrequest_missing_class>Chýba konštruktér triedy</xmlrequest_missing_class>
+    <xmlrequest_unkown_format>Neznámy formát výsledku %s</xmlrequest_unkown_format>
+    <not_implemented>Ešte neimplementované</not_implemented>
+    <logdir_create>Nie je možné vytvoriť adresár s prihlásením %s</logdir_create>
+    <api_property_get>Nie je možné vyžiadaťvlastnosti pre %s</api_property_get>
+    <wm_disabled>WebClient je zakázaný</wm_disabled>
+    <gw_init_error>GroupWare chyba inicializácie</gw_init_error>
+    <default>Predvolená výnimka %s</default>
+    <other_accounts_disabled>Vytváranie iných účtov je zakázané.</other_accounts_disabled>
+    <link_compressed_variable_missing>Chyba v URL. boli ste presmerovaní na hlavnú stránku</link_compressed_variable_missing>
+    <login_expired>Prihlásenie vypršalo, prihláste sa prosím opäť</login_expired>
+    <account_disabled>Účet zakázaný</account_disabled>
+    <folder_set_default>Zložka &quot;%s&quot; nemôže byť nastavená ako východisková</folder_set_default>
+    <personality_confirmation_invalid_user>E-mailová adresa nemôže byť potvrdená: Neplatný účet.</personality_confirmation_invalid_user>
+    <personality_confirmation_invalid_hashid>E-mailová adresa nemôže byť potvrdená. Neplatný hash.</personality_confirmation_invalid_hashid>
+    <item_blacklist_error>Zlyhalo uloženie položky do zoznamu nevyžiadaných.</item_blacklist_error>
+    <item_whitelist_error>Zlyhalo uloženie položky do zoznamu vyžiadaných.</item_whitelist_error>
+    <unverified_signature>Nepodarilo sa overiť podpis správy</unverified_signature>
+    <account_is_guest>Prístup nie je povolený pre hostov.</account_is_guest>
+  </exceptions>
+  <messages>
+    <item_selection_cleared>Zmazaný výber</item_selection_cleared>
+    <logged_out>Vaše odhlásenie prebehlo úspešne</logged_out>
+    <message_send_ok>Vaša správa bola úspešne odoslaná</message_send_ok>
+    <item_move_ok>Položky boli presunuté</item_move_ok>
+    <item_copy_ok>Položky boli skopírované</item_copy_ok>
+    <item_delete_ok>Položky boli vymazané</item_delete_ok>
+    <item_mark_ok>Položky boli označené</item_mark_ok>
+    <settings_save_ok>Nastavenia úspešne uložené</settings_save_ok>
+    <loading_next_message>Nahrávam ďalšiu správu</loading_next_message>
+    <loading_prev_message>Nahrávam predchádzajúcu správu</loading_prev_message>
+    <loading_next_page>Nahrávam ďalšiu stránku</loading_next_page>
+    <loading_prev_page>Nahrávam predchádzajúcu stránku</loading_prev_page>
+    <loading_next_month>Nahrávam nasledujúci mesiac</loading_next_month>
+    <loading_prev_month>Nahrávam predchádzajúci mesiac</loading_prev_month>
+    <loading_next_week>Nahrávam nasledujúci týždeň</loading_next_week>
+    <loading_prev_week>Nahrávam predchádzajúci týždeň</loading_prev_week>
+    <loading_next_day>Nahrávam nasledujúci deň</loading_next_day>
+    <loading_prev_day>Nahrávam predchádzajúci deň</loading_prev_day>
+    <password_change_ok>Heslo bolo úspešne zmenené</password_change_ok>
+    <item_whitelist_ok>Položka bola pridaná do zoznamu vyžiadaných</item_whitelist_ok>
+    <item_blacklist_ok>Položka bola pridaná do zoznamu nevyžiadaných</item_blacklist_ok>
+    <folder_set_default_ok>Zložka bola úspešne nastavená ako predvolená</folder_set_default_ok>
+    <subscribe_account_ok>Účet odhlásený</subscribe_account_ok>
+    <subscribe_folder_ok>Zložka odhlásená</subscribe_folder_ok>
+    <item_decline_ok>Položka odmietnutá</item_decline_ok>
+    <access_granted>Bol Vám umožnený prístup do &quot;% s&quot; užívateľom &quot;% s&quot;.</access_granted>
+    <message_save_ok>Správa uložená</message_save_ok>
+    <item_accept_ok>Položka prijatá</item_accept_ok>
+  </messages>
+</language>

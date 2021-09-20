@@ -1,0 +1,238 @@
+div.obj_tree_folder2{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+div.obj_tree.obj_tree_folder2 ul.fTree {
+	padding-top: 5px;
+}
+
+/* Shared - Avatar */
+div.obj_tree_folder2 li img{
+	height: 16px;
+	width: 16px;
+
+	border-radius: 8px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Calendar */
+div.obj_tree_folder2 li>div.color i{
+	background: none!important;
+	position:absolute;
+
+	height:13px;
+	width:13px;
+	padding:0!important;
+	left:23px;
+	top:10px;
+
+	display:block!important;
+}
+.compact div.obj_tree_folder2 li>div.color i{
+	top: 6px;
+}
+
+.rtl div.obj_tree_folder2 li>div.color i{
+	left: auto;
+	right: 23px;
+}
+div.obj_tree_folder2 li>div.color.primary i,
+div.obj_tree_folder2 li>div.color.checked i{
+	background-repeat: no-repeat!important;
+	background-image: url("../images/checkbox_dot.png")!important;
+	background-position: 50% 50%!important;
+}
+
+div.obj_tree_folder2 li>div.color b{
+	padding-left: 25px;
+}
+.rtl div.obj_tree_folder2 li>div.color b {
+	padding-left: 0;
+	padding-right: 25px;
+}
+div.obj_tree_folder2 li>div.color u{
+	display:none;
+}
+
+div.obj_tree li>div.color i{
+	border: 1px solid #969696;
+	border-color:rgba(0,0,0,0.2);
+	border-radius: 4px;
+}
+div.obj_tree li>div.color i:after{
+	display: none;
+}
+
+div.obj_tree_folder2 li>div.color.blue i{
+	background-color: #BCDDF1 !important;
+}
+div.obj_tree_folder2 li>div.color.green i{
+	background-color: #CFE5AD !important;
+}
+div.obj_tree_folder2 li>div.color.brown i{
+	background-color: #DBBDA0 !important;
+}
+div.obj_tree_folder2 li>div.color.purple i{
+	background-color: #DBCEF2 !important;
+}
+div.obj_tree_folder2 li>div.color.yellow i{
+	background-color: #FEE0A4 !important;
+}
+div.obj_tree_folder2 li>div.color.teal i{
+	background-color: #D7F1DC !important;
+}
+div.obj_tree_folder2 li>div.color.plum i{
+	background-color: #FBC0CC !important;
+}
+div.obj_tree_folder2 li>div.color.red i{
+	background-color: #FAC1B0 !important;
+}
+
+div.obj_tree_folder2 li>div.color.aqua i{
+	background-color: #9CE6ED !important;
+}
+div.obj_tree_folder2 li>div.color.aquamarine i{
+	background-color: #9CEDC6 !important;
+}
+div.obj_tree_folder2 li>div.color.orchid i{
+	background-color: #EFB4DE !important;
+}
+div.obj_tree_folder2 li>div.color.pink i{
+	background-color: #F9DEDF !important;
+}
+div.obj_tree_folder2 li>div.color.silver i{
+	background-color: #E7E7E7 !important;
+}
+div.obj_tree_folder2 li>div.color.white i{
+	background-color: #FFFFFF !important;
+}
+div.obj_tree_folder2 li>div.color.gray i{
+	background-color: #B5B9BC !important;
+}
+div.obj_tree_folder2 li>div.color.lemon i{
+	background-color: #FFF5BD !important;
+}
+
+/* Root */
+div.obj_tree_folder2:not(.icons) li.root_public li i,
+div.obj_tree_folder2:not(.icons) li.root_shared li i,
+div.obj_tree_folder2:not(.icons) li.root_resources li i{
+	display: none;
+}
+
+div.obj_tree_folder2 li.root.external>div>span,
+div.obj_tree_folder2 div.root_private>b,
+div.obj_tree_folder2 div.root_private>span,
+div.obj_tree_folder2 div.root_shared>span,
+div.obj_tree_folder2 div.root_public>span,
+div.obj_tree_folder2 div.root_resources>span{
+	font-weight: 500!important;
+	color: #6b6b6b;
+}
+
+div.obj_tree_folder2 li>div.root_private i:after{
+	content: '\e971';
+}
+div.obj_tree_folder2 li>div.root_public i:after{
+	content: '\e972';
+}
+div.obj_tree_folder2 li>div.root_resources i:after{
+	content: '\e96e';
+}
+div.obj_tree_folder2 li>div.root_shared i:after{
+	content: '\e97d';
+}
+
+/*** Folders ***/
+div.obj_tree_folder2 li>div i:after{
+	content: '\e94e';
+}
+div.obj_tree_folder2 li>div.ico_x i:after{
+	color: #9a9a9a;
+}
+
+/* Mail */
+/* div.obj_tree_folder2 li>div.ico_m i:after{
+	content: '\e01c';
+} */
+
+div.obj_tree_folder2 li>div.ico_inbox i:after{
+	content: '\e96f';
+}
+div.obj_tree_folder2 li>div.ico_drafts i:after{
+	content: '\e970';
+}
+div.obj_tree_folder2 li>div.ico_spam i:after{
+	content: '\e973';
+}
+
+div.obj_tree_folder2 li>div.ico_sent i:after{
+	content: '\e91c';
+}
+div.obj_tree_folder2 li>div.ico_trash i:after{
+	content: '\e002';
+}
+div.obj_tree_folder2 li>div.ico_archive i:after{
+	content: '\e03b';
+}
+/* gw */
+div.obj_tree_folder2 li>div.ico_gwtrash i:after{
+	content: '\e002';
+}
+div.obj_tree_folder2 li>div.ico_virtual i:after{
+	content: '\e00d';
+}
+/*contacts*/
+div.obj_tree_folder2 li>div.ico_c i:after{
+	content: '\e017';
+}
+/*events*/
+div.obj_tree_folder2 li>div.ico_e i:after{
+	content: '\e05';
+}
+/*tasks*/
+div.obj_tree_folder2 li>div.ico_t i:after{
+	content: '\e003';
+}
+/*files*/
+div.obj_tree_folder2 li>div.ico_f i:after{
+	content: '\e01c';
+}
+/*notes*/
+div.obj_tree_folder2 li>div.ico_n i:after{
+	content: '\e01d';
+}
+/*journal*/
+div.obj_tree_folder2 li>div.ico_j i:after{
+	content: '\e024';
+}
+/*rss*/
+div.obj_tree_folder2 li>div.ico_r i:after{
+	content: '\e00e';
+}
+/*spam queues*/
+div.obj_tree_folder2 li>div.ico_spamqueue i:after{
+	content: '\e05d';
+}
+/*blacklist*/
+div.obj_tree_folder2 li>div.ico_black i:after{
+	content: '\e034';
+}
+/*whitelist*/
+div.obj_tree_folder2 li>div.ico_white i:after{
+	content: '\e01b';
+}
+/*quarantine*/
+div.obj_tree_folder2 li>div.ico_quarantine i:after{
+	content: '\e018';
+}
+/*Group chat*/
+div.obj_tree_folder2 li>div.ico_i{
+	padding-left: 0;
+}
+div.obj_tree_folder2 li>div.ico_i i:after{
+	content: '\e035';
+}

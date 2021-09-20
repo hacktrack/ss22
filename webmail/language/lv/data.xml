@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Blue</blue>
+    <green>Green</green>
+    <brown>Brown</brown>
+    <purple>Purple</purple>
+    <yellow>Yellow</yellow>
+    <teal>Teal</teal>
+    <plum>Plum</plum>
+    <red>Red</red>
+    <aqua>Aqua</aqua>
+    <aquamarine>Aquamarine</aquamarine>
+    <orchid>Orchid</orchid>
+    <pink>Pink</pink>
+    <silver>Silver</silver>
+    <white>White</white>
+    <gray>Gray</gray>
+    <lemon>Lemon</lemon>
+  </colors>
+  <title>
+    <new_email>* Jauna e-pasta ziņa</new_email>
+    <new_im>* Jauna ziņa no %s</new_im>
+    <new_reminder>* Atgādinājums: %s</new_reminder>
+    <cerror>! Communication Error</cerror>
+  </title>
+  <audio>
+    <player>Player</player>
+  </audio>
+  <signature>
+    <none>Nav paraksta</none>
+    <alias>No adreses</alias>
+    <newmsg>Jauna ziņa</newmsg>
+    <oldmsg>Atbildes</oldmsg>
+    <signature>Paraksts</signature>
+    <variable>Ievietot mainīgo</variable>
+  </signature>
+  <alias>
+    <add>Add new Alias</add>
+    <notify>Confirmation message has been sent.</notify>
+    <instructions>Confirmation request will be sent to email address above. Please check it for further instructions.</instructions>
+  </alias>
+  <notify>
+    <title>Paziņojuma detaļas</title>
+    <to_all>Informēt visus, kam ir pieeja šai mapei</to_all>
+    <copy>Informēt arī</copy>
+    <comment>Komentārs (nav obligāts), tiks nosūtīts lietotājiem, kurus vēlējaties informēt par izmaiņām</comment>
+    <success>Paziņojums nosūtīts</success>
+  </notify>
+  <datagrid>
+    <nomessages>Nav ziņas</nomessages>
+    <noitems>Nav nekā</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Priekšskatījums</preview>
+    <down>Apakšējais panelis</down>
+    <right>Labais panelis</right>
+    <none>Neviens</none>
+    <noitem>Nav</noitem>
+    <message_to>Ziņa: %s</message_to>
+    <doc_revisions>Dokumenta pārskatījumi</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Meklēšanas vednis</wizard>
+    <since>No datuma</since>
+    <until>Līdz datumam</until>
+    <contains>Visur</contains>
+    <fulltext>Pilns teksts</fulltext>
+    <makefolder>Izveidot meklēšanas mapi</makefolder>
+    <contact_note>Piezīme</contact_note>
+  </search>
+  <search_hints>
+    <folder>Meklēt vienības no izvēlētās mapes</folder>
+    <from>Izmantojas, lai norādītu sūtītāju (no:Annas)</from>
+    <to>Izmantojas, lai norādītu saņēmēju (piem.,Jānim)</to>
+    <subject>Meklēt vārdus tematā (temats:Pusdienas)</subject>
+    <or>loģiskais operators</or>
+    <not>loģiskais operators</not>
+    <hasattachment>Meklēt ziņas ar pielikumu</hasattachment>
+    <isflagged>Meklēt ziņas, kuras ir atzīmētas</isflagged>
+    <isunread>Meklēt ziņas, kuras nav izlasītas</isunread>
+    <isread>Meklēt ziņas, kuras ir izlasītas</isread>
+    <isdone>Meklēt uzdevumus, kuri ir pabeigti</isdone>
+    <cc>Izmantojas, lai norādītu saņēmējus Cc: laukā</cc>
+    <bcc>Izmantojas, lai norādītu saņēmējus Bcc: laukā</bcc>
+    <sms>Izmantojas, lai norādītu saņēmējus SMS: laukā</sms>
+    <after>Meklēt ziņas, kuras nosūtītas pēc norādītā laika (pēc: 16.04.2004.)</after>
+    <after_e>Meklēt vienības, kuras sākas pēc norādītā laika (pēc: 16.04.2004.)</after_e>
+    <after_f>Meklēt vienības mainītas pēc norādītā laika (pēc: 16.04.2004.)</after_f>
+    <after_t>Meklēt vienības, kuras beidzas pēc norādītā laika (pēc: 16.04.2004)</after_t>
+    <after_j>Meklēt vienības, kuras sākas pēc norādītā laika (pēc: 16.04.2004.)</after_j>
+    <before>Meklēt ziņas, kas nosūtītas pirms norādītā laika (pirms: 16.04.2004.)</before>
+    <before_e>Meklēt vienības, kuras sākas pirms norādītā laika (pirms: 16.04.2004.)</before_e>
+    <before_f>Meklēt vienības, kuras mainītas pirms norādītā laika (pirms: 16.04.2004.)</before_f>
+    <before_t>Meklēt vienības, kuras beidzas pirms norādītā laika (pirms: 16.04.2004.)</before_t>
+    <before_j>Meklēt vienības, kuras sākas pirms norādītā laika (pirms: 16.04.2004.)</before_j>
+    <title>Izmantojas, lai norādītu vienības virsrakstu (virsraksts: Tests)</title>
+    <description>Izmantojas, lai norādītu aprakstu vai piezīmi (apraksts: tests)</description>
+    <name>Izmantojas, lai norādītu kontakta vārdu</name>
+    <email>Izmantojas, lai norādītu e-pastu</email>
+    <keyword>Meklēt vienības ar norādītu atzīmi (atzīme: Darbs)</keyword>
+    <tag>Meklēt vienības ar norādītu atzīmi (atzīme: Darbs)</tag>
+    <tag2>Meklēt vienības ar atzīmi &quot;%s&quot; (izmantojas %s vienībās)</tag2>
+    <greater>Meklēt atkarībā no izmēra kB (lielāks par:1024)</greater>
+    <smaller>Meklēt atkarībā no izmēra kB (mazāks par:1024)</smaller>
+    <company>Meklēt kontaktus atkarībā no uzņēmuma (uzņēmums:IceWarp)</company>
+    <department>Meklēt kontaktus atkarībā no departamenta (departaments:IT)</department>
+    <note>Meklēt kontaktus ar kādu piezīmi (piezīme: VIP)</note>
+    <location>Meklēt kontaktus atkarībā no atrašanās vietas (atrašanās vieta: Rīga)</location>
+    <fulltext>Meklēt pilnu ziņas tekstu (pilns teksts:test)</fulltext>
+    <priority>Meklēt atkarībā no prioritātes augstākā, augsta, normāla, zema, zemākā (prioritāte:augsta)</priority>
+    <isprivate>Meklēt uzdevumus, kas ir privāti</isprivate>
+    <ispublic>Meklēt uzdevumus, kas ir publiski</ispublic>
+    <isfree>Meklēt uzdevumus, kas ir brīvi</isfree>
+    <isbusy>Meklēt uzdevumus, kas ir aizņemti</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Meklēt mapi</virtual>
+    <general>Vispārējs</general>
+    <primary>Galvenā mape</primary>
+    <filter>Filtrs</filter>
+    <all>Visas mapes</all>
+  </virtual>
+  <notifier>
+    <notifier>Paziņotājs</notifier>
+    <permissions>Ekrāna paziņojumi informē, kad jums ir jauns e-pasts vai čata ziņa, pat ja pārlūkprogramma nav redzama.&lt;br&gt;Vispirms izvēlieties, kā vēlaties saņemt paziņojumus. Uzklikšķiniet Labi un atbildiet apstiprinoši nākamajā logā, lai ieslēgtu ekrāna paziņojumus.</permissions>
+    <denied>Pieeja pie ekrāna paziņojumiem jums ir aizliegta.</denied>
+    <redirect>Ziņa novirzīta.</redirect>
+    <send>Ziņa ir nosūtīta.</send>
+    <item_save>Vienība saglabāta.</item_save>
+    <new_email>Jauna e-pasta ziņa.</new_email>
+    <new_revision>Ir izveidota jauna dokumenta pārskatīšana.</new_revision>
+    <email_exist>E-pasta adrese jau pastāv.</email_exist>
+    <email_added>E-pasta adrese ir pievienota kontaktiem.</email_added>
+    <contact_email_list_full>Neizdevās pievienot e-pasta adresi, visi lauki ir aizņemti.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google Maps</map>
+    <go>Rādīt adresi</go>
+    <open>Atvērt Google</open>
+    <alert>Google Maps kļūda</alert>
+    <g_geo_missing_address>Trūkst adreses: nav adreses informācijas vai tai nebija nekādas vērtības.</g_geo_missing_address>
+    <g_geo_too_many_queries>Pārāk daudz pieprasījumu: ikdienas ģeokodēšanas kvota šai saitei ir pārsniegta.</g_geo_too_many_queries>
+    <g_geo_server_error>Servera kļūda: ģeokodēšanas pieprasījums nevar tikt apstrādāts.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Pieteikšanās informācija</login_info>
+    <licenses>Darba virsmas Lietojumprogrammas un licences</licenses>
+    <licenses_text>Iegūstiet vislabāko no jūsu IceWarp konta. Noklikšķiniet šeit, lai piekļūtu papildu programmatūras lejupielādēm, aktivizēšanas atslēgām un rokasgrāmatām, kas nepieciešamas, lai piekļūtu jūsu kalendāriem, kontaktiem un Brīvs/Aizņemts informācijai no saderīgām lietojumprogrammām jūsu darba virsmā:&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Desktop Client&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Notifier&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Piegādāts</delivered>
+    <delivered_info>successfully delivered to local recipient</delivered_info>
+    <sent>Nosūtīts</sent>
+    <sent_info>successfully delivered to remote server</sent_info>
+    <queue>Rinda</queue>
+    <queue_info>ziņa ir īslaicīgi atlikta, serveris mēģinās to nosūtīt vēlāk</queue_info>
+    <error>Kļūda</error>
+    <error_info>pārbaudiet savu inbox ziņas kļūdas detalizēšanai</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Visi faili</all_files>
+    <images>Attēli</images>
+    <queue_limit_exceeded>Rindas ierobežojums pārsniegts</queue_limit_exceeded>
+    <zero_byte_file>Nulles baitu fails</zero_byte_file>
+    <invalid_filetype>Nepareizs faila veids</invalid_filetype>
+    <item>Vienība</item>
+    <title>Augšupielāde: %s - %s%</title>
+    <error1>Faila izmērs pārsniedz ierobežojumu (%sMB)</error1>
+    <error3>Augšupielādētais fails tikai daļēji augšupielādēts</error3>
+    <error4>Neviens fails nav augšupielādēts</error4>
+    <error6>Trūkst pagaidu mape</error6>
+    <error7>Neizdevās ierakstīt failu uz diska</error7>
+    <error8>Nepareizs faila veids</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Statusa teksts ...</status_msg>
+    <add_private>Privāts</add_private>
+    <unsupported_img>Neatbalstīts attēla veids</unsupported_img>
+    <add_gateway>Pievienot vārteju</add_gateway>
+    <error_im>WebChat error</error_im>
+    <registred>Jau reģistrēts</registred>
+    <registr>Piereģistrēties</registr>
+    <error_ticket>Neizdevās izveidot biļeti.</error_ticket>
+    <error_socket>Neizdevās atvērt ietveri.</error_socket>
+    <error_bytestream>Lietotājs neatbalsta bitu plūsmas.</error_bytestream>
+    <error_cancel>Lietotājs atcēla pieprasījumu.</error_cancel>
+    <error_registr>Pakalpojuma sniedzējs atcēla jūsu reģistrāciju.</error_registr>
+    <add_service>Pierakstīties pakalpojumam</add_service>
+    <service>Pakalpojums</service>
+    <call>Zvanīt tagad</call>
+    <audio_call>Audio Call</audio_call>
+    <video_call>Video Call</video_call>
+    <meeting>Start WebMeeting</meeting>
+    <invite>Invite to WebMeeting</invite>
+    <closetab>Aizvērt cilni</closetab>
+    <show>Parādīt visus kontaktus</show>
+    <hide>Slēpt bezsaistes kontaktus</hide>
+    <other>Cits</other>
+    <selected>Atlasīts</selected>
+    <chat>Atvērt čatu</chat>
+    <groupmsg>Nosūtīt ziņu</groupmsg>
+    <group>Grupēt</group>
+    <new_group>Jauna grupa</new_group>
+    <subscription>Pierakstīšanās</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>User &lt;b&gt;%s&lt;/b&gt; has requested permission to add you to their WebChat contact list</sub_ask>
+    <send>Autorizēt čata kontaktu</send>
+    <request>Pieprasīt autorizāciju</request>
+    <remove>Noņemt autorizāciju</remove>
+    <remove_account>Vai tiešām vēlaties izņemt kontu %s no sarakstiem?</remove_account>
+    <remove_accounts>Vai tiešām vēlaties izņemt atlasītos kontus no saraksta?</remove_accounts>
+    <rem_grp>Nodzēst grupu</rem_grp>
+    <rem_grpc>Nodzēst grupu un kontaktus</rem_grpc>
+    <rename>Pārdēvēt</rename>
+    <add>Pievienot kontaktu</add>
+    <jabber_id>Lietotāja ID</jabber_id>
+    <nick>Displeja nosaukums</nick>
+    <vcard>Rādīt kontaktinformāciju</vcard>
+    <history>Parādīt sarunu vēsturi</history>
+    <sharedesktop>Koplietot ekrānu</sharedesktop>
+    <tab_general>Vispārējs</tab_general>
+    <tab_work>Darbs</tab_work>
+    <tab_location>Atrašanās vieta</tab_location>
+    <tab_about>Par</tab_about>
+    <send_mail>Sūtīt e-pastu</send_mail>
+    <send_file>Sūtīt failu</send_file>
+    <receive_file>Saņemt failu</receive_file>
+    <not_listed>Nav sarakstā</not_listed>
+    <composing>WebChat: %s is composing...</composing>
+    <file_message>Lietotājs nosūtīja jums failu ar aprakstu:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s</file_message>
+    <file_cancel>Faila pārsūtīšanu noraidīja saņēmējs.</file_cancel>
+    <file_error>Faila pārsūtīšanas kļūda.</file_error>
+    <file_ok>Faila pārsūtīšana bija veiksmīga.</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/b&gt; ir nosūtījis jums failu &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>Rādīt sarunu pēc: %s</show_after>
+    <im_status>WebChat: %s</im_status>
+    <im>WebChat</im>
+    <sip_inprogress>Call in progress</sip_inprogress>
+    <sip_incomming>Incoming Call</sip_incomming>
+    <sip_calling>Calling</sip_calling>
+    <status_sec>%s for less than a minute</status_sec>
+    <status_min>%s for %s minute(s)</status_min>
+    <status_hour>%s for %s hour(s)</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Propose new time</propose>
+    <nosubject>Nav temata</nosubject>
+    <when>Kad</when>
+    <location>Atrašanās vieta</location>
+    <comment>Komentārs</comment>
+    <description>Apraksts</description>
+    <accept>Piekrist</accept>
+    <tentative>Tentative</tentative>
+    <decline>Noraidīt</decline>
+    <skip_img>Ārējie resursi ir bloķēti. Noklikšķiniet šeit, lai tos attēlotu.</skip_img>
+    <show_img>Ziņa satur pievienotus attēlus. Klikšķiniet šeit, lai atvērtu priekšskatījumu.</show_img>
+    <smart>Attachments are delivered using IceWarp SmartAttach technology.</smart>
+    <show_raw>Open Raw Message</show_raw>
+    <certificate>Publisks sertifikāts</certificate>
+    <serror>Atšifrēšanas kļūda, trūkst vai nepareizs sertifikāts.</serror>
+    <sverify>Nevar pārbaudīt ziņas parakstu</sverify>
+    <expired>Atšifrēšanas kļūda, pareizs, bet beidzies sertifikāta lietošanas laiks.</expired>
+    <access>Jums ir piešķirta piekļuve &quot;%s&quot; ar %s.</access>
+    <account_access>Jums ir piešķirta piekļuve ar %s.</account_access>
+    <subscribe>Pierakstīties mapei</subscribe>
+    <subscribe_account>Pierakstīties kontam</subscribe_account>
+    <subscribed>Esiet pierakstījies kontam %s.</subscribed>
+    <subscribed_folder>Esiet pierakstījies &quot;%s/%s&quot; mapei.</subscribed_folder>
+    <unsubscribe>Atrakstīties</unsubscribe>
+    <unsubscribed>Pierakstīšanās ir noņemta %s.</unsubscribed>
+    <unsubscribed_folder>Pierakstīšanās noņemta &quot;%s/%s&quot;.</unsubscribed_folder>
+    <error>Darbība nevar tikt veikta.</error>
+    <recurrent>Atkārtots</recurrent>
+    <occurrence>Atkārtota notikuma izņēmums</occurrence>
+    <attendee>Ar</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Kas jauns</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Palīdzība</help>
+    <about>Par</about>
+  </help>
+  <print>
+    <preview>Drukas priekšskatījums</preview>
+    <opera>Jūsu pārlūkprogramma neatbalsta šo funkciju.</opera>
+  </print>
+  <status>
+    <online>Tiešsaistē</online>
+    <offline>Bezsaistē</offline>
+    <chat>Pieejams čatam</chat>
+    <away>Prom</away>
+    <xa>N/A</xa>
+    <dnd>DND</dnd>
+    <invisible>Neredzams</invisible>
+    <gone>Lietotājs ir atstājis sarunu</gone>
+    <error>Kļūda</error>
+    <sip>Tiešsaistē ar WebPhone</sip>
+    <chat_with>Čats ar %s</chat_with>
+  </status>
+  <policy>
+    <minlength>Minimālais paroles garums: %s rakstzīmes</minlength>
+    <digits>Skaits skaitlisko rakstzīmju parolē: %s</digits>
+    <alpha>Alfabēta rakstzīmju skaits (burti): %s</alpha>
+    <nonalphanum>Ne alfabēta rakstzīmju skaits: %s</nonalphanum>
+    <upperalpha>Lielo alfabēta rakstzīmju skaits: %s</upperalpha>
+    <useralias>Parole nevar būt tāda pati kā jūsu lietotājvārds vai aizstājvārds</useralias>
+  </policy>
+  <alerts>
+    <alert>Brīdinājums</alert>
+    <suppress>Nerādīt šo ziņu vēlreiz</suppress>
+    <create_revision>Nevar izveidot pārskatu</create_revision>
+    <password_do_not_match>Paroles nesakrīt</password_do_not_match>
+    <invalid_password>Nepareiza parole</invalid_password>
+    <new_password_match>Jaunā parole ir tāda pati kā vecā</new_password_match>
+    <invalid_cpassword>Apstiprinājuma parole nesakrīt</invalid_cpassword>
+    <folder_exist>Mape jau pastāv</folder_exist>
+    <create_folder>Nevar izveidot mapi &quot;%s&quot;</create_folder>
+    <rename_folder>Nevar pārdēvēt mapi &quot;%s&quot; uz &quot;%s&quot;</rename_folder>
+    <attachment_size>Pielikuma lielums ir pārsniegts</attachment_size>
+    <attachment_quota>Attachment quota exceeded.</attachment_quota>
+    <attachment_missing>Attachment file not found.</attachment_missing>
+    <attachment_virus>Attachment contains virus.</attachment_virus>
+    <could_not_create>Document could not be created.</could_not_create>
+    <could_not_edit>Document could not be edited.</could_not_edit>
+    <general_error>Notika nenoteikta kļūda</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>Parole neatbilst paroļu politika</password_policy>
+    <password_requirements>Lūdzu, pārbaudiet šādas prasības un izvēlēties jaunu paroli:</password_requirements>
+    <password_incorrect>Nepareiza parole. Lūdzu, mēģiniet vēlreiz.</password_incorrect>
+    <message_not_sent>Ziņa nav nosūtīta</message_not_sent>
+    <message_not_saved>Ziņa nav saglabāta</message_not_saved>
+    <mailingfailed>Nevar nosūtīt vai saglabāt ziņu servera kļūdas dēļ. Lūdzu, mēģiniet vēlāk.</mailingfailed>
+    <distribution_list_invalid_id>Nepareizs adresātu saraksts:</distribution_list_invalid_id>
+    <smtp_from_failed>Sekojošs sūtītājs nav atzīts:</smtp_from_failed>
+    <smtp_recipients_failed>Saņēmēji izraisīja šādu kļūdu:</smtp_recipients_failed>
+    <smtp_data_not_accepted>Serveris neatzina jūsu ziņu</smtp_data_not_accepted>
+    <default_folder_missing>Default folder &quot;%s&quot; is missing.</default_folder_missing>
+    <no_recipient_certificate>Trūkst saņēmēja sertifikāts</no_recipient_certificate>
+    <recipient_certificate_expired>Recipient certificate has expired.</recipient_certificate_expired>
+    <personal_certificate>Personīgo sertifikātu neatbilstība</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>Nevar ielādēt ziņu</imap_null>
+    <delete_item>Atlasīto(-ās) vienību(-as) never izdzēst</delete_item>
+    <reserved_folder>Rezervēts mapes nosaukums &quot;%s&quot;</reserved_folder>
+    <undefined>Nedefinēta kļūda</undefined>
+    <timezone_differ>Jūsu laika josla ir mainījusies. Izvēlieties atbilstošu vietu zemāk, lai pielāgotu laiku kalendāra notikumiem.</timezone_differ>
+    <popup_blocker>Pop-up window has been blocked.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Unread</unread>
+    <contact_ok>Veiksmīgi sazinājāties ar administratoru</contact_ok>
+    <signup_ok>Jaunais konts ir izveidots veiksmīgi</signup_ok>
+    <logout>Lietotājs ir izgājis</logout>
+    <logged_out>Lietotājs ir izgājis</logged_out>
+    <forgot_ok>Jūsu pieslēgšanās dati tika nosūtīti uz jūsu e-pasta adresi un alternatīvo e-pasta adresi</forgot_ok>
+    <password_change_ok>Parole veiksmīgi nomainīta</password_change_ok>
+    <close_window>Tagad jūs varat aizvērt šo logu</close_window>
+    <personality_confirmation_ok>Jūsu e-pasta adrese ir apstiprināta.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Nepareizs lietotājvārds vai parole. Lūdzu, mēģiniet vēlreiz.</invalid_login>
+    <account_disabled>Konts atslēgts</account_disabled>
+    <expired>Sesija ir beigusies</expired>
+    <connection>Nevar sasniegt serveri. Lūdzu, pārbaudiet interneta savienojumu vai sazinieties ar administratoru.</connection>
+    <servererror>Nevar piekļūt šim pakalpojumam. Lūdzu, mēģiniet vēlreiz vēlāk vai sazinieties ar administratoru.</servererror>
+    <overloaded>Serveris pašlaik ir pārslogots. Lūdzu, mēģiniet vēlāk vai sazinieties ar administratoru.</overloaded>
+    <countdown>Will try again in %s seconds.</countdown>
+    <filenotfound>Failus nevar atgūt no servera. Var notikt negaidītas kļūdas.</filenotfound>
+    <subscribe_error>Nevar pierakstīties kontam %s.</subscribe_error>
+    <wc_disabled>WebKlients ir atslēgts.</wc_disabled>
+    <invalid_rsa>Nevar izveidot RSA paroli.</invalid_rsa>
+    <no_db>Datu bāzes savienojuma kļūda</no_db>
+    <no_data>Dati nav pieejami</no_data>
+    <access_error>Nevar piekļūt pastkastes mapei, lūdzu, sazinieties ar administratoru.</access_error>
+    <ip_mismatch>Jūsu IP ir mainījusies, jūs tiksiet atslēgts. Lai novērstu šo problēmu turpmāk, lūdzu izmantojiet WebKlientu vai HTTPS savienojumu.</ip_mismatch>
+    <javatip1>Paskatieties ekrāna Java drošības uzvednes un brīdinājumus. Noklikšķiniet uz Jā vai Atļaut.</javatip1>
+    <javatip2>Sazinieties ar administratoru, kas palīdzēs jums instalēt Java datorā, vai</javatip2>
+    <javatip3>Noklikšķiniet uz pogas Problēmu novēršana zemāk, lai atrisinātu šo problēmu tagad</javatip3>
+    <contactadmin>Sazinieties ar administratoru</contactadmin>
+    <troubleshoot>Problēmu novēršana</troubleshoot>
+  </error>
+  <common>
+    <all>All</all>
+    <processing>Processing</processing>
+    <loading>Ielāde...</loading>
+    <sending>Sūtīšana...</sending>
+    <comment>Komentārs (nav obligāti)</comment>
+    <email>E-pasts</email>
+    <folder>Mape</folder>
+    <items>Vienības</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Atlasīt visu</select_all>
+    <clear>Notīrīt</clear>
+    <yes>Jā</yes>
+    <no>Nē</no>
+    <auto>Auto</auto>
+    <disable>Disable</disable>
+    <enable>Aktivizēt</enable>
+    <enabled>Aktivizēts</enabled>
+    <show_all>Rādīt visus</show_all>
+    <previous>Iepriekšējais</previous>
+    <next>Nākošais</next>
+    <more>Vairāk...</more>
+    <show>Show</show>
+    <hide>Hide</hide>
+    <appearance>Panel Appearance</appearance>
+    <expand>Expanded</expand>
+    <collapsed>Collapsed</collapsed>
+    <autocollapsed>Auto Collapse</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Izlase</favorites>
+    <remove>Izņemt no izlases</remove>
+    <rename>Pārdēvēt īsceļu</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>Īpašnieks</owner>
+    <address_book>Adrešu grāmata</address_book>
+    <add_recipient>Pievienot adresātu</add_recipient>
+    <selected_addresses>Atlasīts</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Tukšs</empty>
+    <today>Šodien</today>
+    <this_week>Šī nedēļa</this_week>
+    <this_month>Šis mēnesis</this_month>
+    <yesterday>Vakar</yesterday>
+    <tomorrow>Rīt</tomorrow>
+    <typetoadd>Ievadiet, lai pievienotu</typetoadd>
+    <owner>Owner</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>Vietējais laiks</timezones>
+    <serverzone>Servera laiks</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Do you wish to clear the auto-complete list?</clear_autosuggest>
+    <suppress>Nejautāt man vēlreiz</suppress>
+    <reset_password_subject>Paroles atjaunošana kontam %email%</reset_password_subject>
+    <reset_password>Sveiki, %username%,&#13;&#10;&#13;&#10;Vai jūs pieprasījāt paroles atjaunošanu savam kontam (%email%) WebKlientā?&#13;&#10;&#13;&#10;Noklikšķiniet uz šīs saites (vai nokopējiet un ielīmējiet to savā pārlūkprogrammā), lai apstiprinātu, ka šī e-pasta adrese pieder jums.&#13;&#10;&#13;&#10;Ja jūs neveicāt šo pieprasījumu vai šo ziņu saņēmāt kļūdas pēc, lūdzu, ignorējiet to.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Apstipriniet jauno NO: %username%</alias_subject>
+    <alias_confirmation>Sveiki, %username%,&#13;&#10;&#13;&#10;Vai jūs pieprasāt, lai pievienotu (%email%) kā jaunu NO WebKlientā?&#13;&#10;&#13;&#10;Noklikšķiniet uz šīs saites (vai nokopējiet un ielīmējiet to savā pārlūkprogrammā), lai apstiprinātu, ka šī e-pasta adrese pieder jums.&#13;&#10;&#13;&#10;Ja jūs neveicāt šo pieprasījumu vai šo ziņu saņēmāt kļūdas pēc, lūdzu, ignorējiet to.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>Lai nezaudētu mainītos datus, lūdzu, pārbaudiet vai visas atvērtās vienības un ziņas melnraksts ir saglabāts.</unload>
+    <expired>Sesija ir beigusies</expired>
+    <no_mobile>Mobilā telefona numurs netika atrasts.</no_mobile>
+    <expired_msg>Nevar nosūtīt vai saglabāt nepabeigtās ziņas. Jūsu IP adrese ir mainīta vai sesijas laiks ir beidzies.</expired_msg>
+    <delete_account_confirmation>Noņemt konta apstiprināšanu</delete_account_confirmation>
+    <delete_account>Vai tiešām vēlaties dzēst kontu %s?</delete_account>
+    <recover_item>Vai esat pārliecināts, ka vēlaties atgūt atlasīto(-s) objektu(-s)?</recover_item>
+    <delete_folder_confirmation>Mapes dzēšanas apstiprināšana</delete_folder_confirmation>
+    <delete_folder>Vai esat pārliecināts, ka vēlaties dzēst mapi &quot;%s&quot;?&lt;br/&gt;(visas apakšmapes tiks neatgriezeniski izdzēstas)</delete_folder>
+    <delete_item_confirmation>Dzēšanas apstiprinājums</delete_item_confirmation>
+    <delete_item>Vai esat pārliecināts, ka vēlaties izdzēst izvēlēto(-s) objektu(-s)?</delete_item>
+    <delete_avatar>Current contact picture will be deleted</delete_avatar>
+    <blacklist_sender_confirmation>Melnā saraksta apstiprināšana</blacklist_sender_confirmation>
+    <blacklist_sender>Vai tiešām vēlaties ievietot melnajā sarakstā atlasītās(o) vienības(u) sūtītāju(s)?</blacklist_sender>
+    <blacklist_domain>Are you sure to blacklist all items from this domain?</blacklist_domain>
+    <blacklisted>Sūtītājs tika ievietots melnajā sarakstā</blacklisted>
+    <whitelist_sender_confirmation>Baltā saraksta apstiprinājums</whitelist_sender_confirmation>
+    <whitelist_sender>Vai tiešām vēlaties ievietot baltajā sarakstā atlasītās(o) vienības(u) sūtītāju(s)?</whitelist_sender>
+    <whitelist_domain>Are you sure to whitelist all items from this domain?</whitelist_domain>
+    <whitelisted>Sūtītājs tika ievietots baltajā sarakstā</whitelisted>
+    <empty_folder_confirmation>Tukšas mape apstiprinājums</empty_folder_confirmation>
+    <empty_folder>Vai tiešām vēlaties izdzēst visas vienības šajā mapē?</empty_folder>
+    <empty_to_trash>Vai tiešām vēlaties pārvietot visas vienības no mapes uz Miskasti?</empty_to_trash>
+    <save_title>Saglabāt ziņu</save_title>
+    <save_confirmation>Ziņa nav saglabāta. Vai vēlaties saglabāt šo ziņu melnrakstu mapē?</save_confirmation>
+    <save_file>Fails tika izmainīts. Saglabāt izmaiņas?</save_file>
+    <save>Saglabāt</save>
+    <discard>Nesaglabāt</discard>
+    <create_reading_confirmation_title>Izlasīšanas apstiprinājums</create_reading_confirmation_title>
+    <create_reading_confirmation>Sūtītājs ir pieprasījis izlasīšanas apstiprinājumu. Vai jūs vēlaties to nosūtīt?</create_reading_confirmation>
+    <send_reading_confirmation>Lūgt saņēmējam izlasīšanas apstiprinājumu?</send_reading_confirmation>
+    <browser_warning_title>Pārlūkprogrammas brīdinājums</browser_warning_title>
+    <browser_warning_text_unsupported>Jūsu pašreizējā pārlūkprogrammā NAV OFICIĀLI ATBALSTĪTA ar IceWarp WebKlientu.&#13;&#10;&#13;&#10;Lūdzu, ņemiet vērā, ka ar pašreizējo pārlūkprogrammu WebKlients varētu būt ārkārtīgi lēns un nelietojams.&#13;&#10;&#13;&#10;WebKlients ir optimizēts&#13;&#10; izmantošanai ar Firefox 4.0 (vai jaunāku) un Internet Explorer 8.0 (vai jaunāku). Mēs iesakām uzlabot Internet Explorer ar jaunāko versiju vai instalēt Mozilla Firefox (abi ir bezmaksas).&lt;br/&gt;&lt;br/&gt;&#13;&#10;&#13;&#10;Lai iegūtu jaunāko Firefox versiju, apmeklējiet:&#13;&#10; http://www.firefox.com/&#13;&#10;Lai iegūtu jaunāko Internet Explorer versiju, apmeklējiet:&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;Nospiediet Labi, lai turpinātu, vai nospiediet Atcelt, lai pārslēgtos uz WebKlienta planšetes interfeisu.</browser_warning_text_unsupported>
+    <expired_password>Jūsu paroles darbošanās termiņš ir beidzies. Lūdzu, nomainiet savu paroli tagad.</expired_password>
+    <authentication>Authentication Failure</authentication>
+    <authenticate>Drošības dēļ, jums ir nepieciešams autentificēties vēlreiz.</authenticate>
+    <enterpass>Ievadiet savu paroli un ieejiet, lai turpinātu darbu, vai atsakieties, lai izietu.</enterpass>
+    <secure>Lai novērstu šo problēmu turpmāk, lūdzu, izmantojiet WebKlientu vai HTTPS savienojumu.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>WebKlienta valoda tiks mainīta pēc atkārtotas pieteikšanās.</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Open in separate window</open_in_separate_window>
+    <help_restriction>Šī funkcija pašlaik nav ieslēgta ar administratoru.</help_restriction>
+    <switch_older>Switch to previous version of WebClient</switch_older>
+    <choose_interface>Izvēlieties vēlamo interfeisu</choose_interface>
+    <choose_lang>Izvēlieties savu valodu</choose_lang>
+    <migration_in_progress>Notiek migrācija, lūdzu, mēģiniet vēlreiz vēlāk</migration_in_progress>
+    <message_sent>Jūsu ziņa ir piegādāta</message_sent>
+    <message_send_failed>Ziņu neizdevās nosūtīt</message_send_failed>
+    <antispam_code_error>Drošības kods ir nepareizs</antispam_code_error>
+    <antispam>Drošības kods</antispam>
+    <contact_support_subject>Jauns kontaktpersonas pieprasījums no pieteikšanās ekrāna</contact_support_subject>
+    <text>Teksts</text>
+    <contact_administrator>Sazinieties ar mums, lai saņemtu atbalstu</contact_administrator>
+    <contact_question>Nepieciešama palīdzība?</contact_question>
+    <contact_answer>Sazinieties ar savu administratoru</contact_answer>
+    <contact_1>Sazinieties ar mūsu</contact_1>
+    <contact_2>administrators</contact_2>
+    <contact_placeholder_1>Jūsu e-pasts vai tālrunis</contact_placeholder_1>
+    <contact_placeholder_2>Aprakstiet savu problēmu</contact_placeholder_2>
+    <help>Audio help</help>
+    <meeting_me>Es</meeting_me>
+    <meeting_hang_up_confirmation>Vai jūs tiešām vēlaties atstāt šo sanāksmi?</meeting_hang_up_confirmation>
+    <online_meeting>WebMeeting</online_meeting>
+    <meeting_connected>Savienots</meeting_connected>
+    <meeting_connecting>Savieno...</meeting_connecting>
+    <phone_access>Tālruņa piekļuve</phone_access>
+    <meeting_chat_ready>Welcome to the WebMeeting! Group chat is ready.</meeting_chat_ready>
+    <meeting_chat_send>Sūtīt</meeting_chat_send>
+    <meeting_user_left_meeting>Lietotājs &quot;%s&quot; atstāja sanāksmi</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>Lietotājs &quot;%s&quot; pievienojās sanāksmei</meeting_user_joined_meeting>
+    <meeting_no_participants>Nav dalībnieku</meeting_no_participants>
+    <meeting_server_not_responding>Serveris neatbild</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Veiksmīgs savienojums</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Audio rīku nevar palaist. Ja te ir pārlūkprogrammas apstiprinājuma dialoglodziņš, apstipriniet ļaut palaist Java rīku. Dažos gadījumos var palīdzēt pārlūkprogrammas restartēšana. Jūs varat pārbaudīt Java atjauninājumu un vai tas ir pareizi uzstādīts, apmeklējot &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>Ilgums</duration>
+    <mute>Izslēgt skaņu</mute>
+    <desktop_sharing_id>Ekrāna koplietošanas sesijas ID</desktop_sharing_id>
+    <conference_phone_number>WebMeetings phone number</conference_phone_number>
+    <desktop_sharing_app>Screen-sharing application</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>Atvainojamies, ekrāna koplietošana tieši no Web nedarbojas mobilajām ierīcēm. Saitē zemāk varat atrast lietojumprogrammu tai.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>Atvainojamies, ekrāna koplietošana tieši no Web nedarbojas uz Mac. Jums vajadzēs instalēt lietojumprogrammu no saites zemāk.</desktop_sharing_mac_warning>
+    <continue_to_call>Turpināt zvanīt</continue_to_call>
+    <meeting_api_unexpected_response>Negaidīta API atbilde</meeting_api_unexpected_response>
+    <applet_unreachable>Java rīks nav sasniedzams</applet_unreachable>
+    <sip_applet_load_failed>Neizdevās ielādēt audio rīku</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Neizdevās iegūt informāciju par sanāksmi</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>Screen-sharing session has ended, but audio is still active</meeting_mikogo_ended>
+    <meeting_ended>WebMeeting ended</meeting_ended>
+    <meeting_hang_up>Nolikt klausuli</meeting_hang_up>
+    <meeting_id>Sanāksmes ID</meeting_id>
+    <meeting_mikogo_ready>Ekrāna koplietošana ir gatava</meeting_mikogo_ready>
+    <meeting_sip_ready>Audio ir gatavs</meeting_sip_ready>
+    <meeting_call_failed>Zvans neizdevās</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Uzaicinājuma laiks ir beidzies. Mēģiniet vēlreiz pēc %s sek.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Mēģiniet vēlreiz pēc %s sek.</meeting_trying_again_in>
+    <meeting_preparing_sip>Gatavo audio</meeting_preparing_sip>
+    <meeting_starting_sip>Sāk audio</meeting_starting_sip>
+    <meeting_waiting_for_reply>Audio rīks gaida servera atbildi</meeting_waiting_for_reply>
+    <meeting_in_progress>Notiek sanāksme</meeting_in_progress>
+    <meeting_you_can_join>You can now join the WebMeeting</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Sanāksmes rīks nav gatavs.</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>Nav sanāksmes rīka koda atbildē</meeting_no_applet_code>
+    <meeting_unexpected_response>Neparedzēta atbilde no sanāksmes rīka</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Your browser doesn&apos;t support WebMeetings</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>Chrome browser will provide the best experience. You will be redirected to the setup guide.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>The WebMeeting hasn&apos;t started yet</meeting_meeting_wasnt_started>
+    <meeting_waiting>Waiting for %s to start the WebMeeting</meeting_waiting>
+    <meeting_created_by_ready>WebMeeting created by %s is ready</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Ielādē sanāksmes datus</meeting_loading_meeting_info>
+    <unknown_error>Nezināma kļūda</unknown_error>
+    <meeting_no_name>Lūdzu, ievadiet savu vārdu vai segvārdu</meeting_no_name>
+    <meeting_api_error_104>Nepareizs sanāksmes ID</meeting_api_error_104>
+    <meeting_api_error_description_104>Sanāksmes adrese neeksistē vai ir nepilnīga</meeting_api_error_description_104>
+    <meeting_api_error_111>Šis pakalpojums ir atslēgts</meeting_api_error_111>
+    <meeting_api_error_120>Nevar izveidot savienojumu ar attālināto serveri</meeting_api_error_120>
+    <meeting_api_error_125>Server doesn&apos;t have a valid license for WebMeetings</meeting_api_error_125>
+    <meeting_id_doesnt_exist>Sanāksmes ID nepastāv</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Microphone not available</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Access to microphone is disabled or it is not connected. Do you wish to continue without microphone?</meeting__no_microphone_continue>
+    <fill_in_name>Ievadiet savu vārdu</fill_in_name>
+    <fill_in_email>Ievadiet savu e-pasta adresi</fill_in_email>
+    <join_meeting>Join WebMeeting</join_meeting>
+    <already_a_member>Jau ir dalībnieks</already_a_member>
+    <name>Vārds</name>
+    <enter_your_name>Ievadiet savu vārdu</enter_your_name>
+    <enter_your_name_description>This name will be visible to other participants and used to identify you during the WebMeeting</enter_your_name_description>
+    <cancel>Atcelt</cancel>
+    <login_caption>Esiet sveicināts IceWarp WebKlientā</login_caption>
+    <copy>Darbojas, izmantojot &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy>
+    <copy_new>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>IceWarp WebKlients</title>
+    <user>Lietotājvārds</user>
+    <email>E-pasta adrese</email>
+    <pass>Parole</pass>
+    <old_pass>Vecā parole</old_pass>
+    <new_pass>Jaunā parole</new_pass>
+    <check_pass>Apstipriniet paroli</check_pass>
+    <change_password>Mainīt paroli</change_password>
+    <remember>Atcerēties</remember>
+    <save0>Automātiskā pieteikšanās</save0>
+    <save1>Lietotājvārds un parole</save1>
+    <save2>Lietotājvārds</save2>
+    <save3>Vienmēr jautāt</save3>
+    <login>Pieteikšanās</login>
+    <send>Sūtīt</send>
+    <create_account>Izveidot kontu</create_account>
+    <switch>Pārslēgties uz &lt;a href=&quot;./basic&quot;&gt;Planšetes&lt;/a&gt; vai &lt;a href=&quot;./pda&quot;&gt;Mobilo&lt;/a&gt; interfeisu.</switch>
+    <downloads>Lejupielādes</downloads>
+    <interface>Interfeiss</interface>
+    <basic>Planšete</basic>
+    <pda>Mobilais</pda>
+    <pro>Darba virsma</pro>
+    <osx>Mac OS X</osx>
+    <lang>Valoda</lang>
+    <keep_me_signed>Atcerēties mani</keep_me_signed>
+    <utilities>Rīki</utilities>
+    <pw_policy_minlength>Minimālais paroles garums</pw_policy_minlength>
+    <pw_policy_digits>Skaits skaitlisko rakstzīmju parolē [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Alfabēta rakstzīmju skaits parolē [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>Ne alfabēta rakstzīmju skaits parolē [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>Pārbaudiet, vai parole attiecībā uz lietotājvārdu un aizstājvārdu ir aktivizēta</pw_policy_useralias>
+    <pw_policy_uppercase>Lielo alfabēta rakstzīmju skaits parolē [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>Parādīt virtuālo tastatūru</virtual_keyboard_01>
+    <virtual_keyboard_02>Izvēlieties tastatūras izkārtojumu</virtual_keyboard_02>
+    <virtual_keyboard_04>Ieslēgt</virtual_keyboard_04>
+    <virtual_keyboard_05>Izslēgt</virtual_keyboard_05>
+    <virtual_keyboard_06>Aizvērt tastatūru</virtual_keyboard_06>
+    <virtual_keyboard_07>Notīrīt</virtual_keyboard_07>
+    <virtual_keyboard_08>Notīrīt šo ievadi</virtual_keyboard_08>
+    <virtual_keyboard_10>Samazināt tastatūras izmēru</virtual_keyboard_10>
+    <virtual_keyboard_11>Palielināt tastatūras izmēru</virtual_keyboard_11>
+    <js_problem>Nevar palaist JavaScript</js_problem>
+    <public_calendar>Publiskais kalendārs</public_calendar>
+    <login_to_pro>Pieteikties darbvirsmas interfeisam</login_to_pro>
+    <login_to_basic>Pieteikties planšetdatora interfeisam</login_to_basic>
+    <login_to_pda>Pieteikties mobilajam interfeisam</login_to_pda>
+    <js_turned_off_message_text>Priekš labākas lietotāja pieredzes un uzlabotām funkcijām, mēs iesakām darbvirsmas interfeisu. Tas prasa JavaScript atbalstu. Pārbauda, vai ir aktivizēts JavaScript pārlūkprogrammas iestatījumos vai turpināt ar</js_turned_off_message_text>
+    <js_turned_off_message_link>Planšetes interfeiss</js_turned_off_message_link>
+    <learn_more>Uzziniet vairāk par visām funkcijām</learn_more>
+    <learn_more_short>Uzziniet vairāk</learn_more_short>
+    <login_back>Atpakaļ uz pieteikšanos</login_back>
+    <changepwd>Mainiet savu&lt;br/&gt; paroli</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Darbvirsma</advanced>
+    <basic>Planšete</basic>
+  </login_client>
+  <login_style>
+    <gray>Pelēks</gray>
+    <white>Balts</white>
+    <black>Grafīts</black>
+    <red>Sarkans</red>
+    <yellow>Dzeltens</yellow>
+    <green>Zaļš</green>
+    <blue>Zils</blue>
+    <purple>Violets</purple>
+    <orange>Oranžs</orange>
+    <brown>Brūns</brown>
+    <pink>Rozā</pink>
+  </login_style>
+  <skin_style>
+    <default>Blue</default>
+    <black>Black</black>
+    <brown>Brown</brown>
+    <graphite>Graphite</graphite>
+    <green>Green</green>
+    <orange>Orange</orange>
+    <pink>Pink</pink>
+    <purple>Purple</purple>
+    <red>Red</red>
+    <yellow>Yellow</yellow>
+  </skin_style>
+  <sign_up>
+    <question>Vai jums vēl nav konta?</question>
+    <answer>Izveidot kontu</answer>
+    <sign_up>Reģistrēties</sign_up>
+    <create_account>Ievadiet savu jauno konta informāciju.</create_account>
+    <fullname>Pilns vārds</fullname>
+    <domain>Domēns</domain>
+    <username>Lietotājvārds</username>
+    <alternative>Alternatīvā e-pasta adrese</alternative>
+    <captcha_error>Nepareizs drošības kods</captcha_error>
+    <pass_error>Norādītā parole netika pieņemta</pass_error>
+    <incorrect_error>Nepareizs lietotājvārds vai aizstājvārds</incorrect_error>
+    <exists_error>Konts jau pastāv</exists_error>
+    <error>Jaunu kontu nevar izveidot</error>
+    <account_created>Jaunais konts tika veiksmīgi izveidots</account_created>
+    <invalid_cpass>Nepareizs paroles apstiprinājums</invalid_cpass>
+    <confirm_pass>Apstiprināt</confirm_pass>
+    <password_change>Paroles maiņa</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Vai aizmirsāt savu paroli?</question>
+    <question_br>Vai aizmirsāt savu&lt;br/&gt; paroli?</question_br>
+    <title>Atkārtoti ievadiet savu&lt;br&gt; paroli</title>
+    <answer>Atkārtoti ievadiet to</answer>
+    <generate>Veiciet dubultklikšķi uz jauno drošības kodu</generate>
+    <captcha>Ierakstiet parādīto kodu</captcha>
+    <captcha_error>Nepareizs drošības kods</captcha_error>
+    <security_code>Drošības kods</security_code>
+    <reset_pass>Atkārtota paroles ievade</reset_pass>
+    <enter_alt_pass>Jūsu pieteikšanās informācija tiks nosūtīta uz jūsu e-pasta adresi un alternatīvo e-pasta adresi, ja tāda ir</enter_alt_pass>
+    <reset_send>Jūsu pieteikšanās informācija tika nosūtīta uz e-pasta adresi(-ēm) zemāk:</reset_send>
+    <reset_error>Norādītais konts nepastāv vai tā paroli nevar atgūt</reset_error>
+    <subject>Paroles atjaunošana kontam %EMAIL%</subject>
+    <email>Sveiki, %FULLNAME%,&#13;&#10;&#13;&#10;Vai jūs pieprasījāt atkārtoti ievadīt paroli savam kontam (%EMAIL%) WebKlientā?&#13;&#10;&#13;&#10;Noklikšķiniet uz tālāk esošās saites (vai nokopējiet un ielīmējiet to sava pārlūkprogrammā), lai apstiprinātu, ka šī e-pasta adrese pieder jums.&#13;&#10;%URL%&#13;&#10;&#13;&#10;Ja jūs neveicāt šo pieprasījumu vai šo ziņu saņēmāt kļūdas pēc, lūdzu, ignorējiet to.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Name already exists</duplicity>
+    <label>Document with the same name &quot;%s&quot; already exists.</label>
+    <suggested_name>Suggested name</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Apstrāde</processing>
+    <step1>1) Augšupielādējiet savu rezerves kopijas failu</step1>
+    <step2>2) Izvēlieties mērķa mapi</step2>
+    <step3>3) Izvēlieties kolonnas veidu importam</step3>
+    <step1e>Select source contact folder</step1e>
+    <step2e>Select export type</step2e>
+    <step_date>Select Date format</step_date>
+    <default_date>Default</default_date>
+    <charset>Rakstzīmju kopa</charset>
+    <skipfirst>Izlaist CSV pirmo rindu</skipfirst>
+    <email1>E-pasts 1</email1>
+    <email2>E-pasts 2</email2>
+    <email3>E-pasts 3</email3>
+    <phone1>Tālrunis 1</phone1>
+    <phone2>Tālrunis 2</phone2>
+    <phone3>Tālrunis 3</phone3>
+    <phone4>Tālrunis 4</phone4>
+    <phone_type1>Tālruņa veids 1</phone_type1>
+    <phone_type2>Tālruņa veids 2</phone_type2>
+    <phone_type3>Tālruņa veids 3</phone_type3>
+    <phone_type4>Tālruņa veids 4</phone_type4>
+    <import_successful>Importēšana ir veiksmīga</import_successful>
+    <import_unsuccessful>Importēšana neizdevās</import_unsuccessful>
+    <import_finished>Importēšana pabeigta. %s objekti tika izlaisti, jo radās kļūda.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Automātiski</auto>
+    <load>Ielādēt</load>
+    <import>Importēt</import>
+    <export>Eksportēt</export>
+    <unknown_ext>Nezināms paplašinājums</unknown_ext>
+    <download_csv_file>Lejupielādēt CSV failu ar kalendāra vienībām</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>Lejupielādēt</download_file>
+    <select_col>Atlasiet kādu kolonnu(-as) importēšanai</select_col>
+    <select_email>Atlasiet vismaz vienu e-pasta kolonnu</select_email>
+    <gw_xml_file>XML ar GroupWare rezerves kopiju</gw_xml_file>
+    <comma>CSV - Komats (,)</comma>
+    <semicolon>CSV - Semikols (;)</semicolon>
+    <colon>CSV - Kols (:)</colon>
+    <sharing>Piespiest koplietošanas režīmu</sharing>
+    <import_info>Supported file formats for upload</import_info>
+    <import_info_itm>CSV (comma, colon, semicolon separated), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Licences / Integrācija</license>
+    <licenses>Licences</licenses>
+    <out>Outlook sinhronizācija</out>
+    <desk>Darbvirsmas klients</desk>
+    <download>Lejupielādēt</download>
+    <key>Produkta aktivizēšanas atslēga (izmantot Kopēt un Ielīmēt)</key>
+    <nokey>Aktivizācijas atslēga šai lietojumprogrammai nav pieejama. Lai iegūtu detalizētu informāciju, sazinieties ar administratoru.</nokey>
+  </license>
+  <devices>
+    <device>Ierīce</device>
+    <device_model>Ierīces modelis</device_model>
+    <device_type>Ierīces veids</device_type>
+    <protocol>Protokols</protocol>
+    <registered>Reģistrēts</registered>
+    <lastsync>Pēdējā sinhronizācija</lastsync>
+    <factory>Atgriezties pie rūpnīcas iestatījumiem</factory>
+    <wipe>Attālināta dzēšana</wipe>
+    <wiping>Notiek attālināta dzēšana</wiping>
+    <nowipe>Attālināta dzēšana netiek atbalstīta</nowipe>
+    <reset>Dzēšana no jauna</reset>
+    <delete_confirmation>Ierīces dzēšana no saraksta radīs datu atkārtotu sinhronizāciju nākamā savienojumā (noderīgi, ja ierīcei pārtraukta atjaunināšana). Ja jūs tā vietā vēlaties izdzēst visus lietotāja/konta datus no ierīces, dodieties uz ierīces Īpašībām un noklikšķiniet uz Attālināta dzēšana.&lt;br/&gt;&lt;br/&gt;Vai tiešām vēlaties dzēst ierīci(-es) no saraksta?</delete_confirmation>
+    <wipe_confirmation>Attālināta dzēšana izdzēsīs visus lietotāja/konta datus no ierīces (un atmiņas kartes) un atgriezīs ierīci pie rūpnīcas iestatījumiem. Ierīcei jābūt darbojošs interneta pieslēgums.&lt;br/&gt;&lt;br/&gt;Vai tiešām vēlaties turpināt?</wipe_confirmation>
+    <options>Ierīces iespējas</options>
+    <folders>Mapes</folders>
+    <sync>Sinhronizācija</sync>
+    <private_folders>Personīgās mapes</private_folders>
+    <special_folders>Speciālās mapes</special_folders>
+    <gw_folders>GroupWare mapes</gw_folders>
+    <mail_folders>Pasta mapes</mail_folders>
+    <archive>Arhīvs</archive>
+    <public>Publiskas mapes</public>
+    <shared>Koplietojamās mapes</shared>
+    <past_mail>Iepriekšējās pasta vienības</past_mail>
+    <past_calendar>Iepriekšējie Kalendāra notikumi</past_calendar>
+    <sync_tase>Sinhronizēt uzdevumus kā kalendāra notikumus</sync_tase>
+    <sync_note>Sinhronizēt piezīmes kā</sync_note>
+    <all_folders>Visas mapes</all_folders>
+    <all_folders_mail>Visus ar GroupWare kā e-pastu</all_folders_mail>
+    <default_only>Tikai mapes pēc noklusējuma</default_only>
+    <sync_all>Visi</sync_all>
+    <one_day>Viena diena</one_day>
+    <three_days>Trīs dienas</three_days>
+    <one_week>Viena nedēļa</one_week>
+    <two_weeks>Divas nedēļas</two_weeks>
+    <one_month>Viens mēnesis</one_month>
+    <three_months>Trīs mēneši</three_months>
+    <six_months>Seši mēneši</six_months>
+    <inc_tasks>Tikai nepabeigtie uzdevumi</inc_tasks>
+    <new_cfolders>Jauna kalendāra mape</new_cfolders>
+    <merge_taks>Apvienot ar kalendāru pēc noklusējuma</merge_taks>
+    <events>Notikumi</events>
+    <tasks>Uzdevumi</tasks>
+    <inotes>Uzdevumi un piezīmes (Android programma)</inotes>
+    <new_folders>Jauna mape</new_folders>
+    <merge_default>Apvienot ar mapi pēc noklusējuma</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Folder Panel</leftpanel>
+    <rightpanel>WebChat Panel</rightpanel>
+    <share>Dalīties</share>
+    <new_document>Izveidot dokumentu</new_document>
+    <new_message>New from Template</new_message>
+    <devices>Mobilās ierīces</devices>
+    <vcard>Mana informācija</vcard>
+    <basic>Pārslēgt uz planšetdatora interfeisu</basic>
+    <old_client>Pārslēgt uz veco interfeisu</old_client>
+    <search>Meklēt</search>
+    <filter>Filtrs</filter>
+    <new>Jauns</new>
+    <print>Drukāt</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Iestatījumi</settings>
+    <accounts>Konti</accounts>
+    <logout>Iziet</logout>
+    <logout_title>Ctrl + klikšķis, lai izietu</logout_title>
+    <update>Saņemt jaunu</update>
+    <compose>Izveidot</compose>
+    <new_contact>Kontaktpersona</new_contact>
+    <new_template>Message Template</new_template>
+    <new_distrib_list>Adresātu saraksts</new_distrib_list>
+    <new_event>Tikšanās</new_event>
+    <new_journal>Žurnāls</new_journal>
+    <new_note>Piezīme</new_note>
+    <new_task>Uzdevums</new_task>
+    <new_file>Fails</new_file>
+    <new_upload>Augšupielādēt failu</new_upload>
+    <new_word>Word dokuments</new_word>
+    <new_excel>Excel izklājlapa</new_excel>
+    <new_ppoint>PowerPoint prezentācija</new_ppoint>
+    <new_text>Teksta dokuments</new_text>
+    <new_html>HTML dokuments</new_html>
+    <new_folder>Mape</new_folder>
+    <reply_to_sender>Atbildēt</reply_to_sender>
+    <reply_to_all>Atbildēt visiem</reply_to_all>
+    <reply_to_sender_t>Reply with Template</reply_to_sender_t>
+    <reply_to_all_t>Reply to All with Template</reply_to_all_t>
+    <forward>Pārsūtīt</forward>
+    <delete>Izdzēst</delete>
+    <empty_folder>Tukša mape</empty_folder>
+    <day_view>Diena</day_view>
+    <week_view>Nedēļa</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Mēnesis</month_view>
+    <dial>Zvanīt tagad</dial>
+    <sms>Sūtīt SMS</sms>
+    <calls>Zvanīt</calls>
+    <conference>WebMeeting</conference>
+    <contacts_list>Saraksts</contacts_list>
+    <events_list>Saraksts</events_list>
+    <address_card>Adrešu kartītes</address_card>
+    <tasks_lists>Saraksts</tasks_lists>
+    <tasks_detailed>Detalizēts saraksts</tasks_detailed>
+    <active_tasks>Aktīvie uzdevumi</active_tasks>
+    <journal_day_view>Diena</journal_day_view>
+    <journal_week_view>Nedēļa</journal_week_view>
+    <journal_month_view>Mēnesis</journal_month_view>
+    <journal_list>Saraksts</journal_list>
+    <notes_list>Saraksts</notes_list>
+    <options>Iespējas</options>
+    <admin_options>Administratora iespējas</admin_options>
+    <domain_options>Domēna iespējas</domain_options>
+    <tools>Rīki</tools>
+    <deliver>Piegādāt</deliver>
+    <quarantine>Karantīna</quarantine>
+    <black_list>Pārvietot uz melno sarakstu</black_list>
+    <white_list>Pārvietot uz balto sarakstu</white_list>
+    <black_listed>Ievietots melnajā sarakstā</black_listed>
+    <white_listed>Ievietots baltajā sarakstā</white_listed>
+    <rules>Noteikumi</rules>
+    <help>Palīdzība</help>
+  </main_menu>
+  <short_days>
+    <monday>Pr</monday>
+    <tuesday>Ot</tuesday>
+    <wednesday>Tr</wednesday>
+    <thursday>Ce</thursday>
+    <friday>Pk</friday>
+    <saturday>Se</saturday>
+    <sunday>Sv</sunday>
+  </short_days>
+  <days>
+    <monday>Pirmdiena</monday>
+    <tuesday>Otrdiena</tuesday>
+    <wednesday>Trešdiena</wednesday>
+    <thursday>Ceturtdiena</thursday>
+    <friday>Piektdiena</friday>
+    <saturday>Sestdiena</saturday>
+    <sunday>Svētdiena</sunday>
+  </days>
+  <months>
+    <january>Janvāris</january>
+    <february>Februāris</february>
+    <march>Marts</march>
+    <april>Aprīlis</april>
+    <may>Maijs</may>
+    <june>Jūnijs</june>
+    <july>Jūlijs</july>
+    <august>Augusts</august>
+    <september>Septembris</september>
+    <october>Oktobris</october>
+    <november>Novembris</november>
+    <december>Decembris</december>
+  </months>
+  <short_months>
+    <january>Jan</january>
+    <february>Feb</february>
+    <march>Mar</march>
+    <april>Apr</april>
+    <may>Mai</may>
+    <june>Jūn</june>
+    <july>Jūl</july>
+    <august>Aug</august>
+    <september>Sep</september>
+    <october>Okt</october>
+    <november>Nov</november>
+    <december>Dec</december>
+  </short_months>
+  <dates>
+    <every>Katru</every>
+    <secondly>sekunde</secondly>
+    <minutely>minūte</minutely>
+    <hour>stunda</hour>
+    <day>diena</day>
+    <weeks>weeks</weeks>
+    <month>mēnesis</month>
+    <year>gads</year>
+    <the>the</the>
+    <first>pirmais</first>
+    <last>pēdējais</last>
+    <second>otrais</second>
+    <third>trešais</third>
+    <fourth>ceturtais</fourth>
+    <firth>piektais</firth>
+    <postfix>-ais</postfix>
+    <except>izņemot</except>
+    <on>on</on>
+    <mondays>Pirmdienas</mondays>
+    <tuesdays>Otrdienas</tuesdays>
+    <wednesdays>Trešdienas</wednesdays>
+    <thursdays>Ceturtdienas</thursdays>
+    <fridays>Piektdienas</fridays>
+    <saturdays>Sestdienas</saturdays>
+    <sundays>Svētdienas</sundays>
+    <yearday>gada diena</yearday>
+    <in>in</in>
+    <week>nedēļa</week>
+    <week2>Nedēļa</week2>
+    <at>at</at>
+    <and>un</and>
+    <from>no</from>
+    <until>līdz</until>
+    <times>atkārtojas %s reizes</times>
+  </dates>
+  <form_buttons>
+    <revision>Veikt pārskatīšanu</revision>
+    <skip>Izlaist</skip>
+    <refresh>Atjaunināt</refresh>
+    <retrieve>Atgūt</retrieve>
+    <inherit>Pārņemt saistības</inherit>
+    <accept>Piekrist</accept>
+    <decline>Atteikties</decline>
+    <ok>Labi</ok>
+    <close>Aizvērt</close>
+    <retry>Atkārtot</retry>
+    <test>Tests</test>
+    <cancel>Atcelt</cancel>
+    <rename>Pārdēvēt</rename>
+    <rewrite>Rewrite</rewrite>
+    <rewrite_all>Rewrite All</rewrite_all>
+    <save>Saglabāt</save>
+    <dont>Neveikt</dont>
+    <add>Pievienot</add>
+    <edit>Rediģēt</edit>
+    <find>Find</find>
+    <add_file>Pievienot failu</add_file>
+    <add_item>Pievienot objektu</add_item>
+    <remove>Nodzēst</remove>
+    <address_book>Adrešu grāmata</address_book>
+    <search>Meklēt</search>
+    <new_folder>Jauna mape</new_folder>
+    <map_it>Parādīt kartē</map_it>
+    <sign_in>Ieiet</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Iepriekšējā mape</step1>
+    <create_new_folder>Izveidot jaunu mapi</create_new_folder>
+    <create_error>Mape jau pastāv vai to nevar izveidot.</create_error>
+    <name>Nosaukums</name>
+    <type>Veids</type>
+    <channel>Kanāls</channel>
+    <sharetype>Apply to</sharetype>
+    <all>All Folders</all>
+    <private>Private folders</private>
+    <selected>Selected folders</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Lietotājvārds</username>
+    <password>Parole</password>
+    <protocol>Protokols</protocol>
+    <server>Serveris</server>
+    <server_proxy>Serveris/Proxy</server_proxy>
+    <port>Ports</port>
+    <extension>Extension</extension>
+    <description>Apraksts</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Pārvaldīt saturu</item_actions>
+    <recovery>Atgūt izdzēstās vienības</recovery>
+    <add_virtual>Izveidot jaunu meklēšanas mapi</add_virtual>
+    <edit_virtual>Rediģēt meklēšanas mapi</edit_virtual>
+    <add_favorites>Pievienot izlasei</add_favorites>
+    <sharing>Koplietošana un tiesības</sharing>
+    <change_channel>Pārvaldīt RSS kanālus</change_channel>
+    <subscribe>Sinhronizēt</subscribe>
+    <subscribed>Sinhronizēts</subscribed>
+    <add_folder>Izveidot jaunu mapi</add_folder>
+    <add_shared_account>Pievienot koplietojamo kontu</add_shared_account>
+    <delete_folder>Dzēst mapi</delete_folder>
+    <unsubscribe_folder>Unsubscribe folder</unsubscribe_folder>
+    <move_folder>Pārvietot mapi</move_folder>
+    <move_folder_into>Pārvietot mapi uz</move_folder_into>
+    <rename_folder>Pārdēvēt mapi</rename_folder>
+    <remove_account>Nodzēst kontu</remove_account>
+    <sent_folder>Izvēlieties nosūtīto mapi</sent_folder>
+    <select_folder>Izvēlieties mapi</select_folder>
+    <mark_all_as_read>Atzīmēt kā lasītu</mark_all_as_read>
+    <default>Iestatīt kā noklusējumu</default>
+    <export>Eksportēt mapi</export>
+    <color>Color</color>
+    <move_default>Are you sure you want to move default folder?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>Visu</all>
+    <pdf>PDF</pdf>
+    <play_sound>Play</play_sound>
+    <attachments>Pielikumi</attachments>
+    <upload>Augšupielādēt</upload>
+    <download>Lejupielādēt</download>
+    <download_all>Lejupielādēt visus</download_all>
+    <open_window>Atvērt logā</open_window>
+    <import>Importēt uz WebKlientu</import>
+    <import_error>Neatbalstīts objekta veids</import_error>
+    <remove>Nodzēst</remove>
+    <remove_all>Nodzēst visas</remove_all>
+    <add_item>Pievienot no WebKlienta</add_item>
+    <link_dropbox>Saite uz Dropbox</link_dropbox>
+    <view>Skatīt</view>
+    <save>Lejupielādēt</save>
+    <save_all>Lejupielādēt visu</save_all>
+    <save_to_folder>Saglabāt uz WebKlientu</save_to_folder>
+    <show_images>Priekšskatīt attēlus</show_images>
+    <show_image>Priekšskatīt attēlu</show_image>
+    <show_text>Vienkārša teksta ziņa</show_text>
+    <show_headers>Visas galvenes</show_headers>
+    <show_cert>Rādīt sertifikātu</show_cert>
+    <append_cert>Pievienot kontaktpersonai</append_cert>
+    <dropzone>&lt; Nometiet failus te &gt;</dropzone>
+    <drop_holder>Novilktie un nomestie faili te...</drop_holder>
+    <quick_add>Ātrā augšupielāde...</quick_add>
+    <quick_contact>Drop vCard file here...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Dropbox kļūda</erroralert>
+    <missingkey>Dropbox nav konfigurēts. Vispirms administratoram nepieciešams iestatīt Dropbox integrāciju.</missingkey>
+    <unavailable>Dropbox īslaicīgi nav pieejams un būs atslēgts līdz nākamai pieslēgšanās reizei.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Convert to HTML</convert_item>
+    <source>Source</source>
+    <send_notify>Paziņot par izmaiņām</send_notify>
+    <recover>Atgūt</recover>
+    <new>Jauns</new>
+    <delivery_report>Piegādes atskaite</delivery_report>
+    <properties>Īpašības</properties>
+    <doc_management>Dokumenta īpašības</doc_management>
+    <open>Atvērt</open>
+    <open_pdf>Open as PDF</open_pdf>
+    <open_window>Atvērt logā</open_window>
+    <edit>Rediģēt</edit>
+    <reply_to_sender>Atbildēt</reply_to_sender>
+    <reply_to_all>Atbildēt visiem</reply_to_all>
+    <forward>Pārsūtīt</forward>
+    <forward_as_message>Pārsūtīt kā pielikumu</forward_as_message>
+    <redirect>Novirzīt</redirect>
+    <mark_as_read>Atzīmēt kā lasītu</mark_as_read>
+    <mark_as_unread>Atzīmēt kā nelasītu</mark_as_unread>
+    <move_mail_to>Pārvietot uz mapi</move_mail_to>
+    <copy_mail_to>Kopēt uz mapi</copy_mail_to>
+    <delete>Dzēst</delete>
+    <delete_selected>Dzēst atlasītos</delete_selected>
+    <open_item>Atvērt</open_item>
+    <move_item_to>Pārvietot uz mapi</move_item_to>
+    <copy_item_to>Kopēt uz mapi</copy_item_to>
+    <new_distriblist>Jaunu adresātu saraksts</new_distriblist>
+    <save_as>Saglabāt kā...</save_as>
+    <html>HTML</html>
+    <text>Teksts</text>
+    <eml>EML</eml>
+    <download_vcalendar>Saglabāt kā vCalendar</download_vcalendar>
+    <download_vcard>Saglabāt kā vCard</download_vcard>
+    <download_vnote>Saglabāt kā vNote</download_vnote>
+    <download_file>Lejupielādēt</download_file>
+    <open_office>Atvērt Ofisā</open_office>
+    <deliver>Piegādāt</deliver>
+    <black_list>Melnais saraksts</black_list>
+    <white_list>Baltais saraksts</white_list>
+    <blacklist_sender>Ievietot sūtītāju melnajā sarakstā</blacklist_sender>
+    <blacklist_domain>Blacklist whole Domain</blacklist_domain>
+    <whitelist_sender>Baltā saraksta sūtītājs</whitelist_sender>
+    <whitelist_domain>Whitelist whole Domain</whitelist_domain>
+    <send_as_email>Sūtīt kā e-pastu</send_as_email>
+    <send_email_to>Sūtīt ziņu</send_email_to>
+    <add_to_contacts>Izveidot jaunu kontaktpersonu</add_to_contacts>
+    <add_to_exist_contacts>Pievienot esošai kontaktpersonai</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Pievienot Kontaktpersonu mapei</add_contact>
+    <add_im>Add to WebChat Contact List</add_im>
+    <add_to_im>Add to WebChat</add_to_im>
+    <add>Pievienot...</add>
+    <manage_sender>Pārvaldīt sūtītāju...</manage_sender>
+    <invite_appointment>Uzaicināt uz tikšanos</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Pievienot sertifikātu kontaktam</cert_to_contact>
+    <contacts>Kontaktpersona</contacts>
+    <mandatorydetails>Please fill in your contact details</mandatorydetails>
+    <im>WebChat Roster</im>
+    <skip_delete>Nejautājiet man vēlreiz</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>Nav krāsas</none>
+    <color>Krāsa</color>
+    <white_flag>Balta atzīme</white_flag>
+    <red_flag>Sarkana atzīme</red_flag>
+    <blue_flag>Zila atzīme</blue_flag>
+    <yellow_flag>Dzeltena atzīme</yellow_flag>
+    <green_flag>Zaļa atzīme</green_flag>
+    <orange_flag>Oranža atzīme</orange_flag>
+    <purple_flag>Violeta atzīme</purple_flag>
+    <flag_complete>Atzīme pabeigta</flag_complete>
+    <clear_flag>Noņemt atzīmi</clear_flag>
+    <important>Svarīgs</important>
+    <business>Darbs</business>
+    <personal>Privāts</personal>
+    <vacation>Atvaļinājums</vacation>
+    <must_attend>Jāapmeklē</must_attend>
+    <travel_required>Nepieciešams ceļot</travel_required>
+    <needs_preparation>Nepieciešama sagatavošanās</needs_preparation>
+    <birthday>Dzimšanas diena</birthday>
+    <anniversary>Gadadiena</anniversary>
+    <phone_call>Tālruņa zvans</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Pievienot jaunu e-pasta kontu</add_account>
+    <delete_account>Dzēst kontu</delete_account>
+    <edit_account>Rediģēt kontu</edit_account>
+    <validating>Apstiprina kontu...</validating>
+    <invalid>Konts nav pareizs</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Inbox</inbox>
+    <drafts>Melnraksti</drafts>
+    <sent>Nosūtīts</sent>
+    <trash>Miskaste</trash>
+    <spam>Surogātpasts</spam>
+    <templates>Templates</templates>
+    <quarantine>Karantīna</quarantine>
+    <spam_queue>Filtri</spam_queue>
+    <spam_queue-whitelist>Baltais saraksts</spam_queue-whitelist>
+    <spam_queue-blacklist>Melnais saraksts</spam_queue-blacklist>
+    <virtual-folders>Meklēt mapes</virtual-folders>
+    <gw-trash>Atgūtās vienības</gw-trash>
+    <calendars>Daudzkārtīgs kalendārs</calendars>
+  </common_folders>
+  <folders>
+    <mails>Pasts</mails>
+    <contacts>Kontaktpersonas</contacts>
+    <events>Kalendārs</events>
+    <tasks>Uzdevumi</tasks>
+    <notes>Piezīmes</notes>
+    <journal>Žurnāls</journal>
+    <files>Dokumenti</files>
+    <home>Sākums</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>Pasts</mail>
+    <contact>Kontaktpersona</contact>
+    <event>Kalendārs</event>
+    <journal>Žurnāls</journal>
+    <note>Piezīme</note>
+    <task>Uzdevums</task>
+    <file>Fails</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>Jūs nevarat pārvietot šo mapi</cantmove>
+    <cantrename>Jūs nevarat pārdēvēt šo mapi</cantrename>
+    <cantdelete>Jūs nevarat dzēst šo mapi</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Pielikumi</attachments>
+    <to>Kam</to>
+    <subject>Temats</subject>
+    <nosubject>Nav temata</nosubject>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <body>Saturs</body>
+    <from>No</from>
+    <date>Datums</date>
+    <size>Izmērs</size>
+    <type>Veids</type>
+    <itmclassifyas>Kontaktpersonas vārds</itmclassifyas>
+    <phone>Tālrunis</phone>
+    <itmcompany>Uzņēmums</itmcompany>
+    <itmdepartment>Departaments</itmdepartment>
+    <contact_email>E-pasts</contact_email>
+    <expires>Darbošanās termiņš beidzas</expires>
+    <itmcategory>Atzīmes</itmcategory>
+    <evntitle>Virsraksts</evntitle>
+    <itmtitle>Virsraksts</itmtitle>
+    <itmoriginalfolder>Sākotnējā mape</itmoriginalfolder>
+    <itm_deleted>Izdzēsts</itm_deleted>
+    <item_moved>Izdzēsts</item_moved>
+    <evnlocation>Atrašanās vieta</evnlocation>
+    <upcoming>Gaidāmais</upcoming>
+    <event_startdate>Sākas</event_startdate>
+    <event_enddate>Beidzas</event_enddate>
+    <evntype>Atzīmes</evntype>
+    <evncontact>Kontaktpersonas</evncontact>
+    <evnstatus>Statuss</evnstatus>
+    <task_startdate>Sākuma datums</task_startdate>
+    <task_enddate>Izpildes datums</task_enddate>
+    <sndemail>Sūtītājs</sndemail>
+    <sndowner>Īpašnieks</sndowner>
+    <snddomain>Domēns</snddomain>
+    <sndsubject>Temats</sndsubject>
+    <revised_by>Pārskatīts ar</revised_by>
+    <comment>Komentārs</comment>
+    <qdate>Datums</qdate>
+    <name>Vārds</name>
+    <evnfilename>Faila nosaukums</evnfilename>
+    <evnnote>Apraksts</evnnote>
+    <evn_modified>Pārveidots</evn_modified>
+    <evnfilesize>Izmērs</evnfilesize>
+    <lctphnwork1>Darba tālrunis</lctphnwork1>
+    <lctphnfaxwork>Darba fakss</lctphnfaxwork>
+    <lctphnhome1>Mājas tālrunis</lctphnhome1>
+    <lctphnmobile>Mobilais tālrunis</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Publisks URL</public>
+    <share>Dalīties ar saiti</share>
+    <ticket>Cits</ticket>
+    <revisions>Pārskatījumi</revisions>
+    <revert>Atgriezties</revert>
+    <edit_comment>Rediģēt komentāru</edit_comment>
+    <new_revision>Veikt pārskatīšanu</new_revision>
+  </item>
+  <event_view>
+    <week_label>Nedēļa</week_label>
+    <notitle>Nav virsraksta</notitle>
+    <private>Nepieejams</private>
+    <newappointment>Jauna tikšanās</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Lasīt: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Jūsu ziņa ir izlasīta. &#13;&#10;&#13;&#10;Ziņas detaļas:&#13;&#10;&#13;&#10;No: %FROM%&#13;&#10;Kam: %TO%&#13;&#10;Datums: %DATE%&#13;&#10;Temats: %SUBJECT%</reading_confirmation>
+    <reply_message>-----Pārsūtītā vēstule-----</reply_message>
+    <reply_message_html>-----Pārsūtītā vēstule-----</reply_message_html>
+    <from>No:</from>
+    <to>Kam:</to>
+    <cc>Cc:</cc>
+    <date>Datums:</date>
+    <subject>Temats:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>Kgs</mr>
+    <mrs>Kdze</mrs>
+    <miss>Jkdze</miss>
+    <ms>Kdze</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Jaunākais</jr>
+    <sr>Vecākais</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Vārds uz ekrāna</displayname>
+    <avatar>Attēls</avatar>
+    <contact>Kontaktpersona</contact>
+    <general>Vispārējs</general>
+    <profile>Profils</profile>
+    <personal>Privāts</personal>
+    <business>Darbs</business>
+    <other_l>Cits</other_l>
+    <other>Piezīme</other>
+    <contact_name>Rādīt kā</contact_name>
+    <sort_as>Kārtot kā</sort_as>
+    <first_name>Pirmais vārds</first_name>
+    <middle_name>Otrais vārds</middle_name>
+    <last_name>Uzvārds</last_name>
+    <nick_name>Segvārds</nick_name>
+    <full_name>Pilns vārds un uzvārds</full_name>
+    <title>Virsraksts</title>
+    <suffix>Sufikss</suffix>
+    <category>Atzīmes</category>
+    <email_address>E-pasta adrese</email_address>
+    <birthdate>Dzimšanas diena</birthdate>
+    <anniversary>Gadadiena</anniversary>
+    <spouse>Laulātais</spouse>
+    <gender>Dzimums</gender>
+    <company>Uzņēmums</company>
+    <job>Nodarbošanās</job>
+    <profession>Profesija</profession>
+    <department>Departaments</department>
+    <assistant>Asistents</assistant>
+    <manager>Vadītājs</manager>
+    <office_location>Biroja atrašanās vieta</office_location>
+    <email1>E-pasts 1</email1>
+    <email2>E-pasts 2</email2>
+    <email3>E-pasts 3</email3>
+    <im>IM</im>
+    <phone>Tālrunis</phone>
+    <phones>Tālrunis(-ņi)</phones>
+    <male>Vīrietis</male>
+    <female>Sieviete</female>
+    <street>Iela</street>
+    <city>Pilsēta</city>
+    <zip>ZIP</zip>
+    <state>Štats</state>
+    <country>Valsts</country>
+    <home_address>Mājas adrese</home_address>
+    <business_address>Darba adrese</business_address>
+    <other_address>Cita adrese</other_address>
+    <homepage>Mājas lapa</homepage>
+    <calendar_url>Brīvs/Aizņemts URL</calendar_url>
+    <share_type>Koplietošanas veids</share_type>
+    <address>Adrese</address>
+    <web>Web</web>
+    <notes>Piezīme</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Adresātu saraksts</distrib_list>
+    <general>Vispārējs</general>
+    <members>Dalībnieki</members>
+    <title>Virsraksts</title>
+    <category>Atzīmes</category>
+    <add_title>Pievienot</add_title>
+    <edit_title>Rediģēt</edit_title>
+    <name>Vārds</name>
+    <email>E-pasts</email>
+  </distrib_list>
+  <time_interval>
+    <from>No</from>
+    <to>Kam</to>
+    <duration>Ilgums</duration>
+    <all_day_event>Visas dienas notikums</all_day_event>
+    <days>Dienas</days>
+    <change_default>Mainīt laika joslu pēc noklusējuma</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>Šī vienība atkārtojas</title_edit>
+    <text_edit>Mainīt tikai šo, visus sērijās vai šo un visus sekojošos?</text_edit>
+    <title_delete>Šī vienība atkārtojas</title_delete>
+    <text_edit_2>Mainīt tikai šo vai visus sērijās?</text_edit_2>
+    <text_delete>Nodzēst tikai šo vai visus sērijā?</text_delete>
+    <btn_this>Tikai šo vienu</btn_this>
+    <btn_all>Visus sērijā</btn_all>
+    <btn_allfromnow>Visus sekojošos</btn_allfromnow>
+    <btn_cancel>Atcelt</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Decline reason</reason>
+    <event>Tikšanās</event>
+    <general>Vispārējs</general>
+    <repeating>Atkārtojas</repeating>
+    <schedule>Grafiks</schedule>
+    <reminders>Atgādinājumi</reminders>
+    <onlinemeeting>WebMeeting</onlinemeeting>
+    <startmeeting>Sākt tagad</startmeeting>
+    <joinmeeting>Pievienoties tagad</joinmeeting>
+    <title>Virsraksts</title>
+    <location>Atrašanās vieta</location>
+    <category>Atzīmes</category>
+    <notes>Piezīmes</notes>
+    <timezone>Laika josla</timezone>
+    <show_as>Rādīt kā</show_as>
+    <free>Brīvs</free>
+    <busy>Aizņemts</busy>
+    <tentative>Pagaidu</tentative>
+    <out_of_office>Nav uz vietas</out_of_office>
+    <unknown>Nav informācijas</unknown>
+    <label>Apzīmējums</label>
+    <meeting_hint>Izveidot un pievienoties sanāksmēm, koplietot ekrānu</meeting_hint>
+    <high>Augsta:</high>
+    <low>Zema:</low>
+  </event>
+  <file>
+    <file>Fails</file>
+    <expire>Darbošanās termiņš beidzas %s</expire>
+    <name>Faila nosaukums</name>
+    <lock>Slēgt</lock>
+    <unlock>Atslēgt</unlock>
+    <locked>Slēgts</locked>
+    <unlocked>Atslēgts</unlocked>
+    <locked_by>Fails slēgts ar %s</locked_by>
+    <blank_doc>Dokuments</blank_doc>
+    <description>Apraksts</description>
+    <new_doc>Tukšs fails</new_doc>
+    <converting>Document conversion in progress.</converting>
+  </file>
+  <note>
+    <note>Piezīme</note>
+    <category>Atzīmes</category>
+    <title>Virsraksts</title>
+    <general>Vispārējs</general>
+  </note>
+  <task>
+    <task>Uzdevums</task>
+    <attendees>Dalībnieki</attendees>
+    <status>Statuss</status>
+    <complete>Pabeigts</complete>
+    <repeating>Atkārtošana</repeating>
+    <reminders>Atgādinājumi</reminders>
+    <general>Vispārējs</general>
+    <title>Virsraksts</title>
+    <start_date>Sākuma datums</start_date>
+    <due_date>Izpildes datums</due_date>
+    <category>Atzīmes</category>
+    <not_started>Nav sācies</not_started>
+    <in_progress>Notiek</in_progress>
+    <completed>Pabeigts</completed>
+    <deferred>Atlikts</deferred>
+    <waiting>Gaida vēl kādu citu</waiting>
+    <done>Ir izdarīts</done>
+  </task>
+  <blackwhite>
+    <black>Melnais saraksts</black>
+    <white>Baltais saraksts</white>
+    <email>E-pasts/Domēns</email>
+  </blackwhite>
+  <compose>
+    <template>Template</template>
+    <newmail>Ziņa</newmail>
+    <send>Sūtīt</send>
+    <sendinfo>Sūtīt ziņu</sendinfo>
+    <save>Saglabāt</save>
+    <saveinfo>Saglabāt ziņu pie melnrakstiem</saveinfo>
+    <options>Iespējas</options>
+    <advanced>Papildiespējas</advanced>
+    <html>HTML</html>
+    <text>Teksts</text>
+    <sms>SMS</sms>
+    <compose_sms>Izveidot SMS</compose_sms>
+    <sms_preview>SMS Priekšskatījums</sms_preview>
+    <sms_info>%s rakstzīmes %s ziņā</sms_info>
+    <smartattach>SmartAttach</smartattach>
+    <smartattachinfo>Pielikumi tiks saglabāti WebKlienta dokumentos un aizstāti ar lejupielādētām saitēm e-pasta saturā.</smartattachinfo>
+    <readconfirmationinfo>Saņemt apstiprinājumu, ka adresāts ir izlasījis šo ziņu</readconfirmationinfo>
+    <show_all>Rādīt visus ierakstus</show_all>
+    <signinfo>Elektroniski parakstīt ziņu</signinfo>
+    <encryptinfo>Šifrēt ziņu</encryptinfo>
+    <priorityinfo>Iestatīt ziņas prioritāti</priorityinfo>
+    <subject_empty>Ziņai nav temata.&lt;br&gt;Tomēr sūtīt?</subject_empty>
+    <rcp_empty>Pievienot kādu kam sūtīt pastu.</rcp_empty>
+    <optionstitle>Ziņas iespējas</optionstitle>
+    <encrypt>Šifrēt ziņu</encrypt>
+    <sign>Elektroniski parakstīt ziņu</sign>
+    <nosign>Nepareizs sertifikāts parakstam.&lt;br&gt;Sūtīt neparakstītu?</nosign>
+    <delivery_report>Parādīt piegādes atskaiti</delivery_report>
+    <reply_to>Atbildēt uz adresi</reply_to>
+    <upload_file>Pievienot no lokālā diska</upload_file>
+    <upload_item>Pievienot no WebKlienta</upload_item>
+  </compose>
+  <sharing>
+    <public>Publisks</public>
+    <private>Privāts</private>
+    <anonymous>Anonīms/Visi</anonymous>
+    <custom>Izvēles</custom>
+    <inherited>Pārņēmis saistības</inherited>
+    <none>Neviens</none>
+    <enter_address>Ievadiet adresi</enter_address>
+    <permissions>Tiesības</permissions>
+    <user>Lietotājs</user>
+    <items>Vienības</items>
+    <folder>Mape</folder>
+    <administration>Administrēšana</administration>
+  </sharing>
+  <time>
+    <hours>Stunda(-s)</hours>
+    <minutes>Minūte(-s)</minutes>
+    <days>Diena(-s)</days>
+    <oneday>diena</oneday>
+    <moredays>dienas</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Izvēlēties kontaktpersonas</select_emails>
+    <add>Pievienot</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Meklēt</placeholder>
+    <tags>Atzīmes</tags>
+    <used>Izmantojas</used>
+    <hint>Izmantojas ar %s vienību(-ām)</hint>
+    <selected>Atlasīts</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Mājas 1</lctphnhome1>
+    <lctphnhome2>Mājas 2</lctphnhome2>
+    <lctphnassistant>Asistents</lctphnassistant>
+    <lctphnwork1>Darba 1</lctphnwork1>
+    <lctphnwork2>Darba 2</lctphnwork2>
+    <lctphnfaxhome>Fakss mājās</lctphnfaxhome>
+    <lctphnfaxwork>Fakss darbā</lctphnfaxwork>
+    <lctphncallback>Atzvans</lctphncallback>
+    <lctphncompany>Uzņēmums</lctphncompany>
+    <lctphncar>Automašīna</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>Mobilais</lctphnmobile>
+    <lctphnother>Cits</lctphnother>
+    <lctphnotherfax>Cits fakss</lctphnotherfax>
+    <lctphnpager>Peidžers</lctphnpager>
+    <lctphnprimary>Galvenais</lctphnprimary>
+    <lctphnradio>Radio</lctphnradio>
+    <lctphntelex>Telekss</lctphntelex>
+    <lctphnhearing>Dzirdamības</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>Diena</day>
+    <week>Nedēļa</week>
+    <week_of_month>Mēneša nedēļa</week_of_month>
+    <month_of_year>Gada mēnesis</month_of_year>
+    <month>Mēnesis</month>
+    <year>Gads</year>
+    <year_s>gads(-i)</year_s>
+    <repeats>Atkārtot katru:</repeats>
+    <not_repeats>Neatkārtot</not_repeats>
+    <end_date>Beigu datums:</end_date>
+    <no_end>Nav beigu datuma</no_end>
+    <until>Līdz</until>
+    <count>Skaits</count>
+    <daily>Ik dienu</daily>
+    <weekly>Ik nedēļu</weekly>
+    <monthly>Ik mēnesi</monthly>
+    <yearly>Ik gadu</yearly>
+    <every>Katru</every>
+    <the>The</the>
+    <of>no</of>
+    <recur_every>Atkārtojas katru</recur_every>
+    <weeks_on>Nedēļa(-s):</weeks_on>
+    <of_every>katru</of_every>
+    <months>mēnesis(-ši)</months>
+    <days>diena(-s)</days>
+    <day_list>nedēļa</day_list>
+    <every_weekday>Katru darba dienu</every_weekday>
+    <first>pirmais</first>
+    <second>otrais</second>
+    <third>trešais</third>
+    <fourth>ceturtais</fourth>
+    <last>pēdējais</last>
+    <weekday>darba nedēļa</weekday>
+    <weekend_day>nedēļas nogale</weekend_day>
+  </repeating>
+  <reminder>
+    <none>Neviens</none>
+    <email>E-pasts</email>
+    <popup>Uznirstošā (Darba virsma)</popup>
+    <address>Adrese</address>
+    <remind1>Atgādināt man</remind1>
+    <remind2>pirms</remind2>
+    <is_reminder>Sūtīt atgādinājumu</is_reminder>
+    <no_reminder>Nesūtīt atgādinājumu</no_reminder>
+    <type>Veids</type>
+    <snooze>Snauda</snooze>
+    <meeting>Palaist tagad</meeting>
+    <dismiss>Aizraidīt</dismiss>
+    <reminder>Atgādinājums</reminder>
+  </reminder>
+  <journal>
+    <journal>Žurnāls</journal>
+    <title>Virsraksts</title>
+    <type>Veids</type>
+    <company>Uzņēmums</company>
+    <conversation>Saruna</conversation>
+    <document>Dokuments</document>
+    <e-mail_message>E-pasta ziņa</e-mail_message>
+    <fax>Fakss</fax>
+    <letter>Vēstule</letter>
+    <meeting>Sanāksme</meeting>
+    <meeting_cancellation>Sanāksmes atcelšana</meeting_cancellation>
+    <meeting_request>Sanāksmes pieprasījums</meeting_request>
+    <meeting_response>Sanāksmes atbilde</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Piezīme</note>
+    <phone_call>Tālruņa zvans</phone_call>
+    <remote_session>Attālā sesija</remote_session>
+    <task>Uzdevums</task>
+    <task_request>Uzdevuma pieprasījums</task_request>
+    <task_response>Uzdevuma atbilde</task_response>
+  </journal>
+  <certificate>
+    <purposes>Šis sertifikāts ir paredzēts šādam(-iem) nolūkam(-iem)</purposes>
+    <ssl>Apstiprina attālajam datoram jūsu identitāti</ssl>
+    <smime>Aizsargā e-pasta ziņas</smime>
+    <serial>Seriālais</serial>
+    <view>Skats</view>
+    <certificate>Sertifikāts</certificate>
+    <invalid>Nepareizs sertifikāts vai parole</invalid>
+    <passphrase>Paroles frāze</passphrase>
+    <issuedto>Izdots</issuedto>
+    <issuedby>Izdevējs</issuedby>
+    <email>E-pasts</email>
+    <validity>Derīgums</validity>
+    <badtype>Trūkst privātā daļa</badtype>
+    <missing>Sertifikāts nav atrasts</missing>
+    <invaliditem>Nevar pievienot sertifikātu</invaliditem>
+    <assigned>Sertifikāts tika veiksmīgi pievienots</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Mape: &quot;%s&quot; nepastāv</folder_not_exist>
+    <accepted>Event was accepted</accepted>
+    <unsure>Event was replied tentatively</unsure>
+    <declined>Event was declined</declined>
+    <proposed>New time was proposed</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Force users to enter contact information</force_enter_user_info>
+    <disable_wipe>Disable Remote Wipe</disable_wipe>
+    <documents>Documents</documents>
+    <aliases>Aliases</aliases>
+    <disable_mailformat>Disable HTML/plain switch in compose window</disable_mailformat>
+    <disable_altmail>Hide Alternate Email</disable_altmail>
+    <rcpt_suggest>Auto-complete</rcpt_suggest>
+    <rcpt_cache>Clear List</rcpt_cache>
+    <keep_search>Keep search term when switching folders</keep_search>
+    <smartfolder>SmartAttach folder</smartfolder>
+    <always_show_rcp>Always show address lines</always_show_rcp>
+    <login_screen>Pieteikšanās ekrāns</login_screen>
+    <exclude_gal>Exclude GAL from auto-complete</exclude_gal>
+    <password_policy>Paroles politika</password_policy>
+    <notifications>Darbvirsmas paziņojumi</notifications>
+    <nofocus>Auto (tikai fonā)</nofocus>
+    <autorevision_mode>Ieslēgt automātisko dokumentu pārskatīšanu</autorevision_mode>
+    <disable_support>Atslēgt atbalsta saiti uz pieteikšanos</disable_support>
+    <check_subject>Pārbaudīt, vai temats nav tukšs</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Slēpt koplietošanu ar anonīmo kontu</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Rādīt Izlases mapes</show_favorites>
+    <layout>Globālie iestatījumi</layout>
+    <signature>Paraksts</signature>
+    <signature_separator>Pievienot standarta paraksta atdalītāju &quot;-- &quot;</signature_separator>
+    <signature_to_top>Paraksts ziņas augšdaļā</signature_to_top>
+    <groups>Grupas</groups>
+    <group>Group</group>
+    <trash_folder>Trash Folder</trash_folder>
+    <sent_folder>Sent Folder</sent_folder>
+    <groupsend>Saglabāt nosūtītās ziņas publiskajā mapē priekš šīs grupas</groupsend>
+    <ftime>Mainīgs laiks</ftime>
+    <sso_only>Atļaut tikai SSO pieteikšanos</sso_only>
+    <activity_monitor>Iziet pēc neaktivitātes (Minūtes)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 stundas</time_12>
+    <time_24>24 stundas</time_24>
+    <logout_url>Izejas URL</logout_url>
+    <disable_attach_item>Disable Attach from WebClient</disable_attach_item>
+    <disable_virtual>Disable Search Folders</disable_virtual>
+    <disable_interfaces>Atslēgt interfeisa ieejas izvēli</disable_interfaces>
+    <disable_languages>Atslēgt ieejas valodas izvēli</disable_languages>
+    <confirm_exit>Iziešanas apstiprinājums</confirm_exit>
+    <compose>Ziņa izveidota</compose>
+    <never>Nekad</never>
+    <always>Vienmēr</always>
+    <homepage>Mājas lapa</homepage>
+    <banner_enable>Ieslēgt banera rāmi</banner_enable>
+    <application_enable>Ieslēgt lietojumprogrammas lejupielādes baneri</application_enable>
+    <banner_url>Banera URL</banner_url>
+    <banner_height>Banera augstums</banner_height>
+    <count_subject>Grupas tēmas prefiksi (e.g. Re[4], Fw[2])</count_subject>
+    <reply_prefix>Izmantot atbildes prefiksu(&gt;)</reply_prefix>
+    <collate>Atbalstīt nacionālo e-pastu šķirošanu (salīdzināšana) priekš MySQL</collate>
+    <init_page>Sākuma lapa</init_page>
+    <remember_folder>Atcerēties pēdējo mapi</remember_folder>
+    <show_inbox>Inbox</show_inbox>
+    <show_home>Mājas lapa</show_home>
+    <clear_trash>Dzēst Miskastes e-pastus, kas vecāki par (dienas)</clear_trash>
+    <clear_gwtrash>Dzēst Miskastes objektus, kas vecāki par (dienas)</clear_gwtrash>
+    <alias>Aizstājvārds</alias>
+    <subscribed_holidays>Pierakstītās brīvdienas</subscribed_holidays>
+    <holidays>Brīvdienas</holidays>
+    <weather>Laiks</weather>
+    <temperature>Temperatūra</temperature>
+    <c>Celsija (°C)</c>
+    <f>Fārenheita (°F)</f>
+    <city>Pilsēta</city>
+    <disable_folder_types>Atslēgt atlasītos mapes veidus</disable_folder_types>
+    <antispam>Pretsurogātpasta</antispam>
+    <spam_mode>Surogātpasta mapes režīms</spam_mode>
+    <reports_mode>Surogātpasta atskaites režīms</reports_mode>
+    <quarantine>Karantīna</quarantine>
+    <last_time>Pēdējais pieteikšanās laiks</last_time>
+    <last_ip>Pēdējā pieteikšanās IP</last_ip>
+    <current_time>Pašreizējais pieteikšanās laiks</current_time>
+    <current_ip>Pašreizēja pieteikšanās IP</current_ip>
+    <default>Pēc noklusējuma</default>
+    <use_spam>Izmantot surogātpasta mapi</use_spam>
+    <not_spam>Neizmantot surogātpasta mapi</not_spam>
+    <disabled>Atslēgts</disabled>
+    <all>Visi</all>
+    <full>Pilns</full>
+    <new_items>Jaunas vienības</new_items>
+    <smtp_relay>Atgriezt atpakaļ ziņas priekš kļūdainiem saņēmējiem</smtp_relay>
+    <restrictions>Ierobežojumi</restrictions>
+    <hide_sortstring>Slēpt kārtošanas virkni</hide_sortstring>
+    <disable_aliases>Atslēgt aizstājvārdus</disable_aliases>
+    <disable_redirect>Atslēgt novirzīšanu</disable_redirect>
+    <disable_other_accounts>Atslēgt citus kontus</disable_other_accounts>
+    <disable_edit_vcard>Atslēgt manas detalizētās informācijas rediģēšanu</disable_edit_vcard>
+    <disable_edit_account>Disable My Account editing</disable_edit_account>
+    <disable_change_password>Atslēgt paroles maiņu</disable_change_password>
+    <disable_antispam_control>Slēpt pretsurogātpasta cilni</disable_antispam_control>
+    <disable_licenses>Atslēgt licences cilni</disable_licenses>
+    <disable_login_help>Atslēgt pieteikšanās palīdzību</disable_login_help>
+    <disable_login_banners>Atslēgt pieteikšanās banerus</disable_login_banners>
+    <disable_signup>Atslēgt reģistrēšanos</disable_signup>
+    <disable_sip>Atslēgt WebPhone (iekšējais VoIP klients)</disable_sip>
+    <disable_call_forwarding>Disable Call Forwarding</disable_call_forwarding>
+    <disable_external_sip>Atslēgt ārējo VoIP</disable_external_sip>
+    <disable_export>Atslēgt GroupWare eksportu</disable_export>
+    <disable_smart>Atslēgt SmartAttach</disable_smart>
+    <disable_dropbox>Atslēgt Dropbox</disable_dropbox>
+    <disable_im>Disable WebChat</disable_im>
+    <disable_sms>Atslēgt SMS</disable_sms>
+    <disable_remember_pulldown>Atslēgt &quot;Atceries mani&quot;</disable_remember_pulldown>
+    <disable_autofill>Atslēgt Lietotājvārda/Paroles automātisko aizpildi</disable_autofill>
+    <disable_rules>Atslēgt noteikumus</disable_rules>
+    <disable_gmaps>Atslēgt Google Maps</disable_gmaps>
+    <disable_forwarder>Slēpt pārsūtīšanas cilni</disable_forwarder>
+    <disable_keep_emails>Hide &quot;Keep emails in mailbox&quot; in Forwarder</disable_keep_emails>
+    <disable_autoresponder>Slēpt automātiskā atbildētāja cilni</disable_autoresponder>
+    <share_mode>Koplietošanas režīms</share_mode>
+    <share_p>Privāts (Dati netiek koplietoti)</share_p>
+    <share_pf>Publisks (Dati tiek koplietoti ar visiem)</share_pf>
+    <share_f>Draugi (Dati tiek koplietoti tikai ar draugiem)</share_f>
+    <daily_event_report>Sūtīt ikdienas darba kārtību pa e-pastu</daily_event_report>
+    <reminder_notification>Sūtīt e-pasta atgādinājumus</reminder_notification>
+    <reminder_email>Atgādinājumu un sarakstu e-pasta adrese</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Lietojumprogrammas atslēga</dropbox_app_key>
+    <dropbox_instructions>Dropbox integrācijai, piesakieties pie www.dropbox.com, dodieties uz izstrādātāju sadaļu un izveidojiet pieteikuma atslēgu. Jums tiks lūgts ievadīt īsu aprakstu un hostname vai IP WebKlienta piekļuvei.</dropbox_instructions>
+    <server>Serveris</server>
+    <login_with_email>Autorizēties ar e-pasta adresi</login_with_email>
+    <server_logs>Saglabāšanas žurnālā līmenis</server_logs>
+    <server_logs0>Neviens</server_logs0>
+    <server_logs2>Kopsavilkums</server_logs2>
+    <server_logs3>Atkļūdot</server_logs3>
+    <server_logs4>Paplašināts</server_logs4>
+    <http_port>HTTP ports</http_port>
+    <imapserver>IMAP serveris</imapserver>
+    <smtpserver>SMTP serveris</smtpserver>
+    <xmppserver>XMPP serveris</xmppserver>
+    <port>Ports</port>
+    <pgtitle>Lappuses virsraksts</pgtitle>
+    <logo>Pieteikšanās logotips</logo>
+    <login_style>Pieteikšanās stils</login_style>
+    <login_client>Vēlamais interfeiss</login_client>
+    <skin_style>Skin style</skin_style>
+    <interfaces>Pieejamie interfeisi</interfaces>
+    <spell_language>Pareizrakstības pārbaudītājs</spell_language>
+    <delete_emptyfolder>Dzēst ziņas ar Iztukšot mapi darbību</delete_emptyfolder>
+    <show_images>Automātiski rādīt ārējos attēlus vienā rindiņā ar tekstu</show_images>
+    <show_images_spam>Apply also to Spam folder</show_images_spam>
+    <auto_show_images>Automātiski priekšskatīt pievienotos attēlus</auto_show_images>
+    <sound_notify>Ieslēgt skaņas paziņojumus</sound_notify>
+    <domains_settings>Domēni</domains_settings>
+    <domain>Domēns</domain>
+    <edit_settings>Rediģēt domēna iestatījumus</edit_settings>
+    <resetpass>Paroles atjaunošana</resetpass>
+    <resetmail>E-pasts</resetmail>
+    <resetenable>Atļaut paroles atjaunošanu</resetenable>
+    <accounts>Konti</accounts>
+    <account>Account</account>
+    <tools>Rīki</tools>
+    <autoresponder>Automātiskais atbildētājs</autoresponder>
+    <forwarder>Pārsūtītājs</forwarder>
+    <pcertificate>Privātie sertifikāti</pcertificate>
+    <certificate>Sertifikāti</certificate>
+    <mail_settings>Pasts</mail_settings>
+    <im_settings>WebChat</im_settings>
+    <sip_settings>WebPhone</sip_settings>
+    <sip_webrtc>Use native web browser capabilities for media when possible</sip_webrtc>
+    <sip_start>Sākt Web tālruni automātiski</sip_start>
+    <sip_internal>Integrēt ar jūsu VoIP kontu (SIP)</sip_internal>
+    <sip_external>Integrēt ar ārējo VoIP kontu (SIP)</sip_external>
+    <sip_dial>Zvanīt, izmantojot ārējo VoIP kontu (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>Zvanīt, izmantojot jūsu VoIP kontu (jau reģistrēto tālruņa aplikāciju/tālruni)</sip_dial_internal>
+    <call_forwarding>Call Forwarding</call_forwarding>
+    <use_forwarding>Use call forwarding</use_forwarding>
+    <forward_to>Forward call to</forward_to>
+    <forward_after>Forward after (seconds)</forward_after>
+    <chat_window>Čata logs</chat_window>
+    <auto_chat>Automātiski atvērt čata logu</auto_chat>
+    <auto_subscribe>Automātiski pieraksta jaunus lietotājus</auto_subscribe>
+    <remember_status>Atcerēties statusu</remember_status>
+    <extended_status>Pieejamie statusi</extended_status>
+    <newline_chat>Čatot jaunā līnijā</newline_chat>
+    <smiles_chat>Izmantot emocijas</smiles_chat>
+    <enter_send>Sūtīt ziņu ar &quot;Enter&quot;</enter_send>
+    <general_settings>Vispārējs</general_settings>
+    <other_accounts>Citi konti</other_accounts>
+    <primary_accounts>Mans konts</primary_accounts>
+    <account_settings>Konti</account_settings>
+    <importexport_settings>Importēt/Eksportēt</importexport_settings>
+    <default_reminder>Lietot atgādinājumu pēc noklusējuma jaunām tikšanām</default_reminder>
+    <use_sslswfatt>Izmantojiet HTTP Flash augšupielādi SSL sesijā</use_sslswfatt>
+    <use_swfupload>Lietojiet Flash augšupielādes pielikumiem</use_swfupload>
+    <use_office>Lietojiet atvērt Offisā, kad ir iespējams</use_office>
+    <banner_enabled>Atļaut baneri pieteikšanās lapā</banner_enabled>
+    <twitter_disabled>Atslēgt Twitter integrāciju</twitter_disabled>
+    <twitter_link>Twitter deskriptors</twitter_link>
+    <facebook_disabled>Atslēgt Facebook integrāciju</facebook_disabled>
+    <facebook_link>Facebook kods</facebook_link>
+    <skin>Apvalks</skin>
+    <items_ab_shown>Atlasīto adrešu vienību skaits</items_ab_shown>
+    <date_format>Datuma formāts</date_format>
+    <time_format>Laika formāts</time_format>
+    <language>Valoda</language>
+    <timezone>Laika josla</timezone>
+    <general>Vispārējs</general>
+    <default_mail_settings>Pasta izveidošana</default_mail_settings>
+    <folders_mapping>Mapes pēc noklusējuma</folders_mapping>
+    <subject>Temats</subject>
+    <message_format>Ziņas formāts</message_format>
+    <re_message_format>Atbildes ziņas formāts</re_message_format>
+    <html_message>HTML ziņa</html_message>
+    <read_confirmation>Izlasīšanas apstiprinājums</read_confirmation>
+    <request_read_confirmation>Pieprasīt izlasīšanas apstiprinājumu</request_read_confirmation>
+    <send_read_confirmation>Atļaut sūtīšanu</send_read_confirmation>
+    <ask_before>Jautāt man pirms sūtīšanas</ask_before>
+    <smart_attach>Izmantot SmartAttach</smart_attach>
+    <save_sent_message>Saglabāt nosūtītās ziņas mapē Nosūtītās</save_sent_message>
+    <save_folder_message>Saglabāt nosūtītās ziņas</save_folder_message>
+    <encrypt>Šifrēt ziņu</encrypt>
+    <sign>Digitāli parakstīt ziņas</sign>
+    <appendvcard>Pievienot informāciju par sevi (vCard)</appendvcard>
+    <charset>Rakstzīmju kopa</charset>
+    <priority>Prioritāte</priority>
+    <reply_to>Atbilde uz adresi</reply_to>
+    <reply_myself>Auto Bcc myself</reply_myself>
+    <move_to_trash>Pārvietot dzēstās ziņas uz mapi Miskaste</move_to_trash>
+    <auto_add_recipient_to_addressbook>Automātiski pievienot ziņu adresātus adrešu grāmatai</auto_add_recipient_to_addressbook>
+    <edit_rules>Noteikumi</edit_rules>
+    <rules>Noteikumi</rules>
+    <forward_messages>Pārsūtīt ziņas</forward_messages>
+    <inline>Iekļauts</inline>
+    <as_attachment>Kā pielikumu</as_attachment>
+    <autoupdate_message>Pārbaudīt jaunu e-pastu katras (minūtes)</autoupdate_message>
+    <autosave_message>Saglabāt ziņu melnrakstus katras (minūtes)</autosave_message>
+    <calendar_settings>Kalendārs</calendar_settings>
+    <main>Galvenais</main>
+    <day_begins_at>Diena sākas</day_begins_at>
+    <day_ends_at>Diena beidzas</day_ends_at>
+    <week_begins_on>Nedēļa sākas</week_begins_on>
+    <week_starts_today>Nedēļa sākas ar šodienu</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Koplietošana</sharing_settings>
+    <shared_email>Koplietots e-pasts</shared_email>
+    <email>E-pasts</email>
+    <rights>Tiesības</rights>
+    <read>Lasīt</read>
+    <write>Rakstīt</write>
+    <modify>Modificēt</modify>
+    <delete>Dzēst</delete>
+    <owner>Administrēt</owner>
+    <acc_name>Vārds</acc_name>
+    <quota>Diska kvota</quota>
+    <sms_quota>SMS kvota</sms_quota>
+    <quota_home>Diska kvota (t.sk., vienības no visām pasta mapēm, failu mapēm, kontaktu pielikumiem, notikumiem, ...)</quota_home>
+    <description>Apraksts</description>
+    <old_password>Vecā parole</old_password>
+    <new_password>Jaunā parole</new_password>
+    <new_password_conf>Apstiprināt paroli</new_password_conf>
+    <save_drafts_to>Saglabāt melnrakstus</save_drafts_to>
+    <default_flag>Atzīme pēc noklusējuma</default_flag>
+    <alternative_email>Alternatīvais e-pasts</alternative_email>
+    <default_settings>Iestatījumi pēc noklusējuma</default_settings>
+    <event_view>Kalendāra skats</event_view>
+    <event_show_as>Tikšanās tiek parādītas kā</event_show_as>
+    <event_sharing>Tikšanās koplietošana</event_sharing>
+    <contact_sharing>Kontaktpersonas koplietošana</contact_sharing>
+    <journal_sharing>Žurnāla koplietošana</journal_sharing>
+    <note_sharing>Piezīmes koplietošana</note_sharing>
+    <task_sharing>Uzdevuma koplietošana</task_sharing>
+    <file_sharing>Faila koplietošana</file_sharing>
+    <force_for_domainadmin>Piespiest šo iespēju abiem domēna administratoriem un lietotājiem</force_for_domainadmin>
+    <force_for_users>Piespiest šo iespēju lietotājiem</force_for_users>
+    <force>Piespiest šo iespēju</force>
+  </settings>
+  <email_priority>
+    <highest>Augstākais</highest>
+    <high>Augsts</high>
+    <normal>Normāls</normal>
+    <medium>Vidējs</medium>
+    <low>Zems</low>
+    <lowest>Zemākais</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Izvēlieties mapi</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Atlasiet vienību</insert_item>
+    <untitled>bez nosaukuma</untitled>
+    <embedded>Pievienots</embedded>
+    <link>Saite</link>
+  </insert_item>
+  <attendees>
+    <shared>Ieteiktās kontaktpersonas</shared>
+    <add_title>Pievienot</add_title>
+    <edit_title>Rediģēt</edit_title>
+    <resource>Resursi</resource>
+    <remove>Nodzēst</remove>
+    <edit>Rediģēt</edit>
+    <name>Vārds</name>
+    <email>E-pasts</email>
+    <folder>Izvēlieties mapi</folder>
+    <all_attendees>Visi dalībnieki</all_attendees>
+    <status>Statuss</status>
+    <status_p>Gaida izpildi</status_p>
+    <status_a>Pieņemts</status_a>
+    <status_d>Noraidīts</status_d>
+    <role>Loma</role>
+    <role_q>Nepieciešama</role_q>
+    <role_s>Resursi</role_s>
+    <role_t>Neobligāts</role_t>
+    <role_g>Organizētājs</role_g>
+    <quick_add>Ievadiet dalībnieka vai resursa nosaukumu</quick_add>
+  </attendees>
+  <dial>
+    <dial>Zvanīt</dial>
+    <keypad>Keypad</keypad>
+    <call>Zvans</call>
+    <mute>Mute</mute>
+    <answer>Atbildēt</answer>
+    <decline>Atteikt</decline>
+    <filter>Parādīt tikai WebPhone kontaktus</filter>
+    <hfilter>Display only Missed calls</hfilter>
+    <phone>WebPhone</phone>
+    <duration>Ilgums:</duration>
+    <video>Zvans + Video</video>
+    <localcam>This Computer</localcam>
+    <remotecam>Remote Computer</remotecam>
+    <answer_video>Atbildēt + Video</answer_video>
+    <hang_up>Pārtraukt</hang_up>
+    <busy>User is busy</busy>
+    <pbook>Tālruņu grāmata</pbook>
+    <refresh>Atjaunināt vēsturi</refresh>
+    <call_duration>Zvana ilgums %s</call_duration>
+    <history>Vēsture</history>
+    <missed>Neatbildētie</missed>
+    <incoming>Ienākošie</incoming>
+    <outgoing>Izejošie</outgoing>
+    <select_contect>Choose preferred contact</select_contect>
+    <calling>Calling to</calling>
+    <incomingcall>Call from</incomingcall>
+    <callestablished>Call with</callestablished>
+    <notify_ext>Dialed over External Phone</notify_ext>
+  </dial>
+  <sip>
+    <sip>WebPhone</sip>
+    <external>Dial over external phone</external>
+    <screen>Call with screensharing</screen>
+    <sip_status>WebPhone: %s</sip_status>
+    <default_contact>WebPhone kontakti pēc noklusējuma</default_contact>
+    <unreachable>Serveris nav sasniedzams</unreachable>
+    <device>Nav atrasta neviena audio ierīce</device>
+    <videonotsupported>Your browser doesn&apos;t support video calls. For best results use the latest Chrome or Firefox.</videonotsupported>
+    <offline>WebPhone ir bezsaistē (zvani tiks sastādīti, izmantojot ārējo tālruņa aplikāciju vai IP tālruni)</offline>
+    <outgoingcall>You are calling %s</outgoingcall>
+    <incomingcall>Lietotājs %s zvana</incomingcall>
+    <callongoing>You are in a call with %s</callongoing>
+    <callestablished>Zvans ar %s izveidots</callestablished>
+    <userbusy>Lietotājs %s ir aizņemts</userbusy>
+    <callfinished>Zvans pabeigts</callfinished>
+    <callcanceled>Zvanu atcēla cits dalībnieks</callcanceled>
+    <notreachable>Cannot reach user on WebPhone</notreachable>
+    <calldeclined>The call was declined</calldeclined>
+    <info>WebPhone Informācija: %s</info>
+    <notification>Lietotājs %s ir %s</notification>
+    <error>WebPhone brīdinājums</error>
+    <notice>WebPhone brīdinājums</notice>
+    <udp>WebPhone savienojuma kļūda. Pārbaudiet savu ugunsmūri vai interneta pieslēgumu.</udp>
+    <slow>Inicializācija ir pārāk lēna. WebPhone var darboties nepareizi.</slow>
+    <init>WebPhone savienojuma kļūda. Pārbaudiet savus iestatījumus Iespējās - Tālrunis.</init>
+    <mediarequest>Please allow access to your microphone or camera. Alternatively click on Troubleshoot button below to access an interactive guide.</mediarequest>
+    <invalidstate>Could not access required media devices. Another application could be already using them.</invalidstate>
+    <nopermission>Permission to media devices was denied or is blocked. You need to allow use of microphone or camera to interact.</nopermission>
+    <mediadenied>Could not access the requested media device(s). Possibly they are disconnected or misconfigured.</mediadenied>
+    <ffmedia>Media access not granted. Use the microphone or camera icon top left in the browser to Allow or Deny media access.</ffmedia>
+    <nowebrtc>Your browser doesn&apos;t support WebRTC for audio/video. Use another browser (we suggest Chrome) or install a WebRTC browser plugin.</nowebrtc>
+    <gettingmedia>There is a call or conference in progress. Please allow or deny access to devices to continue.</gettingmedia>
+    <occupied>WebPhone is already in use.</occupied>
+  </sip>
+  <conference>
+    <planner>WebMeeting planner</planner>
+    <aborted>Sanāksme tika pārtraukta.</aborted>
+    <access>Piekļuves informācija</access>
+    <allattendees>Visi dalībnieki</allattendees>
+    <missinguserid>Jūs neesat dalībnieks šajā sanāksmē. Sanāksmes pārtraukšana.</missinguserid>
+    <appletrunning>Audio sīklietotne palaista, gaida savienojumu ar sapulci...</appletrunning>
+    <callestablished>WebMeeting is in progress</callestablished>
+    <callfinished>WebMeeting has ended</callfinished>
+    <came>ir pievienojies sanāksmei</came>
+    <cancelled>Sanāksme beidzās negaidīti</cancelled>
+    <privatechat>Start Private Chat</privatechat>
+    <chatalreadymeeting>Jūs esat saņēmis jaunu sanāksmes uzaicinājumu, bet nevar pievienoties tagad, jo jūs jau esat aizņemts sanāksmē.</chatalreadymeeting>
+    <chatinvite>I would like to invite you to a WebMeeting</chatinvite>
+    <closed>The WebMeeting session ended</closed>
+    <closing>Vai vēlaties atstāt šo sanāksmi vai pārtraukt sanāksmi visiem dalībniekiem?</closing>
+    <confirminvite>sent you an invitation to WebMeeting</confirminvite>
+    <connectfailure>Nevar pieslēgties sanāksmei</connectfailure>
+    <connecting>Mēģina pieslēgties sanāksmei...</connecting>
+    <create>Create new WebMeeting</create>
+    <created>WebMeeting created, starting meeting...</created>
+    <createfirst>There is currently no WebMeeting in progress, would you like to start one?</createfirst>
+    <delegate>Izveidot moderatoru</delegate>
+    <screen>Remote screen</screen>
+    <desktop>Koplietot ekrānu</desktop>
+    <waitvideo>Waiting for remote screen</waitvideo>
+    <notchrome>For screen sharing you need to use Chrome</notchrome>
+    <nohttps>Secure connection (https) is required for screen sharing.</nohttps>
+    <noplugin>Screen-sharing plugin is not installed.</noplugin>
+    <desktopinfo>Atļaut ekrāna koplietošanu</desktopinfo>
+    <dialin>Ja jūs vēlaties zvanīt, sastādiet vienu no šādiem numuriem:</dialin>
+    <disablefirebug>Firebug paplašinājums var traucēt šo funkcionalitāti. Labāk atslēdziet Firebug un piesakieties vēlreiz.</disablefirebug>
+    <dismiss>Aizraidīt dalībnieku</dismiss>
+    <duration>Ilgums:</duration>
+    <end>End WebMeeting</end>
+    <endcall>Beigt zvanu</endcall>
+    <endforall>End WebMeeting for all</endforall>
+    <endinfo>Sanāksmes pārtraukšana...</endinfo>
+    <finished>Jūsu audio ieraksts tiek apstrādāts un saglabāts mapē Dokumenti.</finished>
+    <generalerror>Unspecified meeting-related error occurred.</generalerror>
+    <id>Sanāksmes ID:</id>
+    <shortid>ID:</shortid>
+    <info>WebMeeting Info</info>
+    <instruct>Jūs tagad esat savienots ar balss konferenci, vienkārši izmantojiet mikrofonu un skaļruņus - ieteicams austiņas.</instruct>
+    <invalidmeetingid>Jūs nevarat pievienoties šai sanāksmei. Tās darbošanās termiņš ir beidzies vai nepareizs sanāksmes ID.</invalidmeetingid>
+    <invalidsessionid>Sesijas darbošanās termiņš ir beidzies, sanāksmes pārtraukšana.</invalidsessionid>
+    <invitationedit>Uzaicinājuma ziņa:</invitationedit>
+    <invite>Uzaicināt</invite>
+    <inviteinfo>Uzaicināt dalībniekus</inviteinfo>
+    <invitation_sent>Nosūtīt uzaicinājumu</invitation_sent>
+    <invited>WebMeeting invitation received</invited>
+    <invitesubject>WebMeeting Invitation</invitesubject>
+    <join>Join WebMeeting</join>
+    <joining>Pievienojas sanāksmei</joining>
+    <leave>Atstāt</leave>
+    <leaveinfo>Leave WebMeeting</leaveinfo>
+    <leaveorend>Izvēlieties jaunu moderatoru, ja vēlaties turpināt šo sanāksmi. Pretējā gadījumā šī sanāksme beigsies visiem apmeklētājiem.</leaveorend>
+    <leaving>Vai tiešām vēlaties atstāt šo sanāksmi?</leaving>
+    <left>atstāja sanāksmi</left>
+    <leftchat>Ziņu nav nogādāta, šis dalībnieks atstāja sanāksmi.</leftchat>
+    <mailinvite>You can join this meeting now</mailinvite>
+    <manager>moderators</manager>
+    <meeting>WebMeeting</meeting>
+    <mikogoerror>Server reported an error with screen sharing.</mikogoerror>
+    <servererror>Notika vispārēja sanāksmes kļūda. Sazinieties ar administratoru, lai saņemtu sīkāku informāciju.</servererror>
+    <connectionerror>Sanāksme tika pārtraukta tīkla savienojuma kļūdas dēļ. Lūdzu, mēģiniet vēlreiz vēlāk.</connectionerror>
+    <mute>Izslēgt skaņu</mute>
+    <muteall>Izslēgt visu dalībnieku skaņu</muteall>
+    <muteinfo>Izslēgt mikrofonu</muteinfo>
+    <muteone>Izslēgt dalībnieku skaņu</muteone>
+    <attendees>Attendees</attendees>
+    <chat>WebChat</chat>
+    <name>Vārds:</name>
+    <needspecialpermissions>Nepietiekamas atļaujas, lai veiktu šo darbību</needspecialpermissions>
+    <networkrequesterror>Šķiet, ka ir problēma ar tīklu. Jūs tikāt atvienots no sanāksmes.</networkrequesterror>
+    <nocallallowed>Calls are not allowed during a WebMeeting</nocallallowed>
+    <noparticipants>Nav dalībnieku</noparticipants>
+    <notaccessmode>WebMeeting service is disabled for this account.</notaccessmode>
+    <notauthenticated>You are not authenticated to this service.</notauthenticated>
+    <notenabled>WebMeetings are disabled by server administrator</notenabled>
+    <notonline>Nav tīkla savienojuma</notonline>
+    <notsetupproperly>WebMeeting service is not configured properly.</notsetupproperly>
+    <notlicensed>Insufficient license for WebMeetings.</notlicensed>
+    <licenseerror>Insufficient license to start more WebMeetings.</licenseerror>
+    <offline>The meeting is offline.</offline>
+    <ongoing>WebMeeting in progress</ongoing>
+    <onlyorganizercandothis>This feature is accessible only to meeting organizer.</onlyorganizercandothis>
+    <onlysuperusercandothis>You are not authorized to perform this operation.</onlysuperusercandothis>
+    <organizer>organizators</organizer>
+    <pending>Waiting for organizer to start the WebMeeting...</pending>
+    <phone>Tālrunis:</phone>
+    <phoning>You are on a call. Would you like to end it and start the WebMeeting?</phoning>
+    <preparing>Iegūst sanāksmes datus</preparing>
+    <promoted>tagad ir moderators</promoted>
+    <ready>Sanāksme ir gatava palaišanai</ready>
+    <recap>Šo informāciju var apskatīt jebkurā laikā, noklikšķinot uz ikonas &quot;info&quot; augšā.</recap>
+    <record>Ierakstīt audio</record>
+    <recordinfo>Ierakstīt audio</recordinfo>
+    <recording>Ieraksta audio</recording>
+    <restart>Restart WebMeeting</restart>
+    <schedule>Schedule WebMeeting</schedule>
+    <scheduleorstart>Vai jūs vēlaties sākt sanāksmi tagad vai ieplānot to vēlāk?</scheduleorstart>
+    <silenceinfo>Izslēgt skaļruņus</silenceinfo>
+    <sipnoparticipants>Nav dalībnieku, sanāksme tika pārtraukta.</sipnoparticipants>
+    <start>Start WebMeeting</start>
+    <started>Sanāksme palaista, gaida, kad audio sīklietotnes tiks palaistas...</started>
+    <startedconnect>Sanāksme palaista, pievienojas...</startedconnect>
+    <startednojava>Sanāksme palaista, joprojām gaida, kad audio sīklietotnes tiks palaistas...</startednojava>
+    <starting>Palaižas sanāksme</starting>
+    <startnow>Start WebMeeting now</startnow>
+    <joinnow>Join existing WebMeeting</joinnow>
+    <terminate>Vai tiešām vēlaties beigt šo sanāksmi?</terminate>
+    <timeout>Neizdodas uzturēt savienojumu ar sanāksmi</timeout>
+    <unknown>Nenorādīts dalībnieks</unknown>
+    <unmuteone>Ieslēgt skaņu dalībniekam</unmuteone>
+    <details>WebMeeting details</details>
+    <callin>Zvana detaļas</callin>
+    <url>Sanāksmes URL:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>Zvana ID:</callid>
+    <waitfailure>Unable to join the meeting.</waitfailure>
+    <waiting>Waiting for Java to start, this may take a while.</waiting>
+    <welcome>Welcome to IceWarp WebMeeting</welcome>
+    <me>Es</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>Java pieprasa palaist jūsu Office lietojumprogrammas tieši no tīmekļa pārlūkprogrammas un automātiski augšupielādēt dokumentu izmaiņas.</nolaunch>
+    <nooffice>Office komplekts nav noteikts.</nooffice>
+    <openfailed>Could not open the document in Office. Would you like to download it instead?</openfailed>
+    <noappfound>Could not find an application to open this type of document.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Režīms:</mode>
+    <disabled>Atslēgts</disabled>
+    <respond_always>Atbildēt vienmēr</respond_always>
+    <respond_once>Atbildēt vienreiz</respond_once>
+    <respond_after_period>Atbildēt vēlreiz pēc laika posma</respond_after_period>
+    <respond_period>Atbildēt vēlreiz pēc (dienas):</respond_period>
+    <from>No</from>
+    <subject>Temats</subject>
+    <text>Teksts</text>
+    <respond_only_if_to_me>Atbildēt uz ziņām, kas nosūtītas tikai uz lietotāja e-pasta adresi</respond_only_if_to_me>
+    <respond_between>Atbildēt tikai tad, ja starp:</respond_between>
+    <noresponderfor>Nav atbildētāja priekš</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Pārsūtīt uz:</forward_to>
+    <keep_copy>Glabāt e-pasta vēstules pastkastē</keep_copy>
+    <forward_older>Pārsūtīt pastu, kas vecāks par (dienas):</forward_older>
+    <forward_older_to>Pārsūtīt vecākas pasta ziņas uz:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Pievienot / Rediģēt</addedit>
+    <header>Galvene</header>
+    <filters>Filtri</filters>
+    <edit_header>Rediģēt galveni</edit_header>
+    <empty_operator/>
+    <not>NAV</not>
+    <and>UN</and>
+    <or>VAI</or>
+    <and_not>UN NAV</and_not>
+    <or_not>VAI NAV</or_not>
+    <from>No:</from>
+    <to>Kam:</to>
+    <subject>Temats:</subject>
+    <cc>Cc:</cc>
+    <reply_to>Atbildēt uz:</reply_to>
+    <date>Datums:</date>
+    <message>Ziņa</message>
+    <message_type>Ziņas veids:</message_type>
+    <message_body>Ziņas saturs</message_body>
+    <custom_message_header>Pielāgota ziņas galvene</custom_message_header>
+    <any_message_header>Jebkura ziņas galvene</any_message_header>
+    <attachment_name>Pielikuma nosaukums</attachment_name>
+    <sender>Sūtītājs</sender>
+    <recipient>Saņēmējs</recipient>
+    <senders_ip>Sūtītāja IP</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Sūtītājs</ip>
+    <all_messages>Visas ziņas</all_messages>
+    <no_messages>Nav ziņu</no_messages>
+    <priority_is>prioritāte ir</priority_is>
+    <priority_isnt>prioritāte nav</priority_isnt>
+    <is_spam>ir surogātpasts</is_spam>
+    <isnt_spam>nav surogātpasts</isnt_spam>
+    <is_greater_than>ir lielāks nekā</is_greater_than>
+    <is_lower_than>ir mazāks nekā</is_lower_than>
+    <match_case>Atbilst reģistram</match_case>
+    <regexp>Regex</regexp>
+    <whole_word>Pilns vārds</whole_word>
+    <matches>atbilstošie</matches>
+    <doesnt_match>neatbilst</doesnt_match>
+    <contains_string>satur</contains_string>
+    <doesnt_contain_string>nesatur</doesnt_contain_string>
+    <matches_regex>atbilst Regex</matches_regex>
+    <doesnt_match_regex>neatbilst Regex</doesnt_match_regex>
+    <is_string>ir</is_string>
+    <isnt_string>nav</isnt_string>
+    <spam_score>Surogātpasta punkti</spam_score>
+    <authorized>autorizēts</authorized>
+    <unauthorized>neautorizēts</unauthorized>
+    <add>Pievienot</add>
+    <delete>Dzēst</delete>
+    <up>Augšup</up>
+    <down>Uz leju</down>
+    <action>Darbība</action>
+    <actions>Darbības</actions>
+    <accept>Piekrist</accept>
+    <reject>Noraidīt</reject>
+    <quarantine>Karantīna</quarantine>
+    <spam>Surogātpasts</spam>
+    <stop_processing>Pārtraukt tālāk apstrādāt noteikumus</stop_processing>
+    <move_to>Pārvietot uz</move_to>
+    <copy_to>Kopēt uz</copy_to>
+    <encrypt_message>Šifrēt ziņu</encrypt_message>
+    <set_message_priority>Uzstādīt ziņas prioritāti uz</set_message_priority>
+    <set_message_flag>Uzstādīt ziņas atzīmi uz</set_message_flag>
+    <text>Teksts:</text>
+    <title>Virsraksts</title>
+    <conditions>Nosacījumi</conditions>
+    <edit>Rediģēt</edit>
+    <rule>Noteikums</rule>
+    <rules>Noteikumi</rules>
+    <highest>augstākais</highest>
+    <high>augsts</high>
+    <normal>normāls</normal>
+    <low>zems</low>
+    <lowest>zemākais</lowest>
+    <spam_is_greater_than>ir lielāks nekā</spam_is_greater_than>
+    <spam_is_lower_than>ir mazāks nekā</spam_is_lower_than>
+    <forward_to>Pārsūtīt</forward_to>
+    <send_message>Sūtīt ziņu</send_message>
+    <three_dots>...</three_dots>
+    <email>E-pasts</email>
+    <instant_messaging>WebChat</instant_messaging>
+    <active>Aktīvs</active>
+  </filters>
+  <rich>
+    <alt>Alternatīvais teksts</alt>
+    <code>Avota kods</code>
+    <paragraph>Rindkopa</paragraph>
+    <normal>Normāls</normal>
+    <heading>Virsraksts</heading>
+    <clearformatting>Noņemt formatējumu</clearformatting>
+    <font>Fonts</font>
+    <size>Izmērs</size>
+    <rows>Rindas</rows>
+    <columns>Kolonnas</columns>
+    <padding>Šūnu iekšējā atkāpe</padding>
+    <spacing>Atstarpe starp šūnām</spacing>
+    <img_spacing>Atstarpe</img_spacing>
+    <bordercolor>Apmales krāsa</bordercolor>
+    <border>Apmale</border>
+    <bold>Padarīt treknrakstā</bold>
+    <italic>Padarīt slīprakstā</italic>
+    <underline>Pasvītrot tekstu</underline>
+    <style>Formatējuma veids</style>
+    <align>Text Align</align>
+    <left>Līdzināt pa kreisi</left>
+    <center>Līdzināt uz centru</center>
+    <right>Līdzināt pa labi</right>
+    <justify>Izlīdzināt</justify>
+    <numberedlist>Numurēts saraksts</numberedlist>
+    <bulletedlist>Aizzīmēts saraksts</bulletedlist>
+    <indent>Indent</indent>
+    <leftindent>Kreisā atkāpe</leftindent>
+    <rightindent>Labā atkāpe</rightindent>
+    <bgcolor>Fona krāsa</bgcolor>
+    <color>Teksta krāsa</color>
+    <cut>Izgriezt atlasi</cut>
+    <copy>Kopēt atlasi</copy>
+    <paste>Ielīmēt atlasi</paste>
+    <pastew>Ielīmēt kā tekstu</pastew>
+    <insert>Insert</insert>
+    <addlink>Izveidot saiti</addlink>
+    <table>Ievietot tabulu</table>
+    <image>Ievietot attēlu</image>
+    <dropbox>Pievienot ar Dropbox saiti</dropbox>
+    <spell>Pareizrakstības pārbaudītājs</spell>
+    <url>URL</url>
+    <uploaded>Augšupielādēts</uploaded>
+    <internal>Iekšējs</internal>
+    <direction>Teksta virziens (HTML)</direction>
+    <ltr>No kreisās uz labo</ltr>
+    <rtl>No labās uz kreiso</rtl>
+    <screenshot>Take screenshot</screenshot>
+    <paste_img>Paste image</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>IceWarp WebKlients</loading>
+    <framework>Framework ielāde</framework>
+    <settings>Iestatījumu ielāde</settings>
+    <language>Resursu ielāde</language>
+    <indexing>Indeksēšana</indexing>
+    <startup>Palaižas</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Darbvirsmas klients</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Lejupielādēt darbvirsmas klientu</help_win_desktop1>
+    <help_win_desktop2>Palaidiet instalēšanas programmu. Darbvirsmas klienta galvenajā izvēlnē izvēlieties &lt;b&gt;Instrumenti - Konti &lt;/b&gt;. Parādīsies&lt;b&gt;Kontu iestatījumu&lt;/b&gt; dialoglodziņš. Šajā dialogā izvēlieties &lt;b&gt;Jauns konts&lt;/i&gt;&lt;/b&gt;. Parādās Jauna konta vednis. Aizpildiet &lt;i&gt;E-pasts&lt;/i&gt; un &lt;i&gt;Parole&lt;/i&gt; laukus un noklikšķiniet uz &lt;b&gt;Sākt tagad.&lt;/b&gt;</help_win_desktop2>
+    <help_win_desktop3>Konta detaļu lapā jūs varat modificēt jūsu konta nosaukumu. Spiediet uz Tālāk. Nākamajā lapā jūs varat deaktivizēt funkcijas, kuras nevēlaties izmantot. Noklikšķiniet uz Pabeigt, lai pabeigtu iestatīšanu.</help_win_desktop3>
+    <help_win_osync1>Lejupielādēt Outlook Sync</help_win_osync1>
+    <help_win_osync2>Palaidiet instalēšanas programmu. SmartDiscover lapā ievadiet savu &lt;i&gt;E-pasta adresi&lt;/i&gt; un &lt;i&gt;Paroli&lt;/i&gt;, &lt;b&gt;neatzīmējiet&lt;/b&gt; ar ķeksīti &lt;i&gt;Izlaist SmartDiscover un konfigurējiet manuāli. &lt;/i&gt;. Spiediet uz Tālāk.</help_win_osync2>
+    <help_win_osync3>Nākamajā solī tiek parādīts licences aktivācijas dialoglodziņš.</help_win_osync3>
+    <help_win_osync4>Ja jums ir piešķirta licence uz IceWarp Outlook Sync, noklikšķiniet uz Jā. Ja vēlaties izmantot IceWarp Outlook Sync 30-dienu izmēģinājuma perioda ietvaros, noklikšķiniet uz Nē</help_win_osync4>
+    <help_win_osync5>Noklikšķiniet Pabeigt, lai pabeigtu instalēšanu.</help_win_osync5>
+    <help_win_20131>&lt;b&gt;Konta informācija&lt;/b&gt; lapā, noklikšķiniet &lt;b&gt;Pievienot kontu&lt;/b&gt;, pievienot kontu dialogs atveras. &lt;b&gt;Automātiskajā konta iestatīšanas&lt;/b&gt; lapā, izvēlieties &lt;i&gt;Manuāla iestatīšana vai papildus serveru veidi&lt;/i&gt; iespēju un noklikšķiniet uz Tālāk. &#13;&#10;&lt;b&gt;Izvēlieties pakalpojumu&lt;/b&gt; lapā, izvēlieties &lt;i&gt;Outlook.com vai Exchange ActiveSync saderīgu pakalpojumu&lt;/i&gt; iespēju un noklikšķiniet uz Tālāk.</help_win_20131>
+    <help_win_20132>&lt;b&gt;Servera iestatījumi&lt;/b&gt; lapā, aizpildīt jūsu lietotāja, servera un pieteikšanās informāciju. Noklikšķiniet uz Tālāk.</help_win_20132>
+    <help_win_20133>Pēc konta iestatījumu testa, noklikšķiniet uz Pabeigt.</help_win_20133>
+    <help_osx_all_applications_title>All applications</help_osx_all_applications_title>
+    <help_osx_messages_title>Ziņas</help_osx_messages_title>
+    <help_osx_messages1>Atveriet ziņas un galvenajā izvēlnē atlasiet &lt;b&gt;Ziņas - Pievienot kontu&lt;/b&gt;. No kontu veidiem pievienojiet, izvēlieties &lt;b&gt;Citu ziņu konts...&lt;/b&gt; un noklikšķiniet uz Turpināt.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Kalendārs</help_osx_calendar_title>
+    <help_osx_calendar1>Atvērt kalendāru un galvenajā izvēlnē atlasiet&lt;b&gt;Kalendārs - Pievienot kontu&lt;/b&gt;. No kontu veidiem pievienojiet, izvēlieties &lt;b&gt;Pievienot CalDAV kontu&lt;/b&gt; un noklikšķiniet uz Turpināt.</help_osx_calendar1>
+    <help_osx_calendar2>&lt;b&gt;Pievienot CalDAV kontu&lt;/b&gt; dialoglodziņā no &lt;i&gt;Konta veids&lt;/i&gt; iespējas, izvēlieties &lt;b&gt;Manuāli&lt;/b&gt;.&#13;&#10;Ievadiet savu e-pasta adresi, kā &lt;i&gt;Lietotājvārdu&lt;/i&gt; un savu &lt;i&gt;Paroli&lt;/i&gt;.&#13;&#10;&lt;i&gt;Servera adrese&lt;/i&gt; laukā, ievietojiet servera hostname. Noklikšķiniet uz Izveidot.</help_osx_calendar2>
+    <help_osx_calendar3>Lai uzstādītu &lt;b&gt;Atgādinājumus&lt;/b&gt;, dodieties uz &lt;b&gt;Sistēmas Preferences - Interneta konti&lt;/b&gt; un atrodiet kalendāra kontu, kuru esat tikko konfigurējis. Atzīmējiet izvēles rūtiņu &lt;i&gt;Izmantot ar: Atgādinājumi&lt;/i&gt;</help_osx_calendar3>
+    <help_osx_contacts_title>Kontaktpersonas</help_osx_contacts_title>
+    <help_osx_contacts1>Atveriet Kontakti, un galvenajā izvēlnē atlasiet &lt;b&gt;Kontakti - Pievienot kontu&lt;/b&gt;. No kontu veidiem pievienojiet, izvēlieties &lt;b&gt;Citi kontaktu konti&lt;/b&gt; un noklikšķiniet uz Turpināt.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>All applications</help_osx_all>
+    <help_osx_all1>Download configurator</help_osx_all1>
+    <help_osx_all2>Open the downloaded IceWarp Configurator image file. Run IceWarp Configurator. If prompted that the application was downloaded from the Internet, click Open. Fill in the Email Address and Password fields and click &lt;strong&gt;Continue&lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>Each application that can be auto-configured will have a green &lt;strong&gt;Connect&lt;/strong&gt; button next to it. Click one by one, or select &lt;strong&gt;Connect All&lt;/strong&gt; to setup all available applications.</help_osx_all3>
+    <help_tablet_and_title>Android planšetes</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Windows planšetes</help_tablet_win_title>
+    <help_tablet_win1>Labajā pusē no &lt;b&gt;Sākums&lt;/b&gt; ekrāna, izvēlieties &lt;i&gt;Iespējas - Mainīt PC iestatījumus - Konti&lt;/i&gt;. Kontu lapā izvēlieties &lt;i&gt;Cits konts&lt;/i&gt; opciju.&#13;&#10;Citu kontu lapā, pieskarieties &lt;i&gt;Pievienot lietotāju&lt;/i&gt;. Nākamajā lapā ievadiet tā servera hostname un pieskarieties Tālāk.</help_tablet_win1>
+    <help_tablet_win2>Lai izveidotu Microsoft konta lapu, aizpildiet konta datus un pieskarieties Tālāk.</help_tablet_win2>
+    <help_tablet_win3>Pievienot drošības informācijas lapā, iestatiet drošības preferences un pieskarieties Tālāk. Komunikācijas preferences lapā, pieskarieties Tālāk. Pēdējā lapā, pieskarieties Beigt.</help_tablet_win3>
+    <help_phone_and_title>Android ierīces</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>&lt;b&gt;Attālā drošības administrēšana&lt;/b&gt; ekrānā, nospiediet &lt;b&gt;Labi&lt;/b&gt;. Tas ir būtiski, lai realizētu jūsu uzņēmuma drošības politiku uz ierīces, vai atjaunotu to no attāluma, ja zaudēta.</help_phone_and2>
+    <help_phone_and3>&lt;b&gt;Konta iestatījumi&lt;/b&gt; ekrānā, izvēlieties &lt;i&gt;Inbox pārbaudes biežumu &lt;/i&gt; un iestatiet, cik vecu e-pastu sinhronizēt ar &lt;i&gt;Dienas līdz sinhronizācijai&lt;/i&gt;. Atzīmējiet opciju &lt;i&gt;Sūtīt e-pastu no šī konta pēc noklusējuma&lt;/i&gt;, pārskatīt citus uzstatījumus un pieskarieties pie Tālāk.</help_phone_and3>
+    <help_phone_and4>Nodrošināt konta apzīmējumus, lai identificētu šo kontu lietojumprogrammās, un pieskarieties Tālāk.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>Dodieties uz &lt;b&gt;Iestatījumi&lt;/b&gt;, izvēlieties &lt;i&gt;Pasts, Kontaktpersonas, Kalendāri - Pievienot kontu - Exchange&lt;/i&gt; iespējas.</help_ios1>
+    <help_ios2>Nākamajā lapā, aizpildiet &lt;i&gt;E-pasts, Parole, Apraksts&lt;/i&gt; laukus. Pieskarieties Tālāk.</help_ios2>
+    <help_ios3>Nākamajā lapā, iespējams atslēgt funkcijas, kuras jūs nevēlaties izmantot, bīdot kontrolieri, lai izslēgtu. Pieskarieties Saglabāt. Papildu uzstādījumus var atrast zem konta apraksta &lt;b&gt;Pasts, Kontaktpersonas, Kalendāri - Konti &lt;/b&gt; sadaļā.</help_ios3>
+    <help_phone_win_title>Windows Phone</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Ievadiet savu &lt;i&gt;E-pasta adresi&lt;/i&gt; un &lt;i&gt;Paroli&lt;/i&gt;. Kad tas ir izdarīts, pieskarieties &lt;b&gt;ieiet&lt;/b&gt;.</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X ir Apple Inc. preču zīmes, reģistrētas ASV un citās valstīs. Microsoft, Windows, Outlook un Windows Phone ir reģistrētas preču zīmes vai Microsoft Corporation preču zīmes Amerikas Savienotajās Valstīs un/vai citās valstīs. Android ir Google Inc. preču zīme. IceWarp ir reģistrēta preču zīme ASV un citās valstīs.</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>E-pasts, kalendāri, kontaktpersonas, uzdevumi</subtitle>
+    <descr>Soli pa solim konta iestatīšana.</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>Uzstādīt IceWarp darbvirsmas klientu</subtitle>
+    <descr>Soli pa solim instalācija.</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Kalendāri un atgādinājumi</subtitle>
+    <descr>Soli pa solim uzstādīšana uz Mac.</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>Pasts, kalendārs, cilvēki</subtitle>
+    <descr>Soli pa solim instalācija.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>Pasts, kalendārs, cilvēki</subtitle>
+    <descr>Soli pa solim konta iestatīšana.</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>Pasts, kalendārs, kontaktpersonas</subtitle>
+    <descr>Soli pa solim konta iestatīšana.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Previous page</previous_title>
+    <previous_label>Previous</previous_label>
+    <next_title>Next page</next_title>
+    <next_label>Next</next_label>
+    <page_label>Page:</page_label>
+    <page_of>of {{pageCount}}</page_of>
+    <zoom_out_title>Zoom out</zoom_out_title>
+    <zoom_out_label>Zoom out</zoom_out_label>
+    <zoom_in_title>Zoom in</zoom_in_title>
+    <zoom_in_label>Zoom in</zoom_in_label>
+    <zoom_title>Zoom</zoom_title>
+    <presentation_mode_title>Switch to fullscreen</presentation_mode_title>
+    <presentation_mode_label>Fullscreen</presentation_mode_label>
+    <print_title>Print</print_title>
+    <print_label>Print</print_label>
+    <download_title>Download</download_title>
+    <download_label>Download</download_label>
+    <bookmark_title>Bookmark</bookmark_title>
+    <bookmark_label>Bookmark</bookmark_label>
+    <tools_title>Tools</tools_title>
+    <tools_label>Tools</tools_label>
+    <first_page_title>Go to first page</first_page_title>
+    <first_page_label>Go to first page</first_page_label>
+    <last_page_title>Go to last page</last_page_title>
+    <last_page_label>Go to last page</last_page_label>
+    <page_rotate_cw_title>Rotate clockwise</page_rotate_cw_title>
+    <page_rotate_cw_label>Rotate clockwise</page_rotate_cw_label>
+    <page_rotate_ccw_title>Rotate counterclockwise</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Rotate counterclockwise</page_rotate_ccw_label>
+    <hand_tool_enable_title>Enable hand tool</hand_tool_enable_title>
+    <hand_tool_enable_label>Enable hand tool</hand_tool_enable_label>
+    <hand_tool_disable_title>Disable hand tool</hand_tool_disable_title>
+    <hand_tool_disable_label>Disable hand tool</hand_tool_disable_label>
+    <document_properties_label>Document properties</document_properties_label>
+    <document_properties_file_name>File name:</document_properties_file_name>
+    <document_properties_file_size>File size:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>Title:</document_properties_title>
+    <document_properties_author>Author:</document_properties_author>
+    <document_properties_subject>Subject:</document_properties_subject>
+    <document_properties_keywords>Keywords:</document_properties_keywords>
+    <document_properties_creation_date>Creation date:</document_properties_creation_date>
+    <document_properties_modification_date>Modification date:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Creator:</document_properties_creator>
+    <document_properties_producer>Producer:</document_properties_producer>
+    <document_properties_version>Version:</document_properties_version>
+    <document_properties_page_count>Page count:</document_properties_page_count>
+    <document_properties_close>Close</document_properties_close>
+    <toggle_sidebar_title>Toggle sidebar</toggle_sidebar_title>
+    <toggle_sidebar_label>Toggle sidebar</toggle_sidebar_label>
+    <outline_title>Show document outline</outline_title>
+    <outline_label>Show document outline</outline_label>
+    <thumbs_title>Show thumbnails</thumbs_title>
+    <thumbs_label>Show thumbnails</thumbs_label>
+    <findbar_title>Find in document</findbar_title>
+    <findbar_label>Find</findbar_label>
+    <thumb_page_title>Page {{page}}</thumb_page_title>
+    <thumb_page_canvas>Thumbnail of page {{page}}</thumb_page_canvas>
+    <find_label>Find:</find_label>
+    <find_previous_title>Find previous</find_previous_title>
+    <find_previous_label>Previous</find_previous_label>
+    <find_next_title>Find next</find_next_title>
+    <find_next_label>Next</find_next_label>
+    <find_highlight>Highlight all</find_highlight>
+    <find_match_case_label>Match case</find_match_case_label>
+    <find_reached_top>Reached the top of the document</find_reached_top>
+    <find_reached_bottom>Reached the bottom of the document</find_reached_bottom>
+    <find_not_found>Not found</find_not_found>
+    <error_more_info>More info</error_more_info>
+    <error_less_info>Less info</error_less_info>
+    <error_close>Close</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Message: {{message}}</error_message>
+    <error_stack>Stack: {{stack}}</error_stack>
+    <error_file>File: {{file}}</error_file>
+    <error_line>Line: {{line}}</error_line>
+    <rendering_error>Rendering error</rendering_error>
+    <page_scale_width>Full width</page_scale_width>
+    <page_scale_fit>Fit page</page_scale_fit>
+    <page_scale_auto>Automatic zoom</page_scale_auto>
+    <page_scale_actual>Actual size</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Error</loading_error_indicator>
+    <loading_error>Error while loading PDF</loading_error>
+    <invalid_file_error>Invalid or corrupted PDF file</invalid_file_error>
+    <missing_file_error>Missing PDF file</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>Enter password to open this protected PDF</password_label>
+    <password_invalid>Incorrect password, please try again.</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Cancel</password_cancel>
+    <printing_not_supported>Warning: Printing is not fully supported in this browser.</printing_not_supported>
+    <printing_not_ready>Warning: PDF is not completly loaded for printing</printing_not_ready>
+    <web_fonts_disabled>Web fonts are disabled: not possible to use PDF fonts</web_fonts_disabled>
+    <document_colors_disabled>PDF document is not allowed to use colors</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDocument</title>
+    <preview>Document preview</preview>
+    <error>WebDocument Error</error>
+    <error_msg>Document loading problem. You may need to close and reopen the document for full functionality.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

@@ -1,0 +1,50 @@
+.obj_smart_input{
+	position: relative;
+	float: left;
+	overflow: hidden;
+
+	background-color: #FFF;
+	border: 1px solid #ABABAB;
+	border-radius: 2px;
+}
+.obj_smart_input.max{
+	width: 100%;
+}
+.obj_smart_input.max>div{
+	width: 100%;
+}
+	.obj_smart_input>div{
+		position: relative;
+		width: 178px;
+		min-height: 26px;
+		line-height: 26px;
+		padding: 0 6px;
+		cursor: text;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		z-index: 5;
+	}
+
+	/* placeholder */
+	.obj_smart_input>div.placeholder{
+		position: absolute;
+		display: none;
+		top: 0;
+		left: 0;
+		z-index: 0;
+		color: #808080;
+	}
+	.obj_smart_input.placeholder>div.placeholder{
+		display: block;
+	}
+
+	/* test icon */
+	.obj_smart_input span{
+		display: inline-block;
+		background-color: wheat;
+		border-radius: 3px;
+		margin: 0 2px;
+		padding: 0 10px;
+		cursor: pointer;
+		line-height: 20px;
+	}

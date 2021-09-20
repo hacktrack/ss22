@@ -1,0 +1,17 @@
+<form>
+	<panel>
+		<helper>auth</helper>
+		<helper>item</helper>
+		<helper>settings</helper>
+		<helper>groupware</helper>
+		<form id="contact" helper="item" template="hipaa.detail">
+			<config>
+				<controller>item</controller>
+				<data>item.fdr</data>
+				<stylesheet>
+					<src>datagrid_detail</src>
+				</stylesheet>
+			</config>
+		</form>
+	</panel>
+</form>

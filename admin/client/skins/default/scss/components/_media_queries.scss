@@ -1,0 +1,16 @@
+// Font size % media queries
+@media #{$small-only} {
+	html { font-size: $percent-small * $base-size-divisor; }
+}
+
+@media #{$medium-only} {
+	html { font-size: $percent-medium * $base-size-divisor; }
+}
+
+@media #{$large-only} {
+	html { font-size: $percent-large * $base-size-divisor; }
+}
+
+@media #{$xlarge-up} {
+	html { font-size: $percent-large * $base-size-divisor; }
+}

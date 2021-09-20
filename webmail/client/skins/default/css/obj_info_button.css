@@ -1,0 +1,89 @@
+
+/* Button look (as normal button) */
+
+form.obj_info_button input.obj_info_button{
+	display: inline-block;
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#ECECEC));
+	background: -moz-linear-gradient(top,  #FFFFFF,  #ECECEC);
+	background: -ms-linear-gradient(top,  #FFFFFF,  #ECECEC);
+	background: -o-linear-gradient(top,  #FFFFFF,  #ECECEC);
+
+	height: 23px;
+	padding: 0px 6px 2px;
+	margin: 0;
+
+	border: 1px solid #A8A9AA;
+
+	border-radius: 3px;
+
+	vertical-align: middle;
+
+	 /*MSIE*/
+	line-height: 21px;
+	line-height: 22px\9;
+
+	min-width: 20px;
+}
+
+form.obj_info_button input.obj_info_button:hover,
+form.obj_info_button input.obj_info_button:focus{
+	border-color: #768CA2;
+}
+
+form.obj_info_button input.obj_info_button[value=""] {
+	background: url("../images/set2.png"), -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#ECECEC));
+	background: url("../images/set2.png"), -moz-linear-gradient(top,  #FFFFFF,  #ECECEC);
+	background: url("../images/set2.png"), -ms-linear-gradient(top,  #FFFFFF,  #ECECEC);
+	background: url("../images/set2.png"), -o-linear-gradient(top,  #FFFFFF,  #ECECEC);
+}
+
+/* Button Bubble look and behaviour */
+
+form.obj_info_button {
+	position: relative;
+}
+
+form.obj_info_button div.bubble {
+	position: absolute;
+	padding: 7px;
+	border-radius: 7px;
+	box-shadow: 0 0 5px #888;
+	border-collapse: separate;	/* IE 9 fix, shadow will not show without this zoom-like magic */
+	background-color: #f8f8f8;
+
+	min-width: 90px;
+	min-height: 40px;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=180,strength=3),progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=270,strength=3)";
+}
+
+form.obj_info_button div.flap {
+	position: absolute;
+	overflow: hidden;
+	width: 30px;
+	height: 15px;
+}
+
+form.obj_info_button div.flap>div {
+	width: 15px;
+	height: 15px;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+
+	background-color: #f8f8f8;
+	box-shadow: 0 0 5px #888;
+
+	/* IE 9 fix, shadow will not show without this zoom-like magic */
+	border-collapse: separate;
+}
+form.obj_info_button div.flap.up>div {
+	margin: -8px auto 0;
+}
+form.obj_info_button div.flap.down>div {
+	margin: 8px auto 0;
+}

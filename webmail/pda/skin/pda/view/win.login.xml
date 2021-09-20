@@ -1,0 +1,27 @@
+<view title="login_screen|title" >
+	<panel center="true">
+		<helper>settings</helper>
+		<form id="login" name="login" method="post" template="form.login" css="login">
+			<fieldset id="fld_login" legend="login|login" css="login_f" ><!--extends="form"-->
+				<edit id="username" css="login_i" name="username" variable="username" template="form.login.alias" />
+				<password id="password" name="password" css="login_i" variable="password" label="login|password" />
+				<select template="language.select"></select>
+				<checkbox id="cipher" name="cipher" label="RSA" />
+				<button id="login" type="submit" action="login" label="login|login" css="button" />
+			</fieldset>
+			<config>
+				<controller>auth</controller>
+				<view>grid.mail</view>
+				<window>main</window>
+				<javascript>
+					<src>lib</src>
+					<src>rsa</src>
+				</javascript>
+				<stylesheet>
+					<src>login</src>
+				</stylesheet>
+			</config>
+		</form>
+		<footer/>
+	</panel>
+</view>

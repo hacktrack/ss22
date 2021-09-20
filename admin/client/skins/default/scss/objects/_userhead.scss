@@ -1,0 +1,69 @@
+// Userhead
+// Handles user avatars.
+
+// Block
+.userhead {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	// object-fit: cover; // Crops non-rectangular images, works only in webkit/blink, will work in the future
+	text-align: center;
+	border: 1px solid currentColor;
+
+	&::before { // Fix icon moved by the border to bottom right
+		margin-top: -1px;
+		margin-left: -1px;
+	}
+
+	@include size-map(
+		('width', 'height', 'font-size', 'line-height'),
+		$userhead-size
+	);
+
+	opacity: 1;
+	visibility: visible;
+
+	@include animation('reveal');
+
+	&, + span {
+		vertical-align: middle;
+		white-space: nowrap;
+	}
+}
+
+
+// Elements
+.userhead-image {
+	background: transparent no-repeat center;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+}
+
+// Use white background when userhead-image contains a background
+.userhead-image[style] {
+	background-color: $white;
+}
+
+
+// Modifiers
+.userhead.text {
+	@include theme {
+		background-color: $theme-border-grey;
+	}
+	color: $white;
+	font-size: s(1.2);
+}
+
+.userhead.large {
+	line-height: 1;
+
+	@include size-map(
+		('width', 'height', 'font-size'),
+		$userhead-size-large
+	);
+}

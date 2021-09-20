@@ -1,0 +1,449 @@
+#listBox
+{
+	border:#ccc 1px solid;
+	margin-top:5px;
+	padding:2px;
+	height:26px;
+}
+
+.shortText
+{
+	width:30px;
+}
+
+#main_content input.fancyInput
+{	
+	background-image: url(bg_input.gif);
+	background-repeat: repeat-x;
+	font-family:tahoma,helvetica,sans-serif;
+	font-size:10px;
+	height:15px;
+	padding:2px 5px 0px 5px;
+	border:#aaa 1px solid;
+}
+
+#main_content input.fancyButton
+{
+	background-image: url(bg_button.gif);
+	background-repeat: repeat-x;
+	font-family:tahoma,helvetica,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	height:20px;
+	padding:1px 5px 2px 5px;
+	border:#aaa 1px solid;
+	cursor:pointer;
+}
+
+/**/
+
+.c_grid{
+  color:#000;
+  font-size:0.8em;
+  background:#FFF;
+	margin:5px;
+}
+
+.c_grid a{
+  width:100%;
+}
+.c_grid .icon_caption{
+  padding-left:20px;
+}
+.c_grid a,.c_grid a:active,.c_grid a:visited,.c_grid a:hover{
+  text-decoration:none;
+  color:#000;
+}
+
+.c_grid_col img{
+  height:30px;
+  width:40px;
+}
+
+.c_grid_mouse{
+  width:100%;
+  height:300px;
+
+}
+.c_grid{
+  border:1px solid threedshadow;
+}
+.c_grid_head{
+	height:20px;
+  background:ThreeDFace;  
+  border-bottom:1px solid #BBB;
+}
+
+.c_grid_body{
+  background:#FFF;
+  border-bottom:1px solid threedshadow;
+}
+.c_grid_index{
+	padding:2px;
+  background:#DAD6C7;
+  border-bottom:1px solid #BBB;
+}
+.c_grid_head_index div,.c_grid_index div{
+  display:none;
+}
+
+.c_grid_head_col,.c_grid_head_index{
+  border-right:1px solid #BBB;
+  background-color:transparent;/* url('headbg.gif') repeat-x;*/
+	color:#000;
+	height:20px;
+	font-weight:normal;
+	font: 12px arial,tahoma, verdana, arial;
+	text-align: left;
+}
+.c_grid_resize{
+	background:ThreeDFace; /*url('headbg.gif') repeat-x;*/
+	cursor:w-resize;
+  z-index:-1;
+  width:3px;
+  height:20px;
+  float:left;
+}
+.c_grid_resize_selected{
+  border-bottom:1px solid #8DF;
+	background:#8DF url('headbg1.gif') repeat-x;
+	cursor:w-resize;
+  z-index:-1;
+  width:3px;
+  height:20px;
+  float:left;
+}
+
+.c_grid_head_col_selected{
+  
+  padding-left:0px;
+  background:#8DF url('headbg1.gif') repeat-x;
+	color: #000;
+	height:100%;
+	font-weight:normal;
+	font: 12px arial,tahoma, verdana, arial;
+	text-align: left;
+	border-bottom:1px solid #8DF;
+	border-right:1px solid #AAF;
+}
+
+.c_grid_desc{
+margin:0px 0px -1px 3px; 
+}
+.c_grid_asc{
+margin:0px 0px 3px 3px; 
+}
+
+.c_grid_col{
+	padding:2px;
+  overflow:hidden;
+  border-bottom:1px solid #BBB;
+}
+
+
+.c_grid_row_selected{
+  overflow:hidden;
+  background:#EFF;
+  border-left:1px solid #BBB;
+}
+
+.c_grid_row{
+  background:#FFF;
+  border-left:1px solid #BBB;
+}
+.c_grid_row_i{
+  background:#606565;
+}
+.c_grid_row_last{
+  background:#FFF;
+  border-left:1px solid #BBB;
+  border-right:1px solid #BBB;
+}
+
+.c_grid_itm_s{
+  background:#8DF;
+}
+.c_grid_itm_h{
+  background:#DEF;
+}
+
+.c_grid_listing{
+	color:blue;
+}
+
+/**/
+
+.grid
+{
+	xmargin-right:30px;
+}
+
+.iconBox
+{
+	width:19px;
+}
+
+.recent
+{	
+	font-weight:bold;	
+}
+
+.icon
+{
+	background:transparent url('../../../../basic/skin/default/css/images/grid/ico_read.gif') no-repeat scroll center center; 
+	height:16px;
+	width:13px;
+}
+
+.recent .icon
+{
+	background:transparent url('../../../../basic/skin/default/css/images/grid/ico_unread.gif') no-repeat scroll center center; 
+	height:16px;
+	width:13px;
+}
+
+th.mailStatusHead
+{
+	padding:1px 0px 0px 0px;
+}
+
+.mailStatusHead div
+{
+	background:transparent url('../../../../basic/skin/default/css/images/grid/ico_flag_top.gif') no-repeat scroll center center; 
+	height:16px;
+}
+
+.dg_small{
+	font-size:0.6em;
+	color:#333;
+}
+
+/* events */
+.mailGrid th.calendar_days
+{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	width:14.285714%;
+}
+
+.mailGrid th.calendar_day
+{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	width:100%;
+	text-align:center;
+}
+
+.mailGrid th.calendar_days div
+{
+	xwidth:127px;
+	height:37px;
+	overflow:hidden;
+	line-height:35px;
+	font-size:11px;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+
+.mailGrid th.calendar_days div div
+{
+	padding:0px;
+	margin:0px;
+}
+
+.calendar_hours th
+{
+	xheight:20px;
+}
+
+.calendar_hours th div
+{
+	padding-top:3px;
+	width:40px;
+	height:23px;
+	.height:20px;
+	overflow:hidden;
+}
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+
+.mailGrid th.crossroad
+{
+	background-color:#ddd;
+	text-align:center; line-height:20px;
+}
+
+.mailGrid td.actual
+{
+	background-color:#e5f3fe;
+	width:14.285714%;
+}
+
+.mailGrid td.other
+{
+	padding:0px;
+	width:14.285714%;
+}
+.mailGrid th.actual
+{
+	background-color:#a6d8ff;
+	width:14.285714%;
+}
+
+.mailGrid th.other
+{
+	width:14.285714%;
+}
+
+.monthItemBoxAllr
+{
+	position:relative;
+}
+
+.monthItemBoxAlla
+{
+	width: 100%;
+	position:absolute;
+}
+
+.monthItemBox
+{
+	padding:2px;
+}
+
+.monthItem
+{
+	border:#333 1px solid;
+	padding:2px;
+	overflow:hidden;
+}
+
+.mailGrid td
+{
+	vertical-align:top;
+}
+
+.eventtime
+{
+	white-space: nowrap;
+}
+
+.mailGrid
+{
+	border-collapse: collapse;	
+	width:100%;
+	margin-top:3px;
+	text-align:left;	
+}
+.mailGrid  th
+{
+	border:#aaa 1px solid;
+	border-collapse: collapse;
+	padding-left:5px;
+	padding-bottom:2px;
+	background-color:#eee;
+}
+
+.mailGrid  td
+{	
+	padding:3px 0px 3px 5px;
+	border:#eee 1px solid;
+}
+
+.mailGrid a
+{
+	display:block;
+	text-decoration:none;
+	color:#000;
+}
+/**/
+
+.mailGrid th.calendar_days
+{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	width:14.285714%;
+}
+
+.mailGrid th.calendar_day
+{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	width:100%;
+	text-align:center;
+}
+
+.mailGrid th.calendar_days div
+{
+	xwidth:127px;
+	height:37px;
+	overflow:hidden;
+	line-height:35px;
+	font-size:11px;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+
+.mailGrid th.calendar_days div div
+{
+	padding:0px;
+	margin:0px;
+}
+
+.calendar_hours th
+{
+	xheight:20px;
+}
+
+.calendar_hours th div
+{
+	padding-top:3px;
+	width:40px;
+	height:23px;
+	.height:20px;
+	overflow:hidden;
+}
+
+.mailGridWW
+{
+	table-layout: auto;
+}
+
+.mailGridWW th.calendar_days
+{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	width:19%;
+}
+.mailGridWW td.other
+{
+	padding:0px;
+	width:19%;
+}
+.mailGridWW th.actual
+{
+	background-color:#a6d8ff;
+	width:19%;
+}
+
+.mailGridWW th.other
+{
+	width:19%;
+}
+
+/* /events  */

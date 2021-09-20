@@ -1,0 +1,58 @@
+div.obj_listbox {
+	height: 150px;
+	width: 100%;
+	border: 1px solid #CDCDCD;
+	background: #FFF;
+	overflow: auto;
+	cursor: default;
+	line-height: 32px;
+	border-radius: 2px;
+}
+
+div.obj_listbox.noborder{
+	border: none;
+	border-radius: 0;
+}
+div.obj_listbox_max{
+	height: 100%;
+}
+	/* ffox hack */
+	div.msiebox>div.obj_listbox_max{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+div.obj_listbox>div {
+	padding: 0 8px;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+}
+	div.obj_listbox>div.active {
+		background-color: #999!important;
+		color: #FFF;
+	}
+div.obj_listbox.disabled {
+	background-color: #E6E8EA;
+}
+	div.obj_listbox.disabled>div.active {
+		background-color: #D1D1D1!important;
+		color: #888;	
+	}
+
+/* Checkbox (Optional) */
+div.obj_listbox>div>span{
+	float: left;
+	position: relative;
+	height: 22px;
+	width: 20px;
+	margin: 6px 5px 0 0;
+	background: url('../images/checkbox.gif') no-repeat 3px 4px transparent;
+}
+	div.obj_listbox>div.checked>span{
+		background-position: 3px -42px;
+	}
+	div.obj_listbox>div.disabled>span{
+		opacity: 0.5;
+	}

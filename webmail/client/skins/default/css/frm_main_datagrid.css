@@ -1,0 +1,45 @@
+div.frm_main_datagrid,
+div.frm_main_datagrid>.frm_main_datagrid_div{
+	height: 100%;
+}
+
+/* toolbar */
+div.frm_main_datagrid.toolbar{
+	padding-top: 40px;
+}
+div.frm_main_datagrid .obj_hmenu_calendar_view{
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #EDEDED;
+}
+	div.frm_main_datagrid .obj_hmenu_calendar_view>ul{
+		float: right;
+	}
+	body.rtl div.frm_main_datagrid .obj_hmenu_calendar_view>ul{
+		float: left;
+	}
+
+div.frm_main_datagrid.toolbar .obj_hmenu_calendar_view{
+	display: block;
+}
+
+/* div.frm_main_datagrid>.obj_progress{
+	position: absolute;
+	top: 27px;
+	z-index: 100;
+} */
+
+/* Quick Edit */
+div.frm_main_datagrid.quick>div.obj_datagrid{
+	padding-bottom: 33px;
+}
+div.frm_main_datagrid.quick .obj_upload_edit{
+	height: 33px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}

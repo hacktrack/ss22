@@ -1,0 +1,1 @@
+<div class="obj_framecontainer"><iframe id="{anchor frame}" name="{anchor frame}" frameborder="0" marginwidth="0" marginheight="0" seamless="seamless"></iframe></div>

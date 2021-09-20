@@ -1,0 +1,1 @@
+<aliases>{dynamic aliases}<item uid="{.*::email}">{dynamic *::variables}<{.*::key}>{.*::value}</{.*::key}>{/dynamic}</item>{/dynamic}</aliases>

@@ -1,0 +1,160 @@
+.obj_conference_progress{
+	text-align: left;
+}
+.obj_conference_progress .progress-header,
+.obj_conference_progress .progress-attendees{
+	border-bottom: 1px solid #dae7ee;
+}
+	.obj_conference_progress .progress-header h1{
+		font-size: 24px;
+		font-weight: 500;
+		margin: 0 0 8px 0;
+	}
+	.obj_conference_progress .progress-header h1 span.badge{
+		background-color: #3dd8b4;
+		color: #ffffff;
+		padding: 0 8px;
+		border-radius: 8px;
+		line-height: 16px;
+		font-size: 13px;
+		font-weight: 500;
+		display: inline-block;
+		position: relative;
+		bottom: 4px;
+		margin: 0 5px;
+	}
+	.obj_conference_progress .progress-header h2{
+		font-size: 18px;
+		font-weight: inherit;
+		margin: 0 12px 6px 0;
+		color: #637282;
+	}
+
+	.obj_conference_progress .progress-avatar{
+		line-height: 32px;
+		vertical-align: middle;
+		font-size: 14px;
+		color: #637282;
+		margin: 12px 0 16px 0;
+	}
+		.obj_conference_progress .progress-avatar .obj_avatar{
+			display: inline-block;
+			vertical-align: bottom;
+			padding: 0 12px 0 0;
+		}
+
+.obj_conference_progress .progress-link{
+	cursor: pointer;
+	color: {txt_main #0088CC};
+}
+.obj_conference_progress .progress-attendees>.show{
+	cursor: pointer;
+	color: {bg_ok_button '#0088CC'};
+}
+.obj_conference_progress .progress-attendees>.show:hover{
+	color: {bg_ok_button_darker '#006DA3'};
+}
+
+
+.obj_conference_progress .password {
+	float: none;
+	display: inline-block;
+	vertical-align: bottom;
+	border: 0;
+}
+	.obj_conference_progress .password input {
+		font-size: 18px;
+	}
+
+	.obj_conference_progress .password .mask_container a {
+		position: relative;
+		width: 20px;
+	}
+	.obj_conference_progress .password .mask_container a:before {
+		content: '\e07d';
+		font-family: 'ico16';
+		color: {bg_main #08C};
+	}
+
+
+.obj_conference_progress .progress-attendees{
+	font-size: 14px;
+	padding: 32px 0;
+}
+	.obj_conference_progress .progress-attendees .obj_loader{
+		height: 100px;
+	}
+	.obj_conference_progress .progress-attendees>h2{
+		font-size: 16px;
+		font-weight: 500;
+		margin: 0 0 24px 0;
+	}
+	.obj_conference_progress .progress-attendees>.show{
+		padding-left: 44px;
+		line-height: 32px;
+		position: relative;
+		opacity: 0;
+		transition: opacity 200ms ease-out, height 200ms ease-in;
+		overflow: hidden;
+		height: 0;
+	}
+	.obj_conference_progress.show_all .progress-attendees>.show{
+		opacity: 1;
+		height: 32px;
+	}
+		.obj_conference_progress .progress-attendees>.show:before{
+			content: '';
+			border-radius: 50%;
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			border: 1px solid {bg_ok_button #0088CC};
+		}
+		.obj_conference_progress .progress-attendees>.show:hover:before{
+			border-color: {bg_ok_button_darker '#006DA3'};
+		}
+		.obj_conference_progress .progress-attendees>.show:after{
+			content: '\e983';
+			position: absolute;
+			width: 16px;
+			height: 16px;
+			display: block;
+			font-family: "ico16";
+			font-size: 16px;
+			line-height: 16px;
+			top: 8px;
+			left: 8px;
+		}
+
+	.obj_conference_progress .progress-attendees .list{
+		overflow: hidden;
+	}
+	.obj_conference_progress.show_all .progress-attendees .list{
+		max-height: 220px;
+	}
+	.obj_conference_progress .progress-attendees .list>div{
+		line-height: 32px;
+		margin-bottom: 12px;
+		padding: 0 0 0 44px;
+		font-size: 14px;
+		white-space: nowrap;
+		position: relative;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+		.obj_conference_progress .progress-attendees .list .avatar{
+			display: inline-block;
+			height: 32px;
+			width: 32px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			border-radius: 50%;
+			background: url(../images/face-placeholder.gif) no-repeat center center #C6C4C2;
+			background-size: cover;
+			background-clip: border-box;
+			background-origin: border-box;
+		}

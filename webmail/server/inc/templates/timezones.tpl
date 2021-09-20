@@ -1,0 +1,1 @@
+<timezones>{dynamic timezones}<item><tzid>{*::tzid}</tzid><name>{*::name}</name></item>{/dynamic}</timezones>

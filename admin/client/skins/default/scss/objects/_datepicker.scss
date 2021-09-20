@@ -1,0 +1,110 @@
+// Datepicker
+// UI to pick dates in browsers that don't support <input type="date"> natively.
+
+// Block
+.datepicker {
+	display: none;
+	z-index: z('base');
+	position: absolute;
+	left: -1px; // Position fix because of input border
+	bottom: 1px; // Position fix because of input border
+	-webkit-transform: translateY(100%);
+	        transform: translateY(100%);
+	background-color: $white;
+	@include border;
+	text-align: center;
+	cursor: default;
+	width: s(20);
+
+	// States
+	&.show {
+		display: block;
+	}
+}
+
+
+// Elements
+.datepicker-month, .datepicker-year {
+	@include flexbox;
+	@include align-items(center);
+	height: $object-height;
+}
+
+.datepicker-year {
+	@include border('top');
+}
+
+.datepicker-select, .datepicker-arrow {
+	font-weight: 600;
+}
+
+.datepicker-select {
+	@include flex(1, 1, 0);
+	border: 0 !important;
+}
+
+.datepicker-arrow {
+	width: $object-height; // width = height = rectangle
+	cursor: pointer;
+	color: $dark;
+	font-size: s(1);
+	height: 100%;
+	line-height: $object-height;
+
+	transition: background-color $normal;
+
+	// States
+	&:hover, &:focus {
+		background-color: $lighter-grey;
+		transition: none;
+	}
+}
+
+.datepicker-calendar {
+	table-layout: fixed;
+	border: 0;
+	@include border('top');
+
+	td, th {
+		line-height: $object-height;
+		text-align: center;
+		border: 0;
+		padding: 0;
+	}
+
+	tbody th {
+		cursor: pointer;
+		font-weight: 400;
+	}
+}
+
+.datepicker-dates th {
+
+	// States
+	&:not(.selected) {
+		transition: background-color $normal;
+
+		&:hover, &:focus {
+			background-color: $lighter-grey;
+			transition: none;
+		}
+	}
+
+	// States
+	&.selected {
+		@include theme {
+			background-color: $theme-primary;
+		}
+		color: $white;
+		font-weight: 600;
+	}
+}
+
+
+// Modifiers
+.datepicker.right {
+	left: auto;
+	right: -1px;
+}
+
+// Class .narrow also exists

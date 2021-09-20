@@ -1,0 +1,54 @@
+.obj_minimore:after{
+	left: auto;
+	right: 11px;
+}
+.obj_minimore>span{
+	position: relative;
+	margin: 0!important;
+	padding: 0 7px 0 27px!important;
+	display: inline-block!important;
+
+	line-height: 26px!important;
+
+	z-index: 10;
+	cursor: pointer;
+
+	border: 1px solid transparent;
+	/*float: left;*/
+}
+
+.obj_minimore>span:first-of-type{
+	border-radius: 4px 0 0 4px;
+}
+.obj_minimore>span:last-of-type{
+	border-radius: 0 4px 4px 0;
+}
+
+.obj_minimore>span:not(.disabled):hover{
+	border-color: {bg_main '#0088CC'};
+}
+
+.obj_minimore>span.disabled{
+	opacity: 0.5;
+	cursor: default;
+}
+
+.obj_minimore>span:after{
+	position: absolute;
+	left: 5px;
+	top: 0;
+
+	content: '\e080'; /* \e08f */
+	font-family: 'ico16';
+	font-size: 16px;
+}
+
+.obj_minimore>span.remove{
+	color: #BF6559;
+}
+.obj_minimore>span.remove:not(.disabled):hover{
+	border-color: #BF6559;
+}
+	.obj_minimore>span.remove:after{
+		content: '\e002';
+	}

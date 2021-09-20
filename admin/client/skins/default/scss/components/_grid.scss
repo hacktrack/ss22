@@ -1,0 +1,162 @@
+// Flex Grid Core
+[iw-flex-grid] {
+	@include flexbox;
+	@include flex-wrap(wrap);
+	@include flex(1, 1, 0);
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: -$grid-gutter;
+}
+
+[iw-flex-cell] {
+	@include flex(1, 1, 100%);
+	max-width: 100%; // Fixes 'flex-basis' in IE
+	padding-left: $grid-gutter;
+}
+
+@for $i from 1 through $grid-columns {
+
+	[iw-flex-grid^="#{$i}"], [iw-flex-grid*=" #{$i}"] {
+
+		> [iw-flex-cell] {
+			@include flex-basis((100 / $i) * 1%);
+			max-width: #{(100 / $i) * 1%}; // Fixes 'flex-basis' in IE
+		}
+	}
+}
+
+@for $i from 1 through $cell-columns {
+
+	[iw-flex-grid] > {
+
+		[iw-flex-cell^="#{$i}"], [iw-flex-cell*=" #{$i}"] {
+			@include flex-basis(($i / $cell-columns) * 100%);
+			max-width: #{($i / $cell-columns) * 100%}; // Fixes 'flex-basis' in IE
+		}
+	}
+}
+
+[iw-flex-grid^="double-padding"], [iw-flex-grid*=" double-padding"] {
+	margin-left: -$grid-gutter-double;
+
+	> [iw-flex-cell] {
+		padding-left: $grid-gutter-double;
+	}
+}
+
+[iw-flex-grid^="half-padding"], [iw-flex-grid*=" half-padding"] {
+	margin-left: -$grid-gutter-half;
+
+	> [iw-flex-cell] {
+		padding-left: $grid-gutter-half;
+	}
+}
+
+[iw-flex-cell^="half-padding"], [iw-flex-cell*=" half-padding"] {
+	padding-left: $grid-gutter-half !important;
+}
+
+[iw-flex-cell^="quarter-padding"], [iw-flex-cell*=" quarter-padding"] {
+	padding-left: $grid-gutter-quarter !important;
+}
+
+[iw-flex-grid^="no-padding"], [iw-flex-grid*=" no-padding"] {
+	margin: 0;
+
+	> [iw-flex-cell] {
+		padding-left: 0;
+	}
+}
+
+[iw-flex-cell^="no-padding"], [iw-flex-cell*=" no-padding"] {
+	padding-left: 0 !important;
+}
+
+[iw-flex-grid~="fit"], [iw-flex-grid*=" fit"] {
+	@include flex-wrap(nowrap);
+
+	> [iw-flex-cell] {
+		@include flex(1, 1, 0);
+	}
+}
+
+[iw-flex-grid^="none"], [iw-flex-grid*=" none"] {
+
+	> [iw-flex-cell] {
+		@include flex(none);
+	}
+}
+
+[iw-flex-grid] > {
+
+	[iw-flex-cell^="none"], [iw-flex-cell*=" none"] {
+		@include flex(none);
+	}
+
+	[iw-flex-cell^="full"], [iw-flex-cell*=" full"] {
+		@include flex-basis(100%);
+		max-width: 100%; // Fixes 'flex-basis' in IE
+	}
+
+	[iw-flex-cell^="fit"], [iw-flex-cell*=" fit"] {
+		@include flex(1, 1, 0);
+		max-width: none; // Fixes 'flex-basis' in IE
+	}
+}
+
+[iw-flex-grid^="group"], [iw-flex-grid*=" group"] {
+	margin-left: auto;
+
+	> [iw-flex-cell] {
+		padding-left: 0;
+	}
+}
+
+[iw-flex-grid^="query"], [iw-flex-grid*=" query"] {
+	@include flex-direction(row);
+
+	@media #{$medium-down} {
+
+		> [iw-flex-cell] {
+			@include flex-basis(100%);
+			max-width: 100%;
+		}
+	}
+}
+
+[iw-flex-grid^="qs"], [iw-flex-grid*=" qs"] { // TODO[WAD-853]: Create more query attributes, with a default
+	@include flex-direction(row);
+
+	@media #{$small-only} {
+
+		> [iw-flex-cell] {
+			@include flex-basis(100%);
+			max-width: 100%;
+		}
+	}
+}
+
+[iw-flex-grid^="center"], [iw-flex-grid*=" center"] {
+
+	> [iw-flex-cell] {
+		@include align-self(center);
+	}
+}
+
+[iw-flex-grid^="column"], [iw-flex-grid*=" column"] {
+	@include flex-direction(column);
+
+	> [iw-flex-cell] {
+		@include flex(none);
+	}
+}
+
+
+// Flex Grid Utilities
+#{attr('iw-flex-grid', 'content-end')} 		{ @include justify-content(flex-end); }
+#{attr('iw-flex-grid', 'content-center')} 	{ @include justify-content(center); }
+#{attr('iw-flex-cell', 'item-end')} 		{ @include align-self(flex-end); }
+#{attr('iw-flex-cell', 'item-center')} 		{ @include align-self(center); }
+#{attr('iw-flex-cell', 'text-center')} 		{ text-align: center; }
+#{attr('iw-flex-cell', 'text-end')} 		{ text-align: right; }

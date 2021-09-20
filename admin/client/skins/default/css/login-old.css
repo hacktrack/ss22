@@ -1,0 +1,466 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+/* line 3, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+/* line 3, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 3, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+body {
+  line-height: 1; }
+
+/* line 3, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 3, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 3, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+/* line 3, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Container used for styling the custom select, the buttom class below adds the bg gradient, corners, etc. */
+/* line 8, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.custom-select {
+  position: relative;
+  display: block;
+  padding: 0; }
+
+/* This is the native select, we're making everything but the text invisible so we can see the button styles in the wrapper */
+/* line 16, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.custom-select select {
+  text-transform: uppercase;
+  color: #cfd5db;
+  border: none;
+  width: 100%;
+  margin: 0;
+  background: none;
+  outline: none;
+  /* Prefixed box-sizing rules necessary for older browsers */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* Remove select styling */
+  appearance: none;
+  -webkit-appearance: none;
+  /* Font size must the 16px or larger to prevent iOS page zoom on focus */
+  font-size: 14px;
+  /* General select styles: change as needed */
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  padding: 0.6em 1.9em 0.5em 0.8em;
+  line-height: 1.3; }
+
+/* Custom arrow sits on top of the select - could be an image, SVG, icon font, etc. or the arrow could just baked into the bg image on the select. Note this si a 2x image so it will look bad in browsers that don't support background-size. In production, you'd handle this resolution switch via media query but this is a demo. */
+/* line 43, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.custom-select::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 50%;
+  right: 1em;
+  margin-top: -7px;
+  background-image: url("../login/images/select-arrow--default.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 2;
+  /* This hack make the select behind the arrow clickable in some browsers */
+  pointer-events: none; }
+
+/* line 59, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.custom-select:hover::after {
+  background-image: url("../login/images/select-arrow--hover.jpg"); }
+
+/* Hover style */
+/* line 65, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.custom-select:hover select {
+  color: #0b86d2; }
+
+/* Focus style */
+/* line 70, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.custom-select select:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent; }
+
+/* Set options to normal weight */
+/* line 77, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.custom-select option {
+  font-weight: normal; }
+
+/* line 82, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+x:-o-prefocus, .custom-select::after {
+  display: none; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 88, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .custom-select select::-ms-expand {
+    display: none; }
+  /* line 92, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .custom-select select:focus::-ms-value {
+    background: transparent;
+    color: #222; } }
+
+@-moz-document url-prefix() {
+  /* line 100, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .custom-select {
+    overflow: hidden; }
+  /* line 104, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .custom-select select {
+    width: 120%;
+    width: -moz-calc(100% + 3em);
+    width: calc(100% + em); } }
+
+/* line 111, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.custom-select select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000; }
+
+/* line 118, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+html, body, input[type="submit"], input[type="button"] {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px; }
+
+/* line 124, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+strong {
+  font-weight: bold; }
+
+/* line 128, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+p {
+  margin: 8px 0; }
+
+/* line 132, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+h1 {
+  font-size: 42px;
+  color: #0b86d2;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+/* line 142, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+h3 {
+  margin-bottom: 32px;
+  color: #9b9ea3;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  top: -8px;
+  line-height: 1.2; }
+
+/* line 152, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+hr {
+  border: 0;
+  border-top: 1px solid #9b9ea3;
+  width: 150px;
+  height: 1px;
+  margin: 32px 0; }
+
+/* line 160, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.custom-select {
+  width: 200px; }
+
+/* line 164, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login {
+  min-width: 320px;
+  background: #f8f8f8;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.625;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+/* line 173, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login a {
+  text-decoration: none;
+  color: #444; }
+  /* line 179, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .login a:hover, .login a:hover .browser-support {
+    color: #0b86d2; }
+
+/* line 185, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login a img {
+  border: none; }
+
+/* line 189, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login-wrap {
+  background: #fff; }
+
+/* line 195, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login-header {
+  *zoom: 1;
+  padding: 48px; }
+
+/* line 200, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login-header:after {
+  clear: both; }
+
+/* line 205, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login-header:before,
+.login-header:after {
+  content: " ";
+  display: table; }
+
+/* line 210, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login-logo {
+  float: left; }
+
+/* line 214, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login-language {
+  float: right; }
+
+/* line 218, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login-headline {
+  text-align: center;
+  padding: 16px 16px 80px 16px; }
+  /* line 222, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .login-headline p {
+    width: 400px; }
+
+/* line 227, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login-browsers {
+  padding-bottom: 64px; }
+
+/* line 231, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-table-wrap {
+  text-align: center;
+  width: 800px;
+  *zoom: 1; }
+
+/* line 237, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-table-wrap:after {
+  clear: both; }
+
+/* line 242, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-table-wrap:before,
+.browser-table-wrap:after {
+  content: " ";
+  display: table; }
+
+/* line 247, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-group {
+  padding-bottom: 64px; }
+
+/* line 251, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-group-title {
+  width: 100%; }
+  /* line 254, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .browser-group-title td {
+    width: 50%;
+    vertical-align: middle;
+    border-top: 1px solid #9b9ea3; }
+    /* line 261, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+    .large .browser-recommended .browser-group-title td {
+      border: 0; }
+  /* line 267, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .browser-group-title .border-clear {
+    padding: 0 16px;
+    width: auto;
+    border: 0;
+    white-space: nowrap; }
+
+/* line 275, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-recommended {
+  float: left;
+  width: 30%; }
+
+/* line 280, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-supported {
+  float: right;
+  width: 60%; }
+
+/* line 285, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-table {
+  white-space: nowrap;
+  *zoom: 1; }
+
+/* line 290, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-table:after {
+  clear: both; }
+
+/* line 295, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-table:before,
+.browser-table:after {
+  content: " ";
+  display: table; }
+
+/* line 300, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-anchor {
+  display: block; }
+
+/* line 304, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-item {
+  *zoom: 1;
+  float: left;
+  height: 150px; }
+  /* line 309, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .browser-recommended .browser-item {
+    width: 100%; }
+  /* line 313, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+  .browser-supported .browser-item {
+    width: 25%;
+    margin-right: -1px; }
+
+/* line 319, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-item:after {
+  clear: both; }
+
+/* line 324, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-item:before,
+.browser-item:after {
+  content: " ";
+  display: table; }
+
+/* line 329, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-image {
+  width: 64px;
+  height: 64px;
+  padding: 16px 16px 8px 16px; }
+
+/* line 335, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-name {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px; }
+
+/* line 341, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-support {
+  color: #9b9ea3; }
+
+/* line 346, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.browser-name,
+.browser-support {
+  display: block;
+  white-space: normal; }
+
+/* line 351, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.login-footer {
+  padding: 16px 16px 64px 16px;
+  text-align: center; }
+
+/* line 356, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.social-icon {
+  margin: -16px 4px 0 4px; }
+
+/* line 365, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.medium .browser-recommended,
+.medium .browser-supported,
+.small .browser-recommended,
+.small .browser-supported {
+  float: none;
+  width: 100%; }
+
+/* line 370, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.medium .browser-image,
+.small .browser-image {
+  padding: 16px; }
+
+/* line 377, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.medium .browser-table-wrap {
+  width: 594px; }
+
+/* line 381, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.medium h3 {
+  margin-bottom: 16px; }
+
+/* line 388, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small h3 {
+  margin-bottom: 0; }
+
+/* line 392, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .login-logo-image {
+  max-width: 169px;
+  width: 100%;
+  height: auto; }
+
+/* line 398, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .custom-select {
+  width: 100%; }
+
+/* line 402, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .login-header {
+  padding: 5%; }
+
+/* line 407, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .login-logo,
+.small .login-language {
+  width: 40%; }
+
+/* line 413, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .login-headline p {
+  width: auto; }
+
+/* line 418, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .browser-table-wrap {
+  width: 280px; }
+
+/* line 426, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .browser-item,
+.medium .browser-recommended .browser-item {
+  width: 100%;
+  float: none;
+  height: 64px;
+  margin: 24px auto; }
+
+/* line 433, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .browser-anchor,
+.medium .browser-recommended .browser-anchor {
+  height: 64px; }
+
+/* line 437, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .browser-image,
+.medium .browser-recommended .browser-image {
+  float: left;
+  width: auto;
+  padding: 0; }
+
+/* line 443, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .browser-text,
+.medium .browser-recommended .browser-text {
+  width: 70%;
+  padding: 6px 0;
+  float: right;
+  text-align: left; }
+
+/* line 450, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.small .browser-anchor,
+.medium .browser-recommended .browser-anchor {
+  display: block;
+  text-align: left; }
+
+/* line 458, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.medium .browser-recommended .browser-item {
+  width: 280px;
+  margin: 8px auto; }
+
+/* line 465, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.padding {
+  padding: 16px; }
+
+/* line 469, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.bold {
+  font-weight: bold !important; }
+
+/* line 473, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.underline {
+  text-decoration: underline !important; }
+
+/* line 477, C:/BuildAgent/work/bb5152ddf1e295e5/client/skins/default/scss/login-old.scss */
+.grey {
+  color: #9b9ea3; }

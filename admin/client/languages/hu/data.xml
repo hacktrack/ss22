@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <other>
+    <primary>Elsődleges</primary>
+    <secondary>Másodlagos</secondary>
+    <success>Sikeres</success>
+    <warning>Figyelmeztetés</warning>
+    <error>Hiba</error>
+    <grey>Szürke</grey>
+    <borderless>Keret nélkük</borderless>
+    <demo>Bemutató</demo>
+    <other>Egyéb</other>
+    <search_placeholder>Mit keres?</search_placeholder>
+    <imagepath_en>client/languages/hu/images/</imagepath_en>
+    <session_expired>Az időkeret lejárt</session_expired>
+  </other>
+  <main>
+    <logout>Kijelentkezés</logout>
+    <dashboard>Állapot</dashboard>
+    <console>API elérés</console>
+    <search>Keresés</search>
+    <support_url>https://www.icewarp.hu/support/</support_url>
+    <spam_queues>Spam listák</spam_queues>
+    <white_labeling>Webfelület</white_labeling>
+    <content_rules>Tartalom szabályok</content_rules>
+    <certificates>Tanúsítványok</certificates>
+    <server_settings>Rendszer</server_settings>
+    <policies>Házirendek</policies>
+    <smartdiscover>Automatikus észlelés</smartdiscover>
+    <webclient>WebMail</webclient>
+    <support>Támogatás</support>
+    <subscription>Feliratkozás</subscription>
+    <account_settings>Fiók beállítások</account_settings>
+    <management>Felhasználók és domének</management>
+    <oauth>OAuth providers</oauth>
+    <night_mode>Night mode</night_mode>
+  </main>
+  <form_buttons>
+    <ok>OK</ok>
+    <cancel>Mégse</cancel>
+    <retry>Újra</retry>
+    <close>Bezárás</close>
+  </form_buttons>
+  <datetime>
+    <php_date>Y. m. d.</php_date>
+    <php_time>H:i:s</php_time>
+    <php_time_minutes>H:i</php_time_minutes>
+    <mon>Hó</mon>
+    <tue>K</tue>
+    <wed>Sz</wed>
+    <thu>Cs</thu>
+    <fri>P</fri>
+    <sat>Sz</sat>
+    <sun>V</sun>
+    <monday>Hétfő</monday>
+    <tuesday>Kedd</tuesday>
+    <wednesday>Szerda</wednesday>
+    <thursday>Csütörtök</thursday>
+    <friday>Péntek</friday>
+    <saturday>Szombat</saturday>
+    <sunday>Vasárnap</sunday>
+    <january>Január</january>
+    <february>Február</february>
+    <march>Március</march>
+    <april>Április</april>
+    <may>Május</may>
+    <june>Június</june>
+    <july>Július</july>
+    <august>Augusztus</august>
+    <september>Szeptember</september>
+    <october>Október</october>
+    <november>November</november>
+    <december>December</december>
+    <days>nap;nap</days>
+    <year>év</year>
+    <years>év</years>
+  </datetime>
+  <service_statistics>
+    <uptime>Működési idő</uptime>
+    <memorysize>Működési egység mérete</memorysize>
+    <memorypeak>Működési egység mérete (csúcs)</memorypeak>
+    <msgreceived>Fogadott</msgreceived>
+    <msgsent>Küldött</msgsent>
+    <msgfailed>Hibás</msgfailed>
+    <msgvirus>Vírus</msgvirus>
+    <msgcontentfilter>Tartalomszűrő</msgcontentfilter>
+    <msgrules>Szabályok</msgrules>
+    <msgexternal>Külső szűrők</msgexternal>
+    <msgintrusionprevention>Behatolás megelőzés</msgintrusionprevention>
+    <msgdns>DNSBL</msgdns>
+    <quarantine>Karantén</quarantine>
+    <spamassasin>SpamAssassin</spamassasin>
+    <spammarked>Megjelölés spamként</spammarked>
+    <spamlivebulk>Valósidejű Spamblokkoló (Tömeges)</spamlivebulk>
+    <spamlive>Valósidejű Spamblokkoló (Spam)</spamlive>
+    <refused>Visszautasítás spamként</refused>
+    <greylisting>Szürkelistázás</greylisting>
+    <conntotal>Összes kapcsolat</conntotal>
+    <serverconn>Szerver kapcsolat (db)</serverconn>
+    <serverconnpeak>Szerver kapcsolat (csúcs)</serverconnpeak>
+    <serverdatatotal>Összes szerver adat</serverdatatotal>
+    <serverdatain>Szerver adat - bejövő</serverdatain>
+    <serverdataout>Szerver adat -- kimenő</serverdataout>
+    <clientconn>Kliens kapcsolat (db)</clientconn>
+    <clientconnpeak>Kliens kapcsolat (csúcs)</clientconnpeak>
+    <clientdatatotal>Kliens kapcsolat átmenő</clientdatatotal>
+    <clientdatain>Kliens kapcsolat bejövő</clientdatain>
+    <clientdataout>Kliens kapcsolat kimenő</clientdataout>
+    <packetsreceived>Fogadott csomag</packetsreceived>
+    <packetssent>Küldött csomag</packetssent>
+    <rtppacketsreceived>Fogadott RTP csomag</rtppacketsreceived>
+    <rtppacketssent>Küldött RTP csomag</rtppacketssent>
+    <callcount>Hívások száma</callcount>
+    <callpeak>Hívások csúcsa</callpeak>
+    <calltotal>Összes hívás</calltotal>
+  </service_statistics>
+  <management>
+    <domainlist>Domén lista</domainlist>
+    <guest_accounts>Vendég fiókok</guest_accounts>
+  </management>
+  <dashboard>
+    <server_data>Szerver adat (MB)</server_data>
+    <client_data>Kliens adat (MB)</client_data>
+    <received>Fogadott</received>
+    <sent>Küldött</sent>
+    <active_users>Aktív felhasználók</active_users>
+    <storage>Használt tárhely</storage>
+    <mail_sent>Küldött e-mailek</mail_sent>
+    <mail_received>Fogadott e-mailek</mail_received>
+    <realtime>Valósidejű</realtime>
+    <hour>Utolsó óra</hour>
+    <day>Utolsó nap</day>
+    <week>Utolsó hét</week>
+    <month>Utolsó hónap</month>
+    <year>Utolsó év</year>
+    <current_traffic>Valósidejű forgalom</current_traffic>
+    <services_statuses>Szolgáltatások állapota</services_statuses>
+    <services>Szolgáltatások</services>
+    <uptime>Működés</uptime>
+    <connections>Kapcsolatok</connections>
+    <data>Adat</data>
+    <service>Szolgáltatás</service>
+    <category>Kategória</category>
+    <time_period>Időintervallum</time_period>
+    <cancel>Mégse</cancel>
+    <smtp_connections>SMTP kapcsolatok</smtp_connections>
+    <imappop3_connections>IMAP/POP3 kapcsolatok</imappop3_connections>
+    <web_connections>Web kapcsolatok</web_connections>
+    <statistics>Statisztika</statistics>
+    <settings>Beállítások</settings>
+    <restart>Újraindítás</restart>
+    <stop>Megállítás</stop>
+    <start>Indítás</start>
+    <mail_services>E-mail</mail_services>
+    <web_services>Web</web_services>
+    <smtp>SMTP</smtp>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+    <control>Web</control>
+    <ftp>FTP</ftp>
+    <socks>SOCKS</socks>
+    <supportive_services>Háttér</supportive_services>
+    <minger>Minger</minger>
+    <ldap>LDAP</ldap>
+    <snmp>SNMP</snmp>
+    <communication>Kommunikáció</communication>
+    <im>WebChat</im>
+    <voip>VoIP</voip>
+    <sms>SMS</sms>
+    <meeting>WebKonferencia</meeting>
+    <collaboration>Csoportmunka</collaboration>
+    <calendar>Csoportmunka Szerver</calendar>
+    <groupware_notification>Csoportmunka figyelmeztetés</groupware_notification>
+    <webclient>WebMail</webclient>
+    <webdav>WebDAV</webdav>
+    <security>Biztonság</security>
+    <antivirus>Vírusvédelem</antivirus>
+    <antispam>Spamblokkoló</antispam>
+    <mobility>Mobilitás</mobility>
+    <activesync>ActiveSync</activesync>
+    <syncml>SyncML</syncml>
+    <sip>VoIP</sip>
+    <teamchat>CsoportChat</teamchat>
+    <sqlite>Szervere jelenleg SQLite adatbázist használ, ami sajnos nem elég ehhez a szolgáltatáshoz. A CsoportMunka adatbázisát először helyezze át egy adatbázis szolgáltatásra (pl. MySQL, Ms SQL, Oracle).</sqlite>
+    <plan>Csomag</plan>
+    <cluster_id>Fürt</cluster_id>
+    <price_user_month>Összes havi költség</price_user_month>
+    <next_billing>Következő számlázás</next_billing>
+    <upgrade>Előfizetés követése</upgrade>
+    <hypervisor>Hypervisor</hypervisor>
+    <manage>Kezelés</manage>
+  </dashboard>
+  <generic>
+    <hh_mm>óó:pp</hh_mm>
+    <and>és</and>
+    <or>vagy</or>
+    <not>nem</not>
+    <add uses="server certificates">Hozzáadás</add>
+    <alias>Aliasz</alias>
+    <cancel>Mégse</cancel>
+    <continue>Folytatás</continue>
+    <reset>Alaphelyzet</reset>
+    <back>Vissza</back>
+    <create_new_account_0>Új felhasználó létrehozása</create_new_account_0>
+    <create_new_account_1>Új levelezési lista létrehozása</create_new_account_1>
+    <create_new_account_7>Új csoport létrehozása</create_new_account_7>
+    <create_new_account_8>Új erőforrás létrehozása</create_new_account_8>
+    <create_new_account_d>Új domén létrehozása</create_new_account_d>
+    <days>nap</days>
+    <delete uses="server certificates">Törlés</delete>
+    <domain>Domén</domain>
+    <domain_name>Domén név</domain_name>
+    <enter_additional_alias>További aliasz megadása</enter_additional_alias>
+    <enter_password>Jelszó</enter_password>
+    <enter_time_in_minutes>Idő megadása percben</enter_time_in_minutes>
+    <enter_value>Érték megadása</enter_value>
+    <from>Mettől</from>
+    <generate>Létrehoz</generate>
+    <size_b>B</size_b>
+    <size_kb>kB</size_kb>
+    <size_mb>MB</size_mb>
+    <size_gb>GB</size_gb>
+    <size_tb>TB</size_tb>
+    <size_pb>PB</size_pb>
+    <messages>üzenetek</messages>
+    <message_error_heading>Hiba</message_error_heading>
+    <message_success_heading>Siker!</message_success_heading>
+    <message_warning_heading>Figyelmeztetés</message_warning_heading>
+    <minutes>perc</minutes>
+    <seconds>mp</seconds>
+    <name>Név</name>
+    <new_group>Új csoport</new_group>
+    <new_mailing_list>Új levelezési lista</new_mailing_list>
+    <new_user>Új felhasználó</new_user>
+    <new_domain>Új domén</new_domain>
+    <new_resource>Új erőforrás</new_resource>
+    <password>Jelszó</password>
+    <plus_symbol>+</plus_symbol>
+    <reset_to_default>Alapértelmezett beállításokkal</reset_to_default>
+    <results>eredmény</results>
+    <retry>Újra</retry>
+    <save>Mentés</save>
+    <do_not_save>Nincs menés</do_not_save>
+    <save_and_add_another>Mentés és másik hozzáadása</save_and_add_another>
+    <save_as>Mentés másként</save_as>
+    <select>Kijelölés</select>
+    <select_action>Művelet...</select_action>
+    <share>Megosztás</share>
+    <subject>Tárgy</subject>
+    <first_name>Kersztnév</first_name>
+    <surname>Családnév</surname>
+    <text>Szöveg</text>
+    <try_again>Újra</try_again>
+    <icewarp_webadmin>IceWarp WebAdmin</icewarp_webadmin>
+    <group_name>Csoportnév</group_name>
+    <resource_name>Erőforrás neve</resource_name>
+    <upload>Feltöltés</upload>
+    <upload_photo>Fénykép feltöltése</upload_photo>
+    <type uses="new resource">Típus</type>
+    <done uses="permissions">Kész</done>
+    <set_to_default>Alapértelmezett értékek</set_to_default>
+    <export>Export</export>
+    <all>Mind</all>
+    <ok>OK</ok>
+    <close>Bezár</close>
+    <download>Letöltés</download>
+    <port>port</port>
+    <on>Be</on>
+    <off>Ki</off>
+    <copy_to_clipboard>Másolás vágólapra</copy_to_clipboard>
+    <plan_selection>Előfizetés kiválasztása</plan_selection>
+  </generic>
+  <api_console>
+    <webserver>Web Szerver</webserver>
+    <webdav>WebDAV</webdav>
+    <voip>VoIP</voip>
+    <system_tools>Rendszer eszközök</system_tools>
+    <storage>Tárhely</storage>
+    <smtp_pop3_imap>SMTP/POP3/IMAP</smtp_pop3_imap>
+    <sms>SMS</sms>
+    <smart_discover>Automatikus észlelés</smart_discover>
+    <proxy>Átjáró</proxy>
+    <protocols>Protokollok</protocols>
+    <mobile_sync>Mobil szinkronizálás</mobile_sync>
+    <mail>E-mail</mail>
+    <logging>Naplózás</logging>
+    <ldap>LDAP</ldap>
+    <instant_messaging>WebChat</instant_messaging>
+    <gui>GUI</gui>
+    <groupware>Csoportmunka</groupware>
+    <general>Általános</general>
+    <ftp>FTP</ftp>
+    <domains>Domének</domains>
+    <connection>Kapcsolódás</connection>
+    <conferencing>WebKonferencia</conferencing>
+    <antivirus>Vírusvédelem</antivirus>
+    <antispam>Spamblokkoló</antispam>
+    <advanced>Részletes</advanced>
+    <accounts_policies>Fiók szabályok</accounts_policies>
+    <accounts>Fiókok</accounts>
+    <save>Mentés</save>
+    <type_string>Szöveges</type_string>
+    <type_longstring>Hosszú szöveges</type_longstring>
+    <type_integer>Szám</type_integer>
+    <type_boolean>Logikai</type_boolean>
+    <type_enum>Felsorolás</type_enum>
+    <true>Igaz</true>
+    <false>Hamis</false>
+    <mailinglist>Levelezési lista</mailinglist>
+    <domain>Domén</domain>
+    <user>Felhasználó</user>
+    <edit>Szerkesztés</edit>
+    <group>Csoport</group>
+    <resource>Forrás</resource>
+    <name>Név</name>
+    <type>Típus</type>
+    <val>Érték</val>
+    <description>Leírás</description>
+    <view>View</view>
+  </api_console>
+  <client_applications>
+    <client_applications>Kliensek</client_applications>
+    <icewarp_desktop>IceWarp Levelező Kliens</icewarp_desktop>
+    <icewarp_outlook_sync>IceWarp Outlook Szinkronizáló</icewarp_outlook_sync>
+    <mobile_devices>Mobil eszközök</mobile_devices>
+  </client_applications>
+  <client_applications_help>
+    <client_applications>A felhasználó mobileszközeinek, az Outlook Szinkronizáló és az IceWarp Levelező kezelése.</client_applications>
+    <icewarp_desktop>IceWarp Levelező Kliens telepítőjének letöltése és a licencek kezelése.</icewarp_desktop>
+    <icewarp_outlook_sync>IceWarp Outlook Szinkronizáló letöltése, beállítások és licencek kezelése.</icewarp_outlook_sync>
+    <mobile_devices>Az IceWarp Szerverhez csatlakozó mobil eszközök kezelése.</mobile_devices>
+  </client_applications_help>
+  <permissions>
+    <inbox>Beérkezett üzenetek</inbox>
+    <calendar>Naptár</calendar>
+    <contacts>Névjegyek</contacts>
+    <files>Fájlok</files>
+    <permissions>Engedélyek</permissions>
+    <anyone>Mindenki / Névtelen</anyone>
+    <custom>Egyéni</custom>
+    <all>Mind</all>
+    <none>Egyik sem</none>
+    <read>Olvasás</read>
+    <write>Írás</write>
+    <full>Teljes</full>
+    <owner>Tulajdonos</owner>
+    <add_new_user_or_domain>Új felhasználó vagy domén hozzáadása</add_new_user_or_domain>
+    <inherit>Öröklés</inherit>
+    <show_all_folders>Minden mappa mutatása</show_all_folders>
+    <show_less>Fő mappák mutatása</show_less>
+    <domains>Domének</domains>
+  </permissions>
+  <permissions_help>
+    <inbox>A cég felhasználói hozzáférhetnek az alapértelmezett mappában található e-mailekhez és módosíthatják azokat.</inbox>
+    <calendar>A cég felhasználói hozzáférhetnek és módosíthatják az alapértelmezett naptárt.</calendar>
+    <contacts>A cég felhasználói hozzáférhetnek és módosíthatják az alapértelmezett névjegyeket.</contacts>
+    <files>A cég felhasználói hozzáférhetnek és módosíthatják az alapértelmezett fájlokat.</files>
+  </permissions_help>
+  <mobile_devices>
+    <allowed>Engedélyezett</allowed>
+    <blocked>Tiltott</blocked>
+    <quarantine>Karanténba zárt</quarantine>
+    <all_mail_items>Mind</all_mail_items>
+    <all_calendar_events>Mind</all_calendar_events>
+    <all_status>Mind</all_status>
+    <all_sync>Mind</all_sync>
+    <last_24_hours>Utolsó 24 óra</last_24_hours>
+    <last_7_days>Utolsó 7 nap</last_7_days>
+    <last_4_weeks>Utolsó 4 hét</last_4_weeks>
+    <one_day>Egy nap</one_day>
+    <three_days>Három nap</three_days>
+    <one_week>Egy hét</one_week>
+    <two_weeks>Két hét</two_weeks>
+    <one_month>Egy hónap</one_month>
+    <three_months>Három hónap</three_months>
+    <six_months>Hat hónap</six_months>
+    <incomplete_tasks_only>Csak a befejezetlen feladatok</incomplete_tasks_only>
+    <new_calendar_folders>Új naptármappa</new_calendar_folders>
+    <merge_to_default_calendar_folder>Egyesítés az alapértelmezett naptármappába</merge_to_default_calendar_folder>
+    <events>Események</events>
+    <tasks>Feladatok</tasks>
+    <tasks_and_notes>Feladatok és jegyzetek (Android-alkalmazás)</tasks_and_notes>
+    <new_folders>Új mappák</new_folders>
+    <merge_to_default_folder>Egyesítés az alapértelmezett mappába</merge_to_default_folder>
+    <allow>Engedélyezés</allow>
+    <block>Tiltás</block>
+    <delete>Törlés</delete>
+    <wipe>Adattörlés</wipe>
+  </mobile_devices>
+  <vcard>
+    <male>Férfi</male>
+    <female>Nő</female>
+    <unknown>Ismeretlen</unknown>
+    <home1>Otthoni 1</home1>
+    <home2>Otthoni 2</home2>
+    <assistant>Asszisztens</assistant>
+    <work1>Munkahelyi 1</work1>
+    <work2>Munkahelyi 2</work2>
+    <fax_home>Fax, otthoni</fax_home>
+    <fax_work>Fax, munkahelyi</fax_work>
+    <callback>Visszahívás</callback>
+    <company>Cég</company>
+    <car>Autó</car>
+    <isdn>ISDN</isdn>
+    <mobile>Mobil</mobile>
+    <other>Egyéb</other>
+    <other_fax>Egyéb fax</other_fax>
+    <pager>Személyi hívó</pager>
+    <primary>Elsődleges</primary>
+    <radio>Rádió</radio>
+    <telex>Telex</telex>
+    <hearing>Hallás</hearing>
+    <sip>SIP</sip>
+    <email1>E-mail cím 1</email1>
+    <email2>E-mail cím 2</email2>
+    <email3>E-mail cím 3</email3>
+    <imaddress>IM-cím</imaddress>
+  </vcard>
+  <devicedetail>
+    <allow_block_device>Az eszköz engedélyezve</allow_block_device>
+    <allow_device>Az eszköz engedélyezése</allow_device>
+    <block_device>Az eszköz tiltása</block_device>
+    <device_in_quarantine>Az eszköz karanténban van</device_in_quarantine>
+    <account>Fiók</account>
+    <device_info>Eszköz adatai</device_info>
+    <device_name>Eszköz neve</device_name>
+    <groupware_synchronization>Elem szinkronizálása</groupware_synchronization>
+    <hard_wipe>Teljes törlés</hard_wipe>
+    <info>Információ</info>
+    <last_sync>Utolsó szinkronizálás</last_sync>
+    <model>Gyártmány</model>
+    <notes_synchronization_type>Megjegyzi a szinkronizálás típusát</notes_synchronization_type>
+    <os>Op.r.</os>
+    <past_calendar_events>Múltbeli naptáresemények</past_calendar_events>
+    <past_mail_items>Múltbeli levélelemek</past_mail_items>
+    <private_special_folders>Mappák szinkronizálása</private_special_folders>
+    <registered>Regisztrálva</registered>
+    <soft_hard_wipe>Eszköz távoli törlése</soft_hard_wipe>
+    <soft_wipe>Szinkronizáltak törlése</soft_wipe>
+    <status>Állapot</status>
+    <sync_notes_as>Jegyzetek szinkronizálása, mint</sync_notes_as>
+    <sync_tasks_as_calendar_events>A jegyzetek szinkronizálása naptáreseményekként</sync_tasks_as_calendar_events>
+    <synchronization>Szinkronizálás</synchronization>
+    <tasks_synchronization_type>Feladatok szinkronizálási típusa</tasks_synchronization_type>
+    <type>Típus</type>
+    <groupware_folders>Csoportmunka szoftver mappák (személyes)</groupware_folders>
+    <mail_folders>Levélmappák (személyes)</mail_folders>
+    <shared_folders>Megosztott mappák</shared_folders>
+    <archive>E-mail archívum</archive>
+    <public_folders>Nyilvános mappák</public_folders>
+    <all_folders>Minden mappa</all_folders>
+    <default_folders_only>Csak az alapértelmezett mappák</default_folders_only>
+    <all_with_groupware_as_email>Mind csoportmunkával e-mailként</all_with_groupware_as_email>
+  </devicedetail>
+  <devicedetail_help>
+    <device_info>Az eszköz tulajdonságainak áttekintése, módosítása vagy annak tiltása.</device_info>
+    <groupware_synchronization>A csoportmunka és az e-mailek szinkronizálásának kezelése. Ahol alkalmazható, jelölje be a jelölőnégyzetet, és válassza ki a megfelelő értéket a listából. Ezek a beállítások felülbírálják az eszköz beállításait.</groupware_synchronization>
+    <private_special_folders>Az alapértelmezett és a speciális mappa szinkronizálásának kezelése. Válasszon a megfelelő listáról, vagy jelölje be a jelölőnégyzetet.</private_special_folders>
+    <soft_hard_wipe>A [Szinkronizáltak törlése] csak a szerverről letöltött adatokat törli. A [Teljes törlés] töröl minden adatot az eszközről és a memória kártyákról, visszaállítja az eszköz gyári beállításait.</soft_hard_wipe>
+  </devicedetail_help>
+  <domainlist>
+    <domain_list>Domének</domain_list>
+    <all_types>Minden típus</all_types>
+    <standard>Szokásos</standard>
+    <domain_alias>Domén aliasz</domain_alias>
+    <backup_domain>Domén biztonsági mentése</backup_domain>
+    <distributed_domain>Elosztott domén</distributed_domain>
+    <etrn_atrn_queue>ETRN/ATRN várólista</etrn_atrn_queue>
+    <verification_default>Alapértelmezett</verification_default>
+    <verification_use_minger_with_password>Minger használata jelszóal</verification_use_minger_with_password>
+    <verification_usevrfy_command>VRFY parancs használata</verification_usevrfy_command>
+    <verification_use_rcpt_to_command>RCPT TO használata</verification_use_rcpt_to_command>
+  </domainlist>
+  <domainlist_header>
+    <users>Felhasználók</users>
+    <name>Név</name>
+    <type>Típus</type>
+    <description>Leírás</description>
+  </domainlist_header>
+  <domaindetail>
+    <users>Fiókok</users>
+    <settings>Tulajdonságok</settings>
+    <limits>Határértékek</limits>
+    <rules>Szabályok</rules>
+    <active_directory>Active Directory</active_directory>
+    <mobile_devices>Mobileszközök</mobile_devices>
+    <general>Általános</general>
+    <name>Név</name>
+    <description>Leírás</description>
+    <type>Típus</type>
+    <val>Érték</val>
+    <verification>Ellenőrzés</verification>
+    <password>Jelszó</password>
+    <administrator_email>Admniszrátor e-mail</administrator_email>
+    <aliases>Aliaszok</aliases>
+    <add_alias>Aliasz hozzáadása</add_alias>
+    <quotas>Kontingens</quotas>
+    <storage_usage>Tárhely használat</storage_usage>
+    <numbers_of_emails_sent>Küldött e-mailek</numbers_of_emails_sent>
+    <change_quotas>Domén határértékek</change_quotas>
+    <permissions_and_rights>Hozzáférések &amp; jogosultságok</permissions_and_rights>
+    <unknown_accounts>Ismeretlen fiókok</unknown_accounts>
+    <reject>Visszautasítás</reject>
+    <delete>Törlés</delete>
+    <forward_to>Továbbítás</forward_to>
+    <target_email>Cél e-mail</target_email>
+    <two_factor_authentication>Kétszintű azonosítás</two_factor_authentication>
+    <instant_messaging_shared_roster>WebChat megosztott címlista</instant_messaging_shared_roster>
+    <domain_features>Domén lehetőségek</domain_features>
+    <features>Lehetőségek</features>
+    <outlook_sync>IceWarp Outlook Szinkronizáló</outlook_sync>
+    <desktop_client>IceWarp Levelező</desktop_client>
+    <manage>Kezelés</manage>
+    <download>Letöltés</download>
+    <domain_limits>Domén határértékek</domain_limits>
+    <maximum_number_of_accounts>Domén admin határérték (Fiókok #)</maximum_number_of_accounts>
+    <disk_quota>Tárhely</disk_quota>
+    <daily_send_out_limit_for_domain>A domén napi kiküldési korlátozása</daily_send_out_limit_for_domain>
+    <disable_login_to_this_domain>Bejelentkezés tiltása erre a doménre</disable_login_to_this_domain>
+    <daily_data_limit>Kiküldés adatkorlátozása</daily_data_limit>
+    <daily_message_count_limit>Kiküldési üzenetek korlátozása</daily_message_count_limit>
+    <number_per_day># naponta</number_per_day>
+    <domain_expiration>Domén lejárat</domain_expiration>
+    <expires_on>Lejárat</expires_on>
+    <notify_before_expiration>Figyelmeztetés lejárat előtt</notify_before_expiration>
+    <days>Nap</days>
+    <delete_domain_when_expired>Domén törlése lejáratkor</delete_domain_when_expired>
+    <user_limits>Felhasználói határértékek</user_limits>
+    <account_size>Fiók méret</account_size>
+    <default_max_message_size>Max. e-mail méret</default_max_message_size>
+    <default_daily_send_out_limit_for_users>Felhasználók alapértelmezett napi kiküldési korlátozása</default_daily_send_out_limit_for_users>
+    <forward_to_address>Toábbítás címre</forward_to_address>
+    <dns_validation>DNS ellenőrzése</dns_validation>
+    <validation>Ellenőrzés</validation>
+    <rename>Átnevezés</rename>
+    <rename_and_logout>Rename &amp; logout</rename_and_logout>
+    <change_domain_name>Domén név módosítása</change_domain_name>
+    <same_domain_helper>You are renaming your own domain. When the action is completed, you will be automatically logged out from WebAdmin and will need to log in again.</same_domain_helper>
+    <dkim>DKIM</dkim>
+    <delete_spam_older_than>Régi spam üzenetek törlése</delete_spam_older_than>
+    <max_allowed_subscription_plan>Max allowed subscription plan</max_allowed_subscription_plan>
+  </domaindetail>
+  <domaindetail_help>
+    <domain_limits>A következő domén korlátozások elsőbbséget élveznek bármilyen felhasználószintű korlátozásnál. Ha például Önnek 100 MB lemezkvóta korlátozása van egy doménen, és 500 MB-ra állít egy felhasználói fiókot. akkor az korlátozva lesz, mikor a domén eléri a 100 MB-ot.</domain_limits>
+    <domain_expiration>A domén lejárati dátumának meghatározása. Amikor lejár a domén, csak a belépés a doménre letiltott. Ha a domén törlését választja, akkor törlésre kerül az összes fiók és az adataik!</domain_expiration>
+    <user_limits>A következő korlátozásoknak alacsonyabb a prioritásuk bármely felhasználószintű korlátozásnál. Például, ha 100 fiókja van a doménben, és 98-nak azonos korlátozásai, 2-nek eltérő korlátozásai legyenek, akkor 98 felhasználóra adja meg itt a korlátozást, és felhasználói szinten csak 2-nek adjon meg eltérő korlátozást.</user_limits>
+    <quotas>Kattintson a Domén korlátozásai elemre a domén méretének, az elküldött üzenetek számának, vagy domén szinten az üzenetek maximális méretének korlátozásához, illetve az összes fiók egyéb korlátozásainak egyszerre történő alkalmazásához.</quotas>
+    <permissions_and_rights>Adja meg, hogyan kell kezelni azokat az üzeneteket, melyek a szerveren nem definiált fiókokba lettek küldve.</permissions_and_rights>
+    <client_applications>A domén mobileszközeinek, Outlook szinkronizáló és IceWarp Levelező kezelése.</client_applications>
+    <aliases>Adja meg ennek a doménnek az aliaszait. Az összes ilyen címre küldött üzenet ezen domén postaládáiba kerül kézbesítésre. Ezekhez az aliaszokhoz nem adhat meg az eredeti doménétől eltérő szabályokat.</aliases>
+  </domaindetail_help>
+  <subscription_plans>
+    <any_plan>Minden előfizetés</any_plan>
+    <standard>Alapértelmezett</standard>
+    <professional>Professzionális</professional>
+    <user_per_month>user per month</user_per_month>
+  </subscription_plans>
+  <rules>
+    <lower>Alacsonyabb</lower>
+    <greater>Magasabb</greater>
+    <priority_highest>Legmagasabb</priority_highest>
+    <priority_high>Magas</priority_high>
+    <priority_normal>Normális</priority_normal>
+    <priority_low>Alacsony</priority_low>
+    <priority_lowest>Legalacsonyabb</priority_lowest>
+    <function_contains_value_from_list>Egy (pontosvesszővel tagolt) listából tartalmaz értéket</function_contains_value_from_list>
+    <function_matches_regex>Megfelelések (RegKif)</function_matches_regex>
+    <function_starts_with>Kezdődik</function_starts_with>
+    <function_ends_with>Végződik</function_ends_with>
+    <function_equals>Megegyezik</function_equals>
+    <function_contains_value_from_file>Fájlból vagy mintából tartalmaz értéket</function_contains_value_from_file>
+    <condition_all_messages>Összes üzenet</condition_all_messages>
+    <condition_where_from>Ahol a feladó</condition_where_from>
+    <condition_message_header_matches>Üzenetfejléc megfelel</condition_message_header_matches>
+    <condition_where_subject>Ahol a tárgy</condition_where_subject>
+    <condition_where_message_body_matches>Ha az üzenet törzse megegyezik</condition_where_message_body_matches>
+    <condition_where_message_contains_attachment>Ha az üzenet mellékletet tartalmaz</condition_where_message_contains_attachment>
+    <condition_where_attachment_name_matches>Ahol a melléklet neve megfelel</condition_where_attachment_name_matches>
+    <condition_where_message_priority_is>Ha az üzenet prioritása</condition_where_message_priority_is>
+    <condition_where_message_size_is>Ha az üzenet mérete</condition_where_message_size_is>
+    <condition_where_message_is_spam>Ha az üzenet spam</condition_where_message_is_spam>
+    <condition_where_to>Ahol a címzett</condition_where_to>
+    <condition_where_cc>Ahol a másolat</condition_where_cc>
+    <condition_where_replyto>Ahol a válaszcím</condition_where_replyto>
+    <condition_where_date>Ahol a dátum</condition_where_date>
+    <condition_where_custom_message_header_matches>Ahol az egyéni üzenetfejléc megfelel</condition_where_custom_message_header_matches>
+    <condition_where_any_message_header_matches>Ahol bármely üzenetfejléc megfelel</condition_where_any_message_header_matches>
+    <condition_where_sender_matches>Ahol a feladó megfelel</condition_where_sender_matches>
+    <condition_where_recipient_matches>Ahol a címzett megfelel</condition_where_recipient_matches>
+    <condition_where_sender_recipient_is_local_remote>Ahol a feladó / címzett helyi / távoli</condition_where_sender_recipient_is_local_remote>
+    <condition_where_spam_score_is>Ahol a spam pontszám</condition_where_spam_score_is>
+    <condition_where_local_time_meets>Ahol a helyi idő egyezik</condition_where_local_time_meets>
+    <condition_where_rdns_matches>Ahol az RDNS megfelel</condition_where_rdns_matches>
+    <condition_where_senders_ip_address_matches>Ahol a feladó IP-címe megfelel</condition_where_senders_ip_address_matches>
+    <condition_where_senders_ip_address_is_listed_on_dnsbl>Ahol a feladó IP-címe DNSBL-listán szerepel</condition_where_senders_ip_address_is_listed_on_dnsbl>
+    <condition_where_session_is_trusted>Ahol a munkamenet megbízható</condition_where_session_is_trusted>
+    <condition_where_smtp_auth>Ahol az SMTP AUTH</condition_where_smtp_auth>
+    <condition_where_message_direct_to_user>Message sent directly to user</condition_where_message_direct_to_user>
+    <action_accept_reject_delete_spam_quarantine>Elfogadás / Elutasítás / Törlés / Spam / Karantén</action_accept_reject_delete_spam_quarantine>
+    <action_forward_to_email>Továbbítás e-mail címre</action_forward_to_email>
+    <action_copy_to_folder>Mappába másol</action_copy_to_folder>
+    <action_move_to_folder>Mappába áthelyez</action_move_to_folder>
+    <action_encrypt_message>Üzenet titkosítása</action_encrypt_message>
+    <action_send_new_message>Új e-mail</action_send_new_message>
+    <action_edit_message_header>E-mail fejlécének szerkesztése</action_edit_message_header>
+    <action_set_message_priority_to>Az üzenet prioritásának beállítása erre</action_set_message_priority_to>
+    <action_set_message_flags_to>Az üzenet jelzőinek beállítása erre</action_set_message_flags_to>
+    <action_stop_processing_more_rules>További szabály feldolgozásának leállítása</action_stop_processing_more_rules>
+    <and>és</and>
+    <or>vagy</or>
+    <and_not>és nem</and_not>
+    <or_not>vagy nem</or_not>
+    <rules>Szabályok</rules>
+    <result_title>Szabály létrehozása:</result_title>
+    <result_step_1>1. Előbb válasszon ki egy vagy több feltételt</result_step_1>
+    <result_step_2>2. Adjon hozzá néhány műveletet a feltételekhez</result_step_2>
+    <result_step_3>3. Adjon meg egy címet a szabály megkülönböztetéséhez</result_step_3>
+    <result>Eredmény</result>
+    <basic>Minimális</basic>
+    <headers>Fejlécek</headers>
+    <advanced>Részletes</advanced>
+    <standard>Szokásos</standard>
+    <extra>Különleges</extra>
+    <title>Cím</title>
+    <actions>Események</actions>
+    <conditions>Feltételek</conditions>
+    <rule_number>Szabály száma</rule_number>
+    <new_rule>Új szabály</new_rule>
+    <delete>Törlés</delete>
+    <activate>Activate</activate>
+    <deactivate>Deactivate</deactivate>
+  </rules>
+  <rulepopup>
+    <action>Esemény</action>
+    <add_new_header_condition>Új fejlécfeltétel hozzáadása</add_new_header_condition>
+    <from>Feladó</from>
+    <header>Fejléc</header>
+    <match_regex>RegKif megfeleltetés az eredeti fejlécben</match_regex>
+    <regex>RegEx</regex>
+    <subject>Tárgy</subject>
+    <text>Szöveg</text>
+    <to>Címzett</to>
+    <val>Érték</val>
+    <add_edit>Hozzáadás / Szerkesztés</add_edit>
+    <delete>Törlés</delete>
+  </rulepopup>
+  <rulecard>
+    <monday>Hé</monday>
+    <tuesday>Ke</tuesday>
+    <wednesday>Sze</wednesday>
+    <thursday>Csü</thursday>
+    <friday>Pé</friday>
+    <saturday>Szo</saturday>
+    <sunday>Va</sunday>
+    <action>Esemény</action>
+    <all_items_match>Összes elem megegyezik</all_items_match>
+    <antivirus>Vírusvédelem</antivirus>
+    <bare_lfs>Bare LFs</bare_lfs>
+    <between_dates>Között (éééé:hh:nn)</between_dates>
+    <between_times>Között (óó:pp)</between_times>
+    <change_mime>MIME verzió módosítása 1.0-ra</change_mime>
+    <copy_to_folder>Mappába másol</copy_to_folder>
+    <crlf>CRLF.CRLF az üzeneten belül</crlf>
+    <db_connection>Adatbázis-kapcsolat</db_connection>
+    <delete>Törlés</delete>
+    <dnsbl_server>DNSBL-szerver</dnsbl_server>
+    <email_address>E-mail cím</email_address>
+    <eof>EOF az üzeneten belül</eof>
+    <executable>végrehajtható</executable>
+    <flagged>Megjelölve</flagged>
+    <flags>Jelölők</flags>
+    <function>Függvény</function>
+    <ignore>Mellőzés</ignore>
+    <junk>Szemét</junk>
+    <label_1>Jelölől 1</label_1>
+    <label_2>Jelölő 2</label_2>
+    <label_3>Jelölő 3</label_3>
+    <label_4>Jelölő 4</label_4>
+    <label_5>Jelölő 5</label_5>
+    <label_6>Jelölő 6</label_6>
+    <local>Helyi</local>
+    <match_case>Kis- és nagybetűk megkülönböztetése</match_case>
+    <member_of>Tagja ennek</member_of>
+    <message_not_virus>Az üzenet nem tartalmaz vírust</message_not_virus>
+    <message_password>Jelszóval védett fájlokat tartalmaz</message_password>
+    <message_priority>Az üzenet prioritása</message_priority>
+    <message_size>Üzenet mérete</message_size>
+    <message_virus>Az üzenet vírust tartalmaz</message_virus>
+    <move_to_folder>Áthelyezés mappába</move_to_folder>
+    <non_junk>NemSzemét</non_junk>
+    <not>Nem</not>
+    <one_item_matches>Legalább egy elem megfelel</one_item_matches>
+    <parse_xml>XML elemzése</parse_xml>
+    <quarantine>Karantén</quarantine>
+    <recipient>Címzett</recipient>
+    <regex>RegKif</regex>
+    <reject>Elutasítás</reject>
+    <remote>Távoli</remote>
+    <remove_mime>MIME-verzió dupla karakter eltávolítása</remove_mime>
+    <rfc2822>RFC2822 megsértés javítása</rfc2822>
+    <score>Pontszám</score>
+    <seen>Látta</seen>
+    <sender>Feladó</sender>
+    <sender_recipient>Feladó / Címzett</sender_recipient>
+    <single_string>Átalakítás egyetlen karakterlánccá</single_string>
+    <spam>Spam</spam>
+    <sql_statement>SQL utasítás</sql_statement>
+    <string>Karakterlánc</string>
+    <string_condition>Karakterlánc feltétel</string_condition>
+    <than>mint</than>
+    <time_criteria>Idő feltétel</time_criteria>
+    <type>típus</type>
+    <user_doesnt_exists>Felhasználó nem létezik</user_doesnt_exists>
+    <user_exists>Felhasználó létezik</user_exists>
+    <weekdays>Hétköznap</weekdays>
+    <whole_word>Teljes szó</whole_word>
+    <zerobyte>0x00 az e-mailben</zerobyte>
+    <accept>Elfogadás</accept>
+    <add_edit>Hozzáad / Szerkeszt</add_edit>
+    <add>Hozzáad</add>
+    <edit>Szerkeszt</edit>
+    <forward_as_attachment>Forward as attachment</forward_as_attachment>
+    <custom_flags>Custom flags</custom_flags>
+    <userisonlyrecipient>User is the only recipient</userisonlyrecipient>
+    <checkuserinto>Check user in To header</checkuserinto>
+    <checkuserincc>Check user in Cc header</checkuserincc>
+    <checkuserinbcc>Check user in Bcc header</checkuserinbcc>
+  </rulecard>
+  <userlist>
+    <admin>Rendszer adminisztrátor</admin>
+    <webadmin>Web adminisztrátor</webadmin>
+    <catalog>Katalógus</catalog>
+    <domain_admin>Domén adminisztrátor</domain_admin>
+    <executable>Végrehajtható</executable>
+    <group>Csoport</group>
+    <list_of_all_accounts>Az összes fiók listája</list_of_all_accounts>
+    <list_server>Listaszerver</list_server>
+    <mailing_list>Levelezőlista</mailing_list>
+    <notification>Figyelmeztetés</notification>
+    <resource>Erőforrás</resource>
+    <static_route>Statikus útvonal</static_route>
+    <user>Felhasználó</user>
+    <external>Külső</external>
+    <room>Szoba</room>
+    <equipment>Felszerelés</equipment>
+    <car>Autó</car>
+  </userlist>
+  <userlist_header>
+    <account>Fiók</account>
+    <name_and_account>Név és fiók</name_and_account>
+    <name>Név</name>
+    <quota>Használat</quota>
+    <type>Típus</type>
+  </userlist_header>
+  <userlist_help>
+    <list_of_all_accounts>Az összes domén fiókjainak megtekintése és kezelése. Kattintson a megfelelő fiókra a szerkesztésre való megnyitásához.</list_of_all_accounts>
+  </userlist_help>
+  <mailinglist>
+    <account_member_itself>Fiók nem lehet saját maga tagja.</account_member_itself>
+    <mailinglist_members>Levelezőlista-tagok listája</mailinglist_members>
+    <members>Tagok</members>
+    <general_details>Általános részletek</general_details>
+    <security>Biztonság</security>
+    <members_source>Tagok forrása</members_source>
+    <settings>Beállítások</settings>
+    <owner>Tulajdonos</owner>
+    <description>Leírás</description>
+    <alias>Aliasz</alias>
+    <add_alias>Aliasz hozzáadása</add_alias>
+    <source>Forrás</source>
+    <password_protection>Jelszavas védelem</password_protection>
+    <password>Jelszó</password>
+    <default_rights>Alapértelmezett jogok</default_rights>
+    <max_number_of_messages>1 perc alatt kiküldendő üzenetek maximális száma</max_number_of_messages>
+    <send_to_sender>Küldés a feladónak</send_to_sender>
+    <forward_copy_to_owner>Másolat továbbítása a tulajdonosnak</forward_copy_to_owner>
+    <process_mailing_list>Levelezőlista változók feldolgozása</process_mailing_list>
+    <personalized_mailing_list>Személyre szabott levelezőlista - változó mezők</personalized_mailing_list>
+    <remove_failed_email_addresses>Hibás e-mail címek eltávolítása</remove_failed_email_addresses>
+    <not_password_protected>Nincs jelszóval védve</not_password_protected>
+    <server_moderated>Szerver moderált</server_moderated>
+    <client_moderated>Kliens moderált</client_moderated>
+    <recieve_and_post>Fogadás és küldés</recieve_and_post>
+    <digest_recieve_and_post>Fogadott és küldött aktivitási lista</digest_recieve_and_post>
+    <recieve_only>Csak fogadott</recieve_only>
+    <digest_recieve_only>Csak fogadott aktivitási lista</digest_recieve_only>
+    <post_only>Csak küldött</post_only>
+    <members_defined_manually>Tagok létrehozva</members_defined_manually>
+    <members_from_text_file>Tagok szövegfájlból</members_from_text_file>
+    <members_from_database>Tagok adatbázisból</members_from_database>
+    <all_current_domain_users>Minden jelenlegi domén felhasználó</all_current_domain_users>
+    <all_system_users>Minden rendszerfelhasználó</all_system_users>
+    <all_system_domain_administrators>Minden rendszer domén adminisztrátor</all_system_domain_administrators>
+    <all_system_administrators>Minden rendszer adminisztrátor</all_system_administrators>
+    <only_members_can_post>Csak tagok küldhetnek új üzeneteket</only_members_can_post>
+    <do_not_deliver>Nincs kézbesítés a kvótát túllépő tagoknak</do_not_deliver>
+    <rights>Jogok</rights>
+    <default>Alapértelmezett</default>
+    <post>Küldés</post>
+    <receive>Fogadás</receive>
+    <digest>Aktivitás</digest>
+  </mailinglist>
+  <mailinglist_help>
+    <mailinglist_members>A levelezőlista tagok áttekintése, új tagok hozzáadása vagy a jelenlegiek eltávolítása.&#13;&#10;Pipálja ki a megfelelő mezőt, és kattintson a gombra egy tag eltávolításához.</mailinglist_members>
+    <general_details>A levelezőlista átalános tulajdonságainak kezelése. Adott esetben használja a Hozzáadás gombot.</general_details>
+    <security>A levelezőlista alapértelmezett tagsági jogainak, a jelszó és más tulajdonságok kezelése.</security>
+    <members_source>Adja meg, hogyan/hol kerülnek meghatározásra a levelezőlista tagok.</members_source>
+    <settings>Szabályok alkotása az üzenetek kézbesítéséhez és a problémás címek kezeléséhez.</settings>
+  </mailinglist_help>
+  <group>
+    <account_member_itself>Fiók nem lehet a saját maga tagja.</account_member_itself>
+    <group_members>Csoporttagok listája</group_members>
+    <members>Tagok</members>
+    <general_details>Általános beállítások</general_details>
+    <group_sharing>Csoport megosztása</group_sharing>
+    <group_email_delivery>Csoportos e-mail kézbesítés</group_email_delivery>
+    <security>Biztonság</security>
+    <advanced_settings>Speciális beállítások</advanced_settings>
+    <name>Név</name>
+    <description>Leírás</description>
+    <alias>Aliasz</alias>
+    <add_alias>Aliasz hozzáadása</add_alias>
+    <create_public_folder>Nyilvános mappa létrehozása</create_public_folder>
+    <setup_permissions>Engedélyek és jogok beállítása</setup_permissions>
+    <permissions>Engedélyek</permissions>
+    <only_members_can_post>Csak a tagok küldhetnek új üzeneteket</only_members_can_post>
+    <do_not_deliver>Nincs kézbesítés a kvótát túllépő tagok számára</do_not_deliver>
+    <password_protection>Jelszavas védelem</password_protection>
+    <max_number_of_messages>Az egy perc alatt kiküldendő üzenetek maximális száma</max_number_of_messages>
+    <populate_gal>A globális címlista (GAL) felltöltése az összes taggal</populate_gal>
+    <allow_gal_export>A GAL exportálás engedélyezése az elosztott doménen belüli többi szervernek</allow_gal_export>
+    <organize_gal>A GAL hierarchikus címjegyzékbe (HAB) szervezése</organize_gal>
+    <deliver_to_all_members_individually>Kézbesítés minden tagnak külön</deliver_to_all_members_individually>
+    <deliver_mail_to_shared_folder>Levél kézbesítése megosztott mappába</deliver_mail_to_shared_folder>
+    <teamchat>CsoportChat</teamchat>
+    <enable_teamchat>CsoportChat engedélyezése</enable_teamchat>
+  </group>
+  <group_help>
+    <group_members>A csoporttagok áttekintése, új tagok hozzáadása vagy a jelenlegiek eltávolítása. Pipálja ki a megfelelő mezőt, és kattintson a gombra egy tag eltávolításához.</group_members>
+    <general_details>Általános csoporttulajdonságok kezelése. A Hozzáadás gombbal adjon hozzá aliast.</general_details>
+    <group_sharing>Jelölje be a jelölőnégyzetet, ha nyilvános mappát akar ezen csoport számára létrehozni. Írja be a mappa nevét, és kattintson az Engedélyek gombra a csoporttagok hozzáférési jogainak beállításához.</group_sharing>
+    <group_email_delivery>Adja meg, hogyan kell kézbesíteni az üzeneteket a csoporttagok számára. Adja meg azt is, hogy a fiókkorlátozást túllépő tagoknak is kell-e kézbesíteni az üzeneteket.</group_email_delivery>
+    <security>Adja meg, hogy a nem tagok is küldhetnek-e üzeneteket, még ha az üzenetküldés ennek a csoportnak jelszóval védett is, és állítsa be a kimenő üzenetek átvitelvezérlését.</security>
+    <advanced_settings>A globális címlista tulajdonságainak kezelése.</advanced_settings>
+    <populate_gal>Jelölje be a jelölőnégyzetet, ha az összes csoporttag számára kíván csoportmunka szoftver névjegyeket létrehozni.</populate_gal>
+    <allow_gal_export>Adott esetben jelölje be a jelölőnégyzetet egy távoli globális címlista elosztott doménben való használatához.</allow_gal_export>
+    <organize_gal>Jelölje be a jelölőnégyzetet, ha olyan hierarchikus mappaszerkezetet kíván létrehozni, ahol egy alcsoport neve mappanévként kerül felhasználásra.</organize_gal>
+    <teamchat>Privát és nyilvános társalgószobák létrehozásának engedélyezése ebben a csoportban.</teamchat>
+  </group_help>
+  <group_placeholder>
+    <create_public_folder>Adjon meg nyilvános mappát</create_public_folder>
+  </group_placeholder>
+  <accountdetail>
+    <device>Eszköz</device>
+    <account_is_disabled>Ez a fiók kikapcsolva.</account_is_disabled>
+    <active>Aktív</active>
+    <last_sync>Utolsó szinkronizálás</last_sync>
+    <add_members>Tagok hozzáadása</add_members>
+    <members>Tagok</members>
+    <message>Üzenet</message>
+    <mailinglistinfo>Levelezőlista</mailinglistinfo>
+    <groupinfo>Csoport</groupinfo>
+    <select_domain>Domén kiválasztása</select_domain>
+    <all_types>Minden típus</all_types>
+    <custom>Egyéni (részletes méretig)</custom>
+    <headers>Fejlécek</headers>
+    <full>Minden adat</full>
+    <numbered_structure>Számozott szerkezet</numbered_structure>
+    <folder_name_only>Csak mappanév</folder_name_only>
+    <full_folder_path>Teljes mappa elérési út</full_folder_path>
+    <outlook_native>Outlook szerinti</outlook_native>
+    <force_settings>Beállítások kényszerítése</force_settings>
+    <set_as_default>Beállítás alapértelmezettként</set_as_default>
+    <account_features>Fiók funkciói</account_features>
+    <account_quote_enabled>Fiók lemezkvótája</account_quote_enabled>
+    <account_state>Fiók állapota</account_state>
+    <account_type>Fióktípus</account_type>
+    <accountpicker>Fiók választása</accountpicker>
+    <folderpicker>Mappa kiválasztása</folderpicker>
+    <activation_key>Aktiválási kulcs</activation_key>
+    <add_alias>Aliasz hozzáadása</add_alias>
+    <add_email>E-mail cím hozzáadása</add_email>
+    <add_phone>Telefonszám hozzáadása</add_phone>
+    <address>Cím</address>
+    <advanced>Speciális</advanced>
+    <alias>Aliasz</alias>
+    <aliases>Aliaszok</aliases>
+    <all_items>Minden elem</all_items>
+    <allowed_activation_count>Aktiválások engedélyezett száma</allowed_activation_count>
+    <alternate_email>Másodlagos e-mail cím</alternate_email>
+    <amount_per_day># naponként</amount_per_day>
+    <anniversary>Évforduló</anniversary>
+    <antispam>Spamblokkoló</antispam>
+    <antivirus>Vírusvédelem</antivirus>
+    <appearance>Megjelenés</appearance>
+    <archive>Archívum</archive>
+    <assistant>Asszisztens</assistant>
+    <at>at</at>
+    <birthday>Születésnap</birthday>
+    <card>Névjegy</card>
+    <certificates>Tanúsítványok</certificates>
+    <change_password>Jelszócsere</change_password>
+    <change_quotas>Felhasználói határértékek</change_quotas>
+    <check_password_policy>A jelszó nem felel meg a jelszó házirendnek.</check_password_policy>
+    <city>Város</city>
+    <client_applications>Kliensalkalmazások</client_applications>
+    <company>Cég</company>
+    <content_of_folders>A kijelölt mappák tartalmának szinkronizálása a helyi változás észlelése után azonal</content_of_folders>
+    <copy_incoming_mail>Beérkezett levél másolása</copy_incoming_mail>
+    <copy_outgoing_mail>Kimenő levél másolása</copy_outgoing_mail>
+    <country>Ország</country>
+    <days>Napok</days>
+    <default>Alapértelmezett</default>
+    <delete_account_when_expired>A fiók törlése, amikor lejárt</delete_account_when_expired>
+    <delete_mail_older_than>Levelek törlése, melyek régebbiek, mint</delete_mail_older_than>
+    <delete_spam_older_than>Régi spam üzenetek törlése</delete_spam_older_than>
+    <delete_older>Levelek törlése ha régebbi mint (nap)</delete_older>
+    <department>Osztály</department>
+    <description>Leírás</description>
+    <digital_certificates>Digitális tanúsítványok</digital_certificates>
+    <disabled>Kikapcsolva</disabled>
+    <disabled_login>Kikapcsolva (bejelentkezés)</disabled_login>
+    <disabled_login_receive>Kikapcsolva (bejelentkezés, fogadás)</disabled_login_receive>
+    <display_address_book_names>Címjegyzék neveinek kijelzése mint</display_address_book_names>
+    <do_not_forward>Spam üzeneteket ne továbbítsa</do_not_forward>
+    <do_not_use_spam>Nincs spam mappa használat</do_not_use_spam>
+    <download>Letöltés</download>
+    <download_files>Fájlok letöltése</download_files>
+    <email>E-mail</email>
+    <enabled>Engedélyezve</enabled>
+    <exchange_activesync>Exchange ActiveSync</exchange_activesync>
+    <expiration>Lejárat</expiration>
+    <expires_if_inactive_for>Lejár, ha inaktív</expires_if_inactive_for>
+    <expires_on>Lejárat dátuma</expires_on>
+    <reset_authentication>Are you sure you wish to reset the two-factor authentication?</reset_authentication>
+    <authentication_reset_succeeded>Two-factor authentication has been reset</authentication_reset_succeeded>
+    <features>Funkciók</features>
+    <file_storage>Fájl tárhely</file_storage>
+    <web_documents>WebDokumentum</web_documents>
+    <file_transfer>Fájlátvitel (FTP)</file_transfer>
+    <folder_structure_after>Mappaszerkezet szinkronizálása, utána</folder_structure_after>
+    <folder_synchronization_threshold>Mappaszinkronizálás küszöbértéke (üzenetek a mappában)</folder_synchronization_threshold>
+    <forward_to>Továbbítás ide:</forward_to>
+    <forwarder>Továbbító</forwarder>
+    <from>honnan</from>
+    <gal_automatically>A globális címlista automatikus szinkronizálása</gal_automatically>
+    <gender>Nem</gender>
+    <general>Általános</general>
+    <generate>Létrehozás</generate>
+    <generate_key>Kulcs létrehozása</generate_key>
+    <groupware>Csoportmunka</groupware>
+    <home_address>Otthoni cím</home_address>
+    <home_email>Otthoni e-mail</home_email>
+    <home_phone>Otthoni telefon</home_phone>
+    <info>Felhasználó</info>
+    <instant_messaging>Azonnali üzenetküldés</instant_messaging>
+    <job>Beosztás</job>
+    <last_time_logged>Utoljára bejelentkezve</last_time_logged>
+    <lastname>Családnév</lastname>
+    <licence>Licenc</licence>
+    <licenses>Licencek</licenses>
+    <limits>Korlátok</limits>
+    <manage>Kezelés</manage>
+    <manager>Főnök</manager>
+    <max_message_size>Üzenet maximális mérete</max_message_size>
+    <messaging>Üzenetküldés</messaging>
+    <mobile_devices>Mobileszközök</mobile_devices>
+    <mode>Mód</mode>
+    <must_change_password>Jelszócsere kényszerítése első bejelentkezés után</must_change_password>
+    <name>Keresztnév</name>
+    <new_items>Új elemek</new_items>
+    <note>Megjegyzés</note>
+    <notify_before_expiration>Figyelmeztetés lejárat előtt</notify_before_expiration>
+    <numbers_of_emails_sent>Elküldött e-mailek száma</numbers_of_emails_sent>
+    <of>/</of>
+    <online_conferencing>WebKonferencia</online_conferencing>
+    <password>Jelszó</password>
+    <old_password>Old password</old_password>
+    <new_password>New password</new_password>
+    <password_again>Jelszó megerősítése</password_again>
+    <password_not_saved>A jelszó nem került mentésre. Ellenőrizze a jelszó házirendet.</password_not_saved>
+    <password_policy_alpha>Betűk [a-z][A-Z] min. száma</password_policy_alpha>
+    <password_policy_digits>Számkarakterek [0-9] min. száma:</password_policy_digits>
+    <password_policy_minlength>Minimális jelszóhossz (karakter)</password_policy_minlength>
+    <password_policy_nonalphanum>Különleges karakterek [!@#$%...] min. száma:</password_policy_nonalphanum>
+    <password_policy_upperalpha>Nagybetűk [A-Z] min. száma</password_policy_upperalpha>
+    <password_policy_useralias>A jelszó nem tartalmazhat felhasználónevet vagy aliaszt</password_policy_useralias>
+    <permissions>Engedélyek</permissions>
+    <permissions_and_rights>Engedélyek és jogok</permissions_and_rights>
+    <phone>Telefon</phone>
+    <pop_imap>POP3/IMAP</pop_imap>
+    <quarantine>Karantén</quarantine>
+    <quotas>Kvóták</quotas>
+    <respond_again_after>Válasz újra x nap után</respond_again_after>
+    <respond_again_after_period>Válasz újra időtartam után</respond_again_after_period>
+    <respond_always>Válasz mindig</respond_always>
+    <respond_once>Válasz egyszer</respond_once>
+    <respond_only_if_between>Válasz csak időintervallumban</respond_only_if_between>
+    <respond_to_messages>Válaszolás csak a felhasználó e-mail címére küldött üzenetekre</respond_to_messages>
+    <responder>Válaszadó</responder>
+    <responder_message>Üzenet</responder_message>
+    <rules>Szabályok</rules>
+    <security>Biztonság</security>
+    <selected_priority_folders>A prioritásos mappák szinkronizálása, utána</selected_priority_folders>
+    <selected_standard_folders>A kijelölt szokásos mappák szinkronizálása, utána</selected_standard_folders>
+    <send_key_to_user_by_email>Kulcs küldése e-mailben a felhasználónak</send_key_to_user_by_email>
+    <send_out_data_limit>Napi küldhető korlátja</send_out_data_limit>
+    <send_out_limit>Naponta kiküldöttek korlátja</send_out_limit>
+    <send_out_message_limit>Napi küldött e-mailek korlátja</send_out_message_limit>
+    <shared_folders>Megosztott mappák</shared_folders>
+    <sms>Szöveges üzenetküldés</sms>
+    <smtp>SMTP</smtp>
+    <spam_folder_mode>Spam mappa mód</spam_folder_mode>
+    <spam_reports_mode>Spam jeletések mód</spam_reports_mode>
+    <spam_trap>Spam csapda</spam_trap>
+    <state_county>Állam / megye</state_county>
+    <status>Állapot</status>
+    <storage_usage>Tárhely használat</storage_usage>
+    <street>Utca</street>
+    <surname>Családnév</surname>
+    <synchronization>Szinkronizálás</synchronization>
+    <syncml>SyncML</syncml>
+    <threshold_for_full_download>A teljes letöltés küszöbértéke</threshold_for_full_download>
+    <unknown_ip>ismeretlen IP</unknown_ip>
+    <upload_photo>Fénykép feltöltése</upload_photo>
+    <use_spam>Spam mappa használata</use_spam>
+    <user_can_send_to_local_domains_only>A felhasználó csak helyi doménre küldhet</user_can_send_to_local_domains_only>
+    <username>Felhasználónév</username>
+    <voip>VoIP</voip>
+    <web_folders>Webmappák (WebDAV)</web_folders>
+    <webclient>WebMail</webclient>
+    <website>Webhely</website>
+    <work_address>Munkahely címe</work_address>
+    <zip>Irányítószám</zip>
+    <add_to_group>Hozzáadás csoporthoz</add_to_group>
+    <change_rights>Jogok módosítása</change_rights>
+    <move>Áthelyez</move>
+    <delete>Törlés</delete>
+    <remove>Eltávolítás</remove>
+    <not_yet>Még nem</not_yet>
+    <teamchat>CsoportChat</teamchat>
+    <enable_client_licence>Ügyféllicenc engedélyezése</enable_client_licence>
+    <disable_access_to_pop3>Disable access to POP3 (IMAP only account)</disable_access_to_pop3>
+    <two_factor_authentication>Kétszintű azonosítás</two_factor_authentication>
+    <max_file_size>Max. fájlméret</max_file_size>
+    <subscription_plan>Előfizetés</subscription_plan>
+    <change_user_plan>Change user plan</change_user_plan>
+  </accountdetail>
+  <accountdetail_help>
+    <account_state>Adja meg, hogy ez a fiók normál működésű, részben kikapcsolt (a felhasználó nem tud bejelentkezni de a fiók fogadja az üzeneteket), kikapcsolt (a felhasználó nem tud bejelentkezni, az üzenetek visszautasításra kerülnek), vagy spam csapda legyen-e.</account_state>
+    <activation_key>Az aktiválási kulcs teszi lehetővé a felhasználó számára a kiválasztott kliensalkalmazás megfelelő licencelését. Generálása után a WebMail felületén keresztül, vagy SmartSync kérésen keresztül érhető el a felhasználó számára a kliensalkalmazásból.</activation_key>
+    <address>Adjon meg egy címet vagy munkahelyet.</address>
+    <advanced>Jelölje be azoknak a speciális szinkronizálási funkcióknak a jelölőnégyzeteit, melyeket be akar állítani ezen felhasználó számára. Adja meg a megfelelő értékeket.</advanced>
+    <aliases>Adja meg ennek a fióknak az aliasait. Az összes ilyen címre küldött üzenetek ebbe a postaládába fognak kézbesítésre kerülni.</aliases>
+    <antispam>Adja meg, hogy a felhasználó kapjon-e spam jelentést az összes spam üzenetről vagy csak az új spam üzenetekről. Illetve azt is megadhatja hogy a spam üzenetek egy külön spam mappába legyenek kézbesítve.</antispam>
+    <antispam_features>Az átfogó spamblokkoló fekete- és fehérlistákkal, spam mappákkal és karantén jelentésekkel biztosítja a rendszer ellenőrzését a felhasználók számára.</antispam_features>
+    <antivirus>A vállalati szintű vírusvédelem minden, a fiókba beérkező és kimenő fájlt ellenőriz és érvnyesít, legyen az e-mail, naptármelléklet, dokumentum és fájlátvitel.</antivirus>
+    <appearance>Jelölje be a jelölőnégyzetet, és válassza ki, hogyan jelenjenek meg a nevek a címjegyzékben.</appearance>
+    <archive>Az archiválás menti az összes beérkezett és kimenő e-mailt és szöveges üzenetet, és csak olvasható hozzáférést ad a felhasználóknak az Archívum mappához az elveszett üzenetek visszaállításához.</archive>
+    <client_applications>A felhasználó mobileszközeinek, IceWarp Outlook Szinkronizáló és IceWarp Levelező kliens alkalmazásainak kezelése.</client_applications>
+    <email>Írja be a felhasználó e-mail címét.</email>
+    <exchange_activesync>Az e-mailek, naptárak, névjegyek, feladatok és jegyzetek biztonságos szinkronizálása az összes mobileszközzel, mint  Windows Phone, iPhone, iPad és Android.</exchange_activesync>
+    <expiration>Adja meg a felhasználó fiókjának lejáratát.</expiration>
+    <file_transfer>Az FTP nagy fájlok átvitelét teszi lehetővé a felhasználóknak a szerveren lévő dedikált tárolóhelyre. A felhasználók szokásos FTP-kliens használatával tallózhatják, kezelhetik, fel- vagy letölthetik a fájlokat.</file_transfer>
+    <forwarder>Állítsa be, hogy hova kell továbbítani vagy másolni az üzeneteket. Pontosvesszővel elválasztva több címet is megadhat.&#13;&#10;Másodlagos e-mail cím jelszólekérdezés során kerül felhasználásra. A felhasználó nem tudja módosítani a beérkezett/kimenő másolatot.</forwarder>
+    <general>Adja meg a fiók adatait. Az összes itt lévő adat a felhasználó GAL-névjegyében is látható lesz. A felhasználók a WebMailben, az Adataim ablakban szerkeszthetik a mezőket. Nem szükséges minden adat megadása.</general>
+    <groupware>Engedélyezni kell a csoportmunka szoftvert a felhasználók számára, hogy hozzáférhessenek nyilvános adataikhoz, többek közt a globális címlistához, a céges naptárakhoz, a fájlokhoz és a nyilvános mappákhoz.</groupware>
+    <instant_messaging>A valós idejű üzenetküldés vagy csevegés a felhasználök közti azonnali kommunikációt teszi lehetővé, fájlokat oszthatnak meg, és láthatják egymás jelenlétét a résztvevőlistában.</instant_messaging>
+    <licence_description>Írjon be egy leíró szöveget.</licence_description>
+    <limits>Jelölje be a jelölőnégyzeteket, és adja meg a beállítani kívánt fiókkorlátozások megfelelő értékeit.</limits>
+    <note>Megjegyzés egy névjegyhez (ezt a mezőt általában felhasználó szerkeszti).</note>
+    <online_conferencing>A WebKonferencia segtségével növelheti cége hatáhonyságát, ugyanis a résztvevők nemcsak beszélni tudnak egymással, hanem képernyőiket megosztva bármit meg tudnak mutatni és így közösen dolgozhatnak.</online_conferencing>
+    <permissions_and_rights>Válassza ki, hogy ez a felhasználó normál, adminisztrátori vagy domén adminisztrátori jogokkal rendelkezzen.</permissions_and_rights>
+    <phone>Írja be a felhasználó telefonszáma(i)t.</phone>
+    <pop_imap>Rendszerszolgáltatás az e-mailek fogadásához, melyet engedélyezni kell a WebMail és más levelezőprogramok, mint az Outlook, a Thunderbird vagy a Mail megfelelő működése érdekében.</pop_imap>
+    <quarantine>A karantén a gyanús beérkezett üzenetek függőben lévő várólistára vételét teszi lehetővé, melyek sz adminisztrátor vagy maguk a felhasználók kézi engedélyezésére várnak.</quarantine>
+    <quotas>A naponta küldött üzenetek száma korlátozásának és az ezen fiók által elfoglalt lemezterület áttekintése.</quotas>
+    <responder>Válassza a válaszadó módot ehhez a fiókhoz. A többi mező engedélyezése ettől a módtól függ.</responder>
+    <sms>A beépített szöveges üzenetküldés (SMS) teszi lehetővé a WebMailből a felhasználók számára szöveges üzenetek küldését, válaszolást a kapott üzenetekre, és e-mailként kezelésüket a Beérkezett üzenetek mappában.</sms>
+    <smtp>Az e-mail küldés rendszerszolgáltatást engedélyezni kell a WebMail és más levelezőprogramok, mint az Outlook, a Thunderbird vagy a Mail megfelelő működése érdekében.</smtp>
+    <synchronization>Jelölje be azoknak a szinkronizálási funkcióknak a jelölőnégyzeteit, melyeket be akar állítani ezen felhasználó számára. Adja meg a megfelelő értékeket.</synchronization>
+    <syncml>A naptárak, névjegyek, feladatok és jegyzetek vezeték nélküli szinkronizálása Palm OS, Symbian és más, az ActiveSync  alkalmazást nem támogató rendszereken alapuló mobileszközökre.</syncml>
+    <voip>Az internetes telefonálás közvetlenül a WebMailből, illetve SDP kompatibilis telefon vagy alkalmazás használatával hang-/videohívások kezdeményezését és konferenciahívásokhoz való csatlakozást tesz lehetővé a felhasználók számára.</voip>
+    <web_folders>Külső hozzáférés a felhasználó saját magánfelhőjéhez Windows/Linux/Mac alatt lehetővé teszi a hálózati meghajtóként való csatlakoztatást.</web_folders>
+    <webclient>Webalapú hozzáférés e-mailekhez, naptárakhoz, névjegyalbumhoz, feladatokhoz, jegyzetekhez és dokumentumokhoz. Az összes információ nyilvános mappák által megosztható a felhasználók között.</webclient>
+    <website>Írja be a felhasználó webhelyének címét.</website>
+    <teamchat>A CsoportChat egy modern együttműködési környezet csoportok és projektek számára. A csapat többi tagjával való kapcsolatba lépést, a beszélgetések egy téma köré szervezését, fájlok megosztását vagy alkalmi értekezletek létrehozását teszi lehetővé.</teamchat>
+    <web_documents>Online irodai csomag Ms Office és OpenOffica formátumokhoz. Egyszerűen a WebMailből tud gyönyörű dokumentumokat, elképesztő bemutatókat és átlátható táblázatokat létrehozni.</web_documents>
+  </accountdetail_help>
+  <accountdetail_placeholder>
+    <folder_synchronization_threshold>Adja meg a mappában lévő üzenetek maximális számát</folder_synchronization_threshold>
+  </accountdetail_placeholder>
+  <accountinfo>
+    <name>Név</name>
+    <ignore_password_policy>Jelszó házirend mellőzése</ignore_password_policy>
+  </accountinfo>
+  <synchronization>
+    <address_books>Névjegyalbumok</address_books>
+    <advanced>Haladó</advanced>
+    <appearance>Megjelenés</appearance>
+    <authentication_method>Hitelesítési mód</authentication_method>
+    <automatically_revert_changes>Automatically revert changes in read only folders</automatically_revert_changes>
+    <check_for_updates>Frissítés keresése</check_for_updates>
+    <delete_after_specified_days>Törlés adott nap után</delete_after_specified_days>
+    <delete_logs>Naplók törlése</delete_logs>
+    <disable_tnef>TNEF tiltása</disable_tnef>
+    <do_not_show_connection_errors>Csatlakozási hibák elrejtése</do_not_show_connection_errors>
+    <do_not_show_login_errors>Bejelentkezési hibák elrejtése</do_not_show_login_errors>
+    <do_not_show_progress>Folyamat elrejtése</do_not_show_progress>
+    <hide_notification_after>Figyelmeztetések elrejtése ezután (mp)</hide_notification_after>
+    <licence_and_updates>Licencek és frissítések</licence_and_updates>
+    <line_security>Vonal biztonság</line_security>
+    <logging_level>Naplózás szintje</logging_level>
+    <login>Bejelentkezés</login>
+    <login_credentials>Bejelentkezési azonosítás</login_credentials>
+    <login_port>Bejelentkezés portja</login_port>
+    <logs>Naplók</logs>
+    <log_debug>Hibakereső</log_debug>
+    <log_errors>Csak hibák</log_errors>
+    <new_mail_options>Új e-mail beállításai</new_mail_options>
+    <play_default_sound>Alapértelmezett hang lejátszása</play_default_sound>
+    <show_desktop_notification>Asztali figyelmeztetés</show_desktop_notification>
+    <skip_trash_folder>Skip trash folder startup check</skip_trash_folder>
+    <synchronization_exceptions>Synchronization exceptions</synchronization_exceptions>
+    <synchronization_frequency>Synchronization frequency</synchronization_frequency>
+    <plain>Szöveges</plain>
+    <cram_md5>Cram MD5</cram_md5>
+    <starttsl>STARTTSL</starttsl>
+    <ssl>SSL</ssl>
+    <updates>Frissítések</updates>
+  </synchronization>
+  <dns>
+    <no_dns_records uses="DNS validation">Nincsenek DNS-rekordok</no_dns_records>
+    <all_available>Összes elérhető</all_available>
+    <service_mx>Levél</service_mx>
+    <service_autodiscover>Automatikus észlelés</service_autodiscover>
+    <service_autodiscover_srv>Automatikus észlelés</service_autodiscover_srv>
+    <service_webdav>WebDAV</service_webdav>
+    <service_sip>SIP</service_sip>
+    <service_xmpp>XMPP</service_xmpp>
+    <service_ischedule>iSchedule</service_ischedule>
+    <service_rdns>RDNS</service_rdns>
+    <service_spf>SPF</service_spf>
+    <service_dkim>DKIM</service_dkim>
+    <default_alias>Alapértelmezett aliasz</default_alias>
+    <domain_type>Domén típus</domain_type>
+    <email>E-mail</email>
+    <expires_on>Lejárat dátuma</expires_on>
+    <hostname>Szerver neve</hostname>
+    <ip_address>IP-cím</ip_address>
+    <name>Név</name>
+    <type>Típus</type>
+    <user_count>Felhasználók száma</user_count>
+    <user_limit>Felhasználói korlát</user_limit>
+    <dns>Jeenlegi DNS rekord</dns>
+    <academy_text>Please refer to IceWarp Academy video how to setup DNS records properly. Example zone file for your domain can be downloaded below.</academy_text>
+    <academy_caption>Updating the ”zone file”</academy_caption>
+    <academy_warning>Please validate your DNS records</academy_warning>
+    <general>Általános</general>
+    <loading>Doménadatok betöltése</loading>
+    <learn_more>Tudjon meg többet az érvényesítésről</learn_more>
+  </dns>
+  <dns_help>
+    <dns>Current DNS settings for your domain are listed below. Incorrect or missing entries are marked in red color.</dns>
+  </dns_help>
+  <dkim>
+    <domain_key_selector>Domain key selector</domain_key_selector>
+    <selector>Kiválasztó</selector>
+    <selector_placeholder>Unique arbitrary string</selector_placeholder>
+    <no_selector>Please specify a unique Selector for this server</no_selector>
+    <generate_key>Új kulcs létrehozása</generate_key>
+    <selector_host>Szerver neve</selector_host>
+    <selector_record>Választó elem</selector_record>
+    <sign_outgoing_mails>Kimenő levelek DKIM aláírása</sign_outgoing_mails>
+    <reset>DKIM beállítások visszaállítása alapértelmezetté</reset>
+    <reset_succeeded>DKIM beállítások visszaállítva alapértelmezettre</reset_succeeded>
+    <wizard>DKIM varázsló</wizard>
+    <academy_title>DKIM beállítási útmutató</academy_title>
+    <academy_caption>Updating the “zone file”</academy_caption>
+    <academy_text>Please refer to IceWarp Academy video how to setup DKIM records in DNS properly.</academy_text>
+    <setup>DKIM létrehozása</setup>
+    <setup_failed>The DKIM setup process failed</setup_failed>
+    <loading>Új kulcs létrehozása</loading>
+  </dkim>
+  <dkim_help>
+    <domain_key_selector>Any text, if you set DKIM for this domain on multiple servers, each server has to have unique selector.</domain_key_selector>
+    <selector_record>Configure your DNS server with the public key. You need to add the following entry into your DNS server for e.g. icecream._domainkey.www.icewarp.com.</selector_record>
+    <wizard>DKIM is used by remote servers for verification that emails sent from this domain are not spoofed. In order to use DKIM, DNS TXT record &amp;lt;Selector&amp;gt;._domainkey.&amp;lt;domainname&amp;gt; has to be created.</wizard>
+  </dkim_help>
+  <accountpicker>
+    <users>Felhasználók</users>
+    <domains>Domének</domains>
+    <items_selected>elem kijelölve</items_selected>
+    <show_them>Kijelöltek megjelenítése</show_them>
+    <hide_them>Minden mutatása</hide_them>
+    <account_picker>Fiók választása</account_picker>
+    <account_type>Fiók típusa</account_type>
+    <add_account>Fiókok hozzáadása</add_account>
+    <add_domain>Domén hozzáadása</add_domain>
+    <add_user>Felhasználó hozzáadása</add_user>
+    <domain>Domén</domain>
+    <filter>Szűrő</filter>
+    <add_external>Külső hozzáadása</add_external>
+    <add_external_members>Külső tagok hozzáadása</add_external_members>
+  </accountpicker>
+  <spam_queues>
+    <quarantine>Karantén</quarantine>
+    <whitelist>Fehérlista</whitelist>
+    <blacklist>Feketelista</blacklist>
+    <action_delete>Törlés</action_delete>
+    <action_deliver>Kézbesítés</action_deliver>
+    <action_whitelist>Fehérlista</action_whitelist>
+    <action_blacklist>Feketelista</action_blacklist>
+    <add_item>Hozzáadás</add_item>
+    <detail>Részletek</detail>
+  </spam_queues>
+  <spamqueues_header>
+    <sender>Feladó</sender>
+    <subject>Tárgy</subject>
+    <date>Dátum</date>
+    <owner>Tulajdonos</owner>
+    <domain>Domén</domain>
+    <filter_sender>Feladó szűrése</filter_sender>
+    <filter_owner>Tulajdonos szűrése</filter_owner>
+    <filter_domain>Domén szűrése</filter_domain>
+    <filter>Eredmény szűrése</filter>
+  </spamqueues_header>
+  <certificates>
+    <server_certificates>Szerver tanúsítványok</server_certificates>
+    <ca_certificates>CA tanúsítványok</ca_certificates>
+    <secure_destinations>Biztonságos célhelyek</secure_destinations>
+    <create_certificate>Tanúsítvány létrehozása...</create_certificate>
+    <wizard>Tanúsítvány beállításai</wizard>
+    <reissue>Újra kiállít</reissue>
+    <finalize>Véglegesítés</finalize>
+    <properties>Tulajdonságok</properties>
+    <edit>Szerkesztés</edit>
+    <add_hostname>Másik szerver nevet adjon meg</add_hostname>
+    <bits>Bit</bits>
+    <validity>Érvényesség</validity>
+    <country>Ország</country>
+    <state>Megye</state>
+    <city>Város</city>
+    <organization>Szervezet</organization>
+    <organization_unit>Szervezeti egység</organization_unit>
+    <email>E-mail</email>
+    <common_name>Domén név</common_name>
+    <signature_request>Tanúsítvány hitelesítési kérelem (CSR), hitelesítés szolgáltató részére</signature_request>
+    <ip_address>IP cím</ip_address>
+    <no_ip_limit>Mind</no_ip_limit>
+    <certificate>Tanúsítvány</certificate>
+    <ip>IP cím</ip>
+    <cn>CN</cn>
+    <issuer>Kibocsátó</issuer>
+    <expiration>Lejárat</expiration>
+    <subject>Tárgy</subject>
+    <cert_bits>Bit</cert_bits>
+    <fingerprint>Ujjlenyomat</fingerprint>
+    <type>Típus</type>
+    <type_normal>Szokásos</type_normal>
+    <type_csr/>
+    <type_letsencrypt>Titkosítás</type_letsencrypt>
+    <hostname>Szerver neve</hostname>
+    <default>Alapértelmezett</default>
+    <set_as_default>Beállítás alapértelmezettként</set_as_default>
+    <csr>CSR</csr>
+    <add_existing>Meglévő hozzáadása</add_existing>
+    <new_icewarp_cert>IceWarp tanúsítvány létrehozása</new_icewarp_cert>
+    <new_ca_cert>Szolgáltatói tanúsítvány létrehozása</new_ca_cert>
+    <new_lets_encrypt_cert>Díjmentes, Let’s Encrypt tanúsítvány használata</new_lets_encrypt_cert>
+    <new_self_signed_cert>Díjmentes önaláírású tanúsítvány</new_self_signed_cert>
+    <reissue_cert>Tanúsítvány kiállítása újra</reissue_cert>
+    <reissue_icewarp_cert>IceWarp tanúsítvány kiállítása újra</reissue_icewarp_cert>
+    <reissue_ca_cert>Egyéb hiteles tanúsítvány kiállítása újra</reissue_ca_cert>
+    <reissue_lets_encrypt_cert>Let’s Encrypt tanúsítvány kiállítása újra</reissue_lets_encrypt_cert>
+    <reissue_self_signed_cert>Saját aláírással ellátott (nem hitelesített) tanúsítvány kiállítása újra</reissue_self_signed_cert>
+    <unit>Egység</unit>
+    <company_details>Cégadatok</company_details>
+    <add_certificate>Tanúsítvány hozzáadása</add_certificate>
+    <certificate_settings>Tanúsítvány adatok</certificate_settings>
+    <icewarp_details>IceWarp tanúsítvány</icewarp_details>
+    <authority_details>Tanúsítvány részletei</authority_details>
+    <letsencrypt_details>Let&apos;s Encrypt tanúsítvány</letsencrypt_details>
+    <selfsigned_details>Saját maga által aláírt tanúsítvány</selfsigned_details>
+    <email_details>E-mail tanúsítvány</email_details>
+    <details>Részletek</details>
+    <ip_binding>IP kötés</ip_binding>
+    <domains>Domének</domains>
+    <errors>Hibák</errors>
+    <export_csr>CSR export</export_csr>
+    <bind_certificate>Tanúsítvány kötése</bind_certificate>
+    <all_ips>Minden IP cím</all_ips>
+    <selected_ips>Kijelölt IP címek</selected_ips>
+    <cert_domains>Domének tanúsítvánnyal</cert_domains>
+    <cert_failure>Tanúsítvány hiba</cert_failure>
+    <last_cert_attempt>Utolsó tanúsítvány próbálkozás</last_cert_attempt>
+    <error>Hiba</error>
+    <ver_failed_for>Hitelesítés sikertelen</ver_failed_for>
+    <reuse>A titkos / nyilvános kulcspár újra felhasználása</reuse>
+    <generate>Titkos / nyilvános kulcspár létrehozása</generate>
+    <domain_unknown>Ismeretlen</domain_unknown>
+    <domain_error>Hiba</domain_error>
+    <domain_valid>Érvényes</domain_valid>
+    <domain_invalid>Érvénytelen</domain_invalid>
+    <domain_timeout>Időtúllépés</domain_timeout>
+    <key_pair>Kulcs pár</key_pair>
+    <hostnames>Szerver neve</hostnames>
+  </certificates>
+  <certificates_help>
+    <add_existing>Akkor válassza ezt, ha már van SSL tanúsítványa.</add_existing>
+    <new_icewarp_cert>Vásároljon megbízható IceWarp SSL tanúsítványt néhány egyszerű lépésben. Lejárt vagy új domének hozzáadásakor pedig egyszerűen frissítse azt.</new_icewarp_cert>
+    <new_ca_cert>Amennyiben egyedi tanúsítványszolgáltatót szeretne használni, hozzon létre egy tanúsítványkérelmet. Lejárat vagy új domének hozzáadásakor pedig egyszerűen frissítse azt.</new_ca_cert>
+    <new_lets_encrypt_cert>Ingyenes tanúsítvány a Let&apos;s Encrypt tanúsíványszolgáltatótól. Soha nem jár le, és csak új domének hozzáadásakor kell frissítenie.</new_lets_encrypt_cert>
+    <new_self_signed_cert>Tanúsítványszolgáltató által nem hitelesített díjmentes saját tanúsítvány. Használata biztonságos de partnerei figyelmeztetést kapnak a hitelesítés hiányáról.</new_self_signed_cert>
+    <csr>Tanúsítvány hitelesítési kérelem (CSR).&#13;&#10;Ezt egy hitelesítés szolgáltatóhoz (CA) kell elküldenie hitelesítésre.&#13;&#10;A hitelesítés szolgáltató a hitelesített tanúsítványt visszaküldi, azt a szerverre kell telepítenie.</csr>
+  </certificates_help>
+  <policies>
+    <login>Bejelentkezési házirend</login>
+    <password>Jelszó házirend</password>
+    <outlook>Outlook-házirend</outlook>
+    <block_user_login_accounts>Felhasználó bejelentkezésének tiltása ha a hibás bejelentkezések száma:</block_user_login_accounts>
+    <block_user_login_time>Bejelentkezés tiltásának időtartama</block_user_login_time>
+    <login_policy_mode>Bejelentkezési szabály</login_policy_mode>
+    <require_administrator>Rendszerbeállítások módosításához adminisztrátori azonosítás szükséges</require_administrator>
+    <usernames>Felhasználónévvel</usernames>
+    <email_addresses>E-mail címmel</email_addresses>
+    <convert_usernames>Felhasználónevekben % és / átalakítása @ jellé</convert_usernames>
+    <account_ip_restriction>Bejelentkezés IP-korlátozással</account_ip_restriction>
+    <login_restriction>Bejelentkezés korlátozása</login_restriction>
+    <users_login>Bejelentkezési név</users_login>
+    <login_policy>Bejelentkezési házirend</login_policy>
+    <password_policy>Jelszó házirend</password_policy>
+    <active>Aktív</active>
+    <password_cannot_contain>A jelszó nem tartalmazhat felhasználónevet vagy aliaszt</password_cannot_contain>
+    <enable_password>Jelszavak titkosítása</enable_password>
+    <minimal_password_length>Minimális jelszóhossz (karakter)</minimal_password_length>
+    <numeric>Számkarakterek [0-9] min. száma</numeric>
+    <non_alpha_numeric>Különleges karakterek [!@#$%...] min. száma</non_alpha_numeric>
+    <alpha>Betűk [a-z][A-Z] min. száma</alpha>
+    <uppercase_alpha>Nagybetűk [A-Z] min. száma</uppercase_alpha>
+    <password_expires_after>Jelszó lejár x nap után</password_expires_after>
+    <notify_before_expiration>Figyelmeztetés lejárat előtt</notify_before_expiration>
+    <custom_notification>Egyéni értesítési üzenetfájl</custom_notification>
+    <passwords_read_exported>Jelszavak nem olvashatók vagy exportálhatók</passwords_read_exported>
+    <admin_passwords_read_exported>Adminisztrátorok jelszavai nem olvashatók vagy exportálhatók</admin_passwords_read_exported>
+    <do_not_block_but_delay>Nincs tiltás, csak késleltetés</do_not_block_but_delay>
+    <block_account>Fiók tiltása adott időtartamra</block_account>
+    <manage>Kezelés</manage>
+    <general>Általános</general>
+    <password_format>Jelszó formátum</password_format>
+    <password_expiration>Jelszó lejárat</password_expiration>
+    <password_retrieval>Jelszó kiolvasás</password_retrieval>
+  </policies>
+  <whitelabeling>
+    <use_default>Visszaállítás alapértelmezett értékekre</use_default>
+    <available_interfaces>Elérhető színek</available_interfaces>
+    <disable_autofill>Felhasználónév / jelszó automatikus kitöltése</disable_autofill>
+    <disable_facebook_integration>Facebook integráció</disable_facebook_integration>
+    <disable_interface>Felületváltás</disable_interface>
+    <disable_language>Nyelvválasztás</disable_language>
+    <disable_login_banners>Hirdetések</disable_login_banners>
+    <disable_login_help>Belépéskor súgó</disable_login_help>
+    <disable_remember_me>Emlékezzen rám</disable_remember_me>
+    <disable_sign_up>Új felhasználó regisztráció</disable_sign_up>
+    <disable_support_link>Támogatási hivatkozás</disable_support_link>
+    <disable_twitter_integration>Twitter integráció</disable_twitter_integration>
+    <disable_linkedin_integration>LinkedIn integráció</disable_linkedin_integration>
+    <login_logo>Logó a bejelentkezési oldalon</login_logo>
+    <login_style>Bejelentkezési oldal stílusa</login_style>
+    <page_title>Bejelentkezési oldal neve</page_title>
+    <preferred_interface>Elsődleges felület</preferred_interface>
+    <skin>Felületek</skin>
+    <skin_style>Alapszínek</skin_style>
+    <background_img>Háttér kép</background_img>
+    <twitter_handle>Twitter felhasználónév</twitter_handle>
+    <upload>Feltöltés</upload>
+    <url_to_like>A kedvelendő oldal URL-címe</url_to_like>
+    <wa_skin>WebAdmin felület</wa_skin>
+    <wc_skin>WebMail felület</wc_skin>
+    <blue uses="Login style,Skin style">Kék</blue>
+    <black uses="Login style,Skin style">Fekete</black>
+    <brown uses="Login style,Skin style">Barna</brown>
+    <graphite uses="Login style,Skin style">Grafit</graphite>
+    <green uses="Login style,Skin style">Zöld</green>
+    <orange uses="Login style,Skin style">Narancssárga</orange>
+    <pink uses="Login style,Skin style">Rózsaszín</pink>
+    <purple uses="Login style,Skin style">Lila</purple>
+    <red uses="Login style,Skin style">Piros</red>
+    <yellow uses="Login style,Skin style">Sárga</yellow>
+    <desktop uses="Preferred interface,Available interfaces">Profi</desktop>
+    <tablet uses="Preferred interface,Available interfaces">Tábla</tablet>
+    <mobile uses="Preferred interface,Available interfaces">Mobil</mobile>
+    <facebook_page_url>Facebook oldal URL-címe</facebook_page_url>
+    <twitter_page_url>Twitter oldal URL-címe</twitter_page_url>
+    <linkedin_page_url>LinkedIn oldal URL-címe</linkedin_page_url>
+    <language>Nyelv</language>
+    <server_language>Szerver nyelve</server_language>
+    <login_page_options>Bejelentkezési oldal megjelenése</login_page_options>
+    <social_integration>Társasági oldalak beolvasztása</social_integration>
+    <interfaces>Felületek</interfaces>
+    <background_image>Háttérkép</background_image>
+    <choose_image>Elérhető képek</choose_image>
+    <choose_color>Elérhető színek</choose_color>
+    <login_heading>Belépés fejléce</login_heading>
+    <login_title>Belépési oldal címe</login_title>
+    <login_text>Belépési szöveg</login_text>
+    <login_skin>Bejelentkezési oldal felülete</login_skin>
+    <email>E-mail</email>
+    <sms>Szöveges üzenet</sms>
+    <upload_custom_background>Egyedi háttérkép feltöltése</upload_custom_background>
+    <search>Keresés</search>
+    <search_query>Keresési lekérdezés</search_query>
+    <banners>Szalagreklámok</banners>
+    <banner_none>Letiltás</banner_none>
+    <banner_url>Állókép</banner_url>
+    <banner_code>AdSense</banner_code>
+    <top_banner_type>Leaderboard bejelentkezéskor</top_banner_type>
+    <bottom_banner_type>Négyszög az IM rosterben</bottom_banner_type>
+    <desktop_banner_type>Teljes felbontás (728x90 px)</desktop_banner_type>
+    <mobile_banner_type>Mobil felbontás (300x100 px)</mobile_banner_type>
+    <login_banners>Bejelentkezési oldal</login_banners>
+    <webclient_banners>WebMail</webclient_banners>
+    <adsense_settings>AdSense beállításai</adsense_settings>
+    <adsense_customer_id>AdSense ügyfélazonosító</adsense_customer_id>
+    <adsense_slot_id>AdSense hirdetési egység azonosító</adsense_slot_id>
+    <required>Kötelező</required>
+    <custom_sign_up_fields>Egyéni regisztrációs mezők</custom_sign_up_fields>
+    <nickname>Becenév</nickname>
+    <company>Cég</company>
+    <job>Beosztás</job>
+    <profession>Szakma</profession>
+    <mobile_phone>Mobiltelefon</mobile_phone>
+    <work_phone>Munkahelyi telefon</work_phone>
+    <home_phone>Otthoni telefon</home_phone>
+    <im>Azonnali üzenetküldő</im>
+    <gender>Nem</gender>
+    <birthday>Születésnap</birthday>
+    <homepage>Honlap</homepage>
+    <two_step_verification>Regisztráció ellenőrzése</two_step_verification>
+    <verification_method>Ellenőrzési mód</verification_method>
+    <ic_skin>IceChat mobil felszín</ic_skin>
+    <require_contact_number>Kapcsolatfelvételi szám szükséges</require_contact_number>
+    <conferencing>Conferencing</conferencing>
+    <conferencing_logo>Conferencing logo</conferencing_logo>
+  </whitelabeling>
+  <whitelabeling_help>
+    <login_logo>Cserélje le a bejelentkezési oldalon látható emblémát. Támogatott képformátumok: JPG, PNG, GIF, SVG. Maximális fájlméret: 20 MB.</login_logo>
+    <login_page_options>Válassza ki, hogy a bejelentkezési oldal mely elemeit akarja megjeleníteni vagy elrejteni.</login_page_options>
+    <login_skin>Állítsa be a bejelentkezési oldal megjelenését.</login_skin>
+    <login_skin_style>Válassza ki a bejelentkezési oldal alapszínét.</login_skin_style>
+    <login_background>Válassza ki a bejelentkezési oldal tökéletes háttérképét.</login_background>
+    <page_title>Módosítsa az ablak címét, amit a felhasználók látnak.</page_title>
+    <server_language>Adja meg a nyelvi beállításokat a felasználók számára.</server_language>
+    <social_integration>Állítsa be a közösségi médiára mutató hivatkozásokat.</social_integration>
+    <wa_skin>Állítsa be a WebAdmin belső kinézetét.</wa_skin>
+    <wa_skin_style>Válassza ki a WebAdmin alapszínét.</wa_skin_style>
+    <wc_skin>Állítsa be a WebMail felületét.</wc_skin>
+    <wc_skin_style>Válassza ki a WebMail alapszínét.</wc_skin_style>
+    <search_query>Adja meg a választott keresőmotor hivatkozását, ahol a %%query%% lekérdezést a felhasználók által megadott keresési kifejezés fogja helyettesíteni. Például: https://www.google.com/#q=%%query%%+site:icewarp.com.</search_query>
+    <banners>Helyezze el szalagreklámjait a bejelentkezési képernyőn és a WebMailben.</banners>
+    <banner_url>Illessze be egy reklámként használandó állókép URL-címét.</banner_url>
+    <banner_code>Illessze be az AdSense szolgáltató által megadott egyedi AdSense hirdetési egység azonosítót.</banner_code>
+    <login_banners>Használjon mobil alternatívát és teljes felbontású képeket szalagreklámként. vagy csatlakozzon egy hirdetési hálózathoz.</login_banners>
+    <webclient_banners>Helyezzen el hirdetéseket a bejelentkezési oldalon vagy az azonnali üzenetküldő partnerlistájának alján a különféle képernyőfelbontásokhoz.</webclient_banners>
+    <adsense_settings>Adja meg AdSense ügyfélazonosítóját.</adsense_settings>
+    <custom_sign_up_fields>Válassza ki, hogy mely vCard mezőkre lesz szükség a regisztráció során-</custom_sign_up_fields>
+    <two_step_verification>Válassza ki a felhasználók regisztrálásakor használandó ellenőrzési módszert.</two_step_verification>
+    <conferencing>WebKonferencia megjelenésének beállítása</conferencing>
+    <conferencing_logo>A WebKonferencia nyitóablakán megjelenő logó beállítása. Használható fájlformátumok: JPG, PNG, GIF. Max méret: 20 MB.</conferencing_logo>
+  </whitelabeling_help>
+  <preview>
+    <language>HU</language>
+    <sign_in_webclient>WebMail bejelentkezés</sign_in_webclient>
+    <password>Jelszó</password>
+    <sign_in>Bejelentkezés</sign_in>
+    <remember_me>Bejelentkezve tart</remember_me>
+    <contact_admin>Üzenet az adminisztrátornak</contact_admin>
+    <not_you>Nem te vagy?</not_you>
+    <choose_account>Másik fiók használata</choose_account>
+    <powered>IceWarp © 2020</powered>
+    <find_out_more>Szeretne többet megtudni a megbízható IceWarp Szerverről?</find_out_more>
+    <search>Keresés</search>
+  </preview>
+  <preview_icechat>
+    <sign_in_with>Bejelentkezés IceWarp WebMail fiókkal</sign_in_with>
+    <email>E-mail</email>
+    <password>Jelszó</password>
+    <sign_in>BEJELENTKEZÉS</sign_in>
+  </preview_icechat>
+  <resource>
+    <alias>Aliasz</alias>
+    <name>Név</name>
+    <type>Típus</type>
+    <general>Általános</general>
+    <temporarily_unavailable>Átmenetileg nem érhető el</temporarily_unavailable>
+    <allow_conflicts>Ütközések engedélyezése</allow_conflicts>
+    <send_notification>Figyelmeztetés küldése a felhasználónak</send_notification>
+    <permissions>Engedélyek</permissions>
+    <resource_members>Erőforrástagok listája</resource_members>
+    <members>Tagok</members>
+  </resource>
+  <resource_help>
+    <resource_members>Az erőforrástagok áttekintése, új tagok hozzáadása vagy a jelenlegiek eltávolítása. Egy tag eltávolításához pipálja ki a megfelelő négyzetet, és kattintson a Művelet választása gombra.</resource_members>
+  </resource_help>
+  <smartdiscover>
+    <smartdiscover>Automatikus észlelés</smartdiscover>
+    <public_hostname>Szerver publikus neve</public_hostname>
+    <smtp>SMTP</smtp>
+    <pop3>POP3</pop3>
+    <imap>IMAP</imap>
+    <xmpp>XMPP</xmpp>
+    <sip>SIP</sip>
+    <mobilesync>ActiveSync</mobilesync>
+    <syncml>SyncML</syncml>
+    <webdav_smartattach>WebMappa &amp; Óriásmelléklet</webdav_smartattach>
+    <webclient>WebMail</webclient>
+    <webadmin>WebAdmin</webadmin>
+    <free_busy>SzabadFoglalt</free_busy>
+    <internet_calendar>Naptár</internet_calendar>
+    <sms>SMS</sms>
+    <anti_spam_reports>Spamblokkoló jelentés</anti_spam_reports>
+    <install>Bóvítmények</install>
+    <teamchat>CsoportChat</teamchat>
+    <standard>Szokásos</standard>
+    <tls_ssl>TLS / SSL</tls_ssl>
+    <no_ssl>2. alapport (nem SSL)</no_ssl>
+    <set_all_to_new_domain_name>Új domén név mindenhova</set_all_to_new_domain_name>
+    <collaboration>Collaboration API URL</collaboration>
+    <conference>WebKonferencia link</conference>
+  </smartdiscover>
+  <subscription>
+    <active_users>Aktív felhasználók listája</active_users>
+    <any_questions>Kérdés?</any_questions>
+    <billing_address>Számlázási cím</billing_address>
+    <cancel_subscription>Mégse</cancel_subscription>
+    <order_information>Rendelési információ</order_information>
+    <order_id>Rendelési azonosító</order_id>
+    <card_details>Kártya adatai</card_details>
+    <card_number>Kártyaszám</card_number>
+    <change_details>Adatmódosítás</change_details>
+    <change_plan>Módosítás</change_plan>
+    <company_name>Cég</company_name>
+    <current_plan>Jelenlegi csomag</current_plan>
+    <customer_details>Ügyfél adatai</customer_details>
+    <expiration_date>Lejárat dátuma</expiration_date>
+    <invoices>Számlák</invoices>
+    <last_invoices>Utolsó számlák</last_invoices>
+    <no_invoices>Jelenleg nincs &lt;strong&gt;semmilyen számlája&lt;/strong&gt;</no_invoices>
+    <payment_details>Fizetési adatok</payment_details>
+    <payments>Fizetési adatok</payments>
+    <per_user_month>felhasználó/hó</per_user_month>
+    <plan_details>Csomag adatai</plan_details>
+    <price_all_users_month>Összes havi költség</price_all_users_month>
+    <price_user_month>Ár felhasználó/hó</price_user_month>
+    <trial>Bemutató</trial>
+    <show_invoice_list>Az összes számla megjelenítése</show_invoice_list>
+    <storage>Felhasználónkénti tárhely</storage>
+    <subscription_details>Feliratkozás adatai</subscription_details>
+    <your_trial_ends>Your trial ends:</your_trial_ends>
+    <number_of_users>Number of users</number_of_users>
+    <manage_subscription>Előfizetés kezelése</manage_subscription>
+    <subscription_settings>Követés beállításai</subscription_settings>
+    <datacenter_storage_support>Datacenter, storage &amp; support</datacenter_storage_support>
+    <support>Támogatás</support>
+    <next_billing>Következő számla</next_billing>
+    <total_price>Teljes összeg</total_price>
+    <billing_period>Számlázási időszak:</billing_period>
+    <technical_support>Technikai támogatás</technical_support>
+    <business_support>Üzleti támogatás</business_support>
+    <contact_our_support>You can contact our support within 24/7 hours per day</contact_our_support>
+    <free>DÍJMENTES</free>
+    <page_reload>Page needs to be reloaded in order to load new license</page_reload>
+  </subscription>
+  <loginpage>
+    <no_cookie>Böngészőjében a javascriptek ill. a cookiek létrehozása nincs engedélyezve</no_cookie>
+    <title_admin>IceWarp WebAdmin</title_admin>
+    <new_interface>Új felület</new_interface>
+    <old_interface>Régi felület</old_interface>
+    <sign_in_text>Domének és felhasználók kezeléséhez &lt;strong&gt;adminisztrátori&lt;/strong&gt; adatokkal kell bejelentkezni.</sign_in_text>
+    <sign_in>Bejelentkezés</sign_in>
+    <email>E-mail cím</email>
+    <username>Felhasználónév</username>
+    <password>Jelszó</password>
+    <remember_me>Automatikus bejelentkezés</remember_me>
+    <forgotten_password>Elfelejtett jelszó</forgotten_password>
+    <visit_text>Ha többet szeretne megtudni az IceWarp Szerverről, keresse fel honlapunkat</visit_text>
+    <visit_url>https://www.IceWarp.hu</visit_url>
+    <visit_link>www.IceWarp.hu</visit_link>
+    <powered_by>IceWarp Szerver &amp;copy; 2020</powered_by>
+    <oops_headline>Nem támogatott böngésző</oops_headline>
+    <oops_text>A WebAdmin &lt;strong&gt;NEM kompatibilis&lt;/strong&gt; böngészőjével vagy eszközével.&#13;&#10;Használatához a következő böngészők valamelyike szükséges:</oops_text>
+    <recommended>Javasolt</recommended>
+    <supported>Támogatott</supported>
+    <supported_version>Támogatott</supported_version>
+    <chrome>Chrome</chrome>
+    <explorer>Explorer</explorer>
+    <firefox>Firefox</firefox>
+    <safari>Safari</safari>
+    <opera>Opera</opera>
+    <divtcha>Adja meg újra a kódot</divtcha>
+    <wrong_captcha>A kód hibás</wrong_captcha>
+    <auth_sent>Küldtünk egy e-mailt, melyben egy biztonságos hivatkozást talál. Erre a hivatkozásra kattintva korlátozott ideig módosíthatja a spam beállításokat.</auth_sent>
+  </loginpage>
+  <error>
+    <failed>Sikertelen</failed>
+    <fill_in_non_negative_value>Negatív érték nem engedélyezett.</fill_in_non_negative_value>
+    <account_password_policy>A jelszó nem felel meg a jelszószabályoknak.</account_password_policy>
+    <auth_email_missing>Az e-mail cím hiányzik.</auth_email_missing>
+    <identical_email>Ugyanazon a domainen nem rendelheti hozzá másik felhasználóhoz a saját felhasználónevét.</identical_email>
+    <insufficient_rights>Ezen művelet végrehajtásához nem elegendőek a jogok.</insufficient_rights>
+    <connection>Nem érhető el a szerver. Ellenőrizze internetkapcsolatát, vagy forduljon az adminisztrátorhoz.</connection>
+    <invalid_command>Nem lehetett végrehajtani a műveletet</invalid_command>
+    <invalid_data>Érvénytelen adatok</invalid_data>
+    <no_key_defined>Nincs kulcs meghatározva</no_key_defined>
+    <save_unsuccessful>A beállítások nem kerültek mentésre</save_unsuccessful>
+    <action_failed>Nem lehetett végrehajtani a kért műveletet</action_failed>
+    <license_key_send_failed>Nem lehetett elküldeni a licenckulcsot.</license_key_send_failed>
+    <unknown_error>Ismeretlen hiba</unknown_error>
+    <auth_login_invalid>A bejelentkezés érvénytelen</auth_login_invalid>
+    <wrong_password>Hibás jelszó</wrong_password>
+    <password_too_short>Password too short</password_too_short>
+    <password_does_not_match>Passwords do not match</password_does_not_match>
+    <password_contains_alias>Password cannot contain alias</password_contains_alias>
+    <password_numeric_chars>Not enough numeric characters in password</password_numeric_chars>
+    <password_non_alpha_num_chars>Not enough non alphanumeric characters in password</password_non_alpha_num_chars>
+    <password_alpha_chars>Not enough alpha characters in password</password_alpha_chars>
+    <password_upper_alpha_chars>Not enough uppercase characters in password</password_upper_alpha_chars>
+    <uploader_file_type_not_allowed>A fájltípus nem engedélyezett</uploader_file_type_not_allowed>
+    <specify_account_name_with_domain_name>Fióknév megadása domén névvel</specify_account_name_with_domain_name>
+    <specify_domain_name>Domén név megadása</specify_domain_name>
+    <fatal_communication_error>Kommunikációs hiba</fatal_communication_error>
+    <account_disabled>Fiók kikapcsolva</account_disabled>
+    <account_domain_limit_exceeded>Fiók kvóta túllépésre került</account_domain_limit_exceeded>
+    <connection_error>Kaopcsolódási hiba</connection_error>
+    <server_failure>Server failed to deliver necessary data: </server_failure>
+    <password_missing>Nincs jelszó</password_missing>
+    <auth_digest_expired>Jelszó lejárt</auth_digest_expired>
+    <unexpected_response>Váratlan válasz</unexpected_response>
+    <service_stop_unsuccessful>Nem lehetett leállítani a szolgáltatást</service_stop_unsuccessful>
+    <service_start_unsuccessful>Nem lehetett elindítani a szolgáltatást</service_start_unsuccessful>
+    <service_restart_unsuccessful>Nem lehetett újraindítani a szolgáltatást</service_restart_unsuccessful>
+    <rule_delete_unsuccessful>Nem lehetett törölni a szabályt</rule_delete_unsuccessful>
+    <rule_save_unsuccessful>Nem lehetett menteni a szabályt</rule_save_unsuccessful>
+    <cannot_add_member_to_itself>Tagok önmagukhoz nem adhatók</cannot_add_member_to_itself>
+    <rule_at_least_one_condition_required>Legalább egy feltétel szükséges</rule_at_least_one_condition_required>
+    <account_not_created>A fiók nem hozható létre. Valószínűleg már létezik egy fiók ezze az aliasszal vagy nem rendelkezik elegendő licenccel.</account_not_created>
+    <auth_password_missing>Hiányzik a jelszó</auth_password_missing>
+    <login_unsuccessful>A bejelentkezés sikertelen</login_unsuccessful>
+    <sender_must_be_filled>A feladó nem lehet üres</sender_must_be_filled>
+    <items_delete_failed>A törlés nem sikerült</items_delete_failed>
+    <spam_queue_item_does_not_exist>Az elem nem létezik</spam_queue_item_does_not_exist>
+    <items_deliver_failed>A kézbesítés nem sikerült</items_deliver_failed>
+    <save_failed>Nem lehetett menteni</save_failed>
+    <reset_failed>Visszaállítás nem lehetséges</reset_failed>
+    <default_reset_failed>Could not reset to default values</default_reset_failed>
+    <fetch_failed>Data could not be retrieved</fetch_failed>
+    <certificate_not_saved uses="server certificates">A tanúsítvány nem került mentésre</certificate_not_saved>
+    <delete_unsuccessfull>A törlés sikertelen</delete_unsuccessfull>
+    <account_permission>Nem megfelelő jogosultságok</account_permission>
+    <license_evaluation>Bemutató licenc</license_evaluation>
+    <license_reference_mismatch>Hibás referencia kulcs</license_reference_mismatch>
+    <license_revalidation>Licenc újra-érvényesítése nem sikerült</license_revalidation>
+    <license_expired>Licenc lejárt</license_expired>
+    <license_none>Nincs licenc</license_none>
+    <license_build>Licenc verziója nem megfelelő</license_build>
+    <license_version>Licenc verziója nem megfelelő</license_version>
+    <cert_some_domains_were_not_verified>Egyes domének nincsenek hitelesítve</cert_some_domains_were_not_verified>
+    <cert_requesting_challenges_for_domain_verification>Hiba a domén ellenőrzés kérelmezése során</cert_requesting_challenges_for_domain_verification>
+    <cert_parsing_challenges_for_domain_verification>Hiba a domén ellenőrzés kérdéseinek elemzése során</cert_parsing_challenges_for_domain_verification>
+    <cert_triggering_challenges_challenges_for_domain_verification>Hiba a domén ellenőrzés kérdéseinek indítása során</cert_triggering_challenges_challenges_for_domain_verification>
+    <cert_registering_acme_account>Hiba az ACME-fiók regisztrálása során.</cert_registering_acme_account>
+    <cert_invalid_csr_detected>Érvénytelen CSR</cert_invalid_csr_detected>
+    <cert_signing_certificate>Hiba a tanúsítvány aláírása során</cert_signing_certificate>
+    <cert_letsEncrypt_rate_limits_applied>Let&apos;s Encrypt érték-határérték alkalmazva</cert_letsEncrypt_rate_limits_applied>
+    <domain_delete_failed>A domén nem törölhető</domain_delete_failed>
+    <incorrect_filetype>A fájl típusa nem megfelelő</incorrect_filetype>
+    <password_expired>Jelszava lejárt</password_expired>
+    <rule_activate_unsuccessful>Could not activate the rule</rule_activate_unsuccessful>
+    <rule_deactivate_unsuccessful>Could not deactivate the rule</rule_deactivate_unsuccessful>
+    <unsupported_image_format>Unsupported image format</unsupported_image_format>
+    <rule_at_least_one_action_required>At least one action is required</rule_at_least_one_action_required>
+  </error>
+  <warning>
+    <operation_may_take_long_time>This operation may take a long time.</operation_may_take_long_time>
+    <delete_selected_members>Valóban törli a kijelölt tagokat? (%s)</delete_selected_members>
+    <delete_selected_items>Valóban törli a kijelölt fiókokat? (%s)</delete_selected_items>
+    <delete_selected_devices>Valóban törli a kijelölt eszközöket? (%s)</delete_selected_devices>
+    <move_selected_accounts>Biztosan áthelyezi a kijelölt fiókokat (%s) a doménre: %s?</move_selected_accounts>
+    <changes_found>Menti a módosításokat?</changes_found>
+    <identical_username>A felhasználónév egyezik az Ön felhasználónevével. Biztosan menteni akarja ezt a felhasználónevet?</identical_username>
+    <default_certificate_will_be_overwritten uses="server certificates">Az alapértelmezett tanúsítványt lecseréli</default_certificate_will_be_overwritten>
+    <delete_selected_certificates uses="server certificates">Valóban törli a kijelölt tanúsítványokat?</delete_selected_certificates>
+    <delete_selected_oauths>Do you want to delete selected OAuth clients?</delete_selected_oauths>
+    <set_to_default>Valóban visszaállítja az alapértelmezett értékeket? Ezzel a jelenlegi beállítások elvesznek.</set_to_default>
+    <delete_domain>%s domén törölve lesz</delete_domain>
+  </warning>
+  <message>
+    <device_soft_wipe_set>Szinkronizáltak törlés - sikeresen elindult</device_soft_wipe_set>
+    <device_hard_wipe_set>Teljes törlés - sikeresen elindult</device_hard_wipe_set>
+    <device_set_wipe_failed>A törlés nem indítható</device_set_wipe_failed>
+    <save_successfull>A beállítások mentve</save_successfull>
+    <reset_to_default>Values have been reset to default</reset_to_default>
+    <license_key_sent_successfuly>A licenckulcs elküldése sikerült</license_key_sent_successfuly>
+    <device_blocked>Az eszköz letiltva</device_blocked>
+    <device_allowed>Az eszköz engedélyezve</device_allowed>
+    <rule_delete_successfull>Szabály törölve</rule_delete_successfull>
+    <rule_save_successfull>Szabály mentve</rule_save_successfull>
+    <item_saved_successfully>Az elem mentése sikerült</item_saved_successfully>
+    <items_deleted_successfully>A törlés sikeres</items_deleted_successfully>
+    <items_delivered_successfully>Elemek kézbesítése sikerült</items_delivered_successfully>
+    <certificate_saved uses="server certificates">A tanúsítvány mentve</certificate_saved>
+    <delete_successfull>Elem törölve</delete_successfull>
+    <domain_renamed>A domén átnevezésre került</domain_renamed>
+    <items_blacklisted_successfully>Elem sikeresen feketelistázva</items_blacklisted_successfully>
+    <items_whitelisted_successfully>Elem sikeresen fehérlistázva</items_whitelisted_successfully>
+    <rule_activate_successful>The rule has been activated</rule_activate_successful>
+    <rule_deactivate_successful>The rule has been deactivated</rule_deactivate_successful>
+  </message>
+  <description>
+    <device_soft_wipe>Valóban törli a kijelölt eszközön a szinkronizált adatokat?</device_soft_wipe>
+    <device_hard_wipe>Valóban törli a kijelölt eszközön lévő összes adatot?</device_hard_wipe>
+  </description>
+  <iframe>
+    <something_went_wrong>Something went wrong.</something_went_wrong>
+    <loading>Betöltés</loading>
+    <reload>Újratöltés</reload>
+    <reload_helper>Please reload content</reload_helper>
+  </iframe>
+  <change_plan>
+    <title>Change plan</title>
+  </change_plan>
+  <oauth>
+    <wizard>OAuth provider wizard</wizard>
+    <wizard_edit>Edit OAuth provider</wizard_edit>
+    <client_id>Kliens ID</client_id>
+    <name>OAuth szolgáltató</name>
+    <description>Leírás</description>
+    <redirect_uri>Átirányított URL</redirect_uri>
+    <auth_type>Azonosítás típusa</auth_type>
+    <auth_type_standard>Alapértelmezett</auth_type_standard>
+    <auth_type_mobile>Mobil</auth_type_mobile>
+    <auth_type_single_page>Egy oldal</auth_type_single_page>
+    <secret>OAuth kód</secret>
+  </oauth>
+  <fulltext_search>
+    <title>Fulltext Search</title>
+    <configured>Fulltext Search engine is &lt;b&gt;configured&lt;/b&gt;</configured>
+    <not_configured>Fulltext Search engine is currently &lt;b&gt;not configured&lt;/b&gt;</not_configured>
+    <indexer>Fulltext Search scanner</indexer>
+    <server>Fulltext Search database</server>
+    <docconv>Documents conversion service</docconv>
+    <indexpath>Index storage folder</indexpath>
+    <configure>Configure Fulltext Search</configure>
+  </fulltext_search>
+  <fulltext_search_wizard>
+    <heading>Fulltext Search Wizard</heading>
+    <search>Fulltext Search</search>
+    <search_enable>Enable Fulltext Search in IceWarp</search_enable>
+    <search_helper1>IceWarp supports fulltext search that is available to users in WebClient interface, on mobile devices synchronized through ActiveSync and in desktop email clients that can search for emails through IMAP protocol.</search_helper1>
+    <search_helper2>Fulltext Search engine consists of three components, each of them can run locally on the same system as IceWarp, or remotely, to offload CPU and storage utilization. You should carefully consider which setup will be the best for your use case. The three components are:</search_helper2>
+    <search_helper_component1>Fulltext Search scanner (yoda-scan)</search_helper_component1>
+    <search_helper_component2>Fulltext Search database (yoda)</search_helper_component2>
+    <search_helper_component3>Documents conversion service (mundi)</search_helper_component3>
+    <scanner>Fulltext Search scanner configuration</scanner>
+    <scanner_helper>Scanner service reads data from email storage, parses out text of emails and sends the text to the fulltext search database. Scanner service needs access (at least with read permission) to the email storage of IceWarp. If Scanner is deployed on a remote server, mount the email storage to the same mount point as on the IceWarp server (%s).</scanner_helper>
+    <scanner_local>Run Scanner service locally</scanner_local>
+    <scanner_local_helper>Local Scanner service port</scanner_local_helper>
+    <scanner_remote>Connect to remote Scanner service</scanner_remote>
+    <scanner_remote_helper>Remote Scanner service URL</scanner_remote_helper>
+    <database>Fulltext Search database configuration</database>
+    <database_helper1>Database service maintains its own database for fulltext search metadata (index). The index is stored directly on filesystem and will occupy approximately 10-20% of the original size of IceWarp email storage (the actual size varies by the type of data). Database service operates on its own and does not need to have any access to email storage.</database_helper1>
+    <database_helper2>Note: If you are going to change local &lt;i&gt;Index storage folder&lt;/i&gt;, you should also manually move the existing index data to the new location (this operation cannot be done automatically).</database_helper2>
+    <database_local>Run Database service locally</database_local>
+    <database_local_helper>Local Database service port</database_local_helper>
+    <database_remote>Connect to remote Database service</database_remote>
+    <database_remote_helper>Remote Database service URL</database_remote_helper>
+    <index_storage_path>Index storage folder</index_storage_path>
+    <docconv>Documents conversion service configuration</docconv>
+    <docconv_helper>Documents conversion service is responsible for extracting text from email attachments and from documents stored in WebClient or FileSync locations. IceWarp provides a preconfigured virtual server with Documents conversion service that can be deployed externally from server where IceWarp runs [recommended]. Documents conversion service can also run locally on the same IceWarp system, however in such case it may not be able to convert some document types. Documents conversion service operates on its own and does not need to have any access to email storage.</docconv_helper>
+    <docconv_local>Run Documents conversion service locally</docconv_local>
+    <docconv_local_helper>Local Documents conversion service port</docconv_local_helper>
+    <docconv_remote>Connect to remote Documents conversion service</docconv_remote>
+    <docconv_remote_helper>Remote Documents conversion service URL</docconv_remote_helper>
+    <docconv_disable>Disable Documents conversion service</docconv_disable>
+    <summary>Fulltext Search configuration summary</summary>
+    <summary_helper>You have now finished configuration of Fulltext Search engine components. Below is summary of your current configuration.</summary_helper>
+    <runs_locally>%s runs locally</runs_locally>
+    <runs_remotely>%s runs remotely</runs_remotely>
+    <is_disabled>%s is disabled</is_disabled>
+  </fulltext_search_wizard>
+</language>

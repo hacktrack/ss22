@@ -1,0 +1,24 @@
+/* AB buttons */
+div.obj_actions .obj_suggest_mail{
+	padding-right: 30px!important;
+}
+
+div.obj_actions .obj_mail_suggest.readonly{
+    background: #f7f7f7!important;
+    border-color: #DFDDDB!important;
+}
+
+.rtl div.obj_actions .obj_mail_suggest .obj_suggest_mail {
+	padding-right: auto!important;
+	padding-left: 30px!important;
+}
+
+div.obj_actions .obj_button.transparent{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.rtl div.obj_actions .obj_button.transparent {
+	left: 0;
+	right: auto;
+}

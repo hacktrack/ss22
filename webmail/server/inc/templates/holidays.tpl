@@ -1,0 +1,1 @@
+<{resourcename}>{dynamic holidays}<item uid="{*::HOLHOLIDAYID}"><name>{*::HOLSHORTDESCRIPTION}</name>{optional *::HOLSELECTED}<subscribed>true</subscribed>{/optional}</item>{/dynamic}</{resourcename}>

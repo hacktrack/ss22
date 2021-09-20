@@ -1,0 +1,42 @@
+// Checkbox
+// Input type checkbox.
+
+// Block
+.checkbox {
+	@include radio-checkbox;
+
+	// States
+	.table & {
+		height: $table-cell-height;
+		line-height: $table-cell-height;
+		width: $table-cell-height;
+	}
+}
+
+
+// Elements
+.checkbox input {
+
+	+ i {
+		border-radius: $radius;
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+		-webkit-transition: -webkit-transform $fast;
+		        transition: transform $fast;
+	}
+
+	&:checked + i {
+		@include theme {
+			border-color: transparent $theme-primary $theme-primary transparent;
+		}
+		background-color: $transparent;
+		border-radius: 0;
+		border-width: 0 2px 2px 0;
+		width: 8px;
+		height: 18px;
+		// Compensate for the difference in size using margin and translate
+		margin: 0 6px;
+		-webkit-transform: translateY(-3px) rotate(45deg);
+		        transform: translateY(-3px) rotate(45deg);
+	}
+}

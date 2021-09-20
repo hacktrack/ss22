@@ -1,0 +1,258 @@
+div.obj_context_link > ul.root {
+	min-width: 270px;
+}
+
+div.obj_context_link li.hr {
+    padding: 5px 0;
+    background-color: #fff;
+}
+
+div.obj_context_link > ul.root li.ico.ico2 > a > span {
+	text-indent: 30px;
+}
+
+div.obj_context_link ul li.ico > a > span:after {
+	left: 16px;
+	line-height: 24px;
+	top: 3px;
+}
+
+@keyframes copied {
+	0% {
+		background-color: #fff;
+	}
+
+	8%, 92% {
+		background-color: {bg_main '#0088CC'};
+		color: #fff;
+	}
+
+	100% {
+		background-color: #fff;
+	}
+}
+
+div.obj_context_link ul li.copy_email div {
+	display: none;
+}
+
+div.obj_context_link ul li.copy_email.copied a {
+	animation: copied 2.4s linear;
+}
+
+div.obj_context_link ul li.copy_email.copy_error a {
+	background-color: {bg_main '#0088CC'};
+	color: #fff;
+}
+
+div.obj_context_link ul li.copy_email.copy_error a span:before {
+	left: initial;
+    right: 10px;
+    content: 'ctrl + c';
+    border: 1px solid #fff;
+    border-radius: 2px;
+    width: 45px;
+    color: #E0E0E0;
+    font-size: 12px;
+    font-family: inherit;
+    padding: 3px;
+    line-height: 12px;
+    height: initial;
+    margin-top: 2px;
+}
+
+div.obj_context_link ul li.copy_email.copy_error a span {
+	text-overflow: ellipsis;
+    width: 270px;
+    text-align: center;
+    overflow: hidden;
+	padding-right: 75px;
+	color: #E0E0E0;
+}
+
+div.obj_context_link ul li.copy_email.copy_error a span:after {
+	left: 11px;
+	color: #E0E0E0!important;
+}
+
+div.obj_context_link ul li.copy_email.copied a span:after {
+	color: #fff;
+}
+
+div.obj_context_link ul li.copy_email span:after {
+	content: '\e061';
+}
+
+@keyframes copied_icon {
+	0% {
+		width: 0px;
+	}
+
+	100% {
+		width: 24px;
+	}
+}
+
+div.obj_context_link ul li.copy_email.copied span:after {
+	content: '\e01a';
+	animation: copied_icon 0.22s linear;
+	overflow: hidden;
+}
+
+div.obj_context_link ul li.lookup_contacts span:after {
+	content: '\e032';
+}
+
+div.obj_context_link ul li.add_to_contacts span:after {
+	content: '\e03d';
+}
+
+div.obj_context_link ul li.ico.add_to_existing_contact > a > span:after {
+	content: '\e017';
+	left: 14px;
+}
+
+div.obj_context_link ul li.ico.invite_to_appointment > a > span:after {
+	content: '\e024';
+	left: 14px;
+}
+
+div.obj_context_link ul li.ico.invite_all_to_appointment > a > span:after {
+	content: '\e024';
+	left: 14px;
+}
+
+div.obj_context_link ul li.add_to_im > a > span:after {
+	content: '\e035';
+	left: 14px;
+}
+
+div.obj_context_link ul li.teamchat_invite > a > span:after {
+	content: '\e964';
+	left: 14px;
+}
+
+.obj_context_link .avatar {
+	overflow: hidden;
+	display: inline-block;
+	height: 56px;
+    width: 56px;
+	background: url(../images/face-placeholder.gif) no-repeat center center #C6C4C2;
+	background-size: cover;
+	background-clip: border-box;
+	background-origin: padding-box;
+	border-radius: 50%;
+}
+
+.obj_context_link .wrapper {
+	overflow: hidden;
+	padding: 9px 16px 11px 16px;
+	height: 105px;
+}
+
+.obj_context_link .name,
+.obj_context_link .email {
+	position: absolute;
+    left: 88px;
+    top: 14px;
+    width: 166px;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+.rtl .obj_context_link .name,
+.rtl .obj_context_link .email {
+	right: 88px;
+	left: auto;
+}
+
+.obj_context_link .email{
+	top: 37px;
+	font-weight: 300;
+	color: {bg_main '#0088CC'};
+	cursor: pointer;
+}
+
+.obj_context_link .buttons {
+	position: absolute;
+	left: 78px;
+	bottom: 9px;
+}
+
+.rtl .obj_context_link .buttons {
+	right: 78px;
+	left: auto;
+}
+
+.obj_context_link .buttons > div {
+	display: inline-block;
+    position: relative;
+    margin: 0 10px;
+    min-width: 24px;
+	cursor: pointer;
+    color: {bg_main '#0088CC'};
+}
+
+.obj_context_link .buttons div.icon {
+    width: 24px;
+    height: 24px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.obj_context_link .buttons div.icon:before {
+	content: '\e048';
+	color: #fff;
+	font-family: 'ico24';
+	transition: all 0.2s;
+	font-size: 26px;
+	position: absolute;
+    top: 0px;
+    left: -1px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 26px;
+}
+
+.obj_context_link .buttons > div:hover div.icon:before {
+	color: {bg_main '#0088CC'};
+}
+
+.obj_context_link .buttons div.icon:after {
+    transition: all 0.2s;
+	font-size: 24px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-family: 'ico24';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 26px;
+}
+
+.obj_context_link .buttons > div:hover div.icon:after {
+	color: #fff;
+}
+
+.obj_context_link .buttons .call div.icon:after {
+	content: '\e075';
+}
+
+.obj_context_link .buttons .mail div.icon:after {
+	content: '\e079';
+}
+
+.obj_context_link .buttons .chat div.icon:after {
+	content: '\e078';
+}
+
+.obj_context_link .buttons div.label {
+	text-align: center;
+    font-size: 0.9em;
+}

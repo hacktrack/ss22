@@ -1,0 +1,74 @@
+.obj_minipin:after{
+	left: auto;
+	right: 41px;
+}
+.obj_minipin>span{
+	position: relative;
+	margin: 0!important;
+	padding: 0 7px 0 27px!important;
+	display: inline-block!important;
+
+	line-height: 26px!important;
+
+	z-index: 10;
+	cursor: pointer;
+	border: 1px solid transparent;
+	/*float: left;*/
+}
+.obj_minipin>span:first-of-type{
+	border-radius: 4px 0 0 4px;
+}
+.obj_minipin>span:last-of-type{
+	border-radius: 0 4px 4px 0;
+}
+.obj_minipin>span.active,
+.obj_minipin>span:not(.disabled):hover{
+	border-color: {bg_main '#0088CC'};
+}
+
+.obj_minipin>span.active{
+	background-color: #F2F9FD;
+}
+
+.obj_minipin>span:after{
+	position: absolute;
+	left: 5px;
+	top: 0;
+
+	content: '\e07b'; /* \e08f */
+	font-family: 'ico16';
+	font-size: 16px;
+	color: {txt_main '#0088CC'};
+
+	transition: transform 100ms ease-in-out;
+}
+	.obj_minipin>span:not(.active):after{
+		-ms-transform: rotate(45deg); /* IE 9 */
+		-webkit-transform: rotate(45deg); /* Safari */
+		transform: rotate(45deg); /* Standard syntax */
+	}
+
+	.obj_minipin>span:not(.disabled):hover:after,
+	.obj_minipin>span.active:after{
+		-ms-transform: rotate(0); /* IE 9 */
+		-webkit-transform: rotate(0); /* Safari */
+		transform: rotate(0); /* Standard syntax */
+	}
+
+	.obj_minipin>span.public:after{
+		color: #AA0000;
+	}
+
+.obj_minipin>span.public.active,
+.obj_minipin>span.public:not(.disabled):hover{
+	border-color: #BF6559;
+}
+.obj_minipin>span.public.active{
+	background-color: #F9EDED;
+}
+
+
+	.obj_minipin>span.disabled{
+		opacity: 0.5;
+		cursor: default!important;
+	}

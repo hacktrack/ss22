@@ -1,0 +1,23 @@
+<view>
+	<helper>auth</helper>
+	<panel>
+		<form name="main_menu">
+			<menu template="menu/main"/>
+			<config>
+				<window>main</window>
+				<view>mail.compose</view>
+				<controller>default</controller>
+			</config>
+		</form>
+		<welcome/>
+		<footer/>
+		<config>
+			<stylesheet>
+				<src>pda</src>
+			</stylesheet>
+			<javascript>
+				<src>lib</src>
+			</javascript>
+		</config>
+	</panel>
+</view>

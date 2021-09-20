@@ -1,0 +1,1 @@
+<weather>{dynamic items}<item uid="{*::HOLHOLIDAYID}"><holiday_id>{*::HOLHOLIDAYID}</holiday_id><city>{*::HOLDESCRIPTION}</city></item>{/dynamic}</weather>

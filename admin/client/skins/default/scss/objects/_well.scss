@@ -1,0 +1,17 @@
+// Well
+// Simple stand-out box with border containing content.
+
+// Block
+.well {
+	width: 100%;
+	@include border;
+	border-radius: $radius;
+	background-color: $lighter-grey;
+	padding: p(1);
+	padding-bottom: 0;
+	margin-bottom: g(1);
+
+	@media #{$medium-up} {
+		margin-bottom: g(2);
+	}
+}

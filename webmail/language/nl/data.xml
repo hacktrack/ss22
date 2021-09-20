@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Blauw</blue>
+    <green>Groen</green>
+    <brown>Bruin</brown>
+    <purple>Paars</purple>
+    <yellow>Geel</yellow>
+    <teal>Blauwgroen</teal>
+    <plum>Plum</plum>
+    <red>Rood</red>
+    <aqua>Aqua</aqua>
+    <aquamarine>Aquamarine</aquamarine>
+    <orchid>Orchid</orchid>
+    <pink>Rose</pink>
+    <silver>Zilver</silver>
+    <white>Wit</white>
+    <gray>Grijs</gray>
+    <lemon>Lemon</lemon>
+  </colors>
+  <title>
+    <new_email>* Nieuw e-mail bericht</new_email>
+    <new_im>* Nieuw bericht van %s</new_im>
+    <new_reminder>* Herinnering: %s</new_reminder>
+    <cerror>! Bevestigingsfout</cerror>
+  </title>
+  <audio>
+    <player>Speler</player>
+  </audio>
+  <signature>
+    <none>Geen Handtekening</none>
+    <alias>Van Adres</alias>
+    <newmsg>Nieuwe berichten</newmsg>
+    <oldmsg>Reacties</oldmsg>
+    <signature>Handtekening</signature>
+    <variable>Waarde Invoegen</variable>
+  </signature>
+  <alias>
+    <add>Voeg nieuwe Alias toe</add>
+    <notify>Bevestigingsbericht is verstuurt.</notify>
+    <instructions>Een bevestigingsbericht zal naar het bovenstaande e-mail adres worden verstuurt. Check de e-mail voor verdere instructies.</instructions>
+  </alias>
+  <notify>
+    <title>Melding Details</title>
+    <to_all>Melding aan iedereen met toegang tot deze map</to_all>
+    <copy>Meld ook</copy>
+    <comment>Aantekening (optioneel), deze wordt verzonden aan gebruikers die u wilt verwittigen van wijzigingen</comment>
+    <success>Melding verzonden</success>
+  </notify>
+  <datagrid>
+    <nomessages>Geen Berichten</nomessages>
+    <noitems>Geen Items</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Voorbeeld</preview>
+    <down>Laatste Pagina</down>
+    <right>Rechterkant</right>
+    <none>Geen</none>
+    <noitem>Geen Item</noitem>
+    <message_to>Bericht aan: %s</message_to>
+    <doc_revisions>Document versie</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Zoek Wizard</wizard>
+    <since>Van Datum</since>
+    <until>Tot Datum</until>
+    <contains>Overal</contains>
+    <fulltext>Volledige Tekst</fulltext>
+    <makefolder>Maak zoekmap</makefolder>
+    <contact_note>Notitie</contact_note>
+  </search>
+  <search_hints>
+    <folder>Zoek naar items in bepaaldemap</folder>
+    <from>Zoek op afzender (from:Piet)</from>
+    <to>Word gebruikt om de ontvanger te specificeren (to:Gerda)</to>
+    <subject>Zoek naar woorden in het onderwerp (subject:eten)</subject>
+    <or>logical operator</or>
+    <not>logical operator</not>
+    <hasattachment>Zoek naar berichten met bijlages</hasattachment>
+    <isflagged>Zoek naar berichten die gevlagd zijn</isflagged>
+    <isunread>Zoek naar ongelezen berichten</isunread>
+    <isread>Zoek naar gelezen berichten</isread>
+    <isdone>Zoek naar afgeronde taken</isdone>
+    <cc>Wordt gebruikt om ontvangers te specificeren in het veld Cc:</cc>
+    <bcc>Wordt gebruikt om ontvangers te specificeren in het Bcc: veld</bcc>
+    <sms>Wordt gebruikt om ontvanger te specificeren in het SMS: veld</sms>
+    <after>Zoek naar berichten die verstuurd zijn na een bepaalde periode (after:12-01-2015)</after>
+    <after_e>Zoek naar berichten die verstuurd zijn na een bepaalde periode (after:12-01-2015)</after_e>
+    <after_f>Zoek naar items die gewijzigd zijn na een bepaalde periode (after:12-01-2015)</after_f>
+    <after_t>Zoek naar items die eindigen na de gegeven tijd (after:12-01-2015)</after_t>
+    <after_j>Zoek naar items die startten na de gegeven tijd (after:12-01-2015)</after_j>
+    <before>Zoek naar berichten die gestuurd zijn voor de gegeven tijd(before:12-01-2015)</before>
+    <before_e>Zoek naar items die startten voor de gegeven tijd (before:12-01-2015)</before_e>
+    <before_f>Zoek naar items die gewijzigd zijn voor de gegeven tijd (before:12-01-2015)</before_f>
+    <before_t>Zoek naar items die eindigen voor de gegeven tijd (before:12-01-2015)</before_t>
+    <before_j>Zoek voor items die startten voor de gegeven tijd (before:12-01-2015)</before_j>
+    <title>Wordt gebruikt om het Onderwerp aan te passen (title:Test)</title>
+    <description>Wordt gebruikt om beschrijving of notitie aan te passen (description:Test)</description>
+    <name>Wordt gebruikt om contact naam aan te passen</name>
+    <email>Wordt gebruikt om e-mail aan te passen</email>
+    <keyword>Zoek naar items met een bepaald label (tag:Zakelijk)</keyword>
+    <tag>Zoek naar items met een specifiek label(tag:Zakelijk)</tag>
+    <tag2>Zoek naar items met label &quot;%s&quot; (gebruikt in % van de items)</tag2>
+    <greater>Zoek afhankelijk van grootte in kB (greater:1024)</greater>
+    <smaller>Zoek afhankelijk van grootte in kB (smaller:1024)</smaller>
+    <company>Zoek op bedrijfsnaam (company:IceWarp)</company>
+    <department>Zoek op afdeling (department:IT)</department>
+    <note>Zoek naar een contact met een notitie (note:VIP)</note>
+    <location>Zoek op locatie (location:London)</location>
+    <fulltext>Zoek in tekst naar (fulltext:test)</fulltext>
+    <priority>Zoek in prioriteit highest,high,normal,low,lowest (priority:high)</priority>
+    <isprivate>Zoek naar taken die privé zijn</isprivate>
+    <ispublic>Zoek naar taken die openbaar zijn</ispublic>
+    <isfree>Zoek naar taken die vrij zijn</isfree>
+    <isbusy>Zoek naar taken die bezet zijn</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Virtuele map</virtual>
+    <general>Algemeen</general>
+    <primary>Primaire Map</primary>
+    <filter>Filter</filter>
+    <all>Alle Mappen</all>
+  </virtual>
+  <notifier>
+    <notifier>Melding</notifier>
+    <permissions>Bureaublad meldingen laten u weten als u een nieuwe mail of chat bericht heeft. Ook als uw browser geminimaliseerd is of niet zichtbaar is. &lt;br&gt;Kies eerst het type melding. Druk op OK om bureaublad meldingen in te schakelen.</permissions>
+    <denied>U heeft geen toegang tot Bureaublad Meldingen</denied>
+    <redirect>Bericht Omgeleid</redirect>
+    <send>Bericht Verzonden</send>
+    <item_save>Item Opgeslagen.</item_save>
+    <new_email>Nieuwe e-mail voor %s</new_email>
+    <new_revision>Nieuwe document versie aangemaakt</new_revision>
+    <email_exist>E-mailadres bestaat reeds</email_exist>
+    <email_added>E-mailadres toegevoegd aan contact</email_added>
+    <contact_email_list_full>Toevoegen van e-mailadres mislukt, alle mogelijke velden zijn reeds bezet</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google Maps</map>
+    <go>Laat het adres zien</go>
+    <open>Open Google</open>
+    <alert>Google Maps Fout</alert>
+    <g_geo_missing_address>Het adres mist: Het adres is verkeerd of mist.</g_geo_missing_address>
+    <g_geo_too_many_queries>Te veel Zoekacties: Het dagelijks maximum locatie-aanvragen is overschreden.</g_geo_too_many_queries>
+    <g_geo_server_error>Server Fout: De Locatie aanvraag kan niet worden verwerkt.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Inlog Informatie</login_info>
+    <licenses>Bureaublad Applicaties en Licenties.</licenses>
+    <licenses_text>Haal het meeste uit uw e-mail account. Klik hier voor aanvullende downloads,activeringssleutels, Hulp and beschrrijvingendie u kunt gebruiken voor toegang tot uw Agenda&apos;s, Contactpersonen en Vrij/Bezet informatie via compatible Programma&apos;s op uw Bureaublad:&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp Desktop Client&lt;/li&gt;&#13;&#10;&lt;li&gt;Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Melder&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Afgeleverd</delivered>
+    <delivered_info>successfully delivered to local recipient</delivered_info>
+    <sent>Verzonden</sent>
+    <sent_info>successfully delivered to remote server</sent_info>
+    <queue>In wachtrij geplaatst</queue>
+    <queue_info>Het bericht is tijdelijk vertraagd, de server zal het automatisch later nogmaals proberen te verzenden</queue_info>
+    <error>Fout</error>
+    <error_info>Controleer uw Postvak In voor meer informatie over deze foutmelding</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Alle bestanden</all_files>
+    <images>Afbeeldingen</images>
+    <queue_limit_exceeded>Wachtrij Limiet overschreden</queue_limit_exceeded>
+    <zero_byte_file>Bestandsgrootte 0 Bytes</zero_byte_file>
+    <invalid_filetype>Ongeldig bestandstype</invalid_filetype>
+    <item>Object</item>
+    <title>Uploaden: %s - %s%</title>
+    <error1>Het bestand overschrijd de limiet (%sMB)</error1>
+    <error3>Het bestand is slechts gedeeltelijk ge-upload</error3>
+    <error4>Er is geen bestand ge-upload</error4>
+    <error6>Er mist een tijdelijke Map</error6>
+    <error7>Kan het bericht niet opslaan</error7>
+    <error8>Verkeerd bestandstype</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Status Tekst...</status_msg>
+    <add_private>Prive</add_private>
+    <unsupported_img>Bestandstype word niet ondersteund</unsupported_img>
+    <add_gateway>Gateway Toevoegen</add_gateway>
+    <error_im>WebChat error</error_im>
+    <registred>Reeds aangemeld</registred>
+    <registr>Aanmelden</registr>
+    <error_ticket>Niet in staat om ticket te maken</error_ticket>
+    <error_socket>Niet in staat om Socket te openen</error_socket>
+    <error_bytestream>Gebruiker ondersteund geen byte streams.</error_bytestream>
+    <error_cancel>Gebruiker heeft het verzoek geannuleerd.</error_cancel>
+    <error_registr>Service heeft uw registratie afgewezen.</error_registr>
+    <add_service>Abonneren op dienst</add_service>
+    <service>Service</service>
+    <call>Nu Bellen</call>
+    <audio_call>Audio Gesprek</audio_call>
+    <video_call>VideoGesprek</video_call>
+    <meeting>Start WebMeeting</meeting>
+    <invite>Invite to WebMeeting</invite>
+    <closetab>Tabblad Sluiten</closetab>
+    <show>Alle Contacten weergeven</show>
+    <hide>Verberg Offline Contacten</hide>
+    <other>Overige</other>
+    <selected>Geselecteerd</selected>
+    <chat>Open Chat</chat>
+    <groupmsg>Verzend Bericht</groupmsg>
+    <group>Groep</group>
+    <new_group>Nieuwe Groep</new_group>
+    <subscription>Inschrijving</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>User &lt;b&gt;%s&lt;/b&gt; has requested permission to add you to their WebChat contact list</sub_ask>
+    <send>Sta Chat Contact toe</send>
+    <request>Verzoek om acoord</request>
+    <remove>Verwijder accoord</remove>
+    <remove_account>Weet u zeker dat u account %s wilt verwijderen uit rooster?</remove_account>
+    <remove_accounts>Weet u zeker dat u de geselecteerde accounts uit het rooster wilt verwijderen?</remove_accounts>
+    <rem_grp>Verwijder Groep</rem_grp>
+    <rem_grpc>Verwijder Groep &amp; Contacten</rem_grpc>
+    <rename>Hernoem</rename>
+    <add>Contact Toevoegen</add>
+    <jabber_id>Gebruikers ID</jabber_id>
+    <nick>Geef Naam weer</nick>
+    <vcard>Geef contact info weer</vcard>
+    <history>Geef gesprekshystorie weer</history>
+    <sharedesktop>Deel beeldscherm</sharedesktop>
+    <tab_general>Algemeen</tab_general>
+    <tab_work>Werk</tab_work>
+    <tab_location>Locatie</tab_location>
+    <tab_about>Over</tab_about>
+    <send_mail>E-mail verzenden</send_mail>
+    <send_file>Verstuur Bestand</send_file>
+    <receive_file>Ontvang Bestand</receive_file>
+    <not_listed>Niet Vermeld</not_listed>
+    <composing>WebChat: %s is composing...</composing>
+    <file_message>Gebruiker heeft u een bericht gezonden met onderwerp:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s</file_message>
+    <file_cancel>Bestandsoverdracht geweigerd door ontvanger.</file_cancel>
+    <file_error>Fout tijdens bestandsoverdracht.</file_error>
+    <file_ok>Bestandsoverdracht succesvol.</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/b&gt; heeft u een bestand gezonden &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>Toon gesprekken na: %s</show_after>
+    <im_status>WebChat: %s</im_status>
+    <im>WebChat</im>
+    <sip_inprogress>Er wordt gebeld</sip_inprogress>
+    <sip_incomming>Inkomend gesprek</sip_incomming>
+    <sip_calling>Bellen</sip_calling>
+    <status_sec>%s voor minder dan een minuut</status_sec>
+    <status_min>%s voor %s minuten</status_min>
+    <status_hour>%s voor %s uren</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Propose new time</propose>
+    <nosubject>Geen Onderwerp</nosubject>
+    <when>Wanneer</when>
+    <location>Locatie</location>
+    <comment>Notitie</comment>
+    <description>Omschrijving</description>
+    <accept>Aannemen</accept>
+    <tentative>Tentative</tentative>
+    <decline>Weigeren</decline>
+    <skip_img>Externe gegevens zijn geblokkeerd, klik Hier om weer te geven.</skip_img>
+    <show_img>Aan dit bericht zijn afbeeldingen gekoppeld. Klik hier om voorbeeldweergave te starten.</show_img>
+    <smart>Attachments are delivered using IceWarp SmartAttach technology.</smart>
+    <show_raw>Open Ruwe weergave bericht</show_raw>
+    <certificate>Publiek Certificaat</certificate>
+    <serror>Decryptie fout. Het certificaat is ongeldig of ontbreekt.</serror>
+    <sverify>Niet in staat om bericht handtekening te controleren</sverify>
+    <expired>Decryptie fout, geldig maar vervallen certificaat.</expired>
+    <access>U heeft toegang gekregen tot &quot;%s&quot; door %s.</access>
+    <account_access>%s heeft u toegang verleend.</account_access>
+    <subscribe>Abonneren op Map</subscribe>
+    <subscribe_account>Abonneer gebruiker</subscribe_account>
+    <subscribed>Gebruiker %s geabonneerd</subscribed>
+    <subscribed_folder>Geabonneerd op map &quot;%s/%s&quot;.</subscribed_folder>
+    <unsubscribe>Afmelden</unsubscribe>
+    <unsubscribed>Abonnement beeindigd op %s.</unsubscribed>
+    <unsubscribed_folder>Abonnementen beeindigd op &quot;%s/%s&quot;.</unsubscribed_folder>
+    <error>Bewerking kan niet worden uitgevoerd.</error>
+    <recurrent>Terugkerend</recurrent>
+    <occurrence>Uitzondering van terugkerende gebeurtenis</occurrence>
+    <attendee>Deelnemer</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Wat is er Nieuw</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Help</help>
+    <about>Over...</about>
+  </help>
+  <print>
+    <preview>Afdruk Voorbeeld</preview>
+    <opera>Uw browser ondersteund deze functie niet.</opera>
+  </print>
+  <status>
+    <online>Online</online>
+    <offline>Offline</offline>
+    <chat>Vrij voor Chat</chat>
+    <away>Afwezig</away>
+    <xa>Niet beschikbaar</xa>
+    <dnd>Niet storen</dnd>
+    <invisible>Onzichtbaar</invisible>
+    <gone>De gebruiker heeft het gesprek verlaten.</gone>
+    <error>Fout</error>
+    <sip>Online via WebPhone</sip>
+    <chat_with>Chat met %s</chat_with>
+  </status>
+  <policy>
+    <minlength>Minimale wachtwoord lengte: %s tekens</minlength>
+    <digits>Aantal numerieke tekens [0-9]: %s</digits>
+    <alpha>Aantal letter tekens [a-Z]: %s</alpha>
+    <nonalphanum>Aantal niet-alphanumerieke tekens [!@#$%...]: %s</nonalphanum>
+    <upperalpha>Aantal Hoofdletters [A-Z]: %s</upperalpha>
+    <useralias>Het wachtwoord mag niet het zelfde zijn als de gebruikersnaam of alias naam.</useralias>
+  </policy>
+  <alerts>
+    <alert>Waarschuwing</alert>
+    <suppress>Laat deze waarschuwing niet meer zien.</suppress>
+    <create_revision>Niet in staaat nieuwe versie te maaken</create_revision>
+    <password_do_not_match>Wachtwoorden komen niet overeen</password_do_not_match>
+    <invalid_password>Ongeldig wachtwoord</invalid_password>
+    <new_password_match>Het nieuwe wachtwoord is het zelfde als het oude</new_password_match>
+    <invalid_cpassword>Het wachtwoord en bevestiging zijn niet gelijk</invalid_cpassword>
+    <folder_exist>Map bestaat al</folder_exist>
+    <create_folder>De map kan niet worden aangemaakt &quot;%s&quot;</create_folder>
+    <rename_folder>De map kan niet worden hernoemd &quot;%s&quot; naar &quot;%s&quot;</rename_folder>
+    <attachment_size>Bijlage overschrijd de limiet</attachment_size>
+    <attachment_quota>Bijlage limiet overschreden.</attachment_quota>
+    <attachment_missing>Bijlage bestand niet gevonden.</attachment_missing>
+    <attachment_virus>Bijlage bevat een virus.</attachment_virus>
+    <could_not_create>Document kon niet worden gemaakt.</could_not_create>
+    <could_not_edit>Document kon niet worden aangepast.</could_not_edit>
+    <general_error>Onbekende fout opgetreden&lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>Het wachtwoord is in strijd met het wachtwoordbeleid.</password_policy>
+    <password_requirements>Controleer a.u.b. de volgende wachtwoord eisen en kies een nieuw wachtwoord:</password_requirements>
+    <password_incorrect>Verkeerd wachtwoord Probeer opnieuw</password_incorrect>
+    <message_not_sent>Het bericht is niet verzonden.</message_not_sent>
+    <message_not_saved>Het bericht is niet opgeslagen.</message_not_saved>
+    <mailingfailed>Kan het bericht niet opslaan of verzenden, Probeer het a.u.b. later opnieuw.</mailingfailed>
+    <distribution_list_invalid_id>Niet bestaande distributielijst</distribution_list_invalid_id>
+    <smtp_from_failed>De volgende afzender wordt niet geaccepteerd:</smtp_from_failed>
+    <smtp_recipients_failed>Ontvangers hebben de volgende fout veroorzaakt:</smtp_recipients_failed>
+    <smtp_data_not_accepted>Uw bericht is niet geaccepteerd door de server.</smtp_data_not_accepted>
+    <default_folder_missing>Standaard map &quot;%s&quot; ontbreekt.</default_folder_missing>
+    <no_recipient_certificate>Het certificaat van de ontvanger ontbreekt.</no_recipient_certificate>
+    <recipient_certificate_expired>Certificaat van de ontvanger is verlopen.</recipient_certificate_expired>
+    <personal_certificate>Persoonlijk certificaat komt niet overeen</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>Bericht kon niet opgehaald worden</imap_null>
+    <delete_item>Geselecteerde item(s) kunnen niet worden verwijderd.</delete_item>
+    <reserved_folder>Map naam gereserveerd &quot;%s&quot;</reserved_folder>
+    <undefined>Onbekende fout</undefined>
+    <timezone_differ>Uw tijdzone is gewijzigd. Kies hieronder een locatie om de tijd aan te passen in uw agenda gebeurtenissen</timezone_differ>
+    <popup_blocker>Pop-up venster geblokkeerd.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Ongelezen</unread>
+    <contact_ok>Administrator succesvol gewaarschuwd</contact_ok>
+    <signup_ok>Het nieuwe account is succesvol aangemaakt</signup_ok>
+    <logout>Gebruiker is afgemeld</logout>
+    <logged_out>Gebruiker is uitgelogd</logged_out>
+    <forgot_ok>Uw inlog gegevens zijn naar uw e-mail adres en alternatieve e-mail adres verzonden.</forgot_ok>
+    <password_change_ok>Wachtwoord is succesvol gewijzigd</password_change_ok>
+    <close_window>U kunt dit scherm nu afsluiten</close_window>
+    <personality_confirmation_ok>Uw e-mail adres is bevestigd</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Gebruikersnaam of wachtwoord onjuist. Probeer opnieuw.</invalid_login>
+    <account_disabled>Account uitgeschakeld.</account_disabled>
+    <expired>Sessie verlopen</expired>
+    <connection>Niet in staat om de server te bereiken. Controleer a.u.b. uw internet verbinding of neem contact op met uw systeembeheerder.</connection>
+    <servererror>Niet in staat om de server te bereiken. Probeer later nog een keer of neem contact op met uw systeembeheerder.</servererror>
+    <overloaded>De server is op dit moment overbelast, Probeer het later nogmaals of waarschuw uw systeembeheerder.</overloaded>
+    <countdown>We proberen het opnieuw in %s seconden.</countdown>
+    <filenotfound>Er missen bestanden op de server, Afwijkend gedrag in het programma kan voorkomen</filenotfound>
+    <subscribe_error>Niet in stat om account %s. aan te melden</subscribe_error>
+    <wc_disabled>WebClient is uitgeschakeld.</wc_disabled>
+    <invalid_rsa>Onmogelijk om RSA wachtwoord aan te maken.</invalid_rsa>
+    <no_db>Er is geen verbinding met de database</no_db>
+    <no_data>Geen gegevens beschikbaar</no_data>
+    <access_error>Niet in staat om toegang te krijgen tot het Postvak, neem a.u.b. contact op met uw systeembeheerder.</access_error>
+    <ip_mismatch>Netwerk beveiligingsprobleem ontdekt, u word uitgelogd. Om dit probleem verder te voorkomen, gelieve voortaan verbinding te maken via een HTTPS verbinding.</ip_mismatch>
+    <javatip1>Onderzoek het scherm op Java Beveiligingsmeldingen, klik op &quot;Toestaan&quot; of &quot;Ja&quot; of &quot;Uitvoeren op deze website&quot;</javatip1>
+    <javatip2>Neem contact op met uw systeembeheerder voor installatie van Java, of</javatip2>
+    <javatip3>Klik op Probleem oplossen hieronder.</javatip3>
+    <contactadmin>Bericht aan Systeembeheerder</contactadmin>
+    <troubleshoot>Probleem Oplossen</troubleshoot>
+  </error>
+  <common>
+    <all>Alle</all>
+    <processing>Processing</processing>
+    <loading>Laden...</loading>
+    <sending>Verzenden...</sending>
+    <comment>Notitie (optioneel)</comment>
+    <email>E-mail</email>
+    <folder>Map</folder>
+    <items>Items</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Alles selecteren</select_all>
+    <clear>Wissen</clear>
+    <yes>Ja</yes>
+    <no>Nee</no>
+    <auto>Auto</auto>
+    <disable>Uitschakelen</disable>
+    <enable>Inschakelen</enable>
+    <enabled>Ingeschakeld</enabled>
+    <show_all>Alles weergeven</show_all>
+    <previous>Vorige</previous>
+    <next>Volgende</next>
+    <more>Meer....</more>
+    <show>Weergeven</show>
+    <hide>Verbergen</hide>
+    <appearance>Panel Appearance</appearance>
+    <expand>Expanded</expand>
+    <collapsed>Collapsed</collapsed>
+    <autocollapsed>Auto Collapse</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Favorieten</favorites>
+    <remove>Verwijder uit Favorieten</remove>
+    <rename>Hernoem snelkoppeling</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>Eigenaar</owner>
+    <address_book>Adresboek</address_book>
+    <add_recipient>Voeg ontvanger toe</add_recipient>
+    <selected_addresses>Geselecteerd(e)</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Leeg</empty>
+    <today>Vandaag</today>
+    <this_week>Deze week</this_week>
+    <this_month>Deze maand</this_month>
+    <yesterday>Gisteren</yesterday>
+    <tomorrow>Morgen</tomorrow>
+    <typetoadd>Typ om toe te voegen</typetoadd>
+    <owner>Eigenaar</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>Lokale Tijd</timezones>
+    <serverzone>Server Tijd</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Wilt u de auto-aanvul lijst verwijderen?</clear_autosuggest>
+    <suppress>Vraag niet opnieuw</suppress>
+    <reset_password_subject>Wachtwoord hersteld voor %email%</reset_password_subject>
+    <reset_password>Hallo %username%,&#13;&#10;&#13;&#10;Heeft u een wachtwoord herstel aangevraagd voor (%email%) in WebClient?&#13;&#10;&#13;&#10;Klik op onderstaande link (of kopieer en plak in uw internet browser) om te bevestigen dat dit e-mailadres van u is.&#13;&#10;&#13;&#10;Als u deze aanvraag niet heeft gedaan, kunt u dit bericht negeren.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Bevestig nieuw &quot;Van&quot; adres voor: %username%</alias_subject>
+    <alias_confirmation>Hallo %username%,&#13;&#10;&#13;&#10;U heeft een aanvraag gedaan om (%email%) toe te voegen als een nieuw &quot;Van&quot; adres in onze WebClient?&#13;&#10;&#13;&#10;Klik op onderstaande link (of kopieer en plak in uw internet browser) om te bevestigen dat dit e-mailadres van u is.&#13;&#10;&#13;&#10;Als u deze aanvraag niet heeft gedaan, kunt u dit bericht negeren.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>Om te voorkomen dat u aanpassingen kwijtraakt, controleer goed of alle openstaande berichten en andere items opgeslagen zijn</unload>
+    <expired>Vervallen sessie</expired>
+    <no_mobile>Geen mobiel nummer gevonden.</no_mobile>
+    <expired_msg>Niet in staat om berichten te verzenden o concepten op te slaan. Uw sessie is verlopen, of uw IP adres is gewijzigd.</expired_msg>
+    <delete_account_confirmation>Verwijder account bevestiging</delete_account_confirmation>
+    <delete_account>Weet u zeker dat u het account %s wilt verwijderen?</delete_account>
+    <recover_item>Weet u zeker dat u de geselecteerde item(s) wilt herstellen?</recover_item>
+    <delete_folder_confirmation>Verwijder map bevestiging</delete_folder_confirmation>
+    <delete_folder>Weet u zeker dat u map &quot;%s&quot; wilt verwijderen?&lt;br/&gt;(Alle submappen zullen ook definitief worden verwijderd)</delete_folder>
+    <delete_item_confirmation>Verwijder item bevestiging</delete_item_confirmation>
+    <delete_item>Weet u zeker dat u de geselecteerde item(s) wilt verwijderen?</delete_item>
+    <delete_avatar>Huidig contact foto zal verwijderd worden</delete_avatar>
+    <blacklist_sender_confirmation>Blacklist bevestiging</blacklist_sender_confirmation>
+    <blacklist_sender>Wilt u de afzender van de geselecteerde items op de blacklist zetten?</blacklist_sender>
+    <blacklist_domain>Are you sure to blacklist all items from this domain?</blacklist_domain>
+    <blacklisted>Verzender op Blacklist geplaatst</blacklisted>
+    <whitelist_sender_confirmation>Whitelist bevestiging</whitelist_sender_confirmation>
+    <whitelist_sender>Wilt u de afzender van de geselecteerde items op de whitelist zetten?</whitelist_sender>
+    <whitelist_domain>Are you sure to whitelist all items from this domain?</whitelist_domain>
+    <whitelisted>Afzender whitelist geplaatst</whitelisted>
+    <empty_folder_confirmation>Bevestiging map legen</empty_folder_confirmation>
+    <empty_folder>Weet u zeker dat u alle items in deze folder wilt verwijderen?</empty_folder>
+    <empty_to_trash>Weet u zeker dat u alle items naar de prullenbak wilt verplaatsen?</empty_to_trash>
+    <save_title>Bewaar bericht</save_title>
+    <save_confirmation>Het bericht is niet opgeslagen. Wilt u het bericht opslaan in de concepten folder?</save_confirmation>
+    <save_file>Bestand is aangepast, Wijzigingen opslaan?</save_file>
+    <save>Opslaan</save>
+    <discard>Negeer</discard>
+    <create_reading_confirmation_title>Lees bevestiging</create_reading_confirmation_title>
+    <create_reading_confirmation>De afzender heeft om een automatische leesbevestiging verzocht. Wilt u deze sturen?</create_reading_confirmation>
+    <send_reading_confirmation>Vraag de ontvanger om een leesbevestiging?</send_reading_confirmation>
+    <browser_warning_title>Browser Waarschuwing</browser_warning_title>
+    <browser_warning_text_unsupported>Uw huidige Browser wordt niet officieel ondersteund door IceWarp WebClient.&#13;&#10;&#13;&#10;Houd u er rekening mee dat de prestaties en het uiterlijk van WebClient in uw huidige browser extreem traag/afwijkendd of zelffs compleet ontoegankelijk kan zijn.&#13;&#10;&#13;&#10;WebClient is geoptimaliseerd voor Firefox 4.0 (of hoger) en Internet Explorer 8.0 (of hoger). Wij raden u ten sterkste aan om uw browser te wijzigen of bij te werken tot de laatste versie van een van deze browsers.&#13;&#10;&#13;&#10;De laatste versie vanFirefox vindt u op:&#13;&#10; http://www.firefox.com/&#13;&#10;De laatste versie van Internet Explorer vindt u op:&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;Druk op OK als u toch door wilt gaanOf druk op Annuleren om naar de WebClient Tablet interface te gaan.</browser_warning_text_unsupported>
+    <expired_password>Uw wachtwoord is verlopen. Verander aub nu uw wachtwoord.</expired_password>
+    <authentication>Aanmeldingsfout</authentication>
+    <authenticate>Om veiligheidsredenen moet u zich opnieuw aanmelden</authenticate>
+    <enterpass>Toets uw wachtwoord in om verder te gaan, of log uit om te beeindigen</enterpass>
+    <secure>Om dit probleem niet nogmaals te hebben, kunt u de WebClient benaderen met een HTTPS sessie</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>De taal wordt gewijzigd bij uw volgende aanmelding</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Open in een nieuw venster</open_in_separate_window>
+    <help_restriction>Deze functie is op dit moment uitgeschakeld door de systeembeheerder</help_restriction>
+    <switch_older>Switch to previous version of WebClient</switch_older>
+    <choose_interface>Kies uw voorkeurs interface (uiterlijk)</choose_interface>
+    <choose_lang>Kies uw taal</choose_lang>
+    <migration_in_progress>Migratie in voortgang, probeeer later nogmaals</migration_in_progress>
+    <message_sent>Uw bericht is afgeleverd</message_sent>
+    <message_send_failed>Bericht is niet verzonden</message_send_failed>
+    <antispam_code_error>Beveiligings code niet correcct</antispam_code_error>
+    <antispam>Beveiligingscode</antispam>
+    <contact_support_subject>Nieuwe contactaanvraag van het aanlog scherm</contact_support_subject>
+    <text>Tekst</text>
+    <contact_administrator>Neem contact op voor ondersteuning</contact_administrator>
+    <contact_question>Hulp nodig?</contact_question>
+    <contact_answer>Neem contact op met de systeembeheerder</contact_answer>
+    <contact_1>Neem contact op met onze</contact_1>
+    <contact_2>Systeembeheerder</contact_2>
+    <contact_placeholder_1>Uw e-mail of telefoonnummer</contact_placeholder_1>
+    <contact_placeholder_2>Probleem omschrijving</contact_placeholder_2>
+    <help>Audio help</help>
+    <meeting_me>Ik</meeting_me>
+    <meeting_hang_up_confirmation>Wilt u de meeting verlaten?</meeting_hang_up_confirmation>
+    <online_meeting>WebMeeting</online_meeting>
+    <meeting_connected>Contact gelegd</meeting_connected>
+    <meeting_connecting>Contact maken....</meeting_connecting>
+    <phone_access>Telefoon toegang</phone_access>
+    <meeting_chat_ready>Welcome to the WebMeeting! Group chat is ready.</meeting_chat_ready>
+    <meeting_chat_send>Verzend</meeting_chat_send>
+    <meeting_user_left_meeting>Gebruiker &quot;%s&quot; heeft de meeting verlaten</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>Gebruiker &quot;%s&quot; heeft zich aangemeld bij de meeting</meeting_user_joined_meeting>
+    <meeting_no_participants>Geen deelnemers</meeting_no_participants>
+    <meeting_server_not_responding>Server reageert niet</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Verbinding tot stand gebracht</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Audio plug-in kan niet gestart worden. Controleer of er een browsermelding is over een Java applicatie. Sta toe dat deze applicatie wordt uitgevoerd. Deze is nodig om de audio te laten werken. Soms is een herstart van de browser nodig, of een update naar de laatste versie van Java. Deze kunt u hier downloaden: &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>Duur</duration>
+    <mute>Mute</mute>
+    <desktop_sharing_id>Screen Sharing Sessie ID</desktop_sharing_id>
+    <conference_phone_number>WebMeetings phone number</conference_phone_number>
+    <desktop_sharing_app>Screen-sharing application</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>Tot onze spijt werkt scherm delen van het netwerk niet direct op mobiele apparaten,  Met onderstaande link vindt u een App hiervoor.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>Tot onze spijt werkt scherm delen van het netwerk niet direct op de MAC,  Met onderstaande link vindt u een App hiervoor.</desktop_sharing_mac_warning>
+    <continue_to_call>Doorgaan met bellen</continue_to_call>
+    <meeting_api_unexpected_response>Onverwachtte API reactie</meeting_api_unexpected_response>
+    <applet_unreachable>Java applicatie niet aanspreekbaar</applet_unreachable>
+    <sip_applet_load_failed>Audio Applicattie kan niet geladen worden</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Ophalen van info over Meeting niet gelukt</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>Scherm-delen sessie is beeindigd, maar audio is nog steeds actief</meeting_mikogo_ended>
+    <meeting_ended>WebMeeting ended</meeting_ended>
+    <meeting_hang_up>Ophangen</meeting_hang_up>
+    <meeting_id>Meeting ID</meeting_id>
+    <meeting_mikogo_ready>Screen sharing gereed</meeting_mikogo_ready>
+    <meeting_sip_ready>Audio is gereed</meeting_sip_ready>
+    <meeting_call_failed>Bellen mislukt</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Uitnodiging verlopen. Probeert opnieuw over %s sec.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Probeert opnieuw over %s sec.</meeting_trying_again_in>
+    <meeting_preparing_sip>Audio voorbereiden</meeting_preparing_sip>
+    <meeting_starting_sip>Audio opstarten</meeting_starting_sip>
+    <meeting_waiting_for_reply>Audio App wacht op antwoord van de server</meeting_waiting_for_reply>
+    <meeting_in_progress>Meeting in uitvoering</meeting_in_progress>
+    <meeting_you_can_join>You can now join the WebMeeting</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Meeting App is niet klaar voor gebruik</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>Geen meeting applet code reageerd</meeting_no_applet_code>
+    <meeting_unexpected_response>Onverwachtte reactie van Meeting App</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Your browser doesn&apos;t support WebMeetings</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>Met de Chrome browser heeft u de beste ervaring. U word doorgestuurd naar de setup handleidinge.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>The WebMeeting hasn&apos;t started yet</meeting_meeting_wasnt_started>
+    <meeting_waiting>Waiting for %s to start the WebMeeting</meeting_waiting>
+    <meeting_created_by_ready>WebMeeting created by %s is ready</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Laad meeting gegevens</meeting_loading_meeting_info>
+    <unknown_error>Onbekende fout</unknown_error>
+    <meeting_no_name>Type hier uw naam of Alias</meeting_no_name>
+    <meeting_api_error_104>Ongeldige Meeting ID</meeting_api_error_104>
+    <meeting_api_error_description_104>Het adres van de meeting is ongeldig of incompleet</meeting_api_error_description_104>
+    <meeting_api_error_111>Deze service staat uit</meeting_api_error_111>
+    <meeting_api_error_120>Kan geen verbinding maken met de aandere server</meeting_api_error_120>
+    <meeting_api_error_125>Server doesn&apos;t have a valid license for WebMeetings</meeting_api_error_125>
+    <meeting_id_doesnt_exist>Meeting ID bestaat niet</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Microfone is niet beschikbaar</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Toegang tot microfoon is uitgeschakeld of niet verbonden. Wilt u verder gaan zonder microfoon?</meeting__no_microphone_continue>
+    <fill_in_name>Voer uw naam in</fill_in_name>
+    <fill_in_email>Voer uw e-mailadres in</fill_in_email>
+    <join_meeting>Join WebMeeting</join_meeting>
+    <already_a_member>Reeds deelnemer</already_a_member>
+    <name>Naam</name>
+    <enter_your_name>Voer uw naam in</enter_your_name>
+    <enter_your_name_description>This name will be visible to other participants and used to identify you during the WebMeeting</enter_your_name_description>
+    <cancel>Annuleren</cancel>
+    <login_caption>Welkom bij de WebClient</login_caption>
+    <copy>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy>
+    <copy_new>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>IceWarp WebClient</title>
+    <user>Gebruiker</user>
+    <email>E-mailadres</email>
+    <pass>Wachtwoord</pass>
+    <old_pass>Oud wachtwoord</old_pass>
+    <new_pass>Nieuw wachtwoord</new_pass>
+    <check_pass>Bevestig wachtwoord</check_pass>
+    <change_password>Wachtwoord aanpassen</change_password>
+    <remember>Onthouden</remember>
+    <save0>Automatisch inloggen</save0>
+    <save1>Gebruikersnaam en wachtwoord</save1>
+    <save2>Gebruikersnaam</save2>
+    <save3>Altijd vragen</save3>
+    <login>Inloggen</login>
+    <send>Versturen</send>
+    <create_account>Account Aanmaken</create_account>
+    <switch>Schakel naar &lt;a href=&quot;./basic&quot;&gt;Tablet&lt;/a&gt; of &lt;a href=&quot;./pda&quot;&gt;Mobile&lt;/a&gt; interface.</switch>
+    <downloads>Downloads</downloads>
+    <interface>Interface</interface>
+    <basic>Tablet</basic>
+    <pda>Mobiel</pda>
+    <pro>Desktop</pro>
+    <osx>Mac OS X</osx>
+    <lang>Taal</lang>
+    <keep_me_signed>Onthoudt mij</keep_me_signed>
+    <utilities>Gereedschap</utilities>
+    <pw_policy_minlength>Minimale wachtwoord lengte</pw_policy_minlength>
+    <pw_policy_digits>Minimaal aantal getallen [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Minimaal aantal letters [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>Minimaal aantal niet-alfanummerieke karakters [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>Controleer het wachtwoord met de gebruikersnaam en Alias</pw_policy_useralias>
+    <pw_policy_uppercase>Het aantal hoofdletters[A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>Toon virtueel Toetsenbord</virtual_keyboard_01>
+    <virtual_keyboard_02>Selecteer toetsenbord layout</virtual_keyboard_02>
+    <virtual_keyboard_04>Aan</virtual_keyboard_04>
+    <virtual_keyboard_05>Uit</virtual_keyboard_05>
+    <virtual_keyboard_06>Sluit het toetsenbord</virtual_keyboard_06>
+    <virtual_keyboard_07>Wissen</virtual_keyboard_07>
+    <virtual_keyboard_08>Verwijder de invoer</virtual_keyboard_08>
+    <virtual_keyboard_10>Verklein het toetsenbord</virtual_keyboard_10>
+    <virtual_keyboard_11>Vergroot het toetsenbord</virtual_keyboard_11>
+    <js_problem>Niet in staat om JavaScript uit te voeren</js_problem>
+    <public_calendar>Openbare Agenda</public_calendar>
+    <login_to_pro>Inloggen op Desktop interface</login_to_pro>
+    <login_to_basic>Inloggen op Tablet interface</login_to_basic>
+    <login_to_pda>Inloggen op Mobiele interface</login_to_pda>
+    <js_turned_off_message_text>Voor de beste gebruikerservaring en geavanceerde functies, raden we de Desktop interface aan. Deze interface vereist het gebruik van JavaScript. Controleer of JavaScript is ingeschakeld in de internet browser instellingen, of ga door naar</js_turned_off_message_text>
+    <js_turned_off_message_link>Tablet interface</js_turned_off_message_link>
+    <learn_more>Meer over alle mogelijkheden</learn_more>
+    <learn_more_short>Ervaar Meer</learn_more_short>
+    <login_back>Terug naar inloggen</login_back>
+    <changepwd>Wijzig uw&lt;br/&gt; Wachtwoord</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Desktop</advanced>
+    <basic>Tablet</basic>
+  </login_client>
+  <login_style>
+    <gray>Grijs</gray>
+    <white>Wit</white>
+    <black>Antraciet</black>
+    <red>Rood</red>
+    <yellow>Geel</yellow>
+    <green>Groen</green>
+    <blue>Blauw</blue>
+    <purple>Paars</purple>
+    <orange>Oranje</orange>
+    <brown>Bruin</brown>
+    <pink>Roze</pink>
+  </login_style>
+  <skin_style>
+    <default>Blauw</default>
+    <black>Zwart</black>
+    <brown>Bruin</brown>
+    <graphite>Antraciet</graphite>
+    <green>Groen</green>
+    <orange>Oranje</orange>
+    <pink>Roze</pink>
+    <purple>Paars</purple>
+    <red>Rood</red>
+    <yellow>Geel</yellow>
+  </skin_style>
+  <sign_up>
+    <question>Heeft u nog geen account?</question>
+    <answer>Account aanmaken</answer>
+    <sign_up>Aanmelden</sign_up>
+    <create_account>Geef uw nieuwe account informatie op.</create_account>
+    <fullname>Volledige Naaam</fullname>
+    <domain>Domein</domain>
+    <username>Gebruikersnaam</username>
+    <alternative>Alternatief e-mail adres</alternative>
+    <captcha_error>Ongeldige beveiligingscode</captcha_error>
+    <pass_error>Het ingevoerde wachtwoord is niet geaccepteerd</pass_error>
+    <incorrect_error>Ongeldige Gebruikersnaam of Alias</incorrect_error>
+    <exists_error>De account bestaat al</exists_error>
+    <error>Er kan geen nieuw account worden aangemaakt</error>
+    <account_created>Het nieuwe account is succesvol aangemaakt</account_created>
+    <invalid_cpass>Wachtwoord en bevestiging komen niet overeen</invalid_cpass>
+    <confirm_pass>Bevestig</confirm_pass>
+    <password_change>Wijzig Wachtwoord</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Uw Wachtwoord vergeten</question>
+    <question_br>Uw Wachtwoord&lt;br/&gt;vergeten?</question_br>
+    <title>Herstel uw&lt;br&gt; Wachtwoord</title>
+    <answer>Herstel</answer>
+    <generate>Dubbelklik voor een nieuwe code</generate>
+    <captcha>Vul hier de zichtbare code in</captcha>
+    <captcha_error>Ongeldige code</captcha_error>
+    <security_code>Beveiligingscode</security_code>
+    <reset_pass>Herstel Wachtwoord</reset_pass>
+    <enter_alt_pass>Uw aanmeld gegevens worden naar uw e-mail adres opgestuurd, alsook naar uw alternatieve e-mail adres als deze is opgegeven</enter_alt_pass>
+    <reset_send>Uw aanmeldgegevens zijn verzonden naar de volgende adressen:</reset_send>
+    <reset_error>Genoemde account bestaat niet of het wachtwoord kan niet worden opgehaald</reset_error>
+    <subject>Wachtwoord herstel voor %EMAIL%</subject>
+    <email>Hallo %FULLNAME%,&#13;&#10;&#13;&#10;U heeft een herstel van het wachtwoord aangevraagd voor uw e-mail account (%EMAIL%) in WebClient?&#13;&#10;&#13;&#10;Klik op onderstaande link (of kopieer de link en plak deze in uw web browser) om te bevestigen dat dit e-mail adres van u is. &#13;&#10;%URL%&#13;&#10;&#13;&#10;Mocht u deze aanvraag niet hebben geplaatst, negeer dan dit bericht.&#13;&#10;&#13;&#10;Uw systembeheerder</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Naam bestaat al</duplicity>
+    <label>Er bestaat al een document met dezelfde naam &quot;%s&quot;.</label>
+    <suggested_name>Voorgestelde naam</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Verwerken</processing>
+    <step1>1) Laad hier uw backup bestand</step1>
+    <step2>2) Selecteer map voor opslag</step2>
+    <step3>3) Selecteer de te importeren kolommen</step3>
+    <step1e>Selecteer bron Contact map</step1e>
+    <step2e>Selecteer export type</step2e>
+    <step_date>Selecteer Datum formaat</step_date>
+    <default_date>Standaard</default_date>
+    <charset>Karakter set</charset>
+    <skipfirst>Sla de eerste rij in het CSV bestand over</skipfirst>
+    <email1>E-mail 1</email1>
+    <email2>E-mail 2</email2>
+    <email3>E-mail 3</email3>
+    <phone1>Telefoon Thuis</phone1>
+    <phone2>Telefoon Werk</phone2>
+    <phone3>Telefoon Fax</phone3>
+    <phone4>Telefoon Mobiel</phone4>
+    <phone_type1>Type Telefoon 1</phone_type1>
+    <phone_type2>Type Telefoon 2</phone_type2>
+    <phone_type3>Type Telefoon 3</phone_type3>
+    <phone_type4>Type Telefoon 4</phone_type4>
+    <import_successful>Import geslaagd</import_successful>
+    <import_unsuccessful>Import mislukt</import_unsuccessful>
+    <import_finished>Import voltooid. %s items werden overgeslagen door een fout.</import_finished>
+    <vcalendar>vAgenda</vcalendar>
+    <vcard>vKaart</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Automatisch</auto>
+    <load>Laad</load>
+    <import>Importeer</import>
+    <export>Exporteer</export>
+    <unknown_ext>Onbekende extentie</unknown_ext>
+    <download_csv_file>Download CSV bestand met agenda items</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>Download</download_file>
+    <select_col>Selecteer enkele kolom(men) om te importeren</select_col>
+    <select_email>Selecteer minimaal 1 e-mail kolom</select_email>
+    <gw_xml_file>XML met GroupWare backup</gw_xml_file>
+    <comma>CSV - Komma (,)</comma>
+    <semicolon>CSV - Puntkomma (;)</semicolon>
+    <colon>CSV - Dubbele punt (:)</colon>
+    <sharing>Forceer gedeelde modus</sharing>
+    <import_info>Ondersteunde bestandsformaten voor het uploaden</import_info>
+    <import_info_itm>CSV (komma, dubbele punt, puntkomma gescheiden), VCF (vCard)</import_info_itm>
+    <import_info_evn>CSV (komma, dubbele punt, puntkomma gescheiden), ICS (vCalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Licentie</license>
+    <licenses>Licenties</licenses>
+    <out>Outlook Sync</out>
+    <desk>Desktop Client</desk>
+    <download>Download</download>
+    <key>Product Activatie sleutel (Kopieer en Plak)</key>
+    <nokey>Activatiesleutel voor deze applicatie is niet aanwezig. Neem contact op met de systeembeheerder.</nokey>
+  </license>
+  <devices>
+    <device>Apparaat</device>
+    <device_model>Apparaat Model</device_model>
+    <device_type>Apparaat Type</device_type>
+    <protocol>Protocol</protocol>
+    <registered>Geregistreerd</registered>
+    <lastsync>Laatste Sync</lastsync>
+    <factory>Zet fabrieks instellingen terug</factory>
+    <wipe>Remote Wissen</wipe>
+    <wiping>Remote Wissen in uitvoer</wiping>
+    <nowipe>Remote Wissen Niet Ondersteund</nowipe>
+    <reset>Reset Wissen</reset>
+    <delete_confirmation>Verwijderen van het apparaat uit de lijst zal als gevolg hebben dat het apparaat alle data opnieuw synchroniseeerd bij het eerst volgende contact. (Handig als het aapparaat niet meer synchroniseerd op dit moment)</delete_confirmation>
+    <wipe_confirmation>Remote Wissen vernietigd alle gebruikersinformtie en gegevens op het apparaat (OOK DE OPSLAGKAART!)  bij het eerst volgende contact met deze server. Het apparaat wordt terug gezet naar fabrieks instellingen. Om dit uit te voeren heeft het apparaat een actieve internet verbinding nodig.&lt;br/&gt;&lt;br/&gt;Weet u zeker dat u dit wilt uitvoeren?</wipe_confirmation>
+    <options>Apparaat opties</options>
+    <folders>Mappen</folders>
+    <sync>Synchronisatie</sync>
+    <private_folders>Prive Mappen</private_folders>
+    <special_folders>Speciale Mappen</special_folders>
+    <gw_folders>GroupWare Mappen</gw_folders>
+    <mail_folders>E-mail Mappen</mail_folders>
+    <archive>Archiefmap</archive>
+    <public>Openbare Mappen</public>
+    <shared>Gedeelde Mappen</shared>
+    <past_mail>Mail Hystorie</past_mail>
+    <past_calendar>Oude Agenda Items</past_calendar>
+    <sync_tase>Sync Taken en Agenda items</sync_tase>
+    <sync_note>Sync Notities als</sync_note>
+    <all_folders>Alle Mappen</all_folders>
+    <all_folders_mail>Alle mappen met GroupWare als e-mail</all_folders_mail>
+    <default_only>Alleen Standaard Mappen</default_only>
+    <sync_all>Alle</sync_all>
+    <one_day>Een dag</one_day>
+    <three_days>Drie dagen</three_days>
+    <one_week>Een week</one_week>
+    <two_weeks>twee Weken</two_weeks>
+    <one_month>Een Maand</one_month>
+    <three_months>Drie Maanden</three_months>
+    <six_months>Zes Maanden</six_months>
+    <inc_tasks>Alleen Onvoltooide taken</inc_tasks>
+    <new_cfolders>Nieuwe agenda map</new_cfolders>
+    <merge_taks>Samenvoegen met standaard agenda</merge_taks>
+    <events>Gebeurtenissen</events>
+    <tasks>Taken</tasks>
+    <inotes>Taken &amp; Notities (Android app)</inotes>
+    <new_folders>Nieuwe Map</new_folders>
+    <merge_default>Samenvoegen naar standaard map</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Folder Panel</leftpanel>
+    <rightpanel>WebChat Panel</rightpanel>
+    <share>Deel</share>
+    <new_document>Maak document aan</new_document>
+    <new_message>Nieuw van Template</new_message>
+    <devices>Mobiel apparaat</devices>
+    <vcard>Mijn Details</vcard>
+    <basic>Overschakelen naar Tablet Interface</basic>
+    <old_client>Overschakelen naar oude interface</old_client>
+    <search>Zoeken</search>
+    <filter>Filter</filter>
+    <new>Nieuw</new>
+    <print>Afdrukken</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Instellingen</settings>
+    <accounts>Accounts</accounts>
+    <logout>Uitloggen</logout>
+    <logout_title>Ctrl+Click om uit te loggen</logout_title>
+    <update>Nieuwe ophalen</update>
+    <compose>Nieuw bericht</compose>
+    <new_contact>Contactpersoon</new_contact>
+    <new_template>Bericht Template</new_template>
+    <new_distrib_list>Distributielijst</new_distrib_list>
+    <new_event>Afspraak</new_event>
+    <new_journal>Logboek</new_journal>
+    <new_note>Notitie</new_note>
+    <new_task>Taak</new_task>
+    <new_file>Document</new_file>
+    <new_upload>Upload Bestand</new_upload>
+    <new_word>Word Document</new_word>
+    <new_excel>Excel Spreadsheet</new_excel>
+    <new_ppoint>PowerPoint Presentatir</new_ppoint>
+    <new_text>Tekst Document</new_text>
+    <new_html>HTML Document</new_html>
+    <new_folder>Map</new_folder>
+    <reply_to_sender>Beantwoorden</reply_to_sender>
+    <reply_to_all>Beantwoord Allen</reply_to_all>
+    <reply_to_sender_t>Beantwoorden met Template</reply_to_sender_t>
+    <reply_to_all_t>Beantwoord naar iedereen met Template</reply_to_all_t>
+    <forward>Doorsturen</forward>
+    <delete>Verwijderen</delete>
+    <empty_folder>Map leegmaken</empty_folder>
+    <day_view>Dag</day_view>
+    <week_view>Week</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Maand</month_view>
+    <dial>Bellen</dial>
+    <sms>SMS Verzenden</sms>
+    <calls>Bellen</calls>
+    <conference>WebMeeting</conference>
+    <contacts_list>Lijst</contacts_list>
+    <events_list>Lijst</events_list>
+    <address_card>Visitekaart</address_card>
+    <tasks_lists>Lijst</tasks_lists>
+    <tasks_detailed>Gedetailleerde Lijst</tasks_detailed>
+    <active_tasks>Actieve Taken</active_tasks>
+    <journal_day_view>Dag</journal_day_view>
+    <journal_week_view>Week</journal_week_view>
+    <journal_month_view>Maand</journal_month_view>
+    <journal_list>Lijst</journal_list>
+    <notes_list>Lijst</notes_list>
+    <options>Opties</options>
+    <admin_options>Beheerders Opties</admin_options>
+    <domain_options>Domein Opties</domain_options>
+    <tools>Extra</tools>
+    <deliver>Afleveren</deliver>
+    <quarantine>Quarantaine</quarantine>
+    <black_list>Voeg toe aan Blacklist</black_list>
+    <white_list>Voeg toe aan Whitelist</white_list>
+    <black_listed>Blacklisted</black_listed>
+    <white_listed>Whitelisted</white_listed>
+    <rules>Regels</rules>
+    <help>Help</help>
+  </main_menu>
+  <short_days>
+    <monday>Maa</monday>
+    <tuesday>Din</tuesday>
+    <wednesday>Woe</wednesday>
+    <thursday>Don</thursday>
+    <friday>Vrij</friday>
+    <saturday>Zat</saturday>
+    <sunday>Zon</sunday>
+  </short_days>
+  <days>
+    <monday>Maandag</monday>
+    <tuesday>Dinsdag</tuesday>
+    <wednesday>Woensdag</wednesday>
+    <thursday>Donderdag</thursday>
+    <friday>Vrijdag</friday>
+    <saturday>Zaterdag</saturday>
+    <sunday>Zondag</sunday>
+  </days>
+  <months>
+    <january>Januari</january>
+    <february>Februari</february>
+    <march>Maart</march>
+    <april>April</april>
+    <may>Mei</may>
+    <june>Juni</june>
+    <july>Juli</july>
+    <august>Augustus</august>
+    <september>September</september>
+    <october>Oktober</october>
+    <november>November</november>
+    <december>December</december>
+  </months>
+  <short_months>
+    <january>Jan</january>
+    <february>Feb</february>
+    <march>Maart</march>
+    <april>Apr</april>
+    <may>Mei</may>
+    <june>Jun</june>
+    <july>Jul</july>
+    <august>Aug</august>
+    <september>Sept</september>
+    <october>Okt</october>
+    <november>Nov</november>
+    <december>Dec</december>
+  </short_months>
+  <dates>
+    <every>Elke</every>
+    <secondly>seconde</secondly>
+    <minutely>Minuut</minutely>
+    <hour>Uur</hour>
+    <day>Dag</day>
+    <weeks>Week</weeks>
+    <month>Maand</month>
+    <year>Jaar</year>
+    <the>De</the>
+    <first>eerste</first>
+    <last>laatste</last>
+    <second>seconde</second>
+    <third>derde</third>
+    <fourth>vierde</fourth>
+    <firth>vijfde</firth>
+    <postfix>th</postfix>
+    <except>uitgezonderd</except>
+    <on>op</on>
+    <mondays>Maandagen</mondays>
+    <tuesdays>Dinsdagen</tuesdays>
+    <wednesdays>Woensdagen</wednesdays>
+    <thursdays>Donderdagen</thursdays>
+    <fridays>Vrijdagen</fridays>
+    <saturdays>Zaterdagen</saturdays>
+    <sundays>Zondagen</sundays>
+    <yearday>Dagen van het Jaar</yearday>
+    <in>in</in>
+    <week>week</week>
+    <week2>Week</week2>
+    <at>op</at>
+    <and>en</and>
+    <from>van</from>
+    <until>tot</until>
+    <times>herhaal %s keer</times>
+  </dates>
+  <form_buttons>
+    <revision>Maak nieuwe versie</revision>
+    <skip>Overslaan</skip>
+    <refresh>Vernieuwen</refresh>
+    <retrieve>Haal op</retrieve>
+    <inherit>Overnemen</inherit>
+    <accept>Accepteren</accept>
+    <decline>Afwijzen</decline>
+    <ok>OK</ok>
+    <close>Afsluiten</close>
+    <retry>Opnieuw proberen</retry>
+    <test>Test</test>
+    <cancel>Annuleren</cancel>
+    <rename>Hernoemen</rename>
+    <rewrite>Herschrijf</rewrite>
+    <rewrite_all>Herschrijf alle</rewrite_all>
+    <save>Opslaan</save>
+    <dont>Niet</dont>
+    <add>Toevoegen</add>
+    <edit>Bewerken</edit>
+    <find>Find</find>
+    <add_file>Voeg bestand toe</add_file>
+    <add_item>Voeg item toe</add_item>
+    <remove>Verwijder</remove>
+    <address_book>Contact Personen</address_book>
+    <search>Zoeken</search>
+    <new_folder>Nieuwe Map</new_folder>
+    <map_it>Laat zien op de kaart</map_it>
+    <sign_in>Inloggen</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Bovenliggende Map</step1>
+    <create_new_folder>Nieuwe map aanmaken</create_new_folder>
+    <create_error>Map bestaat al of kan niet worden aangemaakt</create_error>
+    <name>Naam</name>
+    <type>Type</type>
+    <channel>Kanaal</channel>
+    <sharetype>Wijs toe aan</sharetype>
+    <all>Alle Mappen</all>
+    <private>Prive Mappen</private>
+    <selected>Geselecteerde Mappen</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Gebruikersnaam</username>
+    <password>Wachtwoord</password>
+    <protocol>Protocol</protocol>
+    <server>Server</server>
+    <server_proxy>Server/Proxy</server_proxy>
+    <port>Poort</port>
+    <extension>Extentie</extension>
+    <description>Beschrijving</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Inhoud beheren</item_actions>
+    <recovery>Herstel verwijderde items</recovery>
+    <add_virtual>Nieuwe zoekmap aanmaken</add_virtual>
+    <edit_virtual>Bewerk Zoekmap</edit_virtual>
+    <add_favorites>Toevoegen aan Favorieten</add_favorites>
+    <sharing>Rechten en Delen</sharing>
+    <change_channel>RSSKanalen beheren</change_channel>
+    <subscribe>Synchroniseren</subscribe>
+    <subscribed>Gesynchroniseerd</subscribed>
+    <add_folder>Nieuwe Map Aanmaken</add_folder>
+    <add_shared_account>Gedeelde Account Toevoegen</add_shared_account>
+    <delete_folder>Map Verwijderen</delete_folder>
+    <unsubscribe_folder>Abbonnement op map beeindigen</unsubscribe_folder>
+    <move_folder>Map Verplaatsen</move_folder>
+    <move_folder_into>Verplaats map naar</move_folder_into>
+    <rename_folder>Map Hernoemen</rename_folder>
+    <remove_account>Account Verwijderen</remove_account>
+    <sent_folder>Selecteer map verzonden items</sent_folder>
+    <select_folder>Selecteer Map</select_folder>
+    <mark_all_as_read>Markeer als Gelezen</mark_all_as_read>
+    <default>Als Standaard instellen</default>
+    <export>Exporteer Map</export>
+    <color>Kleur</color>
+    <move_default>Weet u zeker dat u de standaard map wilt verplaatsen?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>Alle</all>
+    <pdf>PDF</pdf>
+    <play_sound>Speel</play_sound>
+    <attachments>Bijlage</attachments>
+    <upload>Bijlage toevoegen</upload>
+    <download>Download</download>
+    <download_all>Download Alles</download_all>
+    <open_window>Open in Venster</open_window>
+    <import>Importeren in WebClient</import>
+    <import_error>Item type wordt niet ondersteund</import_error>
+    <remove>Verwijderen</remove>
+    <remove_all>Alles Verwijderen</remove_all>
+    <add_item>Item Toevoegen</add_item>
+    <link_dropbox>Link aan Dropbox</link_dropbox>
+    <view>Beeld</view>
+    <save>Download</save>
+    <save_all>Alles Downloaden</save_all>
+    <save_to_folder>Opslaan in map</save_to_folder>
+    <show_images>Voorbeeld alle afbeeldingen</show_images>
+    <show_image>Voorbeeld afbeelding</show_image>
+    <show_text>Bericht in platte tekst</show_text>
+    <show_headers>Alle Headers</show_headers>
+    <show_cert>Toon Certificaat</show_cert>
+    <append_cert>Aan contacten toevoegen</append_cert>
+    <dropzone>&lt; Sleep bestand hierheen &gt;</dropzone>
+    <drop_holder>Bestanden pakken &amp; hier los laten...</drop_holder>
+    <quick_add>Snelle upload...</quick_add>
+    <quick_contact>Verplaats vCard hierheen...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Dropbox fout</erroralert>
+    <missingkey>Dropbox is niet geïnstalleerd, De beheerder moet eerst Dropbox intergratie instellen</missingkey>
+    <unavailable>Dropbox is tijdelijk niet beschikbaar, en zal uitgeschakeld blijven tot de volgende aanmelding</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Converteer naar HTML</convert_item>
+    <source>Bron</source>
+    <send_notify>Bericht van wijziging</send_notify>
+    <recover>Herstel</recover>
+    <new>Nieuw</new>
+    <delivery_report>Aflever Rapport</delivery_report>
+    <properties>Eigenschappen</properties>
+    <doc_management>Document eigenschappen</doc_management>
+    <open>Open</open>
+    <open_pdf>Open as PDF</open_pdf>
+    <open_window>Open in Window</open_window>
+    <edit>Bewerk</edit>
+    <reply_to_sender>Beantwoord</reply_to_sender>
+    <reply_to_all>Allen beantwoorden</reply_to_all>
+    <forward>Doorsturen</forward>
+    <forward_as_message>Doorsturen als bijlage</forward_as_message>
+    <redirect>Omleiden</redirect>
+    <mark_as_read>Markeer als gelezen</mark_as_read>
+    <mark_as_unread>Markeer als Ongelezen</mark_as_unread>
+    <move_mail_to>verplaats naar Map</move_mail_to>
+    <copy_mail_to>Kopieer naar Map</copy_mail_to>
+    <delete>Verwijder</delete>
+    <delete_selected>Verwijder geselecteerde</delete_selected>
+    <open_item>Open</open_item>
+    <move_item_to>Verplaats naar Map</move_item_to>
+    <copy_item_to>Kopieer naar Map</copy_item_to>
+    <new_distriblist>Nieuwe Distributie Lijst</new_distriblist>
+    <save_as>Opslaan Als...</save_as>
+    <html>HTML</html>
+    <text>Tekst</text>
+    <eml>EML</eml>
+    <download_vcalendar>Sla op als vCalendar</download_vcalendar>
+    <download_vcard>Sla op als vCard</download_vcard>
+    <download_vnote>Sla op als vNote</download_vnote>
+    <download_file>Download</download_file>
+    <open_office>Openen in Office</open_office>
+    <deliver>Afleveren</deliver>
+    <black_list>Blacklist</black_list>
+    <white_list>Whitelist</white_list>
+    <blacklist_sender>Blacklist Afzender</blacklist_sender>
+    <blacklist_domain>Blacklist whole Domain</blacklist_domain>
+    <whitelist_sender>Whitelist Afzender</whitelist_sender>
+    <whitelist_domain>Whitelist whole Domain</whitelist_domain>
+    <send_as_email>Verstuur als e-mail</send_as_email>
+    <send_email_to>Bericht Verzenden</send_email_to>
+    <add_to_contacts>Maak nieuw contact aan</add_to_contacts>
+    <add_to_exist_contacts>Voeg toe aan bestaand contact</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Voeg toe aan Map Contactpersonen</add_contact>
+    <add_im>Add to WebChat Contact List</add_im>
+    <add_to_im>Add to WebChat</add_to_im>
+    <add>Toevoegen...</add>
+    <manage_sender>Bewerk Afzender</manage_sender>
+    <invite_appointment>Nodig uit voor gebeurtenis</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Voeg certificaat toe aan contact</cert_to_contact>
+    <contacts>Contact</contacts>
+    <mandatorydetails>Please fill in your contact details</mandatorydetails>
+    <im>WebChat Roster</im>
+    <skip_delete>Vraag niet opnieuw</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>Geen kleur</none>
+    <color>Kleur</color>
+    <white_flag>Witte vlag</white_flag>
+    <red_flag>Rode vlag</red_flag>
+    <blue_flag>Blauwe vlag</blue_flag>
+    <yellow_flag>Gele vlag</yellow_flag>
+    <green_flag>Groene vlag</green_flag>
+    <orange_flag>Oranje vlag</orange_flag>
+    <purple_flag>Paarse vlag</purple_flag>
+    <flag_complete>Vlag Voltooid</flag_complete>
+    <clear_flag>Vlag verwijderen</clear_flag>
+    <important>Belangrijk</important>
+    <business>Zakelijk</business>
+    <personal>Persoonlijk</personal>
+    <vacation>Vakantie</vacation>
+    <must_attend>Moet aanwezig zijn</must_attend>
+    <travel_required>Reizen vereist</travel_required>
+    <needs_preparation>Voorbereiding nodig</needs_preparation>
+    <birthday>Verjaardag</birthday>
+    <anniversary>Feestdag</anniversary>
+    <phone_call>Telefoongesprek</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Voeg Nieuw e-mail account toe</add_account>
+    <delete_account>Verwijder account</delete_account>
+    <edit_account>Account Bewerken</edit_account>
+    <validating>Valideer account...</validating>
+    <invalid>Account is niet geldig</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Postvak IN</inbox>
+    <drafts>Concepten</drafts>
+    <sent>Verzonden</sent>
+    <trash>Prullenbak</trash>
+    <spam>Spam</spam>
+    <templates>Templates</templates>
+    <quarantine>Quarantine</quarantine>
+    <spam_queue>Filters</spam_queue>
+    <spam_queue-whitelist>Whitelist</spam_queue-whitelist>
+    <spam_queue-blacklist>Blacklist</spam_queue-blacklist>
+    <virtual-folders>Zoekmappen</virtual-folders>
+    <gw-trash>Herstelde Items</gw-trash>
+    <calendars>Meerdere Agenda&apos;s</calendars>
+  </common_folders>
+  <folders>
+    <mails>Mail</mails>
+    <contacts>Contacten</contacts>
+    <events>Agenda</events>
+    <tasks>Taken</tasks>
+    <notes>Notities</notes>
+    <journal>Logboek</journal>
+    <files>Documenten</files>
+    <home>Home</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>Mail</mail>
+    <contact>Contactpersoon</contact>
+    <event>Agenda</event>
+    <journal>Logboek</journal>
+    <note>Notitie</note>
+    <task>Taak</task>
+    <file>Document</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>U kunt deze map niet verplaatsen</cantmove>
+    <cantrename>U kunt deze map niet hernoemen</cantrename>
+    <cantdelete>U kunt deze map niet verwijderen</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Bijlagen</attachments>
+    <to>Aan</to>
+    <subject>Onderwerp</subject>
+    <nosubject>Geen Onderwerp</nosubject>
+    <cc>Cc</cc>
+    <bcc>Bcc</bcc>
+    <body>Bericht</body>
+    <from>Van</from>
+    <date>Datum</date>
+    <size>Grootte</size>
+    <type>Type</type>
+    <itmclassifyas>Contact Naam</itmclassifyas>
+    <phone>Telefoon</phone>
+    <itmcompany>Bedrijf</itmcompany>
+    <itmdepartment>Afdeling</itmdepartment>
+    <contact_email>E-mail</contact_email>
+    <expires>Geldig tot</expires>
+    <itmcategory>Catagorie</itmcategory>
+    <evntitle>Titel</evntitle>
+    <itmtitle>Titel</itmtitle>
+    <itmoriginalfolder>Originele map</itmoriginalfolder>
+    <itm_deleted>Verwijderd</itm_deleted>
+    <item_moved>Verplaatst</item_moved>
+    <evnlocation>Locatie</evnlocation>
+    <upcoming>Aankomend</upcoming>
+    <event_startdate>Begintijd</event_startdate>
+    <event_enddate>Eindtijd</event_enddate>
+    <evntype>Categorie</evntype>
+    <evncontact>Contactpersoon</evncontact>
+    <evnstatus>Status</evnstatus>
+    <task_startdate>Start datum</task_startdate>
+    <task_enddate>Eind datum</task_enddate>
+    <sndemail>Afzender</sndemail>
+    <sndowner>Eigenaar</sndowner>
+    <snddomain>Domein</snddomain>
+    <sndsubject>Onderwerp</sndsubject>
+    <revised_by>Revisie door</revised_by>
+    <comment>Aantekening</comment>
+    <qdate>Datum</qdate>
+    <name>Naam</name>
+    <evnfilename>Bestandsnaam</evnfilename>
+    <evnnote>Beschrijving</evnnote>
+    <evn_modified>Aangepast</evn_modified>
+    <evnfilesize>Grootte</evnfilesize>
+    <lctphnwork1>Telefoon Werk</lctphnwork1>
+    <lctphnfaxwork>Fax Werk</lctphnfaxwork>
+    <lctphnhome1>Telefoon Thuis</lctphnhome1>
+    <lctphnmobile>Mobiele Telefoon</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Openbare URL</public>
+    <share>Deel Link</share>
+    <ticket>Overige</ticket>
+    <revisions>Revisie</revisions>
+    <revert>Herstel</revert>
+    <edit_comment>Bewerk Aantekening</edit_comment>
+    <new_revision>Nieuwe Versie</new_revision>
+  </item>
+  <event_view>
+    <week_label>Week</week_label>
+    <notitle>Geen Onderwerp</notitle>
+    <private>Verborgen</private>
+    <newappointment>Nieuwe afspraak</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Gelezen: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Uw bericht werd gelezen.&#13;&#10;&#13;&#10;Details van het bericht:&#13;&#10;&#13;&#10;Van: %FROM%&#13;&#10;Aan: %TO%&#13;&#10;Datum: %DATE%&#13;&#10;Onderwerp: %SUBJECT%</reading_confirmation>
+    <reply_message>-----Origineel Bericht-----</reply_message>
+    <reply_message_html>-----Origineel Bericht-----</reply_message_html>
+    <from>Van:</from>
+    <to>Aan:</to>
+    <cc>Cc:</cc>
+    <date>Datum:</date>
+    <subject>Onderwerp:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>Dhr.</mr>
+    <mrs>Mevr.</mrs>
+    <miss>Mevr.</miss>
+    <ms>Mevr.</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>Jr.</jr>
+    <sr>Sr.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Geef naam weer</displayname>
+    <avatar>Foto</avatar>
+    <contact>Contactpersoon</contact>
+    <general>Algemeen</general>
+    <profile>Profiel</profile>
+    <personal>Persoonlijk</personal>
+    <business>Zakelijk</business>
+    <other_l>Overig</other_l>
+    <other>Opmerking</other>
+    <contact_name>Geef weer als</contact_name>
+    <sort_as>Sorteer op</sort_as>
+    <first_name>Voornaam</first_name>
+    <middle_name>Tweede naam</middle_name>
+    <last_name>Achternaam</last_name>
+    <nick_name>Bijnaam</nick_name>
+    <full_name>Volledige Naam</full_name>
+    <title>Titel</title>
+    <suffix>Achtervoegsel</suffix>
+    <category>Categorie</category>
+    <email_address>E-mail adres</email_address>
+    <birthdate>Geboortedatum</birthdate>
+    <anniversary>Feestdag</anniversary>
+    <spouse>Echtgenoot</spouse>
+    <gender>Geslacht</gender>
+    <company>Bedrijf</company>
+    <job>Beroep</job>
+    <profession>Beroep</profession>
+    <department>Afdeling</department>
+    <assistant>Assistent</assistant>
+    <manager>Manager</manager>
+    <office_location>Locatie Kantoor</office_location>
+    <email1>E-mail 1</email1>
+    <email2>E-mail 2</email2>
+    <email3>E-mail 3</email3>
+    <im>IM</im>
+    <phone>Telefoon</phone>
+    <phones>Telefoon(s)</phones>
+    <male>Man</male>
+    <female>Vrouw</female>
+    <street>Straat</street>
+    <city>Stad</city>
+    <zip>Postcode</zip>
+    <state>Staat</state>
+    <country>Land</country>
+    <home_address>Thuis Adres</home_address>
+    <business_address>Zakelijk Adres</business_address>
+    <other_address>Ander adres</other_address>
+    <homepage>Website</homepage>
+    <calendar_url>Agenda URL</calendar_url>
+    <share_type>Deel Type</share_type>
+    <address>Adres</address>
+    <web>Web</web>
+    <notes>Notities</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Distributie Lijst</distrib_list>
+    <general>Algemeen</general>
+    <members>Leden</members>
+    <title>Titel</title>
+    <category>Categorie</category>
+    <add_title>Toevoegen</add_title>
+    <edit_title>Bewerken</edit_title>
+    <name>Naam</name>
+    <email>E-mail</email>
+  </distrib_list>
+  <time_interval>
+    <from>Van</from>
+    <to>Aan</to>
+    <duration>Duur</duration>
+    <all_day_event>Duurt hele dag</all_day_event>
+    <days>Dagen</days>
+    <change_default>Verander Standaard tijdzone</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>Dit item wordt herhaald</title_edit>
+    <text_edit>Verander alleen deze, alle, of alle die nog komende?</text_edit>
+    <title_delete>Dit item wordt herhaald</title_delete>
+    <text_edit_2>Wijzig alleen dit exemplaar of allen?</text_edit_2>
+    <text_delete>Verwijder alleen deze aaf de gehele serie?</text_delete>
+    <btn_this>Alleen deze</btn_this>
+    <btn_all>De gehele serie</btn_all>
+    <btn_allfromnow>Alle volgende</btn_allfromnow>
+    <btn_cancel>Annuleren</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Decline reason</reason>
+    <event>Afspraak</event>
+    <general>Algemeen</general>
+    <repeating>Terugkerend</repeating>
+    <schedule>Plannen</schedule>
+    <reminders>Herinneringen</reminders>
+    <onlinemeeting>WebMeeting</onlinemeeting>
+    <startmeeting>Start nu</startmeeting>
+    <joinmeeting>Nu Deelnemen</joinmeeting>
+    <title>Titel</title>
+    <location>Locatie</location>
+    <category>Categorie</category>
+    <notes>Notities</notes>
+    <timezone>Tijd Zone</timezone>
+    <show_as>Toon als</show_as>
+    <free>Vrij</free>
+    <busy>Bezet</busy>
+    <tentative>Voorlopig</tentative>
+    <out_of_office>Afwezig</out_of_office>
+    <unknown>Geen Informatie</unknown>
+    <label>Label</label>
+    <meeting_hint>Creeeren en deelnemen aan meetings, scherm delen</meeting_hint>
+    <high>Hoog:</high>
+    <low>Laag:</low>
+  </event>
+  <file>
+    <file>Document</file>
+    <expire>Verloopt op %s</expire>
+    <name>Bestandsnaam</name>
+    <lock>Blokkeer</lock>
+    <unlock>Deblokkeer</unlock>
+    <locked>Geblokkeerd</locked>
+    <unlocked>gedeblokkeerd</unlocked>
+    <locked_by>Document geblokkeerd door %s</locked_by>
+    <blank_doc>Document</blank_doc>
+    <description>Omschrijving</description>
+    <new_doc>Leeg Document</new_doc>
+    <converting>Document conversion in progress.</converting>
+  </file>
+  <note>
+    <note>Notitie</note>
+    <category>Categorie</category>
+    <title>Titel</title>
+    <general>Algemeen</general>
+  </note>
+  <task>
+    <task>Taak</task>
+    <attendees>Aanwezigen</attendees>
+    <status>Status</status>
+    <complete>Volledig</complete>
+    <repeating>Terugkerend</repeating>
+    <reminders>Herinneringen</reminders>
+    <general>Algemeen</general>
+    <title>Titel</title>
+    <start_date>Start datum</start_date>
+    <due_date>Op datum</due_date>
+    <category>Catagorie</category>
+    <not_started>Niet gestart</not_started>
+    <in_progress>In voortgang</in_progress>
+    <completed>Voltooid</completed>
+    <deferred>Uitgesteld</deferred>
+    <waiting>Wacht op iemand anders</waiting>
+    <done>Klaar</done>
+  </task>
+  <blackwhite>
+    <black>Blacklist</black>
+    <white>Whitelist</white>
+    <email>E-mail/Domein</email>
+  </blackwhite>
+  <compose>
+    <template>Template</template>
+    <newmail>Bericht</newmail>
+    <send>Verzenden</send>
+    <sendinfo>Verzend bericht</sendinfo>
+    <save>Bewaren</save>
+    <saveinfo>Bewaar in concepten</saveinfo>
+    <options>Opties</options>
+    <advanced>Geavanceerde Opties</advanced>
+    <html>HTML</html>
+    <text>Tekst</text>
+    <sms>SMS</sms>
+    <compose_sms>Maak SMS</compose_sms>
+    <sms_preview>SMS Voorbeeld</sms_preview>
+    <sms_info>%s Karakters in %s berichten</sms_info>
+    <smartattach>SmartAttach</smartattach>
+    <smartattachinfo>Bijlagen worden opgeslagen in uw %s en worden vervangen door download links in uw bericht</smartattachinfo>
+    <readconfirmationinfo>Ontvang bericht als de ontvanger het bericht gelezen heeft</readconfirmationinfo>
+    <show_all>Geef alles weer</show_all>
+    <signinfo>Onderteken dit bericht Digitaal</signinfo>
+    <encryptinfo>Versleutel ditt bericht</encryptinfo>
+    <priorityinfo>Stel urgentie van bericht in</priorityinfo>
+    <subject_empty>Bericht heeft geen onderwerp.&lt;br&gt; Toch verzenden?</subject_empty>
+    <rcp_empty>Voeg enkele ontvangers toe om de mail aan te verzenden</rcp_empty>
+    <optionstitle>Bericht Opties</optionstitle>
+    <encrypt>Versleutel Bericht</encrypt>
+    <sign>Onderteken dit bericht Digitaal</sign>
+    <nosign>Geen Certificaat voor verzending gevonden.&lt;br&gt;Bericht niet ondertekent, toch verzenden?</nosign>
+    <delivery_report>Geef aflever rapport weer</delivery_report>
+    <reply_to>Antwoord aan</reply_to>
+    <upload_file>Bijlagen van lokale schijf</upload_file>
+    <upload_item>Bijlagen uit Webmail</upload_item>
+  </compose>
+  <sharing>
+    <public>Openbaar</public>
+    <private>Privé</private>
+    <anonymous>Anoniem/Iedereen</anonymous>
+    <custom>Aangepast</custom>
+    <inherited>Overgenomen</inherited>
+    <none>Geen</none>
+    <enter_address>Vul adres in</enter_address>
+    <permissions>Rechten</permissions>
+    <user>Gebruiker</user>
+    <items>Items</items>
+    <folder>Map</folder>
+    <administration>Beheer</administration>
+  </sharing>
+  <time>
+    <hours>Uren</hours>
+    <minutes>Minuten</minutes>
+    <days>Dagen</days>
+    <oneday>Dag</oneday>
+    <moredays>Dagen</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Kies Contactpersonen</select_emails>
+    <add>Voeg toe</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Zoek</placeholder>
+    <tags>Catagorie</tags>
+    <used>Gebruikt</used>
+    <hint>Gebruikt door %s item(s)</hint>
+    <selected>Geselecteerd</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Thuis 1</lctphnhome1>
+    <lctphnhome2>Thuis 2</lctphnhome2>
+    <lctphnassistant>Assistent</lctphnassistant>
+    <lctphnwork1>Werk 1</lctphnwork1>
+    <lctphnwork2>Werk 2</lctphnwork2>
+    <lctphnfaxhome>Fax Thuis</lctphnfaxhome>
+    <lctphnfaxwork>Fax Werk</lctphnfaxwork>
+    <lctphncallback>Terug bellen</lctphncallback>
+    <lctphncompany>Bedrijf</lctphncompany>
+    <lctphncar>Auto</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>Mobiel</lctphnmobile>
+    <lctphnother>Overige</lctphnother>
+    <lctphnotherfax>Overige FAX</lctphnotherfax>
+    <lctphnpager>Pager</lctphnpager>
+    <lctphnprimary>Primair</lctphnprimary>
+    <lctphnradio>Radio</lctphnradio>
+    <lctphntelex>Telex</lctphntelex>
+    <lctphnhearing>Gehoor</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>Dag</day>
+    <week>Week van</week>
+    <week_of_month>Week van de maand</week_of_month>
+    <month_of_year>Maand van het jaar</month_of_year>
+    <month>Maand</month>
+    <year>Jaar</year>
+    <year_s>Ja(a)r(en)</year_s>
+    <repeats>Herhaalt zich elke:</repeats>
+    <not_repeats>Geen herhaling</not_repeats>
+    <end_date>Einddatum:</end_date>
+    <no_end>Geen Einddatum</no_end>
+    <until>Tot</until>
+    <count>Aantal</count>
+    <daily>Dagelijks</daily>
+    <weekly>Wekelijks</weekly>
+    <monthly>Maandelijks</monthly>
+    <yearly>Jaarlijks</yearly>
+    <every>Elke</every>
+    <the>De</the>
+    <of>van</of>
+    <recur_every>Herhaal elke</recur_every>
+    <weeks_on>we(e)k(en) van:</weeks_on>
+    <of_every>van elke</of_every>
+    <months>ma(a)nd(en)</months>
+    <days>dag(en)</days>
+    <day_list>week</day_list>
+    <every_weekday>Elke weekdag</every_weekday>
+    <first>eerste</first>
+    <second>tweede</second>
+    <third>derde</third>
+    <fourth>vierde</fourth>
+    <last>laatste</last>
+    <weekday>werk week</weekday>
+    <weekend_day>weekend</weekend_day>
+  </repeating>
+  <reminder>
+    <none>Geen</none>
+    <email>E-mail</email>
+    <popup>Popup (Desktop)</popup>
+    <address>Adres</address>
+    <remind1>Herinner mij</remind1>
+    <remind2>van te voren</remind2>
+    <is_reminder>Verstuur herinnering</is_reminder>
+    <no_reminder>Verstuur geen herinnering</no_reminder>
+    <type>Type</type>
+    <snooze>Uitstellen</snooze>
+    <meeting>Start Nu</meeting>
+    <dismiss>Verwijderen</dismiss>
+    <reminder>Herinnering</reminder>
+  </reminder>
+  <journal>
+    <journal>Logboek</journal>
+    <title>Titel</title>
+    <type>Type</type>
+    <company>Firma</company>
+    <conversation>Gesprek</conversation>
+    <document>Document</document>
+    <e-mail_message>E-mail Bericht</e-mail_message>
+    <fax>Fax</fax>
+    <letter>Brief</letter>
+    <meeting>Vergadering</meeting>
+    <meeting_cancellation>Vergadering Annuleren</meeting_cancellation>
+    <meeting_request>Vergader verzoek</meeting_request>
+    <meeting_response>Vergadering Antwoord</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Notitie</note>
+    <phone_call>Telefoongesprek</phone_call>
+    <remote_session>Sessie op afstand</remote_session>
+    <task>Taak</task>
+    <task_request>Taak verzoek</task_request>
+    <task_response>Taak antwoord</task_response>
+  </journal>
+  <certificate>
+    <purposes>Dit certificaat is bedoeld voor de volgende doeleinden</purposes>
+    <ssl>Bevestigd uw identiteit aan een externe computer</ssl>
+    <smime>Beschermt e-mail berichten</smime>
+    <serial>Serie</serial>
+    <view>Weergeven</view>
+    <certificate>Certificaat</certificate>
+    <invalid>Ongeldig certificaat of wachtwoord</invalid>
+    <passphrase>Wachtwoord</passphrase>
+    <issuedto>Afgegeven aan</issuedto>
+    <issuedby>Afgegeven door</issuedby>
+    <email>E-mail</email>
+    <validity>geldigheid</validity>
+    <badtype>Het privé gedeelte mist</badtype>
+    <missing>Geen certificaat gevonden</missing>
+    <invaliditem>Niet in staat om certificaat toe te voegen</invaliditem>
+    <assigned>Certificaat succesvol toevevoegd</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Map bestaat niet: &quot;%s&quot;</folder_not_exist>
+    <accepted>Event was accepted</accepted>
+    <unsure>Event was replied tentatively</unsure>
+    <declined>Event was declined</declined>
+    <proposed>New time was proposed</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Force users to enter contact information</force_enter_user_info>
+    <disable_wipe>Remote Wissen uitschakelen</disable_wipe>
+    <documents>Documenten</documents>
+    <aliases>Aliases</aliases>
+    <disable_mailformat>HTML Uitschakelen / Tekst knop in bewerkscherm</disable_mailformat>
+    <disable_altmail>Verberg alternatieve e-mail</disable_altmail>
+    <rcpt_suggest>Auto-aanvullen</rcpt_suggest>
+    <rcpt_cache>Verwijder lijst</rcpt_cache>
+    <keep_search>Bewaar zoekopdracht tijdens veranderen van map</keep_search>
+    <smartfolder>SmartAttach Map</smartfolder>
+    <always_show_rcp>Toon altijd de adressen</always_show_rcp>
+    <login_screen>Aanmeld scherm</login_screen>
+    <exclude_gal>GAL uitsluiten van auto-aanvullen</exclude_gal>
+    <password_policy>Password beleid</password_policy>
+    <notifications>Desktop Waarschuwingen</notifications>
+    <nofocus>Auto (in achtergrond)</nofocus>
+    <autorevision_mode>Schakel automatisch versiebeheer voor documenten in</autorevision_mode>
+    <disable_support>Schakel Support Link uit in het aanmeldscherm</disable_support>
+    <check_subject>Controleer op leeg onderwerp</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Verberg Delen van Anonieme Accounts</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Geef favoriete mappen weer</show_favorites>
+    <layout>Algmene instellingen</layout>
+    <signature>Handtekening</signature>
+    <signature_separator>Voeg seperator aan Handtekening toe &quot;-- &quot;</signature_separator>
+    <signature_to_top>Handtekening bovenaan het bericht</signature_to_top>
+    <groups>Groepen</groups>
+    <group>Groep</group>
+    <trash_folder>Trash Folder</trash_folder>
+    <sent_folder>Verzonden Items</sent_folder>
+    <groupsend>Sla verzonden items op in openbare map van deze groep</groupsend>
+    <ftime>Ongedefinieerde tjdzone</ftime>
+    <sso_only>Alleen SSO Aanmelding toestaan</sso_only>
+    <activity_monitor>Afmelden na geen activiteit (minuten)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 uur</time_12>
+    <time_24>24 uur</time_24>
+    <logout_url>Afmeld URL</logout_url>
+    <disable_attach_item>Bijlagen van Webmail uitschakelen</disable_attach_item>
+    <disable_virtual>Zoek Mappen uitschakelen</disable_virtual>
+    <disable_interfaces>Interface selectie uitschakelen bij aanmelden</disable_interfaces>
+    <disable_languages>Taal selectie uitschakelen bij Aanmelden</disable_languages>
+    <confirm_exit>Bevestigen bij afsluiten</confirm_exit>
+    <compose>Bericht opgesteld</compose>
+    <never>Nooit</never>
+    <always>Altijd</always>
+    <homepage>Startpagina</homepage>
+    <banner_enable>Banner Frame Inschakelen</banner_enable>
+    <application_enable>Applicatie Download Banner Inschakelen</application_enable>
+    <banner_url>Banner URL</banner_url>
+    <banner_height>Banner Hoogte</banner_height>
+    <count_subject>Groep voorvoegsels Onderwerp (e.g. Re[4], Fw[2])</count_subject>
+    <reply_prefix>Gebruik voorvoegsel bij Beantwoorden (&gt;)</reply_prefix>
+    <collate>Ondersteun de nationale sortering van e-mails (collaties) voor MySQL</collate>
+    <init_page>Eerste pagina</init_page>
+    <remember_folder>Onthoud laatste map</remember_folder>
+    <show_inbox>Postvak In</show_inbox>
+    <show_home>Home Page</show_home>
+    <clear_trash>Verwijder mail uit prullenbak indien ouder als (dagen)</clear_trash>
+    <clear_gwtrash>Verwijder items uit prullenbak indien ouder als (dagen)</clear_gwtrash>
+    <alias>Alias</alias>
+    <subscribed_holidays>Bekende Feestdagen</subscribed_holidays>
+    <holidays>Feestdagen</holidays>
+    <weather>Weer</weather>
+    <temperature>Temperatuur</temperature>
+    <c>Celsius (C)</c>
+    <f>Fahrenheit (F)</f>
+    <city>Stad</city>
+    <disable_folder_types>Schakel geselecteerde map types uit</disable_folder_types>
+    <antispam>Anti-Spam</antispam>
+    <spam_mode>Spam map modus</spam_mode>
+    <reports_mode>Spam rapport modus</reports_mode>
+    <quarantine>Quarantine</quarantine>
+    <last_time>Laatst aangemeld:</last_time>
+    <last_ip>Laatst aangemeld met IP</last_ip>
+    <current_time>Huidige anmeld tijd</current_time>
+    <current_ip>Huidig aanmelding IP</current_ip>
+    <default>Standaard</default>
+    <use_spam>Gebruik Spam map</use_spam>
+    <not_spam>Gebruik Spam map niet</not_spam>
+    <disabled>Uitgeschakeld</disabled>
+    <all>Alle</all>
+    <full>Volledig</full>
+    <new_items>Nieuwe Items</new_items>
+    <smtp_relay>Bericht aan afzender bij verkeerde geadresseerde(n)</smtp_relay>
+    <restrictions>Beperkingen</restrictions>
+    <hide_sortstring>Verberg Soteren op</hide_sortstring>
+    <disable_aliases>Aliassen Uitschakelen</disable_aliases>
+    <disable_redirect>Omleiden Uitschakelen</disable_redirect>
+    <disable_other_accounts>Schakel Andere Accounts Uit</disable_other_accounts>
+    <disable_edit_vcard>Schakel uit: Bewerk mijn details</disable_edit_vcard>
+    <disable_edit_account>Schakel uit: Bewerk mijn Account</disable_edit_account>
+    <disable_change_password>Schakel uit: wachtwoord wijzigen</disable_change_password>
+    <disable_antispam_control>Schakel Anti-Spam controle uit</disable_antispam_control>
+    <disable_licenses>Schakel licentie tab uit</disable_licenses>
+    <disable_login_help>Schakel Aanmeld hulp uit</disable_login_help>
+    <disable_login_banners>Schakel aanmeld banners uit</disable_login_banners>
+    <disable_signup>Schakel uit: Maak account</disable_signup>
+    <disable_sip>WebPhone uitschakelen (interne VoIP client)</disable_sip>
+    <disable_call_forwarding>Telefoon doorschakelen Uitschakelen</disable_call_forwarding>
+    <disable_external_sip>Externe VOIP uitschakelen</disable_external_sip>
+    <disable_export>GroupWare export uitschakelen</disable_export>
+    <disable_smart>SmartAttach uitschakelen</disable_smart>
+    <disable_dropbox>Dropbox uitschakelen</disable_dropbox>
+    <disable_im>Disable WebChat</disable_im>
+    <disable_sms>SMS uitschakelen</disable_sms>
+    <disable_remember_pulldown>&quot;Onthoud mij&quot; uitschakelen</disable_remember_pulldown>
+    <disable_autofill>Auto aanvullen Gebruikersnaam/Wachtwood uitschakelen</disable_autofill>
+    <disable_rules>&quot;Regels&quot; uitschakelen</disable_rules>
+    <disable_gmaps>Google Maps uitschakelen</disable_gmaps>
+    <disable_forwarder>Verberg Doorstuur Tab</disable_forwarder>
+    <disable_keep_emails>Verberg &quot;Emails in mailbox behouden&quot; bij doorsturen</disable_keep_emails>
+    <disable_autoresponder>Verberg AutoAntwoord Tab</disable_autoresponder>
+    <share_mode>Deel Modus</share_mode>
+    <share_p>Prive (Data wordt niet gedeeld)</share_p>
+    <share_pf>Openbaar (Data wordt gedeeld met iedereen)</share_pf>
+    <share_f>Vrienden (Data wordt enkel gedeeld met vrienden)</share_f>
+    <daily_event_report>Stuur dagelijks een rapport per e-mail</daily_event_report>
+    <reminder_notification>Stuur herinneringen per e-mail</reminder_notification>
+    <reminder_email>Herinnering en Rapport E-mailadres</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Application Key</dropbox_app_key>
+    <dropbox_instructions>Om Dropbox te intergreren, Meldt u aan op www.dropbox.com, kies voor de &quot;developer section&quot; en maak een applicatie key aan. U wordt daar om een korte omschrijving gevraagd, evenals een korte omschrijving en de hostnaam of IP adres van de WebClient.</dropbox_instructions>
+    <server>Server</server>
+    <login_with_email>Aanmelden met e-mailadres</login_with_email>
+    <server_logs>Log niveau</server_logs>
+    <server_logs0>Geen</server_logs0>
+    <server_logs2>Samenvating</server_logs2>
+    <server_logs3>Opsporing</server_logs3>
+    <server_logs4>Uitgebreid</server_logs4>
+    <http_port>HTTP poort</http_port>
+    <imapserver>IMAP server</imapserver>
+    <smtpserver>SMTP server</smtpserver>
+    <xmppserver>XMPP server</xmppserver>
+    <port>Poort</port>
+    <pgtitle>Pagina titel</pgtitle>
+    <logo>Aanmeldings logo</logo>
+    <login_style>Aanmeld stijl</login_style>
+    <login_client>Voorkeurs Interface</login_client>
+    <skin_style>Skin style</skin_style>
+    <interfaces>Aanwezige Interfaces</interfaces>
+    <spell_language>Spellingscontrole</spell_language>
+    <delete_emptyfolder>Verwijder berichten bij Leeg prullenbak</delete_emptyfolder>
+    <show_images>Automatisch externe afbeeldingen weergeven in het bericht</show_images>
+    <show_images_spam>Ook uitvoeren in SPAM map</show_images_spam>
+    <auto_show_images>Automatisch bijgestuurde afbeeldingen weergeven</auto_show_images>
+    <sound_notify>Zet de geluidsnotificatie aan</sound_notify>
+    <domains_settings>Domeinen</domains_settings>
+    <domain>Domein</domain>
+    <edit_settings>Pas domein instellingen aan</edit_settings>
+    <resetpass>Wachtwoord herstel</resetpass>
+    <resetmail>E-mail</resetmail>
+    <resetenable>Schakel wachtwoord herstel in</resetenable>
+    <accounts>Accounts</accounts>
+    <account>Account</account>
+    <tools>Opties</tools>
+    <autoresponder>Auto Beantwoorder</autoresponder>
+    <forwarder>Doorstuurder</forwarder>
+    <pcertificate>Prive Certificaten</pcertificate>
+    <certificate>Certificaat</certificate>
+    <mail_settings>Mail</mail_settings>
+    <im_settings>WebChat</im_settings>
+    <sip_settings>WebPhone</sip_settings>
+    <sip_webrtc>Gebruik interne webbrowser mogelijkheden voor media indien aanwezig</sip_webrtc>
+    <sip_start>Start WebPhone automatisch</sip_start>
+    <sip_internal>Integreer met uw VoIP account (SIP)</sip_internal>
+    <sip_external>Integreer met uw externe VoIP account (SIP)</sip_external>
+    <sip_dial>Kies met externe VoIP account (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>Kies met uw VoIP account (reeds aangemelde softphone/telefoon)</sip_dial_internal>
+    <call_forwarding>Telefoon doorschakelen</call_forwarding>
+    <use_forwarding>Gebruik telefoon doorschakelen</use_forwarding>
+    <forward_to>Schakel door naar</forward_to>
+    <forward_after>Doorschaken na (seconden)</forward_after>
+    <chat_window>Chat Scherm</chat_window>
+    <auto_chat>Auto open chat scherm</auto_chat>
+    <auto_subscribe>Auto abonneren nieuwe gebruikers</auto_subscribe>
+    <remember_status>Onthoud status</remember_status>
+    <extended_status>Beschikbare Status</extended_status>
+    <newline_chat>Chat op nieuwe regel</newline_chat>
+    <smiles_chat>Gebruik Emoticons</smiles_chat>
+    <enter_send>Verzend bericht met Enter</enter_send>
+    <general_settings>Algemeen</general_settings>
+    <other_accounts>Andere accounts</other_accounts>
+    <primary_accounts>Mijn Account</primary_accounts>
+    <account_settings>Accounts</account_settings>
+    <importexport_settings>Importeren/Exporteren</importexport_settings>
+    <default_reminder>Standaard herinnering toevoegen bij nieuwe afspraak</default_reminder>
+    <use_sslswfatt>Gebruik HTTP Flash upload in SSL sessie</use_sslswfatt>
+    <use_swfupload>Gebruik Flash voor het uploaden van bijlages</use_swfupload>
+    <use_office>Gebruik openen in Office indien mogelijk</use_office>
+    <banner_enabled>Sta Banner toe op aanmeldpagina</banner_enabled>
+    <twitter_disabled>Sluit Twitter intergratie uit</twitter_disabled>
+    <twitter_link>Twitter handle</twitter_link>
+    <facebook_disabled>Sluit Facebook integratie uit</facebook_disabled>
+    <facebook_link>URL voor &quot;Like&quot;</facebook_link>
+    <skin>Skin</skin>
+    <items_ab_shown>Aantal geselecteerde adresitems</items_ab_shown>
+    <date_format>Datum weergave</date_format>
+    <time_format>Tijd weergave</time_format>
+    <language>Taal</language>
+    <timezone>Tijd zone</timezone>
+    <general>Algemeen</general>
+    <default_mail_settings>Bericht opstellen</default_mail_settings>
+    <folders_mapping>Standaard Mappen</folders_mapping>
+    <subject>Onderwerp</subject>
+    <message_format>Bericht type</message_format>
+    <re_message_format>Antwoord bericht type</re_message_format>
+    <html_message>HTML bericht</html_message>
+    <read_confirmation>Leesbevestiging</read_confirmation>
+    <request_read_confirmation>Verzoek om Leesbevestiging</request_read_confirmation>
+    <send_read_confirmation>Verzending toestaan</send_read_confirmation>
+    <ask_before>Vraag voor verzending</ask_before>
+    <smart_attach>Gebruik SmartAttach</smart_attach>
+    <save_sent_message>Bewaar verzonden berichten in Map Verzonden Items</save_sent_message>
+    <save_folder_message>Bewaar Verzonden Berichten</save_folder_message>
+    <encrypt>Versleutel Berichten</encrypt>
+    <sign>Onderteken berichten Digitaal</sign>
+    <appendvcard>Mijn Details toevoegen (vCard)</appendvcard>
+    <charset>Karakterset</charset>
+    <priority>Prioriteit</priority>
+    <reply_to>Antwoord - adres</reply_to>
+    <reply_myself>Auto Bcc naar mij</reply_myself>
+    <move_to_trash>Verplaats verwijderde berichten naar de prullenbak</move_to_trash>
+    <auto_add_recipient_to_addressbook>Automatisch geadresseerden toevoegen aan  mijn Contactpersonen</auto_add_recipient_to_addressbook>
+    <edit_rules>Regels Bewerken</edit_rules>
+    <rules>Regels</rules>
+    <forward_messages>Berichten doorsturen</forward_messages>
+    <inline>Inline</inline>
+    <as_attachment>Als bijlage</as_attachment>
+    <autoupdate_message>Automatisch controleren op nieuwe mail elke (minuten)</autoupdate_message>
+    <autosave_message>Automatisch opslaan van bericht elke (minuten)</autosave_message>
+    <calendar_settings>Agenda</calendar_settings>
+    <main>Algemeen</main>
+    <day_begins_at>Dag begint om</day_begins_at>
+    <day_ends_at>Dag eindigt om</day_ends_at>
+    <week_begins_on>Week begint op</week_begins_on>
+    <week_starts_today>Week begint op huidige dag</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Delen</sharing_settings>
+    <shared_email>Gedeelde e-mail</shared_email>
+    <email>E-mail</email>
+    <rights>Rechten</rights>
+    <read>Lezen</read>
+    <write>Schrijven</write>
+    <modify>Aanpassen</modify>
+    <delete>Verwijderen</delete>
+    <owner>Beheer</owner>
+    <acc_name>Naam</acc_name>
+    <quota>Schijf Quota</quota>
+    <sms_quota>SMS Quota</sms_quota>
+    <quota_home>Disk Quota (incl. items in alle mail mappen, Bestands Mappen, Bijlangen bij contacten, gebeurtenissen etc,...)</quota_home>
+    <description>Omschrijving</description>
+    <old_password>Oud Wachtwoord</old_password>
+    <new_password>Nieuw Wachtwoord</new_password>
+    <new_password_conf>Bevestig Wachtwoord</new_password_conf>
+    <save_drafts_to>Bewaar concepten in</save_drafts_to>
+    <default_flag>Standaard vlag</default_flag>
+    <alternative_email>Alternatief e-mailadres</alternative_email>
+    <default_settings>Standaard instellingen</default_settings>
+    <event_view>Agenda Overzicht</event_view>
+    <event_show_as>Afspraken weergeven als</event_show_as>
+    <event_sharing>Afspraken delen</event_sharing>
+    <contact_sharing>Contacten delen</contact_sharing>
+    <journal_sharing>Logboek delen</journal_sharing>
+    <note_sharing>Notities delen</note_sharing>
+    <task_sharing>Taken delen</task_sharing>
+    <file_sharing>Bestanden Delen</file_sharing>
+    <force_for_domainadmin>Forceer deze opties voor zowel Domein admins als gebruikers</force_for_domainadmin>
+    <force_for_users>Forceer deze optie voor Gebruikers</force_for_users>
+    <force>Forceer Optie</force>
+  </settings>
+  <email_priority>
+    <highest>Hoogste</highest>
+    <high>Hoog</high>
+    <normal>Normaal</normal>
+    <medium>Medium</medium>
+    <low>Laag</low>
+    <lowest>Laagste</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Selecteer map</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Selecteer Item</insert_item>
+    <untitled>Geen titel</untitled>
+    <embedded>Ingesloten</embedded>
+    <link>Verwijzing</link>
+  </insert_item>
+  <attendees>
+    <shared>Voorgestelde Contactpersonen</shared>
+    <add_title>Toevoegen</add_title>
+    <edit_title>Bewerk</edit_title>
+    <resource>Bron</resource>
+    <remove>Verwijderen</remove>
+    <edit>Bewerken</edit>
+    <name>Naam</name>
+    <email>E-mail</email>
+    <folder>Selecteer Map</folder>
+    <all_attendees>Alle Deelnemers</all_attendees>
+    <status>Status</status>
+    <status_p>In Behandeling</status_p>
+    <status_a>Aanvaard</status_a>
+    <status_d>Geweigerd</status_d>
+    <role>Rol</role>
+    <role_q>Verplicht</role_q>
+    <role_s>Bron</role_s>
+    <role_t>Optioneel</role_t>
+    <role_g>Organisator</role_g>
+    <quick_add>Vermeld Deelnemer of Bron naam</quick_add>
+  </attendees>
+  <dial>
+    <dial>Kies</dial>
+    <keypad>Toetsenbord</keypad>
+    <call>Bel</call>
+    <mute>Mute</mute>
+    <answer>Antwoorden</answer>
+    <decline>Weigeren</decline>
+    <filter>Alleen WebTelefoon contacten weergeven</filter>
+    <hfilter>Alleen gemiste gesprekken weergeven</hfilter>
+    <phone>WebPhone</phone>
+    <duration>Duur:</duration>
+    <video>Video</video>
+    <localcam>Deze Computer</localcam>
+    <remotecam>Externe Computer</remotecam>
+    <answer_video>Antwoorden + Video</answer_video>
+    <hang_up>Ophangen</hang_up>
+    <busy>Gebruiker is Bezet</busy>
+    <pbook>Telefoonboek</pbook>
+    <refresh>Geschiedenis Herladen</refresh>
+    <call_duration>Gespreksduur %s</call_duration>
+    <history>Geschiedenis</history>
+    <missed>Gemist</missed>
+    <incoming>Inkomende</incoming>
+    <outgoing>Uitgaande</outgoing>
+    <select_contect>Kies voorkeus contact</select_contect>
+    <calling>Belt naar</calling>
+    <incomingcall>Gesprek van</incomingcall>
+    <callestablished>Gesprek met</callestablished>
+    <notify_ext>Via externe Telefoon gekozen</notify_ext>
+  </dial>
+  <sip>
+    <sip>WebPhone</sip>
+    <external>Dial over external phone</external>
+    <screen>Call with screensharing</screen>
+    <sip_status>WebPhone: %s</sip_status>
+    <default_contact>Standaard WebTelefoon Contact</default_contact>
+    <unreachable>Server is onbereikbaar</unreachable>
+    <device>Geen audio apparaat gevonden</device>
+    <videonotsupported>Uw browser ondersteund geen Video gesprekken. Voor de beste resultaten kunt u de laatste versie van Chrome of FireFox downloaden.</videonotsupported>
+    <offline>WebPhone is Offline (gesprekken worden afgehandeld over externe VOIP Softphone/Telefoon)</offline>
+    <outgoingcall>U Belt %s</outgoingcall>
+    <incomingcall>%s Belt naar U</incomingcall>
+    <callongoing>U bent in gesprek met %s</callongoing>
+    <callestablished>Gesprek met %s tot stand gbracht</callestablished>
+    <userbusy>User %s is in gesprek</userbusy>
+    <callfinished>Oproep beeindigd</callfinished>
+    <callcanceled>Het gesprek is beëindigd</callcanceled>
+    <notreachable>Kan gebruiker niet via WebPhone bereiken</notreachable>
+    <calldeclined>Het gesprek is afgewezen</calldeclined>
+    <info>WebTelefoon Info: %s</info>
+    <notification>Gebruiker %s is %s</notification>
+    <error>WebPhone Waarschuwing</error>
+    <notice>WebPhone Waarschuwing</notice>
+    <udp>WebPhone verbindingsfout. Controleer uw internet verbinding</udp>
+    <slow>Opstarten te langzaam, WebPhone werkt mogelijk niet goed</slow>
+    <init>WebPhone verbindingsprobleem, Controleer uw instellingen in Opties - Telefoon</init>
+    <mediarequest>Graag toegang geven tot uw microfoon of webcam. Als het nog niet werkt, klik op de Troubleshoot knop hieronder om naar de interactieve handleiding te gaan.</mediarequest>
+    <invalidstate>Kan geen toegang krijgen tot de benodigde media apparaten. Een ander programma kan de apparaten al in gebruik hebben.</invalidstate>
+    <nopermission>Toegang tot het media apparaat geweigerd of geblokkeerd. U zult toegang moeten geven tot uw microfoon en camera om deel te nemen.</nopermission>
+    <mediadenied>Kan geen toegang krijgen tot  benodigde media appara(a)t(en), Mogelijk zijn deze niet aangesloten of niet goed ingesteld</mediadenied>
+    <ffmedia>Toegang tot media niet toegestaan. Gebruik het microfoon of camera-icoon linksboven in de browser om toegang tot de media toe te staan.</ffmedia>
+    <nowebrtc>Uw browser ondersteunt geen WebRTC voor audio / video. Gebruik een andere browser (wij raden Chrome) of installeer een WebRTC browser plugin.</nowebrtc>
+    <gettingmedia>Er is een gesprek of vergadering in voortgang, Om verder te gaan zult u toestemming moeten geven om de apparaten te gebruiken</gettingmedia>
+    <occupied>WebPhone is al in gebruik.</occupied>
+  </sip>
+  <conference>
+    <planner>WebMeeting planner</planner>
+    <aborted>De meeting is beëindigd.</aborted>
+    <access>Toegang informatie</access>
+    <allattendees>Alle Deelnemers</allattendees>
+    <missinguserid>U neemt geen deel aan deze meeting, Meeting wordt beeindigd</missinguserid>
+    <appletrunning>Java Gestart, Wachten op toegang tot de meeting</appletrunning>
+    <callestablished>WebMeeting is in progress</callestablished>
+    <callfinished>WebMeeting has ended</callfinished>
+    <came>Heeft plaats genomen in de meeting</came>
+    <cancelled>De meeting is onverwacht beeindigd</cancelled>
+    <privatechat>Start Prive Chat</privatechat>
+    <chatalreadymeeting>U heeft een uitnodiging ontvangen voor een nieuwe meeting, U kunt deze niet aanvaarden, omdat u nog in een andere meeting actief bent.</chatalreadymeeting>
+    <chatinvite>I would like to invite you to a WebMeeting</chatinvite>
+    <closed>The WebMeeting session ended</closed>
+    <closing>Wilt u de meeting verlaten of de meeting beeindigen voor alle deelnemers?</closing>
+    <confirminvite>sent you an invitation to WebMeeting</confirminvite>
+    <connectfailure>Niet in staat om te verbinden met Meeting</connectfailure>
+    <connecting>Tracht te verbinden met Meeting</connecting>
+    <create>Create new WebMeeting</create>
+    <created>WebMeeting created, starting meeting...</created>
+    <createfirst>There is currently no WebMeeting in progress, would you like to start one?</createfirst>
+    <delegate>Maak beheerder</delegate>
+    <screen>Remote screen</screen>
+    <desktop>Deel beeldscherm</desktop>
+    <waitvideo>Wacht op extern scherm</waitvideo>
+    <notchrome>Om scherm delen te kunnen gebruiken, moet u gebruik maken van Chrome</notchrome>
+    <nohttps>Beveiligde verbinding (https) is vereist voor het delen van schermen.</nohttps>
+    <noplugin>Screen-sharing plugin is niet geinstalleerd.</noplugin>
+    <desktopinfo>Deel uw scherm met andere deelnemers</desktopinfo>
+    <dialin>als u wilt inbellen, gebruik dan een van de volgede nummers:</dialin>
+    <disablefirebug>Firebug extentie kan storen met deze functie, Wij adviseren de Firebug plugin te deactiveren, en daarna opnieuw u aan te melden.</disablefirebug>
+    <dismiss>Dump Deelnemer</dismiss>
+    <duration>Duur:</duration>
+    <end>End WebMeeting</end>
+    <endcall>Beëindig gesprek</endcall>
+    <endforall>End WebMeeting for all</endforall>
+    <endinfo>Verbreek meeting</endinfo>
+    <finished>Uw Audio opname wordt verwerkt en opgeslagen in de map Documenten</finished>
+    <generalerror>Unspecified meeting-related error occurred.</generalerror>
+    <id>Meeting ID:</id>
+    <shortid>ID:</shortid>
+    <info>WebMeeting Info</info>
+    <instruct>U bent nu verbonden met een Voice-confrerntie, gebruik van uw microfoon en speekers wordt ondersteund. Voor optimaal gesprekscomfort adviseren wij een headset</instruct>
+    <invalidmeetingid>Deelname aan deze meeting is niet mogelijk, Meeting is verlopen, of een verkeerde Meeting ID</invalidmeetingid>
+    <invalidsessionid>De sessie is verlopen, Meeting wordt beëindigd</invalidsessionid>
+    <invitationedit>Uitnodigings tekst:</invitationedit>
+    <invite>Uitnodigen</invite>
+    <inviteinfo>Nodig deelnemers uit</inviteinfo>
+    <invitation_sent>Uitnodiging verzonden aan</invitation_sent>
+    <invited>WebMeeting invitation received</invited>
+    <invitesubject>WebMeeting Invitation</invitesubject>
+    <join>Join WebMeeting</join>
+    <joining>maakt contact met meeting</joining>
+    <leave>Velaat</leave>
+    <leaveinfo>Leave WebMeeting</leaveinfo>
+    <leaveorend>Selecteer een nieuwe voorzitter als u de meeting wilt voortzetten, anders zal de meeting worden beëindigd voor alle deelnemers</leaveorend>
+    <leaving>Weet u zeker dat u de meeting wilt verlaten?</leaving>
+    <left>heeft de meeting verlaten</left>
+    <leftchat>Bericht kon niet worden afgeleverd, Deze deelnemer heeft de meeting verlaten</leftchat>
+    <mailinvite>U kunt nu deelnemen aan deze meeting</mailinvite>
+    <manager>Voorzitter</manager>
+    <meeting>WebMeeting</meeting>
+    <mikogoerror>Server reported an error with screen sharing.</mikogoerror>
+    <servererror>Algemene Meeting gerelateerde fout opgetreden, Neem contact op met de Systeembeheerder</servererror>
+    <connectionerror>De meeting is beëindigd als gevolg van een netwerk connectie fout, probeer het later opnieuw</connectionerror>
+    <mute>Mute</mute>
+    <muteall>Mute alle deelnemers</muteall>
+    <muteinfo>Mute microfoon</muteinfo>
+    <muteone>Mute Deelnemer</muteone>
+    <attendees>Deelnemers</attendees>
+    <chat>WebChat</chat>
+    <name>Naam:</name>
+    <needspecialpermissions>Geen rechten voor deze actie</needspecialpermissions>
+    <networkrequesterror>Er is een netwerkfout opgetreden. U bent van de meeting losgekoppeld</networkrequesterror>
+    <nocallallowed>Calls are not allowed during a WebMeeting</nocallallowed>
+    <noparticipants>Geen deelnemers</noparticipants>
+    <notaccessmode>WebMeeting service is disabled for this account.</notaccessmode>
+    <notauthenticated>U bent niet geautoriseerd voor deze service.</notauthenticated>
+    <notenabled>WebMeetings are disabled by server administrator</notenabled>
+    <notonline>Er is geen netwerkverbinding</notonline>
+    <notsetupproperly>WebMeeting service is not configured properly.</notsetupproperly>
+    <notlicensed>Insufficient license for WebMeetings.</notlicensed>
+    <licenseerror>Insufficient license to start more WebMeetings.</licenseerror>
+    <offline>The meeting is offline.</offline>
+    <ongoing>WebMeeting in progress</ongoing>
+    <onlyorganizercandothis>Deze functie is alleen toegankelijk voor de beheerder van de meeting.</onlyorganizercandothis>
+    <onlysuperusercandothis>U bent niet geautoriseerd om deze actie uit te voeren.</onlysuperusercandothis>
+    <organizer>Organisator</organizer>
+    <pending>Waiting for organizer to start the WebMeeting...</pending>
+    <phone>Telefoon:</phone>
+    <phoning>You are on a call. Would you like to end it and start the WebMeeting?</phoning>
+    <preparing>Ontvangt Meeting gegevens</preparing>
+    <promoted>is nu Voorzitter</promoted>
+    <ready>De meeting staat klaar om te starten</ready>
+    <recap>Deze informatie kunt u ten alle tijden opvragen door op &quot;info&quot; te klikken</recap>
+    <record>Audio opname</record>
+    <recordinfo>Opnemen</recordinfo>
+    <recording>Audio Opnemen</recording>
+    <restart>Restart WebMeeting</restart>
+    <schedule>Schedule WebMeeting</schedule>
+    <scheduleorstart>Wilt u nu een Meeting starten? of voor later plannen?</scheduleorstart>
+    <silenceinfo>Mute Speakers</silenceinfo>
+    <sipnoparticipants>Er zijn geen deelnemers, Meeting is beëindigd</sipnoparticipants>
+    <start>Start WebMeeting</start>
+    <started>Meeting gestart, wacht op Java</started>
+    <startedconnect>Meeting gestart, aanmelden</startedconnect>
+    <startednojava>Meeting gestart, wacht op media toegang</startednojava>
+    <starting>Meeting wordt gestart</starting>
+    <startnow>Start WebMeeting now</startnow>
+    <joinnow>Join existing WebMeeting</joinnow>
+    <terminate>Weet u zeker dt u deze meeting wilt beëindigen?</terminate>
+    <timeout>Niet in staat om verbinding met deze Meeting te behouden</timeout>
+    <unknown>Anonieme Deelnemer</unknown>
+    <unmuteone>Hef Mute op voor deelnemer</unmuteone>
+    <details>WebMeeting details</details>
+    <callin>Call-in details</callin>
+    <url>Meeting URL:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>Call ID:</callid>
+    <waitfailure>Niet in staat om de vergadering bij te wonen.</waitfailure>
+    <waiting>Wachten tot Java is gestart, dat kan even duren.</waiting>
+    <welcome>Welcome to IceWarp WebMeeting</welcome>
+    <me>Ik</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>OfficeLauncher</officelauncher>
+    <nolaunch>Java is nodig om uw Office applicaties te starten en om direct vanuit uw browser wijzigingen in het bestand te uploaden</nolaunch>
+    <nooffice>Geen Office Suite gevonden</nooffice>
+    <openfailed>Kan het bestand niet openen in Office. Wilt u het bestand downloaden?</openfailed>
+    <noappfound>Kan geen applicatie vinden om dit type document te openen.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Modus:</mode>
+    <disabled>Uitgeschakeld</disabled>
+    <respond_always>Altijd beantwoorden</respond_always>
+    <respond_once>Eenmaal beantwoorden</respond_once>
+    <respond_after_period>Opnieuw beantwoorden na periode</respond_after_period>
+    <respond_period>Opnieuw beantwoorden na (Dagen):</respond_period>
+    <from>Van</from>
+    <subject>Onderwerp</subject>
+    <text>Tekst</text>
+    <respond_only_if_to_me>Beantwoord alleen berichten gestuurd naar gebruikers e-mail adres</respond_only_if_to_me>
+    <respond_between>Beantwoord alleen tussen:</respond_between>
+    <noresponderfor>Geen reactie voor</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Doorsturen naar:</forward_to>
+    <keep_copy>E-mails bewaren in mailbox</keep_copy>
+    <forward_older>E-mail doorsturen ouder dan (Dagen):</forward_older>
+    <forward_older_to>Oudere e-mails doorsturen naar:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Toevoegen / Wijzigen</addedit>
+    <header>Koptekst</header>
+    <filters>Filters</filters>
+    <edit_header>Koptekst wijzigen</edit_header>
+    <empty_operator/>
+    <not>NIET</not>
+    <and>EN</and>
+    <or>OF</or>
+    <and_not>EN NIET</and_not>
+    <or_not>OF NIET</or_not>
+    <from>Van:</from>
+    <to>Aan:</to>
+    <subject>Onderwerp:</subject>
+    <cc>Cc:</cc>
+    <reply_to>Antwoord naar:</reply_to>
+    <date>Datum:</date>
+    <message>Bericht</message>
+    <message_type>Bericht type:</message_type>
+    <message_body>Berichttekst</message_body>
+    <custom_message_header>Aangepaste berichtkop</custom_message_header>
+    <any_message_header>Ongeacht berichtkop</any_message_header>
+    <attachment_name>Naam Bijlage</attachment_name>
+    <sender>Afzender</sender>
+    <recipient>Ontvanger</recipient>
+    <senders_ip>IP Afzender</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Afzender</ip>
+    <all_messages>Alle berichten</all_messages>
+    <no_messages>Geen berichten</no_messages>
+    <priority_is>prioriteit is</priority_is>
+    <priority_isnt>prioriteit is niet</priority_isnt>
+    <is_spam>is spam</is_spam>
+    <isnt_spam>is geen spam</isnt_spam>
+    <is_greater_than>is hoger dan</is_greater_than>
+    <is_lower_than>is lager dan</is_lower_than>
+    <match_case>Hoofdlettergevoelig</match_case>
+    <regexp>Regex</regexp>
+    <whole_word>Volledig woord</whole_word>
+    <matches>komt overeen met</matches>
+    <doesnt_match>komt niet overeen met</doesnt_match>
+    <contains_string>bevat</contains_string>
+    <doesnt_contain_string>bevat niet</doesnt_contain_string>
+    <matches_regex>komt overeen met regex</matches_regex>
+    <doesnt_match_regex>komt niet overeen met regex</doesnt_match_regex>
+    <is_string>is</is_string>
+    <isnt_string>is niet</isnt_string>
+    <spam_score>Spam score</spam_score>
+    <authorized>bevoegd</authorized>
+    <unauthorized>niet bevoegd</unauthorized>
+    <add>Toevoegen</add>
+    <delete>Verwijderen</delete>
+    <up>Omhoog</up>
+    <down>Omlaag</down>
+    <action>Actie</action>
+    <actions>Acties</actions>
+    <accept>Aanvaard</accept>
+    <reject>Weiger</reject>
+    <quarantine>Quarantaine</quarantine>
+    <spam>Spam</spam>
+    <stop_processing>Stop met het verwerken van regels</stop_processing>
+    <move_to>Verplaats naar</move_to>
+    <copy_to>Kopieer naar</copy_to>
+    <encrypt_message>Versleutel bericht</encrypt_message>
+    <set_message_priority>Verander Prioriteit</set_message_priority>
+    <set_message_flag>Verander berichtvlag naar:</set_message_flag>
+    <text>Tekst:</text>
+    <title>Titel</title>
+    <conditions>Voorwaarden</conditions>
+    <edit>Bewerken</edit>
+    <rule>Regel</rule>
+    <rules>Regels</rules>
+    <highest>hoogste</highest>
+    <high>hoog</high>
+    <normal>normaal</normal>
+    <low>laag</low>
+    <lowest>laagste</lowest>
+    <spam_is_greater_than>is hoger dan</spam_is_greater_than>
+    <spam_is_lower_than>is lager dan</spam_is_lower_than>
+    <forward_to>Doorsturen naar</forward_to>
+    <send_message>Bericht verzenden</send_message>
+    <three_dots>...</three_dots>
+    <email>E-mail</email>
+    <instant_messaging>WebChat</instant_messaging>
+    <active>Actief</active>
+  </filters>
+  <rich>
+    <alt>Alternatieve tekst</alt>
+    <code>Bron</code>
+    <paragraph>Alinea</paragraph>
+    <normal>Normaal</normal>
+    <heading>Kop</heading>
+    <clearformatting>Verwijder opmaak</clearformatting>
+    <font>Lettertype</font>
+    <size>Grootte</size>
+    <rows>Rijen</rows>
+    <columns>Kolommen</columns>
+    <padding>Cel Opvulling</padding>
+    <spacing>Cel Afstand</spacing>
+    <img_spacing>Afstand</img_spacing>
+    <bordercolor>Rand Kleur</bordercolor>
+    <border>Rand</border>
+    <bold>Maak Vet</bold>
+    <italic>Maak Cursief</italic>
+    <underline>Onderstreep tekst</underline>
+    <style>Formaat type</style>
+    <align>Tekst uitlijning</align>
+    <left>Links uitlijnen</left>
+    <center>Tekst centreren</center>
+    <right>Rechts uitlijnen</right>
+    <justify>uitvullen</justify>
+    <numberedlist>Genummerde opsomming</numberedlist>
+    <bulletedlist>Gepunte lijst</bulletedlist>
+    <indent>Gestreept</indent>
+    <leftindent>Links streep</leftindent>
+    <rightindent>rechts streep</rightindent>
+    <bgcolor>Achtergrondkleur</bgcolor>
+    <color>Tekstkleur</color>
+    <cut>Selectie knippen</cut>
+    <copy>Selectie kopieren</copy>
+    <paste>Selectie plakken</paste>
+    <pastew>Als tekst plakken</pastew>
+    <insert>Invoegen</insert>
+    <addlink>Link</addlink>
+    <table>Tabel</table>
+    <image>Afbeelding</image>
+    <dropbox>Dropbox link</dropbox>
+    <spell>Spellings controle</spell>
+    <url>URL</url>
+    <uploaded>Geupload</uploaded>
+    <internal>Intern</internal>
+    <direction>Tekst richting (HTML)</direction>
+    <ltr>Links naar rechts</ltr>
+    <rtl>Rechts naar links</rtl>
+    <screenshot>Maak screenshot</screenshot>
+    <paste_img>Plaatje invoegen</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Laden</loading>
+    <framework>Framework laden</framework>
+    <settings>Instellingen laden</settings>
+    <language>Bronnen Laden</language>
+    <indexing>Indexeren</indexing>
+    <startup>Opstarten</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Desktop Client</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Download Desktop Client</help_win_desktop1>
+    <help_win_desktop2>Start de Installatie, In het Desktop Client hoofdmenu kies: &lt;b&gt;Opties - Accounts&lt;/b&gt;. In het volgende dialoog klik &lt;b&gt;Nieuw Account&lt;/b&gt; De Wizzard Nieuw Account Wizzard start nu. Vul de gegevens &lt;i&gt;Email&lt;/i&gt; en &lt;i&gt;Wachtwoord&lt;/i&gt; in en klik &lt;b&gt;Start Nu&lt;/b&gt;</help_win_desktop2>
+    <help_win_desktop3>Op de Account Details pagina kunt u uw Accountnaam aanpassen. Klik op volgende. Op de volgende pagina kunt u opties aan en uit zetten naar keuze. Om af te ronden klikt u op Klaar.</help_win_desktop3>
+    <help_win_osync1>Download Outlook Sync</help_win_osync1>
+    <help_win_osync2>Start de installatie.Op de SmartDiscover pagina vult u uw &lt;i&gt;E-mail Adres&lt;/I&gt; en &lt;i&gt;Wachtwoord&lt;/I&gt; in, klik &lt;b&gt;niet&lt;/b&gt; op &lt;i&gt;SmartDiscover Overslaan en handmatig configureren&lt;/i&gt;. Klik op volgende</help_win_osync2>
+    <help_win_osync3>In de volgende stap, wordt het licentie scherm getoond.</help_win_osync3>
+    <help_win_osync4>Als u een licentie voor IceWarp Outlook Sync heeft ontvangen, klikt u op Ja. Als u IceWarp Outlook Sync eerst in proefperiode van 30 dagen wilt gebruiken, klik Nee</help_win_osync4>
+    <help_win_osync5>Klik op Voltooien om de installatie af te ronden.</help_win_osync5>
+    <help_win_20131>In het &lt;b&gt;Bestand&lt;/b&gt; menu, op de &lt;b&gt;Account Informatie&lt;/b&gt; pagina, klik &lt;b&gt;Account toevoegen&lt;/b&gt;, de Nieuwe Account dialoog start. Op de &lt;b&gt;Auto Account Setup&lt;/b&gt; pagina, selecteert u de &lt;i&gt;Handmatige setup,en aanvullende servertypes&lt;/i&gt; optie en druk op volgende&#13;&#10;Op de &lt;b&gt;Kies Service&lt;/b&gt; pagina, Kies &lt;i&gt;Outlook.com of Exchange ActiveSync compatible service&lt;/i&gt; optie and klik op Volgende.</help_win_20131>
+    <help_win_20132>Op de &lt;b&gt;Server Instellingen&lt;/b&gt; pagina vult u uw gebruikersnaam, server en login informatie in, Klik op Volgende.</help_win_20132>
+    <help_win_20133>Na de account instellingen test, klik op voltooien.</help_win_20133>
+    <help_osx_all_applications_title>Alle programma&apos;s</help_osx_all_applications_title>
+    <help_osx_messages_title>Berichten</help_osx_messages_title>
+    <help_osx_messages1>Open berichten en in het hoofdmenu kiest u &lt;b&gt;Berichten - Voeg Account toe&lt;/b&gt; Uit de lijst met account types kiest u &lt;b&gt;Overige berichtservicest&lt;/b&gt; en klik op Volgende</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Agenda</help_osx_calendar_title>
+    <help_osx_calendar1>Open Agenda en selecteer van het basis menu &lt;b&gt;Agenda - Account toevoegen&lt;/b&gt;. Van de type account om toe te voegen, kies &lt;b&gt;Toevoegen CalDAV Account&lt;/b&gt; en klik op doorgaan.</help_osx_calendar1>
+    <help_osx_calendar2>In de &lt;b&gt;CalDAV Account toevoegen&lt;/b&gt; dialoog, van het &lt;i&gt;Account Type&lt;/i&gt; opties, selecteer &lt;b&gt;Manual&lt;/b&gt;.&#13;&#10;Typ uw e-mailadres in als &lt;i&gt;Gebruikersnaam&lt;/i&gt; en uw &lt;i&gt;Wachtwoord&lt;/i&gt;.&#13;&#10;In het &lt;i&gt;Server Adres&lt;/i&gt; veld, typ de server hostnaam in. Klik op Aanmaken.</help_osx_calendar2>
+    <help_osx_calendar3>Om &lt;b&gt;Herinneringen in te stellen&lt;/b&gt; ga naar &lt;b&gt;Systeem Instellingen - Internet Accounts&lt;/b&gt; en localiseer de Agenda account die u zojuist heeft ingesteld. Klik op de checkbox door &lt;i&gt;Gebruik met: Herinneringen&lt;/i&gt;</help_osx_calendar3>
+    <help_osx_contacts_title>Contacten</help_osx_contacts_title>
+    <help_osx_contacts1>Open Contacten, selecteer van het basis menu &lt;b&gt;Contacten - Account Toevoegen&lt;/b&gt;. Van de account types om toe te voegen, kies &lt;b&gt;Ander contacten account&lt;/b&gt; en klik op Doorgaan.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>Alle applicaties</help_osx_all>
+    <help_osx_all1>Download configurator</help_osx_all1>
+    <help_osx_all2>Open het gedownloade IceWarp Configurator image bestand. Voer IceWarp Configurator uit. Indien er aangegeven word dat de applicatie gedownload is van het Internet, klik Openen. Vul de velden e-mail adres en Wachtwoord in en klik op &lt;strong&gt;Doorgaan&lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>Elke applicatie die automatisch ingesteld kan worden heeft een groene &lt;strong&gt;Verbinden&lt;/strong&gt; knop ernaast. Klik een voor een, of selecteer &lt;strong&gt;Allemaal Verbinden&lt;/strong&gt; om alle beschikbare applicaties in te stellen.</help_osx_all3>
+    <help_tablet_and_title>Android Tablets</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Windows Tablets</help_tablet_win_title>
+    <help_tablet_win1>Aan de rechter zijde van het &lt;b&gt;Start&lt;/b&gt; scherm, selecteer de &lt;i&gt;Instellingen - PC Instellingen aanpassen - Accounts&lt;/i&gt;. Op de Account pagina, selecteer de &lt;i&gt;Andere accounts&lt;/i&gt; optie.&#13;&#10;Op de pagina Andere Accounts, klik &lt;i&gt;Gebruiker toevoegen&lt;/i&gt;. Op de volgende pagina, vul de server hostnaam in en klik Volgende.</help_tablet_win1>
+    <help_tablet_win2>Op de Aanmaken Microsoft Account pagina, vul je account gegevens in en klik op Volgende.</help_tablet_win2>
+    <help_tablet_win3>Op de Beveiligings info Toevoegen pagina, stel je beveiligingsinstellingen in en klik op Volgende. Op de Communicatie Instellingen pagina, klik Volgende. Op de laatste pagina, klik Voltooien.</help_tablet_win3>
+    <help_phone_and_title>Android Apparaten</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>Op het &lt;b&gt;Remote Beveiliging Administratie&lt;/b&gt; scherm, klik &lt;b&gt;OK&lt;/b&gt;. Dit is essensieel om de beveiligingsinstellingen van het bedrijf te forceren, of te resetten op afstand als het verloren is.</help_phone_and2>
+    <help_phone_and3>Op het &lt;b&gt;Account instellingen&lt;/b&gt; scherm, kies &lt;i&gt;frequentie Inbox vernieuwen&lt;/i&gt; en stel in hoe oud e-mails mogen worden gesynchroniseerd onder &lt;i&gt;Dagen synchroniseren&lt;/i&gt;. Klik optioneel &lt;i&gt;Verzend e-mail standaard vanaf deze account&lt;/i&gt;, Bekijk andere instellingen of klik Volgende.</help_phone_and3>
+    <help_phone_and4>Vul een account naam in om deze account te identificeren in de applicaties en klik Volgende.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>Ga naar &lt;b&gt;Settings&lt;/b&gt;, selecteren &lt;i&gt;e-mail, Contacten, Agenda&apos;s - Account Toevoegen - Exchange&lt;/i&gt; optie&apos;s.</help_ios1>
+    <help_ios2>Op de volgende pagina, vul in de &lt;i&gt;e-mail adres, Wachtwoord, Omschrijving&lt;/i&gt; velden. Klik Volgende.</help_ios2>
+    <help_ios3>Op de volgende pagina, optioneel kun je functies deactiveren die je niet wilt gebruiken door deze met de slider uit te schakelen. Druk op Opslaan. Geavanceerde instellingen kunnen worden gevonden onder account&apos;s Beschrijving in het &lt;b&gt;e-mail, Contacten, Agenda&apos;s - Account &lt;/b&gt; gedeelte.</help_ios3>
+    <help_phone_win_title>Windows Telefoon</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Vul je &lt;i&gt;e-mail adres&lt;/i&gt; in en &lt;i&gt;Wachtwoord&lt;/i&gt;. Wanneer je klaar bent, druk op &lt;b&gt;Inloggen&lt;/b&gt;.</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X are trademarks of Apple Inc., registered in the U.S. and other countries. Microsoft, Windows, Outlook and Windows Phone are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries. Android is a trademark of Google Inc. IceWarp is a registered trademark in the USA and other countries.</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>e-mail, agenda&apos;s, contacten, taken</subtitle>
+    <descr>Stap-voor-stap account instellingen.</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>IceWarp Desktop Client Instellingen</subtitle>
+    <descr>Stap-voor-stap installatie.</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Agenda&apos;s en Herinneringen</subtitle>
+    <descr>Stap-voor-stap instellingen voor Mac.</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>E-mail, agenda, mensen</subtitle>
+    <descr>Stap-voor-stap installatie.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Telefoon</title>
+    <subtitle>E-mail, agenda&apos;s en contacten</subtitle>
+    <descr>Stap-voor-stap account instellingen.</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>E-mail, agenda&apos;s en contacten</subtitle>
+    <descr>Stap-voor-stap account instellingen.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Vorige pagina</previous_title>
+    <previous_label>Vorige</previous_label>
+    <next_title>Volgende pagina</next_title>
+    <next_label>Volgende</next_label>
+    <page_label>Pagina:</page_label>
+    <page_of>van {{pageCount}}</page_of>
+    <zoom_out_title>Uit zoomen</zoom_out_title>
+    <zoom_out_label>Uit zoomen</zoom_out_label>
+    <zoom_in_title>Zoom in</zoom_in_title>
+    <zoom_in_label>Zoom in</zoom_in_label>
+    <zoom_title>Zoom</zoom_title>
+    <presentation_mode_title>Overschakelen naar Volledig scherm</presentation_mode_title>
+    <presentation_mode_label>Volledig scherm</presentation_mode_label>
+    <print_title>Printen</print_title>
+    <print_label>Printen</print_label>
+    <download_title>Download</download_title>
+    <download_label>Download</download_label>
+    <bookmark_title>Bookmark</bookmark_title>
+    <bookmark_label>Bookmark</bookmark_label>
+    <tools_title>Tools</tools_title>
+    <tools_label>Tools</tools_label>
+    <first_page_title>Ga naar de eerste pagina</first_page_title>
+    <first_page_label>Ga naar de eerste pagina</first_page_label>
+    <last_page_title>Ga naar de laatste pagina</last_page_title>
+    <last_page_label>Ga naar de laatste pagina</last_page_label>
+    <page_rotate_cw_title>Roteren met de klok mee</page_rotate_cw_title>
+    <page_rotate_cw_label>Roteren met de klok mee</page_rotate_cw_label>
+    <page_rotate_ccw_title>Roteren tegen de klok in</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Roteren tegen de klok in</page_rotate_ccw_label>
+    <hand_tool_enable_title>Schakel Handje in</hand_tool_enable_title>
+    <hand_tool_enable_label>Schakel Handje in</hand_tool_enable_label>
+    <hand_tool_disable_title>Schakel Handje uit</hand_tool_disable_title>
+    <hand_tool_disable_label>Schakel Handje uit</hand_tool_disable_label>
+    <document_properties_label>Document eigenschappen</document_properties_label>
+    <document_properties_file_name>Bestandsnaam:</document_properties_file_name>
+    <document_properties_file_size>Bestandsgrote:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>Titel:</document_properties_title>
+    <document_properties_author>Autheur:</document_properties_author>
+    <document_properties_subject>Onderwerp:</document_properties_subject>
+    <document_properties_keywords>Trefwoorden:</document_properties_keywords>
+    <document_properties_creation_date>Creatie datum:</document_properties_creation_date>
+    <document_properties_modification_date>Modificatie datum:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Maker:</document_properties_creator>
+    <document_properties_producer>Producer:</document_properties_producer>
+    <document_properties_version>Versie:</document_properties_version>
+    <document_properties_page_count>Aantal pagina&apos;s:</document_properties_page_count>
+    <document_properties_close>Sluiten</document_properties_close>
+    <toggle_sidebar_title>Toggle sidebar</toggle_sidebar_title>
+    <toggle_sidebar_label>Toggle sidebar</toggle_sidebar_label>
+    <outline_title>Document overzicht weergeven</outline_title>
+    <outline_label>Document overzicht weergeven</outline_label>
+    <thumbs_title>Plaatjes weergeven</thumbs_title>
+    <thumbs_label>Plaatjes weergeven</thumbs_label>
+    <findbar_title>Zoeken in document</findbar_title>
+    <findbar_label>Zoeken</findbar_label>
+    <thumb_page_title>Pagina {{page}}</thumb_page_title>
+    <thumb_page_canvas>Plaatje van pagina {{page}}</thumb_page_canvas>
+    <find_label>Zoek:</find_label>
+    <find_previous_title>Zoek vorige</find_previous_title>
+    <find_previous_label>Vorige</find_previous_label>
+    <find_next_title>Zoek volgende</find_next_title>
+    <find_next_label>Volgende</find_next_label>
+    <find_highlight>Markeer allemaal</find_highlight>
+    <find_match_case_label>conform volgorde</find_match_case_label>
+    <find_reached_top>Begin van het document bereikt</find_reached_top>
+    <find_reached_bottom>Onderkant van het document bereikt</find_reached_bottom>
+    <find_not_found>Niet gevonden</find_not_found>
+    <error_more_info>Meer info</error_more_info>
+    <error_less_info>Minder info</error_less_info>
+    <error_close>Sluiten</error_close>
+    <error_version_info>PDF.js v{{version}} (build: {{build}})</error_version_info>
+    <error_message>Bericht: {{message}}</error_message>
+    <error_stack>Stack: {{stack}}</error_stack>
+    <error_file>Bestand: {{file}}</error_file>
+    <error_line>Lijn: {{line}}</error_line>
+    <rendering_error>Rendering error</rendering_error>
+    <page_scale_width>Volledige breedte</page_scale_width>
+    <page_scale_fit>Volledige pagina</page_scale_fit>
+    <page_scale_auto>Automatisch zoomen</page_scale_auto>
+    <page_scale_actual>Werkelijke grote</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Error</loading_error_indicator>
+    <loading_error>Error tijdens laden PDF</loading_error>
+    <invalid_file_error>Ongeldig of corrupt PDF bestand</invalid_file_error>
+    <missing_file_error>PDF bestand mist</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>Vul wachtwoord in om deze beveiligde PDF te openen</password_label>
+    <password_invalid>Ongeldig wachtwoord, probeer het opnieuw.</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Annuleren</password_cancel>
+    <printing_not_supported>Waarschuwing: Printen is niet volledig ondersteund met deze browser.</printing_not_supported>
+    <printing_not_ready>Waarschuwing: PDF is niet volledig geladen voor printen.</printing_not_ready>
+    <web_fonts_disabled>Web fonts zijn uitgeschakeld: niet mogelijk om PDF fonts gebruiken.</web_fonts_disabled>
+    <document_colors_disabled>PDF-document is niet toegestaan om kleuren te gebruiken.</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>WebDocument</title>
+    <preview>Document preview</preview>
+    <error>WebDocument Error</error>
+    <error_msg>Document loading problem. You may need to close and reopen the document for full functionality.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

@@ -1,0 +1,61 @@
+.frm_send_by_email .icon {
+	width: 48px;
+	height: 48px;
+	margin: 75px auto 16px auto;
+	position: relative;
+	border-radius: 50%;
+	border: 1px solid {bg_main #08C};
+}
+.frm_send_by_email .icon:before {
+	content: '\e942';
+	font-family: 'ico16';
+	display: block;
+	font-size: 24px;
+	line-height: 48px;
+	text-align: center;
+	padding-left: 2px;
+	color: {bg_main #08C};
+}
+
+.frm_send_by_email .container2 .title {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 8px;
+	font-weight: 500;
+}
+
+.frm_send_by_email .subtitle {
+	text-align: center;
+	font-size: 13px;
+	line-height: 18px;
+	color: #6b6b6b;
+	margin-bottom: 32px;
+}
+
+.frm_send_by_email .to {
+	border-radius: 2px;
+	border: 1px solid #e5e5e5;
+	margin: 0 auto 28px auto;
+	width: 448px;
+	padding-left: 32px;
+	position: relative;
+}
+
+.frm_send_by_email .to div.obj_mail_suggest > div {
+	max-height: none;
+}
+
+.frm_send_by_email .to > .obj_button {
+	position: absolute;
+	top: 0;
+	left: 2px;
+	color: {bg_main 308C};
+}
+
+.frm_send_by_email .send {
+	width: 144px;
+	float: none;
+	margin: 0 auto 75px auto;
+	text-align: center;
+}
+

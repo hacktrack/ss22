@@ -1,0 +1,420 @@
+#gui > .obj_notifier{
+	display: block;
+	position: absolute;
+	z-index: 9000;
+	top: 95px;
+	right: 80px;
+}
+.rtl #gui > .obj_notifier {
+	direction: rtl;
+	left: 80px;
+	right: auto;
+}
+
+#gui > .obj_notifier div.container{
+    transition: all 0.3s;
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.15);
+    margin-bottom: 10px;
+    overflow: hidden;
+	width: 340px;
+	border: 1px solid #ECECEC;
+    border-radius: 4px;
+}
+
+#gui > .obj_notifier div.notification{
+	background-color: #FAFAFA;
+	position: relative;
+    width: 340px;
+	height: 0px;
+    min-height: 72px;
+	font-size: 13px;
+    cursor: default;
+	display: table;
+	overflow: hidden;
+}
+
+#gui > .obj_notifier>div.closing{
+	opacity: 0;
+	transform: translateX(100%);
+}
+.rtl #gui > .obj_notifier>div.closing {
+	transform: translateX(-100%);
+}
+
+#gui > .obj_notifier div.close{
+	opacity: 0;
+	position:absolute;
+	top: 7px;
+	right: 7px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+#gui > .obj_notifier div.close:after {
+	content: '\e602';
+	font-family: 'ico16';
+}
+
+#gui > .obj_notifier .notification:hover div.close {
+	opacity: 1;
+}
+
+.rtl #gui > .obj_notifier div.close {
+	left: 7px;
+	right: auto;
+}
+
+#gui > .obj_notifier div.icon {
+	min-width: 72px;
+    font-size: 32px;
+    font-family: 'ico32';
+    display: table-cell;
+	vertical-align: middle;
+    text-align: center;
+	color: {bg_main #08C};
+}
+
+#gui > .obj_notifier .alert div.icon {
+	color: #D0021B;
+}
+
+.rtl #gui > .obj_notifier div.icon {
+	left: auto;
+	right: 0;
+}
+
+#gui > .obj_notifier div.icon:after {
+	content: '\e910';
+	font-family: 'ico32';
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+#gui > .obj_notifier div.icon.avatar:after {
+	display: none;
+}
+
+
+#gui > .obj_notifier div.icon.avatar img {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 1px solid transparent;
+}
+
+#gui > .obj_notifier div.content {
+	min-height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+	line-height: 17px;
+	width: 100%;
+	max-width: 266px;
+	padding: 5px 10px 5px 0;
+}
+
+.rtl #gui > .obj_notifier div.content {
+	left: auto;
+	right: 72px;
+}
+
+#gui > .obj_notifier div.content .header {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+#gui > .obj_notifier div.content .text {
+    font-size: 13px;
+}
+
+#gui > .obj_notifier .im div.content .text,
+#gui > .obj_notifier .teamchat div.content .text {
+	text-overflow: ellipsis;
+    overflow: hidden;
+	overflow-wrap: break-word;
+}
+
+#gui > .obj_notifier .right {
+	display: none;
+    position: absolute;
+    right: 0;
+	top: 0;
+	bottom: 0;
+    border-left: 1px solid #ECECEC;
+	background-color: #FAFAFA;
+	box-shadow: 0 0 25px 25px #FAFAFA;
+}
+
+#gui > .obj_notifier .buttons {
+	display: table;
+	height: 100%;
+}
+
+.rtl #gui > .obj_notifier .right {
+	left: 0;
+	right: auto;
+    border-left: none;
+	border-right: 1px solid #ECECEC;
+	box-shadow: 0 0 25px 15px #FAFAFA;
+}
+
+#gui > .obj_notifier:hover .right {
+	display: block;
+}
+
+#gui > .obj_notifier .buttons .button {
+	display: table-row;
+}
+
+#gui > .obj_notifier .buttons .button_label {
+    min-width: 70px;
+	cursor: pointer;
+	display: table-cell;
+    vertical-align: middle;
+    line-height: 18px;
+    color: #0088CC;
+    font-size: 12px;
+    font-weight: 500;
+	padding: 0 15px;
+	border-top: 1px solid #ECECEC;
+	text-align: center;
+}
+
+#gui > .obj_notifier .buttons .button:first-child .button_label {
+	border-top: none;
+}
+
+#gui > .obj_notifier .buttons .button.decline .button_label {
+    color: #D0021B;
+}
+
+#gui > .obj_notifier div.content .subtext {
+	font-size: 11px;
+	color: #999;
+	width: 240px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*							ICONS						*/
+
+#gui > .obj_notifier .clipboard div.icon:after,
+#gui > .obj_notifier .clipboard_link div.icon:after,
+#gui > .obj_notifier .clipboard_email div.icon:after {
+	content: '\e906';
+}
+#gui > .obj_notifier .new_email div.icon:after,
+#gui > .obj_notifier .email_exists div.icon:after,
+#gui > .obj_notifier .confirmation_sent div.icon:after {
+	content: '\e901';
+}
+#gui > .obj_notifier .message_redirected div.icon:after {
+	content: '\e917';
+}
+#gui > .obj_notifier .sip_external div.icon:after {
+	content: '\e90a';
+}
+#gui > .obj_notifier .sip_finished div.icon:after {
+	content: '\e912';
+}
+#gui > .obj_notifier .sip_user_busy div.icon:after {
+	content: '\e913';
+}
+#gui > .obj_notifier .sip_not_reachable div.icon:after {
+	content: '\e914';
+}
+#gui > .obj_notifier .sip_canceled div.icon:after,
+#gui > .obj_notifier .sip_declined div.icon:after {
+	content: '\e915';
+}
+#gui > .obj_notifier .sip_incoming div.icon:after {
+	content: '\e916';
+}
+#gui > .obj_notifier .conference div.icon:after,
+#gui > .obj_notifier .conference_invite div.icon:after {
+	content: '\e918';
+}
+#gui > .obj_notifier .invitation_sent div.icon:after,
+#gui > .obj_notifier .email_added div.icon:after {
+	content: '\e90c';
+}
+#gui > .obj_notifier .password_changed div.icon:after {
+	content: '\e903';
+}
+#gui > .obj_notifier .sender_blacklisted div.icon:after {
+	content: '\e90e';
+}
+#gui > .obj_notifier .sender_whitelisted  div.icon:after {
+	content: '\e90d';
+}
+#gui > .obj_notifier .account_subscribed div.icon:after {
+	content: '\e906';
+}
+#gui > .obj_notifier .folder_subscribed div.icon:after,
+#gui > .obj_notifier .account_unsubscribed div.icon:after,
+#gui > .obj_notifier .folder_unsubscribed div.icon:after {
+	content: '\e904';
+}
+#gui > .obj_notifier .event_accepted div.icon:after {
+	content: '\e909';
+}
+#gui > .obj_notifier .event_unsure div.icon:after {
+	content: '\e908';
+}
+#gui > .obj_notifier .event_declined div.icon:after {
+	content: '\e907';
+}
+#gui > .obj_notifier .event_proposed div.icon:after {
+	content: '\e900';
+}
+#gui > .obj_notifier .new_revision div.icon:after {
+	content: '\e905';
+}
+#gui > .obj_notifier .message_sent div.icon:after,
+#gui > .obj_notifier .message_sent_tch div.icon:after,
+#gui > .obj_notifier .send_message div.icon:after,
+#gui > .obj_notifier .send_message_deferred div.icon:after {
+	content: '\e90b';
+}
+#gui > .obj_notifier .success div.icon:after,
+#gui > .obj_notifier .item_saved div.icon:after,
+#gui > .obj_notifier .message_saved div.icon:after {
+	content: '\e906';
+}
+
+/*						END OF ICONS					*/
+
+.obj_context .obj_notifier {
+	max-height: 400px;
+	padding: 0;
+}
+.obj_context .obj_notifier ul {
+	position: relative;
+    display: block;
+    margin-left: auto;
+    z-index: 10;
+    left: auto;
+	top: auto;
+	border-radius: 0;
+	padding: 0;
+}
+.obj_context .obj_notifier ul li {
+	margin-left: 16px;
+	border-bottom: 1px solid #f0f0f0;
+	height: 64px;
+	display: table;
+	table-layout: fixed;
+	width: 344px;
+}
+.rtl .obj_context .obj_notifier ul li {
+	margin-left: 0;
+	margin-right: 16px;
+}
+
+.obj_context .obj_notifier ul li.action {
+	cursor: pointer;
+}
+
+.obj_context .obj_notifier ul li:last-of-type {
+	border: 0;
+}
+
+.obj_context .obj_notifier .avatar {
+	width: 44px;
+	height: 32px;
+	padding: 0;
+	position: relative;
+	margin-right: 16px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.obj_context .obj_notifier .avatar img {
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+.obj_context .obj_notifier .avatar .ico {
+	top: 28px;
+	left: 14px;
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+	font-size: 16px;
+	position: absolute;
+	border-radius: 50%;
+	font-family: 'ico16';
+	background-color: #fff;
+}
+.obj_context .obj_notifier .avatar .ico_teamchat:after {
+	content: '\e964';
+	color: #08C;
+}
+
+.obj_context .obj_notifier .avatar .ico_document:after {
+	content: '\e12';
+	color: #1a579f;
+}
+.obj_context .obj_notifier .avatar .ico_spreadsheet:after {
+	content: '\e16';
+	color: #007541;
+}
+.obj_context .obj_notifier .avatar .ico_presentation:after {
+	content: '\e19';
+	color: #b44628;
+}
+.obj_context .obj_notifier .avatar .ico_pdf:after {
+	content: '\e14';
+	color: #EA1C0F;
+}
+.obj_context .obj_notifier .avatar .ico_file:after {
+	content: '\e21';
+	color: #08C;
+}
+
+.obj_context .obj_notifier .avatar .ico_sip_canceled:after {
+	content: '\e941';
+	color: {bg_notify '#d51414'};
+}
+
+.obj_context .obj_notifier .text {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 13px;
+	padding: 0;
+	padding-right: 16px;
+	line-height: 16px;
+}
+.rtl .obj_context .obj_notifier .text {
+	padding-left: 16px;
+	padding-right: 0;
+}
+
+.obj_context .obj_notifier .text i {
+	font-style: normal;
+}
+
+.obj_context .obj_notifier .sip_canceled .text i {
+	color: {bg_notify '#d51414'};
+}
+
+.obj_context .obj_notifier .document .text i {
+	color: {bg_main '#08C'};
+}
+
+.obj_context .obj_notifier .text .first_line.single_line {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+
+.obj_context .obj_notifier .text .second_line {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.obj_context .obj_notifier .text .time {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #9a9a9a;
+}

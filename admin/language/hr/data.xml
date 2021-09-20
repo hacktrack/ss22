@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <units>
+    <kb>kB</kb>
+    <mb>MB</mb>
+    <gb>GB</gb>
+  </units>
+  <colors>
+    <blue>Plavo</blue>
+    <green>Zeleno</green>
+    <brown>Smeđe</brown>
+    <purple>Ljubičasto</purple>
+    <yellow>Žuto</yellow>
+    <teal>Plavozeleno</teal>
+    <plum>Boja šljive</plum>
+    <red>Crveno</red>
+    <aqua>Boja vode</aqua>
+    <aquamarine>Morsko-plava</aquamarine>
+    <orchid>Boja orhideje</orchid>
+    <pink>Ružičasto</pink>
+    <silver>Srebrno</silver>
+    <white>Bijelo</white>
+    <gray>Sivo</gray>
+    <lemon>Boja limuna</lemon>
+  </colors>
+  <title>
+    <new_email>* Nova e-poruka</new_email>
+    <new_im>* Nova poruka od %s</new_im>
+    <new_reminder>* Podsjetnik: %s</new_reminder>
+    <cerror>! Greška u komunikaciji</cerror>
+  </title>
+  <audio>
+    <player>Svirač</player>
+  </audio>
+  <signature>
+    <none>Bez potpisa</none>
+    <alias>Od adrese</alias>
+    <newmsg>Nove poruke</newmsg>
+    <oldmsg>Odgovori</oldmsg>
+    <signature>Potpis</signature>
+    <variable>Umetni varijablu</variable>
+  </signature>
+  <alias>
+    <add>Dodaj novi alias</add>
+    <notify>Poruka s potvrdom je poslana.</notify>
+    <instructions>Zahtjev za potvrdu bit će poslan na gornju adresu e-pošte. Molimo pregledajte ga za daljnje upute.</instructions>
+  </alias>
+  <notify>
+    <title>Podatci o obavijesti</title>
+    <to_all>Obavijesti sve osobe koje imaju pristup ovoj mapi</to_all>
+    <copy>Obavijesti i</copy>
+    <comment>Napomena (po izboru) koja će biti poslana korisnicima koje ste željeli obavijestiti o izmjenama</comment>
+    <success>Obavijest je poslana</success>
+  </notify>
+  <datagrid>
+    <nomessages>Nema poruka</nomessages>
+    <noitems>Nema stavaka</noitems>
+  </datagrid>
+  <itemview>
+    <preview>Pregled</preview>
+    <down>Donje okno</down>
+    <right>Desno okno</right>
+    <none>Nema</none>
+    <noitem>Nema stavke</noitem>
+    <message_to>Poruka za: %s</message_to>
+    <doc_revisions>Prerade dokumenta</doc_revisions>
+  </itemview>
+  <search>
+    <wizard>Čarobnjak za pretraživanje</wizard>
+    <since>Od datuma</since>
+    <until>Do datuma</until>
+    <contains>Svugdje</contains>
+    <fulltext>Cjelokupni tekst</fulltext>
+    <makefolder>Napravi mapu za pretraživanje</makefolder>
+    <contact_note>Napomena</contact_note>
+  </search>
+  <search_hints>
+    <folder>Traži stavke iz određene mape</folder>
+    <from>Koristi se za određivanje pošiljatelja (od:Ivana)</from>
+    <to>Koristi se za određivanje primatelja (za:Marija)</to>
+    <subject>Traži riječi u naslovu (naslov:Večera)</subject>
+    <or>logički operator</or>
+    <not>logički operator</not>
+    <hasattachment>Traži poruke s privitkom</hasattachment>
+    <isflagged>Traži poruke označene zastavicom</isflagged>
+    <isunread>Traži nepročitane poruke</isunread>
+    <isread>Traži pročitane poruke</isread>
+    <isdone>Traži završene zadatke</isdone>
+    <cc>Koristi se za određivanje primatelja u polju Kopija:</cc>
+    <bcc>Koristi se za određivanje primatelja u polju Skrivena kopija</bcc>
+    <sms>Koristi se za određivanje primatelja u polju SMS:</sms>
+    <after>Traži poruke poslane nakon određenog trenutka (nakon:2004/04/16)</after>
+    <after_e>Traži stavke koje počinju nakon određenog trenutka (nakon:2004/04/16)</after_e>
+    <after_f>Traži stavke promijenjene nakon određenog trenutka (nakon:2004/04/16)</after_f>
+    <after_t>Traži stavke koje završavaju nakon određenog trenutka (nakon:2004/04/16)</after_t>
+    <after_j>Traži stavke koje počinju nakon određenog trenutka (nakon:2004/04/16)</after_j>
+    <before>Traži poruke poslane prije određenog trenutka (prije:2004/04/16)</before>
+    <before_e>Traži stavke koje počinju prije određenog trenutka (prije:2004/04/16)</before_e>
+    <before_f>Traži stavke promijenjene prije određenog trenutka (prije:2004/04/16)</before_f>
+    <before_t>Traži stavke koje završavaju prije određenog trenutka (prije:2004/04/16)</before_t>
+    <before_j>Traži stavke koje počinju prije određenog trenutka (prije:2004/04/16)</before_j>
+    <title>Koristi se za određivanje naslova stavke (naslov:Test)</title>
+    <description>Koristi se za određivanje opisa ili biljješke (opis:Test)</description>
+    <name>Koristi se za određivanje imena kontakta</name>
+    <email>Koristi se za određivanje adrese e-pošte</email>
+    <keyword>Traži stavke s određenim tagom (tag:Posao)</keyword>
+    <tag>Traži stavke s određenim tagom (tag:Posao)</tag>
+    <tag2>Traži stavke s tagom &quot;%s&quot; (korišteno u %s stavkama)</tag2>
+    <greater>Traži ovisno o veličini u kB (više od:1024)</greater>
+    <smaller>Traži ovisno o veličini u kB (manje od:1024)</smaller>
+    <company>Traži kontakte u tvrtki (tvrtka:IceWarp)</company>
+    <department>Traži kontakte u odjelu (odjel:IT)</department>
+    <note>Traži kontakt s nekom bilješkom (bilješka:VIP)</note>
+    <location>Traži kontakte prema lokaciji (lokacija:London)</location>
+    <fulltext>Traži u cjelokupnom tekstu poruke (cjelokupni tekst:test)</fulltext>
+    <priority>Traži po važnosti: najviša, visoka, obična, niska, najniža (važnost:visoka)</priority>
+    <isprivate>Traži zadatke koji su privatni</isprivate>
+    <ispublic>Traži zadatke koji su javni</ispublic>
+    <isfree>Traži zadatke koji su besplatni</isfree>
+    <isbusy>Traži zadatke koji su zauzeti</isbusy>
+  </search_hints>
+  <virtual>
+    <virtual>Traži u mapi</virtual>
+    <general>Općenito</general>
+    <primary>Primarna mapa</primary>
+    <filter>Filtriraj</filter>
+    <all>Sve mape</all>
+  </virtual>
+  <notifier>
+    <notifier>Glasnik</notifier>
+    <permissions>Obavijesti na radnoj površini daju Vam do znanja kada dobijete novu poruku e-pošte ili tijekom čavrljanja, čak i ako Vaš preglednik nije vidljiv. &lt;br&gt;Prvo odaberite kako želite biti obaviješteni. Pritisnite OK i potvrdite sljedeći prozorčić za omogućavanje obavijesti na radnoj površini.</permissions>
+    <denied>Zabranili ste pristup obavijestima na radnoj površini.</denied>
+    <redirect>Poruka je preusmjerena.</redirect>
+    <send>Poruka je poslana.</send>
+    <item_save>Stavka je spremljena.</item_save>
+    <new_email>Nova poruke e-pošte za %s</new_email>
+    <new_revision>Napravljena je nova prerada dokumenta.</new_revision>
+    <email_exist>Adresa e-pošte već postoji.</email_exist>
+    <email_added>Adresa e-pošte dodana je u kontakte.</email_added>
+    <contact_email_list_full>Dodavanje adrese e-pošte nije uspjelo, sva polja su zauzeta.</contact_email_list_full>
+  </notifier>
+  <map>
+    <map>Google karte</map>
+    <go>Prikaži adresu</go>
+    <open>Otvori Google</open>
+    <alert>Greška na Google kartama</alert>
+    <g_geo_missing_address>Nedostaje adresa: Adresa ili nedostaje ili nije upisana vrijednost.</g_geo_missing_address>
+    <g_geo_too_many_queries>Previše upita: Dnevna kvota za geokodiranje prekoračena je za ovu stranicu.</g_geo_too_many_queries>
+    <g_geo_server_error>Greška na poslužitelju: Zahtjev za geokodiranjem nije se mogao provesti.</g_geo_server_error>
+  </map>
+  <home>
+    <login_info>Informacije za prijavu</login_info>
+    <licenses>Aplikacije i licencije radne površine</licenses>
+    <licenses_text>Iskoristite u potpunosti Vaš Icewarp račun. Kliknite ovdje za dodatno preuzimanje softwarea, aktivacijske ključeve, smjernice i sintaksu koja Vam je potrebna za pristup kalendarima, kontaktima i informacijama Slobodan/Zauzet od kompatibilnih aplikacija na Vašoj radnoj površini:&#13;&#10;&lt;ul&gt;&#13;&#10;&lt;li&gt;IceWarp klijent radne površine&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp Outlook Sync&lt;/li&gt;&#13;&#10;&lt;li&gt;IceWarp glasnik&lt;/li&gt;&#13;&#10;&lt;/ul&gt;</licenses_text>
+  </home>
+  <delivery_status>
+    <delivered>Isporučeno</delivered>
+    <delivered_info>uspješno dostavljeno lokalnom primatelju</delivered_info>
+    <sent>Poslano</sent>
+    <sent_info>uspješno dostavljeno udaljenom poslužitelju</sent_info>
+    <queue>Red čekanja</queue>
+    <queue_info>slanje poruke privremeno je odgođeno, poslužitelj će je probati poslati kasnije</queue_info>
+    <error>Greška</error>
+    <error_info>poruka s podatcima o greški nalazi se u Vašoj dolaznoj pošti</error_info>
+  </delivery_status>
+  <upload>
+    <all_files>Sve datoteke</all_files>
+    <images>Slike</images>
+    <queue_limit_exceeded>Prekoračeno je ograničenje reda čekanja</queue_limit_exceeded>
+    <zero_byte_file>Datoteka ne sadrži podatke</zero_byte_file>
+    <invalid_filetype>Vrsta datoteke nije valjana</invalid_filetype>
+    <item>Stavka</item>
+    <title>Učitavanje: %s - %s%</title>
+    <error1>Datoteka je veća od ograničenje veličine (%sMB)</error1>
+    <error3>Ova datoteka samo je djelomično učitana</error3>
+    <error4>Datoteka nije učitana</error4>
+    <error6>Nedostaje privremena mapa</error6>
+    <error7>Upisivanje datoteke na disk nije uspjelo</error7>
+    <error8>Vrsta datoteke nije valjana</error8>
+  </upload>
+  <im>
+    <load_history>Load History</load_history>
+    <status_msg>Status tekst...</status_msg>
+    <add_private>Privatno</add_private>
+    <unsupported_img>Ova vrsta slikovne datoteke nije podržana</unsupported_img>
+    <add_gateway>Dodaj gateway</add_gateway>
+    <error_im>Greška u mrežnom čavrljanju</error_im>
+    <registred>Već registrirano</registred>
+    <registr>Registriraj se</registr>
+    <error_ticket>Ne mogu otvoriti ticket.</error_ticket>
+    <error_socket>Ne mogu otvoriti sockett.</error_socket>
+    <error_bytestream>Korisnik ne podržava byte streamove.</error_bytestream>
+    <error_cancel>Korisnik je otkazao zahtjev.</error_cancel>
+    <error_registr>Vaša registracija je odbijena.</error_registr>
+    <add_service>Pretplatna usluga</add_service>
+    <service>Usluga</service>
+    <call>Zovi odmah</call>
+    <audio_call>Zvučni poziv</audio_call>
+    <video_call>Video poziv</video_call>
+    <meeting>Započni mrežni sastanak</meeting>
+    <invite>Pozovi na mrežni sastanak</invite>
+    <closetab>Zatvori karticu</closetab>
+    <show>Prikaži sve kontakte</show>
+    <hide>Sakrij kontakte koji nisu na mreži</hide>
+    <other>Drugo</other>
+    <selected>Označeno</selected>
+    <chat>Otvoreno čavrljanje</chat>
+    <groupmsg>Pošalji poruku</groupmsg>
+    <group>Grupa</group>
+    <new_group>Nova grupa</new_group>
+    <subscription>Pretplata</subscription>
+    <unsubscribed>User &lt;b&gt;%s&lt;/b&gt; has removed you from their WebChat contact list or refused to add you</unsubscribed>
+    <sub_ask>Korisnik &lt;b&gt;%s&lt;/b&gt; zatražio je dopuštenje da Vas doda u svoj popis kontakata za mrežno čavrljanje</sub_ask>
+    <send>Odobri kontakt za čavrljanje</send>
+    <request>Zatraži odobrenje</request>
+    <remove>Ukloni odobrenje</remove>
+    <remove_account>Jeste li sigurni da želite ukloniti račun %s s popisa?</remove_account>
+    <remove_accounts>Jeste li sigurni da želite ukloniti označene račune s popisa?</remove_accounts>
+    <rem_grp>Ukloni grupu</rem_grp>
+    <rem_grpc>Ukloni Grupu i Kontakte</rem_grpc>
+    <rename>Preimenuj</rename>
+    <add>Dodaj kontakt</add>
+    <jabber_id>ID korisnika</jabber_id>
+    <nick>Prikazano ime</nick>
+    <vcard>Prikaži informacije o kontaktu</vcard>
+    <history>Prikaži povijest razgovora</history>
+    <sharedesktop>Dijeljenje zaslona</sharedesktop>
+    <tab_general>Općenito</tab_general>
+    <tab_work>Posao</tab_work>
+    <tab_location>Lokacija</tab_location>
+    <tab_about>O</tab_about>
+    <send_mail>Pošalji e-poruku</send_mail>
+    <send_file>Pošalji datoteku</send_file>
+    <receive_file>Primi datoteku</receive_file>
+    <not_listed>Nije na popisu</not_listed>
+    <composing>Mrežno čavrljanje: %s sastavlja poruku...</composing>
+    <file_message>Korisnik Vam je poslao datoteku s opisom:&#13;&#10;%s&#13;&#10;&#13;&#10;URL: %s</file_message>
+    <file_cancel>Primatelj je odbio prijenos datoteke.</file_cancel>
+    <file_error>Greška u prijenosu datoteke.</file_error>
+    <file_ok>Uspješan prijenos datoteke.</file_ok>
+    <receive_note>&lt;b&gt;%s&lt;/b&gt; poslao/la Vam je datoteku &lt;b&gt;%s&lt;/b&gt;</receive_note>
+    <show_after>Prikaži razgovor nakon: %s</show_after>
+    <im_status>Mrežno čavrljanje: %s</im_status>
+    <im>Mrežno čavrljanje</im>
+    <sip_inprogress>Poziv u tijeku</sip_inprogress>
+    <sip_incomming>Dolazni poziv</sip_incomming>
+    <sip_calling>Pozivanje</sip_calling>
+    <status_sec>%s za manje od minute</status_sec>
+    <status_min>%s za %s minuta</status_min>
+    <status_hour>%s za %s sati</status_hour>
+    <active>Active Chats</active>
+    <recent>Recent</recent>
+  </im>
+  <mail_view>
+    <propose>Predloži novo vrijeme</propose>
+    <nosubject>Bez naslova</nosubject>
+    <when>Kada</when>
+    <location>Lokacija</location>
+    <comment>Komentar</comment>
+    <description>Opis</description>
+    <accept>Prihvati</accept>
+    <tentative>Možda</tentative>
+    <decline>Odbij</decline>
+    <skip_img>Vanjski izvori su blokirani. Kliknite ovdje kako bi ih prikazali.</skip_img>
+    <show_img>U privitku poruke nalaze se slike. Klikni ovdje za pregled.</show_img>
+    <smart>Privitci su dostavljeni pomoću IceWarp SmartAttach tehnologije.</smart>
+    <show_raw>Otvori poruku u sirovom formatu</show_raw>
+    <certificate>Javni certifikat</certificate>
+    <serror>Dekripcijska greška, certifikat nedostaje ili je nevaljan.</serror>
+    <sverify>Ne mogu potvrditi potpis poruke</sverify>
+    <expired>Dekripcijska greška, certifikat je valjan, ali je istekao.</expired>
+    <access>Odobren Vam je pristup &quot;%s&quot; od strane %s.</access>
+    <account_access>Odobren Vam je pristup od strane %s.</account_access>
+    <subscribe>Mapa pretplate</subscribe>
+    <subscribe_account>Račun pretplate</subscribe_account>
+    <subscribed>Račun %s je pretplaćen.</subscribed>
+    <subscribed_folder>Mapa &quot;%s/%s&quot; je pretplaćena.</subscribed_folder>
+    <unsubscribe>Otkaži pretplatu</unsubscribe>
+    <unsubscribed>Pretplata uklonjena za %s.</unsubscribed>
+    <unsubscribed_folder>Pretplata uklonjena za &quot;%s/%s&quot;.</unsubscribed_folder>
+    <error>Radnja se ne može izvršiti.</error>
+    <recurrent>Ponavljajuće</recurrent>
+    <occurrence>Izuzetak od ponavljajućeg događaja</occurrence>
+    <attendee>S/sa</attendee>
+  </mail_view>
+  <whatsnew>
+    <whatsnew>Što je novo</whatsnew>
+  </whatsnew>
+  <help>
+    <help>Pomoć</help>
+    <about>O</about>
+  </help>
+  <print>
+    <preview>Pregledni ispis</preview>
+    <opera>Vaš preglednik ne podržava ovu značajku.</opera>
+  </print>
+  <status>
+    <online>Na mreži</online>
+    <offline>Nije na mreži</offline>
+    <chat>Slobodan za čavrljanje</chat>
+    <away>Odsutan</away>
+    <xa>N/A</xa>
+    <dnd>DND</dnd>
+    <invisible>Nevidljiv</invisible>
+    <gone>Korisnik je napustio razgovor</gone>
+    <error>Greška</error>
+    <sip>Na mreži na mrežnom telefonu</sip>
+    <chat_with>Čavrljanje s/sa %s</chat_with>
+  </status>
+  <policy>
+    <minlength>Minimalna duljina zaporke: %s znakova</minlength>
+    <digits>Broj numeričkih znakova [0-9]: %s</digits>
+    <alpha>Broj slovnih znakova [a-Z]: %s</alpha>
+    <nonalphanum>Broj znakova koji nisu alfanumerički [!@#$%...]: %s</nonalphanum>
+    <upperalpha>Broj velikih slovnih znakova  &#13;&#10;[A-Z]: %s</upperalpha>
+    <useralias>Zaporka ne može biti jednaka Vašem korisničkom imenu ili aliasu</useralias>
+  </policy>
+  <alerts>
+    <alert>Upozorenje</alert>
+    <suppress>Ne prikazuj više ovu poruku</suppress>
+    <create_revision>Ne mogu napraviti preradu</create_revision>
+    <password_do_not_match>Zaporke se ne podudaraju</password_do_not_match>
+    <invalid_password>Zaporka nije valjana</invalid_password>
+    <new_password_match>Nova zaporka jednaka je staroj</new_password_match>
+    <invalid_cpassword>Potvrdna zaporka se ne podudara</invalid_cpassword>
+    <folder_exist>Mapa već postoji</folder_exist>
+    <create_folder>Ne mogu napraviti mapu &quot;%s&quot;</create_folder>
+    <rename_folder>Ne mogu preimenovati mapu &quot;%s&quot; u &quot;%s&quot;</rename_folder>
+    <attachment_size>Privitak je prevelik</attachment_size>
+    <attachment_quota>Prekoračena je kvota za privitke.</attachment_quota>
+    <attachment_missing>Datoteka privitka nije pronađena.</attachment_missing>
+    <attachment_virus>Privitak sadrži virus.</attachment_virus>
+    <could_not_create>Dokument se nije mogao izraditi.</could_not_create>
+    <could_not_edit>Dokument se nije mogao urediti.</could_not_edit>
+    <general_error>Došlo je do neodređene greške&lt;br&gt;%s</general_error>
+    <account_pass_failure>Change password failed. Please try with another password.</account_pass_failure>
+    <password_policy>Zaporka nije u skladu s pravilima</password_policy>
+    <password_requirements>Molimo odaberite novu zaporku u skladu sa sljedećim zahtjevima:</password_requirements>
+    <password_incorrect>Netočna zaporka. Molimo pokušajte ponovno.</password_incorrect>
+    <message_not_sent>Poruka nije poslana</message_not_sent>
+    <message_not_saved>Poruka nije spremljena</message_not_saved>
+    <mailingfailed>Zbog greške na poslužitelju nije bilo moguće spremiti poruku. Molimo pokušajte ponovno kasnije.</mailingfailed>
+    <distribution_list_invalid_id>Nevaljani popis za slanje:</distribution_list_invalid_id>
+    <smtp_from_failed>Sljedeći pošiljatelj nije prihvaćen:</smtp_from_failed>
+    <smtp_recipients_failed>Primatelji su uzrokovali sljedeću grešku:</smtp_recipients_failed>
+    <smtp_data_not_accepted>Poslužitelj nije prihvatio Vašu poruku</smtp_data_not_accepted>
+    <default_folder_missing>Zadana mapa &quot;%s&quot; nedostaje.</default_folder_missing>
+    <no_recipient_certificate>Nedostaje certifikat primatelja</no_recipient_certificate>
+    <recipient_certificate_expired>Certifikat primatelja je istekao.</recipient_certificate_expired>
+    <personal_certificate>Osobni certifikat se ne podudara</personal_certificate>
+    <save_certificate_missing>Message was sent but could not be saved. Provide your private certificate or disable saving to sent folder to avoid this message.</save_certificate_missing>
+    <imap_null>Ne mogu dohvatiti poruku</imap_null>
+    <delete_item>Označene stavke ne mogu se izbrisati</delete_item>
+    <reserved_folder>Rezervirano ime mape &quot;%s&quot;</reserved_folder>
+    <undefined>Neodređena greška</undefined>
+    <timezone_differ>Vaša vremenska zona je promijenjena. Dolje označite odgovarajuću lokaciju kako biste prilagodili vrijeme događaja u kalendaru.</timezone_differ>
+    <popup_blocker>Skočni prozor je blokiran.</popup_blocker>
+    <not_found>Not Found</not_found>
+  </alerts>
+  <message>
+    <unread>Nepročitano</unread>
+    <contact_ok>Administrator je uspješno kontaktiran</contact_ok>
+    <signup_ok>Novi račun uspješno je stvoren</signup_ok>
+    <logout>Korisnik se odjavio</logout>
+    <logged_out>Korisnik se odjavio</logged_out>
+    <forgot_ok>Vaši pristupni podatci poslani su na Vašu adresu e-pošte i dopunsku adresu e-pošte</forgot_ok>
+    <password_change_ok>Zaporka je uspješno promijenjena</password_change_ok>
+    <close_window>Sada možete zatvoriti ovaj prozor</close_window>
+    <personality_confirmation_ok>Vaša adresa e-pošte je potvrđena.</personality_confirmation_ok>
+  </message>
+  <error>
+    <invalid_login>Netočno korisničko ime ili zaporka. Molimo pokušajte ponovno.</invalid_login>
+    <account_disabled>Račun je onemogućen</account_disabled>
+    <expired>Vrijeme je isteklo</expired>
+    <connection>Ne mogu doći do poslužitelja. Molimo provjerite svoj internetski pristup ili kontaktirajte administratora.</connection>
+    <servererror>Ne mogu pristupiti ovoj usluzi. Molimo pokušajte ponovno kasnije ili kontaktirajte administratora.</servererror>
+    <overloaded>Poslužitelj je trenutno preopterećen. Molimo pokušajte ponovno kasnije ili kontaktirajte administratora.</overloaded>
+    <countdown>Probat ću ponovno za %s sekundi.</countdown>
+    <filenotfound>Na poslužitelju nedostaju pojedine datoteke. Može doći do neočekivanog ponašanja.</filenotfound>
+    <subscribe_error>Ne mogu pretplatiti račun %s.</subscribe_error>
+    <wc_disabled>Mrežni klijent je onemogućen.</wc_disabled>
+    <invalid_rsa>Ne mogu napraviti RSA zaporku.</invalid_rsa>
+    <no_db>Greška kod spajanja na bazu podataka</no_db>
+    <no_data>Podatci nisu dostupni</no_data>
+    <access_error>Ne mogu pristupiti mapi s poštanskim sandučićem, molim kontaktirajte administratora.</access_error>
+    <ip_mismatch>Vaša IP adresa je promijenjena te ćete biti odjavljeni. Kako biste spriječili ovaj problem u budućnosti, molimo pristupite mrežnom klijentu putem HTTPS veze.</ip_mismatch>
+    <javatip1>Na svom zaslonu potražite obavijesti vezane uz Java sigurnost. Kliknite &quot;da&quot; ili &quot;dopusti&quot;.</javatip1>
+    <javatip2>Kontaktiraj administratora za pomoć pri instalaciji Jave na tvoje računalo ili</javatip2>
+    <javatip3>Kliknite na dugme Rješavanje problema ispod kako biste odmah riješili problem</javatip3>
+    <contactadmin>Kontaktiraj administratora</contactadmin>
+    <troubleshoot>Rješavanje problema</troubleshoot>
+  </error>
+  <common>
+    <all>Sve</all>
+    <processing>Obrada</processing>
+    <loading>Učitavanje...</loading>
+    <sending>Slanje...</sending>
+    <comment>Komentar (neobavezno)</comment>
+    <email>E-pošta</email>
+    <folder>Mapa</folder>
+    <items>Stavke</items>
+    <calendar_label>...</calendar_label>
+    <empty_word/>
+    <select_all>Označi sve</select_all>
+    <clear>Očisti</clear>
+    <yes>Da</yes>
+    <no>Ne</no>
+    <auto>Automatski</auto>
+    <disable>Onemogući</disable>
+    <enable>Omogući</enable>
+    <enabled>Omogućeno</enabled>
+    <show_all>Prikaži sve</show_all>
+    <previous>Prethodno</previous>
+    <next>Sljedeće</next>
+    <more>Više...</more>
+    <show>Prikaži</show>
+    <hide>Sakrij</hide>
+    <appearance>Izgled sučelja</appearance>
+    <expand>Prošireno</expand>
+    <collapsed>Smanjeno</collapsed>
+    <autocollapsed>Automatski smanji</autocollapsed>
+  </common>
+  <favorites>
+    <favorites>Omiljene stavke</favorites>
+    <remove>Ukloni iz omiljenih stavki</remove>
+    <rename>Preimenuj kraticu</rename>
+  </favorites>
+  <address_book>
+    <r>R</r>
+    <rw>RW</rw>
+    <rwm>RWM</rwm>
+    <rwmd>RWMD</rwmd>
+    <owner>Vlasnik</owner>
+    <address_book>Adresar</address_book>
+    <add_recipient>Dodaj primatelja</add_recipient>
+    <selected_addresses>Označeno</selected_addresses>
+  </address_book>
+  <calendar>
+    <empty>Isprazni</empty>
+    <today>Danas</today>
+    <this_week>Ovaj tjedan</this_week>
+    <this_month>Ovaj mjesec</this_month>
+    <yesterday>Jučer</yesterday>
+    <tomorrow>Sutra</tomorrow>
+    <typetoadd>Utipkaj</typetoadd>
+    <owner>Vlasnik</owner>
+  </calendar>
+  <default_select>
+    <null>---</null>
+    <timezones>Lokalno vrijeme</timezones>
+    <serverzone>Vrijeme poslužitelja</serverzone>
+  </default_select>
+  <confirmation>
+    <clear_autosuggest>Želite li izbrisati popis za samo-dopunjavanje?</clear_autosuggest>
+    <suppress>Ne pitaj me ponovno</suppress>
+    <reset_password_subject>Ponovno postavljanje zaporke za račun %email%</reset_password_subject>
+    <reset_password>Pozdrav %username%,&#13;&#10;&#13;&#10;Jeste li zatražili ponovno postavljanje zaporke za svoj račun (%email%) u mrežnom klijentu?&#13;&#10;&#13;&#10;Kliknite na poveznicu ispod (ili ju kopirajte i zalijepite u adresnu traku svog preglednika) kako biste potvrdili da ova adresa e-pošte pripada Vama. &#13;&#10;&#13;&#10;Ako to niste zatražili ili ste ovu poruku primili greškom, molimo ignorirajte je.&#13;&#10;&#13;&#10;%url%</reset_password>
+    <alias_subject>Potvrdi novu adresu pošiljatelja za: %username%</alias_subject>
+    <alias_confirmation>Pozdrav %username%,&#13;&#10;&#13;&#10;Jeste li zatražili dodavanje (%email%) kao nove adrese pošiljatelja u mrežni klijent?&#13;&#10;&#13;&#10;Kliknite na poveznicu ispod (ili je kopirajte i zalijepite u svoj preglednik) kako biste potvrdili da ta adresa e-pošte pripada Vama.&#13;&#10;&#13;&#10;Ako to niste zatražili ili ste ovu poruku primili greškom, molimo ignorirajte je.&#13;&#10;&#13;&#10;%url%</alias_confirmation>
+    <unload>Kako ne bi došlo do gubitka promijenjenih podataka, molimo provjerite jesu li sve otvorene stavke i nacrti poruka spremljeni.</unload>
+    <expired>Vrijeme je isteklo</expired>
+    <no_mobile>Broj mobilnog telefona nije pronađen.</no_mobile>
+    <expired_msg>Ne mogu poslati ni spremiti nedovršene poruke. Vaša IP adresa je promijenjena ili je vrijeme isteklo.</expired_msg>
+    <delete_account_confirmation>Ukloni potvrdu računa</delete_account_confirmation>
+    <delete_account>Jeste li sigurni da želite ukloniti račun %s?</delete_account>
+    <recover_item>Jeste li sigurni da želite povratiti označene stavke?</recover_item>
+    <delete_folder_confirmation>Izbriši potvrdu mape</delete_folder_confirmation>
+    <delete_folder>Jeste li sigurni da želite izbrisati mapu &quot;%s&quot;?&lt;br/&gt;(Sve podmape trajno će biti izbrisane)</delete_folder>
+    <delete_item_confirmation>Potvrda brisanja stavke</delete_item_confirmation>
+    <delete_item>Jeste li sigurni da želite izbrisati označene stavke?</delete_item>
+    <delete_avatar>Trenutna slika kontakta bit će izbrisana</delete_avatar>
+    <blacklist_sender_confirmation>Potvrda stavljanja na crnu listu</blacklist_sender_confirmation>
+    <blacklist_sender>Jeste li sigurni da pošiljatelja označenih stavki želite staviti na crnu listu?</blacklist_sender>
+    <blacklist_domain>Jeste li sigurni da želite staviti sve stavke vezane uz ovu domenu na crnu listu?</blacklist_domain>
+    <blacklisted>Pošiljatelj je stavljen na crnu listu</blacklisted>
+    <whitelist_sender_confirmation>Potvrda stavljanja na bijelu listu</whitelist_sender_confirmation>
+    <whitelist_sender>Jeste li sigurni da pošiljatelja označenih stavki želite staviti na bijelu listu?</whitelist_sender>
+    <whitelist_domain>Jeste li sigurni da želite staviti sve stavke vezane uz ovu domenu na bijelu listu?</whitelist_domain>
+    <whitelisted>Pošiljatelj je stavljen na bijelu listu</whitelisted>
+    <empty_folder_confirmation>Potvrda pražnjenja mape</empty_folder_confirmation>
+    <empty_folder>Jeste li sigurni da želite izbrisati sve stavke iz ove mape?</empty_folder>
+    <empty_to_trash>Jeste li sigurni da želite premjestiti sve stavke iz ove mape u Smeće?</empty_to_trash>
+    <save_title>Spremi poruku</save_title>
+    <save_confirmation>Poruka nije spremljena. Želite li spremiti poruku u mapu Nacrti?</save_confirmation>
+    <save_file>Datoteka je promijenjena. Želite li spremiti izmjene?</save_file>
+    <save>Spremi</save>
+    <discard>Odbaci</discard>
+    <create_reading_confirmation_title>Potvrda čitanja poruke</create_reading_confirmation_title>
+    <create_reading_confirmation>Pošiljatelj traži potvrdu da ste pročitali ovu poruku. Želite li ju poslati?</create_reading_confirmation>
+    <send_reading_confirmation>Želite li zatražiti od primatelja da Vam pošalje potvrdu da je pročitao poruku?</send_reading_confirmation>
+    <browser_warning_title>Upozorenje preglednika</browser_warning_title>
+    <browser_warning_text_unsupported>IceWarp mrežni klijent SLUŽBENO NE PODRŽAVA Vaš trenutni preglednik.&#13;&#10;&#13;&#10;Uzmite u obzir da mrežni klijent s Vašim trenutnim preglednikom može biti izrazito usporen ili nefunkcionalan.&#13;&#10;&#13;&#10;Mrežni klijent je optimiziran za uporabu s Firefoxom 4.0 (ili više) i Internet Explorerom 8.0 (ili više). Toplo preporučujemo da postavite posljednju inačicu Internet Explorera ili da instalirate Mozilla Firefox (oba preglednika su besplatna).&#13;&#10;&#13;&#10;Za posljednju inačicu Firefoxa posjetite:&#13;&#10; http://www.firefox.com/&#13;&#10;Za posljednju inačicu Internet Explorera posjetite:&#13;&#10;http://www.microsoft.com/ie/&#13;&#10;&#13;&#10;Pritisnite OK za nastavak ili pritisnite Otkaži za prebacivanje na tablet sučelje mrežnog klijenta.</browser_warning_text_unsupported>
+    <expired_password>Vaša zaporka je istekla. Molimo odmah promijenite svoju zaporku.</expired_password>
+    <authentication>Greška kod provjere valjanosti</authentication>
+    <authenticate>Zbog sigurnosnih razloga, morate se ponovno prijaviti.</authenticate>
+    <enterpass>Upišite svoju zaporku i prijavite se za nastavak ili se odjavite kako biste izašli.</enterpass>
+    <secure>Kako se ovaj problem ne bi pojavljivao u budućnosti, molimo pristupite mrežnom klijentu putem HTTPS-a.</secure>
+    <contact_not_found>Email not found. Create new Contact?</contact_not_found>
+    <dl_not_found>Distribution List &quot;%s&quot; doesn&apos;t exist.</dl_not_found>
+    <expand>If you expand the list, it will be replaced with its members. You will not be able to collapse it again.</expand>
+    <inform_attendees>Notify participants</inform_attendees>
+    <send_event_update>Attendees will now be informed unless you suppress sending event updates for this change</send_event_update>
+    <suppress_event_update>Suppress</suppress_event_update>
+    <notify_or_discard>Attendees will be informed of these changes</notify_or_discard>
+  </confirmation>
+  <languages>
+    <onchange_info>Jezik mrežnog klijenta promijenit će se nakon što se odjavite pa prijavite.</onchange_info>
+  </languages>
+  <login_screen>
+    <open_in_separate_window>Otvori u zasebnom prozoru</open_in_separate_window>
+    <help_restriction>Ova značajka trenutno nije omogućena od strane administratora</help_restriction>
+    <switch_older>Prebaci na raniju inačicu mrežnog klijenta.</switch_older>
+    <choose_interface>Odaberi željeno sučelje</choose_interface>
+    <choose_lang>Odaberi jezik</choose_lang>
+    <migration_in_progress>Migracija je u tijeku, molimo pokušajte ponovno kasnije</migration_in_progress>
+    <message_sent>Vaša poruka je isporučena</message_sent>
+    <message_send_failed>Slanje poruke nije uspjelo</message_send_failed>
+    <antispam_code_error>Sigurnosni kod nije točan</antispam_code_error>
+    <antispam>Sigurnosni kod</antispam>
+    <contact_support_subject>Novi zahtjev za kontakt sa zaslona za prijavu</contact_support_subject>
+    <text>Tekst</text>
+    <contact_administrator>Kontaktirajte nas za podršku</contact_administrator>
+    <contact_question>Trebate pomoć?</contact_question>
+    <contact_answer>Kontaktirajte našeg administratora</contact_answer>
+    <contact_1>Kontaktirajte našeg</contact_1>
+    <contact_2>administratora</contact_2>
+    <contact_placeholder_1>Vaša adresa e-pošte ili broj telefona</contact_placeholder_1>
+    <contact_placeholder_2>Opišite svoj problem</contact_placeholder_2>
+    <help>Pomoć s postavkama zvukovnih uređaja</help>
+    <meeting_me>Ja</meeting_me>
+    <meeting_hang_up_confirmation>Doista želite napustiti sastanak?</meeting_hang_up_confirmation>
+    <online_meeting>Mrežni sastanak</online_meeting>
+    <meeting_connected>Spojeno</meeting_connected>
+    <meeting_connecting>Spajanje...</meeting_connecting>
+    <phone_access>Telefonski pristup</phone_access>
+    <meeting_chat_ready>Sobro došli na mrežni sastanak! Skupno čavrljanje je spremno.</meeting_chat_ready>
+    <meeting_chat_send>Pošalji</meeting_chat_send>
+    <meeting_user_left_meeting>Korisnik &quot;%s&quot; je napustio sastanak</meeting_user_left_meeting>
+    <meeting_user_joined_meeting>Korisnik &quot;%s&quot; se pridružio sastanku</meeting_user_joined_meeting>
+    <meeting_no_participants>Nema sudionika</meeting_no_participants>
+    <meeting_server_not_responding>Nema odgovora poslužitelja</meeting_server_not_responding>
+    <meeting_meeting_connected_successfully>Uspješno spajanje</meeting_meeting_connected_successfully>
+    <java_warning_no_java>Audio applet ne može se pokrenuti. Ako postoji potvrdni prozorčić preglednika, potvrdite ga kako biste omogućili pokretanje Java appleta. U nekim slučajevima može pomoći ponovno pokretanje Vašeg računala. Koja je posljednja inačica Jave i je li propisno instalirana možete provjeriti posjetom &lt;a href=&quot;http://java.com/en/download/installed.jsp&quot; target=&quot;_blank&quot;&gt;http://java.com/&lt;/a&gt;</java_warning_no_java>
+    <duration>Trajanje</duration>
+    <mute>Bez zvuka</mute>
+    <desktop_sharing_id>ID sesije dijeljenja zaslona</desktop_sharing_id>
+    <conference_phone_number>Telefonski broj mrežnog sastanka</conference_phone_number>
+    <desktop_sharing_app>Aplikacija za dijeljenje zaslona</desktop_sharing_app>
+    <desktop_sharing_mobile_warning>Žao nam je, ali dijeljenje zaslona izravno s mreže ne radi za mobilne uređaje. Na poveznici ispod možete pronaći aplikaciju za to.</desktop_sharing_mobile_warning>
+    <desktop_sharing_mac_warning>Žao nam je, ali dijeljenje zaslona izravno s mreže ne radi na Macu. Morate instalirati aplikaciju s poveznice ispod.</desktop_sharing_mac_warning>
+    <continue_to_call>Nastavi do poziva</continue_to_call>
+    <meeting_api_unexpected_response>Neočekivani odgovor API-ja</meeting_api_unexpected_response>
+    <applet_unreachable>Java applet se ne može dohvatiti</applet_unreachable>
+    <sip_applet_load_failed>Audio applet se nije učitao</sip_applet_load_failed>
+    <meeting_get_meeting_info_error>Dohvat informacija o sastanku nije uspio</meeting_get_meeting_info_error>
+    <meeting_mikogo_ended>Sesija dijeljenja zaslona je završila, ali je zvuk još uvijek uključen</meeting_mikogo_ended>
+    <meeting_ended>Mrežni sastanak je završio</meeting_ended>
+    <meeting_hang_up>Poklopi</meeting_hang_up>
+    <meeting_id>ID sastanka</meeting_id>
+    <meeting_mikogo_ready>Dijeljenje zaslona je spremno</meeting_mikogo_ready>
+    <meeting_sip_ready>Zvuk je spreman</meeting_sip_ready>
+    <meeting_call_failed>Poziv nije uspio</meeting_call_failed>
+    <meeting_timeout_trying_again_in>Pozivnica je istekla. Pokušajte ponovno za %s sec.</meeting_timeout_trying_again_in>
+    <meeting_trying_again_in>Ponovni pokušaj za %s sec.</meeting_trying_again_in>
+    <meeting_preparing_sip>Pripremanje zvuka</meeting_preparing_sip>
+    <meeting_starting_sip>Pokretanje zvuka</meeting_starting_sip>
+    <meeting_waiting_for_reply>Audio applet čeka odgovor poslužitelja</meeting_waiting_for_reply>
+    <meeting_in_progress>Sastanak u tijeku</meeting_in_progress>
+    <meeting_you_can_join>Sada se možete pridružiti mrežnom sastanku</meeting_you_can_join>
+    <meeting_applet_is_not_ready>Applet za sastanak nije spreman</meeting_applet_is_not_ready>
+    <meeting_no_applet_code>Nema odgovora appleta za sastanak</meeting_no_applet_code>
+    <meeting_unexpected_response>Neočekivani odgovor appleta za sastanke</meeting_unexpected_response>
+    <meeting_no_webrtc_support>Vaš preglednik ne podržava mrežne sastanke</meeting_no_webrtc_support>
+    <meeting_redirecting_to_help_page>Preglednik Chrome pružit će najbolje iskustvo. Preusmjerit ćemo Vas na vodič za postavljanje.</meeting_redirecting_to_help_page>
+    <meeting_meeting_wasnt_started>Mrežni sastanak još nije započeo</meeting_meeting_wasnt_started>
+    <meeting_waiting>Čekanje da %s započne mrežni sastanak</meeting_waiting>
+    <meeting_created_by_ready>Mrežni sastanak kojeg je postavio %s je spreman</meeting_created_by_ready>
+    <meeting_loading_meeting_info>Učitavanje podataka za sastanak</meeting_loading_meeting_info>
+    <unknown_error>Nepoznata greška</unknown_error>
+    <meeting_no_name>Molimo upišite svoje ime ili nadimak</meeting_no_name>
+    <meeting_api_error_104>Nevaljani ID sastanka</meeting_api_error_104>
+    <meeting_api_error_description_104>Adresa sastanka ne postoji ili je nepotpuna</meeting_api_error_description_104>
+    <meeting_api_error_111>Ova usluga je onemogućena</meeting_api_error_111>
+    <meeting_api_error_120>Spajanje na udaljeni poslužitelj nije uspjelo</meeting_api_error_120>
+    <meeting_api_error_125>Poslužitelj nema valjanu licenciju za mrežne sastanke</meeting_api_error_125>
+    <meeting_id_doesnt_exist>ID sastanka ne postoji</meeting_id_doesnt_exist>
+    <meeting_webrtc_not_allowed>Mikrofon nije dostupan</meeting_webrtc_not_allowed>
+    <meeting__no_microphone_continue>Pristup mikrofonu je onemogućen ili mikrofon nije priključen. Želite li nastaviti bez mikrofona?</meeting__no_microphone_continue>
+    <fill_in_name>Upišite svoje ime</fill_in_name>
+    <fill_in_email>Upišite svoju adresu e-pošte</fill_in_email>
+    <join_meeting>Pridruži se mrežnom sastanku</join_meeting>
+    <already_a_member>Postojeći član</already_a_member>
+    <name>Ime</name>
+    <enter_your_name>Upiši svoje ime</enter_your_name>
+    <enter_your_name_description>Ovo ime bit će vidljivo drugim sudionicima i koristi se za Vašu identifikaciju tijekom mrežnog sastanka</enter_your_name_description>
+    <cancel>Otkaži</cancel>
+    <login_caption>Dobro došli u IceWarpov mrežni klijent</login_caption>
+    <copy>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy>
+    <copy_new>Powered by &lt;a href=&quot;http://www.icewarp.com&quot;&gt;IceWarp Server&lt;/a&gt;</copy_new>
+    <title>IceWarpov mrežni klijent</title>
+    <user>Korisničko ime</user>
+    <email>Adresa e-pošte</email>
+    <pass>Zaporka</pass>
+    <old_pass>Stara zaporka</old_pass>
+    <new_pass>Nova zaporka</new_pass>
+    <check_pass>Potvrdi zaporku</check_pass>
+    <change_password>Promijeni zaporku</change_password>
+    <remember>Zapamti</remember>
+    <save0>Automatska prijava</save0>
+    <save1>Korisničko ime i zaporka</save1>
+    <save2>Korisničko ime</save2>
+    <save3>Uvijek pitaj</save3>
+    <login>Prijava</login>
+    <send>Pošalji</send>
+    <create_account>Napravi račun</create_account>
+    <switch>Prebaci na &lt;a href=&quot;./basic&quot;&gt;tablet&lt;/a&gt; ili &lt;a href=&quot;./pda&quot;&gt;mobilno&lt;/a&gt; sučelje.</switch>
+    <downloads>Preuzimanja</downloads>
+    <interface>Sučelje</interface>
+    <basic>Tablet</basic>
+    <pda>Mobitel</pda>
+    <pro>Računalo</pro>
+    <osx>Mac OS X</osx>
+    <lang>Jezik</lang>
+    <keep_me_signed>Zapamti me</keep_me_signed>
+    <utilities>Alati</utilities>
+    <pw_policy_minlength>Minimalna duljina zaporke</pw_policy_minlength>
+    <pw_policy_digits>Broj numeričkih znakova u zaporci [0-9]</pw_policy_digits>
+    <pw_policy_alpha>Broj slovnih znakova u zaporci [a-Z]</pw_policy_alpha>
+    <pw_policy_nonalphanum>Broj znakova u zaporci koji nisu numerički ili slovni [!@#$...]</pw_policy_nonalphanum>
+    <pw_policy_useralias>Provjerite radi li zaporka kada su korisničko ime i alias uključeni</pw_policy_useralias>
+    <pw_policy_uppercase>Broj velikih slovnih znakova [A-Z]</pw_policy_uppercase>
+    <virtual_keyboard_01>Prikaži virtualnu tipkovnicu</virtual_keyboard_01>
+    <virtual_keyboard_02>Odaberi prikaz tipkovnice</virtual_keyboard_02>
+    <virtual_keyboard_04>Upaljeno</virtual_keyboard_04>
+    <virtual_keyboard_05>Ugašeno</virtual_keyboard_05>
+    <virtual_keyboard_06>Zatvori tipkovnicu</virtual_keyboard_06>
+    <virtual_keyboard_07>Ukloni</virtual_keyboard_07>
+    <virtual_keyboard_08>Ukloni ovaj unos</virtual_keyboard_08>
+    <virtual_keyboard_10>Smanji veličinu tipkovnice</virtual_keyboard_10>
+    <virtual_keyboard_11>Povećaj veličinu tipkovnice</virtual_keyboard_11>
+    <js_problem>Ne mogu pokrenuti JavaScript</js_problem>
+    <public_calendar>Javni kalendar</public_calendar>
+    <login_to_pro>Prijava u računalno sučelje</login_to_pro>
+    <login_to_basic>Prijava u tablet sučelje</login_to_basic>
+    <login_to_pda>Prijava u mobilno sučelje</login_to_pda>
+    <js_turned_off_message_text>Za najbolje korisničko iskustvo i napredne značajke, preporučujemo računalno sučelje. Za to je potrebno omogućiti JavaScript. Provjerite u postavkama preglednika je li JavaScript omogućen ili odaberite</js_turned_off_message_text>
+    <js_turned_off_message_link>Tablet sučelje</js_turned_off_message_link>
+    <learn_more>Doznajte više o svim značajkama</learn_more>
+    <learn_more_short>Doznajte više</learn_more_short>
+    <login_back>Povratak na prijavu</login_back>
+    <changepwd>Promijenite svoju&lt;br/&gt; zaporku</changepwd>
+  </login_screen>
+  <login_client>
+    <advanced>Računalo</advanced>
+    <basic>Tablet</basic>
+  </login_client>
+  <login_style>
+    <gray>Sivo</gray>
+    <white>Bijelo</white>
+    <black>Antracit</black>
+    <red>Crveno</red>
+    <yellow>Žuto</yellow>
+    <green>Zeleno</green>
+    <blue>Plavo</blue>
+    <purple>Ljubičasto</purple>
+    <orange>Narančasto</orange>
+    <brown>Smeđe</brown>
+    <pink>Ružičasto</pink>
+  </login_style>
+  <skin_style>
+    <default>Plavo</default>
+    <black>Crno</black>
+    <brown>Smeđe</brown>
+    <graphite>Antracit</graphite>
+    <green>Zeleno</green>
+    <orange>Narančasto</orange>
+    <pink>Ružičasto</pink>
+    <purple>Ljubičasto</purple>
+    <red>Crveno</red>
+    <yellow>Žuto</yellow>
+  </skin_style>
+  <sign_up>
+    <question>Još uvijek nemate račun?</question>
+    <answer>Otvori račun</answer>
+    <sign_up>Registriraj se</sign_up>
+    <create_account>Upišite podatke o svom novom računu.</create_account>
+    <fullname>Puno ime</fullname>
+    <domain>Domena</domain>
+    <username>Korisničko ime</username>
+    <alternative>Dopunska adresa e-pošte</alternative>
+    <captcha_error>Nevaljani sigurnosni kod</captcha_error>
+    <pass_error>Navedena zaporka nije prihvaćena</pass_error>
+    <incorrect_error>Netočno korisničko ime ili alias</incorrect_error>
+    <exists_error>Račun već postoji</exists_error>
+    <error>Novi račun ne može se otvoriti</error>
+    <account_created>Novi račun uspješno je otvoren</account_created>
+    <invalid_cpass>Netočna potvrda zaporke</invalid_cpass>
+    <confirm_pass>Potvrdi</confirm_pass>
+    <password_change>Promjena zaporke</password_change>
+  </sign_up>
+  <reset_pass>
+    <question>Zaboravili ste svoju zaporku?</question>
+    <question_br>Zaboravili ste svoju&lt;br/&gt; zaporku?</question_br>
+    <title>Ponovno postavite svoju&lt;br&gt; zaporku</title>
+    <answer>Ponovno postavljanje</answer>
+    <generate>Klikni dva puta za novi sigurnosni kod</generate>
+    <captcha>Upiši prikazani kod</captcha>
+    <captcha_error>Nevaljani sigurnosni kod</captcha_error>
+    <security_code>Sigurnosni kod</security_code>
+    <reset_pass>Ponovno postavi zaporku</reset_pass>
+    <enter_alt_pass>Vaši pristupni podatci bit će poslani na Vašu adresu e-pošte i dopunsku adresu e-pošte ako postoji.</enter_alt_pass>
+    <reset_send>Vaši pristupni podatci poslani su na adrese e-pošte navedene ispod:</reset_send>
+    <reset_error>Navedeni račun ne postoji ili se zaporka za njega ne može dohvatiti</reset_error>
+    <subject>Zaporka je ponovno postavljena za račun %EMAIL%</subject>
+    <email>Pozdrav %FULLNAME%,&#13;&#10;&#13;&#10;Jeste li zatražili ponovno postavljanje zaporke za svoj račun (%EMAIL%) u mrežnom klijentu?&#13;&#10;&#13;&#10;Kliknite na poveznicu ispod (ili ju kopirajte i zalijepite u adresnu traku svoga preglednika) kako biste potvrdili da ova adresa e-pošte pripada Vama.&#13;&#10;%URL%&#13;&#10;&#13;&#10;Ako niste zatražili ponovno postavljanje zaporke ili ste greškom primili ovu poruku, molimo zanemarite je.</email>
+  </reset_pass>
+  <duplicity>
+    <duplicity>Ime već postoji</duplicity>
+    <label>Dokument s istim nazivom &quot;%s&quot; već postoji.</label>
+    <suggested_name>Preporučeno ime</suggested_name>
+  </duplicity>
+  <backup>
+    <processing>Obrada</processing>
+    <step1>1) Učitaj sigurnosnu kopiju datoteke</step1>
+    <step2>2) Odaberi odredišnu mapu</step2>
+    <step3>3) Odaberi vrste stupaca za uvoz</step3>
+    <step1e>Označi izvornu mapu s kontaktimaSelect source contact folder</step1e>
+    <step2e>Označi vrstu izvoza</step2e>
+    <step_date>Označi format datuma</step_date>
+    <default_date>Zadano</default_date>
+    <charset>Skup znakova</charset>
+    <skipfirst>Preskoči prvi red u CSV-u</skipfirst>
+    <email1>Adresa e-pošte 1</email1>
+    <email2>Adresa e-pošte 2</email2>
+    <email3>Adresa e-pošte 3</email3>
+    <phone1>Telefon 1</phone1>
+    <phone2>Telefon 2</phone2>
+    <phone3>Telefon 3</phone3>
+    <phone4>Telefon 4</phone4>
+    <phone_type1>Vrsta telefona 1</phone_type1>
+    <phone_type2>Vrsta telefona 2</phone_type2>
+    <phone_type3>Vrsta telefona 3</phone_type3>
+    <phone_type4>Vrsta telefona 4</phone_type4>
+    <import_successful>Uvoz je uspješan</import_successful>
+    <import_unsuccessful>Uvoz nije uspio</import_unsuccessful>
+    <import_finished>Uvoz je dovršen. %s stavaka je preskočeno zbog greške.</import_finished>
+    <vcalendar>vCalendar</vcalendar>
+    <vcard>vCard</vcard>
+    <ldif>LDIF</ldif>
+    <auto>Automatski</auto>
+    <load>Učitavanje</load>
+    <import>Uvoz</import>
+    <export>Izvoz</export>
+    <unknown_ext>Nepoznati nastavak</unknown_ext>
+    <download_csv_file>Preuzimanje CSV datoteke sa stavkama kalendara</download_csv_file>
+    <csv>CSV</csv>
+    <gw>GroupWare</gw>
+    <download_file>Preuzimanje</download_file>
+    <select_col>Odaberi neke stupce za uvoz</select_col>
+    <select_email>Odaberi barem jedan stupac e-pošte</select_email>
+    <gw_xml_file>XML s GroupWare sigurnosnom kopijom</gw_xml_file>
+    <comma>CSV - zarez (,)</comma>
+    <semicolon>CSV - točka zarez (;)</semicolon>
+    <colon>CSV - dvotočka (:)</colon>
+    <sharing>Prisilno dijeljenje</sharing>
+    <import_info>Podržani formati datoteka za učitavanje</import_info>
+    <import_info_itm>CSV (zarez, dvotočka, točka-zarez odvojeni), VCF (vCard)</import_info_itm>
+    <import_info_evn>ICS (vKalendar)</import_info_evn>
+  </backup>
+  <license>
+    <license>Licencije / Integracija</license>
+    <licenses>Licencije</licenses>
+    <out>Outlook Sync</out>
+    <desk>Klijent za računalo</desk>
+    <download>Preuzimanje</download>
+    <key>Aktivacijski ključ proizvoda (koristi funkcije Kopiraj i Zalijepi)</key>
+    <nokey>Aktivacijski ključ za ovu aplikaciju nije dostupan. Za više informacija kontaktirajte svog administratora.</nokey>
+  </license>
+  <devices>
+    <device>Uređaj</device>
+    <device_model>Model uređaja</device_model>
+    <device_type>Vrsta uređaja</device_type>
+    <protocol>Protokol</protocol>
+    <registered>Registrirano</registered>
+    <lastsync>Posljednja sinkronizacija</lastsync>
+    <factory>Vrati na tvorničke postavke</factory>
+    <wipe>Udaljeno brisanje</wipe>
+    <wiping>Udaljeno brisanje u tijeku</wiping>
+    <nowipe>Udaljeno brisanje nije podržano</nowipe>
+    <reset>Ponovno pokreni brisanje</reset>
+    <delete_confirmation>Brisanje uređaja s popisa uzrokovat će ponovnu sinkronizaciju podataka prilikom sljedećeg spajanja (korisno je ako se uređaj prestao ažurirati). Ako umjesto toga želite izbrisati sve podatke o korisnicima/računima s uređaja, idite na Značajke uređaja i kliknite na Udaljeno brisanje.&lt;br/&gt;&lt;br/&gt;Jeste li sigurni da želite izbrisati uređaje s popisa?</delete_confirmation>
+    <wipe_confirmation>Udaljeno brisanje će izbrisati sve podatke o korisnicima/računima s uređaja (i kartica-spremnika) te će uređaj vratiti na tvorničke postavke. Na uređaju mora postojati funkcionalni pristup internetu.&lt;br/&gt;&lt;br/&gt;Jeste li sigurni da želite nastaviti?</wipe_confirmation>
+    <options>Mogućnosti uređaja</options>
+    <folders>Mape</folders>
+    <sync>Sinkronizacija</sync>
+    <private_folders>Privatne mape</private_folders>
+    <special_folders>Posebne mape</special_folders>
+    <gw_folders>GroupWare mape</gw_folders>
+    <mail_folders>Mape s poštom</mail_folders>
+    <archive>Arhiva</archive>
+    <public>Javne mape</public>
+    <shared>Dijeljene mape</shared>
+    <past_mail>Prošle stavke pošte</past_mail>
+    <past_calendar>Prošli događaji u kalendaru</past_calendar>
+    <sync_tase>Sinkroniziraj zadatke kao događaje u kalendaru</sync_tase>
+    <sync_note>Sinkroniziraj bilješke kao</sync_note>
+    <all_folders>Sve mape</all_folders>
+    <all_folders_mail>Svi s GroupWareom kao e-poštom</all_folders_mail>
+    <default_only>Samo zadane mape</default_only>
+    <sync_all>Sve</sync_all>
+    <one_day>Jedan dan</one_day>
+    <three_days>Tri dana</three_days>
+    <one_week>Jedan tjedan</one_week>
+    <two_weeks>Dva tjedna</two_weeks>
+    <one_month>Jedan mjesec</one_month>
+    <three_months>Tri mjeseca</three_months>
+    <six_months>Šest mjeseci</six_months>
+    <inc_tasks>Samo nezavršeni zadatci</inc_tasks>
+    <new_cfolders>Nova mapa kalendara</new_cfolders>
+    <merge_taks>Spoji sa zadanim kalendarom</merge_taks>
+    <events>Događaji</events>
+    <tasks>Zadatci</tasks>
+    <inotes>Zadatci i bilješke (Android app)</inotes>
+    <new_folders>Nova mapa</new_folders>
+    <merge_default>Spoji sa zadanom mapom</merge_default>
+  </devices>
+  <main_menu>
+    <webadmin>Web Admin</webadmin>
+    <leftpanel>Sučelje s mapama</leftpanel>
+    <rightpanel>Sučelje mrežnog čavrljanja</rightpanel>
+    <share>Dijeli</share>
+    <new_document>Napravi dokument</new_document>
+    <new_message>Novo iz predloškaNew from Template</new_message>
+    <devices>Mobilni uređaji</devices>
+    <vcard>Moji podatci</vcard>
+    <basic>Prebaci na tablet sučelje</basic>
+    <old_client>Prebaci na staro sučelje</old_client>
+    <search>Traži</search>
+    <filter>Filtriraj</filter>
+    <new>Novo</new>
+    <print>Ispiši</print>
+    <print_calendar>Calendar</print_calendar>
+    <settings>Postavke</settings>
+    <accounts>Računi</accounts>
+    <logout>Odjava</logout>
+    <logout_title>Ctrl+Click za odjavu</logout_title>
+    <update>Dohvati novo</update>
+    <compose>Sastavi</compose>
+    <new_contact>Kontakt</new_contact>
+    <new_template>Predložak poruke</new_template>
+    <new_distrib_list>Popis za slanje</new_distrib_list>
+    <new_event>Obveza</new_event>
+    <new_journal>Dnevnik</new_journal>
+    <new_note>Bilješka</new_note>
+    <new_task>Zadatak</new_task>
+    <new_file>Dokument</new_file>
+    <new_upload>Učitaj datoteku</new_upload>
+    <new_word>Word dokument</new_word>
+    <new_excel>Excel radni list</new_excel>
+    <new_ppoint>PowerPoint prezentacija</new_ppoint>
+    <new_text>Tekstualni dokument</new_text>
+    <new_html>HTML dokument</new_html>
+    <new_folder>Mapa</new_folder>
+    <reply_to_sender>Odgovori</reply_to_sender>
+    <reply_to_all>Odgovori svima</reply_to_all>
+    <reply_to_sender_t>Odgovori s predloškom</reply_to_sender_t>
+    <reply_to_all_t>Odgovori svima s predloškom</reply_to_all_t>
+    <forward>Proslijedi</forward>
+    <delete>Izbriši</delete>
+    <empty_folder>Isprazni mapu</empty_folder>
+    <day_view>Dan</day_view>
+    <week_view>Tjedan</week_view>
+    <fullweek_view>Full Week</fullweek_view>
+    <workweek_view>Work Week</workweek_view>
+    <month_view>Mjesec</month_view>
+    <dial>Zovi odmah</dial>
+    <sms>Pošalji SMS</sms>
+    <calls>Zovi</calls>
+    <conference>Mrežni sastanak</conference>
+    <contacts_list>Popis</contacts_list>
+    <events_list>Popis</events_list>
+    <address_card>Posjetnice</address_card>
+    <tasks_lists>Popis</tasks_lists>
+    <tasks_detailed>Detaljni popis</tasks_detailed>
+    <active_tasks>Aktivni zadatci</active_tasks>
+    <journal_day_view>Dan</journal_day_view>
+    <journal_week_view>Tjedan</journal_week_view>
+    <journal_month_view>Mjesec</journal_month_view>
+    <journal_list>Popis</journal_list>
+    <notes_list>Popis</notes_list>
+    <options>Mogućnosti</options>
+    <admin_options>Administratorske mogućnosti</admin_options>
+    <domain_options>Mogućnosti domene</domain_options>
+    <tools>Alati</tools>
+    <deliver>Dostavi</deliver>
+    <quarantine>Karantena</quarantine>
+    <black_list>Premjesti na crnu listu</black_list>
+    <white_list>Premjesti na bijelu listu</white_list>
+    <black_listed>Stavljeno na crnu listu</black_listed>
+    <white_listed>Stavljeno na bijelu listu</white_listed>
+    <rules>Pravila</rules>
+    <help>Pomoć</help>
+  </main_menu>
+  <short_days>
+    <monday>Pon</monday>
+    <tuesday>Uto</tuesday>
+    <wednesday>Sri</wednesday>
+    <thursday>Čet</thursday>
+    <friday>Pet</friday>
+    <saturday>Sub</saturday>
+    <sunday>Ned</sunday>
+  </short_days>
+  <days>
+    <monday>Ponedjeljak</monday>
+    <tuesday>Utorak</tuesday>
+    <wednesday>Srijeda</wednesday>
+    <thursday>Četvrtak</thursday>
+    <friday>Petak</friday>
+    <saturday>Subota</saturday>
+    <sunday>Nedjelja</sunday>
+  </days>
+  <months>
+    <january>Siječanj</january>
+    <february>Veljača</february>
+    <march>Ožujak</march>
+    <april>Travanj</april>
+    <may>Svibanj</may>
+    <june>Lipanj</june>
+    <july>Srpanj</july>
+    <august>Kolovoz</august>
+    <september>Rujan</september>
+    <october>Listopad</october>
+    <november>Studeni</november>
+    <december>Prosinac</december>
+  </months>
+  <short_months>
+    <january>Sij</january>
+    <february>Velj</february>
+    <march>Ožu</march>
+    <april>Tra</april>
+    <may>Svi</may>
+    <june>Lip</june>
+    <july>Srp</july>
+    <august>Kol</august>
+    <september>Ruj</september>
+    <october>Lis</october>
+    <november>Stu</november>
+    <december>Pro</december>
+  </short_months>
+  <dates>
+    <every>Svaka</every>
+    <secondly>sekunda</secondly>
+    <minutely>minuta</minutely>
+    <hour>sat</hour>
+    <day>dan</day>
+    <weeks>tjedana</weeks>
+    <month>mjesec</month>
+    <year>godina</year>
+    <the/>
+    <first>prvi</first>
+    <last>zadnji</last>
+    <second>drugi</second>
+    <third>treći</third>
+    <fourth>četvrti</fourth>
+    <firth>peti</firth>
+    <postfix/>
+    <except>osim</except>
+    <on>u</on>
+    <mondays>ponedjeljak</mondays>
+    <tuesdays>utorak</tuesdays>
+    <wednesdays>srijedu</wednesdays>
+    <thursdays>četvrtak</thursdays>
+    <fridays>petak</fridays>
+    <saturdays>subotu</saturdays>
+    <sundays>nedjelju</sundays>
+    <yearday>dan u godini</yearday>
+    <in>u</in>
+    <week>tjednu</week>
+    <week2>Tjedan</week2>
+    <at>u</at>
+    <and>i</and>
+    <from>od</from>
+    <until>do</until>
+    <times>ponavljanje %s put/a</times>
+  </dates>
+  <form_buttons>
+    <revision>Preradi</revision>
+    <skip>Preskoči</skip>
+    <refresh>Osvježi</refresh>
+    <retrieve>Dohvati</retrieve>
+    <inherit>Naslijedi</inherit>
+    <accept>Prihvati</accept>
+    <decline>Odbij</decline>
+    <ok>OK</ok>
+    <close>Zatvori</close>
+    <retry>Pokušaj ponovno</retry>
+    <test>Testiraj</test>
+    <cancel>Otkaži</cancel>
+    <rename>Preimenuj</rename>
+    <rewrite>Ponovno napiši</rewrite>
+    <rewrite_all>Ponovno napiši sve</rewrite_all>
+    <save>Spremi</save>
+    <dont>Nemoj</dont>
+    <add>Dodaj</add>
+    <edit>Uredi</edit>
+    <find>Pronađi</find>
+    <add_file>Dodaj datoteku</add_file>
+    <add_item>Dodaj stavku</add_item>
+    <remove>Ukloni</remove>
+    <address_book>Adresar</address_book>
+    <search>Traži</search>
+    <new_folder>Nova mapa</new_folder>
+    <map_it>Prikaži na karti</map_it>
+    <sign_in>Prijavi se</sign_in>
+  </form_buttons>
+  <form_folders>
+    <step1>Roditeljska mapa</step1>
+    <create_new_folder>Stvori novu mapu</create_new_folder>
+    <create_error>Mapa već postoji ili se ne može stvoriti.</create_error>
+    <name>Ime</name>
+    <type>Vrsta</type>
+    <channel>Kanal</channel>
+    <sharetype>Primijeni na</sharetype>
+    <all>Sve mape</all>
+    <private>Privatne mape</private>
+    <selected>Odabrane mape</selected>
+  </form_folders>
+  <form_accounts>
+    <username>Korisničko ime</username>
+    <password>Zaporka</password>
+    <protocol>Protokol</protocol>
+    <server>Poslužitelj</server>
+    <server_proxy>Poslužitelj/Proxy</server_proxy>
+    <port>Port</port>
+    <extension>Dodatak</extension>
+    <description>Opis</description>
+  </form_accounts>
+  <popup_folders>
+    <item_actions>Upravljaj sadržajem</item_actions>
+    <recovery>Povrati izbrisane stavke</recovery>
+    <add_virtual>Stvori novu mapu za pretragu</add_virtual>
+    <edit_virtual>Uredi mapu za pretragu</edit_virtual>
+    <add_favorites>Dodaj u omiljene stavke</add_favorites>
+    <sharing>Dijeljenja i dopuštenja</sharing>
+    <change_channel>Upravljaj RSS kanalima</change_channel>
+    <subscribe>Sinkroniziraj</subscribe>
+    <subscribed>Sinkronizirano</subscribed>
+    <add_folder>Stvori novu mapu</add_folder>
+    <add_shared_account>Dodaj dijeljeni račun</add_shared_account>
+    <delete_folder>Izbriši mapu</delete_folder>
+    <unsubscribe_folder>Ukloni pretplatu mape</unsubscribe_folder>
+    <move_folder>Premjesti mapu</move_folder>
+    <move_folder_into>Premjesti mapu u</move_folder_into>
+    <rename_folder>Preimenuj mapu</rename_folder>
+    <remove_account>Ukloni račun</remove_account>
+    <sent_folder>Odaberi mapu Poslano</sent_folder>
+    <select_folder>Odaberi mapu</select_folder>
+    <mark_all_as_read>Označi kao pročitano</mark_all_as_read>
+    <default>Postavi kao zadano</default>
+    <export>Izvezi mapu</export>
+    <color>Boja</color>
+    <move_default>Jeste li sigurni da želite premjestiti zadanu mapu?</move_default>
+  </popup_folders>
+  <attachment>
+    <all>Sve</all>
+    <pdf>PDF</pdf>
+    <play_sound>Pokreni</play_sound>
+    <attachments>Privitci</attachments>
+    <upload>Učitaj</upload>
+    <download>Preuzmi</download>
+    <download_all>Preuzmi sve</download_all>
+    <open_window>Otvori u prozoru</open_window>
+    <import>Uvezi u mrežni klijent</import>
+    <import_error>Nepodržana vrsta stavke</import_error>
+    <remove>Ukloni</remove>
+    <remove_all>Ukloni sve</remove_all>
+    <add_item>Dodaj stavku</add_item>
+    <link_dropbox>Poveži s Dropboxom</link_dropbox>
+    <view>Pregledaj</view>
+    <save>Preuzmi</save>
+    <save_all>Preuzmi sve</save_all>
+    <save_to_folder>Spremi u mapu</save_to_folder>
+    <show_images>Prikaži slike</show_images>
+    <show_image>Prikaži sliku</show_image>
+    <show_text>Obična tekstualna poruka</show_text>
+    <show_headers>Dodaj zaglavlja</show_headers>
+    <show_cert>Pokaži certifikat</show_cert>
+    <append_cert>Pridodaj kontaktu</append_cert>
+    <dropzone>&lt; Ispusti datoteku ovdje &gt;</dropzone>
+    <drop_holder>Vuci i ispusti datoteke ovdje...</drop_holder>
+    <quick_add>Brzo učitavanje...</quick_add>
+    <quick_contact>Ispusti vCard datoteku ovdje...</quick_contact>
+  </attachment>
+  <dropbox>
+    <erroralert>Dropbox greška</erroralert>
+    <missingkey>Dropbox nije konfiguriran. Administrator najprije mora postaviti integraciju Dropboxa.</missingkey>
+    <unavailable>Dropbox je privremeno nedostupan i bit će onemogućen do sljedeće prijave.</unavailable>
+  </dropbox>
+  <popup_items>
+    <convert_item>Pretvori u HTML</convert_item>
+    <source>Izvor</source>
+    <send_notify>Obavijesti o izmjenama</send_notify>
+    <recover>Povrati</recover>
+    <new>Novo</new>
+    <delivery_report>Izvješće o isporuci</delivery_report>
+    <properties>Značajke</properties>
+    <doc_management>Značajke dokumenta</doc_management>
+    <open>Otvori</open>
+    <open_pdf>Otvori kao PDF</open_pdf>
+    <open_window>Otvori u prozoru</open_window>
+    <edit>Uredi</edit>
+    <reply_to_sender>Odgovori</reply_to_sender>
+    <reply_to_all>Odgovori svima</reply_to_all>
+    <forward>Proslijedi</forward>
+    <forward_as_message>Proslijedi kao privitak</forward_as_message>
+    <redirect>Preusmjeri</redirect>
+    <mark_as_read>Označi kao pročitano</mark_as_read>
+    <mark_as_unread>Označi kao nepročitano</mark_as_unread>
+    <move_mail_to>Premjesti u mapu</move_mail_to>
+    <copy_mail_to>Kopiraj u mapu</copy_mail_to>
+    <delete>Izbriši</delete>
+    <delete_selected>Izbriši označeno</delete_selected>
+    <open_item>Otvori</open_item>
+    <move_item_to>Premjesti u mapu</move_item_to>
+    <copy_item_to>Kopiraj u mapu</copy_item_to>
+    <new_distriblist>Novi popis za slanje</new_distriblist>
+    <save_as>Spremi kao...</save_as>
+    <html>HTML</html>
+    <text>Tekst</text>
+    <eml>EML</eml>
+    <download_vcalendar>Spremi kao vCalendar</download_vcalendar>
+    <download_vcard>Spremi kao vCard</download_vcard>
+    <download_vnote>Spremi kao vNote</download_vnote>
+    <download_file>Preuzmi</download_file>
+    <open_office>Otvori u Officeu</open_office>
+    <deliver>Isporuči</deliver>
+    <black_list>Stavi na crnu listu</black_list>
+    <white_list>Stavi na bijelu listu</white_list>
+    <blacklist_sender>Stavi pošiljatelja na crnu listu</blacklist_sender>
+    <blacklist_domain>Cijelu domenu stavi na crnu listu</blacklist_domain>
+    <whitelist_sender>Stavi pošiljatelja na bijelu listu</whitelist_sender>
+    <whitelist_domain>Cijelu domenu stavi na bijelu listu</whitelist_domain>
+    <send_as_email>Pošalji kao e-poruku</send_as_email>
+    <send_email_to>Pošalji poruku</send_email_to>
+    <add_to_contacts>Napravi novi kontakt</add_to_contacts>
+    <add_to_exist_contacts>Dodaj postojećem kontaktu</add_to_exist_contacts>
+    <lookup_contacts>Address Book lookup</lookup_contacts>
+    <add_contact>Dodaj u mapu Kontakti</add_contact>
+    <add_im>Dodaj u popis kontakata mrežnog čavrljanja</add_im>
+    <add_to_im>Dodaj na mrežno čavrljanje</add_to_im>
+    <add>Dodaj...</add>
+    <manage_sender>Pošiljatelj poruke...</manage_sender>
+    <invite_appointment>Pozovi na obvezu</invite_appointment>
+    <invite_all_appointment>Invite all to Appointment</invite_all_appointment>
+    <cert_to_contact>Dodaj certifikat u kontakt</cert_to_contact>
+    <contacts>Kontakt</contacts>
+    <mandatorydetails>Molimo ispunite svoje podatke za kontakt</mandatorydetails>
+    <im>Popis za mrežno čavrljanje</im>
+    <skip_delete>Ne pitaj me ponovno</skip_delete>
+  </popup_items>
+  <color_labels>
+    <none>Bez boje</none>
+    <color>Boja</color>
+    <white_flag>Bijela zastavica</white_flag>
+    <red_flag>Crvena zastavica</red_flag>
+    <blue_flag>Plava zastavica</blue_flag>
+    <yellow_flag>Žuta zastavica</yellow_flag>
+    <green_flag>Zelena zastavica</green_flag>
+    <orange_flag>Narančasta zastavica</orange_flag>
+    <purple_flag>Ljubičasta zastavica</purple_flag>
+    <flag_complete>Zastavica ispunjena</flag_complete>
+    <clear_flag>Ukloni zastavicu</clear_flag>
+    <important>Važno</important>
+    <business>Poslovno</business>
+    <personal>Osobno</personal>
+    <vacation>Odmor</vacation>
+    <must_attend>Obavezno prisustvovati</must_attend>
+    <travel_required>Zahtijeva putovanje</travel_required>
+    <needs_preparation>Zahtijeva pripremu</needs_preparation>
+    <birthday>Rođendan</birthday>
+    <anniversary>Godišnjica</anniversary>
+    <phone_call>Telefonski poziv</phone_call>
+  </color_labels>
+  <popup_accounts>
+    <add_account>Dodaj novi račun e-pošte</add_account>
+    <delete_account>Izbriši račun</delete_account>
+    <edit_account>Uredi račun</edit_account>
+    <validating>Potvrđivanje računa...</validating>
+    <invalid>Račun nije valjan</invalid>
+  </popup_accounts>
+  <account_types>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+  </account_types>
+  <common_folders>
+    <inbox>Dolazne poruke</inbox>
+    <drafts>Nacrti</drafts>
+    <sent>Poslano</sent>
+    <trash>Smeće</trash>
+    <spam>Neželjene poruke</spam>
+    <templates>Predlošci</templates>
+    <quarantine>Karantena</quarantine>
+    <spam_queue>Filteri</spam_queue>
+    <spam_queue-whitelist>Bijela lista</spam_queue-whitelist>
+    <spam_queue-blacklist>Crna lista</spam_queue-blacklist>
+    <virtual-folders>Pretraži mape</virtual-folders>
+    <gw-trash>Vraćene stavke</gw-trash>
+    <calendars>Višestruki kalendari</calendars>
+  </common_folders>
+  <folders>
+    <mails>Pošta</mails>
+    <contacts>Kontakti</contacts>
+    <events>Kalendar</events>
+    <tasks>Zadatci</tasks>
+    <notes>Bilješke</notes>
+    <journal>Dnevnik</journal>
+    <files>Dokumenti</files>
+    <home>Početna</home>
+    <smart>SmartAttach</smart>
+  </folders>
+  <folder_types>
+    <mail>Pošta</mail>
+    <contact>Kontakt</contact>
+    <event>Kalendar</event>
+    <journal>Dnevnik</journal>
+    <note>Bilješka</note>
+    <task>Zadatak</task>
+    <file>Dokument</file>
+    <rss>RSS</rss>
+  </folder_types>
+  <context_folder>
+    <cantmove>Ovu mapu ne možete premjestiti</cantmove>
+    <cantrename>Ovu mapu ne možete preimenovati</cantrename>
+    <cantdelete>Ovu mapu ne možete izbrisati</cantdelete>
+  </context_folder>
+  <datagrid_items_view>
+    <attachments>Privitci</attachments>
+    <to>Za</to>
+    <subject>Naslov</subject>
+    <nosubject>Bez naslova</nosubject>
+    <cc>Kopija</cc>
+    <bcc>Skrivena kopija</bcc>
+    <body>Tijelo</body>
+    <from>Od</from>
+    <date>Datum</date>
+    <size>Veličina</size>
+    <type>Vrsta</type>
+    <itmclassifyas>Ime kontakta</itmclassifyas>
+    <phone>Telefon</phone>
+    <itmcompany>Tvrtka</itmcompany>
+    <itmdepartment>Odjel</itmdepartment>
+    <contact_email>E-pošta</contact_email>
+    <expires>Istječe dana</expires>
+    <itmcategory>Tagovi</itmcategory>
+    <evntitle>Naslov</evntitle>
+    <itmtitle>Naslov</itmtitle>
+    <itmoriginalfolder>Izvorna mapa</itmoriginalfolder>
+    <itm_deleted>Izbrisano</itm_deleted>
+    <item_moved>Izbrisano</item_moved>
+    <evnlocation>Lokacija</evnlocation>
+    <upcoming>Dolazeće</upcoming>
+    <event_startdate>Početak</event_startdate>
+    <event_enddate>Kraj</event_enddate>
+    <evntype>Oznake</evntype>
+    <evncontact>Kontakt</evncontact>
+    <evnstatus>Status</evnstatus>
+    <task_startdate>Datum početka</task_startdate>
+    <task_enddate>Datum dospijeća</task_enddate>
+    <sndemail>Pošiljatelj</sndemail>
+    <sndowner>Vlasnik</sndowner>
+    <snddomain>Domena</snddomain>
+    <sndsubject>Naslov</sndsubject>
+    <revised_by>Preradio/la</revised_by>
+    <comment>Komentar</comment>
+    <qdate>Datum</qdate>
+    <name>Ime</name>
+    <evnfilename>Ime datoteke</evnfilename>
+    <evnnote>Opis</evnnote>
+    <evn_modified>Promijenjeno</evn_modified>
+    <evnfilesize>Veličina</evnfilesize>
+    <lctphnwork1>Poslovni telefon</lctphnwork1>
+    <lctphnfaxwork>Poslovni telefaks</lctphnfaxwork>
+    <lctphnhome1>Kućni telefon</lctphnhome1>
+    <lctphnmobile>Mobilni telefon</lctphnmobile>
+  </datagrid_items_view>
+  <item>
+    <public>Javni URL</public>
+    <share>Podijeli poveznicu</share>
+    <ticket>Drugo</ticket>
+    <revisions>Prerade</revisions>
+    <revert>Vrati na staro</revert>
+    <edit_comment>Uredi komentar</edit_comment>
+    <new_revision>Nova prerada</new_revision>
+  </item>
+  <event_view>
+    <week_label>Tjedan</week_label>
+    <notitle>Nema naslova</notitle>
+    <private>Neobjavljeno</private>
+    <newappointment>Nova obveza</newappointment>
+  </event_view>
+  <email>
+    <reading_confirmation_subject>Pročitano: %SUBJECT%</reading_confirmation_subject>
+    <reading_confirmation>Vaša poruka je pročitana.&#13;&#10;&#13;&#10;Slijede podatcii o poruci:&#13;&#10;&#13;&#10;Od: %FROM%&#13;&#10;Za: %TO%&#13;&#10;Datum: %DATE%&#13;&#10;Naslov: %SUBJECT%</reading_confirmation>
+    <reply_message>-----Izvorna poruka-----</reply_message>
+    <reply_message_html>-----Izvorna poruka-----</reply_message_html>
+    <from>Od:</from>
+    <to>Za:</to>
+    <cc>Kopija:</cc>
+    <date>Datum:</date>
+    <subject>Naslov:</subject>
+  </email>
+  <name_prefix>
+    <dr>Dr.</dr>
+    <mr>G.</mr>
+    <mrs>Gđa.</mrs>
+    <miss>Gđica.</miss>
+    <ms>Gđa.</ms>
+  </name_prefix>
+  <name_suffix>
+    <i>I</i>
+    <ii>II</ii>
+    <iii>III</iii>
+    <prof>Prof.</prof>
+    <jr>ml.</jr>
+    <sr>st.</sr>
+  </name_suffix>
+  <contact>
+    <displayname>Prikazano ime</displayname>
+    <avatar>Slika</avatar>
+    <contact>Kontakt</contact>
+    <general>Općenito</general>
+    <profile>Profil</profile>
+    <personal>Osobno</personal>
+    <business>Poslovno</business>
+    <other_l>Drugo</other_l>
+    <other>Bilješka</other>
+    <contact_name>Prikaži kao</contact_name>
+    <sort_as>Razvrstaj kao</sort_as>
+    <first_name>Ime</first_name>
+    <middle_name>Srednje ime</middle_name>
+    <last_name>Prezime</last_name>
+    <nick_name>Nadimak</nick_name>
+    <full_name>Puno ime</full_name>
+    <title>Titula</title>
+    <suffix>Dodatak</suffix>
+    <category>Tagovi</category>
+    <email_address>Adresa e-pošte</email_address>
+    <birthdate>Rođendan</birthdate>
+    <anniversary>Godišnjica</anniversary>
+    <spouse>Supružnik</spouse>
+    <gender>Spol</gender>
+    <company>Tvrtka</company>
+    <job>Posao</job>
+    <profession>Zanimanje</profession>
+    <department>Odjel</department>
+    <assistant>Asistent</assistant>
+    <manager>Menadžer</manager>
+    <office_location>Lokacija ureda</office_location>
+    <email1>E-pošta 1</email1>
+    <email2>E-pošta 2</email2>
+    <email3>E-pošta 3</email3>
+    <im>Slanje istovremenih poruka</im>
+    <phone>Telefon</phone>
+    <phones>Telefon(i)</phones>
+    <male>Muško</male>
+    <female>Žensko</female>
+    <street>Ulica</street>
+    <city>Grad</city>
+    <zip>Poštanski broj</zip>
+    <state>Država</state>
+    <country>Zemlja</country>
+    <home_address>Kućna adresa</home_address>
+    <business_address>Poslovna adresa</business_address>
+    <other_address>Druga adresa</other_address>
+    <homepage>Početna stranica</homepage>
+    <calendar_url>Slobodan/Zauzet URL</calendar_url>
+    <share_type>Vrsta dijeljenja</share_type>
+    <address>Adresa</address>
+    <web>Web</web>
+    <notes>Bilješka</notes>
+  </contact>
+  <distrib_list>
+    <distrib_list>Popis za slanje</distrib_list>
+    <general>Općenito</general>
+    <members>Članovi</members>
+    <title>Naslov</title>
+    <category>Tagovi</category>
+    <add_title>Dodaj</add_title>
+    <edit_title>Uredi</edit_title>
+    <name>Ime</name>
+    <email>E-pošta</email>
+  </distrib_list>
+  <time_interval>
+    <from>Od</from>
+    <to>Za</to>
+    <duration>Trajanje</duration>
+    <all_day_event>Cjelodnevni događaj</all_day_event>
+    <days>Dani</days>
+    <change_default>Promijeni zadanu vremensku zonu</change_default>
+  </time_interval>
+  <repeating_confirm>
+    <title_edit>Ova stavka se ponavlja</title_edit>
+    <text_edit>Promijeni samo ovo, sve u nizu, ili ovo i sve sljedeće?</text_edit>
+    <title_delete>Ova stavka se ponavlja</title_delete>
+    <text_edit_2>Promijeni samo ovo, ili sve u nizu?</text_edit_2>
+    <text_delete>Ukloni samo ovo ili sve u nizu?</text_delete>
+    <btn_this>Samo ovo</btn_this>
+    <btn_all>Sve u nizu</btn_all>
+    <btn_allfromnow>Sve što slijedi</btn_allfromnow>
+    <btn_cancel>Otkaži</btn_cancel>
+  </repeating_confirm>
+  <event>
+    <reason>Odbij razlog</reason>
+    <event>Obveza</event>
+    <general>Općenito</general>
+    <repeating>Ponavljajuće</repeating>
+    <schedule>Raspored</schedule>
+    <reminders>Podsjetnici</reminders>
+    <onlinemeeting>Mrežni sastanak</onlinemeeting>
+    <startmeeting>Započni odmah</startmeeting>
+    <joinmeeting>Pridruži se odmah</joinmeeting>
+    <title>Naslov</title>
+    <location>Lokacija</location>
+    <category>Oznake</category>
+    <notes>Bilješke</notes>
+    <timezone>Vremenska zona</timezone>
+    <show_as>Prikaži kao</show_as>
+    <free>Slobodan</free>
+    <busy>Zauzet</busy>
+    <tentative>Možda</tentative>
+    <out_of_office>Odsutan</out_of_office>
+    <unknown>Nema informacija</unknown>
+    <label>Oznaka</label>
+    <meeting_hint>Stvori sastanak i pridruži mu se, podijeli svoj zaslon</meeting_hint>
+    <high>Visok:</high>
+    <low>Nizak:</low>
+  </event>
+  <file>
+    <file>Dokument</file>
+    <expire>Istječe u %s</expire>
+    <name>Naziv datoteke</name>
+    <lock>Zaključaj</lock>
+    <unlock>Otključaj</unlock>
+    <locked>Zaključano</locked>
+    <unlocked>Otključano</unlocked>
+    <locked_by>Dokument je zaključao/la %s</locked_by>
+    <blank_doc>Dokument</blank_doc>
+    <description>Opis</description>
+    <new_doc>Prazni dokument</new_doc>
+    <converting>Pretvorba dokumenta je u tijeku.</converting>
+  </file>
+  <note>
+    <note>Napomena</note>
+    <category>Oznake</category>
+    <title>Naslov</title>
+    <general>Općenito</general>
+  </note>
+  <task>
+    <task>Zadatak</task>
+    <attendees>Sudionici</attendees>
+    <status>Status</status>
+    <complete>Dovršeno</complete>
+    <repeating>Ponavljajuće</repeating>
+    <reminders>Podsjetnici</reminders>
+    <general>Općenito</general>
+    <title>Naslov</title>
+    <start_date>Datum početka</start_date>
+    <due_date>Datum dospijeća</due_date>
+    <category>Oznake</category>
+    <not_started>Nije započelo</not_started>
+    <in_progress>U tijeku</in_progress>
+    <completed>Dovršeno</completed>
+    <deferred>Odgođeno</deferred>
+    <waiting>Čekanje drugog sudionika</waiting>
+    <done>Gotovo</done>
+  </task>
+  <blackwhite>
+    <black>Crna lista</black>
+    <white>Bijela lista</white>
+    <email>E-pošta/Domena</email>
+  </blackwhite>
+  <compose>
+    <template>Predložak</template>
+    <newmail>Poruka</newmail>
+    <send>Pošalji</send>
+    <sendinfo>Pošalji poruku</sendinfo>
+    <save>Spremi</save>
+    <saveinfo>Spremi poruku u nacrte</saveinfo>
+    <options>Mogućnosti</options>
+    <advanced>Napredne mogućnosti</advanced>
+    <html>HTML</html>
+    <text>Tekst</text>
+    <sms>SMS</sms>
+    <compose_sms>Sastavi SMS</compose_sms>
+    <sms_preview>Pregled SMS-a</sms_preview>
+    <sms_info>%s znakova u %s poruka</sms_info>
+    <smartattach>SmartAttach</smartattach>
+    <smartattachinfo>Privitci će biti spremljeni u Vaš %s i zamijenjeni poveznicama za preuzimanje u tijelu e-poruke.</smartattachinfo>
+    <readconfirmationinfo>Primi potvrdu da je primatelj pročitao poruku</readconfirmationinfo>
+    <show_all>Prikaži sve unose</show_all>
+    <signinfo>Digitalno potpiši poruku</signinfo>
+    <encryptinfo>Enkriptiraj poruku</encryptinfo>
+    <priorityinfo>Postavi važnost poruke</priorityinfo>
+    <subject_empty>Poruka nema naslova.&lt;br&gt;Poslati svejedno?</subject_empty>
+    <rcp_empty>Dodaj primatelja kome ćeš poslati poruku.</rcp_empty>
+    <optionstitle>Mogućnosti poruke</optionstitle>
+    <encrypt>Enkriptiraj poruku</encrypt>
+    <sign>Digitalno potpiši poruku</sign>
+    <nosign>Nije pronađen certifikat za potpisivanje.&lt;br&gt;Poslati nepotpisanu poruku?</nosign>
+    <delivery_report>Prikaži izvješće o isporuci</delivery_report>
+    <reply_to>Odgovori</reply_to>
+    <upload_file>Priloži s lokalnog diska</upload_file>
+    <upload_item>Priloži s mrežnog klijenta</upload_item>
+  </compose>
+  <sharing>
+    <public>Javno</public>
+    <private>Privatno</private>
+    <anonymous>Anonimno/svi</anonymous>
+    <custom>Po mjeri</custom>
+    <inherited>Naslijeđeno</inherited>
+    <none>Nema</none>
+    <enter_address>Upiši adresu</enter_address>
+    <permissions>Dopuštenja</permissions>
+    <user>Korisnik</user>
+    <items>Stavke</items>
+    <folder>Mape</folder>
+    <administration>Administracija</administration>
+  </sharing>
+  <time>
+    <hours>Sa/i</hours>
+    <minutes>Minuta/e</minutes>
+    <days>Dan/i</days>
+    <oneday>dan</oneday>
+    <moredays>dani</moredays>
+  </time>
+  <select_recipients>
+    <select_emails>Odabrani kontakti</select_emails>
+    <add>Dodaj</add>
+  </select_recipients>
+  <tags>
+    <placeholder>Traži</placeholder>
+    <tags>Oznake</tags>
+    <used>Korišteno</used>
+    <hint>Korišteno po %s stavki/stavkama</hint>
+    <selected>Odabrano</selected>
+  </tags>
+  <phone>
+    <lctphnhome1>Kuća 1</lctphnhome1>
+    <lctphnhome2>Kuća 2</lctphnhome2>
+    <lctphnassistant>Pomagač</lctphnassistant>
+    <lctphnwork1>Posao 1</lctphnwork1>
+    <lctphnwork2>Posao 2</lctphnwork2>
+    <lctphnfaxhome>Kućni faks</lctphnfaxhome>
+    <lctphnfaxwork>Poslovni faks</lctphnfaxwork>
+    <lctphncallback>Povratni poziv</lctphncallback>
+    <lctphncompany>Tvrtka</lctphncompany>
+    <lctphncar>Automobil</lctphncar>
+    <lctphnisdn>ISDN</lctphnisdn>
+    <lctphnmobile>Mobitel</lctphnmobile>
+    <lctphnother>Drugo</lctphnother>
+    <lctphnotherfax>Drugi FAKS</lctphnotherfax>
+    <lctphnpager>Dojavljivač</lctphnpager>
+    <lctphnprimary>Primarno</lctphnprimary>
+    <lctphnradio>Radio</lctphnradio>
+    <lctphntelex>Teleks</lctphntelex>
+    <lctphnhearing>Slušanje</lctphnhearing>
+    <sip>SIP</sip>
+  </phone>
+  <repeating>
+    <day>Dan</day>
+    <week>Tjedan</week>
+    <week_of_month>Tjedan u mjesecu</week_of_month>
+    <month_of_year>Mjesec u godini</month_of_year>
+    <month>Mjesec</month>
+    <year>Godina</year>
+    <year_s>godina/e</year_s>
+    <repeats>Ponavlja se svakih:</repeats>
+    <not_repeats>Bez ponavljanja</not_repeats>
+    <end_date>Datum završetka</end_date>
+    <no_end>Nema datuma završetka</no_end>
+    <until>Do</until>
+    <count>Brojanje</count>
+    <daily>Dnevno</daily>
+    <weekly>Tjedno</weekly>
+    <monthly>Mjesečno</monthly>
+    <yearly>Godišnje</yearly>
+    <every>Svaki</every>
+    <the/>
+    <of>od</of>
+    <recur_every>Ponavljaj svakih</recur_every>
+    <weeks_on>tjedan/a na:</weeks_on>
+    <of_every>od svakih</of_every>
+    <months>mjesec/i</months>
+    <days>dan/a</days>
+    <day_list>tjedan</day_list>
+    <every_weekday>Svaki radni dan</every_weekday>
+    <first>prvi</first>
+    <second>drugi</second>
+    <third>treći</third>
+    <fourth>četvrti</fourth>
+    <last>posljednji</last>
+    <weekday>radni tjedan</weekday>
+    <weekend_day>vikend</weekend_day>
+  </repeating>
+  <reminder>
+    <none>Nema</none>
+    <email>E-pošta</email>
+    <popup>Iskočni prozor (radna površina)</popup>
+    <address>Adresa</address>
+    <remind1>Podsjeti me</remind1>
+    <remind2>prije</remind2>
+    <is_reminder>Pošalji podsjetnik</is_reminder>
+    <no_reminder>Nemoj poslati podsjetnik</no_reminder>
+    <type>Vrsta</type>
+    <snooze>Odgodi</snooze>
+    <meeting>Pokreni sada</meeting>
+    <dismiss>Isključi</dismiss>
+    <reminder>Podsjetnik</reminder>
+  </reminder>
+  <journal>
+    <journal>Dnevnik</journal>
+    <title>Naslov</title>
+    <type>Vrsta</type>
+    <company>Tvrtka</company>
+    <conversation>Razgovor</conversation>
+    <document>Dokument</document>
+    <e-mail_message>Poruka e-pošte</e-mail_message>
+    <fax>Faks</fax>
+    <letter>Pismo</letter>
+    <meeting>Sastanak</meeting>
+    <meeting_cancellation>Otkazivanje sastanka</meeting_cancellation>
+    <meeting_request>Zahtjev za sastanak</meeting_request>
+    <meeting_response>Odgovor na sastanak</meeting_response>
+    <microsoft_office_access>Microsoft Office Access</microsoft_office_access>
+    <microsoft_office_excel>Microsoft Office Excel</microsoft_office_excel>
+    <microsoft_powerpoint>Microsoft PowerPoint</microsoft_powerpoint>
+    <microsoft_visio>Microsoft Visio</microsoft_visio>
+    <microsoft_word>Microsoft Word</microsoft_word>
+    <note>Napomena</note>
+    <phone_call>Telefonski poziv</phone_call>
+    <remote_session>Udaljena sesija</remote_session>
+    <task>Zadatak</task>
+    <task_request>Zahtjev za zadatak</task_request>
+    <task_response>Odgovor na zadatak</task_response>
+  </journal>
+  <certificate>
+    <purposes>Ovaj certifikat namijenjen je sljedećoj svrsi/svrhama</purposes>
+    <ssl>Dokazuje Vašu istovjetnost udaljenom računalu</ssl>
+    <smime>Štiti poruke e-pošte</smime>
+    <serial>Serijski</serial>
+    <view>Pregled</view>
+    <certificate>Certifikat</certificate>
+    <invalid>Nevaljani certifikat ili izraz zaporke</invalid>
+    <passphrase>Izraz zaporke</passphrase>
+    <issuedto>Izdano prema</issuedto>
+    <issuedby>Izdano od</issuedby>
+    <email>E-pošta</email>
+    <validity>Valjanost</validity>
+    <badtype>Nedostaje privatni dio</badtype>
+    <missing>Nije pronađen certifikat</missing>
+    <invaliditem>Ne mogu priložiti certifikat</invaliditem>
+    <assigned>Certifikat je uspješno dodan</assigned>
+  </certificate>
+  <imip>
+    <folder_not_exist>Mapa ne postoji: &quot;%s&quot;</folder_not_exist>
+    <accepted>Događaj je prihvaćen</accepted>
+    <unsure>Događaj je označen sa možda</unsure>
+    <declined>Događaj je odbijen</declined>
+    <proposed>New time was proposed</proposed>
+  </imip>
+  <settings>
+    <search_primary>Auto-complete only primary email</search_primary>
+    <force_enter_user_info>Prisili korisnike da upišu kontakt podatke</force_enter_user_info>
+    <disable_wipe>Onemogući udaljeno brisanje</disable_wipe>
+    <documents>Dokumenti</documents>
+    <aliases>Alijasi</aliases>
+    <disable_mailformat>Onemogući prekidač HTML/obično u prozoru za sastavljanje poruke</disable_mailformat>
+    <disable_altmail>Sakrij dodatnu adresu e-pošte</disable_altmail>
+    <rcpt_suggest>Samo-dopunjavanje</rcpt_suggest>
+    <rcpt_cache>Očisti popis</rcpt_cache>
+    <keep_search>Zadrži pojam koji se pretražuje pri prebacivanju mapa</keep_search>
+    <smartfolder>SmartAttach mapa</smartfolder>
+    <always_show_rcp>Uvijek prikaži adresne linije</always_show_rcp>
+    <login_screen>Zaslon za prijavu</login_screen>
+    <exclude_gal>Isključi GAL iz samo-dopunjavanja</exclude_gal>
+    <password_policy>Pravila o zaporkama</password_policy>
+    <notifications>Obavijesti na radnoj površini</notifications>
+    <nofocus>Automatski (samo pozadina)</nofocus>
+    <autorevision_mode>Omogući automatske prerade dokumenata</autorevision_mode>
+    <disable_support>Onemogući poveznicu za podršku kod prijave</disable_support>
+    <check_subject>Provjeri postoji li prazni naslov</check_subject>
+    <text_direction_switch>Enable changing text direction</text_direction_switch>
+    <disable_anyone>Sakrij dijeljenje za anonimni račun</disable_anyone>
+    <compact_layout>Use compact interface</compact_layout>
+    <show_favorites>Prikaži omiljene mape</show_favorites>
+    <layout>Globalne postavke</layout>
+    <signature>Potpis</signature>
+    <signature_separator>Dodaj standardni separator kod potpisa &quot;-- &quot;</signature_separator>
+    <signature_to_top>Potpis na vrhu poruke</signature_to_top>
+    <groups>Grupe</groups>
+    <group>Grupa</group>
+    <trash_folder>Mapa za smeće</trash_folder>
+    <sent_folder>Mapa Poslano</sent_folder>
+    <groupsend>Spremi poslane poruke u javnu mapu za ovu skupinu</groupsend>
+    <ftime>Prilagođavanje vremenskih zona</ftime>
+    <sso_only>Dopusti samo SSO prijavu</sso_only>
+    <activity_monitor>Odjavi se nakon neaktivnosti (minute)</activity_monitor>
+    <upload_limit>Upload Limit (MB)</upload_limit>
+    <time_12>12 sati</time_12>
+    <time_24>24 sata</time_24>
+    <logout_url>URL za odjavu</logout_url>
+    <disable_attach_item>Onemogući privitke iz mrežnog klijenta</disable_attach_item>
+    <disable_virtual>Onemogući mape pretraživanja</disable_virtual>
+    <disable_interfaces>Onemogući odabir sučelja kod prijave</disable_interfaces>
+    <disable_languages>Onemogući odabir jezika kod prijave</disable_languages>
+    <confirm_exit>Potvrda kod izlaska</confirm_exit>
+    <compose>Poruka sastavljena</compose>
+    <never>Nikada</never>
+    <always>Uvijek</always>
+    <homepage>Početna stranica</homepage>
+    <banner_enable>Omogući okvir za transparente</banner_enable>
+    <application_enable>Omogući transparent za preuzimanje aplikacija</application_enable>
+    <banner_url>URL transparenta</banner_url>
+    <banner_height>Visina transparenta</banner_height>
+    <count_subject>Grupni prefiksi kod naslova (Npr. Odgovor[4], Proslijedi[2])</count_subject>
+    <reply_prefix>Koristi prefiks kod odgovora (&gt;)</reply_prefix>
+    <collate>Podrška za mogućnost ispravnog sortiranja e-pošte (s višejezičnim znakovima) za MySQL</collate>
+    <init_page>Početna stranica</init_page>
+    <remember_folder>Zapamti posljednju mapu</remember_folder>
+    <show_inbox>Dolazna pošta</show_inbox>
+    <show_home>Naslovna stranica</show_home>
+    <clear_trash>Izbriši e-poruke iz smeća starije od (dana)</clear_trash>
+    <clear_gwtrash>Izbriši stavke iz smeća starije od (dana)</clear_gwtrash>
+    <alias>Alias</alias>
+    <subscribed_holidays>Pretplaćeni praznici</subscribed_holidays>
+    <holidays>Praznici</holidays>
+    <weather>Vrijeme</weather>
+    <temperature>Temperatura</temperature>
+    <c>Celzij (°C)</c>
+    <f>Fahrenheit (°F)</f>
+    <city>Grad</city>
+    <disable_folder_types>Onemogući odabrane vrste mapa</disable_folder_types>
+    <antispam>Anti-spam</antispam>
+    <spam_mode>Način rada mape za spam</spam_mode>
+    <reports_mode>Način rada izvješća o spamu</reports_mode>
+    <quarantine>Karantena</quarantine>
+    <last_time>Vrijeme posljednje prijave</last_time>
+    <last_ip>IP posljednje prijave</last_ip>
+    <current_time>Vrijeme trenutne prijave</current_time>
+    <current_ip>IP trenutne prijave</current_ip>
+    <default>Zadano</default>
+    <use_spam>Koristi mapu za spam</use_spam>
+    <not_spam>Nemoj koristiti mapu za spam</not_spam>
+    <disabled>Onemogućeno</disabled>
+    <all>Sve</all>
+    <full>Puno</full>
+    <new_items>Nove stavke</new_items>
+    <smtp_relay>Vrati natrag poruke koje nisu uspješno poslane</smtp_relay>
+    <restrictions>Ograničenja</restrictions>
+    <hide_sortstring>Sakrij string za sortiranje</hide_sortstring>
+    <disable_aliases>Onemogući aliase</disable_aliases>
+    <disable_redirect>Onemogući preusmjeravanje</disable_redirect>
+    <disable_other_accounts>Onemogući druge račune</disable_other_accounts>
+    <disable_edit_vcard>Onemogući uređivanje Mojih podataka</disable_edit_vcard>
+    <disable_edit_account>Onemogući uređivanje Mojeg računa</disable_edit_account>
+    <disable_change_password>Onemogući promjenu zaporke</disable_change_password>
+    <disable_antispam_control>Sakrij karticu za anti-spam</disable_antispam_control>
+    <disable_licenses>Onemogući karticu za licencije</disable_licenses>
+    <disable_login_help>Onemogući pomoć kod prijave</disable_login_help>
+    <disable_login_banners>Onemogući transparente kod prijave</disable_login_banners>
+    <disable_signup>Onemogući registraciju</disable_signup>
+    <disable_sip>Onemogući mrežni telefon (unutarnji VoIP klijent)</disable_sip>
+    <disable_call_forwarding>Onemogući prosljeđivanje poziva</disable_call_forwarding>
+    <disable_external_sip>Onemogući vanjski VoIP</disable_external_sip>
+    <disable_export>Onemogući izvoz GroupWarea</disable_export>
+    <disable_smart>Onemogući SmartAttach</disable_smart>
+    <disable_dropbox>Onemogući Dropbox</disable_dropbox>
+    <disable_im>Onemogući mrežno čavrljanje</disable_im>
+    <disable_sms>Onemogući SMS</disable_sms>
+    <disable_remember_pulldown>Onemogući &quot;Zapamti me&quot;</disable_remember_pulldown>
+    <disable_autofill>Onemogući automatsko popunjavanje korisničkog imena/zaporke</disable_autofill>
+    <disable_rules>Onemogući pravila</disable_rules>
+    <disable_gmaps>Onemogući Googleove karte</disable_gmaps>
+    <disable_forwarder>Sakrij karticu za prosljeđivanje</disable_forwarder>
+    <disable_keep_emails>Sakrij &quot;Zadrži e-poruke u sandučiću&quot; u Presmjeravanju</disable_keep_emails>
+    <disable_autoresponder>Sakrij karticu za automatski odgovor</disable_autoresponder>
+    <share_mode>Način rada dijeljenja</share_mode>
+    <share_p>Privatno (Nema dijeljenja podataka)</share_p>
+    <share_pf>Javno (Podatci se dijele sa svima)</share_pf>
+    <share_f>Prijatelji (Podatci se dijela samo s prijateljima)</share_f>
+    <daily_event_report>Pošalji dnevni red e-poštom</daily_event_report>
+    <reminder_notification>Pošalji podsjetnike e-poštom</reminder_notification>
+    <reminder_email>Adresa e-pošte za podsjetnike i dnevni red</reminder_email>
+    <dropbox>Dropbox</dropbox>
+    <dropbox_app_key>Aplikacijski ključ</dropbox_app_key>
+    <dropbox_instructions>Za integraciju Dropboxa prijavite se na www.dropbox.com, idite na odjeljak za developere i stvorite aplikacijski ključ. Morat ćete upisati kratki opis i ime hosta ili IP za pristup mrežnom klijentu.</dropbox_instructions>
+    <server>Poslužitelj</server>
+    <login_with_email>Prijava s adresom e-pošte</login_with_email>
+    <server_logs>Razina zapisivanja</server_logs>
+    <server_logs0>Nema</server_logs0>
+    <server_logs2>Sažetak</server_logs2>
+    <server_logs3>Uklanjanje grešaka</server_logs3>
+    <server_logs4>Prošireno</server_logs4>
+    <http_port>HTTP port</http_port>
+    <imapserver>IMAP poslužitelj</imapserver>
+    <smtpserver>SMTP poslužitelj</smtpserver>
+    <xmppserver>XMPP poslužitelj</xmppserver>
+    <port>Port</port>
+    <pgtitle>Naslov stranice</pgtitle>
+    <logo>Logo prijave</logo>
+    <login_style>Izgled prijave</login_style>
+    <login_client>Željeno sučelje</login_client>
+    <skin_style>Izgled teme</skin_style>
+    <interfaces>Raspoloživa sučelja</interfaces>
+    <spell_language>Provjera pravopisa</spell_language>
+    <delete_emptyfolder>Izbriši poruke kod naredbe Isprazni mapu</delete_emptyfolder>
+    <show_images>Automatski prikaži slike s vanjskog poslužitelja</show_images>
+    <show_images_spam>Primijeni i na mapu za spam</show_images_spam>
+    <auto_show_images>Automatski pregledaj slike iz privitka</auto_show_images>
+    <sound_notify>Omogući zvukovne obavijesti</sound_notify>
+    <domains_settings>Domene</domains_settings>
+    <domain>Domena</domain>
+    <edit_settings>Uredi postavke domena</edit_settings>
+    <resetpass>Ponovno postavljanje zaporke</resetpass>
+    <resetmail>E-pošta</resetmail>
+    <resetenable>Omogući ponovno postavljanje zaporke</resetenable>
+    <accounts>Računi</accounts>
+    <account>Račun</account>
+    <tools>Alati</tools>
+    <autoresponder>Automatski odgovor</autoresponder>
+    <forwarder>Preusmjeravanje</forwarder>
+    <pcertificate>Privatni certifikati</pcertificate>
+    <certificate>Certifikati</certificate>
+    <mail_settings>Pošta</mail_settings>
+    <im_settings>Mrežno čavrljanje</im_settings>
+    <sip_settings>Mrežni telefon</sip_settings>
+    <sip_webrtc>Kada je to moguće, koristi mogućnosti internetskog preglednika vezano uz medije</sip_webrtc>
+    <sip_start>Automatski pokreni mrežni telefon</sip_start>
+    <sip_internal>Integriraj sa svojim VoIP računom (SIP)</sip_internal>
+    <sip_external>Integriraj s vanjskim VoIP računom (SIP)</sip_external>
+    <sip_dial>Pozovi preko vanjskog VoIP računa (SIP/HTTP)</sip_dial>
+    <sip_dial_internal>Pozovi preko svog VoIP računa (već registriranog softwareskog telefona/telefona)</sip_dial_internal>
+    <call_forwarding>Prosljeđivanje poziva</call_forwarding>
+    <use_forwarding>Koristi prosljeđivanje poziva</use_forwarding>
+    <forward_to>Proslijedi poziv prema</forward_to>
+    <forward_after>Proslijedi nakon (sekundi)</forward_after>
+    <chat_window>Prozor za čavrljanje</chat_window>
+    <auto_chat>Automatski otvori prozor za čavrljanje</auto_chat>
+    <auto_subscribe>Automatski pretplati nove korisnike</auto_subscribe>
+    <remember_status>Zapamti status</remember_status>
+    <extended_status>Raspoloživi statusi</extended_status>
+    <newline_chat>Čavrljaj na novoj liniji</newline_chat>
+    <smiles_chat>Koristi osjećajnike</smiles_chat>
+    <enter_send>Pošalji poruku klikom na Enter</enter_send>
+    <general_settings>Općenito</general_settings>
+    <other_accounts>Drugi računi</other_accounts>
+    <primary_accounts>Moj račun</primary_accounts>
+    <account_settings>Računi</account_settings>
+    <importexport_settings>Uvoz/izvoz</importexport_settings>
+    <default_reminder>Primijeni zadani podsjetnik na nove obveze</default_reminder>
+    <use_sslswfatt>Koristi HTTP Flash učitavanje u SSL sesiji</use_sslswfatt>
+    <use_swfupload>Koristi Flash učitavanje za privitke</use_swfupload>
+    <use_office>Koristi Open u Officeu kada je to moguće</use_office>
+    <banner_enabled>Dopusti transparent na stranici za prijavu</banner_enabled>
+    <twitter_disabled>Onemogući integraciju Twittera</twitter_disabled>
+    <twitter_link>Twitter ime</twitter_link>
+    <facebook_disabled>Onemogući integraciju Facebooka</facebook_disabled>
+    <facebook_link>URL stranice koja Vam se sviđa</facebook_link>
+    <skin>Izgled</skin>
+    <items_ab_shown>Brojanje odabranih stavaka s adresama</items_ab_shown>
+    <date_format>Oblik datuma</date_format>
+    <time_format>Oblik vremena</time_format>
+    <language>Jezik</language>
+    <timezone>Vremenska zona</timezone>
+    <general>Općenito</general>
+    <default_mail_settings>Sastavljanje poruke</default_mail_settings>
+    <folders_mapping>Zadane mape</folders_mapping>
+    <subject>Naslov</subject>
+    <message_format>Oblik poruke</message_format>
+    <re_message_format>Oblik poruke odgovora</re_message_format>
+    <html_message>HTML poruka</html_message>
+    <read_confirmation>Potvrda o čitanju</read_confirmation>
+    <request_read_confirmation>Zatraži potvrdu o čitanju</request_read_confirmation>
+    <send_read_confirmation>Dopusti slanje</send_read_confirmation>
+    <ask_before>Pitaj me prije slanja</ask_before>
+    <smart_attach>Koristi SmartAttach</smart_attach>
+    <save_sent_message>Spremi poslane poruke u Poslanu poštu</save_sent_message>
+    <save_folder_message>Spremi poslane poruke</save_folder_message>
+    <encrypt>Enkriptiraj poruke</encrypt>
+    <sign>Digitalno potpiši poruke</sign>
+    <appendvcard>Priloži Moje podatke (vCard)</appendvcard>
+    <charset>Charset</charset>
+    <priority>Važnost</priority>
+    <reply_to>Adresa za odgovor</reply_to>
+    <reply_myself>Automatski si pošalji skrivenu kopiju</reply_myself>
+    <move_to_trash>Premjesti izbrisane poruke u mapu Smeće</move_to_trash>
+    <auto_add_recipient_to_addressbook>Automatski dodaj primatelje poruke</auto_add_recipient_to_addressbook>
+    <edit_rules>Pravila</edit_rules>
+    <rules>Pravila</rules>
+    <forward_messages>Proslijedi poruke</forward_messages>
+    <inline>Unutar tijela poruke</inline>
+    <as_attachment>Kao privitak</as_attachment>
+    <autoupdate_message>Provjera novih poruka svake (minute)</autoupdate_message>
+    <autosave_message>Spremi nacrte poruka svake (minute)</autosave_message>
+    <calendar_settings>Kalendar</calendar_settings>
+    <main>Glavni</main>
+    <day_begins_at>Dan počinje u</day_begins_at>
+    <day_ends_at>Dan završava u</day_ends_at>
+    <week_begins_on>Tjedan počinje u</week_begins_on>
+    <week_starts_today>Tjedan počinje na trenutni dan</week_starts_today>
+    <workweek_begins_on>Working week begins on</workweek_begins_on>
+    <workweek_ends_on>Working week ends on</workweek_ends_on>
+    <autosave_documents>Autosave notes and edited documents every (Minutes)</autosave_documents>
+    <sharing_settings>Dijeljenje</sharing_settings>
+    <shared_email>Dijeljena e-pošta</shared_email>
+    <email>E-pošta</email>
+    <rights>Prava</rights>
+    <read>Pročitano</read>
+    <write>Piši</write>
+    <modify>Izmijeni</modify>
+    <delete>Izbriši</delete>
+    <owner>Administriraj</owner>
+    <acc_name>Ime</acc_name>
+    <quota>Diskovna kvota</quota>
+    <sms_quota>SMS kvota</sms_quota>
+    <quota_home>Diskovna kvota (uključujući stavke iz svih mapa s poštom, mapa s datotekama, privitaka za kontakte, događaja,...)</quota_home>
+    <description>Opis</description>
+    <old_password>Stara zaporka</old_password>
+    <new_password>Nova zaporka</new_password>
+    <new_password_conf>Potvrdi zaporku</new_password_conf>
+    <save_drafts_to>Spremi nacrt u</save_drafts_to>
+    <default_flag>Zadana zastavica</default_flag>
+    <alternative_email>Dopunska adresa e-pošte</alternative_email>
+    <default_settings>Zadane postavke</default_settings>
+    <event_view>Prikaz kalendara</event_view>
+    <event_show_as>Obveze se prikazuju kao</event_show_as>
+    <event_sharing>Dijeljenje obveza</event_sharing>
+    <contact_sharing>Dijeljenje kontakata</contact_sharing>
+    <journal_sharing>Dijeljenje dnevnika</journal_sharing>
+    <note_sharing>Dijeljenje bilješki</note_sharing>
+    <task_sharing>Dijeljenje zadataka</task_sharing>
+    <file_sharing>Dijeljenje datoteka</file_sharing>
+    <force_for_domainadmin>Nametni ovu opciju i korisnicima i administratorima domena</force_for_domainadmin>
+    <force_for_users>Nametni ovu opciju korisnicima</force_for_users>
+    <force>Nametni opciju</force>
+  </settings>
+  <email_priority>
+    <highest>Najviša</highest>
+    <high>Visoka</high>
+    <normal>Obična</normal>
+    <medium>Srednja</medium>
+    <low>Niska</low>
+    <lowest>Najniža</lowest>
+  </email_priority>
+  <select_folder>
+    <three_dots>...</three_dots>
+    <select_folder>Odaberi mapu</select_folder>
+  </select_folder>
+  <insert_item>
+    <insert_item>Odaberi stavku</insert_item>
+    <untitled>bez naslova</untitled>
+    <embedded>Ugrađeno</embedded>
+    <link>Poveznica</link>
+  </insert_item>
+  <attendees>
+    <shared>Predloženi kontakti</shared>
+    <add_title>Dodaj</add_title>
+    <edit_title>Uredi</edit_title>
+    <resource>Resurs</resource>
+    <remove>Ukloni</remove>
+    <edit>Uredi</edit>
+    <name>Ime</name>
+    <email>E-pošta</email>
+    <folder>Odaberi mapu</folder>
+    <all_attendees>Svi sudionici</all_attendees>
+    <status>Status</status>
+    <status_p>U tijeku</status_p>
+    <status_a>Prihvaćeno</status_a>
+    <status_d>Odbijeno</status_d>
+    <role>Uloga</role>
+    <role_q>Potrebno</role_q>
+    <role_s>Resurs</role_s>
+    <role_t>Neobavezno</role_t>
+    <role_g>Organizator</role_g>
+    <quick_add>Upiši ime sudionika ili resursa</quick_add>
+  </attendees>
+  <dial>
+    <dial>Biranje</dial>
+    <keypad>Tipkovnica</keypad>
+    <call>Nazovi</call>
+    <mute>Bez zvuka</mute>
+    <answer>Odgovori</answer>
+    <decline>Odbij</decline>
+    <filter>Prikaži samo kontakte iz mrežnog telefona</filter>
+    <hfilter>Prikaži samo propuštene pozive</hfilter>
+    <phone>Mrežni telefon</phone>
+    <duration>Trajanje:</duration>
+    <video>Video</video>
+    <localcam>Ovo računalo</localcam>
+    <remotecam>Udaljeno računalo</remotecam>
+    <answer_video>Odgovori + Video</answer_video>
+    <hang_up>Poklopi</hang_up>
+    <busy>Korisnik je zauzet</busy>
+    <pbook>Telefonski imenik</pbook>
+    <refresh>Osvježi povijest</refresh>
+    <call_duration>Trajanje poziva %s</call_duration>
+    <history>Povijest</history>
+    <missed>Propušteno</missed>
+    <incoming>Dolazno</incoming>
+    <outgoing>Odlazno</outgoing>
+    <select_contect>Odaberi željeni kontakt</select_contect>
+    <calling>Zvanje prema</calling>
+    <incomingcall>Zovi od</incomingcall>
+    <callestablished>Zovi sa</callestablished>
+    <notify_ext>Birano putem vanjskog telefona</notify_ext>
+  </dial>
+  <sip>
+    <sip>Mrežni telefon</sip>
+    <external>Zovi preko vanjskog telefona</external>
+    <screen>Zovi s dijeljenjem zaslona</screen>
+    <sip_status>Mrežni telefon: %s</sip_status>
+    <default_contact>Zadani kontakt mrežnog telefona</default_contact>
+    <unreachable>Poslužitelj nije dostupan</unreachable>
+    <device>Nije pronađen zvukovni uređaj</device>
+    <videonotsupported>Vaš preglednik ne podržava video pozive. Za najbolje rezultate koristite najnoviji Chrome ili Firefox.</videonotsupported>
+    <offline>Mrežni telefon nije na mreži (pozivi će biti birani preko vanjskog VoIP softwareskog telefona/telefona)</offline>
+    <outgoingcall>Zovete %s</outgoingcall>
+    <incomingcall>%s Vas zove</incomingcall>
+    <callongoing>Razgovarate s/sa %s</callongoing>
+    <callestablished>Uspostavili ste poziv s/sa %s</callestablished>
+    <userbusy>Korisnik %s je zauzet</userbusy>
+    <callfinished>Poziv je završen</callfinished>
+    <callcanceled>Poziv je završio</callcanceled>
+    <notreachable>Ne mogu doći do korisnika na mrežnom telefonu</notreachable>
+    <calldeclined>Poziv je odbijen</calldeclined>
+    <info>Informacije o mrežnom telefonu: %s</info>
+    <notification>Korisnik %s je %s</notification>
+    <error>Upozorenje mrežnog telefona</error>
+    <notice>Upozorenje mrežnog telefona</notice>
+    <udp>Greška pri spajanju mrežnog telefona. Provjerite svoj vatrozid ili internetsku vezu.</udp>
+    <slow>Inicijalizacija je prespora. Mrežni telefon možda neće raditi ispravno.</slow>
+    <init>Greška pri spajanju mrežnog telefona. Provjerite svoje postavke u Mogućnosti - Telefon</init>
+    <mediarequest>Molimo dopustite pristup svom mikrofonu ili kameru. Možete i klinkuti na dugme Rješavanje problema ispod za pristup interaktivnom vodiču.</mediarequest>
+    <invalidstate>Nije uspio pristup željenim medijskim uređajima. Moguće je da ih već koristi neka druga aplikacija.</invalidstate>
+    <nopermission>Dopuštenje za medijske uređaje nije dano ili je blokirano. Morate dopustiti korištenje mikrofona ili kamere za interakciju.</nopermission>
+    <mediadenied>Ne mogu pristupiti traženim medijskim uređajima. Moguće je da nisu spojeni ili ispravno konfigurirani.</mediadenied>
+    <ffmedia>Medijski pristup nije dopušten. Koristite ikonicu s mikrofonom ili kamerom u gornjem lijevom kutu preglednika kako biste dopustili ili odbili medijski pristup.</ffmedia>
+    <nowebrtc>Vaš preglednik ne podržava WebRTC za zvuk/video. Koristite drugi preglednik (preporučujemo Chrome) ili instalirajte WebRTC priključak za preglednik.</nowebrtc>
+    <gettingmedia>U tijeku je poziv ili konferencija. Molimo za nastavak dopustite ili odbijte pristup uređajima.</gettingmedia>
+    <occupied>Mrežni telefon već je u uporabi.</occupied>
+  </sip>
+  <conference>
+    <planner>Planer mrežnih sastanaka</planner>
+    <aborted>Sastanak je uklonjen.</aborted>
+    <access>Pristupne informacije</access>
+    <allattendees>Svi sudionici</allattendees>
+    <missinguserid>Vi niste sudionik ovog sastanka. Uklanjam sastanak.</missinguserid>
+    <appletrunning>Java je pokrenuta, čekam spajanje na sastanak...</appletrunning>
+    <callestablished>Mrežni sastanak je u tijeku</callestablished>
+    <callfinished>Mrežni sastanak je završio</callfinished>
+    <came>pridružio/la se sastanku</came>
+    <cancelled>Sastanak je neočekivano završio</cancelled>
+    <privatechat>Započni privatno čavrljanje</privatechat>
+    <chatalreadymeeting>Primili ste novi poziv za sastanak, ali se trenutno ne možete pridružiti, jer sudjelujete u drugom sastanku</chatalreadymeeting>
+    <chatinvite>Želio bih te pozvati na mrežni sastanak</chatinvite>
+    <closed>Sesija mrežnog sastanka je završila</closed>
+    <closing>Želite li napustiti ovaj sastanak ili završiti sastanak za sve sudionike?</closing>
+    <confirminvite>poslao ti je poziv na mrežni sastanak</confirminvite>
+    <connectfailure>Ne mogu se spojiti na sastanak</connectfailure>
+    <connecting>Pokušavam se spojiti na sastanak...</connecting>
+    <create>Postavi novi mrežni sastanak</create>
+    <created>Mrežni sastanak je postavljen, započni sastanak...</created>
+    <createfirst>Trenutno nije u tijeku mrežni sastanak, želite li ga započeti?</createfirst>
+    <delegate>Odredi moderatora</delegate>
+    <screen>Udaljeni zaslon</screen>
+    <desktop>Dijeli zaslon</desktop>
+    <waitvideo>Čekanje udaljenog zaslona</waitvideo>
+    <notchrome>Za dijeljenje zaslona morate koristiti Chrome</notchrome>
+    <nohttps>Za dijeljenje zaslona potrebna je sigurna veza (https).</nohttps>
+    <noplugin>Priključak za dijeljenje zaslona nije instaliran.</noplugin>
+    <desktopinfo>Dijeli svoj zaslon s drugim sudionicima</desktopinfo>
+    <dialin>Ako se želite pridružiti pozivu, pozovite jedan od sljedećih brojeva:</dialin>
+    <disablefirebug>Firebug dodatak može smetati ovoj funkcionalnosti. Predlažemo da onemogućite Firebug i ponovno se prijavite.</disablefirebug>
+    <dismiss>Otpusti sudionika</dismiss>
+    <duration>Trajanje:</duration>
+    <end>Završni mrežni sastanak</end>
+    <endcall>Završi poziv</endcall>
+    <endforall>Završi mrežni sastanak za sve</endforall>
+    <endinfo>Uklanjam sastanak...</endinfo>
+    <finished>Vaš zvukovni zapis će biti obrađen i spremljen u Dokumenti.</finished>
+    <generalerror>Došlo je do neodređene greške vezane za sastanak.</generalerror>
+    <id>ID sastanka:</id>
+    <shortid>ID:</shortid>
+    <info>Informacije o mrežnom sastanku</info>
+    <instruct>Spojeni ste s glasovnom konferencijom, jednostavno koristite svoj mikrofon i zvučnike - preporučuje se korištenje slušalica.</instruct>
+    <invalidmeetingid>Ne možete se pridružiti ovom sastanku. Sastanak je istekao ili je ID sastanka nevaljan.</invalidmeetingid>
+    <invalidsessionid>Sesija je istekla, uklanjam sastanak</invalidsessionid>
+    <invitationedit>Pozivna poruka:</invitationedit>
+    <invite>Pozovi</invite>
+    <inviteinfo>Pozovi sudionike</inviteinfo>
+    <invitation_sent>Poziv poslan za</invitation_sent>
+    <invited>Poziv na mrežni sastanak je primljen</invited>
+    <invitesubject>Poziv na mrežni sastanak</invitesubject>
+    <join>Priduži se mrežnom sastanku</join>
+    <joining>Pridruživanje sastanku</joining>
+    <leave>Napusti</leave>
+    <leaveinfo>Napusti mrežni sastanak</leaveinfo>
+    <leaveorend>Odaberite novog moderatora ako želite da se sastanak nastavi. U protivnom će se sastanak završiti za sve sudionike.</leaveorend>
+    <leaving>Jeste li sigurni da želite napustiti ovaj sastanak?</leaving>
+    <left>napustio/la je sastanak</left>
+    <leftchat>Poruka nije mogla biti isporučena, sudionik je napustio sastanak.</leftchat>
+    <mailinvite>Sada se možete pridružiti ovom sastanku</mailinvite>
+    <manager>moderator</manager>
+    <meeting>Mrežni sastanak</meeting>
+    <mikogoerror>Poslužitelj je prijavio grešku s dijeljenjem zaslona.</mikogoerror>
+    <servererror>Došlo je do opće greške vezane uz sastanak. Kontaktirajte svog administratora za više informacija.</servererror>
+    <connectionerror>Sastanak je uklonjen zbog greške sa spajanjem na mrežu. Molimo pokušajte ponovno kasnije.</connectionerror>
+    <mute>Bez zvuka</mute>
+    <muteall>Bez zvuka za sve sudionike</muteall>
+    <muteinfo>Isključi zvuk mikrofona</muteinfo>
+    <muteone>Isključi zvuk sudionika</muteone>
+    <attendees>Sudionici</attendees>
+    <chat>Mrežno čavrljanje</chat>
+    <name>Ime:</name>
+    <needspecialpermissions>Ne postoje sva dopuštenja za provedbu ove radnje</needspecialpermissions>
+    <networkrequesterror>Čini se da postoji problem s mrežom. Vaša veza sa sastankom je prekinuta.</networkrequesterror>
+    <nocallallowed>Pozivi nisu dopušteni tijekom mrežnog sastanka</nocallallowed>
+    <noparticipants>Nema sudionika</noparticipants>
+    <notaccessmode>Usluga mrežnog sastanka onemogućena je za ovaj račun</notaccessmode>
+    <notauthenticated>Niste ovlašteni za ovu uslugu.</notauthenticated>
+    <notenabled>Mrežni sastanci onemogućeni su od strane administratora</notenabled>
+    <notonline>Nema mrežne veze</notonline>
+    <notsetupproperly>Usluga mrežnog sastanka nije ispravno postavljena.</notsetupproperly>
+    <notlicensed>Nedovoljna licenca za mrežne sastanke.</notlicensed>
+    <licenseerror>Nedovoljna licenca za pokretanje još mrežnih sastanaka</licenseerror>
+    <offline>Sastanak nije na mreži.</offline>
+    <ongoing>Mrežni sastanak u tijeku</ongoing>
+    <onlyorganizercandothis>Ova značajka dostupna je samo organizatoru sastanka.</onlyorganizercandothis>
+    <onlysuperusercandothis>Niste ovlašteni za ovu radnju.</onlysuperusercandothis>
+    <organizer>organizator</organizer>
+    <pending>Čekanje organizatora da započne mrežni sastanak...</pending>
+    <phone>Telefon:</phone>
+    <phoning>Sudjelujete u pozivu. Želite li ga završiti i započeti mrežni sastanak?</phoning>
+    <preparing>Pribavljanje podataka o sastanku</preparing>
+    <promoted>je sada moderator</promoted>
+    <ready>Sastanak može započeti</ready>
+    <recap>Ove informacije mogu se pregledati u bilo koje doba klikom na ikonu &quot;informacije&quot; iznad.</recap>
+    <record>Snimaj zvuk</record>
+    <recordinfo>Snimanje</recordinfo>
+    <recording>Snimanje zvuka</recording>
+    <restart>Ponovni započni mrežni sastanak</restart>
+    <schedule>Zakaži mrežni sastanak</schedule>
+    <scheduleorstart>Želite li sada započeti sastanak ili zakazati sastanak u neko drugo vrijeme?</scheduleorstart>
+    <silenceinfo>Isključi zvuk zvučnika</silenceinfo>
+    <sipnoparticipants>Nema sudionika, sastanak je uklonjen.</sipnoparticipants>
+    <start>Započni mrežni sastanak</start>
+    <started>Sastanak je započeo, čekam pokretanje Jave...</started>
+    <startedconnect>Sastanak je započeo, spajam se...</startedconnect>
+    <startednojava>Sastanak je započeo, čekam pristup medijima...</startednojava>
+    <starting>Započinjanje sastanka</starting>
+    <startnow>Započni mrežni sastanak sada</startnow>
+    <joinnow>Pridruži se mrežnom sastanku</joinnow>
+    <terminate>Jeste li sigurni da želite završiti ovaj sastanak?</terminate>
+    <timeout>Ne mogu održavati vezu sa sastankom</timeout>
+    <unknown>Neobjavljeni sudionik</unknown>
+    <unmuteone>Uključi zvuk sudionika</unmuteone>
+    <details>Podatci o mrežnom sastanku</details>
+    <callin>Podatci o pozivu</callin>
+    <url>URL sastanka:</url>
+    <shorturl>URL:</shorturl>
+    <voip>VoIP:</voip>
+    <callid>ID poziva:</callid>
+    <waitfailure>Ne mogu se pridružiti sastanku.</waitfailure>
+    <waiting>Čekam da se Java pokrene, a to može potrajati.</waiting>
+    <welcome>Dobro došli u IceWarpov mrežni sastanak</welcome>
+    <me>Ja</me>
+  </conference>
+  <officelauncher>
+    <officelauncher>Pokretač Officea</officelauncher>
+    <nolaunch>Za pokretanje Office aplikacija izravno iz internetskog preglednika i automatsko učitavanje izmjena dokumenata potrebna je Java.</nolaunch>
+    <nooffice>Nije pronađen Office paket.</nooffice>
+    <openfailed>Nisam mogao otvoriti dokument u Officeu. Želite li umjesto toga preuzeti dokument?</openfailed>
+    <noappfound>Nije pronađena nijedna aplikacija koja bi mogla otvoriti ovu vrstu dokumenta.</noappfound>
+  </officelauncher>
+  <autoresponder>
+    <mode>Način rada:</mode>
+    <disabled>Onemogućeno</disabled>
+    <respond_always>Uvijek odgovori</respond_always>
+    <respond_once>Odgovori jednom</respond_once>
+    <respond_after_period>Odgovori opet nakon određenog vremena</respond_after_period>
+    <respond_period>Odgovori opet nakon (dana):</respond_period>
+    <from>Od</from>
+    <subject>Naslov</subject>
+    <text>Tekst</text>
+    <respond_only_if_to_me>Odgovori samo na poruke poslane s korisnikove adrese e-pošte</respond_only_if_to_me>
+    <respond_between>Odgovori samo ako je između:</respond_between>
+    <noresponderfor>Nema automatskog odgovora za</noresponderfor>
+  </autoresponder>
+  <forwarder>
+    <forward_to>Proslijedi za:</forward_to>
+    <keep_copy>Zadrži e-poruke u sandučiću</keep_copy>
+    <forward_older>Proslijedi poštu stariju od (dana):</forward_older>
+    <forward_older_to>Proslijedi stariju poštu za:</forward_older_to>
+  </forwarder>
+  <filters>
+    <addedit>Dodaj / Uredi</addedit>
+    <header>Zaglavlje</header>
+    <filters>Filteri</filters>
+    <edit_header>Uredi zaglavlje</edit_header>
+    <empty_operator/>
+    <not>NE</not>
+    <and>I</and>
+    <or>ILI</or>
+    <and_not>I NE</and_not>
+    <or_not>ILI NE</or_not>
+    <from>Od:</from>
+    <to>Za:</to>
+    <subject>Naslov:</subject>
+    <cc>Kopija:</cc>
+    <reply_to>Odgovori za:</reply_to>
+    <date>Datum:</date>
+    <message>Poruka</message>
+    <message_type>Vrsta poruke:</message_type>
+    <message_body>Tijelo poruke</message_body>
+    <custom_message_header>Prilagođeno zaglavlje poruke</custom_message_header>
+    <any_message_header>Bilo koje zaglavlje poruke</any_message_header>
+    <attachment_name>Naziv privitka</attachment_name>
+    <sender>Pošiljatelj</sender>
+    <recipient>Primatelj</recipient>
+    <senders_ip>IP pošiljatelja</senders_ip>
+    <rdns>rDNS (PTR)</rdns>
+    <smtp_auth>SMTP AUTH</smtp_auth>
+    <ip>IP / Pošiljatelj</ip>
+    <all_messages>Sve poruke</all_messages>
+    <no_messages>Nema poruka</no_messages>
+    <priority_is>važnost je</priority_is>
+    <priority_isnt>važnost nije</priority_isnt>
+    <is_spam>je spam</is_spam>
+    <isnt_spam>nije spam</isnt_spam>
+    <is_greater_than>je veća od</is_greater_than>
+    <is_lower_than>je niža od</is_lower_than>
+    <match_case>Pazi na podudarnost velikih i malih slova</match_case>
+    <regexp>Regularni izraz</regexp>
+    <whole_word>Cijela riječ</whole_word>
+    <matches>podudara se</matches>
+    <doesnt_match>ne podudara se</doesnt_match>
+    <contains_string>sadrži</contains_string>
+    <doesnt_contain_string>ne sadrži</doesnt_contain_string>
+    <matches_regex>podudara se s regularnim izrazom</matches_regex>
+    <doesnt_match_regex>ne podudara se s regularnim izrazom</doesnt_match_regex>
+    <is_string>je</is_string>
+    <isnt_string>nije</isnt_string>
+    <spam_score>Spam bodovi</spam_score>
+    <authorized>odobreno</authorized>
+    <unauthorized>nije odobreno</unauthorized>
+    <add>Dodaj</add>
+    <delete>Izbriši</delete>
+    <up>Gore</up>
+    <down>Dolje</down>
+    <action>Radnja</action>
+    <actions>Radnje</actions>
+    <accept>Prihvati</accept>
+    <reject>Odbij</reject>
+    <quarantine>Stavi u karantenu</quarantine>
+    <spam>Spam</spam>
+    <stop_processing>Prestani obrađivati više pravila</stop_processing>
+    <move_to>Premjesti u</move_to>
+    <copy_to>Kopiraj u</copy_to>
+    <encrypt_message>Enkriptiraj poruku</encrypt_message>
+    <set_message_priority>Postavi važnost poruke na</set_message_priority>
+    <set_message_flag>Postavi oznaku poruke na</set_message_flag>
+    <text>Tekst:</text>
+    <title>Naslov</title>
+    <conditions>Uvjeti</conditions>
+    <edit>Uredi</edit>
+    <rule>Pravilo</rule>
+    <rules>Pravila</rules>
+    <highest>najviša</highest>
+    <high>visoka</high>
+    <normal>obična</normal>
+    <low>niska</low>
+    <lowest>najniža</lowest>
+    <spam_is_greater_than>je veća od</spam_is_greater_than>
+    <spam_is_lower_than>je niža od</spam_is_lower_than>
+    <forward_to>Proslijedi za</forward_to>
+    <send_message>Pošalji poruku</send_message>
+    <three_dots>...</three_dots>
+    <email>E-pošta</email>
+    <instant_messaging>Mrežno čavrljanje</instant_messaging>
+    <active>Aktivno</active>
+  </filters>
+  <rich>
+    <alt>Dopunski tekst</alt>
+    <code>Izvor</code>
+    <paragraph>Odlomak</paragraph>
+    <normal>Obično</normal>
+    <heading>Naslov</heading>
+    <clearformatting>Ukloni oblikovanje</clearformatting>
+    <font>Font</font>
+    <size>Veličina</size>
+    <rows>Redovi</rows>
+    <columns>Stupci</columns>
+    <padding>Udaljenost između ćelije i teksta</padding>
+    <spacing>Razmak između ćelija</spacing>
+    <img_spacing>Razmak</img_spacing>
+    <bordercolor>Boja ruba</bordercolor>
+    <border>Rub</border>
+    <bold>Podebljaj</bold>
+    <italic>Nakosi</italic>
+    <underline>Podcrtaj tekst</underline>
+    <style>Vrsta oblikovanja</style>
+    <align>Poravnaj tekst</align>
+    <left>Poravnaj lijevo</left>
+    <center>Poravnaj po sredini</center>
+    <right>Poravnaj desno</right>
+    <justify>Poravnaj obostrano</justify>
+    <numberedlist>Popis s brojevima</numberedlist>
+    <bulletedlist>Popis s oznakama</bulletedlist>
+    <indent>Uvlaka</indent>
+    <leftindent>Lijeva uvlaka</leftindent>
+    <rightindent>Desna uvlaka</rightindent>
+    <bgcolor>Pozadinska boja</bgcolor>
+    <color>Boja teksta</color>
+    <cut>Izreži odabrano</cut>
+    <copy>Kopiraj odabrano</copy>
+    <paste>Zalijepi odabrano</paste>
+    <pastew>Zalijepi kao tekst</pastew>
+    <insert>Umetni</insert>
+    <addlink>Poveznica</addlink>
+    <table>Tablica</table>
+    <image>Slika</image>
+    <dropbox>Poveznica za Dropbox</dropbox>
+    <spell>Provjera pravopisa</spell>
+    <url>URL</url>
+    <uploaded>Učitano</uploaded>
+    <internal>Interno</internal>
+    <direction>Smjer teksta (HTML)</direction>
+    <ltr>S lijeva na desno</ltr>
+    <rtl>S desna na lijevo</rtl>
+    <screenshot>Napravi snimku zaslona</screenshot>
+    <paste_img>Zalijepi sliku</paste_img>
+    <img_small>Small</img_small>
+    <img_adapt>Adapt</img_adapt>
+    <img_original>Original</img_original>
+  </rich>
+  <preloader>
+    <loading>Učitavanje</loading>
+    <framework>Učitavanje okvira</framework>
+    <settings>Učitavanje postavki</settings>
+    <language>Učitavanje resursa</language>
+    <indexing>Indeksiranje</indexing>
+    <startup>Starting</startup>
+  </preloader>
+  <utilities>
+    <desktop_client>Klijent radne površine</desktop_client>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <outlook_2013>Outlook 2013</outlook_2013>
+    <help_win_desktop1>Preuzmi klijent radne površine</help_win_desktop1>
+    <help_win_desktop2>Pokrenite program za instaliranje. U glavnom izborniku klijenta radne površine, označite &lt;b&gt;Alati - Računi&lt;/b&gt;. Pojavit će se prozorčić &lt;b&gt;Računi&lt;/b&gt;. U tom prozorčiću, kliknite na &lt;b&gt;Novi račun&lt;/i&gt;&lt;/b&gt;. Pojavit će se čarobnjak za stvaranje novog računa. Upišite &lt;i&gt;E-poštu&lt;/i&gt; i &lt;i&gt;Zaporku&lt;/i&gt; i kliknite na &lt;b&gt;Pokreni odmah.&lt;/b&gt;</help_win_desktop2>
+    <help_win_desktop3>Na stranici Podatci o računu možete izmijeniti ime svojega računa. Kliknite na Dalje. Na sljedećoj stranici možete isključiti značajke koje ne želite koristiti. Kliknite na Završi kako biste završili postavljanje.</help_win_desktop3>
+    <help_win_osync1>Preuzmi Outlook Sync</help_win_osync1>
+    <help_win_osync2>Pokrenite program za instaliranje. Na stranici SmartDiscover, upišite svoju &lt;i&gt;adresu e-pošte&lt;/i&gt; i &lt;i&gt;zaporku&lt;/i&gt;. &lt;b&gt;Nemojte&lt;/b&gt; označiti kućicu &lt;i&gt;Preskoči SmartDiscover i ručno konfiguriraj&lt;/i&gt;. Kliknite na Dalje.</help_win_osync2>
+    <help_win_osync3>Na sljedećem koraku prikazuje se prozorčić za aktivaciju licencije.</help_win_osync3>
+    <help_win_osync4>Ako ste dobili licenciju za IceWarp Outlook Sync, kliknite Da. Ako najprije želite koristiti IceWarp Outlook Sync u okviru 30-dnevnog probnog razdoblja, kliknite Ne.</help_win_osync4>
+    <help_win_osync5>Kliknite Završi za dovršetak instalacije.</help_win_osync5>
+    <help_win_20131>U izborniku &lt;b&gt;Datoteka&lt;/b&gt;, na stranici &lt;b&gt;Podatci o računu&lt;/b&gt;, kliknite na &lt;b&gt;Dodaj račun&lt;/b&gt;, pri čemu će se otvoriti prozorčić Dodaj račun. Na stranici &lt;b&gt;Automatsko postavljanje računa&lt;/b&gt;, označite opciju &lt;i&gt;Ručno postavljanje ili dodatne vrste poslužitelja&lt;/i&gt; i kliknite Dalje.&#13;&#10;Na stranici &lt;b&gt;Odaberi uslugu&lt;/b&gt;, označite opciju &lt;i&gt;Usluga sukladna s Outlook.com ili Exchange ActiveSync&lt;/i&gt; i kliknite Dalje.</help_win_20131>
+    <help_win_20132>Na stranici &lt;b&gt;Postavke poslužitelja&lt;/b&gt;, upišite podatke o korisniku, poslužitelju i podatke za prijavu. Kliknite Dalje.</help_win_20132>
+    <help_win_20133>Nakon probe postavki računa, kliknite Završi.</help_win_20133>
+    <help_osx_all_applications_title>Sve aplikacije</help_osx_all_applications_title>
+    <help_osx_messages_title>Poruke</help_osx_messages_title>
+    <help_osx_messages1>Otvorite Poruke i na glavnom izborniku odaberite &lt;b&gt;Poruke - Dodaj račun&lt;/b&gt;. Među vrstama računa koje možete dodati, odaberite &lt;b&gt;Račun za druge poruke...&lt;/b&gt; i kliknite na Dalje.</help_osx_messages1>
+    <help_osx_messages2>In the &lt;b&gt;Add a Messages Account&lt;/b&gt; dialog, from the &lt;i&gt;Account Type&lt;/i&gt; options, select &lt;b&gt;Jabber&lt;/b&gt;.&#13;&#10;Enter your email address as &lt;i&gt;Account Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;In the section &lt;b&gt;Server Options&lt;/b&gt;, tick the box &lt;i&gt;Use SSL&lt;/i&gt;. Leave other options on Auto. Click Create.</help_osx_messages2>
+    <help_osx_calendar_title>Kalendar</help_osx_calendar_title>
+    <help_osx_calendar1>Otvori Kalendar i u glavnom izborniku odaberi &lt;b&gt;Kalendar - Dodaj račun&lt;/b&gt;. Među vrstama računa koje se mogu dodati odaberite &lt;b&gt;Dodaj CalDAV račun&lt;/b&gt; i kliknite Nastavi.</help_osx_calendar1>
+    <help_osx_calendar2>U kućici &lt;b&gt;Dodaj CalDAV račun&lt;/b&gt;, među opcijama &lt;i&gt;Vrsta računa&lt;/i&gt;, odaberite &lt;b&gt;Ručno&lt;/b&gt;.&#13;&#10;Upišite svoju adresu e-pošte kao &lt;i&gt;Korisničko ime&lt;/i&gt; i svoju &lt;i&gt;Zaporku&lt;/i&gt;.&#13;&#10;U polje &lt;i&gt;Adresa poslužitelja&lt;/i&gt; upišite ime hosta. Kliknite na Stvori.</help_osx_calendar2>
+    <help_osx_calendar3>Za postavljanje &lt;b&gt;Podsjetnika&lt;/b&gt; idite na &lt;b&gt;Željene postavke sustava - Internetski računi&lt;/b&gt; i locirajte kalendarski račun koji ste malo prije konfigurirali. Označite kućicu pomoću &lt;i&gt;Koristi s: Podsjetnicima&lt;/i&gt;</help_osx_calendar3>
+    <help_osx_contacts_title>Kontakti</help_osx_contacts_title>
+    <help_osx_contacts1>Otvorite Kontakte i u glavnom izborniku odaberite &lt;b&gt;Kontakti - Dodaj račun&lt;/b&gt;. Među vrstama računa koji se mogu dodati odaberite &lt;b&gt;Račun za druge kontakte&lt;/b&gt; i kliknite na Nastavi.</help_osx_contacts1>
+    <help_osx_contacts2>In the next dialog, select &lt;b&gt;CardDAV&lt;/b&gt; option at the top.&#13;&#10;Enter your email address as &lt;i&gt;User Name&lt;/i&gt; and your &lt;i&gt;Password&lt;/i&gt;.&#13;&#10;Into the &lt;i&gt;Server Address&lt;/i&gt; field, insert the server hostname. Click Create.</help_osx_contacts2>
+    <help_osx_all>Preuzmi konfigurator</help_osx_all>
+    <help_osx_all1>Preuzmi konfigurator</help_osx_all1>
+    <help_osx_all2>Otvorite preuzetu slikovnu datoteku IceWarp konfiguratora. Pokrenite IceWarp konfigurator. U slučaju da je navedeno kako je aplikacija preuzeta s interneta, kliknite Otvori. U odgovarajuća polja upišite adresu e-pošte i zaporku te kliknite na &lt;strong&gt;Continue&lt;/strong&gt;.</help_osx_all2>
+    <help_osx_all3>Pokraj svake aplikacije koja se automatski može konfigurirati nalazi se zeleni gumb &lt;strong&gt;Connect&lt;/strong&gt;. Kliknite jedan po jedan ili odaberite &lt;strong&gt;Connect All&lt;/strong&gt; za postavljanje svih dostupnih aplikacija.</help_osx_all3>
+    <help_tablet_and_title>Android tableti</help_tablet_and_title>
+    <help_tablet_ios_title>iPad</help_tablet_ios_title>
+    <help_tablet_win_title>Windows tableti</help_tablet_win_title>
+    <help_tablet_win1>Na desnoj strani zaslona &lt;b&gt;Kreni&lt;/b&gt; označite &lt;i&gt;Postavke - Postavi PC postavke - Računi&lt;/i&gt;. Na stranici Računi odaberite opciju &lt;i&gt;Drugi računi&lt;/i&gt;.&#13;&#10;Na stranici Drugi računi pritisnite na &lt;i&gt;Dodaj korisnika&lt;/i&gt;. Na sljedećoj stranici upišite ime hosta i pritisnite na Dalje.</help_tablet_win1>
+    <help_tablet_win2>Na stranici Stvori Microsoft račun upišite svoje korisničke podatke za račun i pritisnite na Dalje.</help_tablet_win2>
+    <help_tablet_win3>Na stranici Dodaj sigurnosne informacije postavite sigurnosne postavke i pritisnite na Dalje. Na stranici Postavke komunikacije pritisnite na Dalje. Na posljednjoj stranici pritisnite na Završi.</help_tablet_win3>
+    <help_phone_and_title>Android uređaji</help_phone_and_title>
+    <help_phone_and1>Go to &lt;b&gt;System settings&lt;/b&gt;, in the &lt;b&gt;Accounts&lt;/b&gt; section tap &lt;b&gt;Add account&lt;/b&gt; and choose the &lt;i&gt;Corporate&lt;/i&gt; option.&#13;&#10;On the &lt;b&gt;Account setup screen&lt;/b&gt;, enter your email address and password. Type the server hostname received from administrator. Ticking &lt;i&gt;Use secure connection (SSL)&lt;/i&gt; is highly recommended. Ticking &lt;i&gt;Accept all SSL certificates&lt;/i&gt; can solve issues with unknown server certificates. Tap Next.</help_phone_and1>
+    <help_phone_and2>Na zaslonu &lt;b&gt;Udaljeno administriranje sigurnosti&lt;/b&gt; pritisnite na &lt;b&gt;OK&lt;/b&gt;. To je nužno za provedbu sigurnosne politike Vaše tvrtke na uređaju, a možete ga i na daljinu ponovno pokrenuti ako se izgubi.</help_phone_and2>
+    <help_phone_and3>Na zaslonu &lt;b&gt;Postavke računa&lt;/b&gt; odaberite &lt;i&gt;Učestalost provjeravanja sandučića&lt;/i&gt;i postavite koliko stare poruke će se sinkronizirati prema &lt;i&gt;Days to sync&lt;/i&gt;. Po izboru označite &lt;i&gt;Zadano šalji e-poruke s ovog računa&lt;/i&gt;, pregledajte druge postavke i kliknite na Dalje.</help_phone_and3>
+    <help_phone_and4>Označite račun kako biste ga identificirali u aplikacijama i pritisnite na Dalje.</help_phone_and4>
+    <help_phone_ios_title>iPhone</help_phone_ios_title>
+    <help_ios1>Idite na &lt;b&gt;Postavke&lt;/b&gt;, označite opcije &lt;i&gt;Pošta, Kontakti, Kalendari - Dodaj račun - Zamijeni &lt;/i&gt;.</help_ios1>
+    <help_ios2>Na sljedećoj stranici ispunite polja &lt;i&gt;E-pošta, Zaporka, Opis&lt;/i&gt;. Pritisnite na Dalje.</help_ios2>
+    <help_ios3>Na sljedećoj stranici po izboru isključite značajke koje ne želite koristiti tako da postavite regulatore na isključeno. Pritisnite Spremi. Napredne postavke možete pronaći pod Opisom računa u odjeljku &lt;b&gt;Pošta, Kontakti, Kalendari - Računi&lt;/b&gt;.</help_ios3>
+    <help_phone_win_title>Windows telefon</help_phone_win_title>
+    <help_phone_win1>Go to the application list by swiping to the left on the home screen. Scroll down and select &lt;b&gt;Settings&lt;/b&gt;.&#13;&#10;Select the &lt;b&gt;email+accounts&lt;/b&gt; option and continue with the &lt;b&gt;add an account&lt;/b&gt; menu item.&#13;&#10;Select the &lt;b&gt;Outlook&lt;/b&gt; account type. The OUTLOOK dialog is shown.</help_phone_win1>
+    <help_phone_win2>Upišite svoju &lt;i&gt;adresu e-pošte&lt;/i&gt; i &lt;i&gt;Zaporku&lt;/i&gt;. Kada završite, pritisnite &lt;b&gt;prijavite se&lt;/b&gt;.</help_phone_win2>
+    <help_trademark>iPhone, iPad, Mac, OS X su žigovi tvrtke Apple Inc., registrirani u SAD-u i u drugim zemljama. Microsoft, Windows, Outlook i Windows Phone su žigovi tvrtke Microsoft Corporation registrirani u SAD-u i/ili drugim zemljama. Android je žig tvrtke Google Inc. IceWarp je registrirani žig u SAD-u i u drugim zemljama..</help_trademark>
+    <windows>Windows</windows>
+    <ios>iOS</ios>
+    <android>Android</android>
+  </utilities>
+  <banner_1>
+    <title>iPhone</title>
+    <subtitle>E-pošta, kalendari, kontakti, zadatci</subtitle>
+    <descr>Postavljanje računa korak po korak.</descr>
+  </banner_1>
+  <banner_2>
+    <title>Windows</title>
+    <subtitle>Postavi IceWarp klijent radne površine</subtitle>
+    <descr>Instalacija korak po korak.</descr>
+  </banner_2>
+  <banner_4>
+    <title>OS X</title>
+    <subtitle>Kalendari i podsjetnici</subtitle>
+    <descr>Postavljanje na Mac-u korak po korak.</descr>
+  </banner_4>
+  <banner_5>
+    <title>Outlook Sync</title>
+    <subtitle>Pošta, kalendar, osobe</subtitle>
+    <descr>Instalacija korak po korak.</descr>
+  </banner_5>
+  <banner_6>
+    <title>Windows Phone</title>
+    <subtitle>E-pošta, kalendari i kontakti</subtitle>
+    <descr>Postavljanje računa korak po korak.</descr>
+  </banner_6>
+  <banner_7>
+    <title>Android</title>
+    <subtitle>E-pošta, kalendari i kontakti</subtitle>
+    <descr>Postavljanje računa korak po korak.</descr>
+  </banner_7>
+  <pdfjs>
+    <previous_title>Prethodna stranica</previous_title>
+    <previous_label>Prethodno</previous_label>
+    <next_title>Sljedeća stranica</next_title>
+    <next_label>Sljedeće</next_label>
+    <page_label>Stranica:</page_label>
+    <page_of>od {{pageCount}}</page_of>
+    <zoom_out_title>Smanji</zoom_out_title>
+    <zoom_out_label>Smanji</zoom_out_label>
+    <zoom_in_title>Uvećaj</zoom_in_title>
+    <zoom_in_label>Uvećaj</zoom_in_label>
+    <zoom_title>Zumiraj</zoom_title>
+    <presentation_mode_title>Prikaz na cijelom zaslonu</presentation_mode_title>
+    <presentation_mode_label>Cijeli zaslon</presentation_mode_label>
+    <print_title>Ispiši</print_title>
+    <print_label>Ispiši</print_label>
+    <download_title>Preuzmi</download_title>
+    <download_label>Preuzmi</download_label>
+    <bookmark_title>Označi</bookmark_title>
+    <bookmark_label>Označi</bookmark_label>
+    <tools_title>Alati</tools_title>
+    <tools_label>Alati</tools_label>
+    <first_page_title>Idi na prvu stranicu</first_page_title>
+    <first_page_label>Idi na prvu stranicu</first_page_label>
+    <last_page_title>Idi na zadnju stranicu</last_page_title>
+    <last_page_label>Idi na zadnju stranicu</last_page_label>
+    <page_rotate_cw_title>Okreni u smjeru kazaljke na satu</page_rotate_cw_title>
+    <page_rotate_cw_label>Okreni u smjeru kazaljke na satu</page_rotate_cw_label>
+    <page_rotate_ccw_title>Okreni suprotno smjeru kazaljke na satu</page_rotate_ccw_title>
+    <page_rotate_ccw_label>Okreni suprotno smjeru kazaljke na satu</page_rotate_ccw_label>
+    <hand_tool_enable_title>Omogući ručni alat</hand_tool_enable_title>
+    <hand_tool_enable_label>Omogući ručni alat</hand_tool_enable_label>
+    <hand_tool_disable_title>Onemogući ručni alat</hand_tool_disable_title>
+    <hand_tool_disable_label>Onemogući ručni alat</hand_tool_disable_label>
+    <document_properties_label>Značajke dokumenta</document_properties_label>
+    <document_properties_file_name>Ime datoteke:</document_properties_file_name>
+    <document_properties_file_size>Veličina datoteke:</document_properties_file_size>
+    <document_properties_kb>{{size_kb}} KB ({{size_b}} bytes)</document_properties_kb>
+    <document_properties_mb>{{size_mb}} MB ({{size_b}} bytes)</document_properties_mb>
+    <document_properties_title>Naslov:</document_properties_title>
+    <document_properties_author>Autor:</document_properties_author>
+    <document_properties_subject>Naslov:</document_properties_subject>
+    <document_properties_keywords>Ključne riječi:</document_properties_keywords>
+    <document_properties_creation_date>Datum stvaranja:</document_properties_creation_date>
+    <document_properties_modification_date>Datum izmjene:</document_properties_modification_date>
+    <document_properties_date_string>{{date}}, {{time}}</document_properties_date_string>
+    <document_properties_creator>Stvorio/la:</document_properties_creator>
+    <document_properties_producer>Izradio:</document_properties_producer>
+    <document_properties_version>Inačica:</document_properties_version>
+    <document_properties_page_count>Broj stranica:</document_properties_page_count>
+    <document_properties_close>Zatvori</document_properties_close>
+    <toggle_sidebar_title>Sakrij/prikaži rubni stupac</toggle_sidebar_title>
+    <toggle_sidebar_label>Sakrij/prikaži rubni stupac</toggle_sidebar_label>
+    <outline_title>Prikaži sadržaj dokumenta</outline_title>
+    <outline_label>Prikaži sadržaj dokumenta</outline_label>
+    <thumbs_title>Prikaži sličice</thumbs_title>
+    <thumbs_label>Prikaži sličice</thumbs_label>
+    <findbar_title>Pronađi u dokumentu</findbar_title>
+    <findbar_label>Pronađi</findbar_label>
+    <thumb_page_title>Stranica {{page}}</thumb_page_title>
+    <thumb_page_canvas>Umanjeni prikaz stranice {{page}}</thumb_page_canvas>
+    <find_label>Pronađi:</find_label>
+    <find_previous_title>Pronađi prethodno</find_previous_title>
+    <find_previous_label>Prethodno</find_previous_label>
+    <find_next_title>Pronađi sljedeće</find_next_title>
+    <find_next_label>Sljedeće</find_next_label>
+    <find_highlight>Označi sve</find_highlight>
+    <find_match_case_label>Podudaranje veličine slova</find_match_case_label>
+    <find_reached_top>Došao sam do vrha dokumenta</find_reached_top>
+    <find_reached_bottom>Došao sam do dna dokumenta</find_reached_bottom>
+    <find_not_found>Nije pronađeno</find_not_found>
+    <error_more_info>Više informacija</error_more_info>
+    <error_less_info>Manje informacija</error_less_info>
+    <error_close>Zatvori</error_close>
+    <error_version_info>PDF.js inačica{{version}} (build: {{build}})</error_version_info>
+    <error_message>Poruka: {{message}}</error_message>
+    <error_stack>Stog: {{stack}}</error_stack>
+    <error_file>Datoteka: {{file}}</error_file>
+    <error_line>Linija: {{line}}</error_line>
+    <rendering_error>Greška pri prikazivanju</rendering_error>
+    <page_scale_width>Puna širina</page_scale_width>
+    <page_scale_fit>Podesi prema veličini stranice</page_scale_fit>
+    <page_scale_auto>Automatsko uvećanje</page_scale_auto>
+    <page_scale_actual>Stvarna veličina</page_scale_actual>
+    <page_scale_percent>{{scale}}%</page_scale_percent>
+    <loading_error_indicator>Greška</loading_error_indicator>
+    <loading_error>Greška pri učitavanju PDF-a</loading_error>
+    <invalid_file_error>PDF datoteka nije valjana ili ima grešku</invalid_file_error>
+    <missing_file_error>PDF datoteka nedostaje</missing_file_error>
+    <text_annotation_type_alt>[{{type}} annotation]</text_annotation_type_alt>
+    <password_label>Upišite zaporku za otvaranje ove zaštićene PDF datoteke</password_label>
+    <password_invalid>Neispravna zaporka, molimo probajte ponovno.</password_invalid>
+    <password_ok>OK</password_ok>
+    <password_cancel>Otkaži</password_cancel>
+    <printing_not_supported>Upozorenje: Ispisivanje nije u cijelosti podržano u ovom pregledniku.</printing_not_supported>
+    <printing_not_ready>Upozorenje: PDF nije u cijelosti učitan za ispisivanje</printing_not_ready>
+    <web_fonts_disabled>Web fontovi su onemogućeni. Nije moguće koristiti PDF fontove</web_fonts_disabled>
+    <document_colors_disabled>PDF dokumentu nije dopušteno koristiti boje</document_colors_disabled>
+  </pdfjs>
+  <document>
+    <title>Mrežni dokument</title>
+    <preview>Prethodni pregled dokumenta</preview>
+    <error>Greška na mrežnom dokumentu</error>
+    <error_msg>Problem s učitavanjem dokumenta. Možda ćete trebati zatvoriti i ponovno otvoriti dokument kako bi ispravno funkcionirao.</error_msg>
+    <zoom_in>Zoom In</zoom_in>
+    <zoom_out>Zoom Out</zoom_out>
+    <fullscreen>Fullscreen Toggle</fullscreen>
+    <undo>Undo</undo>
+    <redo>Redo</redo>
+    <bold>Bold</bold>
+    <italic>Italic</italic>
+    <cursiva>Cursiva</cursiva>
+    <underline>Underline</underline>
+    <strikeout>Strikeout</strikeout>
+    <leftpara>Left</leftpara>
+    <centerpara>Center</centerpara>
+    <rightpara>Right</rightpara>
+    <justifypara>Justify</justifypara>
+    <lineheight>Line Height</lineheight>
+    <numbering>Number List</numbering>
+    <bullet>Bullet List</bullet>
+    <incrementindent>Increment Indent</incrementindent>
+    <decrementindent>Decrement Indent</decrementindent>
+    <textcolor>Text Color</textcolor>
+    <bgcolor>Background Color</bgcolor>
+  </document>
+</language>

@@ -1,0 +1,33 @@
+<?php
+  /*
+    Script used for SMS sending via local SMS server. See documentation for more details.
+  */
+
+  // Shared libraries
+  define('SHAREDLIB_PATH', get_cfg_var('icewarp_sharedlib_path'));
+  include(SHAREDLIB_PATH . 'api/api.php');
+
+  // Create data
+  $url = 
+    'number=' . urlencode($_REQUEST['number']) . 
+    '&name=' . urlencode($_REQUEST['name']) . 
+    '&binary=' . urlencode($_REQUEST['binary']) . 
+    '&data=' . urlencode($_REQUEST['data']) . 
+    '&udh=' . urlencode($_REQUEST['udh']) . 
+    '&pid=' . urlencode($_REQUEST['pid']) . 
+    '&dcs=' . urlencode($_REQUEST['dcs']) . 
+    '&reply=' . urlencode($_REQUEST['reply']) . 
+    '&sender=' . urlencode($_REQUEST['sender']) . 
+    '&user=' . urlencode($_REQUEST['user']) . 
+    '&pass=' . urlencode($_REQUEST['pass']) .
+    '&msgid=' . urlencode($_REQUEST['msgid']) .
+    '&ip=' . urlencode($_SERVER['REMOTE_ADDR']) . 
+    '&id=' . urlencode($_REQUEST['id']);
+
+  // Send SMS
+  $api = new IceWarpAPI();
+  $result = $api->SMSHTTP($url);
+
+  // Result
+  if (!$result) { header('HTTP/1.1 503 Service Unavailable'); }
+?>

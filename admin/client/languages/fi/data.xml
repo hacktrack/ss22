@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <other>
+    <primary>Ensisijainen</primary>
+    <secondary>Toissijainen</secondary>
+    <success>Onnistui</success>
+    <warning>Varoitus</warning>
+    <error>Virhe</error>
+    <grey>Harmaa</grey>
+    <borderless>Reunaton</borderless>
+    <demo>Demo</demo>
+    <other>Muu</other>
+    <search_placeholder>Mitä etsit?</search_placeholder>
+    <imagepath_en>client/languages/en/images/</imagepath_en>
+    <session_expired>Istunto on vanhentunut</session_expired>
+  </other>
+  <main>
+    <logout>Kirjaudu ulos</logout>
+    <dashboard>Kojelauta</dashboard>
+    <console>API Console</console>
+    <search>Haku</search>
+    <support_url>http://www.icewarp.com/support/</support_url>
+    <spam_queues>Spam queues</spam_queues>
+    <white_labeling>White labeling</white_labeling>
+    <content_rules>Content rules</content_rules>
+    <certificates>Sertifikaatit</certificates>
+    <server_settings>Palvelinasetukset</server_settings>
+    <policies>Policies</policies>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <webclient>WebClient</webclient>
+    <support>Support</support>
+    <subscription>Subscription</subscription>
+    <account_settings>Account settings</account_settings>
+    <management>Users &amp; domains</management>
+    <oauth>OAuth providers</oauth>
+    <night_mode>Night mode</night_mode>
+  </main>
+  <form_buttons>
+    <ok>OK</ok>
+    <cancel>Peruuta</cancel>
+    <retry>Yritä uudelleen</retry>
+    <close>Sulje</close>
+  </form_buttons>
+  <datetime>
+    <php_date>j.n.Y</php_date>
+    <php_time>H:i:s</php_time>
+    <php_time_minutes>H:i</php_time_minutes>
+    <mon>Ma</mon>
+    <tue>Ti</tue>
+    <wed>Ke</wed>
+    <thu>To</thu>
+    <fri>Pe</fri>
+    <sat>La</sat>
+    <sun>Su</sun>
+    <monday>Maanantai</monday>
+    <tuesday>Tiistai</tuesday>
+    <wednesday>Keskiviikko</wednesday>
+    <thursday>Torstai</thursday>
+    <friday>Perjantai</friday>
+    <saturday>Lauantai</saturday>
+    <sunday>Sunnuntai</sunday>
+    <january>Tammikuu</january>
+    <february>Helmikuu</february>
+    <march>Maaliskuu</march>
+    <april>Huhtikuu</april>
+    <may>Toukokuu</may>
+    <june>Kesäkuu</june>
+    <july>Heinäkuu</july>
+    <august>Elokuu</august>
+    <september>Syyskuu</september>
+    <october>Lokakuu</october>
+    <november>Marraskuu</november>
+    <december>Joulukuu</december>
+    <days>päivä;päivää</days>
+    <year>year</year>
+    <years>years</years>
+  </datetime>
+  <service_statistics>
+    <uptime>Päällä</uptime>
+    <memorysize>Working Set Size</memorysize>
+    <memorypeak>Working Set Size (Peak)</memorypeak>
+    <msgreceived>Vastaanotettu</msgreceived>
+    <msgsent>Lähetetty</msgsent>
+    <msgfailed>Epäonnistui</msgfailed>
+    <msgvirus>Virus</msgvirus>
+    <msgcontentfilter>Sisältösuodatin</msgcontentfilter>
+    <msgrules>Säännöt</msgrules>
+    <msgexternal>Ulkoinen suodatin</msgexternal>
+    <msgintrusionprevention>Hyökkäyksenesto</msgintrusionprevention>
+    <msgdns>DNSBL</msgdns>
+    <quarantine>Karanteeni</quarantine>
+    <spamassasin>SpamAssassin</spamassasin>
+    <spammarked>Merkitty roskapostiksi</spammarked>
+    <spamlivebulk>Anti-Spam Live (Bulk)</spamlivebulk>
+    <spamlive>Anti-Spam Live (Spam)</spamlive>
+    <refused>Roskaposti estetty</refused>
+    <greylisting>Greylisting</greylisting>
+    <conntotal>Yhteyksiä yhteensä</conntotal>
+    <serverconn>Palvelinyhteyksiä (yhteensä)</serverconn>
+    <serverconnpeak>Palvelinyhteyksiä (huippu)</serverconnpeak>
+    <serverdatatotal>Palvelindataa yhteensä</serverdatatotal>
+    <serverdatain>Palvelindataa sisään</serverdatain>
+    <serverdataout>Palvelindataa ulos</serverdataout>
+    <clientconn>Asiakasyhteyksiä (yhteensä)</clientconn>
+    <clientconnpeak>Asiakasyhteyksiä (huippu)</clientconnpeak>
+    <clientdatatotal>Asiakasdataa siirretty</clientdatatotal>
+    <clientdatain>Asiakasdataa sisään</clientdatain>
+    <clientdataout>Asiakasdataa ulos</clientdataout>
+    <packetsreceived>Paketteja vastaanotettu</packetsreceived>
+    <packetssent>Paketteja lähetetty</packetssent>
+    <rtppacketsreceived>RTP-paketteja vastaanotettu</rtppacketsreceived>
+    <rtppacketssent>RTP-paketteja lähetetty</rtppacketssent>
+    <callcount>Puheluja yhteensä</callcount>
+    <callpeak>Puhelujen huippu</callpeak>
+    <calltotal>Puheluja yhteensä</calltotal>
+  </service_statistics>
+  <management>
+    <domainlist>Domain list</domainlist>
+    <guest_accounts>Guest accounts</guest_accounts>
+  </management>
+  <dashboard>
+    <server_data>Palvelindata (MB)</server_data>
+    <client_data>Asiakasdata (MB)</client_data>
+    <received>Vastaanotettu</received>
+    <sent>Lähetetty</sent>
+    <active_users>Aktiivisia käyttäjiä</active_users>
+    <storage>Total storage used</storage>
+    <mail_sent>Postia lähetetty</mail_sent>
+    <mail_received>Postia vastaanotettu</mail_received>
+    <realtime>Tosiaikainen</realtime>
+    <hour>Viimeinen tunti</hour>
+    <day>Viimeinen päivä</day>
+    <week>Viimeinen viikko</week>
+    <month>Viimeinen kuukausi</month>
+    <year>Viimeinen vuosi</year>
+    <current_traffic>Tämänhetkinen liikenne</current_traffic>
+    <services_statuses>Palvelun tila</services_statuses>
+    <services>Palvelut</services>
+    <uptime>Päällä</uptime>
+    <connections>Yhteyksiä</connections>
+    <data>Data</data>
+    <service>Palvelu</service>
+    <category>Kategoria</category>
+    <time_period>Ajanjakso</time_period>
+    <cancel>Peruuta</cancel>
+    <smtp_connections>SMTP-yhteyksiä</smtp_connections>
+    <imappop3_connections>IMAP/POP3 -yhteyksiä</imappop3_connections>
+    <web_connections>Web-yhteyksiä</web_connections>
+    <statistics>Statistiikka</statistics>
+    <settings>Asetukset</settings>
+    <restart>Käynnistä uudelleen</restart>
+    <stop>Pysäytä</stop>
+    <start>Käynnistä</start>
+    <mail_services>Postipalvelut</mail_services>
+    <web_services>Web-palvelut</web_services>
+    <smtp>SMTP</smtp>
+    <imap>IMAP</imap>
+    <pop3>POP3</pop3>
+    <control>Web</control>
+    <ftp>FTP</ftp>
+    <socks>SOCKS</socks>
+    <supportive_services>Taustapalvelut</supportive_services>
+    <minger>Minger</minger>
+    <ldap>LDAP</ldap>
+    <snmp>SNMP</snmp>
+    <communication>Communication</communication>
+    <im>Pikaviestin</im>
+    <voip>VoIP</voip>
+    <sms>SMS</sms>
+    <meeting>WebMeetings</meeting>
+    <collaboration>Collaboration</collaboration>
+    <calendar>GroupWare</calendar>
+    <groupware_notification>GroupWare Notification</groupware_notification>
+    <webclient>WebClient</webclient>
+    <webdav>WebDAV</webdav>
+    <security>Turvallisuus</security>
+    <antivirus>Anti-Virus</antivirus>
+    <antispam>Anti-Spam</antispam>
+    <mobility>Mobility</mobility>
+    <activesync>ActiveSync</activesync>
+    <syncml>SyncML</syncml>
+    <sip>VoIP</sip>
+    <teamchat>TeamChat</teamchat>
+    <sqlite>Server uses the SQLite database which is not sufficient for this service. Please configure Groupware to use standalone database server (e.g. MySQL, MS SQL, Oracle) before enabling this service.</sqlite>
+    <plan>Plan</plan>
+    <cluster_id>Cluster</cluster_id>
+    <price_user_month>Total monthly costs</price_user_month>
+    <next_billing>Next billing</next_billing>
+    <upgrade>Upgrade your plan</upgrade>
+    <hypervisor>Hypervisor</hypervisor>
+    <manage>Manage</manage>
+  </dashboard>
+  <generic>
+    <hh_mm>hh:mm</hh_mm>
+    <and>Ja</and>
+    <or>Tai</or>
+    <not>Ei</not>
+    <add uses="server certificates">Lisää</add>
+    <alias>Alias</alias>
+    <cancel>Peruuta</cancel>
+    <continue>Jatka</continue>
+    <reset>Reset</reset>
+    <back>Back</back>
+    <create_new_account_0>Luo uusi käyttäjä</create_new_account_0>
+    <create_new_account_1>Luo uusi postituslista</create_new_account_1>
+    <create_new_account_7>Luo uusi ryhmä</create_new_account_7>
+    <create_new_account_8>Create new resource</create_new_account_8>
+    <create_new_account_d>Luo uusi domain</create_new_account_d>
+    <days>päivää</days>
+    <delete uses="server certificates">Poista</delete>
+    <domain>Domain</domain>
+    <domain_name>Domainin nimi</domain_name>
+    <enter_additional_alias>Lisää vaihtoehtoinen alias</enter_additional_alias>
+    <enter_password>Syötä salasana</enter_password>
+    <enter_time_in_minutes>Syötä aika minuutteina</enter_time_in_minutes>
+    <enter_value>Syötä arvo</enter_value>
+    <from>Lähettäjä</from>
+    <generate>Luo</generate>
+    <size_b>B</size_b>
+    <size_kb>kB</size_kb>
+    <size_mb>MB</size_mb>
+    <size_gb>GB</size_gb>
+    <size_tb>TB</size_tb>
+    <size_pb>PB</size_pb>
+    <messages>messages</messages>
+    <message_error_heading>Virhe</message_error_heading>
+    <message_success_heading>Onnistui</message_success_heading>
+    <message_warning_heading>Varoitus</message_warning_heading>
+    <minutes>min</minutes>
+    <seconds>sec</seconds>
+    <name>Nimi</name>
+    <new_group>Uusi ryhmä</new_group>
+    <new_mailing_list>Uusi postituslista</new_mailing_list>
+    <new_user>Uusi käyttäjä</new_user>
+    <new_domain>Uusi domain</new_domain>
+    <new_resource>New resource</new_resource>
+    <password>Salasana</password>
+    <plus_symbol>+</plus_symbol>
+    <reset_to_default>Palauta oletukset</reset_to_default>
+    <results>tulokset</results>
+    <retry>Yritä uudelleen</retry>
+    <save>Tallenna</save>
+    <do_not_save>Älä tallenna</do_not_save>
+    <save_and_add_another>Tallenna ja lisää uusi</save_and_add_another>
+    <save_as>Tallenna nimellä</save_as>
+    <select>Valitse</select>
+    <select_action>Valitse toiminto</select_action>
+    <share>Jaa</share>
+    <subject>Aihe</subject>
+    <first_name>Etunimi</first_name>
+    <surname>Sukunimi</surname>
+    <text>Teksti</text>
+    <try_again>Yritä uudelleen</try_again>
+    <icewarp_webadmin>IceWarp WebAdmin</icewarp_webadmin>
+    <group_name>Ryhmän nimi</group_name>
+    <resource_name>Resource name</resource_name>
+    <upload>Lähetys</upload>
+    <upload_photo>Lähetä valokuva</upload_photo>
+    <type uses="new resource">Tyyppi</type>
+    <done uses="permissions">Valmis</done>
+    <set_to_default>Set to default values</set_to_default>
+    <export>Export</export>
+    <all>All</all>
+    <ok>OK</ok>
+    <close>Close</close>
+    <download>Download</download>
+    <port>port</port>
+    <on>On</on>
+    <off>Off</off>
+    <copy_to_clipboard>Copy to clipboard</copy_to_clipboard>
+    <plan_selection>Plan selection</plan_selection>
+  </generic>
+  <api_console>
+    <webserver>Web Server</webserver>
+    <webdav>WebDAV</webdav>
+    <voip>VoIP</voip>
+    <system_tools>System Tools</system_tools>
+    <storage>Tallennustila</storage>
+    <smtp_pop3_imap>SMTP/POP3/IMAP</smtp_pop3_imap>
+    <sms>SMS</sms>
+    <smart_discover>SmartDiscover</smart_discover>
+    <proxy>Proxy</proxy>
+    <protocols>Protokollat</protocols>
+    <mobile_sync>Mobile Sync</mobile_sync>
+    <mail>Posti</mail>
+    <logging>Loki</logging>
+    <ldap>LDAP</ldap>
+    <instant_messaging>Pikaviestin</instant_messaging>
+    <gui>GUI</gui>
+    <groupware>GroupWare</groupware>
+    <general>Yleiset</general>
+    <ftp>FTP</ftp>
+    <domains>Domainit</domains>
+    <connection>Yhteydet</connection>
+    <conferencing>WebMeetings</conferencing>
+    <antivirus>Anti-Virus</antivirus>
+    <antispam>Anti-Spam</antispam>
+    <advanced>Lisäominaisuudet</advanced>
+    <accounts_policies>Tilien politiikat</accounts_policies>
+    <accounts>Tilit</accounts>
+    <save>Tallenna</save>
+    <type_string>Merkkijono</type_string>
+    <type_longstring>Longstring</type_longstring>
+    <type_integer>Kokonaisluku</type_integer>
+    <type_boolean>Boolean</type_boolean>
+    <type_enum>Enumeration</type_enum>
+    <true>Tosi</true>
+    <false>Epätosi</false>
+    <mailinglist>Postituslista</mailinglist>
+    <domain>Domain</domain>
+    <user>Käyttäjä</user>
+    <edit>Muokkaa</edit>
+    <group>Ryhmä</group>
+    <resource>Resurssi</resource>
+    <name>Nimi</name>
+    <type>Tyyppi</type>
+    <val>Arvo</val>
+    <description>Kuvaus</description>
+    <view>View</view>
+  </api_console>
+  <client_applications>
+    <client_applications>Asiakasohjelmat</client_applications>
+    <icewarp_desktop>Desktop Client</icewarp_desktop>
+    <icewarp_outlook_sync>Outlook Sync</icewarp_outlook_sync>
+    <mobile_devices>Mobiililaitteet</mobile_devices>
+  </client_applications>
+  <client_applications_help>
+    <client_applications>Hallinnoi käyttäjän mobiililaitteita, Outlook Sync- ja Desktop Client -ohjelmia.</client_applications>
+    <icewarp_desktop>Lataa Desktop Clientin asennusohjelma ja hallinnoi lisenssejä.</icewarp_desktop>
+    <icewarp_outlook_sync>Lataa Outlook Syncin asennusohjelma ja hallinnoi etänä asetuksia ja lisenssejä.</icewarp_outlook_sync>
+    <mobile_devices>Hallinnoi liitettyjen mobiililaitteiden asetuksia.</mobile_devices>
+  </client_applications_help>
+  <permissions>
+    <inbox>Saapuneet</inbox>
+    <calendar>Kalenteri</calendar>
+    <contacts>Kontaktit</contacts>
+    <files>Tiedostot</files>
+    <permissions>Käyttöoikeudet</permissions>
+    <anyone>Kuka tahansa / Tuntematon</anyone>
+    <custom>Räätälöity</custom>
+    <all>Kaikki</all>
+    <none>Ei mitään</none>
+    <read>Lue</read>
+    <write>Kirjoita</write>
+    <full>Täydet oikeudet</full>
+    <owner>Owner</owner>
+    <add_new_user_or_domain>Lisää uusi käyttäjä tai domain</add_new_user_or_domain>
+    <inherit>Periytyy</inherit>
+    <show_all_folders>Näytä kaikki kansiot</show_all_folders>
+    <show_less>Näytä vähemmän</show_less>
+    <domains>Domainit</domains>
+  </permissions>
+  <permissions_help>
+    <inbox>Salli yrityksen käyttäjien lukea ja tehdä muutoksia sähköpostin oletuskansioon.</inbox>
+    <calendar>Salli yrityksen käyttäjien nähdä ja luoda tapahtumia oletuskalenteriin.</calendar>
+    <contacts>Salli yrityksen käyttäjien nähdä ja lisätä kohteita oletuskontaktikansioon.</contacts>
+    <files>Salli yrityksen käyttäjien lukea ja lisätä dokumentteja tiedostojen oletuskansioon.</files>
+  </permissions_help>
+  <mobile_devices>
+    <allowed>Sallittu</allowed>
+    <blocked>Estetty</blocked>
+    <quarantine>Karanteenissa</quarantine>
+    <all_mail_items>Kaikki</all_mail_items>
+    <all_calendar_events>Kaikki</all_calendar_events>
+    <all_status>Kaikki</all_status>
+    <all_sync>Kaikki</all_sync>
+    <last_24_hours>Viimeiset 24 tuntia</last_24_hours>
+    <last_7_days>Viimeiset 7 päivää</last_7_days>
+    <last_4_weeks>Viimeiset 4 viikkoa</last_4_weeks>
+    <one_day>Yksi päivä</one_day>
+    <three_days>Kolme päivää</three_days>
+    <one_week>Yksi viikko</one_week>
+    <two_weeks>Kaksi viikkoa</two_weeks>
+    <one_month>Yksi kuukausi</one_month>
+    <three_months>Kolme kuukautta</three_months>
+    <six_months>Kuusi kuukautta</six_months>
+    <incomplete_tasks_only>Vain keskeneräiset tehtävät</incomplete_tasks_only>
+    <new_calendar_folders>Uusi kalenterikansio</new_calendar_folders>
+    <merge_to_default_calendar_folder>Yhdistä oletuskalenterikansioon</merge_to_default_calendar_folder>
+    <events>Tapahtumat</events>
+    <tasks>Tehtävät</tasks>
+    <tasks_and_notes>Tehtävät &amp; Muistiinpanot (Android app)</tasks_and_notes>
+    <new_folders>Uudet kansiot</new_folders>
+    <merge_to_default_folder>Yhdistä oletuskansioon</merge_to_default_folder>
+    <allow>Salli</allow>
+    <block>Estä</block>
+    <delete>Poista</delete>
+    <wipe>Pyyhi</wipe>
+  </mobile_devices>
+  <vcard>
+    <male>Mies</male>
+    <female>Nainen</female>
+    <unknown>Ei tiedossa</unknown>
+    <home1>Koti 1</home1>
+    <home2>Koti 2</home2>
+    <assistant>Avustaja</assistant>
+    <work1>Työ 1</work1>
+    <work2>Työ 2</work2>
+    <fax_home>Fax koti</fax_home>
+    <fax_work>Fax työ</fax_work>
+    <callback>Takaisinsoitto</callback>
+    <company>Yritys</company>
+    <car>Auto</car>
+    <isdn>ISDN</isdn>
+    <mobile>Matkapuhelin</mobile>
+    <other>Muu</other>
+    <other_fax>Muu fax</other_fax>
+    <pager>Hakulaite</pager>
+    <primary>Ensisijainen</primary>
+    <radio>Radio</radio>
+    <telex>Telex</telex>
+    <hearing>Hearing</hearing>
+    <sip>SIP</sip>
+    <email1>Email 1</email1>
+    <email2>Email 2</email2>
+    <email3>Email 3</email3>
+    <imaddress>Pikaviesti-osoite</imaddress>
+  </vcard>
+  <devicedetail>
+    <allow_block_device>Laite käytössä</allow_block_device>
+    <allow_device>Salli laite</allow_device>
+    <block_device>Estä laite</block_device>
+    <device_in_quarantine>Laite on karanteenissa</device_in_quarantine>
+    <account>Tili</account>
+    <device_info>Laitteen tiedot</device_info>
+    <device_name>Laitteen nimi</device_name>
+    <groupware_synchronization>Item synchronization</groupware_synchronization>
+    <hard_wipe>Hard Wipe</hard_wipe>
+    <info>Tiedot</info>
+    <last_sync>Viimeksi synkronoitu</last_sync>
+    <model>Malli</model>
+    <notes_synchronization_type>Muistiinpanojen synkronointitapa</notes_synchronization_type>
+    <os>Käyttöjärjestelmä</os>
+    <past_calendar_events>Vanhat kalenterimerkinnät</past_calendar_events>
+    <past_mail_items>Vanhat sähköpostit</past_mail_items>
+    <private_special_folders>Kansioiden synkronointi</private_special_folders>
+    <registered>Rekisteröity</registered>
+    <soft_hard_wipe>Etäpyyhi laite</soft_hard_wipe>
+    <soft_wipe>Soft Wipe</soft_wipe>
+    <status>Tila</status>
+    <sync_notes_as>Synkronoi muistiinpanot kuten</sync_notes_as>
+    <sync_tasks_as_calendar_events>Synkronoi tehtävät kalenterimerkintöinä</sync_tasks_as_calendar_events>
+    <synchronization>Synkronointi</synchronization>
+    <tasks_synchronization_type>Tehtävien synkronointitapa</tasks_synchronization_type>
+    <type>Tyyppi</type>
+    <groupware_folders>GroupWare-kansiot (yksityinen)</groupware_folders>
+    <mail_folders>Sähköpostikansiot (yksityinen)</mail_folders>
+    <shared_folders>Jaetut kanisot</shared_folders>
+    <archive>Sähköpostiarkisto</archive>
+    <public_folders>Julkiset kansiot</public_folders>
+    <all_folders>Kaikki kansiot</all_folders>
+    <default_folders_only>Vain oletuskansiot</default_folders_only>
+    <all_with_groupware_as_email>All with GroupWare as email</all_with_groupware_as_email>
+  </devicedetail>
+  <devicedetail_help>
+    <device_info>Review and/or edit the device properties, or block devices from accessing the server.</device_info>
+    <groupware_synchronization>Manage synchronization of GroupWare and email items. Where applicable, turn the toggle on and select the appropriate value from the list. These settings override the device settings.</groupware_synchronization>
+    <private_special_folders>Manage synchronization of default and special folders. Select from the appropriate list or turn the toggle on.</private_special_folders>
+    <soft_hard_wipe>Soft Wipe deletes only data downloaded from the server. Hard Wipe resets the device to factory settings, deleting data from device and SD cards.</soft_hard_wipe>
+  </devicedetail_help>
+  <domainlist>
+    <domain_list>Domainlista</domain_list>
+    <all_types>Kaikki tyypit</all_types>
+    <standard>Standardi</standard>
+    <domain_alias>Domain alias</domain_alias>
+    <backup_domain>Varadomain</backup_domain>
+    <distributed_domain>Jaettu domain</distributed_domain>
+    <etrn_atrn_queue>ETRN/ATRN-jono</etrn_atrn_queue>
+    <verification_default>Oletus</verification_default>
+    <verification_use_minger_with_password>Use Minger with password</verification_use_minger_with_password>
+    <verification_usevrfy_command>Use VRFY command</verification_usevrfy_command>
+    <verification_use_rcpt_to_command>Use RCPT TO command</verification_use_rcpt_to_command>
+  </domainlist>
+  <domainlist_header>
+    <users>Käyttäjät</users>
+    <name>Nimi</name>
+    <type>Tyyppi</type>
+    <description>Kuvaus</description>
+  </domainlist_header>
+  <domaindetail>
+    <users>Tilit</users>
+    <settings>Ominaisuudet</settings>
+    <limits>Rajoitukset</limits>
+    <rules>Säännöt</rules>
+    <active_directory>Active Directory</active_directory>
+    <mobile_devices>Mobiililaitteet</mobile_devices>
+    <general>Yleinen</general>
+    <name>Nimi</name>
+    <description>Kuvaus</description>
+    <type>Tyyppi</type>
+    <val>Arvo</val>
+    <verification>Varmistus</verification>
+    <password>Salasana</password>
+    <administrator_email>Ylläpitäjän sähköpostiosoite</administrator_email>
+    <aliases>Aliakset</aliases>
+    <add_alias>Lisää alias</add_alias>
+    <quotas>Levytilarajoitukset</quotas>
+    <storage_usage>Storage usage</storage_usage>
+    <numbers_of_emails_sent>Lähetettyjen sähköpostien määrä</numbers_of_emails_sent>
+    <change_quotas>Domainin rajoitukset</change_quotas>
+    <permissions_and_rights>Rajoitukset &amp; käyttöoikeudet</permissions_and_rights>
+    <unknown_accounts>Tuntemattomat tilit</unknown_accounts>
+    <reject>Hylkää</reject>
+    <delete>Poista</delete>
+    <forward_to>Edelleenlähetä</forward_to>
+    <target_email>Kohde-email</target_email>
+    <two_factor_authentication>Two-factor authentication</two_factor_authentication>
+    <instant_messaging_shared_roster>Instant Messaging shared roster</instant_messaging_shared_roster>
+    <domain_features>Domainin ominaisuudet</domain_features>
+    <features>Ominaisuudet</features>
+    <outlook_sync>Outlook Sync</outlook_sync>
+    <desktop_client>Desktop Client</desktop_client>
+    <manage>Hallinnoi</manage>
+    <download>Lataa</download>
+    <domain_limits>Domainin rajoitukset</domain_limits>
+    <maximum_number_of_accounts>Domainin ylläpitäjän tilirajoitus (tilien määrä)</maximum_number_of_accounts>
+    <disk_quota>Levytilarajoitus</disk_quota>
+    <daily_send_out_limit_for_domain>Päivittäinen lähetysrajoitus domainille</daily_send_out_limit_for_domain>
+    <disable_login_to_this_domain>Estä kirjautuminen tähän domainiin</disable_login_to_this_domain>
+    <daily_data_limit>Datan lähetysrajoitus</daily_data_limit>
+    <daily_message_count_limit>Rajoita lähetettyjen viestin määrä</daily_message_count_limit>
+    <number_per_day># per päivä</number_per_day>
+    <domain_expiration>Domain vanhenee</domain_expiration>
+    <expires_on>Vanhenee</expires_on>
+    <notify_before_expiration>Muistuta ennen vanhentumista</notify_before_expiration>
+    <days>Päivää</days>
+    <delete_domain_when_expired>Poista vanhentunut domain</delete_domain_when_expired>
+    <user_limits>Käyttäjän rajoitukset</user_limits>
+    <account_size>Tilin koko</account_size>
+    <default_max_message_size>Viestin enimmäiskoko</default_max_message_size>
+    <default_daily_send_out_limit_for_users>Oletusarvo päivittäiseen lähetysmäärärajaan</default_daily_send_out_limit_for_users>
+    <forward_to_address>Edelleenlähetä osoitteeseen</forward_to_address>
+    <dns_validation>DNS validation</dns_validation>
+    <validation>Validation</validation>
+    <rename>Rename</rename>
+    <rename_and_logout>Rename &amp; logout</rename_and_logout>
+    <change_domain_name>Change domain name</change_domain_name>
+    <same_domain_helper>You are renaming your own domain. When the action is completed, you will be automatically logged out from WebAdmin and will need to log in again.</same_domain_helper>
+    <dkim>DKIM</dkim>
+    <delete_spam_older_than>Delete spam older than</delete_spam_older_than>
+    <max_allowed_subscription_plan>Max allowed subscription plan</max_allowed_subscription_plan>
+  </domaindetail>
+  <domaindetail_help>
+    <domain_limits>Seuraavat domainin rajoitukset ohittavat käyttäjätason rajoitukset. Esimerkiksi, jos domainin levytilarajoitus on 100 MB ja käyttäjälle on määritetty 500 MB tilin kooksi, on tili täynnä, kun domain on käyttänyt 100 MB levytilaa.</domain_limits>
+    <domain_expiration>Määritä domainille vanhenemispäivä. Kun domain vanhenee, vain domainiin kirjautuminen estetään. Jos valitset vanhentuneen domainin poistamisen, kaikki domainin tilit ja data poistetaan!</domain_expiration>
+    <user_limits>Seuraavilla rajoituksilla on matalampi tärkeysarvo kuin käyttäjätason asetuksilla. Esimerkiksi, jos sinulla on 100 tiliä domainissa ja 98 tilin asetusten tulee olla samat ja 2 on eri asetukset, määritä 98 käyttäjän rajoitukset tässä ja määritä 2 tilin erilaiset rajoitukset käyttäjätasolla.</user_limits>
+    <quotas>Klikkaa domainin rajoituksia rajoittaaksesi domainin kokoa, viestien lähetysmäärärajoituksia, viestien maksimikokoa domaintasolla tai muita rajoituksia kaikille domainin tileille kerralla.</quotas>
+    <permissions_and_rights>Specify how to handle messages sent to accounts that are not defined on the server. Click Features to enable or disable services for all users of the domain. Features configured on user-level have higher priority.</permissions_and_rights>
+    <client_applications>Manage the domain&apos;s mobile devices, Outlook Sync and Desktop Client applications.</client_applications>
+    <aliases>Enter aliases for this domain. Messages sent to all these addresses will be delivered to this domain&apos;s mailboxes. For these aliases you cannot set different rules than for the original domain.</aliases>
+  </domaindetail_help>
+  <subscription_plans>
+    <any_plan>Any plan</any_plan>
+    <standard>Standard</standard>
+    <professional>Professional</professional>
+    <user_per_month>user per month</user_per_month>
+  </subscription_plans>
+  <rules>
+    <lower>Matalampi</lower>
+    <greater>Suurempi</greater>
+    <priority_highest>Korkein</priority_highest>
+    <priority_high>Korkea</priority_high>
+    <priority_normal>Normaali</priority_normal>
+    <priority_low>Matala</priority_low>
+    <priority_lowest>Matalin</priority_lowest>
+    <function_contains_value_from_list>Sisältää arvon listalta (puolipisteellä eroteltu)</function_contains_value_from_list>
+    <function_matches_regex>Vastaa (RegEx)</function_matches_regex>
+    <function_starts_with>Alkaa</function_starts_with>
+    <function_ends_with>Päättyy</function_ends_with>
+    <function_equals>Yhtä kuin</function_equals>
+    <function_contains_value_from_file>Contains a value from a file or pattern</function_contains_value_from_file>
+    <condition_all_messages>Kaikki viestit</condition_all_messages>
+    <condition_where_from>Where From</condition_where_from>
+    <condition_message_header_matches>Message header matches</condition_message_header_matches>
+    <condition_where_subject>Where subject</condition_where_subject>
+    <condition_where_message_body_matches>Where message body matches</condition_where_message_body_matches>
+    <condition_where_message_contains_attachment>Where message contains attachment</condition_where_message_contains_attachment>
+    <condition_where_attachment_name_matches>Where attachment name matches</condition_where_attachment_name_matches>
+    <condition_where_message_priority_is>Where message priority is</condition_where_message_priority_is>
+    <condition_where_message_size_is>Where message size is</condition_where_message_size_is>
+    <condition_where_message_is_spam>Where message is spam</condition_where_message_is_spam>
+    <condition_where_to>Where To</condition_where_to>
+    <condition_where_cc>Where Cc</condition_where_cc>
+    <condition_where_replyto>Where Reply To</condition_where_replyto>
+    <condition_where_date>Where date</condition_where_date>
+    <condition_where_custom_message_header_matches>Where custom message header matches</condition_where_custom_message_header_matches>
+    <condition_where_any_message_header_matches>Where any message header matches</condition_where_any_message_header_matches>
+    <condition_where_sender_matches>Where sender matches</condition_where_sender_matches>
+    <condition_where_recipient_matches>Where recipient matches</condition_where_recipient_matches>
+    <condition_where_sender_recipient_is_local_remote>Where sender / recipient is local / remote</condition_where_sender_recipient_is_local_remote>
+    <condition_where_spam_score_is>Where spam score is</condition_where_spam_score_is>
+    <condition_where_local_time_meets>Where local time meets</condition_where_local_time_meets>
+    <condition_where_rdns_matches>Where RDNS matches</condition_where_rdns_matches>
+    <condition_where_senders_ip_address_matches>Where sender&apos;s IP address matches</condition_where_senders_ip_address_matches>
+    <condition_where_senders_ip_address_is_listed_on_dnsbl>Where sender&apos;s IP address is listed on DNSBL</condition_where_senders_ip_address_is_listed_on_dnsbl>
+    <condition_where_session_is_trusted>Where session is trusted</condition_where_session_is_trusted>
+    <condition_where_smtp_auth>Where SMTP AUTH</condition_where_smtp_auth>
+    <condition_where_message_direct_to_user>Message sent directly to user</condition_where_message_direct_to_user>
+    <action_accept_reject_delete_spam_quarantine>Accept / Reject / Delete / Spam / Quarantine</action_accept_reject_delete_spam_quarantine>
+    <action_forward_to_email>Forward to email</action_forward_to_email>
+    <action_copy_to_folder>Copy to folder</action_copy_to_folder>
+    <action_move_to_folder>Move to folder</action_move_to_folder>
+    <action_encrypt_message>Encrypt message</action_encrypt_message>
+    <action_send_new_message>Send new message</action_send_new_message>
+    <action_edit_message_header>Edit message header</action_edit_message_header>
+    <action_set_message_priority_to>Set message priority to</action_set_message_priority_to>
+    <action_set_message_flags_to>Set message flags to</action_set_message_flags_to>
+    <action_stop_processing_more_rules>Stop processing more rules</action_stop_processing_more_rules>
+    <and>And</and>
+    <or>Or</or>
+    <and_not>And not</and_not>
+    <or_not>Or not</or_not>
+    <rules>Rules</rules>
+    <result_title>How to create a rule:</result_title>
+    <result_step_1>1. First select one or more conditions</result_step_1>
+    <result_step_2>2. Add some actions to your conditions</result_step_2>
+    <result_step_3>3. Add a title to distinguish the rule</result_step_3>
+    <result>Result</result>
+    <basic>Basic</basic>
+    <headers>Headers</headers>
+    <advanced>Advanced</advanced>
+    <standard>Standard</standard>
+    <extra>Extra</extra>
+    <title>Title</title>
+    <actions>Actions</actions>
+    <conditions>Conditions</conditions>
+    <rule_number>Rule number</rule_number>
+    <new_rule>Add rule</new_rule>
+    <delete>Delete</delete>
+    <activate>Activate</activate>
+    <deactivate>Deactivate</deactivate>
+  </rules>
+  <rulepopup>
+    <action>Action</action>
+    <add_new_header_condition>Add new header condition</add_new_header_condition>
+    <from>From</from>
+    <header>Header</header>
+    <match_regex>Match RegEx in original header</match_regex>
+    <regex>RegEx</regex>
+    <subject>Subject</subject>
+    <text>Text</text>
+    <to>To</to>
+    <val>Value</val>
+    <add_edit>Add / Edit</add_edit>
+    <delete>Delete</delete>
+  </rulepopup>
+  <rulecard>
+    <monday>Ma</monday>
+    <tuesday>Ti</tuesday>
+    <wednesday>Ke</wednesday>
+    <thursday>To</thursday>
+    <friday>Pe</friday>
+    <saturday>La</saturday>
+    <sunday>Su</sunday>
+    <action>Action</action>
+    <all_items_match>All items match</all_items_match>
+    <antivirus>Anti-Virus</antivirus>
+    <bare_lfs>Bare LFs</bare_lfs>
+    <between_dates>Between dates (yyyy:mm:dd)</between_dates>
+    <between_times>Between times (hh:mm)</between_times>
+    <change_mime>Change MIME-Version to 1.0</change_mime>
+    <copy_to_folder>Copy to folder</copy_to_folder>
+    <crlf>CRLF.CRLF inside of the message</crlf>
+    <db_connection>DB Connection</db_connection>
+    <delete>Poista</delete>
+    <dnsbl_server>DNSBL Server</dnsbl_server>
+    <email_address>Sähköpostiosoite</email_address>
+    <eof>EOF inside of the message</eof>
+    <executable>executable</executable>
+    <flagged>Flagged</flagged>
+    <flags>Flags</flags>
+    <function>Function</function>
+    <ignore>Ignore</ignore>
+    <junk>Junk</junk>
+    <label_1>Label 1</label_1>
+    <label_2>Label 2</label_2>
+    <label_3>Label 3</label_3>
+    <label_4>Label 4</label_4>
+    <label_5>Label 5</label_5>
+    <label_6>Label 6</label_6>
+    <local>Paikallinen</local>
+    <match_case>Match case</match_case>
+    <member_of>Member of</member_of>
+    <message_not_virus>Message does not contain a virus</message_not_virus>
+    <message_password>Message contains password protected files</message_password>
+    <message_priority>Message priority</message_priority>
+    <message_size>Message size</message_size>
+    <message_virus>Message contains a virus</message_virus>
+    <move_to_folder>Move to folder</move_to_folder>
+    <non_junk>NonJunk</non_junk>
+    <not>Not</not>
+    <one_item_matches>At least one item matches</one_item_matches>
+    <parse_xml>Parse XML</parse_xml>
+    <quarantine>Quarantine</quarantine>
+    <recipient>Recipient</recipient>
+    <regex>RegEx</regex>
+    <reject>Reject</reject>
+    <remote>Remote</remote>
+    <remove_mime>Remove MIME-Version double char</remove_mime>
+    <rfc2822>Fix RFC2822 violation</rfc2822>
+    <score>Score</score>
+    <seen>Seen</seen>
+    <sender>Sender</sender>
+    <sender_recipient>Sender / Recipient</sender_recipient>
+    <single_string>Convert to single string</single_string>
+    <spam>Spam</spam>
+    <sql_statement>SQL statement</sql_statement>
+    <string>String</string>
+    <string_condition>String condition</string_condition>
+    <than>Than</than>
+    <time_criteria>Time criteria</time_criteria>
+    <type>type</type>
+    <user_doesnt_exists>User doesn&apos;t exist</user_doesnt_exists>
+    <user_exists>User exists</user_exists>
+    <weekdays>Weekdays</weekdays>
+    <whole_word>Whole word</whole_word>
+    <zerobyte>0x00 inside of the message</zerobyte>
+    <accept>Hyväksy</accept>
+    <add_edit>Lisää / Muokkaa</add_edit>
+    <add>Lisää</add>
+    <edit>Muokkaa</edit>
+    <forward_as_attachment>Forward as attachment</forward_as_attachment>
+    <custom_flags>Custom flags</custom_flags>
+    <userisonlyrecipient>User is the only recipient</userisonlyrecipient>
+    <checkuserinto>Check user in To header</checkuserinto>
+    <checkuserincc>Check user in Cc header</checkuserincc>
+    <checkuserinbcc>Check user in Bcc header</checkuserinbcc>
+  </rulecard>
+  <userlist>
+    <admin>System Administrator</admin>
+    <webadmin>Web Administrator</webadmin>
+    <catalog>Katalogi</catalog>
+    <domain_admin>Domain Administrator</domain_admin>
+    <executable>Ajettava tiedosto</executable>
+    <group>Ryhmä</group>
+    <list_of_all_accounts>Listaus kaikista tileistä</list_of_all_accounts>
+    <list_server>List server</list_server>
+    <mailing_list>Postituslista</mailing_list>
+    <notification>Huomautus</notification>
+    <resource>Resurssi</resource>
+    <static_route>Staattinen reitti</static_route>
+    <user>Käyttäjä</user>
+    <external>Ulkoinen</external>
+    <room>Room</room>
+    <equipment>Equipment</equipment>
+    <car>Car</car>
+  </userlist>
+  <userlist_header>
+    <account>Tili</account>
+    <name_and_account>Nimi &amp; tili</name_and_account>
+    <name>Nimi</name>
+    <quota>Käytetty</quota>
+    <type>Tyyppi</type>
+  </userlist_header>
+  <userlist_help>
+    <list_of_all_accounts>Näytä ja hallinnoi domainin kaikkia tilejä. Klikkaa tiliä muokataksesi sitä.</list_of_all_accounts>
+  </userlist_help>
+  <mailinglist>
+    <account_member_itself>Tili ei voi olla itsensä jäsen.</account_member_itself>
+    <mailinglist_members>Lista postituslistan jäsenistä</mailinglist_members>
+    <members>Jäsenet</members>
+    <general_details>Yleiset tiedot</general_details>
+    <security>Turvallisuus</security>
+    <members_source>Jäsenten lähde</members_source>
+    <settings>Asetukset</settings>
+    <owner>Omistaja</owner>
+    <description>Kuvaus</description>
+    <alias>Alias</alias>
+    <add_alias>Lisää alias</add_alias>
+    <source>Lähde</source>
+    <password_protection>Salasanasuojaus</password_protection>
+    <password>Salasana</password>
+    <default_rights>Oletusoikeudet</default_rights>
+    <max_number_of_messages>Lähetettävien viestin enimmäismäärä per minuutti</max_number_of_messages>
+    <send_to_sender>Lähetä lähettäjälle</send_to_sender>
+    <forward_copy_to_owner>Edelleenlähetä kopio omistajalle</forward_copy_to_owner>
+    <process_mailing_list>Prosessoi postituslistan muuttujat</process_mailing_list>
+    <personalized_mailing_list>Personoitu postituslista - muuttuvat tiedot</personalized_mailing_list>
+    <remove_failed_email_addresses>Poista epäonnistuneet sähköpostiosoitteet</remove_failed_email_addresses>
+    <not_password_protected>Ei suojattu salasanalla</not_password_protected>
+    <server_moderated>Server moderated</server_moderated>
+    <client_moderated>Client moderated</client_moderated>
+    <recieve_and_post>Receive &amp; post</recieve_and_post>
+    <digest_recieve_and_post>Digest receive &amp; post</digest_recieve_and_post>
+    <recieve_only>Receive only</recieve_only>
+    <digest_recieve_only>Digest receive only</digest_recieve_only>
+    <post_only>Post only</post_only>
+    <members_defined_manually>Members defined manually</members_defined_manually>
+    <members_from_text_file>Members from text file</members_from_text_file>
+    <members_from_database>Members from database</members_from_database>
+    <all_current_domain_users>All current domain users</all_current_domain_users>
+    <all_system_users>All system users</all_system_users>
+    <all_system_domain_administrators>All system domain administrators</all_system_domain_administrators>
+    <all_system_administrators>All system administrators</all_system_administrators>
+    <only_members_can_post>Only members can post new messages</only_members_can_post>
+    <do_not_deliver>Do not deliver to members with quota exceeded</do_not_deliver>
+    <rights>Rights</rights>
+    <default>Default</default>
+    <post>Post</post>
+    <receive>Receive</receive>
+    <digest>Digest</digest>
+  </mailinglist>
+  <mailinglist_help>
+    <mailinglist_members>Review mailing list members, add new members or remove current ones. Tick the appropriate box and click Select Action button to remove a member.</mailinglist_members>
+    <general_details>Manage general mailing list properties. Use the Add button where applicable.</general_details>
+    <security>Manage mailing list default member rights, password and other properties.</security>
+    <members_source>Select how/where mailing list members are defined.</members_source>
+    <settings>Define rules for messages delivery and problematic addresses treatment.</settings>
+  </mailinglist_help>
+  <group>
+    <account_member_itself>Account cannot be a member of itself.</account_member_itself>
+    <group_members>Listaus ryhmän jäsenistä</group_members>
+    <members>Jäsenet</members>
+    <general_details>Yleiset tiedot</general_details>
+    <group_sharing>Ryhmäjako</group_sharing>
+    <group_email_delivery>Group email delivery</group_email_delivery>
+    <security>Turvallisuus</security>
+    <advanced_settings>Lisäasetukset</advanced_settings>
+    <name>Nimi</name>
+    <description>Kuvaus</description>
+    <alias>Alias</alias>
+    <add_alias>Lisää alias</add_alias>
+    <create_public_folder>Luo julkinen kansio</create_public_folder>
+    <setup_permissions>Aseta rajoitukset ja käyttöoikeudet</setup_permissions>
+    <permissions>Käyttöoikeudet</permissions>
+    <only_members_can_post>Vain jäsenet voivat postittaa uusia viestejä</only_members_can_post>
+    <do_not_deliver>Älä toimita jäsenille, joiden levytila on käytetty</do_not_deliver>
+    <password_protection>Salasanasuojaus</password_protection>
+    <max_number_of_messages>Lähetettävien viestien enimmäismäärä per minuutti</max_number_of_messages>
+    <populate_gal>Populate Global Address List (GAL) with all members</populate_gal>
+    <allow_gal_export>Allow GAL export for other servers within distributed domain</allow_gal_export>
+    <organize_gal>Organize GAL into hierarchical address book (HAB)</organize_gal>
+    <deliver_to_all_members_individually>Toimita erikseen kaikille jäsenille</deliver_to_all_members_individually>
+    <deliver_mail_to_shared_folder>Toimita posti jaettuun kansioon</deliver_mail_to_shared_folder>
+    <teamchat>TeamChat</teamchat>
+    <enable_teamchat>Enable TeamChat</enable_teamchat>
+  </group>
+  <group_help>
+    <group_members>Review group members, add new members or remove current ones. Tick the appropriate box and click Select Action button to remove a member.</group_members>
+    <general_details>Manage general group properties. Use the Add button to add an alias.</general_details>
+    <group_sharing>Turn the toggle on if you want to create a public folder for this group. Enter the folder name and click the Permissions button to set access rights for group members.</group_sharing>
+    <group_email_delivery>Select how messages to the group members are to be delivered. Select whether messages are to be delivered also to group members with account limits exceeded.</group_email_delivery>
+    <security>Set whether also non-members can post messages, whether sending a message to this group is to be password protected and set outgoing messages flow control.</security>
+    <advanced_settings>Manage Global Address List properties.</advanced_settings>
+    <populate_gal>Turn the toggle on if you want to have GroupWare contacts for all group members created.</populate_gal>
+    <allow_gal_export>If applicable, turn the toggle on to use a remote GAL for a distributed domain.</allow_gal_export>
+    <organize_gal>Turn the toggle on if you want to have created a hierarchical folder structure where a subgroup name is used as a folder name.</organize_gal>
+    <teamchat>Enables to create private and public chat rooms within this group.</teamchat>
+  </group_help>
+  <group_placeholder>
+    <create_public_folder>Enter public folder</create_public_folder>
+  </group_placeholder>
+  <accountdetail>
+    <device>Laite</device>
+    <account_is_disabled>Tili on poistettu käytöstä.</account_is_disabled>
+    <active>Aktiivinen</active>
+    <last_sync>Viimeksi synkronoitu</last_sync>
+    <add_members>Lisää jäseniä</add_members>
+    <members>Jäsenet</members>
+    <message>Viesti</message>
+    <mailinglistinfo>Postituslista</mailinglistinfo>
+    <groupinfo>Ryhmä</groupinfo>
+    <select_domain>Valitse domain</select_domain>
+    <all_types>Kaikki tyypit</all_types>
+    <custom>Custom (up to threshold size)</custom>
+    <headers>Vain otsakkeet</headers>
+    <full>Kaikki data</full>
+    <numbered_structure>Numeroitu rakenne</numbered_structure>
+    <folder_name_only>Vain kansion nimi</folder_name_only>
+    <full_folder_path>Full folder path</full_folder_path>
+    <outlook_native>Outlook native</outlook_native>
+    <force_settings>Force settings</force_settings>
+    <set_as_default>Aseta oletukseksi</set_as_default>
+    <account_features>Account features</account_features>
+    <account_quote_enabled>Account disk quota</account_quote_enabled>
+    <account_state>Account state</account_state>
+    <account_type>Account type</account_type>
+    <accountpicker>Select account</accountpicker>
+    <folderpicker>Select folder</folderpicker>
+    <activation_key>Activation key</activation_key>
+    <add_alias>Lisää alias</add_alias>
+    <add_email>Add email</add_email>
+    <add_phone>Lisää puhelinnumero</add_phone>
+    <address>Osoite</address>
+    <advanced>Advanced</advanced>
+    <alias>Alias</alias>
+    <aliases>Aliakset</aliases>
+    <all_items>Kaikki kohteet</all_items>
+    <allowed_activation_count>Allowed activation count</allowed_activation_count>
+    <alternate_email>Vaihtoehtoinen sähköpostiosoite</alternate_email>
+    <amount_per_day># per päivä</amount_per_day>
+    <anniversary>Vuosipäivä</anniversary>
+    <antispam>Anti-Spam</antispam>
+    <antivirus>Anti-Virus</antivirus>
+    <appearance>Appearance</appearance>
+    <archive>Arkisto</archive>
+    <assistant>Avustaja</assistant>
+    <at>at</at>
+    <birthday>Syntymäpäivä</birthday>
+    <card>Card</card>
+    <certificates>Sertifikaatit</certificates>
+    <change_password>Vaihda salasana</change_password>
+    <change_quotas>User Limits</change_quotas>
+    <check_password_policy>Salasana ei vastaa salasanapolitiikkaa.</check_password_policy>
+    <city>Kaupunki</city>
+    <client_applications>Client applications</client_applications>
+    <company>Yritys</company>
+    <content_of_folders>Synchronize content of the selected folders immediately after local change is detected</content_of_folders>
+    <copy_incoming_mail>Kopioi saapuva posti</copy_incoming_mail>
+    <copy_outgoing_mail>Kopioi lähtevä posti</copy_outgoing_mail>
+    <country>Maa</country>
+    <days>Päivää</days>
+    <default>Oletus</default>
+    <delete_account_when_expired>Poista vanhentunut tili</delete_account_when_expired>
+    <delete_mail_older_than>Poista postit, jotka ovat vanhempia kuin</delete_mail_older_than>
+    <delete_spam_older_than>Delete spam older than</delete_spam_older_than>
+    <delete_older>Poista vanhemmat postit (päivää)</delete_older>
+    <department>Osasto</department>
+    <description>Kuvaus</description>
+    <digital_certificates>Digitaaliset sertifikaatit</digital_certificates>
+    <disabled>Poistettu käytöstä</disabled>
+    <disabled_login>Poistettu käytöstä (kirjautuminen)</disabled_login>
+    <disabled_login_receive>Poistettu käytöstä (kirjautuminen, vastaanotto)</disabled_login_receive>
+    <display_address_book_names>Display address book names as</display_address_book_names>
+    <do_not_forward>Älä edelleenlähetä roskapostia</do_not_forward>
+    <do_not_use_spam>Älä käytä roskapostikansiota</do_not_use_spam>
+    <download>Lataa</download>
+    <download_files>Lataa tiedostot</download_files>
+    <email>Email</email>
+    <enabled>Käytössä</enabled>
+    <exchange_activesync>Exchange ActiveSync</exchange_activesync>
+    <expiration>Expiration</expiration>
+    <expires_if_inactive_for>Expires if inactive for</expires_if_inactive_for>
+    <expires_on>Expires on</expires_on>
+    <reset_authentication>Are you sure you wish to reset the two-factor authentication?</reset_authentication>
+    <authentication_reset_succeeded>Two-factor authentication has been reset</authentication_reset_succeeded>
+    <features>Ominaisuudet</features>
+    <file_storage>File Storage</file_storage>
+    <web_documents>WebDocuments</web_documents>
+    <file_transfer>Tiedostojen siirto (FTP)</file_transfer>
+    <folder_structure_after>Synchronize folder structure after</folder_structure_after>
+    <folder_synchronization_threshold>Folder synchronization threshold (messages in folder)</folder_synchronization_threshold>
+    <forward_to>Edelleenlähetä osoitteeseen</forward_to>
+    <forwarder>Forwarder</forwarder>
+    <from>Lähettäjä</from>
+    <gal_automatically>Synchronize GAL automatically</gal_automatically>
+    <gender>Sukupuoli</gender>
+    <general>Yleinen</general>
+    <generate>Luo</generate>
+    <generate_key>Luo avain</generate_key>
+    <groupware>GroupWare</groupware>
+    <home_address>Kotiosoite</home_address>
+    <home_email>Home email</home_email>
+    <home_phone>Puhelin kotiin</home_phone>
+    <info>Tiedot</info>
+    <instant_messaging>Pikaviestin</instant_messaging>
+    <job>Job</job>
+    <last_time_logged>Viimeksi kirjautunut</last_time_logged>
+    <lastname>Sukunimi</lastname>
+    <licence>Lisenssi</licence>
+    <licenses>Lisenssit</licenses>
+    <limits>Rajoitukset</limits>
+    <manage>Hallinnoi</manage>
+    <manager>Manager</manager>
+    <max_message_size>Max message size</max_message_size>
+    <messaging>Messaging</messaging>
+    <mobile_devices>Mobiililaitteet</mobile_devices>
+    <mode>Mode</mode>
+    <must_change_password>Pakota vaihtamaan salasana ensimmäisen kirjautumisen yhteydessä</must_change_password>
+    <name>Etunimi</name>
+    <new_items>New items</new_items>
+    <note>Note</note>
+    <notify_before_expiration>Ilmoita ennen vanhentumista</notify_before_expiration>
+    <numbers_of_emails_sent>Numbers of emails sent</numbers_of_emails_sent>
+    <of>of</of>
+    <online_conferencing>WebMeetings</online_conferencing>
+    <password>Salasana</password>
+    <old_password>Old password</old_password>
+    <new_password>New password</new_password>
+    <password_again>Vahvista salasana</password_again>
+    <password_not_saved>Salasanaa ei tallennettu. Tarkista salasanapolitiikka.</password_not_saved>
+    <password_policy_alpha>Kirjainten määrä salasanassa [a-z][A-Z]</password_policy_alpha>
+    <password_policy_digits>Numeroiden määrä salasanassa [0-9]:</password_policy_digits>
+    <password_policy_minlength>Salasanan vähimmäispituus:</password_policy_minlength>
+    <password_policy_nonalphanum>Erikoismerkkien määrä salasanassa [!@#$%...]:</password_policy_nonalphanum>
+    <password_policy_upperalpha>Isojen kirjainten määrä salasanassa [A-Z]</password_policy_upperalpha>
+    <password_policy_useralias>Salasana ei saa sisältää käyttäjätunnusta tai aliasta</password_policy_useralias>
+    <permissions>Käyttöoikeudet</permissions>
+    <permissions_and_rights>Permissions &amp; rights</permissions_and_rights>
+    <phone>Puhelin</phone>
+    <pop_imap>POP3/IMAP</pop_imap>
+    <quarantine>Karanteeni</quarantine>
+    <quotas>Levytilarajoitukset</quotas>
+    <respond_again_after>Vastaa uudelleen ajan kuluttua (päivää)</respond_again_after>
+    <respond_again_after_period>Vastaa uudelleen ajan kuluttua</respond_again_after_period>
+    <respond_always>Vastaa aina</respond_always>
+    <respond_once>Vastaa kerran</respond_once>
+    <respond_only_if_between>Vastaa vain aikavälillä</respond_only_if_between>
+    <respond_to_messages>Vastaa vain viesteihin, jotka on lähetetty vain käyttäjälle</respond_to_messages>
+    <responder>Vastaaja</responder>
+    <responder_message>Viesti</responder_message>
+    <rules>Säännöt</rules>
+    <security>Turvallisuus</security>
+    <selected_priority_folders>Synchronize selected priority folders after</selected_priority_folders>
+    <selected_standard_folders>Synchronize selected standard folders after</selected_standard_folders>
+    <send_key_to_user_by_email>Send key to user by email</send_key_to_user_by_email>
+    <send_out_data_limit>Send out data limit</send_out_data_limit>
+    <send_out_limit>Daily send out limits</send_out_limit>
+    <send_out_message_limit>Send out messages limit</send_out_message_limit>
+    <shared_folders>Shared folders</shared_folders>
+    <sms>Text Messaging</sms>
+    <smtp>SMTP</smtp>
+    <spam_folder_mode>Spam folder mode</spam_folder_mode>
+    <spam_reports_mode>Spam reports mode</spam_reports_mode>
+    <spam_trap>Spam trap</spam_trap>
+    <state_county>State / County</state_county>
+    <status>Status</status>
+    <storage_usage>Storage usage</storage_usage>
+    <street>Street</street>
+    <surname>Last Name</surname>
+    <synchronization>Synchronization</synchronization>
+    <syncml>SyncML</syncml>
+    <threshold_for_full_download>Threshold for full download</threshold_for_full_download>
+    <unknown_ip>unknown IP</unknown_ip>
+    <upload_photo>Upload photo</upload_photo>
+    <use_spam>Use spam folder</use_spam>
+    <user_can_send_to_local_domains_only>User can send to local domains only</user_can_send_to_local_domains_only>
+    <username>Username</username>
+    <voip>VoIP</voip>
+    <web_folders>Web Folders (WebDAV)</web_folders>
+    <webclient>WebClient</webclient>
+    <website>Website</website>
+    <work_address>Work address</work_address>
+    <zip>ZIP</zip>
+    <add_to_group>Add to group</add_to_group>
+    <change_rights>Change rights</change_rights>
+    <move>Move</move>
+    <delete>Delete</delete>
+    <remove>Remove</remove>
+    <not_yet>Not yet</not_yet>
+    <teamchat>TeamChat</teamchat>
+    <enable_client_licence>Enable client licence</enable_client_licence>
+    <disable_access_to_pop3>Disable access to POP3 (IMAP only account)</disable_access_to_pop3>
+    <two_factor_authentication>Two-factor authentication</two_factor_authentication>
+    <max_file_size>Max file size</max_file_size>
+    <subscription_plan>Subscription plan</subscription_plan>
+    <change_user_plan>Change user plan</change_user_plan>
+  </accountdetail>
+  <accountdetail_help>
+    <account_state>Select whether this account will be fully functional, partially disabled (user cannot login, but messages are accepted), disabled (user cannot login, messages are rejected) or will work as a spam trap.</account_state>
+    <activation_key>Activation Key enables user to properly license selected client application. Once generated, it is available to user through WebClient interface or via SmartSync request from client application.</activation_key>
+    <address>Enter a street address or place of work.</address>
+    <advanced>Turn on toggles of those advanced synchronization features you want to set for this user. Enter the appropriate values.</advanced>
+    <aliases>Enter aliases for this account. Messages sent to all these addresses will be delivered to this mailbox.</aliases>
+    <antispam>Select whether this user will receive spam reports, will receive reports as set in Anti-Spam - Action - Reports, reports with new spam items listed or reports with all spam items listed. Also select whether a spam folder is to be used.</antispam>
+    <antispam_features>Comprehensive spam filtering provides users with controls over the system through Black Lists, White Lists, Spam Folders &amp; Quarantine Reports.</antispam_features>
+    <antivirus>Enterprise Anti-Virus scans and validates every file going in or out of the account, be it email, calendar attachments, documents and file transfers.</antivirus>
+    <appearance>Turn the toggle on and select the way how address book names are to be shown.</appearance>
+    <archive>Archiving saves all incoming and outgoing email and text messages and provides users read-only access to the Archive folder to restore lost messages.</archive>
+    <client_applications>Manage the user&apos;s mobile devices, Outlook Sync and Desktop Client applications.</client_applications>
+    <email>Enter the user&apos;s email address(es).</email>
+    <exchange_activesync>Secure synchronization of email, calendars, contacts, tasks and notes to all mobile devices including Windows Phone, iPhone, iPad and Android.</exchange_activesync>
+    <expiration>Set expiration of the user&apos;s account.</expiration>
+    <file_transfer>FTP lets users transfer large files to a dedicated storage on the server. Using a standard FTP client, users can browse, manage, upload or download files.</file_transfer>
+    <forwarder>Set where messages are to be forwarded or copied, separate several by semicolon. Alternate email is used during password retrieval. Incoming/outgoing copy cannot be modified by user.</forwarder>
+    <general>Enter the account&apos;s information. All data presented here will be shown also in the user&apos;s GAL contact. Users can edit the fields in My Details dialog in WebClient. All fields are optional.</general>
+    <groupware>GroupWare needs to be enabled for users to access their public information including Global Address List, Company Calendars, Files and Public Folders.</groupware>
+    <instant_messaging>Real-time messaging or Chat enables instant communication among users, lets them share files and see each other&apos;s presence in the contact roster.</instant_messaging>
+    <licence_description>Enter a descriptive text.</licence_description>
+    <limits>Turn the toggles on and enter the appropriate values for the account limits you want to set.</limits>
+    <note>Note to a contact (this field is usually edited by a user).</note>
+    <online_conferencing>WebMeetings service stimulates collaboration and drives productivity in your teams by connecting users with Audio, Multi-User Chat and Screen Sharing.</online_conferencing>
+    <permissions_and_rights>Select whether this user is a regular email account or a server administrator or a domain administrator. Click Features to enable or disable services for this user individually.</permissions_and_rights>
+    <phone>Enter the user&apos;s phone number(s).</phone>
+    <pop_imap>System service for receiving emails needs to be enabled for proper functionality of WebClient and other email clients like Outlook, Thunderbird or Mail.</pop_imap>
+    <quarantine>Quarantine allows you to place suspect incoming messages in a pending queue awaiting manual authorization by administrators or users themselves.</quarantine>
+    <quotas>Overview of limits for number of messages sent per day and disk space occupied by this account.</quotas>
+    <responder>Select the responder mode for this account. Other fields are enabled depending on this mode.</responder>
+    <sms>Built-in text messaging (SMS) lets users send text messages from WebClient, reply to received messages and manage them as emails in the Inbox.</sms>
+    <smtp>System service for sending email needs to be enabled for proper functionality of WebClient and other email clients like Outlook, Thunderbird or Mail.</smtp>
+    <synchronization>Turn on toggles of those synchronization features you want to set for this user. Enter the appropriate values.</synchronization>
+    <syncml>Wireless synchronization of calendars, contacts, tasks and notes to older mobile devices based on Palm OS, Symbian and others not supporting ActiveSync.</syncml>
+    <voip>Internet telephony lets users make Audio/Video calls and join conference calls from WebClient directly or using a SIP compatible phone or application.</voip>
+    <web_folders>External access to user&apos;s own private cloud allows to map it as a network drive in Windows/Linux/Mac and store documents, photos and other files.</web_folders>
+    <webclient>Web-based access to email, calendars, contacts, tasks, notes and documents. All information may be shared among users via shared and public folders.</webclient>
+    <website>Enter the user&apos;s website address.</website>
+    <teamchat>TeamChat is a modern collaboration tool for teams &amp; projects. It lets you get in touch with other people on the team, organize your conversations around one topic, share files or create ad-hoc meetings.</teamchat>
+    <web_documents>Online editors of Microsoft Office and OpenOffice file formats. Create documents with beautiful formatting, stunning presentations, spreadsheets with formulas, all without leaving the WebClient.</web_documents>
+  </accountdetail_help>
+  <accountdetail_placeholder>
+    <folder_synchronization_threshold>Enter maximum number of messages in the folder</folder_synchronization_threshold>
+  </accountdetail_placeholder>
+  <accountinfo>
+    <name>Nmi</name>
+    <ignore_password_policy>Ignore password policy</ignore_password_policy>
+  </accountinfo>
+  <synchronization>
+    <address_books>Address books</address_books>
+    <advanced>Advanced</advanced>
+    <appearance>Appearance</appearance>
+    <authentication_method>Authentication method</authentication_method>
+    <automatically_revert_changes>Automatically revert changes in read only folders</automatically_revert_changes>
+    <check_for_updates>Check for updates</check_for_updates>
+    <delete_after_specified_days>Delete after specified days</delete_after_specified_days>
+    <delete_logs>Delete logs</delete_logs>
+    <disable_tnef>Disable TNEF</disable_tnef>
+    <do_not_show_connection_errors>Do not show connection errors</do_not_show_connection_errors>
+    <do_not_show_login_errors>Do not show login errors</do_not_show_login_errors>
+    <do_not_show_progress>Do not show progress</do_not_show_progress>
+    <hide_notification_after>Hide notification after (seconds)</hide_notification_after>
+    <licence_and_updates>Licence and updates</licence_and_updates>
+    <line_security>Line security</line_security>
+    <logging_level>Logging level</logging_level>
+    <login>Login</login>
+    <login_credentials>Login credentials</login_credentials>
+    <login_port>Login port</login_port>
+    <logs>Logs</logs>
+    <log_debug>Debug</log_debug>
+    <log_errors>Errors only</log_errors>
+    <new_mail_options>New mail options</new_mail_options>
+    <play_default_sound>Play default sound</play_default_sound>
+    <show_desktop_notification>Show desktop notification</show_desktop_notification>
+    <skip_trash_folder>Skip trash folder startup check</skip_trash_folder>
+    <synchronization_exceptions>Synchronization exceptions</synchronization_exceptions>
+    <synchronization_frequency>Synchronization frequency</synchronization_frequency>
+    <plain>Plain</plain>
+    <cram_md5>Cram MD5</cram_md5>
+    <starttsl>STARTTSL</starttsl>
+    <ssl>SSL</ssl>
+    <updates>Updates</updates>
+  </synchronization>
+  <dns>
+    <no_dns_records uses="DNS validation">No DNS records</no_dns_records>
+    <all_available>All available</all_available>
+    <service_mx>Mail</service_mx>
+    <service_autodiscover>SmartDiscover</service_autodiscover>
+    <service_autodiscover_srv>SmartDiscover</service_autodiscover_srv>
+    <service_webdav>WebDAV</service_webdav>
+    <service_sip>SIP</service_sip>
+    <service_xmpp>XMPP</service_xmpp>
+    <service_ischedule>iSchedule</service_ischedule>
+    <service_rdns>RDNS</service_rdns>
+    <service_spf>SPF</service_spf>
+    <service_dkim>DKIM</service_dkim>
+    <default_alias>Default alias</default_alias>
+    <domain_type>Domain type</domain_type>
+    <email>Email</email>
+    <expires_on>Expires on</expires_on>
+    <hostname>Hostname</hostname>
+    <ip_address>IP address</ip_address>
+    <name>Name</name>
+    <type>Type</type>
+    <user_count>User count</user_count>
+    <user_limit>User limit</user_limit>
+    <dns>Current DNS records</dns>
+    <academy_text>Please refer to IceWarp Academy video how to setup DNS records properly. Example zone file for your domain can be downloaded below.</academy_text>
+    <academy_caption>Updating the ”zone file”</academy_caption>
+    <academy_warning>Please validate your DNS records</academy_warning>
+    <general>General</general>
+    <loading>Loading domain information</loading>
+    <learn_more>Learn more about validation</learn_more>
+  </dns>
+  <dns_help>
+    <dns>Current DNS settings for your domain are listed below. Incorrect or missing entries are marked in red color.</dns>
+  </dns_help>
+  <dkim>
+    <domain_key_selector>Domain key selector</domain_key_selector>
+    <selector>Selector</selector>
+    <selector_placeholder>Unique arbitrary string</selector_placeholder>
+    <no_selector>Please specify a unique Selector for this server</no_selector>
+    <generate_key>Generate new Key</generate_key>
+    <selector_host>Hostname</selector_host>
+    <selector_record>Selector record</selector_record>
+    <sign_outgoing_mails>Sign outgoing mails with DKIM</sign_outgoing_mails>
+    <reset>Reset DKIM settings</reset>
+    <reset_succeeded>DKIM has been reset</reset_succeeded>
+    <wizard>DKIM Wizard</wizard>
+    <academy_title>DKIM setup tutorial in IceWarp academy</academy_title>
+    <academy_caption>Updating the “zone file”</academy_caption>
+    <academy_text>Please refer to IceWarp Academy video how to setup DKIM records in DNS properly.</academy_text>
+    <setup>Setup DKIM</setup>
+    <setup_failed>The DKIM setup process failed</setup_failed>
+    <loading>Generating new key</loading>
+  </dkim>
+  <dkim_help>
+    <domain_key_selector>Any text, if you set DKIM for this domain on multiple servers, each server has to have unique selector.</domain_key_selector>
+    <selector_record>Configure your DNS server with the public key. You need to add the following entry into your DNS server for e.g. icecream._domainkey.www.icewarp.com.</selector_record>
+    <wizard>DKIM is used by remote servers for verification that emails sent from this domain are not spoofed. In order to use DKIM, DNS TXT record &amp;lt;Selector&amp;gt;._domainkey.&amp;lt;domainname&amp;gt; has to be created.</wizard>
+  </dkim_help>
+  <accountpicker>
+    <users>Käyttäjät</users>
+    <domains>Domainit</domains>
+    <items_selected>items selected</items_selected>
+    <show_them>Show selected</show_them>
+    <hide_them>Show all</hide_them>
+    <account_picker>Select account</account_picker>
+    <account_type>Tilin tyyppi</account_type>
+    <add_account>Lisää tilejä</add_account>
+    <add_domain>Lisää domain</add_domain>
+    <add_user>Lisää käyttäjä</add_user>
+    <domain>Domain</domain>
+    <filter>Suodatin</filter>
+    <add_external>Add external</add_external>
+    <add_external_members>Add external members</add_external_members>
+  </accountpicker>
+  <spam_queues>
+    <quarantine>Quarantine</quarantine>
+    <whitelist>Whitelist</whitelist>
+    <blacklist>Blacklist</blacklist>
+    <action_delete>Delete</action_delete>
+    <action_deliver>Deliver</action_deliver>
+    <action_whitelist>Whitelist</action_whitelist>
+    <action_blacklist>Blacklist</action_blacklist>
+    <add_item>Add</add_item>
+    <detail>Detail</detail>
+  </spam_queues>
+  <spamqueues_header>
+    <sender>Sender</sender>
+    <subject>Subject</subject>
+    <date>Date</date>
+    <owner>Owner</owner>
+    <domain>Domain</domain>
+    <filter_sender>Filter sender</filter_sender>
+    <filter_owner>Filter owner</filter_owner>
+    <filter_domain>Filter domain</filter_domain>
+    <filter>Filter results</filter>
+  </spamqueues_header>
+  <certificates>
+    <server_certificates>Server certificates</server_certificates>
+    <ca_certificates>CA certificates</ca_certificates>
+    <secure_destinations>Secure destinations</secure_destinations>
+    <create_certificate>Create CSR / Server certificate</create_certificate>
+    <wizard>Certificate options</wizard>
+    <reissue>Reissue</reissue>
+    <finalize>Finalize</finalize>
+    <properties>Properties</properties>
+    <edit>Edit</edit>
+    <add_hostname>Add another hostname</add_hostname>
+    <bits>Bits</bits>
+    <validity>Validity</validity>
+    <country>Country</country>
+    <state>State</state>
+    <city>City</city>
+    <organization>Organization</organization>
+    <organization_unit>Organization unit</organization_unit>
+    <email>Email</email>
+    <common_name>Common name (FQDN)</common_name>
+    <signature_request>Create Certificate Signing Request (CSR)</signature_request>
+    <ip_address>IP address</ip_address>
+    <no_ip_limit>All</no_ip_limit>
+    <certificate>Certificate</certificate>
+    <ip>IP address</ip>
+    <cn>CN</cn>
+    <issuer>Issuer</issuer>
+    <expiration>Expiration</expiration>
+    <subject>Subject</subject>
+    <cert_bits>Bits</cert_bits>
+    <fingerprint>Fingerprint</fingerprint>
+    <type>Type</type>
+    <type_normal>Standard</type_normal>
+    <type_csr/>
+    <type_letsencrypt>Let&apos;s Encrypt</type_letsencrypt>
+    <hostname>Hostname</hostname>
+    <default>Default</default>
+    <set_as_default>Set as default</set_as_default>
+    <csr>CSR</csr>
+    <add_existing>Add existing</add_existing>
+    <new_icewarp_cert>Request IceWarp certificate</new_icewarp_cert>
+    <new_ca_cert>Request authority certificate</new_ca_cert>
+    <new_lets_encrypt_cert>Free Let’s Encrypt certificate</new_lets_encrypt_cert>
+    <new_self_signed_cert>Free self-signed certificate</new_self_signed_cert>
+    <reissue_cert>Reissue certificate</reissue_cert>
+    <reissue_icewarp_cert>Reissue as IceWarp certificate</reissue_icewarp_cert>
+    <reissue_ca_cert>Reissue as authority certificate</reissue_ca_cert>
+    <reissue_lets_encrypt_cert>Reissue as Let’s Encrypt certificate</reissue_lets_encrypt_cert>
+    <reissue_self_signed_cert>Reissue as self-signed certificate</reissue_self_signed_cert>
+    <unit>Unit</unit>
+    <company_details>Company details</company_details>
+    <add_certificate>Add certificate</add_certificate>
+    <certificate_settings>Certificate settings</certificate_settings>
+    <icewarp_details>IceWarp Certificate</icewarp_details>
+    <authority_details>Certificate Details</authority_details>
+    <letsencrypt_details>Let&apos;s Encrypt Certificate</letsencrypt_details>
+    <selfsigned_details>Self-Signed Certificate</selfsigned_details>
+    <email_details>Email Certificate</email_details>
+    <details>Details</details>
+    <ip_binding>IP binding</ip_binding>
+    <domains>Domains</domains>
+    <errors>Errors</errors>
+    <export_csr>Export CSR</export_csr>
+    <bind_certificate>Bind certificate</bind_certificate>
+    <all_ips>All IP addresses</all_ips>
+    <selected_ips>Selected IP addresses</selected_ips>
+    <cert_domains>Certificate domains</cert_domains>
+    <cert_failure>Certificate failure</cert_failure>
+    <last_cert_attempt>Last certificate attempt</last_cert_attempt>
+    <error>Error</error>
+    <ver_failed_for>Verification failed for</ver_failed_for>
+    <reuse>Reuse private / public key pair</reuse>
+    <generate>Generate private / public key pair</generate>
+    <domain_unknown>Unknown</domain_unknown>
+    <domain_error>Error</domain_error>
+    <domain_valid>Valid</domain_valid>
+    <domain_invalid>Invalid</domain_invalid>
+    <domain_timeout>Timeout</domain_timeout>
+    <key_pair>Key pair</key_pair>
+    <hostnames>Hostnames</hostnames>
+  </certificates>
+  <certificates_help>
+    <add_existing>Choose if you already have an SSL server certificate ready.</add_existing>
+    <new_icewarp_cert>Purchase a trusted SSL server certificate from IceWarp in a few simple steps. Reissue if expiration is due or more domains are added.</new_icewarp_cert>
+    <new_ca_cert>Generate a certificate request for use with your favorite certificate provider. Reissue if expiration is due or more domains are added.</new_ca_cert>
+    <new_lets_encrypt_cert>Generate a free certificate from Let&apos;s Encrypt certification authority. Certificate is automatically reissued before expiration, reissue manually if domains need to be added or removed.</new_lets_encrypt_cert>
+    <new_self_signed_cert>Generate a free certificate not verified by any certification authority. Use if security is not a big concern. Reissue as often as needed.</new_self_signed_cert>
+    <csr>This is a Certificate Signing Request (CSR). CSR needs to be provided to the certificate authority. Once the validation process is finished, bind the certificate received from authority to the original CSR.</csr>
+  </certificates_help>
+  <policies>
+    <login>Login policy</login>
+    <password>Password policy</password>
+    <outlook>Outlook policy</outlook>
+    <block_user_login_accounts>Block user login for accounts that exceed a number of failed login attempts</block_user_login_accounts>
+    <block_user_login_time>Block user login for</block_user_login_time>
+    <login_policy_mode>Login policy mode</login_policy_mode>
+    <require_administrator>Require administrator authentication to access the system settings</require_administrator>
+    <usernames>Usernames</usernames>
+    <email_addresses>Email addresses</email_addresses>
+    <convert_usernames>Convert % and / to @ in usernames</convert_usernames>
+    <account_ip_restriction>Use account login IP restriction</account_ip_restriction>
+    <login_restriction>Login restriction</login_restriction>
+    <users_login>Users login with their</users_login>
+    <login_policy>Login policy</login_policy>
+    <password_policy>Password policy</password_policy>
+    <active>Active</active>
+    <password_cannot_contain>Password cannot contain username or alias</password_cannot_contain>
+    <enable_password>Enable password encryption</enable_password>
+    <minimal_password_length>Minimal password length</minimal_password_length>
+    <numeric>Number of numeric characters in password [0-9]</numeric>
+    <non_alpha_numeric>Number of non alpha-numeric characters in password [!@#$%...]</non_alpha_numeric>
+    <alpha>Number of alpha characters in password [a-z][A-Z]</alpha>
+    <uppercase_alpha>Number of uppercase alpha characters in password [A-Z]</uppercase_alpha>
+    <password_expires_after>Password expires after</password_expires_after>
+    <notify_before_expiration>Notify before expiration</notify_before_expiration>
+    <custom_notification>Custom notification message file</custom_notification>
+    <passwords_read_exported>Passwords cannot be read or exported</passwords_read_exported>
+    <admin_passwords_read_exported>Administrator passwords cannot be read or exported</admin_passwords_read_exported>
+    <do_not_block_but_delay>Do not block but delay authentication process</do_not_block_but_delay>
+    <block_account>Block account for specified amount of time</block_account>
+    <manage>Manage</manage>
+    <general>General</general>
+    <password_format>Password format</password_format>
+    <password_expiration>Password expiration</password_expiration>
+    <password_retrieval>Password retrieval</password_retrieval>
+  </policies>
+  <whitelabeling>
+    <use_default>Set to default values</use_default>
+    <available_interfaces>Available interfaces</available_interfaces>
+    <disable_autofill>Username / password autofill</disable_autofill>
+    <disable_facebook_integration>Facebook integration</disable_facebook_integration>
+    <disable_interface>Interface selection</disable_interface>
+    <disable_language>Language selection</disable_language>
+    <disable_login_banners>Advertisements</disable_login_banners>
+    <disable_login_help>Login help</disable_login_help>
+    <disable_remember_me>Remember me</disable_remember_me>
+    <disable_sign_up>Sign up</disable_sign_up>
+    <disable_support_link>Support link</disable_support_link>
+    <disable_twitter_integration>Twitter integration</disable_twitter_integration>
+    <disable_linkedin_integration>LinkedIn integration</disable_linkedin_integration>
+    <login_logo>Login logo</login_logo>
+    <login_style>Login style</login_style>
+    <page_title>Page title</page_title>
+    <preferred_interface>Preferred interface</preferred_interface>
+    <skin>Skin</skin>
+    <skin_style>Skin style</skin_style>
+    <background_img>Background image</background_img>
+    <twitter_handle>Twitter handle</twitter_handle>
+    <upload>Upload</upload>
+    <url_to_like>URL of page to like</url_to_like>
+    <wa_skin>WebAdmin skin</wa_skin>
+    <wc_skin>WebClient skin</wc_skin>
+    <blue uses="Login style,Skin style">Blue</blue>
+    <black uses="Login style,Skin style">Black</black>
+    <brown uses="Login style,Skin style">Brown</brown>
+    <graphite uses="Login style,Skin style">Graphite</graphite>
+    <green uses="Login style,Skin style">Green</green>
+    <orange uses="Login style,Skin style">Orange</orange>
+    <pink uses="Login style,Skin style">Pink</pink>
+    <purple uses="Login style,Skin style">Purple</purple>
+    <red uses="Login style,Skin style">Red</red>
+    <yellow uses="Login style,Skin style">Yellow</yellow>
+    <desktop uses="Preferred interface,Available interfaces">Desktop</desktop>
+    <tablet uses="Preferred interface,Available interfaces">Tablet</tablet>
+    <mobile uses="Preferred interface,Available interfaces">Mobile</mobile>
+    <facebook_page_url>Facebook page URL</facebook_page_url>
+    <twitter_page_url>Twitter page URL</twitter_page_url>
+    <linkedin_page_url>LinkedIn page URL</linkedin_page_url>
+    <language>Language</language>
+    <server_language>Server language</server_language>
+    <login_page_options>Login page options</login_page_options>
+    <social_integration>Social integrations</social_integration>
+    <interfaces>Interfaces</interfaces>
+    <background_image>Background image</background_image>
+    <choose_image>Choose image</choose_image>
+    <choose_color>Choose color</choose_color>
+    <login_heading>Login heading</login_heading>
+    <login_title>Login title</login_title>
+    <login_text>Login text</login_text>
+    <login_skin>Login screen skin</login_skin>
+    <email>Email</email>
+    <sms>Text message</sms>
+    <upload_custom_background>Upload custom background</upload_custom_background>
+    <search>Search</search>
+    <search_query>Search query</search_query>
+    <banners>Banner ads</banners>
+    <banner_none>Disable</banner_none>
+    <banner_url>Static image</banner_url>
+    <banner_code>AdSense</banner_code>
+    <top_banner_type>Leaderboard at login</top_banner_type>
+    <bottom_banner_type>Rectangle in IM roster</bottom_banner_type>
+    <desktop_banner_type>Full resolution (728x90 px)</desktop_banner_type>
+    <mobile_banner_type>Mobile resolution (300x100 px)</mobile_banner_type>
+    <login_banners>Login page</login_banners>
+    <webclient_banners>WebClient</webclient_banners>
+    <adsense_settings>AdSense settings</adsense_settings>
+    <adsense_customer_id>AdSense client ID</adsense_customer_id>
+    <adsense_slot_id>AdSense slot ID</adsense_slot_id>
+    <required>Required</required>
+    <custom_sign_up_fields>Custom sign up fields</custom_sign_up_fields>
+    <nickname>Nickname</nickname>
+    <company>Company</company>
+    <job>Job</job>
+    <profession>Profession</profession>
+    <mobile_phone>Mobile phone</mobile_phone>
+    <work_phone>Work phone</work_phone>
+    <home_phone>Home phone</home_phone>
+    <im>IM</im>
+    <gender>Gender</gender>
+    <birthday>Birthday</birthday>
+    <homepage>Homepage</homepage>
+    <two_step_verification>Sign up verification</two_step_verification>
+    <verification_method>Verification method</verification_method>
+    <ic_skin>IceChat mobile skin</ic_skin>
+    <require_contact_number>Require contact number</require_contact_number>
+    <conferencing>Conferencing</conferencing>
+    <conferencing_logo>Conferencing logo</conferencing_logo>
+  </whitelabeling>
+  <whitelabeling_help>
+    <login_logo>Change the logo shown on your login page. Supported image formats: JPG, PNG, GIF, SVG. Maximum file size: 20 MB.</login_logo>
+    <login_page_options>Choose which elements of login page you want to show or hide.</login_page_options>
+    <login_skin>Set up how the login page looks.</login_skin>
+    <login_skin_style>Select the primary color of login page.</login_skin_style>
+    <login_background>Select the perfect background image for your login page.</login_background>
+    <page_title>Change the text your users see in the window title.</page_title>
+    <server_language>Set language preferences for your users.</server_language>
+    <social_integration>Set up links to social media.</social_integration>
+    <wa_skin>Set up how WebAdmin looks on the inside.</wa_skin>
+    <wa_skin_style>Choose the primary color of WebAdmin.</wa_skin_style>
+    <wc_skin>Set up how WebClient looks on the inside.</wc_skin>
+    <wc_skin_style>Choose the primary color of WebClient.</wc_skin_style>
+    <search_query>Provide link to search engine of your choice where %%query%% will be replaced by search phrase entered by users. Example: https://www.google.com/#q=%%query%%+site:icewarp.com.</search_query>
+    <banners>Place banner ads on your login screen and into WebClient.</banners>
+    <banner_url>Insert URL of a static image to be used as a banner.</banner_url>
+    <banner_code>Insert custom AdSense slot ID provided by the AdSense provider.</banner_code>
+    <login_banners>Use mobile alternative and full resolution images as ad banners or connect to an advertising network.</login_banners>
+    <webclient_banners>Place ads for various screen resolutions on the login page or at the bottom of the instant messaging contact list.</webclient_banners>
+    <adsense_settings>Enter your AdSense customer ID.</adsense_settings>
+    <custom_sign_up_fields>Select which vCard fields will be required during sign up.</custom_sign_up_fields>
+    <two_step_verification>Select verification method when users sign up.</two_step_verification>
+    <conferencing>Change the look of the conferencing app.</conferencing>
+    <conferencing_logo>Change the logo shown on the conferencing page. Supported image formats: JPG, PNG, GIF. Maximum file size: 20 MB.</conferencing_logo>
+  </whitelabeling_help>
+  <preview>
+    <language>EN</language>
+    <sign_in_webclient>Sign in to WebClient</sign_in_webclient>
+    <password>Password</password>
+    <sign_in>Sign in</sign_in>
+    <remember_me>Keep me signed in</remember_me>
+    <contact_admin>Contact us</contact_admin>
+    <not_you>Not you?</not_you>
+    <choose_account>Choose a different account</choose_account>
+    <powered>Powered by IceWarp © 2020</powered>
+    <find_out_more>To find out more about IceWarp, visit</find_out_more>
+    <search>Search</search>
+  </preview>
+  <preview_icechat>
+    <sign_in_with>Sign in with your IceWarp WebClient account</sign_in_with>
+    <email>E-mail</email>
+    <password>Password</password>
+    <sign_in>SIGN IN</sign_in>
+  </preview_icechat>
+  <resource>
+    <alias>Alias</alias>
+    <name>Name</name>
+    <type>Type</type>
+    <general>General</general>
+    <temporarily_unavailable>Temporarily unavailable</temporarily_unavailable>
+    <allow_conflicts>Allow conflicts</allow_conflicts>
+    <send_notification>Send notification to user</send_notification>
+    <permissions>Permissions</permissions>
+    <resource_members>List of resource members</resource_members>
+    <members>Members</members>
+  </resource>
+  <resource_help>
+    <resource_members>Review resource members, add new members or remove current ones. Tick the appropriate box and click Select Action button to remove a member.</resource_members>
+  </resource_help>
+  <smartdiscover>
+    <smartdiscover>SmartDiscover</smartdiscover>
+    <public_hostname>Public Hostname</public_hostname>
+    <smtp>SMTP</smtp>
+    <pop3>POP3</pop3>
+    <imap>IMAP</imap>
+    <xmpp>XMPP</xmpp>
+    <sip>SIP</sip>
+    <mobilesync>MobileSync (ActiveSync)</mobilesync>
+    <syncml>SyncML (OMA DS)</syncml>
+    <webdav_smartattach>WebDAV &amp; SmartAttach</webdav_smartattach>
+    <webclient>WebClient</webclient>
+    <webadmin>WebAdmin</webadmin>
+    <free_busy>Free / Busy</free_busy>
+    <internet_calendar>Internet Calendar</internet_calendar>
+    <sms>SMS</sms>
+    <anti_spam_reports>Anti-Spam Reports</anti_spam_reports>
+    <install>Install</install>
+    <teamchat>TeamChat</teamchat>
+    <standard>Standard</standard>
+    <tls_ssl>TLS / SSL</tls_ssl>
+    <no_ssl>2nd basic port (no SSL)</no_ssl>
+    <set_all_to_new_domain_name>Set all to new hostname</set_all_to_new_domain_name>
+    <collaboration>Collaboration API URL</collaboration>
+    <conference>Conference URL</conference>
+  </smartdiscover>
+  <subscription>
+    <active_users>Active users overview</active_users>
+    <any_questions>Any questions?</any_questions>
+    <billing_address>Billing address</billing_address>
+    <cancel_subscription>Cancel</cancel_subscription>
+    <order_information>Order information</order_information>
+    <order_id>Order ID</order_id>
+    <card_details>Card details</card_details>
+    <card_number>Card number</card_number>
+    <change_details>Change details</change_details>
+    <change_plan>Change</change_plan>
+    <company_name>Company name</company_name>
+    <current_plan>Current plan</current_plan>
+    <customer_details>Customer details</customer_details>
+    <expiration_date>Expiration date</expiration_date>
+    <invoices>Invoices</invoices>
+    <last_invoices>Last invoices</last_invoices>
+    <no_invoices>You don’t currently have &lt;strong&gt;any invoices&lt;/strong&gt;</no_invoices>
+    <payment_details>Payment details</payment_details>
+    <payments>Payment information</payments>
+    <per_user_month>per user/month</per_user_month>
+    <plan_details>Plan details</plan_details>
+    <price_all_users_month>Total monthly costs</price_all_users_month>
+    <price_user_month>Price per user/month</price_user_month>
+    <trial>Trial</trial>
+    <show_invoice_list>Show all invoices</show_invoice_list>
+    <storage>Storage per user</storage>
+    <subscription_details>Subscription details</subscription_details>
+    <your_trial_ends>Your trial ends:</your_trial_ends>
+    <number_of_users>Number of users</number_of_users>
+    <manage_subscription>Manage subscription</manage_subscription>
+    <subscription_settings>Subscription settings</subscription_settings>
+    <datacenter_storage_support>Datacenter, storage &amp; support</datacenter_storage_support>
+    <support>Support</support>
+    <next_billing>Next billing</next_billing>
+    <total_price>Total price</total_price>
+    <billing_period>Billing period:</billing_period>
+    <technical_support>Technical support</technical_support>
+    <business_support>Business support</business_support>
+    <contact_our_support>You can contact our support within 24/7 hours per day</contact_our_support>
+    <free>FREE</free>
+    <page_reload>Page needs to be reloaded in order to load new license</page_reload>
+  </subscription>
+  <loginpage>
+    <no_cookie>Selaimesi ei salli javascriptin luoda evästeitä</no_cookie>
+    <title_admin>IceWarp WebAdmin</title_admin>
+    <new_interface>Uusi käyttöliittymä</new_interface>
+    <old_interface>Vanha käyttöliittymä</old_interface>
+    <sign_in_text>Sign in with an &lt;strong&gt;administrator&lt;/strong&gt; account to manage domains and users</sign_in_text>
+    <sign_in>Kirjaudu sisään</sign_in>
+    <email>Email</email>
+    <username>Käyttäjätunnus</username>
+    <password>Salasana</password>
+    <remember_me>Muista minut</remember_me>
+    <forgotten_password>Unohtunut salasana</forgotten_password>
+    <visit_text>Saat lisätietoja IceWarp Serveristä osoitteessa</visit_text>
+    <visit_url>http://www.icewarp.com/</visit_url>
+    <visit_link>www.icewarp.com</visit_link>
+    <powered_by>Powered by IceWarp Server &amp;copy; 2020</powered_by>
+    <oops_headline>Unsupported browser</oops_headline>
+    <oops_text>WebAdmin is &lt;strong&gt;not compatible&lt;/strong&gt; with your browser or device. For best experience use one of these modern browsers:</oops_text>
+    <recommended>Suositeltu</recommended>
+    <supported>Tuettu</supported>
+    <supported_version>Tuettu</supported_version>
+    <chrome>Chrome</chrome>
+    <explorer>Explorer</explorer>
+    <firefox>Firefox</firefox>
+    <safari>Safari</safari>
+    <opera>Opera</opera>
+    <divtcha>Retype the code</divtcha>
+    <wrong_captcha>The code is incorrect.</wrong_captcha>
+    <auth_sent>We have sent you an email which contains a secure link. Clicking the link will let you access spam management for a limited time.</auth_sent>
+  </loginpage>
+  <error>
+    <failed>Failed</failed>
+    <fill_in_non_negative_value>Negative values are not allowed.</fill_in_non_negative_value>
+    <account_password_policy>Password is violating password policy.</account_password_policy>
+    <auth_email_missing>Email is missing.</auth_email_missing>
+    <identical_email>You cannot assign your own username to another user in the same domain.</identical_email>
+    <insufficient_rights>Käyttöoikeudet eivät riitä tämän toiminnon suorittamiseen</insufficient_rights>
+    <connection>Palvelimeen ei saatu yhteyttä. Tarkista internetyhteytesi tai ota yhteys ylläpitoon.</connection>
+    <invalid_command>Action could not be performed</invalid_command>
+    <invalid_data>Invalid data</invalid_data>
+    <no_key_defined>No key defined</no_key_defined>
+    <save_unsuccessful>Settings not saved</save_unsuccessful>
+    <action_failed>The requested action could not be performed</action_failed>
+    <license_key_send_failed>Could not send the license key</license_key_send_failed>
+    <unknown_error>Tuntematon virhe</unknown_error>
+    <auth_login_invalid>Kirjautuminen epäonnistui</auth_login_invalid>
+    <wrong_password>Wrong password</wrong_password>
+    <password_too_short>Password too short</password_too_short>
+    <password_does_not_match>Passwords do not match</password_does_not_match>
+    <password_contains_alias>Password cannot contain alias</password_contains_alias>
+    <password_numeric_chars>Not enough numeric characters in password</password_numeric_chars>
+    <password_non_alpha_num_chars>Not enough non alphanumeric characters in password</password_non_alpha_num_chars>
+    <password_alpha_chars>Not enough alpha characters in password</password_alpha_chars>
+    <password_upper_alpha_chars>Not enough uppercase characters in password</password_upper_alpha_chars>
+    <uploader_file_type_not_allowed>Tiedoston tyyppiä ei ole sallittu</uploader_file_type_not_allowed>
+    <specify_account_name_with_domain_name>Specify account name with domain name</specify_account_name_with_domain_name>
+    <specify_domain_name>Specify domain name</specify_domain_name>
+    <fatal_communication_error>Kohtalokas kommunikointivirhe</fatal_communication_error>
+    <account_disabled>Tili on poistettu käytöstä</account_disabled>
+    <account_domain_limit_exceeded>Tilin rajoitukset on ylitetty</account_domain_limit_exceeded>
+    <connection_error>Yhteysvirhe</connection_error>
+    <server_failure>Server failed to deliver necessary data: </server_failure>
+    <password_missing>Salasana puuttuu</password_missing>
+    <auth_digest_expired>Login hash expired</auth_digest_expired>
+    <unexpected_response>Unexpected response</unexpected_response>
+    <service_stop_unsuccessful>Could not stop the service</service_stop_unsuccessful>
+    <service_start_unsuccessful>Could not start the service</service_start_unsuccessful>
+    <service_restart_unsuccessful>Could not restart the service</service_restart_unsuccessful>
+    <rule_delete_unsuccessful>Could not delete the rule</rule_delete_unsuccessful>
+    <rule_save_unsuccessful>Could not save the rule</rule_save_unsuccessful>
+    <cannot_add_member_to_itself>Cannot add member to itself</cannot_add_member_to_itself>
+    <rule_at_least_one_condition_required>At least one condition required</rule_at_least_one_condition_required>
+    <account_not_created>The account could not be created. An account with the same alias might exist or due to licence limitations</account_not_created>
+    <auth_password_missing>Password missing</auth_password_missing>
+    <login_unsuccessful>Login unsuccessful</login_unsuccessful>
+    <sender_must_be_filled>Sender cannot be blank</sender_must_be_filled>
+    <items_delete_failed>Delete failed</items_delete_failed>
+    <spam_queue_item_does_not_exist>Item doesn&apos;t exist</spam_queue_item_does_not_exist>
+    <items_deliver_failed>Delivery failed</items_deliver_failed>
+    <save_failed>Could not be saved</save_failed>
+    <reset_failed>Failed to reset</reset_failed>
+    <default_reset_failed>Could not reset to default values</default_reset_failed>
+    <fetch_failed>Data could not be retrieved</fetch_failed>
+    <certificate_not_saved uses="server certificates">Certificate wasn&apos;t saved</certificate_not_saved>
+    <delete_unsuccessfull>Delete unsuccessful</delete_unsuccessfull>
+    <account_permission>Insufficient rights</account_permission>
+    <license_evaluation>Evaluation license</license_evaluation>
+    <license_reference_mismatch>Reference ID mismatch error</license_reference_mismatch>
+    <license_revalidation>License revalidation failure</license_revalidation>
+    <license_expired>License expired</license_expired>
+    <license_none>No license</license_none>
+    <license_build>License version mismatch</license_build>
+    <license_version>License version mismatch</license_version>
+    <cert_some_domains_were_not_verified>Some domains were not verified</cert_some_domains_were_not_verified>
+    <cert_requesting_challenges_for_domain_verification>Error when requesting challenges for domain verification</cert_requesting_challenges_for_domain_verification>
+    <cert_parsing_challenges_for_domain_verification>Error when parsing challenges for domain verification</cert_parsing_challenges_for_domain_verification>
+    <cert_triggering_challenges_challenges_for_domain_verification>Error when triggering challenges for domain verification</cert_triggering_challenges_challenges_for_domain_verification>
+    <cert_registering_acme_account>Error when registering ACME account.</cert_registering_acme_account>
+    <cert_invalid_csr_detected>Invalid CSR detected</cert_invalid_csr_detected>
+    <cert_signing_certificate>Error when signing the certificate</cert_signing_certificate>
+    <cert_letsEncrypt_rate_limits_applied>Let&apos;s Encrypt rate limits applied</cert_letsEncrypt_rate_limits_applied>
+    <domain_delete_failed>The domain could not be deleted</domain_delete_failed>
+    <incorrect_filetype>The provided file is of incorrect type</incorrect_filetype>
+    <password_expired>Your password has expired</password_expired>
+    <rule_activate_unsuccessful>Could not activate the rule</rule_activate_unsuccessful>
+    <rule_deactivate_unsuccessful>Could not deactivate the rule</rule_deactivate_unsuccessful>
+    <unsupported_image_format>Unsupported image format</unsupported_image_format>
+    <rule_at_least_one_action_required>At least one action is required</rule_at_least_one_action_required>
+  </error>
+  <warning>
+    <operation_may_take_long_time>This operation may take a long time.</operation_may_take_long_time>
+    <delete_selected_members>Are you sure to delete selected members? (%s)</delete_selected_members>
+    <delete_selected_items>Are you sure to delete selected accounts? (%s)</delete_selected_items>
+    <delete_selected_devices>Are you sure to delete selected devices? (%s)</delete_selected_devices>
+    <move_selected_accounts>Are you sure to move selected accounts (%s) to domain %s?</move_selected_accounts>
+    <changes_found>Do you want to save the changes?</changes_found>
+    <identical_username>The username is identical to your username. Are you sure you want to save this username?</identical_username>
+    <default_certificate_will_be_overwritten uses="server certificates">Default certificate will be overwritten</default_certificate_will_be_overwritten>
+    <delete_selected_certificates uses="server certificates">Do you want to delete selected certificates?</delete_selected_certificates>
+    <delete_selected_oauths>Do you want to delete selected OAuth clients?</delete_selected_oauths>
+    <set_to_default>Are you sure to set default values? You will lose current settings.</set_to_default>
+    <delete_domain>The domain %s will be removed</delete_domain>
+  </warning>
+  <message>
+    <device_soft_wipe_set>Soft Wipe set successfully</device_soft_wipe_set>
+    <device_hard_wipe_set>Hard Wipe set successfully</device_hard_wipe_set>
+    <device_set_wipe_failed>Wipe command has failed</device_set_wipe_failed>
+    <save_successfull>Asetukset tallennettu</save_successfull>
+    <reset_to_default>Values have been reset to default</reset_to_default>
+    <license_key_sent_successfuly>Lisenssiavain lähetetty onnistuneesti</license_key_sent_successfuly>
+    <device_blocked>Laite estetty</device_blocked>
+    <device_allowed>Laite sallittu</device_allowed>
+    <rule_delete_successfull>The rule was deleted</rule_delete_successfull>
+    <rule_save_successfull>The rule was saved</rule_save_successfull>
+    <item_saved_successfully>Item saved successfully</item_saved_successfully>
+    <items_deleted_successfully>Delete successful</items_deleted_successfully>
+    <items_delivered_successfully>Items delivered successfully</items_delivered_successfully>
+    <certificate_saved uses="server certificates">Certificate saved</certificate_saved>
+    <delete_successfull>The item was deleted</delete_successfull>
+    <domain_renamed>Domain renamed</domain_renamed>
+    <items_blacklisted_successfully>Items blacklisted</items_blacklisted_successfully>
+    <items_whitelisted_successfully>Items whitelisted</items_whitelisted_successfully>
+    <rule_activate_successful>The rule has been activated</rule_activate_successful>
+    <rule_deactivate_successful>The rule has been deactivated</rule_deactivate_successful>
+  </message>
+  <description>
+    <device_soft_wipe>Are you sure to soft wipe the selected device?</device_soft_wipe>
+    <device_hard_wipe>Are you sure to hard wipe the selected device?</device_hard_wipe>
+  </description>
+  <iframe>
+    <something_went_wrong>Something went wrong.</something_went_wrong>
+    <loading>Loading</loading>
+    <reload>Reload</reload>
+    <reload_helper>Please reload content</reload_helper>
+  </iframe>
+  <change_plan>
+    <title>Change plan</title>
+  </change_plan>
+  <oauth>
+    <wizard>OAuth provider wizard</wizard>
+    <wizard_edit>Edit OAuth provider</wizard_edit>
+    <client_id>Client ID</client_id>
+    <name>OAuth provider</name>
+    <description>Description</description>
+    <redirect_uri>Redirect URI</redirect_uri>
+    <auth_type>Auth type</auth_type>
+    <auth_type_standard>Standard</auth_type_standard>
+    <auth_type_mobile>Mobile</auth_type_mobile>
+    <auth_type_single_page>Single Page</auth_type_single_page>
+    <secret>OAuth secret</secret>
+  </oauth>
+  <fulltext_search>
+    <title>Fulltext Search</title>
+    <configured>Fulltext Search engine is &lt;b&gt;configured&lt;/b&gt;</configured>
+    <not_configured>Fulltext Search engine is currently &lt;b&gt;not configured&lt;/b&gt;</not_configured>
+    <indexer>Fulltext Search scanner</indexer>
+    <server>Fulltext Search database</server>
+    <docconv>Documents conversion service</docconv>
+    <indexpath>Index storage folder</indexpath>
+    <configure>Configure Fulltext Search</configure>
+  </fulltext_search>
+  <fulltext_search_wizard>
+    <heading>Fulltext Search Wizard</heading>
+    <search>Fulltext Search</search>
+    <search_enable>Enable Fulltext Search in IceWarp</search_enable>
+    <search_helper1>IceWarp supports fulltext search that is available to users in WebClient interface, on mobile devices synchronized through ActiveSync and in desktop email clients that can search for emails through IMAP protocol.</search_helper1>
+    <search_helper2>Fulltext Search engine consists of three components, each of them can run locally on the same system as IceWarp, or remotely, to offload CPU and storage utilization. You should carefully consider which setup will be the best for your use case. The three components are:</search_helper2>
+    <search_helper_component1>Fulltext Search scanner (yoda-scan)</search_helper_component1>
+    <search_helper_component2>Fulltext Search database (yoda)</search_helper_component2>
+    <search_helper_component3>Documents conversion service (mundi)</search_helper_component3>
+    <scanner>Fulltext Search scanner configuration</scanner>
+    <scanner_helper>Scanner service reads data from email storage, parses out text of emails and sends the text to the fulltext search database. Scanner service needs access (at least with read permission) to the email storage of IceWarp. If Scanner is deployed on a remote server, mount the email storage to the same mount point as on the IceWarp server (%s).</scanner_helper>
+    <scanner_local>Run Scanner service locally</scanner_local>
+    <scanner_local_helper>Local Scanner service port</scanner_local_helper>
+    <scanner_remote>Connect to remote Scanner service</scanner_remote>
+    <scanner_remote_helper>Remote Scanner service URL</scanner_remote_helper>
+    <database>Fulltext Search database configuration</database>
+    <database_helper1>Database service maintains its own database for fulltext search metadata (index). The index is stored directly on filesystem and will occupy approximately 10-20% of the original size of IceWarp email storage (the actual size varies by the type of data). Database service operates on its own and does not need to have any access to email storage.</database_helper1>
+    <database_helper2>Note: If you are going to change local &lt;i&gt;Index storage folder&lt;/i&gt;, you should also manually move the existing index data to the new location (this operation cannot be done automatically).</database_helper2>
+    <database_local>Run Database service locally</database_local>
+    <database_local_helper>Local Database service port</database_local_helper>
+    <database_remote>Connect to remote Database service</database_remote>
+    <database_remote_helper>Remote Database service URL</database_remote_helper>
+    <index_storage_path>Index storage folder</index_storage_path>
+    <docconv>Documents conversion service configuration</docconv>
+    <docconv_helper>Documents conversion service is responsible for extracting text from email attachments and from documents stored in WebClient or FileSync locations. IceWarp provides a preconfigured virtual server with Documents conversion service that can be deployed externally from server where IceWarp runs [recommended]. Documents conversion service can also run locally on the same IceWarp system, however in such case it may not be able to convert some document types. Documents conversion service operates on its own and does not need to have any access to email storage.</docconv_helper>
+    <docconv_local>Run Documents conversion service locally</docconv_local>
+    <docconv_local_helper>Local Documents conversion service port</docconv_local_helper>
+    <docconv_remote>Connect to remote Documents conversion service</docconv_remote>
+    <docconv_remote_helper>Remote Documents conversion service URL</docconv_remote_helper>
+    <docconv_disable>Disable Documents conversion service</docconv_disable>
+    <summary>Fulltext Search configuration summary</summary>
+    <summary_helper>You have now finished configuration of Fulltext Search engine components. Below is summary of your current configuration.</summary_helper>
+    <runs_locally>%s runs locally</runs_locally>
+    <runs_remotely>%s runs remotely</runs_remotely>
+    <is_disabled>%s is disabled</is_disabled>
+  </fulltext_search_wizard>
+</language>

@@ -1,0 +1,25 @@
+<view>
+	<panel>
+		<helper>auth</helper>
+		<helper>folder</helper>
+		<form id="main_menu_top">
+			<menu template="menu/folder.list" />
+			<config>
+				<controller>menu</controller>
+				<window>main</window>
+			</config>
+		</form>
+		
+		
+		
+		<folders helper="folder"/>
+		<config>
+			<stylesheet>
+				<src>apple</src>
+			</stylesheet>
+			<javascript>
+				<src>lib</src>
+			</javascript>
+		</config>
+	</panel>
+</view>

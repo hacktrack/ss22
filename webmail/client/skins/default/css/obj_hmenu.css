@@ -1,0 +1,432 @@
+div.obj_hmenu,
+.obj_hmenu_plus {
+	user-select: none;
+    -khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+}
+
+div.obj_hmenu{
+	height: 40px;
+	line-height: 38px;
+}
+	div.obj_hmenu.border{
+		background-color: #FFF;
+		border-bottom: 1px solid #E6E6E6;
+	}
+	div.obj_hmenu.transparent{
+		background-color: transparent;
+	}
+	div.obj_hmenu.left{
+		float: left;
+	}
+
+div.obj_hmenu ul.root{
+	white-space: nowrap;
+}
+.rtl div.obj_hmenu ul.root{
+	direction: rtl;
+}
+
+div.obj_hmenu ul,
+div.obj_hmenu_plus ul{
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+	overflow: hidden;
+	display: block;
+}
+
+div.obj_hmenu ul,
+div.obj_hmenu li>a,
+div.obj_hmenu span{
+	display: block;
+	height: 100%;
+}
+div.obj_hmenu li {
+	display: inline-block;
+	padding: 0;
+	height: 100%;
+	vertical-align: top;
+}
+
+/* MSIE8 Opacity fix */
+@media \0screen {
+	div.obj_hmenu li{
+		display: block;
+		float: left;
+	}
+}
+	div.obj_hmenu li.space{
+		width: 15px;
+		padding: 0;
+	}
+
+	div.obj_hmenu li.hr{
+		position: relative;
+		width: 15px;
+		padding: 0;
+	}
+	/*
+	div.obj_hmenu li.hr:before{
+		content: '';
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 1px;
+		height: 100%;
+
+		background-color: #CACACA;
+	}
+	*/
+
+div.obj_hmenu li>a {
+	position: relative;
+	color: #444;
+
+    text-decoration: none;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+div.obj_hmenu li>a>span{
+	padding: 0 10px;
+}
+
+/* ICO 24 */
+body:not(.rtl) div.obj_hmenu li.ico>a>span{
+	padding-left: 36px;
+}
+.rtl div.obj_hmenu li.ico>a>span {
+	padding-right: 36px;
+}
+
+
+div.obj_hmenu li.color2>a,
+div.obj_hmenu li.ico2.color2>a>span:before{
+	color: {txt_important #BE3F2E}!important;
+}
+
+div.obj_hmenu li.color2.nodes>div.active:after,
+div.obj_hmenu li.color2.nodes>a.active:after,
+div.obj_hmenu li.color2:not(.disabled)>a:hover:after{
+	background: {txt_important #BE3F2E};
+}
+
+div.obj_hmenu li.ico.img>a>span{
+	padding: 0;
+	width: 36px;
+}
+	div.obj_hmenu li.ico span:before{
+		content: '';
+		position: absolute;
+		z-index: 10; /* Safari 6.1, text rendering vs animation fix */
+		left: 6px;
+		top: 7px;
+
+		height: 24px;
+		width: 24px;
+
+		/*background: url(../images/set.png) 35px 0 no-repeat transparent;*/
+		/*background-color: rgba(0,0,0,0.2);*/
+
+		font-family: "ico24";
+		font-size: 24px;
+		line-height: 24px;
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+
+		text-indent: 0;
+	}
+	.rtl div.obj_hmenu li.ico span:before {
+		left: auto;
+		right: 6px;
+	}
+
+/* ICO 16 */
+body:not(.rtl) div.obj_hmenu li.ico2>a>span{
+	padding-left: 30px;
+}
+.rtl div.obj_hmenu li.ico2>a>span {
+	padding-right: 30px;
+}
+div.obj_hmenu li.ico2.img>a>span{
+	padding: 0;
+	width: 27px;
+}
+
+
+	div.obj_hmenu li.ico2 span:before{
+		content: '';
+		position: absolute;
+		z-index: 10; /* Safari 6.1, text rendering vs animation fix */
+		left: 6px;
+		top: 10px;
+
+		height: 16px;
+		width: 16px;
+
+		font-family: "ico16";
+		font-size: 16px;
+		line-height: 16px;
+		-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+		color: {bg_main '#0088CC'};
+
+		text-indent: 0;
+	}
+	.rtl div.obj_hmenu li.ico2 span:before {
+		left: auto;
+		right: 6px;
+		padding-left: 5px;
+		padding-right: 0;
+	}
+
+/**********/
+
+div.obj_hmenu li.ico2.img>a>div.count {
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    height: 15px;
+    padding: 0 4px;
+    z-index: 10;
+    font-size: 10px;
+    line-height: 14px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: {txt_notify '#FFFFFF'};
+    background-color: {bg_notify '#d51414'};
+}
+
+div.obj_hmenu li.pending>a {
+	color: #ccc;
+}
+div.obj_hmenu>ul>li.pending>a:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 36px;
+	top: 3px;
+	background: url('../images/loading.gif') 50% top no-repeat transparent;
+}
+
+div.obj_hmenu li.nodes:not(.noarrow)>div,
+div.obj_hmenu li.nodes:not(.noarrow)>a{
+	padding-right: 20px;
+}
+.rtl div.obj_hmenu li.nodes:not(.noarrow)>div,
+.rtl div.obj_hmenu li.nodes:not(.noarrow)>a{
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+
+div.obj_hmenu.transparent li.nodes>div.active,
+div.obj_hmenu.transparent li.nodes>a.active,
+div.obj_hmenu.transparent li>a:hover{
+	background: transparent;
+}
+
+div.obj_hmenu li.nodes>a.active,
+div.obj_hmenu li>a:hover,
+div.obj_hmenu li.active:not(.disabled)>a{
+	color: {bg_main '#0088CC'};
+}
+
+div.obj_hmenu li.nodes>div.active:after,
+div.obj_hmenu li.nodes>a.active:after,
+div.obj_hmenu li:not(.disabled)>a:hover:after,
+div.obj_hmenu li.active:not(.disabled)>a:after{
+	content: '';
+	height: 3px;
+	position: absolute;
+	bottom: -1px;
+	left: 6px;
+	right: 6px;
+	background: {bg_main '#0088CC'};
+}
+
+div.obj_hmenu li.ico2.img>a:after{
+	left: 2px;
+	right: 2px;
+}
+
+/* .rtl div.obj_hmenu li.nodes>div.active:after,
+.rtl div.obj_hmenu li.nodes>a.active:after,
+.rtl div.obj_hmenu li:not(.disabled)>a:hover:after,
+.rtl div.obj_hmenu li.active:not(.disabled)>a:after{
+	right: 6px;
+	left: 8px;
+} */
+
+div.obj_hmenu>ul>li.nodes>a:before{
+	content: '\e043';
+	position: absolute;
+
+	right: 10px;
+	top: 11px;
+	width: 16px;
+	height: 16px;
+
+	font-family: "ico16";
+	font-size: 16px;
+	line-height: 16px;
+
+	color: #9b9b9b;
+
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.rtl div.obj_hmenu>ul>li.nodes>a:before {
+	left: 10px;
+	right: auto;
+}
+
+div.obj_hmenu>ul>li.noarrow.nodes>a:before{
+	display: none;
+}
+
+	/* checkbox */
+    div.obj_hmenu li>a span.checkbox{
+		padding-left: 20px;
+		background: transparent url(../images/checkbox.gif) no-repeat 0 0;
+	}
+	div.obj_hmenu li>a:hover span.checkbox{
+		background-position: 0px -23px;
+	}
+	div.obj_hmenu li>a.active span.checkbox,
+	div.obj_hmenu li>a.active:hover span.checkbox{
+		background-position: 0px -46px;
+	}
+
+	/* button */
+	div.obj_hmenu li.right{
+		float: right;
+	}
+	div.obj_hmenu li.button>a{
+		height: 24px;
+		top: 8px;
+		background: #BABABA;
+		border-radius: 12px;
+		line-height: 24px;
+	}
+	div.obj_hmenu li.button.color2>a{
+		color: #FFF!important;
+		background: {bg_main '#0088CC'};
+	}
+	div.obj_hmenu li.button>a:hover{
+		background: {bg_main_darker '#006DA3'};
+	}
+	div.obj_hmenu li.button>a:hover:after{
+		display: none;
+	}
+
+	div.obj_hmenu li.ico2.button>a span:before{
+		color: #FFF!important;
+		top: 3px;
+		left: 9px;
+	}
+	.rtl div.obj_hmenu li.ico2.button>a span:before{
+		left: auto;
+		right: 9px;
+	}
+
+/*** disabled items ***/
+	div.obj_hmenu li.disabled>a,
+	div.obj_hmenu li.disabled>a:hover{
+		border-color: transparent!important;
+		/* background: none!important; */
+		box-shadow: none!important;
+
+		opacity: 0.3;
+		filter: alpha(opacity=30);
+		cursor: auto;
+		color: #444;
+	}
+
+.obj_hmenu form.obj_button.big{
+	background-color: transparent;
+}
+.obj_hmenu div.active>form.obj_button.big
+.obj_hmenu div:hover>form.obj_button.big{
+	background-color: #BABABA;
+}
+
+/*** highlited ***/
+.obj_hmenu li.color1 a{
+	background-color: {bg_main '#0088CC'}; /*#A3CFF8*/
+	color: #FFF;
+}
+.obj_hmenu li.color1 a:hover{
+	background-color: {bg_main_darker '#006DA3'}; /*#94C0E9*/
+}
+
+/*** ICONS ***/
+.obj_hmenu li.ico.ok span:before{
+	content: '\e07c';
+}
+.obj_hmenu li.ico.cancel span:before{
+	content: '\e030';
+}
+
+.obj_hmenu li.ico.private span:before{
+	content: '\e015';
+}
+.obj_hmenu li.ico.print span:before{
+	content: '\e018';
+}
+.obj_hmenu li.ico.delete a>span:before{
+	content: '\e028';
+}
+
+
+.obj_hmenu li.ico2.print span:before{
+	content: '\e955';
+}
+.obj_hmenu li.ico2.delete a>span:before{
+	content: '\e94a';
+}
+.obj_hmenu li.ico2.more a>span:before{
+	content: '\e953';
+}
+
+/* Folders */
+.obj_hmenu li.ico.empty a>span:before{
+	content: '\e041';
+}
+
+/* Mail Icons */
+.obj_hmenu li.ico.ico_m a>span:before{
+	content: '\e03a';
+}
+.obj_hmenu li.ico.reply a>span:before{
+	content: '\e010';
+}
+.obj_hmenu li.ico.reply_all a>span:before{
+	content: '\e011';
+}
+.obj_hmenu li.ico.forward a>span:before{
+	content: '\e013';
+}
+
+
+.obj_hmenu li.ico.more a>span:before{
+	content: '\e014'; /**/
+}
+.obj_hmenu li.ico.invite a>span:before{
+	content: '\e071'; /**/
+}
+/* Calendar */
+.obj_hmenu li.ico.ico_e a>span:before{
+
+}
+.obj_hmenu li.ico.accept a>span:before{
+	content: '\e07c';
+}
+/* Contact */
+.obj_hmenu li.ico.dial a>span:before{
+	content: '\e032';
+}
+/* Quarantine */
+.obj_hmenu li.ico.recover a>span:before,
+.obj_hmenu li.ico.deliver a>span:before{
+	content: '\e026';
+}

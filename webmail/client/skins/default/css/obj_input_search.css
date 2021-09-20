@@ -1,0 +1,62 @@
+form.obj_input_search{
+	border-radius: 14px;
+	padding: 0 10px 0 27px;
+}
+.rtl form.obj_input_search {
+	padding: 0 27px 0 10px;
+}
+form.obj_input.obj_input_search:before{
+	left: 7px;
+	right: 7px;
+}
+form.obj_input_search a.input_ico{
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 6px;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+	line-height: 16px;
+}
+.rtl form.obj_input_search a.input_ico {
+	left: auto;
+	right: 6px;
+}
+form.obj_input_search a.input_ico:after{
+	content: '\e00c';
+	font-family: 'ico16';
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	color: {bg_main '#0088CC'}
+}
+form.obj_input_search.active{
+	background-color: #FFF7C4;
+}
+form.obj_input_search>input{
+	background-color: inherit;
+}
+
+form.obj_input_search>input{
+	text-indent: 0;
+}
+
+form.obj_input_search div.mask_container{
+	right: 3px;
+	background-color: inherit;
+}
+.rtl form.obj_input_search div.mask_container {
+	left: 3px;
+	right: auto;
+}
+/* right ico */
+form.obj_input_search.right_ico{
+	padding-left: 7px;
+}
+form.obj_input_search.right_ico a.input_ico{
+	left: auto;
+	right: 6px;
+}
+form.obj_input_search.right_ico.value a.input_ico:after{
+	display: none;
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHALLENGE>
+  <ITEM id="to" value="An"/>
+  <ITEM id="attachments" value="Anhänge"/>
+  <ITEM id="bytes" value="Bytes"/>
+  <ITEM id="view_mail" value="E-Mail zeigen"/>
+  <ITEM id="show_source" value="Quelle zeigen"/>
+  <ITEM id="title" value="Challenge Response"/>
+  <ITEM id="request" value="Zur Überprüfung, dass ihre Nachricht von einem Menschen und nicht einem Computer gesendet wurde, tippen Sie bitte die alphanumerische Zeichenfolge ein, welche Sie im untenstehenden Bild sehen können und drücken Sie auf OK. Sie werden für diese E-Mail-Adresse nur einmal dazu aufgefordert, die Zeichenfolge einzugeben."/>
+  <ITEM id="result_ok" value="Das von ihnen angegebene Wort ist richtig. Ihre E-Mail-Adresse wurde autorisiert."/>
+  <ITEM id="result_error" value="Das von angegebene Wort ist falsch! Bitte versuchen Sie es erneut."/>
+  <ITEM id="result_already" value="Ihre E-Mail-Adresse wurde bereits autorisiert."/>
+  <ITEM id="result_black" value="Ihre E-Mail wurde auf die Blacklist gesetzt!"/>
+  <ITEM id="result_notfound" value="Ihre E-Mail-Adresse wurde nicht gefunden, wahrscheinlich wurde diese gelöscht. Bitte senden Sie die E-Mail erneut."/>
+  <ITEM id="thanks" value="Danke für ihre Mithilfe!"/>
+  <ITEM id="reason" value="Warum mache ich das?"/>
+  <ITEM id="explanation" value="Unerwünschte kommerzielle E-Mail-Nachrichten sind Computer-generiert und können nicht auf die Anfrage antworten. Wenn Sie dieses Erlaubnis-basierte E-Mail-System benutzen, beschränken Sie den eingehenden E-Mail-Verkehr auf Absender, welche bestätigten, dass Sie ihnen mit guter Absicht eine E-Mail zusenden wollen."/>
+  <ITEM id="thanks2" value="Danke für ihre Unterstützung!"/>
+  <ITEM id="copyright" value="Copyright"/>
+  <ITEM id="link" value="IceWarp Software"/>
+  <ITEM id="gateway_link_label" value="Verwalten Sie ihre(n) Quarantäne/Spam Online"/>
+  <ITEM id="copyright2" value="Alle Rechte vorbehalten."/>
+  <LIST>
+    <ITEM id="title" value="IceWarp Spam-Report"/>
+    <ITEM id="intro" value="Dieser automatisch generierte Report informiert Sie über Nachrichten in der Quarantäne oder im Spamordner Ihres E-Mail-Kontos. Der Report erlaubt Ihnen administrative Aktionen durch klicken auf einen der Knöpfe oben neben einer der E-Mail-Kopfzeilen.&lt;br/&gt;NOTIZ: Der Report zeigt immer nur die erste Nachricht eines Absenders. Wenn Sie sie akzeptieren, erhalten Sie auch alle anderen E-Mails von diesem Absender."/>
+    <ITEM id="outro" value="Um eine ausgewählte Aktion auf alle verbleibenden Nachrichten in der Quarantäne oder im Spamordner anzuwenden, klicken Sie auf einen der obigen Links."/>
+    <ITEM id="admin_action" value="Wählen Sie eine Aktion für alle Elemente in allen Konten"/>
+    <ITEM id="account_action" value="Wählen Sie eine Aktion für alle Elemente dieses Kontos"/>
+    <ITEM id="you_are_admin" value="Spam-Administratoreinstellungen"/>
+    <ITEM id="sender" value="Von"/>
+    <ITEM id="subject" value="Betreff"/>
+    <ITEM id="recipient" value="An"/>
+    <ITEM id="date" value="Datum"/>
+    <ITEM id="time" value="Zeit"/>
+    <ITEM id="actions" value="Aktionen"/>
+    <ITEM id="delete" value="Löschen"/>
+    <ITEM id="authorize" value="Whitelist"/>
+    <ITEM id="accept" value="Zustellen"/>
+    <ITEM id="blacklist" value="Blacklist"/>
+    <ITEM id="deleteall" value="Löschen"/>
+    <ITEM id="authorizeall" value="Whitelist"/>
+    <ITEM id="acceptall" value="Zustellen"/>
+    <ITEM id="blacklistall" value="Blacklist"/>
+    <ITEM id="submit" value="Abschicken"/>
+    <ITEM id="view" value="Anzeigen"/>
+    <ITEM id="msgsubject" value="Spam-Report"/>
+    <ITEM id="domain" value="Domäne"/>
+    <ITEM id="account" value="Konto:"/>
+    <ITEM id="location" value="Ort"/>
+    <ITEM id="type_quarantine" value="Quarantäne"/>
+    <ITEM id="type_spam" value="Spamordner"/>
+    <ITEM id="delivery_problem" value="Nachricht konnte nicht an Konto zugestellt werden"/>
+  </LIST>
+  <QACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Absender-Autorisierung"/>
+      <ITEM id="success" value="Der Absender wurde autorisiert."/>
+      <ITEM id="failure" value="Der Absender konnte nicht autorisiert werden."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Nachrichtenzustellung"/>
+      <ITEM id="success" value="Die Nachricht wurde zugestellt."/>
+      <ITEM id="failure" value="Nachricht konnte nicht zugestellt werden."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Nachrichten-Löschung"/>
+      <ITEM id="success" value="Die Nachricht wurde gelöscht und aus der Warteschlange entfernt."/>
+      <ITEM id="failure" value="Nachricht konnte nicht gelöscht werden."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Absender-Zurückweisung"/>
+      <ITEM id="success" value="Der Absender wurde zur Blacklist hinzugefügt."/>
+      <ITEM id="failure" value="Der Absender konnte nicht zur Blacklist hinzugefügt werden."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Nachrichtenansicht"/>
+      <ITEM id="failure" value="Die Nachricht konnte nicht angezeigt werden. Dies kann geschehen, wenn die Nachricht bereits aus der Quarantäne oder vom Spamordner entfernt wurde."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Fehler"/>
+      <ITEM id="failure" value="Die angeforderte Aktion konnte nicht ausgeführt werden."/>
+      <ITEM id="wrongid" value="Ungültige Nachrichten-ID! Die gewählte Nachricht wurde bereits aus der Quarantäne oder vom Spamordner gelöscht."/>
+    </FAIL>
+  </QACTIONS>
+  <ACTIONS>
+    <AUTHORIZE>
+      <ITEM id="title" value="Absender-Autorisierung"/>
+      <ITEM id="success" value="Der Absender wurde erfolgreich autorisiert und die Nachricht zugestellt."/>
+      <ITEM id="failure" value="Der Absender konnte nicht autorisiert oder die Nachricht nicht zugestellt werden."/>
+    </AUTHORIZE>
+    <DELIVER>
+      <ITEM id="title" value="Nachrichtenzustellung"/>
+      <ITEM id="success" value="Die Nachricht wurde zugestellt."/>
+      <ITEM id="failure" value="Nachricht konnte nicht zugestellt werden."/>
+    </DELIVER>
+    <DELETE>
+      <ITEM id="title" value="Nachrichten-Löschung"/>
+      <ITEM id="success" value="Die Nachricht wurde aus dem Spamordner gelöscht."/>
+      <ITEM id="failure" value="Nachricht konnte nicht gelöscht werden."/>
+    </DELETE>
+    <BLACKLIST>
+      <ITEM id="title" value="Absender-Zurückweisung"/>
+      <ITEM id="success" value="Der Absender wurde erfolgreich auf die Blacklist gesetzt und die Nachricht aus dem Spamordner gelöscht."/>
+      <ITEM id="failure" value="Der Absender konnte nicht zur Blacklist hinzugefügt oder die Nachricht konnte nicht gelöscht werden."/>
+    </BLACKLIST>
+    <VIEW>
+      <ITEM id="title" value="Nachrichtenansicht"/>
+      <ITEM id="failure" value="Die Nachricht konnte nicht angezeigt werden. Dies kann geschehen, wenn die Nachricht bereits gelöscht wurde."/>
+    </VIEW>
+    <FAIL>
+      <ITEM id="title" value="Fehler"/>
+      <ITEM id="failure" value="Die angeforderte Aktion konnte nicht ausgeführt werden."/>
+      <ITEM id="wrongid" value="Ungültige Nachrichten-ID! Die ausgewählte Nachricht wurde bereits aus der Quarantäne oder aus dem Spamordner gelöscht."/>
+    </FAIL>
+    <ADMIN>
+      <ITEM id="title" value="Fehlgeschlagen"/>
+      <ITEM id="failure" value="Die Aktion konnte nicht durchgeführt werden."/>
+      <ITEM id="wrongid" value="Ungültige Administrator-ID! Der Administrator existiert nicht mehr."/>
+    </ADMIN>
+  </ACTIONS>
+  <EXCEPTIONS>
+    <ITEM id="reports_are_disabled" value="Die Spam-Reporte sind deaktiviert %s"/>
+    <ITEM id="challenge_already_running" value="Die Spam-Reporte sind bereits aktiv"/>
+    <ITEM id="challenge_invalid_path_variable" value="Der Pfad für die Spam-Reporte wurde nicht richtig geladen: %s"/>
+    <ITEM id="api_findinitquery" value="Spam-Report-API: IceWarp Konto. Domain: %s, Filter: %s"/>
+    <ITEM id="challenge_language_file_missing" value="Sprachdatei für die Spam-Reporte fehlt: %s"/>
+    <ITEM id="challenge_language_file_corrupted" value="Sprachdatei für die Spam-Reporte ist beschädigt: %s"/>
+    <ITEM id="challenge_invalid_hash" value="Ungültiger Hash-Wert (möglicher URL-Angriff): %s"/>
+  </EXCEPTIONS>
+</CHALLENGE>

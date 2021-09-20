@@ -1,0 +1,103 @@
+.obj_minismile{
+	height: 30px;
+	line-height: 26px;
+}
+
+.obj_bubble.obj_minismile:after{
+	right: 103px;
+	left: auto;
+}
+
+.obj_minismile>span{
+	position: relative;
+	margin: 0!important;
+	padding: 0 !important;
+	display: inline-block!important;
+	line-height: 16px!important;
+	z-index: 10;
+	box-shadow: 0 0 0 1px transparent;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+}
+
+	.obj_minismile>span:first-of-type{
+		border-radius: 4px 0 0 4px;
+	}
+	.obj_minismile>span:last-of-type{
+		border-radius: 0 4px 4px 0;
+	}
+	.obj_minismile>span:hover,
+	.obj_minismile>span.active{
+		box-shadow: 0 0 0 1px {bg_main};
+	}
+
+	.obj_minismile>span.active{
+		background-color: #F2F9FD;
+	}
+
+.obj_minismile>span:after{
+	content: '';
+	display: inline-block!important;
+	background-size: 75% auto!important;
+	background-repeat: no-repeat!important;
+	background-position: center center !important;
+
+	height: 100%!important;
+	width: 100%!important;
+
+	/*transition: transform 100ms ease-in-out;*/
+}
+/*
+	.obj_minismile>span:hover:after{
+		transform: scale(1.15,1.15);
+	}
+*/
+	.obj_minismile>span.thumbsup:after{
+		background-image: url("../images/smiles/thumbsup.png")!important;
+	}
+	.obj_minismile>span.laughing:after{
+		background-image: url("../images/smiles/laughing.png")!important;
+	}
+	.obj_minismile>span.disappointed:after{
+		background-image: url("../images/smiles/disappointed.png")!important;
+	}
+	.obj_minismile>span.angry:after{
+		background-image: url("../images/smiles/angry.png")!important;
+	}
+	.obj_minismile>span.heart:after{
+		background-image: url("../images/smiles/heart.png")!important;
+	}
+	.obj_minismile>span.hankey:after{
+		background-image: url("../images/smiles/hankey.png")!important;
+	}
+	.obj_minismile>span.dizzy_face:after{
+		background-image: url("../images/smiles/dizzy_face.png")!important;
+	}
+
+	.obj_minismile > span b {
+		display: none;
+		left: 50%;
+		position: absolute;
+		top: -25px;
+	}
+
+	.obj_minismile>span sub{
+		background: #FFF;
+		padding: 2px 5px;
+		border-radius: 2px;
+		border: 1px solid rgba(0,0,0,0.1);
+		box-shadow: 0 0 7px rgba(0,0,0,0.2);
+		margin-left: -50%;
+
+		font-weight: normal;
+		font-size: 11px;
+	}
+
+	body.light .obj_minismile>span sub{
+		font-weight: 200;
+	}
+
+	.obj_minismile>span:hover b{
+		display: inline-block;
+	}

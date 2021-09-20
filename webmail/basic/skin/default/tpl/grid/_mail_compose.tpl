@@ -1,0 +1,2 @@
+<input id="bottom_submit" type="submit" class="bfield submitField" name="_a[send]" value="{lang::mail_compose::send_message}" tabindex="10"/>
+<input type="submit" class="bfield submitField" name="_a[save]" value="{lang::mail_compose::save_message}" tabindex="11"/>
